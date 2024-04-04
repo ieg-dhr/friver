@@ -1,0 +1,49 @@
+<offcanvas
+  class="{state['open'] && 'open'}"
+>
+  <div class="offcanvas offcanvas-end">
+    <div class="offcanvas-body">
+      <svg
+        is="icon"
+        type="search"
+        onclick={event => toggle(event)}
+      />
+    </div>
+  </div>
+
+  <script>
+    import * as bootstrap from 'bootstrap'
+    import Icon from './Icon.riot'
+
+    export default class {
+      static components = {Icon}
+
+      onBeforeMount(props, state) {
+
+      }
+
+      onMounted(props, state) {
+        const e = this.root.querySelector('.offcanvas')
+        state.offcanvas = new bootstrap.Offcanvas(e, {
+          scroll: true
+        })
+        // state.offcanvas.addEventListener()
+
+      }
+
+      toggle(event) {
+        if (this.state['open']) {
+          this.state['open'] = false
+          this.state.offcanvas.hide()
+        } else {
+          this.state['open'] = true
+          this.state.offcanvas.show()
+        }
+
+        this.update()
+
+        console.log(this.state)
+      }
+    }
+  </script>
+</offcanvas>

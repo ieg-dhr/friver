@@ -1,0 +1,67 @@
+<super-page class="d-flex flex-column flex-lg-row">
+  <div class="d-flex position-relative">
+    <div class="container w-auto">
+      <h1 class="my-5 pe-5"><raw html={t('super_title')} /></h1>
+
+      <p class="serif mb-5">
+        <raw html={t('super_text')} />
+      </p>
+    </div>
+
+    <img class="europe-map" src="{config['FV_STATIC_URL']}/assets/europe-map.svg" />
+
+    <navigation class="mt-5 d-none d-md-block" />
+  </div>
+
+  <div class="bg-black text-white position-relative p-5">
+    <div class="row align-items-md-center justify-content-lg-around h-100">
+      <div class="col-12 col-md-3 offset-md-1 col-lg-12 offset-lg-0 text-center">
+        <a
+          class="btn btn-primary btn-lg text-start fw-semibold"
+          href="{config['FV_STATIC_URL']}/friverplus"
+        >
+          {cap(t('super_friverplus_button'))}
+          <div class="fs-6">
+            <small><raw html={t('friverplus_years')} /></small>
+          </div>
+        </a>
+      </div>
+
+      <div class="d-none d-md-block col-md-4 col-lg-12 px-5 text-center">
+        <img
+          src="{config['FV_STATIC_URL']}/assets/wordcloud.svg"
+          class="dove"
+        />
+      </div>
+
+      <div class="col-12 col-md-3 col-lg-12 offset-lg-0 text-center mt-5 mt-md-0">
+        <a
+          class="btn btn-primary btn-lg text-start fw-semibold"
+          href="{config['FV_STATIC_URL']}/Startseite------_site.index..html_dir._nav.2_likecms.html"
+        >
+          {cap(t('super_legacy_button'))}
+          <div class="fs-6">
+            <small><raw html={t('legacy_years')} /></small>
+          </div>
+        </a>
+      </div>
+    </div>
+
+    <navigation class="mt-5 d-md-none" />
+  </div>
+
+
+  <script>
+    import {default as config} from '../../.env.js'
+    import Navigation from './Navigation.riot'
+    import Raw from './Raw.riot'
+
+    export default class {
+      static components = {Navigation, Raw}
+
+      onBeforeMount() {
+        this.config = config
+      }
+    }
+  </script>
+</super-page>

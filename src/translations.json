@@ -1,0 +1,25 @@
+{
+  "de": {
+    "super_title": "Europäische Friedensverträge der Vormoderne",
+    "super_legacy_button": "legacy project",
+    "legacy_years": "2005 – 2010",
+    "super_friverplus_button": "Data (FriVer+)",
+    "friverplus_years": 2023,
+    "super_text": "This site provides access to data pertaining to more than 1800 early modern European peace treaties. The data was gathered by the legacy project <a href=\"https://www.ieg-friedensvertraege.de/Startseite------_site.index..html_dir._nav.2_likecms.html\">Europäische Friedensverträge der Vormoderne online</a> (2005-2010). In 2023 this data was transformed into XML as part of the <a href=\"https://www.ieg-friedensvertraege.de/friverplus\">Europäische Friedensverträge der Vormoderne in Daten (FriVer+)</a> project. The data comprises digital surrogates, metadata, and, in a more limited number of cases, editions and transliterations of the texts as well.",
+    "friverplus_short_title": "FriVer+",
+    "friverplus_description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco <a href=\"https://google.com\">laboris nisi ut</a> aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse <a href=\"heise.de\">cillum</a> dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+    "meta_editor": "Jaap Geraerts<br /><br />\n\n<em>The transformation and enrichment of the data is done by Jaap Geraerts (IEG Mainz). The other members of the FriVer+ team are Fabian Cremer, Ines Grund, and Thorsten Wübbena (all IEG Mainz).<br /><br />\n\nThe original data has been created by the <a href=\"https://www.ieg-friedensvertraege.de\">team of scholars</a> who were part of the Europäische Friedensverträge der Vormoderne project. This project was lead by Prof. Dr. Heinz Duchhardt and was based at the Leibniz Institute of European History in Mainz.\n</em>",
+    "meta_funded_by": "<a href=\"https://www.text-plus.org/\">TEXT+</a>",
+    "meta_distributor": "<a href=\"http://www.isni.org/0000000110101946\">Universitäts- und Landesbibliothek Darmstadt</a>",
+    "meta_publisher": "<a href=\"http://www.isni.org/0000000119314040\">Leibniz-Institut für Europäische Geschichte Mainz</a>",
+    "meta_issued_on": "23. Dezember 2023",
+    "meta_what": "Digital edition according to <a href=\"http://www.tei-c.org/\">TEI P5</a>",
+    "funded_by": "funded by",
+    "distributor": "distributor",
+    "publisher": "publisher",
+    "issued_on": "issued on",
+    "editor": "editor",
+    "license": "license",
+    "meta_license": "<a href=\"https://creativecommons.org/licenses/by/4.0/\">Creative Commons License CC-BY 4.0 (Attribution 4.0 International)</a>"
+  }
+}

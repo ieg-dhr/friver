@@ -1,0 +1,21 @@
+<navigation class={props.class}>
+  <small>
+    <a
+      href="{config['FV_STATIC_URL']}/imprint"
+    >Imprint</a>
+    |
+    <a
+      href="{config['FV_STATIC_URL']}/privacy"
+    >Privacy</a>
+  </small>
+
+  <script>
+    import {default as config} from '../../.env.js'
+
+    export default class {
+      onBeforeMount() {
+        this.config = config
+      }
+    }
+  </script>
+</navigation>

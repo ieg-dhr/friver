@@ -1,0 +1,43 @@
+// cormorant
+
+@font-face {
+  font-family: 'cormorant';
+  src: url('/assets/fonts/Cormorant/Cormorant-VariableFont_wght.ttf');
+}
+
+@font-face {
+  font-family: 'cormorant';
+  src: url('/assets/fonts/Cormorant/Cormorant-Italic-VariableFont_wght.ttf');
+  font-style: italic;
+}
+
+
+// barlow
+
+$barlow-styles: (
+  normal: '',
+  italic: 'Italic'
+);
+$barlow-weights: (
+  100: 'Thin',
+  200: 'ExtraLight',
+  300: 'Light',
+  400: 'Regular',
+  500: 'Medium',
+  600: 'SemiBold',
+  700: 'Bold',
+  800: 'ExtraBold',
+  900: 'Black'
+);
+
+@each $style, $style_name in $barlow-styles {
+  @each $weight, $weight-name in $barlow-weights {
+    @font-face {
+      font-family: 'barlow';
+      font-weight: $weight;
+      font-style: $style;
+      display: 'swap';
+      src: url('/assets/fonts/Barlow/Barlow-#{$weight_name}#{$style_name}.ttf') format('opentype');
+    }
+  }
+}

@@ -1,0 +1,35 @@
+<app>
+  <target />
+
+  <script>
+    import * as riot from 'riot'
+    import {Url} from '@wendig/lib'
+
+    import router from '../lib/Router.instance'
+
+    import NotFound from '../components/NotFound.riot'
+    import SuperPage from '../components/SuperPage.riot'
+    import StartPage from '../components/StartPage.riot'
+    import TreatyPage from '../components/TreatyPage.riot'
+
+    export default class {
+      onMounted(props, state) {
+        router.configure({
+          root: this.root,
+          target: this.root.querySelector('target'),
+          404: NotFound,
+          routes: [
+            {pattern: /^\/$/, component: SuperPage},
+            {pattern: /^\/friverplus$/, component: StartPage},
+            {
+              pattern: /^\/friverplus\/treaties\/(?<id>[0-9]+)$/,
+              component: TreatyPage
+            }
+          ]
+        })
+
+        router.route()
+      }
+    }
+  </script>  
+</app>
