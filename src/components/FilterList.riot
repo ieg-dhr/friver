@@ -1,9 +1,9 @@
 <filter-list>
   <ul class="list-unstyled">
     <li each={item in props.items} class="d-float">
-      <a href={item.gnd} target="_blank">{item.name}</a>
-      <a class="ms-4" onclick={event => toFilter(item, event)}>
-        <svg is="icon" type="arrow-right" />
+      <a href={item.gnd} target="_blank">{item.name}</a>&nbsp;<!--
+   --><a class="ms-3" onclick={event => toFilter(item, event)}><!--
+     --><svg is="icon" type="arrow-right" />
       </a>
     </li>
   </ul>

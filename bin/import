@@ -75,7 +75,9 @@ class FvImporter
             projectId: p['xml:id'],
             gnd: p.xpath('tei:placeName/@ref').to_s
           }
-        }
+        },
+
+        styles: styles_for(doc)
       }
 
       text << doc.xpath("//tei:text//tei:div[@type = 'Transliteration']").inner_text
@@ -113,6 +115,37 @@ class FvImporter
     File.open 'src/data.txt', 'w+' do |f|
       f.puts text
     end
+  end
+
+  def styles_for(doc)
+    result = []
+
+    nodes = doc.xpath("//tei:text//tei:div[@type = 'Edition']")
+    if nodes.size > 0
+      result << 'edition'
+    end
+
+    nodes = doc.xpath("//tei:text//tei:div[@type = 'Transliteration']")
+    if nodes.size > 0
+      result << 'transliteration'
+    end
+
+    nodes = doc.xpath("//tei:standOff/tei:facsimile/tei:surface")
+    if nodes.size > 0
+      result << 'facsimile'
+    end
+
+    nodes = doc.xpath("//tei:text//tei:listBibl/tei:bibl/tei:biblScope/tei:graphic")
+    if nodes.size > 0
+      result << 'image'
+    end
+
+    nodes = doc.xpath("//tei:text//tei:div[@type = 'Drucke']//tei:ref")
+    if nodes.size > 0
+      result << 'print'
+    end
+
+    result
   end
 
   def translations

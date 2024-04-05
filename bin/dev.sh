@@ -19,7 +19,7 @@ ln -sfnr node_modules public/
 
 concurrently \
   'rollup -c -w --no-watch.clearScreen' \
-  'sass -c -w --update --source-map src/app.scss public/app.css' \
+  'sass -c -w --update -I ./node_modules --source-map src/app.scss public/app.css' \
   "browser-sync start --server --serveStatic=./public --host=127.0.0.1 --port=4000 --browser=false --watch=true --single --no-notify"
 
   # "ws --port=4000 --hostname=127.0.0.1 --directory=./public --spa /index.html --spa.asset-test-fs"
