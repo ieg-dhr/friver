@@ -6,12 +6,17 @@
           <li
             each={url in state.imageUrls}
             key={url}
-            class="glide__slide"
+            class="glide__slide zoomist-container"
           >
-            <img
-              src={url}
-              class="d-block mw-100"
-            />
+            <div class="zoomist-wrapper">
+              <div class="zoomist-image">
+                <img
+                  src={url}
+                  class="d-block mw-100"
+                  onload={event => imageLoaded(event)}
+                />
+              </div>
+            </div>
           </li>
         </ul>
       </div>
@@ -44,7 +49,7 @@
       </a>
 
       <svg is="icon" type="book-open" class="text-primary" />
-      <iframe class="d-none d-lg-block" src={state.viewerUrl} />
+      <iframe class="d-none d-lg-block" src={toHttps(state.viewerUrl)} />
     </div>
   </template>
 
@@ -63,6 +68,7 @@
     import Renderer from '@ieg/qtei/src/lib/Renderer.js'
     // import {} from '@ieg/qtei/src/lib/processors.js'
     import Glide from '@glidejs/glide'
+    import Zoomist from 'zoomist'
 
     import Icon from './Icon.riot'
 
@@ -93,14 +99,6 @@
           widgets.push(widget)
         }
 
-        const frame = () => {
-          return new Promise((resolve, reject) => {
-            window.requestAnimationFrame(timestamp => {
-              resolve()
-            })
-          })
-        }
-
         window.setTimeout(async () => {
           let previous = null
 
@@ -115,7 +113,7 @@
               if (previous && util.nodesAreOverlappingY(a, b)) {
                 const brs = util.createElement('<br /><br />')
                 a.append(...brs, ...util.removeContents(b))
-                await frame()
+                await util.requestAnimationFrame()
 
                 continue
               }
@@ -240,6 +238,19 @@
         this.state.glide = new Glide(element, opts)
         this.state.glide.mount()
         this.state.glide.go(`=0`)
+      }
+
+      imageLoaded(event) {
+        const slide = util.parents(event.target, '.zoomist-container')
+
+        slide.fvZoomist = new Zoomist(slide, {
+          slider: true,
+          zoomRatio: 0.5
+        })
+      }
+
+      toHttps(url) {
+        return url.replace(/^http:/, 'https:')
       }
 
       isFirst() {

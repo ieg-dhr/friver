@@ -5197,6 +5197,7 @@ __metadata:
     rollup-plugin-riot: "npm:^9.0.2"
     sass: "npm:^1.71.1"
     string-width: "npm:v4"
+    zoomist: "npm:^2.0.11"
   languageName: unknown
   linkType: soft
 
@@ -6517,5 +6518,12 @@ __metadata:
   version: 0.1.0
   resolution: "yocto-queue@npm:0.1.0"
   checksum: 10c0/dceb44c28578b31641e13695d200d34ec4ab3966a5729814d5445b194933c096b7ced71494ce53a0e8820685d1d010df8b2422e5bf2cdea7e469d97ffbea306f
+  languageName: node
+  linkType: hard
+
+"zoomist@npm:^2.0.11":
+  version: 2.0.11
+  resolution: "zoomist@npm:2.0.11"
+  checksum: 10c0/dc3c4c7610e01ee0c07603186c07c2a2afe8976763cf46ad957c26273b65c4f874ef0aee040cc5288cef0dbe5f0513dd3931871b49881d2675040a961971e527
   languageName: node
   linkType: hard

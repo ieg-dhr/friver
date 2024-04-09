@@ -20,6 +20,11 @@
     "issued_on": "issued on",
     "editor": "editor",
     "license": "license",
-    "meta_license": "<a href=\"https://creativecommons.org/licenses/by/4.0/\">Creative Commons License CC-BY 4.0 (Attribution 4.0 International)</a>"
+    "meta_license": "<a href=\"https://creativecommons.org/licenses/by/4.0/\">Creative Commons License CC-BY 4.0 (Attribution 4.0 International)</a>",
+    "language": "Sprache",
+    "date": "Datum",
+    "signatories": "Vertragspartner",
+    "locations": "Orte",
+    "source": "Quelle"
   }
 }

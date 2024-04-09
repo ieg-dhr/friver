@@ -4,6 +4,15 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
 
+  <% for (const font of fonts) { %>
+    <link
+      rel="preload"
+      href="<%= font %>"
+      as="font"
+      crossorigin
+    />
+  <% } %>
+
   <link
     rel="icon"
     href="<%= process.env['FV_STATIC_URL'] %>/assets/favicon.png"

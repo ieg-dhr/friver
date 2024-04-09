@@ -1,5 +1,5 @@
 <app>
-  <offcanvas if={currentPage() != 'SuperPage'} />
+  <offcanvas if={currentPage() != 'super-page'} />
 
   <target />
 
@@ -40,14 +40,17 @@
           ]
         })
 
+        this.on('route:mounted', () => {
+          this.update()
+        })
+
         router.route()
       }
 
       currentPage() {
-        const cmp = router.params['component']
-        if (!cmp) return null
+        if (!this.router.component) return null
 
-        return cmp.constructor.name
+        return this.router.component.name
       }
     }
   </script>  

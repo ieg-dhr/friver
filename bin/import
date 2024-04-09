@@ -37,29 +37,29 @@ class FvImporter
         legacyUrl: title.xpath("tei:title[@level = 'a']/@ref").to_s,
         language: doc.xpath('//tei:profileDesc/tei:langUsage').inner_text,
         title: title.xpath("tei:title[@level = 'a']").inner_text,
-        'title.xml': title.xpath("tei:title[@level = 'a']").inner_html,
+        # 'title.xml': title.xpath("tei:title[@level = 'a']").inner_html,
 
         edition: edition.xpath('tei:edition').inner_text,
-        'edition.xml': edition.xpath('tei:edition').inner_html,
+        # 'edition.xml': edition.xpath('tei:edition').inner_html,
 
         funder: edition.xpath('tei:funder').inner_text,
-        'funder.xml': edition.xpath('tei:funder').inner_html,
+        # 'funder.xml': edition.xpath('tei:funder').inner_html,
 
         editor: edition.xpath('tei:editor').inner_text,
-        'editor.xml': edition.xpath('tei:editor').inner_html,
+        # 'editor.xml': edition.xpath('tei:editor').inner_html,
 
         publisher: publication.xpath('tei:publisher').inner_text,
-        'publisher.xml': publication.xpath('tei:publisher').inner_html,
+        # 'publisher.xml': publication.xpath('tei:publisher').inner_html,
 
         distributor: publication.xpath('tei:distributor').inner_text,
-        'distributor.xml': publication.xpath('tei:distributor').inner_html,
+        # 'distributor.xml': publication.xpath('tei:distributor').inner_html,
 
         licenseId: publication.xpath('tei:availability/tei:licence/@target').to_s,
         license: publication.xpath('tei:availability/tei:licence').inner_text,
-        'license.xml': publication.xpath('tei:availability/tei:licence').inner_html,
+        # 'license.xml': publication.xpath('tei:availability/tei:licence').inner_html,
 
         source: doc.xpath('//tei:sourceDesc/tei:msDesc').inner_text,
-        'source.xml': doc.xpath('//tei:sourceDesc').inner_html,
+        # 'source.xml': doc.xpath('//tei:sourceDesc').inner_html,
 
         signatories: doc.xpath("//tei:listPerson/tei:person[@role = 'signatory']").map{ |p|
           {

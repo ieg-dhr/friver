@@ -92,8 +92,6 @@ const matchesTerms = (record, terms) => {
   if (!terms) return true
   if (!record['title']) return false
 
-  console.log(terms)
-
   const regex = new RegExp(terms, 'i')
 
   return !!record['title'].match(regex)

@@ -44,7 +44,12 @@ export default class Router {
       // console.log(path, route['pattern'], m)
 
       if (m) {
-        const props = Object.assign({}, m.groups, url.params(), {component: route['component']})
+        const props = Object.assign(
+          {},
+          m.groups,
+          url.params(),
+          {component: route['component']}
+        )
 
         this.params = props
         this.mount(route['component'], props)
@@ -124,5 +129,7 @@ export default class Router {
     element.removeAttribute('class')
     const mounter = riot.component(component)
     this.component = mounter(element, props)
+    
+    bus.emit('route:mounted')
   }
 }
