@@ -12,7 +12,7 @@
     "@rollup/plugin-commonjs": "^25.0.7",
     "@rollup/plugin-node-resolve": "^15.2.3",
     "@rollup/plugin-terser": "^0.4.4",
-    "@wendig/lib": "../../js-lib/src",
+    "@wendig/lib": "link:../../js-lib/src",
     "@xmldom/xmldom": "^0.8.10",
     "bootstrap": "^5.3.3",
     "browser-sync": "^3.0.2",
@@ -31,7 +31,8 @@
     "string-width": "v4"
   },
   "scripts": {
-    "dev": "bin/dev.sh",
+    "dev": "bin/build.sh dev",
+    "build": "bin/build.sh build",
     "import": "bundle exec bin/import"
   },
   "version": "0.0.0",

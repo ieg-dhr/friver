@@ -1,8 +1,6 @@
 <treaty-page>
   <div is="header" />
 
-  <offcanvas />
-
   <div class="page-content">
     <div class="container has-offcanvas">
       <h1 if={state.doc}>
@@ -94,7 +92,7 @@
 
       fetch() {
         const id = this.props['id']
-        search.contract({id}).then(data => {
+        search.treaty({id}).then(data => {
           this.update({doc: data})
         })
       }

@@ -12,9 +12,15 @@ const optimize = (NODE_ENV == 'production')
 
 fs.writeFileSync('./.env.js', 'export default ' + JSON.stringify(process.env))
 
-const tpl = fs.readFileSync('./src/index.ejs', {encoding: 'utf8'})
-const html = ejs.render(tpl, process.env)
-fs.writeFileSync('./public/index.html', html)
+const tpl1 = fs.readFileSync('./src/index.ejs', {encoding: 'utf8'})
+const html1 = ejs.render(tpl1, process.env)
+fs.writeFileSync('./public/index.html', html1)
+
+if (NODE_ENV == 'production') {
+  const tpl2 = fs.readFileSync('./src/htaccess.ejs', {encoding: 'utf8'})
+  const html2 = ejs.render(tpl2, process.env)
+  fs.writeFileSync('./public/.htaccess', html2)
+}
 
 const app = {
   input: 'src/app.js',

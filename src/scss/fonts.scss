@@ -2,7 +2,7 @@
 
 @font-face {
   font-family: 'cormorant';
-  src: url('/assets/fonts/Cormorant/Cormorant-VariableFont_wght.ttf');
+  src: url('assets/fonts/Cormorant/Cormorant-VariableFont_wght.ttf');
 }
 
 @font-face {
@@ -37,7 +37,7 @@ $barlow-weights: (
       font-weight: $weight;
       font-style: $style;
       display: 'swap';
-      src: url('/assets/fonts/Barlow/Barlow-#{$weight_name}#{$style_name}.ttf') format('opentype');
+      src: url('assets/fonts/Barlow/Barlow-#{$weight_name}#{$style_name}.ttf') format('opentype');
     }
   }
 }

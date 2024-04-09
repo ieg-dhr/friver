@@ -429,6 +429,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@glidejs/glide@npm:^3.6.0":
+  version: 3.6.0
+  resolution: "@glidejs/glide@npm:3.6.0"
+  checksum: 10c0/fa773b48d28989e4c9a8b986b806a52d98267a83b1fb6de3f16bdbfb2ec62b980643bc21dec7ccb710b65838e06523cc602b5dd9b1826470563329fd46b281ee
+  languageName: node
+  linkType: hard
+
 "@ieg/qtei@link:../../ieg-qtei/src::locator=root-workspace-0b6124%40workspace%3A.":
   version: 0.0.0-use.local
   resolution: "@ieg/qtei@link:../../ieg-qtei/src::locator=root-workspace-0b6124%40workspace%3A."
@@ -875,15 +882,11 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@wendig/lib@file:../../js-lib/src::locator=root-workspace-0b6124%40workspace%3A.":
-  version: 1.1.0
-  resolution: "@wendig/lib@file:../../js-lib/src#../../js-lib/src::hash=35af17&locator=root-workspace-0b6124%40workspace%3A."
-  dependencies:
-    base-64: "npm:^1.0.0"
-    utf8: "npm:^3.0.0"
-  checksum: 10c0/c726b75d233bb21f090e41338d6df58f8bd1669f0adc01ed95bb329624aeeffbf9560a505b5dbe48232c3a70ae11f40338cf776f424e4d354acc632e39357cf2
+"@wendig/lib@link:../../js-lib/src::locator=root-workspace-0b6124%40workspace%3A.":
+  version: 0.0.0-use.local
+  resolution: "@wendig/lib@link:../../js-lib/src::locator=root-workspace-0b6124%40workspace%3A."
   languageName: node
-  linkType: hard
+  linkType: soft
 
 "@xmldom/xmldom@npm:^0.8.10":
   version: 0.8.10
@@ -1195,13 +1198,6 @@ __metadata:
   version: 1.0.2
   resolution: "balanced-match@npm:1.0.2"
   checksum: 10c0/9308baf0a7e4838a82bbfd11e01b1cb0f0cf2893bc1676c27c2a8c0e70cbae1c59120c3268517a8ae7fb6376b4639ef81ca22582611dbee4ed28df945134aaee
-  languageName: node
-  linkType: hard
-
-"base-64@npm:^1.0.0":
-  version: 1.0.0
-  resolution: "base-64@npm:1.0.0"
-  checksum: 10c0/d886cb3236cee0bed9f7075675748b59b32fad623ddb8ce1793c790306aa0f76a03238cad4b3fb398abda6527ce08a5588388533a4ccade0b97e82b9da660e28
   languageName: node
   linkType: hard
 
@@ -5176,6 +5172,7 @@ __metadata:
   dependencies:
     "@babel/core": "npm:^7.24.0"
     "@dotenv-run/rollup": "npm:^1.3.4"
+    "@glidejs/glide": "npm:^3.6.0"
     "@ieg/qtei": "link:../../ieg-qtei/src"
     "@popperjs/core": "npm:^2.11.8"
     "@riotjs/cli": "npm:^9.0.5"
@@ -5183,7 +5180,7 @@ __metadata:
     "@rollup/plugin-commonjs": "npm:^25.0.7"
     "@rollup/plugin-node-resolve": "npm:^15.2.3"
     "@rollup/plugin-terser": "npm:^0.4.4"
-    "@wendig/lib": ../../js-lib/src
+    "@wendig/lib": "link:../../js-lib/src"
     "@xmldom/xmldom": "npm:^0.8.10"
     bootstrap: "npm:^5.3.3"
     browser-sync: "npm:^3.0.2"
@@ -6228,13 +6225,6 @@ __metadata:
   version: 3.1.1
   resolution: "use@npm:3.1.1"
   checksum: 10c0/75b48673ab80d5139c76922630d5a8a44e72ed58dbaf54dee1b88352d10e1c1c1fc332066c782d8ae9a56503b85d3dc67ff6d2ffbd9821120466d1280ebb6d6e
-  languageName: node
-  linkType: hard
-
-"utf8@npm:^3.0.0":
-  version: 3.0.0
-  resolution: "utf8@npm:3.0.0"
-  checksum: 10c0/675d008bab65fc463ce718d5cae8fd4c063540f269e4f25afebce643098439d53e7164bb1f193e0c3852825c7e3e32fbd8641163d19a618dbb53f1f09acb0d5a
   languageName: node
   linkType: hard
 

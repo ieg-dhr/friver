@@ -10,16 +10,16 @@ export default class Search extends WendigSearch {
     super(url)
   }
 
-  contracts(criteria = {}) {
-    return this.postMessage({action: 'contracts', criteria}).then(data => {
+  treaties(criteria = {}) {
+    return this.postMessage({action: 'treaties', criteria}).then(data => {
       data.records = data.records.map(r => new TeiDoc(null, r))
       
       return data
     })
   }
 
-  contract(criteria = {}) {
-    return this.postMessage({action: 'contract', criteria}).then(data => {
+  treaty(criteria = {}) {
+    return this.postMessage({action: 'treaty', criteria}).then(data => {
       return TeiDoc.parse(data.xml, data.meta)
     })
   }

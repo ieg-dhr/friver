@@ -56,7 +56,6 @@ style-icons {
       height: 14px;
       stroke-width: 2;
       color: $white;
-
     }
   }
 
@@ -342,6 +341,7 @@ navigation {
 offcanvas {
   .offcanvas {
     &.offcanvas-end {
+      --bs-offcanvas-width: 320px;
       visibility: visible;
       right: var(--offcanvas-initial-width);
     }
@@ -352,11 +352,35 @@ offcanvas {
 
     &.showing {
       transform: translateX(var(--offcanvas-initial-width));
+
+      .open-only {
+        display: block;
+      }
     }
 
     &.show:not(.hiding) {
       transform: translateX(var(--offcanvas-initial-width));
+
+      .open-only {
+        display: block;
+      }
     }
+  }
+
+  .open-only {
+    display: none;
+  }
+
+  table.table {
+    td {
+      &.title {
+        line-height: 1.2em;
+      }
+    }
+  }
+
+  style-icons {
+    flex-direction: column;
   }
 
   .offcanvas-backdrop {
@@ -371,10 +395,42 @@ offcanvas {
     display: inline-block;
     cursor: pointer;
   }
+
+  svg[is='icon'][type='star'] {
+    margin-top: -3px;
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    cursor: pointer;
+
+    &.active {
+      fill: $primary;
+    }
+  }
+
+  style-icons {
+    .icon {
+      opacity: 0.3;
+      width: 20px;
+      height: 20px;
+      margin: 3px;
+
+      svg {
+        width: 14px;
+        height: 14px;
+      }
+    }
+  }
 }
 
 @include media-breakpoint-up(md) {
   offcanvas {
+    .offcanvas {
+      &.offcanvas-end {
+        --bs-offcanvas-width: 500px;
+      }
+    }
+
     svg[is='icon'][type='search'] {
       width: 24px;
       height: 24px;
@@ -384,6 +440,12 @@ offcanvas {
 
 @include media-breakpoint-up(lg) {
   offcanvas {
+    .offcanvas {
+      &.offcanvas-end {
+        --bs-offcanvas-width: 600px;
+      }
+    }
+
     svg[is='icon'][type='search'] {
       width: 32px;
       height: 32px;
@@ -449,10 +511,13 @@ offcanvas {
     }
   }
 
+  content-renderer {
+    display: block;
+  }
+
   .xml {
     font-family: $font-family-serif;
     position: relative;
-    // width: 576px;
     margin: 0 auto;
     font-size: 16px;
 
@@ -465,33 +530,30 @@ offcanvas {
       margin-bottom: 1em;
     }
 
-    tei|lb {
-      display: block;
+    .note-widget {
+      display: none;
+
+      & > .bar {
+        position: absolute;
+        left: 0;
+        right: -75px;
+        background-color: $primary;
+        height: 1px;
+      }
+
+      & > .content {
+        position: absolute;
+        left: calc(100% + 75px);
+        transform: translateY(max(-50%, -2em));
+        width: 200px;
+        border-left: 1px solid $primary;
+        padding-left: 0.5em;
+
+        font-family: barlow;
+        font-size: 14px;
+        background-color: $white;
+      }
     }
-
-    tei|p {
-      display: block;
-      margin-bottom: 1em;
-    }
-
-    // tei|note {
-    //   cursor: pointer;
-
-    //   .body {
-    //     display: none;
-
-    //   }
-
-    //   &:hover {
-    //     .body {
-    //       display: initial;
-
-    //       position: absolute;
-    //       left: -250px;
-    //       width: 240px;
-    //     }
-    //   }
-    // }
   }
 
   .glide {
@@ -566,6 +628,12 @@ offcanvas {
       style-icons {
         top: 2px;
         left: -72px;
+      }
+    }
+
+    .xml {
+      .note-widget {
+        display: inline;
       }
     }
   }

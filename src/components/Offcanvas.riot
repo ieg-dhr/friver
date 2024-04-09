@@ -8,30 +8,121 @@
         type="search"
         onclick={event => toggle(event)}
       />
+
+      <div class="open-only mt-5">
+        <div class="row">
+          <div class="col-12 col-md-8">
+            <input
+              class="form-control"
+              type="text"
+              placeholder="Suche …"
+              onkeyup={event => onDelayedInput({terms: event.target.value})}
+              value={criteria()['terms']}
+            />
+
+            <table
+              if={state.data}
+              class="table table-borderless table-responsive mt-5"
+            >
+              <tbody>
+                <tr each={treaty in state.data.records} class="d-flex">
+                  <td class="ps-0">
+                    <watchlist-toggle doc={treaty} />
+                  </td>
+                  <td class="title w-100">
+                    <a
+                      onclick={event => onTreatyClick(treaty, event)}
+                      class="text-black text-decoration-none"
+                    >
+                      <span class="fw-bolder">{treaty.meta['dateLabel'] + ' '}</span>
+                      | {treaty.meta['title']}
+                    </a>
+                  </td>
+                  <td class="me-0 text-right">
+                    <style-icons doc={treaty} />
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
     </div>
   </div>
 
   <script>
+    import {Url, UrlSearchNG, util, bus} from '@wendig/lib'
+
+    import {default as config} from '../../.env.js'
     import * as bootstrap from 'bootstrap'
     import Icon from './Icon.riot'
+    import search from '../lib/Search.instance'
+    import StyleIcons from './StyleIcons.riot'
+    import WatchlistToggle from './WatchlistToggle.riot'
 
     export default class {
-      static components = {Icon}
+      static components = {Icon, StyleIcons, WatchlistToggle}
 
       onBeforeMount(props, state) {
+        this.config = config
 
+        this.urlSearch = new UrlSearchNG(this)
+        this.urlSearch.setup()
+      }
+
+      criteria() {
+        return this.urlSearch.opts.getParams()
+      }
+
+      onTreatyClick(treaty, event) {
+        event.preventDefault()
+
+        let url = Url.current()
+        url.setPath(`${config['FV_STATIC_ROOT']}/treaties/${treaty.meta['id']}`)
+
+        window.history.pushState(null, '', url.resource())
+        bus.emit('url-changed')
+
+        this.toggle()
       }
 
       onMounted(props, state) {
         const e = this.root.querySelector('.offcanvas')
         state.offcanvas = new bootstrap.Offcanvas(e, {
-          scroll: true
+          scroll: true,
+          backdrop: 'static'
         })
-        // state.offcanvas.addEventListener()
 
+        e.addEventListener('hidden.bs.offcanvas', event => {
+          const scrollable = e.querySelector('.offcanvas-body')
+          scrollable.scrollTop = 0
+        })
+
+        e.addEventListener('hidePrevented.bs.offcanvas', event => {
+          this.toggle()
+          // this.state['open'] = false
+          // console.log('handler')
+        })
       }
 
-      toggle(event) {
+      onSearch() {
+        search.treaties(this.criteria()).then(data => {
+          this.update({data})
+        })
+      }
+
+      // onInput(values = {}) {
+        
+      //   // this.urlSearch.onInput(values)
+      //   // let url = Url.current()
+      //   // url.updateParams(values)
+
+      //   // window.history.pushState(null, '', newUrl.resource())
+      //   // bus.emit('url-changed')
+      //   // console.log(values)
+      // }
+
+      toggle() {
         if (this.state['open']) {
           this.state['open'] = false
           this.state.offcanvas.hide()
@@ -41,8 +132,6 @@
         }
 
         this.update()
-
-        console.log(this.state)
       }
     }
   </script>

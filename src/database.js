@@ -19,13 +19,15 @@ fetch(config['FV_STATIC_URL'] + '/data.json').then(r => r.json()).then(data => {
 
 // actions
 
-database.action('contracts', data => {
+database.action('treaties', data => {
   const criteria = sanitizeCriteria(data.criteria)
   const sort = criteria['sort'] || 'id'
 
   let buckets = {}
 
   let records = Object.values(storage).filter(record => {
+    if (!matchesTerms(record, criteria['terms'])) return false
+
     aggregate(buckets, 'collection', record['collection'])
 
     return true
@@ -56,7 +58,7 @@ database.action('contracts', data => {
   return response
 })
 
-database.action('contract', data => {
+database.action('treaty', data => {
   const criteria = sanitizeCriteria(data.criteria)
   const id = criteria['id']
 
@@ -84,6 +86,17 @@ const aggregate = (buckets, name, value) => {
     buckets[name][value] = buckets[name][value] || 0
     buckets[name][value] += 1
   }
+}
+
+const matchesTerms = (record, terms) => {
+  if (!terms) return true
+  if (!record['title']) return false
+
+  console.log(terms)
+
+  const regex = new RegExp(terms, 'i')
+
+  return !!record['title'].match(regex)
 }
 
 // const matches = (record, criteria, key) => {
