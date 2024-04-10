@@ -59,6 +59,7 @@
     import search from '../lib/Search.instance'
     import StyleIcons from './StyleIcons.riot'
     import WatchlistToggle from './WatchlistToggle.riot'
+    import {navigateTo, toTreaty} from '../lib/util'
 
     export default class {
       static components = {Icon, StyleIcons, WatchlistToggle}
@@ -77,11 +78,7 @@
       onTreatyClick(treaty, event) {
         event.preventDefault()
 
-        let url = Url.current()
-        url.setPath(`${config['FV_STATIC_ROOT']}/treaties/${treaty.meta['id']}`)
-
-        window.history.pushState(null, '', url.resource())
-        bus.emit('url-changed')
+        toTreaty(treaty)
 
         this.toggle()
       }
@@ -100,8 +97,6 @@
 
         e.addEventListener('hidePrevented.bs.offcanvas', event => {
           this.toggle()
-          // this.state['open'] = false
-          // console.log('handler')
         })
       }
 

@@ -64,6 +64,12 @@ style-icons {
   }
 }
 
+watchlist-toggle {
+  svg.active {
+    fill: $primary;
+  }
+}
+
 @include media-breakpoint-up('md') {
   :root {
     --offcanvas-initial-width: 60px;
@@ -402,10 +408,6 @@ offcanvas {
     height: 20px;
     display: inline-block;
     cursor: pointer;
-
-    &.active {
-      fill: $primary;
-    }
   }
 
   style-icons {
@@ -587,11 +589,11 @@ offcanvas {
     }
   }
 
-  svg[type='book-open'] {
-    width: 100%;
-    height: 100%;
-    stroke-width: 0.2px;
-  }
+  // svg[type='book-open'] {
+  //   width: 100%;
+  //   height: 100%;
+  //   stroke-width: 0.2px;
+  // }
 }
 
 @include media-breakpoint-up(md) {

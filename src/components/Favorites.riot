@@ -1,0 +1,75 @@
+<favorites class={state.expanded && 'expanded'}>
+  <div class="content">
+    <table
+      if={state.data}
+      class="table table-borderless table-responsive"
+    >
+      <tbody>
+        <tr each={treaty in state.data.records} class="d-flex">
+          <td class="ps-0">
+            <watchlist-toggle doc={treaty} />
+          </td>
+          <td class="title w-100">
+            <a
+              onclick={event => onTreatyClick(treaty, event)}
+              class="text-black text-decoration-none"
+            >
+              <span class="fw-bolder">{treaty.meta['dateLabel'] + ' '}</span>
+              | {treaty.meta['title']}
+            </a>
+          </td>
+          <td class="me-0 text-right">
+            <style-icons doc={treaty} />
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
+  <div class="text-primary">
+    <hr class="mt-0" />
+  </div>
+
+  <a onclick={event => toggle(event)}>
+    <svg is="icon" type="star" class="active" />
+  </a>
+
+  <script>
+    import watchlist from '../lib/Watchlist.instance'
+    import search from '../lib/Search.instance'
+    import WatchlistToggle from './WatchlistToggle.riot'
+    import StyleIcons from './StyleIcons.riot'
+    import Icon from './Icon.riot'
+    import {toTreaty} from '../lib/util'
+
+    export default class {
+      static components = {WatchlistToggle, StyleIcons, Icon}
+
+      onBeforeMount() {
+        this.on('watchlist-changed', event => this.fetch())
+        this.fetch()
+      }
+
+      fetch() {
+        const ids = watchlist.unpack()
+        search.treaties({ids, perPage: 9999}).then(data => {
+          this.update({data})
+        })
+      }
+
+      onTreatyClick(treaty, event) {
+        event.preventDefault()
+
+        toTreaty(treaty)
+
+        this.toggle()
+      }
+
+      toggle(event) {
+        event.preventDefault()
+
+        this.update({expanded: !this.state.expanded})
+      }
+    }
+  </script>
+</favorites>

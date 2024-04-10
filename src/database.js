@@ -13,7 +13,6 @@ onmessage = database.handler
 fetch(config['FV_STATIC_URL'] + '/data.json').then(r => r.json()).then(data => {
   storage = data
 
-  console.log('ALL loaded')
   database.loaded()
 })
 
@@ -27,6 +26,7 @@ database.action('treaties', data => {
 
   let records = Object.values(storage).filter(record => {
     if (!matchesTerms(record, criteria['terms'])) return false
+    if (!matchesIds(record, criteria['ids'])) return false
 
     aggregate(buckets, 'collection', record['collection'])
 
@@ -95,6 +95,12 @@ const matchesTerms = (record, terms) => {
   const regex = new RegExp(terms, 'i')
 
   return !!record['title'].match(regex)
+}
+
+const matchesIds = (record, ids) => {
+  if (!ids) return true
+
+  return ids.includes(record['id'])
 }
 
 // const matches = (record, criteria, key) => {

@@ -1,6 +1,8 @@
 <treaty-page>
   <div is="header" />
 
+  <favorites />
+
   <div class="page-content">
     <div class="container has-offcanvas">
       <h1 if={state.doc}>
@@ -80,6 +82,7 @@
     import FilterList from './FilterList.riot'
     import StyleIcons from './StyleIcons.riot'
     import ContentRenderer from './ContentRenderer.riot'
+    import Favorites from './Favorites.riot'
 
     export default class {
       static components = {
@@ -88,7 +91,8 @@
         Offcanvas,
         FilterList,
         StyleIcons,
-        ContentRenderer
+        ContentRenderer,
+        Favorites
       }
 
       onMounted(props, state) {

@@ -16,9 +16,11 @@
     import StartPage from '../components/StartPage.riot'
     import TreatyPage from '../components/TreatyPage.riot'
     import Offcanvas from '../components/Offcanvas.riot'
+    import ImprintPage from '../components/ImprintPage.riot'
+    import Favorites from '../components/Favorites.riot'
 
     export default class {
-      static components = {Offcanvas}
+      static components = {Offcanvas, Favorites}
 
       onBeforeMount() {
         this.router = router
@@ -36,7 +38,8 @@
             {
               pattern: /^\/friverplus\/treaties\/(?<id>[0-9]+)$/,
               component: TreatyPage
-            }
+            },
+            {pattern: /^\/imprint$/, component: ImprintPage},
           ]
         })
 

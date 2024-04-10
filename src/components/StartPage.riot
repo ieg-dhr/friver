@@ -62,11 +62,10 @@
     import {default as config} from '../../.env.js'
     import Header from './Header.riot'
     import Footer from './Footer.riot'
-    import Offcanvas from './Offcanvas.riot'
     import Raw from './Raw.riot'
 
     export default class {
-      static components = {Header, Footer, Offcanvas, Raw}
+      static components = {Header, Footer, Raw}
 
       constructor() {
         this.config = config
