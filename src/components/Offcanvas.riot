@@ -67,6 +67,8 @@
       onBeforeMount(props, state) {
         this.config = config
 
+        this.on('close-offcanvas', event => this.toggle())
+
         this.urlSearch = new UrlSearchNG(this)
         this.urlSearch.setup()
       }
@@ -106,24 +108,15 @@
         })
       }
 
-      // onInput(values = {}) {
-        
-      //   // this.urlSearch.onInput(values)
-      //   // let url = Url.current()
-      //   // url.updateParams(values)
-
-      //   // window.history.pushState(null, '', newUrl.resource())
-      //   // bus.emit('url-changed')
-      //   // console.log(values)
-      // }
-
       toggle() {
         if (this.state['open']) {
           this.state['open'] = false
           this.state.offcanvas.hide()
+          this.emit('offcanvas-closed')
         } else {
           this.state['open'] = true
           this.state.offcanvas.show()
+          this.emit('offcanvas-opened')
         }
 
         this.update()

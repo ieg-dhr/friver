@@ -1,6 +1,8 @@
 <start-page>
   <div is="header" />
 
+  <favorites />
+
   <div class="page-content">
     <div class="container has-offcanvas">
       <div class="left">
@@ -63,9 +65,10 @@
     import Header from './Header.riot'
     import Footer from './Footer.riot'
     import Raw from './Raw.riot'
+    import Favorites from './Favorites.riot'
 
     export default class {
-      static components = {Header, Footer, Raw}
+      static components = {Header, Footer, Raw, Favorites}
 
       constructor() {
         this.config = config

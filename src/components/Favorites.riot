@@ -1,4 +1,4 @@
-<favorites class={state.expanded && 'expanded'}>
+<favorites class="{classes()}">
   <div class="content">
     <table
       if={state.data}
@@ -47,6 +47,8 @@
 
       onBeforeMount() {
         this.on('watchlist-changed', event => this.fetch())
+        this.on('offcanvas-opened', event => this.update({offcanvas: true}))
+        this.on('offcanvas-closed', event => this.update({offcanvas: false}))
         this.fetch()
       }
 
@@ -61,6 +63,7 @@
         event.preventDefault()
 
         toTreaty(treaty)
+        this.emit('close-offcanvas')
 
         this.toggle()
       }
@@ -69,6 +72,21 @@
         event.preventDefault()
 
         this.update({expanded: !this.state.expanded})
+      }
+
+      classes() {
+        let results = []
+
+        if (this.state.expanded) {
+          results.push('expanded')
+        }
+
+        if (this.state.offcanvas) {
+          results.push('expanded')
+          results.push('with-offcanvas')
+        }
+
+        return results.join(' ')
       }
     }
   </script>

@@ -121,12 +121,18 @@ favorites {
   }
 }
 
-@include media-breakpoint-up('md') {
+@include media-breakpoint-up('lg') {
   favorites {
     right: 200px;
 
     &.expanded {
       right: 200px;
+    }
+
+    &.with-offcanvas {
+      top: 0;
+      right: 650px;
+      z-index: 1200;
     }
   }
 }
