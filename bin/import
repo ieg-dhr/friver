@@ -158,6 +158,7 @@ class FvImporter
 
     each_row xlsx, skip: 0 do |row|
       id = row.delete('id')
+      row['de'].gsub!(/ -/, ' &#8209;') if row['de'].is_a?(String)
       data['de'][id] = row['de']
     end
 

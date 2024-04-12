@@ -523,6 +523,10 @@ offcanvas {
     margin: 0 auto;
     font-size: 16px;
 
+    h2 {
+      font-family: $font-family-sans-serif;
+    }
+
     lb {
       display: block;
     }

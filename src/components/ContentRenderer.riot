@@ -75,7 +75,10 @@
     const notify = (left, selector) => {
       return (data) => {
         const root = data.doc.childNodes[2]
-        const notes = root.querySelector(selector).querySelectorAll('note')
+        const selected = root.querySelector(selector)
+        if (!selected) return
+
+        const notes = selected.querySelectorAll('note')
 
         let widgets = []
 
@@ -126,11 +129,15 @@
     }
     
 
-    const renderTo = (target, selector) => {
+    const renderTo = (target, title, selector) => {
       return (data) => {
-        target.append(
-          data.doc.childNodes[2].querySelector(selector)
-        )
+        const h2 = util.createElement(`<h2 class="mt-7 mb-5">${title}</h2>`)
+        const content = data.doc.childNodes[2].querySelector(selector)
+
+        if (content) {
+          target.append(h2, content)
+        }
+
       }
     }
 
@@ -188,19 +195,12 @@
         const left = this.root.querySelector(".left")
         const target = this.root.querySelector("[data-id='target']")
 
-        if (state['style'] == 'edition') {
+        if (state['style'] == 'edition' || state['style'] == 'transliteration') {
           const renderer = new Renderer([
             notify(left, "*|div[type='Edition']"),
-            renderTo(target, "*|div[type='Edition']")
-          ])
-
-          renderer.render(props.doc)
-        }
-
-        if (state['style'] == 'transliteration') {
-          const renderer = new Renderer([
             notify(left, "*|div[type='Transliteration']"),
-            renderTo(target, "*|div[type='Transliteration']")
+            renderTo(target, this.t('edition'), "*|div[type='Edition']"),
+            renderTo(target, this.t('transliteration'), "*|div[type='Transliteration']")
           ])
 
           renderer.render(props.doc)
