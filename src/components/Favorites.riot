@@ -64,12 +64,10 @@
 
         toTreaty(treaty)
         this.emit('close-offcanvas')
-
-        this.toggle()
       }
 
       toggle(event) {
-        event.preventDefault()
+        if (event) event.preventDefault()
 
         this.update({expanded: !this.state.expanded})
       }

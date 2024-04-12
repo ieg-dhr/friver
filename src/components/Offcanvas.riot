@@ -67,7 +67,7 @@
       onBeforeMount(props, state) {
         this.config = config
 
-        this.on('close-offcanvas', event => this.toggle())
+        this.on('close-offcanvas', event => this.collapse())
 
         this.urlSearch = new UrlSearchNG(this)
         this.urlSearch.setup()
@@ -82,7 +82,7 @@
 
         toTreaty(treaty)
 
-        this.toggle()
+        this.collapse()
       }
 
       onMounted(props, state) {
@@ -108,15 +108,23 @@
         })
       }
 
+      expand() {
+        this.state['open'] = true
+        this.state.offcanvas.show()
+        this.emit('offcanvas-opened')
+      }
+
+      collapse() {
+        this.state['open'] = false
+        this.state.offcanvas.hide()
+        this.emit('offcanvas-closed')
+      }
+
       toggle() {
         if (this.state['open']) {
-          this.state['open'] = false
-          this.state.offcanvas.hide()
-          this.emit('offcanvas-closed')
+          this.collapse()
         } else {
-          this.state['open'] = true
-          this.state.offcanvas.show()
-          this.emit('offcanvas-opened')
+          this.expand()
         }
 
         this.update()
