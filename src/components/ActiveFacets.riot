@@ -1,0 +1,40 @@
+<active-facets>
+  <div class="title">{cap(t('active_filters'))}</div>
+
+  <ul class="list-unstyled lh-sm">
+    <li each={item in items()}>
+      <a
+        onclick={event => removeMultiParam(item.param, item.value)}
+        href="#"
+      >
+        {item.value}
+      </a>
+    </li>
+  </ul>
+
+  <script>
+    import {removeMultiParam} from '../lib/util'
+
+    export default class {
+      onBeforeMount() {
+        this.removeMultiParam = removeMultiParam
+      }
+
+      items() {
+        let results = []
+
+        for (const param of this.props.params) {
+          let values = this.props.criteria[param]
+          if (!values) continue
+
+          values = values.split('|')
+          for (const value of values) {
+            results.push({param, value})
+          }
+        }
+
+        return results
+      }
+    }
+  </script>
+</active-facets>

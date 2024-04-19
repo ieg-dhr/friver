@@ -22,13 +22,29 @@ database.action('treaties', data => {
   const criteria = sanitizeCriteria(data.criteria)
   const sort = criteria['sort'] || 'id'
 
-  let buckets = {}
+  let buckets = {
+    location: [],
+    signatory: [],
+    language: [],
+    year: []
+  }
 
   let records = Object.values(storage).filter(record => {
+    const year = parseInt(record['date'].split('-')[0])
+
     if (!matchesTerms(record, criteria['terms'])) return false
     if (!matchesIds(record, criteria['ids'])) return false
+    if (!matchesLanguage(record, criteria['language'])) return false
+    if (!matchesSignatory(record, criteria['signatory'])) return false
+    if (!matchesLocation(record, criteria['location'])) return false
 
-    aggregate(buckets, 'collection', record['collection'])
+    aggregate(buckets, 'year', year)
+
+    if (!matchesDateRange(record, criteria['from'], criteria['to'])) return false
+      
+    aggregate(buckets, 'language', record['language'])
+    aggregate(buckets, 'signatory', record['signatories'].map(e => e['name']))
+    aggregate(buckets, 'location', record['places'].map(e => e['name']))
 
     return true
   })
@@ -50,8 +66,31 @@ database.action('treaties', data => {
         count: e[1]
       }
     })
-    buckets[k] = util.sortBy(docs, d => d.count).reverse()
+
+    buckets[k] = docs
   }
+
+  buckets['language'] = util.sortBy(buckets['language'], d => d.count).reverse()
+  buckets['signatory'] = util.sortBy(buckets['signatory'], d => d.count).reverse()
+  buckets['location'] = util.sortBy(buckets['location'], d => d.count).reverse()
+  buckets['year'] = util.sortBy(buckets['year'], d => d.value)
+
+  // re-bin years
+  tmp = []
+  const binSize = 3
+  for (let i = 0; i < buckets['year'].length; i += binSize) {
+    const b = buckets['year'][i]
+
+    for (let j = 0; j < binSize; j += 1) {
+      const other = buckets['year'][i + j]
+      if (!other) continue
+      
+      b['count'] += other['count']
+    }
+
+    tmp.push(b)
+  }
+  buckets['year'] = tmp
 
   const response = paginate(records, criteria, {buckets})
 
@@ -103,55 +142,46 @@ const matchesIds = (record, ids) => {
   return ids.includes(record['id'])
 }
 
-// const matches = (record, criteria, key) => {
-//   if (!criteria) return true
-//   if (!criteria[key]) return true
+const matchesDateRange = (record, from, to) => {
+  const year = parseInt(record['date'].split('-')[0])
 
-//   return record[key] == criteria[key]
-// }
+  if (from && year < from) return false
+  if (to && year > to) return false
 
-// const matchesTerms = (record, criteria, highlight) => {
-//   const terms = criteria['terms']
-//   if (!terms) return true
+  return true
+}
 
-//   for (const t of terms.split(/\s+/)) {
-//     if (t.match(/^\s*$/)) continue
-//     if (t.length < 3) continue
+const matchesLanguage = (record, language) => {
+  if (!language) return true
 
-//     const regex = new RegExp(t, 'ig')
-//     const matches = [...record['article'].matchAll(regex)]
+  return record['language'] === language
+}
 
-//     for (const m of matches.slice(0, 2)) {
-//       const from = Math.max(0, m.index - 60)
-//       const to = Math.min(record['article'].length, m.index + t.length + 60)
-//       const id = record['article_id']
-//       highlight[id] = highlight[id] || []
-//       highlight[id].push({
-//         before: record['article'].slice(from, m.index),
-//         term: t,
-//         after: record['article'].slice(m.index + t.length, to)
-//       })
-//     }
+const matchesSignatory = (record, signatory) => {
+  if (!signatory) return true
 
-//     if (matches.length == 0) return false
-//   }
+  const signatories = record['signatories'].map(e => e['name'])
 
-//   return true
-// }
+  const values = signatory.split('|')
+  for (const v of values) {
+    if (signatories.indexOf(v) != -1) return true
+  }
 
-// const matchesRange = (record, criteria) => {
-//   let range = criteria['range']
-//   if (!range) return true
-//   range = range.split('-').map(e => parseInt(e))
+  return false
+}
 
-//   for (const years of record['years']) {
-//     if (range[1] >= years[0] && range[0] <= years[1]) {
-//       return true
-//     }
-//   }
+const matchesLocation = (record, location) => {
+  if (!location) return true
 
-//   return false
-// }
+  const locations = record['places'].map(e => e['name'])
+
+  const values = location.split('|')
+  for (const v of values) {
+    if (locations.indexOf(v) != -1) return true
+  }
+
+  return false
+}
 
 const paginate = (records, criteria, other = {}) => {
   let {page, perPage} = criteria

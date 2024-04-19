@@ -130,6 +130,7 @@ favorites {
     }
 
     &.with-offcanvas {
+      display: fixed;
       top: 0;
       right: 650px;
       z-index: 1200;

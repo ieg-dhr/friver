@@ -44,7 +44,7 @@
           <div class="value">
             <filter-list
               items={state.doc.meta['places']}
-              type="place"
+              type="location"
             />
           </div>
         </div>
@@ -95,12 +95,17 @@
         Favorites
       }
 
-      onMounted(props, state) {
+      onMounted() {
+        this.fetch()
+      }
+
+      reload(props) {
+        this.update(props)
         this.fetch()
       }
 
       fetch() {
-        const id = this.props['id']
+        const id = this.state['id'] || this.props['id']
         search.treaty({id}).then(data => {
           this.update({doc: data})
         })

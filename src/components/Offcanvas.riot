@@ -10,26 +10,42 @@
       />
 
       <div class="open-only mt-5">
+        <div
+          is="range-control"
+          if={state.data}
+          from={criteria()['from']}
+          to={criteria()['to']}
+          min={1450}
+          max={1789}
+          bin-width={2}
+          bins={state.data.buckets['year'].map(e => e['count'])}
+          on-inputs-changed={this.onInput}
+        />
+
         <div class="row">
-          <div class="col-12 col-md-8">
+          <div class="col-12 col-md-7">
             <input
-              class="form-control"
+              class="form-control mt-3 mb-4 px-0 w-100"
               type="text"
               placeholder="Suche …"
               onkeyup={event => onDelayedInput({terms: event.target.value})}
               value={criteria()['terms']}
             />
 
+            <div if={state.data} class="mb-4 text-end">
+              {state.data.total} Einträge
+            </div>
+
             <table
               if={state.data}
-              class="table table-borderless table-responsive mt-5"
+              class="table table-borderless table-responsive mt-3"
             >
               <tbody>
-                <tr each={treaty in state.data.records} class="d-flex">
+                <tr each={treaty in state.data.records}>
                   <td class="ps-0">
                     <watchlist-toggle doc={treaty} />
                   </td>
-                  <td class="title w-100">
+                  <td class="title">
                     <a
                       onclick={event => onTreatyClick(treaty, event)}
                       class="text-black text-decoration-none"
@@ -38,12 +54,50 @@
                       | {treaty.meta['title']}
                     </a>
                   </td>
-                  <td class="me-0 text-right">
+                  <td class="me-0 pe-0 text-right">
                     <style-icons doc={treaty} />
                   </td>
                 </tr>
               </tbody>
             </table>
+          </div>
+
+          <div if={state.data} class="d-none d-md-block col-5">
+            <facet-filter
+              criteria={criteria()}
+              on-delayed-input={onDelayedInput}
+              class="mb-4"
+            />
+
+            <active-facets
+              params={['language', 'signatory', 'location']}
+              criteria={criteria()}
+              class="mb-4"
+            />
+
+            <facet
+              title={t('languages')}
+              param="language"
+              buckets={state.data.buckets['language']}
+              criteria={criteria()}
+              class="mb-4"
+            />
+
+            <facet
+              title={t('signatories')}
+              param="signatory"
+              buckets={state.data.buckets['signatory']}
+              criteria={criteria()}
+              class="mb-4"
+            />
+
+            <facet
+              title={t('locations')}
+              param="location"
+              buckets={state.data.buckets['location']}
+              criteria={criteria()}
+              class="mb-4"
+            />
           </div>
         </div>
       </div>
@@ -60,14 +114,27 @@
     import StyleIcons from './StyleIcons.riot'
     import WatchlistToggle from './WatchlistToggle.riot'
     import {navigateTo, toTreaty} from '../lib/util'
+    import RangeControl from './RangeControl.riot'
+    import Facet from './Facet.riot'
+    import FacetFilter from './FacetFilter.riot'
+    import ActiveFacets from './ActiveFacets.riot'
 
     export default class {
-      static components = {Icon, StyleIcons, WatchlistToggle}
+      static components = {
+        Icon,
+        StyleIcons,
+        WatchlistToggle,
+        RangeControl,
+        Facet,
+        FacetFilter,
+        ActiveFacets
+      }
 
       onBeforeMount(props, state) {
         this.config = config
 
         this.on('close-offcanvas', event => this.collapse())
+        this.on('open-offcanvas', event => this.expand())
 
         this.urlSearch = new UrlSearchNG(this)
         this.urlSearch.setup()
@@ -103,7 +170,8 @@
       }
 
       onSearch() {
-        search.treaties(this.criteria()).then(data => {
+        const criteria = {...this.criteria(), perPage: 12}
+        search.treaties(criteria).then(data => {
           this.update({data})
         })
       }

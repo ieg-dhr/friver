@@ -32,8 +32,6 @@ export default class Router {
   }
 
   route() {
-    this.unmount()
-
     const url = Url.current()
     const path = url.path().
       replace(new RegExp(`^${this.opts.prefix}`), '').
@@ -125,11 +123,21 @@ export default class Router {
   }
 
   mount(component, props = {}) {
-    const element = this.opts.target
-    element.removeAttribute('class')
-    const mounter = riot.component(component)
-    this.component = mounter(element, props)
-    
-    bus.emit('route:mounted')
+    if (this.component && this.component.name === component.name) {
+      if (this.component.reload) {
+        this.component.reload(props)
+      } else {
+        this.component.update(props)
+      }
+    } else {
+      this.unmount()
+
+      const element = this.opts.target
+      element.removeAttribute('class')
+      const mounter = riot.component(component)
+      this.component = mounter(element, props)
+      
+      bus.emit('route:mounted')
+    }
   }
 }

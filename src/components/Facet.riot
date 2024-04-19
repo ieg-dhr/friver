@@ -1,0 +1,77 @@
+<facet>
+  <div
+    if={state.buckets.length > 0}
+    class="title mb-2"
+  >{props.title}</div>
+
+  <ul class="list-unstyled mb-2 lh-sm">
+    <li each={bucket in buckets()} class="d-flex">
+      <div class="value flex-grow-1">
+        <a href="#" onclick={event => onFacetClicked(bucket.value, event)}>
+          {bucket.value}
+        </a>
+      </div>
+      <div class="count ms-4">{bucket.count}</div>
+    </li>
+  </ul>
+
+  <a
+    if={hasMany()}
+    href="#"
+    onclick={event => onToggle(event)}
+    class="d-block text-end text-decoration-none fs-7"
+  >
+    <svg if={state.expanded} is="icon" type="chevron-up" />
+    <svg if={!state.expanded} is="icon" type="chevron-down" />
+  </a>
+
+  <script>
+    import Icon from './Icon.riot'
+    import {addMultiParam, removeMultiParam} from '../lib/util'
+
+    export default class {
+      static components = {Icon}
+
+      onBeforeMount(props, state) {
+        state.expanded = false
+        state.buckets = []
+      }
+
+      onBeforeUpdate(props, state) {
+        const terms = this.props.criteria['facet-terms']
+        
+        if (terms) {
+          const regex = new RegExp(terms, 'i')
+          state.buckets = props.buckets.filter(e => e['value'].match(regex))
+        } else {
+          state.buckets = props.buckets
+        }
+      }
+
+      onToggle(event) {
+        event.preventDefault()
+
+        const expanded = !this.state.expanded
+        this.update({expanded})
+      }
+
+      onFacetClicked(value, event) {
+        event.preventDefault()
+
+        addMultiParam(this.props.param, value)
+      }
+
+      hasMany() {
+        return this.state.buckets.length > 5
+      }
+
+      buckets() {
+        return (
+          this.state.expanded ?
+          this.state.buckets :
+          this.state.buckets.slice(0, 5)
+        )
+      }
+    }
+  </script>
+</facet>
