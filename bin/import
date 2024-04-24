@@ -39,23 +39,23 @@ class FvImporter
         title: title.xpath("tei:title[@level = 'a']").inner_text,
         # 'title.xml': title.xpath("tei:title[@level = 'a']").inner_html,
 
-        edition: edition.xpath('tei:edition').inner_text,
+        # edition: edition.xpath('tei:edition').inner_text,
         # 'edition.xml': edition.xpath('tei:edition').inner_html,
 
-        funder: edition.xpath('tei:funder').inner_text,
+        # funder: edition.xpath('tei:funder').inner_text,
         # 'funder.xml': edition.xpath('tei:funder').inner_html,
 
-        editor: edition.xpath('tei:editor').inner_text,
+        # editor: edition.xpath('tei:editor').inner_text,
         # 'editor.xml': edition.xpath('tei:editor').inner_html,
 
-        publisher: publication.xpath('tei:publisher').inner_text,
+        # publisher: publication.xpath('tei:publisher').inner_text,
         # 'publisher.xml': publication.xpath('tei:publisher').inner_html,
 
-        distributor: publication.xpath('tei:distributor').inner_text,
+        # distributor: publication.xpath('tei:distributor').inner_text,
         # 'distributor.xml': publication.xpath('tei:distributor').inner_html,
 
-        licenseId: publication.xpath('tei:availability/tei:licence/@target').to_s,
-        license: publication.xpath('tei:availability/tei:licence').inner_text,
+        # licenseId: publication.xpath('tei:availability/tei:licence/@target').to_s,
+        # license: publication.xpath('tei:availability/tei:licence').inner_text,
         # 'license.xml': publication.xpath('tei:availability/tei:licence').inner_html,
 
         source: doc.xpath('//tei:sourceDesc/tei:msDesc').inner_text,
@@ -64,7 +64,7 @@ class FvImporter
         signatories: doc.xpath("//tei:listPerson/tei:person[@role = 'signatory']").map{ |p|
           {
             name: p.inner_text.strip,
-            projectId: p['xml:id'],
+            # projectId: p['xml:id'],
             gnd: p.xpath('tei:persName/@ref').to_s
           }
         },
@@ -72,7 +72,7 @@ class FvImporter
         places: doc.xpath('//tei:listPlace/tei:place').map{ |p|
           {
             name: p.inner_text.strip,
-            projectId: p['xml:id'],
+            # projectId: p['xml:id'],
             gnd: p.xpath('tei:placeName/@ref').to_s
           }
         },

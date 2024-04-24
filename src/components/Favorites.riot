@@ -1,7 +1,6 @@
 <favorites class="{classes()}">
-  <div class="content">
+  <div class="content" if={state.data && state.data.total > 0}>
     <table
-      if={state.data}
       class="table table-borderless table-responsive"
     >
       <tbody>

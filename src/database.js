@@ -20,7 +20,7 @@ fetch(config['FV_STATIC_URL'] + '/data.json').then(r => r.json()).then(data => {
 
 database.action('treaties', data => {
   const criteria = sanitizeCriteria(data.criteria)
-  const sort = criteria['sort'] || 'id'
+  const sort = criteria['sort'] || 'date'
 
   let buckets = {
     location: [],
@@ -41,7 +41,7 @@ database.action('treaties', data => {
     aggregate(buckets, 'year', year)
 
     if (!matchesDateRange(record, criteria['from'], criteria['to'])) return false
-      
+
     aggregate(buckets, 'language', record['language'])
     aggregate(buckets, 'signatory', record['signatories'].map(e => e['name']))
     aggregate(buckets, 'location', record['places'].map(e => e['name']))
@@ -76,7 +76,7 @@ database.action('treaties', data => {
   buckets['year'] = util.sortBy(buckets['year'], d => d.value)
 
   // re-bin years
-  tmp = []
+  let tmp = []
   const binSize = 3
   for (let i = 0; i < buckets['year'].length; i += binSize) {
     const b = buckets['year'][i]

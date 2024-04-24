@@ -19,7 +19,7 @@
           max={1789}
           bin-width={2}
           bins={state.data.buckets['year'].map(e => e['count'])}
-          on-inputs-changed={this.onInput}
+          on-inputs-changed={onInput}
         />
 
         <div class="row">
@@ -32,8 +32,19 @@
               value={criteria()['terms']}
             />
 
-            <div if={state.data} class="mb-4 text-end">
-              {state.data.total} Einträge
+            <div class="d-flex justify-content-between">
+              <div if={state.data} class="mb-4 text-end">
+                {state.data.total} Einträge
+              </div>
+
+              <div
+                if={state.data}
+                is="pagination"
+                page={state.data.page}
+                total={state.data.total}
+                per-page={12}
+                page-to={onInput}
+              />
             </div>
 
             <table
@@ -118,6 +129,7 @@
     import Facet from './Facet.riot'
     import FacetFilter from './FacetFilter.riot'
     import ActiveFacets from './ActiveFacets.riot'
+    import Pagination from './Pagination.riot'
 
     export default class {
       static components = {
@@ -127,7 +139,8 @@
         RangeControl,
         Facet,
         FacetFilter,
-        ActiveFacets
+        ActiveFacets,
+        Pagination
       }
 
       onBeforeMount(props, state) {
