@@ -18,12 +18,6 @@ const tpl1 = fs.readFileSync('./src/index.ejs', {encoding: 'utf8'})
 const html1 = ejs.render(tpl1, {fonts})
 fs.writeFileSync('./public/index.html', html1)
 
-if (NODE_ENV == 'production') {
-  const tpl2 = fs.readFileSync('./src/htaccess.ejs', {encoding: 'utf8'})
-  const html2 = ejs.render(tpl2, process.env)
-  fs.writeFileSync('./public/.htaccess', html2)
-}
-
 const app = {
   input: 'src/app.js',
   output: {
