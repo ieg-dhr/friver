@@ -6,8 +6,8 @@ Vormoderne online](ieg-friedensvertraege.de/friverplus) project at the
 
 ## Development
 
-Building the static page should work on every major platform. We tested the
-process on Arch Linux.
+Building the static page should work on every major linux distribution. We
+tested the process on Arch Linux.
 
 Install requirments:
 
@@ -65,6 +65,11 @@ then run
 ```
 yarn run build
 ```
+
+This builds a production-ready version to the `public` directory. Copy its
+contents to your webserver. Make sure to follow the symlinks:
+
+
 
 # Licenses, links
 

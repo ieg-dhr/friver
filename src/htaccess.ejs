@@ -1,7 +1,0 @@
-RewriteEngine on
-
-RewriteBase "<%= process.env['FV_STATIC_PREFIX'] %>/"
-RewriteRule ^$ friverplus/index.html [QSA,L]
-
-RewriteCond %{REQUEST_FILENAME} !-f
-RewriteRule ^.*$ friverplus/index.html [QSA,L]
