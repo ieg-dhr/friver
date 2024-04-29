@@ -39,6 +39,14 @@ Also, clone the data repository with
 git clone https://github.com/ieg-dhr/friver-plus data
 ```
 
+The data repository comes as a set of XML files. Run the import task to extract
+the metadata information required for the search feature. This process needs to
+be run only once:
+
+```
+yarn run import
+```
+
 Now run the app with
 
 ```

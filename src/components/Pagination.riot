@@ -1,21 +1,11 @@
 <pagination >
   <template if={enabled()}>
-    <!-- a
-      onclick={event => pageTo(1, event)}
-      href="#"
-      class="first text-decoration-none dfk-sans-serif {show(!isFirst())}"
-    >
-      <svg is="icon" type="arrow-left" />
-      <svg is="icon" type="arrow-left" />
-      <span class="text">{props.firstLabel || 'first page'}</span>
-    </a -->
     <a
       onclick={event => pageTo(page() - 1, event)}
       href="#"
       class="previous {show(!isFirst())}"
     >
       <svg is="icon" type="chevron-left" />
-      <!-- span class="text">{props.previousLabel || 'previous page'}</span -->
     </a>
     <span class="indicator">Seite {this.props.page}/{totalPages()}</span>
     <a
@@ -23,18 +13,8 @@
       href="#"
       class="next {show(!isLast())}"
     >
-      <!-- span class="text">{props.nextLabel || 'next page'}</span -->
       <svg is="icon" type="chevron-right" />
     </a>
-    <!-- a
-      onclick={event => pageTo(totalPages(), event)}
-      href="#"
-      class="last text-decoration-none dfk-sans-serif {show(!isLast())}"
-    >
-      <span class="text">{props.lastLabel || 'last page'}</span>
-      <svg is="icon" type="arrow-right" />
-      <svg is="icon" type="arrow-right" />
-    </a -->
   </template>
 
   <script>
