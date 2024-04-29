@@ -69,3 +69,8 @@ yarn run build
 # Licenses, links
 
 * https://html.spec.whatwg.org/entities.json
+* https://unsplash.com/photos/birds-on-roof-shingle-aq2u-OMPw4U
+* https://openclipart.org/detail/320578/dove
+* https://openclipart.org/detail/238740/prismatic-tiled-peace-dove
+* https://publicdomainvectors.org/en/free-clipart/Flying-Dove-Silhouette/43962.html
+* https://publicdomainvectors.org/en/free-clipart/Map-of-Europe-in-dark-blue-color/35234.html
