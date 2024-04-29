@@ -1,8 +1,62 @@
-# Install
+# ortstermine-petrify
 
-git clone ...
-cd ...
+This is the source code repository for the [Europäische Friedensverträge der
+Vormoderne online](ieg-friedensvertraege.de/friverplus) project at the
+[Leibniz-Institut für Europäische Geschichte Mainz](https://ieg-mainz.de).
+
+## Development
+
+Building the static page should work on every major platform. We tested the
+process on Arch Linux.
+
+Install requirments:
+
+* git >= v2.41.0 (for Windows, download and install the
+  [most recent version](https://git-scm.com/download/win), use all defaults,
+  when asked, select your preferred editor and also choose "Use Git from Git
+  Bash only")
+* ruby >= v3.2.0 (for Windows, we recommend following the
+  [ruby install documentation provided by the jekyll project](https://jekyllrb.com/docs/installation/windows/))
+* nodejs >= v20.0.0 (for Windows, download and install the
+  [most recent LTS version](https://nodejs.org/en/download), use all defaults,
+  when asked, opt-in to install the "necessary tools" and choose to installing
+  Python and the Windows Power Shell)
+
+Now download the sources from this repository and unpack them or do a git
+checkout. Then open a terminal prompt (e.g. git bash on Windows) and
+navigate to the directory where the source files are located. Once there,
+install all required libraries:
+
+```bash
+cd ~/Desktop/ieg-fv
+bundle install
+yarn install
+```
+
+Also, clone the data repository with
+
+```
 git clone https://github.com/ieg-dhr/friver-plus data
+```
+
+Now run the app with
+
+```
+yarn run dev
+```
+
+... then open a browser and go to http://localhost:4000. The app build rebuild
+and auto-reload when changes are made to the source files. To stop the process,
+hit `ctrl-c`.
+
+## Deployment
+
+To build the app for production, install the requirements as listed above and
+then run
+
+```
+yarn run build
+```
 
 # Licenses, links
 

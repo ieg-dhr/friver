@@ -2,6 +2,7 @@ import * as riot from 'riot'
 import {default as config} from '../.env.js'
 
 import {RiotPlugins, BusRiotPlugin, Url, i18n} from '@wendig/lib'
+import '@wendig/lib/src/enhance/Array'
 
 RiotPlugins.setup(riot)
 riot.install(RiotPlugins.i18n)

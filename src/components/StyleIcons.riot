@@ -14,16 +14,18 @@
 
       icons() {
         const mapping = {
-          transliteration: 'type',
-          edition: 'edit-2',
+          transliteration: 'file-text',
+          edition: 'file-text',
           print: 'book-open',
-          facsimile: 'file-text',
+          facsimile: 'image',
           image: 'image'
         }
 
-        const docStyles = this.props.doc.meta['styles']
-
-        return docStyles.map(s => mapping[s] || s)
+        return (
+          this.props.doc.meta['styles'].
+          map(s => mapping[s] || s).
+          unique()
+        )
       }
     }
   </script>
