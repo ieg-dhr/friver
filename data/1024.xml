@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE tei SYSTEM "../resources/FriVer_DTD.dtd">
+
+<?xml-model href="../resources/FriVer.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns="http://www.tei-c.org/ns/1.0" xml:id="pa000299-1024">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title level="s">European peace treaties of the pre-modern era in data / Europäische Friedensverträge der Vormoderne in Daten (FriVer+)</title>
+                <title when="1692-06-21" xml:id="t1024" when-custom="1692 VI 21" level="a" ref="https://www.ieg-friedensvertraege.de/treaty/t-1024-1-de.html">Erneuerung der Defensivallianz von Berlin</title>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    Digital edition according to
+                    <ref target="http://www.tei-c.org/">TEI P5</ref>
+                </edition>
+                <funder>
+                    <ref target="https://www.text-plus.org/">TEXT+</ref>
+                </funder>
+                <editor role="http://id.loc.gov/vocabulary/relators/edt" ref="https://orcid.org/0000-0002-8741-5916">
+                    <persName>Jaap Geraerts</persName>
+                    <note>The transformation and enrichment of the data is done by Jaap Geraerts (IEG Mainz). The other members of the FriVer+ team are Fabian Cremer, Ines Grund, and Thorsten Wübbena (all IEG Mainz).</note>
+                    <note>
+                        The original data has been created by the
+                        <ref target="https://www.ieg-friedensvertraege.de">team of scholars</ref>
+                        who were part of the Europäische Friedensverträge der Vormoderne project. This project was lead by Prof. Dr. Heinz Duchhardt and was based at the Leibniz Institute of European History in Mainz.
+                    </note>
+                </editor>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>
+                    <orgName ref="http://www.isni.org/0000000119314040">Leibniz-Institut für Europäische Geschichte Mainz</orgName>
+                </publisher>
+                <distributor>
+                    <orgName ref="http://www.isni.org/0000000110101946">Universitäts- und Landesbibliothek Darmstadt</orgName>
+                </distributor>
+                <idno type="ISIL">http://lobid.org/organisation/DE-17</idno>
+                <date type="issued" when="2023-12-23"/>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">
+                        <p xml:lang="en">This file is licensed under the terms of the Creative Commons License CC-BY 4.0 (Attribution 4.0 International)</p>
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <repository xml:id="r13">Kopenhagen RA</repository>
+                <msDesc><p>Dänisches Reichsarchiv, Kopenhagen: Kongehusets og Rigets arkiv: Forholdet til udlandet (Traktater), E 1 Tyskland: Brandenburg uden nr. (1692 21/6) (Hauptvertrag mit Musterformular, Abschriften der Unterhändlervollmachten), nr. 39 (Geheimartikel).</p></msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>
+                    The data in this XML file, originally created by the project
+                    <ref target="https://www.ieg-friedensvertraege.de/vertraege">Europäische Friedensverträge der Vormoderne online</ref>
+                    has been transformed in accordance with
+                    <ref target="http://www.tei-c.org/">TEI P5</ref>
+                    as part of the project
+                    <ref target="https://www.ieg-mainz.de/en/research/research-projects/european-peace-treaties-of-the-pre-modern-era-in-data">Europäische Friedensverträge der Vormoderne in Daten (FriVer+)</ref>
+                </p>
+            </projectDesc>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="de" xml:id="lan2">deutsch</language>
+            </langUsage>
+        </profileDesc>
+    </teiHeader>
+    <standOff>
+        <listPerson>
+            <person role="signatory" xml:id="p27">
+                <persName ref="https://www.wikidata.org/wiki/Q157367">
+                    <name>Brandenburg - Preußen</name>
+                </persName>
+            </person>
+            <person role="signatory" xml:id="p32">
+                <persName ref="https://explore.gnd.network/gnd/4010877-6">
+                    <name>Dänemark</name>
+                </persName>
+            </person>
+        </listPerson>
+        <listPlace>
+            <place xml:id="loc34">
+                <placeName ref="https://explore.gnd.network/gnd/4032399-7">Kopenhagen</placeName>
+            </place>
+        </listPlace>
+        <facsimile>
+            <surface xml:id="FacsPnr1">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_4612048b5d914"/>
+            </surface>
+            <surface xml:id="FacsPnr2">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_461204ae4af26"/>
+            </surface>
+            <surface xml:id="FacsPnr3">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_461204ccccc5a"/>
+            </surface>
+            <surface xml:id="FacsPnr4">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_461204f2cdad5"/>
+            </surface>
+            <surface xml:id="FacsPnr5">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_4612051294fa2"/>
+            </surface>
+            <surface xml:id="FacsPnr6">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_4612053394ea1"/>
+            </surface>
+            <surface xml:id="FacsPnr7">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_461205527b774"/>
+            </surface>
+            <surface xml:id="FacsPnr8">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_4612057523829"/>
+            </surface>
+            <surface xml:id="FacsPnr9">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_46120596757a9"/>
+            </surface>
+            <surface xml:id="FacsPnr10">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_461205b7a63eb"/>
+            </surface>
+            <surface xml:id="FacsPnr11">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_461205d5ca523"/>
+            </surface>
+            <surface xml:id="FacsPnr12">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_461205f897796"/>
+            </surface>
+            <surface xml:id="FacsPnr13">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_461206191e51e"/>
+            </surface>
+            <surface xml:id="FacsPnr14">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_4612063a9b41e"/>
+            </surface>
+            <surface xml:id="FacsPnr15">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_461206594a255"/>
+            </surface>
+            <surface xml:id="FacsPnr16">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_4612067ea3eb7"/>
+            </surface>
+            <surface xml:id="FacsPnr17">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_461206a6ef0a2"/>
+            </surface>
+            <surface xml:id="FacsPnr18">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_461206d36b1f3"/>
+            </surface>
+            <surface xml:id="FacsPnr19">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_461206f6f1d28"/>
+            </surface>
+            <surface xml:id="FacsPnr20">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_46120719855c1"/>
+            </surface>
+            <surface xml:id="FacsPnr21">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_4612073b06581"/>
+            </surface>
+            <surface xml:id="FacsPnr22">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_4612075d0d1e1"/>
+            </surface>
+            <surface xml:id="FacsPnr23">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_4612077b5a35f"/>
+            </surface>
+            <surface xml:id="FacsPnr24">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_46120810c74f2"/>
+            </surface>
+            <surface xml:id="FacsPnr25">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_4612083386cae"/>
+            </surface>
+            <surface xml:id="FacsPnr26">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_46120855a212b"/>
+            </surface>
+            <surface xml:id="FacsPnr27">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_4612087441564"/>
+            </surface>
+            <surface xml:id="FacsPnr28">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_461208a368504"/>
+            </surface>
+            <surface xml:id="FacsPnr29">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_461208c23b558"/>
+            </surface>
+            <surface xml:id="FacsPnr30">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_461208e39135f"/>
+            </surface>
+            <surface xml:id="FacsPnr31">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_461209019dd9c"/>
+            </surface>
+            <surface xml:id="FacsPnr32">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_4612091f7aa3b"/>
+            </surface>
+            <surface xml:id="FacsPnr33">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_461209582a751"/>
+            </surface>
+            <surface xml:id="FacsPnr34">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_4612097ab128c"/>
+            </surface>
+            <surface xml:id="FacsPnr35">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_4612099b28618"/>
+            </surface>
+            <surface xml:id="FacsPnr36">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_461209bebcc12"/>
+            </surface>
+            <surface xml:id="FacsPnr37">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_461209da01343"/>
+            </surface>
+        </facsimile>
+    </standOff>
+    <text>
+        <front>
+            <div type="Drucke"><p>Danmark-Norges Traktater 9, S. 331-342 (Hauptvertrag mit
+                Musterformular), 343-345 (Geheimartikel).</p>
+                <lb /></div>
+        </front>
+        <back>
+            <listBibl>
+                <bibl>Laursen, in: Danmark-Norges Traktater 9, S. 299-330.</bibl>
+            </listBibl>
+        </back>
+    </text>
+</tei:TEI>

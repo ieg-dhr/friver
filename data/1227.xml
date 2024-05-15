@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE tei SYSTEM "../resources/FriVer_DTD.dtd">
+
+<?xml-model href="../resources/FriVer.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns="http://www.tei-c.org/ns/1.0" xml:id="pa000299-1227">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title level="s">European peace treaties of the pre-modern era in data / Europäische Friedensverträge der Vormoderne in Daten (FriVer+)</title>
+                <title when="1716-11-20" xml:id="t1227" when-custom="1716 XI 20" level="a" ref="https://www.ieg-friedensvertraege.de/treaty/t-1227-1-de.html">Grenzkonvention von Venlo</title>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    Digital edition according to
+                    <ref target="http://www.tei-c.org/">TEI P5</ref>
+                </edition>
+                <funder>
+                    <ref target="https://www.text-plus.org/">TEXT+</ref>
+                </funder>
+                <editor role="http://id.loc.gov/vocabulary/relators/edt" ref="https://orcid.org/0000-0002-8741-5916">
+                    <persName>Jaap Geraerts</persName>
+                    <note>The transformation and enrichment of the data is done by Jaap Geraerts (IEG Mainz). The other members of the FriVer+ team are Fabian Cremer, Ines Grund, and Thorsten Wübbena (all IEG Mainz).</note>
+                    <note>
+                        The original data has been created by the
+                        <ref target="https://www.ieg-friedensvertraege.de">team of scholars</ref>
+                        who were part of the Europäische Friedensverträge der Vormoderne project. This project was lead by Prof. Dr. Heinz Duchhardt and was based at the Leibniz Institute of European History in Mainz.
+                    </note>
+                </editor>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>
+                    <orgName ref="http://www.isni.org/0000000119314040">Leibniz-Institut für Europäische Geschichte Mainz</orgName>
+                </publisher>
+                <distributor>
+                    <orgName ref="http://www.isni.org/0000000110101946">Universitäts- und Landesbibliothek Darmstadt</orgName>
+                </distributor>
+                <idno type="ISIL">http://lobid.org/organisation/DE-17</idno>
+                <date type="issued" when="2023-12-23"/>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">
+                        <p xml:lang="en">This file is licensed under the terms of the Creative Commons License CC-BY 4.0 (Attribution 4.0 International)</p>
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <repository xml:id="r6">Den Haag NA
+                    <note>Den Haag NA, Findbuch:<lb />
+                        <ref target="http://www.gahetna.nl/collectie/archief/inventaris/index/eadid/1.01.02/inventarisnr/12597.126">eadid/1.01.02/inventarisnr/12597.126</ref></note>
+                </repository>
+                <msDesc><p>NADH, archief van de Staten-Generaal, inv.nr. 12597.126.</p></msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>
+                    The data in this XML file, originally created by the project
+                    <ref target="https://www.ieg-friedensvertraege.de/vertraege">Europäische Friedensverträge der Vormoderne online</ref>
+                    has been transformed in accordance with
+                    <ref target="http://www.tei-c.org/">TEI P5</ref>
+                    as part of the project
+                    <ref target="https://www.ieg-mainz.de/en/research/research-projects/european-peace-treaties-of-the-pre-modern-era-in-data">Europäische Friedensverträge der Vormoderne in Daten (FriVer+)</ref>
+                </p>
+            </projectDesc>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="fr" xml:id="lan4">französisch</language>
+            </langUsage>
+        </profileDesc>
+    </teiHeader>
+    <standOff>
+        <listPerson>
+            <person role="signatory" xml:id="p49">
+                <persName ref="https://explore.gnd.network/gnd/4101204-5">
+                    <name>Generalstaaten</name>
+                </persName>
+            </person>
+            <person role="signatory" xml:id="p93">
+                <persName ref="https://explore.gnd.network/gnd/4047194-9">
+                    <name>Preußen</name>
+                </persName>
+            </person>
+        </listPerson>
+        <listPlace>
+            <place xml:id="loc326">
+                <placeName ref="https://explore.gnd.network/gnd/4233157-2">Venlo</placeName>
+            </place>
+        </listPlace>
+        <facsimile>
+            <surface xml:id="FacsPnr1">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_45e2a1a3b3754"/>
+            </surface>
+            <surface xml:id="FacsPnr2">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_45e2a1b9b36ac"/>
+            </surface>
+            <surface xml:id="FacsPnr3">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_45e2a1d60b64f"/>
+            </surface>
+            <surface xml:id="FacsPnr4">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_45e2a1f3827ac"/>
+            </surface>
+            <surface xml:id="FacsPnr5">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_45e2a213d3793"/>
+            </surface>
+            <surface xml:id="FacsPnr6">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_45e2a22fb237b"/>
+            </surface>
+            <surface xml:id="FacsPnr7">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_45e2a24de5ee1"/>
+            </surface>
+            <surface xml:id="FacsPnr8">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_45e2a26b67e2f"/>
+            </surface>
+            <surface xml:id="FacsPnr9">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_45e2a2889e84f"/>
+            </surface>
+            <surface xml:id="FacsPnr10">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_45e2a2a65b14a"/>
+            </surface>
+            <surface xml:id="FacsPnr11">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_45e2a2c5d5175"/>
+            </surface>
+            <surface xml:id="FacsPnr12">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_45e2a2e465b4c"/>
+            </surface>
+            <surface xml:id="FacsPnr13">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_45e2a300bc90f"/>
+            </surface>
+            <surface xml:id="FacsPnr14">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_45e2a321484b4"/>
+            </surface>
+        </facsimile>
+    </standOff>
+</tei:TEI>

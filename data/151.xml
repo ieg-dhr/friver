@@ -1,0 +1,968 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE tei SYSTEM "../resources/FriVer_DTD.dtd">
+
+<?xml-model href="../resources/FriVer.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns="http://www.tei-c.org/ns/1.0"
+    xml:id="pa000299-0151">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title level="s">European peace treaties of the pre-modern era in data / Europäische
+                    Friedensverträge der Vormoderne in Daten (FriVer+)</title>
+                <title when="1679-02-05" xml:id="t151" when-custom="1679 I 26_II 5" level="a"
+                    ref="https://www.ieg-friedensvertraege.de/treaty/t-151-1-de.html"
+                    >Friedensvertrag von Celle</title>
+            </titleStmt>
+            <editionStmt>
+                <edition> Digital edition according to <ref target="http://www.tei-c.org/">TEI
+                        P5</ref>
+                </edition>
+                <funder>
+                    <ref target="https://www.text-plus.org/">TEXT+</ref>
+                </funder>
+                <editor role="http://id.loc.gov/vocabulary/relators/edt"
+                    ref="https://orcid.org/0000-0002-8741-5916">
+                    <persName>Jaap Geraerts</persName>
+                    <note>The transformation and enrichment of the data is done by Jaap Geraerts
+                        (IEG Mainz). The other members of the FriVer+ team are Fabian Cremer, Ines
+                        Grund, and Thorsten Wübbena (all IEG Mainz).</note>
+                    <note> The original data has been created by the <ref
+                            target="https://www.ieg-friedensvertraege.de">team of scholars</ref> who
+                        were part of the Europäische Friedensverträge der Vormoderne project. This
+                        project was lead by Prof. Dr. Heinz Duchhardt and was based at the Leibniz
+                        Institute of European History in Mainz. </note>
+                </editor>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>
+                    <orgName ref="http://www.isni.org/0000000119314040">Leibniz-Institut für
+                        Europäische Geschichte Mainz</orgName>
+                </publisher>
+                <distributor>
+                    <orgName ref="http://www.isni.org/0000000110101946">Universitäts- und
+                        Landesbibliothek Darmstadt</orgName>
+                </distributor>
+                <idno type="ISIL">http://lobid.org/organisation/DE-17</idno>
+                <date type="issued" when="2023-12-23"/>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">
+                        <p xml:lang="en">This file is licensed under the terms of the Creative
+                            Commons License CC-BY 4.0 (Attribution 4.0 International)</p>
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <repository xml:id="r32">Wolfenbuettel StA/LA <note>Unterhändlerinstrumente:
+                        Niedersächsisches Landesarchiv Wolfenbüttel, Findbuch:<lb/>
+                        <ref
+                            target="http://www.arcinsys.niedersachsen.de/arcinsys/detailAction?detailid=v6981335"
+                            >http://www.arcinsys.niedersachsen.de/arcinsys/detailAction?detailid=v6981335</ref><lb/>
+                        <ref
+                            target="http://www.arcinsys.niedersachsen.de/arcinsys/detailAction?detailid=v6981337"
+                            >http://www.arcinsys.niedersachsen.de/arcinsys/detailAction?detailid=v6981337</ref><lb/>
+                        <ref
+                            target="http://www.arcinsys.niedersachsen.de/arcinsys/detailAction?detailid=v6981341"
+                            >http://www.arcinsys.niedersachsen.de/arcinsys/detailAction?detailid=v6981341</ref></note>
+                </repository>
+                <msDesc>
+                    <p>Unterhändlerinstrumente:<lb/> NSAWolfenbüttel 142 Urk 233-235 Celle 1679 I 26
+                        / II 5 (frz.; 15 fol., Hauptvertrag; Nr. 233; mit 2 Geheimartikeln; Nr.234,
+                        235; und 1 Sep.art.; Nr. 235; mit 9 US, 9 LS);<lb/> NHSAHannover Cal. Or. 31
+                        (Wasserschäden, keine Bearbeitung möglich). </p>
+                    <p>Ratifikationen:<lb/> Ratifikation Frankreich, St. Germain 1679 II 22
+                        (NSHSAHannover Cal. Or. 31 Frankreich Nr. 6 / neu Nr.8-9);<lb/> Ratifikation
+                        Braunschweig-Lüneburg (Georg Wilhelm), Celle 1679 III 14.<lb/> Ratifikation
+                        Braunschweig-Wolfenbüttel (Rudolf August), Braunschweig 1679 III 14.<lb/>
+                        Ratifikation Fürstbischof Ernst August von Osnabrück, Osnabrück 1679 III
+                        26.<lb/> Ratifikation Schweden:<lb/> Schwedisches Reichsarchiv, Stockholm,
+                        Tyskland V: Braunschweig-Lüneburg, N:o 4<lb/> A) Konung Karl XI:s
+                        ratifikation af det i Celle 26 Jan. 1679 g. st. Slutna fredfördraget mellan
+                        Sverige och Frankike å andra sidan. Dat. Rosendahl 27 Juli 1679
+                        (Latin);<lb/> B) D:o d:o af separata och sekreta artiklar till
+                        fredsfördraget (se Litt. A);<lb/> C) Hertig Georg Vilhelms [af Celle]
+                        ratifikation af fredsfördraget (se Litt. A). Dat. 19 Nov. 1679 (Tyska);<lb/>
+                        D) D:o d:o af de separata och sekreta artiklarna (se Litt. B.);<lb/> E)
+                        Hertig Ernst Augusts [af Calenberg] ratifikation af fredsfördraget (se Litt.
+                        A). Dat. Osnabrück 2 Dec. 1679 (Tyska);<lb/> F) D:o d:o af de separata och
+                        sekreta artiklarna (se Litt. B);<lb/> G) Hertig Rudolf Augusts [af
+                        Wolfenbüttel] ratifikation af fredsfördraget (se Litt. A). Dat. Braunschweig
+                        10/20 Dec. 1679 (Tyska);<lb/> H) D:o d:o af de separata och sekreta
+                        artiklarna (se Litt. B).</p>
+
+                    <p>Weitere Stücke:</p>
+
+                    <p>Hauptstaatsarchiv Hannover: Cal. Or. 31 Schweden Nr. 11 (Abschrift).<lb/>
+                        <lb/> GHSTABerlin VI HA Nr. 185: C, Extrait (Abschrift).</p>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p> The data in this XML file, originally created by the project <ref
+                        target="https://www.ieg-friedensvertraege.de/vertraege">Europäische
+                        Friedensverträge der Vormoderne online</ref> has been transformed in
+                    accordance with <ref target="http://www.tei-c.org/">TEI P5</ref> as part of the
+                    project <ref
+                        target="https://www.ieg-mainz.de/en/research/research-projects/european-peace-treaties-of-the-pre-modern-era-in-data"
+                        >Europäische Friedensverträge der Vormoderne in Daten (FriVer+)</ref>
+                </p>
+            </projectDesc>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="fr" xml:id="lan4">französisch</language>
+            </langUsage>
+        </profileDesc>
+    </teiHeader>
+    <standOff>
+        <listPerson>
+            <person role="signatory" xml:id="p22">
+                <persName ref="https://explore.gnd.network/gnd/17444-0">
+                    <name>Braunschweig - Lüneburg - Celle</name>
+                </persName>
+            </person>
+            <person role="signatory" xml:id="p24">
+                <persName
+                    ref="https://explore.gnd.network/gnd/17444-0; https://explore.gnd.network/gnd/4066832-0">
+                    <name>Braunschweig - Lüneburg - Wolfenbüttel</name>
+                </persName>
+            </person>
+            <person role="signatory" xml:id="p37">
+                <persName ref="https://explore.gnd.network/gnd/4018145-5">
+                    <name>Frankreich</name>
+                </persName>
+            </person>
+            <person role="signatory" xml:id="p99">
+                <persName ref="https://explore.gnd.network/gnd/4077258-5">
+                    <name>Schweden</name>
+                </persName>
+            </person>
+            <person xml:id="pp0138">
+                <persName ref="https://explore.gnd.network/gnd/118816829">
+                    <name>Louis XIV of France</name>
+                </persName>
+            </person>
+            <person xml:id="pp0001">
+                <persName ref="https://explore.gnd.network/gnd/118571869">
+                    <name>Leopold I, Holy Roman Emperor</name>
+                </persName>
+            </person>
+            <person xml:id="pp0246">
+                <persName ref="https://explore.gnd.network/gnd/119200767">
+                    <name>Georg Wilhelm (Braunschweig-Lüneburg)</name>
+                </persName>
+            </person>
+            <person xml:id="pp0247">
+                <persName ref="https://explore.gnd.network/gnd/116678909">
+                    <name>Rudolf August (Braunschweig-Lüneburg)</name>
+                </persName>
+            </person>
+            <person xml:id="pp0248">
+                <persName ref="https://explore.gnd.network/gnd/128793996">
+                    <name>François de Pas de Rebenac</name>
+                </persName>
+            </person>
+            <person xml:id="pp0249">
+                <persName ref="https://explore.gnd.network/gnd/119160978">
+                    <name>Karl XI. (Schweden)</name>
+                </persName>
+            </person>
+            <person xml:id="pp0250">
+                <persName ref="https://explore.gnd.network/gnd/118656554">
+                    <name>Andreas Gottlieb von Bernstorff</name>
+                </persName>
+            </person>
+            <person xml:id="pp0251">
+                <persName ref="https://explore.gnd.network/gnd/123359848">
+                    <name>Friedrich von Heimburg</name>
+                </persName>
+            </person>
+            <person xml:id="pp0252">
+                <persName ref="https://explore.gnd.network/gnd/1089320671">
+                    <name>Christian Ludwig I, Herzog von Mecklenburg-Schwerin</name>
+                </persName>
+            </person>
+            <person xml:id="pp0253">
+                <persName ref="https://explore.gnd.network/gnd/104181982">
+                    <name>Adolf Friedrich II., Herzog von Mecklenburg-Strelitz</name>
+                </persName>
+            </person>
+            <person xml:id="pp0254">
+                <persName ref="https://explore.gnd.network/gnd/102141126">
+                    <name>Julius Franz, Herzog von Sachsen-Lauenburg</name>
+                </persName>
+            </person>
+            <person xml:id="pp0255">
+                <persName ref="https://explore.gnd.network/gnd/120439344">
+                    <name>August Friedrich, Herzog von Schleswig-Holstein-Gottorf</name>
+                </persName>
+            </person>
+            <person xml:id="pp0256">
+                <persName ref="https://explore.gnd.network/gnd/102040095">
+                    <name>Simon Heinrich, Graf von Lippe-Detmold</name>
+                </persName>
+            </person>
+            <person xml:id="pp0257">
+                <persName ref="https://explore.gnd.network/gnd/123432626">
+                    <name>Philipp, Graf von Schaumburg-Lippe</name>
+                </persName>
+            </person>
+            <person xml:id="pp0258">
+                <persName>
+                    <name>Friedrich zur Lippe-Brake</name>
+                </persName>
+            </person>
+            <person xml:id="pp0259">
+                <persName ref="https://explore.gnd.network/gnd/121056910">
+                    <name>Christian Wilhelm, Graf von Schwarzburg-Sondershausen</name>
+                </persName>
+            </person>
+            <person xml:id="pp0260">
+                <persName ref="https://explore.gnd.network/gnd/117764337">
+                    <name>Anton Günther II. von Schwarzburg-Arnstadt</name>
+                </persName>
+            </person>
+            <person xml:id="pp0261">
+                <persName ref="https://explore.gnd.network/gnd/102109230">
+                    <name>Albrecht Anton, Graf von Schwarzburg-Rudolstadt</name>
+                </persName>
+            </person>
+            <person xml:id="pp0262">
+                <persName ref="https://explore.gnd.network/gnd/119175800">
+                    <name>Christian V. (Dänemark)</name>
+                </persName>
+            </person>
+            <person xml:id="pp0263">
+                <persName ref="https://explore.gnd.network/gnd/11853596X">
+                    <name>Friedrich Wilhelm (Brandenburg)</name>
+                </persName>
+            </person>
+            <person xml:id="pp0264">
+                <persName ref="https://explore.gnd.network/gnd/101052677">
+                    <name>Ernst August I. (Hannover)</name>
+                </persName>
+            </person>
+            <person xml:id="pp0265">
+                <persName ref="https://explore.gnd.network/gnd/1053413106">
+                    <name>August (Schleswig-Holstein-Sonderburg-Norburg-Plön)</name>
+                </persName>
+            </person>
+            <person xml:id="pp0266">
+                <persName ref="https://explore.gnd.network/gnd/102125880">
+                    <name>Christian Albrecht, Herzog von Schleswig-Holstein-Gottorf</name>
+                </persName>
+            </person>
+        </listPerson>
+        <listPlace>
+            <place xml:id="loc41">
+                <placeName ref="https://explore.gnd.network/gnd/4009657-9">Celle</placeName>
+            </place>
+        </listPlace>
+        <facsimile>
+            <surface xml:id="FacsPnr1">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_44036cdaa4058"/>
+            </surface>
+            <surface xml:id="FacsPnr2">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_44036d1f57026"/>
+            </surface>
+            <surface xml:id="FacsPnr3">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_44036d5809b5d"/>
+            </surface>
+            <surface xml:id="FacsPnr4">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_44036da4bdf7c"/>
+            </surface>
+            <surface xml:id="FacsPnr5">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_4403720ae9dcf"/>
+            </surface>
+            <surface xml:id="FacsPnr6">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_440372636b883"/>
+            </surface>
+            <surface xml:id="FacsPnr7">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_440373447a5f5"/>
+            </surface>
+            <surface xml:id="FacsPnr8">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_440373c0f2050"/>
+            </surface>
+            <surface xml:id="FacsPnr9">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_440374413e35d"/>
+            </surface>
+            <surface xml:id="FacsPnr10">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_43cdb50b672c3"/>
+            </surface>
+            <surface xml:id="FacsPnr11">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_43cdb548b3443"/>
+            </surface>
+            <surface xml:id="FacsPnr12">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_43cdb9d0537e3"/>
+            </surface>
+            <surface xml:id="FacsPnr13">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_43cdb9f3b1e20"/>
+            </surface>
+            <surface xml:id="FacsPnr14">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_43cdba3c1812e"/>
+            </surface>
+            <surface xml:id="FacsPnr15">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_43cdbaaf8511f"/>
+            </surface>
+            <surface xml:id="FacsPnr16">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_43cdbaf233019"/>
+            </surface>
+            <surface xml:id="FacsPnr17">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_43cdbb35507f5"/>
+            </surface>
+            <surface xml:id="FacsPnr18">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_43cdbb5fda90e"/>
+            </surface>
+            <surface xml:id="FacsPnr19">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_43cdbb8382d13"/>
+            </surface>
+            <surface xml:id="FacsPnr20">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_43cdbbe6f2d94"/>
+            </surface>
+            <surface xml:id="FacsPnr21">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_43cdbc097dd83"/>
+            </surface>
+            <surface xml:id="FacsPnr22">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_43cdbc3949c74"/>
+            </surface>
+            <surface xml:id="FacsPnr23">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_43cdbc5fe8fcf"/>
+            </surface>
+            <surface xml:id="FacsPnr24">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_43cdbc88a168a"/>
+            </surface>
+            <surface xml:id="FacsPnr25">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_43cdbccb67ffd"/>
+            </surface>
+            <surface xml:id="FacsPnr26">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_43cdbcf5d969d"/>
+            </surface>
+            <surface xml:id="FacsPnr27">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_43cdbd18a2a7f"/>
+            </surface>
+            <surface xml:id="FacsPnr28">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_43cdbd3806f37"/>
+            </surface>
+            <surface xml:id="FacsPnr29">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_43cdbdc70f11e"/>
+            </surface>
+        </facsimile>
+    </standOff>
+    <text>
+        <front>
+            <div type="Drucke">
+                <p>CTS 15, S. 81. <lb/>DUM VII/1, S. 391-396&nbsp; <ref
+                        target="http://gallica.bnf.fr/ark:/12148/bpt6k122965z.pleinepage.f412.langEN"
+                        >Link zum Druck auf gallica.bnf.fr </ref>
+                    <lb/>Actes et Mémoires de la Negociation de la Paix de Nimégue 3, S. 567.
+                    <lb/>Leonard 3, S. 16 (frz.). <lb/>Lündorp, Acta Publica X, S. 699, S. 797
+                    (dt.). <lb/>Lünig, Teutsches Reichs-Archiv, Pars specialis 4/4, S. 150 (lat.;
+                    dt.). <lb/>Theatrum Europaeum 11, S. 1464 (dt.). </p>
+            </div>
+            <div type="Inhalt">
+                <p>Art. 1 Über den Frieden. <lb/>Art. 2 Vergessenheit. <lb/>Art. 3 Beendigung der
+                    Feindseligkeiten. <lb/>Art. 4 Versprechen, den Westfälischen Frieden (1648 X 24)
+                    zu erhalten. <lb/>Art. 5 Bestätigung des Westfälischen Friedens (1648 X 24).
+                    <lb/>Art. 6 Bestimmungen über das Herzogtum Bremen. <lb/>Art. 7
+                    Neutralitätsbekundung. <lb/>Art. 8 Bestimmungen über Durchzugsrechte. <lb/>Art.
+                    9 Garantie- und Hilfsbekundung. <lb/>Art. 10 Hilfsversprechen für das Haus
+                    Braunschweig-Lüneburg. <lb/>Art. 11 Über die Aufnahme des Herzogs Ernst August
+                    zu Osnabrück in den Frieden. <lb/>Art. 12 Über die Aufnahme der Städte Lübeck,
+                    Bremen und Hamburg in den Frieden. <lb/>Art. 13 Über die Abtretung des Landes
+                    Bremen. <lb/>Art. 14 Berücksichtigung der Verträge der Vertragspartner mit dem
+                    Kaiser und dem Reich. <lb/>Art. 15 Ratifikation. </p>
+                <p>Separatartikel <lb/>Art. 1 Bestimmungen über den Besitz des Amtes Tedinghausen:
+                    <lb/>1. Vogtei Dowern. Stadt Ellerden. <lb/>2. Amt Tedinghausen. <lb/>3. Rechte,
+                    Einkünfte, Kapital, Renten, Besitzungen. <lb/>Ergänzungen zum 6. Artikel des
+                    Hauptvertrages. <lb/>Art. 2 Über die In-Besitznahme Bremens. <lb/>Art. 3
+                    Bestimmungen über Geldzahlungen. <lb/>Art. 4 Weitere Bestimmungen über
+                    Geldzahlungen. <lb/>Art. 5 Bestimmungen über Bürgschaften. <lb/>Art. 6
+                    Verfügungen über Besatzungskräfte in Carlsburg und auf der Schwinger Schanze.
+                    <lb/>Art. 7 Bestimmungen über Kriegsgerät in den Festungen Stade, Carlsburg und
+                    Buxtehude. <lb/>Art. 8 Bestimmungen über Durchzugsrechte und Einquartierungen.
+                    <lb/>Art. 9 Verhandlungen mit dem Bischof von Paderborn und Münster. <lb/>Art.
+                    10 Verhandlungen mit den Herzögen von Holstein-Plön und Holstein-Gottorf.
+                    <lb/>Art. 11 Versprechen, von Friedensverhandlungen mit künftigen Feinden des
+                    Hauses Braunschweig-Lüneburg abzusehen. <lb/>Art. 12 Friedensartikel soll auch
+                    für den Herzog von Osnabrück gelten. <lb/>Art. 13 Ratifikation. <lb/>Art. 14
+                    Aufnahme der Separatartikel in die künftigen Friedensschlüsse der
+                    Vertragspartner mit dem Kaiser und den deutschen Reichsständen. <lb/>Art. 15
+                    Über den Status der Separatartikel. </p>
+                <p>Geheimartikel I <lb/>Erklärung über die Gewehrschaft gegen Anschläge des Königs
+                    von Dänemark und des Kurfürsten von Brandenburg. <lb/>Über den Status des
+                    Geheimartikels. </p>
+                <p>Geheimartikel II <lb/>Allgemeine Vergessenheit - bezogen auf Winterquartiere,
+                    Kontributionen und Durchzügen - bei künftigen Friedenschlüssen mit dem Kaiser
+                    und den deutschen Reichsständen. <lb/>Über den Status des Geheimartikels. <lb/>
+                </p>
+            </div>
+            <div type="Kommentar">
+                <p>Als Ludwig XIV. im Frühjahr 1672 den Generalstaaten den Krieg erklärte, fand sich
+                    eine Koalition aus dem Kaiser (und ab 1674 dem Reich), Dänemark, Spanien,
+                    Brandenburg, den Häusern Braunschweig-Lüneburg und mehreren deutschen Staaten
+                    zusammen. Die Braunschweiger hatten am 24. April 1674 ein Offensivbündnis mit
+                    dem Kaiser geschlossen. Die Herzöge Georg Wilhelm und Ernst August stellten
+                    beachtliche Hilfstruppen, so daß die Braunschweiger in der
+                    &quot;Rheinarmee&quot; das größte Kontingent bildeten. Schweden, das seit April
+                    1672 mit Frankreich verbündet war (es war verpflichtet, Truppen gegen die
+                    Reichsfürsten zu schicken, die Holland zu Hilfe kamen), trat Ende 1674 in den
+                    Krieg ein und bedrohte von Norden unmittelbar Braunschweiger Herrschaftsgebiet;
+                    zusammen mit König Christian V von Dänemark und Kurfürst Friedrich Wilhelm von
+                    Brandenburg kämpften diese 1675/77 gegen Schweden. Im August 1676 eroberten die
+                    welfischen Truppen und ihre Verbündeten zunächst Stade, den schwedischen
+                    Verwaltungssitz des seit 1648 Schweden unterstellten Herzogtums Bremen-Verden,
+                    und dann rasch das gesamte Herzogtum.<lb/>Unterdessen hatten im Frühjahr 1676
+                    unter der Vermittlung Englands in Nimwegen diplomatische Gespräche begonnen, die
+                    die antifranzösische Koalition zerbrechen ließen und 1678/79 zu
+                    Separatfriedensschlüssen führten. Am 5. Februar 1679 schlossen in Celle die
+                    braunschweigschen Herzöge mit Frankreich und Schweden Frieden; die Verhandlungen
+                    waren durch den französischen Unterhändler Rebenac geführt worden und wurden
+                    auch im Namen Schwedens geschlossen, ohne daß Schweden an den Verhandlungen
+                    direkt beteiligt gewesen war bzw. den Vertrag mitunterzeichnete.*<note n="a"
+                        type="annotation">Höynck, Frankreich und seine Gegner auf dem Nymweger
+                        Friedenskongreß, S. 197. Schweden ratifizierte den Vertrag am 27. Juli
+                        1679.</note> Schweden erhielt Bremen und Verden zurück und übergab dafür das
+                    Amt Thedinghausen und die Vogtei Dörverden an die Braunschweiger Herzöge. Diese
+                    erhielten zudem 300.000 Taler von Frankreich.</p>
+            </div>
+
+        </front>
+        <body>
+            <div type="Edition">
+                <p>Au nom de Dieu le Createur et de la Sainte Trinité<note n="1" type="crit_app">CTS
+                        stellt die Ratifikationsformel Ludwigs XIV. vor und nach den
+                        Vertragstext.</note>.<lb/>A tous presents et à venir soit notoire, que comme
+                    Sa Maj[est]té Très Chrestienne <rs ref="#pp0138">Louis XIV</rs><note n="2"
+                        type="annotation">Ludwig XIV. (1638-1715), seit 1643 frz. König.</note> Roy
+                    de France et de Navarre, non obstant la presente guerre<note n="3"
+                        type="annotation">Französisch-holländischer Krieg 1672-1678.</note> à
+                    toujours conservé une affection tres particuliere pour leurs A[ltesses].
+                    Ser[enissi]mes les S[eigneurs]. Ducs <rs ref="#pp0246">George
+                        Guillaume</rs><note n="4" type="annotation">Georg Wilhelm (1624-1705), Hzg
+                        von Braunschweig-Lüneburg (AdB 8, S. 634-645).</note> et <rs ref="#pp0247"
+                        >Rudolphe Auguste</rs><note n="6" type="crit_app">Rudolf August (1627-1704),
+                        Hzg von Braunschweig und Lüneburg (AdB 12, S. 525-529).</note> Ducs de
+                        Bronsvic<note n="7">CTS: Brunswik (auch im Folgenden).</note> et de
+                    Lunebourg et toute Leur Ser[enissi]me Maison et L[eurs]. A[ltesses]. des
+                    sentiments pleins de respect et de veneration pour un si grand Monarque avec une
+                    envie extreme de meriter quelque part dans l´amitié et les bonnes graces de Sa
+                    Maj[est]té aussy bien, que de contribuer tout ce qui pourroit dépendre d´Elles
+                    au repos de l´Empire, et pour finir la guerre qui depuis quelque temps l´a
+                        affligé<note n="8" type="crit_app">Actes et Memoires (im Folgenden: Actes):
+                        affligée.</note> sur tout <rs ref="#pp0138">Sa Maj[es]té tres
+                        Chrestienne</rs> quoy que les Princes et Puissances, qui ont été en Alliance
+                    avec L[eurs]. A[ltesses]., eussent conclu leurs traités particuliers
+                        separemment<note n="9" type="crit_app">Dumont, Actes, CTS:
+                        separément.</note>, n´en faisant pour ce la paroitre moins de bonté et de
+                    disposition favorable pour les S[eigneu]rs Ducs. Et c´est en cette veuë que
+                    L[eurs]. A[ltesses]. Ser[enissi]mes ayant appris avec beaucoup de joye et de
+                    reconnoissance, que Sa Maj[es]té tres Chrestienne avoit donné plein pouvoir et
+                    commission au Sr. <rs ref="#pp0248">Comte de Rebenac</rs><note n="10"
+                        type="annotation">François Rebenac du Pas-Feuquières (1649-1694), Graf von,
+                        General, frz. Unterhändler.</note>, Son Lieutenant General dans la Province
+                    de Toul, et Son Envoyé Extraordinaire et Plenipotentiaire de traiter et conclure
+                    non seulement de sa part avec L[eurs]. A[ltesses]. mais aussy de contribuer à
+                    leur accommodement avec Sa Maj[es]té le <rs ref="#pp0249">Roy et la Couronne de
+                        Suede</rs><note n="11" type="annotation">Karl XI. (1660-1697), schwedischer
+                        König.</note> et ayant dès aussitost de leur côté donné pleinpouvoir et
+                    Commission aux <rs ref="#pp0250">S[ieu]rs de Bernstorff</rs><note n="12"
+                        type="crit_app">Sachanmerkung: Bernstorf, Andreas Gottlieb v. (1649-1726),
+                        seit 1677 Geheimer Rat und Kanzler Georg Wilhelms. Textvariante: Actes:
+                        Berenstorff.</note> et de <rs ref="#pp0251">Heimbourg</rs><note n="13"
+                        type="annotation">Heimburg, Friedrich v., Geheimer Hof- und Bergrat,
+                        Präsident, Unterhändler Rudolf Augusts.</note>, Leurs Ministres d´Etat et
+                    Praesidents de ses Conseils<note n="14" type="crit_app">Dumont, CTS: des leurs
+                        Conseils.</note>, d´entrer en conference avec le S[ieu]r <rs ref="#pp0248"
+                        >Comte de Rebenac</rs>, et d´arretter<note n="15" type="crit_app">Actes,
+                        CTS: arrester.</note>, conclure et signer avec Luy les conditions de la
+                    paix, il est arrivé qu´après une réciproque communication de<note n="16"
+                        type="crit_app">Actes, CTS: dès.</note> pleinpouvoirs, dont à la fin de ce
+                    traitté, les copies sont inseré<note n="17" type="crit_app">Dumont, Actes, CTS:
+                        inserées.</note> de mot en mot, on soit convenu et tombé d´accord de deux
+                    cotés, des conditions de paix, en la teneur qui ensuit.<lb/>1.<lb/>Il y aura une
+                    paix sincère et inviolable, entre<note n="18" type="crit_app">CTS:
+                        envers.</note> leurs M[ajes]tés les Roys et les Couronnes<note n="19"
+                        type="crit_app">Dumont, Actes, CTS: leurs Majestéz et les Couronnes.</note>
+                    de <rs ref="#pp0138">France</rs> et de <rs ref="#pp0249">Suede</rs>, et Leurs
+                    Successeurs et L[eurs]. A[ltesses]. de Bronsvic Lunebourg,
+                        Celle-Wolffenbuttel<note n="20" type="crit_app">CTS: Zell et Wolfembutel
+                        (auch im Folgenden).</note>, Leurs Successeurs et toute la Sérenissime
+                    maison.<lb/>2.<lb/>Il y aura de part et d´autre un perpetuel oubly et
+                        amnestie<note n="21" type="crit_app">CTS: Amnistie (auch im
+                        Folgenden).</note> générale, de toute ce qui s´est fait et passé, depuis le
+                    commencement de la presente guerre, en quelque lieu et maniere que se<note
+                        n="22" type="crit_app">Dumont, CTS, Actes: ce.</note> soit, et dans cette
+                    amnestie seront mème aux instantes prieres de L[eurs]. A[ltesses]. expressément
+                    compris, tous ceux qui ont servy L[eurs]. A[ltesses]. durant la guerre en
+                        quel<note n="23" type="crit_app">CTS: quelque (diese Form auch im
+                        Folgenden).</note> employ que ce puisse être, non obstant, qu´ils soient
+                    sujets ou Vassaux des deux Couronnes et en particulier des Duchez de Bremen et
+                        Verden<note n="24" type="annotation">Die Herzogtümer Bremen und Verden
+                        wurden 1648 in einem weltlichen Herzogtum zusammengefaßt und Schweden
+                        unterstellt.</note>, ou qu´ils les ayant servis cy devant, de maniere, que
+                    l´on ne pourra faire aucune recherche contr´eux ny les inquieter et s´en prendre
+                    à leurs personnes ou biens par voye de fait ou de justice, et pour quelle cause
+                    ou pretexte que ce puisse être. <lb/>3.<lb/>On fera cesser tous actes
+                    d´hostilitéz de part et d´autre entre <rs ref="#pp0138">Sa Maj[es]té tres
+                        Chrestienne</rs> Ses Alliés<note n="25" type="crit_app">CTS: Alliez.</note>
+                    et specialement la Couronne de Suede et L[eurs]. A[ltesses]. les S[eigneu]rs
+                    Ducs immediatement après l´eschange<note n="26" type="crit_app">CTS: l´échange
+                        (auch im Folgenden).</note> des ratifications du présent traitté aussitost
+                    que par Sa M[ajes]té. et L[eurs]. A[ltesses]. Ser[enissi]mes ou leur
+                    Plenipotentiaires respectivs<note n="27" type="crit_app">Dumont, Actes:
+                        respectif. CTS: respectifs.</note> en pourront être avertis, les Generaux et
+                    Commendants des trouppes et armees<note n="28" type="crit_app">CTS: Troupes et
+                        Armées.</note> de deux cótés<note n="29" type="crit_app">CTS:
+                    côtez.</note>.<lb/>4.<lb/>Et parce que le traitté de paix conclu à Munster et
+                    Osnabruck le 24 Octobre 1648 doit toujours étre le fondement le plus solide de
+                    la paix, et de la tranquillité de l´Empire, les deux Couronnes et L[eurs].
+                    A[ltesses]. Ser[enissi]mes le mettent encore pour regle de celle qu´ils font
+                    entre Elles avec obligation réciproque de contribuer tout ce qui dépend de l´un
+                    ou de l´autre, pour conserver la ditte paix de Westphalie en son entiere
+                    vigueur, sans faire prejudice pourtant à la Neutralité que la Seren[issi]me
+                    Maison de Bronsvic Lunebourg, gardera dans la presente guerre.<lb/>5.<lb/>Et
+                    pour affermir d´autant plus la Paix de Westphalie, le <rs ref="#pp0249">Roy et
+                        la Couronne de Suede</rs> consentent et s´obligent qu´en ce qui regarde le
+                    Cercle de la Basse Saxe et ses Etats qui sont compris dans ce traitté de paix,
+                    Sa M[ajes]té ne pretendra à la paix generale qui se fera, que le rétablissement
+                    des affaires dans l´Etat où elles doivent estre<note n="30" type="crit_app">CTS:
+                        être.</note> par les traittez de la Paix de Westphalie, et ne demandera rien
+                    qui n´y soit conforme, et dû à la Couronne en vigueur du dit
+                    traitté.<lb/>6.<lb/>Promettent et s´engagent L[eurs]. A[ltesses]. de rendre et
+                    restituer de bonne foy au <rs ref="#pp0249">Roy et la Couronne de Suede</rs> le
+                    Duché de Bremen tant qu´Elles s´en trouvent en possession et generalement ce
+                    qu´en depend sans exception, aussitost que la Paix Generale sera faite et que le
+                    dit S[eigneu]r <rs ref="#pp0249">Roy de Suede</rs> se jugera en etat de
+                    l´occuper et garder par ses propres forces.<lb/>7.<lb/>Promettent L[eurs].
+                    A[ltesses]. d´observer pendant le Cours de la presente guerre une exacte
+                    neutralité, et de ne point assister directement ny indirectement les ennemis des
+                    deux Couronnes.<lb/>8.<lb/>Promettent Leurs Maj[est]tés<note n="31"
+                        type="crit_app">CTS: Majestez (auch im Folgenden).</note> de France et de
+                    Suede de ne point faire entrer ny passer leurs trouppes<note n="32"
+                        type="crit_app">CTS: Troupes (auch im Folgenden).</note> et armées dans et
+                    par les pays et terres qui appartiennent à L[eurs]. A[ltesses]. ou<note n="33"
+                        type="crit_app">Dumont: à. Actes; CTS: ou à.</note> la Ser[enissi]me Maison
+                    de Brunsvic Lunebourg, la quelle de son côté n´accordera point les dits passages
+                    tant que la presente guerre dure, à ceux qui sont ou seront ennemis de<note
+                        n="34" type="crit_app">Dumont; CTS: des.</note> deux
+                    Couronnes.<lb/>9.<lb/>Les S[eigneur]s Roys de France et de Suede sur la priere
+                    qui leur en a été faitte par L[eurs]. A[ltesses]. promettent de les assister
+                    dans la garantie qu´Elles ont à donner aux <rs ref="#pp0253"><rs ref="#pp0252"
+                            >Ducs de Meklenbourg</rs></rs><note n="35" type="crit_app">Textvariante:
+                        CTS: Meklembourg. Sachanmerkung: Herzöge von Mecklenburg: -Schwerin:
+                        Christian Ludwig I. (1658-1692); -Strelitz: Adolf Friedrich II
+                        (1658-1708).</note> et <rs ref="#pp0254">Saxen Lauenbourg</rs><note n="36"
+                        type="crit_app">Textvariante: CTS: Saxe-Lavenbourg. Sachanmerkung: Herzog
+                        von Sachsen-Lauenburg (Haus Anhalt): Julius Franz (1666-1689).</note>, <rs
+                        ref="#pp0255">l´Evêque de Lubec</rs><note n="37" type="crit_app"
+                        >Textvariante: CTS: Lubek (auch im Folgenden). Sachanmerkung: Fürstbischof
+                        von Lübeck (seit 1586 aus den Hause Holstein-Gottorf): August Friedrich
+                        (1666-1705).</note>, aux <rs ref="#pp0256"><rs ref="#pp0257"><rs
+                                ref="#pp0258">Comtes de Lippe</rs></rs></rs><note n="38"
+                        type="crit_app">Grafen zur Lippe: -Detmold: Simon Heinrich (1666-1697);
+                        -Schauenburg: Philipp (1640-1681); -Brake: Friedrich (gest. 1684).</note>,
+                    et de <rs ref="#pp0259"><rs ref="#pp0260"><rs ref="#pp0261"
+                            >Schwarzbourg</rs></rs></rs><note n="39" type="crit_app">Textvariante:
+                        CTS: Schwartzbourg. Sachanmerkung: Grafen von Schwarzburg: -Sondershausen:
+                        Christian Wilhelm (1666-1721, Fürst seit 1697); -Arnstadt: Anton Günther
+                        (1666-1716, Fürst seit 1709); -Rudolstadt: Albert Anton (1646-1710).</note>,
+                    et Ville de Lubec et Hambourg, à l´égard des pretentions que font ou pourroient
+                    faire contre les dits Princes et Etats le <rs ref="#pp0262">Roy de
+                        Dennemarc</rs><note n="40" type="crit_app">Textvariante: CTS: Danemark (auch
+                        unten). Sachanmerkung: Christian V. (1670-1699), Kg. v. Dänemark.</note> et
+                        <rs ref="#pp0263">l´Electeur de Brandebourg</rs><note n="41"
+                        type="annotation">Friedrich Wilhelm (1620-1688), ab 1640 Kf. und Markgraf
+                        von Brandenburg.</note> sous prétexte de certaines assignations obtenuës
+                    pendant la guerre, et Leurs Maj[es]tés employeront leurs offices les plus
+                    efficaces à la paix qu´ils feront avec <rs ref="#pp0001">Sa Maj[es]té
+                        Imperiale</rs><note n="42" type="annotation">Leopold I. (1658-1705), dt.
+                        Kaiser.</note> et où il sera necessaire pour que les dittes assignations
+                    soient entierement abolies, et les Princes et Etats susmentionnez, pour telle
+                    cause point troublez ou inquietez à l´avenir.<lb/>10.<lb/>Les deux Couronnes
+                    garantiront la Ser[eniss]me Maison de Bronsvic Lunebourg de tout dommage et
+                    préjudice qui Luy pourroit étre fait à cause et à l´occasion de cette paix, sous
+                        quel<note n="43" type="crit_app">Dumont; CTS: quelque.</note> pretexte que
+                    ce puisse étre, et l´assisteront en cas qu´elle fust attaquée de qui que ce
+                    soit, six semaines après la requisition, ou plutôt si faire se peut, des forces
+                    convenables au danger.<lb/>11.<lb/>Son Altesse le S[eigneu]r Duc <rs
+                        ref="#pp0264">Erneste Auguste</rs><note n="44" type="annotation">Ernst
+                        August (1629-1698), seit 1660 Bf. v. Osnabrück, seit 1692 Kf. von
+                        Hannover.</note>, Prince d´Osnabrug<note n="45" type="crit_app">CTS:
+                        Osnabruk (auch im Folgenden).</note> jouira<note n="46" type="crit_app">CTS:
+                        jouïra.</note> pour Elle et ses Etats de cette Paix et des conditions sus
+                    dittes, tout de mesme comme si Elle eust concouru au present traitté,
+                    conjointement avec L[eurs]. A[ltesses]. son frère et cousin à condition que
+                    S[on]. A[ltesse]. fournisse sa<note n="47" type="crit_app">Actes: la.</note>
+                    ratification contre celle du Roy tres Chrestien<note n="48" type="crit_app">CTS:
+                        Roi Tres-Chrêtien.</note> trois semaines après que l´echange en aura eté
+                    faite entre le dit S[eigneu]r Roy et L[eurs].</p>
+                <p> A[ltesses]. susmentionnées.<lb/>12.<lb/>Consentent les Couronnes à la priere qui
+                    leur en à été faitte, que de cette paix et de son effet, ne jouiront<note n="49"
+                        type="crit_app">CTS: jouïront.</note> pas seulement la Ser[enissi]me Maison
+                    de Bronsvic Lunebourg et ceux qui luy appartiennent, mais de plus tous les Etats
+                    du Cercle de la Basse Saxe ( à l´exception de ceux qui sont, et seront
+                    actuellement en guerre contre les deux Couronnes) en particulier y seront
+                    compris les villes de Lubec, Bremen, Hambourg aussi bien à l´egard de leur
+                    propre sureté<note n="50" type="crit_app">CTS: seureté.</note>, que de celle, de
+                    Leurs Commerces à condition pour tant qu´elles reçoivent et donnent toute
+                    seureté aux Agents et Ministres des Roys comme avant la guerre, et que les dits
+                    Etats ne s´opposent ny à Ratisbonne ny autre part au rétablissement<note n="51"
+                        type="crit_app">Actes: establissement.</note> de la Paix de
+                        Westphalie.<lb/>13.<lb/><rs ref="#pp0138">Sa Majesté tres Chrestienne</rs>
+                    se veut obliger en vigueur de cette declaration, de fournir et procurer
+                    l´aggrément de ce present traitté et tout ce qu´y est contenu, de Sa Maj[es]té
+                    le <rs ref="#pp0249">Roy et la Couronne de Suede</rs>, et d´en obtenir la
+                    ratification en bonne et duë forme, dans le temps de trois mois, à conter<note
+                        n="52" type="crit_app">CTS: compter (auch im Folgenden).</note> du jour de
+                    la signature, ou plustost si faire se peut; et avant que la ditte ratification
+                    soit délivrée aux mains de L[eurs]. A[ltesses]. Elles ne seront point
+                        obligez<note n="53" type="crit_app">CTS: obligées.</note> de rendre le pays
+                    Bremen, de quoy sa ditte Maj[es]té tres Chrestienne demeure garand<note n="54"
+                        type="crit_app">CTS: garante.</note> de méme que de tout ce qu´en vigueur du
+                    present traitté à été accordé à L[eurs]. A[ltesses]. et la<note n="55"
+                        type="crit_app">Dumont, CTS: et toute la.</note> Ser[enissi]me Maison de
+                    Bronsvic Lunebourg.<lb/>14.<lb/>Les deux Couronnes feront comprendre le present
+                    traitté, en ce luy qu´elles feront avec Sa M[ajes]té Imperiale et l´Empire, a
+                    fin qu´il aye<note n="56" type="crit_app">Dumont, CTS, Actes: ait.</note> le
+                    même effet, et que la Ser[enissi]me Maison de Bronsvic Lunebourg y trouve la
+                    même seureté comme si Elle avoit conclu conjointement avec Sa Majesté
+                    Imperiale.<lb/>15.<lb/>Le present traitté sera ratifié et approuvé de Sa
+                    Maj[es]té tres Chrestienne et de L[eurs]. A[ltesses]. les S[eigneu]rs Ducs et
+                    les ratifications en bonne forme eschangées<note n="57" type="crit_app">CTS:
+                        échangées</note> à Celle en quatre semaines à conter du jour de la signature
+                    ou plutôt si faire se peut.<lb/>En foy de quoy nous Envoyés Extraordinaires et
+                    Plenipotentiaires de Sa M[ajes]té tres Chrestienne, et de L[eurs]. A[ltesses].
+                    de Bronsvic Lunebourg en vertu de nos pouvoirs respectifs; Avons signé ces
+                    presentes et y fait apposer les cachets de nos armes. Fait à Celle le 26 Janvier
+                    / 5. Fevrier 1679<note n="58" type="crit_app">Actes: datiert nur auf 26.Januar
+                        1679 (auch unten); CTS: 5. Fevrier st.n. 26. Janvier st.v. 1679 (auch
+                        unten).</note>.<lb/>LS Rebenac<lb/>LS de Bernstorff<lb/>LS de Heimbourg</p>
+                <p><lb/>Article Secret 1</p>
+                <p>Outre les articles contenus au Traitté conclu et signé ce jourd´huy de la part de
+                        <rs ref="#pp0138">Sa Maj[es]té tres Chrestienne</rs>, et L[eurs].
+                    A[ltesses]. Ser[enissi]mes les Ducs de Brounsvic et <rs ref="#pp0246">Lunebourg
+                        Celle</rs> et <rs ref="#pp0247">Wolffenbuttel</rs><note n="59"
+                        type="crit_app">CTS: Wolfembutel.</note>, on est encore convenu de ce qui
+                    suit:</p>
+                <p>Ayant été accordé par l´article 10 du Traitté principal que leurs M[ajes]tés
+                        garantiront<note n="60" type="crit_app">Actes: garantiroient.</note> la
+                    maison Ser[enissi]me de Brounsvic et Lunebourg de tout dommage et préjudice, qui
+                    leur pourroit être fait de qui que ce soit à cause et occasion de la paix
+                    qu´Elle fait avec les Couronnes, Leurs M[ajes]tés declarent de plus par le
+                    present article, que la dite maison jouira de cette garantie particulierement
+                    contre les entreprises que le <rs ref="#pp0262">Roy de Dannemarc</rs> et <rs
+                        ref="#pp0263">l´Electeur de Brandebourg</rs> pourroient faire contre Elle
+                    sous quel pretexte et en quel temps avant ou apres la paix generale on<note
+                        n="61" type="crit_app">Dumont; CTS: qu´on.</note> les fasse éclatter.<lb/>Ce
+                    present article separé aura pareille force et vigueur, que s´il étoit inseré
+                    dans le corps du traitté principal passé ce jourd´huy et la ratification en sera
+                    fournie en méme temps.<lb/>Fait à Cell ce 26/Janvier / 5 Fevrier 1679 </p>
+                <p>LS <rs ref="#pp0248">Rebenac</rs><lb/>LS <rs ref="#pp0250">de
+                    Bernstorff</rs><lb/>LS <rs ref="#pp0251">de Heimbourg</rs></p>
+                <p><lb/>Article Secret 2</p>
+                <p>Il a été accordé aux instances de L[eurs]. A[ltesses]. de Bronsvic Lunebourg que
+                    les deux Couronnes de France et de Suede à la Paix qu´Elles feront avec
+                    l´Empereur et l´Empire procureront à tous les Princes de la maison Ser[nissi]me
+                    de Bronsvic et de Lunebourg une amnestie<note n="62" type="crit_app">CTS:
+                        amnistie.</note> et abolition generale sur tout ce qui s´est passé à l´egard
+                    des quartiers d´hyver, contributions, passages des<note n="63" type="crit_app"
+                        >CTS: de.</note> trouppes dans l´Empire ou d´autre maniere, dans le cours de
+                    cette guerre, de sorte que les dits Princes ne puissent<note n="64"
+                        type="crit_app">CTS: pussent.</note> être inquieté<note n="65"
+                        type="crit_app">Dumont; Actes: inquietés. CTS: inquietez.</note> pour telles
+                    causes avant ou apres la Paix Generale par voyes<note n="66" type="crit_app"
+                        >Dumont, CTS: voie.</note> de fait ou de justice ou telle autre que ce
+                    puisse etre.<lb/>Le quel article secret aura pareille force et vigueur que s´il
+                    étoit inseré dans le Corps du Traité principal, passé ce jourd´huy et la
+                    ratification en sera fournie en méme temps.<lb/>Fait à Celle ce 26. Janvier
+                    st.v./ 5. Fevrier st.n. 1679.</p>
+                <p>LS <rs ref="#pp0248">Rebenac</rs><lb/>LS <rs ref="#pp0250">de
+                    Bernstorff</rs><lb/>LS <rs ref="#pp0251">de Heimbourg</rs></p>
+                <p/>
+                <p><lb/>Articuli Separati<note n="67" type="crit_app">CTS: Abdruck vor den beiden
+                        Geheimartikeln.</note></p>
+                <p>Outre les articles contenus au traité conclu et signés ce jourd´huy de la part de
+                    sa Majesté Tres-Chrestienne et Leurs Altesses Ser[enissi]mes<note n="68"
+                        type="crit_app">Actes: [Einschub:] Ducs.</note> de Bronsvic et<note n="69"
+                        type="crit_app">CTS: [Einschub]: de.</note>
+                    <rs ref="#pp0246">Lunebourg Celle</rs> et <rs ref="#pp0247">Wolffenbuttel</rs>
+                    on est encore convenu de ce qui suit.<lb/>1.<lb/>Sa Majesté le Roy et la
+                    Couronne de Suède ayant consideré, que le Bailliage de Thedinghausen<note n="70"
+                        type="crit_app">CTS: Tedinghausen (auch im Folgenden). Thedinghausen, in der
+                        Grafschaft Hoya an der Weser gelegen. Ernst August trat seinen Anteil 1681
+                        an Georg Wilhelm ab, behielt jedoch Diepholz.</note>, à cause que ses
+                    dépendences sont beaucoup mêlées avec celles du Comté de Hoya<note n="71"
+                        type="annotation">Grafschaft Hoya, seit Anfang 16. Jahrhunderts unter der
+                        Lehenshoheit Braunschweig-Lüneburgs, dann unter den Mitgliedern des
+                        Welfenhauses (Calenberg, Celle, Wolffenbüttel) als Reichslehen aufgeteilt
+                        und ab 1705 im Besitz Celles.</note> fournissoit matière à des disputes
+                    perpetuelles, ce qu´Elle trouve contraire à son inclination d´entretenir à
+                    l´avenir une etroitte Alliance et amitié avec L[eurs]. A[ltesses]. et la Maison
+                    Ser[enissi]me de Bronsvic et Lunebourg, et Sa Maj[es]té ayant outre cela eu
+                    egard à la maniere honeste, dont L[eurs]. A[ltesses]. ont usé dans le cours de
+                    cette guerre, aussy bien, qu´au bon traittement, qu´Elles ont fait aux habitans
+                    du pays de Bremen, Sa Maj[es]té en ces considerations s´est portée d´autant plus
+                    volontiers à accorder à L[eurs]. A[ltesses]. susdites des marques et effets
+                    reels, de sa bien veillance, par la presente declaration et article, en vertu
+                    duquel Sa Maj[es]té<note n="72" type="crit_app">Dumont, Actes, CTS: Sa Majesté
+                        le Roi.</note> et la Couronne de Suede renoncent, cedent et transportent
+                    pour Elle<note n="73" type="crit_app">CTS: Elles.</note>, leurs Hoirs,
+                    Successeurs et ayants cause à L[eurs]. A[ltesses]. susdites les Seigneurs Ducs
+                    et leurs heretiers à perpetuité et à tousjours avec toute la souveraineté et
+                    droits territoriaux, tant ecclesiastiques que politiques, cy devant possedés,
+                    par les Duchés<note n="74" type="crit_app">Dumont, CTS: Ducs.</note> de Bremen
+                    et de Verden, sans exception<note n="75" type="crit_app">Dumont, CTS:
+                        exceptions.</note> quelconque ce qui s´en suit.<lb/>2.<lb/>La Provosté ou
+                    Vogtey de Dorvern<note n="76" type="crit_app">Sachanmerkung: Dörverden, im
+                        Herzogtum Verden gelegen. Textvariante: CTS: Dorwern, Actes: Dowern.</note>
+                    et tout le trait ou coin de Terre, qui est entre les rivières de Weser et Aller,
+                    confinant avec les terres de la Ser[enissi]me maison et appartenant au Duché de
+                    Verden, et ce qui y est contenu avec toutes<note n="77" type="crit_app">Dumont,
+                        Actes, CTS: tous.</note> les Domaines, forêts et revenus, auquel district
+                    pourtant il ne sera point basty de forteresse, ny estably<note n="78"
+                        type="crit_app">CTS: établi.</note> des<note n="79" type="crit_app">Dumont;
+                        Actes; CTS: de.</note> nouveaux peages, par L[eurs]. A[ltesses]. et Leurs
+                    successeurs ce qui s´entend saufs les droits, possessions, et proprietés de la
+                    ville de Verden<note n="80" type="crit_app">Actes: Dellerden.</note>,
+                    Gentilshommes et autres particuliers, qui ont des biens dans le dit
+                    district.<lb/>Le plus et 2. le Baillage de Thedinghausen, avec toutes ses
+                    dependances, droits, domaines, terres, villages et limites, dans le même étast
+                    et la même consistance<note n="81" type="crit_app">CTS: [Einschub] la.</note>,
+                    qu´il a été possedé avant ces guerres, par la Couronne de Suède<note n="82"
+                        type="crit_app">Actes: Art. 2 endet hier.</note> sans limitation et sans
+                    exception quelconque.<lb/>3.<lb/>Tous les droits, revenus, capitaux, rentes et
+                    possessions soit en terres ou bois, dont les Evesches<note n="83"
+                        type="crit_app">CTS: Evêchez.</note> et chapitres, et apres la paix de
+                    Westphalie les Duchés de Bremen et Verden, ou leurs dépendances, et ceux, qui
+                    l´ont tenu d´Eux, ont joui cy devant et jusques à la guerre presente, dans les
+                    Estats et terres de l´obéissance de L[eurs]. A[ltesses]. sans aucune
+                    exception.<lb/>Sa Maj[es]té pour soy et son Royaume, ses Hoirs et Successeurs à
+                    la Couronne, renonce à tout le droit, qu´elle a eu, ou qu´Elle peut prétendre,
+                    en vertu des traittés de paix, faits cy devant, sur les dits lieux, terres, et
+                    Domaines, sans en rien retenir ny reserver, et ce non obstant toutes loix,
+                    investitures passées et futures, coutumes<note n="84" type="crit_app">Actes:
+                        coustumes. CTS: Coûtumes.</note> et constitutions au contraire, et
+                    specialement ce que dit est à l´article 6. du Traité principal auxquelles et
+                        au<note n="85" type="crit_app">Dumont; Actes; CTS: aux.</note> clauses
+                    dérogatoires, il est expressement dérogé par le présent traitté.<lb/>Sa
+                    Maj[es]té de Suede promet de plus d´indemniser et de garantir la dite
+                    Ser[nissi]me Maison de Bronsvic et Lunebourg, contre toutes les pretensions<note
+                        n="86" type="crit_app">CTS: pretentions.</note>, que quelques particuliers
+                    pourront former contre les susdits pays, possessions<note n="87" type="crit_app"
+                        >Dumont; CTS: possession.</note>, terres, droits et revenus cedés à la ditte
+                    Ser[issi]me maison de maniere, qu´Elle ne puisse être troublée ou inquietée dans
+                    la tranquille possession et jouissance des dittes appartenances par voye de
+                    fait, ou de justice, ou sous quelque pretexte, que ce puisse étre, non obstant
+                    tous les actes, contracts, donations, ou autres exceptions alleguées ou
+                    contraire. Sa Maj[es]té promettent<note n="88" type="crit_app">Dumont, CTS:
+                        promettant.</note> méme de solliciter et de procurer sur tout ce qui est dit
+                    cy dessus, le consentement de l´Empereur et de l´Empire, et en particulier
+                    employeront les deux Couronnes des offices efficaces, afin que les terres,
+                    droits et revenues, transportées par la Suede à L[eurs]. A[ltesses]. en vigueur
+                    du present traité leur soient laissées<note n="89" type="crit_app">Actes:
+                        laisés; Dumont: laissée; CTS: laissez.</note> par l´Empereur et l´Empire,
+                    comme allodiaux ou au moins en qualité d´un feudum promiscuum<note n="90"
+                        type="crit_app">Hervorhebung durch gesperrte Schreibweise.</note>, et comme
+                    la Suede les a possedées.<lb/>2.<lb/>Quoy qu´il soit dit dans l´art. 6. du
+                    traité principal, que L[eurs]. A[ltesses]. feront restitution de ce qu´ils
+                    possedent au pays de Bremen dès que, la paix generale sera faite, et que la
+                    Couronne de Suède se jugera en Estat à<note n="91" type="crit_app">Dumont;
+                        Actes; CTS: de.</note> l´occuper et garder de ses propres forces, pourront
+                    les deux Roys de France et de Suede dans l´intention, qu´ils ont d´obliger
+                    L[eurs]. A[ltesses]. consentent et accordent en vertu de cet article, que
+                    L[eurs]. A[ltesses]. susdites puissent garder le pays de Bremen et jouir
+                    d´iceluy et de tous ses revenus ordinaires et extraordinaires, sans que la Suede
+                    en aye<note n="92" type="crit_app">Dumont; Actes; CTS: ait.</note> à
+                        prétendre<note n="93" type="crit_app">CTS: prétender.</note> aucun
+                    remboursement ou satisfaction, non plus que de ce qu´Elles en ont tiré durant
+                    cette guerre, jusque à 8<note n="94" type="crit_app">CTS: huit.</note> mois, à
+                    conter du jour, que la ratification du present traité sera mise entre les mains
+                    de L[eurs]. A[ltesses]. ce qui s´entend en cas que la conclusion et execution de
+                    la paix générale entre les parties, qui sont présentement en guerre ne se fasse
+                    avant l´expiration du dit terme, car alors le pays de Bremen sera rendu sans
+                    autre remise à la Couronne de Suede.<lb/>3. <lb/>Le S[eigneur]. <rs
+                        ref="#pp0138">Roy tres-Chrestien</rs> voulant continuer ses soins à
+                    l´affermissement du repos, et de la tranquillité de l´Empire, et pour n´oublier
+                    aucun moyen d´y parvenir, veut bien en consideration des frais faits par
+                    L[eurs]. A[ltesses]., accorder et promettre, comme il fait par le present
+                    article, de faire comter à L[eurs]. A[ltesses]. la somme de trois cents milles
+                    écus dans la ville de Hambourg, en argent de Banco<note n="95" type="crit_app"
+                        >Actes: Banque (auch im Folgenden).</note>, en même temps, que se fera la
+                    restitution du pays de Bremen, de cette<note n="96" type="crit_app">Actes:
+                        telle.</note> maniere, qu´au jour que sera arrêtée<note n="97"
+                        type="crit_app">Actes, CTS: arrestée.</note> la cession de la place de
+                    Carlsbourg (en conformité de l´article 6. icy<note n="98" type="crit_app">Actes:
+                        icy coucé.</note>) on mettra entre les mains des S[eigneu]rs Ducs, ou leurs
+                    Commissaires les premiers 100 m Rthllr<note n="99" type="crit_app">Reichsthaler.
+                        Actes: Rixdalers. Dumont; CTS: cent mille Risdales (auch im
+                        Folgenden).</note> au jour que l´on rendra Staade autres 100 m Rthllr, et au
+                    jour de Boxtehude tout le reste.<lb/>4.<lb/>Il a été accordé de plus de la part
+                    de <rs ref="#pp0138">Sa M[ajes]té Tres-Chretienne</rs> qu´en cas, que la guerre
+                    dure plus que<note n="100" type="crit_app">CTS: de.</note> 8<note n="101"
+                        type="crit_app">CTS: huit.</note> mois, apres l´eschange des ratifications
+                    du present traité, et que par consequent L[eurs]. A[ltesses]. selon la
+                    disposition de l´art. 2, ayent à rendre le pays de Bremen, au <rs ref="#pp0249"
+                        >Roy de Suède</rs>, avant que la presente guerre soit entierement terminée,
+                    Sa Maj[es]té fera payer à L[eurs]. A[ltesses]. par chaque mois, à comter du jour
+                    apres la restitution faite du pays de Bremen, la Somme de vingt milles écus à
+                    Hambourg, en argent de Banco jusques à l´execution entiere de la paix generale,
+                    entre les parties, qui sont presentement en guerre.<lb/>5.<lb/>En cas qu´il
+                    reste à L[eurs]. A[ltesses]. au terme que la restitution se doit faire quelques
+                        arrierages<note n="102" type="crit_app">CTS: Arrerages.</note> de<note
+                        n="103" type="crit_app">CTS: des.</note> deux derniers mois, soit des
+                    contributions, domaines et autres revenus du pays de Bremen, il sera pourveu au
+                    payement par des cautions suffisantes.<lb/>6.<lb/>L[eurs]. A[ltesses]. pour
+                    marquer d´autant plus la reconnoissance, qu´Elles ont des bontés que les deux
+                    Roys leur font paroitre, promettent à leurs Maj[es]tés, que non seulement Elles
+                    défendront le pays de Bremen, tant qu´Elles l´auront à garder de toutes leurs
+                    forces contre ceux, qui le voudront actes voudroient<note n="104"
+                        type="crit_app">CTS: voudront.</note> attaquer, mais aussy qu´Elles ne
+                    feront point sortir les garnisons, que L[eurs]. A[ltesses]. ont dans Carlsbourg
+                    et le fort de Swinge, sans y faire entrer en mème temps des trouppes du Roy de
+                    Suède à condition pourtant qu´il sera accordé un sauf conduit aux trouppes de
+                    Dennemarc et Munster, qui se trouveront dans la place.<lb/>De plus promettent
+                    L[eurs]. A[ltesses]. de bonne foy de traiter les habitans du pays de Bremen,
+                    tant qu´Elles en seront en possession, comme Elles ont fait jusques icy<note
+                        n="105" type="crit_app">CTS: jusqu´icy.</note>, avec moderation, sans les
+                    charger des imposts et de<note n="106" type="crit_app">CTS: [Auslassung]
+                        de.</note> taxes nouvelles.<lb/>7.<lb/>L[eurs]. A[ltesses]. laisseront dans
+                    les places de Stade, Carlsbourg et Boxtehude, le canon et la munition de guerre,
+                    qui s´y trouve presentement de ce qui a été à la Suède, à l´exception de 3
+                    pieces, que L[eurs]. A[ltesses]. pourront garder, aussy bien que tout ce
+                    qu´appartient à Elles, et qui se trouve marqué de leurs noms ou armes, ou que
+                    L[eurs]. A[ltesses]. ont fait mener dans les dites places du temps, qu´Elles les
+                    ont possedés, ce que L[eurs]. A[ltesses]. s´engagent à executer de bonne
+                    foy.<lb/>8.<lb/>La maison Ser[issime]me de Brounsvic et de Lunebourg
+                        s´engagent<note n="107" type="crit_app">Dumont, Actes, CTS: s'engage.</note>
+                    à n´accorder aucun logement, passage ou retraitte, dans et par les Estats et
+                    terres, ou la dite maison a ses quartiers, dans les cercles de Saxe et le Comté
+                    de Lippe aux trouppes de Dennemarc et Brandebourg, et ayant prié tres instamment
+                    Leurs M[ajes]tés de France et de Suede, de l´assister en ce dessein, aussy bien,
+                    comme à maintenir la maison Ser[enissi]me dans lesdits quartiers, Leurs
+                    Maj[es]tés y donnent volontiers les mains et consentent de plus que pour ne pas
+                    donner occasion à autruy de faire la méme chose, Elles se feront point entrer
+                    leurs trouppes et armées dans lesdits quartiers, si ce n´est du bon gré et du
+                    consentement de L[eurs]. A[ltesses]. et en tel cas L[eurs]. M[ajes]tés les
+                    feront dédommager, aussy bien que les Estats des dits pays de toute perte, et de
+                    frais et dégasts, que les trouppes des Roys y pourront causer, auprès desquelles
+                    L[eurs]. M[ajes]tés feront observer un ordre et discipline tres-exacte, et payer
+                    tout ce qui leur sera fourny de maniere que tel passage ne tourne aucunement au
+                    préjudice de L[eurs]. A[ltesses]. ou des Estats auxquels Elles se trouvent
+                        engagés<note n="108" type="crit_app">Dumont; Actes; CTS:
+                    engagées.</note>.<lb/>9.<lb/>Les S[eigneu]rs Ducs ayants fait des prieres tres
+                    instantes aux deux Roys, pour qu´il plust à L[eurs]. M[ajes]tés de donner la
+                    paix à M[onsieu]r l´Eveque de Paderborn et Munster, à des conditions
+                        equitables<note n="109" type="crit_app">CTS: équitabels.</note>, L[eurs].
+                    M[ajes]tés auront égard à cette intercession, et feront jouir au dit S[eigneu]r
+                    Evêque de l´effet d´icelle à condition que luy de son coté fasse des avances
+                    necessaires pour cela.<lb/>10.<lb/>De plus accordent L[eurs]. Maj[es]tés sur la
+                    priere de L[eurs]. A[ltesses]. et en consideration de la proche parentée<note
+                        n="110" type="crit_app">Actes; CTS: parenté.</note> avec Elles de remettre
+                    et recevoir à l´honneur de leurs bonnes graces M[onsieu]r le <rs ref="#pp0265"
+                        >Duc de Holstein Ploen</rs><note n="111" type="annotation">Herzog August von
+                        Holstein Plön (1635-1699) hatte im Krieg gegen Frankreich ab 1674 die
+                        welfischen Kontingente geführt.</note>, et le feront jouir de la paix faite
+                    avec L[eurs]. A[ltesses]. de sorte, qu´en cas, que les armes<note n="112"
+                        type="crit_app">Dumont, CTS: armées.</note> de L[eurs]. M[ajes]tés dans le
+                    cours de cette guerre entrent dans le pays de Holstein, le dit S[eigneu]r <rs
+                        ref="#pp0265">Duc de Ploen</rs><note n="113" type="crit_app">Actes: ledit
+                        Seigneur Ploen.</note> et tout ce que luy appartient, sera traité comme
+                    serviteur et bon amy de L[eurs]. M[ajes]tés comme L[eurs]. A[ltesses].
+                    promettent de leur coté d´employer tous les offices possibles pour les interests
+                    de M[onsieu]r le <rs ref="#pp0266">Duc de Holstein Gottorff</rs><note n="114"
+                        type="crit_app">Herzog Christian Albrecht von Holstein-Gottorf
+                        (1659-1694).</note>. <lb/>11.<lb/>De plus L[eurs]. M[ajes]tés promettent, de
+                    ne point faire la paix avec leurs ennemis sans inclusion de la Ser[enissi]me
+                    maison de Bronsvic Lunebourg, et sans une pleine restitution et dédommagement de
+                    tout ce qu´Elle pourroit perdre, ou auroit perdue ou soufferte<note n="115"
+                        type="crit_app">Dumont; Actes; CTS: perdu ou souffert.</note> en cas qu´il
+                    luy fallust entrer en guerre avec quelqu´un, au sujet de ce
+                    traité.<lb/>12.<lb/>Son Altesse le S[eigneu]r Duc <rs ref="#pp0264">Erneste
+                        Auguste Prince d´Osnabrug</rs><note n="116" type="crit_app">CTS: Osnabruk
+                        (im Folgenden).</note> jouira de ce qui est contenu dans les présentes
+                    articles separés, de la même maniere, et à la condition exprimée dans l´article
+                    XI du traité principal.<lb/>13.<lb/><rs ref="#pp0138">Sa Majté
+                        tres-Chrestienne</rs> veut obliger comme Elle fait par le present article de
+                    fournir et procurer l´aggreement et la ratification de sa M[ajes]té le <rs
+                        ref="#pp0249">Roy et la Couronne de Suede</rs>, sur ces articles separés, et
+                    tout ce qu´y est contenu de garantir ce, qui y est accordé à L[eurs].
+                    A[ltesses]. de Bronsvic et<note n="117" type="crit_app">CTS: [Auslassung]
+                        et.</note> Lunebourg, et de ne les point obliger à la restitution du pays de
+                    Bremen, avant que la ratification pure et simple de la Suede ne leur soit
+                    délivrée tout en conformité, et de la même maniere, comme il est dit et stipulé
+                    dans l´article 13 du Traité principal.<lb/>14.<lb/>Le contenu des presents
+                    articles sera compris dans la Paix, que les deux Couronnes feront avec sa <rs
+                        ref="#pp0001">Maj[es]té Imperiale</rs> et l´Empire.<lb/>15. <lb/>Les
+                    presentes articles separés auront pareille force et vigueur, que s´ils étoient
+                    inserés dans le corps du traité principal passé ce jourd´huy, et la ratification
+                    en sera fournie en méme temps.</p>
+                <p>Fait à Celle ce 26 Janvier st.v. + / 5. Fevrier st.n. 1679 </p>
+                <p>LS <rs ref="#pp0248">Rebenac</rs><lb/>LS <rs ref="#pp0250">de
+                    Bernstorff</rs><lb/>LS <rs ref="#pp0251">de Heimbourg</rs></p>
+            </div>
+
+        </body>
+        <back>
+            <listBibl>
+                <bibl xml:id="a222">
+                    <title level="a">Reichsarchiv (1679-02-05)</title>
+                    <title level="m">Reichsarchiv, Band 5 (1713), PSpec I-4, S.150-161 Aus:
+                        Dokumentenarchiv der Universitätsbibliothek Augsburg (Drucke vor 1900 /
+                        Historische Geschichtswerke).</title>
+                    <biblScope>
+                        <graphic xml:id="A1Pnr1"
+                            url="https://www.ieg-friedensvertraege.de/dbimages/img_4a9666f81e7c0"/>
+                        <graphic xml:id="A1Pnr2"
+                            url="https://www.ieg-friedensvertraege.de/dbimages/img_4a96670189e4e"/>
+                        <graphic xml:id="A1Pnr3"
+                            url="https://www.ieg-friedensvertraege.de/dbimages/img_4a966709c18bf"/>
+                        <graphic xml:id="A1Pnr4"
+                            url="https://www.ieg-friedensvertraege.de/dbimages/img_4a96671757156"/>
+                        <graphic xml:id="A1Pnr5"
+                            url="https://www.ieg-friedensvertraege.de/dbimages/img_4a9667319a6e1"/>
+                        <graphic xml:id="A1Pnr6"
+                            url="https://www.ieg-friedensvertraege.de/dbimages/img_4a9667319a6e1"/>
+                        <graphic xml:id="A1Pnr7"
+                            url="https://www.ieg-friedensvertraege.de/dbimages/img_4a96673b2c10f"/>
+                        <graphic xml:id="A1Pnr8"
+                            url="https://www.ieg-friedensvertraege.de/dbimages/img_4a966744996d7"/>
+                        <graphic xml:id="A1Pnr9"
+                            url="https://www.ieg-friedensvertraege.de/dbimages/img_4a96674ddbd25"/>
+                        <graphic xml:id="A1Pnr10"
+                            url="https://www.ieg-friedensvertraege.de/dbimages/img_4a9667704f265"/>
+                        <graphic xml:id="A1Pnr11"
+                            url="https://www.ieg-friedensvertraege.de/dbimages/img_4a966779ddb70"/>
+                        <graphic xml:id="A1Pnr12"
+                            url="https://www.ieg-friedensvertraege.de/dbimages/img_4a966785d1faf"/>
+                    </biblScope>
+                </bibl>
+                <bibl xml:id="a45">
+                    <title level="a">Theatrum Europaeum (1679-02-26)</title>
+                    <title level="m">Theatrum Europaeum, Band 11 (1672-1679) Aus: Dokumentenarchiv
+                        der Universitätsbibliothek Augsburg (Drucke vor 1900 / Historische
+                        Geschichtswerke).</title>
+                    <biblScope>
+                        <graphic xml:id="A2Pnr1"
+                            url="https://www.ieg-friedensvertraege.de/dbimages/img_49e5e020c77ee"/>
+                        <graphic xml:id="A2Pnr2"
+                            url="https://www.ieg-friedensvertraege.de/dbimages/img_49e5e02688fca"/>
+                        <graphic xml:id="A2Pnr3"
+                            url="https://www.ieg-friedensvertraege.de/dbimages/img_49e5e02c718a4"/>
+                        <graphic xml:id="A2Pnr4"
+                            url="https://www.ieg-friedensvertraege.de/dbimages/img_49e5e032b101c"/>
+                        <graphic xml:id="A2Pnr5"
+                            url="https://www.ieg-friedensvertraege.de/dbimages/img_49e5e0380137c"/>
+                    </biblScope>
+                </bibl>
+                <bibl>Sundberg, Svenska freder och stillestånd, S. 291f.</bibl>
+                <bibl>Seitz / Rosengren, Sveriges freder och fördrag, S. 60f.</bibl>
+                <bibl>Rosendahl, Geschichte Niedersachsens im Spiegel der Reichgeschichte, Hannover
+                    1927.</bibl>
+                <bibl>Höynck, Frankreich und seine Gegner auf dem Nymweger Friedenskongreß, Bonn
+                    1960.</bibl>
+            </listBibl>
+        </back>
+    </text>
+</tei:TEI>

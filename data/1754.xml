@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE tei SYSTEM "../resources/FriVer_DTD.dtd">
+
+<?xml-model href="../resources/FriVer.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns="http://www.tei-c.org/ns/1.0" xml:id="pa000299-1754">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title level="s">European peace treaties of the pre-modern era in data / Europäische Friedensverträge der Vormoderne in Daten (FriVer+)</title>
+                <title when="1706-01-12" xml:id="t1754" when-custom="1706 I 12" level="a" ref="https://www.ieg-friedensvertraege.de/treaty/t-1754-1-de.html">Verlängerung des Freundschafts und Bündnisvertrags vom 1615 III 6 (lat. Ausfertigung, Beta-Version)</title>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    Digital edition according to
+                    <ref target="http://www.tei-c.org/">TEI P5</ref>
+                </edition>
+                <funder>
+                    <ref target="https://www.text-plus.org/">TEXT+</ref>
+                </funder>
+                <editor role="http://id.loc.gov/vocabulary/relators/edt" ref="https://orcid.org/0000-0002-8741-5916">
+                    <persName>Jaap Geraerts</persName>
+                    <note>The transformation and enrichment of the data is done by Jaap Geraerts (IEG Mainz). The other members of the FriVer+ team are Fabian Cremer, Ines Grund, and Thorsten Wübbena (all IEG Mainz).</note>
+                    <note>
+                        The original data has been created by the
+                        <ref target="https://www.ieg-friedensvertraege.de">team of scholars</ref>
+                        who were part of the Europäische Friedensverträge der Vormoderne project. This project was lead by Prof. Dr. Heinz Duchhardt and was based at the Leibniz Institute of European History in Mainz.
+                    </note>
+                </editor>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>
+                    <orgName ref="http://www.isni.org/0000000119314040">Leibniz-Institut für Europäische Geschichte Mainz</orgName>
+                </publisher>
+                <distributor>
+                    <orgName ref="http://www.isni.org/0000000110101946">Universitäts- und Landesbibliothek Darmstadt</orgName>
+                </distributor>
+                <idno type="ISIL">http://lobid.org/organisation/DE-17</idno>
+                <date type="issued" when="2023-12-23"/>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">
+                        <p xml:lang="en">This file is licensed under the terms of the Creative Commons License CC-BY 4.0 (Attribution 4.0 International)</p>
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <repository xml:id="r31">Zuerich StA
+                    <note>Z&uuml;rich StA, Findbuch:<lb />
+                        <ref target="http://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=251894" >http://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=251894</ref></note>
+                </repository>
+                <msDesc><p>Staatsarchiv Zürich (StAZH), C I, Nr. 468. (UI, O, lat.) &nbsp;&nbsp; Basisdaten zum Dokument sowie Inhaltsangabe finden Sie im digit. Archivkatalog des StAZH&nbsp;&nbsp;&nbsp; <ref target="http://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=249713" >
+                        </ref><ref target="http://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=251894" >Link zum StAZH</ref> 
+                        <lb /> 
+                    </p> 
+                    <p>Weitere Stücke: 
+                        <lb />Staatsarchiv Zürich (StAZH), C I, Nr. 469. (UI, Ü, dt.>) 
+                    </p> </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>
+                    The data in this XML file, originally created by the project
+                    <ref target="https://www.ieg-friedensvertraege.de/vertraege">Europäische Friedensverträge der Vormoderne online</ref>
+                    has been transformed in accordance with
+                    <ref target="http://www.tei-c.org/">TEI P5</ref>
+                    as part of the project
+                    <ref target="https://www.ieg-mainz.de/en/research/research-projects/european-peace-treaties-of-the-pre-modern-era-in-data">Europäische Friedensverträge der Vormoderne in Daten (FriVer+)</ref>
+                </p>
+            </projectDesc>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="la" xml:id="lan6">Latein</language>
+            </langUsage>
+        </profileDesc>
+    </teiHeader>
+    <standOff>
+        <listPerson>
+            <person role="signatory" xml:id="p157">
+                <persName ref="https://explore.gnd.network/gnd/4005762-8">
+                    <name>Bern</name>
+                </persName>
+            </person>
+            <person role="signatory" xml:id="p125">
+                <persName ref="https://explore.gnd.network/gnd/4062501-1">
+                    <name>Venedig</name>
+                </persName>
+            </person>
+            <person role="signatory" xml:id="p156">
+                <persName ref="https://explore.gnd.network/gnd/4068038-1">
+                    <name>Zürich</name>
+                </persName>
+            </person>
+        </listPerson>
+        <listPlace>
+            <place xml:id="loc181">
+                <placeName ref="https://explore.gnd.network/gnd/4068038-1">Zürich</placeName>
+            </place>
+        </listPlace>
+        <facsimile>
+            <surface xml:id="FacsPnr1">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_4677ddae2067e"/>
+            </surface>
+        </facsimile>
+    </standOff>
+    <text>
+        <front>
+            <div type="Drucke"><p>EA, Bd. 6.2, II&nbsp; (Beil.), S. 2312-2317. &nbsp; &nbsp; <ref target="http://digital.ub.uni-duesseldorf.de/periodical/pageview/1296523" ></ref><ref target="http://digital.ub.uni-duesseldorf.de/periodical/pageview/1296523" >Link zum Druck</ref></p></div>
+         </front>
+        <back>
+            <listBibl>
+                <bibl xml:id="a85">
+                    <title level="a">Theatrum Europaeum (1706-01-12)</title>
+                    <title level="m">Theatrum Europaeum, Band 17 (1704–1706) Aus: Dokumentenarchiv der Universitätsbibliothek Augsburg (Drucke vor 1900 / Historische Geschichtswerke).</title>
+                    <biblScope>
+                        <graphic xml:id="A1Pnr1" url="https://www.ieg-friedensvertraege.de/dbimages/img_49e6fce78681e"/>
+                        <graphic xml:id="A1Pnr2" url="https://www.ieg-friedensvertraege.de/dbimages/img_49e6fceceefdc"/>
+                    </biblScope>
+                </bibl>
+            </listBibl>
+        </back>
+    </text>
+</tei:TEI>

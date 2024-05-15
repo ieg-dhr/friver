@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--Special characters-->
+
+<!ENTITY nbsp "&#160;">
+<!ENTITY Ü "&#220;" >
+<!ENTITY ä "&#228;" >
+<!ENTITY ü "&#252;" >
+<!ENTITY uuml "ü" >
+<!ENTITY auml "ä" >
+<!ENTITY oacute "ó" >
+<!ENTITY eacute "é">
+<!ENTITY aacute "á" >
+<!ENTITY ntilde "ñ" >
+<!ENTITY ouml "ö" >
+<!ENTITY Ouml "Ö" >
+<!ENTITY egrave "è">
+<!ENTITY agrave "à">
+<!ENTITY szlig "ß" >
+<!ENTITY smallswithcaron "š">

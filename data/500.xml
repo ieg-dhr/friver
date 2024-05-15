@@ -1,0 +1,469 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE tei SYSTEM "../resources/FriVer_DTD.dtd">
+
+<?xml-model href="../resources/FriVer.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns="http://www.tei-c.org/ns/1.0" xml:id="pa000299-0500">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title level="s">European peace treaties of the pre-modern era in data / Europäische Friedensverträge der Vormoderne in Daten (FriVer+)</title>
+                <title when="1667-10-12" xml:id="t500" when-custom="1667 X 12" level="a" ref="https://www.ieg-friedensvertraege.de/treaty/t-500-1-de.html">Rezess von Glückstadt</title>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    Digital edition according to
+                    <ref target="http://www.tei-c.org/">TEI P5</ref>
+                </edition>
+                <funder>
+                    <ref target="https://www.text-plus.org/">TEXT+</ref>
+                </funder>
+                <editor role="http://id.loc.gov/vocabulary/relators/edt" ref="https://orcid.org/0000-0002-8741-5916">
+                    <persName>Jaap Geraerts</persName>
+                    <note>The transformation and enrichment of the data is done by Jaap Geraerts (IEG Mainz). The other members of the FriVer+ team are Fabian Cremer, Ines Grund, and Thorsten Wübbena (all IEG Mainz).</note>
+                    <note>
+                        The original data has been created by the
+                        <ref target="https://www.ieg-friedensvertraege.de">team of scholars</ref>
+                        who were part of the Europäische Friedensverträge der Vormoderne project. This project was lead by Prof. Dr. Heinz Duchhardt and was based at the Leibniz Institute of European History in Mainz.
+                    </note>
+                </editor>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>
+                    <orgName ref="http://www.isni.org/0000000119314040">Leibniz-Institut für Europäische Geschichte Mainz</orgName>
+                </publisher>
+                <distributor>
+                    <orgName ref="http://www.isni.org/0000000110101946">Universitäts- und Landesbibliothek Darmstadt</orgName>
+                </distributor>
+                <idno type="ISIL">http://lobid.org/organisation/DE-17</idno>
+                <date type="issued" when="2023-12-23"/>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">
+                        <p xml:lang="en">This file is licensed under the terms of the Creative Commons License CC-BY 4.0 (Attribution 4.0 International)</p>
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <repository xml:id="r24">Schleswig-Holstein LA
+                    <note>Landesarchiv Schleswig-Holstein, Abt. 7 Nr. 488<lb />
+                        Reichsarchiv: vol. 10, I, 180-184: <ref target="https://nbn-resolving.org/urn:nbn:de:bvb:384-uba000274-6#0180" >https://nbn-resolving.org/urn:nbn:de:bvb:384-uba000274-6#0180</ref><lb />
+                        Edition: Danmark-Norges Traktater 6, 225-240: <ref target="https://www.sa.dk/ao-soegesider/da/billedviser?epid=17287984#214837,40570532" >https://www.sa.dk/ao-soegesider/da/billedviser?epid=17287984#214837,40570532</ref></note>
+                </repository>
+                <msDesc><p>Landesarchiv Schleswig-Holstein: Abt. 7 Nr. 488.
+                </p> 
+                    <p>Weitere Stücke: Ebd.: Ratifikation Dänemarks 1667 X 18. 
+                        <lb /> 
+                    </p></msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>
+                    The data in this XML file, originally created by the project
+                    <ref target="https://www.ieg-friedensvertraege.de/vertraege">Europäische Friedensverträge der Vormoderne online</ref>
+                    has been transformed in accordance with
+                    <ref target="http://www.tei-c.org/">TEI P5</ref>
+                    as part of the project
+                    <ref target="https://www.ieg-mainz.de/en/research/research-projects/european-peace-treaties-of-the-pre-modern-era-in-data">Europäische Friedensverträge der Vormoderne in Daten (FriVer+)</ref>
+                </p>
+            </projectDesc>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="de" xml:id="lan2">deutsch</language>
+            </langUsage>
+        </profileDesc>
+    </teiHeader>
+    <standOff>
+        <listPerson>
+            <person role="signatory" xml:id="p32">
+                <persName ref="https://explore.gnd.network/gnd/4010877-6">
+                    <name>Dänemark</name>
+                </persName>
+            </person>
+            <person role="signatory" xml:id="p138">
+                <persName ref="https://explore.gnd.network/gnd/4514664-0">
+                    <name>Schleswig - Holstein - Gottorf</name>
+                </persName>
+            </person>
+        </listPerson>
+        <listPlace>
+            <place xml:id="loc192">
+                <placeName ref="https://explore.gnd.network/gnd/4021332-8">Glückstadt</placeName>
+            </place>
+        </listPlace>
+        <facsimile>
+            <surface xml:id="FacsPnr1">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_449a701a1de7a"/>
+            </surface>
+            <surface xml:id="FacsPnr2">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_449a70464d94c"/>
+            </surface>
+            <surface xml:id="FacsPnr3">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_449a707aeb4b9"/>
+            </surface>
+            <surface xml:id="FacsPnr4">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_449a70a2ae7e5"/>
+            </surface>
+            <surface xml:id="FacsPnr5">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_449a70d41aa9f"/>
+            </surface>
+            <surface xml:id="FacsPnr6">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_449a70fbe77c1"/>
+            </surface>
+            <surface xml:id="FacsPnr7">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_449a7124d8898"/>
+            </surface>
+            <surface xml:id="FacsPnr8">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_449a714d8c521"/>
+            </surface>
+            <surface xml:id="FacsPnr9">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_449a7173d32a1"/>
+            </surface>
+            <surface xml:id="FacsPnr10">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_449a7193ece43"/>
+            </surface>
+        </facsimile>
+    </standOff>
+    <text>
+        <front>
+            <div type="Drucke"><p>Danmark-Norges Traktater 6, S. 234-240.
+                <lb />DUM VII/1 S. 58-60 (f.)
+                <ref target="http://gallica.bnf.fr/ark:/12148/bpt6k122965z.zoom.f79.langEN">Link zum
+                    Druck auf gallica.bnf.fr</ref></p></div>
+            <div type="Inhalt"><p>Art. 1 Bestätigung der vertraglichen Union zwischen Dänemark und Schleswig-Holstein-Gottorf und Anmesie über alle dagegen vorgenommenen Handlungen.
+                <lb />Art. 2 Bestätigung der Anwartschaft auf das Bistum Lübeck für einen Gottorfer Prinzen; beide Linien wollen kooperieren, um das Bistum künftig abwechselnd für einen Prinzen aus der königlichen bzw. aus der Gottorfer Linie zu sichern.
+                <lb />Art. 3 Die zugekauften adeligen Allodialgüter im Amt Sonderburg werden Gegenstand der gemeinschaftlichen Regierung.
+                <lb />Art. 4 Ehem. Überschwemmungsgebiete sollen wieder in die Landesmatrikel aufgenommen werden.
+                <lb />Art. 5 Das Soldatenkontingent beider Linien für Reich und Reichskreis richtet sich künftig nach dem Anteil, den beide Linien am Pflugland im Fürstentum Holstein haben.
+                <lb />Art. 6 Jagdrechte beider Linien werden auf die ihnen zugehörigen Güter und Lehngüter beschränkt.
+                <lb />Art. 7 Die Gottorfer Untertanen sollen die Viehzölle der vergangenen Jahre in Rendsburg nachzahlen, damit die königliche Linie nicht um ihren Zollanteil gebracht wird.
+                <lb />Art. 8 Grenzstreitigkeiten sollen durch Kommissare beider Seiten gütlich beigelegt werden.
+                <lb />Art. 9 Das Kloster Uetersen kommt mit einem Teil seiner Güter unter gemeinschaftliche Regierung.
+                <lb />Art. 10 Vergleich über das Visitationsrecht an adeligen Patronatskirchen.
+                <lb />Art. 11 Erhöhung der Viehzölle und Abtretung der Hälfte davon an den Herzog von Gottorf, als Erstattung für Ansprüche auf das Erzstift Bremen.
+                <lb />Art. 12 Den Gottorfer Untertanen soll von der Festung Friedrichsort kein Nachteil entstehen, weder durch Unterhaltsverpflichtungen der Anwohner im Kriegsfall noch durch irgendwelche Stapelrechte.
+                <lb />Art. 13 Der Ausgleich der überschüssigen Gottorfer Kontributionszahlungen wird vertagt.
+                <lb />Art. 14 Wiedereinrichtung des Städtegerichts.
+                <lb />Art. 15 Eine Entscheidung über den strittigen Zoll von Ülzeburg wird vertagt.
+                <lb />Art. 16 Der König will die Bewohner von Oldesloe zur Reparatur des dortigen Mühlendamms anweisen.
+                <lb />Art. 17 Der König soll die Gottorfische Urkunde betr. die Stadt Hamburg wieder einziehen und an den Herzog von Gottorf ausliefern.
+                <lb />Art. 18 Die Streitigkeiten über den Austernfang und die Entwässerung im Watt sollen durch Kommissare beider Seiten gütlich geregelt werden.
+                <lb />Art. 19 Der König will die Privilegien Gottorfer Untertanen im Norwegenhandel anerkennen.
+                <lb />Art. 20 Die Gottorfer Forderung nach Abschaffung der gemeinschaftlichen Regierung über Prälaten, Ritterschaft und Städte wird vertagt.
+                <lb />
+                <lb /></p></div>
+        </front>
+        <body>
+            <div type="Transliteration">
+                <pb facs="#FacsPnr1"/><p>Demnach zwischen dem Durchleuchtigsten Groß-
+                <lb />mächtigsten fürsten und herrn , herrn Friederichen
+                <lb />dem Dritten zu Dännemarck, Norwegen, der Wenden und
+                <lb />Gothen könige, und dem weÿland auch durchleuchtigsten
+                <lb />fürsten und herrn, herrn Friederichen, Erben zu Nor-
+                <lb />wegen, beÿden hertzogen zu Schleswig, Hollstein, Stormarn
+                <lb />und der Ditmarschen, Grafen zu Oldenburg und Dellmen-
+                <lb />horst, eins und andern theils vor Jahren verschiedene irrungen
+                <lb />und mißhelligkeiten sich eräuget, die zum theil beÿ dem
+                <lb />zu Rotschild, A[nn]o 1658, zwischen der kron Dännemarck und
+                <lb />Schweden aufgerichteten frieden bereits abgethaen, und völlig,
+                <lb />in domals beliebten termino, zu richtigkeit hätten sollen
+                <lb />gebracht werden, aber wegen kurtz darauf unter höchstge-
+                <lb />dachten beÿden königen entstandener neuen unruhe dazu nicht
+                <lb />können gelangen, sondern bißhero unverglichen geblieben
+                <lb />dazu auch inzwischen noch weitere beschwerungen sich auf beÿ-
+                <lb />den seiten laßen mercken, und dannenhero, nachdem vor
+                <lb />weniger zeit höchstgedachte die zu Dännemarck, Norwegen
+                <lb />Kön[igliche] Maÿ[estä]t im fürstenthumb Hollstein und dero Vestung
+                <lb />Glückstadt glücklich angelanget, beÿ deroselben der hochwür-
+                <lb />digster, durchleuchtigster fürst und herr, herr Christian=
+                <lb />Albrecht, Postulirter Coadjutor des Stifts Lübeck, Erbe
+                <lb />zu Norwegen, Hertzog zu Schleswig, Hollstein, Stormarn
+                <lb />und der Ditmarschen, Graf zu Oldenburg und Dellmen-
+                <lb />horst, durch seine gevollmächtigte abgesandte, umb einige
+                <lb />deputation höchstgemelter Ihrer Kön[iglichen] Maÿ[estä]t Rähte, zu
+                <lb />erledigung obangezogener gravaminum, anhalten laßen,
+                <lb />Als seÿnd dazu, von seiten Ihrer Kön[iglichen] Maÿ[estä]t, dero gehei
+                <lb />mer- Estats- und LandRaht, Stathalter in den fürsten-
+                <lb />thümen Schleswig Hollstein etc., Gouverneur und Ambtmann
+                <lb />zur Steinburg, in Ditmarschen und auf Langeland, herr
+                <lb />
+                <lb />
+                <pb facs="#FacsPnr2"/>Friederich von Alefeld, auf Seegarten und Gravenstein
+                <lb />Erbherr, Ritter, so dan allerhöchstgeehrter Ihrer Kön[iglichen]
+                <lb />Maÿ[estä]t LandRaht, Ambtmann zu Haderschleben, herr Kaÿ von
+                <lb />Alefeld, auf Mehlbeck etc., Ritter, und h[err] Conradus Waß-
+                <lb />mer, der Rechte Licentiatus, und beÿ der Königl[ichen] Re-
+                <lb />gierungs Cantzleÿ in hiesigen fürstenthümen bestelter Raht,
+                <lb />allergnädigst commitiret, welche mit Ihrer Hochfürst[lichen]
+                <lb />Durch[laucht] abgesandten, als herrn Johann=Adolff Kielmann
+                <lb />von Kielmannseck, auf Satrupholm, Obdorff und Bunds-
+                <lb />bull, ThumProbsten in Hamburg, Ihrer Hochfürst[lichen] Durch[laucht]
+                <lb />hochbetrauten geheimen Rahte, Regierungs= und Kammer=
+                <lb />Præsidenten, Hoff Cantzlärn, und Ambtmann zu Trittow,
+                <lb />Reinbek und Mohrkirchen; wie auch herrn Friedrich=Christian
+                <lb />Kielmann von Kielmanns=eck, auf Satrupholm und Obdorff,
+                <lb />Canonico des Stifts Lübeck, und vorhöchstgedachter Ihrer
+                <lb />Fürst[lichen] Durch[laucht] hochbetrautem geheimen- und OberCammer=
+                <lb />Raht, sambt herrn Andreas Krahmern, auf Hoÿerswurth,
+                <lb />höchstgemelter Ihrer Hochfürst[lichen] Durch[laucht] wolbetrautem Cam-
+                <lb />mer= und RegierungsRaht, in conference getreten
+                <lb />und, durch Gottes gnädige verleihung, nach prämittirter
+                <lb />nötigen disquisition und erörterung der postulatorum
+                <lb />und gravaminum, auch darüber abgestatteten relationen,
+                <lb />einen gütlichen Vergleich glücklich getroffen und aufgerich-
+                <lb />tet, welcher in nachgesetzten puncten bestehet:
+                <lb />
+                <lb />1. Soll zu restabilierung und erhaltung des respective freund-
+                <lb />Vätter- und Söhnlichen guten vernehmens zwischen Ihrer Kön[iglichen]
+                <lb />Maÿ[estä]t und Hochfürst[lichen] Durch[laucht] alles daßelbe, was der uni-
+                <lb />on und alten Verträgen mit dem Königreiche Dänne-
+                <lb />marck, Fürstenthümen Schleswig Hollstein und incorporir-
+                <pb facs="#FacsPnr3"/> ten Landen zuwieder bißher per directum vel indirectum 
+                    <lb />vorgegangen und gehandelt, zu beÿden theilen gäntzlich 
+                    <lb />vergeßen, aufgehoben und getilget seÿn, und obbesagte 
+                    <lb />union, außer was a[nn]o 1658 und 1660, durch obbesagte 
+                    <lb />Tractaten, gäntzlich und zu ewigen zeiten abgethan, beÿ 
+                    <lb />ihrem valeur zu fried- und kriegszeiten, ohn einige hülff- 
+                    <lb />rede und mißdeutung, bleiben, und beständigst observiret, 
+                    <lb />auch keiner von dem andern dawieder de facto, es habe 
+                    <lb />nahmen wie es wolle, prægraviret und beschweret werden. 
+                    <lb /> 
+                    <lb />2. Was von Ihrer Hochfürst[lichen] Durch[laucht] Herrn Vaters, Christmilte- 
+                    <lb />ster gedächtnuß, seiten mit dem Capitulo zu Lübeck we- 
+                    <lb />gen der anwartung der Bischofflichen Wahl auf gewiße 
+                    <lb />fürst[liche] Persohnen Gottorfischer Linien, A[nn]o 1647 den 6. 
+                    <lb />Julii geschloßen, dabeÿ laßen Ihre Kön[igliche] Maÿ[estä]t es bewenden: 
+                    <lb />Eß versprechen aber Ihre Hochfürst[liche] Durch[laucht] beÿ dem Capi- 
+                    <lb />tulo müglichst, beÿ ersehender gelegenheit, zu cooperiren, 
+                    <lb />auf daß selbiges mit der wahl<note n="1" type="crit_app">wahl: überschrieben über gestrichenes Wort.</note> dergestalt beÿ dem 
+                    <lb />König- und fürst[lichen] hause Hollstein zu verbleiben sich anheischig 
+                    <lb />mache, daß hinfüro, wan besagte fürst[liche] Persohnen und ge- 
+                    <lb />nerationen vorbeÿ, von Ihrer Kön[iglichen] Maÿ[estä]t und Fürst[lichen] D[urchlaucht] 
+                    <lb />Nachkommen, so durch Gottes gnade alßdan vorhanden, 
+                    <lb />alternative einer dazu gelange. 
+                    <lb /> 
+                    <lb />3. In dem fürstlichen Ambt Sünderburg wird, ab seiten 
+                    <lb />Ihrer Kön[iglichen] Maÿ[estä]t Ihro Fürst[lichen] Durch[laucht] die gemeine Regie- 
+                    <lb />rung in den zugekauftten Adelichen allodial=gütern zuge- 
+                    <lb />standen, also daß auch, was dieserhalben beÿ bevorstehender 
+                    <lb />Commission noch zu expediren, von beÿderseits Herrschaft 
+                    <lb />Commissariis soll verrichtet werden. In den lehngütern 
+                    <lb />aber behalten Ihre Kön[igliche] Maÿ[estä]t ihr die Oberlehens=herr- 
+                    <lb />lichkeit und gerechtigkeit, mit allen davon dependirenden 
+                </p> 
+                <pb facs="#FacsPnr4"/><p>juribus, bevor.
+                <lb />
+                <lb />4. Die Länder, so vorhin aus der landesmatricul, wegen
+                <lb />der inundation, gezogen, bereits aber wieder beteichet,
+                <lb />oder künftig beteichet werden, sollen von Ihro Hochfürst[lichen]
+                <lb />Durch[laucht], wann sie zum sichern und guten stande gebracht, der
+                <lb />Landesmatricul wieder inseriret werden.
+                <lb />
+                <lb />5. Weil auch bißanhero, wan die Reichs- und Cräÿshülffe
+                <lb />von dem Fürstenthumb Hollstein an Mannschaft erfodert,
+                <lb />Ihre Hochf ürst[liche] Durch[laucht] den halbscheid deßelben gestellet,
+                <lb />die aus Ihrer Kön[iglichen] Maÿ[estä]t ämbtern mit müßen unter-
+                <lb />halten werden; zumaln das contingent, so dazu vom
+                <lb />fürst[lich] Gottorfischen antheil in den legekasten wird gelie-
+                <lb />fert, so viel wie das königliche nicht austrägt: Als ist
+                <lb />beliebet, daß hinfüro eine jede herrschaft so viel Mann-
+                <lb />schaft soll befuegt sein zu stellen, als deroselben pro rata
+                <lb />der Pflugzahl, die Sie im fürstenthumb Hollstein hat,
+                <lb />kann beÿkommen.
+                <lb />
+                <lb />6. Wollen so wol Ihre Kön[igliche] Maÿ[estä]t als Hochfürst[liche] Durch[laucht] satt-
+                <lb />sahme ordre stellen, daß die ihrige auf deß andern
+                <lb />grund und güter, wor Sie nicht befuegt, aller Jagt sich
+                <lb />gäntzlich sollen enthalten. Und damit solches desto
+                <lb />beßer könne zu wercke gerichtet werden, sollen, gleich von
+                <lb />Ihro Hochfürst[lichen] Durch[laucht] selbst vorhin desideriret, die
+                <lb />Manggüter vermittelst dazu von beÿden theilen erwäh-
+                <lb />lender Commissarien, so viel thunlich, umbgesetzet und
+                <lb />nach der billigkeit ausgewechselt werden.
+                <lb />
+                <lb />7. Aldieweil auch auß der Rendesburgischen Zollrechnung
+                <lb />
+                <pb facs="#FacsPnr5"/>befindlich, daß die fürstliche Unterthanen auß der
+                <lb />Stadt und Ambte Husum, auch Eÿderstett, von
+                <lb />A[nn]o 1658. biß 1665. inclusive, 16667 stücke Viehes,
+                <lb />ohn erlegung des großen zolls, durchgehen laßen, Ihro
+                <lb />Hochfürst[lichen] Durch[laucht] aber, weil Sie keine Zollfreÿheit
+                <lb />besagten ihren Unterthanen verliehen, den abgang, so Ihre
+                <lb />Kön[igliche] Maÿ[estä]t daher in ihrem antheil erlitten, zu erstatten
+                <lb />sich entleget: So wollen Sie dennoch, so wol dero Beamb-
+                <lb />ten, so die Certificationes außgegeben, als die leute, von
+                <lb />welchen Sie beÿ den Zöllnern eingeliefert, wan Sie deßen
+                <lb />überwiesen, dahin ernstlich anhalten, daß Sie den biß
+                <lb />dato nicht entrichteten zollen sollen nachlegen und abtra-
+                <lb />gen, damit Ihre Kön[igliche] Maÿ[estä]t ihr contingent davon
+                <lb />könne erheben.
+                <lb />
+                <lb />8. Wegen der prætension auf die Insul Buldshövet,
+                <lb />beeinträchtigung in finibus, et jure compascui der
+                <lb />Lörer und Rickelshofer beÿ der Heide, der dreÿen Kruge
+                <lb />Landes beÿ Hemmingstett, deß prætendirten herrengeldes
+                <lb />von 40 Morgen Landes zu Feddering, abtragung
+                <lb />der extraordinarii beschwerde von dem, was das fürst[liche]
+                <lb />antheil Ditmarschen größer ist als das Königliche, Wie-
+                <lb />der aufrichtung der alten gräntzpfale, im Ambte Sege-
+                <lb />berg, und was von dergleichen irrungen in den Ämbtern
+                <lb />oder sonsten bereits entstanden, oder noch zu besorgen, sollen
+                <lb />von Ihrer Kön[iglichen] Maÿ[estä]t und Hochfürst[lichen] Durch[laucht] gewiße Com-
+                <lb />missarii ehist verordnet werden, welche die sachen sollen
+                <lb />in Augenschein nehmen, beÿde theile nach notturft darüber
+                <lb />hören, und dieselbe gütlich vergleichen, oder, in entstehung
+                <lb />deßen, durch rechtlichen spruch entscheiden. 
+                <pb facs="#FacsPnr6"/>9. Betreffend das Kloster Ütersen, so Ihre Hochfürst[liche]
+                <lb />Durch[laucht] mit unter die gemeine Regierung zu ziehen
+                <lb />begehret, ist verglichen, daß der Conventus Coenobia-
+                <lb />lis, sambt dem Klostergebäu, darunter werde gezogen:
+                <lb />die dazu gehörige Dorffer aber und gesambte Unter-
+                <lb />thanen sollen unter den Königl[ichen] Ambtern, wohin Sie
+                <lb />gehören, beständig gelaßen werden.
+                <lb />
+                <lb />10. Der einseitigen visitation halber etzlicher Adelichen Kirchen
+                <lb />soll von beÿderseits General=Superintendenten eine de-
+                <lb />signation der kirchen, worinn ein oder ander theil ver-
+                <lb />meinet, daß ihme die simultanea visitatio gebühre,
+                <lb />eingesand, und darauf die sache, nach befinden, remediret
+                <lb />werden.
+                <lb />
+                <lb />11. Über die prætension wegen vormahls von Herzog Frie-
+                <lb />derichen, Christseeligsten Andenckens, promittirter befode-
+                <lb />rung zum Coadjutorat am ErtzStift Bremen, hat man
+                <lb />sich dieser gestalt verglichen, daß biß Ihrer Hochfürst[lichen]
+                <lb />Durch[laucht] oder Dero Erben oder Nachfolgern an der Regierung
+                <lb />die fünf und fünfzig Tausend Reichsthaler völlig vergnü-
+                <lb />get, zu Gottorff, an statt der dreÿ Schilling, welche
+                <lb />vor iedem stücke Viehe, so durchgetrieben wird, bißher er-
+                <lb />leget worden, hinfüro ein Marck Lübisch entrichtet,
+                <lb />und dan auch im Vinzier vor Rendesburg auf Königl[icher]
+                <lb />seiten eine zollstette angeleget werde, woselbst an stat
+                <lb />der dreÿ Schilling, so in Rendesburg, wan Sie nicht vor-
+                <lb />hin zu Schleswig abgetragen, pflegen bezahlt zu werden, gleich-
+                <lb />fals ein Marck Lübisch abzugeben, davon die helfte deßen,
+                <lb />so an beÿden ohrten gehoben, Ihrer Kön[iglichen] Maÿ[estä]t, die
+                <lb />übrige helfte aber Ihrer Hochfürst[lichen] Durch[laucht] 
+                <pb facs="#FacsPnr7"/>Järlich zu erheben, Dahingegen alle foderung auf die
+                <lb />von Ihro Kön[iglichen] Maÿ[estä]t herrn Vater Christiano IV. glor-
+                <lb />würdigster gedächtnuß, außgegebene Verschreibung, de
+                <lb />dato 13. Julii A[nn]o 1621, soll cessiren und diese sovorth
+                <lb />beÿ vollenziehung dieses Vergleichs in originali außge-
+                <lb />reichet und cassiret werden.
+                <lb />
+                <lb />12. Was wegen der Vestung Friederichsohrt, ab seiten Ihrer
+                <lb />Hochfürst[lichen] Durch[laucht] bißher wollen controvertiret werden,
+                <lb />Weil dieselbe solches alles, auß besonderer freundvetter-
+                <lb />lichen confidence zu Ihrer Kön[iglichen] Maÿ[estä]t bonté gestellet;
+                <lb />Als versprechen hingegen högstged[achte] Ihre Kön[igliche] Maÿ[estä]t, zu bezeu-
+                <lb />gung ihres freundvetter- und Väterlichen wolwollens,
+                <lb />hiemit, daß Ihrer Hochfürst[lichen] Durch[laucht], Dero Posterität,
+                <lb />wie auch Landen, Ämbter und Städten auß besagter Vestung
+                <lb />Friederichsohrt kein nachtheil oder schaden, einige unsicherheit
+                <lb />und gefahr, es seÿ zu friedens und kriegszeiten, zugekeh-
+                <lb />ret werden solle; Und da ie, über beßer vermuthen, wel-
+                <lb />ches der Allerhöchste in gnaden abwenden wolte, sich einige
+                <lb />Kriegsverfaßung oder offentliche fehde in diesen fürsten-
+                <lb />thümen anspinnen solte, daß alßdan Ihrer Hochfürst[lichen] Durch[laucht]
+                <lb />daherumb liegende Unterthanen mit keiner absonderlichen
+                <lb />Verpflegung oder dergleichen anmuthen sollen oneriret oder
+                <lb />beschweret werden, Da dergleichen aber de facto be-
+                <lb />schehen zu seÿn erwiesen würde, daß solches, was sie mehr
+                <lb />dan andere hergegeben und erlitten, von den übrigen
+                <lb />beÿder fürstenthümen sämbtlichen Eingeseßenen soll
+                <lb />gutgethan werden, Und soll auch hiedurch
+                <lb />dem commercio in Ihrer Hochfürst[lichen] Durch[laucht]
+                <lb />Stadt Kiel nichts derogiret, noch die dahin siegelende 
+                <pb facs="#FacsPnr8"/>Schiffer beÿ mehrbesagter Vestung Friederichsohrt
+                <lb />anzulegen, und die einhabende Wahren zum verkauff
+                <lb />alda außzuliefern, angehalten noch genötigt werden.
+                <lb />
+                <lb />13. Weil auch die also genannte peræquations=sache, durch
+                <lb />hinc inde beschehene remonstrationen, nicht können abgethan
+                <lb />oder beÿgeleget werden: So ist doch derenthalben beliebet,
+                <lb />dieselbe nach anweisung der union intra annum et diem
+                <lb />ohnfehlbar entscheiden zu laßen.
+                <lb />
+                <lb />14. Wie dan auch von beÿden herren ehestens einige Commissarii
+                <lb />zu verordnen, welche mit zuziehung der Deputirten von den
+                <lb />Vier Städten sich dahin zu bearbeiten, daß durch gütlichen Ver-
+                <lb />gleich das Städtegericht und syndicat wieder auf vorigen
+                <lb />fuß werde gerichtet.
+                <lb />
+                <lb />15. Über der von Ihro Hochfürst[lichen] Durch[laucht] desiderirten abstellung
+                <lb />des zolls zu Ültzeburg, hat man ab seiten Ihrer
+                <lb />Kön[iglichen] Maÿ[estä]t, vor eingezogener gnugsahmen nachricht, sich nicht
+                <lb />völlig gewust zu resolviren; Es wird aber Ihre Kön[igliche] M[aÿestä]t
+                <lb />dennoch, wan die vorgeschlagene Verpachtung der Zölle hir-
+                <lb />negst sollte werden beliebet, sich dieses Postes halber gar
+                <lb />leichte mit Ihrer Hochfürst[lichen] Durch[laucht] vergleichen.
+                <lb />
+                <lb />16. Sonsten wollen Ihre Kön[igliche] Maÿ[estä]t die Oldeschloer durch ernst-
+                <lb />liche mandata, zu reparirung deßen, was ihnen an dem
+                <lb />Mühlendamm daselbst zu machen gebühret, sovorth anweisen,
+                <lb />damit der bißheriger abgang verhütet werde.
+                <lb />
+                <lb />17. Wie Sie dan gleichfals das von Ihrer Hochfürst[lichen] Durch[laucht]
+                <lb />herrn Vater, höchstseeligen Andenckens, ausgegebenes
+                <lb />Diploma wegen der Stadt Hamburg, wan selbiges
+                <lb />wieder solte an hand gebracht werden, Ihrer Fürst[lichen] 
+                <pb facs="#FacsPnr9"/>Durch[laucht] sovorth wollen wieder laßen außantworten,
+                <lb />und sich deßen weiter, als sie befugt, niemals bedie-
+                <lb />nen, maßen es dan im übrigen auch hiemit wird mor-
+                <lb />tificiret und abgethan.
+                <lb />
+                <lb />18. Des Österfangs beÿ Wiedinghard und Waßerlösung zwi-
+                <lb />schen Ripen und Tundern halber, sollen von Ihro Kön[iglichen] Maÿ[estä]t
+                <lb />und Hochfürst[lichen] Durch[laucht] fordersambst nicht interessirte
+                <lb />Commissarii benennet werden, die besagte öhrter in augen-
+                <lb />schein nehmen, gewiße Auskogsleute dazu fodern und
+                <lb />darüber definitive erkennen laßen wollen.
+                <lb />
+                <lb />19. Dan wollen auch Ihre Kön[igliche] Maÿ[estä]t, wan die von den fürst[lichen]
+                <lb />Unterthanen angezogene Privilegia, so ihnen auf dem
+                <lb />handel im Königreich Norwegen verliehen, sollten zum
+                <lb />vorschein gebracht werden, sich darüber allergnädigst ge-
+                <lb />gen Sie auslaßen.
+                <lb />
+                <lb />20. Weil aber auch von Ihro Hochfürst[lichen] Durch[laucht] Herrn Vater,
+                <lb />Lobwürdigster gedächtnuß, beÿ den zu Kopenhagen, A[nn]o
+                <lb />[1]658. gepflogenen Tractaten, desideriret, daß die abolition
+                <lb />der bißhero geführten gemeinen Regierung über Prælaten,
+                <lb />Ritterschaft und Städte mögte vorgenommen werden, solchen
+                <lb />passus halber aber von Ihro Hochfürst[lichen] Durch[laucht] Abge-
+                <lb />sandten eingewand, daß Sie darüber nicht wären in-
+                <lb />struirt: Als bleibt selbiger biß zu Ihrer Kön[iglichen] Maÿ[estä]t
+                <lb />und Hochfürst[lichen] Durch[laucht] künftigen Vereinbahrung auß-
+                <lb />gestellet.
+                <lb />
+                <lb />Und weil also die bißher unter Ihro Kön[iglichen] Maÿ[estä]t und
+                <lb />Hochfürst[lichen] Durch[laucht], auch Dero herrn Vater, ruhmwürdigsten 
+                <pb facs="#FacsPnr10"/>Andenckens, vorgefallene Irrungen und beschwerungen,
+                <lb />so viel deren specificiret, obgesetzter maßen, doch
+                <lb />auf beÿderseits hoher herren Principalen erfolgende rati-
+                <lb />fication, von den dazu ingangs genannten herren Depu-
+                <lb />tirten, beÿgelegt und abgethan: Als haben dieselbe, zu
+                <lb />deßen bezeugung, diesen Vergleich eigenhändig unterschrie-
+                <lb />ben und ihre Pitschaften beÿgetrückt. So geschehen
+                <lb />in der Königl[ichen] Stadt und Veste Glückstadt, den
+                <lb />12. Octobris anno 1667.
+                <lb />
+                <lb />Alefelt&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; JAKielman.
+                <lb />mp.
+                <lb />[Lacksiegel über Heftschnur]]
+                <lb />
+                <lb />KvAlefeldt&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; FCKielman
+                <lb />[Lacksiegel]&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; [Lacksiegel]
+                <lb />
+                <lb />Conrad Wasmer Lic.&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; Andreas Cramer mp.
+                <lb />[Lacksiegel]&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; [Lacksiegel]
+                <lb />
+                <lb />
+                <lb />
+                </p>
+            </div>
+        </body>
+    </text>
+</tei:TEI>

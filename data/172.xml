@@ -1,0 +1,642 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE tei SYSTEM "../resources/FriVer_DTD.dtd">
+
+<?xml-model href="../resources/FriVer.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns="http://www.tei-c.org/ns/1.0" xml:id="pa000299-0172">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title level="s">European peace treaties of the pre-modern era in data / Europäische Friedensverträge der Vormoderne in Daten (FriVer+)</title>
+                <title when="1655-11-03" xml:id="t172" when-custom="1655 XI 3" level="a" ref="https://www.ieg-friedensvertraege.de/treaty/t-172-1-de.html">Friedens- und Handelsvertrag von Westminster</title>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    Digital edition according to
+                    <ref target="http://www.tei-c.org/">TEI P5</ref>
+                </edition>
+                <funder>
+                    <ref target="https://www.text-plus.org/">TEXT+</ref>
+                </funder>
+                <editor role="http://id.loc.gov/vocabulary/relators/edt" ref="https://orcid.org/0000-0002-8741-5916">
+                    <persName>Jaap Geraerts</persName>
+                    <note>The transformation and enrichment of the data is done by Jaap Geraerts (IEG Mainz). The other members of the FriVer+ team are Fabian Cremer, Ines Grund, and Thorsten Wübbena (all IEG Mainz).</note>
+                    <note>
+                        The original data has been created by the
+                        <ref target="https://www.ieg-friedensvertraege.de">team of scholars</ref>
+                        who were part of the Europäische Friedensverträge der Vormoderne project. This project was lead by Prof. Dr. Heinz Duchhardt and was based at the Leibniz Institute of European History in Mainz.
+                    </note>
+                </editor>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>
+                    <orgName ref="http://www.isni.org/0000000119314040">Leibniz-Institut für Europäische Geschichte Mainz</orgName>
+                </publisher>
+                <distributor>
+                    <orgName ref="http://www.isni.org/0000000110101946">Universitäts- und Landesbibliothek Darmstadt</orgName>
+                </distributor>
+                <idno type="ISIL">http://lobid.org/organisation/DE-17</idno>
+                <date type="issued" when="2023-12-23"/>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">
+                        <p xml:lang="en">This file is licensed under the terms of the Creative Commons License CC-BY 4.0 (Attribution 4.0 International)</p>
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <repository xml:id="r22">Paris AAE
+                    <note>Trait&eacute;s et Accords de la France:<lb />
+                        <ref target="http://www.diplomatie.gouv.fr/traites/affichetraite.do?accord=TRA16550001" >http://www.diplomatie.gouv.fr/traites/affichetraite.do?accord=TRA16550001</ref></note>
+                </repository>
+                <msDesc><p>A.A.E Paris: M.A.E. Trait&#233;s. Multilateraux 16550001, Trait&#233; de paix (Palais de Westminster, Londres)(UI).
+                    <lb />Ratifikation durch Oliver Cromwell, Protektor.- Palais de Westminster (London) 1655 XI 7, ebd.
+                </p></msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>
+                    The data in this XML file, originally created by the project
+                    <ref target="https://www.ieg-friedensvertraege.de/vertraege">Europäische Friedensverträge der Vormoderne online</ref>
+                    has been transformed in accordance with
+                    <ref target="http://www.tei-c.org/">TEI P5</ref>
+                    as part of the project
+                    <ref target="https://www.ieg-mainz.de/en/research/research-projects/european-peace-treaties-of-the-pre-modern-era-in-data">Europäische Friedensverträge der Vormoderne in Daten (FriVer+)</ref>
+                </p>
+            </projectDesc>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="la" xml:id="lan6">Latein</language>
+            </langUsage>
+        </profileDesc>
+    </teiHeader>
+    <standOff>
+        <listPerson>
+            <person role="signatory" xml:id="p37">
+                <persName ref="https://explore.gnd.network/gnd/4018145-5">
+                    <name>Frankreich</name>
+                </persName>
+            </person>
+            <person role="signatory" xml:id="p42">
+                <persName ref="https://explore.gnd.network/gnd/4022153-2">
+                    <name>Großbritannien</name>
+                </persName>
+            </person>
+        </listPerson>
+        <listPlace>
+            <place xml:id="loc48">
+                <placeName ref="https://explore.gnd.network/gnd/4079242-0">Westminster</placeName>
+            </place>
+        </listPlace>
+    </standOff>
+    <text>
+        <front>
+            <div type="Drucke"><p>Latein: AITZSVS, Vol.VIII, p.339. CTS IV/3-15. DUM VI/2, S.121-124.
+                <lb />Englisch: CTS Vol. IV/p.15-20. JEN Vol. I, p.81.
+                <lb />
+                <lb />
+                <lb /></p></div>
+            <div type="Inhalt"><p>I.&nbsp;Fester Friede
+                <lb />II.&nbsp;Keine Unterst&#252;tzung der Rebellen und Feinde des anderen
+                <lb />III.&nbsp;Einstellung der Feindseligkeiten
+                <lb />IV.&nbsp;Freier Handel
+                <lb />V.&nbsp;Freie Einfuhr von Tuch- und Seidenmanufakturwaren der Briten nach Frankreich
+                <lb />VI.&nbsp;&#214;ffentliche Bekanntgabe der Z&#246;lle und Steuern
+                <lb />VII.&nbsp;Nur legale Z&#246;lle d&#252;rfen erhoben werden
+                <lb />VIII.&nbsp;Kein Kopfgeld
+                <lb />IX.&nbsp;Franz&#246;sische Kaufleute geben keine anderen Sicherheiten als ihren Eid
+                <lb />X.&nbsp;Freier Zugang zu den H&#228;fen des anderen
+                <lb />XI.&nbsp;Belassung der Kanonen auf den Schiffen bei Binnenfahrt ins Land
+                <lb />XII.&nbsp;Engl&#228;nder, die in Frankreich sterben, d&#252;rfen frei &#252;ber ihr Erbe verf&#252;gen
+                <lb />XIII.&nbsp;Die Einwohner von Jersey und Guernsey genie&#223;en in Frankreich dieselben Privilegien wie die Franzosen auf diesen Inseln
+                <lb />XIV.&nbsp;Kriegsschiffe geben Sicherheiten, die Schiffe des anderen nicht zu bel&#228;stigen
+                <lb />XV.&nbsp;Freier Handel mit den Feinden des anderen, au&#223;er an belagerte Pl&#228;tze und von Milit&#228;rg&#252;tern
+                <lb />XVI.&nbsp;Angriffsverbot gegen Schiffe des anderen
+                <lb />XVII.&nbsp;Regelung der Prisennahme
+                <lb />XVIII.&nbsp;Keine Gefangennahme der Kapit&#228;ne bei Prisennahme
+                <lb />XIX.&nbsp;Keine Unterst&#252;tzung von Piraten
+                <lb />XX.&nbsp;R&#252;ckerstattung der von Rebellen genommenen Schiffe
+                <lb />XXI.&nbsp;Zuflucht vor Unwetter
+                <lb />XXII.&nbsp;Freier Verkehr zu L&#228;ndern, die sich mit dem anderen im Krieg befinden
+                <lb />XXIII.&nbsp;Gerechtigkeit soll durchgesetzt werden
+                <lb />XXIV.&nbsp;Schiedsrichter entscheiden &#252;ber die seit dem Krieg von 1640 genommenen Prisen
+                <lb />XXV.&nbsp;Dieselben entscheiden &#252;ber die Rechte der Vertragspartner an den Forts in Amerika
+                <lb />XXVI.&nbsp;6 Monate Zeit f&#252;r die Kaufleute, ihre G&#252;ter im Kriegsfall au&#223;er Landes zu bringen 
+                <lb />XXVII.&nbsp;Diejenigen, die diesem Vertrag zuwider handeln, m&#252;ssen Satisfaktion leisten. Keinesfalls kann solches Handeln den Frieden st&#246;ren
+                <lb />XXVIII.&nbsp;Ratifizierung und Ver&#246;ffentlichung
+            </p> 
+                <p>Separatartikel 
+                    <lb />Ausweisung der im Anhang aufgef&#252;hrten Exilanten
+                    <lb />
+                </p></div>
+            <div type="Kommentar"><p>Aus der Verabschiedung der englischen Navigationsakte&nbsp; folgte der erste Seekrieg zwischen England und den Generalstaaten um die Vormachtstellung zur See, in dem die Franzosen die Niederländer durch einen Handelskrieg gegen England unterstützten. Denn die Briten gingen mit der Begründung der französischen Unterstützung für die englischen Royalisten gegen französische Waren auf niederländischen Schiffen vor.
+                <lb />Im Verlauf des Jahres 1654 suchten sowohl Spanien als auch Frankreich beim erstarkenden Commonwealth um eine vertragliche Festlegung der Beziehungen nach. Cromwell entschied sich in Verwirklichung seines „Western Design“ für eine&nbsp; Auseinandersetzung mit Spanien und einen Friedens- und Handelsvertrag mit Frankreich. Die Zusammenarbeit wurde 1657 und 1658 mit einem gegen Spanien gerichteten Bündnis für die Kriegsführung in Flandern vertieft, welches 1659 noch vor dem Pyrenäenfrieden zwischen Frankreich und Spanien nochmals in einem Vertrag festgeschrieben wurde.
+                <lb /></p></div>
+            <div type="Kontext"><p>1642-1649
+                <lb />Englischer Bürgerkrieg
+                <lb />Flucht englischer Royalisten nach Frankreich und in die Vereinigten Provinzen
+                <lb />1648
+                <lb />Westfälischer Frieden; der Krieg zwischen Spanien und Frankreich wird fortgesetzt
+                <lb />1648-1653
+                <lb />Französischer Bürgerkrieg der Fronde; seit 1651 unterstützt Spanien die Aufständischen
+                <lb />1651
+                <lb />Englische Navigationsakte
+                <lb />1652-1654
+                <lb />Erster englisch-niederländischer Seekrieg
+                <lb />Frankreich beginnt einen Handelskrieg gegen England in Unterstützung der Niederländer
+                <lb />16.12.1653
+                <lb />Oliver Cromwell wird Lordprotektor
+                <lb />5.4.1654
+                <lb />Der Friedensvertrag von Westminster beendet den ersten englisch-niederländischer Seekrieg
+                <lb />1654/1655
+                <lb />Angriff auf spanisches Überseeterritorium
+                <lb />3.11.1655
+                <lb />Friedens-und Handelsvertrag zwischen Großbritannien und Frankreich;
+                <lb />in der Folge übersiedelt Karl II. von England aus seinem französischen Exil nach Brüssel
+                <lb />23.11.1655
+                <lb />Beitritt der Vereinigten Provinzen zu diesem Vertrag
+                <lb /></p></div>
+        </front>
+        <body>
+            <div type="Transliteration">
+                <pb facs="#FacsPnr1"/><p>Cum hisce pr&#230;teritis temporibus Intelligentia, et Libertas 
+                    <lb />Commercij inter Angliam, et Galliam interrupta fuissent, et ad 
+                    <lb />utramque restaurandam Ludovicus 14.tus Rex Gallorum, et Navarr&#230; 
+                    <lb />Christianissimus mitisset in Angliam Legatum suum Dominum 
+                    <lb />Antonium de Bordeaux, Equitem, Dominum de Neufville, 
+                    <lb />Majestatis sua Consiliarum Status, supplicum Libellorum Magistrum, 
+                    <lb />magni sui Consilij Pr&#230;sidem, etc. ipsiq[ue] plenam, et omnimodam dedisset 
+                    <lb />potestatem ineundi quemcunque Tractatum in hunc finem necessarium. 
+                    <lb />Nec non serenissimus, potentissimusq[ue] Dominus Protector Reipubl[ic&#230;] 
+                    <lb />Angli&#230;, Scoti&#230;, et Hiberni&#230;, ut tam sanctum opus promoveatur, 
+                    <lb />Commissarios deputasset, qui, cum supradicto D[omi]no Legato de ijs agerent, 
+                    <lb />Tandem, ab utraque parte, in sequentis Tractat&#251;s Articulos 
+                    <lb />conventum est.
+                </p> 
+                <p>1.
+                    <lb />Uti ab hoc tempore sit firma pax, amicitia, societas, atq[ue] foedus inter Rempub[licam]
+                    <lb />Angli&#230;, Scoti&#230;, et Hiberni&#230;, etc. et Regnum Galli&#230;, nec non inter omnes Terras,
+                    <lb />Dominia, Urbes, atque Loca, qu&#230; in alterutrius fide, ac ditione sunt: utque populus,
+                    <lb />et Subjecti utriusque Nationis possint tuto, ac libere in portubus, ac Navium 
+                    <lb />Stationibus, perque Urbes, prout ipsis visum eri, absque illato sibi ullo damno, aut 
+                    <lb />injuria, versari, atque iter facere; Im&#242; uti potius faveatur ijs ubique, jusque omne 
+                    <lb />pr&#230;beatur, idque eorum Locorum Judicibus, et Officiarijs cur&#230; uti sit. 
+                    <lb />2.
+                    <lb />Neutra pars opem, auxiliumve feret direct&#232;, aut indirect&#232; Rebellibus, nec 
+                    <lb />hostibus nunc declaratis, Eorumve in posterum Adharentibus; Et, si alterutra pars 
+                    <lb />Pacem aut inducias deinceps confecerit cum hostibus suis nunc ita declaratis, pars ea 
+                    <lb />qu&#230; pacem, aut inducias sic conficiet, dictis hostibus, eorumve Adh&#230;rentibus am 
+                    <lb />opem, auxiliumve, contra alteram, feret, pr&#230;bebit, aut subministrabit.
+                </p> 
+                <p>3.
+                    <lb />Item quod omnis hostilitas tam mari, quam terr&#226;, et aquis dulcibus utrinque
+                    <lb />
+                </p>
+                <pb facs="#FacsPnr2"/><p>deinceps cessabit, omnia[que] diplomata, seu Commissiones, Liter&#230; Merc&#230;, seu Repressali&#230;, 
+                    <lb />qu&#230; ab uno, vel altero Statu, populo, et subditis suis, vel cuicunque alij contra dictam 
+                    <lb />Rempub[licam] aut Regnum, aut quemcunque &#233; Popularibus &amp; subditis alterutrius dat&#230; 
+                    <lb />atque extradita fuere revocabuntur, rescindentur, irrit&#230;q[u&#230;] fient. Et quicquid post 
+                    <lb />quatuordecim dies, publicationem pr&#230;sentis Tractatus proxime insequentes, quocunque 
+                    <lb />obtentu, captum fuerit, bene, et veraciter restituetur. Et si qu&#230;viscunque pr&#230;da relata,
+                    <lb />vel quodcunque damnum a populo, subditis, aut incolis unius Status, populo, Subditis, et
+                    <lb />Incolis alterius, in pr&#230;judicium pr&#230;sentis Tractat&#251;s, vel contra jus commune illatum 
+                    <lb />fuerit, &#230; tamen Liter&#230; Merc&#230; seu Repressali&#230; concedentur, priusquam justitia 
+                    <lb />reposcatur. Et si vel dilata, vel denegata fuerit, is Status, seu Legati, et Ministri ejus 
+                    <lb />cujus subditi damnum sustinuere, eandem administrari requirent; quod si intra trimestre 
+                    <lb />spatium post requisitionem factam, satisfactionem ex jure non obtinuerint, tum dictas Literas 
+                    <lb />Merc&#230;, seu Repressalias concedere fas esto; quas tamen in bona, Naves, aut Personas qu&#230; 
+                    <lb />intra portus, aut Stationes sunt, exequi vetitum erit, nisi in eos solummodo qui crimen ipsi 
+                    <lb />commiserint.
+                </p> 
+                <p>4.
+                    <lb />Uti inter Rempub[licam] Angli&#230;, et Regnum Galli&#230;, Populumque, et Subjectos tam terra,
+                    <lb />quam mari, et aquis dulcibus, per omnes, et singulas utriusq[ue] Regiones, Ditionem, Territoria, 
+                    <lb />Provincias, Urbes, Oppida Pagos, aliaque omnia per Europam loca, ubi hactenus Commercium,
+                    <lb />et negotia esse consuevere, liberum omnino Commercium sit adeo ut, sine ullis liberi commeatus 
+                    <lb />Literis, aliave quacunque petit&#226; Licenti&#226; generali, vel speciali pr&#230;dict&#230; Reipub[lic&#230;] populares,
+                    <lb />quiq[ue] pr&#230;dict&#230; Majestati subditi sunt, libere, tam terra quam mari, aquisque dulcibus 
+                    <lb />adire, ingredi, adnavigare dictas Regiones, Regna, et Ditiones, omnesq[ue] Urbes, portus, 
+                    <lb />Littora, Stationes, Freta, et qu&#230;cunque corundem loca, et quoscunq[ue] alterutrius portus 
+                    <lb />intrare, suis cum navibus, onustis vel non onustis, vecturis, jumentis, quibus merces
+                    <lb />asportentur, ibique mercari, aut vendere quantum libuerit, ijsdem etiam in locis justo 
+                    <lb />pretio commeatus ad victum, vel ad iter, comparare sibi possint nec non prout usus venerit, 
+                    <lb />Naves, Vecturasve reficere, atque suis cum mercibus, bonis, alijsve, quibuscunque facultatibus 
+                    <lb />&#230;que possint libere suam quisque in Patriam redire, aliave suo arbitratu loca sine 
+                    <lb />impedimento petere, dummodo alterutri ea portoria, ac vectigalia solvant qu&#230; debita 
+                    <lb />fuerint, salvis etiam alterutrius pariter Dominij Legibus, et Statutis omnibus.
+                    <lb />
+                </p>
+                <pb facs="#FacsPnr3"/><p>5.
+                    <lb />Item conventum et conclusum est quod Populares, et Incol&#230; dict&#230; Reipub[lic&#230;] 
+                    <lb />Angli&#230;, Scoti&#230; et Hiberni&#230;, ejusque totius Ditionis, quoscunque in Portus, Urbes, 
+                    <lb />Oppidave Gallic&#230; Ditionis omnia Lan&#230;, et Serici Opificia, qu&#230; in Anglia, Scotia, 
+                    <lb />et Hibernia, c&#230;ter&#226;q[ue] ea Ditione exercentur, libere importare, in ijsque divendere possint, 
+                    <lb />citra quamcunque eorum confiscationem vel panam ea propter subeundam, quacunque 
+                    <lb />Lege, Edicto, Decreto, Statuto, aliave re huic contraria, non obstante. Proviso tamen
+                    <lb />quod modus ille pactus et definitus in decimo tertio Articulo Tractatus inter Jacobum 
+                    <lb />Regem Magn&#230; Britanni&#230; , et Henricum Quartum&nbsp; Gallorum, et Navarr&#230; Regem An[n]o 
+                    <lb />1606. de pannis male confectis tenebitur, atq[ue] observabitur. Et quod sua Majestatis 
+                    <lb />subditi in quoscunque portus, Urbes, et Oppida dict&#230; Reipub[liqu&#230;] libere importare, in 
+                    <lb />ijsque divendere possint omnia vina productionis Galli&#230; atque omnia Lan&#230; et Serici 
+                    <lb />Opificia in Regno Franci&#230;, seu Dominijs ejus facta, seu fienda, citra quamcunq[ue] eorum
+                    <lb />confiscationem, vel p&#230;nam ea propter subeundam quacunque Lege, Statuto, vel Decreto 
+                    <lb />aliave re huic contraria, non obstante. Et quod tam subditi su&#230; Majestatis, quam pr&#230;dict&#230; Reipub[lic&#230;] benigniter tractabuntur, atque ijsdem apud se privilegijs, cum 
+                    <lb />c&#230;teris extraneis utrinq[ue] gaudebunt.
+                </p> 
+                <p>6.
+                    <lb />Quo facilius portoria, Vectigalia, ac census parti alterutri comperta, ac nota 
+                    <lb />esse possint, et quo certius quod solvendum jure sit, in supradicta Repub[lica] ac 
+                    <lb />Regno Mercatoribus constet, uti Tabul&#230; portoriorum, Vectigalium, ac Censuum 
+                    <lb />constituantur, publicisque in locis appendantur, tam Londini alijsq[ue] in Urbibus Reipub[lica] 
+                    <lb />Anglican&#230;, quam Rotomagi aliisque in Urbibus Galli&#230;, prout opus fuerit, ad quas 
+                    <lb />redire quivis possit, quoties de ijsdem portorijs, Vectigalibus, ac Censibus controversia 
+                    <lb />inciderit.
+                </p> 
+                <p>7.
+                    <lb />Quoniam tributa qu&#230;dam, census, immunitates, ac privilegia ab Urbibus non-
+                    <lb />is ac locis obtenduntur, ac vendicantur, utpote sibi, suisq[ue] Incolis debita per 
+                    <lb />alterutrius Confoederati Ditionem; Convenit, uti Magistratus, et Officiarij cujusq[ue] 
+                    <lb />
+                </p>
+                <pb facs="#FacsPnr4"/><p>Urbis curent, ne qu&#230; graviora tributa, aut census exigantur, quam qu&#230; legitima sunt.
+                </p> 
+                <p>8.
+                    <lb />Et quoniam in aliquibus Angli&#230;, &amp; Galli&#230; portubus, mos quidam &#226; lege 
+                    <lb />nixus obtinuit, uti singuli tributum quoddam, Gallic&#232; appellatum du Chef Anglice 
+                    <lb />Headmony, pro ingressu, et egressu suo penderent; convenit, uti in posterum dictum 
+                    <lb />Tributum ne exigatur, ita ut ingressus, atque egressus liber omnibus sit, cujuscun[que] 
+                    <lb />Ordinis, aut Conditionis fuerint, neque quicquam ea propter pendere cogantur. 
+                    <lb />Verum ut in hoc casu, quemadmodum et in c&#230;teris, peregrini pariter ac indigen&#230; 
+                    <lb />tractentur.
+                </p> 
+                <p>9.
+                    <lb />Item utrinque convenit, quod Mercatores Galli, in Angli&#225; negotiantes, aliam Cautionem 
+                    <lb />pro mercimonijs suis vendendis, eorumque proventu pro alijs mercibus commutando, pr&#230;ter
+                    <lb />Cautionem suam Juratoriam, ne cogantur interponere, neve prolongationem, aut liberationem 
+                    <lb />aliquam sibi comparare. Nec eo respectu, alijs sumptibus faciundis, quam quos ejus Loci
+                    <lb />Indigen&#230; faciunt, obnoxij sint.
+                </p> 
+                <p>10.
+                    <lb />Uti Naves Gallic&#230; Cothonem Urbis Londinensis, Anglice, The Key of 
+                    <lb />London adire possint, c&#230;terosque Portus Angli&#230;, Scoti&#230;, et Hiberni&#230;; aliaque loca sub
+                    <lb />earum Ditione posita, atque inibi onerentur, absque ulla molestia ijs exhibenda, neve in 
+                    <lb />alia Navigia exonerari compellantur utque Naves Anglic&#230; pari Libertate, absque ulla 
+                    <lb />molestia, vel impedimento, quoscunque, Galli&#230; portus intrare possint, ijsdemq[ue] privilegijs, 
+                    <lb />et immu[ni]tatibus, quibus Gallic&#230; Naves in Anglia utantur, fruanturque. Omnibusque 
+                    <lb />alijs in rebus &#230;qualitus, et Libertas Commercij, quantum fieri potest, tenebitur atq[ue] 
+                    <lb />observabitur.
+                </p> 
+                <p>11.
+                    <lb />Quod Naves Mercatori&#230; hujus Reipub[lica] Populorumq[ue] et Incolarum ejus, qu&#230; 
+                    <lb />Burdigalam iter fecerint, aut flumen Garunnam intraverint, in transitu suo, non 
+                    <lb />
+                </p>
+                <pb facs="#FacsPnr5"/>
+                <p>cogentur tormenta, arma, vel apparatum suum bellicum, ad Castellum Blaye
+                    <lb />exponere. Consimiliter populus, et Incolæ dicti Regis, non cogentur ullum
+                    <lb />ejusmodi impedimentum subire in quibuscunq[ue] portubus Angliæ, Scotiæ, et
+                    <lb />Hiberniæ. Atque idem in omnibus portubus Galliæ, erga populum, et Incolas
+                    <lb />dictæ Reipubl[icæ] observabitur. Et quod populus, Subditi, et Incolæ partis unius
+                    <lb />similibus, et non minus amplis privilegijs, atque immunitatibus gaudebunt, in
+                    <lb />Regnis, Dominijs, et Territorijs alterius, tam in Tribunalibus Justitiæ, quam
+                    <lb />causarum maritimarum, ac populus cujuscunque exteræ Nationis amicitiâ cum
+                    <lb />ijs sociatæ, vel nunc gaudet, vel deinceps gaudebit.
+                </p>
+                <p>12.
+                    <lb />Quo magis promoveatur Commercium, inter Subditos, et populares utriusque
+                    <lb />Gentis, Conventum est, ut Mercatores alijq[ue] populares supradictæ Reip[ublicæ]
+                    <lb />Anglicanæ libere possint testamenta sua condere, deque suis Mercibus, Argento,
+                    <lb />pecunia, Suppellectile, debitis, alijsque bonis mobilibus, quæ vitæ, vel mortis tempore
+                    <lb />possederint, vel possidere debuerint, infra omnem prædictæ suæ Majestatis
+                    <lb />Ditionem, donatione, vel Testamento, aliove quovis modo, inter vivos, vel mortis
+                    <lb />causa, prout voluerint disponere. Utque sive testati, sive intestati decedant,
+                    <lb />eorum hæredes, Executoresve, sive nominati, sive non nominati, in Testamentis, seu
+                    <lb />alioqui, legitime bonis illis fruantur, juxta Leges Angliæ, quocunque in loco
+                    <lb />Galliæ diem illi obierint. Ita ut, Jus Albiniense, vulgo dictum Droit d'Aubeijne
+                    <lb />ipsis non obstet, nec virtute illius bona eorum in fiscum cedant. Utque Subjecti
+                    <lb />prædictæ suæ Majestatis eadem Libertate, ac privilegio utantur, atq[ue] fruantur
+                    <lb />per omnem supradictam Anglicanæ Reipub[licæ] Ditionem: Ita tamen ut hoc
+                    <lb />intellectum semper sit, Testamenta , hæreditatesq[ue] intestatorum, adeundi jus tam a
+                    <lb />popularibus supradictæ Reipub[licæ] quam a Subditis eidem Regi probari ex lege
+                    <lb />oportere ijs in Locis, ubi quisque decesserit, sive id in Gallia, sive in Repub[lica] prædicta
+                    <lb />acciderit.
+                </p>
+                <p>
+                    <lb />13
+                    <lb />Quod Incolæ Insularum Jersey, et Guernsey ijsdem Privilegijs atque
+                    <lb />
+                </p>
+                <pb facs="#FacsPnr6"/><p>immunitatibus in Galli&#226; gaudebunt, quibus Galli in ijs Insulis; Solutis utrinque 
+                    <lb />debitis Tributis, et Vectigalibus.
+                </p> 
+                <p>
+                    <lb />14
+                    <lb />Quo facilius Navium direptionibus, et mari grassantium injurijs in posterum 
+                    <lb />occurratur, Convenit uti pr&#230;fecti, Dominive Navis cujusq[ue] armat&#230;, aut Navium qu&#230; 
+                    <lb />ad populares alterutrius pertinuerint, qu&#230;que e portubus aut, Littoribus alterutrius 
+                    <lb />solverint, antequam solvant, per idoneos vades, qui ex Navis contubernio non erunt, 
+                    <lb />satisdent coram Judicibus Admiralatus, alijsve eorum locorum Magistratibus, 
+                    <lb />unde proficiscuntur: navique, et oneri, et armamentis simul &#230;stimatis in duplum 
+                    <lb />eant sese in alto bene gesturos, seque populares, subditosve alterutrius, eorumque bona, 
+                    <lb />naves, aut navigia neque capturos, neque occupaturos, nec alioqui impedituros, aut ulla injuria 
+                    <lb />affecturos. Quod si Judices Admiralatus alijve Magistratus supradicti vades accipere 
+                    <lb />neglexerint, aut satis idoneos non acceperint, qu&#230; damna illata erunt ipsi pr&#230;stiterint.
+                </p> 
+                <p>
+                    <lb />15.
+                    <lb />Quod donec de malis, et incommodis qu&#230; super mari poterint accidere tollendis 
+                    <lb />certius, atque absolutius quid statuatur, Convenit, uti in spatium quatuor annorum, Ratifi-
+                    <lb />cationem pr&#230;sentisTractatus proxim&#232; insequentium, omnes naves ad subditos, et populares 
+                    <lb />alterutrinque pertinentes, Et in Mari Mediterraneo, Orientali, seu Oceano negotiantes, 
+                    <lb />liber&#230; sint atq[ue] etiam onus suum liberum reddant, licet in ijs invehantur mercimonia, im&#242; 
+                    <lb />grana, leguminave qu&#230; alterutrius hostium sunt. Exceptis nihilominus, et reservatis 
+                    <lb />mercimonijs vetitis, et contrabandis /i: e:/ pulvere nitrato, sclopis, seu tubis ferreis, atque 
+                    <lb />omne genus armis, munitione, equis, bellicoq[ue] apparatu. Neque viros trajicient, aut 
+                    <lb />transportabunt in usum hoftium alterutrius. Quo in casu, tam Naves, quam apparatus, et 
+                    <lb />mercimonia legitim&#230; pr&#230;d&#230; erunt. Quod etiam sever&#232; exercebitur in eos qui Viros, 
+                    <lb />frumentum, seu Victiualia quibuscunq[ue] locis inferent ab utralibet parte obsessis.
+                </p> 
+                <p>
+                    <lb />16
+                    <lb />Uti pars utraque Classium Pr&#230;fectos, eorumque Legatos, aliosque omnes Navarchas
+                    <lb />
+                </p>
+                <pb facs="#FacsPnr7"/><p>quoscunque suos, suav&#233; insignia portantes, aut ab se diplomata habentes, aut sibi 
+                    <lb />operam navantes disert&#232; moneat, ne alterutrius populive, et Subjectorum alterutrius 
+                    <lb />Naves, Navigia, bon&#224;ve aut merces occupent, capiant, ullove modo impediant, damnove 
+                    <lb />afficiant: verum uti hoc foedus, et Conventionem hanc diligenter observent utq[ue] 
+                    <lb />contra qui fecerint hi corpore poenas dent ei parti cujus hoc interest, prout commisso 
+                    <lb />quoque dignum erit; factam etiam injuriam si possint resarciant, sin minus, ut 
+                    <lb />Confoederatus ille ad quem hi pertinuerint, ei cui injuria facta est, intra tres menses quam 
+                    <lb />hoc resciverit, et satisfactio postulata fuerit, satisfaciat damnumque reparet. Atque 
+                    <lb />uti Naves pr&#230;sidiari&#230; mercatorijs alterutrius partis Navibus obviam fact&#230; eas, contra 
+                    <lb />omnes qui vimullam intentaverint; defenderc debeant, quoad eundem cursum tenuerint.
+                </p> 
+                <p>
+                    <lb />17.
+                    <lb />Ut si pr&#230;fecti ullarum alterutrius partis navium, populive alterutrius pr&#230;dam 
+                    <lb />ullam mari fecerint, intra quatuor et viginti horas, quam portum invecti erunt, omnes 
+                    <lb />rationum codices, chartas, acceptilationes, et mercium schedulas, quas ijs in Navibus 
+                    <lb />receperint, Ammiralatus, Judicibus tradant, quo is cujus id intereft, earum exemplaria 
+                    <lb />describere possit. Ubi autem Ammiralatus Judex us erit pr&#230;dict&#230; Chart&#230;, ac 
+                    <lb />Codices eorum locorum Officiarijs committantur, qui eas ad Judices Ammiralatus 
+                    <lb />obsignatas mittant. Quique Nautici ijs in Navibus invenientur, ne abducantur, neve 
+                    <lb />oneris quicquam attingatur, bonave ulla in terram exponantur, nisi id Ammiralatus 
+                    <lb />Curi&#230; authoritate fiat, bonorumque schedula pr&#230;sentibus illis quorum id refert 
+                    <lb />describatur, quibus et illius schedul&#230; exemplar abjudice detur.
+                </p> 
+                <p>
+                    <lb />18.
+                    <lb />Ut Pr&#230;fecti, ac Magistri earum Navium qu&#230; in mari pr&#230;das fecerint, Pr&#230;fectum 
+                    <lb />Magistrum, aliumve Nauclerurn, aut Naviram ex navi ne abducant, nisi ex ijs qu&#230;rendi 
+                    <lb />causa. Eaque de causa, ultra duos, tresve ne abducant, qui intra spatium viginti quatuor 
+                    <lb />horarum, ad Judicem Admiralitatis, vel si us ibi sit, ad Magistratum, Officialesve 
+                    <lb />ejus loci adducentur, qui de ijs qu&#230;stionem habeant, qu&#226; intra spatium idem habit&#226; Judex 
+                    <lb />ille, vel Magistratus eos ad sua quemque negotia liberos dimittat. Qui contra fecerit, uti 
+                    <lb />is poenas corpore luat.
+                    <lb />
+                </p>
+                <pb facs="#FacsPnr8"/><p>19.
+                    <lb />Uti Confoederatorum neuter in ullos suos Portus, Stationes, .Urbes, Oppida, 
+                    <lb />recipiat, sinatve recipi, a populo, incolisve suis, Pyratas, aut Pr&#230;dones, ijsve hospitium, 
+                    <lb />auxilium, aut commeatum pr&#230;beri, verum operam dent, ut pr&#230;dicti Pyrat&#230;, et Pr&#230;dones, 
+                    <lb />eorumque Pyratic&#230; Participes, conscij, et adjutores, exquirantur, capiantur, et merito 
+                    <lb />supplicio puniantur, in aliorum terrorem. Utque omnia bona, naves, ac merces ab ijsdem 
+                    <lb />pyratic&#232; capt&#230;, atque in portus alterutrius Confoederati invect&#230;, qu&#230; quidem comparuerint 
+                    <lb />imm&#242; etsi vendit&#230; jam sint, justis Dominis restituantur, aut satisfactis detur, vel 
+                    <lb />eorum Dominis, aut ijs qui per Literas procurationis eas res vendicaverint, modo jus 
+                    <lb />Domini debitis ex Lege probationibus in Curi&#226; Ammiralatus appareat; qu&#230;cunque autem 
+                    <lb />ab ijs recuperata erunt bona, ut in Portus alterutrius Confoederati invehantur, ejusdemque 
+                    <lb />portus Officiarijs custodienda tradantur, qui, suo periculo, rationem reddere debebunt, ni 
+                    <lb />supradicta bona sine mor&#226; suis Dominis restituantur; fact&#226; modo prius, justi Dominij 
+                    <lb />probatione coram Judicibus eorum Locorum, ubi direpta illa bona in navem imposita sunt; permissum tamen sit ijs, qui accusati erunt, Lege experiri suamq[ue] causam dicere.
+                </p> 
+                <p>
+                    <lb />20.
+                    <lb />Quod neutra dictarum partium sinat, neve permittat uti naves, bonave alterutrius partis, 
+                    <lb />qu&#230; rebellibus alterutrius cujuscunque diplomatis obtentu, aut vigore, ullo tempore capta 
+                    <lb />fuerint, atque in Portus Stationes, locave Ditionis alterutrius invecta ab justis Dominis 
+                    <lb />abalienentur. Verum uti ijs, aut eorum Procuratoribus reddantur, facta prius juxta Legem 
+                    <lb />justi Dominij probatione. Et donec Domini vel eorum Procuratores res suas repetiverint, 
+                    <lb />eorum locorum Officiales, qu&#242; Naves, Bona, vel Mercimonia invecta fuerint, ea detinebunt 
+                    <lb />tutoq[ue] reponent ita ut a pars eorum pereat, vel intervertatur.
+                </p> 
+                <p>
+                    <lb />21.
+                    <lb />Uti si populares subjective alterutrius Confoederati, vi tempestatum, metu hostium 
+                    <lb />alijsve maris periculis, alterutrius portus intrare, ibive anchoras jacere cogantur, ijs discedendi 
+                    <lb />potestas libera sit, nec quasi importatis, aut exportatis ullis mercibus portorium ullum 
+                    <lb />solvant, modo mercium ne quid eximant; aut venale exponant, primoque adventu suo ejus
+                    <lb />
+                </p>
+                <pb facs="#FacsPnr9"/><p>loci Magistratus, et Officiarios de caus&#226; sui ad ea Littora appulsus certiores faciant, 
+                    <lb />ejusque periculi metu simul atque liberati erunt, ab eo portu discesserint.
+                </p> 
+                <p>
+                    <lb />22.
+                    <lb />Quod populares, et Incol&#230; dict&#230; Reipub[lic&#230;] libere, et secur&#232; navigent, et negotien-
+                    <lb />tur in omnibus Regnis, Dominijs, et Territorijs, pacem, Amicitiam sea Neutralitatem 
+                    <lb />cum dict&#226; Republic&#225; colentibus. Neque ijs ulla molestia exhibebitur a navibus, 
+                    <lb />vel subditis dicti Regis, licet inimicitia, et hostilitas inter dictum Regem, et ea 
+                    <lb />Regna, Dominia, ceu Territoria, vel eorum aliquod intercesserit. Atque idem a parte 
+                    <lb />dict&#230; Reipub[lic&#230;] erga Subditos, et Incolas Galli&#230; pariter observabitur. Proviso ne 
+                    <lb />qua ejusmodi negotiatio sit ullum ad portum, aut oppidum, quod ab utrovis Foederato-
+                    <lb />rum obsideatur; Et Proviso, quod neutra pars, neve populus, aut Subditi alterutrius bona 
+                    <lb />vetita, et prohibita in ea Regna, Dominia, vel Territoria important; qu&#230; inimicitias, 
+                    <lb />vel hostilitates cum alterutra exercent; Et quod decimus quintus Articulus de bonis 
+                    <lb />vetitis, et contrabandis, atque de Oppidis, et locis obsessis, utrinque tenebitur, atque 
+                    <lb />observabitur.
+                </p> 
+                <p>
+                    <lb />23.
+                    <lb />Uti pars utraque curet, ut rectum, expeditum et incorruptum jus ad Legum et 
+                    <lb />&#230;quitatis Normam, alterius populo reddatur in causis omnibus, vel adhuc 
+                    <lb />pendentibus, vel qu&#230; posthac in alterutrius ditione, ac terris pependerint, utque 
+                    <lb />omnes Sententi&#230;, conventionesque priores quas alterutra pars, populusve; et Subjecti 
+                    <lb />alterutrius, in alterius Terris suo commodo impetraverint, aut imerint, rat&#230; habeantur, 
+                    <lb />utque in ijs rebus exequendis jus expeditum reddatur, sine incommodo tarnen eorum 
+                    <lb />qui Jus suum prosequuntur.
+                </p> 
+                <p>
+                    <lb />24.
+                    <lb />Et quandoquidem ab Anno 1640. plurim&#230; pr&#230;d&#230; mari capt&#230;, multaque 
+                    <lb />Utrique Nationi Populo, et Subditis invicem damna inflicta fuere, Conventum est, 
+                    <lb />quod tres Commisarij, immediate post ratificationem pr&#230;sentis Tractatus, ab utraque 
+                    <lb />parte nominabuntur sufficienti Autoritate muniti, ad ejusmodi pr&#230;das, et damna 
+                    <lb />
+                </p>
+                <pb facs="#FacsPnr10"/><p>consideranda, examianda, &#230;stimanda, liquidanda, eorumque compensationem, solutionem, 
+                    <lb />et satisfactionem determinandam, et statuendam, secundum postulata, qu&#230; intra trimestre 
+                    <lb />spatium, post publicationem hujus Tractatus numerandum, coram ijs ab alterutra parte 
+                    <lb />popularibus, et Subditis suis producentur, et exhibebuntur. Cui rei dicti Commissarij 
+                    <lb />intra sex hebdomadas, post dictam publicationem, in urbe Londini coibunt, dictasque 
+                    <lb />controversias intra quinque menses proxim&#232; sequentes, si fieri possit, determinabunt. 
+                    <lb />Quod si dicti Commissarij, intra pr&#230;dictum spatium sex mensium, et duarum 
+                    <lb />hebdomadum non consenserint, tum dict&#230; controversi&#230; qu&#230; indecisa pendebunt, 
+                    <lb />remittentur, sicut hisce pr&#230;sentibus remittuntur, ad Arbitrium Reipublic&#230; 
+                    <lb />Hamburgensis, definiend&#230; intra quatuor menses ab expiratione pr&#230;dicti temporis 
+                    <lb />spatij pr&#230;fatis Commisarijs pr&#230;stituti proxim&#232; numerandos. Et quod dicta
+                    <lb />Respub[lica] Hamburgensis rogabitur, sicut his pr&#230;sentibus rogatur, ut id arbitrium 
+                    <lb />assumere velit, et Commissarios deleget, qui in tali convenienti loco, qui per eosdem 
+                    <lb />Commissarios fuerit constitutus, super pr&#230;dictta judicium ferant, et quicquid ab 
+                    <lb />ejusmodi arbitris, ceu Commissarijs determinatum fuerit, utramque partem devinciet, 
+                    <lb />atque intra sex menses proxime sequentes bon&#226; fide pr&#230;stabitur, ita tamen, si intra 
+                    <lb />tempus pr&#230;scriptum tam dicti Commissarij ab utraque parte nominati, qu&#224;m pr&#230;dicti arbitri 
+                    <lb />dictas controversias non determinaverint, nemo propterca molesti&#230; subjicietur; Neve 
+                    <lb />pr&#230;dict&#230; Liter&#230; Merc&#230; vigori suo restituentur, aut ali&#230; nov&#230; concedentur, intra qua-
+                    <lb />drimestre spatium post expirationem eorum quatuor mensium, qui Civitati Hamburgensi, 
+                    <lb />ad dictarum controversiarum determinationem, pr&#230;finiuntur.
+                </p> 
+                <p>
+                    <lb />25.
+                    <lb />Cumque a supra nominato Domino pr&#230;dict&#230; su&#230; Majestatis Legato tria 
+                    <lb />fortilitia, scilicet, de Pemptacoet, St. Jean, et Port Royal, nuperrime capta, in 
+                    <lb />America, simulq[ue] bona in ijs inventa, repeterentur. Et Domini Commissarij su&#230; 
+                    <lb />Celsitudinis nonis rationibus contenderent, ea retineri debere. Conventum est, 
+                    <lb />quod hujusmodi controversia referetur, sicut et his pr&#230;sentibus refertur, ad eosdem 
+                    <lb />Commissarios et Arbitros, ijsdem modo, et tempore definienda, quibus damna utrique 
+                    <lb />parti ab Anno 1640. inflicta, in Articulo proxime pr&#230;cedente referuntur.
+                    <lb />
+                </p>
+                <pb facs="#FacsPnr11"/><p>26.
+                    <lb />Ad rem mercatoriam utrinque in magis promovendam, conclusum est, quod si 
+                    <lb />inter dictam Rempub[licam], et Regnum bellum exarserit, mercatoribus in civitatibus, 
+                    <lb />et oppidis ubi degunt, semestre spatium, post denuntiationem belli, dabitur, ad vendenda, 
+                    <lb />et transportanda bona sua, et mercimonia, et si quidquam ab ijs ablatum fuerit, vel si 
+                    <lb />aliqua ijs injuria ab alterutr&#226; parte, vel populo, aut Subditis alterutrius, intra dictum 
+                    <lb />spatium inferatur, plenaria compensatio, et satisfactio dabitur.
+                </p> 
+                <p>
+                    <lb />27.
+                    <lb />Quod si acciderit, ut quamdiu foedus, Amicitia, et Societas h&#230;c duraverit, 
+                    <lb />ab ullo ex populo, aut Incolis alterutrius partis, contra hoc foedus, aut 
+                    <lb />ullum ejus membrum, mari, terr&#226;, aut aquis dulcibus quidquam fiat, aut tentetur, 
+                    <lb />Amicitia h&#230;c, foedus, et Societas inter has Nationes non idcirco infringentur, verum 
+                    <lb />integra nihilominus perstabunt, vimque suam plenariam obtinebunt, tantummodo 
+                    <lb />illi ipsi, qui contra foedus pr&#230;dictum commiserint, singuli punientur, et nemo alius, 
+                    <lb />jufstitiaque reddetur, et satisfactio dabitur illis omnibus, quorum id interest, ab ijs 
+                    <lb />omnibus qui terr&#226;, mari, aut alijs aquis contra hoc foedus quidquam commisserint, 
+                    <lb />intra anni spatium quam justitia postulabitur. Quod si vero foederis ruptores 
+                    <lb />non comparuerint, neque se judicandos submiserint, neque satisfactionem dederint 
+                    <lb />intra terminum pr&#230;finitum, pr&#230;dicti illi utriusque partis hostes judicabuntur, 
+                    <lb />eorumque bona, facultates, et quicunque reditus publicabuntur, plen&#230;q[ue] ac just&#230; 
+                    <lb />satisfactioni impendenda erunt, earum injuriarum qu&#230; ab ipsis illat&#230; sunt, ipsiq[ue] 
+                    <lb />pr&#230;terea cum in alterutrius partis potestate fuerint, ijs poenis obnoxij erunt, 
+                    <lb />quas suo quisque criminc commeruerit.
+                </p> 
+                <p>
+                    <lb />28.
+                    <lb />Item Conventum, Conclusam, et concordatum est, quod pr&#230;sens Tractatus, 
+                    <lb />atque omnia, et singula in eo contenta, et conclusa, per patentes utriusq[ue] partis 
+                    <lb />
+                </p>
+                <pb facs="#FacsPnr12"/><p>Literas, Sigillo magno munitas, debit&#224;, et authentic&#226; forma, intra quindecirn dies 
+                    <lb />proxime insequentes (aut citius si fieri poterit) confirmabuntur, et rati habebuntur, 
+                    <lb />mutu&#224;que Instrumenta, intra pr&#230;dictum tempus, hinc inde extradentur, nec non 
+                    <lb />pr&#230;sens Tractatus, et Confoederatio statim a traditis, et permutatis Instrumentis 
+                    <lb />form&#226; &amp; Loco solitis publicabitur.
+                </p> 
+                <p>[Es folgen die Kommissionen des Lordprotectors und Seiner Majest&#228;t des K&#246;nigs von Frankreich]
+                    <lb />
+                </p>
+                <pb facs="#FacsPnr13"/><p>In quorum omnium et singulorum pr&#230;missorum futem et Testimonium 
+                    <lb />nos Serenissimi ac Celsissimi Domini, Domini Protectoris Reipub[lic&#230;]
+                    <lb />Angli&#230;, Scoti&#230; et Hiberni&#230; Consiliarij ac Commissarij vi et vigore supra-
+                    <lb />script&#230; Commissiones seu procurationis nostr&#230; pr&#230;sentem Tractatum 28
+                    <lb />Articulis comprehensum manibus et sigillis nostris subscripsimus et 
+                    <lb />subsignavimus. Actum Westmonasterij vicesimo quarto die Octobris Anno 
+                    <lb />mill&lt;es&gt;<note n="1" type="crit_app">Tintenfleck.</note>imo sexcentesimo quinquagesimo quinto.
+                </p> 
+                <pb facs="#FacsPnr14"/><p>Nath. Fiennes
+                </p> 
+                <p>P. Lisle 
+                </p> 
+                <p>Wal. Strickland
+                    <lb />
+                </p>
+                <pb facs="#FacsPnr15"/><p>Acte joissi au T[rait]é entre la France et l'Ang[leter]re 
+                    <lb />du 3.d Novemb[r]e 1655 contenant les noms 
+                    <lb />des Anglois que Louis 14 s'engageois de ne pas 
+                    <lb />laisser demeurer en France 
+                </p> 
+                <p>Ne suspicionibus locus deinceps relinquatur, Legatus Regis Gallorum 
+                    <lb />Christianissimi, suæ Ma[jefta]tis nomine, spondet, et promittit D[omi]no Protectori 
+                    <lb />Reipub[licæ] Angliæ, Scotiæ, et Hiberniæ , &amp;c. Quod ii quorum nomina recen- 
+                    <lb />sentur, in Catalogo his annexo, et a Dominis Commissarijs subsignato, 
+                    <lb />non commorabuntur, nec commorabitur quispiam eorum in Galliæ Regno 
+                    <lb />ultra quadraginta dies, post traditam utrinq[ue] Ratificationem Tractatus 
+                    <lb />hodie subsignati, nec revertentur; seu revertetur, nec ullo tempore in posteru[m] 
+                    <lb />in Regnum prædictum admittentur, seu admittetur. Eadem ratione, intra 
+                    <lb />quadraginta dies, post traditam ab utraq[ue] parte dicti Tractatus Ratifica- 
+                    <lb />tionem, illi quorum nomina recensentur in altero Catalogo his annexo, et a 
+                    <lb />dicto D[omi]no Legato subsignato, non commorabuntur, nec commorabitur quispi- 
+                    <lb />am eorum in dicta Repub[lica], nec in eam ullo tempore in posterum admittentur, 
+                    <lb />seu admittetur. Et ulterius utrinq[ue] conventum, et concordatum est, vir- 
+                    <lb />tute P&lt;otestatum&gt;<note n="2" type="crit_app">Unleserlich.</note> sibi utrinq[ue] datarum,quod licet præsens Articulus, qui 
+                    <lb />pro secreto habebitur, tractatui prædicto non inseratur, eandem tamen 
+                    <lb />vim, et vigorem obtinebit, et eodem tempore, eodemq[ue]<note n="3" type="crit_app">Nachträglich eingefügt.</note> modo, et forma cum prædicto 
+                    <lb />Tractatu ratificabitur. 
+                </p> 
+                <p>Nath. Fiennes 
+                    <lb />P. Lisle 
+                    <lb />Wal. Strickland 
+                </p> 
+                <p> 
+                </p>
+                <pb facs="#FacsPnr16"/><p>Charles eldest sonne of Charles late King of England&nbsp; 
+                    <lb />James Duke of Yorke 
+                    <lb />Henry Duke of Gloucester&nbsp; after tenn yeares if required 
+                    <lb />The Lord of Ormond&nbsp; 
+                    <lb />Sr Edward Hide&nbsp; 
+                    <lb />Sr John Culpepper&nbsp; 
+                    <lb />Ld Gerrard&nbsp; 
+                    <lb />Daniel Oneale 
+                    <lb />Ld Wilmot&nbsp; 
+                    <lb />Sr Marmaduke Langdale&nbsp; 
+                    <lb />Sr Edward Nicholas&nbsp; 
+                    <lb />Ld Wentworth&nbsp; eldest sonne of the Earle of Cleveland 
+                    <lb />Sr Richard Greenville 
+                    <lb />Sr Francis Doddington 
+                    <lb />Sr John Barckley&nbsp; 
+                    <lb />The Lord Belcarie 
+                    <lb />O Sullivan Beare 
+                    <lb />L[ieutnan]t Gen[era]ll Midleton 
+                    <lb />Lord Muskerry the father 
+                    <lb />Major Gen[era]ll Edward Massey 
+                </p> 
+                <p>&nbsp;Nath. Fiennes 
+                    <lb />&nbsp;P. Lisle 
+                    <lb />&nbsp;Wal. Strickland 
+                </p> 
+                <p>
+                </p> 
+                <lb /> 
+                <p>
+                </p>
+                <pb facs="#FacsPnr17"/>
+                <p>Maresin
+                    <lb />L'aisne
+                    <lb />Cugnac
+                    <lb />Trancart
+                    <lb />Mazerolles
+                    <lb />Barriere
+                    <lb />St Mars
+                    <lb />Conan
+                    <lb />Desert
+                    <lb />Blaru
+                    <lb />Taudin
+                </p>
+                <p>&nbsp;De Bordeaux
+                    <lb />
+                </p>
+            </div>
+        </body>
+        <back>
+            <listBibl>
+                <bibl>Links: <ref target="http://www.british-civil-wars.co.uk/">http://www.british-civil-wars.co.uk/</ref> </bibl>
+            </listBibl>
+        </back>
+    </text>
+</tei:TEI>

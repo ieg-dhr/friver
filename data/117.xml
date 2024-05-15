@@ -1,0 +1,878 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE tei SYSTEM "../resources/FriVer_DTD.dtd">
+
+<?xml-model href="../resources/FriVer.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns="http://www.tei-c.org/ns/1.0"
+    xml:id="pa000299-0117">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title level="s">European peace treaties of the pre-modern era in data / Europäische
+                    Friedensverträge der Vormoderne in Daten (FriVer+)</title>
+                <title when="1706-09-24" xml:id="t117" when-custom="1706 IX 14_24" level="a"
+                    ref="https://www.ieg-friedensvertraege.de/treaty/t-117-1-de.html"
+                    >Friedensvertrag von Altranstädt (Dresden)</title>
+            </titleStmt>
+            <editionStmt>
+                <edition> Digital edition according to <ref target="http://www.tei-c.org/">TEI
+                        P5</ref>
+                </edition>
+                <funder>
+                    <ref target="https://www.text-plus.org/">TEXT+</ref>
+                </funder>
+                <editor role="http://id.loc.gov/vocabulary/relators/edt"
+                    ref="https://orcid.org/0000-0002-8741-5916">
+                    <persName>Jaap Geraerts</persName>
+                    <note>The transformation and enrichment of the data is done by Jaap Geraerts
+                        (IEG Mainz). The other members of the FriVer+ team are Fabian Cremer, Ines
+                        Grund, and Thorsten Wübbena (all IEG Mainz).</note>
+                    <note> The original data has been created by the <ref
+                            target="https://www.ieg-friedensvertraege.de">team of scholars</ref> who
+                        were part of the Europäische Friedensverträge der Vormoderne project. This
+                        project was lead by Prof. Dr. Heinz Duchhardt and was based at the Leibniz
+                        Institute of European History in Mainz. </note>
+                </editor>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>
+                    <orgName ref="http://www.isni.org/0000000119314040">Leibniz-Institut für
+                        Europäische Geschichte Mainz</orgName>
+                </publisher>
+                <distributor>
+                    <orgName ref="http://www.isni.org/0000000110101946">Universitäts- und
+                        Landesbibliothek Darmstadt</orgName>
+                </distributor>
+                <idno type="ISIL">http://lobid.org/organisation/DE-17</idno>
+                <date type="issued" when="2023-12-23"/>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">
+                        <p xml:lang="en">This file is licensed under the terms of the Creative
+                            Commons License CC-BY 4.0 (Attribution 4.0 International)</p>
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <repository xml:id="r7">Dresden SaechsHStA</repository>
+                <msDesc>
+                    <p>Unterhändlerinstrumente:<lb/> SHSA Dresden: 10001 Ältere Urkunden Nr.
+                        14306c.<lb/> Schwedisches Reichsarchiv Stockholm: Originaltraktater med
+                        främmande makter: Tyskland,&nbsp; XVI. Sachsen No. 9 A. Fredsfördrag mellan
+                        Sverige och Polen å ena samt Kursachsen å andra sidan. Dat. Altranstädt
+                        14/24 Sept. 1706 (Latin) (Undert.: C. Piper, O. Hermelin, för Sverige;
+                        Antonius Albertus Liber Baro de Imhoff, Georfius Ernestus Pfingsten, för
+                        Kursachsen); Tyskland, XVI. No. 9 B. Separat artikel till Litt. A.</p>
+
+                    <p>Ratifikation:<lb/> SHSA Dresden 10001 Ältere Urkunden Nr. 14306d:
+                        Ratifikation Schwedens Alt Ranstädt/Leipzig 1706 X 23. Ratifikation durch
+                        Sachsen-Polen 1706 X 20 (Kretzschmar, Der Friedensschluß von Altranstädt,
+                        nennt als Datum der Unterschrift Augusts II. den 1707 I 19.).<lb/>
+                        Schwedisches Reichsarchiv Stockholm: Tyskland XVI N:o 9 E) Konung Augusts
+                        ratifikation af Litt. A. Dat. Petrikau (Pieterkoviae) 20 Okt. 1706 (Latin);
+                        Tyskland XVI N:o 9 F) D:o d:o af Litt. B.</p>
+
+                    <p>Anm.: Vertragpartner "Polen": Stanisław Leszczyński, 1704-1709 polnischer
+                        Gegenkönig und mit Schweden gegen König August II. von Sachsen-Polen verbündet.<lb/>
+                        <lb/> Weitere Stücke:<lb/>
+                        <lb/> SHSA Dresden Loc. 3541: C der Ratifikation Sachsen-Polen Petricovia
+                        1706 X 20 (Kopie und dt. Übersetzung; Verhandlungsakten).</p>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p> The data in this XML file, originally created by the project <ref
+                        target="https://www.ieg-friedensvertraege.de/vertraege">Europäische
+                        Friedensverträge der Vormoderne online</ref> has been transformed in
+                    accordance with <ref target="http://www.tei-c.org/">TEI P5</ref> as part of the
+                    project <ref
+                        target="https://www.ieg-mainz.de/en/research/research-projects/european-peace-treaties-of-the-pre-modern-era-in-data"
+                        >Europäische Friedensverträge der Vormoderne in Daten (FriVer+)</ref>
+                </p>
+            </projectDesc>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="la" xml:id="lan6">Latein</language>
+            </langUsage>
+        </profileDesc>
+    </teiHeader>
+    <standOff>
+        <listPerson>
+            <person role="signatory" xml:id="p91">
+                <persName ref="https://explore.gnd.network/gnd/4046496-9">
+                    <name>Polen</name>
+                </persName>
+            </person>
+            <person role="signatory" xml:id="p92">
+                <persName ref="https://www.wikidata.org/wiki/Q824047">
+                    <name>Sachsen / Polen</name>
+                </persName>
+            </person>
+            <person role="signatory" xml:id="p99">
+                <persName ref="https://explore.gnd.network/gnd/4077258-5">
+                    <name>Schweden</name>
+                </persName>
+            </person>
+            <person xml:id="pp0181">
+                <persName ref="https://explore.gnd.network/gnd/118505084">
+                    <name>August II. (Polen)</name>
+                </persName>
+            </person>
+            <person xml:id="pp0182">
+                <persName ref="https://explore.gnd.network/gnd/118560123">
+                    <name>Karl XII. (Schweden)</name>
+                </persName>
+            </person>
+            <person xml:id="pp0187">
+                <persName ref="https://explore.gnd.network/gnd/118752715">
+                    <name>Stanisław I. (Poland)</name>
+                </persName>
+            </person>
+            <person xml:id="pp0188">
+                <persName ref="https://explore.gnd.network/gnd/121061337">
+                    <name>Carl Carlsson Piper</name>
+                </persName>
+            </person>
+            <person xml:id="pp0189">
+                <persName ref="https://explore.gnd.network/gnd/123826039">
+                    <name>Olof Nilsson Hermelin</name>
+                </persName>
+            </person>
+            <person xml:id="pp0190">
+                <persName ref="https://viaf.org/viaf/69740908/">
+                    <name>Jan Stanisław Jabłonowksi</name>
+                </persName>
+            </person>
+            <person xml:id="pp0191">
+                <persName ref="https://viaf.org/viaf/1707147907502579210001/">
+                    <name>Aleksander Paweł Sapieha</name>
+                </persName>
+            </person>
+            <person xml:id="pp0192">
+                <persName ref="https://explore.gnd.network/gnd/1034917218">
+                    <name>Anton Albrecht Imhof</name>
+                </persName>
+            </person>
+            <person xml:id="pp0193">
+                <persName ref="https://explore.gnd.network/gnd/128522798">
+                    <name>Georg Ernst Pfingsten</name>
+                </persName>
+            </person>
+            <person xml:id="pp0194">
+                <persName ref="https://explore.gnd.network/gnd/118592955">
+                    <name>Peter I. (Russia)</name>
+                </persName>
+            </person>
+            <person xml:id="pp0195">
+                <persName ref="https://explore.gnd.network/gnd/120542382">
+                    <name>Jakub Ludwik Sobieski</name>
+                </persName>
+            </person>
+            <person xml:id="pp0196">
+                <persName ref="https://explore.gnd.network/gnd/1017469695">
+                    <name>Konstanty Wladyslaw Sobieski</name>
+                </persName>
+            </person>
+            <person xml:id="pp0197">
+                <persName ref="https://explore.gnd.network/gnd/119139162">
+                    <name>Clemens XI</name>
+                </persName>
+            </person>
+            <person xml:id="pp0198">
+                <persName ref="https://viaf.org/viaf/311290353/">
+                    <name>Mikołaj Święciki</name>
+                </persName>
+            </person>
+            <person xml:id="pp0199">
+                <persName ref="https://explore.gnd.network/gnd/116058501">
+                    <name>Johann Reinhold von Patkul</name>
+                </persName>
+            </person>
+            <person xml:id="pp0200">
+                <persName ref="https://explore.gnd.network/gnd/118695886">
+                    <name>Georg Heinrich von Goertz</name>
+                </persName>
+            </person>
+            <person xml:id="pp0201">
+                <persName ref="https://explore.gnd.network/gnd/118649450">
+                    <name>Anne (Großbritannien)</name>
+                </persName>
+            </person>
+        </listPerson>
+        <listPlace>
+            <place xml:id="loc33">
+                <placeName ref="https://explore.gnd.network/gnd/4079738-7">Altranstädt</placeName>
+            </place>
+        </listPlace>
+        <facsimile>
+            <surface xml:id="FacsPnr1">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_442ad6f472c7f"/>
+            </surface>
+            <surface xml:id="FacsPnr2">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_442ad796e49fd"/>
+            </surface>
+            <surface xml:id="FacsPnr3">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_442ad9582cf54"/>
+            </surface>
+            <surface xml:id="FacsPnr4">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_442ad9aa3081c"/>
+            </surface>
+            <surface xml:id="FacsPnr5">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_442ad9ed90a33"/>
+            </surface>
+            <surface xml:id="FacsPnr6">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_442ada31eb9b0"/>
+            </surface>
+            <surface xml:id="FacsPnr7">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_442ae116c3bd1"/>
+            </surface>
+            <surface xml:id="FacsPnr8">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_442ae14b8e441"/>
+            </surface>
+            <surface xml:id="FacsPnr9">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_442ae17e4a771"/>
+            </surface>
+            <surface xml:id="FacsPnr10">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_442ae45185124"/>
+            </surface>
+            <surface xml:id="FacsPnr11">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_442ae4c7e581d"/>
+            </surface>
+            <surface xml:id="FacsPnr12">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_442ae4f125cad"/>
+            </surface>
+            <surface xml:id="FacsPnr13">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_442ae51a4057b"/>
+            </surface>
+            <surface xml:id="FacsPnr14">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_442ae62cccc94"/>
+            </surface>
+            <surface xml:id="FacsPnr15">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_442ae65fda45b"/>
+            </surface>
+            <surface xml:id="FacsPnr16">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_442ae6ae56f13"/>
+            </surface>
+            <surface xml:id="FacsPnr17">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_442ae6e2822bf"/>
+            </surface>
+            <surface xml:id="FacsPnr18">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_442ae736adec2"/>
+            </surface>
+            <surface xml:id="FacsPnr19">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_442ae77b33c04"/>
+            </surface>
+            <surface xml:id="FacsPnr20">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_442ae7bb8cabc"/>
+            </surface>
+            <surface xml:id="FacsPnr21">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_442ae81bd44ac"/>
+            </surface>
+            <surface xml:id="FacsPnr22">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_442ae849e61d0"/>
+            </surface>
+            <surface xml:id="FacsPnr23">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_442ae87aabe84"/>
+            </surface>
+            <surface xml:id="FacsPnr24">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_442aea5464dbd"/>
+            </surface>
+            <surface xml:id="FacsPnr25">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_442aea812f31d"/>
+            </surface>
+            <surface xml:id="FacsPnr26">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_442aeac334119"/>
+            </surface>
+            <surface xml:id="FacsPnr27">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_442aebaedec38"/>
+            </surface>
+            <surface xml:id="FacsPnr28">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_442aec0442083"/>
+            </surface>
+            <surface xml:id="FacsPnr29">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_442aec3886a5d"/>
+            </surface>
+            <surface xml:id="FacsPnr30">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_442aecf5a539e"/>
+            </surface>
+            <surface xml:id="FacsPnr31">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_442aed4a961c5"/>
+            </surface>
+            <surface xml:id="FacsPnr32">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_442aeda5ae514"/>
+            </surface>
+            <surface xml:id="FacsPnr33">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_442aee0352382"/>
+            </surface>
+            <surface xml:id="FacsPnr34">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_442aee554a0ce"/>
+            </surface>
+            <surface xml:id="FacsPnr35">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_442aef32c4335"/>
+            </surface>
+            <surface xml:id="FacsPnr36">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_442af01ccfc70"/>
+            </surface>
+            <surface xml:id="FacsPnr37">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_442af18de05a6"/>
+            </surface>
+            <surface xml:id="FacsPnr38">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_442af2d4c7c4e"/>
+            </surface>
+            <surface xml:id="FacsPnr39">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_442af30bd2e8c"/>
+            </surface>
+            <surface xml:id="FacsPnr40">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_442af3a9e72a4"/>
+            </surface>
+            <surface xml:id="FacsPnr41">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_442af4b3ae2ea"/>
+            </surface>
+            <!-- field in empty in original DB
+            <surface xml:id="FacsPnr42">
+                <graphic url=""/>
+            </surface> -->
+            <surface xml:id="FacsPnr43">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_442af60789e31"/>
+            </surface>
+            <surface xml:id="FacsPnr44">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_442af63ce6635"/>
+            </surface>
+            <surface xml:id="FacsPnr45">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_442af664ce33c"/>
+            </surface>
+            <surface xml:id="FacsPnr46">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_442af6d1046f0"/>
+            </surface>
+            <surface xml:id="FacsPnr47">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_442af7061c18f"/>
+            </surface>
+        </facsimile>
+    </standOff>
+    <text>
+        <front>
+            <div type="Drucke">
+                <p>DUM VIII/1 S. 204-206&nbsp; <ref
+                        target="http://gallica.bnf.fr/ark:/12148/bpt6k122969g.image.f219.pagination.langEN"
+                        >Link zum Druck auf gallica.bnf.fr</ref>
+                    <lb/>CTS 25, S. (475)477-485 (486-491, frz.). <lb/>Lamberty, Memoires pour
+                    Servir à l´Histoire du XVIII Siècle 4, S. 279 (frz.). <lb/>Kretzschmar, Der
+                    Friedensschluß von Altranstädt 1706/1707, in: Kalisch/Gierowski (Hgg.), Um die
+                    polnische Krone: Sachsen und Polen während des Nordischen Krieges 1700-1721,
+                    Berlin 1962, S. 175-183 (dt. Übersetzung nach: SHSADresden Loc. 3541).</p>
+            </div>
+            <div type="Inhalt">
+                <p>Art. 1 Ewiger Friede und aufrichtige Freundschaft [zwischen Karl XII. von
+                    Schweden, Stanislaus I. von Polen und Friedrich August (II.) von
+                    Sachsen].<lb/>Art. 2 Schaden vergessen.<lb/> 1. Bestimmungen über
+                    Privatangelegenheiten.<lb/>Art. 3 Wurzel des Kriegs und der Feindseligkeiten
+                    ausrotten.<lb/>Friedrich August von Sachsen entsagt der polnischen Krone und
+                    übergibt Polen und Litauen mit allen Rechten an Stanislaus. Stanislaus I. wird
+                    als wahrer und legitimer König anerkannt.<lb/>1. Beibehaltung des königlichen
+                    Namens und der königlichen Ehre für Friedrich August.<lb/>Art. 4
+                    Zustellungsformalitäten der Abdankungsurkunde. Friedrich August entsagt
+                    Aktivitäten gegen Stanislaus.<lb/> 1. Erklärung über künftiges Verhalten
+                    gegenüber Konvention und Polen.<lb/>Art. 5 Die gegen Karl XII. gerichteten
+                    Bündnisse Friedrich Augusts müssen aufgegeben werden, namentlich diejenigen mit
+                    dem Zaren von Moskau.<lb/> 1. Erklärung, daß Unterstützung des Zaren von Moskau
+                    beendet wird.<lb/>Art. 6 Aufhebung bestimmter, im Vertrag definierter Dekrete
+                    und Statuten.<lb/> 1. Über geistliche und weltliche Würden und
+                    Beneficia.<lb/>Art. 7 Die polnische Krone und die Insiginien, die in Sachsen
+                    aufbewahrt werden, müssen Stanislaus überlassen werden.<lb/>Art. 8 Königliche
+                    Prinzen Jakob und Konstantin Sobieski sollen aus dem Arrest entlassen
+                    werden.<lb/> 1. Bestimmungen über Geldzahlungen.<lb/>Art. 9 Polnische und
+                    litauische Gefangene. Bischof von Posen.<lb/>Art. 10 Schwedische Gefangene.<lb/>
+                    1. Bestimmungen über Schulden der Offiziere.<lb/>Art. 11 Bestimmungen über
+                    Überläufer und Verräter.<lb/>Auslieferungsbestimmung Johannes Reinholdus
+                    Patkuls.<lb/>Art. 12 Gefangene Soldaten aus Moskau.<lb/>Art. 13 Bestimmungen
+                    über Standarten, Fahnen, Geschütze.<lb/>Art. 14 Oberst Görtz
+                    rehabilitiert.<lb/>Art. 15 Bestimmungen über den Unterhalt der in Sachsen
+                    stationierten schwedischen Truppen. Winterquartiere. Rückzug der
+                    Truppen.<lb/>Art. 16 Evakuierung der Städte und Festungen Krakau und
+                    Tykocin.<lb/>Art. 17 Bestimmungen über Leipzig und Wittenberg.<lb/>Art. 18
+                    Beendigung der Feindseligkeiten in Sachsen und den kurfürstlichen Landen.<lb/>
+                    Waffenstillstand.<lb/>Art. 19 Bestimmungen über Religion und
+                    Konfession.<lb/>Art. 20 Bestimmungen über Hilfeleistungen im Falle eines
+                    Angriffs auf Sachsen. <lb/> 1. Satisfaktion im Falle eines sächsischen
+                    Friedensschlusses mit Moskau.<lb/>Art. 21 Erklärung über Friedensgarantien und
+                    die Aufnahme anderer Souveräne, namentlich des Kaisers, Großbritanniens, der
+                    Niederlande und anderer Mächte.<lb/>Art. 22 Bestimmungen über Ausfertigung der
+                    Instrumente. Ratifikation.</p>
+                <p><lb/>Separatartikel<lb/>Über Artikel 21. Gültigkeit des Friedens. Status des
+                    Separatartikels. Ratifikation.<lb/></p>
+            </div>
+            <div type="Kommentar">
+                <p>Im Januar 1700 marschierten sächsisch-polnische Truppen in das schwedische
+                    Livland (mit Riga) ein. 1702/1703 errang Schweden große militärische Erfolge,
+                    unter anderem die Einnahme Warschaus und Krakaus. Schweden forderte für die
+                    Einstellung seiner militärischen Aktionen unter Instrumentalisierung der
+                    Parteiungen des polnischen Adels die Absetzung Augusts als polnischen König.
+                    Diese Forderung spaltete die Szlachta und führte zu innerer (auch bewaffneter)
+                    Konfrontation (sog. &quot;Konföderationen&quot;), aber auch zu einem
+                    &quot;Guerillakampf&quot; gegen Schweden. Im Februar 1704 setzte eine polnische
+                    Adelsfraktion auf dem Sejm unter schwedischem Einfluß August II. ab und wählte
+                    Stanisław Leszczyński<note n="1" type="annotation">Stanisław Leszczyñski
+                        (1677-1766), Palatin von Posen, 1704-1709, 1733-1736 als polnischer König
+                        Stanislaw I.</note> zum &quot;Gegenkönig&quot;. Nach der militärischen
+                    Niederlage bei Fraustadt und der Besetzung Sachsens durch schwedische Truppen
+                    mußte Sachsen nach nur 14tägigen Verhandlungen den &quot;Diktatfrieden&quot;
+                    (Mieck) von Altranstädt<note n="2" type="annotation">In Altranstädt, ca. 15 km
+                        westlich von Leipzig gelegen, befand sich das schwedische
+                        Hauptquartier.</note> unterzeichnen. Die Unterzeichnung erfolgte durch die
+                    sächsischen Unterhändler Imhoff und Pfingsten, die in einem Zusatzprotokoll die
+                    Anerkennung des Vertrages durch August II. innerhalb von sechs Monaten
+                    zusicherten. Der sächsische Verhandlungsspielraum war gering gewesen, denn Karl
+                    XII. hatte den Verzicht der Wettiner auf die polnische Krone als unabänderliche
+                    Verhandlungsprämisse gesetzt. August II., der durch die zähen Kämpfe in Polen
+                    festgehalten wurde, erfuhr erst im Oktober von dem für ihn so ungünstigen
+                    Vertragsschluß. Entgegen den Waffenstillstandsbestimmungen besiegte er am 29.
+                    Oktober im Verbund mit Rußland ein schwedisches Herr und sprach am 19. November
+                    in einem Manifest dem Frieden jegliche Rechtskraft ab. Unterstützung anderer
+                    europäischer Höfe erhielt August II. nicht. Am 1. Dezember 1707 trafen sich Karl
+                    XII. und August II. in Günthersdorf (nahe Altranstädt); Karls XII. unnachgiebige
+                    Haltung zwang August II., am 19. Januar 1707 den Vertrag mit seiner Unterschrift
+                    anzuerkennen. Der Vertrag wurde von Preußen und den Seemächten garantiert.<note
+                        n="3" type="annotation">Duchhardt, Pentarchie, S. 242-243. Garantie Preußens
+                        (lt. Art. 21 des Friedens von Altranstädt): Charlottenburg 1707 IV 30. Siehe
+                        Preußens Staatsverträge aus der Regierungszeit König Friedrich I., S. 86-87
+                        (ohne Textabdruck). In einer 1707 IX 1 zu Altranstädt geschlossenen
+                        Konvention gestand Kaiser Joseph I. Schweden eine Schutzrolle für die
+                        schlesischen Protestanten zu. Vergleiche Carlsson, Der Vertrag von
+                        Altranstädt 1707. </note> Nach der &quot;epochalen&quot; (Duchhardt)
+                    schwedischen Niederlage gegen Rußland im Juli 1709 bei Poltava, setzte August
+                    II. an der Seite des Zaren den Krieg fort. Am 8. August 1709 zog er seine
+                    Unterschrift unter den Altranstädter Frieden zurück und ließ sich durch den
+                    Papst vom Vertrag entbinden. Das geschwächte Schweden und Leszczyński wurden zum
+                    Rückzug nach Vorpommern gezwungen. 1709 setzte der Sejm August II. wieder als
+                    König ein. 1710/11 endeten die Kriegshandlungen in Polen. Aus europäischer
+                    Perspektive bestand der Erfolg des Friedens von Altranstädt (zusammen mit der
+                    Konvention von Altranstädt 1707 darin, daß die beiden großen Kriege dieser Zeit,
+                    der Spanische Erbfolgekrieg und der Nordische Krieg, nicht ineinanderflossen,
+                    sondern getrennt blieben (Kretzschmar).<lb/></p>
+            </div>
+            <div type="Kontext">
+                <p>1700-1721: (Großer) Nordischer Krieg. Schweden unter Karl XII. sieht sich einer
+                    Allianz der Ostseemächte Dänemark, Sachsen-Polen und Rußland gegenüber.<lb/>18.
+                    August 1700: Mit dem Frieden von Traventhal scheidet Dänemark aus dem Krieg
+                    aus.<lb/>1702/1703 Schwedischer Vormarsch in Polen. Warschau und Krakau werden
+                    besetzt.<lb/>14. Februar 1704 &quot;Generalkonföderation&quot; aus Teilen des
+                    polnischen Adels setzt August II. (seit 1697 auf dem polnischen Thron) ab und
+                    wählt Stanis³aw Leszczyñski zum König (12. Juli). Die Anhänger Augusts formieren
+                    sich zur &quot;Konföderation von Sandomierz&quot; und verbünden sich mit Rußland
+                    (30.August)<lb/>28. November 1705 Bündnisvertrag Schweden - Leszczyñski. .
+                    <lb/>12. Februar 1706 Niederlage August II. bei Fraustadt. Schwedischer Sieg bei
+                    Grodno (März); das östliche Polen wird verwüstet.<lb/>28. August 1706 Besetzung
+                    Sachsens durch schwedische Truppen.<lb/>24. September 1706: König August II. von
+                    Polen muß im Frieden von Altranstädt auf den Thron verzichten. Sachsen-Polen
+                    scheidet aus dem Krieg aus und muß alle Allianzen (Rußland) kündigen. Als
+                    polnischer König wird Stanis³aw Leszczyñski bestätigt, der sich jedoch nur in
+                    Teilen Polens durchsetzen kann. Guerillakrieg in Polen zwischen den Anhängern
+                    Schwedens und Leszczyñskis einerseits und den Anhängern August II. und Sachsens
+                    andererseits.<lb/>29. Oktober 1706 Sächsisch-polnische Truppen erringen zusammen
+                    mit Rußland bei Kalisz einen Sieg über Schweden.<lb/>30. November 1706 August
+                    II. legt die polnische Krone nieder (Bestimmung Altranstädt). <lb/>19. Januar
+                    1707 August II. unterzeichnet den Frieden.<lb/>2. Februar 1707 Preußen erkennt
+                    unter dem Druck Schwedens Leszczyñski an und garantiert den Frieden von
+                    Altranstädt (IV 30). <lb/>8. Juli 1709 Sieg Rußlands über Schweden bei Poltawa.
+                    Die schwedischen Truppen ziehen sich daraufhin aus Polen zurück. Leszczyñski
+                    geht ins Exil. Im August kehrt August II. nach Polen zurück und widerruft seinen
+                    Thronverzicht. In einem Vertrag mit dem Zaren muß er sich zur Fortsetzung des
+                    Krieges gegen Schweden verpflichten (20. Oktober).<lb/>16. April 1710 August II.
+                    erhält die polnische Krone zurück, muß jedoch dem Adel weitgehende
+                    Zugeständnisse machen (&quot;Pazifikationstraktat&quot; 1716XI 3).<lb/>3. Juli
+                    1713 Sonderfriede von Adrianopel. Trotz eines Bündnisses Karls XII. mit dem
+                    Osmanischen Reich, das in den Krieg gegen Rußland eintritt, wird die schwedische
+                    Position nicht gestärkt. Die Pforte erhält Azov und verzichtet auf ihren Einfluß
+                    in Südostpolen (Ukraine). Angesichts der Schwäche Schwedens formiert sich die
+                    Koalition der Nordischen Mächte neu (Dänemark und Sachsen-Polen treten wieder in
+                    den Krieg ein, Hannover und Preußen schließen sich an).<lb/>1716 Die
+                    schwedischen Eroberungen gehen verloren. Karl XII. lehnt aber
+                    Friedensverhandlungen ab. <lb/>1717 Der Tod Karls XII. eröffnet den Weg für
+                    Friedensgespräche, die unter Vermittlung Englands zu den Friedensverträgen der
+                    Jahre 1719-1721 führen (mit Hannover, Stockholm 1720 I 21; mit Preußen,
+                    Stockholm 1720 I 21; mit Dänemark, Fredriksborg 1720 VII 3; mit Rußland, Nystad
+                    1721 IX 10). Schweden verliert Gebiete an Dänemark (Schonen), Hannover (Bremen
+                    und Verden) und Preußen (Teile Pommerns). Das Gleichgewicht im westlichen
+                    Ostseeraum bleibt jedoch gewahrt. Im Baltikum hingegen kann Rußland durch
+                    territoriale Gewinne zur führenden Macht aufsteigen. Die Verträge legen die
+                    Grenzen im Ostseeraum fest, die bis ins 19. Jahrhundert Bestand
+                    haben.<lb/><lb/></p>
+            </div>
+
+        </front>
+        <body>
+            <div type="Edition">
+                <p>In nomine Sacrosanctae Trinitatis <lb/>Cum Polonicum tenente Sceptrum Serenissimo
+                    ac Potentissimo Principe ac Domino, D[omi]no <rs ref="#pp0181">Friderico
+                        Augusto</rs><note n="3" type="annotation">Friedrich August I. (1670-1733),
+                        ab 1694 sächsischer Kurfürst, ab 1697 als August II. (''der Starke'')
+                        polnischer König (bis 1733, mit Unterbrechung 1704-1709 wegen des
+                        ''Gegenkönigtums'' Leszczyńskis). </note>, Rege ac Electore Saxoniae, grave
+                    ortum esset bellum, quod anno jam septimo continuatum, non modo Regna Sueciae ac
+                    Poloniae, sed etiam Electoratum Saxoniae variis molestiis, turbis et incommodis
+                    cumulaverat: secuta est interim ea rerum commutatio, ut Res publica Polona, in
+                    partes scissa, Serenissimum ac Potentissimum Principem ac Dominum, D[omi]num <rs
+                        ref="#pp0187">Stanislaum primum</rs><note n="4" type="annotation">Stanisław
+                        I. Leszczński.</note>, Regem sibi eligeret, adque solium ejusdem tuendum cum
+                    Serenissimo ac Potentissimo Principe ac Domino, D[omin]o <rs ref="#pp0182"
+                        >Carolo Duodecimo</rs><note n="5" type="annotation">Karl XII. (1682-1718),
+                        schwedischer König seit 1697.</note>, Rege Sueciae, Societatem iniret. Quo
+                    facto quamvis accensa belli flamma vehementius exardescere, latiusque se
+                    diffundere, videretur; singulari tamen Dei bonitate accidit, ut bellingerantes
+                    Principes ac Reges serium pacis desiderium animis conciperent, atque ad
+                    restiguendum funestum hujus belli incendium paria studia et vota adferrent.
+                    Constituti igitur sunt, ac plena potestate muniti, qui operi tam salutari manus
+                    admoverent, et quidem, a Sacra Regia Majestate Sueciae Illustrissimi,
+                    Excellentissimi ac Nobilissimi viri, Dominus Comes <rs ref="#pp0188">Carolus
+                        Piper</rs><note n="6" type="crit_app">Textvariante: CTS, Dumont: Dominus
+                        Carolus Piper. Sachanmerkung: Carl Carlsson Piper (1647-1716), Graf,
+                        schwedischer Kanzleirat und Minister (Svenskt Biografskit Lexikon 29,
+                        S.325-328). Von Piper und Hermlin stammt der Entwurf des Vertrages.
+                        (Kretzschmar, Der Friedensschluß von Altranstädt, S. 165). </note>, Senator
+                    Regius, Supremus Aulae Praefectus, Consiliarius cancellariae Regiae et Academiae
+                    Upsaliensis cancellarius ut et Dominus <rs ref="#pp0189">Olaus
+                        Hermelinus</rs><note n="7" type="annotation">Olof Nilsson Hermelin
+                        (1658-1709), schwedischer Kanzleirat und Staatssekretär (Svenskt Biografskit
+                        Lexikon 18, S. 702-710).</note>, Secretarius Status et a Sacra Regia
+                    Majestate Poloniae, sicut foederato Sacrae Regiae Majestatis Sueciae,
+                    Illustrissimi, Excellentissimi ac Nobilissimi Dominus <rs ref="#pp0190">Johannes
+                        Stanislaus Comes Jablonowski</rs><note n="8" type="annotation">Jan Stanisław
+                        Jabłonowksi (1669-1731), weissrussischer Wojewode, Schriftsteller, Anhänger
+                        Leszczyńskis und dessen Vertreter bei den Friedensverhandlungen (Polski
+                        Słownik Biograficzny 10, S. 221-223). </note>, Palatinus et generalis
+                    terrarum Russiae, ut et Dominus <rs ref="#pp0191">Alexander Paulus Comes
+                        Sapieha</rs><note n="9" type="annotation">Aleksander Paweł Sapieha
+                        (1672-1734), Graf, Delegierter Leszczyńskis, litauischer Großhetman (Polski
+                        Słownik Biograficzny 34, S. 561-565).</note>, supremus Magni Ducatus
+                    Lithuaniae Mareschallus; a parte vero Sacrae Regiae Majestatis et Electoralis
+                    Serenitatis Illustrissimi, Excellentissimi ac Nobilissimi, Dominus Antonius <rs
+                        ref="#pp0192">Albrechtus liber Baro de Imhof</rs><note n="10"
+                        type="annotation">Anton Albrecht Imhof (gest. 1715), Freiherr von,
+                        kursächsicher Rat und Kammerpräsident (ADB 14, S. 44).</note>, Consiliarius
+                    intimus et camerae Praeses, ut et Dominus <rs ref="#pp0193">Georgius Ernestus
+                        Pfingsten</rs><note n="11" type="annotation">Georg Ernst Pfingsten,
+                        kursächsischer Geheimer Referendar.</note>, Referendarius intimus, qui in
+                    castris Suedicis congressi, tabulis plenae potentiae rite commutatis, rem eo
+                    deduxerunt, ut favente supremo numine, diu optata pax resistueretur, inque
+                    mutuas amicitiae leges consentiretur, tenore sequenti: </p>
+                <p>Articulus I <lb/>Sit pax perpetua, firma et sincera amicitia inter Serenissimum
+                    ac Potentissimum Principem ac Dominum, D[omi]num <rs ref="#pp0182">Carolum
+                        XII</rs> Dei gratia Suecorum, Gothorum Vandalorumque Regem, Magnum Principem
+                    Finlandiae, Ducem Scaniae, Esthoniae, Livoniae, Careliae, Bremae, Verdae,
+                        Stetini<note n="12" type="crit_app">CTS, Dumont : Stettini.</note>,
+                    Pomeraniae, Cassubiae et Vandaliae, Principem Rugiae, Dominum Ingriae et
+                        Wismariae<note n="13" type="crit_app">CTS, Dumont : Vismariae.</note> nec
+                    non Comitem Palatinum Rheni, Bavariae, Juliaci, Cliviae et Montium Ducem,
+                    Ejusque Successores ac posteros Reges, Regnum Sueciae et subjectas illi regiones
+                    ac provincias. Nec non foederatum, Sacrae Regiae Majestatis Sueciae Serenissimum
+                    ac Potentissimum Principem ac Dominnum, <rs ref="#pp0187">D[omi]num Stanislaum
+                        I</rs><note n="14" type="annotation">König Stanisław I. Leszczyński.</note>
+                    Dei gratia Regem Poloniae, Magnum Ducem Lithuaniae, Russiae, Prussiae, Masoviae,
+                    Samogitiae, Kijoviae, Volhyniae<note n="15" type="crit_app">CTS, Dumont :
+                        Kyoviae, Volhiniae.</note>, Podoliae, Podlachiae, Livoniae, Smolensciae<note
+                        n="16" type="crit_app">CTS, Dumont : Smolenciae.</note>, Severiae,
+                        Czerniehoviaeque<note n="17" type="crit_app">CTS, Dumont :
+                        Czerniekoviaeque.</note> pp ejusque Successores ac posteros Reges Poloniae
+                    Magnosque Duces Lithuaniae, atque subjectas illis regiones ac provincias ab una
+                    parte et ab altera inter Serenissimum ac Potentissimum Principem ac Dominum,
+                    D[omi]num <rs ref="#pp0181">Fridericum Augustum</rs>, Dei gratia Regem, Ducem
+                    haereditarium Saxoniae, Sacri Romani Imperii Archimareschallum et Electorem,
+                    Landgravium Turingiae<note n="18" type="crit_app">CTS, Dumont :
+                        Thuringiae.</note>, Marchionem Misniae, nec non superioris et Inferioris
+                    Lusatiae, Burggravium<note n="19" type="crit_app">CTS, Dumont :
+                        Burgravium.</note> Magdeburgensem p.p. Ejusque haeredes ac successores: adeo
+                    ut omissa hostilitate, altera pars alteri nihil damni clam aut palam, directe
+                    aut indirecte inferat, aut per suos aliosve inferri faciat, nihil moliatur in
+                    alterius partis diminutionem et incommodum, non hostibus alterius quocunque<note
+                        n="20" type="crit_app">CTS, Dumont: quocumque.</note> praetextu auxilia
+                    praestet, nec foedera cum aliis huic pacificationi adversa feriat, sed obstricta
+                    sit utraque pars ea posthac quaerere ac agere, quae alteri honori sint atque
+                    emolumento, fidamque vicinitatem et mutuam amicitiam intemerate colere ac
+                    observare. </p>
+                <p>Art. II <lb/>Sit damnorum quoque omnium, quae utraque pars paciscentium occasione
+                    hujus belli passa est, aeterna oblivio. Neutri partium liceat ea, quae ante acta
+                    sunt, exprobrare aut via facti, vel specie juris persequi: nec ob sumtus huic
+                    bello impensos, damnaque accepta ab altera satisfactionem expetere. <lb/>§1
+                    Privatis nulla competat actio ratione, eorum quae tempore belli fisco addicta
+                    sunt. Salvo tamen vigore Articuli sexti infra sequentis. </p>
+                <p>Art. III <lb/>Ut radix funesti hujus belli ac inimicitiarum omnium penitus
+                    exstirpetur, Serenissimus Princeps ac Dominus, D[omi]nus <rs ref="#pp0181"
+                        >Fridericus Augustus</rs>, Rex et Elector Saxoniae, amore pacis ductus Regno
+                    Poloniae cedit, omnique juri et praetentioni in Poloniam et Magnum Ducatum
+                    Lithuaniae Provinciasque illis subjectas nunc, et in posterum renunciat.
+                    Serenissimum vero Principem et<note n="21" type="crit_app">CTS, Dumont:
+                        ac.</note> Dominum, D[omi]num <rs ref="#pp0187">Stanislaum I</rs> pro Rege
+                    Poloniae et Magno Duce Lithuaniae vero ac legitimo, vigore hujus transactionis
+                    solenniter agnoscit et declarat, adeo ut, neque eo superstite, aut post fata
+                    ejus, si ipse supervixerit, in Regnum Poloniae, Magnum Ducatum Lithuaniae,
+                    subjectasque illis provincias quidquam praetensurus sit. <lb/>§ 1 Conventum
+                    autem est, ut Serenissimus Rex et Elector Saxoniae nomen honoresque Regis ad
+                    dies vitae retineat, absque tamen insignibus ac titulo Regis Poloniae. </p>
+                <p>Art. IV <lb/>Spondet insuper Serenissimus Rex et Elector, quod abdicationem hanc
+                    solenni Diplomate conscriptam ordinibus Reipublicae Polonae notam faciet ac
+                    manifestabit quodque hoc diploma intra sex hebdomadarum spacium, a die conclusi
+                    ac subscripti hujus tractatus computandum, in manus Serenissimi Regis Sueciae
+                    tradi curabit. Quemadmodum jam nunc et praesenti hac conventione eosdem
+                    Reipublicae Polonae ordines, universosque ac singulos Poloniae et Lithuaniae
+                    incolas jurejurando et obsequio, quo adstricti antea fuerant, solvit ac liberat;
+                    et in jusjurandum et obsequium Serenissimi Regis <rs ref="#pp0187">Stanislai
+                        I</rs> concedere sinit. <lb/>§ 1 Promittit quoque bona fide, se post hoc
+                    tempus nulla cum illis consilia, clam aut palam agitare velle, neminem eorum,
+                    qui novi Regis imperium forte aut jam detrectaverit, aut in posterum malitiose
+                    detrectare potuerit, recipere, juvare aut protegere, nec quidquam cum illis,
+                    aliisve quibuscunque tentare aut moliri, quod huic conventioni, et Serenissimo
+                    Regi Stanislao Rei publicaeque Poloniae fraudi sit atque detrimento. </p>
+                <p>Art. V <lb/>Pariter omnia foedera et pacta, quae cum aliis Principibus ac
+                    statibus contra Serenissimos Reges, Regnaque Sueciae et Poloniae sancita habet,
+                    praesenti pacificatione abrogat et irrita declarat: inprimis vero illa, quae cum
+                        <rs ref="#pp0194">Czaro<note n="22" type="annotation">Peter I., genannt der
+                            Große (1672-1725), Zar seit 1689.</note> Moscoviae</rs> contra eosdem
+                    Reges ac Regna, vel ante bellum hoc, vel durante illo iniverat. <lb/>§ 1 Eidem
+                    Czaro Moscoviae non modo nullas post hunc diem suppetias mittet, verum etiam
+                    omnes Saxonicae nationis, qui auxilio ipsi antehac missi, sub signis
+                    Moscoviticis militant, a Servitio ejusdem revocabit. </p>
+                <p>Art. VI <lb/>Simili modo omnia decreta et statuta, quae vulgo lauda<note n="23"
+                        type="annotation">Lauda, Bezeichnung für Dekrete und Statuten, auch von
+                        Reichstagen.</note> appellantur, praesertim ea, quae in Varsaviensi Senatus
+                        Concilio<note n="24" type="annotation">Das Senatskonzil in Warschau (1702 V
+                        2) legte sich auf den Kampf gegen Schweden fest (Kretzschmar, Der
+                        Friedensschluß von Altranstädt, S. 178).</note>, in Conventu
+                        Mariaeburgensi<note n="25" type="annotation">Tagungszeitraum in Marienburg
+                        (1703 III 15 – V 3).</note>, Thorunensi<note n="26" type="annotation"
+                        >Zusammenkunft in Thorn (1702 IX 27 – XII 13).</note>, Elbingensi<note
+                        n="27" type="annotation">Das Datum konnte nicht ermittelt werden.</note>,
+                    Javoroviensi, Sandomiriensi<note n="28" type="annotation">Die hier geschlossene
+                        ''Konföderation von Sandomir'' (1704 V 20) unterstütze August II.</note>,
+                        Cracoviensi<note n="29" type="annotation">Senatskonzil in Krakau (1704 II 19
+                        – 22) rief den polnischen Adel zum Kampf gegen Schweden auf und annullierte
+                        die Absetzung Augusts II.</note>, Brestensi<note n="30" type="annotation"
+                        >Frühjahr 1704.</note>, Olchinisensi<note n="31" type="annotation">Treffen
+                        des litauischen Adels im November 1700, in der Beschlüsse gegen die
+                        Sapieha-Herrschaft gefaßt wurden.</note> et novissimo Grodensi<note n="32"
+                        type="annotation">Die ''Konföderation von Sandomir'' stellte sich bei der
+                        Zusammenkunft in Grodno (1705 XI 21 - XII 21) auf die Seite Augusts und
+                        setzte den Kampf gegen Schweden fort.</note>, aliisque congressibus,
+                    ipsisque Comitibus Lublinensibus<note n="33" type="annotation">Sitzung des Sejm
+                        in Lublin (1703 VI 19 – VII 10), wo weitere militärische Maßnahmen gegen
+                        Schweden beschlossen werden.</note>, quatenus huic pacificationi contraria
+                    reperiantur confiscationes etiam bonorum et abrogationes dignitatum decretaque
+                    in contumaciam Tribunalitia caeterorumque subselliorum, quae post diem V/XV
+                    mensis februarii anni MDCCIV<note n="34" type="annotation">Verfügt wird die
+                        Restituierung aller Konfiskationen, die nach dem seit 1./11. Februar 1704,
+                        d.h. dem Tag der Absetzung Augusts II. und der Wahl des Gegenkönigs
+                        Stanisław I. Leszczyński, erfolgt waren. </note> facta sunt, nunc et in
+                    aeternum abrogantur. <lb/>§ 1 Quae ab eo tempore dignitates ac benificia, tam
+                    Ecclesiastica quam Secularia, a Serenissimo Rege ac Electore in suarum partium
+                    homines collata sunt, ea rescindere aut conservare, in potestate ac arbitrio
+                    Serenissimi Regis Poloniae esto. </p>
+                <p>Art. VII <lb/>Diademata Polonica, reliquaque Regni Poloniae insignia, ad cultum
+                    Regalem pertinentia, ut et archiva omnia Regni, quae forte in Saxoniam asportata
+                    sunt, cum omni ornatu ac lapidibus pretiosis<note n="35" type="crit_app">CTS,
+                        Dumont: preciosis.</note>, Eidem Serenissimo Regi ratihabito hoc tractatu
+                    statim extradentur. </p>
+                <p>Art. VIII <lb/>Serenissimi Principes Regii, Princ. <rs ref="#pp0195">Jacobus</rs>
+                    et <rs ref="#pp0196">Constantinus</rs><note n="36" type="annotation">Jakub
+                        Ludwik Sobieski (1667-1737) und Konstanty Wladyslaw Sobieski (1680-1726),
+                        Söhne Jan III. Sobieskis, waren von der ''Generalkonföderation'' nach der
+                        Absetzung Augusts II. als Kandidaten für den Königsthron vorgesehen. Am 28.
+                        Februar 1704 wurden sie von sächsischen Truppen gefangengenommen. Daraufhin
+                        setzte Karl XII. die Kandidatur des Palatins von Posen Leszczynski durch.
+                        (Polski Slownik Biograficzny 39, S. 490-496 und 499-502).</note>, eodem
+                    tempore e custodia libertati in castris suedicis decenti modo sistentur, qui
+                    justo antea Diplomate cavebunt de non offendendo, aut vindicando in posterum
+                    quae tempore belli aut detentionis toleraverant. <lb/>§ 1 Serenissimus autem Rex
+                    et Elector promittit se Serenissimo Principi Iacobo vigore dati chirographi
+                    debitam pecuniae Summam soluturum jussurumque ut absque ulla tergiversatione ad
+                    liquidum illa deducatur. </p>
+                <p>Art. IX <lb/>Similiter omnes Poloni ac Lithuani, qui in Saxoniam abducti sunt,
+                    ibique vel alibi locorum, jussu Serenissimi Regis ac Electoris, captivi
+                    detinentur, cujuscunque sortis sint ac conditionis pristinae restituentur
+                    libertati. Promittit etiam Serenissimus Rex et Elector se officia apud <rs
+                        ref="#pp0197">Pontificem Romanum</rs><note n="37" type="annotation">Papst
+                        Clemens XI. (1700-1721).</note> interpositurum, ut <rs ref="#pp0198"
+                        >Episcopus Posnaniensis</rs><note n="38" type="annotation">Mikołaj Święciki,
+                        Bischof von Posen, hatte Leszczyński zum König gekrönt; dies war eigentlich
+                        dem polnischen Primas vorbehalten. Święciki wurde von August II.
+                        gefangengenommen und dem Papst in Rom überstellt, der ihn in ein
+                        italienisches Kloster in die Verbannung schickte (Kretzschmar, Der
+                        Friedensschluß von Altranstädt, S. 180). </note> quam primum dimittatur. </p>
+                <p>Art. X <lb/>Sic quoque omnes Sueci, qui hoc bello capti sunt, et in custodia
+                    Saxonica ubicunque locorum asservantur, cujuscunque fuerint gradus ac
+                    conditionis, ratihabitione facta, absque lytro dimittentur: Quemadmodum Sacra
+                    Regia Majestas Sueciae totidem Saxonicae nationis, et praeterea omnes belli
+                    Duces, ordinumque Ductores eodem tempore et absque lytro dimissura est. Reliquos
+                    vero gregarios, haud aliter ac eos, quos suo dudum adactos habet sacramento, ad
+                    beneplacitum detinere, militiaeque suae adscribere fas esto. <lb/>§ 1 Qui
+                    officialium utriusque partis, durante captivitate, aes alienum contraxerant,
+                    antequam liberabuntur, illud solvere, aut vadimonium praestare tenebuntur. </p>
+                <p>Art. XI <lb/>Extradentur Sacrae Regiae Majestati Sueciae omnes transfugae ac
+                    proditores, qui in Saxonia reperiuntur, sive Sueci fuerint, sive ex Provinciis
+                    Suedicis oriundi: interque eos nominatim <rs ref="#pp0199">Johannes Reinholdus
+                        Patkul</rs><note n="39" type="annotation">Johann Reinhold von Patkul
+                        (1660-1707), livländischer Adeliger, war 1694 wegen seines oppositionellen
+                        Verhaltens gegen die schwedischer Herrschaft in Livland wegen Hochverrats
+                        verurteilt worden; seit 1698 Geheimer Hofrat von Kurfürst Friedrich August
+                        I.; 1703 wechselte Patkul in zaristische Dienste und war seit 1704
+                        russischer Vertreter in Dresden. Friedrich August I. ließ ihn wegen seiner
+                        extensiven prorussischen Politik gefangennehmen. Nach seiner Auslieferung an
+                        Schweden (1707 IV 8) gemäß dieses Vertrages wurde er hingerichtet (1707 X
+                        20). Erdmann, Der livländische Staatsmann Johann Reinhold von Patkul).
+                    </note>, qui donec dedatur, in arcta continebitur custodia. </p>
+                <p>Art. XII <lb/>Milites praeterea Moscovitae, quotquot in Saxonia Electorali
+                    supersunt, ut captivi in potestatem <rs ref="#pp0182">Sacrae Regiae Majestatis
+                        Sueciae</rs> tradentur. </p>
+                <p>Art. XIII <lb/>Quaecunque signa militaria vexilla, tympana, tormenta bellica
+                    aliaque ejusmodi reperiuntur, quae Suecis adempta<note n="40" type="crit_app"
+                        >CTS, Dumont: ademta.</note> sunt, et tropaeorum instar esse possunt, ea
+                    omnia conquirentur, et Sacrae Regiae Majestaits Sueciae, absque ullo detentionis
+                    titulo, restituentur. </p>
+                <p>Art. XIV <lb/>Quoniam Tribuno <rs ref="#pp0200">Giörtzio</rs><note n="41"
+                        type="crit_app">Textvariante: CTS, Dumont: Ciortzio. Sachanmerkung: Georg
+                        Heinrich von Goertz (1668-1719), schwedischer Geheimrat und Staatsmann
+                        (Svenskt Biografskit Lexikon 17, S. 168-177).</note>, quem in fidem Sacra
+                    Regia Majestas Sueciae accepit, absenti et indicta causa gravis supplicii nota
+                    inflicta est, hac penitus abolita, pristino honori atque existimationi idem
+                    restituetur. </p>
+                <p>Art. XV <lb/>Cum propter distantiam locorum longius videatur requiri tempus
+                    antequam pacificatio haec ratihaberi, ac sponsiones infra nominandae obtineri
+                    queant, Sacrae Regiae Majestati Sueciae integrum erit copias suas per totum
+                    Electoratum, ejusque Provincias, in hybernis collocare, ibique commeatum ac
+                    stipendia pro iisdem colligere. Interea copiis Sacrae Regiae Majestatis et
+                    Electoralis Serenitatis, quae in Saxonia remanserant, certi attribuendi sunt
+                    districtus, quibus pro sua sustentatione tuto ac quietè frui possint. Quae vero
+                    earum in Regno Poloniae degunt, tam diu illic sine noxa commorabuntur ac
+                    sustentabuntur, et quidem in Regione a Suedicis stationibus remota, donec educto
+                    e Saxonia milite Sueco, ad patrias remigrare sedes possint. </p>
+                <p>Art. XVI <lb/>Eodem tempore urbes ac arces Cracovienses ac Tychosinensis<note
+                        n="42" type="annotation">Tykocin, Stadt in Nordost Polen.</note>, et si quae
+                    alia loca munita praesidiis Saxonicis insideantur, evacuabuntur, iisque, quos
+                    Sacra Regia Majestas Poloniae ad hoc nominaverit ac constituerit, cum tormentis
+                    cunctis et apparatu bellico, quae in illis hoc inveniuntur tempore, tradentur. </p>
+                <p>Art. XVII <lb/>Et cum, Lipsia cum adjacente arce tradita, viteberga<note n="43"
+                        type="crit_app">CTS, Dumont: Vitteberga.</note> quoque praesidium recipiat
+                    Suedicium, quoad leges hujus foederis impletae fuerint et executioni datae
+                    conventum est; ut iis impletis ac executioni datis, urbes hae atque arces
+                    praesidio Suedico liberatae, in priorem statum integre restituantur, et
+                    exercitus Suedicus ad certum diem finibus exeat Saxoniae. </p>
+                <p>Art. XVIII <lb/>Cessabunt autem omnes hostilitates in Saxonia et Provinciis
+                    Electoralibus, induciaeque in earum locum succedent et bona fide servabuntur ab
+                    eo die, quo foedus hoc a constitutis utriusque partis paciscentium Commissariis
+                    conclusum fuerit ac signatum. In Polonia vero ac Lithuania quam primum notitia
+                    factae pacis ad exercitus utriusque partis pervenire possit. Ad quam perferendam
+                    XXI dierum spacium utrinque constituitur. </p>
+                <p>Art. XIX <lb/>Inter Serenissimum <rs ref="#pp0182">Regem Sueciae</rs> et <rs
+                        ref="#pp0181">Serenissimum Regem ac Electorem Saxoniae</rs>
+                        &lt;peculiari&gt;<note n="44" type="crit_app">Schwer lesbar. CTS, Dumont:
+                        peculiariter.</note> hoc pacto transactum est, ut ambo, tanquam membra
+                    Imperii Romano-Germanici, religionem pace Westphalica stabilitam firmiter
+                    tueantur, inque caeteris Imperii negociis<note n="45" type="crit_app">CTS,
+                        Dumont: negotiis.</note> consilia jungant socientque. Et quo Ordines
+                    Incolaeque Saxoniae et Lusatiae de illibato religionis evanglicae usu reddantur
+                    confirmatiores, ad instantiam <rs ref="#pp0182">Sacrae Regiae Majestatis
+                        Sueciae</rs>, tanquam sponsoris ejusdem pacis promittit Sacra Regia
+                        Majestas<note n="46" type="crit_app">CTS, Dumont: Sacra Majestas.</note> et
+                    Electoralis Serenitas, pro se suisque posteris electoribus Saxoniae, nullam
+                    unquam religionis evangelicae mutationem in dictis regionibus admittendam aut
+                    introducendam, neque permittendum ut templa, scholae, academiae, collegia vel
+                    monasteria, aut loca ad ea exstruenda pontificiae religionis hominibus, inibi
+                    nunc aut in posterum concedantur. </p>
+                <p>Art. XX <lb/>Quod si <rs ref="#pp0181">Serenissimus Rex ac Elector Saxoniae</rs>
+                    ob foedus hoc a <rs ref="#pp0194">Czaro Moscoviae</rs> aut alio quopiam bello
+                    impetatur, Serenissimi Reges Sueciae ac Poloniae eidem contra vim aggressoris
+                    auxilio esse volunt. <lb/>§ 1 Spondent pariter cum eo deventum fuerit, ut pax
+                    cum Czaro Moscoviae restauranda sit, in ea pacificatione rationem Serenissimi
+                    Regis ac Electoris esse habendam, ut in iis, quae jure postulaverit, aequa
+                    contingat satisfactio. </p>
+                <p>Art. XXI <lb/>Quae hoc tractatu ita constituta promissa ac transacta sunt, non
+                    tantum Serenissimi Regie ac Principes paciscentes inviolabiliter ac sancte pro
+                    se quisque observabunt, bonaque fide et exacte implebunt, in omnibus clausulis
+                    et foederis hujus articulis, sed etiam ut haec pax eo firmior ac stabilior sit,
+                    in se recipit Serenissimus Rex et Elector Saxoniae, quod earum Conventionum,
+                    quae hoc tractatu continentur, fidejussionem a Serenissimo ac Potentissimo <rs
+                        ref="#pp0010">Imperatore Romano</rs><note n="47" type="annotation">Kaiser
+                        Joseph I. (1705-1711).</note> a Serenissima ac Potentissima <rs
+                        ref="#pp0201">Regina Magnae Britanniae</rs><note n="48" type="annotation"
+                        >Königin Anna (1702-1714).</note>, ut et celsis<note n="49" type="crit_app"
+                        >CTS, Dumont: ut et à Celsis.</note> ac Praepotentibus Ordinibus Generalibus
+                    foederati Belgii, expetere velit, et intra semestre spacium a die subscriptionis
+                    numerandum, justa ac solenni formula conscriptam extradere. Sacrae Regiae
+                    Majestati Sueciae quoque licebit, ultra memoratas Potestates, plures, hujus
+                    tractatus fidejussores, si placuerit, suscipere ac adsciscere. </p>
+                <p>Art. XXII <lb/>Denique haec pacificatio, cujus bina instrumenta confecta sunt,
+                    intra sex hebdomadas a die subscriptionis computandas, optima formula a singulis
+                    paciscentium ratihabebitur. Exemplaria autem, quae ratihabebuntur, a parte <rs
+                        ref="#pp0182">Sacrae Regiae Majestatis Sueciae</rs> et <rs ref="#pp0187"
+                        >Sacrae Regiae Majestatis Poloniae</rs> singula, a parte vero Sacrae Regiae
+                    Majestatis et Electoralis Serenitatis bina conficienda, quae statuto die ac loco
+                    intra praefatum tempus per utriusque partis commissarios commutabuntur. In
+                    quorum omnium fidem Nos supra nominati Commissarii, plena potestate ac mandatis
+                    instructi, Instrumentum geminum, ejusdem tenoris utrumque manibus ac sigillis
+                    nostris signavimus ac corroboravimus. Quod factum est in pago Alt Ransteda die
+                    XIV/XXIV Septembris anno supra Millesimum Septingentesimo sexto. </p>
+                <p>C. Piper <lb/><rs ref="#pp0192">Antonius Albertus liber Baro de Imhof</rs>
+                    <lb/><rs ref="#pp0189">O. Hermelin</rs>
+                    <lb/><rs ref="#pp0193">Georgius Ernestus Pfingsten.</rs>
+                </p>
+                <p> </p>
+                <p> </p>
+                <p>
+                    <lb/>Articulus separatus <lb/>Quanquam<note n="50" type="crit_app">CTS, Dumont:
+                        Quamquam.</note> Serenissimus Princeps, Dominus Fridericus Augustus Rex et
+                    Elector Saxoniae, articulo ipsius foederis vigesimo et primo promiserat se
+                    fidejussiones ibi nominatas intra Semestre spacium acquirere velle atque
+                    exhibere. Si tamen contingat certas ob causas unam alteramque non posse
+                    obtineri, aut earum traditionem ultra praefatum tempus differri, conventum est,
+                    ut foedus ipsum nihilominus in vigore suo, permaneat, nec propterea ejus
+                    validitati quidquam detractum esse existimetur. <lb/>Huic articulo Nos mitio
+                    hujus foederis nominati Commissarii eandem vim ac robur tribuimus, ac si ipsius
+                    foederis tabulis insertus esset, eundemque intra tempus tractatu ipso
+                        expressum<note n="51" type="crit_app">CTS: Tractatu expressum.</note>,
+                    ratihabitum iri spondemus. In super duo exemplaria pari tenore confecta
+                    subscripsimus, sigillisque nostris munivimus, actum in pago Alt Ransteda ad
+                    Lipsiam die XIV/ XXIV Septembris Anni Millesimi Septingesimi sc sexti. </p>
+                <p>
+                    <lb/>Piper <lb/>Antonius Albertus l. Baro de Imhof <lb/>O. Hermelin
+                    <lb/>Georgius Ernestus Pfingsten <lb/>
+                </p>
+            </div>
+        </body>
+        <back>
+            <listBibl>
+                <bibl xml:id="a88">
+                    <title level="a">Theatrum Europaeum (1706-09-24)</title>
+                    <title level="m">Theatrum Europaeum, Band 17 (1704–1706) Aus: Dokumentenarchiv
+                        der Universitätsbibliothek Augsburg (Drucke vor 1900 / Historische
+                        Geschichtswerke).</title>
+                    <biblScope>
+                        <graphic xml:id="A1Pnr1"
+                            url="https://www.ieg-friedensvertraege.de/dbimages/img_49e700b8ded9f"/>
+                        <graphic xml:id="A1Pnr2"
+                            url="https://www.ieg-friedensvertraege.de/dbimages/img_49e700be3009d"/>
+                        <graphic xml:id="A1Pnr3"
+                            url="https://www.ieg-friedensvertraege.de/dbimages/img_49e700c331fbd"/>
+                        <graphic xml:id="A1Pnr4"
+                            url="https://www.ieg-friedensvertraege.de/dbimages/img_49e700c83005e"/>
+                    </biblScope>
+                </bibl>
+                <bibl>Feldman, Polska w dobie wielkiej wojny północnej 1704-1709.</bibl>
+                <bibl>Feldman, Stanisław Leszczyński. Goll, Der Vertrag von Altranstädt.</bibl>
+                <bibl>Hassinger, Brandenburg-Preußen, Schweden und Russland 1700-1713.</bibl>
+                <bibl>Koroljuk, Polska i Rosja a wojna północna.</bibl>
+                <bibl>Kretzschmar, Der Friedensschluß von Altranstädt 1706/1707, in:
+                    Kalisch/Gierowski (Hgg.), Um die polnische Krone: Sachsen und Polen während des
+                    Nordischen Krieges 1700-1721, S. 161-183.</bibl>
+                <bibl>Koroljuk, Der Eintritt der Rzeczpospolita in den Nordischen Krieg, in:
+                    Kalisch/Gierowski (Hgg.), Um die polnische Krone: Sachsen und Polen während des
+                    Nordischen Krieges 1700-1721, S. 129-160.</bibl>
+                <bibl>Zernack, Das polnische Königtum und die polnische Republik im europäischen
+                    Mächtesystem des 18. Jahrhunderts (1701-1763), in: ders. (Hg.), Polen und die
+                    polnische Frage in der Geschichte der Hohenzollernmonarchie, 1701-1871.</bibl>
+                <bibl>Mieck, Europäische Geschichte der Frühen Neuzeit.</bibl>
+                <bibl>Sundberg, Svenska freder och stillestånd, S. 305f.</bibl>
+                <bibl>Seitz / Rosengren, Sveriges freder och fördrag, S. 73-75.</bibl>
+            </listBibl>
+        </back>
+    </text>
+</tei:TEI>

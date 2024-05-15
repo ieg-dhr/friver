@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE tei SYSTEM "../resources/FriVer_DTD.dtd">
+
+<?xml-model href="../resources/FriVer.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns="http://www.tei-c.org/ns/1.0" xml:id="pa000299-0925">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title level="s">European peace treaties of the pre-modern era in data / Europäische Friedensverträge der Vormoderne in Daten (FriVer+)</title>
+                <title when="1642-01-29" xml:id="t925" when-custom="1642 I 29" level="a" ref="https://www.ieg-friedensvertraege.de/treaty/t-925-1-de.html">Friedens- und Handelsvertrag von London</title>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    Digital edition according to
+                    <ref target="http://www.tei-c.org/">TEI P5</ref>
+                </edition>
+                <funder>
+                    <ref target="https://www.text-plus.org/">TEXT+</ref>
+                </funder>
+                <editor role="http://id.loc.gov/vocabulary/relators/edt" ref="https://orcid.org/0000-0002-8741-5916">
+                    <persName>Jaap Geraerts</persName>
+                    <note>The transformation and enrichment of the data is done by Jaap Geraerts (IEG Mainz). The other members of the FriVer+ team are Fabian Cremer, Ines Grund, and Thorsten Wübbena (all IEG Mainz).</note>
+                    <note>
+                        The original data has been created by the
+                        <ref target="https://www.ieg-friedensvertraege.de">team of scholars</ref>
+                        who were part of the Europäische Friedensverträge der Vormoderne project. This project was lead by Prof. Dr. Heinz Duchhardt and was based at the Leibniz Institute of European History in Mainz.
+                    </note>
+                </editor>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>
+                    <orgName ref="http://www.isni.org/0000000119314040">Leibniz-Institut für Europäische Geschichte Mainz</orgName>
+                </publisher>
+                <distributor>
+                    <orgName ref="http://www.isni.org/0000000110101946">Universitäts- und Landesbibliothek Darmstadt</orgName>
+                </distributor>
+                <idno type="ISIL">http://lobid.org/organisation/DE-17</idno>
+                <date type="issued" when="2023-12-23"/>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">
+                        <p xml:lang="en">This file is licensed under the terms of the Creative Commons License CC-BY 4.0 (Attribution 4.0 International)</p>
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <repository xml:id="r14">Lissabon ANTT
+                    <note>Arquivo Nacional Torre do Tombo Lissabon, Gavetas, Gav. 18, mç. 7, n.º 26. Digital:<lb />
+                        <ref target="http://digitarq.arquivos.pt/details?id=4186050" >http://digitarq.arquivos.pt/details?id=4186050</ref></note>
+                </repository>
+                <msDesc><p>ANTT: Gaveta 18, maço 7, documento 26 (Rat.).&nbsp; </p></msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>
+                    The data in this XML file, originally created by the project
+                    <ref target="https://www.ieg-friedensvertraege.de/vertraege">Europäische Friedensverträge der Vormoderne online</ref>
+                    has been transformed in accordance with
+                    <ref target="http://www.tei-c.org/">TEI P5</ref>
+                    as part of the project
+                    <ref target="https://www.ieg-mainz.de/en/research/research-projects/european-peace-treaties-of-the-pre-modern-era-in-data">Europäische Friedensverträge der Vormoderne in Daten (FriVer+)</ref>
+                </p>
+            </projectDesc>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="la" xml:id="lan6">Latein</language>
+            </langUsage>
+        </profileDesc>
+    </teiHeader>
+    <standOff>
+        <listPerson>
+            <person role="signatory" xml:id="p42">
+                <persName ref="https://explore.gnd.network/gnd/4022153-2">
+                    <name>Großbritannien</name>
+                </persName>
+            </person>
+            <person role="signatory" xml:id="p87">
+                <persName ref="https://explore.gnd.network/gnd/4046843-4">
+                    <name>Portugal</name>
+                </persName>
+            </person>
+        </listPerson>
+        <listPlace>
+            <place xml:id="loc109">
+                <placeName ref="https://explore.gnd.network/gnd/4074335-4">London</placeName>
+            </place>
+        </listPlace>
+        <facsimile>
+            <surface xml:id="FacsPnr1">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_4652e4ddb06a6"/>
+            </surface>
+            <surface xml:id="FacsPnr2">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_4652e5267a9eb"/>
+            </surface>
+            <surface xml:id="FacsPnr3">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_4652e54c44dd6"/>
+            </surface>
+            <surface xml:id="FacsPnr4">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_4652e57864100"/>
+            </surface>
+            <surface xml:id="FacsPnr5">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_4652e5a0eeafb"/>
+            </surface>
+            <surface xml:id="FacsPnr6">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_4652e5c591de9"/>
+            </surface>
+            <surface xml:id="FacsPnr7">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_4652e5f0eca34"/>
+            </surface>
+            <surface xml:id="FacsPnr8">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_4652e61f5c0d0"/>
+            </surface>
+            <surface xml:id="FacsPnr9">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_4652e644ef774"/>
+            </surface>
+            <surface xml:id="FacsPnr10">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_4652e67e12b22"/>
+            </surface>
+            <surface xml:id="FacsPnr11">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_4652e6a312a80"/>
+            </surface>
+            <surface xml:id="FacsPnr12">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_4652e6d67347f"/>
+            </surface>
+            <surface xml:id="FacsPnr13">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_4652e6fcee495"/>
+            </surface>
+            <surface xml:id="FacsPnr14">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_4652e732eb4c3"/>
+            </surface>
+            <surface xml:id="FacsPnr15">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_4652e75e05c21"/>
+            </surface>
+            <surface xml:id="FacsPnr16">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_4652e786404eb"/>
+            </surface>
+            <surface xml:id="FacsPnr17">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_4652e7a0d4b71"/>
+            </surface>
+            <surface xml:id="FacsPnr18">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_4652e7cd192a7"/>
+            </surface>
+        </facsimile>
+    </standOff>
+    <text>
+        <front>
+            <div type="Drucke"><p>BRA, 1642; Dumont VI/1, S. 238-241.</p></div>
+            <div type="Inhalt"><p>1. Frieden und Freundschaft
+                <lb />2. Freihandel
+                <lb />3. Gleichstellung der Untertanen bezüglich des Handels
+                <lb />4. Freier Handel für Engländer in portugiesischen Territorien Europas, Meistbegünstigungsklausel, Privilegien wie vor der Thronunion
+                <lb />5. Freie Wahl der Handelsgüter
+                <lb />6. Rückgabe des von der Inquisition beschlagnahmten englischen Eigentums
+                <lb />7. Kein Aufruhr englischer Seeleute auf portugiesischem Boden
+                <lb />8. Auch nicht-katholische Konsuln dürfen in Portugal ihr Amt ausüben
+                <lb />9. Bücher und Güter verstorbener englischer&nbsp; Kaufleute verbleiben in englischer Hand
+                <lb />10. Englische Schiffe dürfen nicht beschlagnahmt werden
+                <lb />11. Engländer dürfen frei, auch mit Waffen, von Portugal nach Kastilien handeln
+                <lb />12. Der 1635 für Ostindien vereinbarte Waffenstillstand wird fortgesetzt. In den nächsten drei Jahren sollen nötige Maßnahmen erwogen und ein Friedens- und Konföderationsvertrag für Ostindien geschlossen werden.
+                <lb />13. Verbleib der Engländer in Afrika, auch wenn über Afrika getrennt verhandelt wird. Man vertraut darauf, dass angesichts alter Freundschaft niemandem dort mehr Rechte eingeräumt werden als den Engländern
+                <lb />14. Meistbegünstigungsklausel für Engländer, besonders wie mit den Vereinigten Provinzen 1641 vereinbart
+                <lb />15. Immunität für Kaufleute und deren Bücher wie für andere Nationen
+                <lb />16. Innerhalb von zwei Jahren soll eine Vereinbarung über Brasilien getroffen werden
+                <lb />17. Gewissens- und Religionsfreiheit
+                <lb />18. Zwei Jahre um im Kriegsfall Eigentum in Sicherheit zu bringen
+                <lb />19. Kein Bruch bei Verletzung dieser Artikel, sondern Wiedergutmachung und Bestrafung der Schuldigen
+                <lb />20. Keine Beeinträchtigung vorher getroffener Vereinbarungen durch diesen Vertrag
+                <lb />21. Verpflichtung und Ehrenwort
+                <lb />
+                <lb /></p></div>
+            <div type="Kommentar"><p>Als der portugiesische König Sebastian I. 1578 ohne Nachkommen starb, ging die portugiesische Thronfolge 1580 auf die spanischen Habsburger über. Obwohl die beiden Königreiche Spanien und Portugal administrativ getrennt blieben, wuchs in Portugal die Unzufriedenheit vor allem als im Zuge des 30jährigen Kriegs Abgabenlast und militärische Verpflichtungen auch für die portugiesischen Untertanen stiegen. Nach mehreren erfolglosen Aufständen wurde im Dezember 1640 der Herzog von Braganza, ein Adelsgeschlecht, das seine Abstammung in nichtehelicher Linie auf das ehemalige Herrscherhaus Avis zurückführte, als Johann IV. zum König von Portugal ausgerufen. Obwohl Spanien in diesem Moment wegen einem zeitgleichem Aufstand in Katalonien und zahlreichen kriegerischen Auseinandersetzungen in ganz Europa, nicht in der Lage war, Portugal militärisch zurückzuerobern, suchten die Aufständischen Verbündete in ganz Europa, um die eigene Unabhängigkeit zu sichern.
+                <lb />Zunächst wurde eine Allianz mit Frankreich geschlossen, das zur Schwächung der spanischen Habsburger dem Braganzaherzog auf den Thron verholfen hatte. Darin wurde im Verbund mit den Niederländern, die seit 1621 den Waffenstillstand beendet und ihren Unabhängigkeitskampf gegen Spanien wieder aufgenommen hatten, ein Angriff auf die spanische Amerikaflotte vereinbart. Allerdings zogen sich die französischen und niederländischen Schiffe Ende des Jahres 1641 wieder zurück und Portugal rekurrierte auf Großbritannien, seinen traditionell ältesten Verbündeten.
+                <lb />Der König von Großbritannien, Karl I., trat in Verhandlungen mit Portugal kurz vor Ausbruch des englischen Bürgerkriegs. Ihm musste bewusst sein, dass eine Anerkennung des Braganzaherzogs als König von Portugal zwangsläufig zur Verärgerung seines spanischen Verbündeten führte, doch im Augenblick konnte die spanische Politik gegen die Anerkennung des portugiesischen Königs weder militärisch noch politisch etwas unternehmen. Hinzu kam, dass die prospanischen Kräfte am englischen Hof im Laufe des Jahres an Boden verloren. Die starke handelspolitische Ausrichtung des Vertrages kann als der Versuch gewertet werden, sich indirekt die Unterstützung der englischen Handelseliten zu sichern, die seit dem portugiesischen Vertrag mit den Generalstaaten um ihre Handelsverbindungen auf die Iberische Halbinsel und nach Übersee fürchteten.
+                <lb /></p></div>
+            <div type="Kontext"><p>1578 
+                <lb />Sebastian I. stirbt am 4. August bei der Schlacht von Alcazarquivir im heutigen Marokko ohne Nachkommen. Sebastians Großonkel besteigt als Heinrich der I. den portugiesischen Thron 
+                <lb />1580 
+                <lb />Die portugiesische Thronfolge fällt an Spanien. 
+                <lb />1580-1640 
+                <lb />Die Generalstaaten, Großbritannien und Frankreich nutzen die Personalunion und weiten ihre Angriffe auf das spanische Überseeterritorium auch auf von Portugal beanspruchte Gebiete aus. 1622 
+                <lb />Großbritannien erobert Hormuz 
+                <lb />1635 
+                <lb />Konvention von Goa, in der den Engländern von Portugal Handelsrechte im westlichen Indien eingeräumt werden 
+                <lb />1640 
+                <lb />Aufstände in Katalonien und Portugal. Der Herzog von Bragança wird als Johann IV. zum portugiesischen König ausgerufen. Wegen der Aufstände in Katalonien und der kriegerischen Auseinandersetzungen des 30jährigen Krieges hat Spanien kaum Möglichkeiten, Portugal militärisch zurückzuerobern. 
+                <lb />12.6.1641 
+                <lb />Portugal schließt mit den Generalstaaten einen Beistandspakt, der mit einem Waffenstillstand in den überseeischen Gebieten und einem Handelsabkommen kombiniert wird. 
+                <lb />4.1.1642 Karl I. flieht aus London 
+                <lb />1642-1649 
+                <lb />Englischer Bürgerkrieg 
+                <lb />29.1.1642 
+                <lb />Friedens- und Handelsvertrag zwischen Großbritannien und Portugal 
+                <lb />&nbsp; 
+                <lb /> 
+                <lb />&nbsp; 
+            </p></div>
+        </front>
+        <back>
+            <listBibl>
+                <bibl>Prestage, Edgar, The Treaties of 1642, 1654 and 1661, in: Ders. (ed.), Chapters in Anglo-Portuguese Relations, Westport 1971 [1935].
+                    <lb />
+                    <lb />Sanz, Porfirio, England and the Spanish foreign policy during the 1640s, in: European History Quarterly, 28 (1998), S. 291-310
+                    <lb />
+                    <lb />Weindl, Andrea, Wer kleidet die Welt? Globale Märkte und merkantile Kräfte in der europäischen Politik der Frühen Neuzeit, Mainz 2007.&nbsp; </bibl>
+            </listBibl>
+        </back>
+    </text>
+</tei:TEI>

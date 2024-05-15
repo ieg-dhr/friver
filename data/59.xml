@@ -1,0 +1,262 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE tei SYSTEM "../resources/FriVer_DTD.dtd">
+
+<?xml-model href="../resources/FriVer.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns="http://www.tei-c.org/ns/1.0"
+    xml:id="pa000299-0059">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title level="s">European peace treaties of the pre-modern era in data / Europäische
+                    Friedensverträge der Vormoderne in Daten (FriVer+)</title>
+                <title when="1634-08-26" xml:id="t59" when-custom="1634 VIII 26" level="a"
+                    ref="https://www.ieg-friedensvertraege.de/treaty/t-59-1-de.html">Vertrag zur
+                    Überlassung der Festung Philippsburg (Paris)</title>
+            </titleStmt>
+            <editionStmt>
+                <edition> Digital edition according to <ref target="http://www.tei-c.org/">TEI
+                        P5</ref>
+                </edition>
+                <funder>
+                    <ref target="https://www.text-plus.org/">TEXT+</ref>
+                </funder>
+                <editor role="http://id.loc.gov/vocabulary/relators/edt"
+                    ref="https://orcid.org/0000-0002-8741-5916">
+                    <persName>Jaap Geraerts</persName>
+                    <note>The transformation and enrichment of the data is done by Jaap Geraerts
+                        (IEG Mainz). The other members of the FriVer+ team are Fabian Cremer, Ines
+                        Grund, and Thorsten Wübbena (all IEG Mainz).</note>
+                    <note> The original data has been created by the <ref
+                            target="https://www.ieg-friedensvertraege.de">team of scholars</ref> who
+                        were part of the Europäische Friedensverträge der Vormoderne project. This
+                        project was lead by Prof. Dr. Heinz Duchhardt and was based at the Leibniz
+                        Institute of European History in Mainz. </note>
+                </editor>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>
+                    <orgName ref="http://www.isni.org/0000000119314040">Leibniz-Institut für
+                        Europäische Geschichte Mainz</orgName>
+                </publisher>
+                <distributor>
+                    <orgName ref="http://www.isni.org/0000000110101946">Universitäts- und
+                        Landesbibliothek Darmstadt</orgName>
+                </distributor>
+                <idno type="ISIL">http://lobid.org/organisation/DE-17</idno>
+                <date type="issued" when="2023-12-23"/>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">
+                        <p xml:lang="en">This file is licensed under the terms of the Creative
+                            Commons License CC-BY 4.0 (Attribution 4.0 International)</p>
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <repository xml:id="r22">Paris AAE <note>Trait&eacute;s et Accords de la France:<lb/>
+                        <ref
+                            target="http://www.diplomatie.gouv.fr/traites/affichetraite.do?accord=TRA16340001"
+                            >http://www.diplomatie.gouv.fr/traites/affichetraite.do?accord=TRA16340001</ref></note>
+                </repository>
+                <msDesc>
+                    <p>AAE Paris: M.A.E. Trait&#233;s. Multilateraux 16340001, Trait&#233; relatif
+                        &#224; la remise de la forteresse de Philippsburg &#224; la
+                        France.-Frankfurt 26 ao&#251;t 1634 (UI). <lb/></p>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p> The data in this XML file, originally created by the project <ref
+                        target="https://www.ieg-friedensvertraege.de/vertraege">Europäische
+                        Friedensverträge der Vormoderne online</ref> has been transformed in
+                    accordance with <ref target="http://www.tei-c.org/">TEI P5</ref> as part of the
+                    project <ref
+                        target="https://www.ieg-mainz.de/en/research/research-projects/european-peace-treaties-of-the-pre-modern-era-in-data"
+                        >Europäische Friedensverträge der Vormoderne in Daten (FriVer+)</ref>
+                </p>
+            </projectDesc>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="fr" xml:id="lan4">französisch</language>
+            </langUsage>
+        </profileDesc>
+    </teiHeader>
+    <standOff>
+        <listPerson>
+            <person role="signatory" xml:id="p37">
+                <persName ref="https://explore.gnd.network/gnd/4018145-5">
+                    <name>Frankreich</name>
+                </persName>
+            </person>
+            <person role="signatory" xml:id="p135">
+                <persName ref="https://explore.gnd.network/gnd/4664745-4">
+                    <name>Konföderierte Reichsstände (Heilbronner Bund)</name>
+                </persName>
+            </person>
+            <person role="signatory" xml:id="p99">
+                <persName ref="https://explore.gnd.network/gnd/4077258-5">
+                    <name>Schweden</name>
+                </persName>
+            </person>
+        </listPerson>
+    </standOff>
+    <text>
+        <front>
+            <div type="Drucke">
+                <p>Sverges Traktater V:2, S. 200-204. <lb/>
+                </p>
+                <p> DUM VI/1, S. 74-75. </p>
+            </div>
+            <div type="Inhalt">
+                <p>Die Festung Philippsburg wird dem franz&#246;sischen K&#246;nig zu folgenden
+                    Bedingungen &#252;bergeben. <lb/>
+                    <lb/>Einsetzung eines Generalgouverneurs und Garnisonsst&#228;rke. <lb/>Rechte
+                    des Heiligen R&#246;mischen Reiches und der konf&#246;derierten Prinzen die
+                    Festung betreffend. <lb/>Die Garnison schw&#246;rt dem franz&#246;sischen
+                    K&#246;nig und den konf&#246;derierten Prinzen Treue. <lb/>Verfahren, falls die
+                    Festung von einem Teil der Garnison &#252;bergeben wird. <lb/>Keine
+                    &#196;nderung der Garnisonsst&#228;rke ohne Zustimmung der Vertragspartner.
+                    <lb/>Verpflichtung, die Festung nach einem Friedensschluss in Deutschland
+                    zur&#252;ckzugeben. <lb/>Verf&#252;gung f&#252;r den Fall des Todes Ludwigs
+                    XIII. <lb/>Bezahlung der Garnison durch den franz&#246;sischen K&#246;nig.
+                    <lb/>Kein neuer Festungsbau am Rhein ohne Zustimmung der Konf&#246;derierten.
+                    <lb/>Freier Handel wie im Jahr 1619. <lb/>Regelung f&#252;r den
+                    Verteidigungsfall. <lb/>Freier Zugang der Festung durch die Untertanen der
+                    Konf&#246;derierten. <lb/>G&#252;ltigkeit des Neutralit&#228;tsvertrags.
+                    <lb/>Suspendierung &#228;lterer Rechte &#252;ber die Untertanen der Festung
+                    f&#252;r die Dauer der &#220;bergabe. <lb/>Kein Schutz der Feinde der
+                    Konf&#246;derierten. </p>
+                <p>&nbsp; </p>
+            </div>
+        </front>
+        <body>
+            <div type="Transliteration">
+                <pb facs="#FacsPnr1"/>
+                <p>Traitté [signe par]&nbsp; le Chancelier Oxenstierna<note type="crit_app" n="1">
+                        Nachträglich eingefügt.</note>&nbsp; pour le depost <lb/> de Philipsbourg,
+                    Signé à francfort le 26. aout 1634 <lb/> avec le Roy Louis 13. <lb/> Messieurs
+                    le Directeur Géneral les Electeurs, Princes et Estats confederéz, non <lb/>
+                    obstant la ferme Creance, qu’ils ont tousiours eüe, que Sa Majesté
+                    Treschrestienne <lb/> se deporteroit de l’instance, qu’elle leur a fait faire,
+                    pour le despost de Philips- <lb/> bourg, en consideration des raisons
+                    trespreignantes, lesquelles luy ont esté plusieurs <lb/> fois representées,
+                    neantmoins, pour tesmoigner la confiance, qu’ils ont en sadicte <lb/> Majesté,
+                    et luy donner quand &amp; quand subject de leur continuer ses assistances &amp;
+                    <lb/> faveurs Royalles, Consentent, que ladicte place de Philipsbourg luy soit
+                    mise <lb/> en despost, aux conditions suivantes. <lb/>
+                    <lb/> Le Roy y establira le Gouverneur general, et particulier, de la condition
+                    &amp; qua- <lb/> lité convenne. Quand a la garnison elle y sera pareillement
+                    establie par Sa Maie- <lb/> sté, des mille hommes, soubs dix Compaignies, dont
+                    les six seront francoises, &amp; <lb/> les autres quatres<note type="crit_app"
+                        n="2">Nachträglich eingefügt.</note>&nbsp; Allemandes, levées par le gouverneur
+                    general, soubs le nom et auctorité <lb/> de sadicte Maiesté; Seront aussi
+                    deputter de part, et d’autre, pour faire l’inven- <lb/> taire du canon, des
+                    munitions de guerre, et de bouche, et de tout ce, que l’on y trou- <lb/> vera
+                    lors de l’entrée de la garnison susdicte. <lb/>
+                    <lb/> Que ce despost ne derogera en facon quelconque, à la Majesté ni aux
+                    droicts, con- <lb/> stitutions, ou loyx fondamentales du Sainct Empire, moins
+                    aux droicts, privileges, <lb/> &amp; pretentions desdicts Electeurs, Princes, et
+                    Estats Confederéz en general, ou a <lb/> aucuns d’iceux en particulier. <lb/>
+                    <lb/> Le Gouverneur &amp; Lieutnant general pour le Roy en ladicte place, le
+                    gouverneur <lb/> particulier, Lieutnant au gouvernement, Capitaines, Lieutnants,
+                    Enseignes, au- <lb/> tres officieurs, &amp; tous les Soldats en commun,
+                    presteront serment à Sa Maiesté Tres <lb/> chrestienne, et ausdits Seigneurs
+                    confederez, de la garder et deffendre, envers &amp; con- <lb/> tre tous, et ne
+                    la rendre a qui que ce soit, que par le commandement et du consentement <lb/> de
+                    Sa Maiesté, et desdicts Seigneurs Confederez. <lb/>
+                    <lb/> Le cas advenant, que lesdicts Gouverneurs, Lieutnants, ou autres
+                    Commandants en <lb/> leur absence, voulust manquer audict serment, et, au
+                    preiudice d’iceluy, passer a quel- <lb/> que composition, demise reddition, ou
+                    autre changement, les autres officiers et soldats <lb/> ne seront tenus de leur
+                    rendre, en ce cas, aucune obeissance. <lb/>
+                    <lb/> Lesdicts Gouverneurs, Lieutnants, Capitaines, ou Compaignies de ladicte
+                    garni- <lb/> son, ne seront aussi oster, ni changer, ni ladicte garnison
+                    augmentée, sans l’ordre <lb/> exprez, et consentement de Sa Maiesté, et de
+                    Monsieur le Directeur general au <lb/> nom desdicts Confederéz; Et ceux, qui
+                    succederont aux places vacantes, etseront <lb/> receuz à ladicte garnison,
+                    presteront incontinent le serment susdict. <lb/>
+                    <lb/>
+                    <lb/>
+                    <lb/>
+                    <pb facs="#FacsPnr2"/> Et d’autant que ce despost ne se fait, que pour
+                    tesmoigner à Sa Maiesté, la confi- <lb/> ance particuliere, que Messieurs les
+                    Confederéz mettent en elle, elle demeurera ob- <lb/> ligée, par le present
+                    traitté, de remettre ladicte place, entre les mains des Confe- <lb/> derez, dez
+                    l’heure de la conclusion d’une paix universelle en Allemaigne, <lb/> en laquelle
+                    sa Maiesté soit aussi comprise, coformement à l’alliance, qu’elle <lb/> a avec
+                    Messieurs ses Confederéz. <lb/>
+                    <lb/> Et comme tous les Confederéz prient Dieu de prolonger a sa Maiesté Tres-
+                    <lb/> chrestienne, ses jours un tres long temps, &amp; ce pour le bien Comun de
+                    la <lb/> Chrestienté; Ainsi croyent ils, eu esgard aux evenements &amp;
+                    vicissitudes des <lb/> affaires, estre obligez de veiller à leur conservation,
+                    &amp; partant desirent, qu’en <lb/> cas de deffault de la Personne de Sa
+                    Maiesté, /: A laquelle Dieu ne les veuil- <lb/> le pas faire survivre:/ lesdicts
+                    Gouverneurs, Lieutnants, &amp; autres officiers <lb/> et Soldats soient
+                    descharger absolutement de leur serment, envers sadicte Maie- <lb/> sté, et
+                    qu’audict cas ils soient obligez de prendre et executer les ordres, qui <lb/>
+                    leur seront donnez, par Monsieur le Directeur, ou par Messieurs les Confede-
+                    <lb/> réz, et ce, soit qu’on les veuille continuer, ou retirer. Et en tout cas,
+                    les <lb/> dicts Gouverneurs, Lieutnants, et autres officiers, venants à mider la
+                    place <lb/> d’une facon ou d’autre, ne demanderont aucune recompense, ou autre
+                    satis- <lb/> faction, pour quelque subject ou pretexte, que cepuisse estre. <lb/>
+                    <lb/> Le Roy payera lesdicts Gouverneurs, officiers, &amp; garnison, sur le pied
+                    de fran- <lb/> ce, &amp; y sera donné tel ordre, que la garnison ne soit forcée,
+                    à faute de paye- <lb/> ment, de faire des sorties, et courses, au prejudice des
+                    voisins, le Gouver- <lb/> neur, Lieutnant, et autres officiers, demeurants
+                    responsables des dommages, <lb/> qui en pourront estre causez, s’ils n’en font
+                    justice. Il plaira aussi au Roy, <lb/> de donner dans la dicte place, tel ordre
+                    aux provisions de guete, et de guerre, <lb/> qu’au deffaut d’icelles, elle ne
+                    coure quelque risque. <lb/>
+                    <lb/> Le Roy ne fera aucune fortification sur le Rhein, pour la deffense de
+                    ladicte pla- <lb/> ce, ou autrement, que par concert avec Messieurs les
+                    Confederéz, pour la Seureté <lb/> commune. <lb/>
+                    <lb/> Le commerce sera libre par eau &amp; par terre, et ne sera permis au
+                    Gouverneur, offi- <lb/> ciers, ou Soldats, d’establir de nouveaux imposts,
+                    droicts de passage, dons , recognois- <lb/> sance du Gouverneure, ou autres
+                    exactions quelconques, ains tout demeurera pour <lb/> ce regard en l’estat,
+                    auquel on estoit en l’an 1619. <lb/>
+                    <lb/>
+                    <pb facs="#FacsPnr3"/> Le cas arrivant, que ladicte place soit attacquée, Sa
+                    Maiesté sera obligée de la deffen- <lb/> dre puissamment, et empescher autant,
+                    qu’il luy sera possible que les Estats voisins <lb/> n’en recoivent aucune
+                    incommodité. En ce cas elle est aussi suppliee, de donnez de bonne <lb/> heure
+                    advis aux Electeurs, &amp; Estats, par dessus les terres, desquelz ses trouppes
+                    auront à <lb/> passer, a ce que l’on pourvoye aux Estappes, et autres necessitez
+                    du passage, et que lesdicts <lb/> Estats ni leurs subiects, n’en soient
+                    endommager, Ains que les gens de guerre payent ce, que <lb/> l’on leur fournira,
+                    conformement aux constitutions de l’Empire, et ordonnances de Sa <lb/> Maiesté,
+                    en semblable cas publiées, &amp; pratiquées en ses Royaumes et Estats. <lb/>
+                    <lb/> Il sera permis aux Electeurs, Princes et Estats voisins, comme aussi a
+                    leurs Vassaux, Serv[i] - <lb/> teurs, Domesticques &amp; subiects, de quelque
+                    condition et qualité qu’ils soient de pouvoir en <lb/> cas de necessité, sauver,
+                    retirer, et faire sortir librement leurs personnes et biens, sans que <lb/> l’on
+                    puisse exiger aucune entrée, ou autre imposition quelconque, ni faire aucun tort
+                    a leurs <lb/> personnes ou biens, de mesme arrivant quelque disgrace aux Armées
+                    de sa Maiesté, ou a <lb/> celles des Confederéz, elles pourront prendre leur
+                    retraitte, par ladicte place, et ne pour- <lb/> ra le Gouverneur, ou celuy qui
+                    commandera en sa place, donner passage par eau, ou par terre <lb/> à personnes
+                    ennemies desdicts Seigneurs Confederez. <lb/>
+                    <lb/> Quand au surplus du traitté de Neutralité, il sera plainement et
+                    sincerement executé, sans <lb/> remise, et ce d’une part, et d’autre, sur tout
+                    en ce qui concerne le troisiesme article. <lb/>
+                    <lb/> Et pendant le temps du despost de ladicte forteresse de Philipsbourg,
+                    toutes les pretentions &amp; <lb/> droicts, tant dudict Seigneur Electeur, et
+                    Evesque de Spire&nbsp; d’une part, que desdicts Seigneurs <lb/> Electeurs,
+                    Princes et Estats voisins &amp; confederéz d’autre part, sur le subiect de
+                    ladicte pla- <lb/> ce, et en consideration d’icelle, demeureront suspenduë, sans
+                    qu’il en puisse estre fait aucu- <lb/> ne instance, ni action preiudiciable. <lb/>
+                    <lb/> Il plaira a Sa Maiesté ne recepvoir en sa protection aucun des ennemis des
+                    Confederez, si <lb/> ce n’est aver asseurance, que lesdicts Confederez n’en
+                    recepuront a l’advenir aucun dommage. <lb/>
+                    <lb/> En foy dequoy, ce present traitté a esté signé, &amp; scellé, au nom de la
+                    <lb/> couronne de Suede, &amp; des confederez, parmonsieur le Directeur <lb/>
+                    g[ene]ral, pour cet effect suffisamment auctorisé fait a francfort le 26/16
+                    aoust 1634. <lb/>
+                    <lb/> Axelsus <lb/> Oxenstierna m.p. </p>
+            </div>
+        </body>
+    </text>
+</tei:TEI>

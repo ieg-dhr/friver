@@ -1,0 +1,357 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE tei SYSTEM "../resources/FriVer_DTD.dtd">
+
+<?xml-model href="../resources/FriVer.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns="http://www.tei-c.org/ns/1.0"
+    xml:id="pa000299-0140">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title level="s">European peace treaties of the pre-modern era in data / Europäische
+                    Friedensverträge der Vormoderne in Daten (FriVer+)</title>
+                <title when="1626-12-20" xml:id="t140" when-custom="1626 XII 20" level="a"
+                    ref="https://www.ieg-friedensvertraege.de/treaty/t-140-1-de.html"
+                    >Friedensvertrag von Preßburg</title>
+            </titleStmt>
+            <editionStmt>
+                <edition> Digital edition according to <ref target="http://www.tei-c.org/">TEI
+                        P5</ref>
+                </edition>
+                <funder>
+                    <ref target="https://www.text-plus.org/">TEXT+</ref>
+                </funder>
+                <editor role="http://id.loc.gov/vocabulary/relators/edt"
+                    ref="https://orcid.org/0000-0002-8741-5916">
+                    <persName>Jaap Geraerts</persName>
+                    <note>The transformation and enrichment of the data is done by Jaap Geraerts
+                        (IEG Mainz). The other members of the FriVer+ team are Fabian Cremer, Ines
+                        Grund, and Thorsten Wübbena (all IEG Mainz).</note>
+                    <note> The original data has been created by the <ref
+                            target="https://www.ieg-friedensvertraege.de">team of scholars</ref> who
+                        were part of the Europäische Friedensverträge der Vormoderne project. This
+                        project was lead by Prof. Dr. Heinz Duchhardt and was based at the Leibniz
+                        Institute of European History in Mainz. </note>
+                </editor>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>
+                    <orgName ref="http://www.isni.org/0000000119314040">Leibniz-Institut für
+                        Europäische Geschichte Mainz</orgName>
+                </publisher>
+                <distributor>
+                    <orgName ref="http://www.isni.org/0000000110101946">Universitäts- und
+                        Landesbibliothek Darmstadt</orgName>
+                </distributor>
+                <idno type="ISIL">http://lobid.org/organisation/DE-17</idno>
+                <date type="issued" when="2023-12-23"/>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">
+                        <p xml:lang="en">This file is licensed under the terms of the Creative
+                            Commons License CC-BY 4.0 (Attribution 4.0 International)</p>
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <repository xml:id="r4">Budapest MOL <note>Budapest MOL, Findbuch:<lb/>
+                        <ref
+                            target="https://www.eleveltar.hu/digitalis-tartalom?source=mnlscope&amp;ref=mnlscope::1984384"
+                            >https://www.eleveltar.hu/digitalis-tartalom?source=mnlscope&amp;ref=mnlscope::1984384</ref></note>
+                </repository>
+                <msDesc>
+                    <p>MolBudapest: Act. Publ. E 142 Fasz. 45 Nr. 11- 28. XII. 1626: Ratifikation
+                        Bethlens, Leutschau 1626 XII 28 (Abschrift (gekürzt) mit Insert des
+                        Amnestiepatents Kaiser Ferdinands, Wien 1626 XII 28).&nbsp; Weitere Stücke
+                        <lb/>Assekurationsinstrument der siebenbürgischen Stände, Karlsburg 1627 IV
+                        22. <lb/>Amnestiepatent Kaiser Ferdinands Wien, 1626 XII 28: MolBudapest
+                        Act. Pub. Fasz. 45 Nr. 11 (Abschrift).&nbsp; <lb/>
+                    </p>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p> The data in this XML file, originally created by the project <ref
+                        target="https://www.ieg-friedensvertraege.de/vertraege">Europäische
+                        Friedensverträge der Vormoderne online</ref> has been transformed in
+                    accordance with <ref target="http://www.tei-c.org/">TEI P5</ref> as part of the
+                    project <ref
+                        target="https://www.ieg-mainz.de/en/research/research-projects/european-peace-treaties-of-the-pre-modern-era-in-data"
+                        >Europäische Friedensverträge der Vormoderne in Daten (FriVer+)</ref>
+                </p>
+            </projectDesc>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="la" xml:id="lan6">Latein</language>
+            </langUsage>
+        </profileDesc>
+    </teiHeader>
+    <standOff>
+        <listPerson>
+            <person role="signatory" xml:id="p12">
+                <persName ref="https://explore.gnd.network/gnd/4043271-3">
+                    <name>Oesterreich</name>
+                </persName>
+            </person>
+            <person role="signatory" xml:id="p109">
+                <persName ref="https://explore.gnd.network/gnd/4054835-1">
+                    <name>Siebenbürgen</name>
+                </persName>
+            </person>
+        </listPerson>
+        <listPlace>
+            <place xml:id="loc52">
+                <placeName ref="https://explore.gnd.network/gnd/4076329-8">Preßburg</placeName>
+            </place>
+        </listPlace>
+        <facsimile>
+            <surface xml:id="FacsPnr1">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_43ab51ce24d58"/>
+            </surface>
+            <surface xml:id="FacsPnr2">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_43ab521a644f7"/>
+            </surface>
+            <surface xml:id="FacsPnr3">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_43ab525fab1c8"/>
+            </surface>
+            <surface xml:id="FacsPnr4">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_43ab52a99a058"/>
+            </surface>
+            <surface xml:id="FacsPnr5">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_43ab53350c6b7"/>
+            </surface>
+            <surface xml:id="FacsPnr6">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_43ab5376162f8"/>
+            </surface>
+        </facsimile>
+    </standOff>
+    <text>
+        <front>
+            <div type="Drucke">
+                <p> Gooss, Roderich, Österreichische Staatsverträge. Fürstentum Siebenbürgen. Wien
+                    1910, S.623-626; <lb/>Dumont V/2, S.498-499 (f.) <ref
+                        target="http://gallica.bnf.fr/ark:/12148/bpt6k1229594.zoom.f500.langEN">Link
+                        zum Druck auf gallica.bnf.fr </ref>
+                    <lb/>Monumenta comitiali regni Transilvaniae VIII, S.359-360 (-362).<ref
+                        target="http://digbib.bibliothek.uni-augsburg.de/1/pages/02_IV_13_2_0026_01_1030.html">
+                        <lb/></ref>
+                </p>
+            </div>
+            <div type="Inhalt">
+                <p>Art. 1&nbsp; Bethlen sieht von Feindseligkeiten gegen den Kaiser ab.
+                    Informationspflicht. <lb/>Art. 2 Restituierung konfiszierter Güter und Waffen.
+                    Abzug nach Siebenbürgen. <lb/>Art. 3 Keine Unterstützung für Mansfeld. Mögliche
+                    Rückkehr der Truppen Mansfelds. Bedingungen dafür. <lb/>Art. 4 Verpflichtung auf
+                    diesen Vertrag (sieben Komitate). <lb/>Art. 5 Kaiserliche Kommissäre. Treueeid.
+                    <lb/>Art. 6 Osmanisches Reich restituiert Damásd. <lb/>Art. 7 Austausch der
+                    Gefangenen. <lb/>Art. 8 Aufhebung der Treueide und Reverse. <lb/>Art. 9&nbsp;
+                    Garantie des Besitzes Bethlens auf Lebenszeit. <lb/>Art. 10 Beilegung von
+                    Streitigkeiten durch Kommissäre. <lb/>Art. 11 Bestätigung der Friedensverträge
+                    von Wien und Nikolsburg (Ausnahme: Zahlung von 30.000 Gulden durch den
+                    Kaiser).&nbsp; &nbsp; <lb/>[Amnestie Kaiser Ferdinands] <lb/></p>
+            </div>
+        </front>
+        <body>
+            <div type="Transliteration">
+                <pb facs="#FacsPnr1"/>
+                <p>Copia Diplomatis Bethleniani Pacificationis <lb/>Posonien[sis] Anni 1626. <lb/>
+                    <lb/> Nos Gabriel Dei gra[ti]a Sacri Romani Imperii et Tran[silva]niæ
+                    <lb/>Princeps etc. Quod cum nos ad motus illos intestinos, qui nuper- <lb/>rimè
+                    in Regno Hung[ariae] exorti fuerunt, pacificè componen[dos] certis
+                    <lb/>n[ost]ris Commissarÿs utpote M[agnificis] Fran[cis]co Miko etc. et
+                    Sigismundo Loniaj etc. Ple- <lb/>nipotentiam dederimus, Qui quidem Commissarÿ
+                    n[ost]ri posteaquam cum Com- <lb/>missarÿs Sacr. Romanorum Imperatoræ etc.
+                    simil[ite]r plenipo[tenti]am habentibus, <lb/>cum Ill[ustrissi]mis etc. Nicolao
+                    Eszterhazi de Galantha etc. Regni Hungariæ Pala- <lb/>tino etc. Petro Pazmany,
+                    Archiep[isco]po Strigonien[si] etc.&nbsp; Steph[ano] Sennyej etc. Stephano
+                    Ostrotichetc.Sacr[ae] Caesareæ Regiæque Ma[jesta]tis Consiliariis in Civi- tate
+                    Poson[iensi] convenissent, post plures et varios Tractatus, ultro citroque
+                    <lb/>habitos, ad tollen[dos] et sopien[dos] &lt;h&gt; uiusmodi motus et
+                    perturba[tion]es, cum <lb/>praefata Sacr[a] Cæs[area] Regia M[ajestate]te, ad
+                    infra scriptam pacis ac mutu <lb/>reconciliationis concordiam, obla[tion]es et
+                    conditiones devenimus, quæ <lb/>in hunc modu[m] sequuntur. <lb/>
+                </p>
+                <p>&nbsp; <lb/>Primo. Itaque d[omi]nus Princeps fide Christiana mediante firmissimè
+                    <lb/>promittat, quod nunqua[m] contra Ma[jesta]tem Cæsaream&nbsp; Augustissimam
+                    domum <lb/>Austriacam, ac ditiones nobis, successoribusque n[ostr]is legitimis
+                    sub[iec]tas, <lb/>arma, vel hostilitatem, ullam, sub quovis quæsito colore et
+                    prætextu, <lb/>&nbsp;movebit; neque erga Nos malè affectos iuvabit, neque ullam
+                    cum ipsis <lb/>correspondentiam habebit; Turcas et Tataros aliosque Regni æmulos
+                    con- <lb/>tra Regnum Hung[ariae] et alias ditiones christianas non concitabit,
+                    neque <lb/>evocabit, militemque &lt;Prop&gt;rium aut extraneum in ditiones
+                    n[ost]ras <lb/>non introducet, neque intromittet, consilia noxia contra
+                    Ma[jestat]em n[ost]ram <lb/>non agitabit, quin imò noxias aliorum ad turbandam
+                    pacem statuumque tran- <lb/>quillum suggestiones et sollicitationes,
+                    aucthoresque illarum in signum <lb/>synceræ erga bonum publicurn affectionis
+                    M[ajesta]ti n[ost]rae manifestabit, idem <lb/>quoque a parte n[ost]ra fiet. <lb/>
+                    <lb/>&nbsp; </p>
+                <pb facs="#FacsPnr2"/>
+                <p>Secundo. Ut idem d[omi]nus statim et defacto cum univer[sis] suis copÿs, tam
+                    domesticis <lb/>quam auxiliaribus Provincÿs, ditionibus n[ost]ris in
+                    Transylvaniam <lb/>vel ad partes Hungariæ per M[ajesta]tem n[ost]ram sibi ad
+                    dies vitæ benignè <lb/>datas, recedat, ac Universa bona ditionum n[ost]rarum
+                    Co[mi]t[a]tus,Civitates, loca <lb/>Confiniorum, bona fiscalia et Coronæ regni
+                    cuiuscunque g[ene]ris bona, etiam <lb/>quorumcumque fidelium M[ajesta]tis
+                    n[ost]ræ, qualitercunque per hosce mo- <lb/>tus occupata defacto restituat, non
+                    avectis tormentis alÿsque <lb/>rebus in Confinÿs, ac alÿs locis repertis, nec
+                    damna ulla inferendo <lb/>vel montanis Civitatibus vel alÿs locis. Quodsi quæ
+                    Tormenta <lb/>vel&nbsp; munitiones nunc avecta vel distracta, aut asportata
+                    <lb/>fuissent, d[omi]nus Princeps restituat. <lb/>Tertio. Ut Mansfeldium, et qui
+                    cum eo Provincias et Regna Ma[jesta]tis n[ost]ræ invase- <lb/>runt, et adhuc
+                    defacto P&lt;o&gt;nes d[omi]num Principem existunt, à se <lb/>amoveat, nec ullam
+                    deinceps illis assistentiam Præbeat, Porrò ra&lt;tione&gt;&nbsp;
+                    <lb/>intercessionis d[omi]ni Principis annui&lt;enns&gt; benignè
+                    l&lt;itte&gt;ras salvi con- <lb/>ductus dare, si quae ex illis copÿs Germanicis
+                    illas sibi à nobis <lb/>demisse petierint, Ea tamen conditione, ne cum vexillis
+                    eant, neque <lb/>simul o[mn]es, &lt;...&gt;&nbsp; turmatim, ita ut circiter
+                    centum unà Pro- <lb/>ficiscantur, neque se cum hostibus n[ost]ris&nbsp; in
+                    Silesia ditionibusque <lb/>n[ost]ris conjungant. <lb/>Quarto. Ac ut futuræ Pacis
+                    securitas ac stabilitas certius sperari pos- <lb/>sit, statim à permutatione
+                    Diplomatum expeditis &lt;hinc&gt; Com- <lb/>missarÿs n[ost]ris, Septem
+                    Co[mita]tus ad dies Vitæ d[omi]no Principi per <lb/>Nos benigno dati, ac
+                    separatim Co[mita]tus in ÿs existentes, nec non separa- <lb/>tim singula oppida
+                    Liberorum Haidonum reversalibus sese obligabunt. <lb/>Magistratus verò et
+                    officiales, sicut et fortalitiorum Capitanei, et <lb/>Præsidiarii milites,
+                    Præsentes ac futuri, iuxta art[iculum] 12 Paci- <lb/>ficationis Viennensis etiam
+                    juramento sese obligabunt. Præs[entibus] Commis- <lb/>sarÿs. Quod o unquam
+                    tempore, ad ullius mandata ar- <lb/>
+                    <lb/>&nbsp; </p>
+                <pb facs="#FacsPnr3"/>
+                <p>ma offensiva contra Ma[jesta]tem n[ost]ra, successoresque n[ostr]os le[gi]timos
+                    Reges <lb/>et Regnum Hung[ari]æ, fidelesque n[ostr]os s&lt;umm&gt;ent, neque
+                    hostilitatem ullam <lb/>exercebant. Insuper o[mn]es et singulos præsentis
+                    Transactionis Ar[ticu]los, in <lb/>omnibus suis clausulis, punctis, sanctè et
+                    inviolabiliter observabunt. <lb/>Tran[sylva]nia quoque in Comitÿs, Primitus
+                    celebrandis, similes l[ite]ras Assecu- <lb/>ratorias dabit ac M[ajesta]ti
+                    n[ostr]æ d[omi]nus Princeps transmittet. <lb/>Quinto. Deinde difficultates, quae
+                    circa superiorum temporum Pacificationes me- <lb/>dio tempore ante hunc
+                    postremum motum occurrerunt, eodem tempore <lb/>complanentur, quo prædicta
+                    juramenta in præsen[tia] Commissariorum <lb/>M[ajesta]ti n[ost]ræ
+                    præstabunt&lt;ur&gt;. <lb/>Sexto. Porro quia d[omin]us Princeps, pro Sua erga
+                    Ma[jesta]tem n[ost]ram, nomenque Christianum <lb/>et gentem suam singulari
+                    affectu omnem operam suam, sese interposi- <lb/>turum obtulerit, ut Damasdum
+                    restituatur, dummodo pacis inchoatæ <lb/>felicem progressum et exitum cernat.
+                    Ideo hanc suam obla[tio]nem, siquidem pax <lb/>cum ipso d[omi]no Principe iam
+                    conclusa est, efficiat, ut statim et de factò con- <lb/>finium illud restituat.
+                    <lb/>Septimo. Insuper iuxta priorum quoque Tractatuum normam, Captivi utrimque
+                    gratis dimittantur. Eorum porrò qui in Turcicam Captivitatem inciderunt,
+                    <lb/>liberationem d[omi]nus Princeps omni studio procuret. <lb/>Octavo. Si qui
+                    autem ex Subditis Ma[jesta]tis n[ost]ræ juramento, ac Reversalibus <lb/>sese vel
+                    nunc vel antè obligassent, d[omi]no Principi, ejusmodi juramentum <lb/>ipso
+                    facto vigore tantum Præsentis Commi&lt;ssiariu&gt;s&nbsp; relaxatum sit. Rever-
+                    <lb/>sales apud se &lt;sic&gt; habitas d[omi]nus Princeps restituat. <lb/>Nono.
+                    Quibus præmissis a d[omi]no Principe acceptatis et confirmatis, benignè con-
+                    <lb/>sentimus, ut Co[mita]tus ad dies Vitæ d[omi]no Principi in prioribus
+                    Tracta- <lb/>tibus concessi, ac coetera o[mn]ia eidem data, juxta eorundem
+                    Tractatuum <lb/>pacificationem maneant in vigore. <lb/>Decimo. Si quid verò
+                    difficultatis deinceps circa pacis conclusæ ex&lt;sequu&gt;tiones obo-
+                    <lb/>rietur, id quiete et bona fide, per Commissarios, utriusque partis
+                    complanetur. <lb/>&nbsp; </p>
+                <pb facs="#FacsPnr4"/>
+                <p>Undecimo. Reliquæ vero o[mn]es prior[um] pacification[um] Niklspurgen[sis], et
+                    Viennen[sis] Ar&lt;ticuli&gt; <lb/>de quibus in Præsenti hac pacificatione,
+                    contraria ad partem Asse- <lb/>curatio non haberetur, in omnibus punctis, et
+                    clausulis maneant in vi- <lb/>gore: quos etiam per præsentes au&lt;th&gt;oritate
+                    n[ost]ra Regia plene et integre <lb/>denuo confirmamus et roboramus, excepta
+                    solutione 30 flore[norum] <lb/>et cura confiniorum d[omi]no Principi
+                    concessorum. <lb/>
+                    <lb/>
+                    <lb/>Amnistia &lt;....&gt;<note n="1" type="crit_app">Unleserliche
+                        Streichung.</note>
+                    <lb/>Nos Ferdinandus etc. Quod cunque Amnystiam et oblivionem generalem
+                    <lb/>omnibus Statibus et Ordinibus Septem Co[mitat]uum d[omi]num Principi
+                    concessor[um] <lb/>alÿsque omnibus qui ex præscriptis d[omi]no Principi
+                    hi&lt;sce&gt; motibus adhæ- <lb/>serunt, &lt;ut&gt; ra&lt;tione&gt; officÿ&nbsp;
+                    et famulatus ejdem obstricti ante hos motus <lb/>fuerunt, omnium eorum, quæ à
+                    die Prima Men[sis] Septembris Anni 1626, <lb/>usque modo hinc inde gesta,
+                    commissaque fuerunt, benignè concedimus, <lb/>Ita quod o[mn]es cædes, rapinæ,
+                    spolia, castrorum interceptiones, Civitatum, Op- <lb/>pidorum, Poss[ess]ionum,
+                    Villarumque occupa[ti]ones, g[ener]al[it]er verò Universæ Vio- <lb/>lentiæ, sub
+                    hoc tempore factæ, et patratæ, i o[mn]ium, cujuscumque <lb/>status, conditionis,
+                    ordinis, et Præeminentiae imputentur, sed de <lb/>planò et simplici
+                    obliterentur, et o unquam tempore quovis ex- <lb/>quisito modo et colore, neque
+                    per Ma[jesta]tem n[ost]ram, aut successores n[ost]ros <lb/>legitimos Hungariæ
+                    Reges, nec ipsos damnificatos Regnicolas ad invi- <lb/>cem palam vel occultè,
+                    in, vel extra iudicium, per se, vel per alios <lb/>possint, propterea vel
+                    impedir&lt;e&gt;, vel aliter qualiter aggravare. <lb/>Quin imò hi et o[mn]es
+                    Universi, super suis factis infra Præfatum tempus <lb/>commissis, a quibusvis
+                    actoribus, Causidicis, litigantibus, <lb/>iam intra, qua extra iudicium, liberi,
+                    poenitusque absoluti sint, et <lb/>habeantur. Nec eos quivis Judex ordinarius,
+                    iudicare va- <lb/>leat ac præsumat quovis modo. Si qui autem ex praedictis </p>
+
+                <pb facs="#FacsPnr5"/>
+                <p>quævis Castra, Fortalitia, aut munitiones, sponte vel legitimè <lb/>manibus
+                    Hungarorum tradidissent, aut assumpto sibi ext&lt;erorum&gt; aut <lb/>Turcarum
+                    auxilio, nobis, aut Hungari&lt;orum&gt;, vel etiam vicinis Provincÿs, <lb/>damna
+                    intulissent, nec non liberas Civitates, Fodinas, Oppida, Villas,
+                    <lb/>Poss[ess]iones, Taxas, census, et proventus, quovis nominis vocabulo
+                    <lb/>&lt;nuncupatos&gt;&nbsp; percepissent, et pro se usurpassent, sint sicut
+                    supradicti <lb/>absoluti. Ita tamen ut de cætero ab o[mn]ibus penitus huiusmodi
+                    <lb/>abstineatur, sicut etiam vicissim præscriptorum Co[mita]tuum Status, Nobis,
+                    <lb/>et successoribus n[ost]ris legitimis Hungariæ Regibus ad perpetuam fi-
+                    <lb/>dem et fidelitatem et observantiam obligati esse debebunt. Quod <lb/>salvis
+                    semper juribus et libertatibus Regni permanentibus, <lb/>nunquam defectionem,
+                    Rebellionem, insurrectionem, publicæ pacis <lb/>Perturbationem, Vicinar[umque]
+                    Provinciarum invasionem et populationem <lb/>internam et externam
+                    conspira[ti]onem, Turcarum et Tartarorum, ac aliorum <lb/>quorumcunque hostium
+                    in Regnum Hungariæ ac alias Vicinas Provin- <lb/>cias introductionem, privata
+                    conventicula contra Ma[jesta]tem n[ost]ram, <lb/>contra bonum Regni in æternum
+                    molientur, vel quovis exquisito co- <lb/>lor&lt;e&gt; et prætextu
+                    &lt;...&gt;tabunt.&nbsp; Similiter etiam reliquorum Comitatuum <lb/>Regni
+                    Hungariæ statibus, liberisque Civitatibus, ac alÿs quibusvis Di- <lb/>tioni
+                    n[ost]ræ subiectis, similem in omnibus Punctis, et clau- <lb/>suli, Amnystiam et
+                    oblivionem perpetuam benignè concedimus, <lb/>Exceptis ÿs personis, si quæ ex
+                    his contra Ma[jesta]tem n[ost]ra[m] sua spontè <lb/>arma sumpsissent, aut vero
+                    medio tempore huius motus, contra <lb/>se invicem violent&lt;i&gt;as, rapinas,
+                    cædes, exercuissent, aut damna <lb/>patrassent, tales si a partè hoc modo læsæ
+                    vel damnificatæ, <lb/>juris ordine citati, vel quæsiti fuerint, judicio se
+                    sistere, et <lb/>judicium Ordinariorum Jurisdictioni subesse debeant ac tene-
+                    <lb/>antur. <lb/>
+                    <lb/>
+                    <lb/>Nos itaque quibus a natura institutoque n[ost]ro <lb/>&nbsp; <pb
+                        facs="#FacsPnr6"/>nihil charius, potiusque unquam fuit, quam saluti et
+                    tranquilli- <lb/>tati populorum nobis divinitus commissorum, consulere, præ-
+                    <lb/>scriptos universos et singulos articulos, ac omnia ac singula in <lb/>eis
+                    contenta, ex certa n[ost]ra scientia et animo bene delibera- <lb/>to acceptamus,
+                    approbamus, ratificamus, et confirmamus, <lb/>assecurantes supradictam Sacram
+                    Cæsaream Regiamque Ma[jesta]tem, <lb/>eiusque successores, legitimos Hungariæ,
+                    Bohemiæ Reges &lt;etc.&gt;&nbsp; in ver- <lb/>bo n[ost]ro Principali et bona
+                    fide Christiana, quod Præscriptos <lb/>universos Articulos, in omnibus suis
+                    punctis et clausulis, tam <lb/>nos ipsi observabimus, quam &lt;etiam&gt; per
+                    alios subditos n[ost]ros, <lb/>cuiuscunque Status et Conditionis sint, observari
+                    faciemus. <lb/>Ad quod observandum etiam successores n[ost]ros legitimos, quos
+                    <lb/>etiam Transactio ista concernere dignoscitur, ob- <lb/>ligatos esse
+                    volumus. Harum n[ostra]rum manus subscriptione <lb/>roboratarum vigore, et
+                    testimonio literarum mediante. Da- <lb/>tum Leuchoviæ die 28. Decembris Anno
+                    1626. <lb/>
+                    <lb/>Gabriel <lb/>
+                    <lb/>
+                    <lb/>
+                    <lb/>Stephanus Kovachochy <lb/>Cancellarius. </p>
+            </div>
+        </body>
+        <back>
+            <listBibl>
+                <bibl xml:id="a136">
+                    <title level="a">Theatrum Europaeum (1626-12-20)</title>
+                    <title level="m">Theatrum Europaeum, Band 1 (1618 - 1628) Aus: Dokumentenarchiv
+                        der Universitätsbibliothek Augsburg (Drucke vor 1900 / Historische
+                        Geschichtswerke).</title>
+                    <biblScope>
+                        <graphic xml:id="A1Pnr1"
+                            url="https://www.ieg-friedensvertraege.de/dbimages/img_4a0981977a125"/>
+                    </biblScope>
+                </bibl>
+                <bibl>Andrea Schmidt-Rösler, Princeps Transilvaniae - Rex Hungariae Gabriel Bethlens
+                    Außenpolitik zwischen Krieg und Frieden, in: Heinz Duchhardt / Martin Peters
+                    (Hg.), Kalkül — Transfer — Symbol. Europäische Friedensverträge der Vormoderne,
+                    Mainz 2006-11-02 (Veröffentlichungen des Instituts für Europäische Geschichte
+                    Mainz, Beihefte Online 1), Abschnitt 80—98. <lb/>URL: &lt;<ref
+                        target="http://www.ieg-mainz.de/vieg-online-beihefte/01-2006.html"
+                        >http://www.ieg-mainz.de/vieg-online-beihefte/01-2006.html</ref>&gt;.</bibl>
+            </listBibl>
+        </back>
+    </text>
+</tei:TEI>

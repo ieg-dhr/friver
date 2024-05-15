@@ -1,0 +1,809 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE tei SYSTEM "../resources/FriVer_DTD.dtd">
+
+<?xml-model href="../resources/FriVer.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns="http://www.tei-c.org/ns/1.0"
+    xml:id="pa000299-0153">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title level="s">European peace treaties of the pre-modern era in data / Europäische
+                    Friedensverträge der Vormoderne in Daten (FriVer+)</title>
+                <title when="1672-04-03" xml:id="t153" when-custom="1672 IV 3" level="a"
+                    ref="https://www.ieg-friedensvertraege.de/treaty/t-153-1-de.html">Vertrag von
+                    Coesfeld</title>
+            </titleStmt>
+            <editionStmt>
+                <edition> Digital edition according to <ref target="http://www.tei-c.org/">TEI
+                        P5</ref>
+                </edition>
+                <funder>
+                    <ref target="https://www.text-plus.org/">TEXT+</ref>
+                </funder>
+                <editor role="http://id.loc.gov/vocabulary/relators/edt"
+                    ref="https://orcid.org/0000-0002-8741-5916">
+                    <persName>Jaap Geraerts</persName>
+                    <note>The transformation and enrichment of the data is done by Jaap Geraerts
+                        (IEG Mainz). The other members of the FriVer+ team are Fabian Cremer, Ines
+                        Grund, and Thorsten Wübbena (all IEG Mainz).</note>
+                    <note> The original data has been created by the <ref
+                            target="https://www.ieg-friedensvertraege.de">team of scholars</ref> who
+                        were part of the Europäische Friedensverträge der Vormoderne project. This
+                        project was lead by Prof. Dr. Heinz Duchhardt and was based at the Leibniz
+                        Institute of European History in Mainz. </note>
+                </editor>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>
+                    <orgName ref="http://www.isni.org/0000000119314040">Leibniz-Institut für
+                        Europäische Geschichte Mainz</orgName>
+                </publisher>
+                <distributor>
+                    <orgName ref="http://www.isni.org/0000000110101946">Universitäts- und
+                        Landesbibliothek Darmstadt</orgName>
+                </distributor>
+                <idno type="ISIL">http://lobid.org/organisation/DE-17</idno>
+                <date type="issued" when="2023-12-23"/>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">
+                        <p xml:lang="en">This file is licensed under the terms of the Creative
+                            Commons License CC-BY 4.0 (Attribution 4.0 International)</p>
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <repository xml:id="r21">Muenster StA/LA</repository>
+                <msDesc>
+                    <p>Nordrhein-Westfälisches Staatsarchiv Münster: Fürstentum Münster 12,9:
+                        Urkunde Christoph Bernhards Coesfel&lt;d&gt; 1672 IV 3 (mit Insert: 1.
+                        Offensivbündnis zwischen Frankreich und Köln, Brühl 1672 I 2 und 2. Vertrag
+                        zwischen Münster und Köln, Bonn 1672 I 4). </p>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p> The data in this XML file, originally created by the project <ref
+                        target="https://www.ieg-friedensvertraege.de/vertraege">Europäische
+                        Friedensverträge der Vormoderne online</ref> has been transformed in
+                    accordance with <ref target="http://www.tei-c.org/">TEI P5</ref> as part of the
+                    project <ref
+                        target="https://www.ieg-mainz.de/en/research/research-projects/european-peace-treaties-of-the-pre-modern-era-in-data"
+                        >Europäische Friedensverträge der Vormoderne in Daten (FriVer+)</ref>
+                </p>
+            </projectDesc>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="fr" xml:id="lan4">französisch</language>
+            </langUsage>
+        </profileDesc>
+    </teiHeader>
+    <standOff>
+        <listPerson>
+            <person role="signatory" xml:id="p37">
+                <persName ref="https://explore.gnd.network/gnd/4018145-5">
+                    <name>Frankreich</name>
+                </persName>
+            </person>
+            <person role="signatory" xml:id="p64">
+                <persName ref="https://explore.gnd.network/gnd/4031485-6">
+                    <name>Köln (Kurfürstentum)</name>
+                </persName>
+            </person>
+            <person role="signatory" xml:id="p78">
+                <persName ref="https://explore.gnd.network/gnd/4040608-8">
+                    <name>Münster</name>
+                </persName>
+            </person>
+        </listPerson>
+        <listPlace>
+            <place xml:id="loc90">
+                <placeName ref="https://explore.gnd.network/gnd/4010355-9">Coesfeld</placeName>
+            </place>
+        </listPlace>
+        <facsimile>
+            <surface xml:id="FacsPnr1">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_43cade256aae5"/>
+            </surface>
+            <surface xml:id="FacsPnr2">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_43cade5bb802b"/>
+            </surface>
+            <surface xml:id="FacsPnr3">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_43cade8a3522d"/>
+            </surface>
+            <surface xml:id="FacsPnr4">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_43cadec03c2a1"/>
+            </surface>
+            <surface xml:id="FacsPnr5">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_43cadeee817da"/>
+            </surface>
+            <surface xml:id="FacsPnr6">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_43cadf1ccea12"/>
+            </surface>
+            <surface xml:id="FacsPnr7">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_43cadf6e8d958"/>
+            </surface>
+            <surface xml:id="FacsPnr8">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_43cadfcd5c2ac"/>
+            </surface>
+            <surface xml:id="FacsPnr9">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_43cae01163e56"/>
+            </surface>
+            <surface xml:id="FacsPnr10">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_43cae03ff0420"/>
+            </surface>
+            <surface xml:id="FacsPnr11">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_43cae0a6df40e"/>
+            </surface>
+            <surface xml:id="FacsPnr12">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_43cae10bc3954"/>
+            </surface>
+            <surface xml:id="FacsPnr13">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_43cae13670750"/>
+            </surface>
+            <surface xml:id="FacsPnr14">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_43cae16738341"/>
+            </surface>
+            <surface xml:id="FacsPnr15">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_43cae19b573a5"/>
+            </surface>
+            <surface xml:id="FacsPnr16">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_43cae1e08a5eb"/>
+            </surface>
+            <surface xml:id="FacsPnr17">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_43cae215732a9"/>
+            </surface>
+            <surface xml:id="FacsPnr18">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_43cae23fb0963"/>
+            </surface>
+            <surface xml:id="FacsPnr19">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_43cae26c6050b"/>
+            </surface>
+            <surface xml:id="FacsPnr20">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_43cae2946e742"/>
+            </surface>
+            <surface xml:id="FacsPnr21">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_43cae2fe17865"/>
+            </surface>
+            <surface xml:id="FacsPnr22">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_43cae325df380"/>
+            </surface>
+            <surface xml:id="FacsPnr23">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_43cae356d8c31"/>
+            </surface>
+            <surface xml:id="FacsPnr24">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_43cae37fcc418"/>
+            </surface>
+            <surface xml:id="FacsPnr25">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_43cae3c53388e"/>
+            </surface>
+            <surface xml:id="FacsPnr26">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_43cae3f56774c"/>
+            </surface>
+            <surface xml:id="FacsPnr27">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_43cae42968b32"/>
+            </surface>
+            <surface xml:id="FacsPnr28">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_43cae4589da28"/>
+            </surface>
+            <surface xml:id="FacsPnr29">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_43cae48828649"/>
+            </surface>
+            <surface xml:id="FacsPnr30">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_43cae4bbef273"/>
+            </surface>
+            <surface xml:id="FacsPnr31">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_43cae50019717"/>
+            </surface>
+            <surface xml:id="FacsPnr32">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_43cae529eb50b"/>
+            </surface>
+        </facsimile>
+    </standOff>
+    <text>
+        <front>
+            <div type="Drucke">
+                <p>Wilhelm Kohl (Hg.), Akten und Urkunden zur Aussenpolitik Christoph Bernhards von
+                    Galen (1650-1678), II, S.377-386&nbsp;&nbsp;</p>
+            </div>
+            <div type="Inhalt">
+                <p>[Brühl 1672 I 2: </p>
+                <p>Vertragszweck, Bündnis gegen die Niederlande, Kriegsbeitritt </p>
+                <p>Art.1 Truppenstärke der Vertragspartner <lb/>Art. 2 Subsidien <lb/>Art. 3
+                    Subsidien. Modalitäten. <lb/>Art. 4 Truppenbeitrag Kölns. <lb/>Art. 5 Regelung
+                    der Kontributionen. <lb/>Art. 6 Kommando über die eigenen Truppen. <lb/>Art. 7
+                    Truppendurchzug. <lb/>Art. 8 Besoldung <lb/>Art. 9 Winterquartier.
+                    Militärjustiz. <lb/>Art. 10 Kriegseroberungen. Aufteilung. Details. <lb/>Art. 11
+                    Truppeneinsatz, Deklaration Kölns. <lb/>Art. 12 Möglichkeit für Köln, sich gegen
+                    Ablöse aus dem Krieg zurückzuziehen. <lb/>Art. 13 Köln erhält Unterstützung,
+                    falls sich Brandenburg oder andere Reichsfürsten sich auf die Seite der
+                    Niederlande stellen. <lb/>Art. 14 Falls Spanien sich mit den Niederlanden
+                    verbündet, hat Köln Optionsrecht. <lb/>Art. 15 Frankreich sieht von einem
+                    Angriff auf Reich und Spanien ab, solange diese den Gegner nicht unterstützen.
+                    <lb/>Art. 16 Kriegsziel. Rückgabe durch die Niederlande. Keine Sonderinteressen
+                    der Bündnispartner. <lb/>Art. 17 Vertragsdauer. Verbot Sonderverträge.
+                    Verlängerung. Geltung anderer Verträge. <lb/>Art. 18 Beitrittsmöglichkeit,
+                    Regelung der Subsidien für diesen Fall. <lb/>Art. 19 Hilfstruppen Infanterie.
+                    <lb/>Art. 20 Kavallerie. <lb/>Art. 21 Hilfsleistungen im Angriffsfall. <lb/>Art.
+                    22 Mögliche Neutralitätsverträge und ihre Gestaltung. <lb/>Art. 23
+                    Belagerungsfall. <lb/>Art. 24 Truppendurchzug. Finanzierung. <lb/>Art. 25
+                    Kriegseroberungen in künftigem Friedensvertrag. <lb/>Art. 26 Koppelung an
+                    Großbritannien. <lb/>Bekräftigung durch die Unterhändler <lb/>Ergänzungen zu
+                    Art. 12] </p>
+                <p>[Bonn 1672 I 4 <lb/>Beitritt Münsters nach Aufforderung durch Köln. Freudnschaft.
+                    Vertragsziel. <lb/>Art. 1 Beitritt Münsters zum Offensivpakt. <lb/>Art. 2
+                    Subsidien. Aufteilung. <lb/>Art. 3 Truppenbeitrag Münsters, Kölns. <lb/>Art. 4
+                    Truppenstärke Münsters. <lb/>Art. 5 Truppenaustausch. Aufteilung der
+                    Eroberungen. <lb/>Art. 6 Aufteilungsschlüssel. <lb/>Art. 7 Besoldung. <lb/>Art.
+                    8 Einheitliche Truppenstärke, Besoldung. <lb/>Art. 9 Unterhaltsverpflichtung.
+                    <lb/>Art. 10 Entschädigungen dafür. Aufteilung der Eroberungen und
+                    Kontributionen. <lb/>Art. 11 Verpflegung. <lb/>Art. 12 Sanitätswesen. <lb/>Art.
+                    12 Verhältnis zu Frankreich. <lb/>Art. 14 Beitrittsoption Paderborn. <lb/>Art.
+                    15 Stellung zum Reich.] </p>
+                <p>&nbsp; <lb/>Coesfeld 1672 IV 3 </p>
+                <p>Münster und Frankreich: Urkundenvergleich. Bestätigung der Verträge. </p>
+            </div>
+        </front>
+        <body>
+            <div type="Transliteration">
+                <pb facs="#FacsPnr1"/>
+                <p>Sa Majesté&nbsp; tres chrestienne aprez avoir <lb/>conclu avec l´Angleterre une
+                    alliance ofensive <lb/>contre les Estats des Provinces unies des Pais-bas
+                    <lb/>pour abatre l´orgueil et conduite insuportables <lb/>que les dites Estats
+                    tiennent envers tous les Potentats <lb/>et Princes de la Chrestienté, et sur
+                    tout envers <lb/>leurs voisins, a cru ne pouvoir donner une plus <lb/>forte
+                    marque de son estime de sa confiance et de <lb/>sa bienveilance aux Electeurs et
+                    Princes de l´Empire <lb/>qu´en communiquant un si grand et si important
+                    <lb/>dessein à plusieurs d´entre eux, et en les invitant <lb/>à y prendre party
+                    entre lesquels S[on]A[ltesse]E[electorale] de <lb/>Cologne aiant&nbsp; reconnu
+                    par de continuelles et <lb/>facheuses experiences que Son Archevesche <lb/>de
+                    Cologne et Son Evesche de Liege estoient en <lb/>toutes ocasions troublez et
+                    incessamment inquietez <lb/>par les entreprises ouvertes ou par des intrigues
+                    <lb/>secrettes desdits Hollandois, a cru estre d´autant <lb/>plus
+                    indispensablement obligée par la conside- <lb/>ration du bien et de l´avantage
+                    de ses Estats et <lb/>de la Religion orthodoxe Romaine Catholique <lb/>à entrer
+                    conjointement avec le Roy dans cette <lb/>guerre, qu´elle voit qu´il luy seroit
+                    impossible d´y <lb/>
+                    <lb/>
+                    <pb facs="#FacsPnr2"/>demeurer neutre comme elle l´avoit résolu et souhaité,
+                    <lb/>puis que les mesmes Hollandois se sont desja <lb/>declarez hautement de
+                    vouloir tenir pour une <lb/>rupture et declaration d´intimité contre eux la
+                    <lb/>simple neutralité dont l´inclination dudit Seig[neu]r <lb/>Eslecteur et la
+                    seureté de ses Estats ne luy <lb/>permettent pas de se departir à l´egard du
+                    <lb/>Roy tres chrestien. Surquoy S[a] M[ajes]té <lb/>aiant donné les ordres et
+                    pouvoirs nécessaires <lb/>à M[onsieu]r Verjus Con[seille]r en Son Con[sei]l
+                    d´Estat de <lb/>traiter et conclure ladite Ligue avec ledit <lb/>Seig[neu]r
+                    Eslecteur, lequel aussi a donné recipro- <lb/>quement de mesmes pouvoirs à
+                    M[onsieu]r le Prince <lb/>Guillaume de Furstenberg, Lesdits Deputez et
+                    <lb/>Plénipotentiaires aprez avoir tenu plusieurs <lb/>conférences sont convenus
+                    des articles suivans. <lb/>
+                </p>
+                <p>1. <lb/>Le Roy promet d´avoir tant que cette <lb/>guerre et alliance dureront
+                    contre les Holland- <lb/>dois, deux armées qui seront au moins de <lb/>cinquante
+                    à soixante mile hommes les deux <lb/>et dont la seconde sera au moins forte de </p>
+                <pb facs="#FacsPnr3"/>
+                <p>vint ou vint cinq mile hommes, et que ledit Seig[neu]r <lb/>Eslecteur de Son
+                    costé s´oblige à en avoir une <lb/>au moins de six sept à di&lt;s&gt;huit mile
+                    hommes de <lb/>luy ou d´autres Princes qui pourront entrer <lb/>en cette Ligue
+                    avec luy ainsi qu´il sera porté <lb/>par le dixhuitiesme article. <lb/>
+                    <lb/>2. <lb/>Pour l´entretien de cette armée le Roy promet <lb/>outre les
+                    subsides qu´il a desja promis par le <lb/>Traité de Neutralité fait à Hildesheim
+                    <lb/>le &lt;…..&gt;&nbsp; d´en faire <lb/>encore payer un audit Seig[neu]r
+                    Eslecteur de vint <lb/>huit mile escus par mois, sur lesquels neant- <lb/>moins
+                    on en déduira jusqu´à quatre mile s´ils <lb/>sont nécessaires pour un Traité de
+                    neutralité <lb/>avec M[onsieu]r le Duc de Neubourg. <lb/>
+                    <lb/>3. <lb/>Les subsides pour agir comenceront au <lb/>premier jour de Décembre
+                    passé, et se payeront <lb/>de deux mois en deux mois par avance comme <lb/>les
+                    subsides pour la neutralité, tousjours le <lb/>premier jour desdits deux mois en
+                    Escus <lb/>blancs à Metz avec pouvoir de les tirer en </p>
+                <p>&nbsp; </p>
+                <p>[Seite 4]&nbsp; </p>
+                <pb facs="#FacsPnr4"/>
+                <p>nature ou en lettres de change au choix du dit <lb/>Seigneur Eslecteur. <lb/>
+                    <lb/>4. <lb/>Toutes et quantes fois que l´armée dudit Seig[neu]r <lb/>Eslecteur
+                    sera jointe à une de celles du Roy, <lb/>le dit Seigneur Eslecteur fournira le
+                    quart des <lb/>munitions de guerre et de l´artillerie des deux <lb/>armées
+                    jointes ensemble; Et lors qu´elle&lt;s&gt; agiront <lb/>séparément, il
+                    &lt;f&gt;era seul la dépense entière <lb/>de l´artillerie de son armée. <lb/>
+                    <lb/>5. <lb/>Encore que S[a] M[ajes]té ait fort insisté que toutes les
+                    <lb/>contributions qui se tireront des Provinces unies <lb/>luy
+                    apartin&lt;iss&gt;ent, excepté celles des Provinces <lb/>d´Overisle, Groningen
+                    et Frise, neantmoins <lb/>comme ledit Seig[neu]r Eslecteur a fait voir que
+                    <lb/>la situation des deux dernières ne permetoit <lb/>pas d´en tirer grand
+                    chose, et que celle <lb/>d´Overisle, outre qu´elle est d´elle mesme pauvre,
+                    <lb/>ne peut m&lt;a&gt;nquer d´estre ruiné&lt;e&gt; de&lt;z&gt; la <lb/>premiere
+                    Campagne, le Roy a consenti <lb/>que les contributions apartiendront à celuy
+                    <lb/>indiferemment qui le premier se sera rendu <lb/>&nbsp; </p>
+                <p>&nbsp; </p>
+                <p>[Seite 5]&nbsp; </p>
+                <pb facs="#FacsPnr5"/>
+                <p>maistre des Places dont elles se pourront lever. <lb/>Et s´il arivoit que le Roy
+                    ti&lt;e&gt;nst une Place et <lb/>ledit Seig[neu]r Eslecteur une autre qui
+                    puissent <lb/>toutes &lt;deux&gt;&nbsp;&nbsp; prétendre les mesmes
+                    contributions, ils <lb/>en conviendront à l´amiable ou les partageront <lb/>par
+                    moitié. <lb/>
+                    <lb/>6. <lb/>Le Roy laisse audit Seig[neu]r Eslecteur la <lb/>disposition
+                    entiere et absolue du comman- <lb/>dement de ses troupes, et luy donnera en
+                    <lb/>outre, si ledit Seig[neu]r Eslecteur le desire et entre- <lb/>tiendra aux
+                    dépens de S[a] M[ajes]té un Général et <lb/>un oficier pour commander sa
+                    cavalerie ou <lb/>son Infanterie, selon que ledit Seig[neu]r Eslecteur <lb/>se
+                    declarera avant la fin de ce mois de vouloir <lb/>plustost l´un que l´autre. <lb/>
+                    <lb/>7. <lb/>S[a] M[ajes]té promet, si la nécessité l´obligeoit <lb/>de prendre
+                    quelque passage avec ses troupes <lb/>sur les terres dudit Seig[neu]r Eslecteur,
+                    qu´elle <lb/>y fera tenir le meilleur ordre et le plus <lb/>exact q´il sera
+                    possible, et mesme qu´elles <lb/>fera reparer les désordres si aucuns s´y </p>
+                <p>&nbsp; </p>
+                <p>[Seite 6] <lb/>&nbsp; </p>
+                <pb facs="#FacsPnr6"/>
+                <p>commettent. <lb/>&nbsp; <lb/>8. <lb/>Pour empescher les mécontentemens et
+                    jalousies <lb/>des troupes, ledit Seig[neu]r Eslecteur ne fera payer <lb/>les
+                    siennes pendant la campagne, tant cavalerie <lb/>qu´Infanterie, que sur le pied
+                    de l´armee du <lb/>Roy qui est pour le cavalier le pain et cinq- <lb/>sols par
+                    jour en argent, et pour le fantassin <lb/>le pain et deux sols par jour en
+                    argent. <lb/>Mais pendant le quartier d´hiver, chacun <lb/>payera ses troupes
+                    comme il luy plairra. <lb/>
+                    <lb/>9. <lb/>A l´egard des quartiers d´hiver, Encore que <lb/>S[a] M[ajes]té
+                    fust beaucoup plus aise de retirer <lb/>en France celles de ses troupes qui ne
+                    <lb/>pourroient pas hiverner dans le pais ennemi, <lb/>puis qu´elles luy
+                    co&lt;u&gt;steront beaucoup plus <lb/>demeurant en qaurtier d´hiver dans les
+                    <lb/>Estats des Princes confédérez par l´exacte <lb/>discipline que S[a]
+                    M[ajes]té sera obligée d´y faire <lb/>tenir, néantmoins en cas de nécessité le
+                    dit <lb/>Seig[neu]r Eslecteur demeure d´acord de donner <lb/>&nbsp; </p>
+                <p> [Seite 7] <lb/>
+                </p>
+                <pb facs="#FacsPnr7"/>
+                <p>dans son pais à S[a] M[ajes]té des quartiers d´hiver <lb/>pour partie de ses
+                    troupes, à condition que <lb/>d´une part elle fera tenir un si bon ordre que
+                    <lb/>les sujets dudit Seig[neu]r Eslecteur n´en soufriront <lb/>aucun do[m]mage,
+                    et que de l´autre ledit Seig[neu]r <lb/>Eslecteur demeurera maistre du partage
+                    et de <lb/>la distribution desdits quartiers. Que si les <lb/>oficiers majors ne
+                    tiennent pas la main qu´en <lb/>fasse justice des excez ou dom[m]ages qui pour-
+                    <lb/>roient se faire, alors ledit Seig[neu]r Eslecteur si <lb/>les coupables se
+                    trouvent dans ses Estatz, et <lb/>que le crime y ait esté commis, en
+                    po&lt;urra&gt; <lb/>faire la justice luy mesme. <lb/>
+                    <lb/>10. <lb/>Si le bonheur des armes vouloit que le Roy <lb/>et ledit
+                    Seig[neu]r Eslecteur fissent des conquests et <lb/>dans les pais des Estats
+                    g[ene]raux pendant cette <lb/>guerre, S[a] M[ajes]té pour marque de sa modéra-
+                    <lb/>tion et du desir qu´elle a de procurer <lb/>l´avantage dudit Seig[neu]r
+                    Eslecteur et des autres <lb/>Princes qui pourroient entrer cy-aprez <lb/>dans la
+                    mesme Ligue ofensive, promet <lb/>&nbsp; </p>
+                <p>[Seite 8]&nbsp; </p>
+                <pb facs="#FacsPnr8"/>
+                <p>non seulement de leur rendre les Places qui <lb/>leur appartiennent en propre à
+                    mesure qu´elles <lb/>seront prises, excepté Mastrick sur la Meuse <lb/>et deux
+                    des suivantes sur le Rhin, savoir <lb/>Orsoy, Rhinberg, Wezel ou quelque autre
+                    <lb/>Place sur lad[ite] rivière, observant que le Roy <lb/>gardera tousjours les
+                    deux qui y seront situées <lb/>plus bas, lesquelles deux Places, aussi bien-
+                    <lb/>que Mastrick, elle retiendra pour la seureté <lb/>de son passage pendant
+                    que lad[ite] Ligue subsistera, <lb/>mais elle ne pourra meme pretendre des
+                    <lb/>autres Places et Villes qui se prendront que celles <lb/>qui ont dependu
+                    autres-fois du Brabant et de <lb/>la Flandre et qui sont par de là la Meuse
+                    <lb/>et le Rhin, avec cette restriction néant- <lb/>moins que tant que cette
+                    Ligue durera, S[a] M[ajes]té <lb/>pourra retenir ces dernières Places jusqu`à
+                    <lb/>ce qu´elle ait ocupé une ou deux de celles qui <lb/>dépendent du Branbant,
+                    ou de la Flandre; <lb/>Mais la Ligue finie S[a] M[ajes]té sera obligée <lb/>de
+                    les remettre au susdit Eslecteur et autres <lb/>Princes qui seroient entrez en
+                    cette Ligue <lb/>&nbsp; </p>
+                <p>[Seite 9]&nbsp; </p>
+                <pb facs="#FacsPnr9"/>
+                <p>pour en disposer selon que bon leur semblera; <lb/>Et en cas que M[onsieu]r
+                    l´Eslecteur de Brandebourg <lb/>refuse d´entrer en cette Ligue ofensive, S[a]
+                    M[ajes]té <lb/>ne laissera pas, pourveu seulement qu´il s´en- <lb/>gage à
+                    demeurer neutre, se luy rendre en la <lb/>maniere susdite les Places qui luy
+                    apartiennent <lb/>sur le Rhin, ecxepté une ou deux que S[a] M[ajes]té
+                    <lb/>pourra reserver jusqu´à la fin de la guerre <lb/>pour la seureté des
+                    passages, et qu´elle luy <lb/>remettra aussi aprez la fin de lad[ite] guerre.
+                    S[a] M[ajes]té <lb/>promet aussi de rendre la ville de Ravestein à
+                    <lb/>M[onsieu]r le Duc de Neubourg aprez l´avoir prise <lb/>pour veu seulement
+                    qu´il demeure neutre. <lb/>
+                    <lb/>11. <lb/>Ledit Seig[neu]r Eslecteur ne sera point obligé de faire <lb/>agir
+                    ses troupes ny se déclarer avant le quinziesme <lb/>du mois de May, et lors
+                    qu´une des armées du <lb/>Roy sera arrivée sur le Rhin au dessous de
+                    <lb/>Keyserswerth. <lb/>
+                    <lb/>12. <lb/>Si l´Empereur se declaroit pour la Hollande <lb/>par un
+                    consentement formel des Eslecteurs <lb/>et Estats de l´Empire, pour lors il sera
+                    libre aud[it] </p>
+                <p>[Seite 10] <lb/>&nbsp; </p>
+                <pb facs="#FacsPnr10"/>
+                <p>S[eigneu]r Eslecteur de se retirer de cette guerre en ren- <lb/>dant au Roy du
+                    moins deux mile chevaux et <lb/>six mile hommes de pied, et ne pouvant plus
+                    <lb/>prétendre aucun subside de S[a] M[ajes]té. Mais pourcequi <lb/>regarde les
+                    Places lesdits Princes pourroient <lb/>avoir prises sur les Hollandois, elles
+                    leur demeure&lt;roient&gt; . <lb/>
+                    <lb/>13. <lb/>En cas que l´Eslecteur de Brandebourg, le Duc <lb/>de Celle ou
+                    tout autre Prince ou Potentat&nbsp; vin&lt;s&gt;t <lb/>à se déclarer pour la
+                    Hollande, ou attaquast le d[it] <lb/>S[eigneu]r Eslecteur, le Roy non seulement
+                    joindroit <lb/>aux troupes dudit Seig[neu]r Eslecteur deux mile chevaux <lb/>et
+                    six mile hommes de pied qu´il entretiendroit <lb/>à ses depens, mais aussi
+                    s´engage à envoier <lb/>exprez en cas de besoin une armée de vint mile
+                    <lb/>hommes au moins au secours et pour le bien <lb/>dudit Eslecteur et aux
+                    dépens de S[a] M[ajes]té. <lb/>
+                    <lb/>14. <lb/>Si les Espagnols venoient à rompre avec la <lb/>France et à se
+                    joindre à la Hollande, S[a] M[ajes]té <lb/>promet qu´en ce cas elle ne laissera
+                    pas de <lb/>tenir toujours et faire agir de moins une <lb/>armée de vint cinq à
+                    trente mile hommes contre <lb/>&nbsp; <lb/>[Seite 11] <lb/>
+                    <pb facs="#FacsPnr11"/>les Hollandois, le Roy laissant libre en ce cas
+                    <lb/>aud[it] Seig[neu]r Eslecteur de rompre ou non avec les <lb/>Espagnols. <lb/>
+                    <lb/>15. <lb/>S[a] M[ajes]té promet aussi qu´elle n´attaquera point
+                    <lb/>l´Empire, l´Empereur ny les Espagnols en cas <lb/>que lesd[its] Espagnols
+                    ne secourent directement ny <lb/>indirectement lesdits Hollandois, et permet
+                    <lb/>mesme aud[it] Seig[neu]r Eslecteur de se séparer de S[a] M[ajes]té <lb/>en
+                    cas qu´elle y contrevienne; Et afinque les <lb/>Espagnols aient d´autant moins
+                    sujet de <lb/>prendre jalousie de cette guerre et observ&lt;a&gt;nt <lb/>une
+                    exacte neutralité, S[a] M[ajes]té veut bien <lb/>s´acomoder avec eux a des
+                    conditions tres <lb/>avantageuses touchant les diferens des limites. <lb/>
+                    <lb/>16. <lb/>Comme S[a] M[ajes]té s´est expliquée qu´elle n´entre- <lb/>prenoit
+                    cette guerre que par en pur principe <lb/>de gloire, qu´elle fait consister à
+                    abatre l´orgeuil <lb/>insuportable des Hollandois, et à les obliger à
+                    <lb/>rendre à châcun cequ´ils retiennent, et à vivre <lb/>à l´avenir avec une
+                    plus grande circonspection, <lb/>et retenuë avec les Princes leurs voisins, elle
+                    <lb/>&nbsp; </p>
+                <p>[Seite 12]&nbsp; </p>
+                <pb facs="#FacsPnr12"/>
+                <p>promet et asseure en foy et parole de Roy qu´elle <lb/>agira depuis le
+                    comencement jusqu´à la fin de <lb/>bonne foy et de concert avec led[it]
+                    Seig[neu]r Eslecteur <lb/>et ses autres alliez, et que jamais ses inte-
+                    <lb/>rests particuliers n´empescheront la fin de la <lb/>guerre, quand led[it]
+                    Seig[neu]r Eslecteur et autres <lb/>alliez la jugeront honnorable et convenable. <lb/>
+                    <lb/>17. <lb/>S[a] M[ajes]té consent que le present Traité ne dure <lb/>que
+                    trois ans à comencer du premier jour du <lb/>mois de Decembre dernier, durant
+                    lesquelles trois <lb/>années le Roy et ledit Seig[neu]r Eslecteur ou autres
+                    Princes <lb/>confederez ne pourront traiter d´aucune paix ou <lb/>treve que d´un
+                    commun consentement, sauf <lb/>aprez le cours desdites trois années et
+                    &lt;échéance&gt; <lb/>du present Traité à convenir entre eux s´ils <lb/>veulent
+                    le continuer pour une ou plusieurs <lb/>autres années en suite, en sorte
+                    neantmoins <lb/>que s´ils ne le continuent pas d´avantage, <lb/>led[it]
+                    Seig[neu]r Eslect[eur] ou autres Princes confedérez <lb/>qui seront cy-devant
+                    convenus des Traitez de <lb/>neutralité auvec S[a] M[ajes]té seront tenus de les
+                    <lb/>observer exactement jusqu´à la fin de la <lb/>&nbsp; </p>
+                <p>[Seite 13]&nbsp; </p>
+                <pb facs="#FacsPnr13"/>
+                <p>guerre: Comme aussi S[a] M[ajes]té de son costé ne <lb/>fera point la paix avec
+                    les Hollandois sans <lb/>stipuler d´eux en faveur desdits Princes et de
+                    <lb/>l´Empire toutes les conditions sans lesquelles <lb/>elle s´est obligée par
+                    les mesmes Traitez <lb/>de neutralité à ne point faire de paix avec <lb/>les
+                    Etats g[ener]aux <lb/>
+                    <lb/>18. <lb/>Le Roy consent, que le susdit Eslecteur puisse <lb/>recevoir en
+                    cette Ligue &lt;tel&gt;&nbsp; autre Prince de <lb/>l´Empire qu´il luy plairra,
+                    pourveu que pour <lb/>cet effet S[a] M[ajes]té ne soit pas obligée de
+                    <lb/>fournir plus de subsides que ceux qui ont este <lb/>reglez cy devant, et
+                    qu´au paravant ledit Seig[neu]r <lb/>Eslecteur luy en donnera part pour en avoir
+                    son <lb/>consentement; et S[a] M[ajes]té laisse aud[it] Seig[neu]r Eslect[eu]r
+                    <lb/>la disposition libre et entière de repartir <lb/>entre luy et les autres
+                    Princes qui entreroient <lb/>en cette Ligue, tant les troupes qu´il est
+                    <lb/>obligé de tenir sur pied, que les contributions <lb/>et conquestes qu´ils
+                    pourront faire et d´en <lb/>convenir avec eux par un reces particulier. <lb/>
+                    <lb/>19. <lb/>Afin que´l´Infanterie du susdit Eslecteur <lb/>&nbsp; </p>
+                <p>[Seite 14]&nbsp; </p>
+                <pb facs="#FacsPnr14"/>
+                <p>ne soit point toute composée de nouvelles troupes <lb/>et soit mieux en estat
+                    d´agir, le Roy promet <lb/>de luy fournir quatre mile hommes de pied <lb/>que
+                    S[a] M[ajes]té choisira comme il luy plairra <lb/>parmi ses troupes pour veu
+                    qu´ils soient <lb/>sur pied avant l´année mile six cent soixante <lb/>et onze.
+                    Pour l´entretien des quels&lt;…&gt;&nbsp; depuis <lb/>le premier jour du present
+                    mois jusqu´au premier <lb/>jour du mois d´Avril prochain, ledit Seig[neu]r
+                    <lb/>Eslecteur consent que S[a] M[ajes]té deduise quarante <lb/>mile escus sur
+                    les subsides des huit derniers <lb/>mois de la presente année, en les partageant
+                    <lb/>également sur châcun desdits huit mois, Et <lb/>depuis ledit premier jour
+                    du mois d´avril, ledit <lb/>Seig[neu]r Eslecteur sera chargé de
+                    l´entretene&lt;…&gt; ment <lb/>des[its]&nbsp; quatre mile hommes, aux quels S[a]
+                    M[ajes]té <lb/>les fera fourinir jusqu´au jour &lt;…&gt;&nbsp; que le dit
+                    Seig[neu]r <lb/>Eslecteur demandera qu´ils luy soient livrez <lb/>à raison de
+                    quarante quatre mile livres par <lb/>mois, qui seront deduites sur les mois
+                    courans <lb/>des subsides promis audit Seig[neu]r Eslecteur par <lb/>le présent
+                    Traité. Mais du jour que lesd[ites] <lb/>Troupes seront livrées au dit
+                    Seig[neu]r Eslecteur, <lb/>&nbsp; <lb/>&nbsp; </p>
+                <p> [Seite 15] <lb/>
+                </p>
+                <pb facs="#FacsPnr15"/>
+                <p>il sera tenu de leur fournir la mesme solde qu´elles <lb/>recevroient si elles
+                    estoient dans l´armée du Roy, <lb/>selon l´estat, qui en sera fourni aud[it]
+                    Seig[neu]r Eslecteur <lb/>et signé de part der d´autre; Et à fa&lt;i&gt;te
+                    d´estre lad[dite] <lb/>solde ponctuelement payée aux dites troupes, <lb/>S[a]
+                    M[ajest]é pourra la leur faire délivrer sur les fons <lb/>des subsides des mois
+                    courans qu´elle retiendra <lb/>pour cet effet jusqu´à&nbsp; la concurrence de ce
+                    qui <lb/>sera de lad[ite] Solde; Et lorsque la Campagne <lb/>finira led[it]
+                    Seig[neu]r Eslecteur donnera aux dites <lb/>troupes de bons quartiers, et leur
+                    fera payer <lb/>leur dite solde à raison d´onze mile livres par <lb/>mois pour
+                    chaque mile hommes, ainsi qu´il est <lb/>porté cy-dessus. <lb/>
+                    <lb/>20. <lb/>Afin aussi que de la mesme manière la <lb/>Cavalerie puisse mieux
+                    plus seurement <lb/>comencer une bonne campagne, et faire une <lb/>plus grand
+                    éfort contre les Hollandois, le Roy <lb/>est suplié par led[it] Seig[eu]r
+                    Eslecteur de luy envoier <lb/>aussi et faire joindre à son armée, seulement
+                    <lb/>pour les deux premiers mois qu´elle comencera <lb/>d´agir, quelque
+                    cavalerie françoise comme de <lb/>&nbsp; </p>
+                <p>[Seite 16]&nbsp; </p>
+                <pb facs="#FacsPnr16"/>
+                <p>mile quinze cent chevaux, en cas que les afaires <lb/>de S[a] M[ajes]té le
+                    permettent. <lb/>
+                    <lb/>21. <lb/>Mais en cas que les Hollandois tournent toutes &lt;ou&gt; <lb/>la
+                    plus part de leurs forces contre l´armée dudit <lb/>Seig[neu]r Eslecteur, et des
+                    autres Princes, qui pour- <lb/>ront estre entrez en cette Ligue, le Roy leur
+                    <lb/>enverra les secours nécessaires pour n´avoir rien <lb/>à craindre de
+                    l´armee ennemie. <lb/>
+                    <lb/>22. <lb/>Le Roy est aussi prié par led[it] Seig[neu]r Eslecteur <lb/>de
+                    vouloir faire observer et insérer dans les Traitez <lb/>de neutralité qui
+                    pourroient se faire doresnavant <lb/>avec quelques Princes d´Allemagne ou
+                    autres, la <lb/>faculté tant de lever que de faire passer dans leurs <lb/>Estats
+                    les troupes qui seront nécessaires audit Seig[neu]r <lb/>Eslecteur et autres
+                    Princes qui pourroient entrer <lb/>en cette Ligue, et de leur y donner toutes
+                    les <lb/>facilitez pour l´achat des vivres, munitions et <lb/>autres choses; Et
+                    S[a] M[ajes]té est encore instamment <lb/>priée de vouloir faire passer des
+                    ofices pour <lb/>obtenir la mesme chose des Princes avec qui <lb/>S[a] M[ajes]té
+                    a desja des Traitez de neutralité, en <lb/>&nbsp; </p>
+                <p>[Seite 17]&nbsp; </p>
+                <pb facs="#FacsPnr17"/>
+                <p>faveur du dit Seig[neu]r Eslecteur et des autres Princes qui <lb/>pourroient
+                    entrer en cette Ligue. <lb/>
+                    <lb/>23. <lb/>En cas que ce Roy veuille faire quelque siege <lb/>considerable
+                    pour lequel S[a] M[ajes]té ait besoin de mettre <lb/>ses magazins dans quelque
+                    moindre Place voisine <lb/>des Conquestes dudit Seig[neu]r Eslecteur, led[it]
+                    Seig[neu]r Eslecteur <lb/>la prestera à S[a] M[ajes]té et la luy remettra pour
+                    un mois, <lb/>ou six semaines jusqu´à ceque le siège soit achevé, <lb/>aprez
+                    lequel temps S[a] M[ajes]té la rendra aussi tost aud[it] <lb/>Seig[neu]r
+                    Eslecteur, à qui elle promet aussi la <lb/>mesme chose. <lb/>
+                    <lb/>24. <lb/>S[a] M[ajes]té promet en cas que la nécessité l´oblige à
+                    <lb/>faire passer ses troupes sur les terres de quelque <lb/>Prince de l´Empire,
+                    et sur tout de M[essieurs] les Eslecteurs <lb/>de Mayence et de Treves, de les
+                    faire payer <lb/>exactement tout ce dont ellles auront besoin, d´em-
+                    <lb/>pescher qu´elles fassent aucun desordre ou préju- <lb/>dice à personne, et
+                    en cas que pourtant elles <lb/>en fissent aucun de le faire reparer et en
+                    dedom[m]ager <lb/>elle mesme en argent. <lb/>
+                    <lb/>25. <lb/>Le Roy promet aussi la paix faite, de <lb/>&nbsp; </p>
+                <p>[Seite 18]&nbsp; <pb facs="#FacsPnr18"/>garentir toutes les Conquestes que
+                    led[it] Seig[neu]r Eslecteur <lb/>ou autres conféderez auront pu faire pendant
+                    la <lb/>guerre, et de les secourir puissamment au cas qu´on <lb/>voulust les
+                    reprendre sur eux, ou les attaquer <lb/>dans leurs Estats pour le sujet de la
+                    guerre. <lb/>
+                    <lb/>26. <lb/>Sa M[ajes]té s´estant déclarée de ne pas vouloir entre-
+                    <lb/>prendre cette guerre que conjointement avec le <lb/>Roy d´Angleterre, elle
+                    promet aussi qu´elle <lb/>fera aprouver et ratifier le present Traité par
+                    <lb/>ce Roy dans l´espace de trois mois, sans quoy <lb/>ledi[it] Traité sera
+                    nul. <lb/>
+                    <lb/>
+                    <lb/>De tous lesquels articles cy-dessus ledit S[ieu]r Verjus <lb/>pour le Roy
+                    le M[onsieu]r Prince Guillaume <lb/>de Furstenberg pour M[onsieu]r l´Eslecteur
+                    de Cologne <lb/>sont convenus et demeurez d´acord, et promettent <lb/>d´en
+                    fournir mutuelement et de part et d´autre <lb/>dans un mois les ratifications.
+                    En foy de quoy <lb/>ils ont souscrit et signé le present Traité, et <lb/>y ont
+                    apposé le cachet de leurs armes. Fait au <lb/>château de Brulle le deuxiesme
+                    jour du mois <lb/>de Janvier mille six cent soixante et douze. <lb/>&nbsp;
+                    <lb/>[Seite 19] <lb/>
+                    <pb facs="#FacsPnr19"/>Outre les articles cy-dessus, il a esté convenu et
+                    <lb/>acordé qu´outre les deux mile chevaux et <lb/>six mile hommes de pied
+                    spécifiez en l´article <lb/>douziesme que led[it] Seig[neu]r Eslecteur de
+                    Cologne <lb/>doit rendre au Roy dans les cas marquez <lb/>audit article ou par
+                    quelque autre raison que <lb/>led[it] Seig[neu]r Eslecteur puisse se retirer de
+                    la <lb/>presente Ligue ofensive, il sera encore oblige <lb/>de rendre dans les
+                    mesmes cas, ou à la fin de la <lb/>guerre les Régimens dont seront composez
+                    <lb/>les quarte mile hommes que le Roy luy a <lb/>promis de luy prester par
+                    l´article dizneuviesme <lb/>du présent Traité, en l´estat où ils se trouveront
+                    <lb/>pour lors; Et le présent article aura la <lb/>mesme force et vigueur que
+                    les précédens. <lb/>Fait à Brulle le 2.e jour de Janvier 1672 <lb/>Signé
+                    Verjus&nbsp; G. Prince de Furstenberg. <lb/>
+                    <lb/>
+                    <lb/>Son Altesse Electorale de Cologne aiant donné <lb/>&nbsp; <lb/>[Seite 20] <lb/>
+                    <pb facs="#FacsPnr20"/>part à S[on] A[ltesse] de Munster d´un Traité que sadite
+                    <lb/>A[ltesse] E[lectorale] a fait avec le Roy pour recouvrer la ville <lb/>de
+                    Rhinberg, que les Hollandois ont usurpées &nbsp; <lb/>sur son Archevesché, et
+                    tousjours refusé obsti- <lb/>nement de luy rendre, excepte que depuis peu
+                    <lb/>par un mepris manifeste, ils luy font jetter <lb/>des propositions vagues
+                    et captieuses de pouvoir <lb/>consent&lt;e&gt;r à la luy remettre en un estat
+                    auquel <lb/>cette Place seroit inutile, et à des conditions <lb/>qu´ils savent
+                    estre impossibles dans les conjonctures <lb/>presentes, et aiant requis Sad[ite]
+                    A[ltesse] de Munster <lb/>de l´aider et joindre ses forces pour un dessein si
+                    <lb/>important à la gloire de S[on] A[ltesse] E[lectorale] , à la conserva-
+                    <lb/>tion de ses Estats et à l´autorité de l´Empire <lb/>contre les dits
+                    Hollandois, dont Sad[ite] A[ltesse] E[lectorale] a <lb/>d´ailleurs e&lt;u&gt; de
+                    tout temps diférens sujets de <lb/>plaintes, et tout nouvellement celuy de
+                    s´estre <lb/>éfor&lt;t&gt;ez par toutes sortes de voies d´empescher
+                    <lb/>l´acomodement de Cologne, et d´y avoir autant <lb/>qu´ils ont pu excité le
+                    peuple et les magis- <lb/>trats à usurper ses droits et inquiéter ses
+                    <lb/>Estats. Ledit Seig[neu]r Evesque de son costé <lb/>considérant l´ancienne
+                    et continuelle <lb/>&nbsp; <lb/>[Seite 21] <lb/>
+                    <pb facs="#FacsPnr21"/>alliance qui subsiste depuis plusieurs siecles entre
+                    <lb/>les Eglises Dioceses de Cologne, et de <lb/>Munster, souhaitant de
+                    l´entretenir et <lb/>renouveller aussi bien que celle qu´il a
+                    <lb/>personnélement avec le dit Seig[neur] Eslecteur, et <lb/>l´étroite amitié
+                    qui est entre eux, et observant <lb/>que les dits Hollandois font souvent des
+                    entre- <lb/>prises ouvertes et descabales et intrigues secrettes <lb/>pour
+                    troubler le repos de son Estat et y <lb/>altérer la Réligion, et pour émouvoir
+                    contre <lb/>luy des Princes ses voisins, s´est engagé <lb/>à S[on] A[ltesse]
+                    E[lectorale] de l´assister à reprendre la dite <lb/>Ville de Rhinberg sur les
+                    dits Hollandois, <lb/>et mesme genéralement tout ce qu´ils ont <lb/>usurpé sur
+                    les Archevesché de Cologne et <lb/>Evesché de Liège, à reprimer leur insolence
+                    <lb/>et continuelles entreprises, et à entrer pour <lb/>cette fin en part du
+                    Traité que Sad[ite] A[ltesse] E[lectorale] <lb/>a conclu avec S[a] M[ajes]té
+                    tres chrestienne. <lb/>A quoy ledit Seig[neu]r Eslecteur et led[it] Seig[neu]r
+                    <lb/>Evesque se sont trouvez d´autant plus <lb/>indispensablement obligez de se
+                    resoudre, <lb/>qu´ils savent que lesd[its] Hollandois ne les <lb/>&nbsp;
+                    <lb/>[Seite 22] <lb/>
+                    <pb facs="#FacsPnr22"/>veulent pas laisser dans leur liberté et inclina-
+                    <lb/>tion naturelle de demeurer neutres, et les <lb/>déclarent hautement de
+                    vouloiur contre l´intérest <lb/>desdits Seig[neu]rs Eslecteurs et Evésche, et
+                    contre <lb/>le bien de leurs Estats les obliger à prendre leur <lb/>parti contre
+                    la France. Par toutes <lb/>les quelles raisons aprez demûres délibérations
+                    <lb/>et plusiers conférences lesdits Seig[neu]rs Eslecteurs <lb/>et Evesque en
+                    suite et conformité dudit Traité <lb/>de S[on] A[ltesse] E[lectorale] avec le
+                    Roy, sont demeurez d´acord <lb/>des articles suivants. <lb/>
+                    <lb/>1. <lb/>S[on] A[ltesse] de Munster consent d´entrer en part <lb/>du Traité
+                    de Ligue ofensive que S[on] A[ltesse] E[lectorale] a fait <lb/>avec le Roy aux
+                    mesmes charges et avan- <lb/>tages, et généralement à toutes les conditions
+                    <lb/>y contenues, promet de sa part et de son <lb/>costé d´y satisfaire, et
+                    s´engage pour Sa <lb/>personne et son païs aux mesmes choses aux <lb/>quelles
+                    S[on] A[ltesse] E[lectorale ] s´est obligée pour elle et ses <lb/>Estats par le
+                    dit Traité de Ligue ofensive signé <lb/>le deuxiesme de Janvier mil six cent
+                    soixante <lb/>et douze, comme aussi tous les points promis <lb/>&nbsp;
+                    <lb/>[Seite 23] <lb/>
+                    <pb facs="#FacsPnr23"/>par le Roy à Sad[ite] A[ltesse] E[lectorale] seront tenus
+                    et <lb/>observez de la mesme façon à Sad[ite] A[ltesse] de Munster <lb/>que dans
+                    le &lt;...&gt; <lb/>signera un Traité avec S[a] M[ajes]té tout conforme <lb/>à
+                    celuy de S[on] A[ltesse] E[lectora]le. <lb/>
+                    <lb/>2. <lb/>Pour cet &lt;este&gt; des vint huit mile escus de subsides <lb/>par
+                    mois que le Roy a acordez à Sad[ite] A[ltesse] E[lectora]le <lb/>pour l´action
+                    sur lesquels il en sera deduit <lb/>quatre mile qui seront donnez à M[onsieu]r
+                    le Duc de <lb/>Neubourg pour faire un Traité de neutralité <lb/>avec le Roy, et
+                    dont par conséquent il ne <lb/>restera plus que vint quatre mile à partager
+                    <lb/>entre S[on] A[ltesse] E[lectorale] de Cologne et Sad[ite] A[ltesse] de
+                    <lb/>Munster, Sad[ite] A[ltesse] E[lectorale] en aura onze mile et <lb/>S[on]
+                    A[ltesse] de Munster treize mile. Mais en cas <lb/>que M[onsieu]r le Duc de
+                    Neubourg ne traite point <lb/>avec le Roy, et qu´ainsi S[a] M[ajes]té ne luy
+                    donne <lb/>point les quatre mile escus qu´elle luy avoit <lb/>destinez pour la
+                    neutralité, le partage de <lb/>L[eurs] A[ltesses] E[lectora]les et de Munster en
+                    sera <lb/>également augmenté pour châcune <lb/>de deux mile escus. <lb/>&nbsp;
+                    <lb/>[Seite 24] <lb/>
+                    <pb facs="#FacsPnr24"/>3. <lb/>S[on] A[ltesse] E[lectorale] de Cologne s´oblige
+                    pour cette somme <lb/>à avoir et mettre en campagne six mile hom[m]es <lb/>de
+                    pied, dixsept cent chevaux et quatre cent <lb/>Dragons; Et S[on] A[ltesse] de
+                    Munster le mesme <lb/>nombre de fantassins et de Dragons et deux <lb/>mille cinq
+                    cent chevaux. <lb/>
+                    <lb/>
+                    <lb/>4. <lb/>Leursd[ites] Altesses Electorale et de Munster s´obli- <lb/>geant à
+                    entretenir le nombre de troupes susdit, <lb/>ne pourront châcune en avoir moins;
+                    mais <lb/>châcune d´elles pourra bien, si elle le veut, en <lb/>avoir et joindre
+                    un plus grand nombre à <lb/>l´armée selon son pouvoir et à sa volonté. <lb/>
+                    <lb/>5. <lb/>Tous les mois on fera la reveuë de lad[ite] armée <lb/>et
+                    L[es]dites A[ltesses] seront obligées de remplacer <lb/>incessament, châcune par
+                    des recruës le <lb/>nombre qui se trouvera manq&lt;u&gt;er aux <lb/>troupes que
+                    l´une ou l´autre doit avoir, et <lb/>les Conquestes et contributions seront
+                    parta- <lb/>gées entre leurs dites A[ltesses] à proportion du <lb/>nombre de
+                    troupes que châcune aura et du <lb/>&nbsp; <lb/>[Seite 25] <lb/>
+                    <pb facs="#FacsPnr25"/>temps qu´elles auront servi. <lb/>
+                    <lb/>6. <lb/>On est convenu que dans ce partage des conques-. <lb/>tes et
+                    contributions, un piéton soit conté pour <lb/>un, un Dragon pour en et demi, et
+                    un cavalier <lb/>pour deux. <lb/>
+                    <lb/>7. <lb/>Le Roy s´estant obligé à payer les apoin- <lb/>tements du Général
+                    et d´un Commandant <lb/>g[é]n[ér]al de cavalerie ou d´Infanterie selon que
+                    <lb/>Leursd[ites] A[ltesses] Elec[torale] et de Munster l´aimeront <lb/>mieux
+                    elles payeront également les oficiers <lb/>généraux suivans. <lb/>Le Général de
+                    Cavalerie ou d´Infanterie, <lb/>c´est à dire celuy des deux que le Roy
+                    <lb/>n´entretiendra pas à ses dépens. <lb/>Deux Généraux majors de Cavalerie.
+                    <lb/>Deux Généraux majors d´Infanterie. <lb/>Un quartier maistre général.
+                    <lb/>Deux adjudans généraux. <lb/>Un auditeur général. <lb/>Deux Commissaires
+                    généraux pour les <lb/>payemens des troupes et pour les contributions. <lb/>Deux
+                    Commissaires g[é]n[ér]aux pour les vivres. <lb/>Un prevost général. <lb/>
+                    <lb/>&nbsp; <lb/>[Seite 26] <lb/>
+                    <pb facs="#FacsPnr26"/>Un Wagen Meister général. <lb/>
+                    <lb/>8. <lb/>Pour ce qui regarde la force des Regimens tant <lb/>de Cavalerie
+                    que d´Infanterie, celle des compa- <lb/>gnies, des bataillons et Escadrons,
+                    comme aussi <lb/>les payemens qu´on donnera aux oficiers et <lb/>soldats pendant
+                    la campagne et le quartier <lb/>d´hiver, lesdits Seig[neu]rs Eslecteur et
+                    Evesque en <lb/>conviendront cy aprez pour plus grande union <lb/>entre eux et
+                    pour le bon ordre et règlement <lb/>parmi les troupes. <lb/>
+                    <lb/>9. <lb/>S[on] A[ltesse] de Munster consent et s´oblige de <lb/>fournir à
+                    ses frais et dépens toute l´artillerie <lb/>et genéralement toutes les munitions
+                    de <lb/>guerre, tant pour ladite artillerie que pour <lb/>la cavallerie et
+                    Infanterie, comme aussi les <lb/>outils nécessaires pour deux mile cinq cent
+                    <lb/>hommes, et tous les oficiers et personnes néces- <lb/>saires pour servir
+                    lad[ite] artillerie. Et S[on] A[ltesse]&nbsp; E[lectorale] ne <lb/>sera chargée
+                    que de payer les outils qui <lb/>auront este distribuez parmi ses troupes
+                    <lb/>parled[it] Evesque et perdus par elle&lt;s&gt;, et de <lb/>&nbsp;
+                    <lb/>[Seite 27] <lb/>
+                    <pb facs="#FacsPnr27"/>fournir les pièces de campagne avec leur atirail
+                    <lb/>pour son Infanterie, et vint chariots à six <lb/>chevaux et trente cinq
+                    charettes à trois <lb/>chevaux avec les hommes, qui les conduiront <lb/>que
+                    Sad[ite] A[ltesse] E[lectorale] entretiendra à ses dépens. <lb/>
+                    <lb/>10. <lb/>Pour dédomagement des frais et excessives <lb/>dépenses que S[on]
+                    A[ltesse] de Munster fera pour lad[ite] <lb/>artillerie et autres munitions,
+                    ainsi qu´il est <lb/>porté dans l´article precedent, elle aura tousjour <lb/>par
+                    preciput la cinquieseme partie des contri- <lb/>butions et des conquestes dont
+                    les autres quatre <lb/>parties seront partagées entre S[on] A[ltesse]
+                    E[lectorale] de <lb/>Cologne et S[on] A[ltesse] de Munster également ou
+                    <lb/>selon le nombre des troupes que châcune d´elles <lb/>aura, ainsi qu´il est
+                    porté par l´article <lb/>cinquiesme, si ce n´est qu´ils fissent part des
+                    <lb/>dites quatre parties restantes à d´autres Princes <lb/>qui pourroient dans
+                    la suite entrer dans la <lb/>mesme Ligue; Et Sadite Altesse de Munster <lb/>aura
+                    de mesme par préciput la cinquiesme <lb/>partie detoutes les pièces d´artillerie
+                    qui se <lb/>trouveront dans tous les lieux et Places que <lb/>l´armée desdits
+                    Seig[neu]rs Eslecteur et Evesque prendra <lb/>&nbsp; <lb/>[Seite 28] <lb/>
+                    <pb facs="#FacsPnr28"/>le reste des dites pièces devant estre partagé&lt;e&gt;
+                    avec <lb/>la mesme égalité et proportion qui sera observée <lb/>aux conquestes
+                    et contributions, comme il est <lb/>marqué cy-dessus. Mais toutes les outres
+                    muni- <lb/>tions de guerre qui se trouveront dans les lieux et <lb/>Places dont
+                    lad[ite] armee s´emparera, apartien- <lb/>dront toutes à Sad[ite] Altesse de
+                    Munster. <lb/>
+                    <lb/>11. <lb/>Quant aux vivres châcun les fournira à <lb/>ses troupes, S[on]
+                    A[ltesse] de Munster s´estant néant- <lb/>moins obligée qu´en cas que l´armée
+                    agist en <lb/>quelque lieu plus proche de son païs, elle feroit <lb/>aussi
+                    fournir des vivres pour un prix raison[n]able <lb/>aux troupes dudit Seig[neu]r
+                    Eslecteur. <lb/>
+                    <lb/>12. <lb/>Lesdits Seig[neu]rs Eslecteur et Evesque conviendront <lb/>aussi
+                    quelque temps devant l´action de ce qu´il <lb/>y aura à faire pour avoir de
+                    médecins, chirur- <lb/>giens et médicamens, et pour établir les Hôpitaux
+                    <lb/>nécessaires. <lb/>
+                    <lb/>13. <lb/>Le Roy non seulement observera à l´égard dud[it] <lb/>Seig[neu]r
+                    Evesque les mesmes articles aux quels il <lb/>&nbsp; <lb/>[Seite 29] <lb/>
+                    <pb facs="#FacsPnr29"/>il s´est engagé à l´égard dudit Seig[neu]r Eslecteur, de
+                    <lb/>mesme que le dit Seig[neu]r Evesque observera aussi <lb/>à l´égard de S[a]
+                    M[ajes]té les mesmes conditions ausquels <lb/>ledit Seig[neu]r Eslecteur s´est
+                    engagé envers elle, mais <lb/>le Traité de neutralité que S [a] M[ajes]té a fait
+                    avec <lb/>Sad[ite] A[ltesse] de Munster subsistera et sera observé <lb/>de part
+                    et d´autre en tous ses points aussi bien que <lb/>celuy de S[a] M[ajes]té avec
+                    S[on] A[ltesse] E[lectora]le. <lb/>
+                    <lb/>14. <lb/>En cas qu´on puisse convenir avec M[onsieu]r l´Evesque <lb/>de
+                    Paderborn pour le faire agir ouvertement ou <lb/>sousmain avec quelque petit
+                    nombre de troupes <lb/>dont on conviendroit avec luy, lesd[ites] Seig[neurs]
+                    Elec[teu]rs <lb/>de Cologne et Evésque de Munster sont convenu&lt;s&gt; <lb/>de
+                    luy fournir pour cela trois mile escus sur les <lb/>subsides qu´ils reçoivent du
+                    Roy, dont S[on] A[ltesse] E[lectorale] <lb/>en fournira mile, et S[on] [Altesse]
+                    de Munster deux mile. <lb/>
+                    <lb/>15. <lb/>Lesdits Seig[neu]rs Eslecteur et Evésque se proposant
+                    <lb/>l´honneur et la conservation et augmentation <lb/>de l´Empire pour le but
+                    principal de cette Ligue, <lb/>se promettent mutuélement, non seulement de
+                    <lb/>ne rien faire et entreprendre contre le bien et <lb/>avantage dudit Empire
+                    ou contre aucun des <lb/>&nbsp; <lb/>[Seite 30] <lb/>
+                    <pb facs="#FacsPnr30"/>Princes ou autres membres d´iceluy et particu-
+                    <lb/>lièrement contre l´Empereur, mais mesme de <lb/>contribuer detout leur
+                    pouvoir à maintenir ledit <lb/>Empire dans une heureuse paix et un estat
+                    florissant. <lb/>
+                    <lb/>De tous lesquels articles leurs dites Altesses <lb/>Electorale et de
+                    Munster estant convenues et <lb/>demeure&lt;es&gt; d´acord, elles se sont
+                    réciproquement <lb/>obligées à les observer fidelement et exactement <lb/>de
+                    part et d´autre de point en point. En <lb/>doy de quoy elles les ont signez de
+                    leur <lb/>propre main, et y ont fait aposer le sel <lb/>de leurs armes. Fait à
+                    Bonne le quatriesme <lb/>jour de Janvier mile six cent soixante et <lb/>douze.
+                    Signé Maximilian Henry Eslecteur <lb/>de Cologne&nbsp; et Christoff Bernard
+                    Evesque <lb/>et Prince de Munster. <lb/>
+                    <lb/>
+                    <lb/>S[on] A[ltesse] de Munster et M[onsieu]r&nbsp; Verjus aiant <lb/>conferés
+                    sur les deux diférens Traitez dont les <lb/>&nbsp; <lb/>[Seite 31] <lb/>
+                    <pb facs="#FacsPnr31"/>copies sont transcrites cy-desuss, et aiant reconnu
+                    <lb/>que ces copies sont conformes aux originaux <lb/>qu´ils se sont communiquez
+                    de part et d´autre, <lb/>Sad[ite] A[ltesse] de Munster est demeurée d´accord de
+                    <lb/>s´engager au Roy comme elle fait par le présent <lb/>&lt;ecrit&gt; pour le
+                    contenu desdits Traitez qu´elles promet <lb/>et s´oblige à S[a] M[ajes]té
+                    &lt;…&gt;&nbsp; fidèlement et <lb/>ponctuélement dans tous leurs points pour ce
+                    qui <lb/>regarde M[onsieu]r l´Eslecteur de Cologne et Sad[it]e A[ltesse] <lb/>Et
+                    led[i]t S[eigneu]r Verjus au nom et de la part du Roy <lb/>conformement au
+                    pleinpouvoir qu´il en a de <lb/>Sa Ma[jes]té a accepté led[it] engagement et
+                    ladite <lb/>promesse de S[on] A[ltesse] de Munster, et de son costé <lb/>a aussi
+                    promis au nom du Roy que S [a] M[ajes]té <lb/>satisfera ponctuelement et
+                    exactement à tous <lb/>les articles du premier desd[ites] Traitez en ce qui la
+                    <lb/>regarde à quoy S[a] M[ajest]é sera tenuë de la mesme <lb/>manière à l´égard
+                    de S[on] A[ltesse] de Munster qu´elle <lb/>l´est par le premier des deux Traitez
+                    cy-dessus <lb/>á l´égard de M[onseigneu]r l´Eslecteur de Cologne, tant <lb/>pour
+                    les subsides qu´il a pl&lt;eu&gt; au Roy de <lb/>donner par mois pour l´action
+                    des Princes <lb/>confédérez contre les Hollandois (outre et <lb/>&nbsp;
+                    <lb/>[Seite 32] <lb/>
+                    <pb facs="#FacsPnr32"/>par dessus les autres subsides que S[a] M[ajes]té donnoit
+                    desjà <lb/>à châcun desdits Princes pour la neutralité selon <lb/>le partage que
+                    S[on] A[ltesse] E[lectorale] de Cologne et Sad[ite] A[ltesse] de <lb/>Munster en
+                    ont fait ensemble que pour les autres <lb/>avantages qu´ils doivent et pourront
+                    recueillir de <lb/>l´éxecution des Traitez cy-dessus, sauf seulement à
+                    <lb/>&lt;ra&gt;batre&nbsp; sur les subsides ce qui en auroit desja esté
+                    <lb/>payer. Et de tout ce que dessus&nbsp; led[it] M[onseigneu]r Verjus
+                    <lb/>promet de fournir une ratification du Roy en <lb/>bonne forme dans six
+                    semaines. En foy de quoy <lb/>Sad[ite] A[ltesse] de Munster et le dit
+                    M[onseigneu]r Verjus ont signé <lb/>le présent Ecrit et y ont fait aposer les
+                    sel de leurs <lb/>armes. Fait à Coesfel ce troisiesme jour d´avril <lb/>mil six
+                    cent soixante et douze. <lb/>
+                    <lb/>Christoff Bernard <lb/>Evesque et prince <lb/>de Munster <lb/>
+                    <lb/>Verjus <lb/>
+                </p>
+            </div>
+        </body>
+    </text>
+</tei:TEI>

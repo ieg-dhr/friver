@@ -1,0 +1,1071 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE tei SYSTEM "../resources/FriVer_DTD.dtd">
+
+<?xml-model href="../resources/FriVer.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns="http://www.tei-c.org/ns/1.0"
+    xml:id="pa000299-0745">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title level="s">European peace treaties of the pre-modern era in data / Europäische
+                    Friedensverträge der Vormoderne in Daten (FriVer+)</title>
+                <title when="1778-03-11" xml:id="t745" when-custom="1778 III 11" level="a"
+                    ref="https://www.ieg-friedensvertraege.de/treaty/t-745-1-de.html">Allianz-
+                    Garantie- und Handelsvertrag von El Pardo</title>
+            </titleStmt>
+            <editionStmt>
+                <edition> Digital edition according to <ref target="http://www.tei-c.org/">TEI
+                    P5</ref>
+                </edition>
+                <funder>
+                    <ref target="https://www.text-plus.org/">TEXT+</ref>
+                </funder>
+                <editor role="http://id.loc.gov/vocabulary/relators/edt"
+                    ref="https://orcid.org/0000-0002-8741-5916">
+                    <persName>Jaap Geraerts</persName>
+                    <note>The transformation and enrichment of the data is done by Jaap Geraerts
+                        (IEG Mainz). The other members of the FriVer+ team are Fabian Cremer, Ines
+                        Grund, and Thorsten Wübbena (all IEG Mainz).</note>
+                    <note> The original data has been created by the <ref
+                        target="https://www.ieg-friedensvertraege.de">team of scholars</ref> who
+                        were part of the Europäische Friedensverträge der Vormoderne project. This
+                        project was lead by Prof. Dr. Heinz Duchhardt and was based at the Leibniz
+                        Institute of European History in Mainz. </note>
+                </editor>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>
+                    <orgName ref="http://www.isni.org/0000000119314040">Leibniz-Institut für
+                        Europäische Geschichte Mainz</orgName>
+                </publisher>
+                <distributor>
+                    <orgName ref="http://www.isni.org/0000000110101946">Universitäts- und
+                        Landesbibliothek Darmstadt</orgName>
+                </distributor>
+                <idno type="ISIL">http://lobid.org/organisation/DE-17</idno>
+                <date type="issued" when="2023-12-23"/>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">
+                        <p xml:lang="en">This file is licensed under the terms of the Creative
+                            Commons License CC-BY 4.0 (Attribution 4.0 International)</p>
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <repository xml:id="r17">Madrid AHN <note>Archivo Histórico Nacional Madrid,
+                    ESTADO,3373,Exp.5. Digital:<lb/>
+                    <ref target="http://pares.mcu.es/ParesBusquedas20/catalogo/show/5347911"
+                        >http://pares.mcu.es/ParesBusquedas20/catalogo/show/5347911</ref></note>
+                </repository>
+                <msDesc>
+                    <p>Spanien, Ministerio de Cultura, AHN Madrid: Estado Legajo 3373-1-5 (Rat.)
+                        (Transkriptionsgrundlage; es wurde nur die rechte spanischsprachige
+                        Textspalte des zweisprachigen Vertrages transkribiert). <lb/>
+                    </p>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p> The data in this XML file, originally created by the project <ref
+                    target="https://www.ieg-friedensvertraege.de/vertraege">Europäische
+                    Friedensverträge der Vormoderne online</ref> has been transformed in
+                    accordance with <ref target="http://www.tei-c.org/">TEI P5</ref> as part of the
+                    project <ref
+                        target="https://www.ieg-mainz.de/en/research/research-projects/european-peace-treaties-of-the-pre-modern-era-in-data"
+                        >Europäische Friedensverträge der Vormoderne in Daten (FriVer+)</ref>
+                </p>
+            </projectDesc>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="es" xml:id="lan13">spanisch</language>
+            </langUsage>
+        </profileDesc>
+    </teiHeader>
+    <standOff>
+        <listPerson>
+            <person role="signatory" xml:id="p87">
+                <persName ref="https://explore.gnd.network/gnd/4046843-4">
+                    <name>Portugal</name>
+                </persName>
+            </person>
+            <person role="signatory" xml:id="p34">
+                <persName ref="https://explore.gnd.network/gnd/4055964-6">
+                    <name>Spanien</name>
+                </persName>
+            </person>
+        </listPerson>
+        <listPlace>
+            <place xml:id="loc309">
+                <placeName ref="https://explore.gnd.network/gnd/4226969-6">Pardo (el)</placeName>
+            </place>
+        </listPlace>
+        <facsimile>
+            <surface xml:id="FacsPnr1">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_44b1118ba4bb7"/>
+            </surface>
+            <surface xml:id="FacsPnr2">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_44b111a22668d"/>
+            </surface>
+            <surface xml:id="FacsPnr3">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_44b111c7847b1"/>
+            </surface>
+            <surface xml:id="FacsPnr4">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_44b111ef1b40a"/>
+            </surface>
+            <surface xml:id="FacsPnr5">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_44b1121156c5e"/>
+            </surface>
+            <surface xml:id="FacsPnr6">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_44b11236da312"/>
+            </surface>
+            <surface xml:id="FacsPnr7">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_44b11258d062f"/>
+            </surface>
+            <surface xml:id="FacsPnr8">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_44b1127ab927c"/>
+            </surface>
+            <surface xml:id="FacsPnr9">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_44b112a07420f"/>
+            </surface>
+            <surface xml:id="FacsPnr10">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_44b112c92f3c0"/>
+            </surface>
+            <surface xml:id="FacsPnr11">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_44b112f474eaf"/>
+            </surface>
+            <surface xml:id="FacsPnr12">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_44b11316e1fd9"/>
+            </surface>
+            <surface xml:id="FacsPnr13">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_44b1133d9943c"/>
+            </surface>
+            <surface xml:id="FacsPnr14">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_44b11365a66d4"/>
+            </surface>
+            <surface xml:id="FacsPnr15">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_44b113899112f"/>
+            </surface>
+            <surface xml:id="FacsPnr16">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_44b113aee0415"/>
+            </surface>
+            <surface xml:id="FacsPnr17">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_44b113d9789fe"/>
+            </surface>
+            <surface xml:id="FacsPnr18">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_44b114016939d"/>
+            </surface>
+            <surface xml:id="FacsPnr19">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_44b1142686daa"/>
+            </surface>
+            <surface xml:id="FacsPnr20">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_44b11448dc7e9"/>
+            </surface>
+            <surface xml:id="FacsPnr21">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_44b114b0005ba"/>
+            </surface>
+            <surface xml:id="FacsPnr22">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_44b114db4e571"/>
+            </surface>
+            <surface xml:id="FacsPnr23">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_44b114ff2d06d"/>
+            </surface>
+            <surface xml:id="FacsPnr24">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_44b115262a1d6"/>
+            </surface>
+            <surface xml:id="FacsPnr25">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_44b1154a10db4"/>
+            </surface>
+            <surface xml:id="FacsPnr26">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_44b1156f75c36"/>
+            </surface>
+            <surface xml:id="FacsPnr27">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_44b115946e883"/>
+            </surface>
+            <surface xml:id="FacsPnr28">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_44b115b6d38ca"/>
+            </surface>
+            <surface xml:id="FacsPnr29">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_44b115d153dbb"/>
+            </surface>
+        </facsimile>
+    </standOff>
+    <text>
+        <front>
+            <div type="Drucke">
+                <p>CAL III, S.168-191 (sp./p.) <ref
+                    target="http://gallica.bnf.fr/ark:/12148/bpt6k960217.image.f168.langEN">
+                    Link zum Druck auf gallica.bnf.fr. </ref></p>
+            </div>
+            <div type="Inhalt">
+                <p>Im Vertrag von San Ildefonso sind die Verträge von 1668 II 13 Lissabon, 1715 II 6
+                    Utrecht, 1763 II 10 Paris, für weiter gültig erklärt worden, garantiert durch
+                    Großbritannien wie in Utrecht 1713 VII 13 vereinbart, doch blieben einige
+                    Zweifel und Unsicherheiten besonders bezüglich Südamerika, weshalb jetzt ein
+                    Vertrag geschlossen wird, um Auseinandersetzungen darüber bzw. die
+                    Nicht-Beachtung der genannten Verträge zu vermeiden. Deshalb wird die Einhaltung
+                    von Artikel I des Vertrags von 1777 vereinbart sowie die älteren Verträge im
+                    Sinne der Freundschaft und Union zu ergänzen, weshalb die ernannten Botschafter
+                    folgendes vereinbaren: <lb/>
+                    <lb/>1.&nbsp;&nbsp; &nbsp;Bündnis und Freundschaft wie 1668 und in früheren
+                    Verträgen vereinbart; <lb/>2.&nbsp;&nbsp; &nbsp;Kein Beitritt zu einem gegen den
+                    anderen gerichteten Krieg oder Bündnis in keinem Teil der Welt; bei Kenntnis von
+                    gegen den Vertragspartner gerichteten Unternehmungen wird dieser unterrichtet;
+                    <lb/>3.&nbsp;&nbsp; &nbsp;Gültigkeit der alten Verträge; gegenseitige Garantie
+                    aller Herrschaftsgebiete in Europa und den anliegenden Inseln; Erneuerung der
+                    Garantie des Grenzvertrags von 1750 so wie die Grenzen im Präliminarvertrag 1777
+                    festgelegt wurden; Zitierung von Art. 25 von 1777, der die Grenzen in Südamerika
+                    und gegenseitige Unterstützung dort festlegt; <lb/>4.&nbsp;&nbsp; &nbsp;Im Fall
+                    eines Krieges eines Vertragspartners gegen Dritte, strikte Neutralität des
+                    anderen, doch gemeinsame Verteidigung der garantierten Gebiete;
+                    <lb/>5.&nbsp;&nbsp; &nbsp;Insel und Hafen Sta. Catalina dürfen außer in
+                    Notfällen weder von Geschwadern noch von Handelsschiffen angelaufen werden, um
+                    Schwarzhandel zu vermeiden; <lb/>6.&nbsp;&nbsp; &nbsp;Einhaltung von Art. 18 des
+                    Vertrags von Utrecht, zu dessen Erläuterung ergänzt wird, dass auch
+                    Geldfälschung, Schmuggel und Desertion zu den Verbrechen zählen; Deserteure
+                    werden ausgeliefert, dürfen aber nicht mit dem Tod bestraft werden;
+                    Auslieferungsmodalitäten; <lb/>7.&nbsp;&nbsp; &nbsp;Meistbegünstigungsklausel
+                    wie in Utrecht vereinbart; <lb/>8.&nbsp;&nbsp; &nbsp;Handel wie 1668 in Artikel
+                    3 und 4 vereinbart; <lb/>9.&nbsp;&nbsp; &nbsp;Aus den vorhergehenden Artikel
+                    folgt, dass zwischen Spanien und Portugal auch der zwischen Spanien und
+                    Großbritannien geschlossenen Vertrag von 1667 Gültigkeit besitzt;
+                    <lb/>10.&nbsp;&nbsp; &nbsp;Bestimmung der Zolllisten; <lb/>11.&nbsp;&nbsp;
+                    &nbsp;Diese Zolllisten, welche die Schmuggelwaren anzeigen, werden durchforstet
+                    und auf das absolut Notwendige beschränkt; <lb/>12.&nbsp;&nbsp; &nbsp;Außerdem
+                    wird eine Sammlung der gegenseitigen Privilegien aus der Zeit König Sebastians
+                    angelegt und diese wird Teil dieses Vertrages; <lb/>13.&nbsp;&nbsp; &nbsp;Um den
+                    Handel der Untertanen mit schwarzen Sklaven jenseits von Asientos und Lizenzen
+                    zu fördern, überlässt Portugal Spanien die Inseln Annobon und Fernando Póo; auch
+                    an den gegenüberliegenden afrikanischen Küsten und Häfen dürfen die Spanier
+                    Handel treiben, ohne die Portugiesen zu beeinträchtigen; <lb/>14.&nbsp;&nbsp;
+                    &nbsp;Meistbegünstigungsklausel auch für São Tomé und Principe wie umgekehrt auf
+                    Annobon und Fernando Póo; <lb/>15.&nbsp;&nbsp; &nbsp;Freier Handel mit
+                    afrikanischen Sklaven auf den oben genannten Inseln; <lb/>16.&nbsp;&nbsp;
+                    &nbsp;Spanien gestattet in seinen oben bezeichneten afrikanischen Gebieten den
+                    Konsum brasilianischen Tabaks, worüber ein weiteres Abkommen für zunächst vier
+                    Jahre geschlossen werden soll; <lb/>17.&nbsp;&nbsp; &nbsp;Modalitäten für den
+                    Beitritt anderer Mächte; <lb/>18.&nbsp;&nbsp; &nbsp;Bekanntgabe und
+                    Veröffentlichung; <lb/>19.&nbsp;&nbsp; &nbsp;Ratifikation <lb/></p>
+            </div>
+            <div type="Kontext">
+                <p>1493 <lb/>Durch eine päpstliche Bulle werden die portugiesische und spanische
+                    Einflusssphäre voneinander getrennt. Eine 300 Leguas westlich der Kapverden
+                    zwischen den Polen gezogene imaginäre Linie schreibt die Gebiete westlich dieser
+                    Linie Spanien, diejenigen östlich davon Portugal zu. <lb/>1494 VII 7 <lb/>Im
+                    Vertrag von Tordesillas zwischen Spanien und Portugal werden die Einflusssphären
+                    zwischenstaatlich voneinander abgegrenzt. Diesmal wird die Linie auf 370 Leguas
+                    westlich der Kapverden festgelegt. Damit sichert sich Portugal vor der
+                    (offiziellen) Entdeckung die Kolonisation Brasiliens. <lb/>1580-1640 <lb/>Die
+                    Thronunion zwischen Spanien und Portugal setzt die Auseinandersetzungen über die
+                    nur ungenügend demarkierte amerikanische Grenze vorübergehend aus. <lb/>1668 II
+                    13 <lb/>Spanien erkennt die portugiesische Unabhängigkeit endgültig an.
+                    Allerdings werden die amerikanischen Grenzen in dem Vertrag nicht erwähnt.
+                    <lb/>In der Folge dehnen die Portugiesen ihre Siedlungen in Amerika bis an das
+                    linke Ufer des Rio de la Plata und in das Missionsgebiet des heutigen Paraguays
+                    aus. Immer wieder kommt es zu spanischen Rückeroberungen und vorläufigen
+                    Abkommen. Eine endgültige Lösung wird nicht gefunden. <lb/>1763 II 10 <lb/>Im
+                    Vertrag von Paris muss Spanien die Kolonie Sacramento, am linken Ufer des Rio de
+                    la Plata an Portugal zurückgeben. In der Folge verstärken die Portugiesen ihre
+                    Angriffe auf spanisches Territorium und Schiffe. <lb/>1777 <lb/>Karl III.
+                    schickt Anfang des Jahres eine Strafexpedition in die Grenzregion.
+                    <lb/>Angesichts der militärischen Erfolge der Spanier nimmt nach dem Tod Josephs
+                    I. von Portugal seine Nachfolgerin Maria I. die Verhandlungen mit Spanien wieder
+                    auf. <lb/>1777 X 1 <lb/>Im Präliminarvertrag von San Ildefonso werden die
+                    amerikanischen Grenzen festgelegt. <lb/>1778 III 11 <lb/>Der hier gezeigte
+                    Vertrag schreibt die Präliminarien fest und vereinbart außerdem Allianz und
+                    Handel. <lb/></p>
+            </div>
+        </front>
+        <body>
+            <div type="Transliteration">
+                <pb facs="#FacsPnr1"/><p>El Pardo 11 de Marzo de 1778 
+                    <lb />TRATADO
+                    <lb />de Amistad, Garantîa, y Commercio 
+                    <lb />entre 
+                    <lb />España y Portugal 
+                    <lb />concluido y firmado 
+                    <lb />por 
+                    <lb />los respectivos Plenipotenciarios, que fueron 
+                    <lb />el Ex[celentisi]mo Señor Conde de Floridablanca, 
+                    <lb />y D[on] Fran[cis]co Innocencio de Souza 
+                    <lb />Coutinho. 
+                    <lb />
+                </p>
+                <pb facs="#FacsPnr2"/><p>Palacio de N[uestra] S[eño]ra da Ajuda 24 de Marzo de 1778
+                <lb />RATIFICACION
+                <lb />de Su Magestad Fidelisima del
+                <lb />Tratado
+                <lb />de Amistad, Garantia, y Commercio
+                <lb />entre España y
+                <lb />Portugal
+                <lb />
+                </p>
+                <pb facs="#FacsPnr3"/><p>Dona Maria por la graça de Deus Raynha de 
+                    <lb />Portugal, e dos Algarves, d’aquèm e d’alèm Mar, em Africa Senhora 
+                    <lb />de Guiné, e da Conquista, Navegacão, e Commercio de Ethiopia, Arabia, 
+                    <lb />Persia, e da India, etc. Faço Saber à todos os que a prezente Carta 
+                    <lb />de Confirmação, Approvação, e Ratificação virem, que em onze do 
+                    <lb />prezente Mez, e Anno Se concluio, e assignou na Corte de Madrid hum 
+                    <lb />Tratado de Alliança Defensiva entre Mim, e o Muito Alto, e Poderozo 
+                    <lb />Principe Dom Carlos III. Rey Catholico de Espanha, Meu Bom Irmão, 
+                    <lb />e Tio, Sendo Plenipotenciarios para este effeito, da Minha parte, Dom 
+                    <lb />Francisco Innocencio de Souza Couttinho, do Meu Conselho, e Meu Embai- 
+                    <lb />xador na dita Corte; e por parte de El Rey Cattolico, Dom Joseph Moñino, 
+                    <lb />Conde de Florida Branca, Cavalleiro da Sua Real Ordem de Carlos III, 
+                    <lb />do Seu Conselho de Estado, Seu Primeiro Secretario de Estado, e do Despacho, 
+                    <lb />e Superintendente Geral de Correios Terrestres, e Maritimos, e das Postas, 
+                    <lb />e Rendas de Estafestas em Espanha, e Indias: Do qual Tratado o Theor hé o Seguinte. 
+                    <lb />En el nombre de la 
+                    <lb />Santissima Trinidad. 
+                    <lb />Por el Articulo I° del Tratado Pre- 
+                    <lb />liminar de Limites felizmente conclu- 
+                    <lb />ido entro las dos Coronas de España y 
+                    <lb />Portugal, y sus respectivos Plenipotenci- 
+                    <lb />arios en S[a]n Ildefonso, a I° de Octubre 
+                    <lb />del año proximo passado 
+                    <lb />
+                </p>
+                <pb facs="#FacsPnr4"/><p>de 1777, se confirmaron, y revalidaron
+                <lb />los Tratados de Paz celebrados entre las
+                <lb />mismas Coronas en Lisboa à 13 de Febrero
+                <lb />de 1668, en Utrecht à 6 tambien de Febrero
+                <lb />de 1715 y en Pariz a lo del proprio Mes de
+                <lb />Febrero de 1763, como si se hallasen
+                <lb />insertos palabra por palabra en el men-
+                <lb />cionado Tratado de 1777 en cuanto no
+                <lb />fuesen derogados por El.
+                <lb />Los dos tratados de Lisboa, y
+                <lb />Utrecht, que van citados, y se han
+                <lb />renovado ahora, han sido y especi-
+                <lb />almente el primero, la baza, y fun-
+                <lb />damento de la reconciliacion, y en-
+                <lb />laces de las dos Monarchias Espa-
+                <lb />ñola, y Portugueza; para llegar al
+                <lb />estado en que se hallan hoi una res-
+                <lb />pecto de otra; y por causa tan re-
+                <lb />levante fueron ambos Tratados
+                <lb />garantidos por los Reyes de la
+                <lb />Gran-Bretaña, estipulandose
+                <lb />formalmente esta Garantia en el
+                <lb />Art. XX. del Tratado de Utrecht
+                <lb />de 13. de Julio de 1713. cele-
+                <lb />brado entre la Corona de España,
+                <lb />y la de Ynglaterra.
+                <lb />
+                <pb facs="#FacsPnr5"/>Pero asi como el ya citado de
+                <lb />Paris de 10 de Febrero de 1763 susci-
+                <lb />tou por las expresiones de Su Art[ículo]
+                <lb />XXI y otras algunas dudas y di-
+                <lb />ficultades, en cuya diversa inteli-
+                <lb />gencia se han podido fundar muchas
+                <lb />de las desavenencias ocurridas en
+                <lb />America Meridional entre los Vasallos
+                <lb />de ambas Coronas; del propio modo
+                <lb />otros Articulos, y expresiones de los dos
+                <lb />Tratados anteriores de Lisboa, y de
+                <lb />Utrecht, y varios puntos que desde
+                <lb />entonces quedaron pendientes, y no
+                <lb />se han explicado hasta ahora; podrian
+                <lb />producir en lo succesivo iguales, ó
+                <lb />mayores disputas, ó a lo menos el
+                <lb />olvido, é inobservancia de lo pac-
+                <lb />tado, originandose motivos de
+                <lb />nuevas discordias. Deseando
+                <lb />pues Sus Magestades Católica,
+                <lb />y Fidelissima precaver para siempre
+                <lb />aquellos riesgos, é impedir sus con-
+                <lb />sequentias; han resuelto por
+                <lb />medio del prezente Tratado; para
+                <lb />cumplir religiosamente el citado
+                <lb />Artículo I° del Tratado Preliminar de 1777;
+                <lb />
+                <pb facs="#FacsPnr6"/>dar toda la consistencia, y explicacion
+                <lb />que piden los Tratados antigos, que se
+                <lb />han confirmado, estableciendo así
+                <lb />la mas íntima, é indisoluble union
+                <lb />y amistad entre ambas Coronas, à
+                <lb />que naturalmente las conducen la
+                <lb />situacion, y vecindad de ellas, los anti-
+                <lb />guos, y modernos enlaces, y parentescos
+                <lb />de Sus respectivos Soberanos, la identi-
+                <lb />dad de origen, y el reciproco interés
+                <lb />de las dos Naciones.
+                <lb />Afin pues, de llevar à efecto
+                <lb />tan plausibles, grandes, y provechosas
+                <lb />ideas, el Mui Alto, Mui Excelente,
+                <lb />y Mui Poderozo Principe D[o]n Carlos III
+                <lb />Rey de España y de las Yndias,
+                <lb />y la Mui Alta, Mui Poderoza, y
+                <lb />Mui Excelente Princeza D[oñ]a Maria,
+                <lb />Reina de Portugal, de los Algarves etc.
+                <lb />acordaron nombrar sus respectivos Ple-
+                <lb />nipotenciarios, es à saber, S[u] Mages-
+                <lb />tad Catholica el Rey de las Espa-
+                <lb />ñas al Ex[celentisi]mo S[eñ]or D[o]n Joseph Mo-
+                <lb />ñino, Conde de Floridablanca,
+                <lb />Caballero da la Real Orden de
+                <lb />Carlos III, su onsejero de Estado,
+                <lb />
+                <pb facs="#FacsPnr7"/>Su Primer secretario de Estado, y del
+                <lb />Despacho, Superintendente General
+                <lb />de Correos Terrestres, y Maritimos, y
+                <lb />de las Postas y renta de Estafetas
+                <lb />en España y las Yndias; Y Su Ma-
+                <lb />gestad Fidelissima la Reyna de
+                <lb />Portugal al Ex[celentissi]mo S[eñ]or D[o]n Francisco
+                <lb />Inocencio de Souza Coutinho, Co-
+                <lb />mendador de la Orden de Christo,
+                <lb />de Su Consejo, y Su Embaxador cer-
+                <lb />ca de Su Magestad Catholica, qui-
+                <lb />enes enterados de las intenciones de
+                <lb />sus respectivos Soberanos, despues de
+                <lb />haverse comunicado sus Plenipoten-
+                <lb />cias, y hallandolas extendidas en
+                <lb />debida forma, han convenido en
+                <lb />Nombre de ambos monarcas
+                <lb />en los Articulos siguientes.
+                <lb />
+                <lb />Articulo I.°
+                <lb />Conforme à lo pactado entre las
+                <lb />dos Coronas en dicho Tratado renova-
+                <lb />do de 13. de Febrero de 1668, y señala-
+                <lb />damente en sus Articulos III, VII, X
+                <lb />y XI, y en mayor explicación dellos
+                <lb />siguiendo otros Tratados antiguos à
+                <lb />
+                <pb facs="#FacsPnr8"/>que se refieren dichos Articulos, que
+                <lb />se usaban en tiempo del Rey D[o]n
+                <lb />Sebastian, y los celebrados entre España,
+                <lb />é Inglaterra en 15 de Noviembre de
+                <lb />1630, y 23 de Mayo de 1667 que
+                <lb />tambien se comunicaron à Portugal,
+                <lb />declaran los dos Altos Principes Con-
+                <lb />trayentes por si, y en Nombre de sus
+                <lb />Herederos, y succesores, que la Paz, y
+                <lb />Amistad, que han establecido, y que
+                <lb />devera observarse entre sus respecti-
+                <lb />vos Subditos en toda la extension de
+                <lb />sus vastos Dominios de ambos Mun-
+                <lb />dos, haya de ser, y sea conforme a la
+                <lb />alianza, y buena corespondencia,
+                <lb />que habia entre las dos Coronas en
+                <lb />el referido tiempo de los Reyes D[o]n Car-
+                <lb />los I°, y Felipe II° de España, D[o]n Ma-
+                <lb />nuel, y D[o]n Sebastian de Portugal;
+                <lb />prestandose Sus Magestades Ca-
+                <lb />tolica, y Fidelissima, y sus Va-
+                <lb />sallos los auxilios, y oficios, que
+                <lb />corresponden à verdaderos, y fieles
+                <lb />Aliados, y Amigos, de modo que
+                <lb />los unos procuren el bien, y utilidad
+                <lb />de los otros, y aparten, é impidan
+                <lb />
+                </p>
+                <pb facs="#FacsPnr9"/><p>
+                reciprocamente su daño, y perjuicio <lb />
+                    en cuanto supieren, y enten-<lb />
+                    
+                    dieren. <lb />
+                    
+                    &nbsp;
+                    
+                    Articulo II.°<lb />
+                    
+                    En consequencia de lo pactado, y <lb />
+                    
+                    declarado en el Articulo anteceden-<lb />
+                    
+                    te, y de lo demas que expresan los Tratados <lb />
+                    
+                    antiguos, que se han renovados, y otros à <lb />
+                    
+                    que ellos se refieren, que no fuesen dero-<lb />
+                    
+                    gados por algunos posteriores, prome-<lb />
+                    
+                    ten sus Magestades Católica, y Fidelis-<lb />
+                    
+                    ima no entrar el uno contra el <lb />
+                    
+                    otro, ni contra sus Estados en qual-<lb />
+                    
+                    quiera parte del Mundo, en guerra, <lb />
+                    
+                    alianza, Tratado, ni Consejo, ni <lb />
+                    
+                    dar paso por sus Puertos, y Tierras, <lb />
+                    
+                    auxilios directos, ó indirectos, ni <lb />
+                    
+                    subsidios para ello de qualquiera <lb />
+                    
+                    clase que sean, ni permitir que <lb />
+                    
+                    los dén sus respectivos Vasallos; <lb />
+                    
+                    antes bien se avisaran recipro-<lb />
+                    
+                    camente qualquiera cosa que <lb />
+                    
+                    supieren, entendieren, ó presu-<lb />
+                    
+                    mieren que se trata contra qualquiera <lb />
+                    
+                    de ambos Soberanos, sus Dominios, <lb />
+                    
+                    Derechos, y Posesiones, ya sea <lb />                    
+                </p> 
+                <pb facs="#FacsPnr10"/><p>fuera de sus Reinos, ó ya en ellos,
+                <lb />por rebeldes, ó personas mal inten-
+                <lb />cionadas, y descontentas de sus glorio-
+                <lb />sos Gobiernos, mediando, negociando,
+                <lb />y auxiliandose de comun acuerdo
+                <lb />para impedir, ó reparar reciprocamen-
+                <lb />te el daño, ó perjuicio de qualquiera de
+                <lb />las dos Coronas, à cuyo fin se comu-
+                <lb />nicarán, y darán á sus Ministros en
+                <lb />otras Cortes, como a los Virreyes, y
+                <lb />Gobernadores de sus Provincias
+                <lb />las Ordenes, e instrucciones, que
+                <lb />tengan por conveniente formar
+                <lb />sobre este asunto.
+                <lb />
+                <lb />Articulo III.°
+                <lb />Con el propio objeto de satisfacer
+                <lb />á los empeños contrahidos en los
+                <lb />antiguos Tratados, y demás á que se
+                <lb />refirieron aquellos, que subsisten
+                <lb />entre las dós Coronas, se han conve-
+                <lb />nido Sus Magestades Catolica, y
+                <lb />Fidelissima en aclarar el sentido, y
+                <lb />vigor de ellos, y en obligarse, como se
+                <lb />obligan, á una Garantia reciproca
+                <lb />de todos sus Dominios de Europa,
+                <lb />
+                <pb facs="#FacsPnr11"/>y Yslas adyacentes, regalias, privile-
+                <lb />gios, y derechos, de que gozan actualmen-
+                <lb />te en ellos, como tambien á renovar, y
+                <lb />revalidar la Garantia, y demas pactos
+                <lb />establecidos en el Articulo XXV. del
+                <lb />Tratado de Limites de 13 de Enero
+                <lb />de 1750, el qual se copiará á conti-
+                <lb />nuacion de éste, entendiendose los
+                <lb />límites, que alli se establecieron, con
+                <lb />respecto à la America Meridional, en los
+                <lb />términos estipulados, y explicados ulti-
+                <lb />mamente en el Tratado Preliminar de
+                <lb />I° Octubre de 1777;&nbsp; Y siendo el tenor
+                <lb />de dicho Art[iculo] XXV como se sigue: “Pa-
+                <lb />ra más plena seguridad de este Tra-
+                <lb />tado convinieron los dos Altos Contra-
+                <lb />ctantes de garantirse reciprocamente
+                <lb />toda la Frontera, y adyacencias de sus
+                <lb />Dominios en la America Meridional,
+                <lb />conforme arriba queda expresado;
+                <lb />obligandose cada uno à auxiliar,
+                <lb />y socorrer al otro contra cualquier
+                <lb />ataque ó invasion, hasta que con efe-
+                <lb />cto quede en la pacifica posesion, y
+                <lb />uzo libre, y entero delo que se le pretendi-
+                <lb />ese usurpar; y esta obilgacion, en cuanto
+                <lb />
+                </p>
+                <pb facs="#FacsPnr12"/><p>a las Costas de Mar, y Paises circum-
+                    <lb />vecinos á ellas, por la parte de S[u] M[agestad] 
+                    <lb />Fid[elisim]a se extenderá hasta las margenes 
+                    <lb />del Orinoco de una, y otra banda; y 
+                    <lb />desde Castillos hasta el Estrecho de 
+                    <lb />Magallanes; y por la parte de S[u] M[agestad] 
+                    <lb />Cat[olic]a se extenderá hasta las margenes 
+                    <lb />de una y otra banda del Rio de las 
+                    <lb />Amazonas, ó Marañon, y desde el 
+                    <lb />dicho Castillos hasta el Puerto de 
+                    <lb />Santos. Pero por lo que toca á lo inte-
+                    <lb />rior de la America Meridional, será in-
+                    <lb />denifinida<note n="1" type="crit_app">Eigentlich "indefinida".</note> esta obligacion, y en qualqui-
+                    <lb />era caso de invasion, ó sublevacion, cada 
+                    <lb />una de las Coronas ayadurá<note n="2" type="crit_app">Eigentlich
+                        "ayudará".</note>, y soc-
+                    <lb />correrá á la otra hasta ponerse las 
+                    <lb />cosas en el estado pacifico. 
+                    <lb />
+                    <lb />Articulo IV.°
+                    <lb />Si qualquiera de los dos Altos Contrayen-
+                    <lb />tes, sin hallarse en el caso de ser inva-
+                    <lb />dido en las tierras, posesionas, y derechos, 
+                    <lb />que comprehende la Garantia del Ar-
+                    <lb />ticulo antecedente, entrare en guerra 
+                    <lb />con otra Potencia, unicamente 
+                    <lb />estará obligado el que no 
+                </p>
+                <pb facs="#FacsPnr13"/><p>tuviere parte en la tal guerra á guar-
+                <lb />dar, y hacer observar en sus Tierras,
+                <lb />Puertos, Costas, y mares, la mas exacta,
+                <lb />y escrupulosa neutralidad; reservando-
+                <lb />se para los cazos de invasion, ó dispo-
+                <lb />siciones para ella en los Dominios ga-
+                <lb />rantidos, la defensa reciproca, á que
+                <lb />estaran obligados ambos Soberanos
+                <lb />en consequencia de sus empeños, que
+                <lb />desean, y prometen cumplir religio-
+                <lb />samente, sin faltar a los Tratados que
+                <lb />subsisten entre los Altos Contrayentes,
+                <lb />y otras Potencias de Europa.
+                <lb />
+                <lb />Articulo V.
+                <lb />Sigiuendo el concepto de los dós Articu-
+                <lb />los inmediatos antecedentes, aunque
+                <lb />por el Art. XXII° de dicho Tratado
+                <lb />de S[a]n Ildefonso de I° de Octubre de 1777.
+                <lb />se pactó, que en la Isla y Puerto de S[an]ta
+                <lb />Catalina, y su Costa immediata, no
+                <lb />se consentiria la entrada de Esquadras
+                <lb />ó Embarcaciones Estrangeras de Guerra,
+                <lb />ó de Comercio, en la forma que alli
+                <lb />se contiene, asi como al fin no fué
+                <lb />faltar a la hospitalidad en los casos
+                <lb />
+                <pb facs="#FacsPnr14"/>de necesidad absoluta, y de arribadas
+                <lb />forzadas, evitando los abuzos de Contra-
+                <lb />bando, de hostilidad, ó de invasion
+                <lb />contra la Potencia amiga, tampoco
+                <lb />lo fué de impedir á las Naves Espa-
+                <lb />ñolas el tocar en aquel Puerto, ni en la
+                <lb />Costa del Brasil quando lo necessitasen,
+                <lb />ni dexar de darlas los auxilios, y refres-
+                <lb />cos, que corresponden a buenos Amigos, y
+                <lb />Aliados, guardando las Leyes, y prohibi-
+                <lb />ciones del Paiz a que arribasen, lo qual
+                <lb />han tenido por conveniente declarar
+                <lb />Sus Magestades Catolica, y Fidelissima,
+                <lb />para que por esta declaracion se en-
+                <lb />tienda, y regule todo lo estipulado
+                <lb />en qualquiera otra parte sobre este
+                <lb />punto.
+                <lb />
+                <lb />Articulo VI.°
+                <lb />Se observará exactamente lo esti-
+                <lb />pulado en el Articulo XVIII. del
+                <lb />Tratado de Utrecht de 6 de Febrero de
+                <lb />1715. celebrado entre las dós Coronas,
+                <lb />y en mayor explicacion de el, y de los
+                <lb />Tratados, y concordias antiguas del
+                <lb />tiempo del Rey D[o]n Sebastian,
+                <lb />declaran los dos Altos Principes
+                <lb />
+                <pb facs="#FacsPnr15"/>Contrayentes que ademas de los crime-
+                <lb />nes especificados en dichas Concordias,
+                <lb />se comprehenden, y han de comprehender
+                <lb />en las expresiones generales de ellas, como
+                <lb />si individualmente se hubiesen nombra-
+                <lb />do los delitos de Falsa moneda, contra-
+                <lb />bandos de extraccion, ó introduccion de
+                <lb />materias absolutamente prohibidas en
+                <lb />qualquiera de los dós Reynos, y desercion
+                <lb />de los Cuerpos Militares de Mar ó tierra,
+                <lb />entregandose los delinquentes, y Desertores,
+                <lb />bien que de los castigos que se hayan de
+                <lb />imponer á estos ultimos, se exceptúa la
+                <lb />pena de Muerte, á que no podra con-
+                <lb />denarseles, ofreciendo ambos Monar-
+                <lb />cas conmutarla en otra que no sea
+                <lb />capita. Para facilitar la pron-
+                <lb />ta aprehension, y entrega de unos,
+                <lb />y ótros, han resuelto los dós Altos
+                <lb />Contrayentes se execute, sin exi-
+                <lb />gir otro requesito, todas las vezes
+                <lb />que los reclamase el Ministro, ó
+                <lb />Sectetario del Estado de los Negocios
+                <lb />Estrangeros de qualquiera de las dós
+                <lb />Potencias, mediante oficio que pase
+                <lb />para ello, ya sea directamente, ó ya por los
+                <lb />
+                <pb facs="#FacsPnr16"/>respectivos Embaxadores de ambos
+                <lb />Soberanos: pero quando sean los Tri-
+                <lb />bunales quienes soliciten la entrega
+                <lb />de algun Reo se observaran las for-
+                <lb />malidades de estilo en las requesi-
+                <lb />torias establecidas desde el tiempo
+                <lb />en que se ajustaron las mencionadas
+                <lb />Concordias. Finalmente si Sus Mages-
+                <lb />tades Catolica, y Fidelissima tuviesen
+                <lb />por conveniente hacer en lo succesivo
+                <lb />alguna nueva explicacion sobre los par-
+                <lb />ticulares de que trata este Articulo, es-
+                <lb />pecificando algun otro caso determinado,
+                <lb />ofrecen comunicarselo, y ponerse de a-
+                <lb />cuerdo amistosamente, mandando se
+                <lb />observe lo que arreglen entre si, como
+                <lb />todo lo que aqui va estipulado, para
+                <lb />cuyo cumplimiento expediran
+                <lb />desdè luego las Ordenes condu-
+                <lb />centes.
+                <lb />
+                <lb />Articulo VII.°
+                <lb />Por el Articulo XVII del Tratado de
+                <lb />Utrecht ya referido de 6 de Febrero
+                <lb />de 1715. se capituló que las dos Na-
+                <lb />ciones Española, y Portugueza
+                <lb />gozarian reciprocamente en
+                <lb />
+                </p>
+                <pb facs="#FacsPnr17"/><p>sus respectivos Dominios de Europa 
+                    <lb />de todas las ventajas en el Comercio, 
+                    <lb />y de todos los privilegios, libertades, y 
+                    <lb />esenciones, que se habian concedido 
+                    <lb />hasta entonces, y concedieran en ade-
+                    <lb />lante à la Nacion más favorecida, y 
+                    <lb />la más privilegiada de todas las que 
+                    <lb />traficaban en ellos. Y ademas de lo con-
+                    <lb />tenido en dicho Articulo para no dexar 
+                    <lb />incertidumbre alguna en lo convenido, 
+                    <lb />se pactó por otro Articulo separado que, 
+                    <lb />restableciendose el Comercio entre las dos 
+                    <lb />Naciones, y cotinuando en el estado 
+                    <lb />que se hacia antes de la Guerra que 
+                    <lb />precedió al mismo Tratado, subsistiria 
+                    <lb />asi hasta que se declarase la conformi-
+                    <lb />dad, en que debia correr dicho Comer-
+                    <lb />cio. En consequencia pues de dichos Ar-
+                    <lb />ticulos, y de haberse renovado, revalida-
+                    <lb />do, y ratificado en el Articulo I.° del 
+                    <lb />Tratado Preliminar de Limites todo el 
+                    <lb />Tratado de Utrecht se han prometido 
+                    <lb />SS. MM.<note n="3" type="crit_app">Abkürzung für "Sus Magestades".</note> Católica, y Fidelissima 
+                    <lb />cumplir, y observar exactamente, 
+                    <lb />y en forma especifica al Contexto 
+                    <lb />de los citados Articulos XVII y separado.
+                </p>
+                <pb facs="#FacsPnr18"/><p>como Literalmente consta de ellos. 
+                    <lb />
+                    <lb />Articulo VIII.°
+                    <lb />Para hacer declaracion reservada 
+                    <lb />en dicho Articulo separado de la confor-
+                    <lb />midad, ó del modo en que deberia cor-
+                    <lb />rer el Comercio entre las dós Na-
+                    <lb />ciones, se han convenido SS. MM.<note n="4" type="crit_app">Abkürzung für "Sus Magestades".</note> &nbsp;
+                    <lb />Catolica y Fidelissima en que se to-
+                    <lb />men por norma los Articulos III. y 
+                    <lb />IV. del Tratado celebrado entre las dós 
+                    <lb />Coronas en 13 de Febrero de 1668., 
+                    <lb />garantido por la Gran Bretaña, y 
+                    <lb />renovado, ó ratificado igualmente en 
+                    <lb />el Articulo I° del Tratado Preliminar 
+                    <lb />de Limites, en quanto fuesen adaptables; 
+                    <lb />los quales Articulos son à la Letra 
+                    <lb />como se sigue: = Articulo III.= 
+                    <lb />“Los Vasallos, y Moradores de las 
+                    <lb />Tierras poseides por uno, y ótro 
+                    <lb />Rey, tendran toda buena corres-
+                    <lb />pondencia, y amistad sin mostrar 
+                    <lb />sentimiento de las ofensas, y daños para-
+                    <lb />dos, y podran comunicar, entrar, y 
+                    <lb />frequentar los Limites de uno, y 
+                    <lb />otro; y uzar, y exercer el 
+                </p>
+                <pb facs="#FacsPnr19"/><p>Comercio con toda seguridad por ti-
+                <lb />erra, y por mar en la forma y manera
+                <lb />que se usaba en tiempo Del Rey D[o]n Se-
+                <lb />bastian[.] = Articulo IV.= Los dichos Vas-
+                <lb />allos, y Moradores de una y otra parte
+                <lb />tendran reciprocamente la misma segu-
+                <lb />ridad, libertades, y pvivilegios que estan con-
+                <lb />cedidos á los subditos del Serenissimo Rey de
+                <lb />la Gran Bretaña por el Tratado de
+                <lb />23. de Mayo de 1667., y otro del año
+                <lb />de 1630, en lo que no se deroga por
+                <lb />este Tratado, de la misma forma, y
+                <lb />manera que si todos aquellos Articulos
+                <lb />en razon del Comercio, é immunidades
+                <lb />tocantes a el fuesen aqui expresamen-
+                <lb />te declarados sin excepcion de Articulo
+                <lb />alguno, mudando solamente el nombre
+                <lb />en favor de Portugal. Y de estos mismos pri-
+                <lb />vilegios usarà la Nacion Portuguesa en los
+                <lb />Reinos de Su Magestad Catolica, segun, y
+                <lb />como practicaba en tiempo del Rey
+                <lb />D[o]n Sebastian.
+                <lb />
+                <lb />Articulo IX.°
+                <lb />En consequencia de lo pactado en
+                <lb />el Articulo antecedente, serà comun
+                <lb />
+                <pb facs="#FacsPnr20"/>á los dós Naciones Española, y Portuguesa
+                <lb />todo el referido Tratado de 23 de Mayo
+                <lb />de 1667. celebrado con la Gran-Bretaña,
+                <lb />sin mas modificaciones, ó explicaciones
+                <lb />que aquellas mismas que hayan ocur-
+                <lb />rido entre las dós Coronas de España,
+                <lb />é Inglaterra, reservándose a las dós
+                <lb />Naciones Española, y Portuguesa las
+                <lb />ampliaciones, que por Privilegios an-
+                <lb />tiguos de Sus respectivos Monarcas
+                <lb />se les hayan concedido, e hayan gozado
+                <lb />en el Reinado del Rey D[o]n Sebastian.
+                <lb />
+                <lb />Articulo X.°
+                <lb />Para complemento de los Articulos
+                <lb />precedentes, y de dichos Tratados, y para
+                <lb />que haya la mayor exactitud, y claridad
+                <lb />en su execucion, se reconoceran las listas,
+                <lb />y aranceles de 23 de Octubre de l668,
+                <lb />y demas que se hubiesen formado
+                <lb />para el cobro de derechos de los fru-
+                <lb />tos, y mercaderias que entrasen, y
+                <lb />saliensen de España para Portugal,
+                <lb />y de Portugal para España por
+                <lb />sus Puertos de Mar, e tierra, y de
+                <lb />comun acuerdo se arreglarán,
+                <lb />
+                <pb facs="#FacsPnr21"/>ampliarán, ó modificarán segun el
+                <lb />tenor de dichos Tratados, guardando
+                <lb />proporcion a las variaciones, que puede
+                <lb />haber causado el tiempo en los nombres, y
+                <lb />precios de dichos frutos, y mercaderias, au-
+                <lb />mento, ó diminuicion de sus generos y especies,
+                <lb />y otras particularidades.
+                <lb />
+                <lb />Articulo XI.°
+                <lb />En dichas listas ó Aranceles se ex-
+                <lb />pecififcarán tambien las prohibiciones
+                <lb />que deben quedar subsistentes sobre
+                <lb />introduccion de algunos generos y frutos
+                <lb />de qualquiera de las dós Monarquias
+                <lb />en los Dominios de la ótra, y desde luego se
+                    <lb />han convenido SS. MM.<note n="5" type="crit_app">Abkürzung für "Sus Magestades".</note> Catolica, y Fide-
+                <lb />lissima en que de tales prohibiciones se
+                <lb />alzarán todas las que no sean absolu-
+                <lb />tamente necessarias para el buen Go-
+                <lb />bierno interior de las mismas dós
+                <lb />Monarquias, guardandose en este punto
+                <lb />reciprocamente ambas Naciones u-
+                <lb />na consideracion igual a la que tubie-
+                <lb />ren, y observaren con ótras de las mas
+                <lb />favorecidas; de modo que se aparte
+                <lb />toda odiosidad particular, y
+                <lb />
+                <lb />
+                <pb facs="#FacsPnr22"/>
+                    se cumplan religiosamente los Articulos <lb />
+                    
+                    de dichos Tratados do 1667., 1668., y <lb />
+                    
+                    1715., en que assi está capitulado, <lb />
+                    
+                    y garantido. <lb />
+                    
+                    &nbsp; 
+                    
+                    Articulo XII.°<lb />
+                    
+                    Asimismo se formará una Col-<lb />
+                    
+                    leccion de los Privilegios de que han <lb />
+                    
+                    gozado las dós Naciones en el tiempo <lb />
+                    
+                    del Rey D[o]n Sebastian, y dicha Col-<lb />
+                    
+                    leccion autorizada con las debidas <lb />
+                    
+                    solemnidas se estimará, y tendrá <lb />
+                    
+                    como parte deste Tratado, al modo <lb />
+                    
+                    que lo será tambien, y se tendrá por tal <lb />
+                    
+                    la Lista, ó Arancel de derechos, que se <lb />
+                    
+                    ha citado en el Articulo antecedente. <lb />
+                    
+                    &nbsp;
+                    
+                    Articulo XIII.°<lb />
+                    
+                    Deseando Sus Magestades Catolica, <lb />
+                    
+                    y Fidelissima promover las ventajas <lb />
+                    
+                    del Comercio de sus respectivos Sub-<lb />
+                    
+                    ditos, las quales pueden verificarse <lb />
+                    
+                    en el que reciprocamente hicieren de <lb />
+                    
+                    compra, y venta de Negros, sin ligar-<lb />
+                    
+                    se a Contratas, e Asientos perjudiciales <lb />
+                    
+                    como los que en otro tiempo se <lb />
+                    
+                    hicieron con las Compañias<lb />
+                    
+                <pb facs="#FacsPnr23"/>Portuguesa, Francesa, y Ynglesa, los
+                <lb />quales fué preciso cortar, ò anular,
+                <lb />se han convenido los dos Altos Principes
+                <lb />Contrayentes en que para lograr aquellos
+                <lb />y otros fines, y compensar de algun modo
+                <lb />las Cesiones, restituiciones, y renuncias
+                <lb />hechas por la Corona de España en el
+                <lb />Tratado Preliminar de Limites de 1.° de Octu-
+                <lb />bre de 1777 cederia S.M. Fid[elissim]a, como
+                <lb />de hecho ha cedido, y cede por si, y en
+                <lb />nombre de Sus Herederos, y Successores
+                <lb />a S[u] M[agestad] Católica, y los suyos en la Co-
+                <lb />rona de España la Ysla de Anno
+                <lb />bon en la Costa de Africa, con
+                <lb />todos los Derechos, posesiones, y Acci-
+                <lb />ones, que tiene a la misma Ysla, para
+                <lb />que desda luego pertenesca a los Domi-
+                <lb />nios Españoles del propio modo que hasta
+                <lb />ahora ha pertenecido á los de la Corona de
+                <lb />Portugal; y asi mismo todo el derecho,
+                <lb />y accion que tiene, ó puede tener á
+                <lb />la Ysla de Fernando del Po en el Golfo
+                <lb />de Guinea, para que los Vasallos de
+                <lb />la Corona de España se puedan estable-
+                <lb />cer en ella, y negociar en los Puertos,
+                <lb />y Costas opuestas a la dicha Ysla, como
+                <lb />
+                <pb facs="#FacsPnr24"/>son los Puertos del Rio Gabaon, de los
+                <lb />Camarones, de S[an]to Domingo, de Cabo fer-
+                <lb />mozo, y ótros de aquel Distrito, sin que por
+                <lb />esso se impida ó estorve el Comercio de los
+                <lb />Vasallos de Portugal, particularmente
+                <lb />de los de las Yslas del Principe, y de S[an]to
+                <lb />Tomé, que al presente van, y que en lo
+                <lb />futuro fueren á negociar en la dicha Costa,
+                <lb />y Puertos, compostandose en ellos los Vas-
+                <lb />sallos Españoles, y Portugueses con la
+                <lb />mas perfecta armonia, sin que por
+                <lb />algun motivo, ó pretexto se perjudi-
+                <lb />quen, ó estorven unos á ótros
+                <lb />
+                <lb />Articulo XIV.°
+                <lb />Todes Embarcaciones Españolas,
+                <lb />sean de Guerra, ó del Comercio de
+                <lb />dicha Nacion, que hicieren escala por
+                <lb />las Yslas del Principe, y de S[an]to Tomé
+                <lb />pertenecientes a la Corona de Portugal para
+                <lb />refrescar sus Tripulaciones, ó proveerse
+                <lb />de viveres, ú otros efeitos necessarios,
+                <lb />seran recebidas, y tratadas en las dichas
+                <lb />Yslas, como la Nacion mas favorecida; y
+                <lb />lo mismo se praticará con las Embarca-
+                <lb />ciones Portuguezas de Guerra, ó de Comercio,
+                <lb />
+                </p>
+                <pb facs="#FacsPnr25"/><p>que fueren a la Ysla Annobon, ó 
+                    <lb />á la de Fernando del Pó, pertenecientes 
+                    <lb />á Su Magestad Católica. 
+                    <lb />
+                    <lb />Articulos XV.° 
+                    <lb />Ademas de los auxilios, que recipro-
+                    <lb />camente de habran de dar las dós Na-
+                    <lb />ciones Española, y Portugueza en dichas 
+                    <lb />Yslas de Annobon, y Fernando del Pó, 
+                    <lb />y en las de Santo Tomé, y del Principe, 
+                    <lb />se han convenido S.S. MM.<note n="6" type="crit_app">Abkürzung für "Sus Magestades".</note> Catolica, 
+                    <lb />y Fidelissima en que en las mismas 
+                    <lb />pueda haber entre los Subditos de am-
+                    <lb />bos Soberanos un tráfico, y comercio 
+                    <lb />franco, y libre de Negros; y en caso de 
+                    <lb />traherlos la Nacion Portuguesa á las 
+                    <lb />referidas Yslas de Annobon, y de 
+                    <lb />Fernando del Pó, seran comprados, y 
+                    <lb />pagados pronta, y exactamente, con 
+                    <lb />tal que los precios sean convenciona-
+                    <lb />les, y proporcionados la calidad de 
+                    <lb />los Esclavos, y sin exceso a los que 
+                    <lb />acostumbren subministrar, ó sub-
+                    <lb />ministraren ótras Naciones en 
+                    <lb />iguales ventas, y parages. 
+                    <lb />Articulo.
+                    <lb />
+                    <lb />
+                </p>
+                <pb facs="#FacsPnr26"/><p>Articulo XVI.
+                    <lb />Igualmente ofrece S[u] M[agestad] Catolica 
+                    <lb />que el consumo de Tabaco de hoja que 
+                    <lb />hiciere para dicho Comercio en las 
+                    <lb />referidas Yslas, y Costa immediata 
+                    <lb />de Africa, será por espacio de quatro 
+                    <lb />años, del que producen los Dominios 
+                    <lb />del Brasil, á cuyo fin se arreglará 
+                    <lb />contrata formal con la Persona, 
+                    <lb />ó Personas, que destinare la Corte de 
+                    <lb />Lisboa, en la que se especificaran las 
+                    <lb />cantidades de Tabaco, precios, y demas 
+                    <lb />circunstancias que correspondan á este 
+                    <lb />punto: Y pasados dichos quatro años, 
+                    <lb />con mayor conocimiento se podrà 
+                    <lb />tratar de prorogar, ó nó, el Contrato, 
+                    <lb />que desde luego se hiciese, y de ampli-
+                    <lb />ar, modificar, ó aclarar sus Con-
+                    <lb />diciones. 
+                    <lb />
+                    <lb />Articulo XVII.°
+                    <lb />Pudiendo los Articulos de este Trata-
+                    <lb />do, ó algunos de ellos ser adaptables á otras 
+                    <lb />Potencias, que los dós Altos Contrayentes 
+                    <lb />tengan por conveniente convidar á 
+                    <lb />su accesion se reservan SS. MM.<note n="7" type="crit_app">Abkürzung für "Sus Magestades".</note> &nbsp;
+                    <lb />Católica, y Fidelissima ponerse de
+                    <lb />
+                    <lb /> 
+                </p>
+                <p>7 Abkürzung für "Sus Magestades".
+                    <lb />
+                    <lb /> 
+                </p>
+                <pb facs="#FacsPnr27"/><p>acuerdo sobre este punto, y arreglar
+                <lb />en todas sus partes el modo de exe-
+                <lb />cutarlo con respecto al interes reci-
+                <lb />proco de las dós Coronas, y de aquella,
+                <lb />ó aquellas que huvieren de ser con-
+                <lb />vidadas, y desearen acceder.
+                <lb />
+                <lb />Articulo XVIII.°
+                <lb />Ambos Principes contrayentes
+                <lb />cuidaran de publicar en sus Do-
+                <lb />minios, hacer saber a todos sus
+                <lb />Vasallos, los pactos, y obliga-
+                <lb />ciones de este Tratado, encargan-
+                <lb />do la mayor exactitud en su
+                <lb />observancia, y execucion, y ha-
+                <lb />ciendo castigar rigurosamente á
+                <lb />los Contraventores.
+                <lb />
+                <lb />Articulo XIX.°
+                <lb />El presente Tratado se ratificará
+                <lb />en el preciso termino de quince dias,
+                <lb />despues de firmado, ó antes si fuere
+                <lb />posible.
+                <lb />En fé de lo qual Nosotros los
+                <lb />infrascritos Ministros Plenipo-
+                <lb />tenciarios firmamos de nuestro
+                <lb />
+                <lb />
+                </p>
+                <pb facs="#FacsPnr28"/><p> puño, en Nombre de Nuestros 
+                    <lb />Augustos Amos, y en virtud de las 
+                    <lb />Plenipotencias, con que para ella 
+                    <lb />nos autorizaron, el presente Tratado, 
+                    <lb />y le hicimos sellar con los sellos de 
+                    <lb />nuestras armas. Fecho enel R[ea]l Sitio 
+                    <lb />del Pardo a 11 de Marzo de 1778. 
+                    <lb /> 
+                    <lb /> 
+                    <lb />D. Francisco Innocencio 
+                    <lb />de Souza Coutinho&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; El Conde De Floridablanca 
+                </p>
+                <p>[es folgt die portugiesische Ratifikation]
+                    <lb />
+                </p>
+            </div>
+        </body>
+    </text>
+</tei:TEI>

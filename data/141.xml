@@ -1,0 +1,747 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE tei SYSTEM "../resources/FriVer_DTD.dtd">
+
+<?xml-model href="../resources/FriVer.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns="http://www.tei-c.org/ns/1.0"
+    xml:id="pa000299-0141">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title level="s">European peace treaties of the pre-modern era in data / Europäische
+                    Friedensverträge der Vormoderne in Daten (FriVer+)</title>
+                <title when="1538-02-24" xml:id="t141" when-custom="1538 II 24" level="a"
+                    ref="https://www.ieg-friedensvertraege.de/treaty/t-141-1-de.html"
+                    >Friedensvertrag von Großwardein</title>
+            </titleStmt>
+            <editionStmt>
+                <edition> Digital edition according to <ref target="http://www.tei-c.org/">TEI
+                        P5</ref>
+                </edition>
+                <funder>
+                    <ref target="https://www.text-plus.org/">TEXT+</ref>
+                </funder>
+                <editor role="http://id.loc.gov/vocabulary/relators/edt"
+                    ref="https://orcid.org/0000-0002-8741-5916">
+                    <persName>Jaap Geraerts</persName>
+                    <note>The transformation and enrichment of the data is done by Jaap Geraerts
+                        (IEG Mainz). The other members of the FriVer+ team are Fabian Cremer, Ines
+                        Grund, and Thorsten Wübbena (all IEG Mainz).</note>
+                    <note> The original data has been created by the <ref
+                            target="https://www.ieg-friedensvertraege.de">team of scholars</ref> who
+                        were part of the Europäische Friedensverträge der Vormoderne project. This
+                        project was lead by Prof. Dr. Heinz Duchhardt and was based at the Leibniz
+                        Institute of European History in Mainz. </note>
+                </editor>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>
+                    <orgName ref="http://www.isni.org/0000000119314040">Leibniz-Institut für
+                        Europäische Geschichte Mainz</orgName>
+                </publisher>
+                <distributor>
+                    <orgName ref="http://www.isni.org/0000000110101946">Universitäts- und
+                        Landesbibliothek Darmstadt</orgName>
+                </distributor>
+                <idno type="ISIL">http://lobid.org/organisation/DE-17</idno>
+                <date type="issued" when="2023-12-23"/>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">
+                        <p xml:lang="en">This file is licensed under the terms of the Creative
+                            Commons License CC-BY 4.0 (Attribution 4.0 International)</p>
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <repository xml:id="r4">Budapest MOL <note>Magyar Országos Levéltár Budapest, E 142
+                        Acta Publica Fasc. 45 No. 65. Findbuch:<lb/>
+                        <ref
+                            target="https://www.eleveltar.hu/digitalis-tartalom?source=mnlscope&amp;ref=mnlscope::1984438"
+                            >https://www.eleveltar.hu/digitalis-tartalom?source=mnlscope&amp;=mnlscope::1984438</ref></note>
+                </repository>
+                <msDesc>
+                    <p>MolBudapest&nbsp; E142 Fasz.45 Nr. 65 (Abschrift mit handschriftlichem
+                        Vermerk: Coll. cum Originali).</p>
+                    <p>Weitere Stücke: Ratifikation durch Kaiser Ferdinand, Breslau 1538 VI 10.
+                        Garantie Kaiser Karls V., Toledo 1538 XI 29.&nbsp; </p>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p> The data in this XML file, originally created by the project <ref
+                        target="https://www.ieg-friedensvertraege.de/vertraege">Europäische
+                        Friedensverträge der Vormoderne online</ref> has been transformed in
+                    accordance with <ref target="http://www.tei-c.org/">TEI P5</ref> as part of the
+                    project <ref
+                        target="https://www.ieg-mainz.de/en/research/research-projects/european-peace-treaties-of-the-pre-modern-era-in-data"
+                        >Europäische Friedensverträge der Vormoderne in Daten (FriVer+)</ref>
+                </p>
+            </projectDesc>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="la" xml:id="lan6">Latein</language>
+            </langUsage>
+        </profileDesc>
+    </teiHeader>
+    <standOff>
+        <listPerson>
+            <person role="signatory" xml:id="p12">
+                <persName ref="https://explore.gnd.network/gnd/4043271-3">
+                    <name>Oesterreich</name>
+                </persName>
+            </person>
+            <person role="signatory" xml:id="p109">
+                <persName ref="https://explore.gnd.network/gnd/4054835-1">
+                    <name>Siebenbürgen</name>
+                </persName>
+            </person>
+        </listPerson>
+        <listPlace>
+            <place xml:id="loc75">
+                <placeName ref="https://explore.gnd.network/gnd/4055108-8">Grosswardein</placeName>
+            </place>
+        </listPlace>
+        <facsimile>
+            <surface xml:id="FacsPnr1">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_43ab545347039"/>
+            </surface>
+            <surface xml:id="FacsPnr2">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_43ab5480e5b47"/>
+            </surface>
+            <surface xml:id="FacsPnr3">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_43ab54acd232b"/>
+            </surface>
+            <surface xml:id="FacsPnr4">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_43ab54d661de8"/>
+            </surface>
+            <surface xml:id="FacsPnr5">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_43ab550f95238"/>
+            </surface>
+            <surface xml:id="FacsPnr6">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_43ab5540a63a8"/>
+            </surface>
+            <surface xml:id="FacsPnr7">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_43ab556d337b8"/>
+            </surface>
+            <surface xml:id="FacsPnr8">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_43ab559eed078"/>
+            </surface>
+            <surface xml:id="FacsPnr9">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_43ab55cd72f5a"/>
+            </surface>
+            <surface xml:id="FacsPnr10">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_43ab55fd0789a"/>
+            </surface>
+            <surface xml:id="FacsPnr11">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_43ab5639a63a7"/>
+            </surface>
+            <surface xml:id="FacsPnr12">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_43ab567075669"/>
+            </surface>
+            <surface xml:id="FacsPnr13">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_43ab56e9c8688"/>
+            </surface>
+            <surface xml:id="FacsPnr14">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_43ab579ead8ee"/>
+            </surface>
+            <surface xml:id="FacsPnr15">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_43ab57d3581a9"/>
+            </surface>
+            <surface xml:id="FacsPnr16">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_43ab580761dea"/>
+            </surface>
+            <surface xml:id="FacsPnr17">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_43ab5835b9c28"/>
+            </surface>
+            <surface xml:id="FacsPnr18">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_43ab585f92b2a"/>
+            </surface>
+            <surface xml:id="FacsPnr19">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_43ab5890cfbb8"/>
+            </surface>
+            <surface xml:id="FacsPnr20">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_43ab58c542218"/>
+            </surface>
+            <surface xml:id="FacsPnr21">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_43ab58f2f1e97"/>
+            </surface>
+            <surface xml:id="FacsPnr22">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_43ab59733fb0a"/>
+            </surface>
+            <surface xml:id="FacsPnr23">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_43ab599e24d58"/>
+            </surface>
+            <surface xml:id="FacsPnr24">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_43ab59e25a8b8"/>
+            </surface>
+            <surface xml:id="FacsPnr25">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_43ab5a15c115a"/>
+            </surface>
+            <surface xml:id="FacsPnr26">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_43ab5a56cfbba"/>
+            </surface>
+            <surface xml:id="FacsPnr27">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_43ab5a7ede618"/>
+            </surface>
+            <surface xml:id="FacsPnr28">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_43ab5ab07f2a8"/>
+            </surface>
+            <surface xml:id="FacsPnr29">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_43ab5af79ee78"/>
+            </surface>
+            <surface xml:id="FacsPnr30">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_43ab5b29b75d4"/>
+            </surface>
+            <surface xml:id="FacsPnr31">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_43ab5b5bef788"/>
+            </surface>
+        </facsimile>
+    </standOff>
+    <text>
+        <front>
+            <div type="Drucke">
+                <p> Gooss, Roderich, Österreichische Staatsverträge. Fürstentum Siebenbürgen. Wien
+                    1911, S.69-81. Monumenta Hungaria historia dipl. II, S.3-17.&nbsp;&nbsp; Katona
+                    I/XX, S.1077-1096. Georg Utiešenovič, Lebensgeschichte des Kardinals Georg
+                    Utiešenovič, genannt Martinusius, Urkundenbuch, S.2-12.&nbsp; Wolfgang Bethlen,
+                    De rebus Transylvanicis I, S.237-263. [Bittner I, Nr.53: Regest]. <lb/>
+                </p>
+            </div>
+        </front>
+        <body>
+            <div type="Transliteration">
+                <pb facs="#FacsPnr1"/>
+                <p><note n="1" type="crit_app">1538. festo S. Mathiæ [24 Febr].</note>In Nomine
+                    Sanctæ Et Individu&lt;e&gt;<note n="2" type="crit_app">Die im Text verwendete
+                        Genetiv-Form &lt;e&gt; statt &lt;ae&gt; wird als &lt;e&gt;&nbsp;
+                        gekennzeichnet.</note> Tri- <lb/>nitatis, Patris Et Filii et Spiritus
+                    <lb/>Sancti. Amen. <lb/>Nos Joannes Dei gratia Rex Hungariæ
+                    <lb/>Dalmaci&lt;e&gt; Croaci&lt;e&gt; etc. Memori&lt;e&gt;commen- <lb/>damus
+                    Quibus expedit Universis. Quod <lb/>cum hoc Regnum nostrum Hungari&lt;e&gt;
+                    <lb/>ob ea Bella, Qu&lt;e&gt; post interitum Div&lt;e&gt; <lb/>memori&lt;e&gt;
+                    serenissimi Regis Ludovici, <lb/>domini pr&lt;e&gt;decessoris nostri inter Nos,
+                    <lb/>et serenissimum Principem dominum <lb/>Ferdinandum divina favente clemen-
+                    <lb/>tia Romanorum semper augustum, <lb/>ac Germani&lt;e&gt;, Hungariæ,
+                    Dalmaci&lt;e&gt; <lb/>Croaci&lt;e&gt; etc. Regem, Infantem Hispa- <lb/>niarum
+                    Archiducem Austri&lt;e&gt;, Ducem <lb/>Burgundi&lt;e&gt; Slesi&lt;e&gt;,
+                    Brabanci&lt;e&gt;, Sti- <lb/>ri&lt;e&gt;, Carynthi&lt;e&gt;, Carniol&lt;e&gt;,
+                    Wyrtem- <lb/>berg&lt;e&gt; etc. Principem Suevi&lt;e&gt;, Marchio- <lb/>nem
+                    Moravi&lt;e&gt;, comitem Habsburgi, <lb/>Tyrolis etc. Lantgravium
+                    Alsaci&lt;e&gt; etc. <lb/>fuerunt, varÿs calamitatibus et <lb/>erumnis afflictum
+                    ita laboraret, ut <lb/>parva admodum spes superesse vide- <lb/>retur eius
+                    conservandi vel in aliquam <lb/>pristinam formam redigendi Belgrado <lb/>
+                </p>
+                <pb facs="#FacsPnr2"/>
+                <p>primum pr&lt;e&gt;cipuo tunc Reipublic&lt;e&gt; <lb/>Christian&lt;e&gt;
+                    propugnaculo adempto: <lb/>paulo post ipso Ludovico Rege cum <lb/>universo fere
+                    Iuventutis et milici&lt;e&gt; <lb/>Hungaric&lt;e&gt; flore extincto, Buda Reg-
+                    <lb/>ni metropoli bis in hostium potesta- <lb/>tem redacta, Regno fere toto
+                    ferro <lb/>et igni hostili pervastato, Intestinis <lb/>etiam odÿs, rapinis,
+                    cedibus ita <lb/>afflicto, ut hostibus etiam ipsis mi- <lb/>serandum videri
+                    posset. Cum inquam <lb/>Re&lt;s&gt; Hungaric&lt;e&gt; ita se haberent in-
+                    <lb/>ter has tamen tantas calamitates <lb/>nunquam cessavimus medio amico-
+                    <lb/>rum nostrorum diversorum princi- <lb/>pum Christianorum agere et ela-
+                    <lb/>borare pro pace et bona amicicia, <lb/>inter Nos et prefatum serenissimum
+                    <lb/>Romanorum Regem componendam <lb/>serenissimo Poloni&lt;e&gt; Rege,
+                    utriusque <lb/>nostrum et amico et affine, in hoc <lb/>potissimam operam
+                    adhibente, ve- <lb/>rum cum omnes huiusmodi conatus <lb/>aliorum principum
+                    frustra cecidis- <lb/>sent serenior tandem nutu cle- <lb/>mentia divina Rebus
+                    Hungaricis <lb/>
+                    <lb/>
+                </p>
+                <pb facs="#FacsPnr3"/>
+                <p> illuxit dies Re, tota per Nos deducta </p>
+                <p>
+                    <lb/>in presentiam et ad dispositionem sa- </p>
+                <p>
+                    <lb/>cratissimi et Excellentissimi principis </p>
+                <p>
+                    <lb/>Catholici domini Caroli divina faven- <lb/>te Clementia Romanorum
+                    Imperatoris <lb/>semper Augusti ac Germani&lt;e&gt; Hispa- <lb/>niarum,
+                    utriusque sicili&lt;e&gt;, Hierusalem, <lb/>Hungari&lt;e&gt;, Dalmaci&lt;e&gt;,
+                    Croaci&lt;e&gt; etc. Regis, <lb/>Archiducis Austri&lt;e&gt; Ducis
+                    Burgundi&lt;e&gt; <lb/>Brabanci&lt;e&gt; etc. Comitis habspurgi fland-
+                    <lb/>ri&lt;e&gt; Tyrolis etc. tanquam Capitis uni- <lb/>vers&lt;e&gt;
+                    Reipublic&lt;e&gt; Christian&lt;e&gt;, et eius <lb/>Cæsaris, cuius solius ductu
+                    auspicÿs, <lb/>virtute et potentia post deum opti- <lb/>mum speramus Regno
+                    Hungari&lt;e&gt; ita <lb/>afflicto subvenire posse, cuius Rei gra- <lb/>tia cum
+                    ad suam C&lt;e&gt;saream et catholi- <lb/>cam Maiestatem anno ab hinc tercio
+                    <lb/>Neapolim misissemus speciales orato- <lb/>res et Consiliarios nostros nobis
+                    syn- <lb/>cere dilectos Reverendissimos in Christo <lb/>Patres dominos
+                    Franciscum de frange- <lb/>panibus Colocensis et Bachiensis <lb/>Ecclesiarum
+                    Canonice unitarum Ar- <lb/>chiepiscopum et Episcopum Agrien- <lb/>sem, ac
+                    Stephanum Brodaricum </p>
+                <pb facs="#FacsPnr4"/>
+                <p>Episcopum tunc Quinque Ecclesien- <lb/>sem nunc vero Waciensem, et eius
+                    <lb/>c&lt;e&gt;sarea Maiestas ad nostram huius- <lb/>modi requisitionem non
+                    fuisset de- <lb/>dignata, similiter peculiarem ora- <lb/>torem et consiliarium
+                    suum Reve- <lb/>rendissimum videlicet in Christo <lb/>patrem dominum Joannem
+                    <lb/>E. Archiepiscopum Lundensem Episco- <lb/>pum Roschildensem confirmatum,
+                    <lb/>sacratissim&lt;e&gt; C&lt;e&gt;sare&lt;e&gt; et Catholic&lt;e&gt;
+                    <lb/>Maiestatis consiliarium ac per Ger- <lb/>maniam et Hungariam oratorem
+                    <lb/>usque huc Waradinum ad nos mittere <lb/>pacis huiusmodi componendae gracia,
+                    <lb/>ac re usque ad hoc tempus ita penden- <lb/>te non intermissis tractatibus
+                    in- <lb/>ceptis rursus idem Maiestatem su&lt;e&gt; <lb/>C&lt;e&gt;sare&lt;e&gt;
+                    orator et consiliarius hor- <lb/>tatu nostro Waradinum ad nos re- <lb/>dÿsset
+                    cuius medio Quemadmodum <lb/>prius per prefatos oratores nostros <lb/>sua
+                    C&lt;e&gt;sarea Maiestas, ita et nunc <lb/>eam erga Rempublicam Christia-
+                    <lb/>nam pietatem, erga huius Regni <lb/>salutem et liberationem curam et&nbsp;
+                        <pb facs="#FacsPnr5"/>sollicitudinem ostendit, ut primum <lb/>in dei optimi
+                    Maximi clementia de- <lb/>inde in eius C&lt;e&gt;sare&lt;e&gt; Maiestatis virtu-
+                    <lb/>te simul etiam potentia et inter prin- <lb/>cipes christianos summa
+                    authoritate <lb/>confisi non dubitaverimus ad eius C&lt;e&gt;sa-
+                    <lb/>re&lt;e&gt;et Catholic&lt;e&gt; Maiestatis amicas be- <lb/>nevolas et vero
+                    christiano principe dig- <lb/>nas exhortaciones et oblationes Regnum <lb/>hoc in
+                    tantis calamitatibus et in extre- <lb/>mis periculis constitutum eius post
+                    <lb/>deum cure tutele ac defensioni sub- <lb/>mittere: sperantes in domino deo
+                    eius <lb/>Cesaream Maiestatem fore illam, cuius <lb/>virtute et viribus hoc
+                    ipsum Regnum <lb/>nostrum non solum e faucibus <lb/>hostium eripiatur sed et in
+                    pristi- <lb/>num statum et florem brevi resti- <lb/>tuatur. His igitur
+                    rationibus moti <lb/>hac spe inducti, Nos presentes et <lb/>personaliter ex
+                    certa nostra scientia <lb/>animo deliberato maturo consilio prin- <lb/>cipalium
+                    consiliariorum nostrorum <lb/>habito, de plenitudine nostr&lt;e&gt;
+                    Regi&lt;e&gt; <lb/>potestatis, ad Laudem et gloriam <lb/>dei omnipotentis, ad
+                    honorem eius <lb/>
+                    <lb/>
+                    <pb facs="#FacsPnr6"/>genitricis glorios&lt;e&gt; virginis Mari&lt;e&gt;
+                    <lb/>patron&lt;e&gt; Hungari&lt;e&gt;, pro consolatione <lb/>et quiete tot
+                    afflictorum et oppresso- <lb/>rum, pro salute et defensione ac li-
+                    <lb/>beratione huius Incliti Regni ad li- <lb/>bertatum eiusdem conservatione,
+                    <lb/>pro exaltacione univers&lt;e&gt; Reipublic&lt;e&gt; chri-
+                    <lb/>stian&lt;e&gt; cum prefato domino Archiepi- <lb/>scopo oratore et
+                    commissario in hac <lb/>parte utriusque tam cesare&lt;e&gt; et Ca-
+                    <lb/>tholic&lt;e&gt; quam Regi&lt;e&gt; Romanorum <lb/>Maiestatum vigore pleni
+                    mandati <lb/>utriusque Principis in specie nobis <lb/>exhibiti, et per nos
+                    perlecti, aliisque <lb/>literis reversalibus eiusdem domini <lb/>oratoris nobis
+                    per eum datis de verbo <lb/>ad verbum inserti, pacem, ami- <lb/>ciciam,
+                    fraternitatem et confoedera- <lb/>tionem tamdiu exoptatas facimus,
+                    <lb/>firmavimus conclusimus et stabili- <lb/>vimus in hunc, qui sequitur modum.
+                    <lb/>Imprimis Quoniam Cæsarea et catholica <lb/>Maiestas prefata sua sponte, et
+                    ex <lb/>singulari sua erga Nos benevolentia <lb/>et charitate simul cum fratre
+                    suo <lb/>predicto serenissimo domino Romanorum <lb/>
+                    <lb/>
+                    <pb facs="#FacsPnr7"/>Rege. Nos in fratrem adoptivum acce- <lb/>pit, Ideo nos
+                    quoque utramque Maiestatem <lb/>in fratres adoptivos et in confoederatos nostros
+                    <lb/>accipimus, ita ut inter Maiestas eorum <lb/>et Nos, sit firma stabilisque
+                    et perpe- <lb/>tua (domino Deo favente) Pax, confoedera- <lb/>tio, amicicia, et
+                    vera ac syncera fra- <lb/>ternitas, pro conservatione Regnorum,
+                    <lb/>dominiorumque et provinciarum commu- <lb/>nium, pro salute et liberacione
+                    huius <lb/>afflicti Regni nostri Hungari&lt;e&gt;, ac <lb/>totius
+                    Reipublic&lt;e&gt; christian&lt;e&gt;, contra <lb/>quoslibet hostes et inimicos
+                    communes <lb/>tam externos quam intestinos. <lb/>Item Quod Cæsarea Maiestas
+                    simul cum <lb/>fratre suo serenissimo Romanorum Rege <lb/>literis eorum
+                    mediantibus et alÿs modis <lb/>quibus poterunt firmioribus Nos et <lb/>Regnum
+                    hoc nostrum Hungari&lt;e&gt; asse- <lb/>curent curam et diligentiam quanto
+                    <lb/>maiorem poterunt gerere et adhibere <lb/>de Regni huius nostri
+                    Hungari&lt;e&gt;, par- <lb/>tiumque ei subiectarum tutela et de- <lb/>fensione,
+                    et inter alia ut sua Cæsarea <lb/>Maiestas iuxta suam oblacionem <lb/>oratoribus
+                    nostris proxime Neapoli&nbsp; <pb facs="#FacsPnr8"/>factam de recuperacione
+                    Belgradi cum <lb/>auxilio dei singularem curam gerat. <lb/>Item Quod Nos ob eam
+                    causam renuncia- <lb/>mus ex nunc omnibus confoederationibus <lb/>et amicicÿs,
+                    quas cum quibusvis Regi- <lb/>bus et principibus et alÿs quorum no- <lb/>mina
+                    hic pro expressis haberi volumus <lb/>contra Cæsaream et Romanorum Re- <lb/>giam
+                    Maiestatem hucusque habuimus, <lb/>nec inposterum habebimus aliquas
+                    <lb/>confoederationes contra eorum Maiesta- <lb/>tes, et hoc idem facient
+                    su&lt;e&gt; Maiesta- <lb/>tes erga nos, sed quia Nos cupimus sa- <lb/>tisfacere
+                    honori nostro cum nostris <lb/>conf&lt;e&gt;deratis et amicis, Quos hucusque
+                    <lb/>habuimus, Et ut Regnum hoc nostrum <lb/>Hungari&lt;e&gt;, et Respublica
+                    christiana, <lb/>communibus viribus et auxilÿs defen- <lb/>datur, liceat nobis
+                    admonere ipsos con- <lb/>f&lt;e&gt;deratos et amicos nostros de hac <lb/>pace et
+                    conf&lt;e&gt;deracione cum C&lt;e&gt;sarea <lb/>et Romanorum Regia Maiestatibus
+                    <lb/>inita, et hortari eos, ut et ipsi <lb/>hanc conf&lt;e&gt;deracionem
+                    christian&lt;e&gt; <lb/>Reipublic&lt;e&gt; defendend&lt;e&gt; <lb/>cum eisdem
+                    Maiestatibus amplectantur cum <lb/>
+                    <lb/>
+                    <pb facs="#FacsPnr9"/>consensu praefatorum C&lt;e&gt;sare&lt;e&gt; et Ro-
+                    <lb/>manorum Regi&lt;e&gt; Maiestatum. <lb/>Item Quod a modo deinceps
+                    C&lt;e&gt;sarea Ro- <lb/>manorumque Regia Maiestates in lite- <lb/>ris eorum, et
+                    alias ubique Nos fratrem <lb/>eorum, et Hungari&lt;e&gt; Dalmati&lt;e&gt;
+                    Croaci&lt;e&gt;que <lb/>etc. Regem scribant et nominent, et hoc <lb/>nos quoque
+                    faciemus erga utramque Maie- <lb/>statem ac eorum filios et heredes. <lb/>Item
+                    Quia oratores nostri dicunt c&lt;e&gt;saream <lb/>Maiestatem medio domini
+                    Granvellis <lb/>primi consiliarÿ sui, nobis se ad hoc <lb/>obtulisse, ut si nos
+                    ex dei munere fi- <lb/>lium habuerimus, una ex filiabus se- <lb/>renissimi Regis
+                    Romanorum ei despon- <lb/>deri debeat, ideo nos propter maiorem <lb/>firmitatem
+                    et stabilitatem amoris ac <lb/>benevolenti&lt;e&gt; mutu&lt;e&gt; inter
+                    C&lt;e&gt;saream et <lb/>Romanorum Regiam Maiestates et Nos <lb/>hanc oblacionem
+                    suae Cæsare&lt;e&gt; Maiestatis <lb/>benevole acceptamus et hoc ita fieri
+                    <lb/>exoptamus. <lb/>Item Quod C&lt;e&gt;sarea Maiestas Illam Quam <lb/>Nos in
+                    uxorem et consortem acceperimus <lb/>in filiam adoptivam, et filios vel filias
+                    <lb/>ex ea nascituras similiter in filios et <lb/>
+                    <lb/>
+                    <pb facs="#FacsPnr10"/>filias adoptivas propter maiorem <lb/>et&nbsp; solidiorem
+                    inter prefatas c&lt;e&gt;sarem <lb/>et Romanorum Regiam Maiestates, <lb/>et Nos,
+                    mutuam coniunctionem, acci- <lb/>piat. <lb/>Item Quantum ad Regni
+                    Hungari&lt;e&gt; sta- <lb/>tum et eius administrationem atti- <lb/>net, Ita
+                    inter Nos ordinatum et con- <lb/>clusum est, ut quilibet nostrum eam <lb/>partem
+                    Regni et provinciarum ei <lb/>subiectarum, Quam nunc de facto te- <lb/>net
+                    libere cum omni Regi&lt;e&gt; potesta- <lb/>tis plenitudine teneat et possideat
+                    <lb/>sub limitibus per octo homines hunga- <lb/>rice nacionis, Qui situm ac
+                    termi- <lb/>nos et condiciones comitatuum sciunt <lb/>per utrumque nostrum
+                    eligendos, po- <lb/>nendis, sclaonia cum croacia et Dal- <lb/>macia in manibus
+                    Serenissimi Regis <lb/>Romanorum, Transsylvania vero <lb/>sub dicione
+                    potestateque nostra per- <lb/>manente, et hoc vita nostra durante. <lb/>Ex quo
+                    autem nunc et uxore et liberis <lb/>caremus, posteaquam Dei vocacione <lb/>ex
+                    hac luce decesserimus etiam si <lb/>filium tunc haberemus ob respectum <lb/>
+                    <lb/>
+                    <lb/>
+                    <pb facs="#FacsPnr11"/>tamen salutis huius Regni et Reipubli- <lb/>c&lt;e&gt;
+                    christian&lt;e&gt;, Quam ex hac pace et <lb/>conf&lt;e&gt;deratione auxiliante
+                    domino deo <lb/>certo speramus, Et ut per hoc tot ma- <lb/>lis Qu&lt;e&gt; hoc
+                    Regnum per hos annos <lb/>superiores iam Undecem et amplius <lb/>perpessum est
+                    finis iam tandem im- <lb/>ponatur, volentes in hac parte decus <lb/>nostrum et
+                    famili&lt;e&gt; nostræ posterorumque <lb/>nostrum saluti publice postponere
+                    <lb/>ad hoc condescendimus ut post mortem <lb/>nostram, etiam si ut supradictum
+                    <lb/>est filium habuerimus, Vniversum <lb/>Hungari&lt;e&gt; Regnum cum omnibus
+                    Reg- <lb/>nis provincÿs ac partibus ei subiectis, <lb/>et cum omni plenitudine
+                    Juris Regÿ <lb/>administrationeque Rregni et provincia- <lb/>rum ipsarum in
+                    prefatum dominum <lb/>Romanorum Regem, vel eo interim <lb/>premortuo in filium
+                    suum Quem Reg- <lb/>num hoc communi consensu in Regem <lb/>eligere tenebitur, et
+                    illo quoque defuncto <lb/>in eius Legittimos heredes ac successores <lb/>ex
+                    filÿs et heredibus eorum legittime <lb/>descendentes, et illis quoque e medio
+                    sub- <lb/>latis et deficientibus in C&lt;e&gt;saream&nbsp; <pb facs="#FacsPnr12"
+                    />Maiestatem et ipsius filius et legitti- <lb/>mos heredes devolvatur et
+                    condescen- <lb/>dat, devolutumque et condescensum <lb/>habeatur eo facto.
+                    <lb/>Item ad roborandam huiusmodi succes- <lb/>sionem ut de ea dominus ipse Rex
+                    <lb/>Romanorum filÿque sui simul cum <lb/>C&lt;e&gt;sarea Maiestate, eorumque
+                    legitti- <lb/>mi heredes cerciores et securi reddan- <lb/>tur Universi domini
+                    Prelati et Ba- <lb/>rones magistratusque et officiales <lb/>quocumque nomine
+                    censeantur, Immo <lb/>etiam pociores Nobiles, Insuper Ma- <lb/>gistri civium ac
+                    Judices Juratique <lb/>cives liberarum civitatum totius <lb/>Regni, et
+                    provinciarium ei subiecta- <lb/>rum teneantur tempore publicacionis <lb/>huius
+                    conf&lt;e&gt;deracionis et pacis, homa- <lb/>gium seu fidelitatis iuramentum in
+                    <lb/>Casu premisso observandum prefato <lb/>domino Regi Romanorum filÿsque
+                    <lb/>et heredibus suis ac C&lt;e&gt;sare&lt;e&gt; Maiesta- <lb/>tis sub
+                    condicione de Ducatu Scepu- <lb/>siensi inferius declarata coram ipso <lb/>vel
+                    suis oratoribus prestare, et lite- <lb/>ras etiam super hoc dare, Domini <lb/>
+                    <lb/>
+                    <pb facs="#FacsPnr13"/>quidem seculares pro se et suis here- <lb/>dibus,
+                    civitates vero pro se et eorum <lb/>successoribus. <lb/>Item Quotiescumque
+                    Pr&lt;e&gt;latum aliquem de- <lb/>cedere, aut Pr&lt;e&gt;latum vel Magistratum
+                    <lb/>seu officialem quempiam mutari quo- <lb/>vismodo contigerit, toties novus
+                    pr&lt;e&gt;latus <lb/>sive Magistratus vel officialis ante digni- <lb/>tatis vel
+                    Magistratus aut officÿ apre- <lb/>hensionem simile iuramentum fideli- <lb/>tatis
+                    pr&lt;e&gt;stare, et inde similes etiam li- <lb/>teras dare tenebitur, Et
+                    liter&lt;e&gt; huius- <lb/>modi per Nos dabuntur vel mittentur <lb/>ad Manus
+                    pr&lt;e&gt;fati serenissimi Regis Ro- <lb/>manorum, vel eius oratoris, sive
+                    orato- <lb/>ris C&lt;e&gt;sarei si tunc in Regno fuerit, et <lb/>hoc infra duos
+                    Menses a tempore pr&lt;e&gt;sti- <lb/>ti Juramenti. <lb/>Civitates autem libere
+                    teneantur dare si- <lb/>miles litteras per Nos pr&lt;e&gt;fato domino <lb/>Regi
+                    Romanorum mittendas, vel eius <lb/>oratori dandas de Quinquennio in quin-
+                    <lb/>quennium si ita C&lt;e&gt;sare&lt;e&gt; Maiestati <lb/>et Regi Romanorum
+                    videbitur. <lb/>Filii vero Baronum et principalium <lb/>Nobilium Arces
+                    habentium, Quando&nbsp; <pb facs="#FacsPnr14"/>mortuo patre in hereditatem
+                    pater- <lb/>nam et dominium successerint in <lb/>&lt;e&gt;tate legittima
+                    existentes pr&lt;e&gt;stabunt- <lb/>simile iuramentum et dabunt similes
+                    <lb/>litteras, Qu&lt;e&gt; etiam intra spacium <lb/>sex Mensium per nos
+                    mittentur ad <lb/>manus serenissimi Regis Romanorum, <lb/>vel eius oratoris
+                    dabuntur. <lb/>Item si Nos dei benignitate filium ha- <lb/>buerimus extunc et eo
+                    Casu totum <lb/>patrimonium nostrum, Videlicet ca- <lb/>stra Castella Civitates,
+                    oppida, vill&lt;e&gt; <lb/>possessiones predia et quelibet iura
+                    <lb/>possessionaria ubilibet intra ambi- <lb/>tum Regni huius nostri
+                    hungari&lt;e&gt; <lb/>partiumque et provinciarum ei subiecta- <lb/>rum habita et
+                    existentia quocumque <lb/>nomine vocitata, tam paterna et <lb/>hereditaria quam
+                    etiam per Nos ac- <lb/>quisita, et legittime acquirenda, alia <lb/>eciam omnia,
+                    Qu&lt;e&gt; loco pignoris <lb/>a serenissimis dominis Hungari&lt;e&gt; Re-
+                    <lb/>gibus usque ad tempora disturbiorum <lb/>post mortem et interitum
+                    serenissimi <lb/>domini Ludovici Regis sequuta, paci- <lb/>fice possedimus,
+                    usque ad tempus <lb/>
+                    <lb/>
+                </p>
+                <pb facs="#FacsPnr15"/>
+                <p> redempcionis in ipsum filium nostrum <lb/>devolvi et condescendi debeant
+                    devolutaque <lb/>et derivata habeantur ipso facto, Ex quo <lb/>quidem patrimonio
+                    C&lt;e&gt;sarea&nbsp; Maiestas, <lb/>novum ducatum sub titulo Scepusiensi,
+                    <lb/>Quo nos antea<note n="3" type="crit_app">Einschub &lt;a&gt; über der Zeile.
+                    </note> quam ad hoc Rregimen dei <lb/>munere assumpti sumus usi fuimus cum
+                    <lb/>iurisdictione Comitatus Scepusiensis pro <lb/>ipso filio nostro erigere
+                    instituereque <lb/>debeat. <lb/>Patrimonium vero totum tam videlicet <lb/>sub
+                    nostra quam ipsius Romanorum <lb/>Regis potestate existens et habitum
+                    <lb/>communi huius Regni et partium ei <lb/>subiectarum contribucione, prout in
+                    <lb/>generali dieta publicandæ pacis, Nobis <lb/>et eidem Regi Romanorum ac
+                    Regno <lb/>Hungari&lt;e&gt; visum fuerit de Manibus <lb/>illorum apud quorum
+                    manus nunc <lb/>existit redimi debeat; huiusmodi au- <lb/>tem redempcio intra
+                    spacium duorum <lb/>annorum fieri debeat effective a tem- <lb/>pore
+                    publicacionis pacis. <lb/>Item Quod pars illa patrimonÿ, Qu&lt;e&gt; nunc
+                    <lb/>est sub potestate et dicione Regis Roma- <lb/>norum sit in Manibus
+                    C&lt;e&gt;sare&lt;e&gt; Maiestatis&nbsp; </p>
+                <pb facs="#FacsPnr16"/>
+                <p>nomine sequestri tanquam apud ma- <lb/>nus communes usque ad tempus suc-
+                    <lb/>cessionis pr&lt;e&gt;notat&lt;e&gt;. <lb/>Item Quod dominus ipse Rex
+                    Romanorum <lb/>vel filius suus aut heredes pr&lt;e&gt;dicti Re- <lb/>gimen et
+                    possessionem Regni nequeant <lb/>pro se interim vendicare, nec domini
+                    <lb/>Prelati et Barones Nobilesque et Civi- <lb/>tates ac alÿ suprascripti ad
+                    obedien- <lb/>tiam eis exhibendam teneantur, do- <lb/>nec ducatus ipse
+                    Scepusiensis unacum <lb/>Jurisdictione pr&lt;e&gt;dicti comitatus Scepu-
+                    <lb/>siensis et alÿs Bonis pr&lt;e&gt;narratis in <lb/>manus et potestatem ducis
+                    ipsius filÿ <lb/>scilicet nostri fuerit assignatus Et pro <lb/>maiori securitate
+                    consequendi huius- <lb/>modi Ducatus tempore iuramenti Quod <lb/>Serenissimo
+                    Romanorum in ea- <lb/>dem dieta publicand&lt;e&gt; pacis pr&lt;e&gt;stabunt,
+                    <lb/>teneantur nobis etiam super hoc iura- <lb/>re, Quod non aliter observabunt
+                    iura- <lb/>mentum ipsi domino Regi Romano- <lb/>rum vel filio eius
+                    pr&lt;e&gt;stitum, nec ali- <lb/>ter obedientiam eis exhibebunt, nisi <lb/>prius
+                    ducatu ipso ad manus filÿ <lb/>nostri assignato, cum primum <lb/>
+                    <lb/>
+                    <pb facs="#FacsPnr17"/>tamen ducatus ipse cum ceteris bonis
+                    <lb/>pr&lt;e&gt;narratis filio nostro restitutus fuerit <lb/>eo ipso
+                    Pr&lt;e&gt;lati Barones Nobiles et alÿ <lb/>suprascripti teneantur ad omnia
+                    pr&lt;e&gt;- <lb/>missa fideliter observanda, Et hoc eo <lb/>modo intelligendo
+                    et interpretando Quod <lb/>uno et eodem tempore consignacio Duca- <lb/>tus in
+                    Manibus filÿ nostri, Et consig- <lb/>natio Regni cum omnibus arcibus et atti-
+                    <lb/>nencÿs suis in Manus Romanorum Re- <lb/>gis aut heredum pr&lt;e&gt;dictorum
+                    fieri de- <lb/>beat. <lb/>De posthumo quoque filio hoc idem Quod
+                    <lb/>pr&lt;e&gt;missum est Intelligatur. <lb/>Quo tandem ducatu consignato et
+                    restitu- <lb/>to, C&lt;e&gt;sarea Maiestas, et ipse dominus <lb/>Romanorum Rex
+                    ac eorum heredes <lb/>pr&lt;e&gt;fatum Ducem filium videlicet no- <lb/>strum
+                    eiusque heredes in dominio et posses- <lb/>sione pr&lt;e&gt;scripti Ducatus ac
+                    patrimonÿ <lb/>civitatumque oppidorum et possessionum <lb/>pr&lt;e&gt;dictarum,
+                    contra quoslibet legitti- <lb/>mos et illegitimos turbatores ac im-
+                    <lb/>petitores successivis semper temporibus <lb/>defendere atque conservare
+                    teneantur. <lb/>Item Quod si Nos prole virili destituti <lb/>
+                    <lb/>
+                    <pb facs="#FacsPnr18"/>fuerimus, ob hoc ut Cæsarea Maiestas <lb/>maiorem habeat
+                    ad hoc Regnum tu- <lb/>tandum et defendendum affectionem <lb/>et propensitatem,
+                    integra medietas <lb/>totius patrimonÿ su&lt;e&gt; C&lt;e&gt;sare&lt;e&gt;
+                    Maiestati, <lb/>sub condicionibus tamen infrascriptis cedat, <lb/>alia integra
+                    medietate ad disposicionem <lb/>nostram, sive in vita, sive in mortis
+                    <lb/>articulo libera nobis remanente. <lb/>Item Quod remanente post mortem no-
+                    <lb/>stram Regina consorte nostra super- <lb/>stite absque liberis, eo tunc
+                    directa me- <lb/>dietas patrimonÿ nostri ea videlicet <lb/>Qu&lt;e&gt; in sortem
+                    C&lt;e&gt;sare&lt;e&gt;æ Maiestatis ce- <lb/>dere debebit, censeatur eidem
+                    domin&lt;e&gt; <lb/>Regin&lt;e&gt; ita obligata ac inscripta esse, <lb/>ut
+                    quousque ipsa ad secunda vota se <lb/>non transtulerit possideat eandem me-
+                    <lb/>dietatem, cum omni fructuum et utili- <lb/>tatum percepcione, teneaturque
+                    Maie- <lb/>stas sua C&lt;e&gt;sarea in eo casu manibus <lb/>suis illam
+                    medietatem assignare, <lb/>Qu&lt;e&gt; quidem Regina ubi ad secundas
+                    <lb/>nuptias se contulerit, deposito solutoque <lb/>ei dotalicio suo centum
+                    scilicet Milli- <lb/>bus florenis hungaricalibus in auro, </p>
+                <pb facs="#FacsPnr19"/>
+                <p> teneatur C&lt;e&gt;sare&lt;e&gt; Maiestati vel filÿs <lb/>et heredibus eius
+                    Regina ipsa medieta- <lb/>tem ipsam pacifice remittere atque <lb/>resignare. </p>
+                <p>Item Ubi super huiusmodi dote seu dotali- <lb/>cio suo ipsa vivente satisfactio
+                    impen- <lb/>sa non fuerit ex tunc in testamento <lb/>quoque suo liberam de eo
+                    habeat prout <lb/>voluerit disponendi authoritatem. <lb/>Item si nos filias
+                    habuerimus Regia Maie- <lb/>stas Romanorum vel filius suus successor
+                    <lb/>videlicet eius et heredes ipsorum tenean- <lb/>tur post mortem nostram si
+                    interim <lb/>eas matrimonio non locaverimus decen- <lb/>ter et honeste tanquam
+                    filias Regis Hun- <lb/>gari&lt;e&gt; nuptui dare. <lb/>Item Ubi ad successionem
+                    pr&lt;e&gt;missam ven- <lb/>tum fuerit, antequam serenissimus domi- <lb/>nus
+                    Romanorum Rex vel filius aut he- <lb/>redes pr&lt;e&gt;dicti Regimen et
+                    possessionem <lb/>Regni, provinciarumque et partium ei <lb/>subiectarum
+                    suscipiant, super observan- <lb/>dis libertatibus, decretis legibusque et con-
+                    <lb/>suetudinibus Regni more diuorum Hun- <lb/>gari&lt;e&gt; Regum teneatur
+                    iuramentum <lb/>Reale solemniter pr&lt;e&gt;stare. </p>
+                <pb facs="#FacsPnr20"/>
+                <p>Et Quia serenissimus Romanorum Rex, <lb/>alias, tempore su&lt;e&gt; in Regem
+                    Hungari&lt;e&gt; <lb/>electionis promisit iura et libertates <lb/>Regni
+                    Hungari&lt;e&gt; obsérvare, et super <lb/>hoc literas etiam Regno et illis Qui
+                    <lb/>tunc ei adh&lt;e&gt;rebant dedit, Ideo similes <lb/>literas etiam illis,
+                    Qui post obitum <lb/>nostrum et sequuta successione in <lb/>eius obedientiam
+                    sunt venturi, tem- <lb/>pore publicacionis huius pacis et <lb/>iuramenti ipsorum
+                    Regnicolarum <lb/>dare teneatur, et si utrique nostrum <lb/>visum fuerit aliqua
+                    alia in die pub- <lb/>licand&lt;e&gt; pacis addere, hoc in arbitrio
+                    <lb/>utriusque nostrum erit. <lb/>Item in Eadem di&lt;e&gt;ta tractari debebit
+                    <lb/>de Quinque Castris videlicet Worken- <lb/>stayn hoc est Frakno, Ferrea
+                    civita- <lb/>te Kÿs Marthon dicta, Gwnz&nbsp; Kewzeg <lb/>appellata, Kobolsdorff
+                    Kabol no- <lb/>minata et Reknycz hoc est Rohonez. <lb/>Item.Quod sequuta
+                    successione serenis- <lb/>simus Rex Romanorum aut filius vel <lb/>heredes
+                    pr&lt;e&gt;dicti, metas Regni Hunga- <lb/>ri&lt;e&gt; a parte Austri&lt;e&gt; et
+                    Moravi&lt;e&gt;, Reg- <lb/>norum vero croaci&lt;e&gt; et sclaoni&lt;e&gt; a <lb/>
+                    <lb/>
+                </p>
+                <pb facs="#FacsPnr21"/>
+                <p> parte Carniol&lt;e&gt;, Carÿnthi&lt;e&gt; et Stiri&lt;e&gt; <lb/>rectificabit.
+                    <lb/>Item Quod omnes Iniuri&lt;e&gt; et universa dam- <lb/>Na, inter nos et
+                    Serenissimum dominum <lb/>Romanorum Regem temporibus horum <lb/>bellorum sequuta
+                    penitus aboleantur, <lb/>et abeant in oblivionem, similiter illa,
+                    <lb/>Qu&lt;e&gt; subditi alterius nostrum in alte- <lb/>rum nostr[um] hisdem
+                    bellorum <lb/>temporibus commisissent, Ea etiam <lb/>Qu&lt;e&gt;subditi
+                    &lt;nostri in subditos ipsius domini Regis Romanorum et econverso subditi&gt;
+                        <note n="4" type="crit_app">Einfügung rechter Textrand.</note> sui in
+                    nostros in hisdem <lb/>temporibus hostiliter intulerunt simi- <lb/>liter
+                    aboleantur, et ulcio super eis <lb/>a sequatur. <lb/>Item Quod omnium subditorum
+                    utriusque <lb/>nostrum nemine prorsus excepta etiam <lb/>externo, cuiuscunque
+                    dignitatis fuerit <lb/>omnia bona tam Ecclesiastica quam <lb/>secularia post
+                    obitum serenissimi <lb/>Principis quondam domini Ludovici <lb/>Regis ad
+                    h&lt;e&gt;c usque tempora propter <lb/>hostilitatem inter nos et ipsum domi-
+                    <lb/>num Romanorum Regem habitam <lb/>violenter occupata donacionibus seu
+                    <lb/>vendicionibus utriusque nostrum super <lb/>eisdem bonis hactenus
+                    quibuscumque&nbsp; </p>
+                <pb facs="#FacsPnr22"/>
+                <p>dates vel factis, non obstantibus, pub- <lb/>licata pace de facto elles quorum
+                    fue- <lb/>runt pacifice remittantur. <lb/>De Castra autem Saaros cum spectabili
+                    <lb/>et Magnifico Petro de peren per Reg- <lb/>num concordari debebit absque
+                    preiudi- <lb/>tio et aliquo onere prefati Serenissimi <lb/>Regis Romanorum.
+                    <lb/>Item omnia etiam bona et omnes proven- <lb/>tus omnium Ecclesiarum per
+                    h&lt;e&gt;c ea- <lb/>dem disturbiorum tempora qualiter- <lb/>cumque et per
+                    quoscumque ab eisdem <lb/>Ecclesÿs hactenus violenter occupata et <lb/>adempti
+                    fuerunt eisdem Ecclesÿs Qua- <lb/>rum ab antiquo sunt et fuerunt tem- <lb/>pore
+                    publicacionis dict&lt;e&gt; pacis de facto <lb/>pacifice possidenda
+                    percipiendique re- <lb/>mittantur, Et Quod bona Ecclesiasti- <lb/>ca de Manibus
+                    secularium excipian- <lb/>tur. <lb/>Item Quod us nostrum in sua dicio- <lb/>ne
+                    permittat fieri dissidatores si Qui <lb/>vero temerarie insurgerent teneamur
+                    <lb/>ambo mutuis auxilÿs illos confestim <lb/>exterminare. <lb/>Item Quod
+                    subditi utriusque nostrum <lb/>
+                    <lb/>
+                    <lb/>
+                    <pb facs="#FacsPnr23"/>nequeant deficere, seque conferre cum <lb/>bonis suis in
+                    unam vel alteram par- <lb/>tem, et nec per alterum nostrum <lb/>acceptentur,
+                    Quin potius mutuis <lb/>auxilÿs, sive Pr&lt;e&gt;lati sive Barones <lb/>cum
+                    Arcibus, sive Civitates, vel alÿ <lb/>Quicumque existant, Qui id facere
+                    <lb/>attentarent, illi cui antea nostrum <lb/>parebant rursus subici cogantur.
+                    <lb/>Item Quod omnes captivi propter hosti- <lb/>litatem ultro citroque capti ex
+                    nunc <lb/>libere dimittantur. <lb/>Item Quod omnia Castella et fortalicia
+                    <lb/>ali&lt;e&gt;que municiones inter h&lt;e&gt;c disturbia <lb/>per subditos
+                    utriusque nostrum quo- <lb/>modolibet et ubicumque erecta et con-
+                    <lb/>struct&lt;e&gt; penitus distrahantur et pub- <lb/>licata pace demoliantur.
+                    <lb/>Item Quod Donaciones et privilegia <lb/>utriusque nostrum sub iurisdictione
+                    <lb/>cuiuslibet nostrum rite legittimeque <lb/>confect&lt;e&gt; et emannata ac
+                    in futurum <lb/>quoque conficiend&lt;e&gt; et emananda rat&lt;e&gt; <lb/>semper
+                    maneant atque firma. <lb/>Item Quod Univers&lt;e&gt; liter&lt;e&gt; et
+                    qu&lt;e&gt;libet <lb/>literalia instrumenta seu privilegia <pb facs="#FacsPnr24"
+                    />patrimonium nostrum et alia qu&lt;e&gt;- <lb/>cumque bona nostra
+                    pr&lt;e&gt;narrata, <lb/>aliorum etiam quorumcumque subdi- <lb/>torum utriusque
+                    nostrum intra am- <lb/>bitum huius Regni existentia tan- <lb/>gentes et
+                    concernentia, per h&lt;e&gt;c distur- <lb/>bia impacataque tempora in castris
+                    <lb/>vel ubicumque locorum violenter ab- <lb/>lat&lt;e&gt; et retenta statim
+                    publicata pa- <lb/>ce illis quorum fuerunt effective <lb/>reddantur. <lb/>Item
+                    Quod illi, Qui tenentur dare racio- <lb/>nem uni vel alteri nostrum racione
+                    <lb/>administrationis officiorum, aut <lb/>proventuum, cuiuscumque status
+                    <lb/>et condicionis existant, et apud Quem- <lb/>cumque nostrum sint, ad
+                    reddendam <lb/>racionem debeant esse obligati, et <lb/>ad hoc compelli possint
+                    iuxta Regni <lb/>consuetudinem. <lb/>Item Quod ad eos, Qui huic paci et
+                    <lb/>mutu&lt;e&gt; confederacioni nostr&lt;e&gt;, ordina- <lb/>cionique
+                    consentire et obedire nollent <lb/>domandos atque castigandos deputen- <lb/>tur
+                    ab utroque nostrum statim facta <lb/>pace mille equites, et totidem pedites <lb/>
+                    <lb/>
+                </p>
+                <pb facs="#FacsPnr25"/>
+                <p> p&lt;i&gt;xidarÿ vel quot videbuntur necessa- <lb/>rÿ, et Capitanei utriusque
+                    nostrum cum <lb/>huiusmodi gentibus cogant illos, et per <lb/>omnia remedia
+                    compellant, ea Que per <lb/>nos mutuo ordinata statutaque sunt <lb/>rebelles
+                    ipsos inviolabiliter observare. <lb/>Item Quod quandocumque exercitus aliquis,
+                    <lb/>generalis vel particularis navigio aut <lb/>super terram in Hungariam de
+                    par- <lb/>tibus Germani&lt;e&gt; descenderit atque vene- <lb/>rit, Nobis et huic
+                    Regno nostro Hun- <lb/>gari&lt;e&gt; damnum violentiamque non in- <lb/>ferant,
+                    sed absque omni dolo fraudeque <lb/>et damno procedant. <lb/>Item ordinatum et
+                    conclusum est Quod <lb/>Civitates montanarum cum ipsis Mon- <lb/>tanis et
+                    Mineris, Item castra anti- <lb/>quum Zolium, Owaar, Munkaach et <lb/>Huszth cum
+                    cameris salium et alia bo- <lb/>na universa, Qu&lt;e&gt;cumque
+                    serenissim&lt;e&gt; <lb/>principi domin&lt;e&gt; Mari&lt;e&gt; Hungari&lt;e&gt;
+                    etc. <lb/>Regin&lt;e&gt; temporibus serenissimorum <lb/>quondam dominorum
+                    Wladislai et Lu- <lb/>dovici Regum inscripta sunt, <lb/>iuxta formam<note n="5"
+                        type="crit_app">Eine Wortstreichung, wohl „infrascripta“.
+                    </note>inscriptionum vita eius <lb/>durante illi maneant ill&lt;e&gt;sa, Et si
+                    qu&lt;e&gt; <lb/>
+                </p>
+                <pb facs="#FacsPnr26"/>
+                <p>essent ablata tempore publicacionis <lb/>pacis restituantur, Ita tamen ut <lb/>de
+                    castro Dioosgyewr modernus posses- <lb/>sor vel via iuris vel concordi&lt;e&gt;
+                    per <lb/>ipsam dominam Reginam conten- <lb/>tetur, et tunc castrum illud<note
+                        n="6" type="crit_app">Eine Streichung.</note>&nbsp; <lb/>restituere
+                    teneatur, Et ea mortua <lb/>bona pr&lt;e&gt;scripta ad serenissimum do-
+                    <lb/>minum Romanorum Regem et eius <lb/>heredes in Regno successores
+                    pr&lt;e&gt;dictos <lb/>devolvantur. <lb/>Item Quod sal Transsylvanum non nisi
+                    <lb/>in dominio et sub dicione nostra ven- <lb/>datur et dispensetur, econverso
+                    au- <lb/>tem sal Maromorusiense subdicio- <lb/>ne solummodo pr&lt;e&gt;dicti
+                    domini Ro- <lb/>manorum Regis vendicioni expona- <lb/>tur, et in usus
+                    necessarios converta- <lb/>tur, sub p&lt;e&gt;na perdicionis salis. <lb/>Item
+                    Quod facto pace nemo nostrum <lb/>nova vectigalia hoc est tricesimas <lb/>aut
+                    Thelonia in dicione sua in pre- <lb/>iudicium dicionis alterius nostrum
+                    <lb/>imponat. <lb/>Item si hostis communis contra nos <lb/>ambos vel alterum
+                    nostrum interim </p>
+                <pb facs="#FacsPnr27"/>
+                <p>quo pax ipso publicabitur expedicionem <lb/>generalem vel particularem faceret,
+                    ex <lb/>tunc iuxta temporis exigentiam tan- <lb/>quam fratres et amici mutuo nos
+                    iu- <lb/>vabimus. <lb/>Item Quod nemini subditorum utriusque <lb/>nostrum,
+                    castra castella, civitates mu- <lb/>nitas vel alias munitiones sub p&lt;e&gt;na
+                    <lb/>perpetu&lt;e&gt; infidelitatis per nos ambos <lb/>irremissibiliter
+                    exequenda, furto, pro- <lb/>dicione aut alia quavis arte liceat sub-
+                    <lb/>intrare et occupare. Et si Qu&lt;e&gt; erunt <lb/>ablata his quorum erant
+                    restituantur, <lb/>dampnaque illata refundantur. <lb/>Item Quod nemini
+                    subditorum utriusque <lb/>nostrum, cuiuscumque status et condicio- <lb/>nis
+                    existat sub p&lt;e&gt;na in generali decre- <lb/>to huius Regni Hungari&lt;e&gt;
+                    expressa ul- <lb/>lam monetam cudere vel cudifacere <lb/>permittemus; de moneta
+                    autem sub <lb/>nomine utriusque nostrum cudenda mu- <lb/>tuo nos concordabimus.
+                    <lb/>Item Quod medietas castri Thokaÿ ex quo <lb/>alia medietas nunc est in
+                    manibus no- <lb/>stris, et Castrum Regeecz nobis re- <lb/>stituantur tempore
+                    publicacionis pacis <lb/>
+                    <lb/>
+                    <pb facs="#FacsPnr28"/>iustis tamen debitis et inscriptioni- <lb/>bus,
+                    Qu&lt;e&gt; ad dicta Castra facto esse <lb/>dinoscuntur primitus persolutis, ita
+                    <lb/>Quod nos non teneamur persolvere, <lb/>nisi pro media parte inscripcionis
+                    <lb/>castri Thokaÿ. Ipsum autem castrum <lb/>Thokaÿ quousque fuerit nobis
+                    integre <lb/>eliberatum, maneat interim in eo- <lb/>dem statu in quo nunc
+                    existit. <lb/>Item Quia tota intencio nostra tendit <lb/>ad hoc quomodo hoc
+                    Regnum conser- <lb/>vetur et liberetur, et simul cum <lb/>Republica christiana
+                    salvum per- <lb/>maneat, Et Quia habemus eam fi- <lb/>dem et spem in
+                    C&lt;e&gt;sarea Maiestate <lb/>Quod ipsius Maiestas nihil tale in <lb/>hoc
+                    negocio decernet, nisi quod ma- <lb/>nifeste cognoverit esse ad salutem
+                    <lb/>huius Regni et Reipublic&lt;e&gt; christia- <lb/>n&lt;e&gt;, nec tale
+                    aliquid nos facere volet <lb/>per Quod sequeretur ruina et exci- <lb/>dium huius
+                    Regni. Ideo nos tam <lb/>publicacionem ipsam pacis quam <lb/>publicam hostis
+                    declarationem et <lb/>nominationem hostis communis rei- <lb/>cimus et remittimus
+                    ad declacionem&nbsp; <pb facs="#FacsPnr29"/>su&lt;e&gt; C&lt;e&gt;sare&lt;e&gt;
+                    Maiestatis, cuius etiam <lb/>declaracioni propter pr&lt;e&gt;missa stare pol-
+                    <lb/>licemur, simul et nostras ac subditorum <lb/>nostrorum vires pro posse ad
+                    defensio- <lb/>nem et liberationem huius Regni ex- <lb/>tendere, ita ut
+                    serenissimus etiam <lb/>Romanorum Rex idem faciat, quo <lb/>communibus viribus
+                    Regnum istud <lb/>ab hostium infestacione salvetur et <lb/>liberetur, Et si opus
+                    esse videbitur <lb/>rursus tunc presentes liter&lt;e&gt; renova- <lb/>buntur cum
+                    expressione nominis ipsius <lb/>hostis communis. <lb/>Item Quod in Casu quo
+                    C&lt;e&gt;saream Maiesta- <lb/>tem ac ipsum dominum Romanorum Re- <lb/>gem in
+                    semine masculino deficere con- <lb/>tingeret, eo tunc successio Regni
+                    pr&lt;e&gt;- <lb/>narrata revolvatur in filios et heredes <lb/>nostros, si Qui
+                    deo favente tunc super- <lb/>stites erunt illis vero non existentibus
+                    <lb/>libera Regum electio, rursus apud <lb/>gentem hungaricam iuxta eius
+                    <lb/>pristinam legem atque libertatem <lb/>maneat. <lb/>Item Quod si nos propter
+                    amiciciam <lb/>C&lt;e&gt;sare&lt;e&gt; Maiestatis et serenissimi <lb/>
+                    <lb/>
+                    <pb facs="#FacsPnr30"/><lb/>Romanorum Regis de hoc Regno <lb/>nostro per hostes
+                    exturbabimur <lb/>(quod Deus procul avertat) tunc <lb/>in eo casu
+                    C&lt;e&gt;sarea et Romanorum <lb/>Regis Maiestates teneantur nobis <lb/>de statu
+                    honesto et condecenti, et <lb/>tali quidem ut tam nos honestam vi- <lb/>tam
+                    agere, quam etiam dominis et servi- <lb/>toribus nostris Qui nos sequuti
+                    fuerint, <lb/>commode providere queamus. <lb/>Item Quod unus per totum Regnum,
+                    com- <lb/>muni voto Palatinus iuxta ve- <lb/>tustam legem ac libertatem Regni in
+                    <lb/>dieta seu conventu generali publican- <lb/>d&lt;e&gt; pacis eligatur, alios
+                    autem honores <lb/>seu Magistratus puta Cancellarium <lb/>Iudicem curi&lt;e&gt;
+                    Magistrum Thavernico- <lb/>rum ceterosque Iudices ordinarios ac
+                    <lb/>prothonotarios Quilibet nostrum per <lb/>se habeat Quemadmodum inter nos
+                    <lb/>conveniemus. <lb/>De alÿs ad bonum et Quietum Regni sta- <lb/>tum
+                    pertinentibus in ipsa dieta ge- <lb/>nerali tractari debebit. <lb/>
+                    <lb/>Nos Igitur Joannes Rex pr&lt;e&gt;fatus, omnes <lb/>Articulos
+                    pr&lt;e&gt;scriptos, et omnia eorem&nbsp; <pb facs="#FacsPnr31"/>contenta
+                    acceptamus approbamus ratifi- <lb/>camusque et confirmamus, ac rata grata
+                    <lb/>et firma, pro nobis et heredibus nostris ha- <lb/>bemus, promittentes in
+                    verbo nostro Re- <lb/>gio et in fide nostra Christiana Quem- <lb/>admodum super
+                    hoc Reale etiam et Cor- <lb/>porale Iuramentum coram pr&lt;e&gt;fato domi-
+                    <lb/>no oratore C&lt;e&gt;sareo et commissario in <lb/>hac parte ipsius
+                    C&lt;e&gt;sare&lt;e&gt;, et Romanorum <lb/>Regis Maiestatum, et coram
+                    consiliarÿs <lb/>nostris pr&lt;e&gt;stitimus, omnia et singula
+                    <lb/>pr&lt;e&gt;missa firmiter et inviolabiliter obser- <lb/>vare, omni dolo et
+                    fraude sinistraque ma- <lb/>chinacione remotis. In cuius Rei memoriam
+                    <lb/>firmitatemque perpetuam presentes literas <lb/>nostras sigillo nostro, Quo
+                    ut Rex Hun- <lb/>gari&lt;e&gt; utimur impendenti, et subscriptio- <lb/>ne manus
+                    nostr&lt;e&gt; communitas duximus <lb/>concedendas. Datum Waradini in festo Bea-
+                    <lb/>ti Matthi&lt;e&gt; Apostoli Anno Millesi- <lb/>mo Quingentesimo Tricesimo
+                    octavo Regno- <lb/>rum vero nostrorum Duodecimo. <lb/>
+                    <lb/>Joannes Rex. <lb/>Manu p[ro]p[ria] <lb/>
+                    <lb/>
+                    <lb/>
+                    <lb/>Coll. Cum Or[i]g[ina]li <lb/>
+                    <lb/>
+                </p>
+            </div>
+        </body>
+        <back>
+            <listBibl>
+                <bibl> Gooss, Roderich, Österreichische Staatsverträge. Fürstentum Siebenbürgen.
+                    Wien 1911, S.66-68. </bibl>
+            </listBibl>
+        </back>
+    </text>
+</tei:TEI>

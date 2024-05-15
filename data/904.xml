@@ -1,0 +1,385 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE tei SYSTEM "../resources/FriVer_DTD.dtd">
+
+<?xml-model href="../resources/FriVer.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns="http://www.tei-c.org/ns/1.0" xml:id="pa000299-0904">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title level="s">European peace treaties of the pre-modern era in data / Europäische Friedensverträge der Vormoderne in Daten (FriVer+)</title>
+                <title when="1676-05-23" xml:id="t904" when-custom="1676 V 23" level="a" ref="https://www.ieg-friedensvertraege.de/treaty/t-904-1-de.html">Offensivbündnis von Hannover</title>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    Digital edition according to
+                    <ref target="http://www.tei-c.org/">TEI P5</ref>
+                </edition>
+                <funder>
+                    <ref target="https://www.text-plus.org/">TEXT+</ref>
+                </funder>
+                <editor role="http://id.loc.gov/vocabulary/relators/edt" ref="https://orcid.org/0000-0002-8741-5916">
+                    <persName>Jaap Geraerts</persName>
+                    <note>The transformation and enrichment of the data is done by Jaap Geraerts (IEG Mainz). The other members of the FriVer+ team are Fabian Cremer, Ines Grund, and Thorsten Wübbena (all IEG Mainz).</note>
+                    <note>
+                        The original data has been created by the
+                        <ref target="https://www.ieg-friedensvertraege.de">team of scholars</ref>
+                        who were part of the Europäische Friedensverträge der Vormoderne project. This project was lead by Prof. Dr. Heinz Duchhardt and was based at the Leibniz Institute of European History in Mainz.
+                    </note>
+                </editor>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>
+                    <orgName ref="http://www.isni.org/0000000119314040">Leibniz-Institut für Europäische Geschichte Mainz</orgName>
+                </publisher>
+                <distributor>
+                    <orgName ref="http://www.isni.org/0000000110101946">Universitäts- und Landesbibliothek Darmstadt</orgName>
+                </distributor>
+                <idno type="ISIL">http://lobid.org/organisation/DE-17</idno>
+                <date type="issued" when="2023-12-23"/>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">
+                        <p xml:lang="en">This file is licensed under the terms of the Creative Commons License CC-BY 4.0 (Attribution 4.0 International)</p>
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <repository xml:id="r21">Muenster StA/LA
+                    <note>Archivportal NRW, Findbuch:<lb />
+                        <ref target="http://www.archive.nrw.de/LAV_NRW/jsp/findbuch.jsp?archivNr=451&amp;verzguid=9996bd1c-3725-4a76-a356-9b78c2af3abeACTAPRO">http://www.archive.nrw.de/LAV_NRW/jsp/findbuch.jsp?archivNr=451&amp;verzguid=9996bd1c-3725-4a76-a356-9b78c2af3abeACTAPRO</ref></note>
+                </repository>
+                <msDesc><p>Westfälisches Archivamt Münster, Haus Assen: L 470, f. 9-13.</p></msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>
+                    The data in this XML file, originally created by the project
+                    <ref target="https://www.ieg-friedensvertraege.de/vertraege">Europäische Friedensverträge der Vormoderne online</ref>
+                    has been transformed in accordance with
+                    <ref target="http://www.tei-c.org/">TEI P5</ref>
+                    as part of the project
+                    <ref target="https://www.ieg-mainz.de/en/research/research-projects/european-peace-treaties-of-the-pre-modern-era-in-data">Europäische Friedensverträge der Vormoderne in Daten (FriVer+)</ref>
+                </p>
+            </projectDesc>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="fr" xml:id="lan4">französisch</language>
+            </langUsage>
+        </profileDesc>
+    </teiHeader>
+    <standOff>
+        <listPerson>
+            <person role="signatory" xml:id="p37">
+                <persName ref="https://explore.gnd.network/gnd/4018145-5">
+                    <name>Frankreich</name>
+                </persName>
+            </person>
+            <person role="signatory" xml:id="p78">
+                <persName ref="https://explore.gnd.network/gnd/4040608-8">
+                    <name>Münster</name>
+                </persName>
+            </person>
+        </listPerson>
+        <listPlace>
+            <place xml:id="loc25">
+                <placeName ref="https://explore.gnd.network/gnd/4023349-2">Hannover</placeName>
+            </place>
+        </listPlace>
+        <facsimile>
+            <surface xml:id="FacsPnr1">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_45c72763e0031"/>
+            </surface>
+            <surface xml:id="FacsPnr2">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_45c7278085227"/>
+            </surface>
+            <surface xml:id="FacsPnr3">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_45c727c0ee798"/>
+            </surface>
+            <surface xml:id="FacsPnr4">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_45c7279e26595"/>
+            </surface>
+            <surface xml:id="FacsPnr5">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_45c727dfc371e"/>
+            </surface>
+            <surface xml:id="FacsPnr6">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_45c7280067953"/>
+            </surface>
+            <surface xml:id="FacsPnr7">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_45c7290972c6e"/>
+            </surface>
+            <surface xml:id="FacsPnr8">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_45c7292d9cb2b"/>
+            </surface>
+            <surface xml:id="FacsPnr9">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_45c7294caf310"/>
+            </surface>
+        </facsimile>
+    </standOff>
+    <text>
+        <front>
+            <div type="Drucke"><p>Wilhelm Kohl (Hg.), Akten und Urkunden zur Aussenpolitik Christoph Bernhards von Galen (1650-1678), Münster 1980, III, S.317-319.
+            <lb />DUM VII/1 S. 322-323
+            <ref target="http://gallica.bnf.fr/ark:/12148/bpt6k122965z.image.f343.langEN">Link zum Druck auf gallica.bnf.fr </ref>
+                <lb /></p></div>
+        </front>
+        <body>
+            <div type="Transliteration">
+                <pb facs="#FacsPnr1"/><p>&nbsp; 
+                </p> 
+                <p>&nbsp; 
+                </p> 
+                <p>
+                [Seite 1] 
+                
+                &nbsp; 
+                
+                Les facilit[é]z que le Roy apporte encore tous les jours a la paix <lb /> 
+                
+                au milieu des heureux progr[é]z de ses armes ayant fait con- 
+                
+                noistre a Mons[ieur] l'Evesque de Munster l'injustice de l'esloig-<lb /> 
+                
+                nement des ennemis de Sa Majesté a repondre a de si favorables <lb /> 
+                
+                dispositions, Et Son Altesse connoissant aussy combien la prise <lb /> 
+                
+                du Duché de Breme qui est si legitimement acquis a la Suede <lb /> 
+                
+                par les Traitt[é]z de Westphalie est contraire a ces mesmes <lb /> 
+                
+                Traitt[é]z, et apporteroit de nouveaux obstacles a la Paix <lb /> 
+                
+                Generalle, Elle a creu qu'elle ne pourroit mieux <lb /> 
+                
+                contribuer a <lb /> 
+                
+                les detourner, qu'en travaillant a empescher la perte de cette <lb /> 
+                
+                Province, et en faisant avec le Roy une nouvelle alliance <lb /> 
+                
+                qui le mette en estat d'y reussir, et de s'opposer aux ennemis 
+                
+                qu'une si juste resolution pourra luy attirer. Mons[ieur] 
+                
+                l'Evesque de Munster ayant aussy resolu de prendre des 
+                
+                mesures avec le Roy pour mettre sa personne et ses Estatz <lb /> 
+                
+                en seureté contre la haine et la mauvaise volonté que les <lb /> 
+                
+                Estatz G[énér]aux des Provinces unies ont continué de luy <lb /> 
+                </p>
+                <p>&nbsp; 
+                </p>  
+                    <p>&nbsp; 
+                        
+                    </p>       
+                <p>[Seite 2]&nbsp; 
+                </p>
+                <pb facs="#FacsPnr2"/><p>
+                
+                temoigner depuis mesme que par leurs artiffices ilz l'ont<lb /> 
+                
+                attiré dans leur party, Et Sa Majesté en ayant esté infor-<lb /> 
+                
+                mée et désirant de luy faire connoistre la puissante protect-<lb /> 
+                
+                tion qu'il doit attendre d'Elle et l'estime particuliere qu'Elle a <lb /> 
+                
+                tousjours eue pour Son Altesse aussy bien que le cas qu'Elle <lb /> 
+                
+                fait de son alliance, Sa ditte Majesté a donné pouvoir au <lb /> 
+                
+                Sieur Baron Bidal Con[seill]er en ses conseilz et son Resident en 
+                
+                la basse Saxe de prendre avec M[onsieur] l'Evesque de Munster <lb /> 
+                
+                touttes les mesures conformes a un si juste dessein, Et Son<lb /> 
+                
+                Altesse ayant commis le Sieur de Wintghens son Deputé pour<lb /> 
+                
+                en convenir avec luy, ilz ont arreste et signé les articles<lb /> 
+                
+                suivants apr[é]z la communication reciproque de leurs<lb /> 
+                
+                pleins pouvoirs.<lb /> 
+                
+                1.<lb /> 
+                
+                M[onsieur] l´Evesque de Munster s´oblige non seulement de degager<lb /> 
+                
+                la ville de Stade des troupes enemies qui tiennent bloquée,<lb /> 
+                
+                mais d´y jetter mesme du secours s´il est necessaire et de-<lb /> 
+                
+                &nbsp;
+                
+                </p> 
+                <p>[Seite 3] 
+                <pb facs="#FacsPnr3"/>declarer incessament qu´il est resolu de secourir la Suede 
+                    <lb /> dans la possession des Provinces de Breme et de Verden qui 
+                    <lb /> luy sont si legitimement acquises par les Traitt[é]ez de 
+                    <lb /> Westphalie. 
+                    <lb /> 
+                    <lb /> 2 
+                    <lb /> Apr[é]z avoir ainsy contribué a degager Stade M[onsieur] l´Evesque 
+                    <lb /> de Munster se declarera aussy contre les Hollandois 
+                    <lb /> par quelque acte d´hostilité qui ne laisse aucun sujet de 
+                    <lb /> doutter de son action et de la guerre qu´il est resolu de leur 
+                    <lb /> faire. 
+                    <lb /> 
+                    <lb /> 3. 
+                    <lb /> Cette rupture contre les Hollandois et pour la deffense du Duché 
+                    <lb /> de Breme commencera le 20. ou le 25 du mois de Juin de la 
+                    <lb /> presente année au plus tard, et il entrera alors en action avec 
+                    <lb /> une armée de quinze mille hommes effectifs contre lesdits 
+                    <lb /> Hollandois, et contre les autres ennemis du Roy, excepté 
+                    <lb /> l'Emp[ereu]r pourveu que Sa Maj[es]té Imp[éria]lle n'envoye pas ses 
+                    <lb /> 
+                    <lb /> 
+                </p> 
+                <p>[Seite 4]&nbsp; 
+                </p>
+                <pb facs="#FacsPnr4"/><p>trouppes dans le Duché de Breme dont il entreprend la 
+                    <lb /> deffense. 
+                    <lb /> 
+                    <lb /> 4. 
+                    <lb /> Si en haine de la resolution que M[onsieur] l'Evesque de Munster prend 
+                    <lb /> de deffendre le Duché de Breme les alliéz attaquoient ses 
+                    <lb /> trouppes ou ses Estatz, la resistance qu'il fera pour s'y 
+                    <lb /> opposer sera tenue pour une veritable action, et aura la 
+                    <lb /> mesme force que la rupture portée cy dessus. 
+                    <lb /> 
+                    <lb /> 5. 
+                    <lb /> M[onsieur] l'Evesque de Munster recevra de la main du Roy un 
+                    <lb /> General pour commander les quinze mille hommes avec les- 
+                    <lb /> quelz il s'engage d'agir, et Sa Maj[es]té luy donnera le choix de 
+                    <lb /> trois qu'Elle luy proposera. 
+                    <lb /> 
+                    <lb /> 6. 
+                    <lb /> Sans ordre nouveau ny pouvoir ou commission de M[onsieur] l'Evesque 
+                    <lb /> de Munster, celuy qui sera de la part du Roy dans l'armée 
+                    <lb /> de Son Altesse en pourra faire la reveue tant en general 
+                    <lb /> 
+                    <lb /> 
+                </p> 
+                <p>[Seite 5]&nbsp; 
+                </p>
+                <pb facs="#FacsPnr5"/><p>qu'en particulier pour le bien commun de Sa Maj[es]té et de 
+                    <lb /> Sa di[te] Altesse. 
+                    <lb /> 
+                    <lb /> 7. 
+                    <lb /> Pour contribuer a mettre Monsieur l'Evesque de Munster en estat de 
+                    <lb /> satisfaire plus facilement aux engagements de ce Traitté, 
+                    <lb /> le Roy luy fera payer par mois la somme de trente deux 
+                    <lb /> mille escus blancs monnoye de France et cette somme sera 
+                    <lb /> employée a l'entretien de ses trouppes. 
+                    <lb /> 
+                    <lb /> 8. 
+                    <lb /> En considération des depenses extraordinaires que M[onsieur] l'Evesque 
+                    <lb /> de Munster devra faire en entrant en action, le Roy veut 
+                    <lb /> bien luy donner encore cent mille escus payables la moitié 
+                    <lb /> le jour de sa rupture, et l'autre moittié ensuitte en cinq 
+                    <lb /> mois consécutifs, scavoir dix mille escus par mois qui 
+                    <lb /> feront avec les 32. mille de l'article precedent 42. mille 
+                    <lb />parmois pendant lesd[its] cinq mois.&nbsp; 
+                </p> 
+                <p> 
+                    <lb /> 
+                    <lb />[Seite 6] 
+                </p> 
+                <p>&nbsp; 
+                </p> 
+                <pb facs="#FacsPnr6"/><p>9. 
+                    <lb /> Sa Majesté s'oblige aussy de luy faire tousjours payer 
+                    <lb /> les d[its] trente deux mille escus un mois par avance, et 
+                    <lb /> les lettres de change luy en seront delivrées payables a 
+                    <lb /> Paris monnoye de France comme il a esté dit cy dessus. 
+                    <lb /> 
+                    <lb /> 
+                    <lb /> 10. 
+                    <lb /> &nbsp;Mais aussy lors que les trouppes de M[onsieur] l'Evesque de Munster 
+                    <lb /> auront pris des quartiers dans le pays ennemy, en ce cas 
+                    <lb /> la d[ite] somme de 32. mille escus sera reduitte a vingt mille 
+                    <lb /> par mois, et cette reduction durera tant que Son Altesse 
+                    <lb /> jouira des d[its] quartiers. 
+                    <lb /> 
+                    <lb /> 11. 
+                    <lb /> Le Roy ne sera tenu au payement de tous les subsides 
+                    <lb /> marquéz cy dessus que lors que M[onsieur] l'Evesque de 
+                    <lb /> Munster sera effectivement entré en guerre contre les 
+                    <lb /> Hollandois ou contre les autres ennemis du Roy avec 15. 
+                    <lb /> mille homes mais en ce cas ilz luy seront aussy tost 
+                    <lb /> payéz ponctuellement dans la forme portée dans les 
+                    <lb /> 
+                    <lb /> 
+                </p> 
+                <p>[Seite 7]&nbsp; 
+                </p>
+                <pb facs="#FacsPnr7"/><p>articles precedents. 
+                    <lb /> 
+                    <lb /> 12.
+                    <lb /> En cas aussy que la Ville de Stade fust tellement pressée
+                    <lb /> que pour en detourner la perte on n´eust pas le temps
+                    <lb /> d´ attendre la ratification du present Traitté, M[onsieur] l´Evesque
+                    <lb /> de Munster s´oblige d´en entreprendre la deffense et de la 
+                    <lb /> secourir autant cette ratification, et ses subsides luy
+                    <lb /> seront demesme payéz du jour qu´il sera entré en action
+                    <lb /> encore qu´elle precedast la d[ite] ratiffication.
+                    <lb /> 
+                    <lb /> 13.
+                    <lb /> Le Roy veut bien consenter qu´il envoye sa quote part
+                    <lb /> de troupes comme elle est reglée presentement, et
+                    <lb /> Sa Maj[es]té s´oblige de mesme comme M[onsieur] l´Evesque de
+                    <lb /> Munster de son costé de ne point faire de paix sans sa
+                    <lb /> participation et d´avoir un soin particulier de ses
+                    <lb /> avantages.
+                    <lb /> 
+                    <lb /> 
+                </p>
+                <p>[Seite 8
+                </p>
+                <p>]&nbsp;
+                </p>
+                <pb facs="#FacsPnr8"/><p>14.
+                    <lb /> Le Roy auprèz du Roy de Suede a M[onsieur] l´Evesque
+                    <lb /> de Munster tous les bons offices qui dependront de Sa 
+                    <lb /> Majesté pour luy faire ceder les balliages de Wilshusen 
+                    <lb /> et de Tedinkhusen dependants du Duché de Breme, et 
+                    <lb /> Elle luy en donnera sa garantie si la Suede y consent.
+                    <lb /> 
+                    <lb /> 15. 
+                    <lb /> Comme tous les engagements du present Traitté n'ont 
+                    <lb /> pour but que l'avancement de la paix, tous les Princes 
+                    <lb /> qui auront les mesmes bonnes intentions pourront y 
+                    <lb /> entrer aux mesmes conditions, et le Roy fera ce qui sera
+                    <lb /> possible pour porter sur tout M[onsieur] le Duc de Hanover 
+                    <lb /> a prendre les mesmes engagements sans pourtant que 
+                    <lb /> cette condition puisse empescher ou retarder l'execution 
+                    <lb /> du present Traitté qui durera jusqu'a la paix Generalle.
+                    <lb /> 
+                    <lb /> 16. 
+                    <lb /> Tous les articles cy dessus seront ratiffiez en bonne forme 
+                    <lb /> par le Roy et par M[onsieur] l'Evesque de Munster dans un 
+                    <lb /> 
+                    <lb /> 
+                </p>
+                <p>[Seite 9]&nbsp;
+                </p>
+                <pb facs="#FacsPnr9"/><p>mois ou plustost s'il est possible. En foy de quoy le d[it]
+                <lb /> S[ieu]r Baron Bidal de la part de Sa Majesté et le Sieur
+                <lb /> Wintghens de celle de Son Altesse ont en vertu de leurs
+                <lb /> Pleins pouvoirs signe le present Traitté, et y ont mis le
+                <lb /> cachet de leurs armes. Fait a Hanover le 23.e jour
+                <lb /> de May 1676.
+                <lb />
+                <lb /> [Locus Sigilli]&nbsp; Bidal
+                <lb /> [Locus Sigilli]&nbsp; de Wintghens [manu propria]
+                </p>
+            </div>
+        </body>
+    </text>
+</tei:TEI>

@@ -1,0 +1,1335 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE tei SYSTEM "../resources/FriVer_DTD.dtd">
+
+<?xml-model href="../resources/FriVer.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns="http://www.tei-c.org/ns/1.0"
+    xml:id="pa000299-0136">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title level="s">European peace treaties of the pre-modern era in data / Europäische
+                    Friedensverträge der Vormoderne in Daten (FriVer+)</title>
+                <title when="1697-10-30" xml:id="t136" when-custom="1697 X 30" level="a"
+                    ref="https://www.ieg-friedensvertraege.de/treaty/t-136-1-de.html"
+                    >Friedensvertrag von Rijswijk</title>
+            </titleStmt>
+            <editionStmt>
+                <edition> Digital edition according to <ref target="http://www.tei-c.org/">TEI
+                        P5</ref>
+                </edition>
+                <funder>
+                    <ref target="https://www.text-plus.org/">TEXT+</ref>
+                </funder>
+                <editor role="http://id.loc.gov/vocabulary/relators/edt"
+                    ref="https://orcid.org/0000-0002-8741-5916">
+                    <persName>Jaap Geraerts</persName>
+                    <note>The transformation and enrichment of the data is done by Jaap Geraerts
+                        (IEG Mainz). The other members of the FriVer+ team are Fabian Cremer, Ines
+                        Grund, and Thorsten Wübbena (all IEG Mainz).</note>
+                    <note> The original data has been created by the <ref
+                            target="https://www.ieg-friedensvertraege.de">team of scholars</ref> who
+                        were part of the Europäische Friedensverträge der Vormoderne project. This
+                        project was lead by Prof. Dr. Heinz Duchhardt and was based at the Leibniz
+                        Institute of European History in Mainz. </note>
+                </editor>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>
+                    <orgName ref="http://www.isni.org/0000000119314040">Leibniz-Institut für
+                        Europäische Geschichte Mainz</orgName>
+                </publisher>
+                <distributor>
+                    <orgName ref="http://www.isni.org/0000000110101946">Universitäts- und
+                        Landesbibliothek Darmstadt</orgName>
+                </distributor>
+                <idno type="ISIL">http://lobid.org/organisation/DE-17</idno>
+                <date type="issued" when="2023-12-23"/>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">
+                        <p xml:lang="en">This file is licensed under the terms of the Creative
+                            Commons License CC-BY 4.0 (Attribution 4.0 International)</p>
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <repository xml:id="r22">Paris AAE <note>Trait&eacute;s et Accords de la France:<lb/>
+                        <ref
+                            target="http://www.diplomatie.gouv.fr/traites/affichetraite.do?accord=TRA16970008"
+                            >http://www.diplomatie.gouv.fr/traites/affichetraite.do?accord=TRA16970008</ref></note>
+                </repository>
+                <msDesc>
+                    <p>AAE Paris M.A.E. Trait&#233;s. Multilateraux 16970008. Trait&#233; de paix
+                        avec l'Empire (Ryswick). Empire, Espagne, France, Grande-Bretagne, Lorraine,
+                        Provinces-Unies, Su&#232;de (UI). <lb/>Ratifikation durch den Reichstag,
+                        Regensburg 1697 XI 26, ebd. <lb/>- durch L&#233;opold&nbsp;I,&nbsp;Deutscher
+                        Kaiser, Wien 1697 XII 7, ebd. <lb/>- der Artikel, die die Lorraine betreffen
+                        durch&nbsp;&#201;l&#233;onore, K&#246;nigin von Polen,&nbsp;Herzogin
+                        von&nbsp;Lorraine, Wien 1697 XI 13, ebd.</p>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p> The data in this XML file, originally created by the project <ref
+                        target="https://www.ieg-friedensvertraege.de/vertraege">Europäische
+                        Friedensverträge der Vormoderne online</ref> has been transformed in
+                    accordance with <ref target="http://www.tei-c.org/">TEI P5</ref> as part of the
+                    project <ref
+                        target="https://www.ieg-mainz.de/en/research/research-projects/european-peace-treaties-of-the-pre-modern-era-in-data"
+                        >Europäische Friedensverträge der Vormoderne in Daten (FriVer+)</ref>
+                </p>
+            </projectDesc>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="la" xml:id="lan6">Latein</language>
+            </langUsage>
+        </profileDesc>
+    </teiHeader>
+    <standOff>
+        <listPerson>
+            <person role="signatory" xml:id="p37">
+                <persName ref="https://explore.gnd.network/gnd/4018145-5">
+                    <name>Frankreich</name>
+                </persName>
+            </person>
+            <person role="signatory" xml:id="p94">
+                <persName ref="https://www.wikidata.org/wiki/Q12548">
+                    <name>Reich</name>
+                </persName>
+            </person>
+        </listPerson>
+        <listPlace>
+            <place xml:id="loc44">
+                <placeName ref="https://explore.gnd.network/gnd/4117019-2">Rijswijk</placeName>
+            </place>
+        </listPlace>
+    </standOff>
+    <text>
+        <front>
+            <div type="Drucke">
+                <p>DUM VII/II, S.421; CTS, XXII, S.7-30.</p>
+            </div>
+            <div type="Inhalt">
+                <p>Unter Schwedischer Vermittlung zur Wiederherstellung des Friedens wird Folgendes
+                    vereinbart: <lb/>I.&nbsp;Friede und Freundschaft <lb/>II.&nbsp;Amnestie
+                    <lb/>III.&nbsp;Die Vertr&#228;ge Westfalens und von Nijmwegen erlangen wieder
+                    G&#252;ltigkeit <lb/>IV.&nbsp;Frankreich gibt alle besetzten Gebiete zur&#252;ck
+                    <lb/>V.&nbsp;darunter fallen auch die nicht namentlich aufgef&#252;hrten Gebiete
+                    <lb/>VI.&nbsp;Trier wird an Speyer zur&#252;ckgegeben
+                    <lb/>VII.&nbsp;Wiedereinsetzung des Vertrags vom 29.5.1679 mit dem
+                    Kurf&#252;rsten von Brandenburg <lb/>VIII.&nbsp;R&#252;ckgabe Germersheim an den
+                    pf&#228;lzischen Kurf&#252;rst unter Regelung der Anspr&#252;che der
+                    F&#252;rstin von Orleans <lb/>IX.&nbsp;R&#252;ckgabe Zweibr&#252;ckens an
+                    Schweden <lb/>X.&nbsp;R&#252;ckgabe Veldentz und Lautereckens
+                    <lb/>XI.&nbsp;R&#252;ckgabe der Rechte und Privilegien an den Deutschen Orden
+                    <lb/>XII.&nbsp;R&#252;ckgabe Dinants an den K&#246;lner Kurf&#252;rsten
+                    <lb/>XIII.&nbsp;Das Haus W&#252;rtemberg untersteht wieder dem Reich wie vor dem
+                    Frieden von Nijmwegen <lb/>XIV.&nbsp;G&#252;ltigkeit des Friedens f&#252;r das
+                    Haus Baden, ebenso wie der Westf&#228;lische Friede und der Friede von Nijmwegen
+                    <lb/>XV.&nbsp;Die Prinzen der H&#228;user Nassau, Hanau und Leinigen sowie alle
+                    anderen Staaten des Reiches erhalten ihre Gebiete und Privilegien zur&#252;ck
+                    <lb/>XVI.&nbsp;Stra&#223;burg wird Frankreich zugeschlagen <lb/>XVII.&nbsp;Den
+                    Einwohnern der Stadt steht der Wegzug frei <lb/>XVIII.&nbsp;Daf&#252;r wird Kehl
+                    an Kaiser und Reich zur&#252;ckgegeben; Pille wird zerst&#246;rt; freie
+                    Rheinschifffahrt f&#252;r beide Seiten <lb/>XIX.&nbsp;Freiburg, St. Peter und
+                    das &#252;brige Breisgau wird an die Habsburger &#252;bergeben wie in Nijmwegen
+                    festgelegt <lb/>XX.&nbsp;Ebenso wird Breisach an das Haus Habsburg
+                    &#252;bergeben mit seinen rechtsrheinischen Dependancen <lb/>XXI.&nbsp;Regelung
+                    der &#220;bergabe der genannten Pl&#228;tze <lb/>XXII.&nbsp;R&#252;ckgabe der
+                    Festung Philippsburg an Kaiser und Reich <lb/>XXIII.&nbsp;Der franz&#246;sische
+                    K&#246;nig sorgt f&#252;r die Zerst&#246;rung der rechtsrheinischen Bauten gegen
+                    Hunningen, auf der Rheininsel und die der Br&#252;cke; die Gebiete werden Baden
+                    zur&#252;ckgegeben <lb/>XXIV.&nbsp;Dito der Bauten gegen Fort Louis
+                    <lb/>XXV.&nbsp;Wiederherstellung des Zustands von Burg Traerbach und Montroyal
+                    an der Mosel wie zur Zeit des Friedens von Nijmwegen <lb/>XXVI.&nbsp;Schleifen
+                    der Burg Kirn und R&#252;ckgabe gemeinsam mit der Stadt Kirn und dem
+                    F&#252;rstenturm Salm an den Prinzen von Salm <lb/>XXVII.&nbsp;Schleifen der
+                    Ebernburg und R&#252;ckgabe an den Baron von Sickingen
+                    <lb/>XXVIII.&nbsp;R&#252;ckerstattung de Gebiete und Privilegien an den Herzog
+                    von Lorain wie es in Folge genauer ausgef&#252;hrt wird
+                    <lb/>XXIX.&nbsp;R&#252;ckgabe Nancys <lb/>XXX.&nbsp;R&#252;ckgabe von Bitsch und
+                    Homburg <lb/>XXXI.&nbsp;G&#252;ltigkeit von Artikel 4 <lb/>XXXII.&nbsp;Saarlouis
+                    beh&#228;lt der franz&#246;sische K&#246;nig <lb/>XXXIII.&nbsp;Dito Longwick,
+                    doch daf&#252;r erh&#228;lt der Herzog etwas Gleichwertiges
+                    <lb/>XXXIV.&nbsp;Durchmarschsrecht f&#252;r franz&#246;sische Truppen
+                    <lb/>XXXV.&nbsp;Kirchliche Pfr&#252;nde bleiben bei ihren fr&#252;heren
+                    Besitzern <lb/>XXXVI.&nbsp;Das w&#228;hrend der franz&#246;sischen Besetzung
+                    gesprochene Recht beh&#228;lt eine G&#252;ltigkeit <lb/>XXXVII.&nbsp;Die Archive
+                    werden zur&#252;ckgegeben <lb/>XXXVIII.&nbsp;Der Herzog kann sofort nach der
+                    Ratifizierung dieses Friedens Kommissare entsenden, die diese und andere
+                    Aufgaben erledigen <lb/>XXXIX.&nbsp;F&#252;r den Salz- und Holzhandel gelten
+                    Steuern und Gesetze von 1670 <lb/>XL.&nbsp;Der Freihandel zwischen Lorain, Metz,
+                    Toul und Verdun bleibt erhalten <lb/>XLI.&nbsp;Die Konkordate zwischen dem
+                    franz&#246;sischen K&#246;nig und den Herz&#246;gen Lorains bleiben ebenfalls
+                    g&#252;ltig <lb/>XLII.&nbsp;Der Herzog von Lorain und seine Br&#252;der
+                    d&#252;rfen frei den Rechtsweg w&#228;hlen f&#252;r ihre Angelegenheiten,
+                    unbeachtet gegenteiliger Bestimmungen w&#228;hrend ihrer Abwesenheit
+                    <lb/>XLIII.&nbsp;Die Angelegenheiten, die nicht expressis verbis hier festgelegt
+                    worden sind, sollen dennoch im Sinne des Herzogs, seiner L&#228;ndereien und
+                    Untertanen festgelegt werden <lb/>XLIV.&nbsp;Restaurierung des Kardinals von
+                    F&#252;rstenberg in alle Rechte und G&#252;ter; Amnestie
+                    <lb/>XLV.&nbsp;Einschluss des Landgrafs von Hessen-Rheinfelden in die Amnestie;
+                    R&#252;ckgabe der Rechte und G&#252;ter, die seinem Vater geh&#246;rten
+                    <lb/>XLVI.&nbsp;Wiederherstellung der Rechtsverh&#228;ltnisse wie vor dem Krieg
+                    <lb/>XLVII.&nbsp;Rechtm&#228;&#223;ige &#220;bergaben kirchlicher Pfr&#252;nde
+                    w&#228;hrend des Krieges bleiben erhalten <lb/>XLVIII.&nbsp;Best&#228;tigung des
+                    Friedens von Turin zwischen Frankreich und Savoyen, desgleichen des
+                    westf&#228;liischen Friedens und dessen von Nijmwegen, was Savoyen betrifft
+                    <lb/>XLIX.&nbsp;Mit den R&#252;ckgaben werden keine neuen Rechte erworben
+                    <lb/>L.&nbsp;Ende der Kampfhandlungen; Regelung der &#220;bergaben
+                    <lb/>LI.&nbsp;Aufhebung gegenseitiger Tributleistungen
+                    <lb/>LII.&nbsp;Wiederaufnahme des Handels <lb/>LIII.&nbsp;Ung&#252;ltigkeit von
+                    allem, das diesem Frieden entgegen steht <lb/>LIV.&nbsp;Koalitionsfreiheit
+                    <lb/>LV.&nbsp;Namentliche Aufnahme des schwedischen K&#246;nigs in den Frieden
+                    <lb/>LVI.&nbsp;Aufnahme der 13 Schweizer Kantone und ihrer Verb&#252;ndeten
+                    seitens Kaiser und Reich <lb/>LVII.&nbsp;Dito seiten des franz&#246;sischen
+                    K&#246;nigs <lb/>LVIII.&nbsp;Aufnahme anderer M&#228;chte
+                    <lb/>LIX.&nbsp;Ratifikation <lb/>LX.&nbsp;Unterzeichnung </p>
+                <p>Separatartikel <lb/>Regelung der Verfahrensfragen aus Artikel 8 </p>
+                <p>Protokollauszug der schwedischen Vermittlung: <lb/>Die franz&#246;sischen
+                    Unterh&#228;ndler erkl&#228;ren die G&#252;ltigkeit des Vertrags trotz fehlender
+                    Unterschrift der protestantischen F&#252;rsten </p>
+                <p>Protokollauszug der schwedischen Vermittlung <lb/>Regelung von Ort und Zeitpunkt
+                    der Unterschriften der protestantischen F&#252;rsten </p>
+                <p>Erkl&#228;rung Schwedens bez&#252;glich der &#220;bergabe Stra&#223;burgs an
+                    Frankreich </p>
+                <p>Aufnahme Spaniens, Gro&#223;britanniens und der Vereinten Provinzen in den
+                    Vertrag </p>
+                <p>&nbsp; </p>
+            </div>
+        </front>
+        <body>
+            <div type="Transliteration">
+                <pb facs="#FacsPnr1"/>
+                <p>In nomine Sacrosanct&#230; Trinitatis Amen! </p>
+                <p>Notum sit omnibus et singulis, quorum <lb/>interest: C&#249;m ab aliquot jam
+                    annis ferale bellum <lb/>cum mult&#226; sanguinis Christiani effusione et plu-
+                    <lb/>rimarum provinciarum desolatione gestum esset <lb/>inter Serenissimum et
+                    Potentissimum Principem et <lb/>Dominum, Dominum Leopoldum Electum Roma-
+                    <lb/>norum Imperatorem semper Augustum, Germani&#230;, <lb/>Hungari&#230;,
+                    Bohemi&#230;, Dalmati&#230;, Croati&#230;, Slavo- <lb/>ni&#230; Regem,
+                    Archiducem Austri&#230;, Ducem Bur- <lb/>gundi&#230;, Brabanti&#230;,
+                    Styri&#230;, Carinthi&#230;, Carniol&#230;, <lb/>Marchionem Moravi&#230;, Ducem
+                    Luxemburgi&#230;, Su- <lb/>perioris et Inferioris Silesi&#230;,
+                    W&#252;rtemberg&#230; et <lb/>Teck&#230;, Principem Suevi&#230;, Comitem
+                    Habsburgi, Ty- <lb/>rolis, Kyburgi et Goriti&#230;, Marchionem Sacri Roma-
+                    <lb/>ni Imperij, Burgovi&#230;, ac Superioris et Inferioris <lb/>Lusati&#230;,
+                    Dominum Marchi&#230;, Slavonic&#230;, Port&#251;s <lb/>Naonis et Salinarum etc:
+                    Sacrumque Romanum <lb/>Imperium ab un&#226;: et Serenissimum atq[ue] Potentissi-
+                    <lb/>mum Principem et Dominum, Dominum Ludovicum <lb/>XIV.tum Franci&#230; et
+                    Navarr&#230; Regem Christianissimum <lb/>
+                </p>
+                <pb facs="#FacsPnr2"/>
+                <p>ab alter&#226; parte, Sua Sacra C&#230;sarea Majestas <lb/>ver&#242; et Sua Sacra
+                    Regia Majestas Christianissi- <lb/>ma ad finienda quantocyus h&#230;c mala in
+                    perniciem <lb/>rei Christian&#230; indies augescentia animum seri&#242; ad-
+                    <lb/>vertissent, factum Divin&#226; Bonitate esse, ut anni- <lb/>tente
+                    Serenissimo et Potentissimo Principe et Domi- <lb/>no, Domino Carolo XImo
+                    Suecorum, Gothorum, Van- <lb/>dalorumq[ue] Rege, Magno Principe Finlandi&#230;,
+                    Duce <lb/>Scani&#230;, Esthoni&#230;, Livoni&#230;, Careli&#230;, Brem&#230;,
+                    Verd&#230;, <lb/>Stetini, Pomerani&#230;, Cassubi&#230;, et Vandali&#230;, Prin-
+                    <lb/>cipe Rugi&#230;, Domino Ingri&#230; et Wismari&#230;, nect non <lb/>Comite
+                    Palatino Rheni, Bavari&#230;, Juliaci, Clivi&#230;<note n="1" type="crit_app"
+                        >Nachtr&#228;glich eingef&#252;gt.</note> et Mon- <lb/>tium Duce, etc:
+                    inclyt&#230; memoriae, qui mox ab exorto- <lb/>rum motuum initio pacem inter
+                    Christianos Prin- <lb/>cipes solicit&#232; suadere non destitit, atq[ue] dein
+                    Me- <lb/>diator universim receptus illam quamprimum con- <lb/>ciliare, ad mortem
+                    usqu&#233; glorios&#233; allaboravit, so- <lb/>lennes ea de causa tractatus in
+                    Palatio Riswicensi <lb/>in Hollandi&#226; instituti, post ejus autem &#234;
+                    vivis <lb/>decessum, pari studio succedentis in paternas <lb/>pro tranquillitate
+                    public&#226; curas Serenissimi et <lb/>Potentissimi Principis et Domini, Domini
+                    Caroli <lb/>XII.mi Suecorum, Gothorum, Vandalorumq[ue] Regis, <lb/>Magni
+                    Principis Finlandi&#230;, Ducis Scani&#230;, Estho- <lb/>niae, Livoni&#230;,
+                    Careli&#230;, Brem&#230;, Verd&#230;, Stetini, <lb/>Pomerani&#230;,
+                    Cassubi&#230;, et Vandali&#230;, Principis <lb/>Rugi&#230;, Domini Ingri&#230;
+                    et Wismari&#230;, nec non <lb/>Comitis Palatini Rheni, Bavari&#230;, Juliaci,
+                    Clivi&#230; <lb/>et Montium Ducis, etc: ad finem perducti fuerint.
+                    <lb/>Comparentes quippe dicto loco utrinque legitim&#232; <lb/>
+                    <lb/>
+                    <pb facs="#FacsPnr3"/>constituti Legati ExtraOrdinarij et Plenipotentiarij,
+                    <lb/>nomine quidem Sacr&#230; C&#230;sare&#230; Majestatis Illus- <lb/>trissimi
+                    et Excellentissimi Domini, Dominus Domi- <lb/>nicus Andreas S: R: I: Comes
+                    &#226; Kaunitz, h&#230;redita- <lb/>rius Dominus in Austerlitz, Hungarischbrod,
+                    Ma- <lb/>hrischpruss et Majoris Orzechau, Eques Aurei Velle- <lb/>ris,
+                    Sacr&#230; C&#230;sare&#230; Majestatis Consiliarius Stat&#251;s <lb/>intimus,
+                    Camerarius et Sacri Imperij Pro-Cancella- <lb/>rius: Dominus Henricus Joannes S:
+                    R: I: Co- <lb/>mes &#226; Stratman et Pe&#252;rbach, Dominus in Orth
+                    <lb/>Smidingh, Spatenbrun et Carlsberg, Sacr&#230; C&#230;sare&#230; Ma-
+                    <lb/>jestatis Consiliarius Imperialis Aulicus et Ca- <lb/>merarius: et Dominus
+                    Joannes Fridericus Liber <lb/>et Nobilis Baro &#226; Seilern etc: Sacr&#230;
+                    C&#230;sare&#230; Ma- <lb/>jestatis Consiliarius Imperialis Aulicus et in
+                    <lb/>Imperij Comitijs Con-Commissarius Plenipotentiari- <lb/>us: Nomine
+                    ver&#242; Sacr&#230; Regi&#230; Majestatis Chris- <lb/>tianissim&#230;
+                    Illustrissimi et Excellentissimi Domini, <lb/>Dominus Nicolaus Augustus de
+                    Harlay Eques, <lb/>Dominus de Bonne&#252;il, Comes de Cely, Regi&#230; Su&#230;
+                    <lb/>Majestatis Consiliarius in Consilio Stat&#251;s Ordi- <lb/>narius: Dominus
+                    Ludovicus Verjus Eques, Con- <lb/>siliarius Regis Ordinarius in Consilio
+                    Stat&#251;s, <lb/>Comes de Crecy, Marchio de Freon, Baro de Cou- <lb/>vay,
+                    Dominus in Boullay, Duarum Ecclesiarum, <lb/>in Fortille, et in alijs Locis: et
+                    Dominus Francis- <lb/>cus de Callieres Eques, Dominus de Callieres, Ru- <lb/>pis
+                    Chell&#230; et Gigni: interventu et oper&#226; Illustrissi- <lb/>morum et
+                    Excellentissimorum Dominorum, Domini <lb/>Caroli Bonde, Comitis in
+                    Bi&#246;rn&#246;&#246;, Domini in <lb/>
+                </p>
+                <pb facs="#FacsPnr4"/>
+                <p>Heslebyij, Tyresi&#246;, Toftaholm, Gr&#228;fsteen, Gustafs- <lb/>berg et
+                    Rezitza, Sacr&#230; Regi&#230; Majestatis Sueci&#230; Se- <lb/>natoris et
+                    Supremi Dicasterij Dorpatensis in Livo- <lb/>ni&#226; Pr&#230;sidis: et Domini
+                    Nicolai Liberi Baronis <lb/>de Lillieroot, Sacr&#230; Regi&#230; Majestatis
+                    Sueci&#230; Se- <lb/>cretarij Stat&#251;s, atq[ue] ad Celsos et Pr&#230;potentes
+                    Do- <lb/>minos Ordines Generales Foederati Belgij Legati <lb/>ExtraOrdinarij,
+                    amborum ad pacem Universalem <lb/>restabiliendam Legatorum ExtraOrdinariorum et
+                    <lb/>Plenipotentiariorum, qui munere Mediatorio inte- <lb/>gr&#232;, sedul&#242;
+                    et prudenter perfuncti sunt, pr&#230;senti- <lb/>bus, suffragantibus et
+                    consentientibus Sacri Ro- <lb/>mani Imperij Electorum, Principum et Statuum
+                    <lb/>deputatorum Plenipotentiarijs, post invocatam <lb/>&#230;terni Numinis opem
+                    et commutatas rit&#232; Man- <lb/>datorum formulas ad Divini Numinis Gloriam
+                    <lb/>et Christian&#230; Reipublic&#230; salutem in mutuas <lb/>pacis et
+                    concordi&#230; Leges convenerunt tenore Se- <lb/>quenti. </p>
+                <p>P. <lb/>Pax sit Christiana, Universalis et perpetua, veraq[ue] <lb/>amicitia
+                    inter Sacram C&#230;saream Majestatem, ejusq[ue] <lb/>Successores, totum
+                    S[acrum] Romanum Imperium, Regnaq[ue] <lb/>et Ditiones h&#230;reditarias,
+                    Clientes et Subditos ab <lb/>un&#226;: et Sacram Regiam Majestatem
+                    Christianissi- <lb/>mam ejusq[ue] Successores, Clientes et Subditos <lb/>ab
+                    alter&#226; parte: eaq[ue] ita sincer&#232; servetur et co- <lb/>latur, ut
+                    neutra pars in alterius perniciem vel </p>
+                <p>detrimentum <lb/>
+                </p>
+                <pb facs="#FacsPnr5"/>
+                <p>detrimentum sub quolibet colore quicquam molia- <lb/>tur, aut molientibus, seu
+                    quodvis damnum inferre <lb/>volentibus, ullum auxilium, quocunq[ue] nomine ve-
+                    <lb/>niat, pr&#230;stare, alteriusve subditos rebelles, seu <lb/>refractarios
+                    recipere, protegere, aut juvare qu&#226;vis <lb/>ratione possit aut debeat, Sed
+                    potius utraq[ue] pars <lb/>alterius utilitatem, honorem ac commodum seri&#242;
+                    <lb/>promoveat, non obstantibus, sed anatis om- <lb/>nibus in contrarium
+                    facientibus promissionibus, <lb/>tractatibus et foederibus quomodocunq[ue]
+                    factis <lb/>aut faciendis. </p>
+                <p>2 <lb/>Sit perpetua utrinqu&#233; amnestia et oblivio omni- <lb/>um eorum,
+                    qu&#230; quocunq[ue] loco, modove, ultro ci- <lb/>tr&#242;que hostiliter facta
+                    sunt, ita ut nec eorum, nec <lb/>ullius alterius rei caus&#226; vel
+                    pr&#230;textu alter alte- <lb/>ri quicquam inimiciti&#230; aut molesti&#230;,
+                    direct&#232; <lb/>vel indirect&#232;, specie juris aut vi&#226; facti uspiam
+                    <lb/>inferat, aut inferri patiatur: sed omnes et singu- <lb/>l&#230; hinc inde
+                    verbis, scriptis aut factis illat&#230; <lb/>injuri&#230; et violenti&#230;
+                    absq[ue] omni personarum, <lb/>rerumve respectu ita penitus abolit&#230; sint,
+                    ut <lb/>quicquid eo nomine alter advers&#249;s alterum pr&#230;- <lb/>tendere
+                    possit, perpetu&#226; sit oblivione Sepultum. <lb/>Gaudeant etiam hac
+                    amnesti&#226; ejusq[ue] beneficio et <lb/>effectu omnes et singuli utriusq[ue]
+                    partis Vasalli <lb/>ac subditi, ita ut nemini eorum nox&#230; aut pr&#230;ju-
+                    <lb/>dicio sit, has vel illas partes secutum esse, qu&#242; <lb/>min&#249;s
+                    pristino, in quo ante bellum immediate fuit <lb/>statui, quo ad honores et bona
+                    plen&#232; restituatur, Ser- <lb/>vatis <lb/>
+                </p>
+                <pb facs="#FacsPnr6"/>
+                <p>tamen ijs, qu&#230; ratione beneficiorum Ecclesiasti- <lb/>corum, mobilium et
+                    fructuum articulis sequen- <lb/>tibus speciatim definita sunt. </p>
+                <p>3 <lb/>Pacis hujus basis et fundamentum sit pax West- <lb/>phalica et
+                    Neomagensis, e&#230;q[ue] statim &#226; commu- <lb/>tatis ratificationum
+                    formulis in sacris et pro- <lb/>fanis plen&#232; executioni mandentur, et
+                    posthac <lb/>sart&#230; tect&#230; conserventur, nisi quatenus nunc <lb/>aliter
+                    express&#232; conventum fuerit. </p>
+                <p>4 <lb/>Restituentur inprimis S[acr&#230;] C&#230;sare&#230; Maj[esta]ti et Im-
+                    <lb/>perio, ejusq[ue] statibus et membris &#226; S[acra] Regi&#226; Maj[esta]te
+                    <lb/>Christianissim&#226; qu&#230;vis tam durante bello et vi&#226; <lb/>facti,
+                    qu&#224;m Unionum seu reunionum nomine occu- <lb/>pata loca et jura, qu&#230;
+                    extra Alsatiam sita, aut <lb/>indice reunionum &#226; Legatione Gallic&#226;
+                    exhibito <lb/>exhibito expressa sunt, cassatis, qu&#230; e&#226; de cau-
+                    <lb/>s&#226; &#226; Cameris Metensi et Vesontin&#226;, ut et Consi- <lb/>lio
+                    Brisacensi edita sunt, decretis, arrestis et <lb/>declarationibus, omniaq[ue] in
+                    eum statum repo- <lb/>nentur, quo ante illas occupationes, Uniones, seu
+                    <lb/>reuniones fuerunt, o deinceps tempore amplius <lb/>turbanda seu
+                    inquietanda, Religione tamen Catholi- <lb/>c&#226; Roman&#226; in locis sic
+                    restitutis in statu, quo <lb/>nunc est, remanente. </p>
+                <p>5 <lb/>Et quamvis ex generalibus hisce regulis facil&#232; di- <lb/>judicari
+                    <lb/>
+                </p>
+                <pb facs="#FacsPnr7"/>
+                <p>judicari queat, qui et quatenus restituendi sint, <lb/>nihilominus ad aliquorum
+                    instantiam, acceden- <lb/>tibus peculiaribus rationibus, de quibusdam cau-
+                    <lb/>sis specialem mentionem fieri placuit, ita tamen, <lb/>ut express&#232; non
+                    nominati pro omissis non habean- <lb/>tur, sed pari omnino cum nominatis loco
+                    sint, et <lb/>eodem jure fruantur. </p>
+                <p>6 <lb/>Nominatim restituendus Dominus Elector Trevi- <lb/>rensis et Episcopus
+                    Spirensis in Urbem Treviren- <lb/>sem, in statu quo nunc est, absq[ue] ulteriore
+                    demo- <lb/>litione ull&#226;ve &#230;dificiorum publicorum aut priva- <lb/>torum
+                    deterioratione, cum tormentis bellicis, qu&#230; <lb/>ibidem tempore
+                    postrem&#230; occupationis reperta fue- <lb/>runt. Omnia quoq[ue] de
+                    occupationibus, Unionibus <lb/>et Reunionibus jam pr&#230;cedenti articulo
+                    quarto <lb/>statuta, in commodum Ecclesiarum Trevirensis et <lb/>Spirenfis
+                    speciatim repetita censeri debent. </p>
+                <p>7 <lb/>Fruetur etiam omnibus emolumentis pacis hujus, <lb/>ejusq[ue] assertione
+                    plenissim&#232; comprehendetur Domi- <lb/>nus Elector Brandenburgicus, cum
+                    omnibus ditio- <lb/>nibus, possessionibus, Subditis et juribus, no- <lb/>minatim
+                    ijs, qu&#230; ipsi ex tractatu 29.na Mensis <lb/>Junij anni 1679 inito,
+                    competunt, ac si singula <lb/>speciatim relata essent. <lb/>
+                </p>
+                <pb facs="#FacsPnr8"/>
+                <p>8 <lb/>Restituentur &#226; Rege Christianissimo Domino Elec- <lb/>tori Palatino
+                    occupat&#230; omnes ditiones, sive ad <lb/>illum solum pertineant, sive cum
+                    alijs communes <lb/>sint, quocunq[ue] nomine veniant, speciatim ver&#242; Ci-
+                    <lb/>vitas et Pr&#230;fectura Germersheimensis, ill&#226;q[ue] com-
+                    <lb/>prehens&#230; pr&#230;positur&#230; et Subpr&#230;fectur&#230;, cum om-
+                    <lb/>nibus arcibus, urbibus, Oppidis, pagis, villis, <lb/>fundis, feudis et
+                    juribus, pro ut per pacem West- <lb/>phalicam restitut&#230; fuerunt, omnibus
+                    etiam do- <lb/>cumentis Literarijs ex Archivo, Cancellari&#226;, Cu-
+                    <lb/>ri&#226; feudali, Camer&#226; Rationum, Pr&#230;fecturis, alijsq[ue]
+                    <lb/>Officijs Palatinis ablatis, o loco, re, jure <lb/>aut documento exceptis.
+                    De juribus ver&#242; seu <lb/>pr&#230;tentionibus Domin&#230; Duciss&#230;
+                    Aurelianensis <lb/>conv&#233;nit, ut pr&#230;vi&#226; restitutione
+                    supradict&#226; <lb/>res secundum formulam compromissi &#226; S[acra] C&#230;sa-
+                    <lb/>re&#226; Maj[esta]te et S[acra] Regi&#226; Maj[esta]te Christianissim&#226;
+                    tan- <lb/>quam Arbitris juxta Leges et Constitutiones Im- <lb/>perij decidatur:
+                    illis ver&#242; in Sententi&#226; discor- <lb/>dibus, Pap&#230; tanquam Super
+                    Arbitro decidenda <lb/>deferatur. Non min&#249;s tamen interea amicabi- <lb/>lis
+                    compositio inter partes tentetur, et donec <lb/>res finem accipiat, annua Summa
+                    ducentarum <lb/>millium librarum Turonensium seu centenorum millium
+                    <lb/>florenorum Rhenensium &#226; D[omi]no Electore D[omi]n&#230;
+                    <lb/>Duciss&#230; Aurelianensi e&#226; ratione et conditio- <lb/>ne solvatur,
+                    pro ut peculiari articulo, ejus- <lb/>dem cum pace hac vigoris, expressum est,
+                    utrius- <lb/>qu&#233; partis tam in possessorio quam in petitorio, <lb/>uti et
+                    Imperij jure undiquaq[ue] integro. </p>
+                <p>Restituatur </p>
+                <p>&nbsp; </p>
+                <pb facs="#FacsPnr9"/>
+                <p>9 <lb/>Restituatur Serenissimo Sueci&#230; Regi, ut Comiti <lb/>Palatino Rheni,
+                    Comiti Sponheimij et Velden- <lb/>ti&#230;, Avitus Ducatus Bipontinus liber et
+                    integer <lb/>cum appertinentijs et dependentijs, ijsqu&#233; juribus,
+                    <lb/>quibus Sacr&#230; Regi&#230; Majestatis Pr&#230;decessores Co- <lb/>mites
+                    Palatini et Duces Bipontini gavisi sunt, <lb/>aut gaudere potuerunt, ad normam
+                    Pacis West- <lb/>phalic&#230;, ita ut omnia sub quocunqu&#233; titulo &#226;
+                    <lb/>Coron&#226; Galli&#230; hactenus ex toto, vel parte istius
+                    <lb/>Ducat&#251;s pr&#230;tensa, occupata et reunita pleno jure <lb/>ad S[acram]
+                    Regiam Majestatem Sueci&#230; ejusq[ue] h&#230;redes <lb/>Comites Palatinos
+                    Rheni, redeant. Reddantur <lb/>quoqu&#233; documenta literaria, ad dictum
+                    Ducatum <lb/>spectantia, un&#226; cum tormentis bellicis, qu&#230; tem-
+                    <lb/>pore occupationis ibidem exstiterunt, cunctaqu&#233; <lb/>alia, de quibus
+                    in favorem restituendorum, pr&#230;- <lb/>cedentibus articulis conventum est. </p>
+                <p>10 <lb/>Quant&#249;m ad Principatum Veldenzi&#230;, et qu&#230;x <lb/>sub nomine
+                    dicti Principat&#251;s aut Lautereccen- <lb/>sis defunctus Princeps Leopoldus
+                    Ludovicus Co- <lb/>mes Palatinus Rheni possederat, restituentur <lb/>juxta
+                    &#167;um quartum et indicem &#226; Legatione Galli- <lb/>c&#226; exhibitum,
+                    salvis cujuscunq[ue] pr&#230;tendentium <lb/>tam in possessorio quam petitorio
+                    juribus. </p>
+                <p>11 <lb/>Magno Ordinis Teutonici Magistro et Episcopo <lb/>Wormatiensi, Domino
+                    Principi Francisco Ludovico <lb/>
+                </p>
+                <pb facs="#FacsPnr10"/>
+                <p>Palatino reddentur plen&#232; ablat&#230; &#226; Galli&#226; inclyto <lb/>Ordini
+                    antiquit&#249;s dicat&#230; seu possess&#230; Commen- <lb/>d&#230;, loca,
+                    reditus et jura, frueturqu&#233; dictus Ordo <lb/>ratione Commendarum et bonorum
+                    sub dominio <lb/>Gallico sitorum tam circa collationem, qu&#224;m ad-
+                    <lb/>ministrationem ijsdem Usibus, Privilegijs et im- <lb/>munitatibus, quibus
+                    antehac juxta statuta <lb/>et regulas suas gavisus est, et Ordo Sancti
+                    <lb/>Joannis Hierosolymitani gaudere consuevit. <lb/>Locum etiam habebunt
+                    ratione Episcopat&#251;s Wor- <lb/>matiensis reliquarumqu&#233; D[omi]ni
+                    Principis Ecclesia- <lb/>rum, quaecunq[ue] pace hac de restitutione Locorum,
+                    <lb/>contributionibus, ali&#226;sve conventa sunt. </p>
+                <p>12 <lb/>Reddetur Domino Electori Coloniensi tanquam <lb/>Episcopo et Principi
+                    Leodiensi Castrum et Oppidum <lb/>Dinantense in satu, quo tempore occupationis
+                    fu- <lb/>it, cum omnibus juribus et dependentijs, tormen- <lb/>tis quoq[ue]
+                    bellicis et documentis ibi tum repertis. <lb/>Omnia porro de occupationibus,
+                    Unionibus et <lb/>Reunionibus supra Articulo Quarto statuta in <lb/>commodum
+                    Ecclesiarum Coloniensis et Leodien- <lb/>sis speciatim repetita haberi debent. </p>
+                <p>13 <lb/>Restituatur Domus W&#252;rtenbergica et nomina- <lb/>tim Dominus Dux
+                    Georgius pro se et Successo- <lb/>ribus ratione Principat&#251;s seu
+                    Comitat&#251;s Mom- <lb/>pelgardensis in eum statum, jura, pr&#230;rogativas,
+                    <lb/>
+                </p>
+                <pb facs="#FacsPnr11"/>
+                <p>ac in specie in eam immedietatem erga S[acrum] Ro- <lb/>manum Imperium, qu&#226;
+                    antea gavisus est, et <lb/>qua coeteri Imperij Principes gaudent vel gau-
+                    <lb/>dere debent, anat&#226; penitus Vasallagij recog- <lb/>nitione, Coron&#230;
+                    Galli&#230; Anno 1681 fact&#226;. Fru- <lb/>anturqu&#233; deinceps dicti
+                    Principes liber&#232; omni- <lb/>bus eodem pertinentibus reditibus, tam s&#230;-
+                    <lb/>cularibus, qu&#224;m Ecclesiasticis, quibus ante <lb/>pacem Neomagensem
+                    fruebantur, non minus <lb/>ac feudis, qu&#230; tempore detentionis Gallic&#230;
+                    <lb/>vel ali&#226;s ijs aperta, nec ab ipsismet alijs con- <lb/>cessa sunt,
+                    excepto pago Baldenheim cum <lb/>appertinentijs, quem Rex Christianissimus
+                    <lb/>Commendatori de Chamlay Regiorum Casto- <lb/>rum Metatori Generali
+                    contulit, quodqu&#233; <lb/>ratum manere debet, ita tamen, ut D[omi]no Duci
+                    <lb/>W&#252;rtenbergico, velut Domino directo, ejusq[ue] <lb/>successoribus
+                    homagium pr&#230;stare, ab eoque <lb/>feudi hujus renovationem petere teneatur.
+                    Resti- <lb/>tuantur quoqu&#233; in plenariam et liberam pos- <lb/>sessionem, tam
+                    feudorum suorum Burgundi- <lb/>corum, Clereval et Passavant, qu&#224;m Dynasti-
+                    <lb/>arum Granges, Herricourt, Blamont, Chate- <lb/>l&#244;t et Clemont,
+                    c&#230;terarumqu&#232; in Comitatu Bur- <lb/>gundi&#230; et Principatu
+                    Mompelgardensi sita- <lb/>rum cum omnibus juribus et reditibus eo
+                    <lb/>plan&#232; modo, pro ut ante pacem Neomagensem <lb/>possederant, abolitis
+                    penitus ijs, qu&#230; quo- <lb/>cunqu&#233; titulo, tempore ac modo in contra-
+                    <lb/>rium facta vel pr&#230;tensa fuerunt. <lb/>
+                    <pb facs="#FacsPnr12"/>14 <lb/>Gaudeat etiam Domus Marchica Badensis <lb/>omni
+                    jure et beneficio pacis hujus, ade&#242;qu&#233; <lb/>etiam Westphalic&#230; et
+                    Neomagensis, inprimis <lb/>ver&#242; articulorum 4. ti et 5t mi hujus trac-
+                    <lb/>tat&#251;s. </p>
+                <p>15 <lb/>Restituantur eodem modo Principes et Comi- <lb/>tes Nassovienses,
+                    Hanovienses , et Leiningenses <lb/>omnesq[ue] c <pb facs="#FacsPnr13"
+                    />sinistr&#226; parte Rheni sitis, absqu&#233; ull&#226; reserva- <lb/>tione cum
+                    omnimod&#226; jurisdictione et superio- <lb/>ritate, Supremoq[ue] Dominio &#224;
+                    mod&#242; in perpetuum <lb/>ad Regem Christianissimum ejusq[ue] Successores
+                    <lb/>pertineat et Coron&#230; Galli&#230; incorporata intelliga- <lb/>tur,
+                    absq[ue] C&#230;saris, Imperij vel cujuscunq[ue] alte- <lb/>rius contradictione.
+                    Ad cujus cessionis alie- <lb/>nationisve majorem validitatem, Imperator et Im-
+                    <lb/>perium vigore pr&#230;sentis transactionis express&#232; <lb/>derogant
+                    omnibus et singulis pr&#230;decessorum Im- <lb/>peratorum Sacriq[ue] Romani
+                    Imperij decretis, <lb/>constitutionibus, statutis et consuetudinibus <lb/>etiam
+                    juramento firmatis aut inposterum firman- <lb/>dis, nominatimqu&#233;
+                    Capitulationi C&#230;sare&#230;, qua- <lb/>tenus alienatio omnimoda bonorum et
+                    jurium <lb/>Imperij prohibetur, quibus omnibus<note n="2" type="crit_app"
+                        >Nachtr&#228;glich eingef&#252;gt.</note> express&#232; renuntiant,
+                    <lb/>dictamqu&#233; Urbem, un&#226; cum Magistratibus, Of- <lb/>ficialibus,
+                    Civibus et subditis omnibus &#226; vin- <lb/>culis et sacramentis, quibus huc
+                    usqu&#233; Impe- <lb/>ratoribus et Imperio obstricta fuerat, exsol- <lb/>vunt,
+                    eamq[ue] ad subjectionem, obedientiam et <lb/>fidelitatem Regi Christianissimo
+                    ejusqu&#233; Suc- <lb/>cessoribus pr&#230;standam remittunt, atque ita
+                    <lb/>Regem Christianissimum in plen&#226; justaq[ue] pro- <lb/>prietate,
+                    possessione et superioritate constitu- <lb/>unt, omnibusqu&#233; in ea juribus
+                    ac pr&#230;tensioni- <lb/>bus ex nunc in perpetuum renuntiant inqu&#233;
+                    <lb/>hunc finem dictam Urbem Argentinensem ab <lb/>Imperij Matricul&#226;
+                    expungi placet. <lb/>
+                    <lb/>
+                </p>
+                <pb facs="#FacsPnr14"/>
+                <p>17 <lb/>Liberum tamen maneat omnibus et Singulis <lb/>ejus Urbis et
+                    appertinentiarum incolis, cujus- <lb/>cunq[ue] conditionis sint, qui emigrare
+                    volue- <lb/>rint, inde domicilium ali&#242;, quocunq[ue] libuerit, <lb/>un&#226;
+                    cum mobilibus bonis sine ullo impedimen- <lb/>to, detractione aut exactione,
+                    intra annum &#226; <lb/>ratihabit&#226; pace, post quinquennium ver&#242;
+                    pr&#230;sti- <lb/>tis pr&#230;standis secund&#249;m conditiones in ejus-
+                    <lb/>modi casibus illic olim usitatas transferre, <lb/>immobilia ver&#242; aut
+                    vendere, aut retinere, et <lb/>per se, vel per alios administrare. Eadem quo-
+                    <lb/>qu&#233; facultas retinendi et per se, vel alios ad- <lb/>ministrandi aut
+                    alienandi omnibus alijs Im- <lb/>perij Membris aut subditis Mediatis vel Im-
+                    <lb/>mediatis maneat, qui bona, reditus, debita, <lb/>actiones, vel jura in
+                    dict&#226; Urbe, ejusq[ue] apper- <lb/>tinentijs habent, Sive Semper
+                    retinuerint, sive <lb/>durante bello aut ante illud confiscata seu <lb/>adempta
+                    alijsq[ue] concessa fuerint, per conven- <lb/>tionem hanc restituenda,
+                    quocunq[ue] nomine <lb/>veniant, aut ubicunqu&#233; degant. Salva etiam <lb/>sit
+                    jurisdictio Ecclesiastica ijs, ad quos anti- <lb/>quitus spectavit, nec eam,
+                    ejusve exercitium <lb/>impedire unqu&#224;m liceat. </p>
+                <p>18 <lb/>Vicissim S[acra] R[egia] Maj[es]tas Christianissima restituet <lb/>cum
+                    omnibus juribus et dependentijs intra <lb/>triginta <lb/>
+                </p>
+                <pb facs="#FacsPnr15"/>
+                <p>triginta dies &#226; commutatis ratificationum <lb/>formulis S[acr&#230;]
+                    C&#230;sare&#230; Maj[esta]ti et Imperio muni- <lb/>mentum Kehl &#226; se
+                    exstructum in dextr&#226; Rheni <lb/>parte situm integrum. Munimentum ver&#242;
+                    de <lb/>la Pile, caeteraq[ue] in ipso Rheno seu Rheni Insu- <lb/>lis exstructa
+                    intra Mensem sequentem aut citi&#249;s, <lb/>si fieri poterit, Sumptibus Regis
+                    Christianissi- <lb/>mi solo plan&#232; &#230;quabuntur, &#226; neutr&#226; parte
+                    post <lb/>hac re&#230;dificanda. Fluminis autem navigatio <lb/>aliusve usus
+                    utriusq[ue] partis subditis aut qui <lb/>ali&#226;s illac commeare, navigare aut
+                    merces <lb/>transvehere volent, &#230;qu&#233; patebit: nec quicquam <lb/>ab
+                    alterutr&#226; parte illic aut alibi unquam fiet, <lb/>quo flumen divertatur,
+                    aut ejus cursus seu <lb/>navigatio aliusve usus difficilior qu&#226;vis ratio-
+                    <lb/>ne reddatur, mult&#242; min&#249;s nova telonia, porto- <lb/>ria, aut
+                    pedagia exigentur, aut vetera augebun- <lb/>tur, navesve, qu&#230; transeunt, ad
+                    unam magis <lb/>qu&#224;m alteram ripam appellere, aut onera, seu <lb/>merces
+                    exponere, vel recipere cogentur, sed id <lb/>libero cujusq[ue] arbitrio relinqui
+                    semper debebit. </p>
+                <p>19 <lb/>Cedit quoqu&#232; S[acra] R[egia] Maj[es]tas Christianissima Sacr&#230;
+                    <lb/>C&#230;sare&#230; Maj[esta]ti et Serenissim&#230; Domui Austri-
+                    <lb/>ac&#230; Urbem et Arcem Friburgensem, nec non For- <lb/>talitium S[anc]ti
+                    Petri, Fortalitium item Stell&#230; nun- <lb/>cupatum, et qu&#230;cunq[ue] alia
+                    munimenta ibidem aut <lb/>
+                </p>
+                <pb facs="#FacsPnr16"/>
+                <p>alibi per Sylvam Hercyniam vel reliquum <lb/>Brisgowi&#230; districtum noviter
+                    erecta, aut res- <lb/>taurata, instatu, quo nunc sunt, absque ull&#226;
+                    <lb/>demolitione aut deterioratione, cum villis <lb/>Lehen, Metzhausen, et
+                    Kirchzart, cumq[ue] omni <lb/>jure, pro ut S[u&#230;] Regi&#230; Maj[esta]ti per
+                    pacem Neoma- <lb/>gensem cessa aut ab illa possessa et exercita <lb/>fuerunt,
+                    uti et Archivo, omnibusq[ue] scriptu- <lb/>ris seu documentis literarijs tempore
+                    occupa- <lb/>tionis illic repertis, sive ibi adhuc exstent; <lb/>sive aliorsum
+                    translata sint, jure di <pb facs="#FacsPnr17"/>ullo tempore re&#230;dificanda.
+                    C&#230;ter&#249;m eadem <lb/>libertas Brisaco migrandi h&#238;c repetita cen-
+                    <lb/>sebitur, qu&#230; ratione Urbis Argentina conven- <lb/>ta est. </p>
+                <p>21 <lb/>Pr&#230;fata loca, Urbes, Castra et fortalitia cum <lb/>omni districtu,
+                    appertinentijs et, dependentijs <lb/>Sacr&#230; C&#230;sare&#230; Maj[esta]ti
+                    &#226; S[acra] Regi&#226; Maj[esta]te Christianis- <lb/>sim&#226; retrocessa
+                    restituantur et tradantur absq[ue] <lb/>omni reservatione, exceptione aut
+                    retentione bo- <lb/>n&#226; fide et sine ull&#226; dilatione, Impedimento
+                    <lb/>vel pr&#230;textu, ijs, qui post ratihabitas pacis ta- <lb/>bulas &#226;
+                    S[acra] C&#230;sare&#226; Maj[esta]te ad id constituti et <lb/>specialiter
+                    deputati fuerint, e&#226;que de re Locorum <lb/>evacuandorum pr&#230;fectis,
+                    Gubernatoribus aut Of- <lb/>ficialibus Gallicis fidem fecerint, ita ut
+                    dict&#230; Ur- <lb/>bes, arces, fortalitia et Loca cum omnibus pr&#230;-
+                    <lb/>rogativis, utilitatibus, proventibus et emolu- <lb/>mentis ac
+                    quibuscunqu&#233; ibidem comprehensis, <lb/>in jus, possessionem actualem et
+                    omnimodam po- <lb/>testatem ac Superioritatem S[acr&#230;] C&#230;sare&#230;
+                    Maj[esta]tis <lb/>et Dom&#251;s Austriac&#230; redeant, et apud eandem
+                    <lb/>perpetuis temporibus permaneant quemadmo- <lb/>dum antehac ad eam
+                    spect&#226;runt, et &#226; S[acra] Regi&#226; <lb/>Maj[esta]te Christianissima
+                    hactenus possessa fu&#234;re <lb/>nihilq[ue] omnino juris aut pr&#230;tensionis
+                    in Loca <lb/>pr&#230;fata et eorum districtus Coron&#230; Galli&#230; <lb/>
+                </p>
+                <pb facs="#FacsPnr18"/>
+                <p>remansisse, aut reservatum fuisse, intelligatur. <lb/>Nec quicquam porro exigatur
+                    pro sumptibus et <lb/>expensis in munimenta aut alia &#230;dificia pub-
+                    <lb/>lica vel privata insumptis, nec ali&#226; quacun- <lb/>que de caus&#226;
+                    retardetur restitutio plenaria <lb/>intra triginta dies &#226; pace
+                    ratihabit&#226; execu- <lb/>tioni demandanda, ade&#242; ut pr&#230;sidia Gallica
+                    <lb/>inde protinus abducantur, absqu&#233; omni mo- <lb/>lesti&#226;, damno vel
+                    gravamine civibus et jn- <lb/>colis, aut aliis quibuscunq[ue] subditis Austria-
+                    <lb/>cis titulo debitorum aut pr&#230;tensionum qua- <lb/>rumlibet inferendo.
+                    Nequ&#233; fas sit Militi&#230; <lb/>Gallic&#230; in Locis evacuandis, aut alijs
+                    quibus- <lb/>vis ad S[acram] Regiam Maj[esta]tem Christianissimam non
+                    <lb/>spectantibus diuti&#249;s commorari, hyberna, vel <lb/>stationes figere,
+                    sed in proprias Coron&#230; Gal- <lb/>li&#230; ditiones illico commigrare
+                    teneantur. </p>
+                <p>22 <lb/>E&#226;dem ratione reddetur S[acr&#230;] C&#230;sare&#230; Maj[esta]ti
+                    <lb/>Sacroq[ue] Romano Imperio Philippiburgum ill&#230;- <lb/>sum cum munimentis
+                    ei in dextr&#226; parte Rheni <lb/>junctis, omnibusq[ue] tormentis bellicis,
+                    qu&#230; <lb/>tempore ultim&#230; occupationis ibidem extite- <lb/>runt,
+                    Episcopatus Spirensis jure undiquaqu&#233; <lb/>reservato, atqu&#233; eo nomine
+                    articulus Quartus <lb/>Instrumenti Pacis Neomagensis express&#232; repe-
+                    <lb/>titus habebitur. Munimentum ver&#242;, quod in <lb/>
+                </p>
+                <pb facs="#FacsPnr19"/>
+                <p>sinistr&#226; rip&#226; &#230;dificatum est, un&#226; cum ponte <lb/>&#226; Rege
+                    Christianissimo post occupationem fac- <lb/>to, destruetur. </p>
+                <p>23 <lb/>Curabit Rex Christianissimus suis impensis <lb/>solo &#230;quari
+                    munimenta &#232; regione Hunning&#230; <lb/>in dextr&#226; rip&#226; et in
+                    jnsul&#226; Rheni extructa, fun- <lb/>do cum &#230;dificijs Domui Badensi
+                    reddendo: <lb/>pons quoqu&#233; illic Rheno superstructus de- <lb/>struetur. </p>
+                <p>24 <lb/>Destruendum similiter munimentum, quod in <lb/>dextr&#226; parte Rheni
+                    &#230;dificatum est &#232; regione <lb/>fortalitij, Fort Louis nuncupati, ipso
+                    fortali- <lb/>tio et jnsul&#226; penes Regem Christianissimum <lb/>remanentibus:
+                    Solum ver&#242; munimenti destruc- <lb/>ti Domino Marchioni Badensi cum
+                    &#230;dificijs <lb/>restituendum. Destruetur etiam ea pontis <lb/>pars, qu&#230;
+                    illuc ab Insul&#226; pertingit, &#226; neutr&#226; <lb/>parte deinceps
+                    reparanda. </p>
+                <p>25 <lb/>Demolienda pr&#230;tere&#224; &#226; Rege Christianissimo <lb/>
+                </p>
+                <pb facs="#FacsPnr20"/>
+                <p>munimenta post pacem Neomagensem Castro <lb/>Trarbacensi addita, nec non
+                    fortalitium Mont- <lb/>royal ad Mosellam, &#226; o posthac re&#230;difi-
+                    <lb/>canda, relict&#226; tamen in pristino statu Arce <lb/>Trarbacensi et
+                    un&#226; cum Urbe et appertinen- <lb/>tijs prioribus possessoribus plenari&#232;
+                    restitu- <lb/>end&#226;. </p>
+                <p>26 <lb/>Eadem quoq[ue] demoliendi ratio obtineat in <lb/>munimentis Arci
+                    K&#252;rburgensi &#226; Rege Chris- <lb/>tianissimo additis: post qu&#230;
+                    destructa, arx <lb/>hac cum integr&#226; relict&#226; urbe Kirn non min&#249;s
+                    <lb/>ac reliqua ad Principem Salmensem ejusqu&#233; <lb/>Agnatos, Rhein[gravios]
+                    et Wildgravios spectantia <lb/>bona, nominatim etiam Principatus Salmen-
+                    <lb/>sis, c&#230;teraqu&#233; illis reddentur, eodem omnin&#242; <lb/>modo et
+                    jure possidenda, quo ea ante destitu- <lb/>tionem possederunt et pace hac
+                    conventum est. </p>
+                <p>27 <lb/>Idem etiam de destruendis novis Munimentis <lb/>Arci Eberenburgensi
+                    &#226; Rege Christianissimo <lb/>adjectis, e&#226;q[ue] Baronibus de Sickingen
+                    cum <lb/>reliquis ad illos spectantibus bonis ab utr&#226;- <lb/>qu&#233; parte
+                    reddendis cautum esto. <lb/>C&#249;m <lb/>
+                </p>
+                <pb facs="#FacsPnr21"/>
+                <p>28 <lb/>Cum Dominus Dux Lotharingi&#230; hoc in bello <lb/>cum Sacr&#226;
+                    C&#230;sare&#226; Majestate conjunctus sit, <lb/>et pr&#230;senti tractatu
+                    comprehendi voluerit, resti- <lb/>tuetur pro se, h&#230;redibus et Successoribus
+                    Suis <lb/>in liberam et plenariam possessionem eorum Statu- <lb/>um, Locorum et
+                    bonorum, qu&#230; Patruus ejus Dux <lb/>Carolus anno Millesimo Sexcentesimo
+                    Septuage- <lb/>simo /:c&#249;m &#226; Christianissimi Regis armis occu-
+                    <lb/>pata fuerunt:/ possidebat, exceptis tamen muta- <lb/>tionibus, articulis
+                    sequentibus explanandis. </p>
+                <p>29 <lb/>Restituet inprimis S[acr]a R[egi]a Maj[es]tas Christianissima <lb/>Domino
+                    Duci Urbem Veterem et Novam Nancei <lb/>cum omnibus appertinentijs, cumq[ue]
+                    tormentis <lb/>bellicis, qu&#230; in urbe Veteri tempore occupatio- <lb/>nis
+                    reperta fuerunt, e&#226; tamen conditione; ut in- <lb/>tegris relictis omnibus
+                    vallis et propugnacu- <lb/>lis urbis Veteris, uti et portis Urbis Nov&#230;,
+                    <lb/>hujus valla et propugnacula non min&#249;s ac om- <lb/>nia utriusq[ue]
+                    munimenta exteriora, impensis <lb/>S[acr&#230;] Regi&#230; Maj[esta]tis solo
+                    plan&#232; &#230;quentur, o dein- <lb/>ceps tempore<note n="3" type="crit_app"
+                        >Nachtr&#228;glich eingef&#252;gt.</note> reparanda, nisi qu&#242;d
+                    D[omi]nus Dux ejusve Successo- <lb/>res Urbem Novam Simplici et &#230;quali muro
+                    absq[ue] angulis <lb/>claudere possint, quandocunq[ue] libuerit. <lb/>
+                    <lb/>
+                </p>
+                <pb facs="#FacsPnr22"/>
+                <p>30 <lb/>Evacuabit quoqu&#233; S[acra] R[egia] M[ajestas] Christianis- <lb/>sima
+                    Castrum Bitsch cum omnibus appertinen- <lb/>tijs, uti et Castrum Homburg
+                    destructis pri&#249;s <lb/>munimentis, ampli&#249;s non reparandis, ita tamen,
+                    <lb/>ut ipsis Castris, et qu&#230; illis juncta sunt, oppi- <lb/>dis um damnum
+                    inferatur, sed ea omnin&#242; <lb/>ill&#230;sa conserventur. </p>
+                <p>31 <lb/>Suffragabuntur porr&#242; D[omi]no Duci omnia de Unio- <lb/>nibus seu
+                    reunionibus Articulo quarto statu- <lb/>ta, ac si h&#238;c verbotenus repetita
+                    essent, ubicun- <lb/>que aut quomodocunq[ue] fact&#230; seu decret&#230;
+                    fuerint. </p>
+                <p>32 <lb/>Reservat sibi ver&#242; S[acra] Regia Maj[es]tas Christianis- <lb/>sima
+                    Fortalitium Saarlo&#252;is cum dimidi&#226; Leuc&#226; <lb/>in circuitu, &#226;
+                    Commissarijs Regijs et Lotharingicis <lb/>designanda, cumq[ue] omni
+                    Superioritatis et Supre- <lb/>mi Dominij jure perpetu&#242; possidendum. </p>
+                <p>33 <lb/>Urbs quoq[ue] et Pr&#230;fectura Longwicensis un&#226; cum <lb/>suis
+                    pertinentijs et dependentijs, cum omni Supe- <lb/>rioritate, Supremo Dominio et
+                    proprietate maneat <lb/>in perpetuum penes Dominum Regem Christianissi- <lb/>mum
+                    ejusq[ue] h&#230;redes et Successores: nihilqu&#233; <lb/>juris <lb/>
+                </p>
+                <pb facs="#FacsPnr23"/>
+                <p>juris imposterum in ijs pr&#230;tendere possit D[omi]nus Dux <lb/>ejusq[ue]
+                    h&#230;redes et Successores: sed in pr&#230;dict&#230; <lb/>urbis et
+                    pr&#230;fectur&#230; permutationem Sua Sacra<note n="4" type="crit_app"
+                        >Nachtr&#228;glich eingef&#252;gt.</note> Regia Ma- <lb/>jestas
+                    Christianissima aliam D[omi]no Duci cedet, in <lb/>uno ex tribus Episcopatibus
+                    ejusdem amplitu- <lb/>dinis et valoris pr&#230;fecturam, de qu&#226; bon&#226;
+                    fi- <lb/>de inter eosdem Commissarios conveniet: e&#226;q[ue] <lb/>Sic
+                    cess&#226; et in D[omi]num Ducem &#226; Rege Christianis- <lb/>simo
+                    translat&#226;, tam ipse Dux, qu&#224;m ipsius <lb/>h&#230;redes et Successores
+                    fruentur in perpetu- <lb/>um cum omnimodis superioritatis, supremi <lb/>dominij
+                    et proprietatis juribus. </p>
+                <p>34 <lb/>Pateat semper Regio militi ad loca limitanea <lb/>pergenti aut inde
+                    redeunti sine obstaculo aut <lb/>impedimento transitus innoxius per ditionem
+                    <lb/>D[omi]ni Ducis, pr&#230;vi&#226; tamen semper notificatione
+                    <lb/>tempestiv&#226;, et ut transiens miles non eva- <lb/>getur, nec diverticula
+                    qu&#230;rat, sed vi&#226; ordina- <lb/>ri&#226; et brevissim&#226; utatur, et
+                    iter absqu&#233; mor&#226; <lb/>debit&#232; acceleret, am vim, umq[ue] dam-
+                    <lb/>num locis vel subditis Ducis inferat, annonamq[ue] <lb/>ac necessaria
+                    &#226; Commissarijs Lotharingicis sub- <lb/>ministranda parat&#226; pecuni&#226;
+                    solvat, abolitis vi- <lb/>cissim et in potestatem D[omi]ni Ducis sine exceptione
+                    <lb/>plen&#232; redeuntibus vijs et locis, qu&#230; S[acr]&#230; Regi&#230;
+                    <lb/>Maj[esta]ti Christianissim&#230; per pacem Neomagensem <lb/>reservata
+                    fuerunt. <lb/>
+                </p>
+                <pb facs="#FacsPnr24"/>
+                <p>35 <lb/>Beneficia Ecclesiastica usqu&#233; ad diem pr&#230;sentis
+                    <lb/>tractat&#251;s &#226; Rege Christianissimo collata, penes <lb/>modernos
+                    possessores, qui ea &#226; S[acr]&#226; Regi&#226; Maj[esta]te <lb/>consecuti
+                    sunt, quieta relinquantur. </p>
+                <p>36 <lb/>Sancitum pr&#230;tere&#224; fuit, ut omnes processus, <lb/>Sententi&#230;
+                    atq[ue] decreta lata per Consilium, judi- <lb/>ces aut alios Regi&#230;
+                    Maj[esta]tis Christianissim&#230; Offi- <lb/>ciales in controversijs et
+                    actionibus ad finem <lb/>perductis, tam inter Subditos Ducat&#251;s Lotharin-
+                    <lb/>gi&#230; et Barri, quam alios, tempore, quo Rex Chris- <lb/>tianissimus
+                    hosce status possedit, locum habeant, <lb/>atq[ue] plenum integrumq[ue] suum
+                    sortiantur effec- <lb/>tum, non secus, ac si S[acra] Regia Maj[es]tas eorum
+                    <lb/>possessor mansisset, neq[ue] dictas sententias <lb/>et decreta in dubium
+                    vocare, anare, aut ex- <lb/>ecutionem illorum retardare aut impedire inte-
+                    <lb/>grum erit. Partibus quidem licitum erit juxta <lb/>ordinem et dispositionem
+                    legum atque constitu- <lb/>tionum confugere ad revisionem actorum, inte-
+                    <lb/>rim tamen sententi&#230; suo in robore et vigore maneant. </p>
+                <p>&nbsp;37 <lb/>Restituentur mox &#226; ratihabit&#226; pace D[omi]no Duci
+                    <lb/>archiva et documenta literaria, qu&#230; in Gazo- <lb/>philacio Nanceano et
+                    Barrensi, atq[ue] in utr&#226;qu&#233; <lb/>&nbsp;&nbsp;&nbsp;&nbsp;Camera <lb/>
+                </p>
+                <pb facs="#FacsPnr25"/>
+                <p>Camer&#226; Computorum sive alibi locorum habeban- <lb/>tur et ablata fuerunt. </p>
+                <p>&nbsp;&nbsp;38 <lb/>Poterit statim &#226; ratihabit&#226; pace D[omi]nus Dux in
+                    <lb/>Ducatus Lotharingi&#230; et Barri Commissarios mit- <lb/>tere, qui rebus
+                    illius attendant, justitiam ad- <lb/>ministrent, teloniorum, Salinarum,
+                    aliorumqu&#233; <lb/>jurium curam gerant, cursum publicum dispo- <lb/>nant,
+                    c&#230;teraqu&#233; agant, qu&#230; ad Regimen &#226; D[omi]no <lb/>Duce eodem
+                    tempore plen&#232; Suscipiendum pertinere <lb/>queant. </p>
+                <p>39 <lb/>Ratione vectigalium seu teloniorum, eorumve <lb/>immunitatis in
+                    vectur&#226; salis et Lignorum, <lb/>sive terr&#226;, sive per flumina, servetur
+                    status <lb/>seu consuetudo anni 1670 &#226; innovatione permiss&#226;. </p>
+                <p>40 <lb/>Maneat antiquus usus et libertas commerciorum <lb/>inter Lotharingiam et
+                    ditionem Metensem Tullen- <lb/>sem et Virodunensem, mutuoq[ue] utriusq[ue]
+                    partis <lb/>beneficio imposterum exact&#232; servetur. <lb/>
+                </p>
+                <pb facs="#FacsPnr26"/>
+                <p>41 <lb/>Serventur similiter in pristino suo vigore et <lb/>robore concordata
+                    ill&#230;sa inter Christianissi- <lb/>mos Reges et Duces Lotharing&#230; inita. </p>
+                <p>42 <lb/>Domino Duci ejusq[ue] Fratribus post restitu- <lb/>tionem.integrum erit,
+                    jus, quod sibi in diversis <lb/>causis competere asserunt, vi&#226;
+                    Ordinari&#226; per- <lb/>sequi, non obstantibus Sententijs, qu&#230; ipsis ab-
+                    <lb/>sentibus et non audictis lat&#230; dici possint. </p>
+                <p>43 <lb/>In ijs, qu&#230; hic aliter express&#232; conventa non sunt
+                    <lb/>observentur quoqu&#233; ratione D[omi]ni Ducis ejusqu&#233; <lb/>ditionum
+                    et Subditorum ea, qu&#230; hoc tractatu <lb/>maxim&#232; &#167;. Restituentur
+                    Utriusque partis Vasal- <lb/>li &#167;. Simulatq[ue] Instrumentum pacis et
+                    &#167;. Et <lb/>ut ad Subditos cauta sunt, ac si h&#238;c specia- <lb/>tim
+                    enuntiata essent. </p>
+                <p>44 <lb/>Dominus Cardinalis de F&#252;rstenberg restituetur <lb/>in omnia jura,
+                    bona feudalia ac Allodialia, <lb/>beneficia, honores et pr&#230;rogativas,
+                    qu&#230; Sacri <lb/>Imperij Principibus et Membris competunt, tam <lb/>ratione
+                    Episcopat&#251;s Argentoratensis &#226; dextr&#226; <lb/>
+                </p>
+                <pb facs="#FacsPnr27"/>
+                <p>parte Rheni qu&#224;m Abbati&#230; Staveloensis, ali&#226;sve,
+                    <lb/>frueturqu&#233; cum Agnatis seu Cognatis, qui illi <lb/>adh&#230;serunt, et
+                    domesticis, plen&#226; amnesti&#226; et Se- <lb/>curitate omnium factorum
+                    dictorumq[ue] et quorum- <lb/>libet contra illum illosve decretorum, nec ipse,
+                    <lb/>illiusqu&#233; h&#230;redes, aut Agnati seu Cognati et <lb/>domestici, ob
+                    h&#230;reditatem defuncti D[omi]ni Electo- <lb/>ris Maximiliani Henrici &#226;
+                    Dominis Electori- <lb/>bus Coloniensi et Bavari&#230;, eorumqu&#233;
+                    h&#230;redibus <lb/>aut quibuscunqu&#233; alijs conveniri unqu&#224;m po-
+                    <lb/>terunt, uti nec vicissim ex ill&#226; h&#230;reditate seu <lb/>ob Legata
+                    sibi relicta vel res donatas D[omi]nus Car- <lb/>dinalis ejusqu&#233; Agnati seu
+                    Cognati et domesti- <lb/>ci, aut causam ab ijs habentes quicquam quo- <lb/>vis
+                    modo &#226; D[omi]nis Electoribus alijsqu&#233; petere <lb/>debebunt, omni jure,
+                    pr&#230;tensione seu actione <lb/>personali ac reali penitus extinct&#226;.
+                    E&#226;dem <lb/>Amnesti&#226; et Securitate gaudebunt, eodemqu&#233; <lb/>omnino
+                    jure utentur ex Canonicis Coloniensibus <lb/>ij, qui partes illius Secuti et
+                    Canonicatibus dignitatibus<note n="5" type="crit_app">Nachtr&#228;glich
+                        eingef&#252;gt. </note> ac <lb/>beneficijs privati fuerunt,
+                    restituenturqu&#233; cum <lb/>omnibus Canonicorum, beneficiorum et dignita-
+                    <lb/>tum juribus in eum Capituli Cathedralis et Col- <lb/>legiatarum Ecclesiarum
+                    locum et ordinem, quo <lb/>ante depositionem fuerunt, ita tamen, ut rediti-
+                    <lb/>bus penes modernos possessores manentibus, hi <lb/>&#230;qu&#232; ac
+                    restituti communibus dignitatum et <lb/>beneficiorum titulis et functione,
+                    priore tamen <lb/>
+                    <lb/>
+                </p>
+                <pb facs="#FacsPnr28"/>
+                <p>loco restitutis delato, fruantur, post possesso- <lb/>rum ver&#242; obitum aut
+                    voluntariam resignatio- <lb/>nem, restituti soli dignitates et reditus protinus
+                    <lb/>occupent, intere&#224; quoqu&#233; pro ordine, quem inter se <lb/>habent,
+                    singuli novas pr&#230;bendas proxim&#232; vaca- <lb/>turas, consequantur.
+                    H&#230;cque etiam superio- <lb/>ribus Ecclesiasticis, ad quos res pertinet,
+                    grata <lb/>fore atenus dubitatur. H&#230;redes quoqu&#233; <lb/>illorum
+                    Canonicorum, qui pariter destituti du- <lb/>rante bello decesserunt, quorumq[ue]
+                    bona, reditus <lb/>et jura sequestrata aut Fisco addicta fuerunt, <lb/>in hisce
+                    recuperandis beneficio &#167;.i Restituentur <lb/>omnes utriusque partis
+                    Vasalli........ plen&#232; gaude- <lb/>bunt, e&#226; expresse addit&#226;
+                    conditione, ut Legata <lb/>&#226; defunctis ad pias causas relicta juxta eo-
+                    <lb/>rum dispositionem ex censibus assignatis abs- <lb/>qu&#233; mor&#226;
+                    solvantur. </p>
+                <p>45 <lb/>Amnesti&#226; quoq[ue] comprehendantur specialiter <lb/>Landgravij
+                    Hassi&#230; Rheinfelsenses et in eum sta- <lb/>tum, quo ad arcem Rheinfels
+                    totumqu&#233; Comita- <lb/>tum Inferiorem Cattime libocensem cum omnibus
+                    <lb/>juribus ac dependentijs reponantur, in quo eo- <lb/>rum pater Landgravius
+                    Ernestus ante ini- <lb/>tium hujus belli extitit, salvis tamen ubivis
+                    <lb/>juribus Domino Landgravio Hasso=Cassella- <lb/>no competentibus.
+                    <lb/>Restituentur <lb/>
+                </p>
+                <pb facs="#FacsPnr29"/>
+                <p>46 <lb/>Restituentur omnes utriusqu&#233; partis vasalli et <lb/>subditi,
+                    Ecclesiastici et s&#230;culares, corpora, <lb/>Universitates et Collegia
+                    honoribus, dignitati- <lb/>bus et beneficijs, quibus ante bellum gaude-
+                    <lb/>bant, uti et in omnia jura, bona, mobilia et im- <lb/>mobilia, census
+                    quoqu&#233; seu reditus etiam qui <lb/>redimi possunt, et qui vit&#226;
+                    terminantur /:dum- <lb/>modo sors extincta non sit:/ tempore et occasione
+                    <lb/>belli occupata seu detenta, un&#226; cum juribus, ac- <lb/>tionibus et
+                    successionibus, qu&#230; ipsis durante <lb/>bello evenerint, ita tamen, ut nihil
+                    ratione fruc- <lb/>tuum seu proventuum post occupationem seu de- <lb/>tentionem
+                    ad diem usq[ue] ratihabit&#230; pacis percep- <lb/>torum, aut pensionum cessarum
+                    petere possint. <lb/>Similiter peti ampli&#249;s non poterunt debita, merces
+                    <lb/>et mobilia tempore et ratione belli Fisco addicta <lb/>vel authoritate
+                    public&#226; in alios usus conversa, <lb/>ade&#242;q[ue] nec creditores ejusmodi
+                    debitorum, nec <lb/>Domini earum mercium aut mobilium, eorumq[ue] h&#230;-
+                    <lb/>redes aut causam ab ijs habentes, ea persequi, <lb/>aut restitutionem seu
+                    satisfactionem pr&#230;tende- <lb/>re unquam debebunt. Restitutiones h&#230; ad
+                    eos <lb/>quoqu&#232; extendentur, qui partes contrarias <lb/>secuti sunt, quive
+                    eo nomine suspecti fuerunt, <lb/>et quibus post pacem Neomagensem, bona, redi-
+                    <lb/>tus aut jura ide&#242; qu&#242;d alibi habitaverint, vel <lb/>homagium non
+                    pr&#230;stiterint, aut similes ob cau- <lb/>sas seu pr&#230;textus ablata
+                    fuerunt, quiqu&#233; pro- <lb/>inde virtute pacis hujus in Principis sui gra-
+                    <lb/>tiam redibunt, sicut et in pristina jura et qu&#230;- <lb/>vis <lb/>
+                    <pb facs="#FacsPnr30"/>bona, qualia h&#230;c tempore conclusionis et Sub-
+                    <lb/>scriptionis hujus tractat&#251;s fuerunt. Atqu&#233; <lb/>omnia isth&#230;c
+                    statim &#226; ratihabit&#226; pace execu- <lb/>tioni mandabuntur, non
+                    obstantibus ullis do- <lb/>nationibus, concessionibus, alienationibus,
+                    <lb/>declarationibus, confiscationibus, commissis <lb/>impensis,
+                    meliorationibus, Sententijs interlo- <lb/>cutorijs et definitivis, ex
+                    contumaci&#226; partibus <lb/>absentibus et non auditis latis, qu&#230;
+                    sententi&#230; <lb/>et res judicat&#230; &#230; erunt, et perinde habe-
+                    <lb/>buntur, ac si judicat&#230; aut pronuntiat&#230; non <lb/>essent,
+                    plen&#226; libertate et integr&#226; manente ijs om- <lb/>nibus in patriam, seu
+                    ad bona ista redeundi, atq[ue] <lb/>ijs non min&#249;s ac censibus et reditibus
+                    vel <lb/>ipsi frui, aut alibi, ubicunq[ue] ipsis visum fue- <lb/>rit, domicilium
+                    figere seu morari possint, pro- <lb/>ut elegerint, omni violenti&#226; seu
+                    coactione penit&#249;s <lb/>exclus&#226;. Tumqu&#233; fas illis erit per
+                    procuratores <lb/>non suspectos bona et reditus administrare, <lb/>ijsq[ue] uti
+                    frui, exceptis tamen beneficijs Eccle- <lb/>siasticis residentiam requirentibus,
+                    qu&#230; per- <lb/>sonaliter administrari et obiri debebunt. Om- <lb/>nibus
+                    deniqu&#233; utriusq[ue] partis subditis libera <lb/>facultas erit, bona mobilia
+                    et immobilia, census <lb/>et reditus, qu&#230; sub alterutrius ditione habent,
+                    <lb/>vendendi, permutandi, alienandi et transferen- <lb/>di, aliterve de ijs
+                    inter vivos vel per ultimam <lb/>voluntatem disponendi, ita ut quilibet, subdi-
+                    <lb/>tus vel extraneus, ea emere seu acquirere possit, &#226; <lb/>ali&#226; seu
+                    ulteriori permissione Superioris requi- <lb/>renda <lb/>
+                    <pb facs="#FacsPnr31"/>rend&#226; pr&#230;ter eam, qu&#230; hoc Articulo
+                    continetur. </p>
+                <p>47 <lb/>Si aliqua beneficia Ecclesiastica mediata vel <lb/>immediata, durante hoc
+                    bello, ab un&#226; alter&#226;ve <lb/>parte in terris seu locis sibi tunc
+                    subjectis juxta <lb/>prim&#230;v&#230; institutionis ac generalium vel parti-
+                    <lb/>cularium de ijs factorum statutorum legitimo- <lb/>rum normam aut aliam
+                    quamvis &#226; Summo Pon- <lb/>tifice canonic&#232; factam dispositionem et
+                    provisio- <lb/>nem capacibus collata fuerint, ea non minus atq[ue] <lb/>illa
+                    beneficia Ecclesiastica, qu&#230; ante pr&#230;sens bel- <lb/>lum in Locis ex
+                    h&#226;c pace restituendis tali modo <lb/>collata fuerunt, pr&#230;sentibus
+                    possessoribus relin- <lb/>quantur, ita ut nec in illorum possessione vel
+                    <lb/>legitim&#226; administratione, nec in fructuum per- <lb/>ceptione &#226;
+                    quocunq[ue] turbari aut impediri vel <lb/>eorum nomine seu caus&#226;
+                    pr&#230;terit&#226; aut pr&#230;senti <lb/>in jus vocari, conveniri, aut
+                    qu&#226;vis ratione in- <lb/>quietari seu molestari unquam possint aut de-
+                    <lb/>beant, ut tamen ea pr&#230;stent, qu&#230; sibi ratione illo- <lb/>rum
+                    beneficiorum incumbunt. </p>
+                <p>48 <lb/>Cum tranquillitatis public&#230; intersit, ut pax con- <lb/>clusa
+                    August&#230; Taurinorum 29.na Augusti 1696 <lb/>inter S[acram] Regiam
+                    Maj[esta]tem Christianissimam et <lb/>
+                </p>
+                <pb facs="#FacsPnr32"/>
+                <p>Dominum Sabaudi&#230; Ducem exact&#232; observetur, <lb/>illam quoque pace hac
+                    comprehendi et confir- <lb/>mari placuit, ut ejusdem cum pace hac vigoris
+                    <lb/>sit et perpetu&#242; maneat. Confirmantur pr&#230;ter- <lb/>e&#224;
+                    sigillatim, qu&#230; pace Westphalic&#226; et Neoma- <lb/>gensi superi&#249;s
+                    restabilit&#226; pro Domo Sabaudi- <lb/>c&#226; cauta sunt, et h&#238;c
+                    nominatim repetita cen- <lb/>sentur; ita tamen ut per factam restitutionem
+                    <lb/>Pinaroli ejusqu&#233; dependentiarum &#226; in <lb/>parte minui aut
+                    alterari queat obligatio, qua[m] <lb/>S[acra] Regia Maj[es]tas Christianissima
+                    in se suscepit, <lb/>solvendi D[omi]no Mantu&#230; Duci, quadringenta no-
+                    <lb/>naginta quatuor millia aureorum, in Liberatio- <lb/>nem D[omi]ni Ducis
+                    Sabaudi&#230;; pro ut in Instrumen- <lb/>to Westphalic&#230; pacis fusi&#249;s
+                    declaratum est. <lb/>Atqu&#233; ut ea pleni&#249;s et firmi&#249;s
+                    corroborentur, <lb/>omnes et singuli principes pacis generalis <lb/>consortes,
+                    quas inter se pro majori securitate <lb/>stipulantur sponsiones seu Guarantias,
+                    eas- <lb/>dem D[omi]no Duci Sabaudi&#230; pr&#230;stant, et ab eo vi-
+                    <lb/>cissim accipient. </p>
+                <p>49 <lb/>Redditione ver&#242; seu restitutione qu&#226;cunqu&#233; <lb/>locorum,
+                    personarum, rerum aut jurium &#226; Gal- <lb/>li&#226; fact&#226; aut facienda,
+                    redintegratis seu redin- <lb/>tegrandis nihil novi juris acquiretur. Si
+                    ver&#242; <lb/>aliorum contra illos pr&#230;tensiones fuerint, h&#230; <lb/>post
+                    <lb/>
+                </p>
+                <pb facs="#FacsPnr33"/>
+                <p>post factam restitutionem, qu&#230; proptere&#224; a- <lb/>tenus differri debet,
+                    loco convenienti proponend&#230;, <lb/>examinanda et decidend&#230; erunt. </p>
+                <p>50 <lb/>Simulatqu&#233; instrumentum pacis hujus &#226; Domi- <lb/>nis Legatis
+                    Extraordinarijs et Plenipotentia- <lb/>rijs subscriptum et Signatum fuerit,
+                    cesset omnis <lb/>cujuscunq[ue] generis hostilitas ac violentia, &#230;di-
+                    <lb/>ficiorumq[ue], vinearum et Sylvarum vastatio, aut <lb/>arborum c&#230;sio:
+                    deducanturqu&#233; illic&#242; post ra- <lb/>tihabitiones commutatas
+                    utrinqu&#233; copi&#230; ex <lb/>Locis non munitis ad alteram partem
+                    pertinentibus. <lb/>Loca ver&#242; munita ex pace hac restituenda tradan-
+                    <lb/>tur intra triginta dies &#226; ratihabit&#226; pace, aut ci-
+                    <lb/>ti&#249;s, si fieri poterit, ijs, qui pr&#230;cedentibus articu- <lb/>lis
+                    nominati sunt, vel si expressi non fuerint, <lb/>illis, qui immediat&#232; ante
+                    destitutionem in posses- <lb/>sione fuerunt, absqu&#233; ull&#225; munimentorum
+                    aut <lb/>&#230;dificiorum publicorum vel privatorum destruc- <lb/>tione, aut
+                    stat&#251;s, in quo nunc sunt, deteriora- <lb/>tione, vel quarumvis impensarum
+                    in vel ob ea <lb/>factarum repetitione, ull&#226;ve militum, aut eoru[m]
+                    <lb/>nomine vel ali&#226; de caus&#226; faciend&#226; exactio- <lb/>ne, aut
+                    rerum ad incolas spectantium vel ex hac <lb/>pace relinquendarum ablatione.
+                    Demolitio au- <lb/>tem qualiscunq[ue] destruendorum, de qu&#226; supra
+                    <lb/>convenit, absq[ue] impensis et molesti&#226; alterius <lb/>
+                </p>
+                <pb facs="#FacsPnr34"/>
+                <p>partis, minorum quidem intra Mensem, Majoru[m] <lb/>ver&#242; intra duos Menses,
+                    aut citi&#251;s, si fieri <lb/>poterit, plen&#232; perficiatur. Reddantur
+                    pr&#230;tere&#224; <lb/>bon&#226; fide statim &#226; ratificationibus commuta-
+                    <lb/>tis omnia Archiva et documenta literaria, non <lb/>ea tant&#249;m, qu&#230;
+                    ad Loca S[acr&#230;] Cesare&#230; Maj[esta]ti et <lb/>Imperio ejusq[ue] Statibus
+                    et Membris restituen- <lb/>da aut relinquenda pertinent, sed et omnia illa,
+                    <lb/>qu&#230; ex Camer&#226; et Urbe Spirensi, alibiqu&#233; in <lb/>Imperio
+                    ablata sunt, et si eorum mentio spe- <lb/>cialis in hac conventione facta non
+                    sit. Cap- <lb/>tivi quoqu&#233; utrinqu&#233; facti ratione belli plen&#230;
+                    <lb/>libertati absque lytro restituantur, maxim&#232; <lb/>ij, qui remis
+                    addicti, aut ali&#226;s ad opus publi- <lb/>cum damnati fuerunt. </p>
+                <p>51 <lb/>Et ut ad subditos utriusq[ue] partis plenior pa- <lb/>cis fructus mox
+                    pervenire possit, convenit, <lb/>ut qu&#230;cunq[ue] contributiones
+                    pecuni&#230;, frumenti, <lb/>vini, foeni, lignorum, pecudum, aut alterius
+                    <lb/>nominis, licet alterutrius Subditis jam impe- <lb/>rat&#230; aut per pacta
+                    stabilit&#230; fuerint, uti et <lb/>pabulationes omnis generis in alterutrius
+                    <lb/>ditione statim &#226; die Ratihabitionis omnin&#242; <lb/>cessent, et quod
+                    tum ex ejusmodi alijsqu&#233; con- <lb/>tributionibus, indictionibus aut
+                    exactio- <lb/>nibus residuum debebitur, penitus abolitum <lb/>
+                </p>
+                <pb facs="#FacsPnr35"/>
+                <p>sit et maneat, obsides etiam ex qu&#226;cunque cau- <lb/>s&#226; hoc bello dati
+                    aut abducti sine mor&#226; absq[ue] <lb/>&#230;re reddantur, liber&#232;qu&#233;
+                    in patriam dimittan- <lb/>tur. </p>
+                <p>52 <lb/>Redeant quoqu&#233; mox &#226; subscript&#226; pace com- <lb/>mercia
+                    inter S[acr&#230;] C&#230;sare&#230; Maj[esta]tis Imperijqu&#233; <lb/>et
+                    S[acr&#230;] Regi&#230; Maj[esta]tis Christianissim&#230;, Regniqu&#233;
+                    <lb/>Galli&#230; Subditos durante bello prohibita in <lb/>eam, qu&#230; ante
+                    bellum fuit, libertatem, fruan- <lb/>turqu&#233; utrinq[ue] omnes et singuli,
+                    nominatim <lb/>Urbium Imperialium et Emporiorum Hanseati- <lb/>corum cives et
+                    incol&#230;, terr&#226; Mariqu&#233;, plenissim&#226; <lb/>Securitate, pristinis
+                    juribus, immunitatibus, pri- <lb/>vilegijs et emolumentis, per solennes
+                    tractatus <lb/>aut vetustam consuetudinem obtentis, ulteriori <lb/>conventione
+                    post pacem remiss&#226;. </p>
+                <p>53 <lb/>Omnia per hanc pacem conventa valeant, ac per- <lb/>petu&#226; firmitate
+                    nitantur, observenturqu&#233; et exe- <lb/>cutioni mandentur, non obstantibus
+                    sed abroga- <lb/>tis et cassatis omnibus, qu&#230; contraria credi, alle-
+                    <lb/>gari, aut excogitari unquam possint, etsi talia <lb/>sint, ut eorum
+                    specialior seu amplior mentio fieri <lb/>debeat, aut abrogatio, seu anatio a seu
+                    <lb/>
+                </p>
+                <pb facs="#FacsPnr36"/>
+                <p>invalida dici posse videatur. </p>
+                <p>54 <lb/>Utriqu&#233; contrahentium parti liceat pacem hanc <lb/>ejusq[ue]
+                    observationem foederibus, munimentis in <lb/>proprio solo, extra loca tamen
+                    superi&#249;s nomina- <lb/>tim excepta, pro arbitrio extruendis et amplian-
+                    <lb/>dis, pr&#230;sidiisq[ue] et stationibus, atq[ue] alijs medijs <lb/>ad
+                    defensionem comparatis firmare: c&#249;m alijs <lb/>quoq[ue] Regibus,
+                    Principibus et Rebus publicis, <lb/>tum inprimis Sueci&#230; Regi, ceu
+                    Mediatori, &#230;qu&#233; <lb/>ac virtute pacis Westphalic&#230;, eam asserere,
+                    Sacr&#230;- <lb/>qu&#233; C&#230;sare&#230; Majestati, Imperioq[ue], et
+                    Sacr&#230; Regi&#230; <lb/>Majestati Christianissim&#230; guarantiam
+                    pr&#230;stare <lb/>semper fas erit. </p>
+                <p>55 <lb/>Et c&#249;m S[acra] C&#230;sarea Maj[es]tas Imperiumq[ue], et S[acra] Re-
+                    <lb/>gia Maj[es]tas Christianissima grato animo agnos- <lb/>cant indefessa
+                    studia et Officia, qu&#230; Serenissimus <lb/>Sueci&#230; Rex tranquillitati
+                    public&#230; reducend&#230; im- <lb/>pendit, utrinque placuit, eum cum Regnis et
+                    pro- <lb/>vincijs suis pr&#230;senti hoc tractatu omni meliori <lb/>modo
+                    nominatim comprehendi. </p>
+                <p>Porro quoq[ue] <lb/>
+                </p>
+                <pb facs="#FacsPnr37"/>
+                <p>56 <lb/>Porr&#242; quoqu&#233; S[acr&#230;] C&#230;sare&#230; Maj[esta]tis et
+                    Imperij no- <lb/>mine pace hac comprehenduntur, pr&#230;ter nomi- <lb/>nata jam
+                    Imperij Membra etiam reliqui Electo- <lb/>res, Principes, Status et Membra
+                    Imperij, in- <lb/>terqu&#233; ea sigillatim Episcopus et Episcopatus
+                    <lb/>Basiliensis, cum omnibus eorum ditionibus, pr&#230;- <lb/>rogativis et
+                    juribus: tum et tredecim Helvetio- <lb/>rum Cantones cum eorum foederatis,
+                    nomina- <lb/>tim cum Republic&#226; et civitate Genevatum et <lb/>dependentijs,
+                    Urbe et Comitatu Neocomensi <lb/>ad lacum, civitatibus S[anc]ti Galli,
+                    Mulhus&#230;, <lb/>et Bienn&#230;, Tribus ligis Rh&#230;ticis seu Grisoni-
+                    <lb/>bus, Septem Decimis Valesianis et Abbate <lb/>S[anc]ti Galli. </p>
+                <p>57 <lb/>Nomine S[acr&#230;] Regi&#230; Maj[esta]tis Christianissim&#230; com-
+                    <lb/>prehenduntur pariter tredecim Cantones Hel- <lb/>veti&#230;, eorumq[ue]
+                    Foederati, et nominatim Res- <lb/>publica Valesianorum. </p>
+                <p>58 <lb/>Includentur etiam paci omnes illi, qui ante per- <lb/>mutationem
+                    ratihabitionum, vel postea intr&#224; <lb/>sex menses ab un&#226; vel
+                    alter&#226; parte ex communi <lb/>consensu nominabuntur. <lb/>
+                </p>
+                <pb facs="#FacsPnr38"/>
+                <p>59 <lb/>Pacem hoc modo conclusam promittunt Legati <lb/>C&#230;sarei et Regij,
+                    Deputatorumq[ue] Imperij Or- <lb/>dinum Plenipotentiarij ab Imperatore, Im-
+                    <lb/>perio et Rege Christianissimo ad formam h&#238;c <lb/>mutu&#242; placitam
+                    ratihabitum et ratificationum <lb/>instrumenta intra sex septimanarum spatium
+                    <lb/>ab hodierno die computandarum, aut citius, si <lb/>fieri queat, h&#238;c
+                    reciproc&#232; commutatum iri. </p>
+                <p>60 <lb/>In quorum fidem roburqu&#233; tam C&#230;sarei, qu&#224;m <lb/>Regij
+                    Legati Extraordinarij et Plenipotentiarij, <lb/>un&#226; cum Electorum,
+                    Principum et statuum Im- <lb/>perij ad hunc actum Deputatorum Plenipoten-
+                    <lb/>tiarijs tabulas has proprijs manibus Subscrip- <lb/>serunt et sigillis suis
+                    muniverunt. Acta <lb/>h&#230;c sunt in Palatio Riswicensi in Hollan-
+                    <lb/>di&#226; Trigesim&#226; die Mensis Octobris Anno <lb/>Domini Millesimo
+                    Sexcentesimo Nonagesimo Septimo. </p>
+                <p>D.A.C. &#225; Kaunitz &nbsp;&nbsp;De Harlay Bonneuil <lb/>Henr. C. de
+                    Stratman&nbsp;&nbsp;Verjus de Crecy <lb/>J.F.L.B. &#224; Seilern &nbsp;&nbsp;De
+                    Callieres </p>
+                <p>Nomine Emi. Elector Mog[unti&#230;]&nbsp;N[omi]ne Ser[ennissi]mi Bav[ari]&#230;
+                    Elect[or] <lb/>Fridericus Baro de Schonborn <lb/>Legatus
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    de Prielmeyer
+                    <lb/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    Leg[atus] Extraord[inarius]
+                    <lb/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    &amp; Plenipot[entiarius] </p>
+                <p>Ignatius Antonius Otten <lb/>Plenipotentiarius </p>
+                <p>Georgius Wilhelmus Moll <lb/>Plenipotentiarius Mog[unti&#230;] <lb/>
+                </p>
+                <pb facs="#FacsPnr39"/>
+                <p>Nomine Domus Austriac&#230; <lb/>Franz[isc]us Rudolphus ab Halden L[iber] Baro de
+                    Trazberg &amp;c. </p>
+                <p>Nomine Magni Ordinis Teutonici Magistri <lb/>Carolus B. a. Lo&#235; ordinis
+                    Teutonici Eques </p>
+                <p>Nomine Cel[sissi]mi Principis et Episcopi Herbipolensis <lb/>Joannes Conradus
+                    Philippus Ignatius de Tastungen </p>
+                <p>Nomine Em[inentissi]mi et Cel[sissi]mi Elect[or]is Trevirensis ut Episcopi
+                    Spirensis <lb/>Joannes Henricus de Kaysersfeld plenipotentiari&#249;s. </p>
+                <p>No[min]e Cel[sissi]mi Princeps et Epi[scopi] Constantiensis <lb/>Fridericus
+                    &#224; D&#252;rheim. </p>
+                <p>Nomine Celsissimi et Rev[erendissi]mi Episcopi et Principis Hildesiensis
+                    <lb/>Carolus Paulus Zimmerman Plenipotentiarius </p>
+                <p>Nomine Serenissimi et Rev[erendissi]mi Electoris Coloniensis <lb/>tanquam
+                    Episcopi &amp; Principis Leodiensis <lb/>Joannes Conradus Norff Deputatus
+                    Plenipotentiarius </p>
+                <p>Nomine Rev[erendissi]mi et Cels[issi]mi Episcopi et Principis Monasteriensis
+                    <lb/>Ferdinandus L. Baro &#224; Plettenberg ex Lenhausen Eccl[esi&#230;]
+                    Cath[edralis] Paderb. Monast. <lb/>et Hildes. resp. Decanus et <lb/>Capit. </p>
+                <p>Nomine Serenissimi Electoris Palatini ut Ducis Neoburgici <lb/>Johannes Henricus
+                    Hetterman Plenipotentiarius. </p>
+                <p>Nomine Ser[enissimus] Ducis Wurtenbergici <lb/>Jo. Georgius Nobil de Kulpis S.
+                    Rom. I. Eques, Consil. Stat. Intimus et Consil dir[ec]t[or] <lb/>Antonius
+                    G&#252;nterus ab Heespen. Consil. in Superiori Consilio <lb/>et Plenipot.
+                    Ser[enissi]mi D[omi]ni Ducis </p>
+                <p>Nomine Serenissimi Marckionis Bade Badensis <lb/>Carolus Ferdinandus L. Baro de
+                    Plittersdorff salvo <lb/>alternationis ordine </p>
+                <p>Nomine Collegij Abbatialis Suevi&#230; <lb/>Joseph Anton Eusebius ab Halden in
+                    Neidtberg L. Baro de <lb/>Autenriedt Plenipotentiarius. </p>
+                <p>Nomine Comitum Scamni Wetteravici <lb/>Carolus Otto Comes &#224; Solms <lb/>F. C.
+                    ab Edelsheim, Consiliarius Hanoviensis, et plenipotentiarius <lb/>
+                </p>
+                <pb facs="#FacsPnr40"/>
+                <p>Nomine Liber&#230; Imperialis Civitatis Coloni&#230; Agrippin&#230; <lb/>Hermann
+                    Joseph Bullingen Syndicus et plenipotentiarius </p>
+                <p>Nomine Civitatis August&#230; Vindelicorum <lb/>Joannes Christophorus &#224;
+                    Dirheim Plenipotentiarius </p>
+                <p>Nomine Civitatis Imperialis Francofurtenses <lb/>Johannes Jacobus Muller,
+                    plenipotentiarius <lb/>Johann Melchior Lucius J. U. L. <lb/>Syndicus et
+                    Plenipotentiarius <lb/>
+                </p>
+                <pb facs="#FacsPnr41"/>
+                <p>30e Oct[ob]re 1697 &#224; Riswick <lb/>entre la Fr[ance], l <pb facs="#FacsPnr42"
+                    />Arbitrij communia intra bimestre spatium &#224; die sententi&#230;
+                    <lb/>inchoandum, communibus partium sumptibus Romam deferantur, <lb/>et summo
+                    Pontifici, tanquam super: Arbitro exhibeantur, <lb/>qu&#242; rem iterum
+                    examinandam, Delegatis neutri partium <lb/>suspectis et juratis intra binos
+                    menses comittat, hiq[ue] super <lb/>actis prioribus, &#226; ulteriore deductione
+                    partibus permiss&#226;, <lb/>intra sex menses proxim&#232; secuturos, uti dictum
+                    est, juxta <lb/>Leges et Constitutiones Imperij ultimam sententiam proferant,
+                    <lb/>o modo convellendam, sed absq[ue] ull&#226; mor&#226;, aut contradic-
+                    <lb/>tione &#226; dominis Arbitris executioni demandandam. Qu&#242;d <lb/>si
+                    alterutra pars in proponendis, deducendis aut probandis <lb/>pr&#230;tensionibus
+                    et juribus moram fecerit, licebit nihilominus <lb/>alteri parti in terminis
+                    constitutis, qui extendi nunqu&#224;m de- <lb/>bebunt, jura sua deducere, et
+                    exhibere, atq[ue] Arbitris &#230;qu&#232; ac <lb/>super Arbitro e&#226;,
+                    qu&#226; expressum est, ratione procedere, sen- <lb/>tentiamq[ue] juxta
+                    exhibita, acta, et probata pronuntiare, <lb/>et exequi. Processu tamen hoc non
+                    obstante c&#249;m ab ipsismet <lb/>partibus, t&#249;m &#226; Dominis Arbitris
+                    via amicabilis composi- <lb/>tionis tentetur, nihilq[ue] omittatur, quod ad
+                    terminandam amic&#232; <lb/>controversiam pertinere possit. C&#249;m etiam
+                    articulo pa- <lb/>cis iam allegato convenerit, ut donec h&#230;c controversia
+                    <lb/>finem accipiat, annua summa ducentarum millium<note n="8" type="crit_app"
+                        >Nachtr&#228;glich eingef&#252;gt. </note> librarum <lb/>Turonensium, seu
+                    centenorum millium florenorum Rhenen- <lb/>sium, &#226; Domino Electore
+                    Palatino, Domin&#230; Ducess&#230; Aure- <lb/>lianensi exsolvatur, ratione hujus
+                    solutionis et termini, <lb/>&#226; quo inchoare debeat, porro specialiter
+                    conventum est, <lb/>ut ista pr&#230;statio tunc demum incipiat, postquam juxta
+                    <lb/>tenorem dicti articuli mentionat&#230; inibi Ditiones et Loca <lb/>Domino
+                    Electori plenari&#232; restituta fuerint. Ut autem <lb/>Domina Ducissa
+                    Aurelianensis de solutione pr&#230;fat&#230; sum- <lb/>m&#230; tant&#242;
+                    securior esse possit, Dominus Elector tot ex <lb/>administratoribus seu
+                    collectoribus Pr&#230;fectur&#230; Germershei- <lb/>mensis aliorumq[ue] locorum
+                    Palatinorum, quot suffecerint, <lb/>ante ratihabitam pacem nominabit, qui eam
+                    Domin&#230; <lb/>
+                    <lb/>
+                </p>
+                <pb facs="#FacsPnr43"/>
+                <p>Duciss&#230;, vel ejusdem Mandatario Landavi&#230; singulis annis,
+                    <lb/>dimidi&#226; parte quovis semestri solvend&#226;, pr&#230;standam in se
+                    <lb/>suscipiant, quiq[ue] si non satisfecerint, vi&#226; juris ordinari&#226;,
+                    et <lb/>si ulterior necessitas urgeat, vel ab ipso Rege Christianissimo
+                    <lb/>executione militari ad solvendum cogi possint. Fiet autem <lb/>h&#230;c
+                    solutio e&#226; lege, et conditione, ut ea, qu&#230; ratione dic- <lb/>t&#230;
+                    annu&#230; pr&#230;stationis Domin&#230; Duciss&#230; Aurelianensi,
+                    <lb/>decisione cor&#224;m Arbitris pendente, soluta, cum pr&#230;ten-
+                    <lb/>sionibus, si qu&#230; ab Arbitris eidem adjudicarentur, compensan- <lb/>da,
+                    vel si nihil, aut min&#249;s illi deberi decideretur, restituanda <lb/>veniant;
+                    h&#230;q[ue] compensatio vel restitutio non min&#249;s, qu&#224;m <lb/>ipsa
+                    controversia per sententiam arbitralem determinetur. <lb/>Si ver&#242; Domina
+                    Ducissa Aurelianensis formul&#230; compro- <lb/>missi in exhibend&#226;
+                    designatione pr&#230;tensionum, Instructi- <lb/>one caus&#230;, et Responsione
+                    ad exhibita Palatina non sa- <lb/>tisfecerit, sed in mor&#226; fuerit, cursus
+                    dict&#230; pr&#230;stationis annu&#230; <lb/>[pro isto solum temporis
+                        spatio]<note n="9" type="crit_app">Nachtr&#228;glich eingef&#252;gt. </note>
+                    fistetur, et ad illius consolationem Dominus Elector amplius <lb/>non tenebitur;
+                    ipso caus&#230; Processu juxta eandem Compro- <lb/>missi formulam progrediente.
+                    Acta h&#230;c sunt in Palatio <lb/>Riswicensi trigesima octobris Anno millesimo
+                    sexcentesi- <lb/>mo nonagesimo septimo. </p>
+                <p>D.A.C &#224; Kaunitz &nbsp;&nbsp;De Harlay Bonneuil <lb/>Henr. C. de Stratman
+                    &nbsp;&nbsp;Verjus de Crecy <lb/>J.F.L.B &#224; Seilern &nbsp;&nbsp;De Callieres </p>
+                <p>Nomine Emi. Electoris Mog[unti&#230;] <lb/>F. Fridericus Baro &#224;
+                    Sch&#246;nborn &nbsp;No[mi]ne Ser. Bavar[i&#230;] <lb/>&nbsp;&nbsp;
+                    Legatus&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    Electoris <lb/>Ignatius Antonius
+                    Otten&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    De Prielmeyer
+                    <lb/>plenipotentiarius&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    Legat. extraord.
+                    <lb/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    &amp; Plenipot. </p>
+                <p>Georgius Wilhelmus Moll <lb/>plenipotentiarius </p>
+                <p>Nomines Dom&#251;s Austriac&#230; <lb/>Franc[iscus] Rudolph[us] ab Halden L. Baro
+                    de Trazberg &amp;c. <lb/>
+                </p>
+                <pb facs="#FacsPnr44"/>
+                <p>Nomine Magni Ordinis Teutonici Magistri <lb/>Carolus B. &#224; Loe Ordinis
+                    Teutonicis Eques </p>
+                <p>Nomine Cel[sissim]i Principis et Episcopi Herbipolensis <lb/>Joannes Conradus
+                    Philippus Ignatius de Tastungen </p>
+                <p>Nomine Em[inentissi]mi et Cels[issi]mi Electoris Trevirensis ut &lt;...&gt;<note
+                        n="10" type="crit_app">Unleserlich. </note> Episcopi Spirensis <lb/>Joannes
+                    Henricus de Kayzerzfeldt. Plenipotentiarius </p>
+                <p>Nomine Cel[sissi]me Principes et Ep[iscop]i Constantiensis <lb/>Fridericus &#224;
+                    D&#252;rheim </p>
+                <p>Nomine Celsissimi et Rev[erendissi]mi Principis et Ep[iscop]i Hildesiensis
+                    <lb/>Car[olus] Paulus Zimmerman </p>
+                <p>Nomine Serenissimi et Rev[erendissi]mi Electoris Colonientis <lb/>tanquam
+                    Episcopi er Principis Leodiensis <lb/>Joannes Conradus Norff deputatus
+                    Plenipotentiarius </p>
+                <p>Nomine R[everendissi]mi et Ces[issi]mi Episcopi et Prinicipis Monasteriensis
+                    <lb/>Ferdinandus L. Baro &#224; Plettenberg ex Lenhausen Eccl[esi&#230;]
+                    Cath[edralis] Paderb Monsat. et <lb/>Hildes. respe[vtive] Decanus et Capitularis </p>
+                <p>Nomine Serenissimi Electoris palatini in Ducis Neoburgici <lb/>Johannes Henricus
+                    Hetterman plenipotentiarius </p>
+                <p>Nomine Serenissimi Domini Marchionis Bad&#230; Badensis <lb/>Carolus Ferdinandus
+                    L. Baro de Plittersdorff salvo <lb/>alternationis ordine </p>
+                <p>Nomine Collegij Abbatialis Suevi&#230; <lb/>Joseph Anton Eusebius ab Halden in
+                    Neidtberg L. Baro <lb/>de Autenriedt, Plenipotentiarius </p>
+                <p>Nomine liber&#230; Imperialis Civitatis Coloni&#230; Agrippin&#230; <lb/>Hermann
+                    Joseph Bullingen, Syndicus et plenipotentiarius </p>
+                <p>Nomine Civitatis August&#230; Vindelicorum <lb/>Joannes Christophorus a Dirheim
+                    plenipotentiarius </p>
+                <p>Notare h&#236;c et approbare placuit verba ille locus, linea nona pagin&#230;
+                    prim&#230; superscriptas. Non minus <lb/>verbum millium, inter lineam 21 et 22
+                    pagin&#230; secund&#230; positum: Demum voces pagin&#226; terti&#226; in margine
+                    <lb/>adlitas, proisto solum temporis spatia, &#230;qu&#232; ac expunctionem
+                    verborum, et ad illius exsolutionem &lt;...&gt;<note n="11" type="crit_app"
+                        >Unleserlich.</note> Elector <lb/>amplius non tenebitur. Actam quo supra. </p>
+                <p>D.A.C. &#224; Kaunitz&nbsp;&nbsp;De Harlay de Bonneuil <lb/>Henr. C. de
+                    Stratman&nbsp;&nbsp;Verjus De Crecy <lb/>J.F.L.B. &#224; Seilern &nbsp;&nbsp;De
+                    Callieres </p>
+                <p>Johannes Henricus Hetterman <lb/>
+                </p>
+                <pb facs="#FacsPnr45"/>
+                <p>30e oct[obre] 1697 <lb/>Extrait du Protocolle de la Mediation, <lb/>tenu au
+                    Ch&#226;teau de Ryswick le 20/30 d'octobre 1697 </p>
+                <p>Sur la Signature <lb/>du &lt;...&gt;<note n="12" type="crit_app"
+                        >Unleserlich.</note> de la <lb/>part de les <lb/>Ministres des <lb/>Princes
+                    <lb/>Protestans </p>
+                <p>Sur ce qui a est&#233; raport&#233; par l'Ambassade Imperiale <lb/>&#224;
+                    Messieurs les Ambassadeurs de France, que quel- <lb/>ques uns des Estats de
+                    l'Empire de la Confession <lb/>d'Ausbourg pouvoient pas faut &lt;...&gt;<note
+                        n="13" type="crit_app">Unleserlich.</note> ordre si- <lb/>gner le
+                        &lt;...&gt;<note n="14" type="crit_app">Unleserlich.</note> paix qu'il
+                        s'ag&lt;...&gt;<note n="15" type="crit_app">Unleserlich.</note> de conclure,
+                    <lb/>&#224; cause de l'article qui regarde la Religion <lb/>&#224; la fin du
+                    &#167; 4me dudit Trait&#233;, Messieurs les <lb/>dits Ambassadeurs de France
+                    nous ont declar&#233; <lb/>que ce defaut de Signature n'empecheroit point
+                    <lb/>la conclusion de la paix, et qu'ils consentoient <lb/>que les dits Estats
+                    refusans ne laissassent pas <lb/>de jou&#239;r du benefice de la cessation
+                    d'hostilitez <lb/>durant le terme de six semaines, convenu <lb/>pour
+                    l'&#233;change des ratifications, pendant le- <lb/>quel tems ils seroient aussi
+                    obliger de declarer <lb/>soit icy ou &#224; Ratisbonne, S'ils acceptent ou
+                    <lb/>non toutes les conditions dudit Trait&#233;. Et faute <lb/>par eux de les
+                    accepter purement et simplement, <lb/>ils declaroient que la guerre continueroit
+                    contre <lb/>les refusans, non obstant m&#234;me les articles <lb/>
+                </p>
+                <pb facs="#FacsPnr46"/>
+                <p>portez dans le dit Trait&#233; en leur faveur, qui en <lb/>ce cas deviendroient
+                    caducs; la paix au surplus <lb/>demeurant reciproquement faite pour estre exe-
+                    <lb/>cut&#233;e &#224; l'&#233;gard de tous les autres Estats de <lb/>l'Empire
+                    qui l'auroient sign&#233;e et accepte&#233; </p>
+                <p>Carl Bonde &nbsp;&nbsp;N. Lillieroot <lb/>
+                </p>
+                <pb facs="#FacsPnr47"/>
+                <p>Extrait du Protocolle de la Mediation, <lb/>tenu au Chateau de Ryswyk le 30.
+                    Octobre <lb/>1697. </p>
+                <p>
+                    <lb/>Sur &lt;...&gt;<note n="16" type="crit_app">Empty note, JG</note>
+                    <lb/>du T[rait&#233;] de paix <lb/>de Riswick <lb/>entre la Fr[ance], <lb/>l </p>
+                <pb facs="#FacsPnr48"/>
+                <p>et qu'en attendant ils jou&#239;roient de la paix <lb/>comme les autres, qui
+                    alloient signer. Ce <lb/>que Messieurs les Ambassadeurs de <lb/>France ont
+                    avou&#233; en nostre presence: <lb/>Et ils y ont ajo&#251;t&#233; ce qui est
+                    contenu <lb/>dans l'Extrait du present Protocolle, <lb/>qui a est&#233;
+                    extrad&#233; aujourdhui &#224; part. </p>
+                <p>Carl Bonde &nbsp;&nbsp;N. Lillieroot <lb/>
+                </p>
+                <pb facs="#FacsPnr49"/>
+                <p>Declaration donn&#233;e le <lb/>30e Oct[ob]re 1697 &#224; Riswick <lb/>par les
+                    Med[iateu]rs au sujet <lb/>de Strasbourg </p>
+                <p>Cum pr&#230;senti pacis tractatu, ubi <lb/>Sacra Regia Majestas Suecias par-
+                    <lb/>tes Mediatoris sustinuit, haud par- <lb/>va sit facta mutatio pacificatio-
+                    <lb/>num Westphalic&#230; et Neomagen- <lb/>sis, quarum utriusq[ue] Sua Regia
+                    <lb/>Majestas juxta cum aliis supre- <lb/>mis potestatibus vindex est atq[ue]
+                    <lb/>assertor; Sua Regia Majestas ne- <lb/>cessarium existimavit, per nos infra
+                    <lb/>scriptos suos Legatos Extraordina- <lb/>rios ac Plenipotentiarios
+                    declarare, <lb/>testatumq[ue] facere, quod alt&#232; memo- <lb/>rat&#230;
+                    su&#230; Regi&#230; Majestati nihil <lb/>magis cordi fuerit, quam supra-
+                    <lb/>dictarum Pacificationum conser- <lb/>vatio, et quod Sua Regia Majestas
+                    <lb/>continuis in hunc finem Studiis ejus- <lb/>modi &#224; parte Gallia
+                    procuraverit <lb/>promissa, qu&#230; su&#230; Regi&#230; Majestati <lb/>omnem
+                    spem fecerant, per Pacis <lb/>futur&#230; tractatus intentione su&#226;
+                    <lb/>potiundi: Sicut et constat Regem <lb/>Christianissimum tales conditiones
+                    <lb/>durante <lb/>
+                </p>
+                <pb facs="#FacsPnr50"/>
+                <p>durante hoc pacis negotio proposuisse, <lb/>quarum virtute urbs Argentinensis
+                    <lb/>cum suis dependentiis Imperio relin- <lb/>qui ac Servari potuisset. Sed cum
+                    <lb/>h&#230; propositiones intra pr&#230;fixum <lb/>tempus non acceptat&#230;
+                    fuerint, et <lb/>Galla armorum suorum successu eas <lb/>postmodum immutaverit,
+                    pax quoq[ue] <lb/>cum foederatis, qui un&#224; Sponsores <lb/>erant, subsequuta
+                    sit, ita ut impe- <lb/>rator et Imperium &#232;re sua duxerint <lb/>potius amore
+                    pacis in dictas muta- <lb/>tiones consentire, quam grave in- <lb/>certumq[ue]
+                    prosequi bellum; Sacra <lb/>sua Regia Majestas confidit, neq[ue] in pr&#230;-
+                    <lb/>sens, neq[ue] in posterum vel guaranti&#230; <lb/>vel Mediationis su&#230;
+                    officiis ex hoc <lb/>capite culp&#230; quidquam imputatum <lb/>iri. <lb/>Porro
+                    cum in ipsa Tractatus con- <lb/>clusione novi quid circa Ecclesiastica <lb/>in
+                    instrumento Pacis Westphalic&#230; <lb/>stabilita exortum sit; Ea de re su&#230;
+                    <lb/>Regi&#230; Majestatis Legati Extraordi- <lb/>narii et Plenipotentiarii
+                    express&#232; <lb/>sibi reservant, mentem su&#230; Regi&#230; <lb/>Majestatis
+                    <lb/>
+                </p>
+                <pb facs="#FacsPnr51"/>
+                <p>Majestatis intra terminum com- <lb/>mutandarum ratihabitionum de- <lb/>clarare.
+                    Actum in Palatio Rys- <lb/>wicensi die 20/30 Octobris 1697. </p>
+                <p>Carl Bonde &nbsp;&nbsp;N. Lillieroot <lb/>
+                </p>
+                <pb facs="#FacsPnr52"/>
+                <p>C&#249;m Articulo 58.&#176; pacis 30.a Octobris <lb/>nuperi Imperatorem ac
+                    Imperium inter et <lb/>Regem Christianissimum conclus&#230; convene- <lb/>rit,
+                    ut intra pr&#230;fixum illic tempus ab <lb/>utr&#226;qu&#233; parte comprehensi
+                    nominentur; <lb/>nomine Sacr&#230; C&#230;sare&#230; Majestatis <lb/>et Imperij
+                    pace ist&#226; speciatim compre- <lb/>henduntur Rex Catholicus, Rex Magn&#230;
+                    <lb/>Britanni&#230;, et Foederatum Belgium, cum <lb/>omnibus regnis, provincijs,
+                    ditionibus, <lb/>juribus, vasallis et subditis: Salv&#226; <lb/>ulteriore
+                    designatione includendorum post- <lb/>hac exhibend&#226;. Actum in Palatio
+                    <lb/>Riswicensi 9.na Novembris 1697. </p>
+                <p>D.A.C. &#224; Kaunitz &nbsp;Henr. C. de Straatman &nbsp; J.F.L.B. &#224; Seilern </p>
+                <p>Nomine Emi. Elect. Mogunt.&nbsp; &nbsp;Nomine Ser[ennissi]mi&nbsp;&nbsp;
+                    No[m]i[n]e Seren. Elect. <lb/>Fridericus Baro de Schonborn &nbsp;Bavarie
+                    Elect.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    Saxoni&#230; <lb/>Legatus
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    De Prielmeyer
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    Christophorus Die-
+                    <lb/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    &nbsp;Legat.
+                    extraord.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    tericus Bo[s]e
+                    <lb/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    &nbsp;&amp; Plenipot.
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    &nbsp;Legatus </p>
+                <p>Nomine Serenissi. Electoris Brandenburgici <lb/>W. de Schmettau &nbsp;N.B... de
+                    Danckelmann <lb/>Legati Extraordi[na]rii et Plenipotentiarii <note n="17"
+                        type="crit_app">Ganz rechts, neben obigen Unterschriften.</note>
+                </p>
+                <p>Ignatius Antonius <lb/>Otten plenipotentia- <lb/>rius </p>
+                <p>Georgius Wilhelmus <lb/>Moll. plenipoten- <lb/>tiarius. </p>
+                <p>Nomine Dom&#251;s austriac&#230; <lb/>Franc. Rudolph[u]s ab Halden <lb/>L.B. de
+                    Trazberg etc. </p>
+                <p>Nomine Se[renissi]mi Magni Ordinis Teutonici Magistri <lb/>Carolus Baro &#224;
+                    Lo&#235; Ordinis Teutonici Eques <lb/>
+                    <lb/>
+                </p>
+                <pb facs="#FacsPnr53"/>
+                <p>Nomine R[everendissi]mi et Cels[issi]mi Principis et Episcopi Herbipolensis
+                    <lb/>Jo[ann]es Conradus Philippus Ignatius de Tastungen Consiliarius intimus
+                    <lb/>et aul&#230; superior Mareschiallus </p>
+                <p>Nomine Emi[nentissi]mi et Cels[issi]mi Electoris Trevirensis ut Episcopi
+                    Spirensis <lb/>Joannes Henricus de Kaysersfeldt </p>
+                <p>Nomine R[everendissi]mi et Cels[issi]mi S.R.J. Principis et Episcopi
+                    Constant[iens]is <lb/>Fridericus &#224; D&#252;rheim Consiliarius intimus et
+                    <lb/>Aul&#230; Cancellarius. </p>
+                <p>Nomine Serenissimi &amp; Rev[erendissi]mi Electoris Coloniensis tanquam
+                    <lb/>Episcopis Principis Leodiensis <lb/>Joannes Conradus Norff Deputatus
+                    Plenipotentiarius <lb/>Nomine Rev[erendissi]mi et Cels[issi]mi Epicopi et
+                    Principis Monasteriensis <lb/>Ferdinandus L. B. &#224; Plettenberg ex Lenthausen
+                    Eccl. Cath. Paderborn. <lb/>Monast. et Hildesim. respe[ctive] Decanus et
+                    Capitularis. </p>
+                <p>Nomine Serenissimi Electoris Palatini tanquam Du[cis] [Neo]burgici <lb/>Joannes
+                    Henricus Hetterman Plenipotentiarius. </p>
+                <p>Nomine Sereniss[im]i Duc. Saxo-Gothan: <lb/>Adolph. Christian. Aveman,
+                    Plenipotentiarius </p>
+                <p>&lt;...&gt;<note n="18" type="crit_app">Unleserlich. </note> Sereniss[im]i
+                    Marchunis Brandenburgo-Culmbacensis <lb/>Erdmannus L. B. de Stem. <lb/>
+                    <lb/>
+                </p>
+                <pb facs="#FacsPnr54"/>
+                <p>nomine Serenissi[morum] Ducem Brunswicensinem <lb/>et Luneburgensium Wolfenbuttel
+                    <lb/>Johan Wilhelm von Mansberg <lb/>Consiliarius bellicus et Plenipotentiarius </p>
+                <p>Nomine S[ereniss]imi Landgravii Hasso Cassellani <lb/>Wilhelm Valtejus;
+                    Plenipotentiarius. </p>
+                <p>Nomine Ser[enissi]mi Ducis Wurtenbergici <lb/>Jo. Georgius Nobil. de Kulpis
+                    S.R.I. Eques, Consiliarius status intimus et Consiliarii director. <lb/>Antonius
+                    Gunterus de Heespen Consiliarius in Con- <lb/>silio Superiori </p>
+                <p>Nomine Ducatus Holsato-Gluckstadiensis, su&#244; loc&#244; et ordine
+                    <lb/>Dethlevus Nicolaus de L&#246;wencron, Sacr&#230; Regi&#230; Majestatis
+                    <lb/>Dani&#230; Consiliarius et Plenipotentiarius </p>
+                <p>Nomine Collegii Abbatiali in Suevia. <lb/>Joseph Anton Eusebius ab Halden in
+                    Neidtberg, L. Baro <lb/>de Autenriedt. Plenipotentiarius. </p>
+                <p>Nomine Liber&#230; Imperialis Civitatis Coloni&#230; Agrippin&#230; <lb/>Hermann
+                    Joseph B&#252;llingen Sindicus et plenipotentiarius </p>
+                <p>Nomine Civitatis imperialis August&#230; <lb/>Vindelicorum Joannes Christophorus
+                    &#224; Dirheim. Plenipot. <lb/>
+                </p>
+            </div>
+        </body>
+    </text>
+</tei:TEI>

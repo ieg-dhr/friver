@@ -1,0 +1,1057 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE tei SYSTEM "../resources/FriVer_DTD.dtd">
+
+<?xml-model href="../resources/FriVer.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns="http://www.tei-c.org/ns/1.0"
+    xml:id="pa000299-0736">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title level="s">European peace treaties of the pre-modern era in data / Europäische
+                    Friedensverträge der Vormoderne in Daten (FriVer+)</title>
+                <title when="1714-06-26" xml:id="t736" when-custom="1714 VI 26" level="a"
+                    ref="https://www.ieg-friedensvertraege.de/treaty/t-736-1-de.html">Friedens- und
+                    Handelsvertrag von Utrecht</title>
+            </titleStmt>
+            <editionStmt>
+                <edition> Digital edition according to <ref target="http://www.tei-c.org/">TEI
+                        P5</ref>
+                </edition>
+                <funder>
+                    <ref target="https://www.text-plus.org/">TEXT+</ref>
+                </funder>
+                <editor role="http://id.loc.gov/vocabulary/relators/edt"
+                    ref="https://orcid.org/0000-0002-8741-5916">
+                    <persName>Jaap Geraerts</persName>
+                    <note>The transformation and enrichment of the data is done by Jaap Geraerts
+                        (IEG Mainz). The other members of the FriVer+ team are Fabian Cremer, Ines
+                        Grund, and Thorsten Wübbena (all IEG Mainz).</note>
+                    <note> The original data has been created by the <ref
+                            target="https://www.ieg-friedensvertraege.de">team of scholars</ref> who
+                        were part of the Europäische Friedensverträge der Vormoderne project. This
+                        project was lead by Prof. Dr. Heinz Duchhardt and was based at the Leibniz
+                        Institute of European History in Mainz. </note>
+                </editor>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>
+                    <orgName ref="http://www.isni.org/0000000119314040">Leibniz-Institut für
+                        Europäische Geschichte Mainz</orgName>
+                </publisher>
+                <distributor>
+                    <orgName ref="http://www.isni.org/0000000110101946">Universitäts- und
+                        Landesbibliothek Darmstadt</orgName>
+                </distributor>
+                <idno type="ISIL">http://lobid.org/organisation/DE-17</idno>
+                <date type="issued" when="2023-12-23"/>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">
+                        <p xml:lang="en">This file is licensed under the terms of the Creative
+                            Commons License CC-BY 4.0 (Attribution 4.0 International)</p>
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <repository xml:id="r17">Madrid AHN <note>Archivo Histórico Nacional Madrid,
+                        ESTADO,3367,Exp.68. Digital:<lb/>
+                        <ref target="http://pares.mcu.es/ParesBusquedas20/catalogo/show/5234909"
+                            >http://pares.mcu.es/ParesBusquedas20/catalogo/show/5234909</ref></note>
+                </repository>
+                <msDesc>
+                    <p>Spanien, Ministerio de Cultura, AHN Madrid: Estado Legajo 3367-3-68, 73
+                        (UI).</p>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p> The data in this XML file, originally created by the project <ref
+                        target="https://www.ieg-friedensvertraege.de/vertraege">Europäische
+                        Friedensverträge der Vormoderne online</ref> has been transformed in
+                    accordance with <ref target="http://www.tei-c.org/">TEI P5</ref> as part of the
+                    project <ref
+                        target="https://www.ieg-mainz.de/en/research/research-projects/european-peace-treaties-of-the-pre-modern-era-in-data"
+                        >Europäische Friedensverträge der Vormoderne in Daten (FriVer+)</ref>
+                </p>
+            </projectDesc>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="fr" xml:id="lan4">französisch</language>
+            </langUsage>
+        </profileDesc>
+    </teiHeader>
+    <standOff>
+        <listPerson>
+            <person role="signatory" xml:id="p49">
+                <persName ref="https://explore.gnd.network/gnd/4101204-5">
+                    <name>Generalstaaten</name>
+                </persName>
+            </person>
+            <person role="signatory" xml:id="p34">
+                <persName ref="https://explore.gnd.network/gnd/4055964-6">
+                    <name>Spanien</name>
+                </persName>
+            </person>
+        </listPerson>
+        <listPlace>
+            <place xml:id="loc53">
+                <placeName ref="https://explore.gnd.network/gnd/4062222-8">Utrecht</placeName>
+            </place>
+        </listPlace>
+        <facsimile>
+            <surface xml:id="FacsPnr1">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_453db5843ed6c"/>
+            </surface>
+            <surface xml:id="FacsPnr2">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_44ad7a6fd0df0"/>
+            </surface>
+            <surface xml:id="FacsPnr3">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_44ad7a8da8b38"/>
+            </surface>
+            <surface xml:id="FacsPnr4">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_44ad7aaa3daf2"/>
+            </surface>
+            <surface xml:id="FacsPnr5">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_44ad7ac50777b"/>
+            </surface>
+            <surface xml:id="FacsPnr6">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_44ad7ae1c9392"/>
+            </surface>
+            <surface xml:id="FacsPnr7">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_44ad7afb49919"/>
+            </surface>
+            <surface xml:id="FacsPnr8">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_44ad7b16ac293"/>
+            </surface>
+            <surface xml:id="FacsPnr9">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_44ad7b7ae8a63"/>
+            </surface>
+            <surface xml:id="FacsPnr10">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_44ad7b99bf774"/>
+            </surface>
+            <surface xml:id="FacsPnr11">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_44ad7bb44a06d"/>
+            </surface>
+            <surface xml:id="FacsPnr12">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_44ad7bd04ce4a"/>
+            </surface>
+            <surface xml:id="FacsPnr13">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_44ad7becf310a"/>
+            </surface>
+            <surface xml:id="FacsPnr14">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_44ad7c12a82e0"/>
+            </surface>
+            <surface xml:id="FacsPnr15">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_44ad7c2ea7df7"/>
+            </surface>
+            <surface xml:id="FacsPnr16">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_44ad7c4975516"/>
+            </surface>
+            <surface xml:id="FacsPnr17">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_44ad7c6a6a15d"/>
+            </surface>
+            <surface xml:id="FacsPnr18">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_44ad7c88d9fde"/>
+            </surface>
+            <surface xml:id="FacsPnr19">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_44ad7cbc48c5f"/>
+            </surface>
+            <surface xml:id="FacsPnr20">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_44ad7ce109276"/>
+            </surface>
+            <surface xml:id="FacsPnr21">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_44ad7cffce023"/>
+            </surface>
+            <surface xml:id="FacsPnr22">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_44ad7d202498c"/>
+            </surface>
+            <surface xml:id="FacsPnr23">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_44ad7d3e782ff"/>
+            </surface>
+            <surface xml:id="FacsPnr24">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_44ad7d5ef0ceb"/>
+            </surface>
+            <surface xml:id="FacsPnr25">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_44ad7d7dbaafc"/>
+            </surface>
+            <surface xml:id="FacsPnr26">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_44ad7d9c7723d"/>
+            </surface>
+            <surface xml:id="FacsPnr27">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_44ad7dba491ca"/>
+            </surface>
+            <surface xml:id="FacsPnr28">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_44ad7ddd0376d"/>
+            </surface>
+            <surface xml:id="FacsPnr29">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_44ad7dfc2b912"/>
+            </surface>
+            <surface xml:id="FacsPnr30">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_44ad7e1a746ac"/>
+            </surface>
+            <surface xml:id="FacsPnr31">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_44ad7e3872924"/>
+            </surface>
+            <surface xml:id="FacsPnr32">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_44ad7e580b97c"/>
+            </surface>
+            <surface xml:id="FacsPnr33">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_44ad7e7620efe"/>
+            </surface>
+            <surface xml:id="FacsPnr34">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_44ad7e95ae195"/>
+            </surface>
+            <surface xml:id="FacsPnr35">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_44ad7eb4d47e5"/>
+            </surface>
+            <surface xml:id="FacsPnr36">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_44ad7ed773fe8"/>
+            </surface>
+            <surface xml:id="FacsPnr37">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_44ad7ef84a3fa"/>
+            </surface>
+            <surface xml:id="FacsPnr38">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_44ad7f1c9fd03"/>
+            </surface>
+            <surface xml:id="FacsPnr39">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_44ad7f416ddd1"/>
+            </surface>
+            <surface xml:id="FacsPnr40">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_44ad7f5db0327"/>
+            </surface>
+            <surface xml:id="FacsPnr41">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_44ad7f7b2d770"/>
+            </surface>
+            <surface xml:id="FacsPnr42">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_44ad7f96dcb4a"/>
+            </surface>
+            <surface xml:id="FacsPnr43">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_44ad7fc45d0a9"/>
+            </surface>
+            <surface xml:id="FacsPnr44">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_44ad7fe406a97"/>
+            </surface>
+        </facsimile>
+    </standOff>
+    <text>
+        <front>
+            <div type="Drucke">
+                <p>DUM VIII/I, 427; CTS XXIX, (97), 99-128.</p>
+            </div>
+            <div type="Inhalt">
+                <p>Nach dem langen und blutigen Krieg wird zur Wiederherstellung der Ruhe folgendes
+                    vereinbart. <lb/>1.&nbsp;&nbsp; &nbsp;Fester, unverletzlicher Friede;
+                    Einstellung der Feindseligkeiten. <lb/>2.&nbsp;&nbsp; &nbsp;Generalamnestie für
+                    im Krieg begangenes Unrecht; Untertanen dürfen zu ihren Gütern zurückkehren und
+                    frei darüber disponieren. <lb/>3.&nbsp;&nbsp; &nbsp;Rückgabe aller konfiszierten
+                    Güter, ohne dass die Justiz angerufen werden muss. Freies Verfügungsrecht über
+                    diese ebenso wie über die stattdessen ausgegebenen Renten. <lb/>4.&nbsp;&nbsp;
+                    &nbsp;Bereits verkaufte, im Krieg konfiszierte Güter können über den Rechtsweg
+                    zurückgefordert werden. <lb/>5.&nbsp;&nbsp; &nbsp;Verbot der Annahme von
+                    Kaperbriefen von dem Vertragspartner verfeindeten Fürsten. <lb/>6.&nbsp;&nbsp;
+                    &nbsp;Fristregelung für Beendigung der Prisennahmen. <lb/>7.&nbsp;&nbsp;
+                    &nbsp;Nichtigkeit bestehender Kaperbriefe; Verfahren zur Einforderung
+                    zustehender Repressalien. <lb/>8.&nbsp;&nbsp; &nbsp;Untertanen dürfen nicht für
+                    Staatsschulden bzw. Schulden des Fürsten in Haft gesetzt werden.
+                    <lb/>9.&nbsp;&nbsp; &nbsp;Gegenseitige Hilfe und Unterstützung; kein
+                    Vertragsschluss gegen den anderen. <lb/>10.&nbsp;&nbsp; &nbsp;Als Grundlage des
+                    Vertrags gilt derjenige von Münster; Art. 5 + 16 des Vertrags von Münster gelten
+                    nur soweit sie die Vertragspartner und ihre Untertanen betreffen.
+                    <lb/>11.&nbsp;&nbsp; &nbsp;Freier Zugang und Handel für Untertanen und Bewohner
+                    zum Gebiet des anderen. <lb/>12.&nbsp;&nbsp; &nbsp;Erlaubnis zu Erwerb und
+                    Nutzung von Häusern und Lagerstätten; keine höheren Abgaben als Untertanen;
+                    keine Belästigung seitens der Behörden ohne triftigen Grund und nur mit
+                    Erlaubnis des Juez Conservador der vom Kaufmann alternativ zum Konsul als Zeuge
+                    der Durchsuchung angefordert werden kann; Gleichbehandlung in diesem
+                    Zusammenhang mit den Untertanen des spanischen Königs oder mit den Untertanen
+                    des am meisten begünstigten Staates. <lb/>13.&nbsp;&nbsp; &nbsp;Freier
+                    Warenverkehr im Land für alle zugelassenen Güter; Gleichbehandlung mit
+                    Untertanen bzw. Meistbegünstigungsklausel. <lb/>14.&nbsp;&nbsp; &nbsp;Keine
+                    höhere Abgaben und Steuern als Einheimische. <lb/>15.&nbsp;&nbsp;
+                    &nbsp;Öffentlicher Aushang der Abgabenlisten; der König von Spanien verspricht,
+                    den Missbrauch der Zollpächter abzuschaffen. <lb/>16.&nbsp;&nbsp; &nbsp;Auch bei
+                    Weitertransport der Waren durchs Land sind lediglich Einfuhrsteuern zu
+                    entrichten; weitere Gebühren werden nur wie von den eigenen Untertanen oder den
+                    Meistbegünstigten erhoben. <lb/>17.&nbsp;&nbsp; &nbsp;Meistbegünstigungsklausel;
+                    keine Schlechterstellung als vor dem Krieg. <lb/>18.&nbsp;&nbsp; &nbsp;Keine
+                    Festsetzung und Embargos gegen Kaufleute, deren Schiffe und Mitarbeiter, außer
+                    aufgrund persönlicher Verpflichtungen, auch nicht zu Kriegszwecken.
+                    <lb/>19.&nbsp;&nbsp; &nbsp;Freier Zugang zu den Häfen des anderen zum Schutz vor
+                    Unwettern etc. ohne Zwang abzuladen bzw. Steuerpflicht; Erlaubnis, Teil der
+                    Ladung unter Zahlung der angemessenen Zölle zu verkaufen für Reparatur oder Kauf
+                    von Lebensmitteln. <lb/>20.&nbsp;&nbsp; &nbsp;Freies Ankern in den Häfen des
+                    anderen, aber dieser Artikel muss mit Umsicht genutzt werden und es darf kein
+                    Anlass für Beschwerden gegeben werden, sei es wegen der Anzahl der Schiffe, sei
+                    es aufgrund Aufenthaltsdauer; die Schiffe dürfen überwacht werden.
+                    <lb/>21.&nbsp;&nbsp; &nbsp;Kriegsschiffe dürfen ihre Prisen frei navigieren,
+                    entladen allerdings nur mit Erlaubnis und unter Zahlung der üblichen Zölle;
+                    verbotenen Güter überhaupt nicht; kein Schutz für Schiffe aus Drittstaaten, die
+                    Prisen von dem Vertragspartner genommen haben. <lb/>22.&nbsp;&nbsp; &nbsp;Die
+                    Konsuln genießen dieselben Rechte wie früher oder wie diejenigen anderer
+                    Nationen. <lb/>23.&nbsp;&nbsp; &nbsp;Freie Wahl des Rechtsbeistands.
+                    <lb/>24.&nbsp;&nbsp; &nbsp;Bücher müssen nur im Verdachtsfall gezeigt werden;
+                    freie Sprachwahl für Führung der Bücher. <lb/>25.&nbsp;&nbsp; &nbsp;Freie
+                    Erbfolge nach Sitte des Herkunftlandes. <lb/>26.&nbsp;&nbsp; &nbsp;Alle Papiere
+                    etc. fallen an die Erben; Verfahren bei Abwesenheit der Erben.
+                    <lb/>27.&nbsp;&nbsp; &nbsp;Ausweisung von Friedhöfen in spanischen Hafenstädten
+                    für Untertanen der Generalstaaten. <lb/>28.&nbsp;&nbsp; &nbsp;Gewissensfreiheit
+                    solange kein Skandal verursacht wird. <lb/>29.&nbsp;&nbsp; &nbsp;In allen
+                    spanischen Hafenstädten wird es wie zu Zeiten Karls II. Juezes Conservadores
+                    geben und darüber hinaus in allen Städten, wo es sie für andere Nationen gibt.
+                    <lb/>30.&nbsp;&nbsp; &nbsp;Aufhebung der Kriegszölle; Gebührenerhebung wie für
+                    die meistbegünstigte Nation. <lb/>31.&nbsp;&nbsp; &nbsp;Keiner Nation wird
+                    erlaubt mit den spanischen Indien zu handeln, im Gegenteil wird der Handels
+                    wieder so wie zu Zeiten Karls II. organisiert, als er den spanischen Untertanen
+                    vorbehalten war; dabei unterstützen die Generalstaaten Spanien; ausgenommen
+                    bleibt der kürzlich mit der Königin von England abgeschlossenen Asiento de
+                    negros. <lb/>32.&nbsp;&nbsp; &nbsp;Freilassung der Kriegsgefangenen; ihre
+                    Schulden bezahlen die jeweiligen Staatsoberhäupter. <lb/>33.&nbsp;&nbsp;
+                    &nbsp;Es gilt der Marinevertrag von 1650 XII 17. <lb/>34.&nbsp;&nbsp;
+                    &nbsp;Obenstehend Vereinbartes zum Handel gilt nur für Europa, für die
+                    spanischen Indien gilt Art. 31; In den niederländischen Gebieten Ost- und
+                    Westindiens wird der Handel wie früher organisiert; auf den Kanaren wird wie zu
+                    Zeiten Karls II. gehandelt. <lb/>35.&nbsp;&nbsp; &nbsp;Wird der Vertrag aus
+                    Unachtsamkeit verletzt, bleibt er gültig, der entstandene Schaden wird
+                    repariert. <lb/>36.&nbsp;&nbsp; &nbsp;Falls es zu einem erneuten Bruch kommt,
+                    bleiben den Untertanen im Gebiet des jeweiligen Vertragspartners ein Jahr und
+                    ein Tag, ihre Effekten außer Landes zu bringen. <lb/>37.&nbsp;&nbsp;
+                    &nbsp;Verbot der Thronunion zwischen Frankreich und Spanien auf immer und ewig.
+                    <lb/>38.&nbsp;&nbsp; &nbsp;Einschluss aller Könige und Prinzen in den Vertrag,
+                    über die man Einigung erzielt. <lb/>39.&nbsp;&nbsp; &nbsp;Publikation und
+                    Registratur. <lb/>40.&nbsp;&nbsp; &nbsp;Ratifikation <lb/>
+                    <lb/>Separatartikel <lb/>
+                    <lb/>Die Botschafter des katholischen Königs werden die Angelegenheit der
+                    Schulden des Königs aufgrund der Tätigkeit des Almirantazgo in den Jahren 1677
+                    und 1678 seiner Majestät vorlegen. &nbsp; <lb/></p>
+            </div>
+            <div type="Kommentar">
+                <p>Bereits seit Amtsantritt des gesundheitlich und geistig schwächlichen Karls II.
+                    in Spanien erwartete man in Europa dessen Tod ohne Erben. Schon 1668 vereinbarte
+                    Frankreich deshalb mit Österreich in einem geheimen Vertrag die Aufteilung des
+                    spanischen Erbes. Allerdings bemühten sich die Seemächte aus Angst vor einer
+                    Gefährdung des europäischen Gleichgewichts, die Bildung einer Weltmacht durch
+                    den Fall des spanischen Reichs an Frankreich oder Österreich zu verhindern. Im
+                    ersten öffentlichen Teilungsvertrag von 1698 wurde deshalb das spanische Erbe
+                    zwischen Philipp von Anjou, Joseph Ferdinand von Bayern und Erzherzog Karl von
+                    Österreich geteilt. Als Joseph Ferdinand 1699 starb wurde in einem zweiten
+                    Vertrag das spanische Reich erneut aufgeteilt. <lb/>Allerdings setzte Karl II.
+                    in der Hoffnung, die Einheit des spanischen Reiches erhalten zu können, kurz vor
+                    seinem Tod Philipp von Anjou als Alleinerben ein. Die Proklamation des Dauphin
+                    als spanischen König durch Ludwig XIV. führte zunächst zwischen Österreich und
+                    Frankreich zum Krieg um das spanische Erbe. In der Folge ließ die französische
+                    Politik allerdings die Seemächte um politischen und wirtschaftlichen Einfluss
+                    fürchten, so dass sich eine Große Allianz zwischen den Seemächten, Österreich
+                    und den wichtigsten deutschen Fürsten bildete, die gegen ein Bündnis zwischen
+                    Frankreich, Spanien und dem Haus Wittelsbach (Portugal wechselte 1702 die
+                    Seiten) kämpfte. <lb/>Der Konflikt konnte erst beigelegt werden, als ein
+                    Machtwechsel in Großbritannien die Stimme der Friedensbefürworter stärkte, der
+                    Tod Kaiser Josephs von Österreich die Gefahr einer neuen habsburgischen
+                    Weltmacht unter dessen Nachfolger Karl VI. heraufbeschwor und Großbritannien
+                    sich über den Asiento de Negros Handelsvorteile in Spanisch-Amerika sicherte. In
+                    mehreren separaten Verträgen wurde am Friedenskongress zu Utrecht 1713/14 der
+                    Frieden wiederhergestellt und die europäischen Besitzungen Spaniens zwischen den
+                    österreichischen Habsburgern und den Bourbonen aufgeteilt. Begleitet wurden die
+                    Friedensverträge durch Handelsabkommen. <lb/></p>
+            </div>
+            <div type="Kontext">
+                <p>1665 <lb/>Thronbesteigung Karls II. von Spanien; <lb/>19.1.1668
+                    <lb/>Teilungsvertrag des spanischen Erbes zwischen Frankreich und Österreich
+                    <lb/>1693 <lb/>Karl II. setzt Joseph Ferdinand von Bayern zu seinem Erben ein
+                    <lb/>11.10.1698 <lb/>Erster Teilungsvertrag über das spanische Erbe zwischen
+                    Frankreich, Großbritannien und den Vereinigten Provinzen <lb/>Feb. 1699 &nbsp;
+                    <lb/>Joseph Ferdinand von Bayern stirbt <lb/>13./25.3.1700 <lb/>Zweiter
+                    Teilungsvertrag <lb/>2.10.1700 <lb/>Karl II. setzt Philipp von Anjou als
+                    Alleinerben ein <lb/>1.11.1700 <lb/>Karl II. stirbt kinderlos <lb/>Ludwig XIV.
+                    proklamiert seinen Enkel Philipp von Anjou zum König von Spanien <lb/>Feb. 1701
+                    <lb/>Philipp von Anjou zieht in Madrid ein und wird von Großbritannien, den
+                    Vereinigten Provinzen, Savoyen, Portugal und den wichtigsten deutschen Fürsten
+                    anerkannt <lb/>Ludwig XIV. ersetzt die Garnisonen in den Niederlanden durch
+                    französische Truppen <lb/>April 1701 <lb/>Kriegserklärung Österreichs an
+                    Frankreich &nbsp; <lb/>18.6.1701 <lb/>Allianz zwischen Frankreich, Portugal und
+                    Spanien; Übergabe des Asiento de Negros an Frankreich <lb/>6.9.1701 <lb/>Der
+                    entthronte englische König Jakob II. stirbt; Ludwig XIV. erkennt dessen Sohn als
+                    Jakob III. von England an. <lb/>7.9.1701 <lb/>Bildung der Großen Allianz
+                    zwischen den Seemächten, Österreich und einigen kleineren Staaten <lb/>1702
+                    <lb/>Kriegserklärung der Großen Allianz an Frankreich <lb/>März 1702 <lb/>Tod
+                    Wilhelms von Oranien, Königin Anne besteigt den englischen Thron <lb/>Mai 1702
+                    <lb/>Eintritt Portugals in die Große Allianz <lb/>1703 <lb/>Die Große Allianz
+                    setzt Erzherzog Karl III. von Österreich als spanischen König ein <lb/>1713
+                    <lb/>Abschluss eines Asiento de Negros mit Großbritannien <lb/>1713/1714
+                    <lb/>Friedens- und Handelsverträge von Utrecht <lb/></p>
+            </div>
+        </front>
+        <body>
+            <div type="Transliteration">
+                <pb facs="#FacsPnr1"/>
+                <p>En el nombre ŷ la Gloria de Dios. Sea <lb/>notorio a todos, que despues de una
+                    larga ŷ san- <lb/>grienta Guerra que ha aflixido los Pueblos, subditos,
+                    <lb/>Reynos ŷ Payses dela obediencia de los señores <lb/>Reŷ delas Españas, ŷ
+                    estados generales de las <lb/>Probincias unidas delos payses bajos, movidos
+                    dichos <lb/>Señores Rey, y Estados por una compasión christiana, <lb/>ŷ
+                    desseando poner fin â los calamidades publicas, <lb/>suspender las deplorables
+                    consequencias que la ultima <lb/>continuación dela dicha guerra podia causar, ŷ
+                    med- <lb/>darlas en efectos agradables de una buena ŷ sincera <lb/>Paz, ŷ en
+                    frutos perfectos de un entero ŷ firme <lb/>reposo, ŷ desseando asi mismo
+                    restablezer, conserbar, <lb/>ŷ aumentar la buena intelijencia que por tan
+                    <lb/>largo tiempo ŷ tan dichosamente havía subsistido <lb/>
+                    <lb/>
+                </p>
+                <pb facs="#FacsPnr2"/>
+                <p>entre la Corona de España, y el estado delas <lb/>Probincias unidas, en la que
+                    han tenido tanta <lb/>utilidad los subditos de una parte y otra por su
+                    <lb/>Comerzio y Navegacion, para llegár â tan buen <lb/>fin, ŷ a un logro tan
+                    desseado los dichos Señores <lb/>Rey de las Españas D[o]n Phelipe Quinto, ŷ
+                    <lb/>Estados generales delas Probincias unidas, an come- <lb/>tido y deputado
+                    por sus embajadores extraordi- <lb/>narios ŷ Plenipotenziarios, A saber, el
+                    dicho <lb/>Señor Rey â D[o]n Francisco Maria de Pavia, <lb/>Tellez Giron, Duque
+                    de Ossuna, Conde de Vrueña, <lb/>Marques de Peñafiel, Grande de España dela pri-
+                    <lb/>mera clase, camarero mayor del Reŷ Catholico, <lb/>Notario mayor en los
+                    Reynos de Castilia, Comen- <lb/>dador ŷ cabero mayor dela horden de Calatraba,
+                    <lb/>Comendador en la de [Sa]ntiago, Gentilhombre de <lb/>Camara de S[u]
+                    M[ajestad], General en sus Exercitos, ŷ <lb/>
+                    <pb facs="#FacsPnr3"/>Capitan dela primera Compania de Guardias <lb/>de Corps; Y
+                    â D[o]n Ysidro Casado de Azevedo ŷ <lb/>Rosales Marques de Monteleon, Vizconde
+                    de <lb/>Alcazar Real, del Consejo supremo delas Indias, <lb/>ŷ Gentilhombre dela
+                    Camara de S[u] M[ajestad]; Y los <lb/>dichos Señores Estados generales â los
+                    Señores <lb/>Jaques de Ramduÿk, Señor Rossem &amp;a., <lb/>Burggrave del Imperio
+                    ŷ Juez dela Ciudad de <lb/>Nimega, Guillermo Buys Consejero Pensionario
+                    <lb/>dela Ciudad de Amsterdam; Bruno Vanderdussen, <lb/>Burgo Maestre Senador ŷ
+                    Consejero pensionario dela <lb/>Ziudad de Goudé, Assesor en el Consejo delas
+                    ttemrades <lb/>de Schiceland, Dykgrave, del Crimpenerwand; <lb/>Cornelio van
+                    gheel, señor de Spanbrock Bulkstein <lb/>&amp;a. Grande Bayllio del Franco y
+                    dela villa dela &nbsp; <lb/>Esclusa superintendente delos feudos reserbados
+                    <lb/>del Burgo de Brujas dela salida del Estado; <lb/>
+                    <pb facs="#FacsPnr4"/>Federico Adrian Baron de Rheede, Señor de <lb/>Renswoude,
+                    de Vonninkhuysen, ŷ Moerkerken, <lb/>Presidente dela nobleza enlos estados dela
+                    Probinzia <lb/>de Utrecht; Siccu van, Goslinga Grietman, de <lb/>Franequeradeel,
+                    ŷ Curador dela unibersidad en <lb/>Franequer; Y Carlos Fernando Conae de
+                    Ynhuysen <lb/>ŷ de Kniphuysen, señor de Vredewolde &amp;a. Diputa- <lb/>dos en
+                    sus Assambleas dela parte delos Estados de <lb/>Gueldre, de Holande ŷ Westfrisa,
+                    de Zelanda, de <lb/>Utrecht, de Frisa ŷ dela Ciudad de Groningue ŷ
+                    <lb/>Ommelandes; Los quales embajadores extraordinarios <lb/>ŷ Plenipotenziarios
+                    probeidos respectibamente de <lb/>plenos poderes, (cuyas copias serán insertas
+                    palabra <lb/>por palabra al fin del presente tratado) ŷ Juntos <lb/>en esta
+                    Ziudad de Utrecht destinada para las negocia- <lb/>ziones de una paz general,
+                    han echo concluydo, ŷ <lb/>accordado en virtud desus dichos plenos poderes <lb/>
+                    <pb facs="#FacsPnr5"/>ŷ en nombre delos dichos señores Rey, ŷ Estados, <lb/>los
+                    Artículos que se siguen. <lb/>
+                    <lb/>1. <lb/>Habrá de aqui adelante entre el dicho señor Rey, <lb/>ŷ sus
+                    subcesores Reyes de las Españas y sus Reynos de <lb/>una parte, ŷ los dichos
+                    señores estados dela otra, una <lb/>Paz buena firma, fiel, ê imbiolable, ŷ
+                    zessarán en su <lb/>consequenzia ê inmediátamente despues dela signatura <lb/>de
+                    este tratado todos actos de hostilidad de qualquiera <lb/>naturaleza que sean
+                    entre los dichos señores Rey ŷ <lb/>Estados Generales, asi por Mar, y otras
+                    aguas, como por <lb/>tierra en todos sus Reynos, Payses, tierras, ŷ señorios,
+                    <lb/>ŷ por todos sus subditos ŷ habitantes de qualesquiera <lb/>calidad ô
+                    condizion que sean sin excepzion de lugares, <lb/>ni de personas. <lb/>
+                    <lb/>2. <lb/>Habrá un olbido ŷ perdon general de todo lo que <lb/>
+                    <pb facs="#FacsPnr6"/>ha sido cometido de una parte ŷ otra â la ocasion
+                    <lb/>dela ultima Guerra, y asi todos los subditos de dichos <lb/>señores Rey, ŷ
+                    Estados generales, de qualquiera calidad <lb/>û condizion que sean sin exzeptuar
+                    ninguno, podrán <lb/>bolber â entrar ŷ bolberán a entrar ŷ serán efectiba-
+                    <lb/>mente ŷ sin embarazo restablezidos en la posesion ŷ <lb/>pazifico goze de
+                    todos sus vienes, honores, dignidades, <lb/>Privilexios, franquezas, derechos,
+                    exempziones, constitu- <lb/>ziones y libertades, sin poder ser acusados,
+                    turbados, <lb/>ni ynquietados en General ni en particular, por qual- <lb/>quiera
+                    causa ô pretesto que sea en razon delo que há <lb/>pasado despues del Nazimiento
+                    dela dicha Guerra; <lb/>Y en consequenzia del presente tratado, y despues
+                    <lb/>que será ratificado, les será permitido â todos, <lb/>ŷ a cada uno en
+                    particular, sin tener nezesidad de <lb/>letras de abolizion y de perdon, el
+                    bolberse en persona <lb/>â sus casas, ŷ al goze desus tierras, ŷ de todos sus <lb/>
+                    <pb facs="#FacsPnr7"/>vienes ŷ de disponer de todo dela manera que quisieren. <lb/>
+                    <lb/>3. <lb/>Asi mismo aquellos delos quales han sido embargados <lb/>y
+                    confiscados algunos bienes â la ocasion dela dicha <lb/>Guerra, ŷ sus herederos,
+                    û los que tengan derecho, de qual- <lb/>quiera condizion que pueda ser, gozarán
+                    dichos <lb/>bienes ŷ tomarán la posesion de ellos desu pribada <lb/>authoridad,
+                    ŷ en virtud del presente tratado sin <lb/>que nezesiten de recurir â la
+                    Justicia, no obstante <lb/>qualesquiera incorporaziones al fisco, empeños echos
+                    <lb/>de ellos, tratados, combenios y transaziones, qualesquiera
+                    <lb/>renunziaziones que hayan sido echas, ŷ dichas transac- <lb/>ziones para
+                    excluir alguna parte delos dichos vienes <lb/>de aquellos â quienes les
+                    pertenezen, ŷ todos ŷ quales- <lb/>quiera bienes ŷ derechos que conforme al
+                    presente <lb/>tratado serán restituydos, ô deberán ser restituydos
+                    <lb/>reciprocamente â los primeros propietarios, sus <lb/>
+                </p>
+                <pb facs="#FacsPnr8"/>
+                <p> herederos û los que tengan derecho a ellos podran <lb/>ser bendidos por los
+                    dichos propietarios, sin que para <lb/>esto nezesiten de impetrar consentimiento
+                    particular <lb/>ŷ en seguimiento los propietarios delas rentas que de <lb/>la
+                    parte delos fiscos serán constituidas en lugar de <lb/>bienes benditos<note
+                        n="1" type="crit_app">Eigentlich vendidos?</note> como tambien delas rentas
+                    y acziones <lb/>constituydas respectibamente al cargo delos fiscos podrán
+                    <lb/>diponer dela propiedad de ellos por venta û de otra <lb/>manera como delos
+                    otros propios bienes Suyos. <lb/>
+                    <lb/>4. <lb/>Los subditos y abitantes de una parte y de otra, <lb/>podrán
+                    tambien reclamar sus bienes y efectos que <lb/>hayan sido detenidos â ocasion
+                    dela Guerra, sea por <lb/>sus correspondientes û otras qualesquiera personas,
+                    <lb/>ŷ en caso que estos bienes ŷ efectos se hayan bendido <lb/>por qualquiera
+                    persona que sea, podrán ellos pedir <lb/>el prozedido, ŷ en caso de disputa
+                    sobre esto, les será <lb/>
+                    <lb/>
+                    <lb/>
+                </p>
+                <pb facs="#FacsPnr9"/>
+                <p>permitido forzar â ello a los que detendrán sus vienes <lb/>ŷ efectos, ô a sus
+                    deudores por las bias dela Justizia, <lb/>ŷ los Juezes estarán obligados â
+                    hacerlos prompta <lb/>ŷ buena Justizia, haziendo solamente atencion <lb/>en el
+                    examen de estos prozesos â los meritos dela <lb/>causa, sin reflexar de ninguna
+                    manera sobre la <lb/>Guerra pasada. <lb/>
+                    <lb/>5. <lb/>Los Subditos de dicho señor Rey, no podrán tomar <lb/>comision
+                    alguna para armamentos particulares, <lb/>ô letras de represalias delos
+                    Prinzipes ô Estados ene- <lb/>migos de dichos señores Estados Generales, y menos
+                    <lb/>turbarles ni hazerles daño en manera alguna en <lb/>virtud delas tales
+                    comisiones ô letras de represalias, <lb/>ni yr en corso con ellas, debajo dela
+                    pena de ser perseguidos <lb/>ŷ castigados como Piratas, lo que igualmente se
+                    obser- <lb/>bará por los Subditos delas Probincias unidas, en <lb/>
+                    <pb facs="#FacsPnr10"/>lo que mira alos Subditos de dicho Señor Rey; <lb/>Y a
+                    este fin todas las bezes que fuere esto requerido <lb/>de una parte y otra en
+                    las tierras dela obedienzia <lb/>de dichos Señores Rey, ŷ Estados Generales, se
+                    publi- <lb/>carán ŷ renobarán prohibiziones expresisimas, y <lb/>prezisismas de
+                    serbirse en manera alguna delas <lb/>tales Comisiones ô letras de represalias,
+                    debajo de <lb/>la pena arriba mezionada, la que será ejecutada <lb/>seberamente
+                    contra los que contrabinieren, âdemas <lb/>dela entera restituizion â que
+                    estarán obligados ŷ <lb/>debarán hazer â aquellos â los que hubieren causado
+                    <lb/>daño. <lb/>
+                    <lb/>6. <lb/>Y para obiar mejor los incomvenientes que podrán <lb/>sobrebenir
+                    por las presas echas por ignoranzia desta <lb/>Paz, ŷ prinzipalmente en los
+                    parajes distantes, <lb/>há sido combenido ŷ acordado, que si se hazen <lb/>
+                    <pb facs="#FacsPnr11"/>algunas presas de una parte û otra en el <lb/>Mar
+                    Baltico, û en el del Norte desde terneuse <lb/>en Noruega asta el cabo dela
+                    mancha despues <lb/>del termino de doze diaz, û del cabo dela dicha <lb/>Mancha
+                    asta el cabo de S[a]n Vizente despues del <lb/>termino de quatro semanas, Y en
+                    el Mar me- <lb/>diterraneo dela otra parte ŷ asta la linea despues <lb/>del
+                    termino de seis semanas, ŷ dela otra parte dela <lb/>linea ŷ en todos los otros
+                    parajes del Mundo, despues <lb/>del espazio de seis meses, â contar
+                    respectivamente <lb/>desde el dia dela signatura del presente tratado de Paz,
+                    <lb/>las dichas presas ŷ los daños que se harán despues destos <lb/>terminos,
+                    como tambien las presas ŷ los daños quese <lb/>harán en los dichos terminos, por
+                    los que hubieren tenido <lb/>conozimiento dela conclusion desta Paz, serán
+                    puestos <lb/>en quenta, ŷ todo lo que hubiere sido tomado se bolberá <lb/>en
+                    compenszion de todos los daños que hubieren probenidos. <lb/>
+                    <pb facs="#FacsPnr12"/>7. <lb/>Todas letras de señal ŷ de represalias que pueden
+                    <lb/>haber sido acordadas antes de ahora por qualquiera <lb/>causa que sea, son
+                    declaradas por as y no podrán <lb/>ser de aqui en adelante dadas por los altos
+                    contratantes <lb/>en perjuizio delos subditos del otro, sino es solamente
+                    <lb/>en caso de manifiesta de negazion de Justizia, la <lb/>qual no podrá ser
+                    renida por verificada, si la peti- <lb/>zion de aquel que pide las represalias
+                    no se comunica <lb/>al Ministro que se hallará en los lugares dela parte
+                    <lb/>del Estado contra los Subditos del qual serán dadas, <lb/>â fin de que en
+                    el termino de seis meses, ô antes si se <lb/>puede, se pueda el informar delo
+                    contrario, û procurar <lb/>el cumplimiento de Justizia que será debido. <lb/>
+                    <lb/>8. <lb/>Tampoco podrán los particulares subditos de dicho <lb/>Señor Rey,
+                    ser puestos en aczion, û arresto en sus <lb/>personas û bienes por alguna cosa
+                    que S[u] M[ajestad] C[atolica] pueda <lb/>
+                    <pb facs="#FacsPnr13"/>deber, ni los particulares subditos de dichos Señores
+                    <lb/>Estados por las deudas publicas del Estado. <lb/>
+                    <lb/>9. <lb/>Restablezida tambien entre los dichos señor Rey, ŷ <lb/>Estados
+                    generales la paz ŷ la buena amistad <lb/>y correspondenzia como asi mismo entre
+                    sus <lb/>subditos y abitantes reçiprocamente; ŷ haviendo <lb/>sido prebenido que
+                    no suzeda cosa que pueda mante- <lb/>ner ô causar alguna enemistad, los dichos
+                    Señores <lb/>Rey, ŷ Estados generales procurarán y adelantarán <lb/>fielmente el
+                    bien ŷ la prosperidad el uno del otro, por <lb/>todo apoyo, ayuda, consejo, y
+                    asistenzia en todas <lb/>ocasiones, en todo tiempo, y no combendrán en adelante
+                    <lb/>en algun tratado ô negoziaziones que puedan oca- <lb/>sionar daño al uno ô
+                    al otro, ŷ antes las romperan <lb/>y darán abiso de ellas reçiprocamente con
+                    cuydado <lb/>
+                </p>
+                <pb facs="#FacsPnr14"/>
+                <p> ŷ sinzeridad, luego que tendrán conozimiento dellas. <lb/>
+                    <lb/>10. <lb/>Serbirá de basa<note n="2" type="crit_app">Eigentlich base?</note>
+                    al presente tratado, el tratado de <lb/>Munster de treynta de henero de mil
+                    seiszientos <lb/>y quarenta y ocho, echo entre el difunto Rey <lb/>Phelipe
+                    quarto, y los Señores Estados Generales, <lb/>ŷ tendrá lugar en todo quanto no
+                    será mudado <lb/>por los artículos Siguientes, ŷ por quanto es aplicable; <lb/>Y
+                    por lo que mira â los Artículos Çinco, ŷ diez ŷ seis <lb/>dela dicha Paz de
+                    Munster, no tendrán lugar que <lb/>en lo que conçierne solamente â las dos
+                    Potenzias <lb/>contratantes ŷ sus Vasallos. <lb/>
+                    <lb/>11. <lb/>Los subditos y abitantes en los payses de dichos <lb/>Señores Rey
+                    ŷ Estados tendrán Juntos toda buena <lb/>correspondenzia y amistad, y podrán
+                    frequentar, <lb/>
+                    <lb/>
+                </p>
+                <pb facs="#FacsPnr15"/>
+                <p>detenerse ŷ quedarse en Pays el uno del otro, ŷ ejerzer <lb/>en el sus traficos y
+                    comerzios, asi por Mar ŷ otras aguas, <lb/>como por tierra todo respectibamente
+                    con toda seguridad <lb/>ŷ libertad, ŷ sin algun embarazo. <lb/>
+                    <lb/>12. <lb/>Tambien podrán tener en las tierra y Estados del uno ŷ <lb/>del
+                    otro, sus propias casas para bibir en ellas, ŷ sus <lb/>Almagazenes<note n="3"
+                        type="crit_app">Eigentlich Almacenes?</note> ŷ Sotanos para poner en ellos
+                    sus mer- <lb/>cadurias y gozarlas reziprocamente con toda libertad <lb/>y
+                    seguridad, como un efecto de la Paz, ŷ no estarán <lb/>sujetos a mayores
+                    derechos ni imposiziones que los <lb/>subditos del uno û del otro, ŷ no podrán
+                    ser inquiridos, <lb/>bisitados ni inquietados â causa de su negozio, û tra-
+                    <lb/>fico en sus casa, almazenes û sotanos, ya sean <lb/>alquilados û propios,
+                    sino fuere sobre abisos ŷ indizios <lb/>sufizientes de fraude û de Comerzio de
+                    contrabando, <lb/>en cuyo caso los ofiziales ŷ factores delos arrendadores <lb/>
+                    <lb/>
+                </p>
+                <pb facs="#FacsPnr16"/>
+                <p>podrán hazer la bista que combendrá con la per- <lb/>mision del Juez Conserbador
+                    delas Aduanas <lb/>y otras rentas, ŷ el Comerziante que será bisitado <lb/>podrá
+                    llamár al Juez Conserbador û al Consul de <lb/>Nazion para asistir à la bista,
+                    el qual podrá solo <lb/>serbir de testigo, ŷ sin que le sea permitido haçer
+                    <lb/>disgusto alguno al Comerziante ni â su Comerzio: <lb/>Siempre â entender,
+                    que si los propios subditos <lb/>del dicho Señor Rey, û de qualquier otro
+                    Prinzipe, <lb/>Estado, Nazion, ô Villas, son ya, ô fueren despues <lb/>tratados
+                    mas faborablemente en lo que <lb/>mira â esto los subditos delos dichos Señores
+                    Estados <lb/>Generales serán tratados dela misma <lb/>manera. <lb/>
+                    <lb/>13. <lb/>Los dichos Subditos de una parte y otra podrán <lb/>tambien
+                    frequentar con sus mercadurias <lb/>
+                    <pb facs="#FacsPnr17"/>ŷ Nabios los Payses, tierra, Villas, Puertos, Plazas,
+                    <lb/>ŷ Rios del uno y del otro estado ŷ llebár a ellos <lb/>ŷ bender en ellos
+                    dichas mercadurias indistincta- <lb/>mente â todas personas, comprar, traficar,
+                    ŷ trans- <lb/>portar toda suerte de mercadurias, cuya entrada <lb/>û salida no
+                    será prohivida general ŷ unibersal- <lb/>mente a todos asi subditos como
+                    extrangeros por <lb/>las leyes ŷ ordenanzas delos estados del uno, ŷ delotro,
+                    <lb/>pagando los derechos de entrada û salida y otros <lb/>que se pagarán por
+                    los propios subditos y otras <lb/>naziones amigas las mas faborecidas, Y asi
+                    fazilita- <lb/>rán reciprocamente la entrada ŷ la salida desus <lb/>Nabios sin
+                    otra dilazion ni embaraço. <lb/>
+                    <lb/>14. <lb/>Los dichos subditos de una parte y otra no serán <lb/>tampoco
+                    obligados â pagár mas grandes û otros <lb/>derechos, cargas, Gabelas, ô
+                    imposiziones qualesquiera <lb/>
+                    <pb facs="#FacsPnr18"/>que sean, sobre sus personas, bienes, mercadurias,
+                    <lb/>generos, Nabios û fletes de ellos directa ni indirec- <lb/>tamente, sobre
+                    qualquier nombre titulo, ô pretex- <lb/>to que sea, sino aquellos que serán
+                    pagados por los <lb/>propios y naturales subditos del uno ŷ del otro. <lb/>
+                    <lb/>15. <lb/> Y â fin de que los ofiziales ŷ Ministros no <lb/>puedan pedir, nŷ
+                    tomár de los mercaderes y <lb/>subditos respectibos, mayores tasas, derechos, ni
+                    sala- <lb/>rios delos que deben tomár en virtud deste tratado, <lb/>y que los
+                    dichos mercaderes ŷ subditos puedan sabér <lb/>con zerteza lo que estubiere
+                    ordenado sobre esto, â <lb/>sido acordado que habrá pancartes ô listas en todas
+                    <lb/>las partes donde hordinariamente se pagan estos <lb/>derechos en la quales
+                    se explicará quanto deben <lb/>pagár de derechos de entrada ŷ de salida; Y sobre
+                    <lb/>lo que se há representado â S[u] M[ajestad] C[atolica] que los <lb/>
+                    <pb facs="#FacsPnr19"/>Inspectores, llamados comunmente bistas, faborezen mucho
+                    <lb/>â los Arrendadores dela Aduana, particularmente <lb/>por las excesibas
+                    estimaziones delas mercadurias <lb/>que no están bastantemente expezificadas en
+                    las <lb/>dichas listas, y que esto será en el extremo per- <lb/>judizial al
+                    Comerzio y trafico, queriendo S[u] M[ajestad] <lb/>remediar esto, dará las
+                    ordenes nezesarias para <lb/>que estas quejas zesen enteramente. <lb/>
+                    <lb/>16. <lb/>Una vez que ayan pagado los dichos subditos <lb/>de una parte y
+                    ótra los derechos de entrada compre- <lb/>hendidos en las tarifas, ŷ otras
+                    leyes, no serán obligados <lb/>â pagar otros derechos, aun que transporten por
+                    tierra <lb/>sus mercadurias ô generos de un Reyno ô Probinzia <lb/>al otro en
+                    España; Y esto se obserbará dela misma <lb/>manera en el Estado delas Probincias
+                    unidas; <lb/>Y por los otros derechos pagarán respectibamente <lb/>los mismos
+                    que los propios subditos û las otras <lb/>
+                </p>
+                <pb facs="#FacsPnr20"/>
+                <p> naziones mas faborezidas pagan. <lb/>
+                    <lb/>17. <lb/>Los subditos de dichos señores Estados Generales no po- <lb/>drán
+                    asi mismo ser tratados en España, ni en los Reynos <lb/>ŷ estados [...]<note
+                        n="4" type="crit_app">Unleserlich.</note> dependientes de otra manera ô
+                    menosfa- <lb/>borablemente que la Nazion mas faborezida, ŷ aun <lb/>gozarán en
+                    lo que toca al Comerzio, ŷ Nabegazion y <lb/>generalmente en todo, sin exzepzion
+                    ni reserba alguna, <lb/>los mismos Pribilejios, franquezas, exempziones, in-
+                    <lb/>munidades ŷ seguridades de que han gozado antes <lb/>de esta Guerra, ŷ de
+                    que otras Naziones ô Villas trafi- <lb/>cantes las mas faborezidas, podrán ô
+                    pueden gozár aora <lb/>ô despues sobre esto, ŷa sea en virtud de tratados
+                    <lb/>de Paz û de Comerzio, û por contratos , hordenanzas, <lb/>û actos
+                    particulares, de manera que los mismos Pribile- <lb/>xios, franquezas,
+                    exempziones, inmunidades ŷ se- <lb/>guridades que han sido acordadas ô se
+                    acordarán despues <lb/>al Rey de Franzia, â la Reyna dela grande Bretaña, <lb/>
+                    <lb/>
+                </p>
+                <pb facs="#FacsPnr21"/>
+                <p>û a qualquier otro Reyno, Estado, Nazion, ô Villas <lb/>qualesquiera que sean ô a
+                    sus subditos, serán igual[-] <lb/>mente acordados â dichos señores Estados ô a
+                    sus subditos <lb/>con todas lasclausulas ŷ bentajosas zircumstanzias <lb/>que â
+                    ellas se añadirán; Y la misma cosa tendrá <lb/>tambien lugár por lo que mira â
+                    los subditos de dicho <lb/>señor Rey, quienes en toda la estendida delos Payses
+                    <lb/>dela obedienzia de dichos señores Estados serán tratados <lb/>tan
+                    faborablemente como la Nazion mas faborezida. <lb/>
+                    <lb/>18. <lb/>Los mercaderes dueños de Nabios, Pilotos, Marineros, <lb/>sus
+                    Nabios, mercadurias, generos, ŷ otros bienes que <lb/>les pertenezcan, no podrán
+                    ser embargados ni arresta- <lb/>dos, ya sea en virtud de qualquier mandamiento
+                    ge- <lb/>neral ô particular, ŷ por qualquiera causa que sea, de <lb/>Guerra, û
+                    otra, ŷ menos con el pretesto de querer <lb/>serbirse de ellos para la
+                    conserbazion y defensa del Pays, <lb/>sin que se entiendan, ni menos se
+                    comprehendan en esto <lb/>
+                    <pb facs="#FacsPnr22"/>los embargos, ŷ arrestos de Justizia por las bias hordi-
+                    <lb/>narias, â causa de deudas propias, obligaziones y contra- <lb/>tos balables
+                    de aquellos â quienes habrán echo los dichos <lb/>embargos, en lo qual se
+                    prozederá segun se acostumbra <lb/>por derecho ŷ raçon. &nbsp; <lb/>
+                    <lb/>19. <lb/>Los Nabios cargados por los subditos del uno delos altos
+                    <lb/>contratantes que pasen delante delas Costas del <lb/>otro, ŷ descansen en
+                    las Playas o Puertos, por borras- <lb/>ca û otra causa, no serán forzados â
+                    descargar en ellos <lb/>û bender sus mercadurias en todo ni en parte, ni
+                    obligados <lb/>â pagár alli derechos algunos, âmenos que por su gusto no
+                    <lb/>los descarguen ally, ŷ que bendan alguna parte desu <lb/>carga, ŷ lo que
+                    les será libre despues de haber obtenido <lb/>la permision delos que tienen la
+                    direczion delos <lb/>negozios maritimos, será el descargar ŷ bender una
+                    <lb/>pequeña partida dela cargazon solamente para com- <lb/>prár los biberes ô
+                    las cosas nezesarias para el âdobo del <lb/>
+                    <pb facs="#FacsPnr23"/>Nabio, y en este caso no podrán sacár los derechos por
+                    <lb/>toda la carga, sino solamente por la pequeña partida <lb/>que habrá sido
+                    descargada ô bendida, pero en caso que <lb/>ellos descarguen mas delo que la
+                    permision dada in- <lb/>cluye, pagarán por toda la cargazon. <lb/>
+                    <lb/>20. <lb/>Los Nabios de Guerra del uno, ŷ del otro, hallarán las
+                    <lb/>Playas, Rios, ŷ Puertos libres y abiertos, para <lb/>entrar, salir y
+                    mantenerse a la Ancora quanto les <lb/>fuere nezesario, sin poder ser bisitados
+                    en la carga, pero <lb/>con todo serán obligados â usar esto con discrezion, ŷ
+                    <lb/>â no dar motibo alguno de Queja, ya por el grande <lb/>numero de Nabios por
+                    una larga ŷ afectada detenzion, <lb/>ni por otra cosa â los Gobernadores delas
+                    dichas Plazas, <lb/>y Puertos â los quales los Capitanes delos dichos nabios
+                    <lb/>harán saber la causa de su arribo y detenzion, pero <lb/>por lo que mira a
+                    los Nabios mercantes delos subditos <lb/>de el uno y del otro, les será
+                    permitido ô a los <lb/>
+                    <pb facs="#FacsPnr24"/>Arrendadores û ofiziales dela Aduana poner en ellos
+                    <lb/>Guardas luego que hayan entrado en los dichos <lb/>Puertos. <lb/>
+                    <lb/>21. <lb/>Los Nabios de Guerra delos dichos Señores Rey, ŷ <lb/>Estados
+                    Generales, ŷ aquellos desus subditos que <lb/>habrán sido armados en Guerra
+                    podrán con toda <lb/>libertad conduzir las presas que hubieren echo <lb/>delos
+                    enemigos donde mejor les parezca, sin <lb/>estár obligados â derechos algunos,
+                    ŷa sea delos <lb/>Almirantes del Almirantazgo û de otro alguno, <lb/>en caso que
+                    las dichas presas no descarguen, loqual <lb/>no obstante será permitido despues
+                    de haber ob- <lb/>tenido permision, Y en este caso los derechos de <lb/>entrada
+                    se pagarán respectibamente segun las <lb/>leyes del Paraje; bien entendido,
+                    queno será <lb/>permitido el descargár mercadurias de contrabando, <lb/>ô
+                    prohividas, ŷ que tambien los dichos Nabios, <lb/>
+                    <pb facs="#FacsPnr25"/>ô las dichas presas entrantes en los Puertos de dicho
+                    <lb/>señor Rey, û de dichos señores Estados generales, <lb/>no podrán ser
+                    arrestadas û embargadas, ni los <lb/>ofiziales delos parajes podrán tomar
+                    conozimiento <lb/>alguno del balor delas presas, las quales podrán <lb/>salir ŷ
+                    ser conduzidas francamente ŷ con toda <lb/>libertad â los lugares zitados en las
+                    Comisiones <lb/>delo que los Capitanes de dichos Nabios serán <lb/>ôbligados â
+                    hazer constar; Y al contrario no se dará <lb/>asilo ni retirada en los Puertos
+                    de una ŷ otra <lb/>parte, â aquellos que habrán echo presas sobre los
+                    <lb/>subditos de S[u] M[agestad] C[atolica] û delos Señores Estados Generales,
+                    <lb/>ŷ si entraren en ellos por nezesidad de tempestad <lb/>ô peligro del Mar
+                    les harán salir lo mas presto <lb/>que será posible. <lb/>
+                    <lb/>22. <lb/>Los Consulles que los dichos Señores Estados consti- <lb/>tuyrán
+                    en los Reynos ŷ Estados de dicho Señor Rey <lb/>
+                    <pb facs="#FacsPnr26"/>para el socorro y la proteczion desus Subditos, ten-
+                    <lb/>drán ŷ gozarán en ellos el mismo poder ŷ autori- <lb/>dad en el ejerzizio
+                    de sus cargos, y las mismas <lb/>exempziones ŷ immunidades que aya tenido otro
+                    <lb/>algun Consul, antes de aora, ô podrán tener despues <lb/>en los dichos
+                    Reynos, ŷ los Consules Españoles que <lb/>estarán en las Probinzias unidas
+                    tendrán ŷ go- <lb/>zarán en ellas de todo lo que Consul alguno de
+                    <lb/>qualquiera otra nazion aya tenido asta aqui, ô <lb/>podrá tener despues en
+                    las dichas Probinzias. <lb/>
+                    <lb/>23. <lb/>Los subditos y abitantes delos payses bajos <lb/>podrán en todas
+                    partes delas tierras dela obedienzia <lb/>de dicho Señor Rey serbirse de quantos
+                    Abogados, <lb/>Procuradores, Notarios, Solizitadores ŷ Ejecutores <lb/>les
+                    pareziere, a lo qual serán estos cometidos por <lb/>los Juezes hordinarios,
+                    quando será nezesario, <lb/>y estos Juezes serán requeridos: Y reciprocamente <lb/>
+                    <pb facs="#FacsPnr27"/>los subditos y abitantes de dicho Señor Rey q[ue] bendran
+                    <lb/>â los payses de dichos Señores Estados gozarán la <lb/>misma asistenzia. <lb/>
+                    <lb/>24. <lb/>Los mismos subditos y abitantes de una parte <lb/>ŷ de otra, no
+                    serán forzados â mostrar, ni representar <lb/>sus rejistros ŷ libros de quentas
+                    â persona alguna <lb/>sino fuere para hazer prueba, para ebitar los pleytos
+                    <lb/>ŷ las contestaziones y no podrán ser embargados, re- <lb/>tenidos, ni
+                    tomados de entre sus manos con qualquier <lb/>pretexto que sea, ŷ les será
+                    permitido a los dichos subditos <lb/>de una parte ŷ de otra en los lugares
+                    respectibos donde <lb/>se mantubieren el tener sus libros de quenta, de negozio
+                    <lb/>ŷ correspondenzia en la lengua que gustaren, en <lb/>español, flamenco, ô
+                    qualquiera otra lengua, por cuya <lb/>razon no serán molestados ni sujetos â
+                    qualquiera <lb/>inquisizion de cosa alguna, ŷ qualquiera otra cosa <lb/>que haya
+                    sido acordada por el uno, ô el otro delos altos <lb/>
+                    <lb/>
+                    <pb facs="#FacsPnr28"/>contratantes, â alguna otra nazion sobre este punto,
+                    <lb/>se entenderá igualmente haver sido acordado aqui. <lb/>
+                    <lb/>25. <lb/> Los subditos ŷ abitantes delos payses delos dichos Señores
+                    <lb/>Rey ŷ Estados Generales de qualquiera calidad ô condi- <lb/>zion que sean
+                    son declarados capazes de subzederse <lb/>respectibamente los unos â los otros,
+                    tanto por testamento <lb/>como sin testamento, segun las costumbres delos
+                    parajes, <lb/>y si algunas subzesiones han caydo antes â algunas de <lb/>ellos,
+                    serán mantenidos ŷ conserbados en ellas. <lb/>
+                    <lb/>26. <lb/>Los bienes, mercadurias, papeles, escritura, libros de
+                    <lb/>quenta, ŷ todo lo que podrá pertenezer â los subditos <lb/>de dichos
+                    Señores Estados, muertos en España, pertene- <lb/>zerán inmediatamente â sus
+                    herederos que serán <lb/>presentes ŷ mayores, o bien los executores, ô tutores,
+                    <lb/>testamentarios ô sus autorizados segun la exigenzia <lb/>del caso, podrán
+                    tambien tomár luego posesion dellos, <lb/>
+                    <lb/>
+                    <pb facs="#FacsPnr29"/>administrarlos ŷ disponer de ellos libremente como es
+                    <lb/>de derecho: pero en caso que delos dichos subditos <lb/>muertos en España
+                    los herederos esten ausentes ô <lb/>sean menores, y que el difunto no haya
+                    prebisto estos <lb/>casos y que los herederos ausentes, que sean mayores <lb/>no
+                    hubiesen tampoco probehydo por sus poderes, los <lb/>bienes, mercadurias,
+                    papeles, scritura, libros de <lb/>quenta ŷ todo el resto del difunto serán
+                    entonzes <lb/>imbentariados por un Notario publico en presenzia <lb/>del Juez
+                    conserbador dela Nazion, ô en caso que no <lb/>le haya en presenzia del Juez
+                    hordinario, accompañado <lb/>del Consull ô otro Ministro delos dichos Señores
+                    Estados <lb/>ŷ de dos mercaderes dela Nazion, ŷ depositados entre <lb/>las manos
+                    de dos ô tres mercaderes que serán nombrados <lb/>por el dicho Consul, ô
+                    Ministro para ser guardado ŷ <lb/>conserbado para los propietarios ŷ los
+                    acrehedores, <lb/>ŷ en los parajes donde no ay ni Consul ni otro <lb/>Ministro,
+                    se hara todo esto en presenzia de dos ô <lb/>
+                    <pb facs="#FacsPnr30"/>tres mercaderes dela mesma Nazion, â que serán
+                    <lb/>cometidos por la pluralidad de botos; lo que se <lb/>oberbará en igual caso
+                    por lo que mira â los sub- <lb/>ditos del Rey Catholico en las Probinzias
+                    unidas. <lb/>
+                    <lb/>27. <lb/>Como está ya señalado un lugar en Cadiz, combenien- <lb/>te para
+                    entierro delos Cuerpos delos Subditos de dichos <lb/>Señores Estados que mueren
+                    ally, el dicho Señor Rey <lb/>dará quanto antes la probidenzia nezesaria para
+                    que <lb/>en otras villas mercantes se hordenen tambien lugares <lb/>honrrosos
+                    para enterrar en ellos los cuerpos de aquellos <lb/>que dela parte de dichos
+                    Señores Estados murieren <lb/>debaxo la obedienzia de dicho Señor Rey. <lb/>
+                    <lb/>28. <lb/>Y a fin de que las leyes de Comerzio, que han sido ob-
+                    <lb/>tenidas por la Paz, no puedan quedar imfructuosas <lb/>como subcederia, si
+                    los subditos de dichos Señores Estados <lb/>fuesen molestados por el caso de
+                    Convi[v]enzia, quando ban, <lb/>
+                    <pb facs="#FacsPnr31"/>bienen û se quedan en los Estados de dicho Señor Rey
+                    <lb/>para exerçer en ellos el comerçio û a otro fin; por <lb/>esta causa â fin
+                    de que el Comerzio sea seguro ŷ <lb/>sin peligro tanto por Mar como por tierra,
+                    el <lb/>dicho Señor Rey dará las ordenes nezesarias para <lb/>que los subditos
+                    delos dichos Señores Estados no <lb/>sean molestados, contra ŷ en perjuizio
+                    delas leyes <lb/>del Comerzio ŷ que ninguno dellos sea inquietado <lb/>ni
+                    turbado por su conzienzia, mientras no dieren <lb/>escandalo, ŷ no cometan
+                    ofensa publica, en lo que <lb/>los dichos subditos estarán obligados de
+                    abstenerse <lb/>ŷ governarse, ŷ comportarse con toda modestia; <lb/>lo mismo se
+                    hará por lo que mira a los subditos <lb/>de dicho señor Rey que quedarán en las
+                    Probin- <lb/>zias unidas. <lb/>
+                    <lb/>29. <lb/>El dicho Señor Rey conserbará a los subditos de <lb/>los dichos
+                    Señores Estados generales, en las villas <lb/>
+                    <pb facs="#FacsPnr32"/>mercantes desu Reyno, donde han tenido Juezes
+                    <lb/>conserbadores del tiempo del difunto Rey Carlos <lb/>Segundo, la misma
+                    facultad, ŷ la gozarán <lb/>tambien en las otras villas donde otras naziones
+                    <lb/>la gozan, ô podrán todavia gozar despues, todo dela <lb/>misma manera y con
+                    la misma autoridad que <lb/>los Juezes conserbadores han usado durante el
+                    <lb/>Reynado del difunto Rey Carlos Segundo, y la <lb/>apelazion delas
+                    sentenzias destos Juezes conser- <lb/>badores podrá tambien ser interfectada ŷ
+                    prosegui- <lb/>da conforme â sidon practicado durante el mismo <lb/>Reynado, y
+                    todo esto se oberbará menos que <lb/>combengan en otra cosa. <lb/>
+                    <lb/>30. <lb/>Los derechos que se han impuesto sobre las <lb/>mercaderias y
+                    manifacturas delos subditos <lb/>delas Probinzias unidas en tiempo ŷ a causa
+                    <lb/>dela Guerra, âdemas delos quese pagaban <lb/>
+                    <pb facs="#FacsPnr33"/>segun los Aranzeles del tiempo del Rey Carlos
+                    <lb/>segundo çessarán incontinente despues de fir- <lb/>mada la Paz, como asi
+                    mismo zessarán los <lb/>derechos que hubieren sido impuestos sobre las
+                    <lb/>mercadurias y manifacturas que salian de <lb/>España en el curso y por
+                    causa dela dicha Guerra, <lb/>ŷ en adelante pagarán los mismos derechos que
+                    <lb/>las demas naziones las mas faborezidas. <lb/>
+                    <lb/>31. <lb/>S[u] M[ajestad] C[atolica] promete no permitir que alguna
+                    <lb/>nazion estrangera qualquiera que sea, y por <lb/>qualquiera razon, û debaxo
+                    de qualquier <lb/>pretexto, embie Nabio ô Nabios, û baya â <lb/>comerziar â las
+                    Yndias Españolas; Y al contrario <lb/>S[u] M[ajestad] se empeña de restablezer ŷ
+                    mantener des- <lb/>pues la nabegazion ŷ Comercio en estas Yndias, <lb/>dela
+                    manera que todo estaba durante el <lb/>
+                    <pb facs="#FacsPnr34"/>Reynado del difunto Rey Carlos segundo, ŷ <lb/>conforme â
+                    las leyes fundamentales de España <lb/>que prohiben absolutamente â todas las
+                    naziones <lb/>extrangeras la entrada ŷ el Comercio en estas <lb/>Yndias, y
+                    reserban uno y otro unicamente â los <lb/>Españoles subditos de su dicha
+                    Magestad Catt[oli]ca, <lb/>ŷ para el cumplimiento de este Artículo los Se-
+                    <lb/>ñores Estados Generales prometen tambien <lb/>ayudar â S[u] M[ajestad]
+                    C[atolica] bien entendido que esta <lb/>regla no perjudicará al contenido del
+                    contracto <lb/>del asiento de Negros echo ultimamente con su <lb/>Magestad la
+                    Reyna dela Grande Bretaña. <lb/>
+                    <lb/>32. <lb/>Todos los prisioneros de Guerra de una parte y de <lb/>otra serán
+                    sueltos sin pagar rescate alguno, <lb/>ŷ sin distinzion de lugares, ni de
+                    Banderas û <lb/>Estandartes donde, û debaxo delas quales ayan <lb/>serbido, por
+                    quanto estos Prisioneros están <lb/>
+                    <lb/>
+                </p>
+                <pb facs="#FacsPnr35"/>
+                <p> en poder delos dichos Señores Rey, y Estados <lb/>generales, ŷ las deudas que
+                    los dichos Prisioneros <lb/>de Guerra de una parte y de otra an contraydo û
+                    <lb/>echo, serán pagadas, las delos Españoles de parte <lb/>de S[u] M[ajestad]
+                    C[atolica], y las de aquellos delos Señores Estados <lb/>departe del Estado,
+                    respectibamente en el termino <lb/>de tres meses despues del trueque delas
+                    ratificazio- <lb/>nes de este tratado. <lb/>
+                    <lb/>33. <lb/>Y para que el Comercio ŷ la nabegazion de una <lb/>parte y de
+                    otra, sea toda via mas libre ŷ segura, an <lb/>comvenido en confirmár el tratado
+                    de Marina echo <lb/>en la Haya en diez ŷ siete de Diziembre de mil sete-
+                    <lb/>zientos y cinquenta<note n="5" type="crit_app">Das müsste 1650 heißen.
+                        Philipp IV. regierte 1621-1665.</note>&nbsp; entre el difunto Rey Phelipe
+                    <lb/>Quarto ŷ los señores Estados generales, y que este <lb/>tratado será
+                    obserbado ŷ executado en todo, como si <lb/>estubiese inserto aqui palabra por
+                    palabra como la <lb/>prohibicion comprehendida en los Artículos tres, ŷ <lb/>
+                    <lb/>
+                </p>
+                <pb facs="#FacsPnr36"/>
+                <p>quatro deste tratado no tenga lugar alguno. <lb/>
+                    <lb/>34. <lb/>Aun que se há dicho en muchos delos Artículos <lb/>prezedentes,
+                    que los subditos de una parte ŷ <lb/>otra podrán libremente hir, frequentar,
+                    quedarse, <lb/>nabegar, ŷ traficar en los Payses, Tierras, Villas, Puer-
+                    <lb/>tos, Plazas y Rios, de uno y otro delos altos contratantes, <lb/>se
+                    entiende no obstante que los dichos subditos no goza- <lb/>rán de esta libertad,
+                    sino en los Estado del uno ŷ <lb/>del otro en Europa, respecto de que está
+                    expresamente <lb/>combenido, que por lo que mira â las Yndias Españolas <lb/>no
+                    se hará la nabegazion ŷ el Comerczio, sino conforme <lb/>al Articulo treynta y
+                    uno de este tratado; Y que <lb/>en las Yndias asi orientales como occidentales,
+                    que <lb/>están debaxo dela Dominazion delos Señores Esta- <lb/>dos Generales, la
+                    nabegazion ŷ el Comerzio searán <lb/>como se han echo asta ahora, Y por lo que
+                    mira <lb/>las Yslas de Canarias, la Nabegazion, ŷ Comercio <lb/>
+                    <pb facs="#FacsPnr37"/>delos subditos delos Señores Estados se harán de la misma
+                    <lb/>manera que en el Reynado del Difunto Rey Carlos <lb/>segundo. <lb/>
+                    <lb/>35. <lb/>Si por inadbertenzia û otra causa sobrebiene alguna
+                    <lb/>inobserbazion ô incombeniente al presente tratado dela <lb/>parte delos
+                    dichos Señores Rey, ô Estados, ô sus subcesores, <lb/>no dejará de subsistir en
+                    toda su fuerza esta Paz y <lb/>Alianza, sin que por ello bengan a la roptura
+                    dela Amis- <lb/>tad y dela buena correspondenzia, pero repararán
+                    <lb/>promptamente las dichas contrabenziones ŷ si estas <lb/>prozeden de falta
+                    de algunos de qualesquiera particu- <lb/>lares Subditos estos serán solo
+                    castigados, ŷ reparado <lb/>el daño en el mismo lugár donde abrá sido echa la
+                    <lb/>contrabenzion si ellos son sorprehendida en el, ô bien <lb/>enel de su
+                    domizilio, sin que puedan ser persi- <lb/>guidos en otra parte en sus Cuerpos ni
+                    bienes de <lb/>ninguna manera. <lb/>
+                    <pb facs="#FacsPnr38"/>36. <lb/>Y para asegurár mejor en adelante el Comercio
+                    <lb/>ŷ la amistad entre los subditos de dicho Señor <lb/>Rey, ŷ los de dichos
+                    Señores Estados, â sido acordado <lb/>que subçediendo despues alguna
+                    ynterrupzion <lb/>de amistad ô roptura entre la Corona de España <lb/>ŷ los
+                    dichos Señores Estados (lo que Dios no quiera) <lb/>siempre se dará el termino
+                    de un Año y un día, <lb/>despues dela dicha roptura, a los Subditos de una parte
+                    <lb/>y otra, para retirarse con sus efectos, ŷ transportar- <lb/>los donde mejor
+                    les parezca; Lo que se les permitirá <lb/>hazer, como tambien el bender ô
+                    transportar sus <lb/>bienes y muebles con toda libertad, sin que les puedan
+                    <lb/>poner embarazo alguno, ni prozeder durante el dicho <lb/>termino de un Año
+                    y un día, â embargo alguno de <lb/>sus efectos, ŷ menos al arreste de sus
+                    personas. <lb/>
+                    <lb/>37. <lb/>Pues que la dichosa continuazion de esta Paz, como <lb/>
+                    <pb facs="#FacsPnr39"/>el reposo ŷ la seguridad de la Europa depende entre otras
+                    <lb/>cosas prinzipalmente tambien de que las dos Coronas <lb/>de España ŷ de
+                    Franzia queden para siempre inde- <lb/>pendientes la una de la otra, ŷ de que no
+                    puedan <lb/>jamas unirse en la Cabeza de un mismo Rey, ŷ <lb/>que S[u]
+                    M[ajestad] C[atolica] â este fin, ŷ de consentimientos del Rey
+                    <lb/>C[ris]tianissimo â renunziado en Cinco de nobiembre <lb/>del año de mil
+                    setezientos y doze por si mismo, sus <lb/>herederos ŷ subzesores â perpetuidad,
+                    ŷ en los termi- <lb/>nos mas fuertes, todo derecho, titulo, ŷ pretension
+                    <lb/>que pueda tener â la Corona de Franzia, ŷ que <lb/>de la otra parte los
+                    Prinzipes de la Casa Real de Franzia <lb/>an renunziado tambien por si mismos,
+                    sus herederos, ŷ <lb/>suzesores a perpetuidad, y en los terminos mas fuertes,
+                    <lb/>todo derecho, titulo, i pretension, qualquiera que <lb/>pueda ser, â la
+                    Corona de España, y pues que <lb/>estas renunziaziones ŷ las declaraziones que
+                    se <lb/>
+                    <pb facs="#FacsPnr40"/>han seguido â esto en España y en Franzia, <lb/>han
+                    benido tambien a ser Leyes fundamentales <lb/>ê imbiolables del uno, ŷ del otro
+                    Reyno, S[u] M[ajestad] C[atolica] <lb/>confirma toda via por este tratado de la
+                    manera <lb/>mas fuerte su dicha renunziazion â la Corona <lb/>de Franzia, ŷ
+                    promete y se empeña, tanto por si <lb/>como por sus herederos ŷ subçesores, de
+                    cumplir <lb/>ŷ hazer cumplir relijiosamente esta renun- <lb/>ziazion, sin
+                    permitir ni sufrir que directa <lb/>ni indirectamente se baya en contra, en
+                    <lb/>todo ô en parte, como tambien de emplear <lb/>todo su poder para que las
+                    dichas renunziaziones <lb/>delos Prinzipes de la Casa Real de Franzia
+                    <lb/>tengan su pleno y entero efecto, ŷ que asi las dos <lb/>Coronas de España,
+                    ŷ de Franzia queden siem- <lb/>pre de tal manera separadas la una de la otra,
+                    que no <lb/>puedan jamas unirse. <lb/>
+                    <pb facs="#FacsPnr41"/>38. <lb/>En el presente tratado de Paz y de Alianza,
+                    serán <lb/>comprehendidos todos los Reyes, Prinzipes, y estados <lb/>que serán
+                    nombrados de un comun ŷ reciproco <lb/>consentimiento ŷ satisfazion de una parte
+                    ŷ otra, <lb/>dentro de un tiempo combeniente. <lb/>
+                    <lb/>39. <lb/>Y para mayor seguridad de este tratado; y de <lb/>todos los puntos
+                    y Articulos en el contenidos, el <lb/>dicho tratado será publicado, verificado,
+                    ŷ regis- <lb/>trado de una parte ŷ otra en los Consejos, Cortes ŷ <lb/>otras
+                    Plazas donde es costumbre hazer las publica- <lb/>ziones, verificaziones ŷ
+                    registros. <lb/>
+                    <lb/>40. <lb/>El presente tratado será ratificado ŷ aprobado <lb/>por los dichos
+                    Señores Rey, ŷ Estados Generales, <lb/>ŷ las letras de ratificazion se cambiarán
+                    en el termino <lb/>de seis semanas, ô antes si se puede hazer, â contar desde el
+                    día <lb/>
+                </p>
+                <pb facs="#FacsPnr42"/>
+                <p>de la signatura. <lb/>En fee de lo qual nosotros los embajadores
+                    <lb/>extraordinarios ŷ Plenipotenziarios de su <lb/>dicha Magestad, ŷ de los
+                    Señores Estado Ge- <lb/>nerales en virtud de nuestros respectibos Po- <lb/>deres
+                    hemos firmado el presente tratado de <lb/>nuestras manos en sus nombres, ŷ
+                    sellado con el <lb/>sello de nuestras armas. En Utrecht â Veynte y seis <lb/>de
+                    Junio de mil setezientos ŷ Catorze. <lb/>
+                    <lb/>[...]<note n="6" type="crit_app">Unleserlich.</note> de Osuna <lb/>
+                    <lb/>El Marques de Monteleon&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;B.v. Dussen
+                    <lb/>&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;
+                    &nbsp;&nbsp;&nbsp; &nbsp; <lb/>
+                </p>
+                <p>C.v. Gheel van <lb/>Spanbroeck <lb/> &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;
+                    &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; <lb/>&nbsp;&nbsp;&nbsp;
+                    &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;
+                    Baron de Rheede <lb/>&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;
+                    &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; de Rhenswoude <lb/>
+                    <lb/>&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;
+                    &nbsp;&nbsp;&nbsp; Graaf van Kniphuisen <lb/>
+                    <lb/>
+                    <lb/>&nbsp; </p>
+                <pb facs="#FacsPnr43"/>
+                <p>Artículo separado <lb/>
+                    <lb/>Haviendo Nosotros los embajadores extraordina- <lb/>rios y
+                    Plenipotenciarios de los estados Generales <lb/>de las Probincias unidas puesto
+                    entre las manos de <lb/>Nosotros los embajadores extraordinarios y Plenipoten-
+                    <lb/>ciarios de Su Mag[estad] Catholica la quenta de las deudas <lb/>y
+                    pretensiones de los Colegios del Almirantazgo de las <lb/>Provincias unidas, â
+                    cargo de la Corona de España <lb/>resultantes de muchos equipages hechos por los
+                    dichos <lb/>Colegios para la dicha Corona en los Años de mil seis- <lb/>cientos
+                    setenta y siete, y mil seiscientos y setenta <lb/>y ocho cuyas deudas y
+                    pretensiones (hecha la deducción <lb/>de lo que ha sido pagado) montaran todavia
+                    quatro <lb/>miliones, cien mil, trecientos y cinquenta y dos francos <lb/>moneda
+                    de Holanda, y â demas los intereses de esta <lb/>suma desde primera de Henero de
+                    mil seiscientos <lb/>ochenta y dos hasta el pagamento entero y efectivo,
+                    <lb/>como tambien la liquidacion en parte se hizo en <lb/>Bruxelas en veynte y
+                    cinco de Noviembre de mil <lb/>seiscientos ochenta y uno con el Principe de
+                    Parma <lb/>
+                </p>
+                <pb facs="#FacsPnr44"/>
+                <p>por entonces Governador de los Payses Baxos españoles <lb/>y haviendo pedido y
+                    insistido fuertemente por el <lb/>pagamento de dichas deudas y no hallandonos
+                    <lb/>Nosotros los Embajadores y Plenipotenciarios de <lb/>S. Mag[estad]
+                    Catholica autorizados para ajustar este <lb/>Negocio prometemos passar los
+                    dichos papeles â <lb/>S[u] M[ajestad] Catholica â fin de que haga justicia â los
+                    Colegios <lb/>del Almirantazgo como fuere razon. <lb/>En feê de lo qual
+                    Nosostros los Embajadores Extraor- <lb/>dinarios, y Plenipotenciarios del Rey
+                    Catholico y de los <lb/>Señores Estados Generales, hemos firmado el presente
+                    <lb/>Artículo, y sellado con el sello de nuestras Armas en Utrecht <lb/>â veynte
+                    y seis de Junio de Mil Setecientos y catorze. <lb/>&nbsp; <lb/>[...]<note n="7"
+                        type="crit_app">Unleserlich.</note> de Osuna <lb/>
+                    <lb/>El Marques de Monteleon&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; B.v. Dussen
+                    <lb/>&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;
+                    &nbsp;&nbsp;&nbsp; <lb/>&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;
+                    &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;
+                    &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; C.v.
+                    Gheel van <lb/>&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;
+                    &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;
+                    &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;
+                    Spanbroeck <lb/>&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;
+                    &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; <lb/>&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;
+                    &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;
+                    &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;
+                    &nbsp;&nbsp;&nbsp; Baron de Rheede <lb/>&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;
+                    &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;
+                    &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;
+                    &nbsp;&nbsp;&nbsp; de Rhenswoude <lb/>
+                    <lb/>&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;
+                    &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;
+                    &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; Graaf van Kniphuisen <lb/>
+                    <lb/>
+                    <lb/>&nbsp; </p>
+            </div>
+        </body>
+        <back>
+            <listBibl>
+                <bibl xml:id="a107">
+                    <title level="a">Theatrum Europaeum (1714-06-26)</title>
+                    <title level="m">Theatrum Europaeum, Band 20 (1713–1715) Aus: Dokumentenarchiv
+                        der Universitätsbibliothek Augsburg (Drucke vor 1900 / Historische
+                        Geschichtswerke).</title>
+                    <biblScope>
+                        <graphic xml:id="A1Pnr1"
+                            url="https://www.ieg-friedensvertraege.de/dbimages/img_49e729dae4310"/>
+                        <graphic xml:id="A1Pnr2"
+                            url="https://www.ieg-friedensvertraege.de/dbimages/img_49e729e216201"/>
+                        <graphic xml:id="A1Pnr3"
+                            url="https://www.ieg-friedensvertraege.de/dbimages/img_49e729e73f223"/>
+                        <graphic xml:id="A1Pnr4"
+                            url="https://www.ieg-friedensvertraege.de/dbimages/img_49e729ed72e1c"/>
+                        <graphic xml:id="A1Pnr5"
+                            url="https://www.ieg-friedensvertraege.de/dbimages/img_49e729f8345da"/>
+                        <graphic xml:id="A1Pnr6"
+                            url="https://www.ieg-friedensvertraege.de/dbimages/img_49e729f8345da"/>
+                        <graphic xml:id="A1Pnr7"
+                            url="https://www.ieg-friedensvertraege.de/dbimages/img_49e729fecbb8f"/>
+                        <graphic xml:id="A1Pnr8"
+                            url="https://www.ieg-friedensvertraege.de/dbimages/img_49e72a2f80741"/>
+                        <graphic xml:id="A1Pnr9"
+                            url="https://www.ieg-friedensvertraege.de/dbimages/img_49e72a352b7c2"/>
+                        <graphic xml:id="A1Pnr10"
+                            url="https://www.ieg-friedensvertraege.de/dbimages/img_49e72a3b16f79"/>
+                        <graphic xml:id="A1Pnr11"
+                            url="https://www.ieg-friedensvertraege.de/dbimages/img_49e72a401dcba"/>
+                    </biblScope>
+                </bibl>
+                <bibl>FRANCIS, David, The first Peninsular War, 1702-1713, London &amp; Tonbridge
+                    1975.</bibl>
+            </listBibl>
+        </back>
+    </text>
+</tei:TEI>

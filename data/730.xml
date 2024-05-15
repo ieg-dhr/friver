@@ -1,0 +1,404 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE tei SYSTEM "../resources/FriVer_DTD.dtd">
+
+<?xml-model href="../resources/FriVer.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns="http://www.tei-c.org/ns/1.0"
+    xml:id="pa000299-0730">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title level="s">European peace treaties of the pre-modern era in data / Europäische
+                    Friedensverträge der Vormoderne in Daten (FriVer+)</title>
+                <title when="1745-04-22" xml:id="t730" when-custom="1745 IV 22" level="a"
+                    ref="https://www.ieg-friedensvertraege.de/treaty/t-730-1-de.html"
+                    >Friedenspräliminarien von Füssen</title>
+            </titleStmt>
+            <editionStmt>
+                <edition> Digital edition according to <ref target="http://www.tei-c.org/">TEI
+                        P5</ref>
+                </edition>
+                <funder>
+                    <ref target="https://www.text-plus.org/">TEXT+</ref>
+                </funder>
+                <editor role="http://id.loc.gov/vocabulary/relators/edt"
+                    ref="https://orcid.org/0000-0002-8741-5916">
+                    <persName>Jaap Geraerts</persName>
+                    <note>The transformation and enrichment of the data is done by Jaap Geraerts
+                        (IEG Mainz). The other members of the FriVer+ team are Fabian Cremer, Ines
+                        Grund, and Thorsten Wübbena (all IEG Mainz).</note>
+                    <note> The original data has been created by the <ref
+                            target="https://www.ieg-friedensvertraege.de">team of scholars</ref> who
+                        were part of the Europäische Friedensverträge der Vormoderne project. This
+                        project was lead by Prof. Dr. Heinz Duchhardt and was based at the Leibniz
+                        Institute of European History in Mainz. </note>
+                </editor>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>
+                    <orgName ref="http://www.isni.org/0000000119314040">Leibniz-Institut für
+                        Europäische Geschichte Mainz</orgName>
+                </publisher>
+                <distributor>
+                    <orgName ref="http://www.isni.org/0000000110101946">Universitäts- und
+                        Landesbibliothek Darmstadt</orgName>
+                </distributor>
+                <idno type="ISIL">http://lobid.org/organisation/DE-17</idno>
+                <date type="issued" when="2023-12-23"/>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">
+                        <p xml:lang="en">This file is licensed under the terms of the Creative
+                            Commons License CC-BY 4.0 (Attribution 4.0 International)</p>
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <repository xml:id="r20">Muenchen BayHStA</repository>
+                <msDesc>
+                    <p>Bayerisches Hauptstaatsarchiv München: Kurbayern Urkunden 9308 (Hauptvertrag,
+                        Zusatzartikel). Bayern Urkunden 1019 (Zusatzartikel).</p>
+                    <p>Weitere Stücke: </p>
+                    <p>Ratifikation durch Maria Theresia, Wien 1745 IV 28 (Bayerisches
+                        Hauptstaatsarchiv München Kurbayern Urkunden 9309.)&nbsp; <lb/>
+                    </p>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p> The data in this XML file, originally created by the project <ref
+                        target="https://www.ieg-friedensvertraege.de/vertraege">Europäische
+                        Friedensverträge der Vormoderne online</ref> has been transformed in
+                    accordance with <ref target="http://www.tei-c.org/">TEI P5</ref> as part of the
+                    project <ref
+                        target="https://www.ieg-mainz.de/en/research/research-projects/european-peace-treaties-of-the-pre-modern-era-in-data"
+                        >Europäische Friedensverträge der Vormoderne in Daten (FriVer+)</ref>
+                </p>
+            </projectDesc>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="de" xml:id="lan2">deutsch</language>
+            </langUsage>
+        </profileDesc>
+    </teiHeader>
+    <standOff>
+        <listPerson>
+            <person role="signatory" xml:id="p20">
+                <persName ref="https://explore.gnd.network/gnd/4005044-0">
+                    <name>Bayern</name>
+                </persName>
+            </person>
+            <person role="signatory" xml:id="p12">
+                <persName ref="https://explore.gnd.network/gnd/4043271-3">
+                    <name>Oesterreich</name>
+                </persName>
+            </person>
+        </listPerson>
+        <listPlace>
+            <place xml:id="loc232">
+                <placeName ref="https://explore.gnd.network/gnd/4018831-0">Füssen</placeName>
+            </place>
+        </listPlace>
+        <facsimile>
+            <surface xml:id="FacsPnr1">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_449a93469c26b"/>
+            </surface>
+            <surface xml:id="FacsPnr2">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_449a936643936"/>
+            </surface>
+            <surface xml:id="FacsPnr3">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_449a938b1d191"/>
+            </surface>
+            <surface xml:id="FacsPnr4">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_449a93ae02e68"/>
+            </surface>
+            <surface xml:id="FacsPnr5">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_449a93e35deff"/>
+            </surface>
+            <surface xml:id="FacsPnr6">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_449a9405a5e81"/>
+            </surface>
+            <surface xml:id="FacsPnr7">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_449a942a7377f"/>
+            </surface>
+            <surface xml:id="FacsPnr8">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_44ab8d4d3d1d9"/>
+            </surface>
+            <surface xml:id="FacsPnr9">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_449a94755558a"/>
+            </surface>
+            <surface xml:id="FacsPnr10">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_449a949d3ede6"/>
+            </surface>
+            <surface xml:id="FacsPnr11">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_449a94ca5b77e"/>
+            </surface>
+        </facsimile>
+    </standOff>
+    <text>
+        <front>
+            <div type="Drucke">
+                <p>CTS 37, S.331-346; Wenck, II., S.180ff ; Mercure Historique et Politique, Bd.118,
+                    S.624ff; Peter Hofmann, Franz Maser (Hg.) Österreichischer Erbfolgekrieg, Wien
+                    1902, VI, S.648-652 Aretin, Chronologisches Verzeichnis der Bayerischen
+                    Staatsverträge, Bd.1, S.403; Staatsverträge des Kurfürstentums Bayern 1745-1746.
+                    Bearb. v. Alois Schmid. München 1991, S. 23-29. <lb/></p>
+            </div>
+            <div type="Inhalt">
+                <p>Inhalt <lb/>Art. 1 Anerkennung des verstorbenen Churfürsten als Kaiser.
+                    <lb/>Art.2 Rückgabe bayerischer Länder (status quo 1741). <lb/>Art. 3 Österreich
+                    verzichtet auf Ansprüche. <lb/>Art. 4 Bayern erkennt die Pragmatische Sanktion
+                    an. <lb/>Art. 5 Verzichterklärung Bayerns. <lb/>Art. 6 Böhmische Wahlstimme.
+                    <lb/>Art 7 Unterstützung bei der Kaiserwahl. <lb/>Art. 8 Association, Defensiv-
+                    und Friedenspflicht. <lb/>Art. 9 Ingolstadt, Braunau, Schärding. Besetzung.
+                    <lb/>Art. 10 Freilassung Kriegsgefangener. <lb/>Art. 11 Räumung Ingolstadt,
+                    Braunau, Schärding. Modalitäten. <lb/>Art. 12 Amnestie und Restitution.
+                    <lb/>Art. 13 Ungehinderter Truppenrückzug. <lb/>Art. 14 Räumung.&nbsp;&nbsp;
+                    &nbsp; <lb/>Art. 15 Beilegung Zoll-, Grenz- Schiffahrtsstreitigkeiten.
+                    <lb/>Art.16 Deserteure. <lb/>Art. 17 Ratifikationsfrist. <lb/></p>
+            </div>
+        </front>
+        <body>
+            <div type="Transliteration">
+                <pb facs="#FacsPnr1"/>
+                <p>[Seite 1] </p>
+                <p>
+                    <lb/>Demnach die Allerdurchleuchtigste Großmächtigste Fürstin <lb/>und Frau
+                    Maria Theresia zu Hungarn und Böheim Königin etc. Ertzherzogin <lb/>zu
+                    Österreich etc. und der Durchleuchtigste Fürst und Herr Maximilian <lb/>Joseph
+                    in Ober und Nieder Baÿern, auch der Oberen Pfalz Herzog, Pfalzgraff beÿ
+                    <lb/>Rhein, des Heÿligen Römischen Reichs Ertz Truchsäß und Churfürst, dann in
+                    denen <lb/>Landen des Rheins, Schwaben und Fränckischen Rechtens dermahliger
+                    Fürseher und <lb/>vicarius, Landgraff zu Leuchtenberg, in betracht der
+                    allgemeinen wohlfarth des <lb/>Teutschen Vatterlands zur soliden
+                    Wiederherstellung der alten Freundschafft <lb/>ganz geneigt seind; als seind
+                    Sie&nbsp; folgender Præliminar Articlen unter sich <lb/>eins worden. <lb/>
+                    <lb/>Articulus Primus. <lb/>Ihro zu Hungarn und Böheim Königliche Majestätt,
+                    Ertzherzogin zu Oesterreich werden <lb/>den verstorbenen Herrn Churfürsten als
+                    Kaÿser, und die hinterlassene Durchleuchtigste <lb/>Frau Wittib als Kaÿserin
+                    erkennen. <lb/>
+                    <lb/>Articulus Secundus. <lb/>Allerhöchst- besagt Ihro Königliche Majestätt
+                    werden Seiner Churfürstlichen Durchlaucht <lb/>von Baÿern sammentliche Chur
+                    Baÿrische Länder so, wie selbige vor dem Jahr 1741. besessen <lb/>worden
+                    zuruckgeben. <lb/>
+                    <lb/>Articulus Tertius. <lb/>Stehen der Königin Majestätt von der
+                    Schadloßhaltung ab, so allerhöchst- <lb/>dieselbe von Chur Baÿern zu fordern
+                    hätten. </p>
+                <p>
+                    <lb/>Articulus Quartus. <lb/>Herentgegen thun Ihro Churfürstliche Durchlaucht
+                    für sich, dero Erben und <lb/>Nachkom[m]en in debitâ et optimâ formâ für
+                    beständig Verzicht auf alle der <lb/>
+                    <lb/>
+                </p>
+                <pb facs="#FacsPnr2"/>
+                <p>[Seite 2] <lb/>
+                    <lb/>Pragmatischen Sanction zuwieder lauffende ansprüche an die oesterreichische
+                    Erbfolge; begeben <lb/>sich derer angenohmenen Titlen, und untereinsten des
+                    Tituls eines Ertzherzogen <lb/>von Oesterreich; und stim[m]en der garantie der
+                    Pragmatischen Sanction auf dem Reichstag <lb/>beÿ; welche Verzicht und
+                    respective beÿstimmung vom gesambten Reich und beeden <lb/>Seemächten zu
+                    garantiren, folglich die Vorhin geleistete garantien auf das feÿerlichste
+                    <lb/>zu erneueren wären. Gleiche Verzicht ist von sam[m]entlichen im Leben
+                    befindlichen Durch- <lb/>leuchtigsten Chur Baÿerischen Agnatis für Sich, dero
+                    Erben und Nachkom[m]en zu ertheilen. <lb/>
+                    <lb/>Articulus Quintus. <lb/>Ihro Churfürstliche Durchlaucht machen keinen
+                    anspruch auf gesambte in denen Vorder <lb/>Oesterreichischen Landen in
+                    Französischen Händen befindliche örther, und erklären nach <lb/>unterzeichneten
+                    Præliminarien Ihre eÿgene trouppen, absonderlich Ihre in Günzburg <lb/>liegende
+                    Bataillon zuruckzuziehen. Thun mithin Verzicht auf diese örther und ge-
+                    <lb/>sambte Vorder Oesterreichische Länder, welche Verzicht die nembliche krafft
+                    haben soll, <lb/>als jene hat, so Articulo quarto enthalten ist. Und machen sich
+                    annebst verbündlich, <lb/>nichts erwinden zu lassen, damit obbesagte Lande von
+                    Franckreich alsogleich gerau- <lb/>met werden. <lb/>
+                    <lb/>Articulus Sextus. <lb/>Ihro Churfürstliche Durchlaucht&nbsp; von Baÿern
+                    erkennen die Königliche Chur <lb/>Böhmische Wahlstim[m]e, nebst der derselben
+                    anklebenden Befugnus, Wahlbottschafften <lb/>im nahmen der Königin zu jeder
+                    vorseÿn mögender wahl abzusenden, <lb/>und verbindet sich noch überdas mit darob
+                    zu seÿn, damit diese der Königin <lb/>zukommende, und dem Königreich Böhmen
+                    anklebende unschä[t]zbahrste ge- <lb/>rechtsahme gegen die im Jahr 1741.
+                    beliebte quiescenz vollständig ver- <lb/>wahret werde. <lb/>
+                </p>
+                <pb facs="#FacsPnr3"/>
+                <p>[Seite 3] </p>
+                <p>
+                    <lb/>Articulus Septimus. <lb/>Ihro Churfürstl[iche] Durchlaucht werden dero
+                    Wahlstim[m]e zum behuff Seiner König- <lb/>lichen&nbsp; Hoheit der Königin
+                    Majestätt Durchleuchtigsten gemahls und Mitregenten <lb/>auf nächst vorseÿendem
+                    wahltag ablegen. <lb/>
+                    <lb/>Articulus Octavus. <lb/>Wenn die association von denen vorgelegenen fünff
+                    Reichs Creÿsen zum Stand kom[m]et, <lb/>oder renoviret wird, wollen Ihro
+                    Churfürstliche Durchlaucht selbigen auch <lb/>in diesem fall <lb/>beÿtretten,
+                    sofern diese association keine andere absicht, als des Reichs ruhe und
+                    <lb/>Sicherheit hat; und werden zu allen Zeiten in Zukunfft sich demjenigen
+                    fügen, <lb/>was das gesambte Reich pro bono publico zu beschliessen rathsahm
+                    findet. <lb/>
+                    <lb/>Articulus Nonus. <lb/>Biß nach vollbrachter Römischer Königswahl, bleibt
+                    Ingolstadt mit neutralen <lb/>trouppen bese[t]zt, Braunau und Schardingen aber
+                    mit Ihro Königlichen Maÿe- <lb/>stätt trouppen, und behalten besagt Ihro
+                    Maÿestätt bis obbemelten termino <lb/>den Strich Landes zwischen dem Inn und
+                    Salza, worinnen besagte Vestungen <lb/>Braunau und Schardingen gelegen seind,
+                    ohnbeschadet des allerseits sowohl in <lb/>Ingollstatt, als Braunau und
+                    Schardingen, dan[n] in erwehntem Strich Landes <lb/>sich befindlichen Civil
+                    Guberno und einkünfften. <lb/>
+                    <lb/>Articulus Decimus. <lb/>Die Kriegsgefangene werden beederseits ohne rançon,
+                    so bald möglich, auf <lb/>freÿen fuß gestellet, und keine &lt;abz&gt;ugskosten
+                    abgefordert; doch die Prager <lb/>und jene Schulden, so ein- und anderer
+                    particular gemacht, ab- <lb/>geführet. <lb/>
+                    <lb/>
+                </p>
+                <pb facs="#FacsPnr4"/>
+                <p>[Seite 4] <lb/>&nbsp; <lb/>Articulus Undecimus. <lb/>Beÿ künfftiger raumung deren
+                    Vestungen Ingolstatt, Brauanu und Schardingen, welche <lb/>biß nach erfolgter
+                    Römischer Königswahl theils mit neutral,&nbsp; theils mit Königlichen
+                    <lb/>trouppen besezet verbleiben; als auch beÿ raumung aller übriger von
+                    offtbesagt <lb/>Ihro Königl[ichen] Majestätt trouppen innenhabenden Vesten
+                    Pläzen, welche gleich nach ge- <lb/>wechselten Ratifikationen geraumet werden
+                    sollen, wird all- jene artiglerie und <lb/>darzu gehörige geräthschafft, so
+                    notorie vor dem Jahr 1741. Chur Baÿerische <lb/>artiglerie gewesen zu seÿn
+                    erwiesen werden kan, und sich in bemelten Ve- <lb/>stungen und haltbahren pläzen
+                    dermahlen annoch befindet, zuruckgelassen <lb/>werden. Und können inzwischen von
+                    dem tag der unterschrifft dieser Præli- <lb/>minar articuln anzufangen durch
+                    beederseits von denen com[m]andirenden generalen <lb/>darzu benamsende
+                    com[m]issarios die inventaria darüber verfertiget werden. Und <lb/>wan[n] in dem
+                    mit der Zeit zumachenden general Frieden die Freÿburger Artiglerie <lb/>und
+                    geräthschafften von der Cron Franckreich solte restituiret werden, welche zu
+                    <lb/>erlangen Seine Churfürstliche Durchlaucht sich eÿffrigst anwenden wollen;
+                    so <lb/>erbiethet man sich alle erweißliche Churbaÿrische artiglerie und
+                    geräthschafft, <lb/>so aus Baÿern abgeführt worden, ebenfalls zuruckzugeben. <lb/>
+                    <lb/>Articulus Duodecimus. <lb/>Alle denen Churbaÿrischen unterthanen
+                    sequestrirte güter und einkünfften werden <lb/>relaxiret, das nebmliche
+                    beschiehet von Seiten Chur Baÿern, wofern der <lb/>Königin Ma[jestät]
+                    unterthanen unter Churbaÿrischer bothmässigkeit etwas be- <lb/>sizen solten. Und
+                    wird, wie es beÿ allen Friedens Schlüssen gebrauchlich, Mann- <lb/>und
+                    weiblichen geschlechts civil und Militar Personen eine general Amnestie <lb/>und
+                    restitution aller confiscirten gütter, ehr und würden verwilliget, der-
+                    <lb/>gestalten daß die vorhin gewesene eÿgenthümer solche in besitz bekom[m]en,
+                    <lb/>&nbsp; <pb facs="#FacsPnr5"/><lb/>[Seite 5] <lb/>&nbsp; <lb/>und nach
+                    gefallen sich ruhig darinnen aufhalten, oder auch nach Verausserung derselben
+                    ausser- <lb/>halb Landes mit denen daraus erlösten geldern, ohne daß man abzug
+                    geld von ihnen <lb/>fordere, sich begeben können. <lb/>Hierunter sollen jedoch
+                    jene nicht begriffen seÿn, welche anmit anderer ursachen halber ge- <lb/>fangen
+                    oder relegiret worden. <lb/>&nbsp; <lb/>
+                    <lb/>Articulus Decimus Tertius <lb/>Nachdeme Ihro Churfürstliche Durchlaucht die
+                    in Baÿern gewesene auxiliar trouppen <lb/>ihrer mir deroselben gehabten
+                    Verbindlichkeit entlassen, als werden selbe von dem tag <lb/>dieser
+                    unterschriebenen Præliminar Articlen anfangen aus Baÿern alsogleich auszumar-
+                    <lb/>chiren bis in ihr Land ohne auffenthalt, und solle selben von der in Baÿern
+                    dermahlen <lb/>stehenden Königlichen armée in diesem ruckmarche keine Hindernus
+                    in weg geleget <lb/>werden. <lb/>
+                    <lb/>Articulus Decimus Quartus. <lb/>Gleich nach unterschriebenen Præliminarien
+                    sollen alle feindseeligkeiten, contributions-aus- <lb/>schreibungen, fourage und
+                    brodliefferungen in Baÿern eingestellet werden, und weilen <lb/>die
+                    Königlich-Ungarische trouppen à die Ratificationis dieser Præliminar Articlen
+                    <lb/>das flache Land vollkom[m]en räumen werden, so wird sich unterdessen
+                    zwischen beedersei- <lb/>tiger generalität wegen unterkom[m]ung derer
+                    beederseitiger trouppen ohnverzüglich <lb/>einzuverstehen seÿn. <lb/>&nbsp; <lb/>
+                    <lb/>Articulus Decimus Quintus. <lb/>Sollen die derer Zöllen, gränitzen, der
+                    Innschiffarth halber und sonsten entstan- <lb/>dene nachbahrliche irrungen nach
+                    Maßgab deren Verträgen noch vor dem Schluß des Defi- <lb/>nitiv Friedens
+                    Tractats, an welchen man[n] alsogleich hand anzulegen sich erbiethet, und
+                    <lb/>wegen des orths und Zeit übereins kom[m]en wird, abgethan werden.
+                    <lb/>&nbsp; <pb facs="#FacsPnr6"/>[Seite 6] <lb/>Articulus Decimus Sextus.
+                    <lb/>So bald die Præliminarien unterzeichnet, sollen die Königl[iche]
+                    Deserteurs, sowohl als die Churfürstl[iche] <lb/>beÿ der Cavallerie oder
+                    Infanterie, so sich hin und wieder beÿ denen Regimentern finden <lb/>möchten,
+                    nicht aufgesuchet, noch von keinem theil die auslieferung prætendiret werden,
+                    <lb/>sondern ein jeder Deserteur bleibt in Sicherheit in des Herrn diensten, wo
+                    er beÿ unter- <lb/>zeichnung der Præliminarien stehet. <lb/>&nbsp;&nbsp; &nbsp;
+                    <lb/>Articulus Decimus Septimus. <lb/>&nbsp;Die Ratificationes dieser Præliminar
+                    Articlen sollen innerhalb 14. tägen von der <lb/>unterschreibung anzurechnen,
+                    oder wo möglich, noch ehender zu Salzburg ausgewechselt <lb/>werden.
+                    <lb/>Uhrkundtlich dessen allen seind zweÿ gleichlautende exemplaria verfertiget,
+                    und von beeder- <lb/>seits gevollmächtigten Ministris krafft habender und
+                    ausgehändigter Vollmachten <lb/>eÿgenhändig unterschrieben, mit denen
+                    angebohrenen Insiegeln bekräfftiget, und <lb/>gegeneinander ausgewechslet
+                    worden.&nbsp;&nbsp; So geschehen in der bischöfflich n Augspurgi- <lb/>schen
+                    Stadt Füessen den Zweÿ und zwanzigsten Aprilis 1745. <lb/>Rudolph Graf
+                    Colloredo&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &lt;Joseph Fürst&gt; zu
+                    Fürstenberg <lb/>
+                    <lb/>&nbsp; <pb facs="#FacsPnr7"/>[Seite 7] <pb facs="#FacsPnr8"/>
+                    <lb/>[Seite 12] <lb/>
+                    <lb/>Articulus Separatus. <lb/>
+                    <lb/>Obwohlen der Siebende articul deren heunt unterschriebenen Præliminar ar-
+                    <lb/>ticlen nur in sich enthaltet, dass Seine Churfürstliche Durchlaucht in
+                    Baÿern <lb/>dero Wahlstim[m]e zum behuff Seiner Königlichen Hoheit der Königin
+                    Maÿestätt <lb/>Durchleuchtigsten gemahls und mitregenten auf nächst vorseÿenden
+                    Wahltag <lb/>Ablegen werden; So erklären Sich dannoch besagte Churfürstliche
+                    Durchlaucht, <lb/>dass Sie Sich würcklich anheischig machen, dero Wahlstim[m]e
+                    zum behuff bemelt <lb/>Seiner Königlichen Hoheit der Königin Maÿestätt
+                    Durchleuchtigsten gemahls <lb/>und Mitregenten auf nächst vorseÿendem Wahltag
+                    abzulegen, und krafft <lb/>dieses Separat articuls ablegen, auch an Sich nichts
+                    erwinden zu lassen, <lb/>und Chur Cölln und Chur Pfalz zu dem nemblichen zu
+                    vermögen. <lb/>Dieser Separat articul ist von eben der Krafft und würckung, als
+                    ob er denen <lb/>heunt geschlossenen&nbsp; præliminarien von wort zu wort
+                    einverleibet wäre, <lb/>solle auch zugleich und zu einer zeit mit selbigen
+                    ratificiret, und die Ratifi- <lb/>cationes in 14. tägen, oder wo möglich, noch
+                    ehender in Salzburg aus- <lb/>gewechselt werden. <lb/>Uhrkundlich seind hiervon
+                    zweÿ gleichlautende exemplaria verfertiget, und <lb/>von beederseits
+                    gevollmächtigten Ministris Krafft habender und ausgehän- <lb/>digter Vollmachten
+                    eÿgenhändig unterschrieben, und mit denen angebohrnen <lb/>Insiegeln
+                    bekräfftiget und gegeneinander ausgewechselt worden.&nbsp;&nbsp; So
+                    <lb/>geschehen in der Bischöfflich Augspurgischen Stadt Füessen, den zweÿ und
+                    <lb/>zwanzigsten Aprilis&nbsp; 1745. &nbsp; <lb/>
+                </p>
+                <p>Rudolph Graf Colloredo&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;Joseph Fürst zu
+                    Fürstenberg <lb/>
+                    <lb/>
+                </p>
+                <pb facs="#FacsPnr9"/>
+                <p>[Seite 9] <lb/>
+                    <lb/>Articulus Separatus <lb/>Ihro zu Hungarn und Böheim Königliche Maÿ[estät]
+                    versprechen&nbsp; Ihro Churfürstlichen <lb/>Durchleucht, dass selbe auf das
+                    stärckste sich anwenden werden, damit beede <lb/>See Puissancen Ihro Durchleucht
+                    zulängliche Subsidien gegen überlassung einer <lb/>Anzahl trouppen zu diensten
+                    bemelter See Puissancen mit einverständnus&nbsp; Ihro <lb/>Königlichen
+                    Maÿestätt, darreichen, und wird von denen daran theilnehmenden <lb/>Mächten
+                    hierüber an die hierzu nöthige Conventionen ohne zeit Verlust Hand ange-
+                    <lb/>leget werden. <lb/>&nbsp;Dieser Separatarticul ist von eben der Krafft und
+                    würckung, als ob er denen heu&lt;n&gt;t <lb/>geschlossenen&nbsp; Præliminarien
+                    von wort zu wort einverleibet wäre, solle auch zugleich <lb/>und zu einer zeit
+                    mit selbigen ratificiret, und die Ratificationes in 14. tägen <lb/>oder wo
+                    möglich noch ehender in Salzburg ausgewechselt werden. <lb/>Uhrkundlich seind
+                    hiervon zweÿ gleichlautende exemplaria verfertiget, und von <lb/>beederseits
+                    gevollmächtigten Ministris krafft habender und ausgehändigter <lb/>Vollmachten
+                    eÿgenhändig unterschrieben, und mit denen angebohrnen Insiegeln
+                    <lb/>bekräfftiget und gegeneinander ausgewechselt worden. <lb/>So geschehen in
+                    der bischöfflich Augspurgischen Statt Füessen den 22.ten Aprilis <lb/>1745. <lb/>
+                    <lb/>Rudolph Graf Colloredo&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;Joseph Fürst zu
+                    Fürstenberg <lb/>
+                    <pb facs="#FacsPnr10"/>[Seite 10] <pb facs="#FacsPnr11"/>[Seite 11] <lb/>
+                    <lb/>Articulus Secretus <lb/>Ihro zu Hungarn und Böheim Königliche Maÿ[estät]
+                    versprechen Ihro Churfürstliche <lb/>Durchlaucht gleich nach Ratificirung der
+                    heunt unterschriebenen Præliminaria Viermahl <lb/>hundert tausend gulden in
+                    sicheren zu Augspurg oder Nürnberg zahlbahren wechselbrieffen <lb/>auf die von
+                    denen See Puissancen gegeben werdende Subsidien vorzuschiessen, welche Sum[m]a
+                    <lb/>von bemelten Subsidien in gewissen terminen wieder decourtiert werden
+                    solle. Worüber <lb/>man sich nach der arth, wie die See Puissancen gedachte
+                    Subsidien anordnen, vergleichen <lb/>wird, jedoch dergestalten, dass die
+                    ruckzahlung der anticipation nicht länger als ein <lb/>jahr sich erstrecke.
+                    <lb/>Dieser Separatarticul ist von eben der Krafft und würckung, als ob er denen
+                    heu&lt;n&gt;t <lb/>geschlossenen&nbsp; Præliminarien von wort zu wort
+                    einverleibet wäre, solle auch zugleich <lb/>und zu einer zeit mit selbigen
+                    ratificiret, und die Ratificationes in 14. tägen, oder <lb/>wo möglich noch
+                    ehender in Salzburg ausgewechselt werden. <lb/>Uhrkundlich seind hiervon zweÿ
+                    gleichlautende exemplaria verfertiget, und von be- <lb/>ederseits
+                    gevollmächtigten Ministris krafft habender und ausgehändigter Voll- <lb/>machten
+                    eÿgenhändig unterschrieben, und mit denen angebohrnen Insiegeln be-
+                    <lb/>kräfftiget und gegeneinander ausgewechselt worden.&nbsp;&nbsp; So geschehen
+                    in der <lb/>Bischöfflich Augspurgischen Statt Füessen, den 22.ten Aprilis&nbsp;
+                    1745. <lb/>
+                    <lb/>Rudolph Graf Colloredo&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;Joseph Fürst zu
+                    Fürstenberg <lb/>
+                </p>
+            </div>
+        </body>
+        <back>
+            <listBibl>
+                <bibl>Anderson, Mattew:The War of the Austrian Succession 1740-1748. London 1995.
+                    Brownig, Reed: The War of the Austrian Succession. New York 1993.</bibl>
+            </listBibl>
+        </back>
+    </text>
+</tei:TEI>

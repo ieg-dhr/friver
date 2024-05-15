@@ -1,0 +1,591 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE tei SYSTEM "../resources/FriVer_DTD.dtd">
+
+<?xml-model href="../resources/FriVer.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns="http://www.tei-c.org/ns/1.0"
+    xml:id="pa000299-1484">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title level="s">European peace treaties of the pre-modern era in data / Europäische
+                    Friedensverträge der Vormoderne in Daten (FriVer+)</title>
+                <title when="1711-01-05" xml:id="t1484" when-custom="1711 I 5" level="a"
+                    ref="https://www.ieg-friedensvertraege.de/treaty/t-1484-1-de.html">Vertrag von
+                    Hamburg</title>
+            </titleStmt>
+            <editionStmt>
+                <edition> Digital edition according to <ref target="http://www.tei-c.org/">TEI
+                        P5</ref>
+                </edition>
+                <funder>
+                    <ref target="https://www.text-plus.org/">TEXT+</ref>
+                </funder>
+                <editor role="http://id.loc.gov/vocabulary/relators/edt"
+                    ref="https://orcid.org/0000-0002-8741-5916">
+                    <persName>Jaap Geraerts</persName>
+                    <note>The transformation and enrichment of the data is done by Jaap Geraerts
+                        (IEG Mainz). The other members of the FriVer+ team are Fabian Cremer, Ines
+                        Grund, and Thorsten Wübbena (all IEG Mainz).</note>
+                    <note> The original data has been created by the <ref
+                            target="https://www.ieg-friedensvertraege.de">team of scholars</ref> who
+                        were part of the Europäische Friedensverträge der Vormoderne project. This
+                        project was lead by Prof. Dr. Heinz Duchhardt and was based at the Leibniz
+                        Institute of European History in Mainz. </note>
+                </editor>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>
+                    <orgName ref="http://www.isni.org/0000000119314040">Leibniz-Institut für
+                        Europäische Geschichte Mainz</orgName>
+                </publisher>
+                <distributor>
+                    <orgName ref="http://www.isni.org/0000000110101946">Universitäts- und
+                        Landesbibliothek Darmstadt</orgName>
+                </distributor>
+                <idno type="ISIL">http://lobid.org/organisation/DE-17</idno>
+                <date type="issued" when="2023-12-23"/>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">
+                        <p xml:lang="en">This file is licensed under the terms of the Creative
+                            Commons License CC-BY 4.0 (Attribution 4.0 International)</p>
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <repository xml:id="r13">Kopenhagen RA</repository>
+                <msDesc>
+                    <p>Dänisches Reichsarchiv, Kopenhagen: Kongehusets og Rigets arkiv: Forholdet
+                        til udlandet (Traktater), E 2 Holsten-Gottorp nr. 20.</p>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p> The data in this XML file, originally created by the project <ref
+                        target="https://www.ieg-friedensvertraege.de/vertraege">Europäische
+                        Friedensverträge der Vormoderne online</ref> has been transformed in
+                    accordance with <ref target="http://www.tei-c.org/">TEI P5</ref> as part of the
+                    project <ref
+                        target="https://www.ieg-mainz.de/en/research/research-projects/european-peace-treaties-of-the-pre-modern-era-in-data"
+                        >Europäische Friedensverträge der Vormoderne in Daten (FriVer+)</ref>
+                </p>
+            </projectDesc>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="de" xml:id="lan2">deutsch</language>
+            </langUsage>
+        </profileDesc>
+    </teiHeader>
+    <standOff>
+        <listPerson>
+            <person role="signatory" xml:id="p32">
+                <persName ref="https://explore.gnd.network/gnd/4010877-6">
+                    <name>Dänemark</name>
+                </persName>
+            </person>
+            <person role="signatory" xml:id="p138">
+                <persName ref="https://explore.gnd.network/gnd/4514664-0">
+                    <name>Schleswig - Holstein - Gottorf</name>
+                </persName>
+            </person>
+        </listPerson>
+        <listPlace>
+            <place xml:id="loc35">
+                <placeName ref="https://explore.gnd.network/gnd/4023118-5">Hamburg</placeName>
+            </place>
+        </listPlace>
+        <facsimile>
+            <surface xml:id="FacsPnr1">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_4624c1684b49c"/>
+            </surface>
+            <surface xml:id="FacsPnr2">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_4624d31d4d115"/>
+            </surface>
+            <surface xml:id="FacsPnr3">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_4624d32a1e2d1"/>
+            </surface>
+            <surface xml:id="FacsPnr4">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_4624d336b96ed"/>
+            </surface>
+            <surface xml:id="FacsPnr5">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_4624d34108a98"/>
+            </surface>
+            <surface xml:id="FacsPnr6">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_4624d34d15574"/>
+            </surface>
+            <surface xml:id="FacsPnr7">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_4624d356e93e0"/>
+            </surface>
+            <surface xml:id="FacsPnr8">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_4624d362bc4df"/>
+            </surface>
+            <surface xml:id="FacsPnr9">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_4624d36d6a426"/>
+            </surface>
+            <surface xml:id="FacsPnr10">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_4624d37b897d9"/>
+            </surface>
+            <surface xml:id="FacsPnr11">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_4624d388ba4d1"/>
+            </surface>
+            <surface xml:id="FacsPnr12">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_4624d393e2534"/>
+            </surface>
+            <surface xml:id="FacsPnr13">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_4624d3a1e05ad"/>
+            </surface>
+            <surface xml:id="FacsPnr14">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_4624d3ae143d8"/>
+            </surface>
+            <surface xml:id="FacsPnr15">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_4624d3ba10523"/>
+            </surface>
+            <surface xml:id="FacsPnr16">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_4624d3c620e8d"/>
+            </surface>
+            <surface xml:id="FacsPnr17">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_4624d3d1be1fa"/>
+            </surface>
+            <surface xml:id="FacsPnr18">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_4624d3de3b402"/>
+            </surface>
+        </facsimile>
+    </standOff>
+    <text>
+        <front>
+            <div type="Inhalt">
+                <p>&nbsp; </p>
+                <p>Über die Interpretation von Art. 3 des Friedensvertrags von Traventhal sind
+                    einige Differenzen zwischen Dänemark und Schleswig-Holstein-Gottorf aufgetreten,
+                    so daß sich beide Seiten im Hamburg getroffen und folgende Punkte vereinbart
+                    haben: <lb/>
+                </p>
+                <p>
+                    <lb/>1. Alle adeligen Güter in den Herzogtümern Schleswig und Holstein
+                    unterstehen der gemeinschaftlichen Regierung. Die Jurisdiktion in
+                    Kriminalfällen, die auf gemeinschaftlich regiertem Boden begangen worden sind,
+                    bleibt bei der gemeinschaftlichen Regierung. Sonst behalten die Hintersassen von
+                    Prälaten und Ritterschaft ihren Gerichtsstand vor ihren Grundherren und deren
+                    Gerichten. <lb/>
+                    <lb/>2. Die Hintersassen von Prälaten und Ritterschaft haben das
+                    Appellationsrecht von den Ding- und Amtsgerichten über die Oberamts- und
+                    Hofgerichte bis zum Gemeinen Landgericht. <lb/>
+                    <lb/>3. Grundherren aus Prälaten- und Ritterschaft belangen ihre Hintersassen in
+                    der ersten Instanz vor ihren eigenen Gerichten, wenn sie welche unterhalten; von
+                    dort wird direkt an das Gemeine Landgericht appelliert. <lb/>
+                    <lb/>4. Hintersassen von Prälaten, Ritterschaft und anderen Gutsbesitzern
+                    belangen ihre Herren direkt vor dem Gemeinen Landgericht. <lb/>
+                    <lb/>5. Streitigkeiten über den Gerichsstand gemeinschaftlich regierter
+                    Untertanen werden von einem paritätisch besetzten Gericht entschieden. <lb/>
+                    <lb/>6. Gemeinschaftlich regierte Untertanen im Dienst eines regierenden Herrn
+                    haben ihren Gerichtsstand vor ihrem Dienstherrn. Sofern das Urteil
+                    gemeinschaftlich regierte Güter betrifft. soll die Urteilsexekution mit Konsens
+                    des anderen regierenden Herrn erfolgen. Sonst bleiben die gemeinschaftlich
+                    regierten Untertanen der gemeinschaftlichen Jurisdiktion unetrworfen. <lb/>
+                    <lb/>7. Die Gerichtsbarkeit über die Bediensteten und Hintersassen der
+                    geistlichen und adligen Patronatskirchen und ihrer Schulen liegt
+                    gemeinschaftlich bei den regierenden Herren und wird durch deren
+                    Generalsuperintendenten und Pröpste ausgeübt. <lb/>
+                    <lb/>8. Die geistliche Gerichtsbarkeit über Prälaten und Adel sowie über die
+                    Bediensteten und Hintersassen ihrer Patronatskirchen und Schulen soll direkt vom
+                    Ober-Konsistorium ausgeübt werden. <lb/>
+                    <lb/>9. In Fällen der geistlichen Gerichtsbarkeit sollen die Unter-Konsistorien
+                    in der Ämtern künftig nicht mehr für die Bediensteten und Hintersassen der
+                    geistlichen und adligen Patronatskirchen und ihrer Schulen zuständig sein,
+                    sondern nur noch das allgemeine Konsistorium. <lb/>
+                    <lb/>10. Die Untertanen der regierenden Herren unterstehen der geistlichen
+                    Gerichtsbarkeit des Konsistoriums ihres jeweiligen Herrn. Sie leisten die vollen
+                    kirchlichen Abgaben, an einer Kirche unter der Hoheit des jeweils anderen
+                    regierenden Herrn jedoch nur zum Unterhalt von Kirchen und Schulen sowie von
+                    deren Bediensteten. <lb/>
+                    <lb/>11. Das bisher Holstein-Gottorffische Patronatsrecht über die Kirche von
+                    Langenhorn wird eingetauscht gegen das bislang königliche Patronatsrecht über
+                    die Kirche von Nübel. Die Kirche von Lütjenburg fällt künftig unter die
+                    geistliche Jurisdiktion des Königs, die Kirche von Großenbrode unter
+                    gemeinschaftliche geistliche Jurisdiktion. <lb/>
+                    <lb/>12. Die von den Gütern der Prälaten und der Ritterschaft unter
+                    gemeinschaftlicher Regierung erhobenen Abgaben werden von jedem regierenden
+                    Herrn zur Hälfte erhoben und eingetrieben. <lb/>
+                    <lb/>13. Einseitige Maßnahmen, die seit dem Frieden von Traventhal ohne
+                    Einspruch der anderen Seite getroffen worden sind, bleiben als gültig bestehen;
+                    die anderen Streitpunkte sollen nach Maßgabe des vorliegenden Vertrags erneut
+                    vor dem Landgericht verhandelt und entschieden werden. <lb/>
+                    <lb/>14. Der Postverkehr der beiden regierenden Herren soll das Gebiet des
+                    jeweils anderen ungehindert passieren und dort keine neuen Sendungen oder
+                    Passagiere aufnehmen. Zollpflichtige Sendungen werden verzollt. <lb/>
+                    <lb/>15. Der Streit um ein in Heiligenhafen beschlagnahmtes Schiff wird an das
+                    Gemeine Landgericht verwiesen. <lb/>
+                    <lb/>16. Der König will die Stadt Oldesloe zur Reparatur des Mühlendamms
+                    anweisen, sobald ihm die Gottorfische Regierung die Baupflicht der Stadt
+                    nachweist. <lb/>
+                    <lb/>17. Die Streitigkeiten u.a. der Jagd, des Güteraustauschs und der
+                    Grenzziehung wegen sollen innerhalb der nächsten sechs Monate zum Abschluß oder
+                    Vergleich gebracht werden. <lb/>
+                    <lb/>18. Die Jurisdiktion über einige außerhalb der Lübecker Landwehr gelegene
+                    Dörfer, die bislang einseitig beim König gelegen hatte, soll künftig
+                    gemeinschaftlich ausgeübt werden, mit allen Rechten und Pflichten, wie über
+                    andere adelige Güter. <lb/>
+                    <lb/>19. Der König behält sich seine Ansprüche auf das Amt Tremsbüttel vor, läßt
+                    das Haus Holstein-Gottorf jedoch weiter im Besitz des Amtes, bis zur Beilegung
+                    der Streitigkeiten. <lb/>
+                    <lb/>20. Die Abgabenforderungen von den adligen Gütern sollen innerhalb der
+                    nächsten drei Monate ausgeglichen werden; gelingt dies nicht, so wollen sich die
+                    beiden regierenden Linien darüber vergleichen. <lb/>
+                    <lb/>21. In allen andern Punkten bleibt es beim Frieden von Traventhal 1700 VIII
+                    18 sowie bei den Bestimmungen des Vergleichs von Hamburg 1701 VII 12. <lb/>
+                    <lb/>
+                </p>
+            </div>
+        </front>
+        <body>
+            <div type="Transliteration">
+                <pb facs="#FacsPnr1"/>
+                <p>Zu wißen: Nachdeme zwischen Ihr[er] Königl[ich]e[n] <lb/>Maÿ[estä]tt zu
+                    dännemarck Norwegen [etc.] und des herrn <lb/>Hertzogs zu Schleßwig
+                    Hollstein-Gottorff durchl[aucht] <lb/>über den Verstand und die Erklährung des
+                    dritten <lb/>Articuli des Travendahl[sch]en Tractats einige <lb/>differentien
+                    sich hervor gethan, welche man ab- <lb/>seiten Ihr[er] Durchl[aucht] nebßt denen
+                    übrigen seither dem <lb/>Travendahl[sch]en Vergleich unerörtert gebliebe-
+                    <lb/>nen Gravaminibus gerne erlediget haben <lb/>wollen; Ihr[e] königl[ich]e
+                    Maÿ[estä]tt auch, zu bezeugung <lb/>dero freündvetterlichen affection und guter
+                    <lb/>intention vor das Hochfürstl[ich]e Hauß, sich solches <lb/>nicht entgegen
+                    seÿn, sondern geschehen laßen, daß <lb/>einige dero Ministrorum mit den
+                    Fürstl[ich]en <lb/>dazu depurtirten Ministris darüber einen <lb/>Congress auff
+                    dem Schaumburgischen Hoff zu <lb/>Hamburg anstellen, und sothane Streitigkeiten
+                    <lb/>in der güte abthun möchten; zu dessen Behueff <lb/>allerhöchstgedachte
+                    Ihr[e] königl[ich]e Maÿ[estä]tt dero Ge- <lb/>heimbden Rath, Vice-Stadthaltern
+                    in den Für- <lb/>stenthümbern Schleßwig-Hollstein und Landt- <lb/>Rath h[errn]
+                    Joachim von Ahlefeldt auff Buckhagen <lb/>Rittern [etc]. so dann dero Geheimbden
+                    Conferenz-und <lb/>Etats-Rath h[errn] Christoph Gensch von Breitenau <lb/>
+                    <pb facs="#FacsPnr2"/>auff Grünhoff Rittern [etc.] und dero Etats-, Justiz-
+                    <lb/>und Cantzleÿ -Rath auch Residenten im Nieder- <lb/>Sächsischen Creÿße Hans
+                    Statius Hagedorn sambt <lb/>und sonders mit zulänglicher Vollmacht versehen
+                    <lb/>und zur Erörterung der Mißhelligkeiten aller- <lb/>gnädigst Committiret,
+                    die dann mit denen Von <lb/>Ihro Hochfürstl[icher] Durchl[aucht] dazu gleichfalß
+                    accreditir- <lb/>ten und genuegsahm Bevollmächtigten Ministris, <lb/>alß dem
+                    Geheimbden Rath, OberHoff Marschall und <lb/>Gesandten im NiederSächsischen
+                    Creÿße [etc.] Herrn <lb/>Georg Henrich Freÿherrn von Schlitz genant <lb/>von
+                    Göerz, so dann dem Geheimbden Rath undt <lb/>General-Lieutenant Herrn Gerhard
+                    Graffen <lb/>von Dernath [etc.] und dem Etats-Rath h[errn] Christian
+                    <lb/>Wilhelm von Eÿben nach hinc inde ausgewechßel- <lb/>ten Credentialien in
+                    Handlung getreten, und <lb/>endlich, nach vielen Conferenzen, zu wiederher-
+                    <lb/>stellung des alten guten Vernehmens zwischen Ihr[o] <lb/>Königl[iche]r
+                    Maÿ[estä]tt und dem Hochfürstl[ich] Hollstein-Got- <lb/>torffischen Hauße, sich
+                    über nachfolgende articuln <lb/>vereinbahret und verglichen, daß <lb/>
+                    <lb/>Artic[ulus] 1 <lb/>Wie der Articulus 3tius des Travendahl[sch]en
+                    <lb/>Friedens ohne unterscheidt von allen Prælaten <pb facs="#FacsPnr3"/>und
+                    adel[ich]en Güthern, so wie sie in der Landes- <lb/>Matricul gesetzet und
+                    enthalten, redet; Also <lb/>auch von allen zu verstehen seÿ, und dahero alle
+                    <lb/>diese bißhero in obigen zweiffel gezogene Adel[ich]e <lb/>Güther in denen
+                    Hertzogthümern Schleßwig und <lb/>Hollstein, Sie seÿn Marsch- oder Geest, Sie
+                    liegen <lb/>wo sie wollen, und werden besessen von wem sie <lb/>wollen, mit
+                    ihren possessoren, wes Standes die <lb/>seÿndt, sambt deren Officianten,
+                    Bedienten, Un- <lb/>terthanen und Einwohnern, mit und neben den <lb/>übrigen in
+                    der Landes-Matricul befindtlichen <lb/>Prælaten und Ritterschafft, auch denen
+                    von den <lb/>Herrschafften selbsten itzo besitzenden oder <lb/>künfftig an sich
+                    bringenden Adel[ich]en Güthern, <lb/>so wol in Civilibus alß Ecclesiasticis,
+                    ohne <lb/>eintzige Exception oder Exemption, der königl[ich]en <lb/>und
+                    Hochfürstl[ich]en Gemeinsahmen Territorial-Ho- <lb/>heit und Jurisdiction sambt
+                    allen davon depen- <lb/>direnden Rechten unterwürffig seÿn sollen; <lb/>Waß
+                    ferner die Criminal-Hoheit und Jurisdi- <lb/>ction selbßt über die Personen der
+                    Prælaten <lb/>und Ritterschafft auch anderer Besitzer von adel[ich]en
+                    <lb/>Güthern, sambt deren Eheweibern und kindern be- <lb/>trifft, bleibet
+                    dieselbe gleichergestalt nach der <lb/>LandtGerichts-Ordnung und hergebrachten
+                    Ob- <pb facs="#FacsPnr4"/>servanz, wann das Crimen oder delictum auff
+                    <lb/>Gemeinschafftlichen Grund und Boden begangen, <lb/>unter
+                    Gemeinschafftl[ich]er Regierung, <lb/>Besagter Prælaten, Ritterschafft und
+                    anderer <lb/>Besitzer von Adel[ich]en Güthern ihre Officianten, <lb/>Bediente
+                    Unterthanen und Einwohner aber <lb/>behalten ihr forum Criminale, wie Sie es
+                    biß- <lb/>hero entweder beÿ ihrer mit eigenem ding- <lb/>und Recht versehenen
+                    Ordinairen Obrigkeit und <lb/>Guths-Herrn, oder sonsten beÿ königl[ich]en und
+                    Fürstl[ich]en <lb/>dingstedten gehabt. <lb/>
+                    <lb/>2. <lb/>Nachdem aber etzliche der Vorbemeldten Præla- <lb/>ten und
+                    Adel[ich]en Güther ihre Officianten, Bediente, <lb/>Unterthanen und Einwohner an
+                    gewißen Ohrten <lb/>auch in Civilibus dingpflichtig, oder dero Nie- <lb/>der
+                    Instanzen beÿ den Unter-Gerichten der <lb/>respective königl[ich]en und
+                    Hochfürstl[ich]en Ämbter <lb/>und Lande von jehero haben, von darab Sie an das
+                    <lb/>königl[ich]e und Hochfürstl[ich]e Oberambts- oder Hoff- <lb/>Gericht
+                    appelliren; So soll es hinferner dabeÿ <lb/>unverändert bleiben, jedoch, daß
+                    solcher Prælaten <lb/>und Adel[ich]en Güther Officianten, Bedienten, Un-
+                    <lb/>terthanen und Einwohnern von erwehnten königl[ich]en <lb/>und
+                    Hochfürstl[ich]en respectivè Ober-Ambts oder <pb facs="#FacsPnr5"
+                    />Hoff-Gerichten die weitere appellation <lb/>an das Gemeine Landt-Gericht freÿ
+                    stehen. <lb/>
+                    <lb/>3. <lb/>Wann die Prælaten, Ritterschafft oder an- <lb/>dere besitzer,
+                    Adel[ich]er Güther ihre Officianten, <lb/>Bediente, Unterthanen und Einwohner,
+                    sambt <lb/>oder sonders, rechtlich zu belangen hätten, Verblei- <lb/>bet Ihnen,
+                    den Actoribus, so ihr eigen ding- und <lb/>Recht haben, freÿ, zur ersten instanz
+                    ding- und <lb/>Recht zu legen, und vor selbigen erwehnte ihre Offi-
+                    <lb/>cianten, Bediente, Unterthanen und Einwohner <lb/>zu besprechen, wovon
+                    jedoch die appellation im- <lb/>mediatè an das Gemeine Land-Gericht gehet; Beÿ
+                    <lb/>dem andern Fall, da Prælaten oder Adel[ich]e Güther <lb/>kein eigen ding-
+                    und Recht hätten, wird dergleichen <lb/>klage wieder die Officianten, Bediente,
+                    Unter- <lb/>thanen und Einwohner zwar beÿ der ersten ding- <lb/>pflichtigen
+                    Instanz angebracht, jedoch von da <lb/>ab immediatè an das Landt-Gericht
+                    appelli- <lb/>ret. <lb/>
+                    <lb/>4. <lb/>Dahingegen, wann dergleichen Officianten, Bediente,
+                    <lb/>unterthanen und Einwohner ihre Herrn zu belan- <lb/>gen nöhtig hätten, ist
+                    die Sache immediatè an das <lb/>Gemeine Landt-Gericht zu bringen, daß also Præ-
+                    <lb/>laten, Ritterschafft und der Adel[ich]en Güther Posses- <pb
+                        facs="#FacsPnr6"/>sores der mittlern Instanz gar nicht unter- <lb/>worffen
+                    seÿn. <lb/>
+                    <lb/>5. <lb/>Daferne wegen oberwehnter dingpflichtigkeit <lb/>über
+                    gemeinschafftl[ich]e Unterthanen, ob und wie weit <lb/>solche darunter gehören,
+                    eine Streitigkeit entstünde, <lb/>soll dieselbe von einem Gemeinschafftl[ich]en
+                    pari nu- <lb/>mero von beyden seiten neben dem LandtCantzler <lb/>besetzten
+                    Gericht, nachdem die hierzu deputirte <lb/>königl[ich]e und Hochfürstl[ich]e
+                    Ministri vorhero ad <lb/>hunc actum ihrer Pflicht erlaßen, und zu obiger
+                    <lb/>affaire mit einem Specialen Eÿde beleget, er- <lb/>örtert, auch, anstatt
+                    der Herrschafft, deren Ambt- <lb/>mann des orts citiret, und der Process durch
+                    ihn <lb/>oder welcher ihme wird subsituiret werden, <lb/>auszuführen schuldig
+                    seÿn. <lb/>
+                    <lb/>6. <lb/>Wegen der Gemeinschafftl[ich]en Landsaßen, wenn Sie in <lb/>des
+                    einen oder andern herrn privativè diensten <lb/>stehen, hat man, ratione fori,
+                    folgende Verabre- <lb/>dung gut gefunden: nemblich, wann ein solcher,
+                    <lb/>ratione officii, besprochen würde, daß selbiges <lb/>vor dem herrn in
+                    dessen dienste er ist, einseitig <lb/>geschehen, und von demselben und in dessen
+                    nahmen <lb/>über ihn geurtheilet werden, auch selbigem unbe- <pb
+                        facs="#FacsPnr7"/>nommen seÿn solle, in denen unter seinem privat
+                    <lb/>Territorio und einseitiger Jurisdiction ge- <lb/>legenen mobil- oder
+                    immobil-Güthern /: wie <lb/>er dessen ohnedem befuegt :/ freÿ und ungehindert
+                    <lb/>die Execution zu thun, und die abgesprochene Urtheil <lb/>vollenstrecken zu
+                    laßen; daferne aber über <lb/>dasjenige, was in dergleichen fällen vom Richter
+                    <lb/>erkandt, eine Execution in die, der Gemeinschafft[ichen] <lb/>Regierung
+                    unterlegene, Güther begehret würde, <lb/>soll zwar von dem andern mitregierenden
+                    herrn, <lb/>wann nehmlich solche urtheile, die krafft Rechtens <lb/>ergriffen,
+                    der Consens gebührlich gesuchet, jedoch <lb/>solcher unter keinerleÿ prætext
+                    verweigert, oder <lb/>sothane Execution gehindert werden, und wann <lb/>solches
+                    geschehe, dem Domino judicanti freÿ stehen, <lb/>die execution nichts desto
+                    minder in die Gemein- <lb/>schafftl[ich]e Güther, von was ahrt dieselbe auch
+                    seÿn, <lb/>einseitig zu bewerckstelligen; In allen übrigen <lb/>Sachen aber
+                    bleiben die gemeinschafftl[ich]e Land- <lb/>saßen in den Hertzogthümern, sie
+                    mögen posses- <lb/>sionirt seÿn oder nicht, ungeachtet Sie in des <lb/>einen
+                    oder andern Herrn einseitigen diensten <lb/>stehen, der Gemeinschafftl[ich]en
+                    Jurisdiction und <lb/>davon dependirenden befehlen unterworffen. <pb
+                        facs="#FacsPnr8"/>7. <lb/>Alß das Jus Episcopale der Landes Fürstl[ich]en
+                    <lb/>Hoheit annex ist; So soll dasselbe auch über alle <lb/>Prælaten und von
+                    Adel, deren Kirchen, Prediger, <lb/>Kirchen- und Schuel-Bedienten, Officianten
+                    und <lb/>Unterthanen Vorberührter Adel[ich]en Güther, Sie ge- <lb/>hören der
+                    Herrschafft Selbst vorietzt oder künfftig, <lb/>oder wem sie sonsten wollen,
+                    wann gleich Ihre <lb/>königl[ich]e Maÿ[estä]tt oder Ihr[e] Hochfürstl[ich]e
+                    Durchl[aucht] alß <lb/>Com Patroni beÿ einer dergleichen Kirchen con-
+                    <lb/>currirten, dem königl[ich]en und Hochfürstl[ich]en Hauße <lb/>in
+                    Gemeinschafft Competiren; Immassen Sie zu <lb/>dem Ende durch Ihre
+                    General-Superintendenten <lb/>oder Pröbste die visitationes, Prediger-Exami-
+                    <lb/>nationes und ordinationes sambt andern Ihnen <lb/>beÿkommenden actibus
+                    Juris Episcopalis <lb/>beÿ besagten Kirchen, dero Predigern, Kirchen- und
+                    <lb/>Schuel-bedienten, auch Clöster oder Adel[ich]er <lb/>Güther Unterthanen,
+                    und zwar jeder Herr in <lb/>seinem regierungs-Jahr exerciren wolle. <lb/>
+                    <lb/>8. <lb/>Dergleichen wollen Sie alle von daher kommende <lb/>Geistliche item
+                    Matrimonial- und alle dahin <lb/>gehörige Sachen, so der Prælaten und deren von
+                    Adel <lb/>Persohn, deren Kirchen, Prediger, Kirchen- und Schuel- <pb
+                        facs="#FacsPnr9"/>bediente, auch officianten, bediente, unterthanen <lb/>und
+                    Einwohner betreffen, durch das gemeine <lb/>beÿm Landt-Gericht zuhaltende
+                    OberConsistorium, <lb/>ohne observirung der Nieder Instantzien, judiciren
+                    <lb/>und decidiren lassen. <lb/>
+                    <lb/>9. <lb/>Und ob schon verschiedene Prælaten und Adel[ich]er <lb/>Güther
+                    Unterthanen und Einwohner in causis <lb/>Ecclesiastricis et Matrimonialibus
+                    bißhero <lb/>vor die UnterConsistoria in etlichen königl[ich]en <lb/>und
+                    Fürstl[ich]en Ämbtern möchten gezogen worden <lb/>seÿn; So ist doch, allerhand
+                    confusiones zu ver- <lb/>hüten, deshalber ein anders verabredet, und solle[n]
+                    <lb/>hinführo der Prælaten, Ritterschafft und Adel[iche]n <lb/>Güther Prister,
+                    Kirchen und Schuelbediente, wie auch <lb/>deren officianten, diener, unterthanen
+                    und Ein- <lb/>wohner mit dergleichen unterConsistoriis nichts <lb/>mehr zu thuen
+                    haben, sondern immediatè von der <lb/>gemeinschafftl[ich]en Regierung und dem
+                    Gemeinen <lb/>Consistorio dependiren und daselbsten justiti- <lb/>able seÿn. <lb/>
+                    <lb/>10. <lb/>Ferner ist zu Verhütung aller Confusion und <lb/>Irrung wegen der
+                    in des einen oder andern <pb facs="#FacsPnr10"/>herrn Ambts
+                    kirchen,eingepfarreten einseitigen <lb/>königl[ich]en oder Hochfürstl[ich]en
+                    Unterthanen, beliebet, <lb/>daß dieselbe in matrimonial Dispensationen <lb/>und
+                    andern zur Episcopal Jurisdiction ge- <lb/>hörige Sachen vor eines jeden herrn,
+                    unter deme <lb/>Sie gesessen, privativen Consistorio stehen sollen; <lb/>was
+                    aber die onera Ecclesiæ betrifft, solche haben <lb/>dergleichen eingepfarrete
+                    ohne die geringste Ver- <lb/>weigerung allemahl pro ratâ mit zu præstire[n],
+                    <lb/>oder es soll denen kirchgeschwornen die gewöhnliche <lb/>kirchenpfandung
+                    gegen die säumige, ohne ansehung <lb/>unter welches herrn Jurisdiction Sie
+                    sonsten ge- <lb/>hören, zu verrichten erlaubet seÿn, doch soll unter <lb/>dem
+                    prætext solchen kirchganges von dem Epis- <lb/>copo Ecclesiæ, vielweniger seinen
+                    Superinten- <lb/>denten, Pröbsten, beambten oder Pristern <lb/>des orths, des
+                    andern herrn oder übrigen ein- <lb/>gepfarreten Unterthanen keine andere onera,
+                    <lb/>als welche zu der Kirchen und Schuelen reparation, <lb/>oder zu der
+                    Prediger, Kirchen- und Schuel-bedienten <lb/>besoldung, wie auch zu den Glocken
+                    und andern <lb/>unentbehrlichen kirchen behueff erforderlich, pro <lb/>lubitu
+                    aufferlegt, sondern wo ein mehrers oder <lb/>
+                    <pb facs="#FacsPnr11"/>was neues anzuordnen, dasselbe von beeder- <lb/>seits
+                    herrschafften und anderen eingepfarreten <lb/>Obrigkeiten, auff hinc inde
+                    geschehene com- <lb/>munication, beliebet oder verabredet werden. <lb/>
+                    <lb/>11. <lb/>Imgleichen hat man ümb mehrer Richtigkeit <lb/>und ordnung willen
+                    sich vereinbahret, daß <lb/>des Hochfürstl[ichen] Hauses Hollstein Gottorff Jus
+                    <lb/>Patronatus beÿ der kirchen zu Langenhorn <lb/>Ihr[o] königl[iche]r
+                    Maÿ[estä]tt und Dero Successoren <lb/>an der Regierung nebst dem beÿ solcher
+                    kirche <lb/>ohne dem habenden Jure Episcopali hinführo zu <lb/>gehören, der
+                    daselbstige Prister auch die biß- <lb/>hero nach Gottorff Jährlich in
+                    recognitionem <lb/>bezahlte Vier Marck l[übisch] acht schilling hinkünfftig
+                    <lb/>in das königl[ich]e Ambts-Register nach Flenß- <lb/>burg entrichten,
+                    dahingegen das Jus Patronatus, <lb/>so Ihro königl[iche] Maÿ[estä]tt bißhero beÿ
+                    der kirchen <lb/>zu Nübel, unferne von Gottorff, gehabt, dem
+                    <lb/>Hochfürstl[ich]en Hauße Hollstein Gottorff, nebst <lb/>dem bereits daselbst
+                    gehabten Jure Episcopali <lb/>hinferner Competiren solle. Nicht minder <lb/>ist
+                    verglichen, daß die Stadt-Kirche zu Lütgenburg, <pb facs="#FacsPnr12"/>obschon
+                    verschiedene Adel[ich]e Güther daselbst ein- <lb/>gepfarret, hinfüro unter der
+                    alleinigen <lb/>königl[ich]en Episcopal-Hoheit verbleiben, dahin- <lb/>gegen die
+                    Kirche zu Großen-Brode der Ge- <lb/>meinschafftl[ich]en Geistl[ich]en
+                    Jurisdiction unterge- <lb/>ben seÿn solle. <lb/>
+                    <lb/>12. <lb/>Die Contribution und andere communi Con- <lb/>sensu angelegte
+                    onera von den unter Ge- <lb/>meinschafftl[iche]r Regierung gehörigen Prælaten
+                    <lb/>und Ritterschafft Adel[ich]en, auch denen von <lb/>der Herrschafft selbst
+                    itzo besitzenden oder künfftig <lb/>an sich bringenden Adel[ich]en Güthern, wie
+                    selbige <lb/>in der Landes-Matricul enthalten, sollen, <lb/>so lange es beÿ der
+                    gegenwärtigen Verfaßung <lb/>verbleibet, beÿ eines jeden Herrn Casse zur
+                    <lb/>helffte in denen gesetzten Terminen allemahl <lb/>richtig eingebracht
+                    werden, oder ein jeder Herr <lb/>die Ihme competirende helffte auff den Ver-
+                    <lb/>zögerungs-fall, prævio monitorio, mittelst <lb/>zu länglicher Execution,
+                    von oberwehnten <lb/>Possessoren, wer oder wes Standes die seindt, <lb/>ohne
+                    unterscheid ungehindert einzutreiben macht <lb/>haben. <pb facs="#FacsPnr13"
+                    />13. <lb/>Was nun diesem Declarations-Recess zu wie- <lb/>der, eines oder
+                    andern theils seith dem Traven- <lb/>dahl[sch]en Tractat her, tam in realibus,
+                    quam <lb/>personalibus, biß hiezu etwan Verordnet und <lb/>verfüget seÿn möchte,
+                    daßelbe wann es zur <lb/>Execution gebracht, und die interessirende
+                    <lb/>Partheÿen dagegen keine appellation noch <lb/>quærel interponiret, sondern
+                    dabeÿ acquiesci- <lb/>ret, soll, alß eine abgethane Sache, bey vollen
+                    <lb/>kräfften verbleiben; das übrige aber, was <lb/>noch in motu oder
+                    Contradictione ist, obgleich <lb/>ein urtheil oder Decret darin ergangen wäre,
+                    <lb/>wann es nur ad Executionem noch nicht gebracht <lb/>ist, soll, als
+                    ungeschehen geachtet und zu keines <lb/>theils præjudiz gereichen, folglich
+                    dergleichen <lb/>Sachen in Statum integrum wieder gesetzet seÿn, <lb/>und nach
+                    anweisung des anietzt errichteten <lb/>Declarations-Recesses, fürm Landt-Gericht
+                    <lb/>von neuem verhandelt, und communi nomine <lb/>nach Recht und Landüblicher
+                    gewohnheit abgethan <lb/>werden. <lb/>
+                    <lb/>14. <lb/>Was die Fahrende und Reitende Posten anlanget, <lb/>so sollen
+                    selbige durch oder neben eines oder <lb/>
+                    <pb facs="#FacsPnr14"/>andern herrn Stadt und Land mit ihren wa- <lb/>gen und
+                    Pferden auch auff habenden passa- <lb/>giren und andern Sachen ungehindert
+                    passiren <lb/>und unter keinem prætext verzögert oder <lb/>auffgehalten werden,
+                    doch daß solche Posten <lb/>keine Brieffe, pacquette oder Passagiers <lb/>in des
+                    andern hern Stadt und Landen an <lb/>und auffnehmen, und von denen etwa auff-
+                    <lb/>habenden Zollbahren waaren den Zoll erle- <lb/>gen sollen. <lb/>
+                    <lb/>15. <lb/>Die Streitigkeit wegen des zu Heiligenhafen <lb/>vor einigen
+                    Jahren arrestirten Schiffes, soll beÿ <lb/>erst Gemeinschafftl[ich]em
+                    Landgericht vorgenom- <lb/>men, und, was Rechtens, darinnen erkandt <lb/>werden. <lb/>
+                    <lb/>16. <lb/>Wegen dessen was die Stadt Oldenschloe an <lb/>dem Mühlen damme
+                    daselbst zu repariren <lb/>schuldig, wollen Ihr[e] königl[ich]e Maÿ[estä]tt nach
+                    Ein- <lb/>halt des Glückstädtschen Recesses de anno 1667. <lb/>Art. 16., die
+                    Oldeschloer durch ernstliche Man- <lb/>data dazu anweisen, sobald es nur durch
+                    die <lb/>Fürstl[ich]e beambte beÿ der königl[ich]en Regierung <lb/>zu Glückstadt
+                    gesuchet und angezeiget wird wie <pb facs="#FacsPnr15"/>weit die Stadt
+                    Oldeschloe zu reparirung der <lb/>dämme gehalten. <lb/>
+                    <lb/>17. <lb/>Die Streitigkeit wegen der Jagdt, Austauschung <lb/>der
+                    Manck-Güthern und andern Irrungen in <lb/>denen Ämbtern wegen der Gräntzen und
+                    son- <lb/>sten, welche zur ocular Inspection und un- <lb/>tersuchung gewißen
+                    Beambten und Räthen <lb/>auffgetragen, sollen innerhalb Sechs Monathen <lb/>nach
+                    ratificirung dieses Vergleichs von ihnen <lb/>zu Ende gebracht, oder, worüber
+                    Sie Sich in güte <lb/>nicht vereinbahren können, durch königl[ich]e und
+                    <lb/>Hochfürstl[ich]e Freundtvetterl[ich]e Communication, <lb/>nach Einhalt des
+                    Travendahl[sch]en Friedens, güt- <lb/>lich hingeleget werden, und bleibet
+                    inzwischen <lb/>damit alles in statu quo. <lb/>
+                    <lb/>18. <lb/>Ob zwar Ihro Königl[ich]e Maÿ[estä]tt die einseitige
+                    <lb/>Jurisdiction über die sogenannte Lübecksche <lb/>dörffer oder vielmehr
+                    außer der Lübeckschen <lb/>Landtwehr im Hollsteinischen Territorio bele-
+                    <lb/>gene Güther, als Meusling, Niendorff, Recke, <lb/>Stockelsdorff, Moris,
+                    Eckhorst, dunckelsdorff, <lb/>Trenthorst und Steenrahde [etc.] [etc.] biß dato
+                    exer- <pb facs="#FacsPnr16"/>ciret; So laßen Sie jedoch, zu bezeugung dero
+                    <lb/>zu dem Hochfürstl[ich]en Hauße Gottorff tra- <lb/>gende
+                    Freundtvetterl[ich]en Propension, von <lb/>nun an geschehen, daß solche dörffer
+                    und Güther <lb/>mit einander nach denen<note n="1" type="crit_app">denen:
+                        verbessert aus der.</note> zwischen denen königl[ich]en <lb/>und
+                    Fürstl[ich]en Regierenden Häußern vormahls <lb/>gehaltenen Erbtheilungen, unter
+                    Gemeinschafftl[iche]r <lb/>Landes Fürstl[iche]r jurisdiction und Regierung
+                    <lb/>künfftighin ohnveränderlich seÿn und <lb/>bleiben; Sie wollen auch dem
+                    Hochfürstl[ich]en <lb/>Hauße Gottorff in dem demselben allzo zu- <lb/>stehenden
+                    ConDominio auff keinerleÿ weiße <lb/>hinderlich seÿn; und, wann bemeldte Güther
+                    <lb/>zu einer billigen leidlichen nach proportion <lb/>ihrer bonität
+                    eingerichteten Pflug-zahl ange- <lb/>setzet; So sollen sie auch gleich Freÿheit
+                    mit <lb/>denen andern im Hertzogthum Hollstein sich <lb/>befindenden Adel[ich]en
+                    Güthern, was das Unter- <lb/>und Criminal-Gericht an Halß und hand, item
+                    <lb/>das Gemeinschafftl[ich]e Landt-Gericht betrifft, <lb/>genießen, dahingegen
+                    aber auch die Contri- <lb/>butiones und Landes Onera, gleich denen an- <lb/>dern
+                    Adel[ich]en Güthern, pro ratâ ihrer Pflug- <lb/>Zahl abtragen, und die
+                    halbscheidt davon zu <lb/>jedes herrn Cassa erlegen. </p>
+                <pb facs="#FacsPnr17"/>
+                <p>19. <lb/>Was das Ambt Tremsbüttel anlanget, <lb/>behalten Ihr[e] Königl[lich]e
+                    Maÿ[estä]tt ihren daran <lb/>machenden Anspruch Sich bevor, das Hochfürstl[iche]
+                    <lb/>Hauß Gottorff aber bleibet jedoch nichtes <lb/>desto weniger so lange in
+                    dessen geruhiger pos- <lb/>session, biß etwan die Sache, nach Anleitung des
+                    <lb/>Travendahl[sch]en Tractats, abgethan worden. <lb/>
+                    <lb/>20. <lb/>Was die annoch offenstehende Liquidation <lb/>der hinc inde,
+                    sowohl ratione der gehobenenen <lb/>und prætendirenden Contributionen von den
+                    <lb/>Adel[ich]en von beederseits Herrschafften besitzen- <lb/>den alß auch
+                    andern streitigen Adel[ich]en Güthern, <lb/>item ex obligationibus und sonsten
+                    haben- <lb/>den Forderungen betrifft; So ist beliebet <lb/>und beschloßen, dass
+                    selbige auch durch die <lb/>dazu Verordnete Commissarien innerhalb <lb/>dreÿ
+                    Monathen, nach ratification dieses Ver- <lb/>gleichs, zum Ende gebracht, und
+                    worüber Sie <lb/>Sich etwan nicht Vereinbahren können, durch <lb/>königl[ich]e
+                    und Hochfürstl[ich]e Freundtvetterl[ich]e <lb/>communication gütlich componiret
+                    und beÿ- <lb/>geleget werden sollen. <lb/>
+                    <lb/>21. <lb/>Im übrigen wird es in allen beÿ dem Einhalt </p>
+                <pb facs="#FacsPnr18"/>
+                <p> des Travendahl[sch]en Tractats und demnechst <lb/>anno 1701 d[en] 12ten Julii
+                    alhier in Hamburg <lb/>errichteten Recesses allerdings gelaßen. <lb/>Zu wahrer
+                    Uhrkund dessen sind von diesem <lb/>Tractat zweÿ gleich lautende Exemplaria
+                    <lb/>Verfertiget, unterschrieben und besiegelt <lb/>worden. So geschehen zu
+                    Hamburg auff dem <lb/>Schaumburgischen Hoff d[en] 5ten Januarii Anno
+                    <lb/>Eintausend Siebenhundert und Eilff. <lb/>
+                    <lb/>
+                    <lb/>JVAhlefeldt&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    [Sechs]&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; Georg Heinrich
+                    freyh[err] von
+                    <lb/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    [Lacksiegel]&nbsp;&nbsp; &nbsp; Schlitz g[ena]ndt von Goertz <lb/>
+                    <lb/>CGVBreitenau&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [über]&nbsp;&nbsp;
+                    &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Gerard Graff Von
+                    Dernath. <lb/>
+                    <lb/>Hans Statius Hagedorn&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;
+                    [Heftschnur]&nbsp;&nbsp; &nbsp;Christian Wilhelm von Eÿben <lb/>
+                </p>
+            </div>
+        </body>
+        <back>
+            <listBibl>
+                <bibl xml:id="a92">
+                    <title level="a">Theatrum Europaeum (1711-01-05)</title>
+                    <title level="m">Theatrum Europaeum, Band 19 (1710–1712) Aus: Dokumentenarchiv
+                        der Universitätsbibliothek Augsburg (Drucke vor 1900 / Historische
+                        Geschichtswerke).</title>
+                    <biblScope>
+                        <graphic xml:id="A1Pnr1"
+                            url="https://www.ieg-friedensvertraege.de/dbimages/img_49e703719e4bc"/>
+                        <graphic xml:id="A1Pnr2"
+                            url="https://www.ieg-friedensvertraege.de/dbimages/img_49e703774c419"/>
+                        <graphic xml:id="A1Pnr3"
+                            url="https://www.ieg-friedensvertraege.de/dbimages/img_49e7037c446f8"/>
+                        <graphic xml:id="A1Pnr4"
+                            url="https://www.ieg-friedensvertraege.de/dbimages/img_49e703816c776"/>
+                    </biblScope>
+                </bibl>
+                <bibl xml:id="a336">
+                    <title level="a">Reichsarchiv (1711-01-05)</title>
+                    <title level="m">Reichsarchiv, Band 10 (1712), PSpec Con II (2), S.256-261 Aus:
+                        Dokumentenarchiv der Universitätsbibliothek Augsburg (Drucke vor 1900 /
+                        Historische Geschichtswerke). </title>
+                    <biblScope>
+                        <graphic xml:id="A2Pnr1"
+                            url="https://www.ieg-friedensvertraege.de/dbimages/img_4a9f84ee33473"/>
+                        <graphic xml:id="A2Pnr2"
+                            url="https://www.ieg-friedensvertraege.de/dbimages/img_4a9f84f4b3338"/>
+                        <graphic xml:id="A2Pnr3"
+                            url="https://www.ieg-friedensvertraege.de/dbimages/img_4a9f84fa9bc1a"/>
+                        <graphic xml:id="A2Pnr4"
+                            url="https://www.ieg-friedensvertraege.de/dbimages/img_4a9f85010a3d8"/>
+                        <graphic xml:id="A2Pnr5"
+                            url="https://www.ieg-friedensvertraege.de/dbimages/img_4a9f85092c691"/>
+                    </biblScope>
+                </bibl>
+            </listBibl>
+        </back>
+    </text>
+</tei:TEI>

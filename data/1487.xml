@@ -1,0 +1,376 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE tei SYSTEM "../resources/FriVer_DTD.dtd">
+
+<?xml-model href="../resources/FriVer.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns="http://www.tei-c.org/ns/1.0"
+    xml:id="pa000299-1487">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title level="s">European peace treaties of the pre-modern era in data / Europäische
+                    Friedensverträge der Vormoderne in Daten (FriVer+)</title>
+                <title when="1703-02-27" xml:id="t1487" when-custom="1703 II 27" level="a"
+                    ref="https://www.ieg-friedensvertraege.de/treaty/t-1487-1-de.html"
+                    >Defensivallianz von Kopenhagen</title>
+            </titleStmt>
+            <editionStmt>
+                <edition> Digital edition according to <ref target="http://www.tei-c.org/">TEI
+                        P5</ref>
+                </edition>
+                <funder>
+                    <ref target="https://www.text-plus.org/">TEXT+</ref>
+                </funder>
+                <editor role="http://id.loc.gov/vocabulary/relators/edt"
+                    ref="https://orcid.org/0000-0002-8741-5916">
+                    <persName>Jaap Geraerts</persName>
+                    <note>The transformation and enrichment of the data is done by Jaap Geraerts
+                        (IEG Mainz). The other members of the FriVer+ team are Fabian Cremer, Ines
+                        Grund, and Thorsten Wübbena (all IEG Mainz).</note>
+                    <note> The original data has been created by the <ref
+                            target="https://www.ieg-friedensvertraege.de">team of scholars</ref> who
+                        were part of the Europäische Friedensverträge der Vormoderne project. This
+                        project was lead by Prof. Dr. Heinz Duchhardt and was based at the Leibniz
+                        Institute of European History in Mainz. </note>
+                </editor>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>
+                    <orgName ref="http://www.isni.org/0000000119314040">Leibniz-Institut für
+                        Europäische Geschichte Mainz</orgName>
+                </publisher>
+                <distributor>
+                    <orgName ref="http://www.isni.org/0000000110101946">Universitäts- und
+                        Landesbibliothek Darmstadt</orgName>
+                </distributor>
+                <idno type="ISIL">http://lobid.org/organisation/DE-17</idno>
+                <date type="issued" when="2023-12-23"/>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">
+                        <p xml:lang="en">This file is licensed under the terms of the Creative
+                            Commons License CC-BY 4.0 (Attribution 4.0 International)</p>
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <repository xml:id="r13">Kopenhagen RA</repository>
+                <msDesc>
+                    <p>Dänisches Reichsarchiv, Kopenhagen: Kongehusets og Rigets arkiv: Forholdet
+                        til udlandet (Traktater), E 2 Tyskland: Mecklenburg-Schwerin&nbsp; nr. 1
+                        (Hauptvertrag), 2 (Geheimartikel).&nbsp; </p>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p> The data in this XML file, originally created by the project <ref
+                        target="https://www.ieg-friedensvertraege.de/vertraege">Europäische
+                        Friedensverträge der Vormoderne online</ref> has been transformed in
+                    accordance with <ref target="http://www.tei-c.org/">TEI P5</ref> as part of the
+                    project <ref
+                        target="https://www.ieg-mainz.de/en/research/research-projects/european-peace-treaties-of-the-pre-modern-era-in-data"
+                        >Europäische Friedensverträge der Vormoderne in Daten (FriVer+)</ref>
+                </p>
+            </projectDesc>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="de" xml:id="lan2">deutsch</language>
+            </langUsage>
+        </profileDesc>
+    </teiHeader>
+    <standOff>
+        <listPerson>
+            <person role="signatory" xml:id="p32">
+                <persName ref="https://explore.gnd.network/gnd/4010877-6">
+                    <name>Dänemark</name>
+                </persName>
+            </person>
+            <person role="signatory" xml:id="p75">
+                <persName ref="https://explore.gnd.network/gnd/4281380-3">
+                    <name>Mecklenburg - Schwerin</name>
+                </persName>
+            </person>
+        </listPerson>
+        <listPlace>
+            <place xml:id="loc34">
+                <placeName ref="https://explore.gnd.network/gnd/4032399-7">Kopenhagen</placeName>
+            </place>
+        </listPlace>
+        <facsimile>
+            <surface xml:id="FacsPnr1">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_4626068c73182"/>
+            </surface>
+            <surface xml:id="FacsPnr2">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_462606977218d"/>
+            </surface>
+            <surface xml:id="FacsPnr3">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_462606a39a1cf"/>
+            </surface>
+            <surface xml:id="FacsPnr4">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_462606af9a172"/>
+            </surface>
+            <surface xml:id="FacsPnr5">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_462606b9cdd43"/>
+            </surface>
+            <surface xml:id="FacsPnr6">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_462606c4f3e4e"/>
+            </surface>
+            <surface xml:id="FacsPnr7">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_46601ce5bac34"/>
+            </surface>
+            <surface xml:id="FacsPnr8">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_46601d0dbf935"/>
+            </surface>
+            <surface xml:id="FacsPnr9">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_46601d37f053e"/>
+            </surface>
+            <surface xml:id="FacsPnr10">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_462606d08d552"/>
+            </surface>
+            <surface xml:id="FacsPnr11">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_462606e226c2b"/>
+            </surface>
+            <surface xml:id="FacsPnr12">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_462606f142136"/>
+            </surface>
+        </facsimile>
+    </standOff>
+    <text>
+        <front>
+            <div type="Inhalt">
+                <p>Art. 1. Das Bündnis richtet sich weder gegen eine andere Macht noch den Kaiser,
+                    sondern fördert das vertrauliche Verhältnis zwischen Dänemark und
+                    Mecklenburg-Schwerin. <lb/>
+                    <lb/>Art. 2. Dänemark verspricht Mecklenburg-Schwerin Schutz und Beistand gegen
+                    Übergriffe. <lb/>
+                    <lb/>Art. 3. Mecklenburg-Schwerin verspricht Dänemark Beistand für
+                    Schleswig-Holstein und die übrigen deutschen Besitzungen. <lb/>
+                    <lb/>Art. 4. Beide Partner wollen Truppen bereithalten, um einander auf
+                    Anforderung Beistand leisten zu können, Dänemark im Höhe von 4000,
+                    Mecklenburg-Schwerin in Höhe von 2000 Mann. <lb/>
+                    <lb/>Art. 5. Die Soldzahlungen für die angeforderten Truppen übernimmt der
+                    angeforderte Partner. Der anfordernde Partner nimmt die angeforderten Truppen in
+                    seinen Dienst und stellt ihnen auf seinem Gebiet Proviant, Quartier und
+                    Ausrüstung zur Verfügung. <lb/>
+                    <lb/>Art. 6. Der anfordernde Partner nimmt die angeforderten Truppen nicht
+                    stärker in Anspruch als seine eigenen Truppen. <lb/>
+                    <lb/>Art. 7. Über Truppenanforderungen über die vereinbarte Mannschaftsstärke
+                    hinaus wollen die Partner gegebenenfalls verhandeln. Im Hinblick auf Sold und
+                    Verpflegung bleibt es jedoch bei Art. 5. <lb/>
+                    <lb/>Art. 8. Im Krisenfall informieren sich die Amtleute und Diplomaten beider
+                    Partner gegenseitig und treffen gemeinsame Maßregeln. <lb/>
+                    <lb/>Art. 9. Beide Partner fördern den Handel zwischen ihren Untertanen und
+                    Ländern. <lb/>
+                    <lb/>Art. 10. Dänemark unterstützt die mecklenburgische Seite in ihren
+                    Streitigkeiten mit Braunschweig-Lüneburg-Celle. <lb/>
+                    <lb/>Art. 11. Mecklenburg-Schwerin unterstützt die dänischen Bemühungen nach
+                    Aufnahme unter die Alternierenden Fürstenhäuser auf dem Reichstag sowie auf dem
+                    Kreistag des Niedersächsischen Reichskreises. <lb/>
+                    <lb/>Art. 12. Das Bündnis erstreckt sich nur auf Schleswig-Holstein und die
+                    deutschen Herrschaften des dänischen König, sowie auf Mecklenburg-Schwerin. <lb/>
+                    <lb/>Art. 13. Das Bündnis ist, bis zu einer Verlängerung, auf fünf Jahre
+                    befristet. <lb/>
+                    <lb/>Art. 14. Die Ratifikationen werden binnen 14 Tagen ausgetauscht. <lb/>
+                    <lb/>Sekretart. 1. Dänemark will die mecklenburgischen Verhandlungen mit Preußen
+                    zur Wiederherstellung der Stadtbefestigung in Rostock unterstützen. <lb/>
+                    <lb/>Sekretart. 2. Dänemark wird sich kaiserlichen Befehlen zur Umsetzung des
+                    Hamburger Erbvergleichs von 1701 (über die Teilung Mecklenburgs in die
+                    Herzogtümer Mecklenburg-Schwerin und Mecklenburg-Strelitz) nicht widersetzen. <lb/>
+                    <lb/>Sekretart. 3. Dänemark verspricht, ggf. mit preußischer Kooperation, die
+                    Abschaffung des schwedischen Zolls in Warnemünde zu befördern. <lb/></p>
+            </div>
+        </front>
+        <body>
+            <div type="Transliteration">
+                <pb facs="#FacsPnr1"/>
+                <p>Zu wißen seÿ hiermit: Daß alß der Durch- <lb/>leuchtigste, Großmächtigste Fürst
+                    und herr, herr Friderich <lb/>der Vierte, König zu dennemarck, Norwegen, der
+                    Wenden <lb/>und Gohten, hertzog zu Schleßwig, holstein, Stormarn und <lb/>der
+                    dithmarschen, Graff zu Oldenburg und Delmenhorst [etc.] <lb/>und der
+                    durchleuchtigste Fürst, herr Friderich Wilhelm, <lb/>hertzog zu Mecklenburg,
+                    Fürst zu Wenden, Schwerin undt <lb/>Ratzeburg, auch Graff zu Schwerin, der Lande
+                    Rostock <lb/>und Stargardt herr [etc.] zu beederseits Fürstenthümer,
+                    <lb/>Graffschafften und Landen Interesse und Auffnehmen, für <lb/>guth befunden,
+                    eine genauere Verbündnus mit einan- <lb/>der auff zurichten, und zu solchem Ende
+                    dero vertrau- <lb/>te Ministros, alß nemblich Ihr[e] königl[iche] Maÿ[estä]t zu
+                    denne- <lb/>marck, Norwegen [etc.] den hochgebohrnen herrn, herrn Conrad,
+                    <lb/>Graffen zu Reventlow, Freÿherrn zu Frisenwoldt, herrn <lb/>zu Clausholm,
+                    Callöe und Loystrup, Rittern, Ihr[o] königl[ichen] <lb/>
+                    <pb facs="#FacsPnr2"/>Maÿ[estä]t zu dennemarck, Norwegen [etc.] bestalten
+                    Groß-Cantzlern, <lb/>Geheimbten- und Land-Raht, wie auch Cammerherrn [etc.] den
+                    hochwohl- <lb/>gebohrnen herrn, herrn Christian von Lente, herrn auff Zarlhu-
+                    <lb/>sen; Rittern, Ihr[o] königl[ichen] Maÿ[estä]t zu dennemarck, Norwegen
+                    [etc.] be- <lb/>stalten Geheimbten- und Estats-Raht, Ober-Kriegs-Secreta-
+                    <lb/>rium, wie auch Ober-Ceremonien-Meistern [etc.] den hochwohlge-
+                    <lb/>bohrenen herrn, herrn Christoph Blome, herrn auff Faroe <lb/>und
+                    Neversdorff, Rittern, Ihr[o] königl[ichen] Maÿ[estä]t zu denne- <lb/>marck,
+                    Norwegen [etc.] bestalten Geheimbten- und Land-Raht, <lb/>wie auch Jägermeistern
+                    in den Fürstenthümern Schleßwig <lb/>Holstein [etc.] und den Wohlgebohrnen
+                    herrn, herrn Christi- <lb/>an Sehestedt, herrn auf Rafnholt und Nislefgaardt,
+                    <lb/>Rittern, Ihr[o] königl[ichen] Maÿ[estä]t zu dennemarck, Norwegen [etc.] be-
+                    <lb/>stalten Ober-Secretarium und Estats-Raht; und Ihr[e] <lb/>fürstl[iche]
+                    durchl[aucht] zu Mecklenburg [etc.] den Wohlgebohrnen <lb/>herrn, herrn Johann
+                    de Löwen, Ihr[o] fürstl[ichen] durchl[aucht] zu <lb/>Mecklenburg [etc.]
+                    bestalten Geheimen-Raht und Ober-hoff-Mar- <lb/>schalln, wie auch den
+                    hochEdelgebohrnen herrn, herrn Ja- <lb/>cob Taddeln, Ihr[o] fürstl[ichen]
+                    durchl[aucht] zu Mecklenburg&nbsp; <pb facs="#FacsPnr3"/>bestalten Geheimen
+                    Cantzeleÿ-Raht [etc.] mit gnugsahmer Ge- <lb/>walt und Vollmacht versehen,
+                    dieselbe heute dato, auff fol- <lb/>gende Conditiones geschloßen, und einig
+                    worden; Alß: <lb/>
+                    <lb/>1. <lb/>Soll diese zusammensetzung, zu keines Menschen offensi- <lb/>on und
+                    beleidigung, vielweniger wieder Ihr[e] Kaÿserl[iche] May[estä]t <lb/>und das das
+                    heÿlige Römische Reich, angesehen und gemeinet seÿn, <lb/>sondern eintzig und
+                    alleine, zu befestigung Freund-Nachbar- <lb/>licher vertraulichen Correspondence
+                    und beÿstandes in <lb/>allen auffkommenden Fällen, Sicherheit Ihrer Allerseits
+                    <lb/>Fürstenthümer und Landen, und Verwehrung aller unru- <lb/>he in
+                    denenselben. Zu welchem Ende beede höchst- und hohe <lb/>Paciscenten in
+                    beständigem auffrichtigen Vertrauen mit <lb/>einander umbgehen, Einer des andern
+                    Interesse und bestes <lb/>nach Möglichkeit befordern, præjuditz, Schaden und Un-
+                    <lb/>heil abwenden, auch auff Reichs- Craÿß- und anderen <lb/>zusammenkünfften
+                    durch Ihre Ministros Vertraulich <lb/>communiciren, und in allen vorfallenden,
+                    die in diese <pb facs="#FacsPnr4"/>Alliance mit eingeschloßene dero Fürstenthumb
+                    und Lande, <lb/>auch sonst das Reich, oder den Craÿß betreffenden Sachen
+                    <lb/>gemeinsame Consilia pflegen laßen wollen. <lb/>
+                    <lb/>2. <lb/>Ferner versprechen Ihr[e] königl[iche] May[estä]t zu dennemarck,
+                    daß Sie <lb/>des hertzogen zu Mecklenburg durchl[aucht] und dero Lande, nach
+                    <lb/>Einhalt des Westpfählischen und folgender, zu bestärckung <lb/>deßelben
+                    errichteten friedens-Schlüße, der Reichs-Constitu- <lb/>tionen, und
+                    kaÿserl[ichen] Wahl-Capitulationen, sowohl in Friedens- <lb/>alß Krieges-zeiten,
+                    Freund-Vetter- und Nachbahrlich schützen <lb/>und vertretten helffen wollen,
+                    also und dergestalt, daß da <lb/>das hertzogen durchl[aucht] in rechtmäßigem
+                    besitz Ihrer Landesfürst- <lb/>lichen hoheit und Regalien, es seÿ in
+                    Ecclesiasticis oder <lb/>Politicis, dawieder turbiret, oder deren Fürstenthümer
+                    <lb/>und Lande mit gewaltsahmen Invasionen, Qvartier-Neh- <lb/>mungen,
+                    Exactionen und dergleichen, zur ungebühr, und wie- <lb/>der die
+                    Reichs-Satzungen, beschwehret werden solten, höchst- <lb/>ged[achte] Ihr[e]
+                    königl[iche] Maÿ[estä]t dieselbe durch alle diensahme Mittel <lb/>dagegen
+                    vertretten, und da sich über verhoffen, dergleichen zu- <lb/>
+                    <pb facs="#FacsPnr5"/>tragen würde, effectuiren helffen wollen, daß dafür
+                    <lb/>billige Erstattung geschehe. <lb/>
+                    <lb/>3. <lb/>Wogegen sich auch Ihr[e] Fürstl[iche] durchl[aucht] verbinden, auff
+                    <lb/>gleiche weise, wie in vorigem Articul erwehnet, alles wie- <lb/>drige von
+                    Ihr[o] königl[ichen] Maÿ[estä]t und dero hertzogthümern Schleß- <lb/>wig und
+                    Holstein, auch Graffschafften Oldenburg und delmen- <lb/>horst, und allen dero
+                    Teutschen Provincien abwenden zu helf- <lb/>fen, und so viel an Ihnen ist, zu
+                    verwehren, daß dieselbe in <lb/>Ihren bißhero beseßenen, oder künfftig
+                    rechtmäßig besitzen- <lb/>den Juribus, Regalibus, hoch- und herrlichkeiten, in
+                    keine <lb/>Wege turbiret oder gehindert werden. <lb/>
+                    <lb/>4. <lb/>Solches nun mit desto beßerem Nachdruck ins werck <lb/>zu richten,
+                    versprechen beede höchst- und hohe Theile. Einer zu <lb/>des andern behueff und
+                    Sicherheit, eine gewiße Anzahl gu- <lb/>ter und mit aller zubehör versehener
+                    Mannschafft in ob- <lb/>besagten Ihren Fürstenthümern und Landen dergestalt in <lb/>
+                    <pb facs="#FacsPnr6"/>bereitschafft zu halten, daß solche, auff des
+                    Nohthleidenden <lb/>oder vergewaltigten Theils Erfordern, allemahlen Innerhalb
+                    <lb/>Vierzehen Tagen, à dato requisitionis, an deßen Grentzen <lb/>stehen
+                    können; Und zwar versprechen Ihr[e] königl[iche] Maÿ[estä]t <lb/>zu dennemarck,
+                    solchergestalt Vier Tausendt, Ihr[e] fürstl[iche] <lb/>durchl[aucht] zu
+                    Mecklenburg aber, Zweÿ Tausendt completer <lb/>Mannschafft bereitzuhalten, wovon
+                    das vierte Theil Ca- <lb/>vallerie, die übrige dreÿ Theile aber Infanterie seÿn
+                    <lb/>sollen. <lb/>
+                    <lb/>5. <lb/>Die Geld-Verpflegung sothaner völcker, soll von dem hülff-
+                    <lb/>leistenden Theile geschehen, gleichwie derselbe dann auch gehalt- <lb/>ten
+                    ist, denenselben, biß auff des Requirentis Grentzen, <lb/>den benöhtigten
+                    Proviant und Ammunition zu verschaffen; <lb/>So bald aber dieselbe besagte
+                    Grentzen erreichet, nimbt der <lb/>Requirent Selbige in seine Eidt und
+                    Pflichten&nbsp; an und verschafft Ihnen, außer der or- <lb/>dentlichen
+                    Geldverpflegungen, /als welche jederzeit der Requi- <lb/>situs alleine abhält:/
+                    alle benöhtigte Ammunition und Ge- <lb/>schütze, wie auch das ordentliche
+                    Commiss-brodt, Standt Qvartie- <lb/>re, Service und Rauch-futter, gleichwie
+                    solches des Requi- <lb/>rentis Eigene Völcker, es seÿ in Guarnisonen, oder im
+                        <pb facs="#FacsPnr7"/>Felde genießen, Weiter aber ist derselbe den
+                    hülffs-Völc- <lb/>kern nichtes gehalten. <lb/>
+                    <lb/>6. <lb/>Dem Requirenten bleibet freÿ, die erhaltene hülffs-Völcker <lb/>in
+                    Guarnison, im Felde, oder wo Er will, zu gebrauchen, auch <lb/>denenselben nach
+                    Gefallen, die Qvartiere anzuweisen, je- <lb/>doch, daß die selbe darunter nicht
+                    ruiniret, oder schlimmer <lb/>als des Requirentis Eigene Völcker, gehalten
+                    werden. <lb/>
+                    <lb/>7. <lb/>Daferne auch von Einem oder andern der höchst- und hohen herren
+                    <lb/>Paciscenten über die in dieser Alliance stipulirte Troup- <lb/>pen noch
+                    eine mehrerers, zur völligen Sicherheit, verlanget <lb/>würde, wollen dieselbe
+                    daüber weitere Handlung pflegen, <lb/>jedoch, daß es mit der Verpflegung
+                    allemahl, wie in vorigem <lb/>5ten Articul gemeldet, gehalten werde. <lb/>
+                    <lb/>8. <lb/>Damit auch der zweck dieser Alliance so viel leichter er-
+                    <lb/>halten werde, wollen beederseits höchste und hohe Paciscenten, <lb/>beÿ
+                    anscheinender Gefahr und beschaffenheit der Conjuncturen, <lb/>denen in Ihren
+                    Fürstenthümern und anderen Teutschen Provincien, <lb/>
+                    <pb facs="#FacsPnr8"/>bestalten Civil- und Militairen befehlshabern gemeßene or-
+                    <lb/>dre ertheilen, mit des andern Vornehmen bedienten und Mini- <lb/>stris, zu
+                    gemeiner Sicherheit, vertraulich zu correspondiren <lb/>und alle Nohtdurfft
+                    frühzeitig zu veranstalten. <lb/>
+                    <lb/>9. <lb/>So wollen beede höchst- und hohe Paciscenten auch durch al- <lb/>le
+                    dienliche und Ihren eigenen Unterthanen und Landen un- <lb/>schädliche Mittel,
+                    dahin bedacht seÿn, zwischen deroselben re- <lb/>spectivè Königreichen,
+                    fürstenthümern und landen ein freÿ- <lb/>es und sicheres Commercium zu
+                    establiren, und zu erhal- <lb/>ten, auch Einer des andern Unterthanen in
+                    vorfallenden <lb/>Streit- und zahlung Sachen, schleunige unpartheÿische Justice
+                    <lb/>administriren laßen. <lb/>
+                    <lb/>10. <lb/>Ihre Königl[iche] Maÿ[estä]t versprechen, in denen Streitigkeiten
+                    <lb/>die zwischen Ihr[o] durchl[aucht] dem herrn hertzogen, und dem
+                    <lb/>Fürstl[ichen] hause Lüneburg Zell, obschweben, sich des herrn
+                    <lb/>hertzogen getreulich anzunehmen. <lb/>
+                    <lb/>11. <lb/>Ihr[e] fürstl[iche] durchl[aucht] versprechen, daß Sie nicht
+                    alleine nicht zu <lb/>
+                    <pb facs="#FacsPnr9"/>wieder seÿn, daß Ihr[e] königl[iche] Maÿ[estä]t, ratione
+                    des Herzog- <lb/>thumbs Holstein, auff Reichs- und Craÿß-Tagen Sessionem und
+                    <lb/>votum, unter denen fürstlichen Alternirenden Häusern bekommen <lb/>und
+                    erhalten mögen, sondern auch beÿ denen übrigen Alterni- <lb/>renden fürstlichen
+                    Häusern Ihre officia zu Erreichung Ihr[o] <lb/>königl[ichen] Maÿ[estä]t Absehens
+                    hierunter kräfftigst anwen- <lb/>den wollen. <lb/>
+                    <lb/>12. <lb/>In dieser Alliance, sollen, ab Seiten Ihr[o] königl[ichen]
+                    Maÿ[estä]t <lb/>nur dero hertzogthümer Schleßwig und holstein, sambt der
+                    <lb/>herrschaft Pinnenberg, den Graffschafften Oldenburg und delmen- <lb/>horst,
+                    und anderen im heÿligen Römischen Reiche jetzo oder <lb/>künfftig besitzenden
+                    Landen und herrschaften; Ab Seiten Ihr[o] <lb/>fürstl[ichen] durchl[aucht] aber,
+                    dero Mecklenburgische und andere in er- <lb/>meltem Römischen Reiche belegene
+                    Lande begriffen seÿn, <lb/>und darauff die Hülffsleistung verstanden werden. <lb/>
+                    <lb/>13. <lb/>Diese Alliance soll vorerst auff fünff Jahre, à dato anzurechnen, <lb/>
+                    <pb facs="#FacsPnr10"/>währen, gegen deren Verfließung aber, wegen der
+                    Prolongation <lb/>derselben, zwischen beeden höchsten und hohen Theilen
+                    gehandelt werden. <lb/>
+                    <lb/>14. <lb/>Die Ratificationes sollen Innerhalb Vierzehen Tagen alhier <lb/>in
+                    Copenhagen ausgewechselt werden. <lb/>
+                    <lb/>Zu mehrerm Uhrkundt deßen, seind hievon zweÿ gleichlauten- <lb/>de
+                    Exemplaria verfertiget, und von Ihr[o] königl[ichen] Maÿ[estä]t zu
+                    <lb/>dennemarck, Norwegen [etc.] und Ihr[o] fürstl[ichen] durchl[aucht] zu
+                    Mecklenburg <lb/>Eingangs Ernandten beederseits dazu bevollmächtigten Mini-
+                    <lb/>stris unterschrieben und mit Ihren gewöhnlichen Pettschafften be-
+                    <lb/>kräfftiget worden. So geschehen zu Copenhagen den 27. Februarii <lb/>A[nn]o
+                    [etc.] 1703. <lb/>
+                    <lb/>CG Reventlow&nbsp;&nbsp;&nbsp;&nbsp; C. von Lente.&nbsp;&nbsp;&nbsp;&nbsp;
+                    C. Blome.&nbsp;&nbsp;&nbsp;&nbsp; C: Sehestedt:&nbsp;&nbsp;&nbsp;&nbsp;
+                    DeLöw&nbsp;&nbsp;&nbsp;&nbsp; J. Taddel <lb/>p[ropria] <lb/>
+                    <lb/>[6 Lacksiegel über Heftschnur] <lb/>
+                    <pb facs="#FacsPnr11"/>Articuli Secreti. <lb/>
+                    <lb/>1. <lb/>Ihr[e] Königl[iche] Maÿ[estä]t seind Erböhtig, wegen reparirung der
+                    <lb/>Fortification der Stadt Rostock, mit dem Könige von <lb/>Preußen zu
+                    communiciren, und darüber, so wohl, alß Ihr[e] <lb/>durchl[aucht] mit besagtem
+                    hoffe negociiren zu laßen, folglich <lb/>gemeinsahme mesures hierüber mit
+                    einander zu nehmen. <lb/>
+                    <lb/>2. <lb/>Solte ein oder der ander Theil dem in Hamburg <lb/>gemachten
+                    Mecklenburgischen Successions-Vergleich <lb/>contraveniren, und darauff von
+                    Ihr[o] kaÿserl[ichen] Maÿ[estä]t <lb/>Ihr[o] königl[ichen] Maÿ[estä]t einige
+                    Execution aufgetra- <lb/>gen werden, So wollen dieselbe solche zu überneh-
+                    <lb/>men sich gefallen laßen. <lb/>
+                    <lb/>3. <lb/>Versprechen Ihr[e] königl[iche] Maÿ[estä]t, in hoffnung des kö-
+                    <lb/>niges von Preußen Maÿ[estä]t werden hiezu dero haben- <lb/>
+                    <pb facs="#FacsPnr12"/>dem Interesse nach, mit concurriren, alle mögliche
+                    officia an- <lb/>zuwenden, damit denen Reichs-Schlüßen und ergangenen Execu-
+                    <lb/>torialien gemäß, der Zoll zu Warnemünde von Ihr[o] königl[ichen]
+                    <lb/>Maÿ[estä]t zu Schweden abgestellet werde. <lb/>
+                    <lb/>Zu versicherung deßen, seind auch hievon zweÿ gleichlauten- <lb/>de
+                    Exemplaria verfertiget, und von Ihr[o] königl[ichen] Maÿ[estä]t <lb/>zu
+                    dennemarck, Norwegen [etc.] und Ihr[o] fürstl[ichen] durchl[aucht] zu Meck-
+                    <lb/>lenburg beederseits dazu commitirten Ministris unter- <lb/>schrieben, und
+                    mit Ihren gewöhnlichen Pettschafften versiegelt <lb/>worden. So geschehen zu
+                    Copenhagen den 27. februarii <lb/>Anno 1703. <lb/>
+                    <lb/>CG Reventlow&nbsp;&nbsp;&nbsp;&nbsp; C. von Lente.&nbsp;&nbsp;&nbsp;&nbsp;
+                    C. Blome.&nbsp;&nbsp;&nbsp;&nbsp; C: Sehestedt.&nbsp;&nbsp;&nbsp;&nbsp;
+                    DeLöw&nbsp;&nbsp;&nbsp;&nbsp; J. Taddel <lb/>p[ropria] <lb/>
+                    <lb/>[6 Lacksiegel über Heftschnur] <lb/>
+                </p>
+            </div>
+        </body>
+    </text>
+</tei:TEI>

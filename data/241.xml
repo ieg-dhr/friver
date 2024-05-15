@@ -1,0 +1,752 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE tei SYSTEM "../resources/FriVer_DTD.dtd">
+
+<?xml-model href="../resources/FriVer.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns="http://www.tei-c.org/ns/1.0"
+    xml:id="pa000299-0241">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title level="s">European peace treaties of the pre-modern era in data / Europäische
+                    Friedensverträge der Vormoderne in Daten (FriVer+)</title>
+                <title when="1684-06-29" xml:id="t241" when-custom="1684 VI 29" level="a"
+                    ref="https://www.ieg-friedensvertraege.de/treaty/t-241-1-de.html"
+                    >Waffenstillstand von Den Haag</title>
+            </titleStmt>
+            <editionStmt>
+                <edition> Digital edition according to <ref target="http://www.tei-c.org/">TEI
+                        P5</ref>
+                </edition>
+                <funder>
+                    <ref target="https://www.text-plus.org/">TEXT+</ref>
+                </funder>
+                <editor role="http://id.loc.gov/vocabulary/relators/edt"
+                    ref="https://orcid.org/0000-0002-8741-5916">
+                    <persName>Jaap Geraerts</persName>
+                    <note>The transformation and enrichment of the data is done by Jaap Geraerts
+                        (IEG Mainz). The other members of the FriVer+ team are Fabian Cremer, Ines
+                        Grund, and Thorsten Wübbena (all IEG Mainz).</note>
+                    <note> The original data has been created by the <ref
+                            target="https://www.ieg-friedensvertraege.de">team of scholars</ref> who
+                        were part of the Europäische Friedensverträge der Vormoderne project. This
+                        project was lead by Prof. Dr. Heinz Duchhardt and was based at the Leibniz
+                        Institute of European History in Mainz. </note>
+                </editor>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>
+                    <orgName ref="http://www.isni.org/0000000119314040">Leibniz-Institut für
+                        Europäische Geschichte Mainz</orgName>
+                </publisher>
+                <distributor>
+                    <orgName ref="http://www.isni.org/0000000110101946">Universitäts- und
+                        Landesbibliothek Darmstadt</orgName>
+                </distributor>
+                <idno type="ISIL">http://lobid.org/organisation/DE-17</idno>
+                <date type="issued" when="2023-12-23"/>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">
+                        <p xml:lang="en">This file is licensed under the terms of the Creative
+                            Commons License CC-BY 4.0 (Attribution 4.0 International)</p>
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <repository xml:id="r22">Paris AAE <note>Den Haag NA, Findbuch:<lb/>
+                        <ref
+                            target="http://www.gahetna.nl/collectie/archief/inventaris/index/eadid/1.01.02/inventarisnr/12587.199"
+                            >eadid/1.01.02/inventarisnr/12587.199</ref><lb/>
+                        <lb/> Trait&eacute;s et Accords de la France:<lb/>
+                        <ref
+                            target="http://www.diplomatie.gouv.fr/traites/affichetraite.do?accord=TRA16840003"
+                            >http://www.diplomatie.gouv.fr/traites/affichetraite.do?accord=TRA16840003</ref></note>
+                </repository>
+                <msDesc>
+                    <p>NADH, archief van de Staten-Generaal, inv. nr. 12587.199 (Grafik). <lb/>
+                    </p>
+                    <p> AAE Paris: M.A.E. Traités. Multilateraux 16840003. Convention pour
+                        l'etablissement d'une trêve avec les Provinces-Unies.-La Haye (UI,
+                        Transkriptionsgrundlage). Siehe auch:&nbsp; </p>
+                    <p>
+                        <ref
+                            target="http://www.doc.diplomatie.gouv.fr/BASIS/choiseul/desktop/choiseul/DDW?M=59&amp;K=16840003&amp;W=PAYS+%3D+%27Multilat%E9raux%27+ORDER+BY+SOUSSERIE/Ascend"
+                            >Link zur Vertragsseite <lb/>
+                        </ref>
+                    </p>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p> The data in this XML file, originally created by the project <ref
+                        target="https://www.ieg-friedensvertraege.de/vertraege">Europäische
+                        Friedensverträge der Vormoderne online</ref> has been transformed in
+                    accordance with <ref target="http://www.tei-c.org/">TEI P5</ref> as part of the
+                    project <ref
+                        target="https://www.ieg-mainz.de/en/research/research-projects/european-peace-treaties-of-the-pre-modern-era-in-data"
+                        >Europäische Friedensverträge der Vormoderne in Daten (FriVer+)</ref>
+                </p>
+            </projectDesc>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="fr" xml:id="lan4">französisch</language>
+            </langUsage>
+        </profileDesc>
+    </teiHeader>
+    <standOff>
+        <listPerson>
+            <person role="signatory" xml:id="p37">
+                <persName ref="https://explore.gnd.network/gnd/4018145-5">
+                    <name>Frankreich</name>
+                </persName>
+            </person>
+            <person role="signatory" xml:id="p49">
+                <persName ref="https://explore.gnd.network/gnd/4101204-5">
+                    <name>Generalstaaten</name>
+                </persName>
+            </person>
+        </listPerson>
+        <listPlace>
+            <place xml:id="loc13">
+                <placeName ref="https://explore.gnd.network/gnd/4011446-6">Den Haag</placeName>
+            </place>
+        </listPlace>
+        <facsimile>
+            <surface xml:id="FacsPnr1">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_45ebe304e0244"/>
+            </surface>
+            <surface xml:id="FacsPnr2">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_45ebe34512f34"/>
+            </surface>
+            <surface xml:id="FacsPnr3">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_45ebe3737e4a1"/>
+            </surface>
+            <surface xml:id="FacsPnr4">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_45ebe67127fd0"/>
+            </surface>
+            <surface xml:id="FacsPnr5">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_45ebe69e462eb"/>
+            </surface>
+            <surface xml:id="FacsPnr6">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_45ebe6c6b66a7"/>
+            </surface>
+            <surface xml:id="FacsPnr7">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_45ebe6ed402f1"/>
+            </surface>
+            <surface xml:id="FacsPnr8">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_45ebe7144bd59"/>
+            </surface>
+            <surface xml:id="FacsPnr9">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_45ebe73c306b7"/>
+            </surface>
+            <surface xml:id="FacsPnr10">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_45ebe7605f3b1"/>
+            </surface>
+            <surface xml:id="FacsPnr11">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_45ebe781a09a3"/>
+            </surface>
+            <surface xml:id="FacsPnr12">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_45ebe7a18a15c"/>
+            </surface>
+            <surface xml:id="FacsPnr13">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_45ebe7c4237c1"/>
+            </surface>
+            <surface xml:id="FacsPnr14">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_45ebe7e603332"/>
+            </surface>
+            <surface xml:id="FacsPnr15">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_45ebe7ff1e801"/>
+            </surface>
+            <surface xml:id="FacsPnr16">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_45ebe817c95b3"/>
+            </surface>
+        </facsimile>
+    </standOff>
+    <text>
+        <front>
+            <div type="Inhalt">
+                <p>20jährger Waffenstillstand zu folgenden Konditionen: <lb/>1. Die Generalstaaten
+                    verwenden sich für die Annahme des Waffenstillstandes seitens des Königs von
+                    Spanien. Gültigkeit des Friedensvertrags von Nijmegen außer wenn im Folgenden
+                    anders vereinbart. <lb/>2. Der französische König behält die Herrschaft über
+                    Luxemburg, Beaumont, Bouvines und Chimay samt den davon abhängigen Dörfern und
+                    Weilern. <lb/>3. Nach Ratifikation des Waffenstillstandes durch den spanischen
+                    König binnen sechs Wochen gibt der König von Frankreich Courtray und Diksmuide
+                    nach Schleifung der Festungsanlagen sowie die davon abhängigen Gebiete zurück.
+                    <lb/>4. Rückgabe aller von den französischen Truppen nach dem 20.8.1683
+                    eroberten Gebiete außer siehe Artikel 2. Der französische und spanische König
+                    verbleiben in ihren Besitzungen wie sie sie zur Zeit der Aufhebung der Blockade
+                    von Luxemburg inne hatten. <lb/>5. Rückzug der französischen Truppen aus den
+                    Herrschaftsgebieten des katholischen Königs. Einstellung der Feindseligkeiten
+                    seitens des katholischen Königs. <lb/>6. In allen verbleibenden strittigen
+                    Herrschaftsfragen wird der König von Großbritannien zum Schiedsrichter ernannt.
+                    <lb/>7. Kontributionen werden bis zum Austausch der Ratifikationen bezahlt,
+                    ausstehende Schulden bis drei Monate danach. Bei Streitigkeiten wird der König
+                    von Großbritannien als Schiedsrichter eingesetzt. <lb/>8. Der König von
+                    Frankreich sorgt für die Einstellung der Feindseligkeiten in den spanischen
+                    Niederlanden. Die Generalstaaten unternehmen nichts gegen Territorien und
+                    Truppen des Königs von Frankreich. <lb/>9. Bei Nicht-Unterzeichnung des Vertrags
+                    durch den spanischen König verpflichten sich die Generalstaaten, ihre Truppen
+                    aus den spanischen Niederlanden abzuziehen und den spanischen Truppen keine
+                    Unterstützung zu leisten. Dafür verzichtet der König von Frankreich auf alle
+                    Feindseligkeiten gegenüber den Niederländern wenn die Spanier auch darauf
+                    verzichten. Der französische König behält sich vor, den spanischen König in
+                    seinen Territorien anzugreifen. <lb/>10. Sollte der Krieg weitergehen und der
+                    französische König Gebiete der spanischen Krone erobern, verspricht er, die
+                    Gebiete, die er anderswo erobert hat, keinesfalls gegen Gebiete in den
+                    spanischen Niederlanden einzutauschen, noch wird er sich Gebieten der spanischen
+                    Niederlande durch Revolten, Tausch, Abtretung oder durch andere Umstände
+                    bemächtigen. <lb/>11. Der König von Frankreich räumt dem Reichstag in Regensburg
+                    noch eine einmonatige Frist nach Unterzeichnung der Konvention ein, um zu einem
+                    Waffenstillstand zu kommen. In diesem Monat dürfen keine weiteren Bedingungen
+                    gestellt werden. <lb/>12. Garantie des Vertrags durch den König von
+                    Großbritannien und alle Prinzen die es wünschen. Ähnliche Garantien sollen dem
+                    König von Spanien gegeben werden. <lb/>13. Die Verträge von Nijmegen bleiben
+                    gültig. <lb/>14. Ratifikation <lb/>
+                    <lb/>[es folgt die Vollmacht der Generalstaaten]</p>
+            </div>
+        </front>
+        <body>
+            <div type="Transkription">
+                <p>29e Juin 1684 <lb/>
+                    <lb/>Traité signé entre la France <lb/>et la Repub[liqu]e des Provinces
+                    <lb/>unies à la Haye <lb/>pour une Treve <lb/>entre la France d’une <lb/>part et
+                    l’Emp[ereu]r, <lb/>l’Empire et l’Esp[agn]e <lb/>d’autre part. <lb/>
+                    <lb/>Au nom de Dieu le Createur; <lb/>A tous presens et à venir; soit notoire,
+                    <lb/>Que comme Treshaut Tres-Excellent et <lb/>Tres-Puissant Prince Louis XIV,
+                    par <lb/>la grace de Dieu, Roy Tres Chrestien <lb/>de France et de Navarre, n'a
+                    rien eu plus <lb/>à coeur, que de faire cesser tous les diffe- <lb/>rents qui
+                    alloient troubler le repos de l’Eu- <lb/>rope, et de donner par ce moyen une
+                    segonde fois <lb/>la Paix à la Chrestienté: Sa Majesté <lb/>n’a rien obmis de
+                    tout ce qui pouvoit en fa- <lb/>ciliter le restablissement, mesme depuis la
+                    <lb/>declaration de guerre, qui luy a esté faite par <lb/>le Roy Catholique. Et
+                    comme Sa Majesté <lb/>Tres-Chrestienne a esté informée, que les <lb/>Seigneurs
+                    Estats Generaux des Provinces Unies <lb/>temoignoient un tres grand desir de
+                    contribuer <lb/>de tout leur pouvoir à un oeuvre si salutaire: <lb/>Elle leur a
+                    ouvert les expedients qu'Elle <lb/>a jugé les plus propres, pour eteindre le feu
+                    <lb/>de la guerre, qui commancoit à s'allumer dans <lb/>leur Voisinage, et qui
+                    mettoit non seulement <lb/>toute leur Frontiere dans un danger inevitable
+                    <lb/>mais qui estoit encore sur le point d'embraser <lb/>tout le reste de
+                    l'Europe: Et afin que <lb/>ces differends, dont les suittes alloient estre
+                    <lb/>si funestes à la Chrestienté, pussent estre <lb/>
+                    <lb/>[Seite 2] <lb/>
+                    <lb/>plus promptement terminés; Sa Majesté <lb/>a donné plein-Pouvoir au Sieur
+                    de Mesmes, <lb/>Chevalier Comte d'Avaux, Conseiller ordi- <lb/>naire en son
+                    Conseil d'Estat, et son Ambas- <lb/>sadeur Extraordinaire à la Haye, pour arre-
+                    <lb/>ster, conclure, et signer avec les Seigneurs <lb/>Estats Generaux, ou avec
+                    leurs Deputez, pareil- <lb/>lement munis de plein-pouvoir, les articles,
+                    <lb/>qui seront jugés necessaires pour parvenir à <lb/>un prompt accommodement
+                    avec l’Espagne. <lb/>Et lesdits Seigneurs Estats Generaux <lb/>recevant avec
+                    un[e] extreme satisfaction, les <lb/>témoignages, que Sa Majeste
+                    Tres-Chrestienne <lb/>leur a si souvent donnés de son affection, <lb/>et
+                    repondant de leur part avec une entiere <lb/>confiance, aux desirs sinceres, que
+                    Sa Majesté <lb/>a de rétablir la Paix dans toute l’Europe, <lb/>et d'asseurer
+                    particulierement le repos <lb/>de leur Frontiere; Ont examiné avec appli-
+                    <lb/>cation les offres, que Sa Majesté a bien <lb/>voulu faire, pour arriver a
+                    une fin si heureuse[.] <lb/>Et apres en avoir meurement deliberé, ils <lb/>ont
+                    jugé, qu'on ne pouvoit prendre d'expedient <lb/>plus prompt, plus facile, ni
+                    plus convenable <lb/>pour arrester incessamment le cours de la <lb/>guerre, que
+                    celuy, que Sa Majeste Tres-Chre- <lb/>stienne a offert d'une Treve de vingt
+                    années, <lb/>
+                    <lb/>[Seite 3] <lb/>
+                    <lb/>laquelle pouvant faire cesser dez à cett[e] <lb/>heure les suittes
+                    facheuses des differents, <lb/>qui sont survenus entre Sa Majesté Tres-
+                    <lb/>Chrestienne, et Sa Majesté Catholique, don- <lb/>nera lieu dans la suitte,
+                    de les terminer en- <lb/>tierement par une bonne et solide Paix: <lb/>C'est
+                    pourquoy ils ont nommé les Sieurs <lb/>Daniel de Wyngaarden, Baron de Wyn-
+                    <lb/>gaarden, Rubroek, Benthuysen, Seigneur <lb/>de Werkendam, Soetermeer,
+                    Moermont, in <lb/>Renesse, Zuydland et Noortwelle, Deputé <lb/>de la part de
+                    l'Ordre de la Noblesse dans <lb/>l’Assemblée de Hollande et de Westfrise,
+                    <lb/>Haut Baillif et Dykgrave de la Ville et <lb/>du Pais de Woerden, Heemraad
+                    de Delf- <lb/>land, Curateur de l’Universite de Leyden; <lb/>Jacob Hop,
+                    Conseiller pensionaire de la <lb/>Ville d'Amsterdam; Everard de Weede,
+                    <lb/>Seigneur de Dykvelt, Ratoles etc. premier <lb/>Conseiller des Estats de la
+                    Province d'Utregt, <lb/>et president dans leur Assemblée, Dykgrave <lb/>de la
+                    Riviere de Lecq; Siouk Gerold de <lb/>Burmania, Grietman de Wynbritseradeel;
+                    <lb/>Gysbert Cuper, Bourguemaistre de la Ville <lb/>de Deventer, et Antoine
+                    Gerlacius, Deputez <lb/>respectifs à<note n="1" type="crit_app">Nachträglich
+                        eingefügt über durchgestrichenem Text.</note> l’Assemblée [des dits S[ieu]rs
+                    Estats Generaux]<note n="2" type="crit_app">Nachträglich eingefügt, links am
+                        Rand.</note> de la part <lb/>des Estats de Hollande et de Westfrise, <lb/>
+                    <lb/>
+                    <lb/>[Seite 4] <lb/>
+                    <lb/>Utregt, Frise, Overyssel et de Groningue, <lb/>pour arrester, conclurre, et
+                    signer les articles, <lb/>dont on conviendroit avec led[i]t Sieur Comte
+                    <lb/>d'Avaux, Ambassadeur Extraordinaire de <lb/>Sa Majesté Tres-Chrestienne,
+                    pour parvenir <lb/>à un prompt et bon accommodement; Et <lb/>le d[i]t Sieur
+                    Ambassadeur du Roy Tres- <lb/>Chrestien, et lesd[it]s Sieurs Deputez des
+                    <lb/>Estats Generaux des Provinces Unies, apres <lb/>une reciproque
+                    communication des pleinspouvoirs, <lb/>dont à la fin de ce Traitté les copies
+                    sont <lb/>inserées de mot à mot; ont accordé, conclu et <lb/>arresté les
+                    articles qui suivent. <lb/>
+                    <lb/>1. <lb/>En consequence des offres, que led[i]t Seigneur <lb/>Roy
+                    Tres-Chrestien a fait, pour le re- <lb/>tablissement de la Paix, lesdits
+                    Seigneurs <lb/>Estats Generaux des Provinces Unies s'obli- <lb/>gent envers Sa
+                    Majesté Tres-Chrestienne, <lb/>d'employer toutes sortes de bons offices, pour
+                    <lb/>faire accepter audit Seigneur Roy Catholique, <lb/>ladite Treve de vingt
+                    années, à compter du <lb/>jour de la signature de la presente Convention,
+                    <lb/>pendant laquelle Treve cesseront de part <lb/>et d'autre tous actes
+                    d'hostilité, de quelque <lb/>
+                    <lb/>[Seite 5] <lb/>
+                    <lb/>nature qu'ils soient, entre ledit Seigneur <lb/>Roy Tres-Chretien, et ledit
+                    Seigneur Roy <lb/>Catholique, tant par mer et autres eaux, que par <lb/>terre,
+                    en tous leurs Royaumes, Païs, Terres, <lb/>Provinces et Seigneuries, et toutes
+                    choses seront <lb/>rétablies de part et d'autre au mesme estat, ou <lb/>elles
+                    ont esté mises par le Traitte de Ny- <lb/>megue, à la reserve de ce, qui sera
+                    autrement <lb/>reglé dans les articles suivants, touchant la <lb/>possession, en
+                    laquelle lesdits Seigneurs <lb/>Roys Tres-Chrestien et Catholique demeu-
+                    <lb/>reront reciproquement, pendant ladite Treve <lb/>de vingt-années. <lb/>
+                    <lb/>2. <lb/>Ledit Seigneur Roi Tres-Chrestien demeu- <lb/>rera saisy, et joüira
+                    effectivement, pendant <lb/>ladite Treve, sans pouvoir estre inquieté ni
+                    <lb/>troublé, sous quelque raison ou pretexte que <lb/>ce puisse estre, de la
+                    Ville de Luxembourg <lb/>et de sa Prevosté, ou des quatorze à quinze
+                    <lb/>Villages, ou Hameaux, qui sont de sa depen- <lb/>dance: de Beaumont et des
+                    trois ou quatre <lb/>Villages, qui restent de sa dependance: de <lb/>Bouvines,
+                    qui n'en a aucun et de Chimay, <lb/>avec les douze ou quinze Villages qui en
+                    <lb/>dependent. <lb/>
+                    <lb/>[Seite 6] <lb/>
+                    <lb/>3. <lb/>Si dans six semaines, [à] compter du jour de la <lb/>signature de
+                    la presente Convention, le Roy <lb/>Catholique fait delivrer un acte de
+                    Ratification <lb/>en bonne et deüe forme, par lequel Sa Majesté <lb/>Catholique
+                    agrée et ratifie les articles, contenus <lb/>dans la presente Convention, et
+                    consent à la <lb/>Tréve de vingt années, aux conditions, qui y sont
+                    <lb/>énoncees, Sa Majesté Tres-Chrestienne&nbsp; aussy <lb/>tost que lesdites
+                    Ratifications auront esté <lb/>eschangées, restituera au Roy Catholique <lb/>les
+                    Villes de Courtray et de Dixmude, apres <lb/>qu'Elle en aura fait abbatre les
+                    murailles <lb/>et raser les fortifications, et rendra pareille- <lb/>ment les
+                    dependances desdites deux Villes. <lb/>
+                    <lb/>4. <lb/>Sa Majesté Tres-Chrestienne restituera <lb/>aussy à Sa Majesté
+                    Catholique, apres l'es- <lb/>change desdites Ratifications, tous les lieux,
+                    <lb/>que ses armes peuvent avoir occupé, et ge- <lb/>neralement tout ce, dont
+                    Elle s'est <lb/>mise en possession depuis le 20me d'Aoust <lb/>1683, à
+                    l’exception des Villes de Luxembourg, <lb/>Beaumont, Bouvines et Chimay, qu'Elle <lb/>
+                    <lb/>[Seite 7] <lb/>
+                    <lb/>retiendra avec leurs dependances, en la maniere <lb/>qu'il a esté stipulé
+                    par le segond article <lb/>de la presente Convention. Sa Majesté
+                    <lb/>Tres-Chrestienne, et Sa Majesté Catholique <lb/>demeurant au surplus dans
+                    le mesme estat <lb/>de possession, auquel Elles estoient lors <lb/>de la levée
+                    du Blocus de Luxembourg; sans <lb/>toutefois qu'en vertu de ladite possession
+                    <lb/>ou de celle des autres Villes et Places, qui <lb/>demeureront pendant cette
+                    Tréve, soit à la <lb/>France, soit à l’Espagne, il puisse estre meu <lb/>aucune
+                    pretension, ni fait aucune reunion de <lb/>part ni d'autre, ni contre lesd[it]s
+                    Seigneurs Estats, <lb/>Generaux<note n="3" type="crit_app">Nachträglich
+                        eingefügt.</note> sous pretexte de dependances, annexes, ou autres
+                    <lb/>droits, quelques noms qu'ils puissent avoir. <lb/>
+                    <lb/>
+                    <lb/>5. <lb/>Sa Majesté Tres-Chrestienne sera pareille- <lb/>ment obligée, apres
+                    l’eschange desdites Rati- <lb/>fications d'Espagne, de retirer entierement ses
+                    <lb/>Trouppes de dessus les Estats de la domination <lb/>du Roy Catholique, en
+                    quelque endroit, qu'ils <lb/>soient situez, comme aussy le Roy Catholique
+                    <lb/>ne commettra plus aucun acte d'hostilité, <lb/>et sera tenu d'observer de
+                    son costé, pour <lb/>le restablissement du repos et de la bonne
+                    <lb/>correspondance entre les Sujets desd[its] Seigneurs <lb/>
+                    <lb/>
+                    <lb/>
+                    <lb/>[Seite 8] <lb/>
+                    <lb/>Roys Tres-Chrestien et Catholique, les <lb/>mesmes choses, auxquelles Sa
+                    Majesté Tres- <lb/>Chrestienne s'engage par la presente Convention. <lb/>
+                    <lb/>6. <lb/>Que si sur ce fondement que lesdits Seigneurs <lb/>Roys
+                    demeureront, pendant ladite Tréve, en <lb/>la possession, ou leurs Majestez
+                    Tres-Chrestienne <lb/>et Catholique estoient lors de la levée du Blocus <lb/>de
+                    Luxembourg ( à la reserve des places sus- <lb/>mentionnées, qui demeureront à Sa
+                    Majesteé <lb/>Tres-Chrestienne) il se trouvoit quelques lieux, <lb/>dont le
+                    temps de la possession, ou l’estendüe <lb/>fust contestée; la decision en sera
+                    remise au Roy <lb/>de la Grande Bretagne: à la charge neantmoins <lb/>que
+                    lesdits Seigneurs Roys ne seront plus receus <lb/>à former aucune plainte sur ce
+                    sujet, trois <lb/>mois apres l'eschange des Ratifications d' <lb/>Espagne de la
+                    presente Convention. <lb/>
+                    <lb/>7. <lb/>La levée des Contributions sera continuée<note n="4"
+                        type="crit_app">Nachträglich eingefügt.</note> de <lb/>part et d'autre pour
+                    tout ce qui restera à <lb/>echoeir jusques au jour de l’eschange des
+                    <lb/>Ratifications d'Espagne de la presente <lb/>Convention; Et les arrerages,
+                    qui resteront <lb/>
+                    <lb/>
+                    <lb/>
+                    <lb/>[Seite 9] <lb/>
+                    <lb/>deus, lors du susdit eschange desdites Ratifi- <lb/>cations, seront payez
+                    dans l’espace de trois <lb/>Mois apres le terme susdit; Et aucune exe-
+                    <lb/>cution ne se pourra faire, pour raison de ce <lb/>pendant ledit temps,
+                    contre les Communautez <lb/>redevables, pourveu qu'elles ayent donné bonne
+                    <lb/>et valable caution, resseante dans une Ville <lb/>de la domination ou
+                    possession de celuy desdits <lb/>Seigneurs Roys, à qui lesdites Contributions
+                    <lb/>seront deües. Et en cas que quelques diffe- <lb/>rents vinssent à naistre,
+                    à l’egard desdites <lb/>contributions, on ne s'en pourra procurer <lb/>aucune
+                    satisfaction par voye de fait: mais <lb/>cette contestation sera terminée à
+                    l’amiable; <lb/>et si cela ne se peut, on s'en remettra à l’arbi- <lb/>trage du
+                    Roy de la Grande Bretagne. <lb/>
+                    <lb/>8. <lb/>Sa Majesté Tres-Chrestienne s'engage de <lb/>faire cesser dés à
+                    present tous actes d'hosti- <lb/>lité dans les Païs Bas contre les Villes
+                    <lb/>et Lieux, apartenant à la Couronne d'Espagne, <lb/>mesme dans le plat pais,
+                    si les Espagnols <lb/>s'en abstiennent: Et lesdits Seigneurs Estats
+                    <lb/>Generaux s'engagent de ne rien entreprendre <lb/>contre les Places,
+                    appartenant à Sa Majesté <lb/>Tres Chrestienne, ni contre ses Trouppes. <lb/>
+                    <lb/>[Seite 10] <lb/>
+                    <lb/>9. <lb/>Et si led[i]t Seigneur Roy Catholique n'accepte <lb/>pas la susdite
+                    Tréve aux conditions stipulées, <lb/>et que dans l’espace de six semaines, à
+                    compter <lb/>du jour de la signature de la presente Convention, <lb/>Sa Majesté
+                    Catholique n'en fournisse pas <lb/>un acte de Ratification en bonne et deüe
+                    <lb/>forme lesdits Seigneurs Estats Generaux <lb/>s'obligent en ce cas de
+                    retirer immediatement <lb/>apres led[i]t temps de six semaines, toutes
+                    <lb/>leurs Trouppes des Pais Bas Espagnols, <lb/>et de ne donner, tant que la
+                    presente guerre <lb/>durera aucune assistance à la Couronne <lb/>d'Espagne,
+                    directement ni indirectement, <lb/>et tant que les differents, qui existent pre-
+                    <lb/>sentement, ne seront pas terminez, et ils <lb/>s'engagent aussy de ne
+                    commettre aucun acte <lb/>d'hostilité contre les Trouppes, Païs et <lb/>Sujets
+                    de Sa Majesté, ni contre ses Alliez. <lb/>Et Sa Majesté Tres-Chrestienne
+                    s'oblige <lb/>reciproquement de n'attaquer, ni de s'emparer <lb/>d'aucune autre
+                    Place des Pais Bas, mesme <lb/>de n'y pouvoir faire la guerre dans le plat
+                    <lb/>Païs, si les Espagnols s'en abstiennent; <lb/>Sa Majesté se reservant la
+                    liberté de <lb/>porter ses armes dans les Estats du Roy <lb/>Catholique par tout
+                    ailleurs, que dans lesd[i]ts <lb/>
+                    <lb/>[Seite 11] <lb/>
+                    <lb/>Païs Bas, jusques à ce que la Paix soit <lb/>restablie entre lesdits
+                    Seigneurs Roys Tres- <lb/>Chrestien et Catholique. <lb/>
+                    <lb/>10. <lb/>Et en cas que la guerre venant à se con- <lb/>tinüer entre
+                    lesd[it]s Seigneurs Roys Tres- <lb/>Chrestien et Catholique, Sa Majesté Tres-
+                    <lb/>Chrestienne fist des conquestes sur la Couronne <lb/>d'Espagne: Sadite
+                    Majesté promet, que quelque <lb/>succés, que ses armes puissent avoir ailleurs,
+                    <lb/>Elle n'acceptera point d'equivalent dans les <lb/>Païs Bas Espagnols des
+                    conquestes qu'Elle <lb/>fera pendant la presente guerre, et qu'Elle <lb/>ne
+                    s'emparera point non plus, pendant led[i]t temps, <lb/>d'aucune desd[it]es
+                    places desd[it]s Païs Bas, soit <lb/>par revolte, eschange, cession volontaire,
+                    ou <lb/>par quelque autre voye que ce soit. <lb/>
+                    <lb/>11. <lb/>Sa Majesté s'oblige pareillement de donner <lb/>encore un Mois à
+                    la Diette de Ratisbonne, <lb/>à compter du jour, que la presente Convention
+                    <lb/>sera signée, pour convenir d'une Tréve <lb/>avec la France; et Sadite
+                    Majesté <lb/>s'engage de ne pouvoir pendant ledit Mois <lb/>
+                    <lb/>[Seite 12] <lb/>
+                    <lb/>augmenter les conditions, qu'Elle a fait <lb/>proposer et qu'Elle y a fait
+                    reiterer depuis <lb/>quelques Mois. <lb/>
+                    <lb/>12. <lb/>Sa Majesté Tres Chrestienne et les Estats <lb/>Generaux des
+                    Provinces Unies consentent, que <lb/>le Roy de la Grande Bretagne et genera-
+                    <lb/>lement tous les Princes, qui voudront <lb/>bien entrer dans un pareil
+                    engagement, <lb/>puissent donner à Sa Majesté Tres- <lb/>Chrestienne, et auxdits
+                    Seigneurs Estats <lb/>Generaux leurs promesses, et obligations <lb/>de Garantie
+                    de l’execution de ce qui est <lb/>contenu dans la presente Convention.
+                    <lb/>Comme aussy Sadite Majesté Tres-Chrestienne <lb/>et les Estats Generaux
+                    consentent que pareils <lb/>actes de Garantie soient donnez à Sa Majesté
+                    <lb/>Catholique, si Elle accepte ladite Treve. <lb/>
+                    <lb/>13. <lb/>On est convenu et il a esté declaré, qu'on <lb/>ne pretend rien
+                    innover aux Traittez, faits <lb/>a Nimegue entre led[i]t Seigneur Roy
+                    <lb/>Tres-Chrestien, et lesdits Seigneurs Estats <lb/>Generaux, et que lesdits
+                    Traittez demeureront <lb/>
+                    <lb/>[Seite 13] <lb/>
+                    <lb/>dans leur entiere force et vigueur. <lb/>
+                    <lb/>14. <lb/>Le present Traitté sera ratifié et approuvé par <lb/>led[i]t
+                    Seigneur Roy, et par lesd[it]s Seigneurs <lb/>Estats Generaux, et les Lettres de
+                    Ratification <lb/>de l’un et de l'autre seront delivrées en bonne <lb/>et deüe
+                    forme dans trois semaines, ou plustost, <lb/>si faire se peut, à compter du jour
+                    de la signature. <lb/>En foy de quoy nous Ambassadeur susdit <lb/>de Sa Majesté,
+                    et Deputez susdits des Seigneurs <lb/>Estats Generaux, en vertu de nos Pouvoirs
+                    respe- <lb/>ctifs avons esdits noms signé ces presentes de <lb/>nos seings
+                    ordinaires, et à icelles fait appo- <lb/>ser les Cachets de nos Armes; Fait à la
+                    <lb/>Haye le vingt neufiesme de juin 1684. <lb/>
+                    <lb/>De Mesmes C. d'Avaux <lb/>
+                    <lb/>D. van Wyngaarden <lb/>J. Hop <lb/>De Weede <lb/>G. de Burmania <lb/>Gisb.
+                    Cuper <lb/>A.&nbsp;&nbsp; &nbsp;Gerlacius <lb/>
+                    <lb/>[SEITE 14] <lb/>
+                    <lb/>
+                    <lb/>29e Juin 1684 <lb/>
+                    <lb/>Les Estats Generaux des Provinces Unies <lb/>des Pais Bas: A tous ceux, qui
+                    ces presentes <lb/>Leures verront, Salut; Faisons scavoir ; <lb/>Ou ayant receu
+                    et accepté; autant qu’il nous con- <lb/>cerné, La Treve, offerte par le Sieur
+                    Comte <lb/>d’Avaux, Ambassadeur Extraordinaire du Roy <lb/>Tres Chrestien, en
+                    nom et de la part de Sa <lb/>Majesté dans ses Memoires du 29me d’Avril, <lb/>9me
+                    May dernier, et du 5me et du 7me de ce <lb/>Mois; Et nous confiant entierement
+                    en l’ex- <lb/>perience, capacité et fidelité des Sieurs <lb/>Daniel de
+                    Wijngaarden, Baron de Wijngaarden, <lb/>Rubroek, Benthuysen, Deigneur de
+                    Werkendam, <lb/>Soetermeer, Moermont, in Renesse Zuydland, <lb/>et Noorwelle,
+                    Deputé de la part de l’Ordre <lb/>de a Noblesse dans l’Assemblée de Hollande
+                    <lb/>et de Westfrise, haut Baillif et Dijkgraaf <lb/>de la Ville et de Païs de
+                    Woerden, Heemrade <lb/>de Delfland; Curateur de l’Université de <lb/>Leyden;
+                    Jacob Hop, Conseiller pensionaire <lb/>de la Ville d’Amsterdam, Everard de
+                    Weede, <lb/>Seigneur de Dykvelt, Rateles &amp; premier <lb/>Conseiller des
+                    Estats de la province d’Utrecht, <lb/>et President dans leur Assemblées,
+                    Dykgrave <lb/>de la Riviere de Lecq, Siouk Gerold de <lb/>Burmania, Grietman de
+                    Wynbritsadeel; Gysbert <lb/>Cuper, Bourguemaistre de la Ville&nbsp; de Deventer,
+                    <lb/>et Antoine Gerlacius, Deputez respectifs <lb/>
+                    <lb/>[Seite 15] <lb/>
+                    <lb/>dans nostre Assemblée de la part des Estats <lb/>de Hollande et de
+                    Westfrise, Utrecht, Frise, <lb/>Overyssel et de Groningue, avons commis, ordonné
+                    <lb/>et deputé lesd[its] Sieurs de Werkendam, Hop, <lb/>Dykvelt, Burmania, Cuper
+                    et Gerlacius, com- <lb/>mettons, ordonnons et deputons par ces presentes,
+                    <lb/>et leur avons donné, et donnons plein-pouvoir, <lb/>Commission et mandement
+                    special, pour en nostre <lb/>nom, et de nostre part convenir avec led[i]t Sieur
+                    <lb/>Comte d’Avaux sur les conditions de ladite <lb/>Treve, les comprendre dans
+                    un Traitté ou con- <lb/>vention , les conclurre et signer sans aucun delay
+                    <lb/>et de faire generalement tout ce que nous pourrions <lb/>faire, si nous y
+                    estions presentes, quant mesme <lb/>pour cet effect il seroit requis pouvoir et
+                    mande- <lb/>ment plus speciale, promettant sincerement e <lb/>de bonne foy
+                    d’avoir agreable et tenir ferme <lb/>stable et inviolable tout ce que lesd[it]s
+                    Sieurs <lb/>Deputez et Plenipotentiaires auront promis, arresté <lb/>conclu et
+                    signé, et d’en faire expedier nos Lettres <lb/>d’approbation, agreement et
+                    Ratification en <lb/>bonne et deve forme, dans le temps qu’ils auront
+                    <lb/>promis en nostre nom de les fournir. Donné à <lb/>la Haye en nostre
+                    Assemblée sous nostre Grand <lb/>sceau paraphure du president, et signature de
+                    <lb/>nostre Greffier, le 28me Juin 1684. Estoit <lb/>paraphé D: van Wijngaarden
+                        [vt]<note n="5" type="crit_app">? Darüber.</note> plus bas <lb/>etoit
+                    escrit: Par ordonnance desd[i]ts Seigneurs <lb/>Estats Generaux, et signé H:
+                    Fagel. <lb/>
+                    <lb/>L.S. <lb/>
+                    <lb/>
+                </p>
+            </div>
+
+            <div type="Transliteration">
+                <pb facs="#FacsPnr1"/>
+                <p>29e Juin 1684 <lb/>
+                    <lb/>Traité signé entre la France <lb/>et la Repub[liqu]e des Provinces
+                    <lb/>unies à la Haye <lb/>pour une Treve <lb/>entre la France d’une <lb/>part et
+                    l’Emp[ereu]r, <lb/>l’Empire et l’Esp[agn]e <lb/>d’autre part. <lb/>
+                    <lb/>Au nom de Dieu le Createur; <lb/>A tous presens et à venir; soit notoire,
+                    <lb/>Que comme Treshaut Tres-Excellent et <lb/>Tres-Puissant Prince Louis XIV,
+                    par <lb/>la grace de Dieu, Roy Tres Chrestien <lb/>de France et de Navarre, n'a
+                    rien eu plus <lb/>à coeur, que de faire cesser tous les diffe- <lb/>rents qui
+                    alloient troubler le repos de l’Eu- <lb/>rope, et de donner par ce moyen une
+                    segonde fois <lb/>la Paix à la Chrestienté: Sa Majesté <lb/>n’a rien obmis de
+                    tout ce qui pouvoit en fa- <lb/>ciliter le restablissement, mesme depuis la
+                    <lb/>declaration de guerre, qui luy a esté faite par <lb/>le Roy Catholique. Et
+                    comme Sa Majesté <lb/>Tres-Chrestienne a esté informée, que les <lb/>Seigneurs
+                    Estats Generaux des Provinces Unies <lb/>temoignoient un tres grand desir de
+                    contribuer <lb/>de tout leur pouvoir à un oeuvre si salutaire: <lb/>Elle leur a
+                    ouvert les expedients qu'Elle <lb/>a jugé les plus propres, pour eteindre le feu
+                    <lb/>de la guerre, qui commancoit à s'allumer dans <lb/>leur Voisinage, et qui
+                    mettoit non seulement <lb/>toute leur Frontiere dans un danger inevitable
+                    <lb/>mais qui estoit encore sur le point d'embraser <lb/>tout le reste de
+                    l'Europe: Et afin que <lb/>ces differends, dont les suittes alloient estre
+                    <lb/>si funestes à la Chrestienté, pussent estre <lb/>
+                    <pb facs="#FacsPnr2"/>plus promptement terminés; Sa Majesté <lb/>a donné
+                    plein-Pouvoir au Sieur de Mesmes, <lb/>Chevalier Comte d'Avaux, Conseiller ordi-
+                    <lb/>naire en son Conseil d'Estat, et son Ambas- <lb/>sadeur Extraordinaire à la
+                    Haye, pour arre- <lb/>ster, conclure, et signer avec les Seigneurs <lb/>Estats
+                    Generaux, ou avec leurs Deputez, pareil- <lb/>lement munis de plein-pouvoir, les
+                    articles, <lb/>qui seront jugés necessaires pour parvenir à <lb/>un prompt
+                    accommodement avec l’Espagne. <lb/>Et lesdits Seigneurs Estats Generaux
+                    <lb/>recevant avec un[e] extreme satisfaction, les <lb/>témoignages, que Sa
+                    Majeste Tres-Chrestienne <lb/>leur a si souvent donnés de son affection, <lb/>et
+                    repondant de leur part avec une entiere <lb/>confiance, aux desirs sinceres, que
+                    Sa Majesté <lb/>a de rétablir la Paix dans toute l’Europe, <lb/>et d'asseurer
+                    particulierement le repos <lb/>de leur Frontiere; Ont examiné avec appli-
+                    <lb/>cation les offres, que Sa Majesté a bien <lb/>voulu faire, pour arriver a
+                    une fin si heureuse[.] <lb/>Et apres en avoir meurement deliberé, ils <lb/>ont
+                    jugé, qu'on ne pouvoit prendre d'expedient <lb/>plus prompt, plus facile, ni
+                    plus convenable <lb/>pour arrester incessamment le cours de la <lb/>guerre, que
+                    celuy, que Sa Majeste Tres-Chre- <lb/>stienne a offert d'une Treve de vingt
+                    années, <lb/>
+                </p>
+                <pb facs="#FacsPnr3"/>
+                <p>laquelle pouvant faire cesser dez à cett[e] <lb/>heure les suittes facheuses des
+                    differents, <lb/>qui sont survenus entre Sa Majesté Tres- <lb/>Chrestienne, et
+                    Sa Majesté Catholique, don- <lb/>nera lieu dans la suitte, de les terminer en-
+                    <lb/>tierement par une bonne et solide Paix: <lb/>C'est pourquoy ils ont nommé
+                    les Sieurs <lb/>Daniel de Wyngaarden, Baron de Wyn- <lb/>gaarden, Rubroek,
+                    Benthuysen, Seigneur <lb/>de Werkendam, Soetermeer, Moermont, in <lb/>Renesse,
+                    Zuydland et Noortwelle, Deputé <lb/>de la part de l'Ordre de la Noblesse dans
+                    <lb/>l’Assemblée de Hollande et de Westfrise, <lb/>Haut Baillif et Dykgrave de
+                    la Ville et <lb/>du Pais de Woerden, Heemraad de Delf- <lb/>land, Curateur de
+                    l’Universite de Leyden; <lb/>Jacob Hop, Conseiller pensionaire de la <lb/>Ville
+                    d'Amsterdam; Everard de Weede, <lb/>Seigneur de Dykvelt, Ratoles etc. premier
+                    <lb/>Conseiller des Estats de la Province d'Utregt, <lb/>et president dans leur
+                    Assemblée, Dykgrave <lb/>de la Riviere de Lecq; Siouk Gerold de <lb/>Burmania,
+                    Grietman de Wynbritseradeel; <lb/>Gysbert Cuper, Bourguemaistre de la Ville
+                    <lb/>de Deventer, et Antoine Gerlacius, Deputez <lb/>respectifs à<note n="1"
+                        type="crit_app">Nachträglich eingefügt über durchgestrichenem Text</note>
+                    l’Assemblée [des dits S[ieu]rs Estats Generaux] <note n="2" type="crit_app"
+                        >Nachträglich eingefügt, links am Rand.</note>de la part <lb/>des Estats de
+                    Hollande et de Westfrise, <lb/>
+                    <lb/>
+                    <lb/>
+                    <lb/>
+                    <pb facs="#FacsPnr4"/>Utregt, Frise, Overyssel et de Groningue, <lb/>pour
+                    arrester, conclurre, et signer les articles, <lb/>dont on conviendroit avec
+                    led[i]t Sieur Comte <lb/>d'Avaux, Ambassadeur Extraordinaire de <lb/>Sa Majesté
+                    Tres-Chrestienne, pour parvenir <lb/>à un prompt et bon accommodement; Et
+                    <lb/>le d[i]t Sieur Ambassadeur du Roy Tres- <lb/>Chrestien, et lesd[it]s Sieurs
+                    Deputez des <lb/>Estats Generaux des Provinces Unies, apres <lb/>une reciproque
+                    communication des pleinspouvoirs, <lb/>dont à la fin de ce Traitté les copies
+                    sont <lb/>inserées de mot à mot; ont accordé, conclu et <lb/>arresté les
+                    articles qui suivent. <lb/>
+                    <lb/>1. <lb/>En consequence des offres, que led[i]t Seigneur <lb/>Roy
+                    Tres-Chrestien a fait, pour le re- <lb/>tablissement de la Paix, lesdits
+                    Seigneurs <lb/>Estats Generaux des Provinces Unies s'obli- <lb/>gent envers Sa
+                    Majesté Tres-Chrestienne, <lb/>d'employer toutes sortes de bons offices, pour
+                    <lb/>faire accepter audit Seigneur Roy Catholique, <lb/>ladite Treve de vingt
+                    années, à compter du <lb/>jour de la signature de la presente Convention,
+                    <lb/>pendant laquelle Treve cesseront de part <lb/>et d'autre tous actes
+                    d'hostilité, de quelque <lb/>
+                    <pb facs="#FacsPnr5"/>nature qu'ils soient, entre ledit Seigneur <lb/>Roy
+                    Tres-Chretien, et ledit Seigneur Roy <lb/>Catholique, tant par mer et autres
+                    eaux, que par <lb/>terre, en tous leurs Royaumes, Païs, Terres, <lb/>Provinces
+                    et Seigneuries, et toutes choses seront <lb/>rétablies de part et d'autre au
+                    mesme estat, ou <lb/>elles ont esté mises par le Traitte de Ny- <lb/>megue, à la
+                    reserve de ce, qui sera autrement <lb/>reglé dans les articles suivants,
+                    touchant la <lb/>possession, en laquelle lesdits Seigneurs <lb/>Roys
+                    Tres-Chrestien et Catholique demeu- <lb/>reront reciproquement, pendant ladite
+                    Treve <lb/>de vingt-années. <lb/>
+                    <lb/>2. <lb/>Ledit Seigneur Roi Tres-Chrestien demeu- <lb/>rera saisy, et joüira
+                    effectivement, pendant <lb/>ladite Treve, sans pouvoir estre inquieté ni
+                    <lb/>troublé, sous quelque raison ou pretexte que <lb/>ce puisse estre, de la
+                    Ville de Luxembourg <lb/>et de sa Prevosté, ou des quatorze à quinze
+                    <lb/>Villages, ou Hameaux, qui sont de sa depen- <lb/>dance: de Beaumont et des
+                    trois ou quatre <lb/>Villages, qui restent de sa dependance: de <lb/>Bouvines,
+                    qui n'en a aucun et de Chimay, <lb/>avec les douze ou quinze Villages qui en
+                    <lb/>dependent. <lb/>
+                    <pb facs="#FacsPnr6"/>3. <lb/>Si dans six semaines, [à] compter du jour de la
+                    <lb/>signature de la presente Convention, le Roy <lb/>Catholique fait delivrer
+                    un acte de Ratification <lb/>en bonne et deüe forme, par lequel Sa Majesté
+                    <lb/>Catholique agrée et ratifie les articles, contenus <lb/>dans la presente
+                    Convention, et consent à la <lb/>Tréve de vingt années, aux conditions, qui y
+                    sont <lb/>énoncees, Sa Majesté Tres-Chrestienne&nbsp; aussy <lb/>tost que
+                    lesdites Ratifications auront esté <lb/>eschangées, restituera au Roy Catholique
+                    <lb/>les Villes de Courtray et de Dixmude, apres <lb/>qu'Elle en aura fait
+                    abbatre les murailles <lb/>et raser les fortifications, et rendra pareille-
+                    <lb/>ment les dependances desdites deux Villes. <lb/>
+                    <lb/>4. <lb/>Sa Majesté Tres-Chrestienne restituera <lb/>aussy à Sa Majesté
+                    Catholique, apres l'es- <lb/>change desdites Ratifications, tous les lieux,
+                    <lb/>que ses armes peuvent avoir occupé, et ge- <lb/>neralement tout ce, dont
+                    Elle s'est <lb/>mise en possession depuis le 20me d'Aoust <lb/>1683, à
+                    l’exception des Villes de Luxembourg, <lb/>Beaumont, Bouvines et Chimay, qu'Elle
+                    <lb/>
+                </p>
+                <pb facs="#FacsPnr7"/>
+                <p>retiendra avec leurs dependances, en la maniere <lb/>qu'il a esté stipulé par le
+                    segond article <lb/>de la presente Convention. Sa Majesté <lb/>Tres-Chrestienne,
+                    et Sa Majesté Catholique <lb/>demeurant au surplus dans le mesme estat <lb/>de
+                    possession, auquel Elles estoient lors <lb/>de la levée du Blocus de Luxembourg;
+                    sans <lb/>toutefois qu'en vertu de ladite possession <lb/>ou de celle des autres
+                    Villes et Places, qui <lb/>demeureront pendant cette Tréve, soit à la
+                    <lb/>France, soit à l’Espagne, il puisse estre meu <lb/>aucune pretension, ni
+                    fait aucune reunion de <lb/>part ni d'autre, ni contre lesd[it]s Seigneurs
+                    Estats, <lb/>Generaux<note n="3" type="crit_app">Nachträglich eingefügt.</note>
+                    sous pretexte de dependances, annexes, ou autres <lb/>droits, quelques noms
+                    qu'ils puissent avoir. <lb/>
+                    <lb/>5. <lb/>Sa Majesté Tres-Chrestienne sera pareille- <lb/>ment obligée, apres
+                    l’eschange desdites Rati- <lb/>fications d'Espagne, de retirer entierement ses
+                    <lb/>Trouppes de dessus les Estats de la domination <lb/>du Roy Catholique, en
+                    quelque endroit, qu'ils <lb/>soient situez, comme aussy le Roy Catholique
+                    <lb/>ne commettra plus aucun acte d'hostilité, <lb/>et sera tenu d'observer de
+                    son costé, pour <lb/>le restablissement du repos et de la bonne
+                    <lb/>correspondance entre les Sujets desd[its] Seigneurs <lb/>
+                    <lb/>
+                </p>
+                <pb facs="#FacsPnr8"/>
+                <p>Roys Tres-Chrestien et Catholique, les <lb/>mesmes choses, auxquelles Sa Majesté
+                    Tres- <lb/>Chrestienne s'engage par la presente Convention. <lb/>
+                    <lb/>6. <lb/>Que si sur ce fondement que lesdits Seigneurs <lb/>Roys
+                    demeureront, pendant ladite Tréve, en <lb/>la possession, ou leurs Majestez
+                    Tres-Chrestienne <lb/>et Catholique estoient lors de la levée du Blocus <lb/>de
+                    Luxembourg ( à la reserve des places sus- <lb/>mentionnées, qui demeureront à Sa
+                    Majesteé <lb/>Tres-Chrestienne) il se trouvoit quelques lieux, <lb/>dont le
+                    temps de la possession, ou l’estendüe <lb/>fust contestée; la decision en sera
+                    remise au Roy <lb/>de la Grande Bretagne: à la charge neantmoins <lb/>que
+                    lesdits Seigneurs Roys ne seront plus receus <lb/>à former aucune plainte sur ce
+                    sujet, trois <lb/>mois apres l'eschange des Ratifications d' <lb/>Espagne de la
+                    presente Convention. <lb/>
+                    <lb/>7. <lb/>La levée des Contributions sera continuée<note n="4"
+                        type="crit_app">Nachträglich eingefügt.</note> de <lb/>part et d'autre pour
+                    tout ce qui restera à <lb/>echoeir jusques au jour de l’eschange des
+                    <lb/>Ratifications d'Espagne de la presente <lb/>Convention; Et les arrerages,
+                    qui resteront <lb/>
+                    <lb/>
+                </p>
+                <pb facs="#FacsPnr9"/>
+                <p>deus, lors du susdit eschange desdites Ratifi- <lb/>cations, seront payez dans
+                    l’espace de trois <lb/>Mois apres le terme susdit; Et aucune exe- <lb/>cution ne
+                    se pourra faire, pour raison de ce <lb/>pendant ledit temps, contre les
+                    Communautez <lb/>redevables, pourveu qu'elles ayent donné bonne <lb/>et valable
+                    caution, resseante dans une Ville <lb/>de la domination ou possession de celuy
+                    desdits <lb/>Seigneurs Roys, à qui lesdites Contributions <lb/>seront deües. Et
+                    en cas que quelques diffe- <lb/>rents vinssent à naistre, à l’egard desdites
+                    <lb/>contributions, on ne s'en pourra procurer <lb/>aucune satisfaction par voye
+                    de fait: mais <lb/>cette contestation sera terminée à l’amiable; <lb/>et si cela
+                    ne se peut, on s'en remettra à l’arbi- <lb/>trage du Roy de la Grande Bretagne. <lb/>
+                    <lb/>8. <lb/>Sa Majesté Tres-Chrestienne s'engage de <lb/>faire cesser dés à
+                    present tous actes d'hosti- <lb/>lité dans les Païs Bas contre les Villes
+                    <lb/>et Lieux, apartenant à la Couronne d'Espagne, <lb/>mesme dans le plat pais,
+                    si les Espagnols <lb/>s'en abstiennent: Et lesdits Seigneurs Estats
+                    <lb/>Generaux s'engagent de ne rien entreprendre <lb/>contre les Places,
+                    appartenant à Sa Majesté <lb/>Tres Chrestienne, ni contre ses Trouppes. <lb/>
+                    <pb facs="#FacsPnr10"/>Et si led[i]t Seigneur Roy Catholique n'accepte <lb/>pas
+                    la susdite Tréve aux conditions stipulées, <lb/>et que dans l’espace de six
+                    semaines, à compter <lb/>du jour de la signature de la presente Convention,
+                    <lb/>Sa Majesté Catholique n'en fournisse pas <lb/>un acte de Ratification en
+                    bonne et deüe <lb/>forme lesdits Seigneurs Estats Generaux <lb/>s'obligent en ce
+                    cas de retirer immediatement <lb/>apres led[i]t temps de six semaines, toutes
+                    <lb/>leurs Trouppes des Pais Bas Espagnols, <lb/>et de ne donner, tant que la
+                    presente guerre <lb/>durera aucune assistance à la Couronne <lb/>d'Espagne,
+                    directement ni indirectement, <lb/>et tant que les differents, qui existent pre-
+                    <lb/>sentement, ne seront pas terminez, et ils <lb/>s'engagent aussy de ne
+                    commettre aucun acte <lb/>d'hostilité contre les Trouppes, Païs et <lb/>Sujets
+                    de Sa Majesté, ni contre ses Alliez. <lb/>Et Sa Majesté Tres-Chrestienne
+                    s'oblige <lb/>reciproquement de n'attaquer, ni de s'emparer <lb/>d'aucune autre
+                    Place des Pais Bas, mesme <lb/>de n'y pouvoir faire la guerre dans le plat
+                    <lb/>Païs, si les Espagnols s'en abstiennent; <lb/>Sa Majesté se reservant la
+                    liberté de <lb/>porter ses armes dans les Estats du Roy <lb/>Catholique par tout
+                    ailleurs, que dans lesd[i]ts <lb/>
+                    <pb facs="#FacsPnr11"/>Païs Bas, jusques à ce que la Paix soit <lb/>restablie
+                    entre lesdits Seigneurs Roys Tres- <lb/>Chrestien et Catholique. <lb/>
+                    <lb/>10. <lb/>Et en cas que la guerre venant à se con- <lb/>tinüer entre
+                    lesd[it]s Seigneurs Roys Tres- <lb/>Chrestien et Catholique, Sa Majesté Tres-
+                    <lb/>Chrestienne fist des conquestes sur la Couronne <lb/>d'Espagne: Sadite
+                    Majesté promet, que quelque <lb/>succés, que ses armes puissent avoir ailleurs,
+                    <lb/>Elle n'acceptera point d'equivalent dans les <lb/>Païs Bas Espagnols des
+                    conquestes qu'Elle <lb/>fera pendant la presente guerre, et qu'Elle <lb/>ne
+                    s'emparera point non plus, pendant led[i]t temps, <lb/>d'aucune desd[it]es
+                    places desd[it]s Païs Bas, soit <lb/>par revolte, eschange, cession volontaire,
+                    ou <lb/>par quelque autre voye que ce soit. <lb/>
+                    <lb/>11. <lb/>Sa Majesté s'oblige pareillement de donner <lb/>encore un Mois à
+                    la Diette de Ratisbonne, <lb/>à compter du jour, que la presente Convention
+                    <lb/>sera signée, pour convenir d'une Tréve <lb/>avec la France; et Sadite
+                    Majesté <lb/>s'engage de ne pouvoir pendant ledit Mois <lb/>
+                    <pb facs="#FacsPnr12"/>augmenter les conditions, qu'Elle a fait <lb/>proposer et
+                    qu'Elle y a fait reiterer depuis <lb/>quelques Mois. <lb/>
+                    <lb/>12. <lb/>Sa Majesté Tres Chrestienne et les Estats <lb/>Generaux des
+                    Provinces Unies consentent, que <lb/>le Roy de la Grande Bretagne et genera-
+                    <lb/>lement tous les Princes, qui voudront <lb/>bien entrer dans un pareil
+                    engagement, <lb/>puissent donner à Sa Majesté Tres- <lb/>Chrestienne, et auxdits
+                    Seigneurs Estats <lb/>Generaux leurs promesses, et obligations <lb/>de Garantie
+                    de l’execution de ce qui est <lb/>contenu dans la presente Convention.
+                    <lb/>Comme aussy Sadite Majesté Tres-Chrestienne <lb/>et les Estats Generaux
+                    consentent que pareils <lb/>actes de Garantie soient donnez à Sa Majesté
+                    <lb/>Catholique, si Elle accepte ladite Treve. <lb/>
+                    <lb/>13. <lb/>On est convenu et il a esté declaré, qu'on <lb/>ne pretend rien
+                    innover aux Traittez, faits <lb/>a Nimegue entre led[i]t Seigneur Roy
+                    <lb/>Tres-Chrestien, et lesdits Seigneurs Estats <lb/>Generaux, et que lesdits
+                    Traittez demeureront <lb/>
+                    <pb facs="#FacsPnr13"/>dans leur entiere force et vigueur. <lb/>
+                    <lb/>14. <lb/>Le present Traitté sera ratifié et approuvé par <lb/>led[i]t
+                    Seigneur Roy, et par lesd[it]s Seigneurs <lb/>Estats Generaux, et les Lettres de
+                    Ratification <lb/>de l’un et de l'autre seront delivrées en bonne <lb/>et deüe
+                    forme dans trois semaines, ou plustost, <lb/>si faire se peut, à compter du jour
+                    de la signature. <lb/>En foy de quoy nous Ambassadeur susdit <lb/>de Sa Majesté,
+                    et Deputez susdits des Seigneurs <lb/>Estats Generaux, en vertu de nos Pouvoirs
+                    respe- <lb/>ctifs avons esdits noms signé ces presentes de <lb/>nos seings
+                    ordinaires, et à icelles fait appo- <lb/>ser les Cachets de nos Armes; Fait à la
+                    <lb/>Haye le vingt neufiesme de juin 1684. <lb/>
+                    <lb/>De Mesmes C. d'Avaux <lb/>
+                    <lb/>D. van Wyngaarden <lb/>J. Hop <lb/>De Weede <lb/>G. de Burmania <lb/>Gisb.
+                    Cuper <lb/>A. Gerlacius <lb/>
+                </p>
+            </div>
+        </body>
+        <back>
+            <listBibl>
+                <bibl xml:id="a67">
+                    <title level="a">Theatrum Europaeum (1684-06-29)</title>
+                    <title level="m">Theatrum Europaeum, Band 12 (1679-1686) Aus: Dokumentenarchiv
+                        der Universitätsbibliothek Augsburg (Drucke vor 1900 / Historische
+                        Geschichtswerke).</title>
+                    <biblScope>
+                        <graphic xml:id="A1Pnr1"
+                            url="https://www.ieg-friedensvertraege.de/dbimages/img_49e6e6cf152c6"/>
+                        <graphic xml:id="A1Pnr2"
+                            url="https://www.ieg-friedensvertraege.de/dbimages/img_49e6e6d451b66"/>
+                    </biblScope>
+                </bibl>
+            </listBibl>
+        </back>
+    </text>
+</tei:TEI>

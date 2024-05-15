@@ -1,0 +1,500 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE tei SYSTEM "../resources/FriVer_DTD.dtd">
+
+<?xml-model href="../resources/FriVer.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns="http://www.tei-c.org/ns/1.0" xml:id="pa000299-1329">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title level="s">European peace treaties of the pre-modern era in data / Europäische Friedensverträge der Vormoderne in Daten (FriVer+)</title>
+                <title when="1701-06-04" xml:id="t1329" when-custom="1701 VI 4" level="a" ref="https://www.ieg-friedensvertraege.de/treaty/t-1329-1-de.html">Defensivallianz von Laxenburg</title>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    Digital edition according to
+                    <ref target="http://www.tei-c.org/">TEI P5</ref>
+                </edition>
+                <funder>
+                    <ref target="https://www.text-plus.org/">TEXT+</ref>
+                </funder>
+                <editor role="http://id.loc.gov/vocabulary/relators/edt" ref="https://orcid.org/0000-0002-8741-5916">
+                    <persName>Jaap Geraerts</persName>
+                    <note>The transformation and enrichment of the data is done by Jaap Geraerts (IEG Mainz). The other members of the FriVer+ team are Fabian Cremer, Ines Grund, and Thorsten Wübbena (all IEG Mainz).</note>
+                    <note>
+                        The original data has been created by the
+                        <ref target="https://www.ieg-friedensvertraege.de">team of scholars</ref>
+                        who were part of the Europäische Friedensverträge der Vormoderne project. This project was lead by Prof. Dr. Heinz Duchhardt and was based at the Leibniz Institute of European History in Mainz.
+                    </note>
+                </editor>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>
+                    <orgName ref="http://www.isni.org/0000000119314040">Leibniz-Institut für Europäische Geschichte Mainz</orgName>
+                </publisher>
+                <distributor>
+                    <orgName ref="http://www.isni.org/0000000110101946">Universitäts- und Landesbibliothek Darmstadt</orgName>
+                </distributor>
+                <idno type="ISIL">http://lobid.org/organisation/DE-17</idno>
+                <date type="issued" when="2023-12-23"/>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">
+                        <p xml:lang="en">This file is licensed under the terms of the Creative Commons License CC-BY 4.0 (Attribution 4.0 International)</p>
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <repository xml:id="r13">Kopenhagen RA</repository>
+                <msDesc><p>Dänisches Reichsarchiv, Kopenhagen: Kongehusets og Rigets arkiv, Forholdet til udlandet (Traktater), E 2 Tyskland: Kejseren nr. 3.</p></msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>
+                    The data in this XML file, originally created by the project
+                    <ref target="https://www.ieg-friedensvertraege.de/vertraege">Europäische Friedensverträge der Vormoderne online</ref>
+                    has been transformed in accordance with
+                    <ref target="http://www.tei-c.org/">TEI P5</ref>
+                    as part of the project
+                    <ref target="https://www.ieg-mainz.de/en/research/research-projects/european-peace-treaties-of-the-pre-modern-era-in-data">Europäische Friedensverträge der Vormoderne in Daten (FriVer+)</ref>
+                </p>
+            </projectDesc>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="de" xml:id="lan2">deutsch</language>
+            </langUsage>
+        </profileDesc>
+    </teiHeader>
+    <standOff>
+        <listPerson>
+            <person role="signatory" xml:id="p32">
+                <persName ref="https://explore.gnd.network/gnd/4010877-6">
+                    <name>Dänemark</name>
+                </persName>
+            </person>
+            <person role="signatory" xml:id="p94">
+                <persName ref="https://www.wikidata.org/wiki/Q12548">
+                    <name>Reich</name>
+                </persName>
+            </person>
+        </listPerson>
+        <listPlace>
+            <place xml:id="loc230">
+                <placeName ref="https://explore.gnd.network/gnd/4034801-5">Laxenburg</placeName>
+            </place>
+        </listPlace>
+        <facsimile>
+            <surface xml:id="FacsPnr1">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_4610da7ae664b"/>
+            </surface>
+            <surface xml:id="FacsPnr2">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_4610daa632a08"/>
+            </surface>
+            <surface xml:id="FacsPnr3">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_4610dad4328b1"/>
+            </surface>
+            <surface xml:id="FacsPnr4">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_4610daf5346fb"/>
+            </surface>
+            <surface xml:id="FacsPnr5">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_4610db16bb241"/>
+            </surface>
+            <surface xml:id="FacsPnr6">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_4610db39af5bc"/>
+            </surface>
+            <surface xml:id="FacsPnr7">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_4610db608b27a"/>
+            </surface>
+            <surface xml:id="FacsPnr8">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_4610db83b2274"/>
+            </surface>
+            <surface xml:id="FacsPnr9">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_4610dba8d05bf"/>
+            </surface>
+            <surface xml:id="FacsPnr10">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_4610dcece34c5"/>
+            </surface>
+            <surface xml:id="FacsPnr11">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_4610dd0ea99e7"/>
+            </surface>
+            <surface xml:id="FacsPnr12">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_4610dd3476c4f"/>
+            </surface>
+            <surface xml:id="FacsPnr13">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_4610dd55cf932"/>
+            </surface>
+            <surface xml:id="FacsPnr14">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_4610dd7986446"/>
+            </surface>
+            <surface xml:id="FacsPnr15">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_4610dd968730b"/>
+            </surface>
+        </facsimile>
+    </standOff>
+    <text>
+        <front>
+            <div type="Inhalt"><p>1. Die beiden Partner versprechen einander, ihre alte Freundschaft zu erneuern und einander gute Bundesgenossen zu sein.
+                <lb />
+                <lb />2. Die beiden Partner wollen ihre auswärtigen Gesandten anweisen, einander vertraulich zu informieren und ihre Maßnahmen bei der Abwehr von Unheil abzustimmen.
+                <lb />
+                <lb />3. Die beiden Partner wollen weitere Vertragspartner für die gegenseitige Garantie ihrer Herrschaften gewinnen, v.a. Großbritannien, die Generalstaaten, Preußen und Polen.
+                <lb />
+                <lb />4. Wird einer der Partner angegriffen oder bedroht, oder auch sonst ein Krieg im Reich entfacht, wollen sich die Partner beistehen.
+                <lb />
+                <lb />5. Bei einem Angriff auf Dänemark steht der Kaiser mit 8000 Mann Hilfstruppen bei, notfalls auch mit doppelt so vielen Soldaten; bei einem Angriff auf den Kaiser steht Dänemark mit 6000 Mann Hilfstruppen bei.
+                <lb />
+                <lb />6. Vor der Leistung militärischer Hilfe hat jeder Partner drei Monate Gelegenheit, seinen Einfluß auf den Aggressoren auszuüben, um diesen von seiner Angriffsabsicht auf den Vertragspartner abzubringen.
+                <lb />
+                <lb />7. Über Kommmando und Verpflegung der Hilfstruppen ist eine eigene Konvention abgeschlossen worden. Künftig soll der hilfeleistende Partner seine Hilfstruppen selbst verpflegen und ausstatten; der hilfesuchende Partner stellt nur Brot, Pferdefutter und Quartiere zur Verfügung. Kommando und Militärgerichtsbarkeit über die Hilfstruppen sowie ihre Religionsausübung verbleiben dem Hilfeleistenden, jedoch in Absprache mit Befehlshaber und Kriegsrat des Hilfesuchenden.
+                <lb />
+                <lb />8. Nach dem Ausbruch der Feindseligkeiten soll kein Partner separat mit dem Feind über Waffenstillstand oder Frieden verhandeln, sondern nur gemeinsam mit dem andern.
+                <lb />
+                <lb />9. Der Kaiser will sich bemühen, die Streitigkeiten mit den Reichsfürsten um die 9. Kurwürde für das Kurfürstentum Hannover beizulegen; Dänemark will seinen Einfluß für eine Beilegung ausüben und sich eventuell mit der Errichtung der 9. Kurwürde abfinden.
+                <lb />
+                <lb />10. Beide Partner führen gemeinsame Beratungen auf Reichs- und Kreistagen.
+                <lb />
+                <lb />11. Das Bündnis hat eine Dauer von zehn Jahren; ein Jahr vor seinem Ablauf wollen die beiden Partner Verhandlungen über eine Verlängerung aufnehmen.
+                <lb />
+                <lb />12. Die Ratifikationen sollen binnen sechs Wochen ausgetauscht werden.
+                <lb />
+                <lb /></p></div>
+        </front>
+        <body>
+            <div type="Transliteration">
+                <pb facs="#FacsPnr1"/><p>In Nahmen der Allerheiligsten Dreyeinigkeit.
+                <lb />Alß die Röm[ische] Kaÿ[serliche] wie auch zu Hungarn und
+                <lb />Böheimb König[liche] Maÿ[estät] durch dero Raht und
+                <lb />jetzigen Residenten am König[lich] dahn[ischen] hoffe
+                <lb />daselbst Vor einigen Monathen contestire[n]
+                <lb />lasßen, welchergestalt Sie geneigt mit
+                <lb />Ihrer König[lichen] Maÿ[estät] Zu Dennemarck, Nor-
+                <lb />wegen die bald nach anfang Ihrer König[lichen]
+                <lb />Regierung allhier Veranlaste Tractaten Zu
+                <lb />einer näheren Zusambensetzung zu reaßu-
+                <lb />miren, und Zum gedeÿhlichen stand zu bring[en]
+                <lb />und dan ihre König[liche] Maÿ[estät] zu bezeigung
+                <lb />Ihres sinceren Verlangens dieses heilsambe
+                <lb />werck nach aller möglichkeit zu beförd[ern]
+                <lb />für gut befunden, darauff den wohlge-
+                <lb />bohrnen dero geheimben Estats- und
+                <lb />Justitz Rath Her[r]n Thomas Balthassar von
+                <lb />Jessen auff Neüenhoff etc. Rittern, alß dero
+                <lb />plenipotentiarium anhero extra ordi-
+                <lb />nem abzufertigen; So ist auff Verschiede-
+                <lb />ne desfalß Zwischen Ihrer Kaÿ[serlichen] Maÿ[estät]
+                <lb />dazu Committirten denen hoch- und wohl-
+                <lb />gebohrnen Kaÿ[serlichen] geheimben Rähten, Cam-
+                <lb />merern, respe[ctiv]è Reichshoffraths-præsiden-
+                <lb />ten, und ReichsviceCantzlern Wolffgang
+                <lb />graff[en] Von Öttingen, und Dominico An-
+                <lb />dreæ graffen Von Kaunitz, Erbherrn auff
+                <lb />Austerlitz, Hungar[isch] Brod, Marisch Prust,
+                <lb />und Groß Orzechaw, Rittern des gulden[en]
+                <lb />flüsßes, und König[lich] dennemarck[ischen]
+                <lb />plenipotentiario gepflogene Confe-
+                <lb />rentzien, Krafft der Von Beeden seithe[n]
+                <lb />dazu erhaltenen und gegen einander
+                <lb />außgewechßelten Vollmachten, davon 
+                <pb facs="#FacsPnr2"/>die abschrifften hiebeÿ Zu end annectirt
+                <lb />seÿnd, folgender Tractat hinc inde Ver-
+                <lb />abredet, und biß auff Kaÿ[serliche] und König[liche]
+                <lb />allergnädigste ratification geschlosßen
+                <lb />und underschrieben worden:
+                <lb />
+                <lb />1.
+                <lb />Versprechen Ihre Röm[ische] Kaÿ[serliche] Maÿ[estät]
+                <lb />und Ihre König[liche] Maÿ[estät] zu dennemarck
+                <lb />Norwegen, daß Wie Sie durch gegen-
+                <lb />wertigen Allianz-Tractat die zwischen
+                <lb />Ihren beederseits glorwürdigsten Vor-
+                <lb />fahren von langen Zeiten her under-
+                <lb />haltene genawe freündtschafft und Ver-
+                <lb />ständnus Zu erneueren, entschlosßen; also
+                <lb />hinführo einander alß rechtschaffene
+                <lb />Bundts-Verwandte und freündte getrew
+                <lb />und brüderlich meinen, Einer des
+                <lb />andern bestes und auffnehmen alß
+                <lb />sein eigenes, so Viel immer thuenlich,
+                <lb />beförderen, und waß hingegen Zu
+                <lb />desßen nachtheil gereichen kan, nach
+                <lb />eüsßersten kräfften abwenden helff[e]n
+                <lb />sollen und wollen.
+                <lb />
+                <lb />2.
+                <lb />Zu welchem ende dan beede höchste
+                <lb />Theile stets eine Vertrauliche Cor-
+                <lb />respondenz underhalten und beÿ 
+                <pb facs="#FacsPnr3"/>auffkommenden gefährlichen laüfften
+                <lb />waß Zu Ihrer und des gemeinen wee-
+                <lb />sens besten erförderlich seÿn mögte,
+                <lb />fleisig mit einander überlegen und
+                <lb />concertiren, auch darunder gleich-
+                <lb />samb für einen Mann stehen, nicht we-
+                <lb />niger Ihre an frembden ohrten be-
+                <lb />findtliche Ministros Zu einem gleichen
+                <lb />soforth nach ratification dießes
+                <lb />Tractats, gemesßen anweißen wol-
+                <lb />len.
+                <lb />
+                <lb />3.
+                <lb />Wie gleichwohl Ihre intention
+                <lb />dahin nicht gehet, durch gegenwär-
+                <lb />tige genawe Vereinigung jemand ei-
+                <lb />nig præjudiz zuzufügen, noch zu einiger
+                <lb />billigen offension anlass zu geben,
+                <lb />sondern der Zweck bloß darauff ge-
+                <lb />richtet ist, wie, mit und nebst Ver-
+                <lb />sicher- und beÿbehaltung Ihrer bee-
+                <lb />derseits respectivè Reiche, fürsten-
+                <lb />thümber, Landen, auch hoheiten, præ-
+                <lb />rogativen, Regalien, und Gerech-
+                <lb />tigkeiten, die allgemeine ruhe in
+                <lb />der Christenheit, und in sonderheit
+                <lb />in dem Röm[ischen] Reiche negst Gott con-
+                <lb />serviret, und je länger je mehr befe-
+                <lb />stiget werden möge: Also wollen Sie
+                <lb />conjunctim dahin angewandt seÿn,
+                <lb />mehrere potenzien, und in sonder-
+                <lb />heit Ihr[e] König[liche] Maÿ[estät] Von Groß- 
+                <pb facs="#FacsPnr4"/>Britannien und die G[ene]ral-Staaten
+                <lb />der Vereinigten Niederlanden, wie
+                <lb />auch die könige Zu Pohlen und Preü-
+                <lb />ßen, sambt beeder höchster Theile
+                <lb />im Reich habenden Allijrten mit
+                <lb />in dieße confœderation Zu Ziehen,
+                <lb />auch im fall Sie mit Zu einem so heil-
+                <lb />samben absehen concurriren werden,
+                <lb />selbige und ihre Lande in der mu-
+                <lb />tuellen guarantie mitbegrieffen
+                <lb />haben.
+                <lb />
+                <lb />4.
+                <lb />Da sich nun Zu trüge, daß jemand, wer
+                <lb />der auch seÿn, und unter waß prætext
+                <lb />solches geschehen, oder waß für ursache[n]
+                <lb />deßfalß Vorgeschützet werden mögten,
+                <lb />sich unternehmen solte, Ihre Röm[ische]
+                <lb />Kaÿ[serliche] Maÿ[estät] oder Ihre König[liche] Maÿ[estät]
+                <lb />Zu dennemarck Norwegen etc. feindtlich
+                <lb />anzugreiffen, dero Reiche und Lande
+                <lb />Zu infestiren, oder auch selbigen in
+                <lb />Ihren hoheiten, prærogativen, re-
+                <lb />galien, recht und gerechtigkeiten
+                <lb />eintrag Zu thuen und Zu turbiren,
+                <lb />oder auch ein kriegs-fewer im Röm[ischen]
+                <lb />Reich anzuzünden, tali casu wollen
+                <lb />Ihre Röm[ische] Kaÿ[serliche] Maÿ [estät] und Ihre
+                <lb />König[liche] Maÿ[estät] sich einander getrew-
+                <lb />lich und auffrichtig die hand biethen,
+                <lb />damit auff jenem fall, die gefahr, in-
+                <lb />vasion oder turbation kräfftigst ab-
+                <lb />
+                </p>
+                <pb facs="#FacsPnr5"/><p> gewendet, auff den andern aber der 
+                    <lb />allgemeine ruhestand im Reich for- 
+                    <lb />derlichst wiederhergestellet werd[en] 
+                    <lb />möge, gestalten dan 
+                    <lb /> 
+                    <lb />5. 
+                    <lb />Zu solchem behueff Verglichen word[en], 
+                    <lb />daß im fall Ihre König[liche] Maÿ[estät] Von 
+                    <lb />dennemarck nach dießem auff jetz- 
+                    <lb />gemelte arth und weiße feindtlich 
+                    <lb />solten angegrieffen und turbirt wer- 
+                    <lb />den, alßdan Ihre Kaÿ[serliche] Maÿ[estät] dero- 
+                    <lb />selben mit Acht taußent Mann 
+                    <lb />und zwarn mit Zweÿ drittel Zu fueß 
+                    <lb />und einem drittel Reütereÿ und dra- 
+                    <lb />goner, alle in<note n="1" type="crit_app">in: über der Zeile nachgetragen.</note> wohlgeübter Mannschafft 
+                    <lb />bestehend, sambt Zugehöriger feldt 
+                    <lb />Artiglerie Zu Hülff kommen, auch 
+                    <lb />da es die noth erforderte, solche hülff 
+                    <lb />Verdoppelen, und darmit so lang con- 
+                    <lb />tinuiren wollen, biß nicht allein die 
+                    <lb />gefahr, invasion oder turbation ab- 
+                    <lb />gestellet, sondern auch Ihre König[liche] 
+                    <lb />Maÿ[estät] Von dem invadenten und turba- 
+                    <lb />torn des erlittenen schadens und præ- 
+                    <lb />judiz halber, gebührende satisfaction 
+                    <lb />wird gegeben seÿn. Hingegen aber 
+                    <lb />und da Ihre Kaÿ[serliche] Maÿ[estät] auff gleiche 
+                    <lb />arth oder weiße Von jemand, wer der 
+                    <lb />auch seÿe, feindtlich solten angegriff[en]
+                </p>
+                <lb />
+                <lb />
+                <p>&nbsp;
+                </p>
+                <pb facs="#FacsPnr6"/><p>oder in Ihren hoheiten, und Gerech-
+                <lb />tigkeiten turbirt werden, solchenfals
+                <lb />Ihre König[liche] Maÿ[estät] Zu dennemarck
+                <lb />deroßelben mit Sechß taussent Mann
+                <lb />wohlgeübter Mannschafft, da Von gleich-
+                <lb />falß ein drittel in Reütern und dra-
+                <lb />gonern, und Zwey drittel in fueß-
+                <lb />Völckern bestehen wird, wie auch
+                <lb />mit Zugehöriger feldt Artiglerie
+                <lb />Zu hülff kommen, und darmit so
+                <lb />lang continuiren wollen, biß nicht
+                <lb />allein die gefahr, invasion oder tur-
+                <lb />bation abgestellet, sondern auch Ihrer
+                <lb />Kaÿ[serlichen] Maÿ[estät] Von dem invadenten und
+                <lb />turbatorn des erlittenen schadens und
+                <lb />præjudiz halber gebührende satis-
+                <lb />faction gegeben seÿn wird.
+                <lb />
+                <lb />6.
+                <lb />Jedoch bleibt Jedem Theile bevor, seine
+                <lb />officia beÿ dem lædenten, invadente[n],
+                <lb />oder turbatorn in Zeit Von dreÿ Mo-
+                <lb />nathen einzuwenden, umb Ihn oder sel-
+                <lb />bige Von Ihrem feindtlichen Vorhaben
+                <lb />invasion oder turbation ab- und Zu
+                <lb />leistung billigmeßiger satisfaction
+                <lb />Zu bewegen: Inzwischen soll nichtes de-
+                <lb />sto weniger die hülff parat gehalten,
+                <lb />auch da es die gefahr erforderte, also forth
+                <lb />
+                <pb facs="#FacsPnr7"/>auff erfolgte requisition gestellet,
+                <lb />und in der gleichen fällen zu schuldiger
+                <lb />leistung der hülffe gnug seÿn, daß ein
+                <lb />theil würcklich angefallen, oder in
+                <lb />seinen gerechtigkeiten turbiret,
+                <lb />oder auch Ihme seine wohlhergebrachte
+                <lb />Jura gewalthätiger weiße disputir-
+                <lb />lich gemachet worden.
+                <lb />
+                <lb />7.
+                <lb />Waß das Commando, die verpfleg-
+                <lb />remontirung der hülffs-Völcker, und
+                <lb />alles übrige, so dahin gehöret, anlangt,
+                <lb />so ist, in ansehung gegenwärtiger Con-
+                <lb />juncturen, deßhalben eine eigene
+                <lb />Convention auch heüt errichtet wor-
+                <lb />den, so mit diesem Tractat Von glei-
+                <lb />cher gültigkeit seÿn soll, hinführo
+                <lb />aber und beÿ andern auffkommend[en]
+                <lb />fällen soll es damit, wie sonsten beÿ
+                <lb />defensiv-Bündnussen es jederzeit
+                <lb />herkommens geweßen, gehalten wer-
+                <lb />den, dergestalt, daß die Verpfleg- und
+                <lb />remontirung Von dem hülffleistenden
+                <lb />abgehalten werde, und der requirent
+                <lb />denen hülffs-trouppen weiter nichts
+                <lb />alß brodt, fourage und standtquar-
+                <lb />tier Zu verschaffen schuldig und gehalten
+                <lb />seÿe. Daß auch im übrigen das Com-
+                <lb />mando und die Administration der
+                <lb />
+                <pb facs="#FacsPnr8"/>Justiz, sambt dem freÿen Exercitio
+                <lb />Religionis, dem hülffleistenden Zwar
+                <lb />Verbleiben, der Commandirende Gene-
+                <lb />ral jedoch sich nach gutfinden des re-
+                <lb />quirenten, und seines Kriegs-Con-
+                <lb />silij, wozu er mit Zu admittiren,
+                <lb />richten, die Justiz nach des hülfflei-
+                <lb />stenden Kriegs-Articuln ohne anseh-
+                <lb />ung der Persohn, wohl administriren
+                <lb />und in übung des freÿen Exercitij Reli-
+                <lb />gionis alle mögliche bescheidenheit
+                <lb />gebrauchen und Zu Keinen Scandal
+                <lb />oder ärgernus anlaß geben, oder, daß
+                <lb />es Von der Soldatesque geschehe, gestatte[n]
+                <lb />solle.
+                <lb />
+                <lb />8.
+                <lb />Ferner ist Verglichen und hinc inde
+                <lb />heiliglich Versprochen, daß, wan es
+                <lb />solcher gestalt mit jemand, wer der auch
+                <lb />seÿe, Zu würcklichen hostilitäten
+                <lb />gekommen, kein theil ohne des
+                <lb />andern consens mit dem gegentheil
+                <lb />sich in friedens- stillstandts- oder ande[rn]
+                <lb />Tractaten einzulasßen, befuegt seÿn
+                <lb />solle, sondern dass Sie conjunctim
+                <lb />mit selbigem tractiren und eine ge-
+                <lb />meinsambe satisfaction und sicher-
+                <lb />heit einer dem andern beschaffen helf[fen]
+                <lb />wollen.
+                <lb />
+                <pb facs="#FacsPnr9"/>9.
+                <lb />Weilen beede höchste Theile bißhero
+                <lb />Zu ihrem sonderbahren leidweßen
+                <lb />wahrgenohmen, wie daß über die Neün-
+                <lb />te Chur-Sache Viele irrungen, col-
+                <lb />lisionen und spaltungen im Reich ent-
+                <lb />standen; So wollen Ihre Röm[ische] Kaÿ[serliche]
+                <lb />Maÿ[estät] Krafft Ihres Kaÿ[serlichen] ambts
+                <lb />auff alle immer Zureichende mittel
+                <lb />und weege bedacht seÿn, wie dieße
+                <lb />sache in der güte dermahlen möge ter-
+                <lb />miniret, und den fürsten des Reichs
+                <lb />alle billige ursach, sich weiter deßfalß
+                <lb />Zu beschweren, und einig præjudiz
+                <lb />in dero fürst[lichen] Juribus und præ-
+                <lb />rogativen daher Zu besorgen, be-
+                <lb />nohmen werden: Ihr[e] König[liche] Maÿ[estät]
+                <lb />aber wollen nicht allein dahin alle er-
+                <lb />sinn[liche] nachdruckliche officia mit an-
+                <lb />wenden, sondern auch in der hoffnung,
+                <lb />daß dießer Zweck Zu allerseiths
+                <lb />interessenten Vergnügen erfolgen
+                <lb />werde, sich die beschehene Erigirung
+                <lb />des Neünten Electorats eventua-
+                <lb />liter mit gefallen lasßen.
+                <lb />
+                <lb />10.
+                <lb />So ist auch gut gefunden und Ver-
+                <lb />glichen, daß Zu mehrer beförderung
+                <lb />des durch dießen Tractat abgeziehlte[n]
+                <lb />Zwecks, nemblich, nebst der Contra-
+                <lb />
+                <pb facs="#FacsPnr10"/>henten particulier sicherheit, auch
+                <lb />dem allgemeinen ruhestand in sonder-
+                <lb />heit im Röm[ischen] Reich, nach möglichkeit
+                <lb />zu prospiciren; beede höchste theile
+                <lb />dahin auff Reichs- und Craiß-tägen
+                <lb />gemeinsambe Consilia führen, auch
+                <lb />solches ihren Ministris specialiter
+                <lb />anbefehlen wollen.
+                <lb />
+                <lb />11.
+                <lb />Dieße Allianz-Tractaten sollen
+                <lb />Vor erst Zehen Jahre, à dato rati-
+                <lb />ficationis, wehren, und ein Jahr Vor
+                <lb />ablauff solcher Jahr-Scharen Von bee-
+                <lb />den theilen, oder Ihren Successoren
+                <lb />an der Regierung, gewisße Commis-
+                <lb />sarij und Räthe Zusamben geschicket
+                <lb />werden, umb über deren prolonga-
+                <lb />tion zu handeln, und solche alßdan
+                <lb />nach damahliger Zeiten beschaffenheit
+                <lb />einzurichten.
+                <lb />
+                <lb />12.
+                <lb />Die Ratificationes hierüber sollen
+                <lb />innerhalb Sechß wochen eingebracht,
+                <lb />und am Kaÿ[serlichen] hoffe gegen einand[er]
+                <lb />außgewechßelt werden.
+                <lb />
+                <lb />Zu Urkundt desßen seÿnd dieses
+                <lb />Instrumenti Zweÿ gleichlauten-
+                <lb />de Exemplaria auffgerichtet und
+                <lb />
+                <pb facs="#FacsPnr11"/>Von Beeden obernennten Kaÿ[serlichen] und
+                <lb />König[lichen] Plenipotentiarijs underschrieb[en]
+                <lb />und Versiegelt worden; so geschehen
+                <lb />Zu Laxenburg den Vierten Junij Anno
+                <lb />Siebenzehen hundert und Eins.
+                <lb />
+                <lb />Wolff. GrzÖtting p[ro]pr[ia]&nbsp;&nbsp;&nbsp;&nbsp; DANGV Kaunitz&nbsp;&nbsp;&nbsp;&nbsp; T.B. von Jessen
+                <lb />
+                <lb />[3 aufgedrückte Wachssiegel über Heftschnur]
+                <lb />
+                </p>
+            </div>
+        </body>
+    </text>
+</tei:TEI>

@@ -1,0 +1,444 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE tei SYSTEM "../resources/FriVer_DTD.dtd">
+
+<?xml-model href="../resources/FriVer.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns="http://www.tei-c.org/ns/1.0"
+    xml:id="pa000299-0167">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title level="s">European peace treaties of the pre-modern era in data / Europäische
+                    Friedensverträge der Vormoderne in Daten (FriVer+)</title>
+                <title when="1703-05-05" xml:id="t167" when-custom="1703 V 5" level="a"
+                    ref="https://www.ieg-friedensvertraege.de/treaty/t-167-1-de.html">Allianzvertrag
+                    von Den Haag</title>
+            </titleStmt>
+            <editionStmt>
+                <edition> Digital edition according to <ref target="http://www.tei-c.org/">TEI
+                        P5</ref>
+                </edition>
+                <funder>
+                    <ref target="https://www.text-plus.org/">TEXT+</ref>
+                </funder>
+                <editor role="http://id.loc.gov/vocabulary/relators/edt"
+                    ref="https://orcid.org/0000-0002-8741-5916">
+                    <persName>Jaap Geraerts</persName>
+                    <note>The transformation and enrichment of the data is done by Jaap Geraerts
+                        (IEG Mainz). The other members of the FriVer+ team are Fabian Cremer, Ines
+                        Grund, and Thorsten Wübbena (all IEG Mainz).</note>
+                    <note> The original data has been created by the <ref
+                            target="https://www.ieg-friedensvertraege.de">team of scholars</ref> who
+                        were part of the Europäische Friedensverträge der Vormoderne project. This
+                        project was lead by Prof. Dr. Heinz Duchhardt and was based at the Leibniz
+                        Institute of European History in Mainz. </note>
+                </editor>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>
+                    <orgName ref="http://www.isni.org/0000000119314040">Leibniz-Institut für
+                        Europäische Geschichte Mainz</orgName>
+                </publisher>
+                <distributor>
+                    <orgName ref="http://www.isni.org/0000000110101946">Universitäts- und
+                        Landesbibliothek Darmstadt</orgName>
+                </distributor>
+                <idno type="ISIL">http://lobid.org/organisation/DE-17</idno>
+                <date type="issued" when="2023-12-23"/>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">
+                        <p xml:lang="en">This file is licensed under the terms of the Creative
+                            Commons License CC-BY 4.0 (Attribution 4.0 International)</p>
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <repository xml:id="r21">Muenster StA/LA <note>Archivportal NRW, Findbuch:<lb/>
+                        <ref
+                            target="http://www.archive.nrw.de/LAV_NRW/jsp/findbuch.jsp?archivNr=1&amp;verzguid=Vz_82e532b3-0920-491a-b650-216d256821b3"
+                            >http://www.archive.nrw.de/LAV_NRW/jsp/findbuch.jsp?archivNr=1&amp;verzguid=Vz_82e532b3-0920-491a-b650-216d256821b3</ref></note>
+                </repository>
+                <msDesc>
+                    <p>Nordrhein-Westfälisches Staatsarchiv Münster, Fürstentum Münster 12, Nr. 50a
+                        (KU 165): Erklärung der Generalstaaten zur Aufnahme Münsters in die
+                        Allianz&nbsp; zwischen dem Kaiser, Großbritannien, den Generalsaaten und
+                        einzelnen Reichsständen ["Große Haager Allianz], Haag 1703 V 5 (mit Insert
+                        des Vertrages Haag 1701 IX 7). </p>
+                    <p>Weitere Stücke: ebd. Nr. 50 b: Aufnahmeerklärung Großbritanniens 1703 IV
+                        27.</p>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p> The data in this XML file, originally created by the project <ref
+                        target="https://www.ieg-friedensvertraege.de/vertraege">Europäische
+                        Friedensverträge der Vormoderne online</ref> has been transformed in
+                    accordance with <ref target="http://www.tei-c.org/">TEI P5</ref> as part of the
+                    project <ref
+                        target="https://www.ieg-mainz.de/en/research/research-projects/european-peace-treaties-of-the-pre-modern-era-in-data"
+                        >Europäische Friedensverträge der Vormoderne in Daten (FriVer+)</ref>
+                </p>
+            </projectDesc>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="la" xml:id="lan6">Latein</language>
+            </langUsage>
+        </profileDesc>
+    </teiHeader>
+    <standOff>
+        <listPerson>
+            <person role="signatory" xml:id="p49">
+                <persName ref="https://explore.gnd.network/gnd/4101204-5">
+                    <name>Generalstaaten</name>
+                </persName>
+            </person>
+            <person role="signatory" xml:id="p42">
+                <persName ref="https://explore.gnd.network/gnd/4022153-2">
+                    <name>Großbritannien</name>
+                </persName>
+            </person>
+            <person role="signatory" xml:id="pp0001">
+                <persName ref="https://explore.gnd.network/gnd/118571869">
+                    <name>Leopold I, Holy Roman Emperor</name>
+                </persName>
+            </person>
+            <person role="signatory" xml:id="p78">
+                <persName ref="https://explore.gnd.network/gnd/4040608-8">
+                    <name>Münster</name>
+                </persName>
+            </person>
+        </listPerson>
+        <listPlace>
+            <place xml:id="loc13">
+                <placeName ref="https://explore.gnd.network/gnd/4011446-6">Den Haag</placeName>
+            </place>
+        </listPlace>
+        <facsimile>
+            <surface xml:id="FacsPnr1">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_43cd940d2d12a"/>
+            </surface>
+            <surface xml:id="FacsPnr2">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_43cd945a055b1"/>
+            </surface>
+            <surface xml:id="FacsPnr3">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_43cd94813a198"/>
+            </surface>
+            <surface xml:id="FacsPnr4">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_43cd94bbc2992"/>
+            </surface>
+            <surface xml:id="FacsPnr5">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_43cd94de70beb"/>
+            </surface>
+            <surface xml:id="FacsPnr6">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_43cd95ac34dcc"/>
+            </surface>
+            <surface xml:id="FacsPnr7">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_43cd95cbd1a5a"/>
+            </surface>
+            <surface xml:id="FacsPnr8">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_43cd96006ec56"/>
+            </surface>
+            <surface xml:id="FacsPnr9">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_43cd962d504c1"/>
+            </surface>
+            <surface xml:id="FacsPnr10">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_43cd966227078"/>
+            </surface>
+            <surface xml:id="FacsPnr11">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_43cd968a5004e"/>
+            </surface>
+            <surface xml:id="FacsPnr12">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_43cd96af9918f"/>
+            </surface>
+            <surface xml:id="FacsPnr13">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_43cd96dcd00f4"/>
+            </surface>
+            <surface xml:id="FacsPnr14">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_43cd96f7f0800"/>
+            </surface>
+            <surface xml:id="FacsPnr15">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_43cd97406d647"/>
+            </surface>
+        </facsimile>
+    </standOff>
+    <text>
+        <front>
+            <div type="Inhalt">
+                <p>Große Allianz. Anlaß. Friedensziel. </p>
+                <p>[Insert Vertragstext Große Allianz, Haag, 1701 IX 7] </p>
+                <p>Beitrittserklärung, -akzeption.&nbsp; </p>
+                <p>
+                    <lb/>
+                </p>
+            </div>
+        </front>
+        <body>
+            <div type="Transliteration">
+                <pb facs="#FacsPnr1"/>
+                <pb facs="#FacsPnr2"/>
+                <p>Ordines Generales <lb/>Unitarum Belgii Provinciarum, <lb/>Omnibus et singulis
+                    quorum interest aut quomodo <lb/>libet interesse poterit. Notum testatumque
+                    facimus, <lb/>Quandoquidem Sacra Sua Cæsarea Majestas, <lb/>Sacra Sua Regia
+                    Majestas Magnæ Brittan- <lb/>niæ Guilielmus Tertius, nunc fato functus et
+                    <lb/>gloriosissimæ memoriæ, ut et Nos, hac periculosis- <lb/>simâ rerum
+                    constitutione nata ex fatali postremo <lb/>defuncti et gloriosissimæ memoriæ
+                    Hispaniarum <lb/>Regis decessu ad prevenienda et avertenda mala, quæ <lb/>toti
+                    Europæ ruinam et interitum minantur, et ad <lb/>procurandam cum incolumitate
+                    publica, pacem bonam, <lb/>firmam et constantem nihil magis necessarium esse
+                    <lb/>existimaverimus, quam ut hunc in finem Nos, <lb/>quantum fieri posset,
+                    arctissimo foedere jungeremus, <lb/>atque propterea inter Altissimè memoratas
+                    Sacras <lb/>Suas Cæsaream et Regiam Majestates, et <lb/>Nos, pactum sit foedus
+                    formâ et tenore sequenti. <lb/>
+                    <lb/>Quandoquidem mortuo sine liberis non ita <lb/>pridem gloriosissimæ memoriæ
+                    Carolo Secundo <lb/>Hispaniarum Rege, Sacra Sua Cæsarea Maj[es]tas
+                    <lb/>sucessionem in Regna et Provincias Regis defuncti <lb/>Domui Suæ Augustæ
+                    legitimè deberi asseruerit <lb/>Rex autem Christianissimus pro nepote suo Duce
+                    <lb/>Andegavensi eandem successionem ambiens, et jus <lb/>
+                    <pb facs="#FacsPnr3"/>jus illi ex testamento quodam Regis defuncti natum et
+                    <lb/>præferens pro modo dicto Duce Andegavensi possess&lt;io&gt; <lb/>nem
+                    universæ hæreditatis sive Monarchiæ Hispan&lt;..&gt; <lb/>a&lt;r&gt;ripuerit;
+                    Provincias Hispano-Belgicas, Ducatum&lt;que&gt; <lb/>Mediolanensem armis
+                    occupaverit, classem in portu&lt;..&gt; <lb/>Gaditano paratum teneat; Naves
+                    plures bellicas ad In&lt;..&gt; <lb/>Hispano parentes miserit; atque hoc modo
+                    aliisque plu&lt;ri&gt; <lb/>mis, Regna Galliarum et Hispaniarum tam arctè
+                    in&lt;ter&gt; <lb/>se uniantur et coalesceant, ut posthac non aliter quam
+                    <lb/>pro uno eodemque regno consideranda esse videantur, <lb/>adeoque ut nisi
+                    prospectum fuerit, satis appareat. Cæsar&lt;eae&gt; <lb/>Suæ Majestati
+                    abjiciendam esse omnem spem unqua&lt;m&gt; <lb/>sibi de prætensione Suâ
+                    satisfactum iri, Sacrum Roma- <lb/>num Imperiu jura sua in feuda, quæ sunt in
+                    Itali&lt;a&gt; <lb/>et in Belgio Hispanico, perditurum: Brittannis et Bel-
+                    <lb/>gis Foederatis liberum navigationis et commerciorum <lb/>usum in mare
+                    mediterraneum, in Indias et alibi fundis <lb/>periturum; Unitumque Belgium
+                    destitutum iri Secu- <lb/>ritate, quam ex interpositis inter se et Gallos
+                    Provinciis <lb/>Hispanico Belgicis, vulgo Barriere, tenebat, denique <lb/>Gallos
+                    et Hispanos ita conjunctos, adeo omnibus formidan- <lb/>dos
+                    brevie&lt;r&gt;asuros, ut totius Europæ imperium facilè <lb/>sibi vindicaturi
+                    sint. Quum autem ob hunc procedendi <lb/>modum Regis Christianissimi Cæsareæ Suæ
+                    Maj[es]tatis <lb/>necessitas imposita fuerit exercitum in Italiam <lb/>mittendi,
+                    ad conservanda tam jura sua privata, quam <lb/>feuda Imperii, Rex Magnæ
+                    Brittaniæ&nbsp; necessariu&lt;m&gt; <lb/>existimaverit, copias Suas auxiliares
+                    mittendi Belgio <lb/>
+                    <pb facs="#FacsPnr4"/>Foederato cujus res eo loco sunt ac si re ipsa jam
+                    aggressum <lb/>foret, et Domini Ordines Generales Uniti Belgii quorum <lb/>fines
+                    undique fere patent, effractoet remoto obice, vulgò Bar- <lb/>riere, qui
+                    Gallorum vicinitatem arcebat, coacti sint, ea cuncta <lb/>pro securitate et
+                    saluto Republicæ Suæ facere, quæ bello impetiti <lb/>facere debuissent vel
+                    potuissent; Quumque tam anceps rerum <lb/>constitutio ipso bello periculosior
+                    sit, et hoc rerum statu <lb/>Gallia et Hispania abutantur ut se magis et magis
+                    inter se <lb/>devinciant, ad opprimendam Europæ libertatem, et tollendum
+                    <lb/>commerciorum usum. His rationibus adducti Sacra Sua <lb/>Cæsarea Majestas,
+                    Sacra Sua Regia Majestas Magnæ <lb/>Brittanniæ et Celsi et Præpotentes Domini
+                    Ordines <lb/>Generales Uniti Beligii, tantis malis hinc surrecturis <lb/>obviam
+                    tendentes, et pro viribus remedia affere cupientes, <lb/>arctum inter se
+                    conjunctionem et confoederationem pro depel- <lb/>lenda communis periculi
+                    magnitudine necessariam esse <lb/>existimaverunt, et hunc in finem mandatis suis
+                    instruxe- <lb/>runt. Scilicet Sacra Sua Cæsarea Majestas Nobil- <lb/>lissimos,
+                    Illustrissimos et Excellentissimos Dominos, <lb/>Dominum Petrum Sacri Romani
+                    Imperii Comitem a &lt;G&gt;oessen, <lb/>Dominum de Carelsbergh, Sacræ Cæsareæ
+                    Majestatis Camer- <lb/>rarium, Consiliarium Imperialem aulicum et ad Celsos
+                    <lb/>et Præpotentes Dominos Ordines Generales Uniti Belgii <lb/>ablegatum
+                    extraordinarium, et Dominum Joannem <lb/>Wenceslaum Sacri&lt;.&gt;&nbsp; Romani
+                    Imperii Comitem Wratislau <lb/>a Mitrowitz, Dominum de Ginetz et
+                    Malle&lt;nk&gt;itz, Sac[ræ] <lb/>Romanæ et Hungariæ Regiæ Majestatis Camerarium
+                    inti- <lb/>mæ Cancellariæ aulico Bohemicæ Consiliarium et assessorem <lb/>
+                    <pb facs="#FacsPnr5"/>nec non Sacræ Cæsareæ Majestatis ad Serenissimum
+                    <lb/>Magnæ Brittanniæ Regem ablegatum Extraordinarium <lb/>Legatos Suos
+                    Extraordinarios et Plenipotentiarios Sacra <lb/>Sua Regia Majestas Magnæ
+                    Brittanniæ Nobilis- <lb/>simum, Illustrissimum atque Excellentissimum Dom[inum]
+                    <lb/>Dominum Joannem Comitem de Marlborough, Baro- <lb/>nem Churchil de
+                    Sandridge, Sacræ Regiæ Majestati &lt;a&gt; <lb/>Consiliis intimis copiarum
+                    pedestrium Ducem vulgò <lb/>Generalem, et Summum exercitus memoratæ Sacræ
+                    <lb/>Regiæ Suæ Majestatis in Belgio Præfectum, Legatum <lb/>Ejus
+                    Extraordinarium, Commissarium Procuratoem <lb/>et Plenipotentiarium, et Domini
+                    Ordines Genera- <lb/>les , Dominos Didericum Eck de Pantaleon, Dominum <lb/>de
+                    Gent et Erlekum, Fredericum Baronem de Rheede, <lb/>Dominum de Lier, Agri Sancti
+                    Anthonii et de &lt;T&gt;er Lee, <lb/>Commendatorum Buræ, unum Nobilium et in
+                    Ordine <lb/>Equestri Hollandiæ et Westfrisiæ conscriptum. Anto- <lb/>nium
+                    Heinsium Dominorum Ordinum Hollandiæ et <lb/>Westfrisiæ Consiliarium et
+                    Syndicum, Eorundem <lb/>Magni Sigilli Custodem ac feudorum Præsidem Wil-
+                    <lb/>helmum de Nassau Dominum de Odÿk, Cortgiene&nbsp; etc.a <lb/>Primum Nobilem
+                    et repræsentantem Ordinem Nobilium <lb/>in Dominorum Ordinum Zelandiæ et
+                    Eorundem depu- <lb/>tatorum Consessu. Everhardum de Weede, Dominum de
+                    <lb/>Weede, Dÿkvelt Rateles etc.a Fundi Civitatis Oudervater <lb/>Dominum,
+                    Capituli S[acr]æ Mariæ quod Trajecti ad Rhenum <lb/>est Decanum, Consiliarium
+                    primarium et Præsidem <lb/>Consessus Provinciæ, Ultrajectinæ, aggerum fluminis
+                        <pb facs="#FacsPnr6"/>eccæ Præfectum et Prætorem, Wilhelmum van Haren,
+                    <lb/>Agri Biltani in Frisiâ Grietmannum, Universitatis <lb/>Franequeranæ
+                    Curatorem, a parte Nobilium in Consessu <lb/>Dominorum Ordinum Frisiæ Deputatum
+                    , Burchardum <lb/>Justum à Welvelde in Buckhorst et Molekate, Toparcham <lb/>in
+                    Za&lt;ll&gt;ik Vekaten,&nbsp; Ysselmuidani agri Satrapam, et <lb/>Wicherum
+                    Wichers, Civitatis Groningensis Senatorum <lb/>Respectivè Dominorum Ordinum
+                    &lt;Gel&gt;riæ, Hollandiæ et <lb/>Westfrisiæ, Zelandiæ, Ultrajecti ad Rhenum,
+                    Frisiæ, Trans- <lb/>ysunlaniæ et Groningæ et Omland&lt;.…&gt;&nbsp; ad Conventum
+                    <lb/>Dominorum Ordinum Generalium Uniti Belgii Deputatos <lb/>qui vi mandatorum
+                    suorum in sequentes foederis leges <lb/>convenerunt. <lb/>
+                    <lb/>1. <lb/>Sit maneatque inter Sacram Cæsaream Maj[esta]tem <lb/>Sac[ram]
+                    Regiam Ma[jesta]tem Magnæ Britanniæ, et <lb/>Dominos Ordines Generales Unitii
+                    Belgii, con- <lb/>stans, perpetua et inviolabiliter amicitia et correspondetia,
+                    <lb/>teneaturque alter alterius commoda promovere , damna <lb/>vero et incommoda
+                    pro posse avertere. <lb/>
+                    <lb/>2. <lb/>Sacra Sua Cæsarea Maj[es]tas Sacra Regia Maj[es]tas Magnæ
+                    <lb/>Brittanniæ et Domini Ordines Generales, cum a res <lb/>ipsis magis cordi
+                    sit, quam pax et tranquillitas generalis totius <lb/>Europæ judicaverunt ad eam
+                    stabiliendam nihil efficacius fu- <lb/>turum quam procurando Cæsareæ Suæ
+                    Ma[jesta]ti ratione præten- <lb/>sionis Suæ in successionem Hispanicam,
+                    satisfactionem <lb/>æquam et &lt;ratione&gt;&nbsp; convenientem, et ut Rex Magnæ
+                    Brit- <lb/>
+                    <pb facs="#FacsPnr7"/>tanniæ et Domini Ordines Generales securitatem parti-
+                    <lb/>cularem et sufficientem, pro regnis, provinciis, dititionibus <lb/>suis et
+                    pro navigatione et commerciis subditorum suorum <lb/>adipiscantur. <lb/>
+                    <lb/>3. <lb/>Propterea Foederati ante omnia operam dabunt, quan- <lb/>tam
+                    possunt maximam ad obtinendam via amicabili, et <lb/>per transactionem solidam
+                    et firmam, Cæsareæ Su Ma[jesta]ti <lb/>satisfactionem æquam et ratione
+                    convenientem in causa <lb/>memoratæ successionis et securitatem modò
+                    indignitatam <lb/>Regiæ Suæ Ma[jesta]ti Magnæ Britanniæn et Dominis Or-
+                    <lb/>dinibus Generalibus Uniti Belgii, impendentque Foede- <lb/>rati in hunc
+                    finem omni studio, et absque ulla intermissione <lb/>spatium duorum mensium à
+                    die quo ratificationum tabulæ <lb/>commutabuntur, numerandum. <lb/>
+                    <lb/>4. <lb/>Quod si præter spem et vota intra tempus præfinitum, res <lb/>eo
+                    quo dictum est modo transigi nequeat Foederati sibi <lb/>invicem spondent et
+                    promittunt, se alter alterum omnibus <lb/>viribus adjuturos, idque juxta
+                    specificationem peculiari in <lb/>conventione determinandam, ut ita a aquirant
+                    satisfactionem <lb/>et securitatem antememoratas. <lb/>
+                    <lb/>5. <lb/>Foederati ad procurandam satisfactionem et securitatem
+                    <lb/>antedictas inter alia, omnes n&lt;er&gt;vos intendent, ut recuperent
+                    <lb/>Provincias Hispano-Belgicas, ut sint ob&lt;…&gt;&nbsp; et repagulum,
+                    <lb/>vulgò Barriere Galliam a Belgios Foederatos removens <lb/>et separans, pro
+                    securitate Dominorum Ordinum G[ener]alium <lb/>
+                    <pb facs="#FacsPnr8"/>quemadmodum ab omni tempore inservierunt, donec <lb/>Rex
+                    Christianissimus nuper eas milite suo occupavit <lb/>ut et Ducatum Mediolanensem
+                    cum dependentiis <lb/>ejus, tanquam feudum Imperii atque securitati Pro-
+                    <lb/>vinciarum hæreditariarum Cæsareæ Suæ Majestatis <lb/>inserriens, præterea
+                    Regna Neapolis et Siciliæ et terras <lb/>atque insulas circa ora&nbsp; Hetruriæ
+                    in mari Mediterraneo, <lb/>quæ sunt ditionis Hispanicæ et ejusdem usus esse pos-
+                    <lb/>sunt, ut et prodesse navigationi et commerciis subdito- <lb/>rum Regis
+                    Magnæ Brittanniæ et Belgii Uniti. <lb/>
+                    <lb/>6. <lb/>Licitum sit Regiæ Suæ Majestati Magnæ <lb/>Brittanniæ, et Dominis
+                    Ordinibus Generalibus com- <lb/>muni consilio pro utilitate et commodo
+                    navigationis <lb/>et commercii subditorum suorum, quas poterunt in <lb/>Indiis
+                    Hispanicæ ditionis, terras et urbes armis <lb/>occupare, quicquid autem
+                    occupaverint ipsorum <lb/>manebit. <lb/>
+                    <lb/>7. <lb/>Necessitate exigente, ut Foederati ad obtinendam <lb/>antedictam
+                    Suæ Cæsareæ Majestatis satisfactionem <lb/>et Regis Magnæ Brittanniæ ac
+                    Dominorum <lb/>Ordinum Generalium securitatem bellum subire <lb/>adigantur,
+                    fideliter inter se consilia comunica- <lb/>bunt de operationibus bellicis et de
+                    omnibus rebus <lb/>ad causam hunc communem spectantibus. <lb/>&nbsp; <pb
+                        facs="#FacsPnr9"/>8. <lb/>Neutri partium fas sit bello semel suscepto de
+                    <lb/>pace cum hoste tractare nisi conjunctim et communi- <lb/>catis consiliis
+                    cum alterâ parte nec pax ineatur nisi <lb/>adepta prius pro Cæsarea Suâ
+                    Majestate satisfac- <lb/>tione æqua et ration&lt;i&gt; conveniente, et pro Regia
+                    Sua <lb/>Majestate Magnæ Brittanniæ et Dominis Ordi- <lb/>nibus Generalibus
+                    securitate particular&lt;i&gt; Regnorum, <lb/>Provinciarum, ditionum,
+                    navigationis et commercio- <lb/>rum Suorum, et nisi justis cautelis antea
+                    provisum <lb/>sit, ne Regna Galliæ et Hispaniæ unquam sub <lb/>idem Imperium
+                    veniant et &lt;uniantur&gt;&nbsp; nec unquam unus <lb/>et idem utriusque Regni
+                    Rex fiat, et speciatim ne <lb/>Galli unquam in possessionem Indiarum, juris His-
+                    <lb/>panici veniant, neque ipsis ibidem navigatio, mercatu&lt;..&gt;
+                    <lb/>exercendæ causa sub quocumque prætextu directè vel <lb/>indirectè
+                    permittatur, et denique nisi pacta pro subditis <lb/>Regis Magnæ Brittanniæ et
+                    Foederati Belgii <lb/>facultate plenâ utendi et fruendi omnibus iisdem
+                    <lb/>privilegiis, juribus immunitatibus et libertatibus, com- <lb/>merciorum
+                    terra marique in Hispania, Mari Mediterra- <lb/>neo et in omnibus terris et
+                    locis, quæ Rex Hispaniarum <lb/>postremò defunctus tempore mortis, tam in Europâ
+                    quam <lb/>alibi possedit, quibus tum utebantur et fruebantur, vel <lb/>quibus
+                    amborum vel singulorum subditi jure, ante obitum <lb/>dicti Regis Hispaniarum
+                    quæsito, per tractatus, per pact&lt;a&gt; <lb/>conventa, per consuetudines vel
+                    per alium quemcunque <lb/>modum uti et frui poterant. <lb/>
+                    <pb facs="#FacsPnr10"/>9. <lb/>Tempore quo dicta transactio vel pax fiet, Foede-
+                    <lb/>rati inter se convenient de omnibus iis quæ ad stabli- <lb/>liendam
+                    navigationem et commercia subditorum <lb/>Regis Magnæ Brittanniæ et Dominorum
+                    Ordinum <lb/>Generalium in terris et ditionibus acquerendis, et <lb/>a postremò
+                    defuncto Hispaniarum rege possessis, <lb/>necessaria erunt, quemadmodum etiam de
+                    modo, <lb/>quo Domino Ordines Generales per obicem antedictum <lb/>vulgo
+                    Barriere secure reddentur. <lb/>
+                    <lb/>10. <lb/>Et quoniam controversiæ, quædam religionis ergo <lb/>exoriri
+                    possent in locis a Foederatis, uti sperant <lb/>armis occupandis, de exercitio
+                    ejus inter se etiam eodem <lb/>quo supradictum est tempore convenient. <lb/>
+                    <lb/>11. <lb/>Foederati se invicem omnibus viribus juvare et <lb/>opem ferre
+                    contra aggressorem teneantur si Rex <lb/>Chistianissimus vel quisquam alius
+                    aliquem Foe- <lb/>deratorum, ex causa hujus foederis, aggredi sustineat. <lb/>
+                    <lb/>12. <lb/>Quod si vel nunc super sæpe indigitata satisfactione <lb/>et
+                    securitate transigi queat vel post susceptum <lb/>necessariò bellum, pax iterum
+                    coalescat, post talem <lb/>vel transactionem, vel pacem conclusum, sit et
+                    maneat. <lb/>&nbsp; <pb facs="#FacsPnr11"/>semper inter partes contrahentes
+                    foedus defensivum <lb/>pro guarantia ejusdem vel transactionis vel pacis. <lb/>
+                    <lb/>13. <lb/>Ad hujus societatem admittentur cuncti <lb/>Reges, Principes et
+                    Status qui volent, et quibus pax <lb/>generalis cordi est, quoniam autem Sacri
+                    Romani <lb/>Imperii peculiariter interest pacem publicam ser- <lb/>vari et hic
+                    inter alio agatur de recuperandis Imperii <lb/>feudis, ad hujus foederis
+                    societatem dictum Imperium <lb/>spectatim invitabitur, præterea Foederatis
+                    conjunctim <lb/>vel singulis seorsim licitum sit, accessionem ad hoc <lb/>foedus
+                    requirere eorum, quos requirere ipsis visum <lb/>fuerit. <lb/>
+                    <lb/>14. <lb/>Ratihabebitur hoc foedus ab omnibus Foederatis <lb/>intra spatium
+                    sex septimanarum, vel citius si <lb/>fieri poterit. <lb/>
+                    <lb/>In quorum fidem Nos supra me- <lb/>morati Plenipotentiarii præsens foedus
+                    subscrip- <lb/>tionibus et sigillis nostris munivimus. Hagæ <lb/>Comitum die
+                    septimo Septembris anni mille- <lb/>simi septengentesimi primi. Signatum
+                    <lb/>erat in singulis instrumentis separatim. Scilicet <lb/>a parte Cæsareæ Suæ
+                    Majestatis, Petrus <lb/>Comes a Goessen, Joannes Wenceslaus Comes <lb/>
+                    <pb facs="#FacsPnr12"/>Wratislau a Mitrowitz. A parte Regiæ Suæ <lb/>Majestatis
+                    Magnæ Brittanniæ Marlborogh <lb/>et a parte Dominorum Ordinum Generalium
+                    <lb/>Uniti Belgii D. v. Eck v. Pant.on H.s v. Gent F.B. <lb/>Van &lt;.&gt;eede
+                    A. Heinsius W. Sw Nassau E. de Weede <lb/>&lt;...&gt; aren B.J. van Welvelde W.
+                    Wichers <lb/>appositis sigillis singulorum nominibus. <lb/>
+                    <lb/>Cumque inter ineundum hoc <lb/>Foedus cognoverimus ac obtinendum finem sa-
+                    <lb/>lutarem in eo propositum, Nobis opus fore concursu <lb/>aliorum Principum
+                    et Statuum, ad quos hæc res æque per- <lb/>tinet, atque nota Nobis sit
+                    laudatissima pro bono publico <lb/>voluntas et pro clarum studium Reverendissimi
+                    et <lb/>Celsissimi Principis et Domini, Domini <lb/>Friderici Christiani
+                    Episcopi Monasteriensis <lb/>Burggravii de Stromberg, Sac. Rom. Imperii
+                    <lb/>Principis, Domini in Borkeloh etc. Itaque &lt;e re&gt; <lb/>esse
+                    judicavimus Celsitudinem Suam modo nominatam <lb/>virtute articuli 13. hujus
+                    Foederis ad ejus societatem invitare <lb/>Illamque requirere, ut huic Foederi
+                    accedere, accessione Suâ <lb/>illud corroborare, et ad ejus observationis et
+                    executionis gua- <lb/>rantiam se obstringere velit. Et quoniam modò nominata
+                    <lb/>Celsitudo Sua ut testatum faciat, quantò erga bonum <lb/>publicum feratur
+                    affectu et studio, et ad tanto melius con- <lb/>sequendum finem in sæpe dicto
+                    Foedere propositum <lb/>&nbsp; <pb facs="#FacsPnr13"/>illud in totum, ut et
+                    singulos ejus articulos <lb/>approbaverit, ratum, gratum et acceptum ha-
+                    <lb/>buerit, cunctas obligationes in eo contentas, in se <lb/>receperit, se
+                    executionis illius vindicem vulgò gua- <lb/>randum constituerit, atque se ut et
+                    Successores Suos <lb/>erga Sacram Suam Cæsaream Majestatem, Sac[ram] <lb/>Suam
+                    Regiam Majesatem Magnæ Brittanniæ <lb/>nunc regnantem et Nos ad inviolabilem
+                    omnium in <lb/>eo Foedere et articulis ejus singulis contentorum,
+                    <lb/>observationem et executionem obstrinxerit, et hunc <lb/>in finem
+                    instrumentu&lt;m …&gt;te&nbsp; confectum et cum hoc <lb/>Nostro commutandum
+                    fiere curaverit, Nos acces- <lb/>sionem altememoratæ Suæ Celsitudinis in socie-
+                    <lb/>tatem suprascripti Foederis, ratam, gratam et <lb/>acceptam habentes , in
+                    illud Foedus Eam admisi- <lb/>mus et associamus: quem admodum admittimus,
+                    <lb/>et associamus vigore præsentium, Nos ad invio- <lb/>labiliter præstanda et
+                    exequenda omnia et singula, <lb/>quæ in eo foedere contenta sunt. Alte memoratæ
+                    <lb/>Sua Celsitudini ejusque sucessoribus obstringentes <lb/>eodem modo, ac si
+                    ab initio Sacra Sua Cæsarea <lb/>Majestas , Sacra Sua Majestas Magnæ
+                    <lb/>Brittanniæ et Nos cum Altememorata Sua Celsi- <lb/>tudine Foedus hoc
+                    pepigissemus; Spondentes et bonâ <lb/>fide promittentes, Nos nihil quicquam
+                    directè vel <lb/>indirectè unquam facturos quod illi contrarium esse <lb/>queat.
+                    In quorum fidem hasce Sigillo Nostro Majori <lb/>muniri et per Consessus Nostri
+                    Præsidem signari <lb/>
+                    <pb facs="#FacsPnr14"/>curavimus ut et per Graphiarum Nostrum subscribi
+                    <lb/>jussimus. Hagæ Comitum die quinto Maji anni <lb/>millesimi Septingentesimi
+                    tertii <lb/>
+                    <lb/>
+                    <lb/>&lt;Schellinga&gt; <lb/>Ad mandatum altememorator.[um] <lb/>Dominorum
+                    Ordinum Generalium <lb/>
+                    <lb/>&lt;...&gt;gel <lb/>
+                </p>
+                <pb facs="#FacsPnr15"/>
+                <p>Foedus inter Caesarem, Angliam, ordines Belgii &lt;...&gt; principes Imperii </p>
+                <p>initam Hagae Comitum Cum Accessem Friderici Christiani Episcop. Mon.sis de 1703
+                    5. may. </p>
+            </div>
+        </body>
+        <back>
+            <listBibl>
+                <bibl>Max Braubach, Politisch-militärische Verträge zwischen den Fürstbischöfen von
+                    Münster und den Generalstaaten der Vereinigten Niederlande im 18. Jahrhundert.
+                    in: Westfälische Zeitschrift 91 (1935), S.150-194.&nbsp; </bibl>
+
+            </listBibl>
+        </back>
+    </text>
+</tei:TEI>

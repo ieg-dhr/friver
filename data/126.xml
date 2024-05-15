@@ -1,0 +1,320 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE tei SYSTEM "../resources/FriVer_DTD.dtd">
+
+<?xml-model href="../resources/FriVer.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns="http://www.tei-c.org/ns/1.0"
+    xml:id="pa000299-0126">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title level="s">European peace treaties of the pre-modern era in data / Europäische
+                    Friedensverträge der Vormoderne in Daten (FriVer+)</title>
+                <title when="1729-04-28" xml:id="t126" when-custom="1729 IV 28" level="a"
+                    ref="https://www.ieg-friedensvertraege.de/treaty/t-126-1-de.html"
+                    >Friedensdeklaration von Stockholm</title>
+            </titleStmt>
+            <editionStmt>
+                <edition> Digital edition according to <ref target="http://www.tei-c.org/">TEI
+                        P5</ref>
+                </edition>
+                <funder>
+                    <ref target="https://www.text-plus.org/">TEXT+</ref>
+                </funder>
+                <editor role="http://id.loc.gov/vocabulary/relators/edt"
+                    ref="https://orcid.org/0000-0002-8741-5916">
+                    <persName>Jaap Geraerts</persName>
+                    <note>The transformation and enrichment of the data is done by Jaap Geraerts
+                        (IEG Mainz). The other members of the FriVer+ team are Fabian Cremer, Ines
+                        Grund, and Thorsten Wübbena (all IEG Mainz).</note>
+                    <note> The original data has been created by the <ref
+                            target="https://www.ieg-friedensvertraege.de">team of scholars</ref> who
+                        were part of the Europäische Friedensverträge der Vormoderne project. This
+                        project was lead by Prof. Dr. Heinz Duchhardt and was based at the Leibniz
+                        Institute of European History in Mainz. </note>
+                </editor>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>
+                    <orgName ref="http://www.isni.org/0000000119314040">Leibniz-Institut für
+                        Europäische Geschichte Mainz</orgName>
+                </publisher>
+                <distributor>
+                    <orgName ref="http://www.isni.org/0000000110101946">Universitäts- und
+                        Landesbibliothek Darmstadt</orgName>
+                </distributor>
+                <idno type="ISIL">http://lobid.org/organisation/DE-17</idno>
+                <date type="issued" when="2023-12-23"/>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">
+                        <p xml:lang="en">This file is licensed under the terms of the Creative
+                            Commons License CC-BY 4.0 (Attribution 4.0 International)</p>
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <repository xml:id="r7">Dresden SaechsHStA</repository>
+                <msDesc>
+                    <p>Deklarationen: SHSADresden OU 14633/b Stockholm 1729 IV 28 (Original der
+                        &quot;Declaration Friedrichs, Königs von Schweden, an König August von
+                        Polen, die statt eines förmlichen Friedens-Traktats gelten soll&quot;; dt.,
+                        3 fol., Unterschrift: Friedrich, 1 Oblatensiegel). Ratifikationen:
+                        Ratifikation Augusts II. 1729 VII 20 [kein Nachweis]. </p>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p> The data in this XML file, originally created by the project <ref
+                        target="https://www.ieg-friedensvertraege.de/vertraege">Europäische
+                        Friedensverträge der Vormoderne online</ref> has been transformed in
+                    accordance with <ref target="http://www.tei-c.org/">TEI P5</ref> as part of the
+                    project <ref
+                        target="https://www.ieg-mainz.de/en/research/research-projects/european-peace-treaties-of-the-pre-modern-era-in-data"
+                        >Europäische Friedensverträge der Vormoderne in Daten (FriVer+)</ref>
+                </p>
+            </projectDesc>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="de" xml:id="lan2">deutsch</language>
+            </langUsage>
+        </profileDesc>
+    </teiHeader>
+    <standOff>
+        <listPerson>
+            <person role="signatory" xml:id="p99">
+                <persName ref="https://explore.gnd.network/gnd/4077258-5">
+                    <name>Schweden</name>
+                </persName>
+            </person>
+            <person xml:id="pp0181">
+                <persName ref="https://explore.gnd.network/gnd/118505084">
+                    <name>August II. (Polen)</name>
+                </persName>
+            </person>
+            <person xml:id="pp0182">
+                <persName ref="https://explore.gnd.network/gnd/118560123">
+                    <name>Karl XII. (Schweden)</name>
+                </persName>
+            </person>
+            <person xml:id="pp0216">
+                <persName ref="https://explore.gnd.network/gnd/1204151776">
+                    <name>Friedrich I. (Schweden)</name>
+                </persName>
+            </person>
+        </listPerson>
+        <listPlace>
+            <place xml:id="loc18">
+                <placeName ref="https://explore.gnd.network/gnd/4057648-6">Stockholm</placeName>
+            </place>
+        </listPlace>
+        <facsimile>
+            <surface xml:id="FacsPnr1">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_449a5e4a7af69"/>
+            </surface>
+            <surface xml:id="FacsPnr2">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_449a5e786e458"/>
+            </surface>
+            <surface xml:id="FacsPnr3">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_449a5e9a90e4a"/>
+            </surface>
+            <surface xml:id="FacsPnr4">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_449a5ebc97ee4"/>
+            </surface>
+            <surface xml:id="FacsPnr5">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_449a5ed7ec9c0"/>
+            </surface>
+        </facsimile>
+    </standOff>
+    <text>
+        <front>
+            <div type="Drucke">
+                <p>CTS 33, S. (191)193-197 (dt.), S. 198-201 (frz.). Dumont, Suppl. 2/2, S.
+                    (281)282-283 (frz.). Sverges Traktater VIII:1, S. 123-125. Mercure Historique
+                    87, S. 178. Dumont, Suppl. 2/2, S. 281-283; CTS 33, S. 199 nennen als Datum der
+                    schwedischen Konvention Stockholm 1729 V 9 (beide nach der frz. Übersetzung).
+                    Dumont, Suppl. 2/2, S. 283 druckt zusätzlich eine »Publication de cette Paix à
+                    Stockholm« (frz.; Stockholm 1729 VI 30) ab, unterzeichnet durch den schwedischen
+                    König.</p>
+            </div>
+            <div type="Inhalt">
+                <p>Erklärung über gutes Vernehmen mit auswärtigen und benachbarten
+                    Mächten.<lb/>Mißhelligkeiten sollen aufgehoben, vergeben und vergessen
+                    sein.<lb/>Bestimmung über den künftigen Frieden.<lb/>Status der Deklaration als
+                    förmliches Friedensinstrument. </p>
+            </div>
+            <div type="Kommentar">
+                <p>Im Großen Nordischen Krieg (1700-1721) hatten Schweden und Sachsen-Polen
+                    gegeneinander gestanden. Bei Altranstädt mußte der sächsische Kurfürst und
+                    polnische König August II. am 24. September 1706 einen Friedensvertrag
+                    unterzeichnen, der ihn zum Verzicht auf die polnische Krone zwang. 1710 erhielt
+                    er nach einem erneuten Waffengang an der Seite Rußlands gegen Schweden die
+                    polnische Krone zurück. Am 15. August 1710 räumte Schweden die besetzten
+                    polnischen Gebiete (Posen, Großpolen). Zu einem förmlichen Friedensschluß kam es
+                    jedoch nicht. Polen war aussenpoltisch &quot;so tief gesunken&quot; (Hoensch),
+                    daß es am formellen Abschluß des Friedens im Norden 1719-1721 nicht beteiligt
+                    war. Der faktische Frieden mit Schweden wurde 1729 mit einer Deklaration
+                    bekräftigt.<lb/></p>
+            </div>
+            <div type="Kontext">
+                <p>1697 Der sächsische Kurfürst Friedrich August I. besteigt als erster Wettiner
+                    nach einer umstrittenen Wahl den polnischen Thron (August II., gen. &quot;der
+                    Starke&quot;). <lb/>1701-1714 Spanischer Erbfolgekrieg.<lb/>1700-1721 Großer
+                    Nordischer Krieg. Dänemark, Sachsen-Polen, Rußland und Brandenburg (in zeitlich
+                    wechselnden Bündniskonstellationen) versuchen, die schwedische Vorherrschaft im
+                    Ostseeraum zu brechen. Sachsen fällt in Livland ein, Dänemark richtet sich gegen
+                    Schleswig. <lb/>18. August 1700 Friede von Travendal zwischen Dänemark und
+                    Schweden. Dänemark scheidet aus dem Krieg aus und erkennt den Herzog von
+                    Holstein-Gottorf an. Der Krieg zwischen Sachsen-Polen und Rußland mit Schweden
+                    geht weiter (1701/02 Siege Karls XII. Besetzung Polens.) <lb/>24. September 1706
+                    Friede von Altranstädt: Schweden zwingt Sachsen-Polen zum Ausscheiden aus dem
+                    Krieg und August II. zum Verzicht auf die polnische Krone (1706 XI 30). An seine
+                    Stelle tritt &quot;Gegenkönig&quot; Stanislaw Leszczynski, der sich jedoch nur
+                    in Teilen Polens durchsetzen kann. &quot;Guerillakrieg&quot; in Polen.<lb/>29.
+                    Oktober 1706 Sachsen-Polen erringt zusammen mit Rußland bei Kalisz einen Sieg
+                    über Schweden.<lb/>1. September 1707 Konvention von Altranstädt. Um einen
+                    weiteren Vormarsch Schwedens zu verhindern, garantiert der Kaiser die Rechte der
+                    Protestanten in Schlesien. Damit wird eine Verschmelzung mit dem Span.
+                    Erbfolgekrieg verhindert. <lb/>8. Juli 1709 Russischer Sieg bei Poltava. Der
+                    schwedische Rückzug beginnt.<lb/>9. Juli 1709 Sieg Rußlands über Schweden bei
+                    Poltawa. Die schwedischen Truppen verlassen daraufhin Polen. Stanislaw
+                    Leszczynski geht ins Exil. Im August kehrt August II. nach Polen zurück und
+                    widerruft seinen Thronverzicht. Im Vertrag mit Rußland (X 20) muß er sich zur
+                    weiteren Teilnahme am Krieg gegen Schweden verpflichten. <lb/>16. April 1710
+                    August II. erhält die polnische Krone zurück, muß jedoch dem Adel weitgehende
+                    Zugeständnisse machen (Pazifikationstraktat 1716 XI 9). <lb/>3. Juli 1713 Friede
+                    von Adrianopel zwischen dem Osmanischen Reich und Rußland. Die Pforte gibt ihren
+                    Einfluß auf Südostpolen auf. Für Polen endet damit der Waffengang; Krieg und
+                    Pest haben das Land zerstört und entvölkert. <lb/>12. Juni 1714
+                    Preußisch-russisches Bündnis. Im November schließt sich Hannover an. <lb/>2. Mai
+                    1715 Durch einen Vertrag mit Dänemark erwirbt Hannover Bremen und Verden.
+                    Hannover und Preußen treten in den Krieg gegen Schweden ein.<lb/>11. Dezember
+                    1718 Tod Karl XII.<lb/>1719 - 1721 Friedensverträge beenden den Nordischen
+                    Krieg. Die schwedische Hegemonie im Ostseeraum ist beendet. Dänemark und Preußen
+                    verzeichnen wichtige territoriale Gewinne. Rußland wird zur Großmacht im
+                    Baltikum. <lb/>11./22. Juli 1719 Präliminarfriede zwischen Hannover und
+                    Schweden.<lb/>20. November 1719 Friede von Stockholm zwischen Schweden und
+                    Hannover. Hannover erhält Bremen und Verden<lb/>21. Januar 1721 Friede von
+                    Stockholm zwischen Schweden und Preußen. Preußen erhält Teile Pommerns<lb/>3.
+                    Juli 1721 Friede von Frederiksborg zwischen Schweden und Dänemark bringt
+                    territoriale Gewinne (Schleswig) für Dänemark. Schweden behält
+                    Vorpommern.<lb/>10. September 1721 Friede von Nystad zwischen Rußland und
+                    Schweden. Estland, Teile Kareliens, Ingermanland und Livland fallen an
+                    Rußland.</p>
+            </div>
+
+        </front>
+        <body>
+            <div type="Edition">
+                <p>Wir <rs ref="#pp0216">Friedrich<note n="1" type="crit_app">CTS; Sverges Traktater: [Titel
+                    ausgelassen].</note> von Gottes Gnaden der Schweden</rs>, Gothen und Wenden
+                        König<note n="2" type="annotation">Friedrich I. (1676-1751), Landgraf von
+                        Hessen-Kassel, seit 1720 schwedischer König.</note> p.p.p. entbiethen dem
+                    Durchlauchtigsten, Großmächtigsten Fürsten, Herrn <rs ref="#pp0181">Friedrich August, Könige in
+                        Pohlen</rs><note n="3" type="annotation">Friedrich August I. (1670-1733), seit
+                        1694 sächsischer Kurfürst, seit 1697 als August II.</note>, Groß-Hertzogen
+                    in Litthauen, Reüßen, Preüßen, Mazowien, Samogitien, Kyovien, Volhinien,
+                    Podolien, Podlachien, Lieffland, Smolensco, Severien und Czernichovien p.
+                    Hertzogen zu Sachsen, Jülich, Cleve, Bergen, Engern und Westphalen, des
+                    Heil[igen]. Römischen Reichs ErtzMarschalln und Churfürsten, Landgrafen in
+                    Thüringen, &lt;Marggrafen&gt; zu Meißen, auch Ober- und Nieder-Laußnitz,
+                    Burggrafen zu Magdeburg, Gefürsteten Grafen zu Henneberg, Grafen zu der Marck,
+                    Ravensberg und Barby, Herrn zum Ravenstein pp Unserem freundlich lieben Bruder,
+                    Vettern und Nachbarn, Unsere freund-vetterliche Dienste, und was Wir mehr liebes
+                    und gutes vermögen, zuvor. Durchlauchtigster, Großmächtigster Fürst, freundlich
+                    lieber Bruder, Vetter und Nachbar <lb/>Gleichwie Wir, von Anfang Unserer
+                    Regierung eine Unserer ersten Sorgen seyn laßen, mit allen Auswärtigen und in
+                    Sonderheit benachbarten Potentien, in guten Vernehmen zu stehen; Also sind Wir
+                    auch besonders darauf bedacht gewesen, wie diejenige Freundschaft<note n="3"
+                        type="crit_app">CTS; Sverges Traktater 8: freündschafft.</note> und
+                    Einigkeit, welche zwischen Unsers Glorwürdigsten Vorfahren an der Crohn<note
+                        n="4" type="crit_app">CTS; Sverges Traktater 8: Cron (auch im
+                        Folgenden).</note>, Majestät<note n="5" type="crit_app">CTS; Sverges
+                            Traktater 8: weyland Königs Carls des XII. Maij:t.</note> <rs
+                                ref="#pp0182">König Carls des
+                        XIIten</rs><note n="6" type="annotation">Karl XII (1682-1718), seit 1697
+                        schwedischer König.</note> Maj[estät]. und E[u]w[r]. Maj[jestät]. auch
+                    beyderseits Maj[estät]. Maj[estät]. im Römischen Reiche gelegenen respective
+                    Churfürstenthum, Provintzen und Landen insonderheit, bekandter maßen,<note n="7"
+                        type="crit_app">CTS: Chur Furstenthum, Prowintzen und Landen insonderheit
+                        bekanter massen.</note> unterbrochen worden,<note n="8" type="annotation"
+                        >Kriegerische Auseinandersetzung im Rahmen des Großen Nordischen Krieges
+                        1700-1706 und 1709-1713; offizieller Friedensschluß 1706 IX 14/24 in
+                        Altranstädt.</note> durch glimpfliche Wege wieder hergestellet werden mögte.
+                    Da nun, von der Zeit an, dasjenige, was die vorherige Mißhelligkeiten veranlaßet
+                    und unterhalten gehabt, von beyden Seiten vorlängst würcklich eingestellet,
+                    vielmehr von Uns so wohl als E[u]w[r]. Maj[estät]. mittelst Erneuerung der
+                        Correspondenz<note n="9" type="crit_app">usfertigung: Correspondentz.CTS;
+                        Sverges Traktater 8: correspondenz.</note> eine beständige Begierde zu
+                    Wiederherbringung der alten Freund-<note n="10" type="crit_app">CTS; Sverges
+                        Traktater 8: freünd.</note> und Nachbarschaft je mehr und mehr geäußert<note
+                        n="11" type="crit_app">CTS; Sverges Traktater 8: geäüssert.</note> worden.
+                    Wodurch beyderseits Untherthanen schon so viele Jahre über sich in den vorigen
+                    Ruhestand gesetzet sehen, und des edlen Friedens in der That genießen, so daß
+                    nicht mehr übrig zu seyn scheinet, als von beyden Theilen die darunter führende
+                    löbliche und christliche Meinung<note n="11" type="crit_app">CTS; Sverges
+                        Traktater 8: meynung</note> und Absicht, durch eine solenne Erklärung<note
+                        n="12" type="crit_app">Ausfertigung: Erklährung. CTS; Sverges Traktater 8:
+                        Erklärung</note> schrifftlich an den Tag zu legen und vestzustellen; Als
+                    haben Wir, der zwischen Uns und ihr[o]. Maj[estät].<note n="13" type="crit_app"
+                        >CTS; Sverges Traktater 8: Ew. Maij:t.</note> durch die unsrige an beyden
+                        Höfen<note n="14" type="crit_app">CTS; Sverges Traktater 8: Höffen.</note>
+                    genommenen Abrede zu folge, und in betracht der Uns von deroselben versprochenen
+                    freundbrüderlichen gegen Erklärung, solches Unsers Orts zu bewerckstelligen,
+                    keinen Anstand nehmen mögen; Declariren solchem nach Krafft dieses Unsers
+                    Brieffs, auf das feyerlichste, versprechen und wollen, daß von nun an zwischen
+                    Uns auch Unsern Successoren und Nachfolgern an der Crohn, dem Königreich
+                    Schweden und deßselben so wohl in als außerhalb des Römischen Reichs gelegenen
+                    Prowintzen und Landen, an einem, und E[u]w[r]. Maj[estät]. und deroselben
+                    Successoren und Nachkommen an dero Churfürstenthum Sachsen und sämtlich dazu
+                    gehörigen und andern innerhalb des Römischen Reichs gelegenen Prowintzien und
+                    Landen, am andern Theile, alle vorhergegangene Mißhelligkeiten und
+                    Beleidigungen, sie mögen Nahmen haben wie sie wollen, völlig aufgehoben, und auf
+                    ewig vergeben und vergeßen seyn, dagegen ein allgemeiner<note n="15"
+                        type="crit_app">CTS; Sverges Traktater 8: algemeiner.</note>
+                    unverbrüchlicher Friede und eine wahre aufrichtige Freundschaft<note n="16"
+                        type="crit_app">CTS; Sverges Traktater 8: freundschafft.</note> seyn und
+                    bleiben, selbigem von keiner Seite durch etwas Wiedriges, weder öffentlich<note
+                        n="17" type="crit_app">CTS; Sverges Traktater 8: offentlich.</note> noch
+                    heimlich, weder directe noch indirecte, entgegen gehandelt werden, sondern
+                    vielmehr einer des andern Ehre, nutzen und bestes treulich<note n="18"
+                        type="crit_app">CTS; Sverges Traktater 8: treülich.</note> meynen und
+                    befördern, Schaden und Unheil aber wehren und warnen, ja alles dahin anwenden
+                    solle und wolle, damit der wiederhergestellte Fried- und Ruhestand zwischen Uns
+                    und E[u]w[r]. Maj[estät]., auch beyderseits Unterthanen beständig und unverrückt
+                    beybehalten, und nimmermehr gekräncket oder gestöret werden möge. Und wie Wir zu
+                    desto mehreren Nachdruck dieser Unserer Declaration, derselben eben die
+                        Kraft,<note n="19" type="crit_app">CTS; Sverges Traktater 8: Krafft.</note>
+                    als einem förmlichen Friedens-Tractate beylegen, und zu derselben Festhaltung
+                    eben so verbunden seyn und bleiben wollen, als wäre derselben Innhalt durch
+                    öffentliche Abhandlung verabredet und beschloßen worden. Also versehen Wir uns
+                    desgleichen zu E[u]w[r]. Maj[estät]. um so mehr, als man sich über das darunter
+                    versirende gemeinschafftliche Interesse unter Uns ehedem schon vereinbaret, und
+                    Unser freund-brüderlich Vertrauen zu E[u]w[r]. Maj[estät]. Freundschafft<note
+                        n="20" type="crit_app">CTS; Sverges Traktater 8: freündschafft.</note>
+                    zuverläßig gerichtet ist.<note n="21" type="crit_app">CTS; Sverges Traktater 8:
+                        [Text endet hier mit:] Die Wir übrigens etc. Friedrich. H.
+                        Cedercreutz.</note> Und Wir verbleiben E[u]w[r]. Maj[estät]. zu Bezeugung
+                    aller freund-brüderl[ichen]. Gefälligkeiten stets willig und gefließen.
+                    Stockholm den 28. April 1729<lb/>E[u]w[r] Maj[estät].<lb/>Freundwilliger
+                    Vetter<lb/>Bruder und Nachbar<lb/><rs ref="#pp0216">Friedrich</rs></p>
+                <p>H. Cedercreutz<note n="22" type="crit_app">Textvariante: Dumont: Cederncreutz.
+                        Sachanmerkung: Herman Cedercreutz (1684-1754), schwedischer
+                        Kanzleirat.</note>
+                </p>
+                <p><lb/>An des Königes in Pohlen Mayt<note n="23" type="crit_app">Ausfertigung:
+                        [Handschriftlicher Zusatz linker unterer Seitenrand]. CTS; Sverges Traktater
+                        8: [Anrede: fehlt.]</note><lb/>
+                </p>
+            </div>
+
+        </body>
+        <back>
+            <listBibl>
+                <bibl>Seitz / Rosengren, Sveriges freder och fördrag, S. 89.</bibl>
+            </listBibl>
+        </back>
+    </text>
+</tei:TEI>

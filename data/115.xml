@@ -1,0 +1,359 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE tei SYSTEM "../resources/FriVer_DTD.dtd">
+
+<?xml-model href="../resources/FriVer.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns="http://www.tei-c.org/ns/1.0"
+    xml:id="pa000299-0115">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title level="s">European peace treaties of the pre-modern era in data / Europäische
+                    Friedensverträge der Vormoderne in Daten (FriVer+)</title>
+                <title when="1698-07-08" xml:id="t115" when-custom="1698 VII 8" level="a"
+                    ref="https://www.ieg-friedensvertraege.de/treaty/t-115-1-de.html"
+                    >Verlängerungsvertrag von Warschau betr. Wehlau, Bromberg</title>
+            </titleStmt>
+            <editionStmt>
+                <edition> Digital edition according to <ref target="http://www.tei-c.org/">TEI
+                        P5</ref>
+                </edition>
+                <funder>
+                    <ref target="https://www.text-plus.org/">TEXT+</ref>
+                </funder>
+                <editor role="http://id.loc.gov/vocabulary/relators/edt"
+                    ref="https://orcid.org/0000-0002-8741-5916">
+                    <persName>Jaap Geraerts</persName>
+                    <note>The transformation and enrichment of the data is done by Jaap Geraerts
+                        (IEG Mainz). The other members of the FriVer+ team are Fabian Cremer, Ines
+                        Grund, and Thorsten Wübbena (all IEG Mainz).</note>
+                    <note> The original data has been created by the <ref
+                            target="https://www.ieg-friedensvertraege.de">team of scholars</ref> who
+                        were part of the Europäische Friedensverträge der Vormoderne project. This
+                        project was lead by Prof. Dr. Heinz Duchhardt and was based at the Leibniz
+                        Institute of European History in Mainz. </note>
+                </editor>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>
+                    <orgName ref="http://www.isni.org/0000000119314040">Leibniz-Institut für
+                        Europäische Geschichte Mainz</orgName>
+                </publisher>
+                <distributor>
+                    <orgName ref="http://www.isni.org/0000000110101946">Universitäts- und
+                        Landesbibliothek Darmstadt</orgName>
+                </distributor>
+                <idno type="ISIL">http://lobid.org/organisation/DE-17</idno>
+                <date type="issued" when="2023-12-23"/>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">
+                        <p xml:lang="en">This file is licensed under the terms of the Creative
+                            Commons License CC-BY 4.0 (Attribution 4.0 International)</p>
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <repository xml:id="r30">Warschau AGAD</repository>
+                <msDesc>
+                    <p>
+                        <lb/>[Transkriptionsgrundlage:] GSABerlin VI HA Nr.645: Regiomonte
+                        Borussorum/Warschau 1698 VII 8 (4 LS, 4 US, lat., Papier). </p>
+                    <p>[Graphik:] AGADWarschau: Zbiór Dokumentów Pergaminowych nr. 2047. <lb/>
+                    </p>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p> The data in this XML file, originally created by the project <ref
+                        target="https://www.ieg-friedensvertraege.de/vertraege">Europäische
+                        Friedensverträge der Vormoderne online</ref> has been transformed in
+                    accordance with <ref target="http://www.tei-c.org/">TEI P5</ref> as part of the
+                    project <ref
+                        target="https://www.ieg-mainz.de/en/research/research-projects/european-peace-treaties-of-the-pre-modern-era-in-data"
+                        >Europäische Friedensverträge der Vormoderne in Daten (FriVer+)</ref>
+                </p>
+            </projectDesc>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="la" xml:id="lan6">Latein</language>
+            </langUsage>
+        </profileDesc>
+    </teiHeader>
+    <standOff>
+        <listPerson>
+            <person role="signatory" xml:id="p27">
+                <persName ref="https://www.wikidata.org/wiki/Q157367">
+                    <name>Brandenburg - Preußen</name>
+                </persName>
+            </person>
+            <person role="signatory" xml:id="p92">
+                <persName ref="https://www.wikidata.org/wiki/Q824047">
+                    <name>Sachsen / Polen</name>
+                </persName>
+            </person>
+        </listPerson>
+        <listPlace>
+            <place xml:id="loc42">
+                <placeName ref="https://explore.gnd.network/gnd/4079048-4">Warschau</placeName>
+            </place>
+        </listPlace>
+        <facsimile>
+            <surface xml:id="FacsPnr1">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_4624a38007a77"/>
+            </surface>
+            <surface xml:id="FacsPnr2">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_4624a38b23f46"/>
+            </surface>
+            <surface xml:id="FacsPnr3">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_4624a39824e85"/>
+            </surface>
+            <surface xml:id="FacsPnr4">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_4624a3a3ed150"/>
+            </surface>
+            <surface xml:id="FacsPnr5">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_4624a3ae36723"/>
+            </surface>
+            <surface xml:id="FacsPnr6">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_4624a3b8a3cd7"/>
+            </surface>
+            <surface xml:id="FacsPnr7">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_4624a3c3450e8"/>
+            </surface>
+        </facsimile>
+    </standOff>
+    <text>
+        <front>
+            <div type="Inhalt">
+                <p>Notwendigkeit der Verlängerung durch Thronwechsel in Polen. <lb/>Bevollmächtigte
+                    tagen in Warschau. <lb/>Eidesformel. <lb/>Vollmacht König August II. Warschau 5.
+                    Juli 1698. <lb/>Vollmacht Kurfürst Friedrich III. Königsberg 10. Juni/31. Mai
+                    1698 <lb/>Bekräftigung der Verträge, Warschau 8. Juli 1698.&nbsp; &nbsp;
+                    <lb/></p>
+            </div>
+            <div type="Kommentar">
+                <p>Nach dem Tod Sobieskis und dem Interregnum wurde im Juni 1697 Kurfürst Friedrich
+                    August von Sachsen zum polnischen König gewählt. Wegen innenpolitischer
+                    Differenzen wurde August erst im Mai 1698 in Polen vom Adel anerkannt. Bereits
+                    nach kurzer Zeit, traten Polen und Brandenburg in Gespräche ein. Der
+                    brandenburgische Kurfürst erteilte am 10. Juni 1698, der polnische König am 5.
+                    Juli die Vollmachten zu einer Verlängerung der Verträge von Wehlau und Bromberg.
+                    Nach – im Vergleich zu&nbsp; vorangegangenen Erklärungen – kurzen
+                    Verhandlungsdauer wurden die Verträge am 8. Juli 1698 wiederum in Warschau
+                    bestätigt. Dies ist die letzte Bestätigung der Verträge, die das&nbsp;
+                    Verhältnis zwischen Brandenburg und Polen grundlegend gewandelt hatten und in
+                    deren Nachgeschichte sich der Aufstieg des einen und der Niedergang des anderen
+                    Vertragspartners wiederspiegelt. Nach der Schaffung des Königtums in Preußen
+                    1701 hatten die preußischen König weder ein Interesse, noch sahen sie eine
+                    Notwendigkeit, ihre Souveränität durch Polen in Form einer
+                    Vertragserneuerung&nbsp; bestätigen zu lassen. Am 8. Juni 1700 jedoch
+                    akzeptierte August II. in den „Reversalien von Cölln an der Spree“ die Erhebung
+                    Brandenburgs zum Königtum Preußen, ließ sich aber zusichern, dass Preußen seine
+                    Verpflichtungen gegenüber der polnischen Krone beibehalten werde. Der polnische
+                    Reichstag erkannte die Erhebung zum Königtum nicht an. &nbsp; <lb/></p>
+            </div>
+            <div type="Kontext">
+                <p>1655-1660 &nbsp;&nbsp; &nbsp;Nordischer Krieg <lb/>19. September 1657&nbsp;&nbsp;
+                    &nbsp;Vertrag von Wehlau zwischen Brandenburg und Polen. Polen scheidet aus dem
+                    Krieg, in dem es an Seiten Schwedens gestanden hatte, aus. Das Herzogtum Preußen
+                    wird in die Souveränität entlassen. Preußen sichert Huldigung und Heeresfolge
+                    zu. <lb/>6. November 1657&nbsp;&nbsp; &nbsp;Vertrag von Bromberg. Friedrich
+                    Wilhelm verpflichtet sich zu einem Bündnis mit Polen und erhält dafür Draheim,
+                    Lauenburg, Bütau. <lb/>9. Februar 1658&nbsp;&nbsp; &nbsp;Offensivpakt Polen,
+                    Brandenburg, Habsburg gegen Schweden. <lb/>3. Mai 1660&nbsp;&nbsp; &nbsp;Friede
+                    von Oliva beendet den Nordischen Krieg. Polen verzichtet auf schwedische
+                    Thronansprüche. Das Herzogtum Preußen tritt unter die Herrschaft Brandenburgs.
+                    <lb/>16. September 1668&nbsp;&nbsp; &nbsp;Abdankung Jan Kazimierz; ihm folgt
+                    Michael Korybut Wiśniowiecki auf dem Thorn. <lb/>26. März 1672&nbsp;&nbsp;
+                    &nbsp;Erneuerung der Verträge von Wehlau/Bromberg. <lb/>19. Mai 1674&nbsp;&nbsp;
+                    &nbsp;Nach dem Tod Wiśniowieckis wird Jan II Sobieski zum König gewählt.
+                    <lb/>17. Mai 1677&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;Erneuerung der Verträge
+                    von Wehlau/Bromberg <lb/>9. Mai 1688&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;Tod
+                    Friedrich Wilhelm III (der Große Kurfürst); ihm folgt Friedrich III. <lb/>29.
+                    Juli 1688&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;Erneuerung der Verträge .
+                    <lb/>17. Juni 1696&nbsp;&nbsp; &nbsp;Tod Jan III. Sobieski.&nbsp; Interregnum .
+                    Im Juni 1697 wird der Wettiner Kurfürst Friedrich August von Sachsen zum
+                    polnischen König gewählt. <lb/>8. Juli 1698 &nbsp;&nbsp; &nbsp;&nbsp;&nbsp;
+                    &nbsp;Letzte Erneuerung der Verträge. &nbsp; <lb/></p>
+            </div>
+        </front>
+        <body>
+            <div type="Transkription">
+                <p>
+                    <lb/>In nomine Sacrosanctae et Individuae Trinitatis <lb/>
+                    <lb/>Notum sit universis et singulis, quorum interest, vel quomodo libet
+                    interesse potest. Quod deducendo ad executionem perpetui inter Serenissimos et
+                    Potentissimos Reges et Rempublicam Poloniae ab una, Electoresque Brandenburgicos
+                    Prussiae Duces parte ab altera, foederis inconcussum robur firmitatemque
+                    habentia pacta et imprimis articulum, quo disponitur ut quotiescunque novus Rex
+                    electus fuerit, aut Dux Prussiae in Ducatum successerit, idem foedus ab utraque
+                    parte renovetur confirmeturque iuramentis de super praestitis, per deputatos in
+                    animam principalium iurantos. Existente nunc casu novae in Republica Poloniae,
+                    Electionis (constitutis prius ex mutua conventione eidem actui die locoque infra
+                    expressis) alte memoratorum tam Regiae Majestatis, quam Serenitatis Electoralium
+                    deputati plenipotentiarii. A parte quidem Regia magnificus Franciscus
+                        Galecki<note n="1" type="annotation">Franciszek Zygmunt Galecki († 1711),
+                        Senator, Wojewode von Innowrocław, Sejmmarschall.</note>&nbsp; , Palatinus
+                    Junivladislaviensis Bydgostiensis et generosus Stanislaus Warszycki <note n="2"
+                        type="crit_app">&nbsp; [nicht ermittelt]</note>, Gladifer Regis Lanciciensis
+                    Capitanei, a parte vero Electorali magnificus et generosi Ioannes Dietericus
+                    liber Baro ab Hoverbeck<note n="3" type="annotation">Johannes Dietrich von
+                        Hoverbeck (1652-1714), 1690-1703 Gesandter in Polen.</note>&nbsp; in
+                    Eychmedien, Baronowo, Damkow et Geyerswalde, Serenissimi Electoris
+                    Brandenburgici Consiliarius Status intimus Electoratusque Dapifer haereditarius
+                    et Godefredus Werner<note n="4" type="crit_app">[nicht ermittelt]&nbsp;</note> ,
+                    in Aula Sacrae Regiae Maiestatis Residens, praestituta die in Arce Varsaviensi
+                    comparuerint post mutuasque plenipotentiarum tabulas (quarum apographa sub finem
+                    huius&nbsp; instrumenti de verbo ad verbum sunt inserta) rite commutatas,
+                    sequenti tenore in animas principalium iurarunt. <lb/>
+                    <lb/>Nos Franciscus et Stanislaus à Serenissimo et Potentissimo Principe Domino
+                    Domino Augusto Secundo<note n="5" type="annotation">August II. von Sachsen
+                        (1670-1730), als Friedrich August I ab 1694 Kurfürst von Sachsen, als August
+                        II ab 1697 polnischer König. &nbsp;</note>, Dei gratia Rege Poloniae, Magno
+                    Duce Lithuaniae, Russiae, Prussiae, Masoviae, Samogitiae, Livoniae, Kijoviae,
+                    Volhyniae, Podoliae, Podlachiae, Smolensciae, Severiae Czerniechoviae nec non
+                    Haereditario Saxoniae, Juliae, Cliviae, Montium Angriae et Vestphaliae Duce,
+                    Sacri Romani Imperii Archi Mareschalco et Electore Thuringiae, Marchione Misniae
+                    nec non Superioris ac Inferioris Lusatiae, Burgravio Magdeburgensi, Comite
+                    Marcae, Ravensbergae et &lt;Batii&gt;, Comite Principe Hennebergensi, Domino in
+                    Ravenstein ad renovationem et confirmationem pactorum, quae die decima nona
+                    septembris Velaviae tum die sexta novembris Bydgostiae anno millesimo
+                    sexcentesimo quinquagesimo septimo cum Serenissimo Principe Domino Friderico
+                        Guilhelmo<note n="6" type="annotation">Friedrich Wilhelm (1620-1688), ab
+                        1640 Kurfürst und Markgraf von Brandenburg.&nbsp;</note>, Marchione
+                    Brandenburgensi Sacri Romani Imperii Archicamerario et Electore in Prussia,
+                    Magdeburgi, Stetini, Pomeraniae, Cassubiorum, Vandalorumque nec non in Silesa
+                    Crosnae, Duce Burgravio Norimbergensi, Principe Halberstadii, Mindae et Camini,
+                    Comite de Hohenzollern, Domino in Lauenburg et Bittaw, nomine incliti Regni
+                    Poloniae et Magni Ducatus Lithuaniae conclusa et stabilita per constitutionem
+                    omnium ordinium totius Reipublicae approbata et confirmata sunt deputati
+                    commissarii nomine eiusdem Sacrae Regiae Maiestatis Poloniae eiusque successorum
+                    Regum, quandoquidem praefata pacta Sua Electoralis Serenitas per supramemoratos
+                    deputatos plenipotentiarios in instanti quoque ratihabet et juramento confirmat.
+                    Nos ex vi specialis mandati in animam eiusdem Sacrae Regiae Majestatis iuramus,
+                    quod Sacra Regia Maiestas praedicta pacta in omnibus articulis, punctis et
+                    clausulis observatura sit, nec iisdem sive directe sive indirecte contraventura
+                    aut contraveniri a subditis passura sit. Sic Ipsam et Nos DEUS adjuvet per haec
+                    Sancta Dei Evangelia Amen. <lb/>
+                    <lb/>Forumla Juramenti Deputatorum Electoralium <lb/>Nos Ioannes Dietericus
+                    Liber Baro ab Hoverbecke et Gotfredus Werner à Serenissimo et Potentissimo
+                    Princeps ac Domino Domino Friederico Tertio Marchione Brandenburgico Sacri
+                    Romani Imperii Archi Camerario et Principe Elector Prussiae, Magdeburgi, Juliae,
+                    Cliviae, Montium, Stetini, Pomeraniae, Cassubiorum Vandalorumque, nec non in
+                    Silesia Crosnae et Svibusae Duce, Burgravio Norimbergensis, Principe
+                    Halberstadii, Mindae et Camini, Comite de Hohenzollern, Marcae et Ravensbergi,
+                    Domino in Ravenstein, Lauenburg et Bittau ad renovationem et confirmationem
+                    pactorum , quae die decima nona septembris Velaviae tum die sexta novembris
+                    Bydgostiae anno millesimo sexcentesimo quinquagesimo septimo cum Rege et Regno
+                    Poloniae, item cum Magno Ducatu Lithuaniae Sua Serenitas Electoralis iniit.
+                    Quaeque Respublica post modum in comitiis Regni anno millesimo sexcentesimo
+                    quinquagesimo octavo sicuti nunc quoque Serenissimus et Potentissimus Princeps
+                    ac Dominus Dominus Augustus Secundus Dei gratia Rex Poloniae, Magnus Dux
+                    Lithuaniae, Russiae, Prussiae, Masoviae, Samogitiae, Kijoviae, Volhyniae,
+                    Podoliae, Podlachiae, Livoniae, Smolensciae, Severiae, Czerniechoviae, nec non
+                    Haereditarius Saxoniae, Angriae et Vestphaliae, Dux Sacri Romani Imperii, Archi
+                    Mareschalcus et Elector, Landgravius Thuringiae, Marchio,&nbsp; Misniae nec non
+                    Superioris ac Inferioris Lusatiae, Burgravius Magdeburgensis, Comes Principes
+                    Hennebergensis, Bartii Comes ratihabuit et confirmavit, deputati commissarii
+                    nomine Suae Serenitatis Electoralis vi specialis mandati iuramus. Quod Sua
+                    Serenitas Electoralis praedicta pacta in omnibus articlis, punctis et clausulis
+                    observatura sit, nec iisdem sive directe sive indirecte contraventura aut
+                    contraveniri a subditis passura sit. Sic ipsam et Nos Deus adiuvet per haec
+                    Sancta Dei Evangelia Amen. <lb/>Utque huius rei ad posteritatem constet memoria
+                    fidesque duo exemplaria eiusdem tenoris confecta manibusque ac sigillis partium
+                    propriis munita ac confirmata sunt. <lb/>Sequitur apographum mandatorum tam
+                    Sacrae Regiae Majestatis quam Suae Serenitatis Electoralis <lb/>
+                    <lb/>Nos Augustus Secundus Dei gratia Rex Poloniae, Magnus Dux Lithuaniae,
+                    Russiae, Prussiae, Masoviae, Samogitiae, Kijoviae, Volhyniae, Podoliae,
+                    Podlachiae, Livoniae, Smolensciae, Severae, Czerniechoviae, nec non
+                    Haereditarius Saxoniae, Juliae, Cliviae, Montium Angriae et Vestphaliae Dux,
+                    S[acri] R[omani] I[mperii], Archimareschalcus et Elector, Landgravius
+                    Thuringiae, Marchio, Misniae nec non Superioris ac inferioris Lusatiae,
+                    Burgravius Magdeburgensis, Comes et Princeps Hennebergensis, Comes Marcae,
+                    Ravensbergae et Bartii, Dominus in Ravenstein. Notum testatumque, facimus per
+                    praesentos. Quod cum pactis Bydgostiensibus cautum sit, ut pactu perpetuum quod
+                    Nobis et Regno Poloniae ac Magno Ducatui Lithuaniae cum Serenissimo Principe
+                    Domino Friderico Tertio Marchione Brandenburgensi S[acri] R[omani] I[mperii]
+                    Archicamerario et Electore in Prussia, Magdeburgi, Stetini, Pomeraniae,
+                    Cassubiorum, Vandalorumque nec non in Sylesia, Crosnae, Duce Burgravio
+                    Norimbergensi, Principe Halberstadii, Mindae et Camini, Comite de Hohen Zollern,
+                    Domino in Lauenburg et Bittaw, Fratre et Cognato Nostro Charissimo intercedit,
+                    quotiescunque Novus Rex Polonus electus fuerit, ab utraque parte renovetur et
+                    confirmetur, iuramento de super praestito per deputatos in animam principalium
+                    iurantes. Nos praedictis pactis satisfaciendo magnifico Francisco Galecki,
+                    Palatino Junivladislaviensi Bydgostiensi, Generoso Stanislao Warszycki,
+                    Gladifero Regni Lonciciensi Capitaneis sincere et fideliter Nobis dilectis in
+                    mandatis dedimus, ut super per memoratis pactis Bydgostiensibus iuramentum in
+                    animam Nostram praestent, atque ex altera parte per deputatos Serenissimi
+                    Electoris praestandum audiant et excipiant. Quemadmodum praesentibus hisce ipsis
+                    in iungimus, ut mediante tali iuramento pacta ista renovent et confirment,
+                    eorundemque observantiam à parte nostra promittant pro ut et hisce literis
+                    Nostris illam facultatem et plenipotentiam praedictis deputatis Nostris damus et
+                    concedimus. Ratihabentes omnes quae in hac parte iuxta pactorum tenorum acturi
+                    sunt. In cuius rei fidem hanc Nostram plenipoteniam manu Nostra subscriptam.
+                    Sigillo Regni, communiri iussimus Datum Varsaviae die quinta mensis julij anno
+                    domini millesimo sexcentesimo nonagesimo octavo Regni vero Nostri anno secundo .
+                    <lb/>Augustus Rex&nbsp;&nbsp; Stan[isław] Szczuka<note n="7" type="annotation"
+                        >Stanisław Antoni Szczuka (1654-1710), litauischer
+                    Vizekanzler.&nbsp;</note>, Referend[arius]&nbsp; et &lt;Re..&nbsp; R[e]gni&gt; <lb/>
+                    <lb/>Nos Fridericus tertius Dei gratia Marchio Brandeburgensis, Sacri Romani
+                    Imperii Archicamerarius et Princeps Elector Prussiae, Magdeburgi, Cliviae,
+                    Juliae, Montium, Stetini, Pomeraniae, Cassubiorum Vandalorumque nec non in
+                    Silesia Crosnae, Dux Burgravius Norimbergensis, Princeps Halberstadii, Mindae et
+                    Camini, Comes de Hohen Zollern, Marcae et Ravensbergi, Dominus in Ravenstein,
+                    Lauenburg et Bittow. Notum facimus et testamur praesentibus quod cum pactis
+                    Bydgostiensibus cautum sit ut foedus perpetuum quod Nobis cum Serenissimo et
+                    Potentissimo Rege inclytaque Republica Poloniae nec non Magno Ducatu Lithuaniae
+                    intercedit, quotiescunque novus Rex Electus furerit, ab utraque parte renovetur
+                    et confirmetur, iuramento in super praestito per deputatos in animam
+                    principalium iurantos. Nos praedictis tabulis satisfaciendo illustri et
+                    magnifico consiliario Nostro status intimo et ad Regiam Sacram Majestatem
+                    ablegato extraordinario sincere Nobis fideli et dilecto. Ioanni Dieterico Libero
+                    Baroni ab Hoverbeck in Eychmedien, Baranowo, Damkow et Geyerswalde, nec non
+                    Electoratus Nostri Dapifere Haereditario ut et Generoso in Aula Regiae Sacrae
+                    Maiestatis Residentis sincere nobis fideli et dilecto Godefredo Werner mandatum
+                    dederimus, ut praestito prius juramento super pactis a deputatis Regiis in
+                    animam Sacrae Regiae Majestais iuramentum istud a parte Nostra in animam nostram
+                    praestent. Quemadmodum hisce ipsis iniungimus ut mediante tali juramento pacta
+                    ista renovent, confirment, eorundemque observantiam a parte nostra promittant.
+                    Prout et hisce praesentibus illam facultatem et plenam potentiam praedictis
+                    deputatis Nostris coniunctim et separatim largimur et concedimus, ratihabentes
+                    omnes à qua hac in parte iuxta tenorem pactorum acturi sunt. In cuius rei fidem
+                    mandatum hosce Nostrum manu Nostra subscripsimus sigilloque Nostro Electorali
+                    munirir iussimus. Dabantur Regiomonti Borussorum die 10 Junii / 31 may millesimo
+                    sexcentesimo nonagesimo octavo. <lb/>Fridericus Elector&nbsp;&nbsp; &lt;… à
+                    Fuchs&gt; <lb/>
+                    <lb/>Tandem Nos a Sacra Regia Majestate, Domino Domino Nostro Clementissimo ad
+                    renovationem pactorum alte nominatorum deputati commissarii quem ad modum circa
+                    inchoationem actus praesentis solenniter et clara voce manifestati sumus.
+                    Iuramentum praestandum nihil praeiudicare Reipublicae debere neque posse,
+                    quominus Respublica et Sacra Regia Majestas Dominus Dominus Noster
+                    Clementissimus praetensiones omnes ab non satisfactionem pactis Bydgostiensibus
+                    in non ullis articlos, punctis et clausulis a Sua Serenitate Electorali mediis
+                    iis quae in pactis exstant specifici&lt;..&gt;&nbsp; servatis gradibus in iisdem
+                    expressis requirere possit, ut et nunc praestito iuramento iterato praesenti
+                    scripto protestamur et manifestamus. Quam quidem manifestationem propter
+                    memoriam et fidem majorem circa conclusionem istius instrumenti rite inter Nos
+                    commutati inseri curavimus. <lb/>Vicissim Nos à Serenissimo Electore
+                    Brandenburgico Domino Domino Nostro Clementissimo ad renovationem pactorum alte
+                    nominatorum deputati commissarii, quem ad modum circa inchoationem actus
+                    praesentis solenniter et clara voce remanifestati sumus, juramentum praestandum
+                    nihil praejudicare debere Serenissimo Electori neque posse quominus Sua
+                    Serenitas Electoralis Dominus Dominus Noster Clementissimus praetensiones omnes
+                    ob non satisfactionem pactis Bydgostiensibus in non nullis articulis, punctis et
+                    clausulis à Republica Polona mediis iis, quae in pactis exstant specificata,
+                    servatis gradibus in iisdem expressis, requirere possit. Ita nunc praestito
+                    iuramento iterato praesenti scripto protestamur et manifestamur. Quam quidem
+                    manifestationem propter memoriam et fidem majorem, circa conclusionem huius
+                    instrumenti rite inter Nos commutati inseri curavimus. Dabat in Arce Regia
+                    Varsaviensi die octava mensis julii anno Domini millesimo sexcentesimo
+                    nonagesimo octavo. <lb/>Franciscus &lt;….&gt; Palatinus &lt;…&gt; &lt;…&gt; LS
+                    <lb/>Joannes Dietericus Liber Baron ab Hoverbecke LS <lb/>Stanislaus Warszycki
+                    Ensifer Regni&nbsp; LS <lb/>&nbsp;Godefredo Werner LS <lb/>
+                </p>
+            </div>
+        </body>
+    </text>
+</tei:TEI>

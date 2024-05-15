@@ -1,0 +1,353 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE tei SYSTEM "../resources/FriVer_DTD.dtd">
+
+<?xml-model href="../resources/FriVer.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns="http://www.tei-c.org/ns/1.0"
+    xml:id="pa000299-0057">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title level="s">European peace treaties of the pre-modern era in data / Europäische
+                    Friedensverträge der Vormoderne in Daten (FriVer+)</title>
+                <title when="1762-05-22" xml:id="t57" when-custom="1762 V 22" level="a"
+                    ref="https://www.ieg-friedensvertraege.de/treaty/t-57-1-de.html">Friedensvertrag
+                    von Hamburg</title>
+            </titleStmt>
+            <editionStmt>
+                <edition> Digital edition according to <ref target="http://www.tei-c.org/">TEI
+                        P5</ref>
+                </edition>
+                <funder>
+                    <ref target="https://www.text-plus.org/">TEXT+</ref>
+                </funder>
+                <editor role="http://id.loc.gov/vocabulary/relators/edt"
+                    ref="https://orcid.org/0000-0002-8741-5916">
+                    <persName>Jaap Geraerts</persName>
+                    <note>The transformation and enrichment of the data is done by Jaap Geraerts
+                        (IEG Mainz). The other members of the FriVer+ team are Fabian Cremer, Ines
+                        Grund, and Thorsten Wübbena (all IEG Mainz).</note>
+                    <note> The original data has been created by the <ref
+                            target="https://www.ieg-friedensvertraege.de">team of scholars</ref> who
+                        were part of the Europäische Friedensverträge der Vormoderne project. This
+                        project was lead by Prof. Dr. Heinz Duchhardt and was based at the Leibniz
+                        Institute of European History in Mainz. </note>
+                </editor>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>
+                    <orgName ref="http://www.isni.org/0000000119314040">Leibniz-Institut für
+                        Europäische Geschichte Mainz</orgName>
+                </publisher>
+                <distributor>
+                    <orgName ref="http://www.isni.org/0000000110101946">Universitäts- und
+                        Landesbibliothek Darmstadt</orgName>
+                </distributor>
+                <idno type="ISIL">http://lobid.org/organisation/DE-17</idno>
+                <date type="issued" when="2023-12-23"/>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">
+                        <p xml:lang="en">This file is licensed under the terms of the Creative
+                            Commons License CC-BY 4.0 (Attribution 4.0 International)</p>
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <repository xml:id="r3">Berlin GStAPK <note>Geheimes Staatsarchiv Preußischer
+                        Kulturbesitz Berlin, Registratur-/Altsignatur: VI. HA, Nr. 867 (M) =
+                        Bestellsignatur: I. HA GR, Rep. 11 Staatsvertraege, Nr. 913. Findbuch:<lb/>
+                        <ref
+                            target="http://archivdatenbank.gsta.spk-berlin.de/midosasearch-gsta/MidosaSEARCH/i_ha_gr_rep_11_stv/index.htm?kid=GStA_i_ha_gr_rep_11_stv_56&amp;uid=GStA_i_ha_gr_rep_11_stv_I_HA_GR_Rep_11_Staatsvertraege_Nr_914"
+                            >http://archivdatenbank.gsta.spk-berlin.de ...</ref><lb/> Graphik © bpk
+                        / Geheimes Staatsarchiv, SPK</note>
+                </repository>
+                <msDesc>
+                    <p>Graphik: Unterhändlerinstrument: GSABerlin VI HA Nr. 867: Hamburg 1762 V 22
+                        (frz., Hauptvertrag mit 7 Art., 2 US, 2 LS der Bevollmächtigten Johann
+                        Julius von Hecht, Adolph Friedrich von Olthof).<lb/>
+                        <lb/> Schwedisches Exemplar: Svenska Riksarkivet Stockholm, Tykland III, N:o
+                        35, A): Fredsfördrag. Hamburg 1762 V 22 (franska; Undert.: Adolph Frederic
+                        d' Olthof, för Sverge; Jean Jules de Hecht, för Preussen).<lb/>
+                        <lb/> Ratifikation:<lb/> GSABerlin VI HA Nr. 868: Ratifikation Schweden;
+                        Stockholm 1762 VI 3 (Siegel fehlt, Perg., Fol 1-5).<lb/> Svenska
+                        Riksarkivet, Tyskland III, N:o 35, D): Konung Adolf Fredriks ratifikation af
+                        d:o; Stockholm 1762 VI 3 (franska).<lb/>
+                        <lb/> Ratifikation Preußen: [Ort unklar] 1762 V 29 [Nachweis fehlt]. </p>
+                    <p>Kopien und Konzepte: SHSADresden 375 Loc 18: C.</p>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p> The data in this XML file, originally created by the project <ref
+                        target="https://www.ieg-friedensvertraege.de/vertraege">Europäische
+                        Friedensverträge der Vormoderne online</ref> has been transformed in
+                    accordance with <ref target="http://www.tei-c.org/">TEI P5</ref> as part of the
+                    project <ref
+                        target="https://www.ieg-mainz.de/en/research/research-projects/european-peace-treaties-of-the-pre-modern-era-in-data"
+                        >Europäische Friedensverträge der Vormoderne in Daten (FriVer+)</ref>
+                </p>
+            </projectDesc>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="fr" xml:id="lan4">französisch</language>
+            </langUsage>
+        </profileDesc>
+    </teiHeader>
+    <standOff>
+        <listPerson>
+            <person role="signatory" xml:id="p93">
+                <persName ref="https://explore.gnd.network/gnd/4047194-9">
+                    <name>Preußen</name>
+                </persName>
+            </person>
+            <person role="signatory" xml:id="p99">
+                <persName ref="https://explore.gnd.network/gnd/4077258-5">
+                    <name>Schweden</name>
+                </persName>
+            </person>
+            <person role="signatory" xml:id="pp0029">
+                <persName ref="https://explore.gnd.network/gnd/118535749">
+                    <name>Frederick the Great</name>
+                </persName>
+            </person>
+            <person xml:id="pp0030">
+                <persName ref="https://explore.gnd.network/gnd/116008652">
+                    <name>Adolf Frederick of Sweden</name>
+                </persName>
+            </person>
+            <person xml:id="pp0031">
+                <persName ref="https://explore.gnd.network/gnd/1074313755">
+                    <name>Johann Julius von Hecht</name>
+                </persName>
+            </person>
+            <person xml:id="pp0019">
+                <persName ref="https://explore.gnd.network/gnd/118577867">
+                    <name>Maria Theresia</name>
+                </persName>
+            </person>
+            <person xml:id="pp0083">
+                <persName ref="https://explore.gnd.network/gnd/129978175">
+                    <name>Adolf Friedrich von Olthof</name>
+                </persName>
+            </person>
+        </listPerson>
+        <listPlace>
+            <place xml:id="l35">
+                <placeName ref="https://explore.gnd.network/gnd/4023118-5">Hamburg</placeName>
+            </place>
+        </listPlace>
+        <facsimile>
+            <surface xml:id="FacsPnr1">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_4390363d4492a"/>
+            </surface>
+            <surface xml:id="FacsPnr2">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_4390367297949"/>
+            </surface>
+            <surface xml:id="FacsPnr3">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_439036a7b7518"/>
+            </surface>
+            <surface xml:id="FacsPnr4">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_439036db819b8"/>
+            </surface>
+            <surface xml:id="FacsPnr5">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_43903708337b8"/>
+            </surface>
+            <surface xml:id="FacsPnr6">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_43903733e5b66"/>
+            </surface>
+        </facsimile>
+    </standOff>
+    <text>
+        <front>
+            <div type="Drucke">
+                <p>CTS 42, S. 163/165-170. Wenck, Codex 3, S. 307-13. Herzberg, Receuil des
+                    D&#233;ductions 1, S. 295. Martens, Receuil de Trait&#233;s (2. Ausgabe,
+                    G&#246;ttingen 1817), S. 37-42 [Band 1, S. 9]. Bo&#235;thius, Sverges Traktater
+                    8, S. 831. Martens/de Cussy, Receuil Manuel et Practique des Trait&#233;s 1, S.
+                    25. <lb/></p>
+            </div>
+            <div type="Inhalt">
+                <p>Pr&#228;ambel <lb/>Art. 1&nbsp;&#220;ber den Frieden und die Freundschaft.
+                    Erkl&#228;rung, weder direkte oder indirekte, geheime oder &#246;ffentliche
+                    Feindseligkeiten auszu&#252;ben. <lb/>Art. 2&nbsp;Amnestie und allgemeines
+                    Vergessen. <lb/>Art. 3&nbsp;Beendigung der Feindseligkeiten auf der Grundlage
+                    des Waffenstillstandes von Ribnitz (1762 IV 7). R&#228;umung besetzter Gebiete
+                    und Festungen. Best&#228;tigung des Friedens von Stockholm (1720 I 21/II 1)
+                    <lb/>Art. 4&nbsp;Herstellung des freien Handels zu Wasser und zu Lande.
+                    <lb/>Art. 5&nbsp;Erkl&#228;rung, sich nicht in derzeit ausgetragenen
+                    milit&#228;rischen Auseinandersetzungen, an denen der Vertragspartner beteiligt
+                    ist, einzumischen. <lb/>Art. 6&nbsp;Bestimmungen &#252;ber Gefangene. <lb/>Art.
+                    7&nbsp;Ratifikation. <lb/>
+                </p>
+            </div>
+        </front>
+        <body>
+            <div type="Edition">
+                <p>Au nom de la Très Sainte Trinité <lb/>Sa <rs ref="pp0029"
+                    >Majesté Le Roi<note type="crit_app"
+                        n="1">Sverges Traktater: Roy (auch im Folgenden).</note> de Prusse</rs> et <rs ref="pp0030">Sa Majesté le Roi de Suede</rs> étant<note
+                        type="crit_app" n="2">Sverges Traktater: Sa Majesté le Roy de Suede et Sa
+                        Majesté le Roy de Prusse; CTS, Wenck: Suéde (auch im Folgenden).</note>
+                        egalement<note type="crit_app" n="3">CTS, Wenck: également.</note>
+                        animées<note type="crit_app" n="4">Sverges Traktater: animés.</note> d´un
+                        desir<note type="crit_app" n="5">CTS, Wenck: désir.</note> sincère<note
+                        type="annotation" n="6">Sverges Traktater: sincere (auch im
+                        Folgenden).</note> de rétablir la paix, l´ancienne bonne harmonie et étroite
+                        intelligence<note type="crit_app" n="7">Ausfertigung (GSABerlin VI HA Nr.
+                        876): alliance. [Unterstreichung im Text: über ''alliance''
+                        ''intelligence'']; CTS: intelligence. Sverges Traktater: Alliance.</note>
+                    qui a subsité autre fois entre Leurs Maisons Royales, Royaumes, Etats<note
+                        type="crit_app" n="8">Sverges Traktater: Etâts.</note>, Pais<note
+                        type="crit_app" n="9">UI: ''i'' statt ''y''.</note> et Sujets<note
+                        type="crit_app" n="10">Sverges Traktater: Sujèts.</note> respectifs et qui
+                    s´est trouvée malheureusement interrompue à l´occasion de la presente<note
+                        type="crit_app" n="11">CTS, Wenck: présente (auch im Folgenden).</note>
+                    guerre d´Allemagne<note type="annotation" n="12">Siebenjähriger Krieg (3.
+                        Schlesischer Krieg) 1756-1763.</note>, Leurs susdites Majestés ont trouvé à
+                    propos de nommer et d´autoriser<note type="crit_app" n="13">Sverges Traktater:
+                        dauthoriser.</note> Leurs Ministres de part et d´autre<note type="crit_app"
+                        n="14">Martens: d´autorisé de part et d´autre.</note> pour travailler à un
+                    ouvrage si salutaire, savoir, de la part de Sa Majesté le Roi de Prusse le Sr.
+                        <rs ref="pp0031">Jean Jules de Hecht</rs>, Conseiller privé et Ministre
+                        Resident<note type="crit_app" n="15">CTS, Wenck: Résident.</note> de Sadite
+                    Majesté dans le Cercle de la basse Saxe - et de la part de Sa Majesté et de la
+                    Couronne de Suede le Sr. Adolph Frederic<note type="crit_app" n="16">CTS, Wenck:
+                        Fréderic.</note> d´Olthof<note type="annotation" n="17">Sachanmerkung: Adolf
+                        Friedrich von Olthoff (auch: Althof, Olthof), schwedisch-pommerscher
+                        Regierungsrat. Textvariante: CTS, Martens, Wenck: Olthoff.</note>,
+                    Conseiller de la Régence en Pomeraine<note type="crit_app" n="18">CTS:
+                        Poméranie.</note>. Lesquels<note type="crit_app" n="19">Sverges Traktater:
+                        Sa Majesté et de la Couronne de Suede, le S:r Adolphe Frederic dOlthof [...]
+                        dans le Cercle de la Basse-Saxe.</note>, après être entrés en Conférence
+                    dans la ville de Hambourg et s´être duement communiqué<note type="crit_app"
+                        n="20">CTS, Martens, Wenck: communiqués.</note> leurs pleinpouvoirs en bonne
+                    forme, sont convenus des articles suivants<note type="crit_app" n="21">CTS,
+                        Wenck: suivans.</note> d´un Traité de paix, de réconciliation et d´amitié.
+                    <lb/>Art I <lb/>Il y aura désormais et à perpétuité une paix inviolable tant par
+                    mer que par terre et une amitié sincère et constante entre Sa Majesté le Roi de
+                    Prusse d´une part et Sa Majesté le Roi et la Couronne de Suede d´autre part<note
+                        type="crit_app" n="22">Sverges Traktater: [Schweden wird vor Preußen
+                        genannt; auch im Folgenden].</note> et entre Leurs Héritiers, Successeurs,
+                    Royaumes, Etats, Païs, Sujets et Vassaux, en sorte qu´à l´avenir les deux hautes
+                    Parties contractantes ne commettront, ni<note type="crit_app" n="23">Sverges
+                        Traktater: ny (auch im Folgenden).</note> permettront, qu´il se commette
+                    aucune sorte d´hostilité de part et d´autre secrètement ou publiquement. Elles
+                    ne donneront non plus aucun secours aux ennemis d´une des parties contractantes
+                    directement ou indirectement pour quelque cause et sous quelque pretexte<note
+                        type="crit_app" n="24">CTS, Wenck: prétexte (auch im Folgenden).</note> que
+                    ce puissse être<note type="crit_app" n="25">Sverges Traktater: étre.</note> et
+                    ne feront avec eux aucune alliance, qui soit contraire à cette paix, dérogeant
+                    même à celles, qui de part et d´autre pourroient avoir été faites par le passé,
+                    en tant, qu´elles seroient opposées aux presens engagemens<note type="crit_app"
+                        n="26">Sverges Traktater: engagements.</note>, et Elles entretiendront
+                    toujours une amitié indissoluble, et tâcheront de maintenir et d´avancer leurs
+                        interêts<note type="crit_app" n="27">Sverges Traktater: interets; Wenck:
+                        intérêts.</note> réciproques, et de détourner tout ce, qui<note
+                        type="crit_app" n="28">Martens: que.</note> pourroit Leur être
+                    préjudiciable. <lb/>Art. II <lb/>Il y aura entre Leurs Susdites Majestés et
+                    Leurs Etats, Païs et Sujets respectifs une amnestie et un Oubli éternel de tout
+                    ce, qui s´est passé à l´occasion de la presente guerre et il n´en sera jamais
+                    plus fait mention ni demandé aucune satisfaction. Personne ne sera aussi
+                    inquiété à cause des avocatoires publiés de part et d´autre, ni sous quelque
+                        autre<note type="crit_app" n="29">CTS, Wenck: quelqu´autre.</note> pretexte.
+                    <lb/>Art. III <lb/>Les hostilités ayant déjà cessé de part et d´autre par
+                    l´armistice conclû<note type="crit_app" n="30">CTS, Wenck, Sverges Traktater:
+                        conclu.</note> à Ribnitz le 7e d´Avril<note type="annotation" n="31">Der
+                        Waffenstillstand wurde für drei Monate geschlossen (abgedruckt in CTS und
+                        Wenck).</note>, Sa <rs ref="pp0030">Majesté le Roi de Suede</rs> s´engage de faire entièrement
+                    évacuer dans l´espace de quinze jours au plus tard, à compter du jour de la
+                    signature du present Traité de paix, tous les Etats, Païs, Villes, Places et
+                    Forteresses, apartenant<note type="crit_app" n="32">CTS: appartenantes. Sverges
+                        Traktater: appartenant.</note> à <rs ref="pp0029">Sa Majesté le Roi de
+                            Prusse</rs>, qui ont été
+                    occupées par les trouppes<note n="33" type="crit_app">CTS, Martens, Wenck;
+                        Sverges Traktater: troupes (auch im Folgenden).</note> suedoises pendant le
+                    cours de cette guerre et de les restituer à Sa dite <rs ref="pp0029">Majesté le
+                        Roi de Prusse</rs>, de
+                    sorte que les limites et possessions réciproques seront retablies<note n="34"
+                        type="crit_app">GSABerlin VI HA Nr.876: etablies [Textrand: Korrektur in
+                        ''retablies'']. CTS, Wenck: rétablies.</note> sur le pied où elles ont été
+                    avant la presente guerre et en conformité du Traité de paix <note n="35"
+                        type="crit_app">CTS: [Auslassung:] de paix.</note>
+                    <!--  <u><ref target="likecms.php?site=friede/site%2Ehtm&amp;nav=6&amp;siteid=15&amp;vertrag=8"><u><font color="#000000">
+                    conclu à Stockholm de l´année</font></u></ref></u> -->
+                    conclu à Stockholm de l´année 1720<note type="annotation" n="36">Sachanmerkung:
+                        Der Friedensvertrag zwischen Preußen und Schweden (Stockholm 1720 I 21/II 1)
+                        beendete die preußisch-schwedische Auseinandersetzung innerhalb des Großen
+                        Nordischen Krieges (1700-1721). Schweden trat pommersche Gebiete (Stettin)
+                        an Preußen ab. Textvariante: Sverges Traktater: Mille Sept Cent
+                        vingt.</note> bi qui servira de base et de fondement au present Traité de
+                    paix, et qui pour cet effet est renouvellé et confirmé dans la meilleure forme
+                    et comme s´il étoit inséré ici mot à mot<note type="crit_app" n="37">Sverges
+                        Traktater: môt à môt; Wenck, CTS: mot pour mot.</note>. <lb/>Art. IV <lb/>On
+                    rétablira également de part et d´autre, le libre commerce par terre et par mer,
+                    et en général tout ce, qui regarde le voisinage et la bonne correspondence<note
+                        type="crit_app" n="38">CTS, Martens, Wenck: Correspondance.</note> des
+                    sujets respectifs, et on remettra les choses à tous ces égards sur le pied, où
+                    elles ont été avant la presente guerre. <lb/>Art. V <lb/>Comme la guerre, dans
+                    laquelle Sa <rs ref="pp0029">Majesté le Roi de Prusse</rs> se trouve impliquée avec <rs ref="pp0019"
+                        >Sa Majesté l´Impératrice-Reine</rs> et avec d´autres Puissances<note
+                        type="annotation" n="39">Preußen (verbündet mit Hannover, England, Hessen)
+                        stand gegen Österreich und dessen Bündnispartner Russland, Sachsen, Schweden
+                        und Frankreich.</note> dure encore, Sa <rs ref="pp0030">Majesté le Roi et la Couronne de
+                    Suede</rs> promet de la maniere la plus solemnelle, de ne plus prendre aucune part à
+                    cette guerre contre Sa <rs ref="pp0029">Majesté le Roi de Prusse
+                        </rs>, ni comme guarante<note
+                        type="crit_app" n="40">CTS, Martens, Wenck: Garante.</note> de la paix de
+                    Westphalie, ni sous quelque autre pretexte ou dénomination, que ce puisse être,
+                    et de ne fournir aucun secours aux Ennemis de Sa dite <rs ref="pp0029">Majesté
+                        Prussienne</rs> ni
+                    directement ni indirectement, mais d´observer à tous égards une exacte et
+                    parfaite neutralité pendant tout le tems, que cette guerre pourra encore durer.
+                    A tout autre égard, Sa <rs ref="pp0030">Majesté le Roi et<note type="crit_app" n="41">CTS, Wenck:
+                        S.M. et.</note> la Couronne de Suede</rs> se reservent<note type="annotation"
+                        n="42">Sverges Traktater: reserve; CTS, Wenck: réservent</note> la qualité
+                    de guarant<note type="crit_app" n="43">CTS, Martens, Wenck, Sverges Traktater:
+                        Garant.</note> de la paix de Westphalie, avec tous les droits, prérogatives
+                    et avantages qui en dépendent. <lb/>Art. VI <lb/>Tous les prisonniers et otages
+                    de part et d´autre seront d´abord élargis sans aucune rançon. Toutes les
+                    contributions et exactions cesseront du jour de la signature de ce traité de
+                    paix, de même que celles, qui ayant été imposées ci-devant pourroient encore
+                    être arriérées, et tout ce, qui pourroit être exigé et extorqué après la
+                    signature de ce traité, sera rendu. <lb/>Art. VII <lb/>L´echange des
+                    Ratifications du present Traité de paix se fera à Hambourg dans l´espace de
+                    quatre semaines, à compter du jour de la signature de ce traité, ou plutôt, s´il
+                    est possible. <lb/>En foy<note type="crit_app" n="44">Sverges Traktater:
+                        foi.</note> de quoi nous sousignés Commissaires de Sa Majesté le Roi de
+                    Prusse, et de <rs ref="pp0030">Sa Majesté le Roi et de la Couronne de Suede</rs>, en vertu de nos
+                        Pleinpouvoirs<note type="crit_app" n="45">Sverges Traktater:
+                        Pleinpouvouirs.</note>, avons signé ce present Traité de paix et d´amitié et
+                    y avons fait apposer les cachets de nos Armes. <lb/>Fait à Hambourg, ce<note
+                        type="crit_app" n="46">Sverges Traktater: le.</note> vingt deux<note
+                        type="crit_app" n="47">Sverges Traktater: Deuxieme.</note> du mois de<note
+                        type="crit_app" n="48">Sverges Traktater: [Auslassung:] du mois.</note>
+                        Mai<note type="crit_app" n="49">Sverges Traktater: May.</note>, l´an<note
+                        type="crit_app" n="50">Sverges Traktater: [Einschub:] de grace.</note>
+                        mil<note type="crit_app" n="51">Sverges Traktater: Mille.</note> sept cent
+                    soixante deux<note type="crit_app" n="52">Sverges Traktater : [Einschub:]
+                        et.</note>. <lb/>2 LS <rs ref="pp0031">Jean Jules de Hecht</rs>, 
+                    <rs ref="pp0083">Adolph Frederic d´Olthof</rs><note
+                        type="crit_app" n="53">CTS, Martens, Wenck: dOlthoff. Sverges Traktater:
+                        [Olthof vor Hecht].</note>
+                </p>
+            </div>
+
+        </body>
+        <back>
+            <listBibl>
+                <bibl>Bein, Schlesien in der Habsburger Politik, Sigmaringen 1994. Lindner, Die
+                    Peripetie des Siebenjährigen Krieges, Berlin 1993. Archenholtz, Geschichte des
+                    Siebenjährigen Krieges, Berlin 1893. Die Kriege Friedrichs des Großen, hg. vom
+                    Großen Generalstab, 3: Der Siebenjährige Krieg, 1901-1914. Kunisch, Das Mirakel
+                    des Hauses Brandenburg: Studien zum Verhältnis von Kabinettspolitik und
+                    Kriegführung im Zeitalter des Siebenjährigen Krieges, München/Wien 1978.
+                    Duchhardt, Zeitalter des Absolutismus, besonders S. 228-232, S. 253-255 (mit
+                    weiterführender Literatur). Sundberg, Svenska freder och stillestånd, S.
+                    327-329. Seitz / Rosengren, Sveriges freder och fördrag, S. 104f. </bibl>
+            </listBibl>
+        </back>
+    </text>
+</tei:TEI>

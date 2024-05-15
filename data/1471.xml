@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE tei SYSTEM "../resources/FriVer_DTD.dtd">
+
+<?xml-model href="../resources/FriVer.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns="http://www.tei-c.org/ns/1.0" xml:id="pa000299-1471">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title level="s">European peace treaties of the pre-modern era in data / Europäische Friedensverträge der Vormoderne in Daten (FriVer+)</title>
+                <title when="1686-05-06" xml:id="t1471" when-custom="1686 IV 26 / V 6" level="a" ref="https://www.ieg-friedensvertraege.de/treaty/t-1471-1-de.html">Ewiger Friede von Moskau</title>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    Digital edition according to
+                    <ref target="http://www.tei-c.org/">TEI P5</ref>
+                </edition>
+                <funder>
+                    <ref target="https://www.text-plus.org/">TEXT+</ref>
+                </funder>
+                <editor role="http://id.loc.gov/vocabulary/relators/edt" ref="https://orcid.org/0000-0002-8741-5916">
+                    <persName>Jaap Geraerts</persName>
+                    <note>The transformation and enrichment of the data is done by Jaap Geraerts (IEG Mainz). The other members of the FriVer+ team are Fabian Cremer, Ines Grund, and Thorsten Wübbena (all IEG Mainz).</note>
+                    <note>
+                        The original data has been created by the
+                        <ref target="https://www.ieg-friedensvertraege.de">team of scholars</ref>
+                        who were part of the Europäische Friedensverträge der Vormoderne project. This project was lead by Prof. Dr. Heinz Duchhardt and was based at the Leibniz Institute of European History in Mainz.
+                    </note>
+                </editor>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>
+                    <orgName ref="http://www.isni.org/0000000119314040">Leibniz-Institut für Europäische Geschichte Mainz</orgName>
+                </publisher>
+                <distributor>
+                    <orgName ref="http://www.isni.org/0000000110101946">Universitäts- und Landesbibliothek Darmstadt</orgName>
+                </distributor>
+                <idno type="ISIL">http://lobid.org/organisation/DE-17</idno>
+                <date type="issued" when="2023-12-23"/>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">
+                        <p xml:lang="en">This file is licensed under the terms of the Creative Commons License CC-BY 4.0 (Attribution 4.0 International)</p>
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <repository xml:id="r30">Warschau AGAD</repository>
+                <msDesc><p>AGADWarschau : AKW dz. Rosyjskie 23-1 (Ratifikation Russlands, 1686 VI 18)</p>
+                    <p>[Abbildung steht aus.]</p></msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>
+                    The data in this XML file, originally created by the project
+                    <ref target="https://www.ieg-friedensvertraege.de/vertraege">Europäische Friedensverträge der Vormoderne online</ref>
+                    has been transformed in accordance with
+                    <ref target="http://www.tei-c.org/">TEI P5</ref>
+                    as part of the project
+                    <ref target="https://www.ieg-mainz.de/en/research/research-projects/european-peace-treaties-of-the-pre-modern-era-in-data">Europäische Friedensverträge der Vormoderne in Daten (FriVer+)</ref>
+                </p>
+            </projectDesc>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="pl" xml:id="lan8">polnisch</language>
+            </langUsage>
+        </profileDesc>
+    </teiHeader>
+    <standOff>
+        <listPerson>
+            <person role="signatory" xml:id="p91">
+                <persName ref="https://explore.gnd.network/gnd/4046496-9">
+                    <name>Polen</name>
+                </persName>
+            </person>
+            <person role="signatory" xml:id="p9">
+                <persName ref="https://explore.gnd.network/gnd/4076899-5">
+                    <name>Russland</name>
+                </persName>
+            </person>
+        </listPerson>
+        <listPlace>
+            <place xml:id="loc74">
+                <placeName ref="https://explore.gnd.network/gnd/4074987-3">Moskau</placeName>
+            </place>
+        </listPlace>
+    </standOff>
+    <text>
+        <back>
+            <listBibl>
+                <bibl xml:id="a120">
+                    <title level="a">Theatrum Europaeum (1686-05-06)</title>
+                    <title level="m">Theatrum Europaeum, Band 12 (1679 - 1686) Aus: Dokumentenarchiv der Universitätsbibliothek Augsburg (Drucke vor 1900 / Historische Geschichtswerke).</title>
+                    <biblScope>
+                        <graphic xml:id="A1Pnr1" url="https://www.ieg-friedensvertraege.de/dbimages/img_4a07de1402c7a"/>
+                        <graphic xml:id="A1Pnr2" url="https://www.ieg-friedensvertraege.de/dbimages/img_4a07de1a1747a"/>
+                    </biblScope>
+                </bibl>
+            </listBibl>
+        </back>
+    </text>
+</tei:TEI>

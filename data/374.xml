@@ -1,0 +1,294 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE tei SYSTEM "../resources/FriVer_DTD.dtd">
+
+<?xml-model href="../resources/FriVer.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns="http://www.tei-c.org/ns/1.0" xml:id="pa000299-0374">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title level="s">European peace treaties of the pre-modern era in data / Europäische Friedensverträge der Vormoderne in Daten (FriVer+)</title>
+                <title when="1559-04-03" xml:id="t374" when-custom="1559 IV 3" level="a" ref="https://www.ieg-friedensvertraege.de/treaty/t-374-1-de.html">Friedensvertrag von Cateau - Cambrésis</title>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    Digital edition according to
+                    <ref target="http://www.tei-c.org/">TEI P5</ref>
+                </edition>
+                <funder>
+                    <ref target="https://www.text-plus.org/">TEXT+</ref>
+                </funder>
+                <editor role="http://id.loc.gov/vocabulary/relators/edt" ref="https://orcid.org/0000-0002-8741-5916">
+                    <persName>Jaap Geraerts</persName>
+                    <note>The transformation and enrichment of the data is done by Jaap Geraerts (IEG Mainz). The other members of the FriVer+ team are Fabian Cremer, Ines Grund, and Thorsten Wübbena (all IEG Mainz).</note>
+                    <note>
+                        The original data has been created by the
+                        <ref target="https://www.ieg-friedensvertraege.de">team of scholars</ref>
+                        who were part of the Europäische Friedensverträge der Vormoderne project. This project was lead by Prof. Dr. Heinz Duchhardt and was based at the Leibniz Institute of European History in Mainz.
+                    </note>
+                </editor>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>
+                    <orgName ref="http://www.isni.org/0000000119314040">Leibniz-Institut für Europäische Geschichte Mainz</orgName>
+                </publisher>
+                <distributor>
+                    <orgName ref="http://www.isni.org/0000000110101946">Universitäts- und Landesbibliothek Darmstadt</orgName>
+                </distributor>
+                <idno type="ISIL">http://lobid.org/organisation/DE-17</idno>
+                <date type="issued" when="2023-12-23"/>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">
+                        <p xml:lang="en">This file is licensed under the terms of the Creative Commons License CC-BY 4.0 (Attribution 4.0 International)</p>
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <repository xml:id="r22">Paris AAE
+                    <note>Trait&eacute;s et Accords de la France:<lb />
+                        <ref target="http://www.diplomatie.gouv.fr/traites/affichetraite.do?accord=TRA15590001" >http://www.diplomatie.gouv.fr/traites/affichetraite.do?accord=TRA15590001</ref></note>
+                </repository>
+                <msDesc><p>Spanien: Ministerio de Cultura, Archivo General de Simancas Estado K 1643 (18) (Kopie) 
+                </p> 
+                <p>Weitere Stücke: 
+                <lb />AAE Paris: M.A.E. Traités Espagne 15590001. Traité de paix.- Cateau-Cambrésis, 3 avril 1559. Siehe auch:  
+                <ref target="http://www.doc.diplomatie.gouv.fr/BASIS/choiseul/desktop/choiseul/DDW?M=12&amp;K=15590001&amp;W=DATEEXACTE+%3D+14500101%3A17891231+AND+PAYS+%3D+%27Espagne%27+ORDER+BY+EVERY+DATEEXACTE/Ascend">Link zur Vertragsseite 
+                </ref></p></msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>
+                    The data in this XML file, originally created by the project
+                    <ref target="https://www.ieg-friedensvertraege.de/vertraege">Europäische Friedensverträge der Vormoderne online</ref>
+                    has been transformed in accordance with
+                    <ref target="http://www.tei-c.org/">TEI P5</ref>
+                    as part of the project
+                    <ref target="https://www.ieg-mainz.de/en/research/research-projects/european-peace-treaties-of-the-pre-modern-era-in-data">Europäische Friedensverträge der Vormoderne in Daten (FriVer+)</ref>
+                </p>
+            </projectDesc>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="es" xml:id="lan13">spanisch</language>
+            </langUsage>
+        </profileDesc>
+    </teiHeader>
+    <standOff>
+        <listPerson>
+            <person role="signatory" xml:id="p37">
+                <persName ref="https://explore.gnd.network/gnd/4018145-5">
+                    <name>Frankreich</name>
+                </persName>
+            </person>
+            <person role="signatory" xml:id="p34">
+                <persName ref="https://explore.gnd.network/gnd/4055964-6">
+                    <name>Spanien</name>
+                </persName>
+            </person>
+        </listPerson>
+        <listPlace>
+            <place xml:id="loc138">
+                <placeName ref="https://explore.gnd.network/gnd/4250402-8">Cateau - Cambrésis</placeName>
+            </place>
+        </listPlace>
+        <facsimile>
+            <surface xml:id="FacsPnr1">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_473b1c00ec194"/>
+            </surface>
+            <surface xml:id="FacsPnr2">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_473b1c13a6bab"/>
+            </surface>
+            <surface xml:id="FacsPnr3">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_473b1c1fc1132"/>
+            </surface>
+            <surface xml:id="FacsPnr4">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_473b1c2d6158c"/>
+            </surface>
+            <surface xml:id="FacsPnr5">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_473b1c42ecf51"/>
+            </surface>
+            <surface xml:id="FacsPnr6">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_473b1c5140148"/>
+            </surface>
+            <surface xml:id="FacsPnr7">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_473b1c5f7f880"/>
+            </surface>
+            <surface xml:id="FacsPnr8">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_473b1c6e46dd3"/>
+            </surface>
+            <surface xml:id="FacsPnr9">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_473b1c80b240c"/>
+            </surface>
+            <surface xml:id="FacsPnr10">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_473b1c8d8e18e"/>
+            </surface>
+            <surface xml:id="FacsPnr11">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_473b1c9c73b40"/>
+            </surface>
+            <surface xml:id="FacsPnr12">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_473b1cac3720d"/>
+            </surface>
+            <surface xml:id="FacsPnr13">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_473b1cb92c5ce"/>
+            </surface>
+            <surface xml:id="FacsPnr14">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_473b1ccab8f4e"/>
+            </surface>
+            <surface xml:id="FacsPnr15">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_473b1cd78feb2"/>
+            </surface>
+            <surface xml:id="FacsPnr16">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_473b1ce812e36"/>
+            </surface>
+            <surface xml:id="FacsPnr17">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_473b1cfa592b1"/>
+            </surface>
+            <surface xml:id="FacsPnr18">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_473b1d11beb04"/>
+            </surface>
+            <surface xml:id="FacsPnr19">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_473b1d20022fe"/>
+            </surface>
+            <surface xml:id="FacsPnr20">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_473b1d30dce7f"/>
+            </surface>
+            <surface xml:id="FacsPnr21">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_473b1d5292a0a"/>
+            </surface>
+            <surface xml:id="FacsPnr22">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_473b1d5fa6228"/>
+            </surface>
+            <surface xml:id="FacsPnr23">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_473b1d6e3ca3e"/>
+            </surface>
+            <surface xml:id="FacsPnr24">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_473b1d7ab6b02"/>
+            </surface>
+            <surface xml:id="FacsPnr25">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_473b1d89be793"/>
+            </surface>
+            <surface xml:id="FacsPnr26">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_473b1d96d0073"/>
+            </surface>
+            <surface xml:id="FacsPnr27">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_473b1da421333"/>
+            </surface>
+            <surface xml:id="FacsPnr28">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_473b1db1b1b4e"/>
+            </surface>
+            <surface xml:id="FacsPnr29">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_473b1dbfd6ca5"/>
+            </surface>
+            <surface xml:id="FacsPnr30">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_473b1dce8a97a"/>
+            </surface>
+            <surface xml:id="FacsPnr31">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_473b1ddba4efb"/>
+            </surface>
+            <surface xml:id="FacsPnr32">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_473b1de7adb45"/>
+            </surface>
+            <surface xml:id="FacsPnr33">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_473b1df6452fb"/>
+            </surface>
+            <surface xml:id="FacsPnr34">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_473b1e0263705"/>
+            </surface>
+            <surface xml:id="FacsPnr35">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_473b1e1198258"/>
+            </surface>
+            <surface xml:id="FacsPnr36">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_473b1e20309af"/>
+            </surface>
+            <surface xml:id="FacsPnr37">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_473b1e2dd2b0d"/>
+            </surface>
+            <surface xml:id="FacsPnr38">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_473b1e3c71fc3"/>
+            </surface>
+            <surface xml:id="FacsPnr39">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_473b1e51ae7e9"/>
+            </surface>
+            <surface xml:id="FacsPnr40">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_47432343e8edb"/>
+            </surface>
+            <surface xml:id="FacsPnr41">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_4743237cc2bae"/>
+            </surface>
+            <surface xml:id="FacsPnr42">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_474323f365b8b"/>
+            </surface>
+            <surface xml:id="FacsPnr43">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_474324382afde"/>
+            </surface>
+            <surface xml:id="FacsPnr44">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_474328d4d198d"/>
+            </surface>
+            <surface xml:id="FacsPnr45">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_4743290f1bd79"/>
+            </surface>
+            <surface xml:id="FacsPnr46">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_47432946092df"/>
+            </surface>
+            <surface xml:id="FacsPnr47">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_47432a4812708"/>
+            </surface>
+            <surface xml:id="FacsPnr48">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_47432a80b375f"/>
+            </surface>
+            <surface xml:id="FacsPnr49">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_473b1fe3907d3"/>
+            </surface>
+            <surface xml:id="FacsPnr50">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_473b1ff8482fd"/>
+            </surface>
+            <surface xml:id="FacsPnr51">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_47432ad9671d7"/>
+            </surface>
+            <surface xml:id="FacsPnr52">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_47432b2698c4a"/>
+            </surface>
+            <surface xml:id="FacsPnr53">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_47432b54e2e55"/>
+            </surface>
+            <surface xml:id="FacsPnr54">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_47432b74d42f6"/>
+            </surface>
+        </facsimile>
+    </standOff>
+    <text>
+        <front>
+            <div type="Drucke"><p>DUM V/I S. 34-41.
+            <ref target="likecms.php?site=site.htm&amp;dir=&amp;nav=85&amp;siteid=133&amp;treaty=374&amp;page=1&amp;lastsiteid=76&amp;sq=%26is_fts%3D1%26filter_select%3D%26filter_wt%3D%26filter_id%3D%26filter_l%3D%26filter_p%3D%26searchlang%3Dde%26searchstring%3Dquestia%26date%3D%26year_from%3D%26year_till%3D%26location%3D"></ref>
+            <ref target="http://gallica.bnf.fr/ark:/12148/bpt6k122957c.zoom.f73.langFR">Link zum Druck auf gallica.bnf.fr</ref> 
+        </p> 
+            <p>LEO II, S. 535f. USU S. 181-200.&nbsp; 
+            </p>
+            <p>SOL I, S. 12-44&nbsp; 
+          <ref target="http://gallica.bnf.fr/ark:/12148/bpt6k93775c.image.f21.langEN">Link zum Druck auf gallica.bnf.fr</ref>
+            </p></div></front>
+        <back>
+            <listBibl>
+                <bibl>DAV S. 219-221. <ref target="likecms.php?site=site.htm&amp;dir=&amp;nav=85&amp;siteid=133&amp;treaty=374&amp;page=1&amp;lastsiteid=76&amp;sq=%26is_fts%3D1%26filter_select%3D%26filter_wt%3D%26filter_id%3D%26filter_l%3D%26filter_p%3D%26searchlang%3Dde%26searchstring%3Dquestia%26date%3D%26year_from%3D%26year_till%3D%26location%3D">
+                <ref target="http://www.questia.com/read/23629042?title=21.*%3a%20*Treaty%20between%20France%20and%20Spain%2c%20concluded%20at%20Cateau-%20Cambr%C3%A9sis%2c%20April%203%2c%201559.%20Oral%20agreement%20concerning%20the%20Indies.%20">Link zu questia.com</ref>
+                    <ref target="http://www.questia.com/read/23629042?title=21.*%3a%20*Treaty%20between%20France%20and%20Spain%2c%20concluded%20at%20Cateau-%20Cambr%C3%A9sis%2c%20April%203%2c%201559.%20Oral%20agreement%20concerning%20the%20Indies."></ref>
+                </ref>
+                    <lb />Elliott, John H., La Europa dividida (1559-1598), Barcelona 2002.
+                    <lb />Fernández Álvarez, Manuel, La paz de Cateau-Cambresis, in: Hispania XIX, 1959, S. 530-544.
+                    <lb />Fernández Álvarez, Manuel, La paz de Cateau-Cambresis, in: Poder y sociedad en la España del Quinientos, Madrid 1995.
+                    <lb />Fernández Álvarez, Manuel, Felipe II y su tiempo, Madrid 1998.
+                    <lb />Kamen, Henry, Philipp of Spain, London 1997.
+                    <lb />Lynch, John, España bajo los Austrias. I. Imperio y absolutismo (1516-1598), Madrid 1982.
+                    <lb />Parker, Geoffrey, La gran estrategia de Felipe II, Madrid 1999.
+                    <lb />Rodriguez Salgado, María José, Un imperio en transición. Carlos V, Felipe II y su mundo, Barcelona 1992.
+                    <lb />Romano, Ruggiero, La pace di Cateau-Cambrésis e l'equilibrio europeo, in: Rivista Storica Italiana, 61, 1949, 526-550.
+                    <lb />Ruiz Morales, Miguel, La Diplomacia en tiempo de Felipe II, in: El Escorial, Madrid 1963, S. 303-338.
+                    <lb />Van Durme, Maurice, El Cardenal Granvela (1517-1586), Madrid 2000.
+                    <lb />
+                </bibl>
+            </listBibl>
+        </back>
+    </text>
+</tei:TEI>

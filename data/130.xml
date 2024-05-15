@@ -1,0 +1,609 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE tei SYSTEM "../resources/FriVer_DTD.dtd">
+
+<?xml-model href="../resources/FriVer.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns="http://www.tei-c.org/ns/1.0"
+    xml:id="pa000299-0130">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title level="s">European peace treaties of the pre-modern era in data / Europäische
+                    Friedensverträge der Vormoderne in Daten (FriVer+)</title>
+                <title when="1756-07-21" xml:id="t130" when-custom="1756 VII 21" level="a"
+                    ref="https://www.ieg-friedensvertraege.de/treaty/t-130-1-de.html">Neutralitäts-
+                    und Subsidienvertrag von Compiègne</title>
+            </titleStmt>
+            <editionStmt>
+                <edition> Digital edition according to <ref target="http://www.tei-c.org/">TEI
+                        P5</ref>
+                </edition>
+                <funder>
+                    <ref target="https://www.text-plus.org/">TEXT+</ref>
+                </funder>
+                <editor role="http://id.loc.gov/vocabulary/relators/edt"
+                    ref="https://orcid.org/0000-0002-8741-5916">
+                    <persName>Jaap Geraerts</persName>
+                    <note>The transformation and enrichment of the data is done by Jaap Geraerts
+                        (IEG Mainz). The other members of the FriVer+ team are Fabian Cremer, Ines
+                        Grund, and Thorsten Wübbena (all IEG Mainz).</note>
+                    <note> The original data has been created by the <ref
+                            target="https://www.ieg-friedensvertraege.de">team of scholars</ref> who
+                        were part of the Europäische Friedensverträge der Vormoderne project. This
+                        project was lead by Prof. Dr. Heinz Duchhardt and was based at the Leibniz
+                        Institute of European History in Mainz. </note>
+                </editor>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>
+                    <orgName ref="http://www.isni.org/0000000119314040">Leibniz-Institut für
+                        Europäische Geschichte Mainz</orgName>
+                </publisher>
+                <distributor>
+                    <orgName ref="http://www.isni.org/0000000110101946">Universitäts- und
+                        Landesbibliothek Darmstadt</orgName>
+                </distributor>
+                <idno type="ISIL">http://lobid.org/organisation/DE-17</idno>
+                <date type="issued" when="2023-12-23"/>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">
+                        <p xml:lang="en">This file is licensed under the terms of the Creative
+                            Commons License CC-BY 4.0 (Attribution 4.0 International)</p>
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <repository xml:id="r20">Muenchen BayHStA</repository>
+                <msDesc>
+                    <p>[Transkriptionsgrundlage:] BHSAMünchen Bayern Urkunden U 1115: Ratifikation
+                        Frankreichs, Compiègne 1756 VII 31 (Original Ratifikation des Traités de
+                        Neutralité, d´union et de subsides, conclus entre Sa Majesté le Roi de
+                        France et S.A.S. Elect. de Bavière). BHSAMünchen Bayern Urkunden U
+                        1116-1118: Zusatzartikel (Subsidien, Erneuerung Familienpakt). </p>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p> The data in this XML file, originally created by the project <ref
+                        target="https://www.ieg-friedensvertraege.de/vertraege">Europäische
+                        Friedensverträge der Vormoderne online</ref> has been transformed in
+                    accordance with <ref target="http://www.tei-c.org/">TEI P5</ref> as part of the
+                    project <ref
+                        target="https://www.ieg-mainz.de/en/research/research-projects/european-peace-treaties-of-the-pre-modern-era-in-data"
+                        >Europäische Friedensverträge der Vormoderne in Daten (FriVer+)</ref>
+                </p>
+            </projectDesc>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="fr" xml:id="lan4">französisch</language>
+            </langUsage>
+        </profileDesc>
+    </teiHeader>
+    <standOff>
+        <listPerson>
+            <person role="signatory" xml:id="p20">
+                <persName ref="https://explore.gnd.network/gnd/4005044-0">
+                    <name>Bayern</name>
+                </persName>
+            </person>
+            <person role="signatory" xml:id="p37">
+                <persName ref="https://explore.gnd.network/gnd/4018145-5">
+                    <name>Frankreich</name>
+                </persName>
+            </person>
+            <person xml:id="pp0028">
+                <persName ref="https://explore.gnd.network/gnd/118729438">
+                    <name>Louis XV of France</name>
+                </persName>
+            </person>
+            <person xml:id="pp0224">
+                <persName ref="https://explore.gnd.network/gnd/118579436">
+                    <name>Maximilian III Joseph, Elector of Bavaria</name>
+                </persName>
+            </person>
+            <person xml:id="pp0231">
+                <persName ref="https://explore.gnd.network/gnd/11666407X">
+                    <name>Antoine Louis Rouillé</name>
+                </persName>
+            </person>
+            <person xml:id="pp0232">
+                <persName>
+                    <name>Maximilian Emanuel van Eyck</name>
+                </persName>
+            </person>
+            <person xml:id="pp0233">
+                <persName ref="https://explore.gnd.network/gnd/118634224">
+                    <name>Clemens August I., Köln, Erzbischof</name>
+                </persName>
+            </person>
+            <person xml:id="pp0234">
+                <persName ref="https://explore.gnd.network/gnd/118560190">
+                    <name>Karl Theodor, Pfalz, Kurfürst</name>
+                </persName>
+            </person>
+        </listPerson>
+        <listPlace>
+            <place xml:id="loc67">
+                <placeName ref="https://explore.gnd.network/gnd/4090519-6">Compiègne</placeName>
+            </place>
+        </listPlace>
+        <facsimile>
+            <surface xml:id="FacsPnr1">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_44ab988c4f426"/>
+            </surface>
+            <surface xml:id="FacsPnr2">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_44ab98b062abe"/>
+            </surface>
+            <surface xml:id="FacsPnr3">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_44ab98d0d56f0"/>
+            </surface>
+            <surface xml:id="FacsPnr4">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_44ab98f463524"/>
+            </surface>
+            <surface xml:id="FacsPnr5">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_44ab99143e020"/>
+            </surface>
+            <surface xml:id="FacsPnr6">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_44ab992ecc162"/>
+            </surface>
+            <surface xml:id="FacsPnr7">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_44ab99acc6adb"/>
+            </surface>
+            <surface xml:id="FacsPnr8">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_44ab99ca7a619"/>
+            </surface>
+            <surface xml:id="FacsPnr9">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_44ab99e8c6e4b"/>
+            </surface>
+            <surface xml:id="FacsPnr10">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_44ab9a116b4c1"/>
+            </surface>
+            <surface xml:id="FacsPnr11">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_44ab9a34943a8"/>
+            </surface>
+            <surface xml:id="FacsPnr12">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_44ab9a6a85497"/>
+            </surface>
+            <surface xml:id="FacsPnr13">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_44ab9a8f53d35"/>
+            </surface>
+            <surface xml:id="FacsPnr14">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_44ab9ab9cfbc8"/>
+            </surface>
+            <surface xml:id="FacsPnr15">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_44ab9adf69446"/>
+            </surface>
+            <surface xml:id="FacsPnr16">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_44ab9b0ae4688"/>
+            </surface>
+            <surface xml:id="FacsPnr17">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_44ab9b30d8fd6"/>
+            </surface>
+            <surface xml:id="FacsPnr18">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_44ab9b5411ee1"/>
+            </surface>
+            <surface xml:id="FacsPnr19">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_44ab9b7a63c25"/>
+            </surface>
+            <surface xml:id="FacsPnr20">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_44ab9b995eb40"/>
+            </surface>
+        </facsimile>
+    </standOff>
+    <text>
+        <front>
+            <div type="Drucke">
+                <p>Staatsverträge des Kurfürstentums Bayern 1745-1764. Bearb. v. Alois Schmid.
+                    München 1991, S.73-86.</p>
+            </div>
+            <div type="Inhalt">
+                <p>Erhaltung des allgemeinen Friedens und des auf 1648 beruhenden Staatensystems.
+                    Subsidien. Vollmachten<lb/></p>
+                <p>Art.1 Vertragsdauer.<lb/>Art. 2 Bayerische Truppen können nicht gegen Frankreich
+                    zum Einsatz kommen. Bayern wird im Reich gegen einen Krieg mit Frankreich
+                    stimmen.<lb/>Art. 3 Bayern wird im Reichstag nicht gegen die Interessen
+                    Frankreichs votieren und sich für die Erhaltung des status quo im Reich
+                    einsetzen.<lb/>Art. 4 Enge Absprachen.<lb/>Art. 5 Bayern geht kein gegen die
+                    Interessen Frankreich gerichtetes Bündnis ein.<lb/>Art. 6 Frankreich zahlt
+                    Subsidien.<lb/>Art. 7 Geheimhaltung.</p>
+                <p>[Ratifikationsformel]</p>
+                <p>[A] Geheim- und Separatartikel: Subsidienzahlungen.<lb/>[B] Deklaration zur
+                    Verlängerung der Familienverträge (Sukzession) zwischen Bayern und der
+                    Pfalz.<lb/>[C] Deklaration über die Unterstützung bayerischer Interessen durch
+                    Frankreich.</p>
+            </div>
+            <div type="Kommentar">
+                <p>Max III. Joseph hatte ein geschlagenes, von Schulden schier erdrücktes Bayern
+                    übernommen (Kraus). Aus fiskalischen Gründen, d.h. um den Staatsbankrott
+                    abzuwenden, ging Bayern auf Vermittlung Maria Theresias diesen Subsidienvertrag
+                    mit den (mit Österreich verbündeten) Seemächten England und Holland ein. Bayern
+                    stellte gegen Subsidienzahlungen ein Hilfskorps, das in den Niederlanden bis zum
+                    Frieden von Aachen (18. Oktober 1748) gegen Frankreich kämpfte. 1750 wurde der
+                    Vertrag für sechs weitere Jahre erneuert. <lb/>1756 bot sich für Bayern die
+                    Gelegenheit, sich durch Annäherung an Frankreich von Österreich zu lösen. Der
+                    Vertrag von Compiègne ist das Ergebnis dieser Politik. Bayern verpflichtete
+                    sich, in einem möglichen Krieg keine Truppen gegen Frankreich zu stellen und im
+                    Reichstag gegen einen möglichen Kriegsbeschluß zu stimmen. Für diese
+                    Neutralisierung des Reichs durch Bayern (Kraus) gewährte Frankreich Bayern
+                    Subsidien. Bayern hätte  so die Vorstellung, die der französische Gesandte in
+                    München Christian Friedrich von Pfeffel in einer Denkschrift niederlegte  das
+                    durch das Ergebnis der Schlesischen Kriege im Reich geschaffene Gleichgewicht
+                    zwischen Preußen und Österreich als Dritte Partei im Gefolge Frankreichs
+                    stabilisieren sollen. Diese Option endete jedoch noch im gleichen Jahr mit dem
+                    renversement des alliances, durch das das für Bayerns Bewegungsfreiheit so
+                    günstige Ergebnis des Vertrages von Compiegne wieder in sein Gegenteil verkehrt
+                    wurde und die Abhängigkeit noch enger (Kraus) wurde. Durch das Bündnis
+                    zwischen Frankreich und Österreich einerseits und Preußen und England
+                    andererseits entfiel für Bayern die in Compiegne anvisierte Option einer eigenen
+                    Position zwischen den Mächten.</p>
+            </div>
+            <div type="Kontext">
+                <p>1740  1748 <lb/>Österreichischer Erbfolgekrieg. Karl Albert von Bayern, Philipp
+                    V. von Spanien und August III. von Sachsen erheben Anspruch auf das
+                    Habsburgische Erbe.<lb/>1740-1742 <lb/>Erster Schlesischer Krieg.<lb/>1744-1745
+                    <lb/>Zweiter Schlesischer Krieg. <lb/>22. April 1745 <lb/>Friede von Füssen
+                    zwischen Bayern und Österreich. Der bayerische Kurfürst Maximilian III. Josef
+                    verzichtet auf die Kaiserkrone und erkennt die Pragmatische Sanktion an.<lb/>25.
+                    Dezember 1745 <lb/>Friede von Dresden zwischen Österreich und Preußen, das im
+                    Besitz Schlesiens bleibt.<lb/>1746 Subsidienvertrag Bayerns mit Großbritannien
+                    und den Generalstaaten (Verlängerung 1750)<lb/>18. Oktober 1748 <lb/>Friede von
+                    Aachen; er beendet den österreichischen Erbfolgekrieg auf der Basis des status
+                    quo ante.<lb/>1756-1763 <lb/>Siebenjähriger Krieg </p>
+            </div>
+
+        </front>
+        <body>
+            <div type="Edition">
+                <p>[Seite 1] </p>
+                <p><rs ref="#pp0028">Louis<note n="1" type="annotation">Ludwig XV. (1715/23-1774),
+                            König von Frankreich.</note>, par la grace de Dieu <lb/>Roi de France et
+                        de Navarre</rs> a tous ceux qui ces <lb/>presentes lettres verront Salut;
+                    Comme notre très cher et <lb/>bien amé le S[ieu].r <rs ref="#pp0231">Rouillé
+                        Chevalier Comte de Jouy et de Fontaine</rs><note n="2" type="annotation"
+                        >Antoine Louis Rouillé, Comte de Jony (1686-1761), Staatsrat.</note>
+                    <lb/>&nbsp;Guerin&nbsp;<note n="3" type="annotation">Antoine Louis Rouillé,
+                        Comte de Jony (1686-1761), Staatsrat.</note> Conseiller en tous nos
+                    Conseils, Ministre et <lb/>Secretaire d´Etat de nos commandements et finances
+                    <lb/>Commandeur et Grand Tresorier de nos ordres, auroit en <lb/>vertu des
+                    pouvoirs que nous lui en avions donnés, conclu, <lb/>arreté et signé a Compiègne
+                    le vingt un du present mois <lb/>de Juillet avec le S[ieu].r <rs ref="#pp0232"
+                        >Baron Van-Eyck&nbsp;</rs><note n="4" type="annotation">Van Eyck [nicht
+                        ermittelt].</note> Chevalier Seigneur de <lb/>Maibé et de Barchi-Fontaine,
+                    Grand Commandeur et <lb/>Grand croix de l´ordre de S[ain]t Michel &lt;de&gt;
+                    notre tres cher et <lb/>très amé Frere et Cousin <rs ref="#pp0233">l´Electeur de
+                        Cologne&nbsp;</rs><note n="5" type="annotation">Clemens August (1723-1761),
+                        Herzog von Bayern, Erzbischof und Kurfürst von Köln.</note> Ministre
+                    <lb/>d´Etat et de Conference et Chambellan de notre tres cher <lb/>et très amé
+                        <rs ref="#pp0234">Cousin le Prince Theodore&nbsp;</rs><note n="6"
+                        type="crit_app">Karl Theodor (1741/42/78-1799), Herzog von Pfalz-Sulzbach,
+                        Kurfürst von der Pfalz, Kurfürst von Bayern.</note> de Baviere et Envoyé
+                    <lb/>extraordinaire de notre très cher et tres amé Frere et Cousin, <lb/><rs
+                        ref="#pp0224">l´Electeur de Baviere&nbsp;</rs><note n="7" type="crit_app"
+                        >Max III. Joseph (1745-1777), Kurfürst von Bayern.</note> aupres de nous
+                    pareillement muni de <lb/>ses pouvoirs, un Traite d´union, bon voisinage, et
+                    bonne <lb/>intelligence, dont la teneur s´en suit: </p>
+                <p><rs ref="#pp0028">Sa Majesté tres chretienne</rs> etant dans la ferme resolution
+                    <lb/>d´entretenir et meme d´augmenter, s´il est possible, l´amitié le </p>
+                <p>[Seite 2] </p>
+                <p>bon voisinage et la bonne intelligence qui ont subsisté <lb/>depuis si longtems
+                    entre Elle et l´Empire, a jugé que rien ne <lb/>pouvoir mieux contribuer à un
+                    but aussi salutaire que <lb/>deprendre avec les Electeurs, Princes et Etats
+                    dudit <lb/>Empire qui seront dans les memes dispositions, des <lb/>liasons plus
+                    intimes et de former des engagements <lb/>communs pour concourir a tout ce qui
+                    poura conserver <lb/>la tranquilité générale de l´Europe, et dans le cas où il
+                    <lb/>surviendroit quelque guerre, de la detourner desdits <lb/>Electeurs,
+                    Princes et Etats de l´Empire en general et <lb/>en particulier, comme aussi à
+                    maintenir le sisteme dudit <lb/>Empire, ses loix, Constitutions, privileges, et
+                    libertés, et <lb/>nommement les Traités de Westphalie dont sadite <lb/>Majesté
+                    est expressement garante, prenant d´ailleurs <lb/>un interes&lt;.&gt;&nbsp;<note
+                        n="8" type="crit_app">Ein unklares Zeichen, wahrscheinlich Ligatur.</note>
+                    très sincere, à tout cequi regarde <rs ref="#pp0234">l´Electeur <lb/>de
+                        Baviere</rs>, et voulant non seulement conserver, mais <lb/>même cimenter et
+                    perpetuer l´ancienne union, qui <lb/>est hereditaire entre les Maisons de France
+                    et de <lb/>Baviere, Elle a cru n&lt;´e&gt;pouvoir donner a Son Alt[es].se
+                    <lb/>Elect[ora].le de preuves plus solides de son amitié, qu´en <lb/>contribuant
+                    aux moyens delui procurer dans l´Empire </p>
+                <p>[Seite 3] </p>
+                <p>et dans l´Europe la representation, que convient a &lt;son&gt; <lb/>Electeur chef
+                    d´une aussi grande Maison; Et c´est dans <lb/>cette vuë que Sa Majesté se porte
+                    à entrer dans des <lb/>liasons plus intimes avec Son Alt[es].se Elect[ora].le et
+                    à les <lb/>fortifier par un Traité de subsides, au moyen duquel Elle <lb/>puisse
+                    travailler, dans l´etat d´une parfaite neutralité, <lb/>à retablir son Paÿs et à
+                    mettre ses Troupes sur un <lb/>pied convenable; Et comme a cette fin Sa Majesté
+                    <lb/>tres chretienne a donné ses Plein-pouvoirs au S[ieu].r <lb/><rs
+                        ref="#pp0231">Rouillé Chevalier Comte de Joui de Fontaine- <lb/>Guerin</rs>,
+                    Conseiller en tous ses Conseils, Ministre et <lb/>Secretaire d´Etat et de ses
+                    Commandements et finances, <lb/>Commendeur et Grand Tresorier de ses ordres; Et
+                    <lb/>Son Alt[ess].se Elect[ora].le de Baviere et les siens au S[ieu].r <lb/><rs
+                        ref="#pp0232">Baron Van-Eyck Chevalier Seigneur de Maibé et
+                        <lb/>Barchi-Fontaine</rs>, Grand Commandeur et Grand <lb/>Croix de l´ordre
+                    de S[ain]t. Michel du Ser[enissi].me Electeur de <lb/>Pologne, Ministre d´Etat
+                    et de Conference et <lb/>Chambellan de Mons[eigneur] le Prince Theodore de
+                    <lb/>Baviere et Envoyé extraordinaire de Sa dite Alt[es].se <lb/>Elect[ora].le
+                    de Baviere aupres de Sa dite Majesté, ces </p>
+                <p>[Seite 4] </p>
+                <p>Ministres apres s´etre communiqués leurs <lb/>Pleinpouvoirs respectifs ont
+                    arreté, conclu et signé <lb/>les articles suivans: </p>
+                <p>Article 1.er <lb/>Le present traité durera six ans a compter du <lb/>vingtun
+                    Juillet mil sept cent cinquante six; après <lb/>son expiration le Roi sera très
+                    disposé à en faire <lb/>un autre, qui sera accomodé aux circonstances
+                    <lb/>d´alors et Son Alt[es].se Elect[ora].le de Baviere donnera <lb/>en tout
+                    tems la preference de ses liasons à Sa <lb/>Majesté très chret[ien]ne. </p>
+                <p>Article 2. <lb/>Son Alt[es].se Elect[ora].le ne donnera de ses Troupes a
+                    <lb/>aucune Puissance que du consentement de Sa Majesté <lb/>Tres
+                    Cchret[ien].ne; Lesquelles Troupes en aucun cas ne <lb/>pouront etre employées
+                    contre le Roi, ni contre ses <lb/>alliés, et Son Alt[es].se Electorale ne
+                    pretera aux <lb/>Ennemis de Sa Majesté et de ses alliés aucune <lb/>assistance
+                    de quelque espece et sous quelque pretexte <lb/>que ce soit; Mais Elle se
+                    reserve dans le seul cas d´une <lb/>guerre d´Empire declarée, &lt;cette&gt;
+                    conformement aux </p>
+                <p>[Seite 5] </p>
+                <p>loix et constitutions Germaniques, la liberté de fournir <lb/>son contingent
+                    matriculaire et rien de plus, si Elle ne <lb/>peut obtenir la neutralité comme
+                    cela s´est pratique <lb/>plusieurs fois. </p>
+                <p>Article 3. <lb/>Son Alt[es].se Elect[ora].le ne votera point dans les
+                    <lb/>assemblées ou Diettes génerales et particulieres de <lb/>l´Empire ou des
+                    cercles directement ou indirectement <lb/>contre les interets du Roi et de ses
+                    Alliés, ni pour <lb/>aucune association de cercles ou autres desseins <lb/>qui
+                    pourroient tendre à troubler la paix de l´Europe <lb/>òu le repos de l´Empire,
+                    et dans le cas surtout ou <lb/>il s´agiroit d´entrainer ledit Empire dans une
+                    Guerre <lb/>contre le Roi ou ses alliés; Mais au contraire Son <lb/>Alt[es].se
+                    Elect[ora].le employera ses voix de concert avec le <lb/>Roi pour maintenir les
+                    droits et libertés de l´Empire <lb/>et nommément les Traités de Westphalie, dont
+                    Sa Maj[es].té <lb/>Tres Chret[ien].ne est garante, et pour ecarter tout ce qui
+                    <lb/>pouroit troubler la paix generale de l´Europe et <lb/>le repos particulier
+                    de l´Empire et l´empecher d´etre <lb/>entrainé directement ou indirectement dans
+                    aucune des </p>
+                <p>[Seite 6] </p>
+                <p>Guerres, qui pouront survenir en Europe. </p>
+                <p>Article 4. <lb/>Il y aura une parfaite intelligence et mutuelle
+                    <lb/>communication entre le Roy et Son Alt[es].se Elect[ora].le <lb/>et entre
+                    leurs Ministres respectifs soit aux <lb/>assemblées generales et particulieres
+                    de l´Empire, <lb/>soit par tout ailleurs sur toutes les affaires <lb/>de
+                    l´Empire ou autres, qui pouront concerner <lb/>les interets de l´Empire,
+                    relativement à l´article trois. </p>
+                <p>Article 5. <lb/>Son Alt[es].se Elect[ora].le declare, qu´Elle n´est dans
+                    <lb/>aucun engagement, qui soit contraire aux <lb/>stipulations du present
+                    Traité, et Elle promet <lb/>et s´oblige de n´en prendre ni renouveller aucun
+                    <lb/>avec quelque Puissance que ce soit qu´apres une <lb/>communication
+                    préalable à Sa Majesté et que de <lb/>son consentement. </p>
+                <p>Article 6. <lb/>Le Roi uniquement touché des interets de Son <lb/>Alt[es].se
+                    Elect[ora].le de Baviere, ainsy qu´il est aisé d´en </p>
+                <p>[Seite 7] </p>
+                <p>juger par l´avantage et l´innocence des liasons cy <lb/>dessus exprimées, et
+                    voulant lui donner des marques <lb/>réelles de son amitié, promet de lui faire
+                    payer un <lb/>subside annuel de Trois cent Soixante mille <lb/>florins d´Empire,
+                    payable de trois en trois mois <lb/>savoir, quatrevingt dix mille florins au
+                    vingt <lb/>un Octobre de la presente année mil sept <lb/>cent cinquante six; Le
+                    second payement de <lb/>pareille somme se fera trois mois après et <lb/>ainsi
+                    jusqu´à la fin du Traité, icy et sur le reçu <lb/>de son Ministre près de Sa
+                    Majesté. </p>
+                <p>Article 7. <lb/>Sa Majestét Tres Chretienne et Son Alt[es].se <lb/>Elect[ora].le
+                    garderont le secret sur le present Traité <lb/>et n´en feront part, qu´aux
+                    Puissances dont Elles <lb/>conviendront, et il sera ratifié dans l´espace de
+                    <lb/>deux mois à compter du jour de la signature <lb/>ou plutôt si faire se
+                    peut. </p>
+                <p>En foi dequoi Nous Ministres Soussignez <lb/>en vertu de nos Pleinpouvoirs, avons
+                    signé <lb/>le present Traité et y avons aposé les cachets </p>
+                <p>[Seite 8] </p>
+                <p>de nos armes. <lb/>Fait a Compiègne le vingt un du mois de <lb/>Juillet milsept
+                    cent cinquante six </p>
+                <p>&nbsp;<rs ref="#pp0231"
+                    >Rouillé</rs>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        <rs ref="#pp0232">B. Van Eyck</rs>
+                </p>
+                <p>Nous ayant agreable le sus dit Traité <lb/>en tous et chacunes les points, qui y
+                    sont <lb/>contenus et declarés, avons &lt;iceux&gt; tant pour <lb/>nous, que
+                    pour nos heritiers et successeurs <lb/>accepté, aprouvé, ratifié et confirmé et
+                    par <lb/>ces presentes signées de notre main acceptons, <lb/>aprouvons,
+                    ratifions et confirmons et le <lb/>tout promettons en foi et parole de Roy
+                    garder <lb/>et observer inviolablement sans jamais aller <lb/>ni venir au
+                    contraire directement ni indirectement <lb/>en quelque forme et maniere, que ce
+                    soit; En <lb/>temoin quoy nous avons fait mettre notre </p>
+                <p>[Seite 9] </p>
+                <p>scel secret a ces dites presentes. Donné à <lb/>Compiegne le trente unieme jour
+                    du Mois <lb/>de Juillet l´an de grace mil sept cent cinquante <lb/>six et de
+                    nôtre Regne le quaranteunieme. <lb/>&nbsp; <lb/><rs ref="#pp0028">Louis</rs>
+                    <lb/>Par le Roy <lb/>Philippeaux<note n="10" type="crit_app">Nicht
+                        ermittelt.</note>
+                </p>
+                <p>[ Seite 10] </p>
+                <p><rs ref="#pp0028">Louis par la grace de Dieu <lb/>Roi de France et de
+                        Navarre</rs>, À Tous ceux <lb/>qui ces presentes lettres verront Salut.
+                    Comme notre <lb/>tres cher et bien amé le S[ieu].r <rs ref="#pp0231">Rouillé
+                        Chevalier Comte de Jo&lt;ui&gt; <lb/>et de Fontaine-Guerin</rs>,
+                    Cons[eill]er en tous nos Conseils, Ministre <lb/>et Secretaire d´Etat et de nos
+                    Commandemens et finances, <lb/>Commandeur et Grand Tresorier de nos ordres,
+                    auroit en <lb/>vertu des pouvoirs que nous lui en avions donnés, <lb/>conclu,
+                    arreté et signé à Compiègne le vingt un du present <lb/>mois de Juillet avec le
+                    S[ieu]r. <rs ref="#pp0232">B[ar]on Van Eyck</rs>, Che[valie] r Seig[neu]r
+                    <lb/>de Maibé et de Barchi- Fontaine, Grand Commandeur <lb/>et Grand Croix de
+                    l´ordre de S[ain]t. Michel de notre très <lb/>cher et tres amé Frere et Cousin
+                        <rs ref="#pp0233">l´Elect[eur] de Cologne</rs>
+                    <lb/>Ministre d´Etat et de Conference et Chambellan de notre <lb/>tres cher et
+                    tres amé Cousin le P[rin]ce <rs ref="#pp0234">Theodore de Baviere</rs>
+                    <lb/>et Envoyé Extraordinaire de notre tres cher et tres aimé <lb/>Frere et
+                    Cousin <rs ref="#pp0224">l´Elect[eu]r de Baviere</rs> auprès de nous
+                    <lb/>pareillement muni de ses pouvoirs, et en meme tems que <lb/>le Traité
+                    d´union, bon voisinage et bonne intelligence <lb/>entre nous et notre dit Frere
+                    et Cousin <rs ref="#pp0224">l´Electeur de Baviere</rs>, <lb/>une declaration
+                    portant engagement de nôtre part de </p>
+                <p>[Seite 11] </p>
+                <p>soutenir tous les droits de notre dit Frere et <lb/>Cousin; de laquelle
+                    declaration la teneur s´ensuit: </p>
+                <p>Declaration <lb/>Sa Majeste voulant concourir de bonne foi à tout <lb/>cequi
+                    poura etre de la gloire et de l´avantage de <lb/>l´Electeur et de la splendeur
+                    de Sa Maison, promet <lb/>de soutenir de son credit et de sa protection tous les
+                    <lb/>droits de Son Alt[es].se Elect[ora].le en toute occasion; Et <lb/>comme
+                    l´Electeur a desiré, que cet engagement s´etendit <lb/>nommement aux trois
+                    articles suivans: <lb/>1. Le Reglement des limites de la Boheme et de la
+                    <lb/>Baviere conformement aux Traités de Baden&nbsp;&nbsp;<note n="11"
+                        type="annotation">Friede von Baden (7. September 1714) machte die zwischen
+                        Frankreich und Österreich auf dem Frieden von Rastatt (6. März 1714) zur
+                        Beendigung des Spanischen Erbfolgekrieges vereinbarten Regelungen (die
+                        Wittelsbacher Kurfürsten von Bayern und Köln erhalten Titel und Territorium
+                        zurück) für das Reich verbindlich.</note>et de <lb/> Fuessen<note n="12"
+                        type="annotation">Im Frieden von Füssen (22. April 1745, Österreichischer
+                        Erbfolgekrieg) erkannte Bayern die Pragmatische Sanktion an und sicherte
+                        seine Stimme für den österreichischen Kaiser-Kandidaten Franz Stephan von
+                        Lothringen zu. Dafür erhielt Bayern sein Territorium in den Grenzen von 1741
+                        zurück und mußte keine Reparationen leisten.</note>. <lb/>2. Les differends
+                    suscités à Son Alt[es].se Elect[ora].le <lb/>par l´Archeveque de Salzbourg au
+                    sujet du Commerce <lb/>du sel contre la teneur des anciens Traités entre ces
+                    <lb/>deux Princes. <lb/>3. Le droit de retrait que l´Electeur se croit fondé
+                    <lb/>d´exercer sur la vente de la Seigneurie de Wasserbourg <lb/>en Suabe.
+                    <lb/>Sa Majesté etant bien aise de deferer au desir de Son </p>
+                <p>[Seite 12] </p>
+                <p>Al[tes].se Elect[ora].le promet d´employer ses soins et ses <lb/>offices tant a
+                    la Cour de Vienne, qu´a celle de Berlin, <lb/>pour tacher de les disposer a
+                    procurer a ce Prince <lb/>la satisfaction, qui lui sera legitimement duë au
+                    <lb/>sujet de ces trois articles; Bien entendu, que quand <lb/>il fugira de
+                    faire usage des dits sois et offices <lb/>l´Electeur fera donner a Sa Majesté
+                    les eclair &lt;cissemens&gt;&nbsp;<note n="13" type="crit_app">Unsichere Lesart
+                        (Blattrand).</note>
+                    <lb/>necessaires sur le fondement de ses pretention. <lb/>Cette declaration aura
+                    la meme force, que si <lb/>elle etoit inserée de mot a mot dans le Traité
+                    <lb/>signé ce jour d´hui; Elle sera ratifiée de la meme <lb/>maniere, et les
+                    Ratifications en seront echangées <lb/>en meme tems que celles du Traite.
+                    <lb/>En foi de quoi nous Ministres soussignez de Sa <lb/>Majesté et de Son
+                    Alt[es].se Elect[ora].le avons signé la <lb/>presente Declaration et y avons
+                    apposé les cachets <lb/>de nos armes. Fait a Compiegne le vingtun du <lb/>mois
+                    de Juillet mil sept cent cinquante Six. <lb/>&nbsp; <lb/><rs ref="#pp0232"
+                        >Rouillé</rs>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        <rs ref="#pp0231">B Van Eyck</rs>
+                </p>
+                <p>Nous ayant agreable la sus dite declaration en tous <lb/>et chacuns les points,
+                    qui y sont contenus, avons </p>
+                <p>[Seite 13] </p>
+                <p>celle acceptée, aprouvée, ratifiée et confirmée, et par <lb/>ces presentes
+                    signées de notre main acceptons, <lb/>aprouvons, ratifions et confirmons; En
+                    temoin <lb/>de quoy nous avons fait mettre notre scel secret <lb/>a ces dites
+                    presentes. Donné a Compiegne le <lb/>trenteunieme jour du mois de Juillet l´an
+                    de grace <lb/>mil sept cinquante six et de notre Regne le
+                        <lb/>&lt;…&gt;anteunieme.&nbsp;<note n="14" type="crit_app">Wortanfang
+                        verdeckt durch Siegel; (quaranteunieme).</note>
+                </p>
+                <p>Louis <lb/>Par le Roi <lb/>&gt;Philippeaux&lt; </p>
+                <p>[Seite 14] </p>
+                <p><rs ref="#pp0028">Louis par la grace de Dieu <lb/>Roi de France et de
+                        Navarre</rs>, À Tous ceux <lb/>qui ces presentes lettres verront Salut.
+                    Comme notre <lb/>tres cher et bien amé le S[ieu].r <rs ref="#pp0232"
+                        >Rouillé</rs> Chevalier Comte <lb/>de Jo&lt;ui&gt; et de Fontaine-Guerin,
+                    Cons[eill]er en tous nos <lb/>Conseils, Ministre et Secretaire d´Etat et de nos
+                    <lb/>Commandemens et Finances, Commandeur et Grand <lb/>Tresorier de nos ordres,
+                    auroit en vertu des pouvoirs <lb/>que nous lui en avions donnés, conclu, arreté
+                    et <lb/>signé à Compiègne le vingt un du present mois <lb/>de Juillet avec le
+                    S[ieu]r. <rs ref="#pp0231">Baron Van Eyck</rs> Chevalier Seig[neu]r <lb/>de
+                    Maibé et de Barchi- Fontaine, Grand Commandeur <lb/>et Grand Croix de l´ordre de
+                    S[ain]t. Michel de notre très <lb/>cher et tres amé Frere et Cousin <rs
+                        ref="#pp0233">l´Elect[eur] de Cologne</rs>
+                    <lb/>Ministre d´Etat et de Conference et Chambellan de notre tres <lb/>cher et
+                    tres amé Cousin le P[rin]ce <rs ref="#pp0234">Theodore de Baviere</rs>
+                    <lb/>et Envoyé Extraordinaire de notre tres cher et tres aimé <lb/>Frere et
+                    Cousin <rs ref="#pp0224">l´Elect[eu]r de Baviere</rs> auprès de <lb/>nous
+                    pareillement muni de ses pouvoirs, et en meme tems <lb/>que le Traité d´union,
+                    bon voisinage et bonne <lb/>intelligence entre nous et notre dit Frere et Cousin </p>
+                <p>[Seite 15] </p>
+                <p><rs ref="#pp0224">l´Electeur de Baviere</rs>, un article separé et secret dont
+                    <lb/>la teneur s´en suite </p>
+                <p>Article separé et secret <lb/>Pour temoigner de plus en plus son amitié a Son
+                    Alt[es].se <lb/>Elect[ora].le, le Roi veut bien lui faire payer separement
+                    <lb/>la somme de Deux cent quarante mille florins <lb/>une fois pour toutes,
+                    pour la pretention qu´Elle a <lb/>fo&lt;rm&gt;ée sur le restant des subsides a
+                    Elle accordés <lb/>en vertu de ses derniers engagemens avec Sa Majesté. <lb/>En
+                    consequence le Roi promet de lui faire remettre <lb/>la moitié de ladite somme
+                    lors de l´echange des <lb/>Ratifications et l´autre moitié en quatre termes
+                    <lb/>Egaux, de trois en trois mois a compter du meme <lb/>jour que commencera le
+                    payement des subsides <lb/>stipulés dans le Traité, <rs ref="#pp0028">Sa dite
+                        Majesté Tres Chret[ien].ne</rs>
+                    <lb/>etant bien persuadée, que Sa d[it].e Alt[es].se Elect[ora].le ne
+                    <lb/>negligera de son coté aucun moyen pour empecher <lb/>qu´il n´y soit donné
+                    aucune atteinte et pour en <lb/>operer la sureté dans toutes ses parties.
+                    <lb/>Cet article secret aura la meme force que s´il <lb/>avoit eté inseré de mot
+                    a mot dans le Traité </p>
+                <p>[Seite 16] </p>
+                <p>signé ce jourd´hui; Il sera ratifié de la meme maniere, <lb/>et les Ratifications
+                    en seront echangées en meme <lb/>tems que celles du Traité. <lb/>En foi de quoi
+                    Nous Ministres soussignez de <lb/>Sa Majesté et de Son Alt[ess].se Elect[ora].le
+                    avons signé <lb/>le present article separé et secret et y avons aposé <lb/>les
+                    cachets de nos armes. Fait a Compiegne <lb/>le vingtun du mois de Juillet
+                    milsept cent <lb/>cinquante six. </p>
+                <p>Rouillé <lb/>&nbsp;<rs ref="#pp0232">B. Van Eyck</rs>
+                </p>
+                <p>Nous ayant agreable le susdit article separé et <lb/>secret, avons iceluy
+                    accepté, aprouvé, ratifié et confirmé <lb/>et par ces presentes signées de notre
+                    main, acceptons, <lb/>aprouvons, ratifions et confirmons. En temoin de <lb/>quoy
+                    nous avons fait mettre nôtre scel secret a ces <lb/>presentes. Donné a Compiegne
+                    le trentunieme <lb/>jour du mois de Juillet l´an de grace milseptcent
+                    <lb/>cinquante six et de notre Regne le quarantunieme. </p>
+                <p>Louis <lb/>Par le Roi <lb/>Philippeaux </p>
+                <p>[Seite 17] </p>
+                <p><rs ref="#pp0028">Louis par la grace de Dieu <lb/>Roi de France et de
+                        Navarre</rs>, A Tous ceux qui ces <lb/>presentes Lettres verront Salut.
+                    Comme notre tres cher et <lb/>bien amé le S[ieu].r <rs ref="#pp0231"
+                        >Rouillé</rs> Chevalier Comte de Jouy et de Fontaine <lb/>Guerin,
+                    Cons[eill]er en tous nos Conseils, Ministre et Secretaire <lb/>d´Etat et de nos
+                    Commandemens et Finances, Commandeur <lb/>et Grand Tresorier de nos ordres,
+                    auroit en vertu des pouvoirs <lb/>que nous lui en avions donnés, conclu, arreté
+                    et signé <lb/>a Compiegne le 21 du present mois de Juillet avec le S[ieu]r.
+                        <lb/><rs ref="#pp0232">B[ar]on Van Eyck</rs> Ch[evali]er Seigneur de Maibé
+                    et de Barchi- Fontaine <lb/>Grand Commandeur et Grand Croix de l´Ordre de
+                    S[ain]t. Michel <lb/>de notre très cher et tres amé Frere et Cousin <rs
+                        ref="#pp0233">l´Elect[eur] de <lb/>Cologne</rs>, Ministre d´Etat et de
+                    Conference et Chambellan <lb/>de notre tres cher et tres amé Cousin, le P[rin]ce
+                        <rs ref="#pp0234">Theodore <lb/>de Baviere</rs> et Envoyé extraordinaire de
+                    notre tres <lb/>cher et tres aimé Frere et Ccousin <rs ref="#pp0224">l´Electeur
+                        de Baviere</rs>
+                    <lb/>auprès de nous pareillement muni de ses pouvoirs, et en même <lb/>tems que
+                    le Traité d´union, bon voisinage et bonne <lb/>intelligence entre nous et notre
+                    dit Frere et Cousin <rs ref="#pp0224">l´Elec[teu]r <lb/>de Baviere</rs>, une
+                    declaration portant engagement de la part <lb/>de notre dit Frere et Cousin de
+                    renouveller les pactes de famille </p>
+                <p>[Seite 18] </p>
+                <p>entre les Maisons de Baviere et Palatine pour la <lb/>succession mutuelle de
+                    leurs Etats<note n="15" type="annotation">Die Wittelsbacher Hausunion (15. Mai
+                        1724) zwischen den beiden Häusern Bayern und Pfalz regelte u.a. die
+                        wechselseitige Sukzession.</note>, de la quelle declaration <lb/>la teneur
+                    s´ensuit: </p>
+                <p>Declaration <lb/>Comme le <rs ref="#pp0028">Roi Tres Chretien</rs> n´a pas de
+                    plus sincere <lb/>desir que de contribuer a tout ce qui peut resserrer de
+                    <lb/>plus en plus les liens de l´union entre les Maisons de <lb/>Baviere et
+                    Palatine et augmenter leurs avantages <lb/>respectifs, Sa Majesté a demandé a
+                        <rs ref="#pp0224">l´Electeur de <lb/>Baviere</rs>, qu´il voulut bien
+                    s´engager a se preter de <lb/>tout son pouvoir au renouvellement des Pactes de
+                    <lb/>famille entre les deux Maisons pour la succession <lb/>mutuelle de leurs
+                    Etats, surquoi Son Alt[es.]se Elect[ora].le <lb/>animée du meme desir a promis
+                    de se preter a ce <lb/>renouvellement de tout son pouvoir toutes les fois
+                    <lb/>qu´Elle en sera requise, Bien entendu que l´amitié et <lb/>la confiance
+                    seront reciproques de la part de la <lb/>Maison Palatine, et que la Cour de
+                    Manheim <lb/>produira de son coté, ainsi que la Cour de Baviere <lb/>du sien,
+                    les pieces necessaires sur lesquelles on <lb/>poura fonder ce renouvellement. </p>
+                <p>[Seite 19] </p>
+                <p>Cette Declaration aura la meme force, que si <lb/>elle etoit inserée, de mot a
+                    mot dans le Traité <lb/>signé ce jour d´hui; Elle sera ratifiée de la meme
+                    <lb/>maniere, et les Ratifications en seront echangées <lb/>en meme tems que
+                    celles du Traité. <lb/>En foi de quoi Nous Ministres soussignés <lb/>de Sa
+                    Majesté et de Son Alt[es]se Elect[ora].le avons <lb/>signé la presente
+                    Declaration, et y avons <lb/>aposé les Cachets de nos armes. Fait a Compiegne
+                    <lb/>le vingtunieme de Juillet milsept cent <lb/>cinquante six. </p>
+                <p><rs ref="#pp0231">Rouillé</rs>
+                    <lb/><rs ref="#pp0232">B. Van Eyck</rs>
+                </p>
+                <p>Nous ayant agreable la susdite declaration, avons <lb/>icelle acceptée, aprouvée,
+                    ratifiée et confirmée <lb/>et par ces presentes signées de notre main
+                    <lb/>acceptons, aprouvons, ratifions et confirmons, <lb/>En temoin de quoy nous
+                    avons fait mettre <lb/>notre Scel secret a ces dites presentes. Donné <lb/>a
+                    Compiegne le trentunieme jour du mois </p>
+                <p>[Seite 20] </p>
+                <p>de Juillet l´an de grace mil sept cent cinquante <lb/>six, et notre Regne le
+                    quaranteunieme. </p>
+                <p><rs ref="#pp0028">Louis</rs>
+                    <lb/>Par le Roi <lb/>Philippeaux </p>
+                <p>&nbsp; </p>
+            </div>
+        </body>
+    </text>
+</tei:TEI>

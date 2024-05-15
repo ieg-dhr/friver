@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE tei SYSTEM "../resources/FriVer_DTD.dtd">
+
+<?xml-model href="../resources/FriVer.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns="http://www.tei-c.org/ns/1.0" xml:id="pa000299-0903">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title level="s">European peace treaties of the pre-modern era in data / Europäische Friedensverträge der Vormoderne in Daten (FriVer+)</title>
+                <title when="1671-07-28" xml:id="t903" when-custom="1671 VII 28" level="a" ref="https://www.ieg-friedensvertraege.de/treaty/t-903-1-de.html">Rezeß zum Geheimartikel des Neutralitätsvertrages von Bielefeld</title>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    Digital edition according to
+                    <ref target="http://www.tei-c.org/">TEI P5</ref>
+                </edition>
+                <funder>
+                    <ref target="https://www.text-plus.org/">TEXT+</ref>
+                </funder>
+                <editor role="http://id.loc.gov/vocabulary/relators/edt" ref="https://orcid.org/0000-0002-8741-5916">
+                    <persName>Jaap Geraerts</persName>
+                    <note>The transformation and enrichment of the data is done by Jaap Geraerts (IEG Mainz). The other members of the FriVer+ team are Fabian Cremer, Ines Grund, and Thorsten Wübbena (all IEG Mainz).</note>
+                    <note>
+                        The original data has been created by the
+                        <ref target="https://www.ieg-friedensvertraege.de">team of scholars</ref>
+                        who were part of the Europäische Friedensverträge der Vormoderne project. This project was lead by Prof. Dr. Heinz Duchhardt and was based at the Leibniz Institute of European History in Mainz.
+                    </note>
+                </editor>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>
+                    <orgName ref="http://www.isni.org/0000000119314040">Leibniz-Institut für Europäische Geschichte Mainz</orgName>
+                </publisher>
+                <distributor>
+                    <orgName ref="http://www.isni.org/0000000110101946">Universitäts- und Landesbibliothek Darmstadt</orgName>
+                </distributor>
+                <idno type="ISIL">http://lobid.org/organisation/DE-17</idno>
+                <date type="issued" when="2023-12-23"/>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">
+                        <p xml:lang="en">This file is licensed under the terms of the Creative Commons License CC-BY 4.0 (Attribution 4.0 International)</p>
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <repository xml:id="r21">Muenster StA/LA
+                    <note>Archivportal NRW, Findbuch:<lb />
+                        <ref target="http://www.archive.nrw.de/LAV_NRW/jsp/findbuch.jsp?archivNr=451&amp;verzguid=d43f2336-f404-4118-ad41-6c82056479a5ACTAPRO">http://www.archive.nrw.de/LAV_NRW/jsp/findbuch.jsp?archivNr=451&amp;verzguid=d43f2336-f404-4118-ad41-6c82056479a5ACTAPRO</ref></note>
+                </repository>
+                <msDesc><p>LWL - Westfälisches Archivamt Münster, Haus Assen L 506, f. 12-13 (Unterhändlerinstrument).</p></msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>
+                    The data in this XML file, originally created by the project
+                    <ref target="https://www.ieg-friedensvertraege.de/vertraege">Europäische Friedensverträge der Vormoderne online</ref>
+                    has been transformed in accordance with
+                    <ref target="http://www.tei-c.org/">TEI P5</ref>
+                    as part of the project
+                    <ref target="https://www.ieg-mainz.de/en/research/research-projects/european-peace-treaties-of-the-pre-modern-era-in-data">Europäische Friedensverträge der Vormoderne in Daten (FriVer+)</ref>
+                </p>
+            </projectDesc>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="la" xml:id="lan6">Latein</language>
+            </langUsage>
+        </profileDesc>
+    </teiHeader>
+    <standOff>
+        <listPerson>
+            <person role="signatory" xml:id="p37">
+                <persName ref="https://explore.gnd.network/gnd/4018145-5">
+                    <name>Frankreich</name>
+                </persName>
+            </person>
+            <person role="signatory" xml:id="p78">
+                <persName ref="https://explore.gnd.network/gnd/4040608-8">
+                    <name>Münster</name>
+                </persName>
+            </person>
+        </listPerson>
+        <listPlace>
+            <place xml:id="loc280">
+                <placeName ref="https://explore.gnd.network/gnd/4006510-8">Bielefeld</placeName>
+            </place>
+        </listPlace>
+        <facsimile>
+            <surface xml:id="FacsPnr1">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_45c9a151e09fc"/>
+            </surface>
+            <surface xml:id="FacsPnr2">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_45c9a170dab3e"/>
+            </surface>
+            <surface xml:id="FacsPnr3">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_45c9a18eb8769"/>
+            </surface>
+            <surface xml:id="FacsPnr4">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_45c9a1ad7ae10"/>
+            </surface>
+        </facsimile>
+    </standOff>
+    <text>
+        <front>
+            <div type="Drucke"><p>Wilhelm Kohl, Akten und Urkunden zur Aussenpolitik Christoph
+                Bernhards von Galen (1650-1678). Münster 1980, Bd. II, S. 318-319.</p></div>
+        </front>
+        <body>
+            <div type="Transliteration">
+                <pb facs="#FacsPnr1"/><p>&nbsp; 
+                </p> 
+                <p>&nbsp; 
+                </p> 
+                <p>[Seite 1] 
+                </p> 
+                <p>&nbsp; 
+                </p> 
+                <p>Quamvis hac præsenti die &lt;28.&gt; Julij D[ominos] de Verjus, 
+                    <lb />Regis Christianissimi Consiliarius Status et 
+                    <lb /> in Germaniam Ablegatus extraordinarius, Nomine 
+                    <lb /> et ex parte S[u]æ Maj[esta]tis et D[omini] Matthias Korff 
+                    <lb /> Baro de Schmisingh Ecclesiarum Cathedralium Mo- 
+                    <lb /> nast[eriensis] et Hildesiensis resp[ectiv]e Decanus et The- 
+                    <lb /> saurarius, et Bernardus de Wvdenbrugk Prae- 
+                    <lb /> ses Consilij aulici, ambo Consiliarij Intimi Cel- 
+                    <lb /> sissimi Principis Episcopi Monasteriensis. 
+                    <lb /> Nomine et ex parte S[u]ae Cels[itudi]nis Neutralitatis 
+                    <lb /> Tractatum ac secretos articulos ad ratification- 
+                    <lb /> nem S[u]ae Maj[esta]tis intra sex septimanas, et S[u]ae Cels[itudi]nis 
+                    <lb /> intra sex dies procurandam concluserint, et 
+                    <lb /> signarint; Nihilominus dicti D[omini] de Schmising 
+                    <lb /> et de Wydenbrugk ex parte S[uae] Cels[inidi]nis expresse 
+                    <lb /> declararunt quod dictus Tractatus secretique 
+                    <lb /> articuli omnes pariter pro is et infectis 
+                    <lb /> haberi et acta desuper utrimque extradita, 
+                    <lb /> hinc inde exacte et fideliter intra statutum 
+                    <lb /> Regæ ratificationis tempus reddi debeant 
+                    <lb /> si ex quacunque tandem ratione non placuerit 
+                    <lb /> Maj[esta]ti S[u]æ in forma declarationis decimi ac 
+                    <lb /> undecimi secreti articuli concedere ac polliceri 
+                    <lb /> S[u]ae Cels[itudi]ni ea quæ sequentibus articulis con- 
+                    <lb /> tinentur: 
+                    <lb /> 1. Quod si S[uam] Cels[itudi]nem antequam Rex bellum incho- 
+                    <lb /> arit, a Statibus Uniti Belgij directe vel indi- 
+                    <lb /> recte auf ab ullo alio Principe ex quacunque causa 
+                    <lb /> armis impeti aut intestari contingat, S[ua] Maj[es]tas 
+                    <lb /> præstabit S[uæ] Cels[itudi]ni assistentiam prout periculi 
+                    <lb /> 
+                    <lb /> 
+                </p> 
+                <p>[Seite 2]&nbsp; 
+                </p>
+                <pb facs="#FacsPnr2"/><p>et defensionis necessitas requiret; et ad mini- 
+                    <lb /> mum non solum Eidem suppeditabit in singulos 
+                    <lb /> menses octo thalerorum Imperialium millia, 
+                    <lb /> ultra decem millia articulo secreto sexto promissa 
+                    <lb /> eodemque modo, uti de ijs decem millibus conventum 
+                    <lb /> est, singulis duobus mensibus anticipata solutione 
+                    <lb /> numerari curabit, Sed etiam S[uae] Cels[itudi]ni mittet, 
+                    <lb /> ac suis stipendijs impensisque alet sub imperio 
+                    <lb /> ac directione S[uae] Cels[itudi]nis duo millia equitum 
+                    <lb /> et sex millia peditum, usque dum Rex ipse 
+                    <lb /> Statibus Generalibus bellum moverit, quo ca- 
+                    <lb /> su S[ua] Cels[itu]do tribus peditum millibus, et mille 
+                    <lb /> equitibus contenta erit, nec plures ex dictis 
+                    <lb /> copijs retinere poterit. 
+                    <lb /> 2. Quod si iam moto et durante bello S[ua] Cels[itu]do armis 
+                    <lb /> impeteretur eo casu S[ua] Maj[es]tas Eidem 
+                    <lb /> continuo mittet, et suis stipendijs ac impensis 
+                    <lb /> sub imperio et directione S[uae] Cels[itudi]nis alet ter 
+                    <lb /> mille pedites, et mille equites, et ultra decem 
+                    <lb /> millia thalerorum articulo secreto sexto pro- 
+                    <lb /> missa, suppeditabit octo thalerorum millia 
+                    <lb /> in singulos menses, eo modo et forma ut prece- 
+                    <lb /> dente articulo comprehensum est. 
+                    <lb /> 3. Cum S[ua] Cels[itu]do propositionem D[omini] Principis 
+                    <lb /> Wilhelmi de Furstenberg etc. de iungendis exer- 
+                    <lb /> citui regio sex millibus militum, ob nimiam 
+                    <lb /> vicinitatem, et longitudinem limitum, quorum 
+                    <lb /> necessariæ defensioni eæ copiæ subtraherentur, 
+                    <lb /> sibi et suo Statui maxime periculosam compe- 
+                    <lb /> riat, eoque se nondum omnino declarare possit, 
+                    <lb /> 
+                    <lb /> 
+                </p> 
+                <p>[Seite 3] 
+                </p> 
+                <p>&nbsp; 
+                </p>
+                <pb facs="#FacsPnr3"/><p>sed ulterius deliberandum judicet; et tamen non 
+                    <lb /> spernendum illud commodum et momentum sit, 
+                    <lb /> quod rebus S[uae] Maj[esta]tis inde accedet, si vires et 
+                    <lb /> copiæ hostium distrahantur et arma ad id ne- 
+                    <lb /> cessaria iam ante sic instructa et parata sint, 
+                    <lb /> ut primis stalim initijs, in quorum successu plu- 
+                    <lb /> rimum situm est, operari queant. Conventum 
+                    <lb /> est, ut si duobus vel summam tribus mensibus 
+                    <lb /> a die subscriptionis numerandis S[ua] Cels[itu]do ad 
+                    <lb /> bellum cum S[ua] Maj[es]tas ea forma et modo qui supra 
+                    <lb /> articulo primo placuit, S[u]æ Cels[itudi]ni ultra decem 
+                    <lb /> millia articulo secreto sexto promissa suppe- 
+                    <lb /> ditet in singulos menses usque ad finem belli Octo 
+                    <lb /> thalerorum millia solutione in duos menses 
+                    <lb /> semper anticipata, Eidemque submittet ac suis 
+                    <lb /> stipendijs et impensis sub imperio ac directione 
+                    <lb /> S[uae] Cels[itudi]nis alet tria millia peditum, et mille equi- 
+                    <lb /> tes, ubi et quoties S[ua] Maj[es]tas super hac militum 
+                    <lb /> assistentiâ per S[uam] Cels[itudin]em requisita fuerit, 
+                    <lb /> Nisi aliquis Princeps Germanus iam copias 
+                    <lb /> coniunxerit cum S[uae] Cels[itudi]nis copijs, aut ab ea- 
+                    <lb /> dem parte contra foederatas Provincias bellum 
+                    <lb /> gerat, Si quis vero Princeps Germanus iam 
+                    <lb /> S[uae] Cels[itudi]ni suppetias ferat, aut ab eadem parte 
+                    <lb /> bellum contra easdem Provincias moverit, 
+                    <lb /> tum Rex a tribus millibus peditum et mille 
+                    <lb /> equitibus mittendis dispensabitur, sed tantum 
+                    <lb /> 
+                    <lb /> 
+                </p> 
+                <p>[Seite 4]&nbsp; 
+                </p>
+                <pb facs="#FacsPnr4"/><p>ad octodecim millia thalerorum modo supradicto
+                <lb /> subministranda tenebitur.
+                <lb /> Suprad[ictis] D[ominos] de Verjus ad requisitionem per
+                <lb /> dictos D[ominos] de Schmisingh et de Wydenbrugk
+                <lb /> Nomine S[uae] Cels[itudi]nis Monasteriensis factam con-
+                <lb /> sensit, ut illi pro majore securitate præsen-
+                <lb /> tem chartam signarent, pollicitus se ijs
+                <lb /> supradictum tractatum ac secretos articulos
+                <lb /> redditurum, si non placuerit S[uae] Maj[esta]ti hisce
+                <lb /> comprehensos tres articulos ratos habere.
+                <lb /> Da[tum] Bilefeldiæ die 28 Julij A[nno] 1671.
+                <lb />
+                <lb /> Verjus [manu propria]
+                <lb /> Matthias Korf dictus Smisinck [manu propria]
+                <lb /> Bernhardt de Wydenbruck [manu propria]
+                <lb />
+                <lb /> 
+                </p>
+            </div>
+        </body>
+    </text>
+</tei:TEI>

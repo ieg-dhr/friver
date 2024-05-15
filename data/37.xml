@@ -1,0 +1,819 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE tei SYSTEM "../resources/FriVer_DTD.dtd">
+
+<?xml-model href="../resources/FriVer.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns="http://www.tei-c.org/ns/1.0"
+    xml:id="pa000299-0037">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title level="s">European peace treaties of the pre-modern era in data / Europäische
+                    Friedensverträge der Vormoderne in Daten (FriVer+)</title>
+                <title when="1719-11-20" xml:id="t37" when-custom="1719 XI 9_20" level="a"
+                    ref="https://www.ieg-friedensvertraege.de/treaty/t-37-1-de.html">Friedensvertrag
+                    von Stockholm</title>
+            </titleStmt>
+            <editionStmt>
+                <edition> Digital edition according to <ref target="http://www.tei-c.org/">TEI
+                        P5</ref>
+                </edition>
+                <funder>
+                    <ref target="https://www.text-plus.org/">TEXT+</ref>
+                </funder>
+                <editor role="http://id.loc.gov/vocabulary/relators/edt"
+                    ref="https://orcid.org/0000-0002-8741-5916">
+                    <persName>Jaap Geraerts</persName>
+                    <note>The transformation and enrichment of the data is done by Jaap Geraerts
+                        (IEG Mainz). The other members of the FriVer+ team are Fabian Cremer, Ines
+                        Grund, and Thorsten Wübbena (all IEG Mainz).</note>
+                    <note> The original data has been created by the <ref
+                            target="https://www.ieg-friedensvertraege.de">team of scholars</ref> who
+                        were part of the Europäische Friedensverträge der Vormoderne project. This
+                        project was lead by Prof. Dr. Heinz Duchhardt and was based at the Leibniz
+                        Institute of European History in Mainz. </note>
+                </editor>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>
+                    <orgName ref="http://www.isni.org/0000000119314040">Leibniz-Institut für
+                        Europäische Geschichte Mainz</orgName>
+                </publisher>
+                <distributor>
+                    <orgName ref="http://www.isni.org/0000000110101946">Universitäts- und
+                        Landesbibliothek Darmstadt</orgName>
+                </distributor>
+                <idno type="ISIL">http://lobid.org/organisation/DE-17</idno>
+                <date type="issued" when="2023-12-23"/>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">
+                        <p xml:lang="en">This file is licensed under the terms of the Creative
+                            Commons License CC-BY 4.0 (Attribution 4.0 International)</p>
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <repository xml:id="r10">Hannover StA/LA <note>Niedersächsisches Landesarchiv
+                        Hannover, Hann. 10 Nr. 387, 4. Findbuch:<lb/>
+                        <ref
+                            target="http://www.arcinsys.niedersachsen.de/arcinsys/detailAction?detailid=v3436698"
+                            >http://www.arcinsys.niedersachsen.de/arcinsys/detailAction?detailid=v3436698</ref></note></repository>
+                <msDesc>
+                    <p>Unterhändlerinstrument: NHSAHannover Hannover 10, 54 Schweden Nr. 387, 4-5:
+                        Stockholm 1719 XI 9/20 (6 fol.; Vertrag; 387, 4; mit 4 Sep.art.; 387, 5; je
+                        6 LS, und US, Papier; Wasserschäden).<lb/>
+                        <lb/> Schwedisches Reichsarchiv, Stockholm Tyskland V: Braunschweig-Lüneburg
+                        N:o 18 A) Fredsfördrag mellan Sverige och Hannover (Dat. Stockholm 9/20
+                        November 1719; Tyska; Undert.: Gustav Cronhielm, Carl Gustav Dücher, Gustav
+                        Adam Taube, M. J. de la Gardie, D. N. Höpken, Adolf Friedrich von
+                        Bassewitz);<lb/> B) Separata artiklar till Litt. A.<lb/>
+                        <lb/> Ratifikation: NHSAHannover Hannover 10, 54 Schweden Nr. 387:<lb/>
+                        <lb/> Ratifikation Schweden: Schwedisches Reichsarchiv, Stockholm Tyskland V
+                        N:o 18 D) Samme konungs ratifikation af Litt. A. Dat. S:t James palats
+                        12/23. Dec. 1719 (Tyska). E) D:o d:o af Litt. B.</p>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p> The data in this XML file, originally created by the project <ref
+                        target="https://www.ieg-friedensvertraege.de/vertraege">Europäische
+                        Friedensverträge der Vormoderne online</ref> has been transformed in
+                    accordance with <ref target="http://www.tei-c.org/">TEI P5</ref> as part of the
+                    project <ref
+                        target="https://www.ieg-mainz.de/en/research/research-projects/european-peace-treaties-of-the-pre-modern-era-in-data"
+                        >Europäische Friedensverträge der Vormoderne in Daten (FriVer+)</ref>
+                </p>
+            </projectDesc>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="de" xml:id="lan2">deutsch</language>
+            </langUsage>
+        </profileDesc>
+    </teiHeader>
+    <standOff>
+        <listPerson>
+            <person role="signatory" xml:id="p51">
+                <persName ref="https://explore.gnd.network/gnd/4023349-2">
+                    <name>Hannover</name>
+                </persName>
+            </person>
+            <person role="signatory" xml:id="p99">
+                <persName ref="https://explore.gnd.network/gnd/4077258-5">
+                    <name>Schweden</name>
+                </persName>
+            </person>
+            <person xml:id="pp0028">
+                <persName ref="https://explore.gnd.network/gnd/118729438">Louis XV of
+                    France</persName>
+            </person>
+            <person xml:id="pp0022">
+                <persName ref="https://explore.gnd.network/gnd/1243908041">Adolf Friedrich von
+                    Bassewitz</persName>
+            </person>
+            <person xml:id="pp0023">
+                <persName ref="https://explore.gnd.network/gnd/101972529X"> Gustav Cronhielm af
+                    Flosta </persName>
+            </person>
+            <person xml:id="pp0024">
+                <persName ref="https://explore.gnd.network/gnd/1019737409">Karl Gustav
+                    Düker</persName>
+            </person>
+            <person xml:id="pp0025">
+                <persName ref="https://explore.gnd.network/gnd/1160566828">Gustaf Adam
+                    Taube</persName>
+            </person>
+            <person xml:id="pp0026">
+                <persName ref="https://explore.gnd.network/gnd/1262003539">Magnus Julius De la
+                    Gardie</persName>
+            </person>
+            <person xml:id="pp0027">
+                <persName ref="https://explore.gnd.network/gnd/136631320">Daniel Niklas von
+                    Höpken</persName>
+            </person>
+            <person xml:id="pp0020">
+                <persName ref="https://explore.gnd.network/gnd/118538535">George I of Great Britain</persName>
+            </person>
+            <person xml:id="pp0021">
+                <persName ref="https://explore.gnd.network/gnd/123038162">Ulrika Eleonora of Sweden</persName>
+            </person>
+        </listPerson>
+        <listPlace>
+            <place xml:id="l18">
+                <placeName ref="https://explore.gnd.network/gnd/4057648-6">Stockholm</placeName>
+            </place>
+        </listPlace>
+        <facsimile>
+            <surface xml:id="FacsPnr1">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_438de20242218"/>
+            </surface>
+            <surface xml:id="FacsPnr2">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_438de25d6e139"/>
+            </surface>
+            <surface xml:id="FacsPnr3">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_438de291162f7"/>
+            </surface>
+            <surface xml:id="FacsPnr4">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_438de2ca5827e"/>
+            </surface>
+            <surface xml:id="FacsPnr5">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_438de307c1159"/>
+            </surface>
+            <surface xml:id="FacsPnr6">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_438de337ad8d7"/>
+            </surface>
+            <surface xml:id="FacsPnr7">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_438de370b7518"/>
+            </surface>
+            <surface xml:id="FacsPnr8">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_438de3a4de629"/>
+            </surface>
+            <surface xml:id="FacsPnr9">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_438de3e5a3c98"/>
+            </surface>
+            <surface xml:id="FacsPnr10">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_438de423a8acb"/>
+            </surface>
+            <surface xml:id="FacsPnr11">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_438de46b3d3f7"/>
+            </surface>
+            <surface xml:id="FacsPnr12">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_438de4a42e998"/>
+            </surface>
+            <surface xml:id="FacsPnr13">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_438de4ddc3868"/>
+            </surface>
+            <surface xml:id="FacsPnr14">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_438de515e3437"/>
+            </surface>
+            <surface xml:id="FacsPnr15">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_438de54ed22c9"/>
+            </surface>
+            <surface xml:id="FacsPnr16">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_438de5cb644f8"/>
+            </surface>
+            <surface xml:id="FacsPnr17">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_438de6041d82b"/>
+            </surface>
+            <surface xml:id="FacsPnr18">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_438de63a3fb08"/>
+            </surface>
+            <surface xml:id="FacsPnr19">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_438de67305189"/>
+            </surface>
+            <surface xml:id="FacsPnr20">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_438de6acde618"/>
+            </surface>
+            <surface xml:id="FacsPnr21">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_438de6e79794a"/>
+            </surface>
+            <surface xml:id="FacsPnr22">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_438de7344be57"/>
+            </surface>
+            <surface xml:id="FacsPnr23">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_438de767310aa"/>
+            </surface>
+            <surface xml:id="FacsPnr24">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_438de79ec3868"/>
+            </surface>
+            <surface xml:id="FacsPnr25">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_438de7d744928"/>
+            </surface>
+            <surface xml:id="FacsPnr26">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_438de80fc8688"/>
+            </surface>
+            <surface xml:id="FacsPnr27">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_438de84e55a98"/>
+            </surface>
+            <surface xml:id="FacsPnr28">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_438de88269318"/>
+            </surface>
+        </facsimile>
+    </standOff>
+    <text>
+        <front>
+            <div type="Drucke">
+                <p>CTS 31, S. (81) 83-91. Dumont 8/2, S. 14-17. Jenkinson 2, S. 243-250 (englisch).
+                    Pratje, Altes und Neues aus den Herzogtümern Bremen und Verden 8, S. 24-35.</p>
+            </div>
+            <div type="Inhalt">
+                <p>Art. 1&#160;Erkl&#228;rung &#252;ber Frieden und Freundschaft. Beendigung der
+                    feindlichen Handlungen und des Gebrauchs der Waffen.<lb/>Art.
+                    2&#160;Immerw&#228;hrende Vergessenheit und Amnestie.<lb/>Art.
+                    3&#160;Best&#228;tigung des Pr&#228;liminarfriedensrezess vom 11./22. Juli 1719.
+                    Best&#228;tigung der Abtretung der Herzogt&#252;mer Bremen und Verden.
+                    Bestimmungen &#252;ber Amt und Stadt Wildeshausen. Entbindung Schwedens vom
+                    Direktorium des Nieders&#228;chsischen Kreises. Entbindung der Untertanen und
+                    Eingesessenen von den Pflichten gegen&#252;ber Schweden. Vorstellung des neuen
+                    Landes- und Oberherrn. Lehensrechtliche Bestimmungen. Bestimmungen &#252;ber den
+                    Transfer von Briefschaften und Dokumenten.<lb/>Art. 4&#160;Erkl&#228;rung des
+                    K&#246;nigs von Gro&#223;britannien als Herzog und Kurf&#252;rst von
+                    Braunschweig-L&#252;neburg &#252;ber Freiheiten, Rechte, Besitzungen,
+                    Privilegien und Religionsaus&#252;bung.<lb/>Art. 5&#160;Erkl&#228;rung &#252;ber
+                    Eigentums- und Verm&#246;gensrechte. <lb/>Art. 6&#160;Amnestie.<lb/>Art.
+                    7&#160;Bestimmungen &#252;ber Verpf&#228;ndungen.<lb/>Art. 8&#160;Bestimmungen
+                    &#252;ber die Fortsetzung der Freundschaften und B&#252;ndnisse. Bestimmungen
+                    &#252;ber Geldzahlungen.<lb/>Art. 9&#160;Status des Westf&#228;lischen
+                    Friedens.<lb/>Art. 10&#160;&#220;ber Garantien.<lb/>Art.
+                    11&#160;Ratifikation.<lb/>Art. 12&#160;Erkl&#228;rung &#252;ber den Tausch der
+                    Urkunden.</p>
+                <p>Separatartikel:<lb/>Ernennung von Kommissionen.<lb/>Art.
+                    1&#160;Kontributionszahlungen. Festung Ottersberg. Kriegsschiff &quot;Bremer
+                    Schl&#252;ssel&quot;.<lb/>Art. 2&#160;Entsch&#228;digungen f&#252;r Ritterschaft
+                    und Adel.<lb/>Art. 3&#160;Finanzverwaltung.<lb/>Art. 4&#160;Status der
+                    Separatartikel.</p>
+            </div>
+            <div type="Kommentar">
+                <p>Hannover wurde 1712 in den Nordischen Krieg involviert, als Dänemark das Erzstift
+                    und Herzogtum Bremen<note>Im Folgenden kurz "Bremen", "Verden"; Bremen (die
+                        Stadt Bremen selbst jedoch war freie Reichsstadt) und Verden unterstanden
+                        seit dem Westphälischen Frieden als weltliches Herzogtum Schweden. Schweden
+                        hatte dadurch Sitz und Stimme im Reichstag und im Niedersächsichen Kreis.
+                        Ein Kriegsziel Georg I. war, Bremen und Verden seinen Stammlanden
+                        anzugliedern.</note>besetzte. Hannover mußte verhindern, erneut vom Zugang
+                    zum Meer abgeschnitten zu werden, und okkupierte seinerseits Verden und einen
+                    kleinen Teil Bremens. Am 2. Mai 1715 trat Dänemark die Herzogtümer gegen eine
+                    finanzielle Entschädigung an Hannover ab. Hannover schloß sich mit seinem
+                    Eingreifen im Norden des Reiches der antischwedischen Koalition an.
+                    Großbritannien, seit 1714 in Personalunion mit Hannover verbunden, beteiligte
+                    sich nicht direkt am Krieg, leistete den Nordischen Alliierten jedoch durch den
+                    Schutz der Schiffahrt und durch seine militärische Präsenz in der Ostsee
+                    indirekt Hilfe. Als Karl XII. im April 1715 gegen Usedom zog, trat Preußen in
+                    den Krieg gegen Schweden ein; ihm folgte im Oktober Hannover. Nach dem Tod Karls
+                    XII. (1718 XII 11) ging Schweden auf die Verhandlungsangebote Hannovers ein. Im
+                    Mai 1719 begannen in Stockholm die Hauptverhandlungen, die am 11. Juli 1719 zu
+                    einem Präliminarfrieden führten. Diesem folgten weitere Verhandlungen, die durch
+                    unterschiedliche Vorstellungen über die Höhe der Ablösesumme für Bremen-Verden,
+                    über die Modalitäten des Einsatzes der englischen Flotte zum Schutz Schwedens
+                    und der Ostsee sowie über Besitzfragen schwedischer Bürger in Bremen-Verden
+                    erschwert wurden. Im September/Oktober 1719 vereinigte sich die englische mit
+                    der schwedischen Flotte, was den Zaren zu einem Rückzug bewog und den Weg frei
+                    machte für die Einbeziehung Russlands in die Bemühungen der Friedensdiplomatie.
+                    Am 9./20 . November 1719 unterzeichneten Schweden und Hannover den ersten
+                    Friedensvertrag des Nordischen Krieges, dem bis 1721 weitere Friedensabkommen
+                    mit den übrigen Kriegsgegnern folgten.</p>
+            </div>
+
+            <div type="Kontext">
+                <p>1701-1714 Spanischer Erbfolgekrieg.<lb/>1700-1721 Großer Nordischer Krieg.
+                    Dänemark, Sachsen-Polen, Rußland und Brandenburg (in zeitlich wechselnden
+                    Bündniskonstellationen) versuchen, die schwedische Vorherrschaft im Ostseeraum
+                    zu brechen. Sachsen fällt in Livland ein, Dänemark richtet sich gegen Schleswig.
+                    <lb/>18. August 1700 Friede von Travendal zwischen Dänemark und Schweden.
+                    Dänemark scheidet aus dem Krieg aus und erkennt den Herzog von Holstein-Gottorf
+                    an. Der Krieg zwischen Sachsen-Polen und Rußland mit Schweden geht weiter
+                    (1701/02 Siege Karls XII. Besetzung Polens.) <lb/>24. September 1706 Friede von
+                    Altranstädt zwischen Sachsen-Polen und Schweden. August II. muß auf den
+                    polnischen Thron verzichten. <lb/>1. September 1707 Konvention von Altranstädt.
+                    Um einen weiteren Vormarsch Schwedens zu verhindern, garantiert der Kaiser die
+                    Rechte der Protestanten in Schlesien. Damit wird eine Verschmelzung mit dem
+                    Span. Erbfolgekrieg verhindert. <lb/>8. Juli 1709 Russischer Sieg bei Poltava.
+                    Der schwedische Rückzug beginnt.<lb/>12. Juni 1714 Preußisch-russisches Bündnis.
+                    Im November schließt sich Hannover an. <lb/>2. Mai 1715 Durch einen Vertrag mit
+                    Dänemark erwirbt Hannover Bremen und Verden. Hannover und Preußen treten in den
+                    Krieg gegen Schweden ein.<lb/>11. Dezember 1718 Tod Karl XII.<lb/>1719 - 1721
+                    Friedensverträge beenden den Nordischen Krieg. Die schwedische Hegemonie im
+                    Ostseeraum ist beendet. Dänemark und Preußen verzeichnen wichtige territoriale
+                    Gewinne. Rußland wird zur Großmacht im Baltikum. <lb/>11./22. Juli 1719
+                    Präliminarfriede zwischen Hannover und Schweden.<lb/>20. November 1719 Friede
+                    von Stockholm zwischen Schweden und Hannover. Hannover erhält Bremen und
+                    Verden<lb/>21. Januar 1721 Friede von Stockholm zwischen Schweden und Preußen.
+                    Preußen erhält Teile Pommerns<lb/>3. Juli 1721 Friede von Frederiksborg zwischen
+                    Schweden und Dänemark bringt territoriale Gewinne (Schleswig) für Dänemark.
+                    Schweden behält Vorpommern.<lb/>10. September 1721 Friede von Nystad zwischen
+                    Rußland und Schweden. Estland, Teile Kareliens, Ingermanland und Livland fallen
+                    an Rußland.</p>
+            </div>
+
+        </front>
+        <body>
+            <div type="Edition">
+                <p n="95">Im Namen der Heil. Dreyeinigkeit<note type="crit_app" n="1">Tyskland V No.
+                        18: Im Nahmen der heyligen Drey Einigkeit. Pratje: Im Nahmen der heiligen
+                        Dreyeinigkeit.</note><lb/>Kund und zu wissen sey hiemit jedermänniglichen,
+                    demnach die außerhalb des Römischen Reichs angefangene Nordische Krieges Unruhe
+                    mit der Zeit auch einige zu selbigem Reich gehörige Provinzen ergriffen und
+                    endlich gar in den Nieder Sächsischen Kreis<note type="annotation" n="2"
+                        >Hannover 10, 54 Schweden Nr. 387, 4-5: Krayß. Tyskland V No. 18; Pratje:
+                        Creyß (auch im Folgenden). CTS; Dumont: Kreyß (auch im Folgenden).</note>
+                    gedrungen, dadurch es sich veranlaßet, daß der Durchlauchtigste Großmächtigste
+                    Fürst und Herr, Herr <rs ref="pp0020">Georg, König von Groß Britannien</rs>,
+                        <note type="crit_app" n="3">Textvariante: Eigennamen im gesamten Text durch
+                        lateinische Buchstaben hervorgehoben.</note> Franckreich <note
+                        type="crit_app" n="4">Tyskland V No. 18; Pratje: Frankreich (auch im
+                        Folgenden).</note>und Irland <note type="crit_app" n="5">Pratje: Irrland
+                        (auch im Folgenden).</note>, Beschützer des Glaubens, Hertzog zu
+                    Braunschweig und Lüneburg, des Heil[igen]. Römisch[ischen]. Reichs-
+                    Ertz-Schatzmeister und Churfürst, als Hertzog und Churfürst zu Braunschweig und
+                    Lüneburg, in solchem<note type="crit_app" n="6">CTS; Dumont: solche. Tyskland V
+                        No. 18; Pratje: solchen."</note> Krieg <note type="annotation" n="7"
+                        >Nordischer Krieg 1700-1721.</note> mit verwickelt worden, S[eine].
+                    Maj[estä]t aber so wohl, als <note type="crit_app" n="8">Tyskland V No. 18;
+                        Pratje: [Auslassung:] ''S. Mayt. aber so wohl, als''.</note> die
+                        Durchlauchtigste<note type="crit_app" n="9">CTS; Dumont: Vertragspartner in
+                        umgekehrter Reihenfolge (auch im Folgenden).</note> Goßmächtigste Fürstin
+                    und Frau, Frau <rs ref="pp0021">Ulrica Eleonora</rs>, der Schweden, Gothen und
+                    Wenden Königin, Groß-Fürstin zu Finland, Hertzogin in <note type="crit_app"
+                        n="10">CTS; Dumont: zu.</note> Schonen, Estland<note type="crit_app" n="11"
+                        >Hannover 10, 54 Schweden Nr. 387, 4-5: Ehesten.</note>,
+                        Liefland<note>Hannover 10, 54 Schweden Nr. 387, 4-5: Liffland. Tyskland V
+                        No. 18; Pratje: Liefland (auch im Folgenden).</note>, Carelen, Bremen,
+                    Verden, Stettin, Pommern, der Cassuben und Wenden, Fürstin zu Rügen, Frau über
+                    Ingermanland und Wißmar, Pfaltz Gräffin beim Rhein, in Bayern<note
+                        type="crit_app" n="12">Hannover 10, 54 Schweden Nr. 387, 4-5: Beyern.
+                        Tyskland V No. 18: Bayern.</note>, zu Jülich, Cleve und Bergen<note
+                        type="crit_app" n="13">CTS; Dumont: Berge.</note>, Hertzogin etc, auch<note
+                        type="crit_app" n="14">CTS; Dumont: wie auch. Tyskland V No. 18; Pratje: wie
+                        auch.</note> Land Gräfin<note type="crit_app" n="15">Pratje: [Einschub:]
+                        und.</note> Erb Prinzessin<note type="crit_app" n="16">Tyskland V No. 18:
+                        LandGräfin und Erbprintzeßin zu </note> zu Heßen, Fürstin zu Hirschfeldt,
+                    Gräfin zu Catzen-Ellenbogen<note>Tyskland V No. 18: KatzenEllnbogen.</note>,
+                    Dietz, Ziegenhayn<note type="crit_app" n="17">Pratje: Ziegenheyn.</note>, Nidda
+                    und Schaumburg<note type="crit_app" n="18">Tyskland V No. 18; Pratje:
+                        ''Schaumburg p. aber so wohl alß Höchstgedachte Sr. königl. Mayt. von
+                        GroßBritannien aus''.</note> aus Christlöblicher Intention dero
+                        Gedancken<note>Pratje: Gedanken.</note> darauf einmütiglich gewandt, wie
+                    fernerem, aus solchen Krieges Wesen zu besorgendem Unhails und Verderb<note
+                        type="crit_app" n="19">Tyskland V No. 18; Pratje: Unheil und Verderb.</note>
+                    unschuldiger Lande und Leute zuvor gekommen, zuforderst aber und vornemlich<note
+                        type="crit_app" n="20">CTS; Dumont: fürnemlich</note> Friede und Ruhe
+                    zwischen höchst ermeldeten ihren königl[ichen]. Maj[estä]t Maj[estä]t gestiftet,
+                    und gutes Vernehmen und Vertrauen zwischen beyderseits erneuert und befestiget
+                    werden möchte<note type="crit_app" n="21">Tyskland V No. 18: mögte.</note>, zu
+                    welchem Ende der Durchlauchtigste und Großmächtigste Fürst und Herr, Herr <rs
+                        ref="pp0028">Ludvig der XV Allerchristlichster König von Franckreich und
+                        Navarra</rs> deßen Officia und Mediation<note type="crit_app" n="22">Durch
+                        lateinische Buchstaben hervorgehoben.</note> durch seinen bey dem
+                    königl[ich]. schwedischen Hof subsistirender und verordneter <note>Tyskland V
+                        No. 18; Pratje: subsistirenden und verordneten.</note>Residenten<note
+                        type="crit_app" n="23">Durch lateinische Buchstaben hervorgehoben</note> und
+                        Plenipotentiair<note type="crit_app" n="24">Durch lateinische Buchstaben
+                        hervorgehoben (auch im Folgenden). Tyskland V No. 18; Pratje:
+                        Penipotentiaire.</note> den Wohlgebohrnen Herrn Jacob von Campredon<note
+                        type="crit_app" n="25">Textvariante: Tyskland V No. 18: Wohlgebohrenen
+                        Herren Jacob von Campreden.Sachanmerkung: Jacques Campredon (geb. 1646),
+                        französischer Diplomat, 1702/07-1717 frz. Gesandter in Stockhom.</note>,
+                    rühmlich mit angewand, auch bereits zwischen höchst ermeldte ihre<note>Tyskland
+                        V No. 18: Ihren.</note> königl[iche]. Maj[estä]t Maj[estä]t ein
+                    <!--JG: link in original HTML
+                <ref target="likecms.php?site=friede/site%2Ehtm&nav=6&siteid=15&vertrag=7">-->
+                    Praeliminair-Friedens Reces <note type="crit_app" n="26">Durch lateinische
+                        Buchstaben hervorgehoben ; Tyskland V No. 18; Pratje: Recess.</note>unterm
+                    11/22 Julii jetzt lauffenden Jahres zu Stockholm<note type="annotation" n="27"
+                        >Der Präliminarfrieden zwischen Hannover und Schweden wurde am 1719 VII 11
+                        zu Stockholm geschlossen</note> getroffen, und darin vorbehalten worden, daß
+                    auf dem Fuß deßselben mit nechsten der Friede zwischen ihnen förmlich
+                    geschlossen, und darüber ein solennes Friedens-Instrument<note type="crit_app"
+                        n="28">Durch lateinische Buchstaben hervorgehoben</note> errichtet werden
+                    solte; Und dann zu völliger Ausmach- und möglichster Beschleunigung eines so
+                        erwünscht<note type="crit_app" n="29">Tyskland V No. 18: erwünschten.</note>
+                    und heilsahmen Wercks<note>Pratje: erwünschten und heilsamen Werks.</note> die
+                    beyderseitige und genugsahmen<note type="crit_app" n="30">Pratje: beederseitige,
+                        mit genugsamen.</note> Vollmachten versehene<note type="crit_app" n="31"
+                        >Tyskland V No. 18: versehnen.</note> Ministri Plenipotentiarii<note
+                        type="crit_app" n="32">Durch lateinische Buchstaben hervorgehoben.</note> im
+                        Nahmen<note type="crit_app" n="33">Pratje: Namen (auch im Folgenden).</note>
+                    Gottes zusammen getreten, und zwar von Seiten S[eine]r <rs ref="pp0020">königl[ichen]. Maj[estä]t
+                    von Großbritannien</rs> als Hertzog und Churfürsten zu Braunschweig und Lüneburg dero
+                    Ministere Plenipotentiaire der Wohlgebohrne Herr Obrister <rs ref="pp0022"
+                        >Adolph Friedrich von Bassewitz</rs>, von Seiten ihrer königl[ichen].
+                    Maj[estä]t von Schweden aber der Hochwohlgebohrne Graff Herr <rs ref="pp0023"
+                        >Gustav Cronhielm</rs>, ihro königl[ichen]. Maj[estä]t von Schweden und dero
+                    Reichs Raht, Praesident und königl[ichen]. Cantzley Collegii und der Upsalischen
+                    Academie Cantzler, wie auch der Hochwohl gebohrne Graff Herr <rs ref="pp0024"
+                        >Carl Gustav Ducker</rs>, Ihro königl[ichen]. Maj[estä]t von Schweden und
+                    dero Reichs Raht, Feldtmarschall und verordneter Kriegs Raht, desgleichen der
+                    Hochwohlgebohrne Graff Herr <rs ref="pp0025">Gustav Adam Taube</rs>, Ihro
+                    königl[ichen]. Maj[estä]t von Schweden und dero Reichs Raht und Ober-Statthalter
+                    in Stockholm<note type="crit_app" n="34">Durch lateinische Buchstaben
+                        hervorgehoben.</note>, gleichermaßen der Hochwohlgebohrne Graff Herr <rs
+                        ref="pp0026">Magnus de la Gardie</rs>, Ihro königl[ichen]. Maj[estä]t von
+                    Schweden und dero Reichs Raht und Praesident<note type="crit_app" n="35">Durch
+                        lateinische Buchstaben hervorgehoben.</note> in dem königl[ichen]. Commercii
+                        Collegio<note type="crit_app" n="36">Durch lateinische Buchstaben
+                        hervorgehoben.</note>, wie nicht weniger der Wohlgenbohrne Baron Herr <rs
+                            ref="pp0027">Daniel Niclas von Höpken</rs>, Ihro <rs
+                                ref="pp0021">königl[ichen]. Maj[estät].
+                    von Schweden</rs> verordneter Etats Secretaire;<note type="crit_app" n="37">Durch
+                        lateinische Buchstaben hervorgehoben. Pratje: Ihro königl. Majestät von
+                        Schweden, der hochwohlgebohrne Graf, Herr Gustav Cronhielm, Ihro königl.
+                        Majestät von Schweden und Dero Reiches-Rath, Präsident des königl.
+                        Canzley-Collegii, und der Upsalischen Academie Canzler, wie auch der
+                        hochwohlgebohrne Graf, Herr Carl Gustav Ducker, Ihro königl. Majestät von
+                        Schweden, und Dero Reichs-Rath, Feldmarschall und verordneter Kriegs-Rath,
+                        desgleichen der hochwohlgebohrne Graf, Herr Gustav Adam Taube, Ihro königl.
+                        Majestät von Schweden, und Dero Reiches-Rath und Oberstadthalter in
+                        Stockholm, gleichermassen der hochwohlgebohrne Herr Graf Magnus de la Gardie
+                        Ihr. königl. Majestät von Schweden und Dero Reichs-Rath und Präsident in dem
+                        königl. Commercien-Collegio, wie nicht weniger, der Wohlgebohrne Baron, Herr
+                        Daniel Niclaus von Höpken, Ihrer königl. Majestät von Schweden verordneter
+                        Etats-Secretaire; von Seiten Sr. königl. Majestät von Großbritannien, als
+                        Herzogen und Churfürsten von Braunschweig und Lüneburg aber, Dero Ministre
+                        Plenipotentiaire der Wohlgebohrne Herr Oberster, Adolph Friederich von
+                        Bassewitz.</note> als haben dieselben nachfolgende Articuln<note
+                        type="crit_app" n="38">Durch lateinische Buchstaben hervorgehoben.</note>
+                    mit einander abgeredet und geschlossen.<lb/>1.<lb/>Soll ein immerwährender
+                    aufrichtiger und beständiger Friede und Freundschafft zwischen Ihro
+                    königl[ichen]. <rs
+                        ref="pp0020">Maj[estä]t von Großbritannien</rs> auch als Hertzogen Churfürsten zu
+                    Braunschweig und Lüneburg und dero Chur- und Fürstlichem Hause eines, und Ihro
+                    königl[ichen]. <rs
+                        ref="pp0021">Maj[estä]t von Schweden</rs> und dem Reiche Schweden anderen
+                        Theils<note type="crit_app" n="39">Pratje: Ihro königl. Majestät von
+                        Schweden, und dem Reiche Schweden eines, und Ihr. königl. Majest. von
+                        Großbritannien auch als Herzogen, und Chur- und Fürstl. Haus andern
+                        Theils.</note>, hiemit gestifftet und bestätiget seyn und soll und will ein
+                    Theil dem anderen alles dasjenige redlich und unverbrüchlich erweisen, was das
+                    Band der Einigkeit und Vertraulichkeit zwischen ihnen völlig ergäntzen und
+                    beständig machen kann; alle feindliche Handlungen und Gebrauchung der Waffen
+                        aber<note type="crit_app" n="40">Pratje: [Auslassung:] aber.</note> von
+                    einem Theil gegen den anderen sollen von nun an gäntzlich aufhören und nieder
+                    geleget seyn und bleiben.<lb/>2.<lb/>Es soll auch beyderseits eine immerwährende
+                    Vergessenheit und Amnestie<note type="crit_app" n="41">Durch lateinische
+                        Buchstaben hervorgehoben.</note> alles dessen seyn, was an der einen oder
+                    der andern Seiten, es sey auff was Weise es wolle, feindliches oder
+                    wiederwärtiges, gegen einander vorgenommen seyn möchte, und soll deren keines
+                    dem einen oder dem anderen Theile, oder jemand den seinigen in ungute
+                        jemahlen<note type="crit_app" n="42">Pratje: oder jemand der Seinigen, im
+                        Unguten jemahl.</note> zugerechnet oder vergolten werden, sondern das alles
+                    und jedes<note type="crit_app" n="43">Pratje: [Auslassung:] und jedes.</note>
+                    soll hiemit todt und ab seyn, und dessen nimmermehr<note type="crit_app" n="44"
+                        >Pratje: nimmer.</note> gedacht werden.<lb/>3.<lb/>Gleichwie ihre
+                    königl[iche]. <rs
+                        ref="pp0021">Maj[estä]t von Schweden</rs>, vermöge des mit S[eine]r königl[ichen].
+                    <rs ref="pp0020">Maj[estä]t von Groß Britannien</rs>, als Hertzogen, und Chur Fürsten zu Braunschweig
+                    und Lüneburg unterm 11/22 Julii<note type="crit_app" n="45">Durch lateinische
+                        Buchstaben hervorgehoben.</note> 1719 errichteten, eingangs berührten
+                    Praeliminar Friedens Recessus<note type="crit_app" n="46">Durch lateinische
+                        Buchstaben hervorgehoben.</note> deroselben bereits cediret und abgetreten
+                    haben; Also<note type="crit_app" n="47">Pratje: als.</note> cediren und
+                    übertragen Sie kraffts dieses nochmahls vor sich, das Reich Schweden, und ihre
+                        Successoren<note type="crit_app" n="48">Durch lateinische Buchstaben
+                            hervorgehoben.</note> und Nachkommen, S[eine]r königl[ichen]. <rs ref="pp0020">Maj[estä]t von
+                    Groß Britannien</rs>, als Hertzogen und Chur Fürsten zu Braunschweig und Lüneburg,
+                    und dero Nachkommen an der Regierung in perpetuum<note type="crit_app" n="49"
+                        >Durch lateinische Buchstaben hervorgehoben.</note> die Hertzogtümer Bremen
+                    und Verden pleno jure<note type="crit_app" n="50">Durch lateinische Buchstaben
+                        hervorgehoben.</note>, mit allen deren juribus<note type="crit_app">Durch
+                        lateinische Buchstaben hervorgehoben.</note> und Zubehörungen<note
+                        type="crit_app" n="51">Pratje: Zubehörung.</note>, so wie selbige
+                    Hertzogtümer durch das Oßnabrückische Friedens Instrument<note type="crit_app"
+                        n="52">Durch lateinische Buchstaben hervorgehoben.</note> vom 14./24. Octobr
+                    1648 Art. X.mo der Crohn Schweden mit mehrerem zugeeignet worden, und wie die
+                    Könige von Schweden und das Reich Schweden solche Hertzogthümer sambt deren
+                    annexis juribus<note type="crit_app" n="53">Durch lateinische Buchstaben
+                        hervorgehoben.</note> und Zubehörungen seithero beseßen, genutzet und
+                    gebraucht haben, oder besitzen, nutzen und gebrauchen sollen, oder können,
+                    nichts überall davon ausgenommen, und insonderheit auch das iure pignoris<note
+                        type="crit_app" n="54">Durch lateinische Buchstaben hervorgehoben.</note>in
+                    Chur Braunschweigischen Händen bereits seynde Ambt und Städtlein Wilshausen
+                        <note type="crit_app" n="55">Textvariante: Durch lateinische Buchstaben
+                        hervorgehoben. Sachanmerkung: Wilshausen, heute: Wildeshausen, im
+                        Oldenburger Land südwestlich von Bremen gelegen.</note>mit allen ihren
+                    Zubehörungen, und Gerechtsahmen, doch also, daß wegen des darauff hafftenden
+                    Pfand Schillings kein fernerer Anspruch an ihro königl[iche]. Maj[estä]t und das
+                    Reich Schweden, nun oder ins künfftige gemachet werde, solches alles und jedes
+                    von nun an zu ewigen Zeiten mit eben dem Recht, wie es <rs ref="pp0022">Ihro königl[iche].
+                    Maj[estä]t von Schweden</rs> und dero Vorfahren an<note type="crit_app" n="56">CTS;
+                        Dumont: von.</note> der Regierung, wie auch das Reich Schweden bißhero
+                    beseßen, ohne einige Schmälerung oder Vorbehalt auch ohne alle in oder außerhalb
+                    Gerichts von Ihrer königl[ichen]. <rs ref="pp0021">Maj[estä]t von Schweden</rs> oder dero
+                    Mitbeschriebenen jemahls zu machende Wiederrede Hinderung oder Sperrung völlig
+                    und in Eigenthum<note type="crit_app" n="57">Pratje: eigenthümlich.</note> zu
+                    haben und zu behalten; begeben und renunciiren<note type="crit_app" n="58">Durch
+                        lateinische Buchstaben hervorgehoben. Pratje: renunciren.</note> auch hiemit
+                    in faveur<note type="crit_app" n="59">Durch lateinische Buchstaben
+                        hervorgehoben.</note> höchstgedachter S[einer]. <rs ref="pp0020">königl[ichen]. Maj[estä]t
+                    von Groß-Britannien</rs> als Hertzogen und Chur Fürsten zu Braunschweig und Lüneburg
+                    und deren obmit beschriebenen in perpetuum<note type="crit_app" n="60">Durch
+                        lateinische Buchstaben hervorgehoben.</note> allen denen Gerechtsahmen,
+                    welche Sie an denen Hertzogthümern Bremen und Verden, oder von wegen deroselben
+                    bißher gehabt, oder auff einige Weise praetendiren können, in genere und in
+                        specie<note type="crit_app" n="61">Durch lateinische Buchstaben
+                        hervorgehoben.</note>, es betreffe das Directorium im Nieder-Sächsischen
+                    Kreis, Sitz und Stimmen auf Reichs und Kreis- Tagen, oder mag sonsten Nahmen
+                    haben, wie es wolle; entbinden gleichfallß hiemit die Unterthanen, Eingeseßnen
+                    und Angehörige solcher Hertzogthümer aller deren Pflichten und Verbindungen,
+                    womit sie ihro königl[iche]. Maj[estä]t und dem Reiche Schweden verbunden
+                    gewesen, und verweisen sie damit an S[eine]. königl[iche]. <rs ref="pp0020">Maj[estä]t von Groß
+                    Britannien</rs>, als Hertzogen und Chur Fürsten zu Braunschweig und Lüneburg, und
+                    dero Obmitbeschriebene, als ihre nunmehrige alleinige und beständige Landes und
+                    Ober-Herren, wie Sie dann auch das Dohm-Capitul zu Hamburg und die zu dem Dohm
+                    zu Bremen und dem dortigen vormahligen Capitul gehörige Persohnen, Untersassen,
+                    Heur-Zinß und Meyer-Leuthe<note type="crit_app" n="62">Pratje: Leute.</note> so
+                    wohl in der Stadt Bremen, als in denen so genandten Vier Gohen<note
+                        type="annotation" n="63">Um 1400 entstand ein geschlossenes, von der Stadt
+                        Bremen beherrschtes Territorium, die sog. Vier Gohen, die sich aus den
+                        Landgemeinden Blockland, Hollerland, Wederland und Vieland zusammensetzten.
+                        1719/20 war die Zugehörigkeit zwischen der Stadt Bremen und Georg I.
+                        umstritten. Vergleiche Meyer, Die Vier Gohe und Bremen; Hofmeister, Bremen
+                        und seine ''Länder''.</note> und an<note type="crit_app" n="64">Pratje:
+                        [Auslassung:] an.</note> allen anderen Ohrten, wo deren befindlich seyn,
+                    obgedachte Eyde und Verbindungen an die Crohn und das Reich Schweden krafft
+                    dieses entschlagen, und an S[eine]. königl[iche]. <rs ref="pp0020">Maj[estä]t von
+                    Groß-Britannien</rs>, als Hertzogen und Churfürsten zu Braunschweig und Lüneburg und
+                    dero Obmitbeschriebene überweisen.<lb/>Ihro königl[iche]. <rs ref="pp0021">Maj[estä]t von
+                    Schweden</rs> für sich und dero Obmitbeschriebene refutiren<note type="crit_app"
+                        n="65">Durch lateinische Buchstaben hervorgehoben.</note> annebst hiemit
+                        auch<note type="crit_app" n="66">CTS; Dumont; Pratje: und.</note> Krafft
+                    dieses die Jura feudi<note type="crit_app" n="67">Durch lateinische Buchstaben
+                        hervorgehoben.</note>, so Sie und ihre Vorfahren wegen der Hertzogthümer
+                    Bremen und Verden von denen Römischen Kaysern und dem Römischen Reiche erlanget
+                    und bis dahin gehabt haben, und übertragen, so viel an Ihro solche Lehnbarkeit
+                    an ihro königl[ichen]. <rs ref="pp0020">Maj[estä]t von Groß Britannien</rs> und dero
+                    Obmitbeschriebene.<lb/>Übrigens sollen die Brieffschaften und Documente, die
+                    Hertzogthümer Bremen und Verden betreffend, bona fide, so bald es möglich
+                    denenjenigen extradiret<note type="crit_app" n="68">Durch lateinische Buchstaben
+                        hervorgehoben.</note> werden, welche dieselbe zu empfangen von S[eine]r
+                    königl[ichen]. <rs ref="pp0020">Maj[estä]t von Groß Britannien</rs>, werden ernennet und
+                    bevollmächtiget werden.<lb/>4.<lb/>S[eine]r königl[ichen]. <rs ref="pp0020">Maj[estä]t von Groß
+                    Britannien</rs>, als Hertzog und Chur Fürst zu Braunschweig und Lüneburg, und dero
+                    Obmitbeschriebene versprechen und geloben ihrerseits, die Stände, Unterthanen
+                    und sämbtliche Einwohner auf dem Lande so wohl, als in denen Städten ermelter
+                    Hertzogthümer Bremen und Verden und was denenselben anhängig, und zugehörig seyn
+                    kan, niemanden ausgenommen, und also einen jeden derselben, bey seinen
+                    wohlhergebrachten Freyheiten, Gütern, Rechten und Privilegien<note
+                        type="crit_app" n="69">Durch lateinische Buchstaben hervorgehoben.</note>
+                    insgemein und absonderlich, so wie besagte Stände, Unterthanen und Einwohnern
+                    selbige gehabt und besessen, und solche nach Inhalt des Instrumenti Pac[cis].
+                        Westph[alicae].<note type="crit_app" n="70">Durch lateinische Buchstaben
+                        hervorgehoben.</note> ihnen vorbehalten worden, sambt bey dem freyen
+                    Religions Exercitio<note type="crit_app" n="71">Durch lateinische Buchstaben
+                        hervorgehoben. Pratje: Religions-Exercitiis.</note>, vermöge der
+                    unveränderten Augsburgischen Confession<note type="crit_app" n="72">Durch
+                        lateinische Buchstaben hervorgehoben.</note>, jederzeit unbekümmert und
+                    ungekränckt zu laßen, zu handhaben und zu schützen.<lb/> Da<note type="crit_app"
+                        n="73">Pratje: [Auslassung des folgenden Absatzes bis:] vorgezogen
+                        werden.</note> auch ein und anderer noch nicht zu dem würklichen Genuß der
+                    entweder ihm selber von denen vorigen <rs ref="pp0021">Königen von Schweden</rs> verliehenen, oder
+                    auch von andren erhandelten territorium<note type="crit_app" n="74">Durch
+                        lateinische Buchstaben hervorgehoben.</note> sich aufhalten, wieder
+                    zugestellet und eingeräumet werden.<lb/>7.<lb/>Nicht weniger sollen alle in mehr
+                        erwehnten<note type="crit_app" n="75">Pratje: vorerwehnten.</note>
+                        beyden<note>Pratje: [Auslassung:] beyden.</note> Hertzogthümern von<note
+                        type="crit_app" n="76">Pratje: [Auslassung:] von.</note> der dortigen
+                    gewesenen königl[ich]<note type="crit_app" n="77">Pratje: [Auslassung:]
+                        königlich.</note>. schwedischen Regierung biß man königl[ich].
+                    dänischerseits sich bemelter Hertzogthümer gäntzlich bemächtiget, publico
+                        nomine<note type="crit_app" n="78">Durch lateinische Buchstaben
+                        hervorgehoben.</note>, wegen Schulden und Posten<note>Pratje: Nutzen.</note>
+                    so auf königlichen Befehl aufgenommen, und in des Königs oder der Crohn
+                        Nutzen<note type="crit_app" n="79">Pratje: Posten.</note>, verwandt worden,
+                    gemachte würkliche Verpfändungen, und von besagter Regierung geschehene
+                        Immissiones<note type="crit_app" n="80">Durch lateinische Buchstaben
+                        hervorgehoben.</note> in ihrer vollkommenen<note type="crit_app" n="81"
+                        >Pratje: vollkommen.</note> Krafft verbleiben, dergestalt, daß die
+                        Creditores<note type="crit_app" n="82">Durch lateinische Buchstaben
+                        hervorgehoben.</note> und rechtmäßige Einhabern<note type="crit_app" n="83"
+                        >Pratje: Inhabere.</note> solches ihnen in Ansehen<note type="crit_app"
+                        n="84">Pratje: Ansehung.</note> ihres gethanen Vorschuß erweißlich
+                    verliehenen oder eingeräumten Unterpfandes, ihre in Händen habende Contracte
+                        <note type="crit_app" n="85">Durch lateinische Buchstaben hervorgehoben
+                        (auch im Folgenden).</note> und<note type="crit_app" n="86">CTS; Dumont:
+                        mit.</note> darinnen enthaltene Verschreibungen<note type="crit_app" n="87"
+                        >Pratje: Verschreibung.</note>, so lange zu gute genießen, bis dieselben
+                    vermöge ihrer Contracte vollenkommmen expiriret<note type="crit_app" n="88"
+                        >Durch lateinische Buchstaben hervorgehoben.</note>, und sie ihres
+                    Vorschußes halber gäntzlich vergnüget worden, als dann erst besagten
+                        Creditoren<note type="crit_app" n="89">Durch lateinische Buchstaben
+                        hervorgehoben.</note> verpfändete, in<note type="crit_app" n="90">Pratje:
+                        [Auslassung:] in.</note> beyden Hertzogthümern belegene, oder auch<note
+                        type="crit_app" n="91">Pratje: [Auslassung:] auch.</note> dazu gehörige
+                    Güter und Häuser S[eine]r königl[ichen]. <rs ref="pp0020">Maj[estä]t von Groß
+                        Britannien</rs>, als
+                    Hertzogen und Chur Fürsten zu Braunschweig und Lüneburg, und dero
+                    Mitbeschriebenen zufallen, und dero Cammer einverleibet werden. Was aber auf der
+                    dortigen Stände Obligationes<note type="crit_app" n="92">Durch lateinische
+                        Buchstaben hervorgehoben.</note> und Garantien<note type="crit_app" n="93"
+                        >Durch lateinische Buchstaben hervorgehoben. Pratje: Guarantien (auch im
+                        Folgenden).</note> auff-negotiiret worden, solches sind gesamte Stände zu
+                    bezahlen und zu praestiren<note type="crit_app" n="94">Durch lateinische
+                        Buchstaben hervorgehoben.</note> gehalten.<lb/>8.<lb/> S[eine]r
+                    königl[ichen]. <rs ref="pp0020">Maj[estä]t von Groß- Britannien</rs> versprechen hiemit nicht nur als
+                    König, sondern auch als Hertzog und Chur Fürst zu Braunschweig und Lüneburg, die
+                    mit Ihro königl[ichen]. <rs ref="pp0021">Maj[estä]t zu Schweden</rs> Vorfahren, und dem Reiche
+                    Schweden für hin<note type="crit_app" n="95">Pratje: vorhin.</note> gepflogene
+                    vertrauliche Freundschafft und Bündnißen, nebst denen Garantien<note
+                        type="crit_app" n="96">Durch lateinische Buchstaben hervorgehoben.</note>,
+                    so dem Fürstlich-Holstein-Gottorfischen Hause, auf den Fuß der mit denen
+                    Nordischen Alliirten<note type="annotation" n="97">Die Nordische Allianz bestand
+                        aus: Dänemark, Preußen, Russland, Sachsen/Polen, Hannover.</note>
+                    geschloßenen oder noch ferner zu schließenden Frieden können zu gute kommen,
+                    anjetzo mit Ihro königl[ichen]. Maj[estä]t und dem Reiche Schweden zu erneuern,
+                    und selbige nach denen jetzigen Conjuncturen<note type="crit_app" n="98">Durch
+                        lateinische Buchstaben hervorgehoben.</note> einzurichten.<lb/>Über dem
+                    wollen Ihro königl[iche]. <rs ref="pp0020">Maj[estä]t von Groß Britannien</rs>, als Hertzog und Chur
+                    Fürst zu Braunschweig und Lüneburg, gehalten seyn, an Ihro königl[ichen].
+                    Maj[estä]t von Schweden auf dero Assignation und Quitung die Summa von Zehen
+                    mahl hundert tausendt Reichsthalern<note type="annotation" n="99">Summa ...
+                        Reichsthalern: durch lateinische Buchstaben hervorgehoben.</note> an neuen
+                    volgültigen einfachen und gedoppelten Marck oder Drittheil Stücken, nach dem
+                    Leipziger Münzfuß de Anno 1690, da die Marck feinen Silbers zu zwölff
+                        Courant<note type="crit_app" n="100">Durch lateinische Buchstaben
+                        hervorgehoben (auch im Folgenden).</note> Thalern ausgemüntzet ist, in
+                    Hamburg zahlen zu laßen, und wie bereits Anstalt gemacht worden, daß Ihro
+                    <rs ref="pp0021">königl[ichen]. Maj[estä]t von Schweden</rs> eine Tertia<note type="crit_app" n="101"
+                        >Durch lateinische Buchstaben hervorgehoben. Pratje: tertiam.</note> davon
+                    nemlich 333333 1/3 Thlr. auf dero Assignation<note type="crit_app" n="102">Durch
+                        lateinische Buchstaben hervorgehoben.</note> und Quitung<note
+                        type="crit_app" n="103">Durch lateinische Buchstaben hervorgehoben.</note>
+                    in Hamburg sollen entrichtet werden, solches auch vor Signirung<note
+                        type="crit_app" n="104">Durch lateinische Buchstaben hervorgehoben.</note>
+                    dieses Friedens-Instruments<note type="crit_app" n="105">Durch lateinische
+                        Buchstaben hervorgehoben.</note> bewerckstelliget seyn wird, also hat es
+                    dabey sein verbleiben; der übrige Theil aber oberwehnter Million<note
+                        type="crit_app" n="106">Durch lateinische Buchstaben hervorgehoben.</note>
+                    Thaler soll vier biß sechs<note type="crit_app" n="107">Pratje: 4 bis 6.</note>
+                    Wochen nach geschehener Auswechselung der Ratificationen<note type="crit_app"
+                        n="108">Durch lateinische Buchstaben hervorgehoben.</note> über dieses
+                    Friedens Instrument<note type="crit_app" n="109">Durch lateinische Buchstaben
+                        hervorgehoben.</note> in einer Summe richtig und ohnfehlbahrlich<note
+                        type="crit_app" n="110">Pratje: unfehlbar.</note> zu Hamburg auf gehörige
+                        Assignation<note type="crit_app" n="111">Durch lateinische Buchstaben
+                        hervorgehoben.</note> und Quitungen bezahlet werden.<lb/>9.<lb/>Der
+                    Westphälische Friedens-Schluß, in so weit derselbe durch gegenwärtigen
+                        Tractat<note type="crit_app" n="112">Durch lateinische Buchstaben
+                        hervorgehoben.</note> und sonsten nicht geändert, oder durch die weitere zu
+                    schließende Nordische Frieden möchte geändert werden, bleibet in seiner vollen
+                    kommenen Krafft und Würckung, und verbinden sich beyde compaciscirende<note
+                        type="crit_app" n="113">Durch lateinische Buchstaben hervorgehoben (auch im
+                        Folgenden).</note> hohe Theile ihres Orts, alles dasjenige beyzutragen, was
+                    zu Auffrechthaltung und Befestigung besagten Westphälischen Frieden Schlußes
+                    nöthig und dienlich seyn wird.<lb/>10.<lb/>Beyde compaciscirende hohe Theile
+                        reserviren<note type="crit_app" n="114">Durch lateinische Buchstaben
+                        hervorgehoben.</note> ihnen hiemit zuforderst, S[eine]r kayserl[ichen].
+                    Maj[estä]t, auch, nach befinden, anderer Puissancen Garantie<note
+                        type="crit_app" n="115">Beide Worte durch lateinische Buchstaben
+                        hervorgehoben."</note>über dieses Friedens-Instrument<note type="crit_app"
+                        n="116">Durch lateinische Buchstaben hervorgehoben.</note> zu suchen und zu
+                    nehmen.<lb/>11.<lb/>Die beyderseitige Ratificationen<note type="crit_app"
+                        n="117">Durch lateinische Buchstaben hervorgehoben.</note> über dieses
+                    Friedens Instrument<note type="crit_app" n="118">Durch lateinische Buchstaben
+                        hervorgehoben.</note> sollen zum spätesten innerhalb zwey Monathe à dato
+                    dieses beygebracht, und alhie zu Stockholm gegen einander ausgewechselt
+                    werden.<lb/>12.<lb/> Zu Uhrkund dessen, was obstehet, seyn<note type="crit_app"
+                        n="119">Pratje: sind.</note> hievon zwey gleichlautende Exemplaria<note
+                        type="crit_app" n="120">Durch lateinische Buchstaben hervorgehoben.</note>
+                    verfertiget worden, welche beyde von beyderseits Compaciscenten dazu
+                    Gevollmächtigten Ministris unterschrieben und untersiegelt, und jedem Theile
+                    eines davon zugestellet worden.<lb/>So geschehen<note type="crit_app" n="121"
+                        >CTS; Dumont: So geschehen und gegeben zu. Pratje: So geschehen und
+                        gegeben.</note> Stockholm den 9/20 Novembris<note type="crit_app" n="122"
+                        >Durch lateinische Buchstaben hervorgehoben.</note> im Jahre<note
+                        type="crit_app" n="123">Pratje: [Auslassung:] im Jahre.</note> Ein Tausend
+                    Sieben Hundert und Neunzehn.</p>
+                <p>LS <rs ref="pp0022">Adolph Friedrich von Bassewitz</rs><lb/>LS <rs
+                    ref="pp0023">Gustav Cronhielm</rs><lb/>LS <rs ref="pp0024">Carl Gustav
+                        Ducker</rs><lb/>LS <rs ref="pp0025">Gustav von Taube</rs><lb/>LS <rs
+                            ref="pp0026">M. Delagardie</rs><lb/>LS <rs ref="pp0027">M. Von Höpken</rs><note
+                        type="crit_app" n="124">Pratje: [Reihenfolge:] Cronhielm, Ducker, Taube,
+                        Gardi, Höpken, Bassewitz.</note></p>
+                <p/>
+                <p/>
+                <p/>
+                <p/>
+                <p/>
+                <p><lb/>Articuli separati<lb/> Demnach es sich zugetragen, daß bey Schließung und
+                    Unterzeichnung des unterm heutigen Dato zwischen S[eine]r königl[ichen].
+                    <rs ref="pp0020">Maj[estä]t von Groß Britannien</rs> als Hertzogen und Churfürsten zu Braunschweig und
+                    Lüneburg und Ihro königl[ichen]. <rs ref="pp0021">Maj[estä]t von Schweden</rs> und dem Hause Reiche
+                    Schweden, errichteten Friedens-Instruments<note type="crit_app" n="125">Durch
+                        lateinische Buchstaben hervorgehoben.</note> einige Angelegenheiten sich
+                    hervorgethan, welche eine genauere Nachricht und Untersuchung, theils auch eine
+                    vorhergehende Liquidation<note type="crit_app" n="126">Durch lateinische
+                        Buchstaben hervorgehoben.</note> erfordern; derowegen aber man nicht
+                    dienlich erachtet, die Zeit auszuziehen und das Haubtwerck länger ausgestellet
+                    seyn zu laßen;<lb/>Als haben beyderseits compaciscirende<note type="crit_app"
+                        n="127">Durch lateinische Buchstaben hervorgehoben.</note> hohe Theile sich
+                    dahin verglichen, daß zu gäntzlicher Schlicht- und Ausmachung solcher in
+                    nachfolgenden Articuln<note type="crit_app" n="128">Durch lateinische Buchstaben
+                        hervorgehoben.</note> abgefasten Puncten<note type="crit_app" n="129">Durch
+                        lateinische Buchstaben hervorgehoben.</note>, gewisse Commissarii<note
+                        type="crit_app" n="130">Durch lateinische Buchstaben hervorgehoben.</note>
+                    von beyden Seiten, sollen ernennet und bevollmächtiget werden, welche gleich
+                    nach ausgewechselten Ratificationen <note type="crit_app" n="131">Durch
+                        lateinische Buchstaben hervorgehoben.</note> über obbesagtes
+                        Friedens-Instrument<note type="crit_app" n="132">Durch lateinische
+                        Buchstaben hervorgehoben.</note> so wohl als gegenwärtigen Separat-Articuln,
+                    zusammen treten und innerhalb einer vier monathlichen Frist, hierunten benandte
+                    Angelegenheiten durch güthlichen Vergleich zum Schluß bringen
+                    sollen.<lb/>1.<lb/>S[eine]r königl[ichen]. <rs ref="pp0020">Maj[estä]t von Groß
+                        Britannien</rs> als
+                    Hertzog und Churfürst zu Braunschweig und Lüneburg wollen auch diejenige
+                        Contributiones<note type="crit_app" n="133">Durch lateinische Buchstaben
+                        hervorgehoben.</note> und andere Auflagen, welche dieselbe vor Übernehmung
+                    mehrbesagter beyden Hertzogthümern aus dem deroselben fürher übertragenen
+                    Postirungs-District <note type="crit_app" n="134">Durch lateinische Buchstaben
+                        hervorgehoben.</note> gehoben und selbige so wohl als das in der Festung
+                    Ottersberg <note type="crit_app" n="135">Durch lateinische Buchstaben
+                        hervorgehoben. Ottersberg, in der Wümmeniederung nördlich von Verden
+                        gelegen.</note> damahls befindlich gewesene Magazin, Ammunition<note
+                        type="crit_app" n="136">Durch lateinische Buchstaben hervorgehoben.</note>
+                    und andere Kriegs-Zurüstungen, imgleichen das Orlog<note type="crit_app" n="137"
+                        >Textvariante: Durch lateinische Buchstaben hervorgehoben. Sachanmerkung:
+                        Orlog, niederdt. ''Krieg''.</note>-Schiff Bremer Schlüßell genandt, zu sich
+                    genommen haben, Ihro königl[ichen]. <rs ref="pp0021">Maj[estä]t von Schweden</rs> und der Crohn
+                    Schweden, nach der darüber getroffenen Liquidation<note type="crit_app" n="138"
+                        >Durch lateinische Buchstaben hervorgehoben (auch im Folgenden).</note>
+                    ersetzen und vergüten. Dajenige aber, was von Dannemarck aus obgedachter
+                        Postirung<note type="crit_app" n="139">Durch lateinische Buchstaben
+                        hervorgehoben.</note> gehoben worden, kann in diese Liquidation nicht
+                    gebracht werden.<lb/>2.<lb/>Desgleichen haben auch S[eine]. königl[iche].
+                    <rs ref="pp0021">Maj[estä]t von Großbritannien</rs> als Hertzog und Chur Fürst zu Braunschweig und
+                    Lüneburg sich geneigt zu seyn erklähret, denen von der Ritterschafft und Adel
+                    bedienten und andern Eingeseßenen, welchen währenden diesen Troublen<note
+                        type="crit_app" n="140">Durch lateinische Buchstaben hervorgehoben.</note>
+                    ihre Güter eingezogen worden, die Einkünffte, so wie dadurch genießet, und
+                    welche von ihro königl[ichen]. Maj[estä]t selbsten oder dero Cammer genoßen
+                    seyn, wieder ersetzen zu laßen; Imgleichen wollen Sie auch auf die in
+                        exilio<note type="crit_app" n="141">Durch lateinische Buchstaben
+                        hervorgehoben.</note> bißhero gelebte Justitiae<note type="crit_app" n="142"
+                        >Durch lateinische Buchstaben hervorgehoben.</note> und Landes Bediente,
+                    welche darum geziemende Ansuchung thun werden, und noch fähig und im Stande zu
+                    dienen sind, bey ereignenden Vacancien Reflexion<note type="crit_app" n="143"
+                        >Durch lateinische Buchstaben hervorgehoben (auch im Folgenden).</note>
+                    machen.<lb/>3.<lb/>Solle annoch die vormahlige in der Stadt Bremen gewesene
+                    königl[iche]. schwedische Regierung wegen ein und andern Sachen, so die
+                    bißherige Oeconomie<note type="crit_app" n="144">Durch lateinische Buchstaben
+                        hervorgehoben.</note> und Verwaltung der Financen<note type="crit_app"
+                        n="145">Durch lateinische Buchstaben hervorgehoben.</note> oder auch einige
+                        particulire<note type="crit_app" n="146">Durch lateinische Buchstaben
+                        hervorgehoben.</note> Angelegenheiten betreffen, mit gutem Fundament<note
+                        type="crit_app" n="147">Durch lateinische Buchstaben hervorgehoben.</note>
+                    und Raison<note type="crit_app" n="148">Durch lateinische Buchstaben
+                        hervorgehoben.</note> etwas vorschlagen und beybringen können, so wollen
+                    ihro königl[iche]. <rs ref="pp0020">Maj[estä]t von Groß Britannien</rs> solches vernehmen und
+                    billigmäßige Reflexion<note type="crit_app" n="149">Durch lateinische Buchstaben
+                        hervorgehoben.</note> darauff machen.<lb/>4.<lb/>Diese Separat Articuln<note
+                        type="crit_app" n="150">Durch lateinische Buchstaben hervorgehoben.</note>
+                    sollen von eben der Krafft und Bündigkeit seyn, als wenn sie dem unterm heutigen
+                    dato errichteten Tractat<note type="crit_app" n="151">Durch lateinische
+                        Buchstaben hervorgehoben.</note> von Wort zu Wort einverleibet wären, und
+                    seyn hievon gleichfals zwey gleichlautende Exemplaria<note type="crit_app"
+                        n="152">Durch lateinische Buchstaben hervorgehoben.</note> verfertiget
+                    worden, welche von beyden, von beyderseits Compaciscenten<note type="crit_app"
+                        n="153">Durch lateinische Buchstaben hervorgehoben.</note> dazu
+                    gevollmächtigten Ministris<note type="crit_app" n="154">Durch lateinische
+                        Buchstaben hervorgehoben.</note> unterschrieben und untersiegelt, und jedem
+                    Theile eines davon zugestellet worden. So geschehen Stockholm den 9/20 Novembris
+                        <note type="crit_app" n="155">Durch lateinische Buchstaben
+                        hervorgehoben.</note> im Jahre Ein Tausend Sieben Hundert und Neuen
+                    Zehn.</p>
+                <p>LS <rs ref="pp0022">Adolph Friederich von Bassewitz</rs><lb/>LS <rs
+                    ref="pp0023">Gustav Cronhielm</rs><lb/>LS <rs ref="pp0024">Carl Gustav
+                        Dücker</rs><lb/>LS <rs ref="pp0025">Gustav Adam Taube</rs><lb/>LS <rs
+                            ref="pp0026">M. Delagardie</rs><lb/>LS <rs ref="pp0027">N. von Höpken</rs></p>
+            </div>
+
+        </body>
+        <back>
+            <listBibl>
+                <bibl>Sundberg, Svenska freder och stillestånd, S. 309f. Seitz / Rosengren, Sveriges
+                    freder och fördrag, S. 75f. Krüger, Der Erwerb Bremen-Verdens durch Hannover.
+                    Mediger, Mecklenburg, Russland und England-Hannover 1706-1721. </bibl>
+            </listBibl>
+        </back>
+    </text>
+</tei:TEI>

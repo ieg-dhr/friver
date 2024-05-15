@@ -1,0 +1,429 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE tei SYSTEM "../resources/FriVer_DTD.dtd">
+
+<?xml-model href="../resources/FriVer.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns="http://www.tei-c.org/ns/1.0"
+    xml:id="pa000299-0121">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title level="s">European peace treaties of the pre-modern era in data / Europäische
+                    Friedensverträge der Vormoderne in Daten (FriVer+)</title>
+                <title when="1715-10-17" xml:id="t121" when-custom="1715 X 17_28" level="a"
+                    ref="https://www.ieg-friedensvertraege.de/treaty/t-121-1-de.html">Allianzvertrag
+                    von Greifswald</title>
+            </titleStmt>
+            <editionStmt>
+                <edition> Digital edition according to <ref target="http://www.tei-c.org/">TEI
+                        P5</ref>
+                </edition>
+                <funder>
+                    <ref target="https://www.text-plus.org/">TEXT+</ref>
+                </funder>
+                <editor role="http://id.loc.gov/vocabulary/relators/edt"
+                    ref="https://orcid.org/0000-0002-8741-5916">
+                    <persName>Jaap Geraerts</persName>
+                    <note>The transformation and enrichment of the data is done by Jaap Geraerts
+                        (IEG Mainz). The other members of the FriVer+ team are Fabian Cremer, Ines
+                        Grund, and Thorsten Wübbena (all IEG Mainz).</note>
+                    <note> The original data has been created by the <ref
+                            target="https://www.ieg-friedensvertraege.de">team of scholars</ref> who
+                        were part of the Europäische Friedensverträge der Vormoderne project. This
+                        project was lead by Prof. Dr. Heinz Duchhardt and was based at the Leibniz
+                        Institute of European History in Mainz. </note>
+                </editor>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>
+                    <orgName ref="http://www.isni.org/0000000119314040">Leibniz-Institut für
+                        Europäische Geschichte Mainz</orgName>
+                </publisher>
+                <distributor>
+                    <orgName ref="http://www.isni.org/0000000110101946">Universitäts- und
+                        Landesbibliothek Darmstadt</orgName>
+                </distributor>
+                <idno type="ISIL">http://lobid.org/organisation/DE-17</idno>
+                <date type="issued" when="2023-12-23"/>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">
+                        <p xml:lang="en">This file is licensed under the terms of the Creative
+                            Commons License CC-BY 4.0 (Attribution 4.0 International)</p>
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <repository xml:id="r10">Hannover StA/LA <note>Arcinsys Niedersachsen, Hannover NLA, Findbuch:<lb/>
+                        <ref
+                            target="http://www.arcinsys.niedersachsen.de/arcinsys/detailAction?detailid=v3436660"
+                            >http://www.arcinsys.niedersachsen.de/arcinsys/detailAction?detailid=v3436660</ref></note>
+                </repository>
+                <msDesc>
+                    <p>NHSAHannover, Hannover 10, 47 Russland Nr.347: Ratifikation Russlands, St.
+                        Petersburg 1715 XII 18/29 (11 S., Papier, Oblatensiegel; dem russischen
+                        Ratifikationstext ist eine Übersetzung vorgeheftet)*. [Kein Nachweis:]
+                        Ratifikation Hannovers London 1715 XI 22 /XII 3** </p>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p> The data in this XML file, originally created by the project <ref
+                        target="https://www.ieg-friedensvertraege.de/vertraege">Europäische
+                        Friedensverträge der Vormoderne online</ref> has been transformed in
+                    accordance with <ref target="http://www.tei-c.org/">TEI P5</ref> as part of the
+                    project <ref
+                        target="https://www.ieg-mainz.de/en/research/research-projects/european-peace-treaties-of-the-pre-modern-era-in-data"
+                        >Europäische Friedensverträge der Vormoderne in Daten (FriVer+)</ref>
+                </p>
+            </projectDesc>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="de" xml:id="lan2">deutsch</language>
+            </langUsage>
+        </profileDesc>
+    </teiHeader>
+    <standOff>
+        <listPerson>
+            <person role="signatory" xml:id="p51">
+                <persName ref="https://explore.gnd.network/gnd/4023349-2">
+                    <name>Hannover</name>
+                </persName>
+            </person>
+            <person role="signatory" xml:id="p9">
+                <persName ref="https://explore.gnd.network/gnd/4076899-5">
+                    <name>Russland</name>
+                </persName>
+            </person>
+            <person xml:id="pp0194">
+                <persName ref="https://explore.gnd.network/gnd/118592955">
+                    <name>Peter I. (Russia)</name>
+                </persName>
+            </person>
+            <person xml:id="pp0205">
+                <persName ref="https://explore.gnd.network/gnd/1243999756">
+                    <name>Georg I. (Großbritannien)</name>
+                </persName>
+            </person>
+            <person xml:id="pp0182">
+                <persName ref="https://explore.gnd.network/gnd/118560123">
+                    <name>Karl XII. (Schweden)</name>
+                </persName>
+            </person>
+            <person xml:id="pp0179">
+                <persName ref="https://explore.gnd.network/gnd/119546256">
+                    <name>Friedrich IV. (Dänemark und Norwegen)</name>
+                </persName>
+            </person>
+            <person xml:id="pp0204">
+                <persName ref="https://explore.gnd.network/gnd/118535978">
+                    <name>Friedrich Wilhelm I (Preußen)</name>
+                </persName>
+            </person>
+            <person xml:id="pp0209">
+                <persName ref="https://explore.gnd.network/gnd/1024382524">
+                    <name>Boris Iwanowitsch Kurakin</name>
+                </persName>
+            </person>
+            <person xml:id="pp0210">
+                <persName ref="https://www.wikidata.org/wiki/Q1377043">
+                    <name>Gabriel Ivan Golowkin</name>
+                </persName>
+            </person>
+        </listPerson>
+        <listPlace>
+            <place xml:id="loc64">
+                <placeName ref="https://explore.gnd.network/gnd/4021965-3">Greifswald</placeName>
+            </place>
+        </listPlace>
+        <facsimile>
+            <surface xml:id="FacsPnr1">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_4488234f4b666"/>
+            </surface>
+            <surface xml:id="FacsPnr2">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_448823bfa8273"/>
+            </surface>
+            <surface xml:id="FacsPnr3">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_4488240e8e087"/>
+            </surface>
+            <surface xml:id="FacsPnr4">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_4488243b39dad"/>
+            </surface>
+            <surface xml:id="FacsPnr5">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_4488246d5395a"/>
+            </surface>
+            <surface xml:id="FacsPnr6">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_448824d77731a"/>
+            </surface>
+            <surface xml:id="FacsPnr7">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_44882514a775b"/>
+            </surface>
+            <surface xml:id="FacsPnr8">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_4488254bc5a3f"/>
+            </surface>
+            <surface xml:id="FacsPnr9">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_4488259049074"/>
+            </surface>
+            <surface xml:id="FacsPnr10">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_448825b77e042"/>
+            </surface>
+            <surface xml:id="FacsPnr11">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_448825f04ff65"/>
+            </surface>
+            <surface xml:id="FacsPnr12">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_44882626d187b"/>
+            </surface>
+            <surface xml:id="FacsPnr13">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_4488265b18f96"/>
+            </surface>
+            <surface xml:id="FacsPnr14">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_4488268fd3fae"/>
+            </surface>
+            <surface xml:id="FacsPnr15">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_448826d120ccc"/>
+            </surface>
+            <surface xml:id="FacsPnr16">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_448826fe272f8"/>
+            </surface>
+            <surface xml:id="FacsPnr17">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_44882768c517b"/>
+            </surface>
+        </facsimile>
+    </standOff>
+    <text>
+        <front>
+            <div type="Drucke">
+                <p>Martens, Receuil [...] par la Russie avec les Puissances IX (1880), S. 31***.
+                    Stoerk, Das Greifswalder Bündnis zwischen Peter d. Gr. und Georg I. vom 28/17
+                    Oktober 1715. in: Pommersche Jahrbücher 2 (1901), S. 52-56.</p>
+            </div>
+            <div type="Inhalt">
+                <p>[Ratifikationsformel]<lb/>Traditionell gutes Verhältnis. Involvierung Hannovers
+                    in Krieg gegen Schweden. Rückerwerb der Provinzen als Ziel. Ziel des Bündnisses:
+                    Wiederherstellung des Friedens im Reich und im Norden Europas.<lb/>Art. 1 Union.
+                    Enge Absprachen.<lb/>Art. 2 Hannover nimmt an den Kriegsoperationen teil, um den
+                    Inhalt dieser Konvention zu erfüllen. <lb/>Art. 3 Russland verpflichtet sich
+                    ebenfalls auf die Grundsätze Art.1-2.<lb/>Art. 4 Grundsätze für den Frieden mit
+                    Schweden: Ingermanland, Karelien, Estland (mit Reval) an Russland, Bremen-Verden
+                    an Hannover. Dies soll auch für einen Frieden mit Schweden gelten.<lb/>Art. 5
+                    Hannover unterstützt die Interessen Russlands.<lb/>Art. 6 Mögliche und
+                    bestehende Bündnisse (Preußen, Dänemark). Ausschluß Separatfrieden. <lb/>Art. 7
+                    Verhandlungen mit Preußen und Dänemark als Kriegsverbündeten.<lb/>Art. 8
+                    Ratifikationsaustausch in London.<lb/>[Ratifikationsformel] </p>
+            </div>
+            <div type="Kommentar">
+                <p>Ein Kriegsziel der am Nordischen Krieg beteiligten deutschen Reichsstände war es,
+                    Schweden vom Boden des Deutschen Reiches zu verdrängen. Preußen zielte auf den
+                    noch schwedischen Teil Pommerns und Hannover auf die seit 1648 schwedischen
+                    Herzogtümer Bremen und Verden ab. Der Kampf (nicht nur mit Schweden, sondern
+                    auch mit dem der anti-schwedischen Allianz angehörenden Dänemark) um den Besitz
+                    dieser Herzogtümer gab letztlich auch den Ausschlag für das Engagement Hannovers
+                    im Krieg. Bereits ab 1714 führten hannoveranische Diplomaten (Andreas Gottlieb
+                    v. Bernstorff) Gespräche mit Russland zur Unterstützung des hannoverschen
+                    Kurses, nicht nur gegenüber dem Kriegsgegner Schweden, sondern auch gegenüber
+                    den Verbündeten, v.a. Dänemark. Für Russland stand dabei der Wunsch nach
+                    Unterstützung durch die englische Flotte stets im Hintergrund. Die
+                    Verhandlungen, die zum Greifswalder Bündnis führten, wurden ab 1715 zwischen
+                    Kurakin und Kriegsrat J. W. Heusch (geboren um 1652), der in Greifswald Quartier
+                    hatte, geführt. Während man sich über die Kriegsziele einig war, waren Art. 4
+                    und 5 des Vertrags strittig, da Russland eine möglichst weitreichende
+                    Verpflichtung Georgs I. in seiner Funktion als englischer König in den Vertrag
+                    schreiben wollte. Da England sich nicht im Krieg mit Schweden befand und ein
+                    Kriegseintritt innenpolitisch nicht durchsetzbar gewesen wäre, bestand Georg I.
+                    auf einer offenen Formulierung. <lb/>Nach der Unterzeichnung des
+                    Unterhändlerinstrumentes kam es zu einer diplomatischen Komplikation, die den
+                    Stand der Kodifizierung und Zementierung der völker- und zeremonialrechtlichen
+                    Grundsätze zu dieser Zeit erkennen läßt. Das Greifswalder Bündnis ist einer der
+                    wenigen Fälle, in denen ein Monarch die Ratifizierung eines geschlossenen und
+                    signierten Vertrages verweigerte (Stoerk). Georg I. berief sich dabei auf eine
+                    Verletzung des Grundsatzes der Gleichheit der Verhandlungspartner und des
+                    Zeremonialrechtes. Auf beiden Unterhändlerinstrumenten hatte nämlich der
+                    russische Verhandlungsführer Kurakin vor dem hannoverschen Heusch unterzeichnet
+                    und gesiegelt. Neue Urkunden mußten ausgestellt werden, die von je einem
+                    Unterhändler und danach von den beiden Monarchen unterzeichnet wurden. Zudem
+                    wurden leichte Modifikationen in den umstrittenen Artikeln 4 und 5 vorgenommen.
+                    <lb/>In Russland wurde der Vertrag von hochgesteckten Erwartungen begleitet,
+                    hoffte man durch das enge Bündnis auf eine Unterstützung durch die englische
+                    Flotte, obwohl der Vertragspartner dies bereits in den Verhandlungen abgelehnt
+                    hatte.</p>
+            </div>
+            <div type="Kontext">
+                <p>Siehe auch Nordischer Krieg<lb/><lb/>1700 -
+                    1721&#160;&#160;&#160;&#160;&#160;Gro&#223;er Nordischer Krieg.
+                    <lb/>1712&#160;&#160;&#160;&#160;Hannover beteiligt sich am Kriegsgeschehen, als
+                    D&#228;nemark die seit 1648 schwedischen Herzogt&#252;mer Bremen und Verden
+                    besetzt.<lb/>27. April 1714&#160;&#160;&#160;&#160;&#160;&#160;B&#252;ndnis
+                    Hannover - Preu&#223;en.<lb/>12. Mai
+                    1714&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;Preu&#223;isch-Russischer
+                    Garantievertrag. <lb/>12. August 1714 &#160;&#160;&#160;&#160;Kurf&#252;rst
+                    Georg Ludwig von Hannover wird englischer K&#246;nig (Georg I.)<lb/>2. Mai
+                    1715&#160;&#160;&#160;&#160;&#160;D&#228;nemark tritt Bremen und Verden an
+                    Hannover ab.<lb/>Oktober 1715&#160;&#160;&#160;&#160;Hannover tritt auf Seiten
+                    der Nordischen Alliierten in den Krieg gegen Schweden ein.<lb/>11. Dezember
+                    1718&#160;&#160;&#160;Tod K&#246;nig Karl XII. von Schweden.<lb/>11/22. Juli
+                    1719&#160;&#160;&#160;&#160;Pr&#228;liminarfriedensrezess
+                    Gro&#223;britannien-Hannover und Schweden.<lb/>4. August 1719&#160;&#160;Vertrag
+                    zwischen Preu&#223;en und Hannover &#252;ber die territorialen
+                    Besitzst&#228;nde. <lb/>9/20. November 1719 Friedensvertrag von Stockholm
+                    zwischen Gro&#223;britannien-Hannover und Schweden. Schweden tritt Bremen-Verden
+                    offiziell ab. <lb/>10. September 1721 &#160;Friede von Nystadt zwischen Russland
+                    und Schweden. Schweden tritt Estland, Ingermanland, Karelien und Livland an
+                    Russland ab.</p>
+            </div>
+
+        </front>
+        <body>
+            <div type="Edition">
+                <p>Par la Grace de Dieu<lb/>Nous <rs ref="#pp0194">Pierre I Czaar et Autocrateur de
+                        toute la Russie</rs><note n="1" type="annotation">Peter I. (1682/96-1725),
+                        der Große, Zar von Russland.</note>
+                    <lb/><lb/>Faisons sçavoir par la presente, comme Nous, et <rs ref="#pp0205">Sa
+                        Majesté Brittanique</rs><note n="2" type="annotation">Georg I. (1714-1727),
+                        englischer König und Kurfürst von Hannover (Georg Ludwig, 1698-1727).</note>
+                    avons trouvé bon de faire, conclure, arreter et signer par nos Ministres, en
+                    vertu des pleinpouvoirs, que nous leurs en avons donné, un Traité concernant les
+                    conjunctures presentes, et la surité<note n="3" type="crit_app">Stoerk:
+                        sureté.</note> reciproque de nos Etats et sujets, le quel Traité a êté
+                    conclu, arreté et signé le 17/28 d´octobre de l´année 1715 à Gripswalde dont la
+                    teneur s´en suit de mot en mot<note n="4" type="crit_app">Stoerk: [kein Abdruck
+                        dieses Absatzes an dieser Stelle; Abdruck S. 65].</note>.<lb/><lb/>Soit
+                    notoire à touts ceux, qu´il appartiendra.<lb/>Comme ainsi soit, que par le moyen
+                    d´une convention faite, il y a quelques années entre Sa Majesté czaarienne d´une
+                    part et Son Altesse Electorale de Brounswic Lünebourg<note n="5" type="crit_app"
+                        >Stoerk: Brounsvic Lunebourg (auch im Folgenden). Martens:
+                        Brounswic-Lunebourg (auch im Folgenden).</note> à présent <rs ref="#pp0205"
+                        >Roy d´Angleterre</rs> d´autre part, on a posé le fondement d´une parfaite
+                    union et amitié, la quelle a êté cultivée de part et d´autre à la satisfaction
+                    réciproque, et a êté encore depuis plus affermie, parceque <rs ref="#pp0205">Sa
+                        Majesté Britannique</rs> à présent régnante, s´est trouvé obligée par le
+                    procédé inquiét du <rs ref="#pp0182">Roy de Suède</rs><note n="6"
+                        type="annotation">Karl XII. (1697-1718), König von Schweden.</note>, et par
+                    ses démarches tendantes à rallumer le feu d´une dangereuse guerre dans l´Empire
+                    Romain, et sur tout dans le Cercle de la Basse Saxe d´entrer, en qualité
+                    d´Electeur de Brounswic Lünebourg dans la guerre contre la Suède, et de prendre
+                    de telles mesures avec les Puissances alliées contre cette couronne, que pour la
+                        seurete<note n="7" type="crit_app">Stoerk: sureté. Martens: securité.</note>
+                    de l´Empire Romain, et pour y maintenir<note n="8" type="crit_app">Stoerk:
+                        l´avenir (auch unten).</note> la tranquillité tant pour le présent, que pour
+                        l´advenir<note n="9" type="crit_app">Stoerk; Martens: l´avenir.</note>, les
+                    provinces de la Suède en Allemagne lui soient ôtées, et mises<note n="10"
+                        type="crit_app">Stoerk: mis.</note> en des mains plus pacifiques, et par là
+                    la dite couronne obligée de faire une paix generale; dans cette vue <rs
+                        ref="#pp0205">Sa Majesté Britannique, en qualité d´Electeur de Brounswic
+                        Lünebourg</rs>, a trouvé necessaire d´entrer par cette présente convention
+                    avec <rs ref="#pp014">Sa Majesté czaarienne</rs> dans un engagement formel, dont
+                    le but doit être le rétablissement de la paix et de la tranquillité tant dans
+                    l´Empire que dans le Nord.<lb/>Pour lequel effect les deux hauts contractants
+                    susdits sont tombés d´accord ensemble des articles suivants, et les ont fait
+                    signer par leurs ministres, munis pour cela des pleinspouvoirs
+                        necessaires.<lb/><lb/>1.<lb/><rs ref="#pp0205">Sa Majesté Britannique</rs>
+                        n´obmettra<note n="11" type="crit_app">Martens: n´omettra.</note> rien de
+                    son côté de tout ce qui pourra être agréable à <rs ref="#pp0194">Sa Majesté
+                        czaarienne</rs> et de ce qui peut contribuer à affermir de plus en plus son
+                    étroite liaison et bonne intelligence avec elle, et pour cet effect <rs
+                        ref="#pp0205">Sa Majesté Britannique</rs> ne manquera pas de correspondre
+                    confidemment, tant à présent qu´à l´advenir, avec <rs ref="#pp0194">Sa Majesté
+                        czaarienne</rs>, et de communiquer avec elle dans toutes les occasions, où
+                    il s´agira de ses intérêts, et de s´attacher de tout son pouvoir à entretenir
+                    avec Sa dite Ma[jes]té une union inviolable.<lb/><lb/>2<lb/><rs ref="#pp0205">Sa
+                        Majesté Britannique</rs>, en qualité d´Electeur de Brounsvic Lünebourg,
+                    travaillera en particulier de tout Son pouvoir à ce que les opérations de guerre
+                    contre la Suède soient conduites avec toute la vigueur, et l´efficace
+                    nécessaires pour parvenir au but que les deux hauts contractants se sont proposé
+                    par cette convention.<lb/><lb/>3.<lb/>Sa Majesté czarienne s´oblige
+                    réciproquement envers <rs ref="#pp0205">Sa Majesté Britannique</rs> à observer
+                    de son côté le contenu des deux articles précédents.<lb/><lb/>4.<lb/>Les
+                        hauts<note n="12" type="crit_app">Stoerk weist darauf hin, dass es im
+                        nichtratifizierten Exemplar hieß: „Les deux Hauts“.</note> contractants<note
+                        n="13" type="crit_app">Stoerk: susdits [Einschub].</note> sont convenus et
+                    s´obligent réciproqument de faire tout ce qu´il dépendra d´eux, pour que par la
+                    paix à faire avec la couronne de Suède, cette couronne laisse et cède à
+                    perpétuité à <rs ref="#pp0194">Sa Majesté czarienne</rs> l´Ingrie et la Carélie
+                    avec leurs dépendances, comme êtant des provinces, qui ont appartenu ci devant à
+                    la couronne de Russie, de même que la province d´Esthonie et la ville de Revel
+                    avec toutes leurs dépendances pour satisfaction des dommages que la couronne de
+                    Suède a causé tant anciennement que dans cette présente guerre, et pour qu´elle
+                    laisse et cède à perpetuité à <rs ref="#pp0205">Sa Majesté Britannique</rs>, en
+                    qualité d´Electeur de Bronsvic Lünebourg, les duchés de Bremen et de Vehrden
+                    avec leurs dépendances<note n="14" type="crit_app">Stoerk weist darauf hin, daß
+                        im nichtratifizierten Exemplar dieser Absatz den Art. 5 bildete.</note>. Les
+                    conditions contenues dans cet article seront valables sans pourtant préjudicier
+                    aux prétensions, qui seront ou qui pourront être faîtes par dessus ces
+                    conditions par les hauts contractants à la paix à faire avec la couronne de
+                        Suède.<lb/><lb/>5.<lb/><rs ref="#pp0205">Sa Majesté Britannique</rs>, comme
+                    Roy de la Grand Bretagne, advancera<note n="15" type="crit_app">Martens:
+                        avancera.</note> les intérêts et secondra les intentions de <rs
+                        ref="#pp0194">Sa Majesté czarienne</rs>, autant que faire se pourra, dans
+                    toutes les occasions qui pourront s´en présenter, sur quoi <rs ref="#pp0194">Sa
+                        Majesté czarienne</rs> promet le réciproque.<lb/><lb/>6.<lb/>Comme Sa
+                    Majesté Britannique est entrée en alliance avec les Puissances confédérées
+                    contre la couronne de Suède, et qu´elle a depuis peu conclu à Berlin, une
+                    convention avec leurs Majestés, les <rs ref="#pp0179">Roys de
+                        Dannemarc</rs><note n="16" type="annotation">Fredrik IV. (1699-1730) , König
+                        von Dänemark.</note> et de <rs ref="#pp0204">Prusse</rs><note n="17"
+                        type="annotation">Friedrich Wilhelm I. (1713-1718), preußischer
+                        König.</note>, touchant l´expulsion des Suedois hors de leurs provinces
+                    situées en Allemagne, pour cet effect touts ces quatre hauts alliées feront un
+                    concert et un engagement mutuel entre eux, par lesquels il doit être stipulé et
+                    convenu de ce que chacun des dits hauts contractants doit acquérir par la paix à
+                    faire avec la couronne de Suède, et on doit se l´assurer par une garantie
+                    réciproque de part et d´autre, et qu´aucun des hauts contractants ne fera la
+                    paix l´un sans l´autre avec la couronne de Suède, à moins que chacun d´eux
+                    n´obtienne sa satisfaction tant suivant le contenu de la présente convention,
+                    que suivant ce qui sera convenu, par le dit concert; à cette fin les deux hauts
+                    contractants envoyeront<note n="18" type="crit_app">Martens: enverront.</note>
+                    incessement leurs ministres à Berlin pour veus<note n="19" type="crit_app"
+                        >Stoerk ; Martens: pourvus.</note> de pleinpouvoirs, et instructions
+                    suffisantes, pour conclure le susdit concert, et y feront en mesme<note n="20"
+                        type="crit_app">Martens: même.</note> temps régler en détail tout ce qui
+                    regarde la guerre présente et la paix future.<lb/><lb/>7.<lb/> Desque<note
+                        n="21" type="crit_app">Martens: Dès que.</note> cette convention sera
+                    conclue, <rs ref="#pp0205">Sa Majesté Britannique</rs> donnera part à leurs
+                    Majestés le <rs ref="#pp0179">Roys de Dannemarc</rs> et de <rs ref="#pp0204"
+                        >Prusse</rs> de ce concert à faire de la manière qu´il est dit dans le
+                    précédent article sixième, et fera tout son possible pour que les ministres des
+                    susdits alliés se trouvent incessement à Berlin, et qu´ils y entrent en matière
+                    et concluent le susdit concert.<lb/><lb/>8.<lb/>Les ratifications de hauts
+                    contractants sur la présente convention seront expédiées<note n="22"
+                        type="crit_app">Laut Stoerk hieß es : «deux exemplaires uniforme qui ont
+                        esté signés par les Ministres de part et d´autre authorisés par les Hauts
+                        Contractants, qui y ont aussy apposé leurs cachets et ont ensuite eschangé
+                        cs deux exemplaires l´un contre l´autre, Fait à Gripswalde ce 28/17. octobre
+                        1715. LS Boris Kourakin, LS I.G.Heusch. »" </note> et échangées à Londres au
+                    plutôt possible. En foy de ce qui est contenu cy dessus on à expédié deux
+                    exemplaires de cette convention dont un a êté signé et scellé par le ministre de
+                        <rs ref="#pp0194">Sa Majesté czarienne</rs>, et l´autre par le Ministre de
+                        <rs ref="#pp0205">Sa Majesté Britannique</rs><note n="23" type="crit_app"
+                        >Martens: par le ministre de S. M. Britannique [...] par le ministre de S.
+                        M. Czarienne.</note>, autorisés pour cela, et ces deux exemplaires ont êté
+                    échangés après l´un contre l´autre. Fait à Gripswalde<note n="24"
+                        type="crit_app">Martens: Greifswald.</note> le 17/28 d´octobre 1715.<lb/><lb/>
+                    <rs ref="#pp0209">Boris P[rin]ce Kurakin</rs><note n="25" type="crit_app"
+                        >Textvariante: Folgender Passus fehlt bei Martens. Sachanmerkung: Boris
+                        Iwanowitsch Kurakin ( ), Fürst, Schwager Peter d. Gr., Geheimer Rat,
+                        Generalmajor, Diplomat und Gesandter.</note>
+                    <lb/><lb/>C´est pourquoi nous avons aggreé, accepté, approuvé, ratifié et
+                    confirmé le susdit Traité en tous ses articles, points et clauses, qui y sont
+                    contenus, comme nous les acceptons, approuvons, ratifions et confirmons par
+                    celle ci de la maniere la plus efficace, que faire se peut et promettons en foy
+                    et parole du Czaar de les garder et observer fidelement, fermement et
+                    inviolablement.<lb/>En foy, et assurance de quoi Nous avons signé cette
+                    ratification de nôtre main propre, et a icelle fait apposer Nôtre grand sçeau.
+                    Fait à St. Petersbourg ce 18/29 Decembre l´an 1715, et de nôtre regne dans le 34
+                    année.<lb/>US Pierre<lb/>Gegenzeichnung <rs ref="#pp0210">Golowkin</rs><note
+                        n="26" type="annotation">Gabriel Ivan Golowkin (1660-1734), Staatsmann,
+                        Diplomat.</note></p>
+            </div>
+        </body>
+        <back>
+            <listBibl>
+                <bibl>Stoerk, Das Greifswalder Bündnis zwischen Peter d. Gr. und Georg I. vom 28/17
+                    Oktober 1715. in: Pommersche Jahrbücher 2 (1901), S. 3-90.</bibl>
+                <bibl>Mediger, Russlands Weg nach Europa.</bibl>
+                <bibl>Mediger, Mecklenburg, Russland und England-Hannover 1706-1721.</bibl>
+            </listBibl>
+        </back>
+    </text>
+</tei:TEI>

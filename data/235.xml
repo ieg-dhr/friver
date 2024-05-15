@@ -1,0 +1,270 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE tei SYSTEM "../resources/FriVer_DTD.dtd">
+
+<?xml-model href="../resources/FriVer.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns="http://www.tei-c.org/ns/1.0" xml:id="pa000299-0235">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title level="s">European peace treaties of the pre-modern era in data / Europäische Friedensverträge der Vormoderne in Daten (FriVer+)</title>
+                <title when="1678-09-17" xml:id="t235" when-custom="1678 IX 17" level="a" ref="https://www.ieg-friedensvertraege.de/treaty/t-235-1-de.html">Friedensvertrag von Nijmegen</title>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    Digital edition according to
+                    <ref target="http://www.tei-c.org/">TEI P5</ref>
+                </edition>
+                <funder>
+                    <ref target="https://www.text-plus.org/">TEXT+</ref>
+                </funder>
+                <editor role="http://id.loc.gov/vocabulary/relators/edt" ref="https://orcid.org/0000-0002-8741-5916">
+                    <persName>Jaap Geraerts</persName>
+                    <note>The transformation and enrichment of the data is done by Jaap Geraerts (IEG Mainz). The other members of the FriVer+ team are Fabian Cremer, Ines Grund, and Thorsten Wübbena (all IEG Mainz).</note>
+                    <note>
+                        The original data has been created by the
+                        <ref target="https://www.ieg-friedensvertraege.de">team of scholars</ref>
+                        who were part of the Europäische Friedensverträge der Vormoderne project. This project was lead by Prof. Dr. Heinz Duchhardt and was based at the Leibniz Institute of European History in Mainz.
+                    </note>
+                </editor>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>
+                    <orgName ref="http://www.isni.org/0000000119314040">Leibniz-Institut für Europäische Geschichte Mainz</orgName>
+                </publisher>
+                <distributor>
+                    <orgName ref="http://www.isni.org/0000000110101946">Universitäts- und Landesbibliothek Darmstadt</orgName>
+                </distributor>
+                <idno type="ISIL">http://lobid.org/organisation/DE-17</idno>
+                <date type="issued" when="2023-12-23"/>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">
+                        <p xml:lang="en">This file is licensed under the terms of the Creative Commons License CC-BY 4.0 (Attribution 4.0 International)</p>
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <repository xml:id="r22">Paris AAE</repository>
+                <msDesc><p>Spanien, Ministerio de Cultura, AHN Madrid: Estado Legajo 2810-2 (UI). AAE Paris: M.A.E. Traités. 
+                </p> 
+                    <p> Multilateraux 16780001. Traité de paix avec l'Espagne.-Nimègue (UI). Siehe auch: 
+                        <lb />
+                    </p>
+                    <p> <ref target="http://www.doc.diplomatie.gouv.fr/BASIS/choiseul/desktop/choiseul/DDW?M=48&amp;K=16780001&amp;W=PAYS+%3D+%27Multilat%E9raux%27+ORDER+BY+SOUSSERIE/Ascend" >Link zur Vertragsseite </ref>
+                        </p></msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>
+                    The data in this XML file, originally created by the project
+                    <ref target="https://www.ieg-friedensvertraege.de/vertraege">Europäische Friedensverträge der Vormoderne online</ref>
+                    has been transformed in accordance with
+                    <ref target="http://www.tei-c.org/">TEI P5</ref>
+                    as part of the project
+                    <ref target="https://www.ieg-mainz.de/en/research/research-projects/european-peace-treaties-of-the-pre-modern-era-in-data">Europäische Friedensverträge der Vormoderne in Daten (FriVer+)</ref>
+                </p>
+            </projectDesc>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="fr" xml:id="lan4">französisch</language>
+            </langUsage>
+        </profileDesc>
+    </teiHeader>
+    <standOff>
+        <listPerson>
+            <person role="signatory" xml:id="p37">
+                <persName ref="https://explore.gnd.network/gnd/4018145-5">
+                    <name>Frankreich</name>
+                </persName>
+            </person>
+            <person role="signatory" xml:id="p34">
+                <persName ref="https://explore.gnd.network/gnd/4055964-6">
+                    <name>Spanien</name>
+                </persName>
+            </person>
+        </listPerson>
+        <listPlace>
+            <place xml:id="loc21">
+                <placeName ref="https://explore.gnd.network/gnd/4075410-8">Nijmegen</placeName>
+            </place>
+        </listPlace>
+        <facsimile>
+            <surface xml:id="FacsPnr1">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_44abc0109885c"/>
+            </surface>
+            <surface xml:id="FacsPnr2">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_44abc04ebefce"/>
+            </surface>
+            <surface xml:id="FacsPnr3">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_44abc0865bfff"/>
+            </surface>
+            <surface xml:id="FacsPnr4">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_44abc0ad02eb6"/>
+            </surface>
+            <surface xml:id="FacsPnr5">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_44abc0d7f18f0"/>
+            </surface>
+            <surface xml:id="FacsPnr6">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_44abc0fde71de"/>
+            </surface>
+            <surface xml:id="FacsPnr7">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_44abc12489a4a"/>
+            </surface>
+            <surface xml:id="FacsPnr8">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_44abc15ab9ecc"/>
+            </surface>
+            <surface xml:id="FacsPnr9">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_44abc18407a28"/>
+            </surface>
+            <surface xml:id="FacsPnr10">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_44abc1b1316a3"/>
+            </surface>
+            <surface xml:id="FacsPnr11">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_44abc1dfe9787"/>
+            </surface>
+            <surface xml:id="FacsPnr12">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_44abc22283256"/>
+            </surface>
+            <surface xml:id="FacsPnr13">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_44abc24c86b6b"/>
+            </surface>
+            <surface xml:id="FacsPnr14">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_44abc27d174af"/>
+            </surface>
+            <surface xml:id="FacsPnr15">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_44abc2ab17c86"/>
+            </surface>
+            <surface xml:id="FacsPnr16">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_44abc2e1505d3"/>
+            </surface>
+            <surface xml:id="FacsPnr17">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_44abc30ab26fa"/>
+            </surface>
+            <surface xml:id="FacsPnr18">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_44abc334df41e"/>
+            </surface>
+            <surface xml:id="FacsPnr19">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_44abc362dfbf4"/>
+            </surface>
+            <surface xml:id="FacsPnr20">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_44abc38b884d3"/>
+            </surface>
+            <surface xml:id="FacsPnr21">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_44abc3afdf932"/>
+            </surface>
+            <surface xml:id="FacsPnr22">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_44abc3deb687b"/>
+            </surface>
+            <surface xml:id="FacsPnr23">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_44abc419ea49a"/>
+            </surface>
+            <surface xml:id="FacsPnr24">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_44abc44930355"/>
+            </surface>
+            <surface xml:id="FacsPnr25">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_44abc471028a7"/>
+            </surface>
+            <surface xml:id="FacsPnr26">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_44abc49a35fd8"/>
+            </surface>
+            <surface xml:id="FacsPnr27">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_44abc4c380df7"/>
+            </surface>
+            <surface xml:id="FacsPnr28">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_44abc4ede8c4b"/>
+            </surface>
+            <surface xml:id="FacsPnr29">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_44abc514d4092"/>
+            </surface>
+            <surface xml:id="FacsPnr30">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_44abc542856f9"/>
+            </surface>
+            <surface xml:id="FacsPnr31">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_44abc56bc6110"/>
+            </surface>
+            <surface xml:id="FacsPnr32">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_44abc597c9125"/>
+            </surface>
+            <surface xml:id="FacsPnr33">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_44abc5c223aeb"/>
+            </surface>
+            <surface xml:id="FacsPnr34">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_44abc5eb69333"/>
+            </surface>
+            <surface xml:id="FacsPnr35">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_44abc6120659b"/>
+            </surface>
+            <surface xml:id="FacsPnr36">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_44abc63fb3758"/>
+            </surface>
+            <surface xml:id="FacsPnr37">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_44abc66a86a82"/>
+            </surface>
+            <surface xml:id="FacsPnr38">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_44abc69348d77"/>
+            </surface>
+            <surface xml:id="FacsPnr39">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_44abc6bab4c12"/>
+            </surface>
+            <surface xml:id="FacsPnr40">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_44abc6fa01672"/>
+            </surface>
+            <surface xml:id="FacsPnr41">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_44abc72dc6748"/>
+            </surface>
+            <surface xml:id="FacsPnr42">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_44abc75698fea"/>
+            </surface>
+            <surface xml:id="FacsPnr43">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_44abc7d0150b8"/>
+            </surface>
+            <surface xml:id="FacsPnr44">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_44abc7ffed0a8"/>
+            </surface>
+            <surface xml:id="FacsPnr45">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_44abc825a0b10"/>
+            </surface>
+            <surface xml:id="FacsPnr46">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_44abc84a22565"/>
+            </surface>
+            <surface xml:id="FacsPnr47">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_44abc86eb3f39"/>
+            </surface>
+        </facsimile>
+    </standOff>
+    <text>
+        <front>
+            <div type="Drucke"><p>ABR (U) Reinado del señor Carlos II, II, S. 321-352; USU S. 444-455.
+                <lb />DUM VII/1, S. 365-374.
+               <ref target="http://gallica.bnf.fr/ark:/12148/bpt6k122965z.zoom.f386.langEN">Link zum Druck auf gallica.bnf.fr</ref>
+                    <lb />VAS II, S. 79-99.
+               <ref target="http://gallica.bnf.fr/ark:/12148/bpt6k960306.image.f82.langEN">Link zum Druck auf gallica.bnf.fr</ref>
+                        <lb />
+                        <lb /></p></div>
+        </front>
+        <back>
+            <listBibl>
+                <bibl xml:id="a56">
+                    <title level="a">Theatrum Europaeum (1678-09-17)</title>
+                    <title level="m">Theatrum Europaeum, Band 11 (1672-1679) Aus: Dokumentenarchiv der Universitätsbibliothek Augsburg (Drucke vor 1900 / Historische Geschichtswerke).</title>
+                    <biblScope>
+                        <graphic xml:id="A1Pnr1" url="https://www.ieg-friedensvertraege.de/dbimages/img_49e5eb24c91e6"/>
+                        <graphic xml:id="A1Pnr2" url="https://www.ieg-friedensvertraege.de/dbimages/img_49e5eb2aa8e21"/>
+                    </biblScope>
+                </bibl>
+                <bibl>Black, Jeremy, European International relations, 1648-1815, New York 2002.
+                    <lb />Bots, J.A.H. (ed.) The Peace of Nijmegen 1676-1678/79: International Congress of the Tricentennial Nijmegen, 14-16 September 1978 = La paix de Nimègue: colloque international du tricentenaire Nijmegen, 14-16 SYeptembre 1978, Amsterdam 1978.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    <lb />Dollot, Louis, Tricentennial of the treaty of Nijmegen and the cession of Franche-Comte to France, in: Revue d'Histoire Diplomatique 1979, 3-4, S. 193-201.
+                    <lb />Ekberg, Carl J., From Dutch to European War: Louis XIV and Louvois Are Tested, in: French Historical Studies 8-3, 1974, S. 393-408.
+                    <lb />Hatton, Ragnild M (ed.), Louis XIV and Europe, London 1976.
+                    <lb />Serrano de Haro, Antonio, España y la paz de Nimega, in: Hispania, ISSN: 0018-2141, Vol. 52, Nº 181, 1992, S. 559-584.
+                    <lb />Sheenan, Michael, The balance of power: history and theory, London 1996.
+                    <lb />USU S. 433-444.
+                    <lb /></bibl>
+            </listBibl>
+        </back>
+    </text>
+</tei:TEI>

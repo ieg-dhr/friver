@@ -1,0 +1,538 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE tei SYSTEM "../resources/FriVer_DTD.dtd">
+
+<?xml-model href="../resources/FriVer.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns="http://www.tei-c.org/ns/1.0"
+    xml:id="pa000299-0438">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title level="s">European peace treaties of the pre-modern era in data / Europäische
+                    Friedensverträge der Vormoderne in Daten (FriVer+)</title>
+                <title when="1595-01-28" xml:id="t438" when-custom="1595 I 28" level="a"
+                    ref="https://www.ieg-friedensvertraege.de/treaty/t-438-1-de.html">Offensiv- und
+                    Defensivbündnis von Prag</title>
+            </titleStmt>
+            <editionStmt>
+                <edition> Digital edition according to <ref target="http://www.tei-c.org/">TEI
+                    P5</ref>
+                </edition>
+                <funder>
+                    <ref target="https://www.text-plus.org/">TEXT+</ref>
+                </funder>
+                <editor role="http://id.loc.gov/vocabulary/relators/edt"
+                    ref="https://orcid.org/0000-0002-8741-5916">
+                    <persName>Jaap Geraerts</persName>
+                    <note>The transformation and enrichment of the data is done by Jaap Geraerts
+                        (IEG Mainz). The other members of the FriVer+ team are Fabian Cremer, Ines
+                        Grund, and Thorsten Wübbena (all IEG Mainz).</note>
+                    <note> The original data has been created by the <ref
+                        target="https://www.ieg-friedensvertraege.de">team of scholars</ref> who
+                        were part of the Europäische Friedensverträge der Vormoderne project. This
+                        project was lead by Prof. Dr. Heinz Duchhardt and was based at the Leibniz
+                        Institute of European History in Mainz. </note>
+                </editor>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>
+                    <orgName ref="http://www.isni.org/0000000119314040">Leibniz-Institut für
+                        Europäische Geschichte Mainz</orgName>
+                </publisher>
+                <distributor>
+                    <orgName ref="http://www.isni.org/0000000110101946">Universitäts- und
+                        Landesbibliothek Darmstadt</orgName>
+                </distributor>
+                <idno type="ISIL">http://lobid.org/organisation/DE-17</idno>
+                <date type="issued" when="2023-12-23"/>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">
+                        <p xml:lang="en">This file is licensed under the terms of the Creative
+                            Commons License CC-BY 4.0 (Attribution 4.0 International)</p>
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <repository xml:id="r4">Budapest MOL
+                    <note>Budapest MOL, Findbuch:<lb />
+                        <ref target="https://www.eleveltar.hu/digitalis-tartalom?source=mnlscope&amp;ref=mnlscope::1984438" >https://www.eleveltar.hu/digitalis-tartalom?source=mnlscope&amp;ref=mnlscope::1984438</ref></note>
+                </repository>
+                <msDesc><p>Mol Budapest&nbsp; Acta publica E 142 Fasz. 45 Nr. 65: Ratifikation Kaiser Rudolfs II., Prag 1595 [III 14 und VI 14] (beglaubigte Abschrift, Wien 1794). 
+                </p> 
+                    <p>weitere Stücke: 
+                    </p> 
+                    <p>[kein Nachweis:] Erhebung Sigismund Báthorys in den Reichsfürstenstand, Prag 1595 I 28.&nbsp; 
+                    </p> 
+                    <p>Ratifikation durch den siebenbürgischen Fürsten Sigismund Báthory, Karlsburg /Gyluafehervár / Alba Julia, 1595 VII 2. 
+                    </p> 
+                    <p>Assekuration durch die siebenbürgischen Stände, Karlsburg / Gyulafehervár / Alba Julia 1595 [IV 16 bis V 2]. &nbsp; 
+                    </p></msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p> The data in this XML file, originally created by the project <ref
+                    target="https://www.ieg-friedensvertraege.de/vertraege">Europäische
+                    Friedensverträge der Vormoderne online</ref> has been transformed in
+                    accordance with <ref target="http://www.tei-c.org/">TEI P5</ref> as part of the
+                    project <ref
+                        target="https://www.ieg-mainz.de/en/research/research-projects/european-peace-treaties-of-the-pre-modern-era-in-data"
+                        >Europäische Friedensverträge der Vormoderne in Daten (FriVer+)</ref>
+                </p>
+            </projectDesc>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="la" xml:id="lan6">Latein</language>
+            </langUsage>
+        </profileDesc>
+    </teiHeader>
+    <standOff>
+        <listPerson>
+            <person role="signatory" xml:id="p12">
+                <persName ref="https://explore.gnd.network/gnd/4043271-3">
+                    <name>Oesterreich</name>
+                </persName>
+            </person>
+            <person role="signatory" xml:id="p109">
+                <persName ref="https://explore.gnd.network/gnd/4054835-1">
+                    <name>Siebenbürgen</name>
+                </persName>
+            </person>
+        </listPerson>
+        <listPlace>
+            <place xml:id="loc78">
+                <placeName ref="https://explore.gnd.network/gnd/4076310-9">Prag</placeName>
+            </place>
+        </listPlace>
+        <facsimile>
+            <surface xml:id="FacsPnr1">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_448fe68d3ceb5"/>
+            </surface>
+            <surface xml:id="FacsPnr2">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_448fe6ec9a4d7"/>
+            </surface>
+            <surface xml:id="FacsPnr3">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_448fe73f64347"/>
+            </surface>
+            <surface xml:id="FacsPnr4">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_448fe79b31ec4"/>
+            </surface>
+            <surface xml:id="FacsPnr5">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_448fe89ce16a9"/>
+            </surface>
+            <surface xml:id="FacsPnr6">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_448fe90c11ec0"/>
+            </surface>
+            <surface xml:id="FacsPnr7">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_448fe97541498"/>
+            </surface>
+            <surface xml:id="FacsPnr8">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_448fe9bda9886"/>
+            </surface>
+            <surface xml:id="FacsPnr9">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_448fea0ea2608"/>
+            </surface>
+            <surface xml:id="FacsPnr10">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_448fea5d27973"/>
+            </surface>
+            <surface xml:id="FacsPnr11">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_448feab9eae08"/>
+            </surface>
+            <surface xml:id="FacsPnr12">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_448feb0c2cd03"/>
+            </surface>
+        </facsimile>
+    </standOff>
+    <text>
+        <front>
+            <div type="Drucke"><p> Roderich Gooss, Österreichische Staatsverträge. Fürstentum Siebenbürgen. Wien 1911, S. 226-231. Dumont V/I, S. 514-517. Lünig I, S.1687.&nbsp; W. Bethlen, Historia de rebus Transsylvaniae III, S.519ff.</p> 
+                <p>&nbsp;Dilbaum, Samuel: Bericht und kurtze Erzehlung des Heroischen Gemüts, auch herrlichen Thaten, welche H. Sigism. Batori, Fürst in Sibenbürgen ... wider den Türken mannlich bewiesen. Augsburg 1596 (Bayerische Staatsbibliothek München, 
+                    VD16 D 1718; LINK: <ref target="http://mdz10.bib-bvb.de/~db/0002/bsb00024997/images/index.html?id=00024997&amp;fip=84.146.105.203&amp;no=5&amp;seite=16)"></ref></p>
+                <p>Lonicerus, Johann Adam / Bry, Theodor de: Historia chronologica Pannoniae, Franckfurt, 1596 [VD16 L 2457], Anhang, S.25-26. <ref target="http://www.digitale-sammlungen.de/%7Edb/0002/bsb00024259/images/">http://www.digitale-sammlungen.de/~db/0002/bsb00024259/images/</ref>&nbsp;
+                </p>
+                <p>&nbsp; http://mdz10.bib-bvb.de/~db/0002/bsb00024259/images/index.html?id=00024259&amp;fip=84.146.104.179&amp;no=220&amp;seite=203</p>
+            </div>
+            <div type="Inhalt"><p>Art. 1 Gemeinsamer Krieg gegen das Osmanische Reich. Beidseitige Absage an Separatfriedensschlüsse. Einschluß der Fürstentümer Moldau und Walachei.
+                <lb />Art. 2 Siebenbürgen und die Partes bleiben (erblicher) Besitz des siebenbürgischen Fürsten. Treueeid ohne Lehenspflicht. Nach dem Aussterben des siebenbürgischen Fürstenhauses fällt Siebenbürgen an die ungarische Krone. In diesem Fall garantiert der Kaiser Rechte und Privilegien sowie die Einsetzung eines heimischen Wojewoden. Aussteuer für Töchter des Fürsten. Stellung Nagybányas.
+                <lb />Art. 3 Der Kaiser erkennt den siebenbürgischen Fürsten als souveränen Fürsten an. Verleihung des Titels Serenissimus.
+                <lb />Art. 4 Der Kaiser bemüht sich um eine Ehevermittlung.
+                <lb />Art. 5 Der Kaiser unterstützt die Verleihung des Goldenen Vlieses an den siebenbürgischen Fürsten.
+                <lb />Art. 6 Gegenseitige Kriegsunterstützung.
+                <lb />Art. 7 Fürst Sigismund Báthory erhält den Titel eines Reichsfürsten, jedoch ohne Sitz und Stimme im Reichstag.
+                <lb />Art. 8 Der siebenbürgische Fürst erhält die von ihm eroberten Gebiete als kaiserliches Lehen.
+                <lb />Gemeinsame Kriegseroberungen fallen an den Kaiser.
+                <lb />Art. 9 Gegenseitige Unterstützung bei der Besetzung und Behauptung kriegswichtiger Orte.
+                <lb />Art. 10 Der Kaiser gewährt dem Fürsten Asyl und Unterstützung, sollte dieser aus Siebenbürgen vertrieben werden.
+                <lb />Art. 11 Ratifikation durch Fürsten und Stände.
+                <lb />Art. 12 Erst wenn Art. 4 erfüllt ist, werden die weiteren Bestimmungen des Vertrages gültig.
+                <lb />[Ratifikation]
+                <lb />[Beglaubigung]
+                <lb /></p></div>
+        </front>
+        <body>
+            <div type="Transliteration">
+                <pb facs="#FacsPnr1"/><p>Exemplum
+                <lb />Articulorum et conditi-
+                <lb />onum Tractatus inter
+                <lb />Sacram Cæsar[eam] Ma[jesta]tem
+                <lb />et Transylvaniæ Princi-
+                <lb />pem initorum
+                <lb />Anno 1595. 
+                <pb facs="#FacsPnr2"/>[Seite 2] 
+                </p> 
+                <p>&nbsp;Copia 
+                </p> 
+                <p>Articuli et Conditiones Tractatus 
+                    <lb />Transÿlvanici de an[n]o Domini 1595. 
+                    <lb /> 
+                    <lb />Articuli et conditiones Tractatus inter Sacram 
+                    <lb />Cæsaream Regiamque Hungariæ et Bohemiæ Majestatem 
+                    <lb />et Illustrissimum Transylvaniæ Principem Dominum Sigis- 
+                    <lb />mundum Bathorÿ de Somlio per Reverendissimos Joannem 
+                    <lb />Kutassÿ Episcopum Jauriensem et Regni Hungariæ Cancel- 
+                    <lb />larium, ac Stephanum Szwhaÿ Episcopum Vaciensem, Nec 
+                    <lb />non Spectabiles et Magnificos Thomam Erdödÿ&nbsp; perpetuum 
+                    <lb />Montis Claudii Comitem et Regnorum Dalmatiæ, Croatiæ 
+                    <lb />et Sclavoniæ Banum, Nicolaum Palffÿ de Erdeod, comi- 
+                    <lb />tem Comitatus et Capitaneum arcis Posoniensis, nec non 
+                    <lb />Cubiculariorum Regalium Magistrum, et supremum Cis- 
+                    <lb />danubianarum Regni Hungariæ partium Capitaneum, Si- 
+                    <lb />monem Forgach de Gÿmes Pincernarum Regalium Ma- 
+                    <lb />gistrum, et Joannem Joo de Kazaháza personalis Præ- 
+                    <lb />sentiæ Regiæ in Judiciis Locumtenentem, Consiliarios 
+                    <lb />Sacræ Cæsar[eæ] Regiæeque Majestatis ad id delegatos ex 
+                    <lb />una, Item per Spectabilem et Magnificum Stephanum 
+                    <lb />Bockaÿ de Kis-Maria Capitaneum Varadiensem 
+                    <lb />et comitem Comitatus Bihoriensis Consiliarium 
+                    <lb />et oratorem: Nec non Generosos et Egregios 
+                    <lb /> 
+                </p>
+                <pb facs="#FacsPnr3"/><p>[Seite 3] 
+                </p> 
+                <p>&nbsp; 
+                </p> 
+                <p>Gregorium Chiaky de Ke&lt;z&gt;ezeg, Joannem Syger de Szent 
+                    <lb />Lazlo, Joannem &lt;F&gt;rataÿ, Albertum Syweg, Judi- 
+                    <lb />cem Regium Civitatis Cibiniensis, et Doctorem A1- 
+                    <lb />phonsum Carillium ab Illustrissimo Principe Tran- 
+                    <lb />sylvaniæ cum pleno et sufficienti mandato missos ex 
+                    <lb />altera parte: Præsentibus, ac medi- 
+                    <lb />antibus Reverendissimo et Illustribus Dominis Nuntio 
+                    <lb />apostolico Cæsare Speciano, Episcopo Cremonensi, et Serenissi- 
+                    <lb />mi Hispaniarum Regis Catholici oratore, Guilielmo 
+                    <lb />de Sa[n]to Clemente et Paulo Sixto Trautson libero 
+                    <lb />Barone in Sprechenstein, Schrofenstain, et Falcken- 
+                    <lb />stein, Comitatus Tyrolis Marschalco hæreditario 
+                    <lb />Sac[rae] Cæs[areæ] Majestatis Camerario, Consiliario 
+                    <lb />Secreto, et Aulæ Cæsar[eæ] Marschalco initi et con- 
+                    <lb />clusi, Pragæ die vigesima octava Mensis Januarii 
+                    <lb />Anno Domini Millesimo Quingentesimo Nonagesimo 
+                    <lb />quinto. 
+                    <lb /> 
+                    <lb />I. Sacra Cæsar[ea] Regiaque Majestas pro sua persona 
+                    <lb />et ordinum Regni Hungariæ promittet, se in belle 
+                    <lb />contra hostes suscepto progressuram. Quod si vero 
+                    <lb />aliquando ad foedus et pacem res deveniret, ne absque 
+                    <lb />præscitu et communicato Consilio utriusque partis 
+                    <lb />foedus aut concordia cum hoste transigatur. 
+                    <lb />In Transactione vero tam Transylvania, quam ditiones 
+                    <lb /> 
+                </p>
+                <pb facs="#FacsPnr4"/><p> [Seite 4]
+                </p>
+                <p>&nbsp;
+                </p>
+                <p>illi sub&lt;j&gt;iectæ contineantur. Utraque item Valachia ni- 
+                    <lb />mirum Moldavia, et Transalpina, quæ a Turcarum 
+                    <lb />societate recesserunt. Illustrissimus autem Princeps 
+                    <lb />Transÿlvaniæ vicissim Suæ Maiestati suo ac ordinum Tran- 
+                    <lb />sÿlvaniæ et subditorum populorum suorum nomine promit- 
+                    <lb />tet, se quoque in bello contra Turcas progressurum, neque 
+                    <lb />foedus ullum tractaturum vel initurum cum hoste sine præ- 
+                    <lb />scitu, consensus, et approbatione Suæ Maiestatis, Regnique 
+                    <lb />sui Hungariæ, idque Juramento confirmabit. 
+                    <lb /> 
+                    <lb /> 
+                    <lb />II. Ut Transylvaniæ Jurisdictio inclusis etiam cunctis iis 
+                    <lb />Hungariæ partibus et confiniis, hactenus per Principem 
+                    <lb />possessis penes eundem Principem, Dominum Sigismundum 
+                    <lb />Bathori de Somlio eiusdemque hæredes masculini Sexus 
+                    <lb />ex propriis lumbis in sua linea recta descendentes cum Jure 
+                    <lb />primogenituræ eo prorsus modo, quo tempore, antecessorum 
+                    <lb />ipsius Principis fuerunt; nempe Joannis Stephani, et 
+                    <lb />Christophori Bathori cum omni proventu Jure et anti- 
+                    <lb />quo usu integra absolutaque ita maneat, ut semper me- 
+                    <lb />rum mixtumque Imperium liberamque Jurisdictionem in 
+                    <lb />ea habeat, ita tamen, ut suam Maiestatem Cæsaream ac 
+                    <lb />Regiam eiusdemque legittimos successores Hungariæ Reges 
+                    <lb />ipse et successores pro ipsorum legitimis Regibus recognos- 
+                    <lb />cant, ac Recognitionis et fidelitatis Juramentum sem- 
+                    <lb />per præstent, citra tamen Jus feudi, Idque Successores 
+                    <lb />
+                </p>
+                <pb facs="#FacsPnr5"/><p>[Seite 5]
+                </p>
+                <p>&nbsp;
+                </p>
+                <p>quidem tempore mutationis Regiminis, tunc videlicet quan- 
+                    <lb />do possessionem provincia acceperint; Modernus 
+                    <lb />autem Princeps modo. Deinde ut decedente sine hære- 
+                    <lb />dibus masculis Principe ipso, vel ipsis superstitibus ac 
+                    <lb />in hac eius linea legitima deficientibus ipsa Transylva- 
+                    <lb />nia eique annex&lt;æ&gt; ditiones non in alterius, quam in 
+                    <lb />suæ Majestatis eiusque Successorum Hungariæ Regum 
+                    <lb />ditionem et potestatem tanquam verum et inseparabi- 
+                    <lb />le membrum absque ulla controversia pervenire de- 
+                    <lb />beat. Et super hoc ipse Princeps se, suosque 
+                    <lb />ordines et omnes suæ ditionis Status Juramento fi- 
+                    <lb />dei obstringat. Cessante autem hærede in linea 
+                    <lb />Masculina Principis moderni, ac ipsa Transylva- 
+                    <lb />nia juxta præsentes articulos ad Coronam Hungariæ 
+                    <lb />devoluta, teneatur tam moderna Cæsarea et Regia 
+                    <lb />Majestas quam Successores ejusdem, Jura municipal- 
+                    <lb />lia, privilegia, et consuetudines in Transylvania 
+                    <lb />receptas, inviolatas servare, nec ulla ex parte im- 
+                    <lb />mutare. Donationes item omnes, et 
+                    <lb />inscriptiones semper pro ratis et gratis acceptare. 
+                    <lb />Tenebitur præterea Rex Hungariæ à tempore, quo 
+                    <lb />Transylvania ad Coronam devolvetur unum pro 
+                    <lb />Suo Placito ex Ordinibus Transylvaniæ Guberna- 
+                    <lb />torem seu Wayvodam provinciarum illarum creare. 
+                    <lb />Et quia Dei beneficio ipse Princeps Transÿlvaniæ 
+                    <lb /> 
+                </p>
+                <pb facs="#FacsPnr6"/><p>[Seite 6] 
+                </p> 
+                <p>&nbsp; 
+                </p> 
+                <p>non filios tantum sed et filias procreaturus speratur, 
+                    <lb />ideo deficiente, ut dictum est, masculo hærede Sua Ma[jes]tas 
+                    <lb />cuilibet filiæ de dote Centum millium florenorum Rhenen- 
+                    <lb />sium providebit, extra mundum muliebrem et Jocalia, Suc- 
+                    <lb />cessor item Majestatis Suæ Cæsar[eæ] atque Regiæ tempore 
+                    <lb />depositionis sui Juramenti, quod Regno Hungariæ præ- 
+                    <lb />stabit, Transylvaniæ quoque particularem, et specia- 
+                    <lb />lem in eodem Juramento mentionem faciet. 
+                    <lb />Civitas Nagÿbania possidebitur a Principe Transylva- 
+                    <lb />niæ ita, ut illa Serenissimo quondam Regi Poloniæ Stephano 
+                    <lb />Bathori per suam Ma[jesta]tem collata fuit. 
+                    <lb /> 
+                    <lb />III. Sacra Cæsar[ea] Regia Ma[jes]tas Principem 
+                    <lb />Transÿlvaniæ recognoscet pro libero Principe, eique 
+                    <lb />titulum et appellationem Illustrissimi concedet, eamque 
+                    <lb />sua authoritate (ut moris est) munitam reddet et pe- 
+                    <lb />culiari Diplomate confirmabit. 
+                    <lb /> 
+                    <lb />IV. Ut sacra Ma[jes]tas ex inclÿto Sanguine Austria- 
+                    <lb />co Illustrissimo Principi uxorem primo quoque tem- 
+                    <lb />pore procuret, nihil prætermissura est, opportuni 
+                    <lb />ofiicii apud Serenissimi quondam Archiducis Caroli 
+                    <lb />patrui sui charissimi Viduam et apud Serenissimum 
+                    <lb />Archiducem Ferdinandum ac Bavariæ Ducem, 
+                    <lb />qui una cum Sac[ra] Majestate sua dicti Serenissimi 
+                    <lb /> 
+                </p>
+                <pb facs="#FacsPnr7"/><p>[Seite 7]
+                </p>
+                <p>&nbsp;
+                </p>
+                <p>Archiducis Caroli filiarum curatores sunt, ne eo- 
+                    <lb />rum consensus desit, quin ex filiabus illis aliqua 
+                    <lb />detur. 
+                    <lb /> 
+                    <lb />V. Ut Illustrissimus Princeps aureo vellere à Serenissi- 
+                    <lb />mo Hispaniarum Rege Catholico insigniatur, Sacra 
+                    <lb />Ma[jes]tas Sua procurandum suscipiet. 
+                    <lb /> 
+                    <lb />VI Ut vero Illustrissimus Princeps adversus communem 
+                    <lb />hostem alacrius et securius pergat, Sac[ra] Cæs[area] ac Regia 
+                    <lb />Majestas sua neque ipsum Principem neque Transylva- 
+                    <lb />niam, aut ditiones illi subjectas ullo tempore, quicunque 
+                    <lb />rerum casus, fortunæque mutatio ingruat, desertura 
+                    <lb />est. Et iam quidem aliquibus auxiliis pro præsenti oc- 
+                    <lb />casione submittendis iuvabit, et imposterum, si major 
+                    <lb />necessitas ingruat, auxilia majora sive per Generalem 
+                    <lb />Cassoviensem, sive per alios suppediabit. 
+                    <lb />Quoniam vero Sac[ra] Ma[jes]tas sua copiis militaribus et 
+                    <lb />omni apparatu bellico necessario ut pote Tormentis, 
+                    <lb />globis, pulvere et reliquis omnibus instrumentis juvare 
+                    <lb />constituit, minus juvare pecunia potest de qua antehac 
+                    <lb />a mentio facta fuit. Atque hæc auxiliorum sup- 
+                    <lb />peditatio ultro citroque mutua et reciproca erit, prout 
+                    <lb />necessitas unius vel alterius partis requisierit, ut ubi 
+                    <lb />major necessitas fuerit, eo majora auxilia convertantur. 
+                    <lb />
+                </p>
+                <pb facs="#FacsPnr8"/><p>[Seite 8]
+                </p>
+                <p>&nbsp;
+                </p>
+                <p>VII. Ut Sacrum Romanum Imperium quoque Illustrissimi 
+                    <lb />Principis ac ditionum ipsi subditarum tutelam ac defen- 
+                    <lb />sioniem suscipiat, Sac[ra] Ma[jes]tas Sua quantum in se erit, suo 
+                    <lb />tempore libenter &lt;c&gt;urabit, ipsum que Principem, ac posteri- 
+                    <lb />tatem ipsius jam statim Imperii Principes, sine suffragio 
+                    <lb />tamen et Sessione inter Imperii ordines creabit. 
+                    <lb /> 
+                    <lb />VIII. Quæcumque arces, oppida, Civitates, aut alia loca 
+                    <lb />communibus viribus quando à Sacra Majestate sua 
+                    <lb />justus exercitus et apparatus mittetur, capientur, 
+                    <lb />aut recuperabuntur, Sac[ræ] Su[æ] Majestate omnino cedent. 
+                </p> 
+                <p>Quæ autem Illustrissimus Transylvaniæ Princeps 
+                    <lb />ipse propriis armis, sanguine suorum subditorum 
+                    <lb />industria aut alia<note n="1" type="crit_app">Einschub über der Zeile.</note> diligentia hosti ademerit. Illustrissi- 
+                    <lb />mo Principi Transylvaniæ cedent, sed Jure feudi 
+                    <lb />tantum, quod subinde à Sac[ra] Ma[jesta]te sua tam Il- 
+                    <lb />lustrissimus Princeps, quam ipsius hæredes accipere tene- 
+                    <lb />antur. Quae denique Illustrissimus Princeps ex 
+                    <lb />bonis olim ad Coronam Hungariæ proprie pertinen- 
+                    <lb />tibus tempore, quo a Turca occupata fuerunt, recu- 
+                    <lb />perarit, ea Sac[ræ] Ma[jesta]ti suæ statim relinquet simul 
+                    <lb />atque ipsi Principi æqua in aliis bonis compensatio 
+                    <lb />dabitur. 
+                    <lb /> 
+                    <lb />IX. Pollicetur Sa[cra] Ma[jes]tas sua auxilium se liberalitate 
+                    <lb />sua Illustrissimo Principi suppedituram esse, 
+                </p> 
+                <pb facs="#FacsPnr9"/><p>[Seite 9] 
+                </p> 
+                <p>&nbsp; 
+                </p> 
+                <p>ad munienda et in præsidium redigenda ea loca, quæ 
+                    <lb />judicabuntur è re Christianorum esse, quemadmodum 
+                    <lb />Illustrissimus Princeps vicissim pollicetur, se facultati- 
+                    <lb />bus et viribus non parciturum, ut eadem loca serio munian- 
+                    <lb />tur, et deffendantur, pro obsequio Sac[ræ] Cæs[areæ] Maiestatis 
+                    <lb />et commodo Christianorum. 
+                    <lb /> 
+                    <lb />X. Quoniam dubÿ sunt bellorum exitus, multaque præter 
+                    <lb />opinionem possunt evenire repente, si forte suæ Celsi- 
+                    <lb />tudini vel Successoribus ea necessitas imponeretur (quod 
+                    <lb />propitius Deus omen avertat) ut viribus exhaustis tueri 
+                    <lb />amplius provinciam non possit, sed prævalescentibus hos- 
+                    <lb />tibus ea excedere cogeretur. In hoc ipsius extre- 
+                    <lb />mo casu Sac[ra] Cæs[area] ac Regia Ma[jes]tas suo nomine ac Suc- 
+                    <lb />cessorum suorum locum certum in aliis suis ditionibus, 
+                    <lb />certumque proventum, quo vitam pro dignitate possit 
+                    <lb />honeste sustentare, intra mensis spatium, re cum ÿs ad 
+                    <lb />quos illa consultatio pertinet, communicata assignabit. 
+                    <lb />Similiter aliorum præcipuorum, qui fortunas vitamque 
+                    <lb />suam cum Salute Principis conjunctam Christiani no- 
+                    <lb />minis causa in discrimen adduxerint Sac[ra] Maiestas 
+                    <lb />sua eam rationem benigne habebit, ut paratum in di- 
+                    <lb />tionibus suis, si quid eis adversi accidat, præfugium 
+                    <lb />et aliquam ab ea sublevationem mereantur 
+                    <lb /> 
+                    <lb />XI Has conditiones omnes, et articulos et Instrumento 
+                    <lb />solemni et Juratmento Princeps ipse atque ordines 
+                    <lb /> 
+                </p>
+                <pb facs="#FacsPnr10"/><p>[Seite 10] 
+                </p> 
+                <p>&nbsp; 
+                </p> 
+                <p>Transylvaniæ ex una, Sacra vero Ma[jes]tas sua bona fide ac 
+                    <lb />verbo Cæsar[eo] ac Regio propri&lt;æ&gt; manus subscriptione, si- 
+                    <lb />gillique appensione una cum Regni Hungariæ ordinibus, 
+                    <lb />ex altera partibus confirmabit. 
+                    <lb />&nbsp; 
+                    <lb />XII. Denique cum summa belli necessitas urgeat Eas supra 
+                    <lb />explicatas conditiones et articulos quam primum 
+                    <lb />utrinque concludi et utramque partem ad eorum obser- 
+                    <lb />vationem obligari. Placet Ma[jesta]ti suæ id quidem iam 
+                    <lb /><note n="2" type="crit_app">Aufgedrücktes Siegel am linken Seitenrand.</note> nunc ita fieri, ut, si matrimonium, de quo Illustrissimo 
+                    <lb />Principi certa spes facta est, non successerit, neutra 
+                    <lb />pars obligata maneat, sed tam una, quam altera li- 
+                    <lb />beretur. 
+                    <lb /> 
+                    <lb />Subscripsit Imperator cum Sigilli Impressione 
+                    <lb />simul omnes supra nominate idem fecerunt. 
+                    <lb />Sacræ Cæsareæ Majestatis 
+                    <lb />Confirmatio Articulorum præcedentium. 
+                    <lb /> 
+                    <lb />Rudolphus p. recognoscimus et memoriæ com- 
+                    <lb />mendamus tenore præsentium, quibus expedit univer- 
+                    <lb />sis, pro Nobis, hæredibus, et Successoribus nostris, 
+                    <lb />Regibus Hungariæ et Bohemiæ. Quod cum 
+                    <lb />iam inter Nos et Illustrissimum Sigismundum Bathorÿ 
+                    <lb />de Somlio Transÿlvaniæ Principem Siculorum comitem 
+                </p>
+                <pb facs="#FacsPnr11"/><p>[Seite 11] 
+                </p> 
+                <p>&nbsp; 
+                </p> 
+                <p>et quarundam Hungariæ Partium Dominum, Principem nostrum 
+                    <lb />charissimum per Reverendos devot&lt;a&gt;s fideles nobis Dilectos Joan[n]em 
+                    <lb />Kutassÿ etc. (quemadmodum in pr&lt;.&gt; Articulos usque ad 
+                    <lb />verbum nostræ) Cæsareæ Marschalco non solum pro conserva- 
+                    <lb />tione Regni nostri Hungaria, sed etiam totius Christianæ 
+                    <lb />Reipublicæ beneficio certi Articuli et conditiones Tracta- 
+                    <lb />tus initi et conclusi fuerint, quorum quidem articu&lt;los&gt; 
+                    <lb />et conditionum tenor de verbo ad verbum sequitur, et 
+                    <lb />est talis (inserantur articuli ut supra de verbo ad 
+                    <lb />verbum) 
+                    <lb /> 
+                    <lb />Nos igitur acceptis nunc super ÿsdem dicti tractatus 
+                    <lb />Articulis et conditionibus præfati Illustrissimi Principis 
+                    <lb />atque ordinum Transÿlvaniæ Ratificatoriis et confirma- 
+                    <lb />toriis Instrumentis solennibus et Juramentis, legatis nos- 
+                    <lb />tris, qui ob eam causam eo ablegati fuerunt, exhibitis, 
+                    <lb />præsentatis ad præstitis, quibus idem Illustrissimus 
+                    <lb />Transylvaniæ Princeps atque ordines ad sinceram Sanc- 
+                    <lb />tam firmam et inviolabilem articulo&lt;s&gt; et conditionum 
+                    <lb />Tractatus utrinque initi observationem se se cum hære- 
+                    <lb />dibus ac Successoribus suis obstrinxerunt, nolentes iis, 
+                    <lb />quæ nobis hoc loci vigore eiusdem Tractatus incumbunt, 
+                    <lb />eadem integritate, qua in eiusmodi Tractatum condes- 
+                    <lb />cendimus, satisfacere supradictos Articulos, et con- 
+                    <lb />ditiones a prætacto Illustrissimo Transylvaniæ Prin- 
+                    <lb />cipe atque ordinibus, ut præferetur, appobatos ra- 
+                    <lb />tificatos, et confirmatos prout superius descripti et 
+                    <lb />de verbo ad verbum inserti habentur, pro nostra quoque 
+                    <lb /> 
+                </p>
+                <pb facs="#FacsPnr12"/><p>[Seite 13]
+                </p>
+                <p>&nbsp;
+                </p>
+                <p>parte, ex certa nostra scienta, animoque bene deliberato 
+                    <lb />et omni meliori modo et forma, quibus potuimus et de- 
+                    <lb />buimus, approbavimus, ratificavimus et corroboravi- 
+                    <lb />mus, prouti vigore præsentium approbamus, ratifica- 
+                    <lb />mus et corroboramus, promittentes in verbo nostro Cæ- 
+                    <lb />sareo et Regio, ac sub fide Principis pro nobis et hæ- 
+                    <lb />redibus ac Successoribus nostris Regibus Hungariæ et 
+                    <lb />Bohemiæ, quod illa omnia et singula, syncere, sancte, 
+                    <lb />firmiter, et inviolabiliter tenebimus, observabimus et 
+                    <lb />adimplebimus, ac per supraditos hæredes et successors 
+                    <lb />nostros observari et adimpleri debere volumus et 
+                    <lb />decrevimus, actam nos ipsos, quam eos ad id efficicissi- 
+                    <lb />me obligamus et obligatos ac obstrictos reddimus, omni 
+                    <lb />dolo ac fraude postpositis penitus et semotis. 
+                    <lb />Harum Testimonio literarum manu nostra subscripta- 
+                    <lb />rum, et sigilli nostri appentione<note n="3" type="crit_app">Korrektur über dem Wort.</note> munitarum. 
+                    <lb />Datum in arce nostra Regia Pragæ die …<note n="4" type="crit_app">Lücke.&nbsp;</note> 
+                    <lb />Anno Domini 1595. Regnorum nostrorum Romani 
+                    <lb />vigesimo, Hungarici vigesimo tertio, et Bohemici 
+                    <lb />itidem vigesimo. 
+                    <lb /> 
+                    <lb />Præsentem Copiam suo Exemplari, quod inter alia Acta in Archivo Cameræ 
+                    <lb />Aulicæ adservatur, in omnibus punctis et clausulis conformem esse, 
+                    <lb />testor. Viennæ die 3.ma &lt;O&gt;[cto]bris 1794. 
+                    <lb /> 
+                    <lb />Joannes Florianus Baumberg m[anu] p[ropria] 
+                    <lb />Sac[ræ] Cæs[are]æ Regiæque Majestatis 
+                    <lb />Cameræ Aulicæ Archivi Director 
+                </p> 
+            </div>
+        </body>
+        <back>
+            <listBibl>
+                <bibl>Gerald Volkmer, Das Fürstentum Siebenbürgen. Aussenpolitik und völkerrechtliche Stellung. Kronstadt 2002, S. 98-102.</bibl>
+            </listBibl>
+        </back>
+    </text>
+</tei:TEI>

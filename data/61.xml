@@ -1,0 +1,409 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE tei SYSTEM "../resources/FriVer_DTD.dtd">
+
+<?xml-model href="../resources/FriVer.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns="http://www.tei-c.org/ns/1.0"
+    xml:id="pa000299-0061">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title level="s">European peace treaties of the pre-modern era in data / Europäische
+                    Friedensverträge der Vormoderne in Daten (FriVer+)</title>
+                <title when="1655-05-10" xml:id="t61" when-custom="1655 V 10" level="a"
+                    ref="https://www.ieg-friedensvertraege.de/treaty/t-61-1-de.html">Allianz- und
+                    Handelsvertrag von Paris</title>
+            </titleStmt>
+            <editionStmt>
+                <edition> Digital edition according to <ref target="http://www.tei-c.org/">TEI
+                        P5</ref>
+                </edition>
+                <funder>
+                    <ref target="https://www.text-plus.org/">TEXT+</ref>
+                </funder>
+                <editor role="http://id.loc.gov/vocabulary/relators/edt"
+                    ref="https://orcid.org/0000-0002-8741-5916">
+                    <persName>Jaap Geraerts</persName>
+                    <note>The transformation and enrichment of the data is done by Jaap Geraerts
+                        (IEG Mainz). The other members of the FriVer+ team are Fabian Cremer, Ines
+                        Grund, and Thorsten Wübbena (all IEG Mainz).</note>
+                    <note> The original data has been created by the <ref
+                            target="https://www.ieg-friedensvertraege.de">team of scholars</ref> who
+                        were part of the Europäische Friedensverträge der Vormoderne project. This
+                        project was lead by Prof. Dr. Heinz Duchhardt and was based at the Leibniz
+                        Institute of European History in Mainz. </note>
+                </editor>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>
+                    <orgName ref="http://www.isni.org/0000000119314040">Leibniz-Institut für
+                        Europäische Geschichte Mainz</orgName>
+                </publisher>
+                <distributor>
+                    <orgName ref="http://www.isni.org/0000000110101946">Universitäts- und
+                        Landesbibliothek Darmstadt</orgName>
+                </distributor>
+                <idno type="ISIL">http://lobid.org/organisation/DE-17</idno>
+                <date type="issued" when="2023-12-23"/>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">
+                        <p xml:lang="en">This file is licensed under the terms of the Creative
+                            Commons License CC-BY 4.0 (Attribution 4.0 International)</p>
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <repository xml:id="r22">Paris AAE <note>Trait&eacute;s et Accords de la France:<lb/>
+                        <ref
+                            target="http://www.diplomatie.gouv.fr/traites/affichetraite.do?accord=TRA16550002"
+                            >http://www.diplomatie.gouv.fr/traites/affichetraite.do?accord=TRA16550002</ref></note>
+                </repository>
+                <msDesc>
+                    <p> AAE Paris: M.A.E. Traités. Multilateraux 16550002, Traité d'alliance et de
+                        commerce (UI). <lb/>Déclaration des députés des villes de Brême, Hambourg et
+                        Lübeck.- Paris, 10 mai 1655.</p>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p> The data in this XML file, originally created by the project <ref
+                        target="https://www.ieg-friedensvertraege.de/vertraege">Europäische
+                        Friedensverträge der Vormoderne online</ref> has been transformed in
+                    accordance with <ref target="http://www.tei-c.org/">TEI P5</ref> as part of the
+                    project <ref
+                        target="https://www.ieg-mainz.de/en/research/research-projects/european-peace-treaties-of-the-pre-modern-era-in-data"
+                        >Europäische Friedensverträge der Vormoderne in Daten (FriVer+)</ref>
+                </p>
+            </projectDesc>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="fr" xml:id="lan4">französisch</language>
+            </langUsage>
+        </profileDesc>
+    </teiHeader>
+    <standOff>
+        <listPerson>
+            <person role="signatory" xml:id="p37">
+                <persName ref="https://explore.gnd.network/gnd/4018145-5">
+                    <name>Frankreich</name>
+                </persName>
+            </person>
+            <person role="signatory" xml:id="p52">
+                <persName ref="https://explore.gnd.network/gnd/2038963-2">
+                    <name>Hanse</name>
+                </persName>
+            </person>
+        </listPerson>
+    </standOff>
+    <text>
+        <front>
+            <div type="Drucke">
+                <p>CTS III, S. 411-426. DUM VI/II, S. 103. </p>
+            </div>
+            <div type="Inhalt">
+                <p>Verl&#228;ngerung der Privilegien der Vorg&#228;nger des franz&#246;sischen
+                    K&#246;nigs, um den freien Handel der Hansest&#228;dte sicher zu stellen, auch
+                    mit den Feinden Frankreichs. <lb/>I. Freier Handel und Verkehr der Bewohner der
+                    Hansest&#228;dte in Frankreich und davon abh&#228;ngigen Gebieten au&#223;er mit
+                    Schmuggelwaren, wie nachstehend ausgef&#252;hrt. <lb/>II. Definition der
+                    Schmuggelwaren: Waffen und Kriegsg&#252;ter. Korn und Lebensmittel f&#252;r
+                    Pl&#228;tze, die seine Majest&#228;t angreift. Au&#223;erdem d&#252;rfen die
+                    Schiffsladungen von Beamten seiner Majest&#228;t unter Zahlung eines
+                    angemessenen Preises aufgebracht werden, wenn die Schiffe von den Feinden
+                    Frankreichs zwangsweise f&#252;r ihre Versorgung eingesetzt werden bei freiem
+                    Geleit f&#252;r die Hansischen Schiffer, Schiffe und &#252;brigen Waren.
+                    <lb/>Schmuggler werden nach den Verordnungen von 1554 und 1584 verurteilt.
+                    Konfisziert werden darf nur die Schmuggelware. Ansonsten freies Geleit f&#252;r
+                    die Schiffe mit den restlichen Waren. <lb/>III. Ausnahme der Hanseaten aus den
+                    Prisenregelungen vorgenannter Verordnungen f&#252;r 15 Jahre. R&#252;ckgabe
+                    hanseatischen Eigentums, wenn es auf feindlichen Schiffen als Prise genommen
+                    wird. <lb/>IV. Bei Aufbringung hanseatischer Schmuggler, d&#252;rfen die
+                    Untersuchungen nur in Anwesenheit von Admiralit&#228;tsrichtern vorgenommen
+                    werden und nach einer von ihnen erstellten Inventur. <lb/>V. Verbot des Verkaufs
+                    etc. der konfiszierten Schmuggelware bevor der Freigabe durch die Richter.
+                    Vorkaufsrecht f&#252;r die Kapit&#228;ne, deren Ladungen aufgebracht wurden.
+                    <lb/>VI. Ausweispflicht gegen&#252;ber den Kriegskapit&#228;nen seiner
+                    Majest&#228;t unter Angabe des Herkunftsorts, Ladung, Zielort usw. <lb/>VII.
+                    Regelungen der Begr&#252;&#223;ung und Kontaktaufnahme mit franz&#246;sischen
+                    Kriegsschiffen. <lb/>VIII. Franz&#246;sischen Reeder sind verpflichtet f&#252;r
+                    oben festgelegte Waren vor Auslaufen der Schiffe eine Kaution zu hinterlegen zur
+                    Vorbeugung m&#246;glicher Veruntreuungen und Straff&#228;lligkeiten. <lb/>IX.
+                    Die Hanseaten genie&#223;en dieselben Privilegien wie die Vereinten Provinzen
+                    der Niederlande und andere befreundete Nationen. Verl&#228;ngerung und
+                    Ratifikation bereits fr&#252;her erteilter Privilegien. <lb/>X. Spezifizierung
+                    dieser &#228;lteren Vertr&#228;ge und Privilegien.
+                    Meistbeg&#252;nstigungsklausel. <lb/>XI. Ratifikation , Registratur und
+                    Ver&#246;ffentlichung. <lb/>XII. Schiffe, die in der Ratifikationsfrist von zwei
+                    Monaten festgesetzt werden, werden gem&#228;&#223; diesem Vertrag behandelt. </p>
+                <p>Zusatzerkl&#228;rung zur Konfiskation spanischen Silbers das in Schiffen der
+                    Hanse transportiert wird. <lb/>
+                </p>
+            </div>
+        </front>
+        <body>
+            <div type="Transliteration">
+                <pb facs="#FacsPnr1"/>
+                <p>Le Roy voulant faire connoistre aux Villes et Citez de <lb/>la Hanse teutonique,
+                    qu'il a pour elles la mesme affection et bonne <lb/>volonté, que les Royes ses
+                    predecesseures leur ont tesmoignée, <lb/>et qu'il desire entretenir avec elles
+                    une amitié et intelligence <lb/>aussy sincere que celle qu'i les ont observée
+                    pendant tant d'années <lb/>à ladvantage des sujets de sad[ite] Ma[jes]té, et de
+                    ceux desd[ites] Villes. <lb/>Sad[ite] Ma[jes]té a eu bien agreable les instantes
+                    prieres et <lb/>supplicationes qui luy ont esté faittes de leur part, par leur
+                    <lb/>S[ieu]res Penshorn et Möller Senateurs de la Ville de Hambourg <lb/>leures
+                    Ambassadeures deputez en cette cour, de leur accorder <lb/>la Confirmation des
+                    privileges qui leur ont esté concedez par <lb/>lesd[its] Roys ses predecesseurs,
+                    mesmes les expliquer &amp; augmenter <lb/>ensorte que leurs sujets puissent en
+                    toute liberte exercer leur <lb/>commerce avec qui bon leur sembleroit, nommement
+                    avec les <lb/>ennemis de cet estat sans en pouvoir estre empeschez par les
+                    <lb/>Cap[itai]nes de ses Vaisseaux de guerre et autres Cap[itai]nes armateurs
+                    <lb/>soubs quelque pretexte que ce soit. Et pour examiner avec eux <lb/>les
+                    conditions soubs lesquelles ilz puissent jouir de cette grace; <lb/>Elle a
+                    Commis le S[ieu]r Comte de Brienne, commandeur de <lb/>ses ordres, con[seill]er
+                    ord[inai]re en tous ses con[se]ils et en sa Cour de parlement <lb/>de paris, et
+                    premier secretaire d'estat et de ses Commandements; <lb/>le S[ieu]r d'Haligre
+                    aussy con[seill]er en sesd[its] con[se] ils et en sad[ite] Cour de
+                    <lb/>parlement directeur de ses finances, et le S[ieu]r Bignom le <lb/>aussy de
+                    ses con[se]ilz, et son advocat general en sa Cour de parlement <lb/>lesqueles
+                    aprez plusieurs conferences, qu'ils ont tenuës avec <lb/>lesd[its] S[ieu]rs
+                    Penshorn &amp; Möller, ont coniointement, en vertu <lb/>de leurs pouvoirs
+                    respectifs dont les coppiers sont e[n] y aprez <lb/>suivées, resolu &amp;
+                    arresté ce qui ensuit. <lb/>Art[icle] j er <lb/>Que les habitans des Villes
+                    hanseatiques pourront en <lb/>
+                    <pb facs="#FacsPnr2"/>[nicht verfilmt, folgt CTS] <lb/>toute seureté trafiquer
+                    &amp; naviguer tant en France, qu'autres Royaumes, Estats, Pais &amp; Mers,
+                    Lieux, Ports, Codes, Havres &amp; Rivieres en dependantes, pour y aller, venir,
+                    passer &amp; repasser tant par Mer que par Terre, avec leurs Navires &amp;
+                    Marchandises, sans que les Sujets de Sa Majesté qui auront les Vaisseaux armez
+                    en Guerre ou autrement, les puissent empêcher, arrester ou retenir sous quelque
+                    pretexte que ce soit; quand même ils iroient dans les Villes, Ports , Havres, ou
+                    autres Lieux dependans des Ennemis de sa Majesté, ou qui le pourroient estre à
+                    l'avenir, si ce n'est qu'ils fussent chargez de Marchandises de contrebande
+                    cy-aprés designées , pour estre portées aux Païs &amp; Places ennemis de la
+                    Couronne. 2.nd <lb/>Lesquelles Marchandises de contrebande sont entenduës être
+                    Munitions de Guerre , Armes à feu; Sçavoir, Canons, Mousquets, Mortiers, Bombes,
+                    Petards, Grenades, Saucisses, Cercles, Affuts, Fourchettes, Bandoulieres,
+                    Poudre, Mesche, Salpestre &amp; toutes autres sortes d'Armes, comme Picques,
+                    Espées, Morions, Casques, Cuirasses, Hallebardes, Javelots, &amp; autres Armes
+                    servans à la Guerre , ensemble des Chevaux, des Cordages &amp; des Toiles
+                    noyales, qui ne puissent servir qu'à faire voiles: pourront neanmoins porter des
+                    Bleds &amp; Grains de toutes sortes, Legumes &amp; autres choses servans à la
+                    vie, si ce n'est que les Villes &amp; Places où ils les transporteront fussent
+                    attaquées par Sa Majesté, &amp; que volontairement ils les y transportassent,
+                    sans y être forcez par les Ennemis de Sa Majesté, &amp; se servant par violence
+                    de leurs Vaisseaux trouvez, dedans leurs Ports, ou ailleurs; auquel cas pourront
+                    les Commandans des Vaisseaux de Sa Majesté retenir lesdits Grains &amp; autres
+                    choses servans à la vie, en payant leur juste valeur, suivant l'estimation qui
+                    en sera faite, sinon &amp; à faute d'estimation &amp; de payement en deniers
+                    comptans; les Sujets desdites Villes Anseatiques pourront se retirer librement
+                    avec leurs Vaisseaux &amp; Marchandises, si ce n'est qu'elles fussent de la
+                    qualité de celles specifiées cy-dessus, pour être de contrebande. Ne voulant
+                    sadite Majesté que les Capitaines de ses Vaisseaux puissent arrester aucuns
+                    Navires appartenans aux Habitans desdites Villes Anseatiques, que ceux qui se
+                    trouveront chargez de Marchandises de contrebande, lesquelles seront jugées
+                    suivant les Ordonnances du Roiaume, de François Premier , année 1554. &amp; de
+                    Henry Troisieme&nbsp; 1584 &amp; s'il se trouvoit desdites contrebandes sur des
+                    Vaisseaux desdits Habitans, chargez à cueuillette en un ou plusieurs lieux,
+                    elles seront confisquées purement &amp; simplement, sans que les autres
+                    Marchandises ni le Vaisseau le puissent être, &amp; celui qui les aura chargées
+                    sera tenu à tous les dépens, dommages &amp; interests soufferts pour raison de
+                    ce par les Interessez aux Vaisseaux, &amp; ce cas arrivant il sera jugé selon la
+                    rigueur du present Article, &amp; non suivant lesdites Ordonnances, &amp; ce
+                    faisant &amp; aprés le, Jugement rendu, le Vaisseau pourra partir librement avec
+                    le reste de sa charge, &amp; pour cet effet seront les Officiers de l'Admirauté
+                    tenus de proceder incessamment au Jugement desdites Prises. <lb/>III. Et bien
+                    que les mêmes Ordonnances desdits Rois François Premier, &amp; Henry Troisieme ,
+                    portent que si les Sujets de Sa M. font en temps de Guerre des Prises par Mer
+                    d'aucuns Navires, appartenans aux Alliez &amp; Amis de sadite Majesté , esquels
+                    il y ait Biens &amp; Marchandises d'Ennemis; ou bien aussi des Navires esquels
+                    il y ait des] <lb/>
+                </p>
+                <pb facs="#FacsPnr3"/>
+                <p>marchandises ou bien[s] d'Amis, alliez ou confederez; ou <lb/>esquels lesd[its]
+                    alliez ou amis fussent portionniers, le tout soit <lb/>declaré de bonne prise;
+                    si est ce que pour l'esgard des habitans <lb/>et sujets desd[ites] villes
+                    hanseatiques et en consideration de leurs <lb/>privilleges, sa Ma[jes]té
+                    derogeant auxdi[tes] ordonnances, veut et entend <lb/>que lesd[its] habitans
+                    soient dechargez de la rigueur d'icelles pendant <lb/>le temps &amp; espace de
+                    quinze annéés. Ensorte que la robbe de <lb/>l'ennemy ne confisque point celle de
+                    l'amy, et que les navires à eux <lb/>appartenans soient libres et rendent toutes
+                    leurs charges libres <lb/>bien qu'il y eût de la marchandise appartenante aux
+                    ennemis <lb/>si ce n'est qu'il s'y en trouvast de contrebande, ou que les
+                    M[aistre]s d[es]d[its] <lb/>Vaisseaux eussent jette leurs pappiers [cy-apres
+                        specifies]<note type="crit_app" n="1">Nachträglich eingefügt. </note> à la mer,
+                    ou combatu les <lb/>Vaisseaux de Sa Ma[jes]té, laq[ue]lle entend pareillement
+                    que les marchandises <lb/>trouvées dans les navires d'Ennemis qui se
+                    justifieront appartenir <lb/>aux habitans desd[ites] Villes hanseatiques, leur
+                    seront rendües. </p>
+                <p>4me. <lb/>S'il arrivoit qu'aucun des Cap[itai]nes françois fist prise d'un
+                    <lb/>Vaisseau chargé desd[ites] marchandises de Contrebande, ne pourront
+                    <lb/>lesd[its] Cap[itai]nes faire ouverture, ou rompre les coffres, malles,
+                    balles, <lb/>bougettes, tonneaux ou autres Caisses, ni les transporter, vendre
+                    et <lb/>echanger ou autrement alliener, qu'elles n'ayent esté <lb/>descendües en
+                    terre qu'en la presence des Juges de l'admiraute et <lb/>aprez Inventaire par
+                    eux fait desd[ites] marchandises <lb/>trouvéés dans lesd[its] Vaisseaux. </p>
+                <p>5me <lb/>Il sera pareillement deffendu, soubz les paines portéés par <lb/>les
+                    ordonnances et de Confiscations de biens à toutes personnes <lb/>marchandz ou
+                    autres, d'achetter, exchanger ou recevoir en don <lb/>ou autres pretextes que ce
+                    soit, ni de celer ou cacher par eux ou <lb/>par autres directement ou
+                    indirectement les marchandises </p>
+                <p> </p>
+                <p> </p>
+                <p> </p>
+                <pb facs="#FacsPnr4"/>
+                <p>ou biens trouvez ezd[its] Vaisseaux chargez de Contrebande que <lb/>les prises
+                    n'ayent esté declarées bonnes par les Juges de Sa <lb/>Ma[jes]te, auquel Cas les
+                    Cap[itai]nes des Vaisseaux sur lesquels lesd[ites] <lb/>marchandises auroient
+                    esté prises les pourront rachetter, s'ils <lb/>veulent pour le prix de leur
+                    adiudication et seront preferez à <lb/>tous autres. </p>
+                <p>6me <lb/>Et affin que l'on ne puisse douter de la qualité de les
+                    <lb/>marchandises chargées dans lesd[its] Vaisseaux seront les <lb/>Cap[itai]nes
+                    et M[aistr]es d'iceux trouvez en mer tenus de monstrer aux <lb/>cap[itai]nes des
+                    navires de guerre de Sa Ma[jes]té un passeport ou lettre <lb/>de Mer et un
+                    certifficat ou police de Chargement par lequel <lb/>passeport apparoistra comme
+                    le navire appartient aux hab[it]ans <lb/>desd[ites] Villes hanseatiques ce qui
+                    sera attesté sur leur serment <lb/>par le magistrat du lieu d'ou il sera et
+                    scellé de son cachet <lb/>et dans le Certifficat sera contenu la Charge du
+                    navire <lb/>le lieu d'ou il part, et ou il va, et qu'il n'y a pas de
+                    <lb/>marchandises de Contrebande. </p>
+                <p>7me <lb/>Et Pour eviter aux inconveniens qui pourroient arriver <lb/>lorsque les
+                    Vaisseaux des Sujets desd[ites] Villes hanseatiques seront <lb/>rencontrez par
+                    les navires de guerre de sa Ma[jes]té et oster <lb/>tous les pretextes des
+                    violances qui leur pourroient estree <lb/>faittes aprez avoir abbattu le
+                    pavillon aussi tost qu'ils <lb/>auront reconnu celuy de france ou en seront
+                    advertis par le <lb/>signal qui leur sera donné par les françois d'un coup de
+                    <lb/>Canon tiré sans balle, demeureront à la portée du Canon <lb/>paroistront
+                    sur le bord et attendront la Chalouppe qui <lb/>leur sera envoyée du Vaisseau de
+                    guerre de Sa Ma[jes]té <lb/>avec deux ou trois hommes desd[its] Vaisseaux de
+                    <lb/>
+                </p>
+                <pb facs="#FacsPnr5"/>
+                <p>guerre outre l'equipage de la Chalouppe lesquels entreront <lb/>dans lesd[its]
+                    Vaisseaux marchands, dont les Cap[itai]nes et M[aistr]es <lb/>seront tenus leur
+                    monstrer lesd[its] passeports ou lettres de Mer <lb/>et Certifficats ou police
+                    de Chargement, auxquels sera <lb/>donné entiere foy et creance, sans qu'aprez
+                    les avoir veuz et <lb/>reconnû par icelles n'y avoir aucunes marchandises
+                    <lb/>de contrebande, ils puissent faire autre recherche dans le <lb/>Vaisseau ou
+                    demander autre pappier, ni ouvrir aucuns coffres, <lb/>balles, malles, tonneaux,
+                    ou autres caisses de quelque nature <lb/>qu'elles soient, retenir les navires,
+                    ni prendre aucune sorte <lb/>de droits soubz pretexte de sallaires, vaccations
+                    ou presens. <lb/>Et pour empescher que pendant la visite desd[its] pappiers,
+                    <lb/>il ne soit faict aucune Violance aux Off[ici]ers desd[its] Vaisseaux
+                    <lb/>du Roy entrez dans lesd[its] Vaisseaux marchandz, seront <lb/>tenus les
+                    Cap[itai]nes ou M[aistr]es desd[its] Vaisseaux faire passer dans <lb/>lad[ite]
+                    Chalouppe deux ou trois de leurs principaux off[ici]ers au <lb/>dessoubz d'eux,
+                    pour y demeurer tant que lad[ite] visite de <lb/>pappiers aura esté faitte, et
+                    lesd[its] hommes de Sa Ma[jes]te <lb/>repassez dans lad[ite] Cha1ouppe. </p>
+                <p>8me <lb/>Seront les armateurs des Vaisseaux de Sa Ma[jes]té <lb/>conformement à
+                    ses ordonnances, obligez avant leur partement, <lb/>de donner caution solvable
+                    par devant les Juges des Admiraut[e]z <lb/>de la somme de dix mil livres pour
+                    répondre des <lb/>malversations qui se pourroient commettre en leurs
+                    <lb/>courses et contraventions aux choses cy dessus convenuës. </p>
+                <p>
+                    <lb/>9me <lb/>Que les Villes Hanseatiques avec leurs Citoyens, <lb/>habitans et
+                    païs, jouiront quant au faict de la navigation <lb/>et traffic par Mer et par
+                    terre, de tous et mesmes droicts, <lb/>
+                </p>
+                <pb facs="#FacsPnr6"/>
+                <p>franchises, Immunitez &amp; privileges, lesquels sont ou seront <lb/>accordez aux
+                    estats des provinces Unies des païs bas &amp; autres <lb/>nations qui sont en
+                    amitié, paix et correspondance avec la france. <lb/>Ensorte neanmoins qu'il ne
+                    soit desrogé en aucune façon aux <lb/>accordz traittez et privileges octroyez
+                    par les Roys de france <lb/>predecesseurs de sa Ma[jes]te lesquels demeureront
+                    en leur force <lb/>et vertu et que sa Ma[jes]te entant que besoing seroit,
+                    renouvellee <lb/>et ratiffie. </p>
+                <p>
+                    <lb/>10. <lb/>Et à cet effect, Sa Ma[jes]te entend que tous <lb/>les autres
+                    traittez d'amitie, d'alliance et de Confederation, faits <lb/>entre les Roys
+                    predecesseurs de Sad[ite] Ma[jes]te, avec lesd[ites] Villes <lb/>hanseatiques et
+                    mesme tous les privileges et advantages à <lb/>eux accordez nottamment par les
+                    Roys Louis XI.&nbsp; 1464 et <lb/>1483, de Charles 8e.&nbsp; de l'an 1489, de
+                    François premier , de <lb/>l'an 1536, de Henry 2e.&nbsp; de l'an 1552 et de
+                    Henry 4e.&nbsp; de l'an <lb/>1604 quoy qu'ils ne soient point icy speciffiez,
+                    demeurent <lb/>rattiffiez et confirmez par le p[rese]nt Traitté, comme si de mot
+                    à <lb/>mot ils y estoient inserez pour en jouir par eux comme <lb/>pareillement
+                    jouiront les sujets du Roy dans les Villes <lb/>hanseatiques, des mesmes
+                    privileges et seront traittez aussy <lb/>favorablement que les sujets des autres
+                    Roys, princes et <lb/>estats avec la mesme liberté et franchise, qui ont esté
+                    accordees <lb/>cy-devant. </p>
+                <p>11. <lb/>Qu'aprez les Rattiffications faittes du p[rese]nt Traitté <lb/>de part
+                    et d'autre, il sera enregistré dans les parlements de <lb/>Sa Ma[jes]té et
+                    publié dans tous les ports, havres &amp; villes <lb/>ou il sera besoing, à ce
+                    qu'il n'y soit Contrevenu, et qu'aux <lb/>coppies foy sera adjoustée comme aux
+                    originaux. <lb/>
+                </p>
+                <pb facs="#FacsPnr7"/>
+                <p>12me. <lb/>Que si en attendant l'exchange des ratiffications du p[rese]nt Traitté
+                    <lb/>lesquelles seront fournies dans deux mois, il arrivoit qu'aucun des
+                    <lb/>Vaisseaux appartenans aux habitans desd[ites] Villes Hanseatiques <lb/>fust
+                    pris par les armateurs de ce Royaume, la prise <lb/>sera jugée conformement au
+                    p[rese]nt Traitté. </p>
+                <p>
+                    <lb/>
+                </p>
+                <pb facs="#FacsPnr8"/>
+                <pb facs="#FacsPnr9"/>
+                <pb facs="#FacsPnr10"/>
+                <pb facs="#FacsPnr11"/>
+                <p>En temoing de quoy nous Commissaires susd[its] et <lb/>ambassadeurs depputez en
+                    vertu de nos pouvoirs <lb/>respectifz avons signé ces p[rese]ntes de nos Seings
+                    ordinaires <lb/>et y avons faitt apposer le Cachet de nos armes. <lb/>Faict à
+                    Paris le dix[ièm]e jour de May 1655 </p>
+                <p>De Lomenie &nbsp;D'Aligre&nbsp;Bignon <lb/>D. Penshorn&nbsp;Th. Moller <lb/>
+                </p>
+                <pb facs="#FacsPnr12"/>
+                <p>Declaration des Amb[assadeu]rs Deputes des Villes <lb/>Hanseatiques signée a
+                    Paris avec le M.es du <lb/>10. May 1655 </p>
+                <p>Nous David Penshorn et Theodore Moller, Senateurs de la ville <lb/>de Hambourg et
+                    Ambassadeurs Deputez en cette cour des villes et <lb/>Citez de la Hanse
+                    Teutonique dits Osterlins, declarons qu'encore <lb/>que par le traitté que nous
+                    avons aujourd'huy signé en nom <lb/>desd[i]ts villes Hanseatiques en vertu du
+                    pouvoir, que nous en avons <lb/>d'elles, qui est inseré dans led[i]t traitté,
+                    avec Messieurs le Comte <lb/>de Brienne, Commandeur des Ordres du Roy,
+                    Cons[eill]er ord[inai]re en ses <lb/>Conseils, et en sa cour de Parlement de
+                    Paris, premier Secret[aire] <lb/>d'Estat et de ses Commandements. D'Aligre aussy
+                    Cons[eill]er de <lb/>sa Maj[est]é en ses d[i]ts Cons[e]ils en sa d[i]te Cour de
+                    Parlement et directeur <lb/>de ses finances, et Bignon aussy Cons[eill]er e[n]
+                    s[es] d[i]ts Con[se]ils , et son Advo- <lb/>cat general en sad[i]te Cour de
+                    Parlement Comm[isai]res de sa Maj[es]té fon- <lb/>dez le pouvoir special a
+                    l'effect dud[i]t Traitté par ses lettres <lb/>patentes, aussy inserées a la fin
+                    dud[i]t Traitté, il soit expresse- <lb/>ment porte, qu'il sera permis aux
+                    habitans desd[its] Villes de <lb/>traffiquer avec les Ennemis de cet Estat de
+                    toutes sortes de <lb/>marchandises, à l'exception de celles de contrebande
+                    denommées <lb/>au second article dud[i]t Traitté, et qu'a cet effect ils seront
+                    <lb/>dispenser de la rigeur des ordonnances de Roys français <lb/>premier de
+                    l'année 1554 et Henry 3.e 1584 par lesquelles <lb/>la robbe de l'Ennemy
+                    confisque celle de l'amy pendant quinze <lb/>années consecutives, à commencer du
+                    jour et datte dud[i]t traitté <lb/>Nous n'avons pas entendu et n'entendons pas,
+                    que parmy les mar- <lb/>chandises don't il est accordé, que le commerce sera
+                    permis aux <lb/>Habitans desd[i]ts Villes Hanseatiques l'argent appartenant
+                    <lb/>immediatement au Roy d'Espagne, ou aux autres Princes et <lb/>Estats, avec
+                    lequel le Roy est presentement ou sera cy apres <lb/>en guerre ouverte, y soit
+                    compris, et pour en donner une <lb/>plus <lb/>
+                </p>
+                <pb facs="#FacsPnr13"/>
+                <p>plus particuliere asseurance, Promettons en vertu de nostred[i]t pou- <lb/>voir
+                    au nom desd[i]ts Villes Hanseatiques, que leurs Sujets mar- <lb/>chands
+                    traffiquans ne se chargeront point de l'argent desd[i]ts en- <lb/>nemis, pour le
+                    transporter de lieu à autre soubs quelque pretexte <lb/>que ce soit, et
+                    consentons aud[i]t nom, que si se s'en trouvait dans <lb/>les vaisseaux
+                    desd[i]ts sujets des villes Hanseatiques, il soit confis, <lb/>que, et qu'il
+                    soit derrogé pour ce regard à la grace qui leur <lb/>a esté accordé, que leurs
+                    vaisseaux seront libres, et vendront <lb/>leur marchandise libre, sans
+                    toutesfois; que les autres marchan- <lb/>dises, qui seront chargées dans les
+                    vaisseaux, on sera trouvé <lb/>led[i]t Argent puissent estre confisquées, non
+                    plus que le Corps <lb/>de Vaisseaux. Promettons aussy, qu'en rapportant la
+                    <lb/>ratification dud[i]t Traitté, nous ferons aussy fournir celle de <lb/>la
+                    presente declaration, laquelle et tout le contenu en icelle <lb/>aurà pareille
+                    force et vertu, comme si le tout estoit inseré <lb/>dans le susd[i]t
+                    traitté.&nbsp;&nbsp;En tesmoing dequoy nous <lb/>y avons mis nos seings et le
+                    Cachet de nos armes. <lb/>Fait à Paris le dix[ie]me jour de May 1655 </p>
+                <p>D. Penshorn &nbsp;&nbsp;Th. Moller <lb/>
+                </p>
+            </div>
+        </body>
+    </text>
+</tei:TEI>

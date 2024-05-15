@@ -1,0 +1,554 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE tei SYSTEM "../resources/FriVer_DTD.dtd">
+
+<?xml-model href="../XML%20schema%20FriVer/FriVer.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns="http://www.tei-c.org/ns/1.0"
+    xml:id="pa000299-0174">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title level="s">European peace treaties of the pre-modern era in data / Europäische
+                    Friedensverträge der Vormoderne in Daten (FriVer+)</title>
+                <title when="1732-10-06" xml:id="t174" when-custom="1732 X 6" level="a"
+                    ref="https://www.ieg-friedensvertraege.de/treaty/t-174-1-de.html"
+                    >Friedensdeklaration von Warschau</title>
+            </titleStmt>
+            <editionStmt>
+                <edition> Digital edition according to <ref target="http://www.tei-c.org/">TEI
+                        P5</ref>
+                </edition>
+                <funder>
+                    <ref target="https://www.text-plus.org/">TEXT+</ref>
+                </funder>
+                <editor role="http://id.loc.gov/vocabulary/relators/edt"
+                    ref="https://orcid.org/0000-0002-8741-5916">
+                    <persName>Jaap Geraerts</persName>
+                    <note>The transformation and enrichment of the data is done by Jaap Geraerts
+                        (IEG Mainz). The other members of the FriVer+ team are Fabian Cremer, Ines
+                        Grund, and Thorsten Wübbena (all IEG Mainz).</note>
+                    <note> The original data has been created by the <ref
+                            target="https://www.ieg-friedensvertraege.de">team of scholars</ref> who
+                        were part of the Europäische Friedensverträge der Vormoderne project. This
+                        project was lead by Prof. Dr. Heinz Duchhardt and was based at the Leibniz
+                        Institute of European History in Mainz. </note>
+                </editor>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>
+                    <orgName ref="http://www.isni.org/0000000119314040">Leibniz-Institut für
+                        Europäische Geschichte Mainz</orgName>
+                </publisher>
+                <distributor>
+                    <orgName ref="http://www.isni.org/0000000110101946">Universitäts- und
+                        Landesbibliothek Darmstadt</orgName>
+                </distributor>
+                <idno type="ISIL">http://lobid.org/organisation/DE-17</idno>
+                <date type="issued" when="2023-12-23"/>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">
+                        <p xml:lang="en">This file is licensed under the terms of the Creative
+                            Commons License CC-BY 4.0 (Attribution 4.0 International)</p>
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <repository xml:id="r30">Warschau AGAD</repository>
+                <msDesc>
+                    <p>Transkriptionsgrundlage: AGAD Warschau, AKW dz. Szwedzki 11b/223 (Tractatus
+                        pacis et amicitiae inter Augustum regem Poloniae et Fridericum regem Sueciae
+                        a 1732 6. o[cto].bris per plenipotentiarios utriusque regni Varsaviae
+                        initus).<lb/> SHSA Dresden: kein Nachweis.<lb/> Schwedisches Reichsarchiv
+                        Stockholm: Polen, N:o 10, 1732: Konung August II:s deklaration angående
+                        fredens återställande. Dat. Warszawa 7 Okt. 1732 (Latin).<lb/>
+                        <lb/> Weitere Stücke:<lb/>
+                        <lb/> AGAD Warschau, AKW dz. Szwedzki 11b/221: 1732 II 16 (Regis Sveciae qua
+                        mendiante corobantur pax et amicitia inter regna Poloniae et Sveciae).</p>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p> The data in this XML file, originally created by the project <ref
+                        target="https://www.ieg-friedensvertraege.de/vertraege">Europäische
+                        Friedensverträge der Vormoderne online</ref> has been transformed in
+                    accordance with <ref target="http://www.tei-c.org/">TEI P5</ref> as part of the
+                    project <ref
+                        target="https://www.ieg-mainz.de/en/research/research-projects/european-peace-treaties-of-the-pre-modern-era-in-data"
+                        >Europäische Friedensverträge der Vormoderne in Daten (FriVer+)</ref>
+                </p>
+            </projectDesc>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="la" xml:id="lan6">Latein</language>
+            </langUsage>
+        </profileDesc>
+    </teiHeader>
+    <standOff>
+        <listPerson>
+            <person role="signatory" xml:id="p92">
+                <persName ref="https://www.wikidata.org/wiki/Q824047">
+                    <name>Sachsen / Polen</name>
+                </persName>
+            </person>
+            <person role="signatory" xml:id="p99">
+                <persName ref="https://explore.gnd.network/gnd/4077258-5">
+                    <name>Schweden</name>
+                </persName>
+            </person>
+            <person xml:id="pp0181">
+                <persName ref="https://explore.gnd.network/gnd/118505084">
+                    <name>August II. (Polen)</name>
+                </persName>
+            </person>
+            <person xml:id="pp0267">
+                <persName ref="https://www.wikidata.org/wiki/Q6254254">
+                    <name>Gustaf Zülich</name>
+                </persName>
+            </person>
+            <person xml:id="pp0268">
+                <persName ref="https://explore.gnd.network/gnd/118535803">
+                    <name>Friedrich I. (Schweden)</name>
+                </persName>
+            </person>
+            <person xml:id="pp0269">
+                <persName ref="https://explore.gnd.network/gnd/142850063">
+                    <name>Teodor Andrzej Potocki</name>
+                </persName>
+            </person>
+            <person xml:id="pp0270">
+                <persName>
+                    <name>Jan Skarbek</name>
+                </persName>
+            </person>
+            <person xml:id="pp0271">
+                <persName>
+                    <name>Stanisùaw Józef Hozjusz</name>
+                </persName>
+            </person>
+            <person xml:id="pp0272">
+                <persName ref="https://www.wikidata.org/wiki/Q3917222">
+                    <name>Bogusław Korwin Gosiewski </name>
+                </persName>
+            </person>
+            <person xml:id="pp0273">
+                <persName>
+                    <name>Kazimierz Ogiñski</name>
+                </persName>
+            </person>
+            <person xml:id="pp0274">
+                <persName ref="https://explore.gnd.network/gnd/1017248508">
+                    <name>Jan Sapieha</name>
+                </persName>
+            </person>
+            <person xml:id="pp0275">
+                <persName ref="https://viaf.org/viaf/163927264/">
+                    <name>Stefan Humiecki</name>
+                </persName>
+            </person>
+            <person xml:id="pp0276">
+                <persName ref="https://explore.gnd.network/gnd/1019104759">
+                    <name>Jan Tarlo</name>
+                </persName>
+            </person>
+            <person xml:id="pp0277">
+                <persName ref="https://explore.gnd.network/gnd/141224967">
+                    <name>Stanisław Poniatowski</name>
+                </persName>
+            </person>
+            <person xml:id="pp0278">
+                <persName>
+                    <name>Piotr Jerzy Przebendowski</name>
+                </persName>
+            </person>
+            <person xml:id="pp0279">
+                <persName>
+                    <name>Piotr Jan Czapski</name>
+                </persName>
+            </person>
+            <person xml:id="pp0280">
+                <persName>
+                    <name>Josephus Franciscus Sołtyk</name>
+                </persName>
+            </person>
+            <person xml:id="pp0281">
+                <persName ref="https://explore.gnd.network/gnd/119176076">
+                    <name>Jan Klemens Branicki</name>
+                </persName>
+            </person>
+            <person xml:id="pp0282">
+                <persName>
+                    <name>Jan Wielopolski</name>
+                </persName>
+            </person>
+            <person xml:id="pp0283">
+                <persName>
+                    <name>Michaù Korybut Wiúniowiecki</name>
+                </persName>
+            </person>
+            <person xml:id="pp0284">
+                <persName ref="https://explore.gnd.network/gnd/1147243794">
+                    <name>Jan Lipski</name>
+                </persName>
+            </person>
+            <person xml:id="pp0285">
+                <persName ref="https://explore.gnd.network/gnd/1020579625">
+                    <name>Michaù Czartoryski</name>
+                </persName>
+            </person>
+        </listPerson>
+        <listPlace>
+            <place xml:id="loc42">
+                <placeName ref="https://explore.gnd.network/gnd/4079048-4">Warschau</placeName>
+            </place>
+        </listPlace>
+    </standOff>
+    <text>
+        <front>
+            <div type="Drucke">
+                <p>[Kollationierungsvorlagen:] CTS 34, S. 15-22*. Sverges Traktater VIII:1, S.
+                    162-166. <lb/>[Weitere Drucke:] Dumont supl. 3/2/2, S. 415-416 (frz; Erklärung
+                    Augusts II.). MHI 93, S. 568. </p>
+            </div>
+            <div type="Inhalt">
+                <p>[Erklärung der Kommissare]: Verhandlungen zwischen polnischen Kommissaren und dem
+                    schwedischen Delegierten Zülich seit September 1732 in Warschau mit dem Ziel der
+                    Wiederherstellung des Friedens. Verhandlungsbeschluß 1726 auf dem Reichstag zu
+                    Grodno.<lb/>[Erklärung Polens]: Nach dem Nordischem Krieg besteht der Wunsch
+                    nach Wiederherstellung Frieden und gute Nachbarschaft. Friedensinitiative der
+                    Ständeversammlung zu Grodno 1726. Kommission eingesetzt. Schweden manifestiert
+                    Friedenswillen durch Friedensbrief. Briefwechsel mit Charakter eines förmlichen
+                    Friedensvertrages. Beilegung der Unruhe im Norden. Generalamnestie. Schutz
+                    dieses Friedens, auch vor Übergriffen durch Dritte. Schutz des Bestandes und der
+                    Verfassung Polens und Schwedens. Charakter eines Friedensvertrages. <lb/>
+                    [Erklärung Schwedens]: Wiederherstellung der guten Nachbarschaft und Erneuerung
+                    des Friedens, ausgehend vom polnischen Reichstag zu Grodno 1726, nach dem
+                    Nordischen Krieg. Gegenseitige Amnestie. Respektierung der Freiheit und
+                    Verfassung des anderen. <lb/>[Bestätigung der polnischen Bevollmächtigten] </p>
+            </div>
+            <div type="Kommentar">
+                <p>An den Friedensschlüssen am Ende des Großen Nordischen Krieges war Sachsen-Polen,
+                    obwohl Kriegpartei, nicht beteiligt. Erst 1729 hatten die beiden Kriegsgegner in
+                    einer Deklaration, die - laut Vertrag - den Charakter eines förmlichen
+                    Friedensschlusses haben solle, den Friedenszustand bekräftigt. <lb/>1726 hatte
+                    der polnische Sejm zu Grodno beschlossen, in Friedensgespräche mit Schweden
+                    einzutreten und frühere Friedensabkommen - in erster Linie den Frieden von Oliva
+                    (1660 V 3) - zu bestätigen. Nach der ersten Friedensdeklaration 1729 begannen
+                    erneut Verhandlungen, in deren Verlauf Schweden im Februar 1730 und Polen im
+                    September 1732 Entwürfe vorlegten, die in diese beidseitige Deklaration
+                    mündeten.</p>
+            </div>
+            <div type="Kontext">
+                <p>1697 Der sächsische Kurfürst Friedrich August I. wird zum polnischen König
+                    gewählt (August II., der Starke).<lb/>1700 - 1721 Großer Nordischer Krieg.
+                    Sachsen-Polen kämpft auf Seiten der Gegner Schwedens. Im Inneren ist Polen
+                    zwischen August II. und seinem, von Schweden getragenen &quot;Gegenkönig&quot;
+                    Stanis?aw Leszczy?ski zerrissen.<lb/>18. November 1705 Friedensvertrag von
+                    Warschau zwischen Leszczy?ski und Schweden.<lb/>24. September 1706 Friede von
+                    Altranstädt zwischen Schweden und August II. Sachsen-Polen scheidet aus dem
+                    Krieg aus, und August II. muß auf die polnische Krone verzichten. Die Parteien
+                    der beiden &quot;Könige&quot; taktieren gegeneinander.<lb/>9. Juli 1709 Sieg
+                    Russlands über Schweden bei Poltawa. Die schwedischen Truppen räumen Polen.
+                    Leszczy?ski geht ins Exil. August II. kehrt nach Polen zurück und widerruft
+                    seinen Thronverzicht.<lb/>16. April 1710 August II. erhält die polnische Krone
+                    zurück.<lb/>3. Juli 1713 Friede von Adrianopel zwischen dem Russischen und dem
+                    Osmanischen Reich. Die Pforte gibt ihren Einfluß auf Südostpolen auf. Für Polen
+                    endet der Waffengang.<lb/>1719-1721 Friedensverträge beenden den Nordischen
+                    Krieg. <lb/>28. April/9. Mai 1729 Friedensdeklarationen Polens und Schwedens.
+                </p>
+            </div>
+
+        </front>
+        <body>
+            <div type="Edition">
+                <p>Nos commissarii s[acr]a r[egi]a. m[ajes]tas domini &lt;..&gt;<note n="1"
+                        type="crit_app">AGADWarschau: [..] unklare Abkürzung, möglicherweise
+                        NN.</note> clementissimi et reipublicae tam ex senatorio, quam equestri
+                    ordine constitutis, ne comitiorum generalium Grodna anno domini 1726<note n="2"
+                        type="crit_app">Im Sverges Traktater (S.167) findet sich eine Textpassage
+                        aus der Versammlung zu Grodno, in der die Absicht eines Friedensschlusses
+                        und Freundschaftsvertrages mit Schweden kundgetan wurde.</note> celebratorum
+                    ad tractandum cum ill[ustriss]imo <rs ref="#pp0267">d[omi]no Zulich</rs><note n="3" type="annotation"
+                        >Gustav Zülich (1661-1738), schwedischer Generalleutnant, Unterhändler für
+                        diese Verhandlungen.</note>, serenissimi et potentissimi regis ac regni
+                    Sveciae ablegato et ministro plenipotentiario designati, in termino iisdem
+                    conferentijs per serenissimam regiam m[ajesta]tem, dominum n[ostro]rum
+                    clem[entissi]mum praefixo, die videlicet prima mensis septembris anno currenti
+                    1732 Varsaviam convenimus, ac feliciter reasumpta negotiationes cum praefato
+                    ill[ustrissi]mo d[omi]no ministro plenipotentiario, mature deliberavimus, qua
+                    ratione antiqua amicitia, quae rempublicam inter ac serenissimos reges ac regnum
+                    Sveciae semper vigebat, restitui posset, tandem post prolixas ad utrinque
+                    disceptationes, omniumque circumstantiarum exactam discussionem, nullum
+                    efficacius medium, salutari fini huic consequendo adinvenire potuimus, quam ut
+                    literis s[acr].a r[egi].a m[ajes]tatis domini n[ost]ri clementi[issi]mi, verum
+                    desiderium restabilienda veteris amicitiae regiae m[ajesta]ti et regno Sveciae
+                    declaretur. Quibus deinde alte memorata regia m[ajes]tas Sveciae, pario erga
+                    regem et rempublicam affectus contestatione responsum est. Quemadmodum hujusmodi
+                    literarum conextum matura deliberatione praehibita ex re et utilitate publica
+                    concertavimus. Literarem autem a sacra regia m[ajesta]te d[omi]no n[ost]ro
+                    clement[issi]mo scribendarum series et talis<note n="4" type="crit_app">CTS:
+                        [Absatz fehlt]. In CTS ist der Text umgestellt, beginnend mit „Nos
+                        Fridericus“, danach „Nos Augustus“. Sverges Traktater [Absatz fehlt], auch
+                        hier beginnt der Abdruck mit der Deklaration Schwedens, gefolgt von
+                        Polen.</note>. <lb/><lb/>Nos <rs ref="#pp0181">Augustus secundus</rs><note n="5" type="crit_app"
+                        >Friedrich August I. (1670-1733), seit 1694 Kurfürst von Sachsen, seit 1697
+                        als August II. (der Starke) polnischer König.</note> etc<note n="6"
+                        type="crit_app">CTS, Sverges Traktater: Dei Gratia rex Poloniae, magnus dux
+                        Lithvaniae, Russiae, Prussiae, Masouiae, Samogitiae, Kyouiae, Volhyniae,
+                        Podoliae, Podlachiae, Livoniae Smolensciae, Severiae, Czerniechouiaeque, dux
+                        Saxoniae, Juliaci, Cliviae, Montium Angriae et Westphaliae, Sacri Romani
+                        Imperij archi-marchallus et elector, landgravius Thuringiae marchio Misniae,
+                        nec non Superioris ac Inferioris Lusatiae, burgravius Magdeburgensis, comes
+                        princeps Hennebergensis, comes Marcae, Ravensbergae et Barbi, dominus
+                        Ravensteinij etc. etc.</note>. notum testatumque facimus. Postquam sopita in
+                    septentrione belli disturbia, maturis pacis et concordiae consiliis locum
+                    praebuere. Nihil nobis ac regni nostri statibus antiquius in votis fuit, quam
+                        ne<note n="7" type="crit_app">Sverges Traktater, CTS: ut.</note>
+                        pristinae<note n="8" type="crit_app">Sverges Traktater, CTS:
+                        pristina.</note> cum vicinis n[ost]ris cointelligentia, firma pax ac sincera
+                    amicitia reinduci atque restarari possit. Hanc constantem propensionem ad
+                    renovandas quoque cum <rs ref="#pp0268">ser[enissimo] rege<note n="9" type="annotation">Friedrich
+                        I. (von Hessen-Kassel; 1720-1751), König von Schweden.</note> et regno
+                    Sveciae</rs> pacis tabulas et ipsi voto regio nutrivimus et status regni nostri in
+                    comitiis generalibus Grodnae a[nno]. 1726 per commisarios<note n="10"
+                        type="crit_app">Sverges Traktater, CTS: commissionem.</note> sancito publico
+                    designatam, palam demonstrarunt, qua mediante alteratam, ac temporis spatio
+                    interruptam pacem perpetuam amicitiamque mutuam Poloniam inter et Sveciam
+                    restabiliri et consolidari, omniumque offensionum memoriam deleri, et quosvis in
+                    futurum praetextus amoveri, desiderio tenebamur. Nunc pronas Deo pacis authori
+                    gratias referendo, pro ea, quam nutu potenti desuper inspiravit mente, cum non
+                    disparem, nec alienum a pacis studio, majestatis suae statuumque regni Sveciae
+                    animum, tum per amicas literas, tum per ministrum ejus ad hunc finem, debitis
+                    instructum mandatis cognoverimus, cumque expeditus<note n="11" type="crit_app"
+                        >Sverges Traktater, CTS: expeditis.</note> in hoc negotio inter commissarios
+                    reipublicae et praefatum ministrum conferentiis, ac rite omnibus, quae ad rem
+                    faciunt, tru&lt;ti&gt;[ti]natis, nihil nos ultra moretur, quo magis eadem pax
+                    firma et sincera, antiquioribus iam amicitiae et bonae vicinitatis fundamentis
+                    super structa et innixa, rursum coalescere, ac in mutuum regni utriusque
+                    emolumentum instaurari possit, eo libentius validiori ac mutuo ab utrinque nexu
+                    et concursu manum operi huic salutari admovendam censuimus, atque coalescenti
+                    jam sponte sua adinvicem utriusque gentis concordiae, curam conatumque ex parte
+                    n[ost]ra adferre voluimus, ut quae amicitiae iura per rerum et temporum injurias
+                    labefactata, aut alterata quoquo modo fuere, pristino vigori restitui, quaeve
+                    neglecta, ast illibata de<note n="12" type="crit_app">Sverges Traktater, CTS:
+                        ad.</note> hunc supersunt, firmiori vinculo solidari valeant. Ea propter et
+                    vera haec propensio nostra ad pacem, bonam viciniam, et amicitiam fidam firmam
+                    et sinceram, mutuo et in perpetuum stabiliendam atque colendam, ex justo et
+                    congruo orbi universo constet, atque manifesta sit. Literis hisce nostris ex
+                    fide invicem data et accepta, vim et vices solemnium pacis tabularum
+                        habituris<note n="13" type="crit_app">Sverges Traktater, CTS:
+                        hibituris.</note>, pro nobis et serenissimis in regno Poloniae et magno
+                    ducatu Lithuaniae<note n="14" type="crit_app">AGADWarschau: [von:] in [bis:]
+                        Lithuanae: Ergänzung am unteren Seitenrand.</note> successoribus nostris
+                    declaramus, recipimus et nos obstringimus, quod aeternae oblivioni traditis et
+                    per amnestiam generalem ac reciprocam annullatis et penitus abolitis iis
+                    omnibus, quaecumque<note n="15" type="crit_app">Sverges Traktater, CTS:
+                        quaecunqe.</note> ex occasione novissimorum septentrionis motuum contra
+                    anterioris pacis ac amicitiae tenorem intercessisse, quaeve in detrimentum
+                    utriusque gentis intervenisse, ac pristinae bonaeque vicinitatis necessitudines
+                    inter Poloniam et Sveciam olim intercendentes feliciterque cultas quoquomodo
+                    interturbasse ac<note n="16" type="crit_app">Sverges Traktater, CTS: et.</note>
+                    offendisse potuerunt. Pax eadem, dudum inter foederata regna Poloniae et Svecia
+                    stabilita, atque manutenta, ita ac si nullo unquam vel minimo novissimarum in
+                    septentrione turbarum dissidio mota, alterata, vel omnino tacta fuisset, iterum
+                    in posterum rediviva, vi declarationis istius amicae mutuae ulterius ac firmius
+                    adhuc corroborata inter nos regnumque Poloniae ac provincias eidem annexas, et
+                    earum status et incolas ab una, et m[ajesta]tem suam regnumque Sveciae ac
+                    provincias eidem annexas et earum status et incolas parte ab altera, qualis
+                    unquam antea et quam maxime viguit et floruit, talis et deinceps perpetuo et in
+                    aevum vigebit, florebit, manebit, aeternumque durabit, pax universalis, firma
+                    atque constans, cum vera sinceraque amicitia mutua, vigore cujus mutuique ab
+                    invicem assensus neutra pars, alteri quidquam quod paci anteriori perpetuae
+                    minus conveniens, nec dum<note n="17" type="crit_app">Sverges Traktater, CTS:
+                        nedum.</note> plane contrarium, vel adversum, clam aut<note n="18"
+                        type="crit_app">Sverges Traktater, CTS: vel.</note> palam, directe vel
+                    indirecte, vel ipsamet inferat, vel per alios inferri patiatur: ut potius quam
+                    primum alios tale quidquam moliri, vel in animo habere, ipsi constiterit, de
+                    imminenti ejusmodi molimine vel periculo mature admonebit, omnem simul adhibens
+                    operam, qua, quae alteri parti minari videntur mala, mature praeveniri et quidem
+                    in herba opprimi possint. Cavemus praeterea pro majori firmitudine et securitate
+                    perpetuae hujus pacis, quod libertates, constiutiones et jura utriusque regni
+                    fundamentalia salva, integra et inviolabilia pro semper permanere debeant. Ac
+                    demum declarationi huic nostrae vigore sancti comitiorum Grodensium anni 1726
+                    communi bono et assensu mutuo confectae, vim et robur solemnium omnio<note
+                        n="19" type="crit_app">Sverges Traktater, CTS: omnino.</note> pacis ac
+                    foederis tabularum per omnia tribuentes, atque addentes, tenore praesentium,
+                    eandem ut pote pari , reciproca majestatis suae et regni Sveciae declaratione
+                    rite commutandum, manu propria subscripsimus et sigillo regni n[ost]ri communiri
+                    fecimus Varsaviae die &lt;...&gt;<note n="20" type="crit_app">AGADWarschau:
+                        Leerstelle. Sverges Traktater, CTS: VII a.</note> mensis &lt;...&gt;<note
+                        n="21" type="crit_app">AGADWarschau: Leerstelle. Sverges Traktater, CTS:
+                        Octobris.</note> anno &lt;...&gt;<note n="22" type="crit_app">AGADWarschau:
+                        Leerstelle. Sverges Traktater, CTS: domini MDCCXXXII.o, Regni vero Nostri
+                        XXXVI.o anno. Augustus. Dumont: 7. Octobre 1732.</note><lb/><lb/>Porro regia
+                    majestas sveciae mutuo amicitiam s[acr]ae r[egi]ae M[ajesta]tis et reipublicae
+                    declarabit his verbis<note n="23" type="crit_app">Fehlt in CTS, Sverges
+                        Traktater.</note>.<lb/><lb/>Nos <rs ref="#pp0268">Fridericus</rs> etc<note n="24" type="crit_app"
+                        >Sverges Traktater, CTS: Dei gratia Svecorum, Gothorum, Vandalorumque rex
+                        etc. etc. etc. landgravius Hassiae, princeps Hirschfeldae, comes
+                        Catimeliboci, Dietzae, Ziegenhainae, Niddae et Schaumburgi etc. etc.</note>.
+                    Notum testatumque facimus, quum inde a susceptisi Imperii Sveo Gothici fascibus,
+                    id nobis imp[rimis] curae cordique fuerit, ut, quae huic regno cum vicinis suis
+                    antiquitus intercesserat, amicitia, qua parte tunc temporis interrupta esse
+                    potuit, pristinae integritatii<note n="25" type="crit_app">Sverges Traktater,
+                        CTS: intergritati.</note> restitui, qua parte vero adhuc illibata
+                    perstiterat, ut arctioribus adhuc vinculis constringi et corroborari posset, non
+                    potuimus, non insimul, ut singulare sumi numinis, ejusque Divinae providentiae
+                    beneficium venerari, quo<note n="26" type="crit_app">Sverges Traktater, CTS:
+                        quod.</note> quae per pacem anteriorem, Sveciam inter Poloniamque, solidis
+                    adeo fundamentis semper<note n="27" type="crit_app">Sverges Traktater, CTS:
+                        super.</note> instructa, tanto cum utriusque gentis emolumento culta fuit,
+                    amicitia mutua, ut ut per insecutas deinceps, nec ita pridem rursus compositas
+                    septentrionis turbas, quodam modo concusa<note n="28" type="crit_app">Sverges
+                        Traktater, CTS: concussa.</note> et mota, nihilominus adeo non in totum
+                    abrupta, ne dum penitus sublata fuerit, ut potius, quam primum motus illi
+                    aliquantulum conquieverint, utraque gens adhuc, suomet ipsius ingenio, in firmas
+                    pacis perpetuae leges, iam dudum coire coeperit ; huic itaque ut ut iam sponte
+                    sua coalescenti concordiae, ut in posterum tanto melius sit cautum
+                    prospectumque, quum adhuc regiae suae m[ajesta]ti et regno Poloniae, pro eximia,
+                    qua pollent, prudentia, in ipsis comitiis Grodna anno<note n="29"
+                        type="crit_app">Sverges Traktater, CTS: [Auslassung:] anno.</note> 1726
+                    habitis, visum sit, non abire<note n="30" type="crit_app">Sverges Traktater,
+                        CTS: abs re.</note> fore, si eadem ipsa pax perpetua renovaretur et
+                    confirmaretur, certosque adhuc insimul nominari curaverint commissarios, quibus
+                    cum nostro, in eundem hunc finem ablegato, plenisque mandatis, agendique
+                    facultate instructo ministro, super hocce tanti momenti negotio sermones
+                    sociandi, certaequi rationes ineundae forent; quique adeo, communicatis
+                    consiliis, riteque expensis et ponderatis, quae huc fanciunt, omnibus pro
+                    exoptato hocce scopo obtinendo, conducere omnino simul et sufficere
+                    existimarunt, si tantum modo declaratione quadam amica mutua commemorata iam
+                    saepius anterior pax perpetua renovata confirmataque fuerit. Ideo ne minor
+                    nostra regnique nostri, quam m[ajesta]tis suae regnique<note n="31"
+                        type="crit_app">Sverges Traktater, CTS: regni.</note> Poloniae, propensio
+                    animi ad pacem, vicinitatem et amicitiam fidam, firmam et sinceram, mutuo et in
+                        perpetuum<note n="32" type="crit_app">Sverges Traktater: perpetuo.</note>
+                    stabiliendam et colendam, universo orbi constet, et manifest<note n="33"
+                        type="crit_app">Sverges Traktater, CTS: manifesta.</note> fiat ; Literis his
+                    nostris ex fide invicem data acceptaque vim et vices solennium<note n="34"
+                        type="crit_app">Sverges Traktater, CTS: solemnium.</note> foederis tabularum
+                    subituris habiturisque, pro nobis successoribusque in regno Sveo-Gothico
+                    nostris, declaramus, recipimus et nos obstringimus, quod abolitis et annihilatis
+                    per amnestiam generalem et reciprocam, iis omnibus, ad quae, occasione
+                    novissimarum in septentrione turbarum, pristina illa iam dudum stabilita pax, et
+                    nullo non tempore feliciter adeo inter Sveciam et Poloniam culta amicitia, magis
+                    vel minus offendisse videri potuit, eadem illa anterior pax pristino vigori
+                    intergritatique adeo in totum reddita et restituta erit, ac si nulla vel
+                    tantilla, novissimorum septentrionis motuum contagione unquam correpta, mota vel
+                    omnino tacta fuisset. Vi<note n="35" type="crit_app">Sverges Traktater, CTS:
+                        ut.</note> itaque declarationis hujus amicae mutuae, ulterius adhuc
+                        corroborata<note n="36" type="crit_app">Sverges Traktater, CTS: [Einschub:]
+                        inter.</note> nos regnumque Sveciae, ejusque status, cives, incolas et
+                    subditos ab una, et m[ajesta]em suam regiam regnumque Poloniae, ejusdem status,
+                    cives, incolas et subditos ab altera parte, qualis unquam antea, et quam maxime
+                    floruit, talis etiam in posterum, ac in perpetuum manebit, aeternumque durabit.
+                    Pax universalis, firma ac constans, cum vera sinceraque amicitia mutua; vigore
+                    cujus alterutra pars adeo nihil quidquam paci perpetuae anteriori minus
+                    conveniens, ne dum plane contrarium vel adversum, clam vel palam, directe vel
+                    indirecte, vel ipsa<note n="37" type="crit_app">Sverges Traktater, CTS:
+                        ipsamet.</note> inferat, vel per alios inferri patiatur, ut potius quam
+                    primum alios tale quidquam moliri, vel in animo habere, ipsi constiterit, de
+                    imminenti hujusmodi molimine vel periculo, mature admonebit, omnem insimul
+                    adhibens operam, qua quae alteri parti minari videntur mala mature praeveniri et
+                    quidem in herba opprimi possint. Praeterea pro majori firmitudine et securitate
+                    perpetuae hujus pacis, cavemus, quod libertates, constitutiones et iura
+                    utriusque regni fundamentalia salva semper, integra et inviolabilia permanere
+                    debeant. Et sicuti declarationi huic n[ost]rae, pro desideriis m&lt;...&gt;<note
+                        n="38" type="crit_app">AGADWarschau: undeutlich. Sverges Traktater, CTS:
+                        Maj.tis.</note> suae regnique Poloniae<note n="39" type="crit_app"
+                        >AGADWarschau: + [d.h. Einfügungszeichen]. Einfügungstext am unteren
+                        Seitenrand.</note> in ipsis comitiis anno 1726 Grodnae habitis, nobis
+                        amicae<note n="40" type="crit_app">Sverges Traktater, CTS: amice.</note>
+                    declaratis, vim et robur solennium<note n="41" type="crit_app">Sverges
+                        Traktater, CTS: solemnium.</note> omnino pacis ac foederis tabularum per
+                    omnia iam tributum et additum volumus, ita etiam eandem, ut pote pari
+                    m[ajesta]tis suae regnique Poloniae<note n="42" type="crit_app">AGADWarschau:
+                        [Ende des Einschubs:] Poloniae.</note> declaratione rite commutandam, manu
+                    propria subscripsimus et sigillo nostro regio communiri fecimus, quod factum
+                        etc<note n="43" type="crit_app">Sverges Traktater, CTS: Holmiae die 26/7
+                        mensis sept./Octob. Anni 1732.</note>.<lb/><lb/>His<note n="44"
+                        type="crit_app">CTS, Sverges Traktater: Fehlt ab hier bis Textende.</note>
+                    itaque pro innovanda veteri inter utraquamque gentem amicitia firmanda perpetua
+                    pace ac bona vicinitate inposterum restituenda, conservatis et adinventis sacram
+                    regiam majestatem d[omi]num n[ost]rum cle[mentissi]mum cum omni subjectionis
+                    humillimo cultu exoramus, dignetur juxta praeconceptam formulam literas ad
+                    regiam majestatem Sveciae haud gravatim expediri demandare, utque ab eadem regia
+                    majetate Sveciae itidem his praescripto verborum contextu, literae veniant, pro
+                    paterno erga rempublicam affectu regiae authoritate efficere. Cujus tandum
+                    negotiationis nostrae ratificationem s[acr]ae r[egi]ae m[ajesta].tati ac omnibus
+                    republicae ordinibus in generalibus proxime celebrandis comitiis faciendam
+                    reservamus. Varsaviae die sexta mensis octobris anno domini
+                    1732.<lb/><lb/><rs ref="#pp0269">Theodorus Potocki</rs><note n="45" type="crit_app">Teodor Potocki
+                        (1664-1738), Primas.</note> ar[chiepisco]pus Gnes[nensis], primas regni et
+                    M.D. Litvaniae.<lb/><rs ref="#pp0270">Joannes Skarbek</rs><note n="45" type="annotation">Jan Skarbek
+                        (1661-1733), Erzbischof von Lemberg.</note>, archie[piscopus] Leopoloensis
+                    mppa<lb/><rs ref="#pp0271">Stanislaus Hosius</rs><note n="46" type="crit_app">Stanisùaw Józef Hozjusz
+                        (1674-1738), Bischof von Kamieniec.</note>, episcopus C&lt;...&gt;<note
+                        n="47" type="crit_app">Unklare Lesart; wohl:
+                            Camenensis.</note><lb/><rs ref="#pp0272">Boguslaus
+                                Corvin&lt;us.&gt;[us.] Gosiewski</rs><note n="48"
+                        type="annotation">Bogusùaw Korwin Gosiewski (1660-1744), Bischof von
+                        Smolensk.</note>, episcopus Smolenscensis mppa<lb/>&lt;...&gt;<note n="49"
+                        type="crit_app">Unterschrift nicht leserlich:
+                            "...moniecky".</note><lb/><rs ref="#pp0273">Casimiro Oginski</rs><note n="50" type="annotation"
+                        >Kazimierz Ogiñski (gest. 1733), aus dem Adelsgeschlecht aus Sùomin
+                        stammend, Wojewode, seit 1726 Mitglied der Kommission zur Verständigung mit
+                        Schweden.</note>, palatinus Vilensis<lb/><rs ref="#pp0274">Joannes Comes
+                            Sapieha</rs><note n="51"
+                        type="annotation">Jan Sapieha (1680-1751), Kanzler von Litauen.</note>,
+                    castellanus I&lt;...&gt;<note n="52" type="crit_app">Unklare Lesart,
+                        möglicherweise Imenstet.</note><lb/><rs ref="#pp0275">Stephany Humiecki</rs><note n="52"
+                        type="annotation">Stefan Humiecki (gest. 1736), Wojewode von
+                            Podolien.</note>, palatinus Podoliae<lb/><rs ref="#pp0276">Joannes
+                                Tarło</rs><note n="53"
+                        type="annotation">Jan Tarùo (1684-1750), Wojewode von Lublin.</note>,
+                    palatinus Lublinensis, generalis terrarum Podoliae<lb/><rs ref="#pp0277">Stanislau Ciołek
+                        Poniatowski</rs><note n="54" type="annotation">Stanisùaw Cioùek Poniatowski
+                        (1676-1762), Wojewode von Masowien.</note>, palatinus Mazoviae,
+                    g[e]n[er]alis exercitus regni Poloniae regimenta&lt;rius&gt;[rius]<lb/><rs
+                        ref="#pp0278">Petrus
+                    Georgius Przebendowski</rs><note n="55" type="annotation">Piotr Jerzy Przebendowski
+                        (ca. 1674-1755), Wojewode von Marienburg.</note>, palatinus Mariaeburgensis
+                    mp<lb/><rs ref="#pp0279">Petrus Joannes Czapski</rs><note n="56" type="annotation">Piotr Jan Czapski
+                        [nicht ermittelt].</note>, palatinus P&lt;omeraniae&gt;
+                    &lt;[omeraniae]mp&gt;<lb/><rs ref="#pp0280">Josephus Franciscus Sołtyk</rs>, castellanus
+                        Lublinensis<lb/>&lt;...&gt;<note n="57" type="crit_app">Unterschrift
+                            unleserlich: …ius de ... [Czarniski] ... Regni ....</note><lb/><rs
+                                ref="#pp0281">Joannes
+                        Branicki</rs><note n="58" type="annotation">Jan Klemens Branicki (1689-1771),
+                            Hetman.</note>, vex[illifero]. regni<lb/><rs ref="#pp0282">Joannes
+                                Wielopolski</rs><note n="59"
+                        type="annotation">Jan Wielopolski [nicht ermittelt].</note>, cap.ne
+                        Lanckoron.<lb/>Hampenhauzen<note n="60" type="annotation">Hampenzhausen
+                        [nicht ermittelt].</note>, succamerarius Pernawiensis, general. maj. S.R.M
+                    et M.D.L.<lb/>Antonius &lt;...&gt;<note n="61" type="crit_app">Zuname
+                        unleserlich.</note>, capitanues &lt;...&gt;monienensis, consiliarius et
+                    magno ducatu Lithuaniae<lb/>Josephus de &lt;...&gt;<note n="62" type="crit_app"
+                        >Jo´zef "Mkorczyce".</note>, minster supremus regni maresch.<lb/><rs
+                            ref="#pp0283">Michael
+                    Korybuth princeps Wisniowiecki</rs><note n="63" type="annotation">Michaù Korybut
+                        Wiúniowiecki [nicht ermittelt].</note>, sup. M.D.L. can. et exe.
+                    regimentarii<lb/><rs ref="#pp0284">Joannes Lipski</rs><note n="64" type="annotation">Jan Lipski
+                        (1690-1746), Vizekanzler, Kardinal, Bischof von Krakau.</note>, episcopus,
+                    pro-cancell[arius]. regni<lb/><rs ref="#pp0285">Michael princeps Czartoryski</rs><note n="65"
+                        type="annotation">Michaù Czartoryski (1696-1775), litauischer
+                        Kanzler.</note>, procancellarius MDL<lb/> &lt;...&gt;<note n="66"
+                        type="crit_app">Unterschrift unleserlich: [Joanes] de [.Tyczyn] [..lius] [et
+                        ] [dux] [...].</note><lb/>Joannes &lt;...&gt; &lt;... ..&gt;<note n="67"
+                        type="crit_app">Zuname unleserlich: [...chyb] [...rarius].</note> supremus
+                    M.D. Litvaniae.<lb/>T. Bzelinski<note n="68" type="annotation">Bzelinksi [nicht
+                        ermittelt].</note>, mareschalcus curiae regni<lb/>Paulus dux
+                        &lt;...&gt;<note n="69" type="crit_app">Zuname unleserlich: [Sange...o],
+                        möglicherweise: Paweù Sanguszko (1680-1750), Marschall,
+                        Schatzmeister.</note>, marschalcus MDL </p>
+            </div>
+
+        </body>
+        <back>
+            <listBibl>
+                <bibl>Seitz / Rosengren, Sveriges freder och fördrag, S. 89f. <lb/></bibl>
+            </listBibl>
+        </back>
+    </text>
+</tei:TEI>

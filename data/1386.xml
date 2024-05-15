@@ -1,0 +1,510 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE tei SYSTEM "../resources/FriVer_DTD.dtd">
+
+<?xml-model href="../resources/FriVer.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns="http://www.tei-c.org/ns/1.0" xml:id="pa000299-1386">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title level="s">European peace treaties of the pre-modern era in data / Europäische Friedensverträge der Vormoderne in Daten (FriVer+)</title>
+                <title when="1709-10-22" xml:id="t1386" when-custom="1709 X 11_22" level="a" ref="https://www.ieg-friedensvertraege.de/treaty/t-1386-1-de.html">Angriffs- und Schutzbündnis von Kopenhagen</title>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    Digital edition according to
+                    <ref target="http://www.tei-c.org/">TEI P5</ref>
+                </edition>
+                <funder>
+                    <ref target="https://www.text-plus.org/">TEXT+</ref>
+                </funder>
+                <editor role="http://id.loc.gov/vocabulary/relators/edt" ref="https://orcid.org/0000-0002-8741-5916">
+                    <persName>Jaap Geraerts</persName>
+                    <note>The transformation and enrichment of the data is done by Jaap Geraerts (IEG Mainz). The other members of the FriVer+ team are Fabian Cremer, Ines Grund, and Thorsten Wübbena (all IEG Mainz).</note>
+                    <note>
+                        The original data has been created by the
+                        <ref target="https://www.ieg-friedensvertraege.de">team of scholars</ref>
+                        who were part of the Europäische Friedensverträge der Vormoderne project. This project was lead by Prof. Dr. Heinz Duchhardt and was based at the Leibniz Institute of European History in Mainz.
+                    </note>
+                </editor>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>
+                    <orgName ref="http://www.isni.org/0000000119314040">Leibniz-Institut für Europäische Geschichte Mainz</orgName>
+                </publisher>
+                <distributor>
+                    <orgName ref="http://www.isni.org/0000000110101946">Universitäts- und Landesbibliothek Darmstadt</orgName>
+                </distributor>
+                <idno type="ISIL">http://lobid.org/organisation/DE-17</idno>
+                <date type="issued" when="2023-12-23"/>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">
+                        <p xml:lang="en">This file is licensed under the terms of the Creative Commons License CC-BY 4.0 (Attribution 4.0 International)</p>
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <repository xml:id="r19">Moskau RGADA
+                    <note>Moskau RGADA, Findbuch:<lb />
+                        <ref target="http://rgada.info/poisk/index2.php?str=53-opis_3">http://rgada.info/poisk/index2.php?str=53-opis_3</ref></note>
+                </repository>
+                <msDesc><p>RGADA, f, 53, op. 3, d. 16, 4-9ff (C, 6 Bl., d.), 4-9 ff (C, 6 Bl., rus.), d. 17, 1-5 ff (C mit 2 LS, 5 Bl., rus.), d. 18, 1-2r, 4-9 ff (R, O, Perg. mit 2 LS), 8 Bl.), frz.) op. 3 d. 17, 22-26r ff (R, C, 5 Bl., rus.). </p></msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>
+                    The data in this XML file, originally created by the project
+                    <ref target="https://www.ieg-friedensvertraege.de/vertraege">Europäische Friedensverträge der Vormoderne online</ref>
+                    has been transformed in accordance with
+                    <ref target="http://www.tei-c.org/">TEI P5</ref>
+                    as part of the project
+                    <ref target="https://www.ieg-mainz.de/en/research/research-projects/european-peace-treaties-of-the-pre-modern-era-in-data">Europäische Friedensverträge der Vormoderne in Daten (FriVer+)</ref>
+                </p>
+            </projectDesc>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="ru" xml:id="lan10">russisch</language>
+            </langUsage>
+        </profileDesc>
+    </teiHeader>
+    <standOff>
+        <listPerson>
+            <person role="signatory" xml:id="p32">
+                <persName ref="https://explore.gnd.network/gnd/4010877-6">
+                    <name>Dänemark</name>
+                </persName>
+            </person>
+            <person role="signatory" xml:id="p9">
+                <persName ref="https://explore.gnd.network/gnd/4076899-5">
+                    <name>Russland</name>
+                </persName>
+            </person>
+        </listPerson>
+        <listPlace>
+            <place xml:id="loc34">
+                <placeName ref="https://explore.gnd.network/gnd/4032399-7">Kopenhagen</placeName>
+            </place>
+        </listPlace>
+        <facsimile>
+            <surface xml:id="FacsPnr1">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_45cafb925c632"/>
+            </surface>
+            <surface xml:id="FacsPnr2">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_45cafb9e7c986"/>
+            </surface>
+            <surface xml:id="FacsPnr3">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_45cafbad3b247"/>
+            </surface>
+            <surface xml:id="FacsPnr4">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_45cafbbab4371"/>
+            </surface>
+            <surface xml:id="FacsPnr5">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_45cafbc653847"/>
+            </surface>
+            <surface xml:id="FacsPnr6">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_45cafbd0bcf84"/>
+            </surface>
+            <surface xml:id="FacsPnr7">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_45cafbdcbcf37"/>
+            </surface>
+            <surface xml:id="FacsPnr8">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_45cafbe749b34"/>
+            </surface>
+            <surface xml:id="FacsPnr9">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_45cafbf1df18f"/>
+            </surface>
+            <surface xml:id="FacsPnr10">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_45cafc01d260a"/>
+            </surface>
+            <surface xml:id="FacsPnr11">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_45cafc1124879"/>
+            </surface>
+        </facsimile>
+    </standOff>
+    <text>
+        <body>
+            <div type="Transliteration">
+                <pb facs="#FacsPnr1"/><p> Copia offensiv-Alliantz tractats mit 
+                    <lb />dem Könige von Dennemark Friederich den 
+                    <lb />4ten durch die Russische und Dänische 
+                    <lb />Minister im Jahre 1709. den 11. octobris 
+                    <lb />zu Copenhagen errichtet 
+                    <lb /> 
+                    <lb />Kund und zu wißen seye alle[n], welche[n] 
+                    <lb />daran gelegen, daß Ihre May[estäten] 
+                    <lb />der Czar aller Reussen und der König 
+                    <lb />von Dennemark und Norwegen, 
+                    <lb />reiflich weegende die schädliche umbstände 
+                    <lb />welche auß dem gehäßig[en]<note n="1" type="crit_app">gehäßigen: ge- über der Zeile eingefügt.</note>&nbsp; bösen und 
+                    <lb />gewaltsamen verfahren des Königs von 
+                    <lb />Schweden mit der zeit zum grösst[en] 
+                    <lb />præjuditz der eine[n] so wol alß der ander[n] 
+                    <lb />Puissance entstehen könnte, für nöthig er- 
+                    <lb />achtet, zur sicherheit Ihrer Reiche und umb 
+                    <lb />sich vor alle[m] überfall zu verwahren<note n="2" type="crit_app">verwahren: davor ein Wort gestrichen.</note>, 
+                    <lb />das band der freundschaftt und Alliance 
+                    <lb />welches zwische[n] Ihnen furschwebet, fester zu 
+                    <lb />verknüpfe[n], deswegen Ihre Czarische 
+                    <lb />May[estä]t dem fürst[en] Wasilev Lukiwitz[en] 
+                    <lb />Dolgorucky, herr[n] Von Belo ozerck, 
+                    <lb />Cammerherrn und I[hro] C[zaarischer] May[estä]t be- 
+                    <lb />vollmächtigt[en] gesandt[en] am Königl[ich] 
+                    <lb />Dennemarkisch[en] hofe befehl ertheilen- 
+                    <lb />de darüber in conferentz zu treten 
+                    <lb />mit den Ministern d[er] Königlich[en] May[estä]t 
+                    <lb />in Dennemark, neml[ich] mit dem 
+                    <lb />H[errn] Otto Grabe, herrn von ottholms 
+                    <lb />gard und otelholm, Ritter[n], ge- 
+                    <lb />heimen rath des Reichs Justitz colle- 
+                    <lb />gii, Gouverneurn von Seeland, und 
+                    <lb />ober ambtmanne[n] des Districts 
+                    <lb />von Rotschild, Vordenburg und 
+                    <lb />Trigeveld; mit dem H[err]n Chris- 
+                    <lb />tian von Lente, H[err]n in Carlhaus[en] 
+                </p> 
+                <pb facs="#FacsPnr2"/><p> Ritter[n], Ihro Königl[icher] May[estä]t zu Den- 
+                    <lb />nemark geheimen rath, ersten 
+                    <lb />Reichs Kriegs rath, groß Cere- 
+                    <lb />monien Meister[n] und General- 
+                    <lb />Commissariats deputirten, 
+                    <lb />mit dem H[errn]n Detleff Wibe 
+                    <lb />herrn von Trenenfeld, Ritter[n] 
+                    <lb />I[hro] Königl[icher] May[estä]t zu Dennemark 
+                    <lb />geheimde[n] Rath und ober Secre- 
+                    <lb />tairn der Dänische[n] Cantzley 
+                    <lb />und mit dem H[errn]n Christian 
+                    <lb />Sehestädt, H[err]n von Milefgard 
+                    <lb />und von Ravenhold, Rittern 
+                    <lb />Ihro Königl[icher] May[estä]t zu Den- 
+                    <lb />nemark geheimen rath und 
+                    <lb />Reichs obersecretairn der Teut- 
+                    <lb />schen cantzley, hab[en] Sie Sich 
+                    <lb />endlich verglichen und fol- 
+                    <lb />gende articul verabredet. 
+                    <lb /> 
+                    <lb />&nbsp;&nbsp; &nbsp;1. 
+                    <lb />Ihre May[estäten] der Czar von alle[n 
+                    <lb />Reussen und der Konig von Den- 
+                    <lb />nemark und Norwegen verpflicht[en] 
+                    <lb />sich die alte Alliance und freund 
+                    <lb />schaftt zu erneuern, welche zu aller 
+                    <lb />zeit zwisch[en] dero Vorfahren Czare[n] 
+                    <lb />von Russland und Königen von 
+                    <lb />Dennemark gewese[n] ist, in sonder-<note n="3" type="crit_app">in sonder-: übergeschrieben in specie.</note>
+                    <lb />heit die im Jahre 1699 geschloßene 
+                    <lb />Alliance, so viel selbige sich auf 
+                    <lb />gegenwärtige umbstände schickt 
+                </p>
+                <pb facs="#FacsPnr3"/><p> in allen puncte[n] und clausuln in selbige[m] 
+                    <lb />tractate enthalten, nichts mehr wün- 
+                    <lb />schende, alß nur einer mit dem an- 
+                    <lb />der[n] solchergestalt sich zu vereinigen 
+                    <lb />daß nicht nur Ihre besondere freund- 
+                    <lb />schaftt unumbstößlich und beständig 
+                    <lb />seye, sondern auch Ihr[en] untertha- 
+                    <lb />nen daraus nur dauerhaftter 
+                    <lb />und reciproquer Vor- 
+                    <lb />theil entstehe, deswege[n] 
+                    <lb />diese Alliance und die so im jahre 
+                    <lb />1699. errichtet word[en] ewig treu und 
+                    <lb />unverbrüchlich zwischen<note n="4" type="crit_app">zwischen: davor 1 Wort gestrichen.</note> hoch- 
+                    <lb />gedachte Ihre May[estäten] und dero nach- 
+                    <lb />folger in aller Krafft und festigkeit 
+                    <lb />ohne einige veränderung gehalten werde[n] 
+                    <lb />solle. 
+                    <lb /> 
+                    <lb />&nbsp;&nbsp; &nbsp;2. 
+                    <lb />Umb ein Merckmahl dieser ver- 
+                    <lb />traulich[en] freundschaftt so hier bestä- 
+                    <lb />tiget worden, und wahrhaftte pro- 
+                    <lb />be beständiger gemeinsahmer 
+                    <lb />vereinigung zu geb[en], verpflicht[en] sich 
+                    <lb />Ihro Königl[iche] May[estä]t von Dennemark 
+                    <lb />mit dem Könige von Sweden zu brech[en] 
+                    <lb />und noch diesen herbst Ihn zu waßer 
+                    <lb />und lande in den Schwedischen gräntze[n] 
+                    <lb />anzugreiffen und also nach möglich- 
+                    <lb />keit mit einem theil Ihrer armee<note n="5" type="crit_app">theil Ihrer armee: über einem gestrichenen Wort zwischen den Zeilen nachgetragen.</note> in Scho. 
+                    <lb />nen aber mit dem&nbsp;<note n="6" type="crit_app">dem: zwischen den Zeilen
+                        eingefügt. [JG: connected note to word in the text myself, wasn't done in
+                        original translation.]</note> ander[n] in den Schwe- 
+                    <lb />dischen landen von Norwegen aus ein zu 
+                    <lb />fallen. gleicher gestalt engagire[n] 
+                    <lb />Sich Ihro Czarische May[estä]t /: außer 
+                    <lb />denen Kriegs operationen, welche 
+                    <lb />bereits wieder die Schwed[en] und 
+                    <lb />Ihre Anhänger angefang[en] worden, 
+                    <lb />und welche Sie so wol in liefland 
+                    <lb />&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; alß 
+                </p> 
+                <pb facs="#FacsPnr4"/><p> alß in Pohlen und allenthalbe[n] 
+                    <lb />wo es die gelegenheit des Krieges 
+                    <lb />erfordern wird, fortsetzen werde[n] :/ 
+                    <lb />in finlandt ein zu falle[n] so wol 
+                    <lb />umb Sich daselbst durch Eroberung 
+                    <lb />einiger bevestigt[er]<note n="7" type="crit_app">bevestigter: be- zwischen den Zeilen eingefügt.</note> StadtVeste zu setzen, 
+                    <lb />alß auch das land so viel mög- 
+                    <lb />lich zu verwüsten. 
+                    <lb />&nbsp;&nbsp; &nbsp;3. 
+                    <lb />Ihro May[estäten] wollen währender 
+                    <lb />dieser Kriegsläuftte wieder Schwe- 
+                    <lb />den keinerl[ey]Mediationen, firedens 
+                    <lb />vorschlägen, vermittlunge[n] oder an- 
+                    <lb />deren vorstellung[en] zur versöhnung, 
+                    <lb />welche einem unter Ihnen /: so wol 
+                    <lb />von Schweden Selbst alß von ander[n] 
+                    <lb />Puissancen :/ nöthig geschehen, 
+                    <lb />Gehör geben, noch mit ander[n] Puissan 
+                    <lb />c[en] in einig[en] vergleich oder Allian- 
+                    <lb />ce trete[n], und nicht nur einer 
+                    <lb />dem andern, sondern auch Ihro König[licher] 
+                    <lb />May[estä]t von Pohlen alles das com- 
+                    <lb />municir[en], was Ihnen hierinfals 
+                    <lb />vorgestellet ist oder wird vorge- 
+                    <lb />tragen werd[en], von weme es auch seye 
+                    <lb />mit treu und glaub[en] versprechende 
+                    <lb />keine[n] frieden zu mache[en], alß einstimmig 
+                    <lb />und mit Einwilligung ihrer bunds- 
+                    <lb />genossen, welche sich würckl[ich] im 
+                    <lb />Kriege wieder Schwed[en] mit 
+                    <lb />befunde[n] 
+                    <lb />&nbsp;&nbsp; &nbsp;4. 
+                    <lb />weil die haupt absicht Ihro May[estäten] 
+                    <lb />bey diesem Kriege ist, daß Sie 
+                    <lb />Ihre in besitz habende und von Ihr[en] 
+                    <lb />Alliiert[en] besessene Länder vor alle[m] 
+                    <lb />überfall in Sicherheit setze[n] und 
+                    <lb />bewahre[n] möge[n], verbünde[n] Sie Sich 
+                </p>
+                <pb facs="#FacsPnr5"/><p> von beyden Seiten alle mögliche 
+                    <lb />Macht anzuwenden, Schweden in Sei- 
+                    <lb />ne alte gräntze[n] ein zuschräncke[n], und 
+                    <lb />die waffen nicht ehender<note n="8" type="crit_app">ehender: zwischen den Zeilen eingefügt.</note> niederzulege[n], be- 
+                    <lb />vor Ihre May[estäten] un d Ihre Al- 
+                    <lb />liirte, welche sich würckl[ich] im Kriege 
+                    <lb />wieder Schweden mit befunde[n], von sel- 
+                    <lb />biger Crohne vollige Satisfaction 
+                    <lb />erhalte[en] habe[n]. 
+                    <lb />&nbsp;&nbsp; &nbsp;5. 
+                    <lb />wenn Ihre May[estäten] und dero 
+                    <lb />Alliirte solchergestalt wurde[n] zu 
+                    <lb />friede[n] gestellt und mit Schwede[n] 
+                    <lb />nach gemeinsahmer Einwilligung 
+                    <lb />friede gemachet seyn, wolle[n] Sie 
+                    <lb />einige Puissancen auserwehlen 
+                    <lb />welche die articul[n] auff welche man 
+                    <lb />Sich verglich[en] hab[en] wird, garan- 
+                    <lb />tirn könne[n]. 
+                    <lb />&nbsp;&nbsp; &nbsp;6. 
+                    <lb />Soll nicht nur eine feste und stetswehrende 
+                    <lb />gute Alliance<note n="9" type="crit_app">Alliance: davor einmal gute gestrichen. </note> zwisch[en] Ihre 
+                    <lb />May[estäten] unterhalt[en] werd[en], sonder[n] 
+                    <lb />es soll[en] auch Ihrer Ministri an alle[n] 
+                    <lb />Europæische[n] höfe[n] unter Sich alles 
+                    <lb />das treulich communicire[n], wel- 
+                    <lb />ches zum Nutze[n] und nachtheil der 
+                    <lb />eine[n] oder der ander[n] Puissance 
+                    <lb />gereich[en] kann, Sie sollen gemein- 
+                    <lb />sahm, vertraulich und aufrichtig 
+                    <lb />handeln, so wol in denen ihren Principal[en]<note n="10" type="crit_app">Principalen: zwischen den Zeilen eingefügt.</note>&nbsp; zu- 
+                    <lb />stehende[n] Vorrechte[n] und forderungen 
+                    <lb />alß<note n="11" type="crit_app">alß: davor oder gestrichen.</note> auch in ander[n] præcauti- 
+                    <lb />onen, worauß einige Thatlich- 
+                    <lb />keit entstehen könnte[n]. 
+                </p> 
+                <pb facs="#FacsPnr6"/><p> und solle[n] auch die vorerwehnte[n] 
+                    <lb />Ministri sich reciproquement 
+                    <lb />beystehe[n] und das interesse 
+                    <lb />der in dieser Allance<note n="12" type="crit_app">Allance: so!</note> begriffe- 
+                    <lb />nen Puissancen dergestalt be- 
+                    <lb />hertzige[n], alß ob es ihrer Prin- 
+                    <lb />cipalen Selbsteigenes wäre. 
+                    <lb /> 
+                    <lb />&nbsp;&nbsp; &nbsp;7. 
+                    <lb />gleichwie es sich auch begeben könnte, daß 
+                    <lb />ein oder andere Puissance auß 
+                    <lb />Jalousie oder andrer ursache[n] bewog[en] 
+                    <lb />das gute vernehmen zwisch[en] ihre 
+                    <lb />May[estäten] directè oder indirec- 
+                    <lb />tè zu verhinder[n] suchte und durch 
+                    <lb />Mittel der waffen oder sonsten 
+                    <lb />den darauß<note n="13" type="crit_app">darauß: davor guten Succes gestrichen.</note> zu hoffen- 
+                    <lb />de[n] gut[en] Erfolg zu verwehre[n] 
+                    <lb />und ins besonder Sich in den 
+                    <lb />gantze[n] Krieg mit einmischen, 
+                    <lb />So verbünden Sich Ihre May:téten 
+                    <lb />offentlich und so fort nach un 
+                    <lb />terschreibung dieses tractats zu 
+                    <lb />declarir[n], daß weil die inten 
+                    <lb />tion dieses Kriegs nicht ist<note n="14" type="crit_app">ist: nachgetragen über der Zeile statt: gewesen: gestrichen.</note>
+                    <lb />demjenige[n] einige verhinderung 
+                    <lb />zu verursach[en] welcher schon zwisch[en] 
+                    <lb />die hohe[n] Alliirt[en] und den beyd[en] 
+                    <lb />krohne[n] Franckreich und Spa- 
+                    <lb />nien angezündet gewesen 
+                    <lb />und daß gleichwie Ihro Königl[iche] 
+                    <lb />May[estä]t von Dennemark so 
+                    <lb />wol alß Ihre Alliirte im Krieg[e] 
+                    <lb />wieder Swede[n] Sich vorgenomme[n] 
+                    <lb />hab[en], Ihre troupe[n], welche Sie 
+                    <lb />&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; zum 
+                </p> 
+                <pb facs="#FacsPnr7"/><p>zum dienst der Alliirte[en] halten, [nicht]
+                <lb />zurückzuforder[n], sonder[n] Sie zu folge
+                <lb />gemacht[en] accords
+                <lb />zu laße[n]: So verhoffen Sie gleicher
+                <lb />weise, daß man Ihnen in diesem
+                <lb />wieder Schweden führende[n] Krie-
+                <lb />ge nicht zu wiederseyn werde, und
+                <lb />daß weder directe noch indirecte
+                <lb />einige Verwirrung oder hinde.
+                <lb />rung werde gemacht werde[n];
+                <lb />welche Vorstellung Ihre May[estäten]
+                <lb />Sich verpflichte[n] hier bey zu füg[en]
+                <lb />und zu declarirn, daß wo-
+                <lb />ferne wieder alles verhoffen
+                <lb />Sich einige Puissancen find[en]
+                <lb />sollt[en], welche Ihnen directe
+                <lb />oder indirectè hierinne[n] zu
+                <lb />wiederseyn würd[en], insonderheit
+                <lb />die sich in besagte[m] Kriege
+                <lb />durch Mittel der waffen oder
+                <lb />Thätlichkeit[en] einmisch[en] wolten,
+                <lb />Sie solches alß einen offen-
+                <lb />bahren friedensbruch auffnehmen
+                <lb />werden und mit Ihme alß mit
+                <lb />einem offenbahren feinde
+                <lb />Ihre May[estäten] nach aller
+                <lb />moglichkeit verfahren werd[en].
+                <lb />&nbsp;&nbsp; &nbsp;8.
+                <lb />Ihre May[estäten] versprechen einer
+                <lb />dem ander[n] Ihre[n] Ministern
+                <lb />befehl zu ertheil[en], umb wege[n]
+                <lb />des commercii eine[n] vergleich zu
+                <lb />&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; mach[en] 
+                </p>
+                    <pb facs="#FacsPnr8"/><p> mach[en] und den unterthanen beydersei[ts] 
+                    <lb />Puissancen zu wasser und lande 
+                    <lb />nach bezahlung der gewöhnlich[en] rechte 
+                    <lb />und zöllte freye[n] durchzug zu ver- 
+                    <lb />statte[n], und Ihre May[estäten] ver- 
+                    <lb />bünde[n] Sich reciprocè, daß Sie 
+                    <lb />unverzügl[ich] und so bald mögl[lich] 
+                    <lb />seyn wird vor Sich und Ihre Nach- 
+                    <lb />kommen eine defensiv Allian- 
+                    <lb />ce schliesse[n] wolle[n] und reciproque 
+                    <lb />garantie auf dem fundament 
+                    <lb />des in a[nn]o 1699. errichtet[en] tractats 
+                    <lb />und des jetzig[en], nach welch[em] ein 
+                    <lb />Jeder beyder May[estäten] schuldig 
+                    <lb />ist des ander[n] inter- 
+                    <lb />resse<note n="15" type="crit_app">Interesse: davor zu beschützen gestrichen.</note> alß Sein eigenes zu bewah- 
+                    <lb />ren, und einer des ander[n] 
+                        <lb />Reiche und das<note n="16" type="crit_app">das: zwischen den Zeilen eingefügt.</note> von den Schweden 
+                    <lb />währende[s] dieses Kriegs erober- 
+                    <lb />te vor allen Ein und überfall 
+                    <lb />so von Schwedischer Seit[en] gescheh[en] 
+                    <lb />könnte, zu beschütze[n], und be- 
+                    <lb />sagter defensiv-Alliance 
+                    <lb />tractat soll nicht nur von Ihro 
+                    <lb />May[estäten] sonder auch von dero 
+                    <lb />Nachkommen treulich gehalt[en] 
+                    <lb />werde[n]. 
+                    <lb />&nbsp;&nbsp; &nbsp;9. 
+                    <lb />Ihre May[estäten] an dem wol- 
+                    <lb />Ergehen S[eine]r May[estä]t des Konigs 
+                    <lb />Augusti von Pohlen, dessen 
+                    <lb />interesse Sie so wehrthalt[en] 
+                    <lb />alß Ihr eigenes, gleich[en] antheil 
+                </p> 
+                <pb facs="#FacsPnr9"/><p> befindende, verbünden Sie Sich, 
+                    <lb />denselb[en] in krafft der mit Ihro 
+                    <lb />May[estä]t von Pohlen besonders 
+                    <lb />gemacht[en] Alliance wieder alle u[nd] 
+                    <lb />Jede zu assistire[n], und die waffe[n] 
+                    <lb />nicht niederzulege[n] und kein[en] frie- 
+                    <lb />den zu mach[en], bis Sie auff den 
+                    <lb />Polnisch[en] Thron wurde[n] gäntzl[ich] 
+                    <lb />bestätiget<note n="17" type="crit_app">bestätiget: davor festg- gestrichen.</note> seyn und umb 
+                    <lb />diese ihre intention desto besser 
+                    <lb />in’s werck zu setze[n], wollen Sie 
+                    <lb />alle drey einmüthig verfahren 
+                    <lb />und unter Sich alles dasjeni- 
+                    <lb />ge communicir[n], was Sie 
+                    <lb />vorzunehme[n] gewilligt sind. 
+                    <lb />&nbsp;&nbsp; &nbsp;10. 
+                    <lb />Ihre May[estä]t der König v[on] Preus- 
+                    <lb />sen bereits verpflicht seyende 
+                    <lb />zu einer defensiv Alliance mit 
+                    <lb />dem Könige von Dennemark u[nd] 
+                    <lb />Pohlen, soll von jeder Seit[en] 
+                    <lb />alles mogliche angewendt werd[en] 
+                    <lb />daß solche Alliance in eine 
+                    <lb />ofensive verwandelt werde 
+                    <lb />und Er in den Krieg wieder Schwe- 
+                    <lb />de[n] und desse[n] anhänger mit 
+                    <lb />engagirt werde. 
+                    <lb />&nbsp;&nbsp; &nbsp;die ratification als gegen- 
+                    <lb />wärtig[en] tractats soll alhier<note n="18" type="crit_app">alhier: zwischen den Zeilen eingefügt.</note> zu Copen- 
+                    <lb />hagen in zeit 9er monathe 
+                    <lb />von Tage der unterschriftt anzu- 
+                    <lb />rechne[n] und noch eher wo mögl[ich] 
+                    <lb />ausgewechselt werde[n]: nichts 
+                    <lb />desto weniger verpflichtet man Sich 
+                </p> 
+                <pb facs="#FacsPnr10"/><p> den Einhalt dieses tractats zu 
+                    <lb />erfülle[n], wann Er von der eine[n] 
+                    <lb />oder der ander[n] Seit[en] unterschrie- 
+                    <lb />ben seyn wird. Zu uhrkund deß[en] 
+                    <lb />hab[en] wir diesen tractat unter 
+                    <lb />schrieb[en], und unsere pittschaffte 
+                    <lb />mit<note n="19" type="crit_app">mit: über der Zeile nachgetragen statt nebst: gestrichen.</note> unsern wapen beydruck[en] 
+                    <lb />lasse[n]. Gescheh[en] zu Copenhag[en] 
+                    <lb />de[n] 11ten octobris 1709. 
+                    <lb /> 
+                    <lb />L[oco] S[igilli] fürst Basili[us] Dol- 
+                    <lb />&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;goruky 
+                    <lb /> 
+                    <lb /> 
+                    <lb />&nbsp;&nbsp; &nbsp;Secreter articul. 
+                    <lb />&nbsp;&nbsp; &nbsp;1. 
+                    <lb />Ihre May[estäten] der Czaer aller 
+                    <lb />Reusse[n] und König von Denne 
+                    <lb />mark u[nd] Norwege[n] verspreche[n] 
+                    <lb />einer dem ander[n]eine gleiche 
+                    <lb />mutuelle garantie der 
+                    <lb />Provintzie[n], Insuln, hafen 
+                    <lb />und Städte, welche bereits<note n="20" type="crit_app">bereits: zwischen den Zeilen eingefügt.</note>&nbsp; erobert sind 
+                    <lb />oder währendes Krieges wurden 
+                    <lb />conquetiret oder durch eine[n] frie- 
+                    <lb />dens tractat werde[n] abgetret[en] 
+                    <lb />werde[n], durch welchen die abtre- 
+                    <lb />tung dieser Provintzien In- 
+                    <lb />suln, hafe[n] und Städte wird in 
+                    <lb />specie regulirt werde[n]; Sich 
+                    <lb />anbey verpflichtende zur zeit 
+                    <lb />eines feindlich[en] anfalls Ihre 
+                    <lb />Reiche und conqueten so wol des 
+                    <lb />eine[n] alß des ander[n] wie Ihre eigene 
+                    <lb />zu beschützen und unter sich 
+                </p> 
+                <pb facs="#FacsPnr11"/><p>einer dem ander[n] zu ewige[n]
+                <lb />Zeite[n] der[en] Nutzunge[n] und
+                <lb />besitz zu garantir[n]
+                <lb />&nbsp;&nbsp; &nbsp;2.
+                <lb />dieser articul soll geheim
+                <lb />gehalt[en] werde[n], und eb[en] die
+                <lb />Krafft habe[n] alß wann er in
+                <lb />dem jetzt unterschriebenen
+                <lb />haupt tractat mit einge-
+                <lb />schlossen wäre. geschehe[n]
+                <lb />zu Copenhag[en] d[en] 11 / 22ten
+                <lb />octobris 1709. 
+                </p>
+            </div>
+        </body>
+    </text>
+</tei:TEI>

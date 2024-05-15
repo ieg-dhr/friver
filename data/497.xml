@@ -1,0 +1,492 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE tei SYSTEM "../resources/FriVer_DTD.dtd">
+
+<?xml-model href="../resources/FriVer.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns="http://www.tei-c.org/ns/1.0" xml:id="pa000299-0497">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title level="s">European peace treaties of the pre-modern era in data / Europäische Friedensverträge der Vormoderne in Daten (FriVer+)</title>
+                <title when="1657-09-10" xml:id="t497" when-custom="1657 IX 10_14" level="a" ref="https://www.ieg-friedensvertraege.de/treaty/t-497-1-de.html">Bündnisvertrag von Kiel</title>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    Digital edition according to
+                    <ref target="http://www.tei-c.org/">TEI P5</ref>
+                </edition>
+                <funder>
+                    <ref target="https://www.text-plus.org/">TEXT+</ref>
+                </funder>
+                <editor role="http://id.loc.gov/vocabulary/relators/edt" ref="https://orcid.org/0000-0002-8741-5916">
+                    <persName>Jaap Geraerts</persName>
+                    <note>The transformation and enrichment of the data is done by Jaap Geraerts (IEG Mainz). The other members of the FriVer+ team are Fabian Cremer, Ines Grund, and Thorsten Wübbena (all IEG Mainz).</note>
+                    <note>
+                        The original data has been created by the
+                        <ref target="https://www.ieg-friedensvertraege.de">team of scholars</ref>
+                        who were part of the Europäische Friedensverträge der Vormoderne project. This project was lead by Prof. Dr. Heinz Duchhardt and was based at the Leibniz Institute of European History in Mainz.
+                    </note>
+                </editor>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>
+                    <orgName ref="http://www.isni.org/0000000119314040">Leibniz-Institut für Europäische Geschichte Mainz</orgName>
+                </publisher>
+                <distributor>
+                    <orgName ref="http://www.isni.org/0000000110101946">Universitäts- und Landesbibliothek Darmstadt</orgName>
+                </distributor>
+                <idno type="ISIL">http://lobid.org/organisation/DE-17</idno>
+                <date type="issued" when="2023-12-23"/>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">
+                        <p xml:lang="en">This file is licensed under the terms of the Creative Commons License CC-BY 4.0 (Attribution 4.0 International)</p>
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <repository xml:id="r24">Schleswig-Holstein LA
+                    <note>Landesarchiv Schleswig Holstein, Abt. 7 Nr. 1509</note></repository>
+                <msDesc><p>Landesarchiv Schleswig-Holstein: Abt. 7 Nr. 1509.</p></msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>
+                    The data in this XML file, originally created by the project
+                    <ref target="https://www.ieg-friedensvertraege.de/vertraege">Europäische Friedensverträge der Vormoderne online</ref>
+                    has been transformed in accordance with
+                    <ref target="http://www.tei-c.org/">TEI P5</ref>
+                    as part of the project
+                    <ref target="https://www.ieg-mainz.de/en/research/research-projects/european-peace-treaties-of-the-pre-modern-era-in-data">Europäische Friedensverträge der Vormoderne in Daten (FriVer+)</ref>
+                </p>
+            </projectDesc>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="la" xml:id="lan6">Latein</language>
+            </langUsage>
+        </profileDesc>
+    </teiHeader>
+    <standOff>
+        <listPerson>
+            <person role="signatory" xml:id="p138">
+                <persName ref="https://explore.gnd.network/gnd/4514664-0">
+                    <name>Schleswig - Holstein - Gottorf</name>
+                </persName>
+            </person>
+            <person role="signatory" xml:id="p99">
+                <persName ref="https://explore.gnd.network/gnd/4077258-5">
+                    <name>Schweden</name>
+                </persName>
+            </person>
+        </listPerson>
+        <listPlace>
+            <place xml:id="loc191">
+                <placeName ref="https://explore.gnd.network/gnd/4030481-4">Kiel</placeName>
+            </place>
+        </listPlace>
+        <facsimile>
+            <surface xml:id="FacsPnr1">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_449a523a72c5f"/>
+            </surface>
+            <surface xml:id="FacsPnr2">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_449a52715e2e1"/>
+            </surface>
+            <surface xml:id="FacsPnr3">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_449a52b4307cc"/>
+            </surface>
+            <surface xml:id="FacsPnr4">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_449a52e3a4a53"/>
+            </surface>
+            <surface xml:id="FacsPnr5">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_449a531db73de"/>
+            </surface>
+            <surface xml:id="FacsPnr6">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_449a534fd32ac"/>
+            </surface>
+            <surface xml:id="FacsPnr7">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_449a537e80617"/>
+            </surface>
+            <surface xml:id="FacsPnr8">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_449a53b6a07a0"/>
+            </surface>
+            <surface xml:id="FacsPnr9">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_449a53e9b5492"/>
+            </surface>
+            <surface xml:id="FacsPnr10">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_449a54199e447"/>
+            </surface>
+            <surface xml:id="FacsPnr11">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_449a55262e7e8"/>
+            </surface>
+            <surface xml:id="FacsPnr12">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_449a54a703d9c"/>
+            </surface>
+            <surface xml:id="FacsPnr13">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_449a54d358dfe"/>
+            </surface>
+        </facsimile>
+    </standOff>
+    <text>
+        <front>
+            <div type="Inhalt"><p>Art. 1 Schweden und Gottorf schließen ein Freundschaft- und Waffenbündnis gegen Dänemark für die Dauer des schwedisch-dänischen Krieges.
+                <lb />Art. 2 Schweden leistet Gottorf Rat und Hilfe im gegenwärtigen Krieg mit Dänemark.
+                <lb />Art. 3 Schweden stellt 3000 Mann zur Verteidigung Gottorfs im gegenwärtigen Krieg zur Verfügung.
+                <lb />Art. 4 Die schwedischen Truppen erhalten Quartier und Proviant zu den gleichen Bedingungen wie die gottorfischen Truppen.
+                <lb />Art. 5 Nach Einnahme von Rendsburg wird die Besatzung je zur Hälfte von schwedischen und gottorfischen Truppen gestellt. Der schwedische Kommandant wird auf beide Herren zugleich vereidigt. Nach Friedensschluß fällt Rendsburg an Gottorf.
+                <lb />Art. 6 Die schwedischen Truppen werden proportional in den herzoglichen und königlichen Landesteilen Schleswig-Holsteins einquartiert.
+                <lb />Art 7 Schweden verspricht, sich beim Friedensschluß für die Wiedergutmachung der dänischen Übergriffe in Gottorf einzusetzen.
+                <lb />Art. 8 Schweden sorgt für die Übergabe des Bistums Schleswig, des bischöflichen Amtes Schwabstedt sowie des Klosters Uetersen an Gottorf.
+                <lb />Art. 9 Schweden verspricht, beim Friedensschluß für Ersatz der erlittenen Kriegsschäden in Gottorf zu sorgen.
+                <lb />Art. 10 Beim Friedensschluß soll die zwischen Dänemark und Gottorf gemeinschaftliche Regierung über Prälaten, Ritterschaft und Städte in den Herzogtümern aufgehoben und geteilt werden.
+                <lb />Art. 11 Schweden verspricht, sich beim Friedensschluß für die Lösung der Gottorfer Vasallität von Dänemark wegen des Herzogtums Schleswig einzusetzen.
+                <lb />Art. 12 Die Gottorfer Erbansprüche auf Dänemark und Norwegen bleiben unberührt.
+                <lb />Art. 13 Schweden verspricht, Gottorf nach einem Sieg die Herzogtümer Schleswig und Holstein komplett zu überlassen, ausgenommen Dithmarschen, auf das der schwedische König als Herzog von Bremen Anspruch erheben kann. Beide Partner versprechen sich, nur mit Zustimmung des anderen Frieden mit Dänemark zu schließen.
+                <lb />Art. 14 Gottorf verspricht, Schweden zu fördern und Schaden von Schweden abzuwenden.
+                <lb />Art. 15 Gottorf gewährt den schwedischen Truppen freien Durchzug und öffnet ihnen die Festungen des Landes. In Kiel wird eine schwedische Garnison stationiert.
+                <lb />Art. 16 Gottorf verspricht, mindestens 5500 Mann an Truppen zu stellen.
+                <lb />Art. 17 Gottorf verspricht, 1500 Soldaten für schwedische Dienste bereit zu halten
+                <lb />Art. 18 Die Gottorfer Soldaten sind zu einem (im Vertrag freigehaltenen) Termin aufzubieten.
+                <lb />
+                <lb />[Inhalt Annotata 1657 IX 14]
+                <lb />Ad 3 Schweden stellt 3000 Reiter zur Verteidigung Gottorfs.
+                <lb />Ad 5 Der Eid des Festungskommandanten von Rendsburg wird schriftlich festgelegt.
+                <lb />Ad 8 Schweden setzt sich in einem künftigen Friedensschluß für die Belange Gottorfs ein.
+                <lb />Ad 10 Die künftige Teilung der gemeinschaftlichen Regierung bezieht sich auf alle Herrschaften der Herzogtümer, d.h. Schleswig, Holstein, Stormarn und Dithmarschen.
+                <lb />Ad 13 Frieden mit Dänemark wird nur unter Einschluß beider Partner, ihrer Anhänger und Verbündeten geschlossen.
+                <lb />Ad 15 Gottorf verspricht den schwedischen Truppen freien Durchzug, falls kein anderer Weg besteht, und duldet eine schwedische Garnison in Kiel, bis die Soldaten einen anderen sicheren Ort erreichen.
+                <lb />Ad 18 Die Gottorfer Soldaten sind bis Februar oder Anfang März aufzubieten.
+                <lb /></p></div>
+        </front>
+        <body>
+            <div type="Transliteration">
+                <pb facs="#FacsPnr1"/><p>I[n] N[omine] S[ancti]S[imae] T[rinitatis].
+                <lb />
+                <lb />Notum testatumq[ue] sit Universis et singulis quo-
+                <lb />rum interest aut quomodolibet interesse potest
+                <lb />quod cum ob exortum præsens bellum Sueco-Dani-
+                <lb />cum, Serenissimo ac Potentissimo Principi ac
+                <lb />Domino, Domino CAROLO GUSTAVO, Sueco-
+                <lb />rum, Gothorum, Wandalorumq[ue] Regi, Magno Prin-
+                <lb />cipi Finlandiæ, Duci Esthoniæ, Careliæ, Brehmæ
+                <lb />Verdæ, Stetini Pomeraniæ, Cassubiæ et Wandaliæ,
+                <lb />Principi Rugiæ, Domino Ingriæ et Wismariæ;
+                <lb />Nec non Comiti Palatino Rheni, Bavariæ, Juliaci
+                <lb />Cliviæ et Montium Duci etc. ut et Serenissimo
+                <lb />et Celsissimo Principi ac Domino, Domino Fre-
+                <lb />derico Hæredi Norvegiæ, Duci Slesvici Holsatiæ
+                <lb />Stormariæ ac Dithmarsiæ, Comiti in Oldenburg et
+                <lb />Delmenhorst, pro conservatione mutua in speciale
+                <lb />foedus sub certis conditionibus pactum et armorum
+                <lb />Societatem condescendere visum fuerit ac proinde
+                <lb />Nobis utrinq[ue] constitutis plenipotentiarijs Commis-
+                <lb />sarijs et infrascriptis in mandatis dare, ut invicem
+                <lb />congressi, rem penitius perpenderemus ac compla-
+                <lb />naremus: Proinde tenore istorum mandatorum
+                </p>
+                <pb facs="#FacsPnr2"/><p> congressi sumus ac post tractatum super tali re 
+                    <lb />institutum et habitum in Foederis et Societatis con- 
+                    <lb />ditiones convenimus, uti sequitur. 
+                    <lb /> 
+                    <lb />1. 
+                    <lb />Sit constans amicitia, illibatum foedus et armorum 
+                    <lb />societas inter Sac[ram] Reg[iam] M[ajesta]tem Sueciæ ejusq[ue] successores 
+                    <lb />et Regnum Sueciæ ab una, et Suam Cels[itudi]nem ejusq[ue] 
+                    <lb />Successores eorundemq[ue] provincias et ditiones ab altera 
+                    <lb />partibus, ita ut dicta Societas, durante hoc belle Da- 
+                    <lb />nico, directa sit contra Regem Regnumq[ue] Daniæ et 
+                    <lb />omnes alios qui quovismodo suæ Cels[itudi]nis Ducatus<note n="1" type="crit_app">Ducatus: nachgetragen über Zeile.</note>&nbsp; Slesvicensem 
+                    <lb />et Holsatiæ eorundemq[ue] confinia hostili animo ag- 
+                    <lb />gredi et infestare tentaverint. 
+                    <lb /> 
+                    <lb />2. 
+                    <lb />Vigore hujus Societatis et foederis promittit Sac[ra] 
+                    <lb />Regia Majestas suæ Celsitudini et toti Domui Got- 
+                    <lb />torpiensi consilio et ope semper præsto futuram 
+                    <lb />quandocumq[ue] necessitas ita flagitaverit p[ræ]sertim ubi 
+                    <lb />in hoc bello Danico aliquid periculosi ingruere vi- 
+                    <lb />detur. 
+                    <lb /> 
+                    <lb />3. 
+                    <lb />Atq[ue] ut Securitati Suæ Celsitudinis satis prospicia- 
+                <pb facs="#FacsPnr3"/>tur et hostes propulsentur non defutura est Sac[ra]
+                <lb />Regia Majestas suæ Celsitudinis necessarijs auxilijs, quin
+                <lb />diligenter provisura, ne suæ Celsitudinis status sævien-
+                <lb />te hac belli tempetate summo involvatur periculo.
+                <lb />Et ut Sua Celsitudo de certo aliquo et determinato as-
+                <lb />securetur, promittit Sacra Regia Majestas durante
+                <lb />hoc bello Danico, ad defensionem terrarum et ditio-
+                <lb />um suæ Celsitudinis ad minimum tria millia ho-
+                <lb />minum parata habere velle, quandocunq[ue] res ita postu-
+                <lb />laverit.
+                <lb />
+                <lb />4.
+                <lb />Auxiliares istæ copiæ fruentur ijsdem Conditionibus
+                <lb />in perceptione commeatus, Quartiriorum sive Alber-
+                <lb />gorum adeoq[ue] omni aliarum rerum prerogativa, qua
+                <lb />suæ Celsitudinis proprij milites gavisuri sunt, ita
+                <lb />ut inter Sacræ Regiæ Majestatis auxiliariarum
+                <lb />copiarum milites et suæ Celsitudinis proprios a
+                <lb />sit differentia, nisi quod Sacræ Regiæ Majestatis offi-
+                <lb />ciales, cæteris paribus, dignitate Semper suæ Celsitu-
+                <lb />dinis præferantur.
+                <lb />
+                <lb />5.
+                <lb />Civitate Rensburgo capta forte et occupata Com- 
+                <pb facs="#FacsPnr4"/>mendans et præsidium quidem a S[acra] R[egia] M[ajesta]te imponetur, 
+                    <lb />Sed istius præsidij dimidia pars ex Sacræ Regiæ Majesta- 
+                    <lb />tis altera vero dimidia pars a Suæ Cels[itudinis] copijs desume- 
+                    <lb />tur; Uterq[ue] a miles sub obsequio commendantis cona- 
+                    <lb />bitur fideliter Civitatem Secundum mandata Commen- 
+                    <lb />danti a Sacra Regia Majestate data manutenere<note n="2" type="crit_app">manutenere: geändert aus manutenebit.</note>, 
+                    <lb />donec pace per opem divinam reducta, dicta Civi- 
+                    <lb />tas cum omnibus pertinentijs in suæ Cels[itudinis] potesta- 
+                    <lb />tem plane tradatur. Interea quo restante iustius per- 
+                    <lb />agatur Commendans Sac[ræ] Reg[iæ] Majestati et suæ Celsi- 
+                    <lb />tudini iuramento obstringetur secundum formulam ob 
+                    <lb />hanc rem concipiendam. 
+                    <lb /> 
+                    <lb />6. 
+                    <lb />Cum præterea militibus a<note n="3" type="crit_app">a: geändert aus ac.</note>&nbsp; sua Cels[itudine] conducendis 
+                    <lb />et sustentandis angusti nimis videantur termini partis 
+                    <lb />Ducatuum Slesvicensis et Holsatiæ ad sua[m] Cels[itudinem] perti 
+                    <lb />nentis ac proinde graves nimis suæ Celsitudinis pro- 
+                    <lb />vincijs et ditionibus fieri videantur, nisi ijsdem alendis 
+                    <lb />alibi prospiciatur, promittit Sacra Regia Majestas, 
+                    <lb />simul dicti milites conducti fuerint se Quartiria ijs 
+                </p> 
+                <pb facs="#FacsPnr5"/><p>proportionabiliter, in partibus ad Ducatus Regios spe-
+                <lb />ctantibus, distributuram, unde sustentationis bonam
+                <lb />partem habere et Suæ Celsitudinis Ducatus ab isto onere
+                <lb />liberiores esse possint.
+                <lb />
+                <lb />7.
+                <lb />Cum vero ad hujusmodi armorum cum Sacra Regia
+                <lb />Majestate Societatem Suam Celsitudinem præcipue
+                <lb />causatus sit Rex Daniæ, tum multi=varijs alijs ex
+                <lb />causis tum præsertim, eo nomine, quod, ruptis et
+                <lb />spretis avitorum et fundamentalium pactorum legibus
+                <lb />suæ Celsitudini et Domui Gottorpiensis linea permu-
+                <lb />tas longi tempore injurias intulerit postremo etiam
+                <lb />militum Stationibus, iniustis exactionibus, varijsq[ue]
+                <lb />modis alijs afflixerit, ac sua Cels[situdo] ijs injurijs et gra-
+                <lb />vaminibus iustum modum statui et condigna remedia
+                <lb />desideret, quapropter spondet Sacra Regia Maje-
+                <lb />stas, simul contigerit aliquam tractatus vel pacis
+                <lb />susceptionem fieri, omnem se daturam operam, qu&lt;æ&gt;
+                <lb />suæ Cels[itudini] ex æquo et iusto satisfiat.
+                <lb />
+                <lb />8.
+                <lb />In specie a diligenter procuratura est Sacra Re- 
+                <pb facs="#FacsPnr6"/>gia Majestas ut diuturna controversia, quæ jam a
+                <lb />multis annis inter Reges Daniæ et Duces Holsatiæ
+                <lb />ob Episcopatum Slesvicensem et ei pertinentem
+                <lb />præfecturam Schwabstadt dictam agitata est termi-
+                <lb />netur, suæq[ue] Celsitudini Ejusdem Successoribus cum
+                <lb />fructibus perceptis et percipiendis addicatur, tum
+                <lb />etiam de Monasterio Uterensi, ut et alijs id genus
+                <lb />gravaminibus certi aliquid et determinati statuatur.
+                <lb />
+                <lb />9.
+                <lb />In primis promittit Sacra Regia Majestas id si-
+                <lb />bi circa tractatum curæ et cordi fore, ut damnorum,
+                <lb />quæ durante hoc bello Danico, passa est Suæ Cels[itudini]
+                <lb />æquivalens Satisfactio et restitutio fiat, ac, ut certis
+                <lb />deinceps suis bonis et tranquillitate ditionum frua-
+                <lb />tur, de non amplius lædendo iuste caveatur.
+                <lb />
+                <lb />10.
+                <lb />Quandoquidem communio sive vicissitudo admini-
+                <lb />strandorum et regendorum bonorum Ecclesiasticorum,
+                <lb />Civitatensium et Nobilitatis in Ducatibus Holsatiæ,
+                <lb />quæ hactenus inter Regem Daniæ et Celsissimam 
+                <pb facs="#FacsPnr7"/>Domum Gottorpiensem intercessit, multas ex se ge- 
+                    <lb />nerat lites et inconvenientias, quibus occurrendis 
+                    <lb />Sua Cels[itudo] circa horum temporum constitutionem 
+                    <lb />merito prospicere cupit, Quocirca hujus quoq[ue] ne- 
+                    <lb />gocij sanandi circa pacis reconciliationem ratio 
+                    <lb />aliqua ineunda est, ita ut ex eo æquo divisio institua- 
+                    <lb />tur, ac unicuiq[ue] sua portio attribuatur. 
+                    <lb /> 
+                    <lb />11. 
+                    <lb />Cæterum cum sua Cels[itudo] ratione Ducatus Slesvicen- 
+                    <lb />sis Wasallagio quidem Regi Daniæ sit divincta 
+                    <lb />sed libere et Franko is omnino servitijs ob nexu 
+                    <lb />atq[ue] intuitu ejusdem Vasallagij multa suæ Celsitu- 
+                    <lb />dini contra rationem et æquitatem obtrusa sint 
+                    <lb />quæ deinceps Sua Cels[itudo] Sufferre nequit<note n="4" type="crit_app">nequit: verbessert aus nequid.</note>, pariter spon- 
+                    <lb />det Sacra Regia majestas ubi tractatus aliquis 
+                    <lb />pacis institutus fuerit, omni ope se ut curaturam<note n="5" type="crit_app">omni ope se ut curaturam: Reihenfolge durch überschriebene Zahlen geändert aus: &nbsp; &nbsp; &nbsp; se curaturam ut omni ope.</note> 
+                    <lb />sua Celsitudo et hac Vasallagij obstrictione et 
+                    <lb />alia recognitione omni liberetur. 
+                    <lb /> 
+                    <lb />12. 
+                    <lb />Antiqua jura Domus Holsatiæ et præcipue
+                </p>
+                <pb facs="#FacsPnr8"/><p> lineæ Gottorpiensis in Dania et Norvegia hoc foe- 
+                    <lb />dere o modo diminuta sunte, quin potius in suo 
+                    <lb />vigore absq[ue] læsione ulla hoc ipso conservatur et con- 
+                    <lb />firmentur, relicto Sua Celsitudinis Subditis libero 
+                    <lb />Commerciorum usu, prout multis retro seculis observatu[m] 
+                    <lb />est. 
+                    <lb /> 
+                    <lb />13. 
+                    <lb />Si vero DEUS T[er]. O[ptimus]. M[aximus]. Sacræ Regiæ Maj[esta]tis 
+                    <lb />armis victricibus sic velificatus, ut debellato 
+                    <lb />aut everso plane hoste ditiones Daniæ et circumjacen- 
+                    <lb />tes hisce Ducatibus Slesvicensi et Holsatiæ provincias 
+                    <lb />in suam potestatem redegerit, spondet Sacra Regia 
+                    <lb />majestas velle se Suæ Cels[itudini] Ducatus Holsatiam, Slevi- 
+                    <lb />cum<note n="6" type="crit_app">Slevicum: statt Slesvicum.</note>
+                    Stormariam et Ditmarsiam<note n="7" type="crit_app">Ditmarsiam: verbessert aus Ditmartiam.</note>, una cum omnibus 
+                    <lb />pertinencijs in Solidum, sine ulla ulteriori recognitione, 
+                    <lb />concedere, salvo tamen jure et prætensione quam Sacra 
+                    <lb />Regia Majestas ratione Ducatus Bremensis in Dit- 
+                    <lb />marsiam habere possit. Promittit<note n="8" type="crit_app">Promittit: verbessert aus promittit.</note> etiam uterq[ue] et Sacra 
+                    <lb />Regia Majestas et sua Celsitudo se haud inituras pacem 
+                    <lb />cum Rege Daniæ nisi ex mutuo consensu et cum utriusq[ue] 
+                    <lb />Status inclusione; habeaturq[ue] in tali casu ambarum partium 
+                    <lb />ratio. 
+                </p>
+                <pb facs="#FacsPnr9"/><p>14.
+                <lb />Ad declarandas aliquas officiorum vices pro incli-
+                <lb />natione tam prolixe a S[acra] R[egia] M[ajesta]te pro-
+                <lb />mittit Sua Cels[itudo] vicissim vigore hujus foederis et
+                <lb />armorum Societatis contra Regem et Regnum Da-
+                <lb />niæ velle se concilio et auxilis Sacræ Regiæ Ma[ajesta]ti
+                <lb />semper adhærere, commode Sacræ Regiæ Majestatis
+                <lb />omni meliori modo promovere, nec pati ut aliquid
+                <lb />directe vel indirecte contra Sacram Regiam M[ajesta]tem
+                <lb />suscipiatur vel agatur, quin potius sicuti sua Cels[itudo]
+                <lb />tenore hujus foederis conjunctissime cum Sacra Regia
+                <lb />Majestate colligata est, ita promittit Sua Celsitudo
+                <lb />pro virili se omnes communium hostium conatus, in-
+                <lb />primis Regis Daniæ eorumq[ue] qui Ducatus Slesvicensem
+                <lb />et Holsatiæ aut eorundem confinia hostili animo in
+                <lb />festari vel adoriri instituunt, omni possibili modo pro-
+                <lb />hibituram.
+                <lb />
+                <lb />15.
+                <lb />Atq[ue] ut talia re ipsa comprobet, vigore hujus Foederis
+                <lb />promittit S[ua] Cels[itudo] quod, si in aliqua forsan casu necessi-
+                <lb />tatis urgeatur exercitus Sacr[æ] Reg[iæ] M[ajesta]tis Sueciæ, liberam
+                <lb />sub locorum munitorum Suæ Celsitudinis tormenta et de- 
+                <pb facs="#FacsPnr10"/>&nbsp;
+                    <lb />fensionem aditum et receptum habeat, ubi totius ab in- 
+                    <lb />sulta aggredientium hostium subsistat. Pariter con- 
+                    <lb />cedit sua Cels[itudo] dicto Exercitui, quando vel necessitas 
+                    <lb />vel rei communis usus suadet, ut per munita Ejus- 
+                    <lb />dem loca et fortalitia transire et regredi possit, ita 
+                    <lb />tamen ut disciplina militari provideatur, ne miles 
+                    <lb />per licentiam damna aliqua Suæ Celsitudinis subditis 
+                    <lb />inferat. In Kilensi vero civitate quia hostis tam 
+                    <lb />vicina habet fortalitia, unde excurrere et insignia dam- 
+                    <lb />na ex insperato facere possit Sua Celsitudo militibus 
+                    <lb />Sacræ Regiæ Majestatis receptum et stationem indul- 
+                    <lb />get. 
+                    <lb />
+                </p>
+                <p>16. 
+                    <lb />Pariter spondet sua Celsitudo pro defensione Duca- 
+                    <lb />tuum et Ditionum suarum tot copias externas quot 
+                    <lb />possibile est, se conducere velle ac præterea ex pro- 
+                    <lb />prijs suis Urbibus, Civitatibus et agricolis insignem 
+                    <lb />numerum cogere, quas copias omnes collective sumptas 
+                    <lb />sperat ad minimum sese extendere posse ad numerum 
+                    <lb />quinq[ue] millium et quingentorum hominum, quos non so- 
+                    <lb />lum in suarum defensionem provinciarum destinat, 
+                </p>
+                <pb facs="#FacsPnr11"/><p> Sed in communis quoq[ue] rei usum et promotionem, in quan- 
+                    <lb />tum necessaria fortalitiorum defensio id permittit. 
+                    <lb /> 
+                    <lb />17. 
+                    <lb />Et ut certum aliquid statuatur quantum Sacræ Reg[iæ] 
+                    <lb />Majestati commodare constituit, pollicetur sua Celsitudo 
+                    <lb />Mille et quingentos bene armatos milites semper in 
+                    <lb />promptu se habituram, qui ad instantiam et peti- 
+                    <lb />tum S[acræ] R[egiæ] Majestatis, quandocunq[ue] S[acra] R[egia] Majestas eorum servitia 
+                    <lb />postulaverit, parati et expediti erunt communi operi 
+                    <lb />inserviendi. 
+                    <lb /> 
+                    <lb />18. 
+                    <lb />Quoniam vero sua Celsitudinis milites nondum con- 
+                    <lb />ducti aut avincti, ut possent Sacræ Regiæ Majestati 
+                    <lb />tenore hujus foederis usui esse, quocirca hujus societa- 
+                    <lb />tis et foederis vinculum post [Lücke] abhinc men- 
+                    <lb />ses vigorem suum habebit; quando nimirum dicti 
+                    <lb />milites parati fuerint, et utriq[ue] parti secundum con- 
+                    <lb />ditiones superius expressas satisfieri quoat. In ho- 
+                    <lb />rum majorem fidem et robur hasce manu Nostra sub- 
+                    <lb />scriptas Sigillis Nostris communivimus. Actum 
+                    <lb />in Civitate Kiel die 10. Septemb. 1657. 
+                    <lb /> 
+                    <lb />Philippus C[omes] P[alatinus] Rhenj&nbsp; &nbsp;&nbsp; Sten Bielke p[ro]p[ria]
+                    <lb />&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; D[ux] Bavariae &nbsp;&nbsp; L[iber] B[aro] de Korpo
+                    <lb />&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp; Senator R[egis]
+                </p>
+                <p>[2 Lacksiegel über Heftschnur] 
+                    <lb /> 
+                    <lb />Joh. Ad. Kielmann&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; Levin Claus Moltke 
+                    <lb /> 
+                    <lb />[2 Lacksiegel, davon eines über Heftschnur] 
+                    <lb /> 
+                </p>
+                <pb facs="#FacsPnr12"/><p> Annotata, quæ in Articulis foederis initi inter Sac[ram] Reg[iam] Maj[esta]tem 
+                    <lb />Sueciæ et S[uam] Sereniss[imam] Celsitud[inem] Ducem Slevici, Holsatiæ, omis- 
+                    <lb />sa fuerunt, quorum inviolabilem observationem non minus, 
+                    <lb />quam ipsius foederis, utraq[ue] pars promisit etc. 
+                    <lb /> 
+                    <lb />Posteaquam Sacra Reg[ia] Maj[esta]tas Sueciæ sibi gratum esse
+                    clementissime indicavit<note n="9" type="crit_app">clementissime indicavit: durch überschriebene Zahlen verbessert aus indicavit clementissime.</note>, 
+                    <lb />ut S[ua] Ser[eni]tas noster Clementissimus Princeps ac Dominus etc. ea, quæ articulis, de qui- 
+                    <lb />bus S[acra] R[egia] M[ajestas] et S[ua] Ser[enitas] nondum plane consenserunt, in foedero illo, quod inierunt, 
+                    <lb />addi desiderat, S[u]æ Excel[lentiæ] Perillustri D[omi]no Baroni Stenoni Bielke, Regni Sueciæ 
+                    <lb />Consiliario et Classis Præfecto, significet, eapropter petit S[ua] Ser[eni]tas, ut ad 
+                    <lb />tertium Articulum loco 3000 hominum ponatur 3000 Equitum, 
+                    <lb />Ad 5 artic[ulum] jussit S[ua] Ser[eni]tas formulam juramenti, quod Præfectus præsidio Rensbur- 
+                    <lb />gensi præstare teneatur, chartæ mandari et S[uæ] Excel[lenti]æ tradi. 
+                    <lb />Ad 8. artic[culum] non dubitat S[ua] Ser[eni]tas quamvis non omnia gravamina, quibus Rex 
+                    <lb />et Regnum Daniæ sibi et Domui Suæ incommoda attulerunt, expresserit, Sacr[am] 
+                    <lb />Reg[iam] Maj[esta]tem opem tamen ei laturam, ut suis æquis et justis desiderijs satisfiat, 
+                    <lb />præsertim apud futuros pacis tractatus, 
+                    <lb />Ad 10. ad verba Ducatuum addatur, Slesvici, Holsatiæ Stormariæ et Dithmar- 
+                    <lb />siæ etc. 
+                    <lb />Ad 13. cum utriusq[ue] ] addatur cum Status, tam ministrorum, ipsisq[ue] adhærentium, 
+                    <lb />et bonorum intro&lt;??&gt;ata inclusione, 
+                </p> 
+                <pb facs="#FacsPnr13"/><p>Ad 15. ad verbum Suadet, addatur, nec alia meandi et remeandi ratio su-
+                <lb />persit,
+                <lb />ad verbum Stationem addatur, eousq[ue] indulget, donec aliam peræquo tutam
+                <lb />Stationem ibi commorantes milites consequi possint.
+                <lb />Ad 18. ad verbum Vinculum addatur, tardo demum Februario aut ineun-
+                <lb />te Martio.
+                <lb />
+                <lb />S[ua] Exc[ellentia] Perillustris D[omi]n[us] Bielke, Regni Sueciæ Senator promittit, se procura-
+                <lb />turum, ut brevi S[acræ] Reg[iæ] Maj[estatis] mandatum, cuius virtute S[ua] C[elsitudo] Princeps Pala-
+                <lb />tinus Rheni et S[ua] Exc[ellentia] cum S[uæ] Seren[issimæ] Cels[itudinis] deputatis hanc foederis tractationem
+                <lb />susceperunt, S[uæ] Ser[enissimæ] Cels[itudini] tradatur, ut ad acta possit deponi. S[uæ] Ser[enissimæ] Cels[itudinis] de-
+                <lb />putati promittunt vicissim, se accepto illo mandato extradituros S[uæ] Ser[enissimæ] Cels[itudinis]
+                <lb />mandatum, cuius vigore illi hisce tractatibus adhibiti fuerunt.
+                <lb />
+                <lb />Nos infrascripti S[acræ] Reg[iæ] Maj[esta]tis Plenipotentiarij commissarij virtute S[acræ] Reg[iæ] Maj[esta]tis
+                <lb />mandati promittimus, supradicta, quæ S[ua] Ser[enissima] Cels[itudo] foederis articulis addi desi-
+                <lb />deravit S[acram] Reg[iam] Maj[esta]t[atem] non minus observaturam, quam si in ipso foederis
+                <lb />instrumento expressa essent. Nos etiam S[uæ] Ser[enissimæ] Cels[itudinis] Commissarij promit-
+                <lb />timus, quæ Nos in hisce additis vigore S[uæ] Ser[enissimæ] Cels[itudinis] mandati polliciti su-
+                <lb />mus, eadem ratione Serenissimum nostrum Principem sancti observa-
+                <lb />turum. Actum Gottorpij die 14 Septemb. a[nn]o 1657
+                <lb />
+                <lb />&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;Sten Bielke p[ro]p[ria]
+                <lb />&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;L[iber] B[aro] de Korpo
+                <lb />&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;Senator R[egis]
+                <lb />&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;[Lacksiegel]
+                <lb />
+                <lb />[Lacksiegel] Joh. Ad. Kielmann&nbsp;&nbsp; &nbsp;Levin Clauß Moltke
+                <lb />&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;[Lacksiegel]
+                <lb />
+                </p>
+            </div>
+        </body>
+    </text>
+</tei:TEI>

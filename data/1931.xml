@@ -1,0 +1,2056 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE tei SYSTEM "../resources/FriVer_DTD.dtd">
+
+<?xml-model href="../resources/FriVer.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns="http://www.tei-c.org/ns/1.0"
+    xml:id="pa000299-1931">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title level="s">European peace treaties of the pre-modern era in data / Europäische
+                    Friedensverträge der Vormoderne in Daten (FriVer+)</title>
+                <title when="1658-08-14" xml:id="t1931" when-custom="1658 VIII 14" level="a"
+                    ref="https://www.ieg-friedensvertraege.de/treaty/t-1931-1-de.html">Erster
+                    Rheinbund</title>
+            </titleStmt>
+            <editionStmt>
+                <edition> Digital edition according to <ref target="http://www.tei-c.org/">TEI
+                        P5</ref>
+                </edition>
+                <funder>
+                    <ref target="https://www.text-plus.org/">TEXT+</ref>
+                </funder>
+                <editor role="http://id.loc.gov/vocabulary/relators/edt"
+                    ref="https://orcid.org/0000-0002-8741-5916">
+                    <persName>Jaap Geraerts</persName>
+                    <note>The transformation and enrichment of the data is done by Jaap Geraerts
+                        (IEG Mainz). The other members of the FriVer+ team are Fabian Cremer, Ines
+                        Grund, and Thorsten Wübbena (all IEG Mainz).</note>
+                    <note> The original data has been created by the <ref
+                            target="https://www.ieg-friedensvertraege.de">team of scholars</ref> who
+                        were part of the Europäische Friedensverträge der Vormoderne project. This
+                        project was lead by Prof. Dr. Heinz Duchhardt and was based at the Leibniz
+                        Institute of European History in Mainz. </note>
+                </editor>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>
+                    <orgName ref="http://www.isni.org/0000000119314040">Leibniz-Institut für
+                        Europäische Geschichte Mainz</orgName>
+                </publisher>
+                <distributor>
+                    <orgName ref="http://www.isni.org/0000000110101946">Universitäts- und
+                        Landesbibliothek Darmstadt</orgName>
+                </distributor>
+                <idno type="ISIL">http://lobid.org/organisation/DE-17</idno>
+                <date type="issued" when="2023-12-23"/>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">
+                        <p xml:lang="en">This file is licensed under the terms of the Creative
+                            Commons License CC-BY 4.0 (Attribution 4.0 International)</p>
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <repository xml:id="r10">Hannover StA/LA <note>Arcinsys Niedersachsen, Hannover NLA:<lb/>
+                        <ref
+                            target="http://www.arcinsys.niedersachsen.de/arcinsys/detailAction?detailid=v1594660"
+                            >http://www.arcinsys.niedersachsen.de/arcinsys/detailAction?detailid=v1594660</ref></note>
+                </repository>
+                <msDesc>
+                    <p>Niedersächsisches Hauptstaatsarchiv Hannover: Cal. Or. 31 Nr. 421
+                        (Papierlibell, 6 Doppelbögen, 11 aufgedrückte Petschafte in rotem Lack). </p>
+                    <p>&nbsp; </p>
+                    <p>Weitere Stücke </p>
+                    <p> </p>
+                    <p>Ratifikationen Mainz : Schwalbach 1658 IX 13 (Hauptstaatsarchiv Hannover:
+                        Cal. Or. 31 Nr. 421) Braunschweig-Lüneburg (Herzog Georg-Wilhelm): Hannover
+                        1658 IX 25 (Hauptstaatsarchiv Hannover: Cal. Or. 31 Nr. 422- 424).
+                        Braunschweig-Lüneburg-Wolfenbüttel: Wolfenbüttel 1658 X 12
+                        (Hauptstaatsarchiv Hannover: Cal. Or. 31 Nr. 425)
+                        Braunschweig-Lüneburg-Celle (Herzog Christian Ludwig): Celle 1658 X 12
+                        (Hauptstaatsarchiv Hannover: Cal. Or. 31 Nr. 426 Pfalzgraf Philipp Wilhelm
+                        bei Rhein: Düsseldorf 1658 XI 12 (Hauptstaatsarchiv Hannover: Cal. Or. 31
+                        Nr. 647 Münster: Wolbeck 1660 XI 30 (Hauptstaatsarchiv Hannover: Cal. Or. 31
+                        Nr.479) &nbsp; Beitritte Hessen–Darmstadt: 1659 VI 18 Frankfurt (Hessisches
+                        Staatsarchiv Darmstadt A 6, Nr. 7: Ratifikation Frankreichs, Fontainebleau
+                        1659 VII 16). Salm-Salm: 1659 VI 25 Frankfurt (Nachweis: AAE Paris)
+                        Waldeck-Pyrmont: 1659 XII 17 Frankfurt (Nachweis: AAE Paris) Württemberg:
+                        1660 II 7 Frankfurt (Nachweis : AAE Paris; Datierung nach Moerner: 1660 II
+                        4) Münster: 1660 X 6 Frankfurt (Nachweis: AAE Paris); 1660 X 6 / IX 26&nbsp;
+                        „Frankfurter Rezess“ des Rheinbundes zum Beitritt des Fürstbischofs von
+                        Münster (Nachweis: Staatsarchiv Münster, Fürstentum Münster, Landesarchiv
+                        480, Nr.33) Trier: 1662 III 20 Frankfurt (Nachweis: AAE Paris)
+                        Pfalz-Zweibrücken: 1663 III V Frankfurt (Nachweis: AAE Paris)
+                        Brandenburg-Preussen: 1665 XI 18 Regensburg (Nachweis: AAE Paris) Basel 1664
+                        V 16 (nach Moerner) &nbsp; </p>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p> The data in this XML file, originally created by the project <ref
+                        target="https://www.ieg-friedensvertraege.de/vertraege">Europäische
+                        Friedensverträge der Vormoderne online</ref> has been transformed in
+                    accordance with <ref target="http://www.tei-c.org/">TEI P5</ref> as part of the
+                    project <ref
+                        target="https://www.ieg-mainz.de/en/research/research-projects/european-peace-treaties-of-the-pre-modern-era-in-data"
+                        >Europäische Friedensverträge der Vormoderne in Daten (FriVer+)</ref>
+                </p>
+            </projectDesc>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="de" xml:id="lan2">deutsch</language>
+            </langUsage>
+        </profileDesc>
+    </teiHeader>
+    <standOff>
+        <listPerson>
+            <person role="signatory" xml:id="p132">
+                <persName ref="https://www.wikidata.org/wiki/Q565812">
+                    <name>Braunschweig - Lüneburg - Calenberg</name>
+                </persName>
+            </person>
+            <person role="signatory" xml:id="p22">
+                <persName ref="https://explore.gnd.network/gnd/17444-0">
+                    <name>Braunschweig - Lüneburg - Celle</name>
+                </persName>
+            </person>
+            <person role="signatory" xml:id="p24">
+                <persName
+                    ref="https://explore.gnd.network/gnd/17444-0; https://explore.gnd.network/gnd/4066832-0">
+                    <name>Braunschweig - Lüneburg - Wolfenbüttel</name>
+                </persName>
+            </person>
+            <person role="signatory" xml:id="p55">
+                <persName ref="https://explore.gnd.network/gnd/4072472-4">
+                    <name>Hessen - Kassel</name>
+                </persName>
+            </person>
+            <person role="signatory" xml:id="p64">
+                <persName ref="https://explore.gnd.network/gnd/4031485-6">
+                    <name>Köln (Kurfürstentum)</name>
+                </persName>
+            </person>
+            <person role="signatory" xml:id="p146">
+                <persName ref="https://explore.gnd.network/gnd/4100026-2">
+                    <name>Mainz (Kurfürstentum)</name>
+                </persName>
+            </person>
+            <person role="signatory" xml:id="p152">
+                <persName ref="https://explore.gnd.network/gnd/4045461-7">
+                    <name>Pfalz - Neuburg</name>
+                </persName>
+            </person>
+            <person role="signatory" xml:id="p99">
+                <persName ref="https://explore.gnd.network/gnd/4077258-5">
+                    <name>Schweden</name>
+                </persName>
+            </person>
+            <person xml:id="pp0287">
+                <persName ref="https://explore.gnd.network/gnd/100442234">
+                    <name>Karl Kaspar von der Leyen</name>
+                </persName>
+            </person>
+            <person xml:id="pp0288">
+                <persName>
+                    <name>Maximilian Heinrich, Köln, Erzbischof</name>
+                </persName>
+            </person>
+            <person xml:id="pp0289">
+                <persName>
+                    <name>Christoph Bernhard von Galen</name>
+                </persName>
+            </person>
+            <person xml:id="pp0290">
+                <persName>
+                    <name>Philipp Wilhelm, Pfalz, Kurfürst</name>
+                </persName>
+            </person>
+            <person xml:id="pp0137">
+                <persName ref="https://explore.gnd.network/gnd/118720945">
+                    <name>Karl X. Gustav von Schweden</name>
+                </persName>
+            </person>
+            <person xml:id="pp0291">
+                <persName>
+                    <name>August, Braunschweig-Lüneburg, Herzog</name>
+                </persName>
+            </person>
+            <person xml:id="pp0292">
+                <persName>
+                    <name>Christian Ludwig, Braunschweig-Lüneburg, Herzog</name>
+                </persName>
+            </person>
+            <person xml:id="pp0293">
+                <persName>
+                    <name>Wilhelm VI., Hessen-Kassel, Landgraf</name>
+                </persName>
+            </person>
+            <person xml:id="pp0246">
+                <persName ref="https://explore.gnd.network/gnd/119200767">
+                    <name>Georg Wilhelm (Braunschweig-Lüneburg)</name>
+                </persName>
+            </person>
+            <person xml:id="pp0001">
+                <persName ref="https://explore.gnd.network/gnd/118571869">
+                    <name>Leopold I, Holy Roman Emperor</name>
+                </persName>
+            </person>
+            <person xml:id="pp0263">
+                <persName ref="https://explore.gnd.network/gnd/11853596X">
+                    <name>Friedrich Wilhelm (Brandenburg)</name>
+                </persName>
+            </person>
+            <person xml:id="pp0249">
+                <persName ref="https://explore.gnd.network/gnd/119160978">
+                    <name>Karl XI. (Schweden)</name>
+                </persName>
+            </person>
+            <person xml:id="pp0136">
+                <persName ref="https://explore.gnd.network/gnd/119389118">
+                    <name>Jan II. Kazimierz Wasa</name>
+                </persName>
+            </person>
+            <person xml:id="pp0296">
+                <persName>
+                    <name>Johann Christian von Boyneburg</name>
+                </persName>
+            </person>
+            <person xml:id="pp0297">
+                <persName>
+                    <name>Wilhelm Egon Graf von Fürstenberg</name>
+                </persName>
+            </person>
+            <person xml:id="pp0298">
+                <persName>
+                    <name>Franz Wilhelm von Giese</name>
+                </persName>
+            </person>
+            <person xml:id="pp0299">
+                <persName>
+                    <name>Georg Hansson von Snoilsky</name>
+                </persName>
+            </person>
+            <person xml:id="pp0300">
+                <persName>
+                    <name>Polycarp Heiland</name>
+                </persName>
+            </person>
+            <person xml:id="pp0301">
+                <persName>
+                    <name>Otto Johann Witte</name>
+                </persName>
+            </person>
+            <person xml:id="pp0302">
+                <persName>
+                    <name>Otto Otto von Mauderode</name>
+                </persName>
+            </person>
+            <person xml:id="pp0303">
+                <persName>
+                    <name>Regner Badenhausen</name>
+                </persName>
+            </person>
+            <person xml:id="pp0304">
+                <persName>
+                    <name>Sebastian Friedrich Zobell</name>
+                </persName>
+            </person>
+            <person xml:id="pp0318">
+                <persName ref="https://explore.gnd.network/gnd/136851401">
+                    <name>Johann Philipp Schönborn</name>
+                </persName>
+            </person>
+            <person xml:id="pp0319">
+                <persName ref="https://explore.gnd.network/gnd/104282193">
+                    <name>Johann Philipp von Vorburg</name>
+                </persName>
+            </person>
+            <person xml:id="pp0320">
+                <persName ref="https://explore.gnd.network/gnd/1017621950">
+                    <name>Johann Christoph von Aldenhofen</name>
+                </persName>
+            </person>
+        </listPerson>
+        <listPlace>
+            <place xml:id="loc36">
+                <placeName ref="https://explore.gnd.network/gnd/4018118-2">Frankfurt/M.</placeName>
+            </place>
+        </listPlace>
+        <facsimile>
+            <surface xml:id="FacsPnr1">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_48733bcb33298"/>
+            </surface>
+            <surface xml:id="FacsPnr2">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_48733bf3cf5a2"/>
+            </surface>
+            <surface xml:id="FacsPnr3">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_48733c1e9f702"/>
+            </surface>
+            <surface xml:id="FacsPnr4">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_48733c4375641"/>
+            </surface>
+            <surface xml:id="FacsPnr5">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_48733c517a40a"/>
+            </surface>
+            <surface xml:id="FacsPnr6">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_48733c5fa91b7"/>
+            </surface>
+            <surface xml:id="FacsPnr7">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_48733c6fec771"/>
+            </surface>
+            <surface xml:id="FacsPnr8">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_48733c7eb2d35"/>
+            </surface>
+            <surface xml:id="FacsPnr9">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_48733c91f14bb"/>
+            </surface>
+            <surface xml:id="FacsPnr10">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_48733ca2e6870"/>
+            </surface>
+            <surface xml:id="FacsPnr11">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_48733cb4e391f"/>
+            </surface>
+            <surface xml:id="FacsPnr12">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_48733cc5e09d4"/>
+            </surface>
+            <surface xml:id="FacsPnr13">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_48733cd84e1a0"/>
+            </surface>
+            <surface xml:id="FacsPnr14">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_48733ce8a4fda"/>
+            </surface>
+            <surface xml:id="FacsPnr15">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_48733cfab0ae8"/>
+            </surface>
+            <surface xml:id="FacsPnr16">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_48733d094d0cc"/>
+            </surface>
+            <surface xml:id="FacsPnr17">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_48733d18f30a9"/>
+            </surface>
+            <surface xml:id="FacsPnr18">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_48733d2a6663a"/>
+            </surface>
+            <surface xml:id="FacsPnr19">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_48733d3889860"/>
+            </surface>
+            <surface xml:id="FacsPnr20">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_48733d4bb7647"/>
+            </surface>
+            <surface xml:id="FacsPnr21">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_48733d5a3c52d"/>
+            </surface>
+            <surface xml:id="FacsPnr22">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_48733d68c6f8f"/>
+            </surface>
+        </facsimile>
+    </standOff>
+    <text>
+        <front>
+            <div type="Drucke">
+                <p>CTS V, S.143-160. </p>
+                <p> Dumont, VI/II, S.235-239. <ref
+                        target="http://digbib.bibliothek.uni-augsburg.de/8/pages/02_IV_13_2_0026_08_0560.html"/>
+                    <lb/> Lünig, Teutsches Reichsarchiv, V, Pars specialis II, S.327-332. <lb/>
+                    Kohl, Wilhelm, Akten und Urkunden zur Außenpolitik Christoph Bernhards von
+                    Galen. Bd. 1, Münster, 1980, S.202-211 <lb/> Lundorp, Acta Publica VIII,
+                    S.417-422. <lb/> Diarium Europaeum 1657-1659, S.1010-1023. <lb/> Bündüß zwischen
+                    Ihr. Churf. Gnaden zu Mayntz, Trier, Cölln, Ihr. Fürstl. Gnaden zu Münster,
+                    Pfaltz Neuburg, Ihr. Königl. May. Zu Schweden, Drey Hertzogen zu Braunschweig
+                    und Lünenburg und Landgraffen zu Hessen Cassel so verglichen und unterschriben
+                    zu Franckfurth am Mayn den 14. Augusti Anno 1658. zeitgenössischer Druck
+                    Frankfurt 1658 (unvollständig) LINK:
+                    http://gso.gbv.de/DB=1.28/SET=1/TTL=51/SHW?FRST=53 <lb/> &nbsp; </p>
+            </div>
+
+            <div type="Inhalt">
+                <p>Motivation des Vertrages: Bewahrung des auf 1648 (1650) zurückgehenden
+                    Friedenszustandes; Schutz vor im Reich schweldenden Unruhen. Vertragspartner
+                    <lb/> Art.1 Defensivbündnis, v. a. nicht gegen Kaiser und Reich gerichtet.
+                    Wahrung des durch den Westphälischen Frieden geschaffenen Status quo.
+                    Beistandspakt der Vertragspartner gegen innere und äußere Angriffe.
+                    Verpflichtung zu friedlichem Verhalten (auch untereinander). Militärischer
+                    Beistand. Konfliktbeilegung. Nichteinmischung in laufende Kriege (Schweden,
+                    Polen, Brandenburg). Waffenhilfe für Schweden (und Brandenburg) im Fall eines
+                    (polnischen) Angriffs in bestimmten Reichskreisen(niedersächsischer,
+                    westphälischer Reichskreis). Bestätigung der schwedischen Besitzungen im Reich.
+                    Keine Assistenz im Falle eines schwedischen Angriffs auf Brandenburg in diesen
+                    beiden Reichskreisen. <lb/> Art.2 Koordinierte Hilfeleistung der Konföderierten
+                    untereinander bei Angriff von Aussen, inneren Unruhen oder Bündnisbruch. <lb/>
+                    Art.3 Verletzung eines Konföderierten, Bundeshilfe. Verbündete unterstützen den
+                    Angegriffenen bei der Verfolgung des Aggressors (auch bis in dessen eigenes
+                    Territorium) bis hin zu erreichter Wiedergutmachung. <lb/> Art. 4 Werden zwei
+                    oder mehrere (benachbarte) Konföderierte gleichzeitig angegriffen, erhält der
+                    als erster um Hilfe Nachsuchende die Unterstützung. Der Kriegsrat entscheidet
+                    über das weitere Vorgehen und über die den anderen (entfernt gelegenen)
+                    Angegriffenen zustehende Hilfe. Regelungen für die Waffenhilfe. <lb/> Art. 5
+                    Bündnis steht nicht den Pflichten im Reich entgegen. Nachdrückliche
+                    Verpflichtung der Bündnismitglieder auf Reichsexekutionsordnung, Kreisverfassung
+                    sowie auf den Westphälischen Frieden und dessen Generalgarantie. Bundeshilfe.
+                    <lb/> Art. 6 Verpflichtung zur Ordnung und zum Unterhalt einer eigenen
+                    Landesverteidigung. Zahlenmäßige Festschreibung der Kontingente im Bündnisfall.
+                    Diese können, wenn die Lage es erfordert, auch vergrößert werden. <lb/> Art. 7
+                    Kann ein Mitglied seine Hilfe nicht leisten, da es selbst angegriffen wurde, so
+                    sollen ihm die anderen Alliierten dennoch Hilfe leisten. <lb/> Art. 8 Kommando
+                    und Justiz obliegen jedem Landesfürsten, solange der Bündnisfall nicht
+                    eingetreten ist. <lb/> Art. 9 Aufteilung der Justiz im Bündnisfall zwischen den
+                    Fürsten (und dessen Oberkommandanten) und dem Generalkommando/Kriegsrat. <lb/>
+                    Art. 10 Generalkommando, Militäreinsätze. Gleichberechtigung. Das Oberkommando
+                    erhält der Landesfürst, in dessen Land die Hilfe geleistet wird. Absprache mit
+                    Kriegsrat. Vereinigtes Unterkommando möglich. <lb/> Art. 11 Einsatz außerhalb
+                    der verbündeten Lande: Oberkommando erhält der Fürst, aus dessen Land man in
+                    loco tertio zieht. <lb/> Art.12 Benennung eines Beauftragten durch jedes
+                    Mitglied, die für die Umsetzung und Überwachung der vom Kriegsrat angeordneten
+                    Hilfe zuständig sind. <lb/> Art. 13 Oberkommando im Defensionsfall.
+                    Einbestellung beauftragter Offiziere der Alliierten. Entscheidungen durch den
+                    Kriegsrat auf Basis eines Mehrheitsbeschlusses. <lb/> Art. 14 Besoldung: Diese
+                    obliegt jedem Fürsten im eigenen Land. Im Bündnisfall erfolgt diese gemäß der
+                    vereinbarten Verpflegungsordonantz. <lb/> Art. 15 Verpflichtung zur Stellung der
+                    Leistung und Zahlung ohne Verzug. <lb/> Art. 16&nbsp; Der um Hilfe ersuchende
+                    Alliierte stellt für die Zeit der Stationierung in seinem Land die Versorgung
+                    (Brot, Obdach, Fourage); er erhält von den Verbündeten jedoch unverzüglich
+                    proportionale Bezahlung. Bei Mangel: Beschaffung aus dem Land des
+                    nächstgelegenen Alliierten. <lb/> Art.17 Justiz. Entschädigung. <lb/> Art.18
+                    Munitionsbeschaffung und -bestückung. Artillerie. <lb/> Art.19 Sofortige und
+                    unmittelbare Hilfe. <lb/> Art. 20 Verpflichtung zu Kommunikation und
+                    Information. <lb/> Art.21 Aufnahme weiterer Reichsfürsten in gegenseitigem
+                    Einverständnis. Bündnisrecht (gemäß 1648). <lb/> Art.22 Betonung des defensiven
+                    Charakters. Dauer: 3 Jahre; Verlängerungsverhandlungen ein halbes Jahr vor
+                    Bündnisablauf. <lb/> &nbsp; </p>
+            </div>
+        </front>
+        <body>
+            <div type="Edition">
+                <p> [Seite 1] <lb/>
+                    <lb/>&nbsp; <note n="1" type="crit_app">Lünig: Titel: Verbündniß einiger Chur-
+                        und Fürsten des heil Röm. Reichs die Erhaltung der Teutschen Freyheit, und
+                        des Westphälischen Friedens wie auch die Conservation ihrer Unterthanen
+                        wieder alle Gewalt-thätige Eingriffe betreffend aufgerichtet zu Franckfurt
+                        am May Anno 1658.</note>
+                    <lb/>Zu wissen seÿ<note n="2" type="crit_app">Kohl: seÿe (Kohl gibt eine
+                        Abschrift wieder, führt aber die Textvarianten zur Münsteraner Ratifikation
+                        an; diese sind nicht notiert).</note> hiemit<note n="3" type="crit_app">CTS,
+                        Theatrum Europaeum, Dumont, Lünig, Lundorp: hiermit.</note>: Alß&nbsp;<note
+                        n="4" type="crit_app">Abweichungen in der Schreibweise ß / ss werden nicht
+                        notiert, ebenso wie wie Unterschiede in Groß/-Kleinschreibung und
+                        Interpunktion.</note> nachdem in <lb/>Anno<note n="5">CTS, Dumont, Lundorp:
+                        Auslassung „Anno“.</note> 1648<note type="crit_app" n="6">Theatrum
+                        Europaeum, Lünig: Ein Tausend Sechshundert Acht und Vierzig (Ausschreibung
+                        der Ziffern auch im Folgenden).</note> den 14.<note n="7">CTS, Dumont,
+                        Lundorp: Einschub: Tag. Theatrum Europaeum: den vierzehenden.</note>
+                    Octobr[is] zu Münster und Oßna- <lb/>brugh<note n="8" type="crit_app">Kohl:
+                        Osnabrück. Dumont, CTS, Theatrum Europaeum, Lundorp, Lünig:
+                        Osnabruck.</note> getroffenen Friedenschluß und am 26. Junii <lb/>des 1650.
+                    Jahrs zu Nürnberg aufgerichteten<note n="9" type="crit_app">CTS, Theatrum
+                        Europaeum, Dumont, Lundorp: auffgerichteten (Doppelung f / ff im folgenden
+                        nicht mehr notiert). Lünig: aufgerichten.</note> Executions- <lb/>Recess
+                        <note n="10" type="annotation">Der Nürnberger Executionstag (1649-1651)
+                        regelte (zum Teil) 1648 offen gebliebene Einzelfragen im Nürnberger
+                        Reichs-Friedensrecess vom 26. Juni 1650 (v.a. Fragen der Demobilisierung,
+                        Gebietsräumungen und Finanzen). Vgl. Antje Oschmann: Der Nürnberger
+                        Exekutionstag 1649-1650. Das Ende des Dreißigjährigen Krieges in Deutschland
+                        (= Schriftenreihe der Vereinigung zur Erforschung der Neueren Geschichte
+                        e.V. 17), Münster 1991.</note> sich die gefehrliche<note n="11"
+                        type="crit_app">CTS, Dumont, Theatrum Europaeum, Lünig, Lundorp:
+                        gefährliche.</note> motus im Heÿl[igen]. R&lt;ö&gt;mischen Reich noch
+                    <lb/>nicht allerdings gelegt, sondern einiger orthen<note n="12" type="crit_app"
+                        >CTS, Dumont ,Theatrum Europaeum, Lünig, Lundorp: Orten. Kohl:
+                        ohrten.</note> beschwerliche <lb/>und fast unleidliche<note n="13"
+                        type="crit_app">CTS, Dumont, Kohl, Lundorp: unleidenliche.</note>
+                    Vergewaltigungen vorgangen, und ver- <lb/>schiedene einquartierung<note n="14"
+                        type="crit_app">CTS: Einquartirungen. Dumont, Theatrum Europaeum, Lünig,
+                        Lundorp: Einquartierungen.</note>, Durchzü&lt;e&gt;ge<note n="15"
+                        type="crit_app">Kohl: durchzüg.</note>, Krieges exactiones <note n="16"
+                        type="crit_app">CTS, Dumont, Theatrum Europaeum, Lundorp: Kriegs-Exactiones
+                        (auch im folgenden). Lünig: Kriegs-Executiones.</note>, be- <lb/>legung<note
+                        n="17" type="crit_app">CTS, Dumont, Lünig, Lundorp: Belegungen. Theatrum
+                        Europaeum: Belegunge. Kohl: belägungen.</note> und andere dem Krieg
+                    anhangende Thätligkeiten<note n="18" type="crit_app">CTS, Dumont, Lünig,
+                        Lundorp: Thätigkeiten. Theatrum Europaeum: Thätlichkeiten. Kohl:
+                        thaedtligkeiten.</note>
+                    <lb/>undt<note n="19" type="crit_app">CTS, Dumont, Theatrum Europaeum, Lünig,
+                        Kohl, Lundorp: und (diese Schreibweise im gesamten Text).</note> insolentien
+                        vorgedachtem<note n="20" type="crit_app">Kohl: vorgemeltem.</note>
+                    Friedenschluß und andern <lb/>heilsahmen<note n="21" type="crit_app">CTS:
+                        heylsahmen. Dumont , Theatrum Europaeum, Lundorp: heylsamen. Lünig:
+                        heilsamen.</note> Reichs Satzungen zugegen wieder<note n="22"
+                        type="crit_app">CTS, Dumont, Lundorp: zu gegen wider. Theatrum Europaeum,
+                        Lünig: wider (auch im folgenden).</note> unterschiedliche<note n="23"
+                        type="crit_app">Kohl: underschiedtliche.</note>
+                    <lb/>Chur- Fürsten undt Stände<note n="24" type="crit_app">Kohl: ständte.</note>
+                    des Reichs verübt worden, <lb/>daß beÿ solcher bewandnüs<note n="25"
+                        type="crit_app">Lünig: Bewandniß. Kohl: bewandtnus.</note> und nicht<note
+                        n="26" type="crit_app">Kohl: nit.</note> unzeitig ferner be- <lb/>sorgender
+                    gefahr die respective Hochwürdigste Durch- <lb/>läuchtigste, Hochwürdige undt
+                        Dürchläuchtige<note n="27" type="crit_app">Theatrum Europaeum: Auslassung
+                        „und Durchleuchtige“. Lünig, Lundorp: hochwürdig.</note> Chur- [und]
+                    <lb/>Fürsten, Herr <ref
+                        target="http://www.historicum.net/themen/erster-rheinbund-1658/akteure/vertragschliessende-parteien/mainz/johann-philipp-von-schoenborn/"/>
+                    <ref
+                        target="http://www.historicum.net/themen/erster-rheinbund-1658/akteure/vertragschliessende-parteien/mainz/johann-philipp-von-schoenborn/"
+                        ><rs ref="#pp0318">Johan Philip</rs>, Erzbischoff zu </ref>Maintz<note n="28" type="annotation"
+                        >CTS, Dumont, Theatrum Europaeum, Lünig, Lundorp: Johann-Philipp
+                        Ertzbischoff zu Maÿntz.(Schreibweise „Ertz“ im gesamten Text). Johann
+                        Philipp Schönborn (1605-1673), Churfürst, (Erz)Bischof von Mainz (1645/47),
+                        Würzburg (1642) und Worms (1663). Teilnehmer und Mitgestalter am
+                        Westphälischen Friedenskongress. Literatur: u.a. Peter Claus Hartmann, Die
+                        Mainzer Kurfürsten des Hauses Schönborn als Reichserzkanzler und
+                        Landesherren. Frankfurt am Main u.a. 2002, Claude Badalo-Dulong, Trente ans
+                        de diplomatie française en Allemagne. Louis XIV et l´électeur de Mayence
+                        (1648-1678). Paris 1956. Verweis" </note>&nbsp;&nbsp;&nbsp; <lb/>des
+                    Hey[ligen] R&lt;ö&gt;m[ischen] Reichs durch Germanien Erz Canzler<note n="29"
+                        type="crit_app">CTS, Dumont, Theatrum Europaeum, Lünig, Lundorp:
+                        Ertz-Cantzler. Kohl: ertzcantzler. (auch im weiteren Text).</note> undt
+                    <lb/>Churfürst, Bischoff zu Würzburg<note type="crit_app" n="30">CTS, Dumont
+                        ,Theatrum Europaeum, Lünig, Kohl: Würtzburg.</note> und Herzog<note
+                        type="crit_app" n="31">Kohl: hertzogh (auch im Folgenden). CTS, Dumont,
+                        Theatrum Europaeum, Lünig, Lundorp: Hertzog in. (Schreibweise Hertzog im
+                        gesamten Text).</note> zu Fran- <lb/>cken p. Herr <rs ref="#pp0287">Carl Casper</rs><note n="32"
+                        type="crit_app">Theatrum Europaeum, Lünig, Lundorp: Carl Caspar Ertzbischoff
+                        (Schreibweise im gesamten Text).</note>, Erzbischoff<note n="33"
+                        type="crit_app">CTS, Dumont, Kohl: Carl-Caspar Ertzbischoff (Schreibweise im
+                        gesamten Text).</note> zu Trier &nbsp; <lb/>des Heÿl[igen]
+                    R&lt;ö&gt;m[ischen] Reichs durch Gallien und des Königreichs<note n="34"
+                        type="crit_app">Kohl: königreich.</note>
+                    <lb/>Arelaten Erz Canzler undt Churfürst, Administrator <lb/>zur Prüm<note
+                        n="35" type="crit_app">CTS, Dumont, Theatrum Europaeum, Lünig, Kohl,
+                        Lundorp: Prümb.</note> p. Herr<rs ref="#pp0288"><ref
+                        target="http://www.historicum.net/themen/erster-rheinbund-1658/akteure/vertragschliessende-parteien/koeln/maximilian-heinrich/"
+                            >Maximillian</ref> Heinrich</rs><note n="36" type="crit_app">Kohl: Henrich.
+                        Maximilian Heinrich (1621-1688), Kurfürst von Köln, Bischof von Hildesheim
+                        und Lüttich, ab 1683 auch Bischof von Münster.</note>, Erz <lb/>Bischoff zu
+                        Cölln<note n="37" type="crit_app">Kohl: Cöln.</note>, des Heÿl[igen]
+                    R&lt;ö&gt;m[ischen] Reichs durch Italien <lb/>Erz Canzler undt Churfürst,
+                    Bischoff zu Hildesheimb <lb/>undt Lüttich<note n="38" type="crit_app">CTS,
+                        Dumont, Lundorp: Hildesheim und Lüttig. Theatrum Europaeum, Kohl:
+                        Hildesheimb und Lüttig. Lünig: Lüttigh.</note>, Administrator zu
+                        Bergtesgaden&nbsp;<note n="39" type="crit_app">CTS, Dumont, Lünig, Lundorp:
+                        Berchtesgaden. Theatrum Europaeum: Berchtesgaaden.</note> undt <lb/>
+                    <lb/>[Seite 2] <lb/>
+                    <lb/>Stablo, in Ober- undt Nieder Baÿern, auch der Obern <lb/>Pfaltz, in
+                        Westphalen<note n="40" type="crit_app">Theatrum Europaeum:
+                        Auslassung.</note>, zu Engern und Bullion&nbsp;<note n="41" type="crit_app"
+                        >Theatrum Europaeum: Boullion.</note> Herzog, Pfaltz <lb/>Graff&nbsp;<note
+                        n="42" type="crit_app">Theatrum Europaeum, Lünig: Pfaltzgraf bey.</note>;
+                        beÿm<note n="43" type="crit_app">CTS, Dumont, Kohl, Lundorp: bey.</note>
+                    Rhein, Landgraff<note n="44" type="crit_app">Kohl: landtgraff.</note> zu
+                        Leuchtenberg<note n="45" type="crit_app">Kohl: Leichtenberg.</note>,
+                    Marggraff <lb/>zu Franchimont<note n="46" type="crit_app">Kohl:
+                        Franchimondt.</note> p.<note n="47" type="crit_app">Kohl: Umstellung;
+                        Reihenfolge: „Friedrich Wilhelmb, Marggraff zu Brandenburg ... Christoph
+                        Bernhard, bischof zu Münster ... Philipp Wilhelm, Pfaltzgraff bey Rhein, ...
+                        ihre königliche Mayestät zu Schweden“; beginnend mit: „herr Friedrich
+                        Wilhelmb, marggraff zu Brandeburg, des Heiligen Römischen Reichs
+                        ertzcämmerer und churfürst, zu Magdeburg, in Preußen, zu Gülich, Cleve und
+                        Berg, Stettin, Pommeren, der Caßuben und Wenden, auch in Schlesien, zu
+                        Croßen und Jegerendorff hertzogh, burggraff zu Nürenberg, fürst zu
+                        Halberstatt und Minden, graff zu der Marck und Ravensbpurg, herr zu
+                        Ravenstein etc.“" </note> <rs ref="#pp0289">Herr Christopff</rs><note n="48" type="crit_app">CTS,
+                        Dumont, Lünig, Lundorp: Christoph Bernhard.</note> Bernhardt, Bischoff
+                    <lb/>zu Münster<note n="49" type="crit_app">Christoph Bernhard von Galen
+                        (1606-1678), seit 1650 Bischof von Münster.</note>, des Heÿl[igen]
+                    R&lt;ö&gt;m[ischen] Reichs Fürst, Burggraff <lb/>zu Stromberg undt Herr zu
+                        Borcklohe<note n="50" type="crit_app">CTS, Theatrum Europaeum, Lundorp:
+                            Borckloh. Lünig: Borckelohr.</note> p. Herrn <rs ref="#pp0290"><ref
+                        target="http://www.historicum.net/themen/erster-rheinbund-1658/akteure/vertragschliessende-parteien/pfalz-neuburg/pfalzgraf-philipp-wilhelm/"
+                        >Philip</ref><note n="51" type="crit_app">CTS, Dumont, Theatrum Europaeum,
+                        Lünig, Lundorp: Philipps Wilhelm. Philipp Wilhelm (1615-1690), ab 1653
+                        Pfalzgraf, Herzog von Pfalz Neuburg, Herzog von Jülich und Berg, ab 1685
+                        Herzog von Bayern und der Pfalz.</note> Wil- <lb/>helm, Pfaltzgraff,
+                    Pfaltzgraff beÿ Rhein, in Baÿern, zu Guelich, Cleve <lb/>und Bergh</rs><note n="52"
+                        type="crit_app">CTS, Dumont, Theatrum Europaeum, Lünig, Lundorp, Kohl:
+                        Berg.</note> Herzog, Graff zu Veldentz<note n="53" type="crit_app">Kohl:
+                        ztu. CTS, Dumont, Lundorp: Valdentz.</note>, Sponheimb<note n="54"
+                        type="crit_app">CTS, Dumont ,Theatrum Europaeum, Lünig, Lundorp:
+                        Sponheim.</note>, der <lb/>Marck, Ravens&lt;b&gt;urg&nbsp;<note n="55"
+                        type="crit_app">CTS, Dumont, Theatrum Europaeum, Lünig, Lundorp, Kohl:
+                        Ravensberg.</note> und Möers, Herr zu Ravenstein p. <lb/>Ihr&lt;e&gt; <rs ref="#pp0137"><ref
+                        target="http://www.historicum.net/themen/erster-rheinbund-1658/akteure/vertragschliessende-parteien/schweden-fuer-bremen-und-verden/"
+                        >Königl[iche] Maÿest[ä]t zu</ref><note n="56" type="crit_app">Karl X. Gustav
+                            (1622-1660), König von Schweden.</note> Schweden</rs>, alß Herzog zu Bremen
+                        <lb/>undt<note n="57" type="crit_app">Kohl: Einschub: Pommeren und.</note>
+                    Vehrden, und Herr<note n="58" type="crit_app">Dumont: Herrn.</note> zu Wißmar,
+                    (mit Vorbehalt, <lb/>daß da nach endigung des Pohlnischen<note n="59"
+                        type="crit_app">CTS, Dumont, Theatrum Europaeum, Lünig, Lundorp, Kohl:
+                        polnischen.</note> und dahero rührenden <lb/>Kriegen Ihr&lt;o&gt;
+                    Königl[iche] Mayes]t[ä]t auch alß Herzog zu Pommern <lb/>mit eintreten
+                        wollen<note n="60" type="crit_app">CTS, Dumont, Lundorp: eintretten wolten.
+                        Lünig: wollten.</note> sie alsdan<note n="61" type="crit_app">CTS, Dumont,
+                        Theatrum Europaeum, Lünig, Lundorp: alsdann.</note> eingenommen werden
+                        sollen.<note n="61" type="crit_app">CTS: sollten. Dumont, Theatrum
+                        Europaeum, Lünig, Lundorp: solten. Kohl: Parenthese fehlt.</note>)
+                    <lb/>Herr<rs ref="#pp0291">
+                        <ref
+                        target="http://www.historicum.net/themen/erster-rheinbund-1658/akteure/vertragschliessende-parteien/braunschweig-lueneburg/august-der-juengere-wolfenbuettel/"
+                        >Augustus Herzog zu Braunschweig und </ref>Lüneburgh</rs><note n="62"
+                        type="crit_app">CTS, Dumont, Theatrum Europaeum, Lünig, Lundorp, Kohl:
+                        Lüneburg (auch im Folgenden). August der Jüngere (1579-1666), Herzog von
+                        Braunschweig-Lüneburg-Wolfenbüttel.</note> p. <lb/>Herr <rs ref="#pp0292"><ref
+                        target="http://www.historicum.net/themen/erster-rheinbund-1658/akteure/vertragschliessende-parteien/braunschweig-lueneburg/christian-ludwig-celle/"
+                        >Christian </ref>Ludewieg<note n="63" type="crit_app">CTS, Dumont, Theatrum
+                        Europaeum, Lünig, Lundorp, Kohl: Ludwig. Christian Ludwig (1622-1665),
+                        Herzog von Braunschweig–Lüneburg-Celle.</note>, Herzog zu Braunschweig undt
+                            <lb/>Lüneburgh</rs> p. Herr <rs ref="#pp0246"><ref
+                        target="http://www.historicum.net/themen/erster-rheinbund-1658/akteure/vertragschliessende-parteien/braunschweig-lueneburg/georg-wilhelm-calenberg/"
+                        >Georg </ref><note n="64" type="crit_app">Lünig: George. Kohl: Wilhelmb.
+                        Georg Wilhelm (1624-1705), Herzog von
+                        Braunschweig-Lüneburg-Calenberg.</note>Wilhelm Herzog zu&lt;e&gt;
+                                <lb/>Braunschweig undt Lüneburg</rs> p. <rs ref="#pp0293">Herr Wilhelm<note n="65" type="crit_app"
+                        >Kohl: Wilhelmb. Wilhelm VI. (1629-1663), Landgraf von
+                    Hessen-Kassel.</note>, <ref
+                        target="http://www.historicum.net/themen/erster-rheinbund-1658/akteure/vertragschliessende-parteien/hessen-kassel/wilhelm-vi/"
+                        >Land <lb/>Graff zu He&lt;ß&gt;en</ref></rs>, Fürst zu Hir&lt;ßfelt&gt;<note
+                        n="66" type="crit_app">Kohl: Hirschfelt.</note>, Graff zu Catzen-
+                        <lb/>elenbogen<note n="67" type="crit_app">Dumot, CTS, Lundorp, Lünig,
+                        Theatrum Europaeum: Catzenelnbogen. Kohl: Catzenellenbogen.</note>, Dietz,
+                        Ziegenheimb<note n="68" type="crit_app">CTS, Dumont, Lundorp: Ziegenhain.
+                        Theatrum Europaeum, Lünig: Ziegenhein.</note>, Nidda<note n="69"
+                        type="crit_app">Lünig: Nida. Kohl: Nitta.</note> und Schauenburg<note n="70"
+                        type="crit_app">Dumot, CTS, Lundorp, Lünig, Kohl: Schaumburg.</note> p.
+                    <lb/>sich nicht unbillig<note n="71" type="crit_app">CTS, Dumont, Theatrum
+                        Europaeum, Lundorp: unbillich.</note> und mit schuldiger Sorgfalt erinnert,
+                    <lb/>daß Sie Krafft tragenden hohen Landesfürstl[ichen] Ambts<note n="72"
+                        type="crit_app">CTS, Dumont, Lundorp: Ampts. Theatrum Europaeum:
+                        Ammts.</note>
+                    <lb/>und nach anweisung der Natürlichen Vernunfft ver- <lb/>bunden sich und alle
+                        jede<note n="73" type="crit_app">Kohl: jehde.</note> Ihro von Gott anbefoh-
+                    <lb/>lene im<note n="74" type="crit_app">CTS, Dumont , Theatrum Europaeum,
+                        Lünig, Lundorp: Einschub: H[eiligen].</note> R&lt;ö&gt;m[ischen] Reich
+                        an<note n="75" type="crit_app">Kohl: ahn.</note> Chur- und
+                        Fürstenthumben<note n="76" type="crit_app">CTS, Dumont, Theatrum Europaeum,
+                        Lünig: Fürstenthümern. Lundorp: Fürstenthümen.</note>
+                    <lb/>
+                    <lb/>[Seite 3] <lb/>
+                    <lb/>Graff- undt Herrschaften<note n="77" type="crit_app">Kohl:
+                        herschaften.</note> inhabende Landt <lb/>undt Leute<note n="78"
+                        type="crit_app">CTS, Dumont, Lünig, Theatrum Europaeum, Lundorp: Land und
+                        Leut (im gesamten Text). Kohl: landt und leuthe (im gesamten Text).</note>
+                    beÿ dem Westphälischen Frieden undt <lb/>deßen genoß bester möglichkeit<note
+                        n="79" type="crit_app">Kohl: müglichkeit.</note> zu schützen, und zu
+                        ver-<lb/>thätigen<note n="80" type="crit_app">CTS, Dumont, Theatrum
+                        Europaeum, Lundorp: verthädigen.</note>, und daher<note n="81"
+                        type="crit_app">CTS, Dumont, Theatrum Europaeum, Lünig, Lundorp, Kohl:
+                        dahero.</note> in Zeiten solche Versehung<note n="82" type="crit_app">CTS,
+                        Dumont, Theatrum Europaeum, Lundorp: Vorsehung.</note> zuma- <lb/>chen,
+                        wodurch<note n="83" type="crit_app">Theatrum Europaeum, Lünig: wordurch.
+                        Kohl: wardurch.</note> Sie<note n="84" type="crit_app">Kohl: die.</note> von
+                    sich und den Ihrigen allen gewaltsamen <lb/>überfall abwehren, und auf
+                    obbedeuteten, wie auch an- <lb/>dere dergleichen nohtfälle<note n="85"
+                        type="crit_app">CTS, Dumont, Theatrum Europaeum, Lundorp: Nothfäll.</note>
+                    nach anweisung der Reichs <lb/>Executions ordnung<note n="86" type="crit_app"
+                        >CTS, Dumont, Theatrum Europaeum, Lünig, Lundorp: Executions-Ordnung. Die
+                        Reichsexecutionsordnung, beschlossen 1555 auf dem Augsburger Reichstag,
+                        regelte (auf der Basis von 1512) die inneren Verhältnisse des Reiches,
+                        v.a.mit dem Versuch, das Landfriedensgebot institutionell zu verankern und
+                        durchzusetzen. Literatur u.a.: Axel Gotthard, Das Alte Reich. Darmstadt
+                        2003.</note> und Friedenschluß<note n="86" type="crit_app">Kohl:
+                        Friedenschlußes.</note>, sonderlich aber <lb/>dieses darauff gegründeten
+                        Recess<note n="87" type="crit_app">Kohl: begründeten reces.</note> einander
+                    mit wür- <lb/>cklicher macht beÿspringen und behülflich sein<note n="88"
+                        type="crit_app">CTS, Dumont, Theatrum Europaeum, Lünig, Lundorp, Kohl: seyn
+                        (im gesamten Text).</note> mögen, <lb/>Und solchem nach sich heute<note
+                        n="89" type="crit_app">CTS, Dumont Theatrum Europaeum, Lünig, Lundorp, Kohl:
+                        heut.</note> dato vor Sich, Ihre Succes- <lb/>sores, Erben und Nachkommen,
+                    durch Ihre<note n="90" type="crit_app">Lünig: Auslassung ab hier bis „abgesetzte
+                        Maaß verglichen“.</note> abgeschickte <lb/>zu dieser Sach instruirte und
+                        Gevollm&lt;e&gt;chtigte<note n="91" type="crit_app">CTS, Dumont, Theatrum
+                        Europaeum: Gevollmächtigte. Kohl: gevolmechtigte.</note> Geheime
+                    <lb/>Ministros, Rähte<note n="91" type="crit_app">CTS, Dumont, Theatrum
+                        Europaeum, Lundorp: Räth. Kohl: rhäte. Lünig: Räthe.</note> undt
+                        Abgesandten<note n="92" type="crit_app">Kohl: abgesante.</note> zu
+                    obbedeutetem <lb/>ende<note n="93" type="crit_app">CTS, Dumont, Theatrum
+                        Europaeum, Lundorp: End. Kohl: Auslassung.</note> auf nachgesetzte maeß<note
+                        n="94" type="crit_app">CTS, Dumont ,Theatrum Europaeum, Lünig, Lundorp:
+                        Maaß.</note> verglichen<note n="95" type="crit_app">Dumont, Theatrum
+                        Europaeum, Lundorp: vergliechen.</note>, und auf die <lb/>hierunter
+                        benambte<note n="96" type="crit_app">CTS, Dumont ,Theatrum Europaeum, Lünig,
+                        Lundorp: benamte.</note> Zeit einander vestiglich<note n="97"
+                        type="crit_app">CTS, Dumont, Theatrum Europaeum, Lünig, Lundorp: festiglich
+                        (auch unten).</note> ver- <lb/>sprochen haben, wie folget: <lb/>
+                    <lb/>1 &nbsp;&nbsp; &nbsp;Nemblich<note n="98" type="crit_app">CTS, Dumont,
+                        Theatrum Europaeum: Nemlich. Lünig: Nehmlich. Lundorp: Nemlich.</note>,
+                        vors<note n="99" type="crit_app">Kohl: fürs.</note> erste, daß diese
+                    Vereinig- und Verfaßung <lb/>zu keines Menschen Offension,<note n="100"
+                        type="crit_app">Kohl: Auslassung ab hier bis „zu Erweck…“.</note> am
+                    allerwenigsten aber <lb/>wieder<note n="101" type="crit_app">CTS, Dumont,
+                        Theatrum Europaeum, Lundorp: wider (im gesamten Text).</note> die <rs ref="#p0001">Röm[ische]
+                    Kayserl[iche] Maÿ[es]t[ä]t<note n="102" type="annotation">Leopold I.
+                        (1640-1705), seit 1658 Kaiser.</note> und das Heÿl[ige] Röm[ische]<note
+                        n="103" type="crit_app">CTS, Dumont, Theatrum Europaeum, Lünig:
+                        Wortauslassung.</note>
+                    <lb/>Reich</rs> oder Zuerweck- und anrichtung einer<note n="104" type="crit_app"
+                        >Kohl: einiger.</note> univer- <lb/>sal oder particular unruhe im Heÿl[igen]
+                    R&lt;ö&gt;m[ischen] Reich oder <lb/>sich in frembde<note n="105" type="crit_app"
+                        >Theatrum Europaeum, Lünig: fremde.</note> Krieg zu impliciren und
+                    einzumischen, son- <lb/>dern allein zu erhaltung eines jeden<note n="106"
+                        type="crit_app">Kohl: jehde (im gesamten Text).</note> zustehenden<note
+                        n="107" type="crit_app">Kohl: zustehende.</note> Recht<note n="108"
+                        type="crit_app">Theatrum Europaeum: Rechts.</note>
+                    <lb/>und Gerechtsambkeiten<note n="109" type="crit_app">CTS, Dumont, Theatrum
+                        Europaeum, Lünig, Lundorp: Gerechtsamkeiten.</note>, sonderlich aber der
+                    teutschen <lb/>Freÿheit und bestendigen<note n="110" type="crit_app">CTS,
+                        Dumont,Theatrum Europaeum, Lünig, Lundorp: beständigen.</note> genoß des
+                    Westphälischen <lb/>
+                    <lb/>[Seite 4] <lb/>
+                    <lb/>Friedens<note n="111" type="crit_app">Kohl: friedensschluß.</note>, wie
+                    auch sich und Ihre allerseits im Heÿl[igen] <lb/>Reich habende Landt und Leüthe
+                        vom<note n="112" type="crit_app">CTS, Dumont, Theatrum Europaeum, Lünig,
+                        Lundorp: von.</note> Beschluß dieses foe- <lb/>deris an, wieder alle
+                    gewaltthätige angriff<note n="113" type="crit_app">CTS, Dumont: Eingrieff.
+                        Theatrum Europaeum, Lundorp: Eingrieff. Lünig: Eingriffe. Kohl:
+                        angrieff.</note> (ob schon <lb/>dieselbe sonst<note n="114" type="crit_app"
+                        >Lundorp: Auslassung.</note> vor die general Guarantie gehörig <lb/>
+                        wehren)<note n="115" type="crit_app">CTS, Dumont, Theatrum Europaeum, Lünig,
+                        Lundorp: wären. Kohl: weren.</note> Einquartierung, Dürchzüge<note n="116"
+                        type="crit_app">CTS, Dumont, Theatrum Europaeum, Lünig, Lundorp:
+                        Durchzüge.</note>, Musterplätze<note n="117" type="crit_app">Kohl:
+                        musterplätz.</note>, <lb/>Kriegesexactiones, Contributiones und andere<note
+                        n="118" type="crit_app">Kohl: Auslassung „Contributiones und andere“.</note>
+                        Zunötigung<note n="119" type="crit_app">CTS, Dumont, Theatrum Europaeum,
+                        Lünig, Lundorp: Zunöthunge. Kohl: zunötigungen.</note>
+                    <lb/>wie die nahmen<note n="120" type="crit_app">CTS, Dumont , Theatrum
+                        Europaeum, Lundorp: Namen.</note> haben, und von wehme<note n="121"
+                        type="crit_app">CTS, Dumont: wen. Theatrum Europaeum, Lünig, Lundorp:
+                        wem.</note> dieselbe herrühren <lb/>mögen<note n="122" type="crit_app">Kohl:
+                        mügen.</note>, wie auch wieder alle innerliche empörungen zu
+                    <lb/>conserviren, zu defendiren und zu retten angesehen und ge- <lb/>meint<note
+                        n="123" type="crit_app">CTS, Dumont, Theatrum Europaeum, Lünig, Lundorp:
+                        gemeynt.</note> sein solle, Also daß die Confoederirte ohne un-
+                        <lb/>terscheid<note n="124" type="crit_app">Theatrum Europaeum: Unterschied.
+                        Kohl: unterschiedt.</note> der Religion einander in rechten Vertrawen
+                        meinen<note n="125" type="crit_app">CTS, Dumont, Theatrum Europaeum, Lünig,
+                        Lundorp: Vertrauen meynen.</note>
+                    <lb/>zu obgedachtem endt<note n="126" type="crit_app">CTS, Dumont, Theatrum
+                        Europaeum, Lundorp: End. Lünig: Ende.</note> in consiliis et actionibus
+                    festiglich <lb/>und unaußgesetzt<note n="127" type="crit_app">Theatrum
+                        Europaeum: ohnausgesetzt.</note> beÿ einander stehen, auch auß allen
+                    <lb/>Begebenheiten, worauß besagte Unruhe<note n="128" type="crit_app">Kohl:
+                        unruhen.</note> entstehen und dar- <lb/>auf<note n="129" type="crit_app"
+                        >Kohl: Auslassung.</note> die hierinnen versprochene assistentz erfordert
+                    werden <lb/>mochte<note n="130" type="crit_app">CTS, Dumont: möchte. Theatrum
+                        Europaeum: möchten. Lünig, Lundorp: möchte. Kohl: mügte.</note>, vorhero und
+                    zeitig miteinander<note n="131" type="crit_app">Lünig, Lundorp: einander.</note>
+                    communiciren, <lb/>keiner aber einigen<note n="132" type="crit_app">Kohl:
+                        einigem.</note> Standt&nbsp;<note n="133" type="crit_app">Theatrum
+                        Europaeum, Lünig : Stand.</note> des Reichs oder frembden<note n="134"
+                        type="crit_app">Theatrum Europaeum: fremden.</note>
+                    <lb/>Cronen<note n="135" type="crit_app">Kohl: chronen.</note>, Potentaten undt
+                    Republiquen zu feindlicher<note n="136" type="crit_app">Kohl:
+                        feindtlicher.</note> inva- <lb/>sion uhrsach<note n="137" type="crit_app"
+                        >CTS, Dumont, Theatrum Europaeum, Lünig, Lundorp: Ursach.</note> geben,<note
+                        n="138" type="crit_app">Kohl: Einschub: „noch in die zwischen frembden
+                        chronen und potentaten sich enthaltende krieg directe vel indirecte sich
+                        einmischen“.</note> auch die Confoederirte unter sich selbst<note n="139"
+                        type="crit_app">Kohl: selbsten.</note>
+                    <lb/>bestendige<note n="140" type="crit_app">CTS, Dumont, Theatrum Europaeum,
+                        Lünig, Lundorp: beständige.</note> Freundschafft<note n="141"
+                        type="crit_app">Kohl: freundtschaft.</note> erhalten, und keiner den andern
+                    <lb/>mit thätligkeit<note n="142" type="crit_app">CTS, Dumont, Lünig, Lundorp:
+                        Thätigkeit. Kohl: thädtlichkeiten. (auch unten)</note> oder gewalt
+                    überfallen, überziehen oder<note n="143" type="crit_app">Dumont, Theatrum
+                        Europaeum, Lundorp: und.</note>
+                    <lb/>beleidigen<note n="144" type="crit_app">CTS, Dumont, Lünig, Lundorp: und
+                        beleydigen.</note>, sondern seine gegen den andern habende Miß- <lb/>hell-
+                    und Streitigkeit<note n="145" type="crit_app">CTS, Dumont, Lundorp:
+                        Streittigkeit. Kohl: streitigkeiten.</note>, durch güt-<note n="146"
+                        type="crit_app">Theatrum Europaeum: gut. Kohl: gütt.</note> oder rechtliche
+                    mittel <lb/>entscheiden, und sich darmit<note n="147" type="crit_app">CTS,
+                        Dumont, Theatrum Europaeum, Lünig, Lundorp: damit.</note> begnügen lassen,
+                    und zu diesem <lb/> endt<note n="148" type="crit_app">CTS, Dumont, Theatrum
+                        Europaeum, Lünig, Lundorp: End.</note> der jenig<note n="149"
+                        type="crit_app">CTS, Dumont, Theatrum Europaeum, Lünig, Lundorp:
+                        derjenige.</note>, so sich wieder einen mit alliirten beschwert<note n="150"
+                        type="crit_app">CTS, Dumont, Theatrum Europaeum, Lünig, Lundorp: beschweret.
+                        Kohl: beschwereten.</note>, <lb/>dieselbe Beschwernüß<note n="151"
+                        type="crit_app">Lünig: Beschwernis.</note> zu deroselben forderligsten<note
+                        n="152" type="crit_app">CTS, Dumont, Lundorp: förderlichen. Lünig , Theatrum
+                        Europaeum: fürderlichen. Kohl: fürderligste.</note>
+                    <lb/>
+                    <lb/>[Seite 5] <lb/>
+                    <lb/>Hinlegung, den übrigen<note n="153" type="crit_app">CTS, Dumont, Lundorp:
+                        denen überigen. Theatrum Europaeum, Lünig: denen übrigen. Kohl:
+                        vorigen.</note> Alliirten in Zeiten zu verstehen <lb/>geben solle, auf den
+                        unverhofften<note n="154" type="crit_app">Kohl: unverhoffeten.</note> Fall
+                    aber, daß ein Con- <lb/>foederirter den andern angreiffen würde, welches<note
+                        n="155" type="crit_app">Kohl: welchs.</note> doch <lb/>nicht sein solle,
+                    alle übrige beÿsammen stehen pleiben<note n="156" type="crit_app">CTS, Dumont,
+                        Theatrum Europaeum, Lünig, Lundorp: bleiben.</note>, den Ag- <lb/>gressorem
+                    ernstlich von der Thätligkeit<note n="157" type="crit_app">Lünig: Thätigkeit.
+                        CTS, Dumont, Theatrum Europaeum, Lünig, Lundorp: Thätlichkeit.</note>
+                    abmahnen, nichts desto <lb/>weniger aber dem angegriffenen<note n="158"
+                        type="crit_app">CTS, Dumont, Lundorp: Angegrieffenen.</note> auf<note
+                        n="159" type="crit_app">Dumont, Lünig, Lundorp: uff.</note> deßelben erstes
+                    an- <lb/>suchen&lt;.&gt; wieder den de facto verfahrenden die schuldige Bundts-
+                        <lb/>hülff<note n="160" type="crit_app">CTS, Dumont,Theatrum Europaeum,
+                        Lundorp: Bundshülffe. Lünig: Bunds-Hülffe. Kohl: bundtshülff.</note>
+                    unverweigerlich und unverzüglich alsobalt<note n="161" type="crit_app">Kohl:
+                        alspalt.</note> nach geschehe- <lb/>ner<note n="162">Kohl:
+                        beschehener.</note> notification zuschicken und leisten,<note n="162"
+                        type="crit_app">CTS, Dumont, Lundorp: leysten. Lünig: zu leisten.</note>
+                    jedoch zu gleich und pari<note n="163" type="crit_app">Theatrum Europaeum,
+                        Lünig, Lundorp: jedoch und zugleich pari.</note>
+                    <lb/>passu dahin trachten sollen, damit die zwischen den strittigen
+                    <lb/>hafftende und zur Thätligkeit<note n="164" type="crit_app">Lünig:
+                        Thätigkeit.</note> gerahtenen<note n="165" type="crit_app">CTS, Dumont,
+                        Theatrum Europaeum, Lünig, Lundorp: gerathene Mißhelligkeit.</note>
+                    misshelligkeiten <lb/>(Jedoch daß durch die interposition keinem theil und
+                    insonder- <lb/>heit den<note n="166" type="crit_app">CTS, Dumont, Theatrum
+                        Europaeum, Lünig, Lundorp: dem.</note> Beleidigten mit aufhaltung der Hülff
+                    kein præjuditz<note n="167" type="crit_app">Kohl: Praejudiz.</note>
+                        wie-<lb/>derfahre)<note n="168" type="crit_app">CTS, Dumont, Theatrum
+                        Europaeum, Lundorp: widerfahre.</note> nach billig<note n="169">CTS, Dumont,
+                        Theatrum Europaeum, Lundorp: billich.</note> befundenen dingen in<note
+                        n="170" type="crit_app">CTS, Dumont, Theatrum Europaeum, Lünig, Lundorp:
+                        Einschub: „der“.</note> güte beÿgelegt <lb/>werden möge<note n="171"
+                        type="crit_app">Lünig, Lundorp: mögen. Kohl: können.</note>, Worbeÿ<note
+                        n="172" type="crit_app">Kohl: restlicher Text des Art. 1 fehlt.</note>
+                        dan<note n="173" type="crit_app">CTS, Dumont, Lünig, Lundorp: denn. Theatrum
+                        Europaeum: den.</note> dieses absonderlich ver- <lb/>glichen, obwoll<note
+                        n="174" type="crit_app">CTS, Dumont, Theatrum Europaeum, Lundorp:
+                        vergliechen obwol. Lünig: obwohl.</note> die Alliirte weder in
+                        &lt;k&gt;egenwertigen<note n="175" type="crit_app">CTS, Dumont, Theatrum
+                        Europaeum, Lünig, Lundorp: gegenwärtigen.</note> Pohl- <lb/>nischen<note
+                        n="176" type="crit_app">Theatrum Europaeum: Polnischen.</note> Krieg<note
+                        n="177" type="annotation">Sog. „Zweiter Nordischer Krieg“ 1655-1660 zwischen
+                        Polen und Schweden (und Russland) mit Beteiligung Brandenburgs, Dänemarks
+                        und letztlich auch des Kaisers. Er endete am 5. Mai 1660 mit dem
+                        Datenbankverweis Frieden von Oliva. Dazu u.a. SCHNUR, Roman: Der Rheinbund
+                        von 1658 in der deutschen Verfassungsgeschichte. Bonn 1955, S. 45-49 (zum
+                        Nordischen Krieg) sowie Robert Frost, The Northern Wars: War, State and
+                        Society in Northeastern Europe 1558-1721. Harlow 2000 sowie ders. After the
+                        deluge Poland-Lithuania and the Second Northern War 1655 – 1660, Cambridge
+                        1993." </note> noch in die zwischen <rs ref="#pp0249">Ihro Königl[ichen] May[estä]t
+                            zu&lt;e&gt; <lb/>Schweden</rs> undt <rs ref="#pp0263">Churfürstl[iche] Durchl[auch]t zu
+                        Brandenburgh</rs><note type="annotation" n="178">CTS, Dumont, Theatrum Europaeum,
+                        Lünig, Lundorp: Brandenburg (auch im Folgenden). Friedrich Wilhelm
+                        (1620-1688), Kurfürst von Brandenburg. Wegen der Beteiligung Brandenburgs
+                        und des Kaisers befürchteten die Reichsstände (besonders seit dem
+                        schwedischen Erfolgen 1656) eine Involvierung in den Krieg im Norden." </note>
+                    <lb/>oder beederseits<note n="179" type="crit_app">CTS, Dumont, Theatrum
+                        Europaeum, Lünig, Lundorp: beyderseits.</note> confœderirter schwebende
+                    differentz <lb/>sich einzumischen gemeint<note n="180" type="crit_app">CTS,
+                        Dumont, Theatrum Europaeum, Lundorp: gemeynt. Lünig gemeynet.</note>, dahero
+                    auch dahin gestelt<note n="181" type="crit_app">CTS, Dumont, Theatrum Europaeum,
+                        Lünig, Lundorp: gestellet.</note> sein <lb/>laßen, was etwa in<note n="182"
+                        type="crit_app">Lünig: was in.</note> Pohlen<note n="183" type="crit_app"
+                        >CTS, Dumont, Theatrum Europaeum, Lundorp: etwan in Polen.</note>, Preüßen,
+                    Pommern und der <lb/>Marck Brandenburg gegen einander feindlich fürlauf-
+                    <lb/>fen möchte. Wann jedoch Ihr[e] Königl[iche] <lb/><rs ref="#pp0136">May[estä]t von der Cron
+                        Pohlen</rs><note n="184" type="crit_app">Theatrum Europaeum, Lundorp: Polen.
+                        Johann II. Kasimir (1606-1672), polnischer König (1648-1668; Haus
+                        Wasa).</note> oder Ihre Chur- <lb/>fürstl[iche] Durchl[auch]t zu Brandenburg
+                    und dero Confoe- <lb/>
+                    <lb/>[Seite 6] <lb/>
+                </p>
+                <p>derirten in dero in dem Nieder-Sächs[ischen]<note n="185" type="crit_app"
+                        >Theatrum Europaeum: Nider.</note> und Westphälischen <lb/>Creyß<note
+                        n="186" type="crit_app">CTS, Dumont, Theatrum Europaeum, Lünig, Kohl: Crayß
+                        (auch im Folgenden).</note> gelegenen Landen<note n="187" type="crit_app"
+                        >CTS, Dumont, Theatrum Europaeum, Lünig, Lundorp: Ländern.</note>, mit
+                    einigen Feindseeligkeiten<note n="188" type="crit_app">CTS, Dumont, Theatrum
+                        Europaeum, Lünig, Lundorp: Feindseligkeiten.</note> , <lb/>unter was fürwand
+                    solches auch geschehen möchte, würck- <lb/>lich angegriffen, auch Ihrer
+                    Königl[ichen] May[estä]t aus andern <lb/>Quartieren marchirende Völcker
+                        dahinein<note n="189" type="crit_app">CTS, Dumont, Theatrum Europaeum,
+                        Lundorp: dahierinnen. Lünig: Auslassung.</note> thätlich ver-
+                        <lb/>folget<note n="190" type="crit_app">CTS, Dumont, Theatrum Europaeum,
+                        Lundorp: verfolgt.</note> werden solten, daß auf solchen Fall die sampt-
+                        <lb/>liche<note n="191" type="crit_app">CTS, Dumont, Lundorp: sämptliche.
+                        Theatrum Europaeum: sämtlich. Lünig: sämbtliche.</note> Alliirte Ihre
+                    Königl[iche] May[estä]t zu Schweden auf <lb/>die in diesem<note n="192"
+                        type="crit_app">Streichung „dem“; Ersatz „diesem“ zwischen den
+                        Zeilen.</note> Recess verglichene maeß und weise ohne einige <lb/>exception
+                    oder resp&lt;ec&gt;t, welcher theil sonsten außer- <lb/>halb<note n="193"
+                        type="crit_app">Theatrum Europaeum: Einschub „der“.</note> besagten Nieder
+                    Sächs[ischen] und Westphälischen Creÿsen <lb/>pro aggressore oder invaso[re]
+                    zuhalten sein mochte<note n="194" type="crit_app">CTS, Dumont, Theatrum
+                        Europaeum, Lünig, Lundorp: möchte.</note>, wür- <lb/>ckliche Hülff und
+                    assistentz zuleisten<note n="195" type="crit_app">CTS, Dumont, Lundorp: zu
+                        leysten.</note> schuldig sein
+                    <lb/>sollen.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    Im Fall aber dürch<note n="196" type="crit_app">CTS, Dumont, Theatrum Europaeum,
+                        Lünig, Lundorp, Kohl: durch.</note>
+                    <lb/>Ihre <rs ref="#pp0249">Königl[iche] May[estä]t zu Schweden</rs> waffen<note n="197"
+                        type="crit_app">Theatrum Europaeum: Wafen.</note> in erstbe- <lb/>sagten
+                        beeden<note n="198" type="crit_app">CTS, Dumont, Theatrum Europaeum, Lünig,
+                        Lundorp: beyden.</note> Creysen Ihro Churfürstl[iche] Durchl[auch]t <lb/>zu
+                    Brandenburg und dero darin<note n="199" type="crit_app">CTS, Dumont, Lundorp:
+                        darinnen. Theatrum Europaeum: darinn.</note> gelegene Lande <lb/>oder dero
+                        darin<note n="200" type="crit_app">CTS, Dumont, Theatrum Europaeum, Lünig,
+                        Lundorp: darinnen.</note> sich befindende Völcker würcklich an-
+                    <lb/>gegriffen oder dahinein verfolgt<note n="201" type="crit_app">CTS,
+                        Dumont,Theatrum Europaeum, Lünig, Lundorp: verfolget.</note> und etwan
+                    darauf Ihr[e] <lb/>Königl[iche] May[estä]t in besagten beeden<note n="202"
+                        type="crit_app">CTS, Dumont, Theatrum Europaeum, Lünig, Lundorp: beyden
+                        (Schreibweise im gesamten Text).</note> Creysen gelegene Lande <lb/>und
+                    Völcker von Ihr[o] Churfürstl[ichen] Durchl[auch]t und dero Bundsge- <lb/>noßen
+                    hinwider feindlich überzogen und verfolget würden, <lb/>So wollen die alliirte
+                        alßdan<note n="203" type="crit_app">CTS, Dumont: alsdann. Theatrum
+                        Europaeum, Lünig: alsdenn.</note> Ihr[er] Königl[ichen] May[estä]t zu
+                    <lb/>einger assistentz nicht, sonsten aber auf alle andere <lb/>falle<note
+                        n="204" type="crit_app">CTS, Dumont, Theatrum Europaeum, Lünig, Lundorp:
+                        Fälle.</note>, da Ihr[e] Konigl[iche] May[estä]t in mehrbesagten beeden
+                    <lb/>Creÿßen zu erst angegriffen würden, verbunden, und <lb/>jederzeit nichts
+                    desto weniger dero Freundt undt <lb/>
+                    <lb/>[Seite 7] <lb/>
+                </p>
+                <p>Bundtgenossen<note n="205" type="crit_app">CTS, Dumont: Freund und Bundsgenossen.
+                        Theatrum Europaeum, Lünig: Freund und Bundsgenosse.</note> sein undt
+                    verbleiben. <lb/>
+                    <lb/>2. &nbsp;&nbsp;&nbsp; Zum Zweÿten, solte dan<note n="206" type="crit_app"
+                        >CTS: sollte dann. Theatrum Europaeum, Dumont, Lünig, Lundorp: sollte
+                        denn.</note> ein oder ander Confoede- <lb/>&lt;..&gt;rirter und
+                        deßelben<note n="207" type="crit_app">Theatrum Europaeum: dessen.</note>
+                        Lande<note n="208" type="crit_app">Kohl: landen.</note> ingesambt<note
+                        n="209" type="crit_app">CTS, Dumont, Lundorp: insgesampt. Theatrum
+                        Europaeum: ins gesamt.</note> oder deren eins<note n="210" type="crit_app"
+                        >Kohl: eines.</note>
+                    <lb/>wieder verhoffen mit gewalt<note n="211" type="crit_app">Kohl:
+                        gwalt.</note> überfallen, mit einquartierung<note n="212" type="crit_app"
+                        >CTS, Dumont, Lünig, Lundorp, Kohl: Einquartierungen.</note>,
+                    <lb/>unbefugten eigenthätigen<note n="213" type="crit_app">Kohl:
+                        aigenthätigen.</note> angriffen<note n="214" type="crit_app">CTS, Dumont,
+                        Lundorp, Kohl: Angrieffen.</note>, Durchzügen<note n="215" type="crit_app"
+                        >Kohl: durchzüg.</note>, <lb/> Musterplätzen<note n="216" type="crit_app"
+                        >Kohl: munsterplätzen.</note>, Krieges exactionen<note n="217"
+                        type="crit_app">CTS, Dumont, Lundorp: Kriegs-Executionen.</note>,
+                        contributionen<note n="218" type="crit_app">Kohl: Auslassung.</note>
+                    <lb/>oder andern oberwehnten<note n="219" type="crit_app">CTS, Dumont, Lundorp:
+                        oberwähnten.</note> Gewalthaten oder auch durch in- <lb/>nerliche
+                        empörungen<note n="220" type="crit_app">Kohl: empörung.</note> und
+                        auffstand<note n="221" type="crit_app">Kohl: aufstandt.</note>
+                        belestiget<note n="222" type="crit_app">Theatrum Europaeum, Lünig, Lundorp:
+                        befestiget. Kohl: belästiget.</note>, oder <lb/>dieser hierin<note n="223"
+                        type="crit_app">CTS, Dumont, Theatrum Europaeum, Lundorp: hierinn. Kohl:
+                        hirinnen.</note> geschloßener Zusammensetzung und hinc <lb/>inde
+                    versprochener defension halber zeitwehrender<note n="224" type="crit_app">CTS,
+                        Dumont: zeitwährender. Theatrum Europaeum, Lünig, Lundorp: Zeit
+                        währender.</note>
+                    <lb/>Verbündnüß<note n="225" type="crit_app">Kohl: verbindtnüß.</note> über
+                        kurz<note n="226" type="crit_app">CTS, Dumont, Theatrum Europaeum, Lünig,
+                        Lundorp, Kohl: kurtz.</note> oder lang, es geschehe von wem <lb/>es wolle,
+                    angefochten oder<note n="227" type="crit_app">Einschub über der Zeile.</note>
+                    auch ein Confoederirter <lb/>an der zu dieser Alliantz<note n="228"
+                        type="crit_app">Lünig: Allianz (auch im Folgenden). Kohl: alliance.</note>
+                        versprochener<note n="229" type="crit_app">Lünig: versprochenen.</note> oder
+                        sonsten<note n="230" type="crit_app">Kohl: sunsten.</note> in <lb/>dem
+                    letzten Reichs Abschied<note n="231" type="crit_app">Kohl:
+                        Reichsabschiedt.</note> versehener Hülff<note n="232" type="crit_app">Kohl:
+                        hülf.</note> von <lb/>seinen Unterthanen<note n="233" type="crit_app">Kohl:
+                        underthanen.</note> verhindert werden. Alßdan<note n="234" type="crit_app"
+                        >CTS: Als dan. Dumont: als dann. Theatrum Europaeum, Lünig: alsdenn. Kohl:
+                        alstan.</note>
+                    <lb/>wollen und sollen dieselbe wegen Ihrer im Reich ge- <lb/>legener Landt undt
+                    Leuthe, vestiglich beÿ einander <lb/>stehen, einander auf beschehenes ersuchen
+                    wieder den <lb/>offendenten, beleidigenden<note n="235" type="crit_app">CTS,
+                        Dumont: Beleidiger. Theatrum Europaeum, Lünig, Lundorp: Beleidigten.</note>
+                    und respe[ctive] gedachter <lb/>maßen wiederspenstigen<note n="236"
+                        type="crit_app">CTS, Dumont, Theatrum Europaeum, Lundorp:
+                        Widerspenstigen.</note> und zwar<note n="237" type="crit_app">Kohl:
+                        zwarn.</note> ein Jeder auff <lb/>gute Teutsche trew<note n="238"
+                        type="crit_app">CTS, Dumont , Theatrum Europaeum, Lünig, Lundorp:
+                        treu.</note> und glauben, wie obstehet, unverzüglich <lb/>zu Hülffe<note
+                        n="239" type="crit_app">Kohl: hülf (auch unten).</note> kommen, auch
+                        nicht<note n="240" type="crit_app">Kohl: nit.</note> wieder zurück kehren
+                    <lb/>oder abziehen, es geschehe dan<note n="241" type="crit_app">CTS, Dumont,
+                        Lundorp: dann. Theatrum Europaeum, Lünig: denn.</note> mit allerseits
+                    beliebung <lb/>oder werde im gesampten<note n="242" type="crit_app">Lünig, Kohl:
+                        gesambten.</note> Krieges Raht<note n="243" type="crit_app">CTS, Dumont,
+                        Lundorp: Kriegs-Rath. Theatrum Europaeum, Lünig: Kriegs Rath. Kohl:
+                        kriegsrhatt (auch im weiteren Text).</note> deßelben In- <lb/>struction
+                        gemeß<note n="244" type="crit_app">CTS, Dumont, Theatrum Europaeum, Lünig,
+                        Lundorp: gemäß. Kohl: gemeeß.</note> vor dienlich befunden. <lb/>
+                    <lb/>[Seite 8] <lb/>
+                </p>
+                <p>&nbsp;3.&nbsp;&nbsp; Drittens, begebe<note n="245" type="crit_app">Lünig:
+                        begäbe.</note> es sich aber daß einem wieder den <lb/>Friedenschluß
+                    gewalthätiger weiße quocunque modo <lb/>Beschwerdten<note n="246"
+                        type="crit_app">CTS, Dumont, Lünig, Kohl: beschwerten. Lundorp, Theatrum
+                        Europaeum: Beschwerten.</note>, oder mit Einquartierungen, Durchzügen<note
+                        n="247" type="crit_app">Streichung „und“.</note>
+                    <lb/>Contributionen<note n="248" type="crit_app">Kohl: Auslassung.</note>, und
+                    andern Kriegesexactionen beleidigten<note n="249" type="crit_app">CTS, Dumont,
+                        Lundorp: Kriegs-Exactionen Beleydigten (beleydigt auch im Folgenden).</note>
+                    <lb/>Confoederirten zwar die schuldige defensionshülffe<note n="250"
+                        type="crit_app">CTS, Dumont, Lundorp: Defensions-Hülff. Theatrum Europaeum,
+                        Kohl: defensions Hülff.</note> zu- <lb/>geschickt<note n="251"
+                        type="crit_app">Theatrum Europaeum: Einschub: habe.</note>, so balt aber
+                    dieselbe angelangt, alßdan<note n="252" type="crit_app">CTS, Dumont, Lundorp:
+                        als dann. Theatrum Europaeum, Lünig: als denn. Kohl: alstan.</note> der
+                    Inva- <lb/>sor und beleidigender<note n="253" type="crit_app">CTS, Dumont,
+                        Theatrum Europaeum: Beleidigende. Lündorp: Beleydigender.</note> sich wieder
+                    zu rück ziehen, und auß <lb/>des offensi landen reteriren würde, auf diesen<note
+                        n="254" type="crit_app">Kohl: diesem.</note>
+                    <lb/>fall sollen die Confoederirten<note n="255" type="crit_app">Theatrum
+                        Europaeum, Kohl: Confoederirte.</note> Völcker auf maeß, wie es <lb/>der
+                    Krieges Raht vor guht<note n="256" type="crit_app">CTS, Dumont, Theatrum
+                        Europaeum, Lünig, Lundorp, Kohl: gut.</note> befinden wirdt<note n="257"
+                        type="crit_app">CTS, Dumont, Theatrum Europaeum, Lünig, Lundorp:
+                        wird.</note>, solchen Inva- <lb/>sorem verfolgen, und in deßelben
+                        Landen<note n="258" type="crit_app">Kohl: Einschub: „oder seines im krieg
+                        associirten“.</note> oder<note n="259" type="crit_app">Kohl: Auslassung:
+                        „oder deßen so sich dieser invasion theilhafftig gemacht“.</note> deßen so
+                    sich <lb/>dieser invasion theilhafftig gemacht, so lang subsistiren, <lb/>biß
+                    dem Beschwerdten<note n="260" type="crit_app">CTS, Dumont, Theatrum Europaeum,
+                        Lünig, Lundorp, Kohl: Beschwerten.</note> aller zugefügter schade<note
+                        n="261" type="crit_app">CTS, Dumont, Theatrum Europaeum, Lünig, Lundorp:
+                        Schaden.</note> ergäntzt <lb/>und wegen unterlaßung<note n="262"
+                        type="crit_app">Kohl: underlaßung.</note> künfftigen gewaltsahmen<note
+                        n="263" type="crit_app">CTS, Dumont, Theatrum Europaeum, Lundorp:
+                        gewaltsamen Überfalls. Lünig: gewaltsamen Uberfalls.</note> über- <lb/>fals
+                        genugsahme<note n="264" type="crit_app">CTS: genugsamen. Dumont, Theatrum
+                        Europaeum, Lünig, Lundorp, Kohl: genugsame.</note> Versicherung erstattet
+                    sein wirdt<note n="265" type="crit_app">CTS, Dumont, Theatrum Europaeum, Lünig:
+                        wird (im gesamten Text).</note>. <lb/>
+                    <lb/>4. &nbsp;&nbsp; &nbsp;Würden auch, vors Vierdte<note n="266"
+                        type="crit_app">Kohl: vierte.</note>, dieser zusammen getre- <lb/>tener
+                        Stände<note n="267" type="crit_app">CTS, Dumont, Lundorp, Kohl: getrettener
+                        Ständt.</note>, zween<note n="268" type="crit_app">Kohl: zwee.</note> oder
+                    mehr, welche nicht weit von ein- <lb/>ander gelegen<note n="269" type="crit_app"
+                        >Kohl: entlegen.</note>, auf einmahl<note n="270" type="crit_app">Theatrum
+                        Europaeum: einmal.</note> und zugleich angefallen, so <lb/>soll dem ersten
+                    ansuchenden zuforderst<note n="271" type="crit_app">Kohl: zuvorderist.</note>
+                    die schuldige Hülff <lb/>zugeschickt werden, der Krieges Raht aber nach
+                    <lb/>habender Instruction alle andere vorfelligkeiten<note n="272"
+                        type="crit_app">CTS, Dumont, Theatrum Europaeum, Lünig, Lundorp, Kohl:
+                        Vorfälligkeiten.</note>
+                    <lb/>und was gestalten Sachen und umbstenden<note n="273" type="crit_app">CTS,
+                        Dumont, Lünig, Lundorp: Umbständen. Theatrum Europaeum: Umständen.</note>
+                    nach dabeÿ<note n="274" type="crit_app">CTS, Dumont, Theatrum Europaeum, Lünig,
+                        Lundorp, Kohl: darbey.</note>
+                    <lb/>zuthun<note n="275" type="crit_app">Kohl: thuen.</note>, und wie auch den
+                    anderen Beleidigten zu helffen<note n="276" type="crit_app">Kohl: helfen
+                        seye.</note>
+                    <lb/>seÿ, berahtschlagen<note n="276" type="crit_app">CTS, Dumont, Theatrum
+                        Europaeum, Lünig, Lundorp: berathschlagen. Kohl: berhatschlagen.</note>,
+                    schließen und zum Stand<note n="277" type="crit_app">CTS, Dumont, Lundorp:
+                        Standt.</note> richten, <lb/>fals<note n="278" type="crit_app">CTS, Dumont,
+                        Theatrum Europaeum, Lünig, Lundorp: falls.</note> aber die zween oder mehr
+                    zugleich angefallene <lb/>von verschiedenen Creÿsen<note n="279" type="crit_app"
+                        >CTS, Dumont, Theatrum Europaeum, Lünig, Lundorp: Craysen. Kohl: craißen
+                        (auch unten).</note> und weit von einander entlegen <lb/>
+                    <lb/>[Seite 9] <lb/>
+                    <lb/>wehren<note n="280" type="crit_app">CTS, Dumont, Theatrum Europaeum, Lünig,
+                        Lundorp: wären. Kohl: gelegen weren.</note>, So sollen<note n="281"
+                        type="crit_app">Kohl: solle.</note> die in dieser Verbündnüß<note n="282"
+                        type="crit_app">Kohl: verbindtnuß.</note>
+                    <lb/>stehende Chur- und fürsten<note n="283" type="crit_app">Einschub „und“ über
+                        der Zeile. CTS, Dumont, Theatrum Europaeum, Lünig, Lundorp: Chur Fürsten.
+                        Kohl: chur- und fürsten.</note> also balt<note n="284" type="crit_app">CTS,
+                        Dumont, Theatrum Europaeum, Lünig, Lundorp: Chur- und Fürsten alsobald.
+                        Kohl: alspalt.</note> Ihre KriegesRähte<note n="285" type="crit_app">CTS,
+                        Dumont, Theatrum Europaeum, Lundorp: Kriegs-Räth. Lünig: Kriegs-Rath. Kohl:
+                        kriegsrhätt.</note> an ein<note n="286" type="crit_app">Theatrum Europaeum:
+                        eine.</note>
+                    <lb/>gewiß orth<note n="287" type="crit_app">CTS, Dumont, Theatrum Europaeum,
+                        Lünig, Lundorp: Ort. Kohl: ohrt.</note> nach der beleidigten Situation,
+                        nemblich<note n="288" type="crit_app">CTS, Dumont, Theatrum Europaeum,
+                        Lünig, Lundorp: nemlich.</note> in <lb/>dieser<note n="289" type="crit_app"
+                        >Kohl: diese statt.</note> Stadt Franckfurth<note n="290" type="crit_app"
+                        >Lundorp, Kohl: Franckfurt.</note>, Cölln oder Goßlar<note n="291"
+                        type="crit_app">Kohl: Cöln, Goßlar oder Magdeburg.</note>
+                        zusam<lb/>schicken<note n="292" type="crit_app">CTS, Dumont, Theatrum
+                        Europaeum, Lünig: zusammenschicken.</note>, damit von denselben
+                        reiflich<note n="293" type="crit_app">CTS, Dumont, Lünig: reifflich.</note>
+                    erwogen, und ohne <lb/>Verzug verordnet werde<note n="294" type="crit_app">CTS,
+                        Dumont, Theatrum Europaeum, Lundorp: werden.</note>, wie der Succurs nach
+                    des Zu- <lb/>standts<note n="295" type="crit_app">CTS, Dumont, Theatrum
+                        Europaeum, Lundorp: Zustands. Lünig: Zustandes.</note> proportion also
+                    auszutheilen oder zu vermeh- <lb/>ren, auch wie und wohin ein Corpo
+                    zusamm&lt;en&gt; zuführen seÿ, <lb/>damit<note n="296" type="crit_app">Kohl:
+                        darmit.</note> dem werck recht geholffen werde und so gute
+                        <lb/>Versehung<note n="297" type="crit_app">CTS, Dumont, Theatrum Europaeum,
+                        Lünig, Lundorp: Vorsehung.</note> geschehe, auf daß einem Jeden
+                        imploranti<note n="298" type="crit_app">Lünig: Imploranten.</note>
+                    <lb/>würckliche assistentz wiederfahre, und soll<note n="299" type="crit_app"
+                        >Kohl: solle.</note> eben- <lb/>meßige<note n="300" type="crit_app">CTS,
+                        Dumont, Theatrum Europaeum, Lundorp: ebenmäßige. Lünig: solle
+                        ebenmäßige.</note> Verordnung wegen Zusammenschickung der Krie- <lb/>ges
+                    Rähte in acht genommen werden, wan<note n="301" type="crit_app">CTS, Dumont,
+                        Lundorp: wann. Theatrum Europaeum, Lünig: wenn.</note> auch schon etwan<note
+                        n="302" type="crit_app">Kohl: ehtwan.</note>
+                    <lb/>kein würcklicher angriff oder belestigung<note n="303" type="crit_app">CTS,
+                        Dumont, Lundorp, Kohl: Angrieff oder Belästigung. Theatrum Europaeum:
+                        Belästigung. Lünig: Belastigung.</note> geschehe<note n="304"
+                        type="crit_app">Lünig: geschehen.</note>, <lb/>dazu<note n="305"
+                        type="crit_app">CTS, Dumont, Theatrum Europaeum, Lünig, Lundorp, Kohl:
+                        darzu.</note> atber einiger<note n="306" type="crit_app">Kohl:
+                        einige.</note> anlaß und vermuhtung sich befinden <lb/>thete<note n="307"
+                        type="crit_app">CTS, Dumont, Theatrum Europaeum, Lünig, Lundorp, Kohl:
+                        thäte.</note>, damit nicht nur beÿ Zeiten alßdan<note n="308"
+                        type="crit_app">CTS, Dumont, Lundorp: als dann. Theatrum Europaeum, Lünig:
+                        alsdenn. Kohl: alstan.</note> desto fü&lt;e&gt;glicher <lb/>communicato
+                    consilio erwogen werden könne, wie <lb/>diesen gefehrligkeiten<note n="309"
+                        type="crit_app">CTS, Dumont, Lundorp: Gefährligkeiten. Theatrum Europaeum,
+                        Lünig: Gefährlichkeiten.</note> zu begegnen, sondern auch als dan wan<note
+                        n="310" type="crit_app">CTS, Dumont, Lundorp: alsdann wann. Theatrum
+                        Europaeum, Lünig: alsdenn wenn.</note>
+                    <lb/>die Sache<note n="311" type="crit_app">CTS, Dumont: Sach.</note> selber zur
+                        thätligkeit<note n="312" type="crit_app">Lünig: Thätligkeit.</note> gelangen
+                        mochte<note n="313" type="crit_app">CTS, Dumont, Theatrum Europaeum, Lünig,
+                        Lundorp: möchte. Kohl: mögte.</note>, man<note n="314" type="crit_app"
+                        >Theatrum Europaeum: mann.</note> nicht <lb/>erst mit angeregter
+                    Zusammenschickung aufgehalten werde, <lb/>doch soll<note n="315" type="crit_app"
+                        >Kohl: solle.</note> der jenige, welcher angegriffen<note n="316"
+                        type="crit_app">CTS, Dumont, Theatrum Europaeum, Lundorp:
+                        angegrieffen.</note> und beschädiget<note n="317" type="crit_app">CTS,
+                        Dumont: beleidigt. Theatrum Europaeum, Lünig, Lundorp: beleydiget.</note>
+                    <lb/>wirdt<note n="318" type="crit_app">CTS, Dumont: wird. Theatrum Europaeum,
+                        Lünig, Lundorp: beleidigt wird.</note>, einem andern seine confoederations
+                    Hülffe aus <lb/>dem Lande<note n="319" type="crit_app">Kohl: landt.</note>
+                    zuschicken nicht schüldig<note n="320" type="crit_app">CTS, Dumont, Theatrum
+                        Europaeum, Lünig, Lundorp: schuldig. Kohl: nit schuldig.</note>, noch zu
+                    dergleichen der <lb/>jenig gehalten sein, welcher in vorfallenden nöhten<note
+                        n="321" type="crit_app">CTS, Dumont, Theatrum Europaeum, Lünig, Lundorp:
+                        Nöthen.</note> in sei- <lb/>nem oder einem benachbarten Creÿß einem
+                    Confoederirten <lb/>Standt<note n="322" type="crit_app">Theatrum Europaeum,
+                        Lünig: Stand.</note> oder Creÿß die Bundts- Reichs- oder Creÿßhülffe<note
+                        n="323" type="crit_app">CTS, Dumont, Lünig, Lundorp: Bunds-Reise. Theatrum
+                        Europaeum: Bunds-Rä&lt;t&gt;se.</note>
+                    <lb/>
+                    <lb/>[Seite 10] <lb/>
+                    <lb/>zugeschicket hatte<note n="324" type="crit_app">CTS, Dumont, Theatrum
+                        Europaeum, Lundorp, Lünig: zugeschickt hätte.</note>, oder zuschicken
+                        m&lt;ü&gt;ste<note n="325" type="crit_app">Theatrum Europaeum:
+                    muste.</note>, sondern es soll<note n="326" type="crit_app">Kohl: solle.</note>
+                    <lb/>in solchen Fällen die also fortgeschickte oder nohtwendig<note n="327"
+                        type="crit_app">CTS, Dumont, Lünig, Lundorp: nothwendig. Theatrum Europaeum,
+                        Lünig: nothwendige.</note> schi- <lb/>ckende Anzahl zu Roß undt<note n="328"
+                        type="crit_app">Einfügung am Seitenrand: „Roß undt“</note> Fueß<note n="329"
+                        type="crit_app">CTS, Dumont, Theatrum Europaeum, Lünig, Lundorp: Fuß (auch
+                        unten).</note> in diese versprochene Hülff ein- <lb/>gerechnet und davon
+                    abgezogen werden, derjenige<note n="330" type="crit_app">Kohl: derjenig.</note>
+                    auch so in <lb/>dieser und zugleich einer andern Alliantz<note n="331"
+                        type="crit_app">Kohl: alliance.</note> stehet, den aus solchen <lb/>mit
+                    andern habender Alliantze<note n="332" type="crit_app">CTS, Dumont, Theatrum
+                        Europaeum, Lünig, Kohl: Alliance. Lundorp: Alliantze.</note> schuldigen
+                    succurs nicht ab- <lb/>sonderlich oder doppelt, sondern allein diesen
+                    zuzuschicken <lb/>verbunden sein. <lb/>
+                    <lb/>5. &nbsp;&nbsp;&nbsp; Doch<note n="333" type="crit_app">CTS, Dumont,
+                        Theatrum Europaeum, Lünig, Lundorp: Noch.</note> hat es, Zum Fünfftenn<note
+                        n="334" type="crit_app">CTS, Dumont, Theatrum Europaeum, Lünig, Lundorp:
+                        Fünfftens.</note>, hiebeÿ die meinung<note n="335" type="crit_app">Theatrum
+                        Europaeum, Lünig, Lundorp: Meynung.</note> gar nicht, <lb/>ob wolte<note
+                        n="336" type="crit_app">Theatrum Europaeum: wollte.</note> man durch diese
+                    particular Verbundnüß<note n="337" type="crit_app">Kohl: verbindtnuß.</note> die
+                    <lb/>zu verhütt<note n="338" type="crit_app">Lünig: Verhüt. Kohl:
+                        verhuet.</note> und abtreibung unrechten gewalts<note n="339"
+                        type="crit_app">Kohl: gwalts.</note> im Heÿl[igen] <lb/>R&lt;ö&gt;m[ischen]
+                    Reich fundirte Executionsordnung und in Krafft <lb/>derselben schuldigen<note
+                        n="340" type="crit_app">CTS, Dumont, Theatrum Europaeum, Lünig, Lundorp:
+                        sonderliche. Kohl: schuldige.</note> Reichs oder Creÿß Verfassung (son-
+                        <lb/>derlich<note n="341" type="crit_app">CTS, Dumont, Theatrum Europaeum,
+                        Lünig, Lundorp: absonderlich.</note> die Westphälische<note n="342"
+                        type="crit_app">Lünig: Westphälischen.</note>) wie auch die im<note n="343"
+                        type="crit_app">Lünig: in:</note> Friedenschluß <lb/>verordnete guarantie zu
+                        ruck<note n="344" type="crit_app">CTS, Dumont, Theatrum Europaeum, Lundorp:
+                        rück. Lünig: zurück.</note> stellen, stecken oder ver- <lb/>hindern, sondern
+                    es sollen nichts do<note n="345" type="crit_app">CTS, Dumont, Theatrum
+                        Europaeum, Lünig, Lundorp: desto. Kohl: nichtsdweniger.</note> weniger
+                    dieselbe <lb/>ohne abbruch dieses recessus<note n="346" type="crit_app">Kohl:
+                        reces.</note> in alle wege mit ge- <lb/>horigem<note n="347" type="crit_app"
+                        >CTS, Dumont, Theatrum Europaeum, Lünig, Lundorp: gehörigem. Kohl:
+                        gehoerigem.</note> Fleiß und eÿfer, so woll<note n="348" type="crit_app"
+                        >CTS, Dumont, Theatrum Europaeum, Lundorp: wol. Lünig: sowohl.</note> ins
+                    gemein in allen <lb/>Reichs- alß absonderlich jeden Creÿß Conventen aller-
+                    <lb/>seits nach mögligkeit<note n="349" type="crit_app">CTS, Dumont, Theatrum
+                        Europaeum, Lünig, Lundorp: Möglichkeit. Kohl: mügligkeit.</note>
+                        befordert<note n="350" type="crit_app">CTS, Dumont, Theatrum Europaeum,
+                        Lünig, Lundorp: befördert. Kohl: befürdert und zu werck gerichtet werden.
+                        Kohl: Auslassung bis: „auf dem fall aber“.</note> werden, wie dan<note
+                        n="351" type="crit_app">CTS, Dumont, Lundorp: dann. Theatrum Europaeum,
+                        Lünig: denn.</note> Krafft <lb/>dieses foederis alle und jede Vereinigte
+                        Churfürsten<note n="352" type="crit_app">CTS, Dumont, Theatrum Europaeum,
+                        Lünig, Lundorp: Chur- und Fürsten versprochen.</note>
+                    <lb/>und Fürsten hiemit versprechen, daß Sie zu erhaltung <lb/>des Friedens mit
+                    allen Kräfften daran sein wollen<note n="353" type="crit_app">Theatrum
+                        Europaeum: wolle.</note>, <lb/>damit die General guarantie nach anleitung
+                    <lb/>des Inst[rumenti] Pacis § veruntamen<note n="354" type="crit_app">Gemeint
+                        sind die Garantieartikel der Verträge von Münster und Osnabrück: IPM § 116
+                        (IPO Art. XVII, §§ 6-7): “Veruntamen si neutro horum modorum intra spacium
+                        trium annorum terminetur controversia, teneantur omnes et singuli huius
+                        transactionis consortes iunctis cum parte laesa consiliis viribusque arma
+                        sumere ad repellendam iniuriam a passo moniti, quod nec amicitiae nec iuris
+                        via locum invenerit, salva tamen de caetero uniuscuiusque iurisdictione
+                        iustitiaeque iuxta cuiusque principis aut status leges et constitutiones
+                        competenti administratione. Et nulli omnino statuum Imperii liceat ius suum
+                        vi vel armis persequi, sed si quid controversiae sive iam exortum sit sive
+                        posthac inciderit, unusquisque iure experiatur; secus faciens reus sit
+                        fractae pacis. Quae vero iudicis sententia definita fuerint, sine discrimine
+                        statuum executioni mandentur, prout Imperii leges de exequendis sententiis
+                        constituunt”. Datenbankverweis. Dazu vgl. u.a. Peter Decker, Frankreich und
+                        die Reichsstände 1672-1675. Bonn 1981, bes. S. 13-14." </note> p würcklich
+                    und <lb/>nachtrücklich<note n="355" type="crit_app">Theatrum Europaeum:
+                        nachdrücklich. Lünig: nachdencklich.</note> in der that selbst eingerichtet
+                    werden möge <lb/>
+                    <lb/>[Seite 11] <lb/>
+                    <lb/>auf den Fall aber sich dabeÿ<note n="356" type="crit_app">CTS, Dumont,
+                        Theatrum Europaeum, Lünig, Lundorp, Kohl: darbey.</note> solche
+                        difficulteten<note n="357" type="crit_app">CTS, Dumont, Theatrum Europaeum,
+                        Lünig, Lundorp: Difficultäten.</note>
+                    <lb/>und hinderung<note n="358" type="crit_app">CTS, Dumont, Theatrum Europaeum,
+                        Lünig, Kohl: Hinderungen.</note> finden würden, die nicht so gleich aus dem
+                        <lb/>weg<note n="359" type="crit_app">Kohl: wegk.</note> zu räumen
+                        wehren<note n="359" type="crit_app">CTS, Dumont, Theatrum Europaeum, Lünig,
+                        Lundorp: wären. Kohl: weren.</note>, So soll doch nichts doweniger<note
+                        n="360" type="crit_app">CTS, Dumont, Lünig, Theatrum Europaeum: nichts
+                        destoweniger. Lundorp: desto. Kohl: nichtsdweniger.</note> ein Je- <lb/>der
+                    zu der hierin<note n="361" type="crit_app">CTS, Dumont, Lundorp: hierinn. Kohl:
+                        hirinnen.</note> verglichenen Bundtshülff<note n="362" type="crit_app">CTS,
+                        Dumont, Lünig, Lundorp: Bunds-Hülff. Theatrum Europaeum:
+                        Bundes-Hülff.</note> ver- <lb/>bunden und dieselbe unauffheltlich<note
+                        n="363" type="crit_app">CTS, Dumont: unauffhältlich. Theatrum Europaeum,
+                        Lünig, Lundorp : unauffthätlich. Kohl: ohnaufhaltlich.</note> zu leisten
+                    verpflichtet sein. <lb/>
+                    <lb/>6.&nbsp; Damit auch, Sechstens, besagte defension mit gutem
+                        <lb/>bestandt<note n="364" type="crit_app">CTS, Dumont, Theatrum Europaeum,
+                        Lünig, Lundorp: Bestand.</note> vollführet werden k&lt;ö&gt;nne, So will und
+                    soll ein <lb/>Jeder Confoederirter nicht<note n="365" type="crit_app">Kohl:
+                        nit.</note> allein seine habende &lt;v&gt;este<note n="366" type="crit_app"
+                        >CTS, Dumont, Theatrum Europaeum, Lünig, Lundorp: beste. Kohl: veste.</note>
+                    plätze <lb/>mit notiger<note n="367" type="crit_app">CTS, Dumont, Theatrum
+                        Europaeum, Lünig, Lundorp: nöthiger. Kohl: nötiger.</note> guarnison
+                    versehen, und sein Landvolck<note n="368" type="crit_app">Kohl:
+                        landtvolck.</note>
+                    <lb/>zu defendirung seiner eignen<note n="369" type="crit_app">Kohl:
+                        aigenen.</note> Lande in gute ordnung <lb/>bringen und in bereitschafft
+                    haben, sondern ist auch abge- <lb/>redet, pactirt<note n="370" type="crit_app"
+                        >CTS, Dumont, Lundorp: placidiert. Lünig: pacticiret.</note>, beliebt undt
+                    geschlossen, daß ein Jeder auf <lb/>obbeschriebenen nohtfall<note n="371"
+                        type="crit_app">CTS, Dumont, Theatrum Europaeum, Lünig, Lundorp:
+                        Nothfall.</note> eine gewisse anzahl zu Roß undt <lb/>Fueß, benantlich:<note
+                        n="372" type="crit_app">Theatrum Europaeum: benanntlich. Lünig: benandtlich.
+                        Kohl: Einschub: wegen obgedachter landen.</note>
+                    <lb/>Chur Maintz<note n="373" type="crit_app">CTS, Dumont, Theatrum Europaeum,
+                        Lünig, Lundorp, Kohl: Chur-Maÿntz (auch im Folgenden).</note> zu Roß
+                    dreyhundert in dreÿ Compagnien <lb/>und zu Fueß sechshundert in dreÿ
+                    Compagn[ien] <lb/>Chur Trier zu Roß Einhundert und Achtzig<note n="374"
+                        type="crit_app">Kohl: hundertachtzigh.</note> in zwo Compag[nien] <lb/>und
+                    zu Fueß Vierhundert in Zwo<note n="375" type="crit_app">Kohl: zwey.</note>
+                        Compagnien<note n="376" type="crit_app">Umstellung in: CTS, Dumont, Theatrum
+                        Europaeum, Lünig, Lundorp.</note>
+                    <lb/>Chur Cölln<note n="377" type="crit_app">Kohl: Churcöln.</note> zu Roß
+                    vierhundert und zwanzig<note n="378" type="crit_app">CTS, Dumont, Lünig,
+                        Lundorp: zwantzig. Kohl: zwantzigh.</note> in vier Comp[agnien] <lb/>und zu
+                    Fueß achthundert in vier Compagn[ein]<note n="379" type="crit_app">CTS, Dumont,
+                        Theatrum Europaeum, Lünig, Lundorp: Einschub: “Chur-Try&lt;i&gt;er zu Roß
+                        Einhundert und achtizg in zwo Compagnien und zu Fuß vierhundert in vier
+                        Compagnien“. Kohl: Einschub Churbrandenburg zu roß fünfhunder in fünf
+                        comnpagnien und zu fueß tausent in fünf compagnien&quot;. </note>
+                    <lb/>Ihr Fürstl[icher] Gnad[en] zu<note n="380" type="crit_app">Lünig, Lundorp:
+                        von.</note> Münster zu Roß vierhundert <lb/>in vier Compagn[ein] und zu Fueß
+                    achthundert in vier Compagnien <lb/>Pfaltz Ne&lt;ü&gt;burg zu Roß vierhundert in
+                    vier <lb/>Compagnien undt zu Fueß achthundert in vier <lb/>Compagnien. <lb/>
+                    <lb/>[Seite 12] <lb/>
+                    <lb/>Ihre <rs ref="#pp0249">Königl[iche] Maÿ[estä]t zu Schweden</rs>, alß Herzog zu <lb/>Bremen<note
+                        n="381" type="crit_app">Kohl: Bremen, Verden, Pommeren und herr zu
+                        Wyßmar.</note> und Vehrden, und Herr zu Wißmar zu Roß <lb/>zweÿhundert undt
+                    funffzig in dreÿ Compagnien<note n="382" type="crit_app">Kohl: zu roß
+                        vierhundert-zwantzigh in vier compagnien und zu fueß tausent in vier
+                        compagnien.</note>
+                    <lb/>zu Fueß vierhundert in zwo Compagnien. <lb/>Herzog <rs ref="#pp0291">Augustus, zu
+                        Braunschweig und Lüneburg etc</rs> <lb/>Herzog <rs ref="#pp0292">Christian Ludowieg<note n="383"
+                        type="crit_app">CTS, Dumont,Theatrum Europaeum, Lünig, Lundorp, Kohl:
+                            Ludwig.</note>, zu Braunschweig und Lüneburg etc</rs> <lb/>Herzog <rs
+                                ref="#pp0246">Georg
+                        Wilhelm<note n="384" type="crit_app">Theatrum Europaeum: Wilh.. Kohl:
+                        Wilhelmb.</note>, zu Braunschweig Lüneburg etc</rs> <lb/>Zugesampt<note n="385"
+                        type="crit_app">CTS, Dumont, Theatrum Europaeum, Lünig, Lundorp, Kohl:
+                        zusammen.</note> zu Roß vierhundert und zwanzig<note n="386" type="crit_app"
+                        >Lünig, Lundorp, Kohl: vier hundert und zwantzig zu Roß.</note> in vier
+                    Comp[agnien] <lb/>und<note n="387" type="crit_app">Lünig, Lundorp:
+                        Auslassung.</note> zu Fueß ne&lt;ü&gt;nhundert in vier<note n="388"
+                        type="crit_app">Lünig, Lundorp: neun.</note> Compagnien<note n="389"
+                        type="crit_app">Kohl: und neunhundert zu fueß.</note>
+                    <lb/><rs ref="#pp0293">Landgraff Wilhelm<note n="390" type="crit_app">Kohl: landtgraff
+                        Wilhelmb.</note>, zu Heßen</rs><note n="391" type="crit_app">CTS, Lundorp,
+                        Dumont, Lünig: Hessen.</note> Fürstl[icher] Gn[aden] <lb/>zu Roß<note
+                        n="392" type="crit_app">Lücke im Text, es fehlt die Stärke. In CTS,
+                        Dumont,Theatrum Europaeum, Lünig, Lundorp, Kohl: angegeben mit: „ hundert
+                        und achtzig in 2. Compagnien und vier hundert zu Fuß in zwey Compagnien“.
+                        Erich Joachim, Die Entwickelung des Rheinbundes vom Jahre 1658, Liepzig
+                        1886, II, S.490, bestätigt die Auslassung in den Urkunden, da zum Zeitpunkt
+                        des Abschlusses noch keine Einigkeit über die Stärke der zu stellenden
+                        Hilfstruppen bestand. Er weist darauf hin, dass in der Ratifikationsurkunde
+                        Kölns diese Lücke noch immer besteht, während in pfalz-neuburgischen eine
+                        nachträglicher Ergänzung vorgenommen wurde. </note>
+                    <lb/>Fueß <lb/>geworbener düchtiger<note n="393" type="crit_app">CTS, Dumont,
+                        Theatrum Europaeum, Lünig, Lundorp, Kohl: tüchtiger.</note> Manschafft<note
+                        n="394" type="crit_app">CTS, Dumont, Theatrum Europaeum, Lünig, Lundorp:
+                        Mannschaft.</note> jederzeit<note n="395" type="crit_app">Kohl: Manschaft
+                        jehderzeit.</note> beisammen <lb/>haben, und ein Jeder sein quantum auf
+                        jedesmahls<note n="396" type="crit_app">CTS, Dumont: auff jedesmahliges.
+                        Theatrum Europaeum: jedesmaliges. Lünig, Lundorp, Kohl:
+                        jedesmahliges.</note>
+                    <lb/>erfordern unverlengt<note n="397" type="crit_app">CTS, Dumont, Theatrum
+                        Europaeum, Lünig, Lundorp unverlängt. Kohl: ohnverlängt.</note> zu Hülff
+                    senden soll, auch auf<note n="398" type="crit_app">Kohl: uff.</note>
+                    <lb/>den fall die antringende<note n="399" type="crit_app">Lünig:
+                        andringende.</note> gefahr ein<note n="400" type="crit_app">Lünig, Kohl:
+                        einen.</note> größern <lb/>Succurs erfordern<note n="401" type="crit_app"
+                        >Kohl: erforderen.</note> solte, man sich nach erwogenen<note n="402"
+                        type="crit_app">Kohl: erwägenden.</note> umb- <lb/>stenden<note n="403"
+                        type="crit_app">CTS, Dumont, Lundorp: Umbständen. Theatrum Europaeum:
+                        Umständen. Lünig: Umbständen.</note> entschließen<note n="404"
+                        type="crit_app">CTS, Dumont, Theatrum Europaeum, Lünig, Lundorp:
+                        entschlossen. Kohl: endtschließen.</note>, ob und wie dieselbe nach
+                    erstbenand- <lb/>ter<note n="405" type="crit_app">CTS, Dumont,Theatrum
+                        Europaeum, Lünig: erst benanter. Lundorp: benannter. Kohl:
+                        erstbemelter.</note> proportion zu ergrößern<note n="406" type="crit_app"
+                        >Kohl: ergrößeren.</note>. <lb/>
+                    <lb/>7.&nbsp; &nbsp;&nbsp;&nbsp; Wurde<note n="407" type="crit_app">CTS, Dumont,
+                        Theatrum Europaeum, Lünig, Lundorp, Kohl: Würde.</note> auch vors Siebende
+                    wieder Verhoffen <lb/>einer oder ander Vereinigter dergestalt übereilet<note
+                        n="408" type="crit_app">CTS, Dumont, Theatrum Europaeum, Lünig, Lundorp:
+                        übereylet.</note>, <lb/>oder auch danieder<note n="409" type="crit_app">CTS,
+                        Dumont, Theatrum Europaeum, Lundorp: darnieder.</note> gelegt, daß Er seine
+                    versprochene <lb/>Hülff<note n="410" type="crit_app">CTS, Dumont, Theatrum
+                        Europaeum, Lünig, Lundorp: Hülffe. Kohl: hülf (auch unten).</note> nicht
+                    leisten konte<note n="411" type="crit_app">CTS, Dumont, Lundorp: leysten könte.
+                        Lünig, Theatrum Europaeum: könnte. Kohl: könte.</note>, So wollen und sollen
+                        dennoch<note n="412" type="crit_app">CTS, Dumont, Theatrum Europaeum, Lünig,
+                        Lundorp, Kohl: dannoch.</note>
+                    <lb/>die übrige<note n="413" type="crit_app">Lünig: übrigen.</note> nichts desto
+                    weniger demselben auf<note n="414" type="crit_app">Lünig: uff.</note> be-
+                    <lb/>schehenes erfordern zu Hülff kommen, auch seine<note n="415"
+                        type="crit_app">Lünig: seiner.</note>
+                    <lb/>
+                    <lb/>[Seite 13] <lb/>
+                    <lb/>Landt und Leüthe zu unverzüglicher<note n="416" type="crit_app">Einschub
+                        über dem Wort „un“. Theatrum Europaeum, Lundorp: unvergleichlicher.</note>
+                    rettung nicht minder <lb/>alß wan<note n="417" type="crit_app">CTS, Dumont,
+                        Theatrum Europaeum, Lünig, Lundorp: als wann.</note> es Ihre eigene
+                        wehren<note n="418" type="crit_app">CTS, Dumont, Lundorp: eygnen wären.
+                        Theatrum Europaeum, Lünig: wären. Kohl: weren.</note>, Ihnen angelegen sein
+                    laßen. <lb/>
+                    <lb/>8. &nbsp;&nbsp;&nbsp; Zum Achten, betreffen&lt;d&gt;<note n="419"
+                        type="crit_app">Kohl: betreffendt.</note> das Commando, Führung <lb/>der
+                        Waffen<note n="420" type="crit_app">CTS, Dumont, Theatrum Europaeum,
+                        Lundorp: Wafen.</note> und administration der Justitz über die <lb/>Völcker,
+                    hat ein Jeder Vereinigter sich dero über seine <lb/>Völcker so lange dieselbe
+                    außerhalb der conjunction <lb/>in seinem Land stehen, seiner gelegenheit nach
+                    zugebrauchen, auch <lb/>zu dero behuef<note n="421" type="crit_app">Lünig, Kohl:
+                        Behuff.</note>, wie es Ihm<note n="422" type="crit_app">CTS, Dumont,
+                        Theatrum Europaeum, Lünig, Lundorp, Kohl: ihme.</note> am füeglichsten
+                    gefallen <lb/>mochte<note n="423" type="crit_app">CTS, Dumont, Theatrum
+                        Europaeum, Lünig, Lundorp: möchte. Kohl: mögte.</note>, verordnung und
+                        unterhalt<note n="423">Kohl: underhalt.</note> zumachen. <lb/>
+                    <lb/>9. &nbsp;&nbsp;&nbsp; Wie es aber, zum Neundten, mit administration
+                    <lb/>der Justitz zu halten, wan<note n="424" type="crit_app">CTS, Dumont,
+                        Theatrum Europaeum, Lünig, Lundorp: wann.</note> es zu der Conjunction ge-
+                    <lb/>langet, darüber ist nachfolgende abrede<note n="425" type="crit_app">Kohl:
+                        abred.</note> genommen, <lb/>daß nemblich<note n="426" type="crit_app">CTS,
+                        Dumont, Lundorp: nemlichen. Theatrum Europaeum: nemlich. Lünig:
+                        nemblichen.</note> in solchen Sachen auch delictis, welche der <lb/>
+                        generalitet<note n="427" type="crit_app">CTS, Dumont, Theatrum Europaeum,
+                        Lünig, Lundorp: Generalität.</note> commando und die darvon<note n="428"
+                        type="crit_app">Lünig, Lundorp, Kohl: davon.</note> dependirende <lb/>Sachen
+                        nicht<note n="429" type="crit_app">Kohl: nit.</note> concerniren, eines
+                    Jeden Chur- undt <lb/>Fürsten Ober-Commendant die Justitz<note n="430"
+                        type="crit_app">CTS, Dumont, Lünig: Justiz.</note> unter denen Ihme
+                    <lb/>untergebenen Völckern ohne einigen eingriff<note n="431" type="crit_app"
+                        >CTS, Lundorp, Dumont, Kohl: Eingrieff.</note> oder Ver- <lb/>hinderung
+                    administriren solle, was aber solcher maßen <lb/>vor das general Commando
+                    gehörig, darvon wird <lb/>der Jederzeit commandirende General nebenst dem Krie-
+                    <lb/>ges Raht alle rechtliche gebühr<note n="432" type="crit_app">Kohl:
+                        gebuer.</note> statuiren. <lb/>
+                    <lb/>10.&nbsp;&nbsp;&nbsp; Zum Zehenden, wegen des General Commando im
+                        Feldt<note n="433" type="crit_app">CTS, Dumont, Theatrum Europaeum, Lünig,
+                        Lundorp: Feld (auch unten). Kohl: veldt.</note>
+                    <lb/>und beÿ den actionibus militaribus, haben sich die <lb/>Vereinigte
+                    gegeneinander verbündlich<note n="434" type="crit_app">Kohl: verbindlich.</note>
+                    er- <lb/>
+                    <lb/>[Seite 14] <lb/>
+                    <lb/>kleret<note n="435" type="crit_app">CTS, Dumont, Theatrum Europaeum, Lünig;
+                        Lundorp: erkläret. Kohl: erklehret.</note>, daß keiner vor den andern sich
+                    einiger præ- <lb/>eminentz, mehrer macht und Gerechtigkeit unter was præ-
+                    <lb/>text auch solches per directum oder obliquum geschehen müchte<note n="436"
+                        type="crit_app">CTS, Dumont, Theatrum Europaeum, Lünig, Lundorp: möchte.
+                        Kohl: mögte.</note>, <lb/>so wenig ietzo alß uber kurz<note n="437"
+                        type="crit_app">CTS, Dumont, Theatrum Europaeum, Lünig; Lundorp, Kohl: jetzo
+                        als über kurtz.</note> oder lang anmaßen <lb/>wolle<note n="438"
+                        type="crit_app">Theatrum Europaeum: woll.</note> oder solle, ist auch
+                        auf<note n="439" type="crit_app">Kohl: Auslassung.</note> solches unbeweg-
+                        <lb/>liches<note n="439" type="crit_app">Theatrum Europaeum:
+                        unbewilliges.</note> fundament bestendiglich verglichen<note n="440"
+                        type="crit_app">CTS, Dumont, Theatrum Europaeum, Lundorp: beständiglich
+                        vergliechen. Lünig: beständiglich.</note>, daß <lb/>vermög<note n="441"
+                        type="crit_app">CTS, Dumont, Theatrum Europaeum, Lünig; Lundorp:
+                        vermöge.</note> der Executionsordnung der jenige Landesfürst<note n="442"
+                        type="crit_app">CTS, Dumont, Theatrum Europaeum, Lundorp: Lands-Fürst.
+                        Lünig: Lands-Fürste. Kohl: landtsfürst.</note>, <lb/>welchem die Hülffe
+                    geleistet, und so lang in deßen Lan- <lb/>den agirt wird, das ober Commando oder
+                    Genera- <lb/>lat beÿ den Militarib[us] actionibus mit Zuziehung <lb/>des
+                    Kriegesrahts auf maeß, wie in nachfolgenden <lb/>articuln<note n="443"
+                        type="crit_app">CTS, Dumont, Lundorp: Artickeln. Kohl: im nachlogenden
+                        articul.</note> begriffen<note n="444" type="crit_app">CTS, Dumont, Lundorp:
+                        begrieffen.</note>, führen, oder an seine Stelle<note n="445"
+                        type="crit_app">CTS, Dumont, Theatrum Europaeum, Lünig, Lundorp, Kohl:
+                        Stell.</note> ein quali- <lb/>ficirtes Haubt<note n="446" type="crit_app"
+                        >CTS, Dumont, Theatrum Europaeum, Lünig; Lundorp: Haupt.</note> verordnen
+                    solle, welchem das general <lb/>Commando über die zur defension im feldt<note
+                        n="447" type="crit_app">Kohl: velt (auch unten).</note> zusam- <lb/>men
+                    geführte Völcker anvertrawet werde<note n="448" type="crit_app">CTS, Dumont,
+                        Theatrum Europaeum, Lünig, Lundorp: anvertraut. Kohl: anvertrawt
+                        werden.</note>, fals<note n="449" type="crit_app">CTS, Dumont, Theatrum
+                        Europaeum, Lünig; Lundorp: falls.</note> aber <lb/>unterdeßen<note n="450"
+                        type="crit_app">Kohl: underdessen.</note> einige Vereinigte in Ihren Landen
+                    über <lb/>Ihre ins Feldt führende defensions Völcker (wan nemb- <lb/>lich<note
+                        n="451" type="crit_app">CTS, Dumont, Theatrum Europaeum, Lünig, Lundorp:
+                        wann nemlich. Kohl: wann.</note> in- oder außer Ihren Landen in hostico
+                        agiret<note n="452" type="crit_app">Kohl: agirt.</note> wer- <lb/>den
+                        solte<note n="453" type="crit_app">Kohl: solle.</note>) einer gewißen
+                    generals Persohn<note n="454" type="crit_app">CTS, Dumont, Theatrum Europaeum,
+                        Lünig, Lundorp: Person.</note> das general Commendo<note n="455"
+                        type="crit_app">Einschub am Textrand: „das general Commendo“. CTS, Dumont,
+                        Lünig, Lundorp, Theatrum Europaeum: Comando. Kohl: generalcommando.</note>
+                    auftragen, <lb/>und anvertrawen wolten<note n="456">CTS, Dumont: wollten.
+                        Theatrum Europaeum, Lundorp: wolte. Lünig: wollte.</note>, soll Ihnen
+                    solches und der Conditio- <lb/>nen halber sich untereinander zu vergleichen freÿ
+                    und bevor-<note n="457" type="crit_app">Theatrum Europaeum: benan.</note>
+                    <lb/>stehen, doch daß solche Annehmung den ubrigen<note n="458" type="crit_app"
+                        >CTS, Dumont, Theatrum Europaeum, Lünig, Lundorp: übrigen.</note> Confoe-
+                    <lb/>derirten zu Ihrer nachricht notificirt werde. <lb/>
+                    <lb/>11. &nbsp;&nbsp;&nbsp; Zum Eilfften<note n="459" type="crit_app">CTS,
+                        Dumont, Lundorp: Eylfften. Kohl: eilften.</note>, wan<note n="460"
+                        type="crit_app">CTS, Dumont, Theatrum Europaeum, Lünig, Lundorp:
+                        wann.</note> in loco tertio außerhalb obged[achten]<note n="461"
+                        type="crit_app">CTS, Dumont, Theatrum Europaeum, Lundorp: gedachten. Lünig:
+                        gedachter. Kohl: obgemelter.</note>
+                    <lb/>Chur- undt Fürsten und<note n="462" type="crit_app">Lünig, Lundorp, Kohl:
+                        Auslassung.</note> Landen agirt wird, soll der- <lb/>jenige
+                        commendirende<note n="463" type="crit_app">Lünig, Lundorp: Auslassung. Kohl:
+                        commandierende.</note> Chur- oder Fürst auß deßen <lb/>Landen man in locum
+                    tertium gehet, od[er] deßelben obged[achter] <lb/>
+                    <lb/>[Seite 15] <lb/>
+                    <lb/>maßen bestelter<note n="464" type="crit_app">Theatrum Europaeum, Kohl:
+                        bestelter.</note> General das Ober Commando so lang <lb/>führen, biß die
+                    conjungirte hinwieder in Ihre Lande<note n="465" type="crit_app">Kohl:
+                        landt.</note> kommen, <lb/>im fall auch die assistirende Stände<note n="466"
+                        type="crit_app">Kohl: ständt.</note> die V&lt;ö&gt;lcker aus Ihren
+                        <lb/>eignen<note n="467" type="crit_app">CTS, Dumont, Lundorp: auß ihren
+                        eygnen. Theatrum Europaeum: eigenen. Kohl: aigenen.</note> Landen ad locum
+                    tertium zusammenschicken, soll<note n="468" type="crit_app">Kohl: solle der
+                        hoher.</note>
+                    <lb/>der höher oder in der charge älterer<note n="469" type="crit_app">CTS,
+                        Dumont: älter. Theatrum Europaeum, Lünig, Lundorp: aller. Kohl:
+                        elterer.</note> officirer mit zuziehung <lb/>der zu<note n="470"
+                        type="crit_app">Einschub über der Zeile.</note> geordneten Rähte<note
+                        n="471" type="crit_app">Kohl: rhät.</note> die direction führen, Solten aber
+                    <lb/>die Völcker in eines confoederirten landt oder deßen Gren- <lb/>zen<note
+                        n="472" type="crit_app">CTS, Dumont, Theatrum Europaeum, Lünig, Lundorp,
+                        Kohl: Gräntzen.</note> sich ziehen, hette<note n="473" type="crit_app">CTS,
+                        Dumont, Theatrum Europaeum, Lünig, Lundorp: hätte. Kohl: hat.</note> es beÿ
+                    deren in<note n="474" type="crit_app">Theatrum Europaeum, Lünig: der im. Kohl:
+                        deren in.</note> vorgehenden articul<note n="475" type="crit_app">CTS,
+                        Dumont, Lundorp: Artickel.</note> be- <lb/>schehener Verordnung sein
+                    Verbleiben, würde auch ein&lt;e&gt; Gene- <lb/>rals Persohn<note n="476"
+                        type="crit_app">CTS, Dumont, Theatrum Europaeum, Lünig, Lundorp:
+                        Person.</note> mit gesambter<note n="477" type="crit_app">CTS, Dumont,
+                        Lundorp: gesampter. Theatrum Europaeum, Lünig: gesamter.</note> einwilligung
+                    bestellet, so <lb/>bleibet auch billig<note n="478" type="crit_app">Lundorp:
+                        billich.</note> demselben das Commando. <lb/>
+                    <lb/>12. &nbsp;&nbsp;&nbsp; Damit auch, zum Zwölfften, diese<note n="479"
+                        type="crit_app">CTS, Dumont, Theatrum Europaeum, Lünig, Lundorp:
+                        dieses.</note> defensio<note n="480">CTS, Dumont, Theatrum Europaeum, Lünig,
+                        Lundorp: diese Defension.</note> desto be- <lb/>stendiger<note n="481"
+                        type="crit_app">CTS, Dumont, Theatrum Europaeum, Lundorp:
+                        beständiger.</note> geführet und verrichtet werden möge, ist be-
+                    <lb/>liebet, daß zu Verfaßung eines consilii militaris ein <lb/>Jeder von
+                        obgemelten<note n="482" type="crit_app">Theatrum Europaeum: obgemeldten.
+                        Kohl: obbemelten.</note> alliirten Chur-<note n="483" type="crit_app">Kohl:
+                        Einschub: „eilf“.</note> undt Fürsten, nemblich<note n="484" type="crit_app"
+                        >CTS, Dumont, Theatrum Europaeum, Lünig, Lundorp: nemlich.</note>
+                    <lb/>Maintz, Trier, Cölln, Münster<note n="485" type="crit_app">CTS, Dumont,
+                        Theatrum Europaeum, Lünig, Lundorp: Auslassung „Münster“.</note>, Pfaltz
+                    Neuburg, Bre- <lb/>men, Braunschweig Lüneburg Wolffenbüttel, Zell,
+                    <lb/>Calenberg und Heßen-Caßel<note n="486" type="crit_app">Kohl: Umstellung:
+                        „Mayntz, Cöln, Trier, Brandenburg, Münster, Pfaltz-Neuburg, Bremen,
+                        Braunschweig-Wolffenbüttel,- Zell, - Calenberg und Hessen-Caßel“.</note>
+                    eine Krieges verstendige Per- <lb/> sohn<note n="487" type="crit_app">CTS,
+                        Dumont, Theatrum Europaeum, Lünig, Lundorp: kriegsverständige Person. Kohl:
+                        kriegsverstendige persohn.</note> zu diesem Ambt<note n="488"
+                        type="crit_app">CTS, Dumont, Lünig, Lundorp: Ampt. Theatrum Europaeum:
+                        Amt.</note> verordnen, in pflicht nehmen, und besol- <lb/>den sollen, auf
+                    daß Sie &lt;der von&gt;<note n="489" type="crit_app">CTS, Dumont, Theatrum
+                        Europaeum, Lünig, Lundorp: darfür. Kohl: vor.</note> dem<note n="490"
+                        type="crit_app">Theatrum Europaeum, Lünig: den.</note> Krieges Raht auf-
+                    <lb/>richtender instruction gemeß<note n="491" type="crit_app">CTS, Dumont,
+                        Theatrum Europaeum, Lünig, Lundorp: gemäß. Kohl: gemeeß.</note>, den Succurs
+                    so oft und <lb/>an welchem orth derselbe wird zusammen geführet werden, <lb/>im
+                    Feldt und Quartier <note n="492" type="crit_app">Kohl:
+                    quartieren.</note>beyzuwohnen, fleißig und sorg- <lb/>sahme<note n="493"
+                        type="crit_app">CTS, Dumont, Theatrum Europaeum, Lünig, Lundorp, Kohl:
+                        sorgsame.</note> achtung auf die momenta rerum und den Krieges- <lb/>statum
+                    zugeben, die anstellung des Krieges Rahts <lb/>
+                    <lb/>[Seite 16] <lb/>
+                    <lb/>vor sich so offt es die nottdurfft<note n="494" type="crit_app">CTS,
+                        Dumont, Theatrum Europaeum, Lünig, Lundorp: Nothdurfft. Kohl:
+                        notturft.</note> erfordert, instendig<note n="495" type="crit_app">CTS,
+                        Dumont, Theatrum Europaeum, Lünig, Lundorp: inständig. Kohl:
+                        einstendig.</note>
+                    <lb/>anzutreiben und demselben stets<note n="496" type="crit_app">Kohl:
+                        steets.</note> beyzuwohnen, auch <lb/>wegen der Lebensmittel,
+                        Artillerie<note n="497" type="crit_app">Kohl: artiglerie.</note>, munition,
+                    Magazin <lb/>und Fourage vorsichtig und sorgfeltig<note n="498" type="crit_app"
+                        >CTS, Dumont, Theatrum Europaeum, Lünig, Lundorp: sorgfältig.</note> zu
+                    sein, und insge- <lb/>mein auf conservation der V&lt;ö&gt;lcker mit stetiger
+                    wach- <lb/>sambkeit<note n="499">CTS, Dumont, Lundorp: Wachsamkeit. Theatrum
+                        Europaeum: stätiger Wachsamkeit. Lünig: Wachsamkeit.</note> zu sehen.
+                    Verbunden seÿ wolten aber zween <lb/>oder mehr alliirte Chur- und Fürsten einen
+                    Kriegesraht <lb/>ad tempus schicken, so soll Ihnen solches erlaubt, undt
+                    <lb/>derselbe Ihre vota und das Krieges Raht Ambt<note n="500" type="crit_app"
+                        >CTS, Dumont, Lundorp: Ampt. Theatrum Europaeum, Lünig: Amt.</note> zu
+                    vertre- <lb/>ten befugt<note n="501" type="crit_app">CTS, Dumont, Lundorp:
+                        vertretten befuget. Theatrum Europaeum: befuget.</note> seÿn. <lb/>
+                    <lb/>13.&nbsp;&nbsp;&nbsp; Weil nun<note n="502" type="crit_app">Kohl: Weiln
+                        nuhn.</note>, zum Dreÿzehenden, ein Jeder von den Ver- <lb/>einigten ohne
+                    und außerhalb der Krieges Rähte einen <lb/>gewissen ober Officirer über seine zu
+                    der conjunction <lb/>geschickte Völcker haben wirdt<note n="503" type="crit_app"
+                        >CTS, Dumont, Theatrum Europaeum, Lünig, Lundorp: wird.</note>, so soll<note
+                        n="504" type="crit_app">CTS, Dumont, Lundorp: sol. Kohl: solle.</note>
+                        derselb<note n="505" type="crit_app">CTS, Dumont, Theatrum Europaeum, Lünig,
+                        Lundorp, Kohl: selbe.</note> Chur- <lb/>oder Fürst in deßen Landen die
+                    zusammengeführte de- <lb/>fensions Völcker stehen<note n="506" type="crit_app"
+                        >CTS, Dumont, Theatrum Europaeum, Lünig, Lundorp: Auslassung
+                        „stehen“.</note>, oder an deßen statt<note n="507" type="crit_app">Kohl:
+                        stat.</note> sein Gene- <lb/>ral das Ober Commando haben, auch die Krieges
+                    Rähte <lb/>sampt<note n="508" type="crit_app">Theatrum Europaeum: sam&lt;m&gt;t.
+                        Lünig, Kohl: sambt.</note> mehr andern Officiren<note n="509"
+                        type="crit_app">Lundorp, Kohl: Officiern.</note> in deren<note n="510"
+                        type="crit_app">Theatrum Europaeum, Kohl: denen.</note> Sachen, darin<note
+                        n="511" type="crit_app">CTS, Dumont, Lundorp: darinn. Theatrum Europaeum,
+                        Lünig: darinnen.</note> es die <lb/>noht<note n="512" type="crit_app">CTS,
+                        Dumont, Theatrum Europaeum, Lünig, Lundorp: Noth.</note> oder der Krieges
+                        gebrauch<note n="513" type="crit_app">CTS, Dumont, Lundorp: Kriegs-Gebrauch.
+                        Theatrum Europaeum, Lünig, Kohl: Kriegsgebrauch.</note> erfordert, oder
+                    sonst <lb/>vor dienlich befunden wirdt, zu dem Kriegesraht be- <lb/>ruffen
+                    daselbst die vorfallenden<note n="514" type="crit_app">Theatrum Europaeum,
+                        Lünig, Lundorp, Kohl: vorfallende.</note> Sachen<note n="515"
+                        type="crit_app">Lünig: Sache.</note> propo- <lb/>niren, umbfragen<note
+                        n="516" type="crit_app">Theatrum Europaeum: umfragen.</note>, die letzte
+                    Stim&lt;m&gt; oder Votum haben, <lb/>dirigiren und den Schluß machen, denselben
+                    auch <lb/>der gebühr<note n="517" type="crit_app">Kohl: gebuer.</note> exequiren
+                    lassen, außerhalb solches im <lb/>gemeinen raht<note n="518" type="crit_app"
+                        >CTS, Dumont, Theatrum Europaeum, Lünig, Lundorp: Rath. Kohl: rhat.</note>
+                        gemachten<note n="519" type="crit_app">Kohl: gemacheten.</note> Schlußes
+                    aber nichts wichtiges <lb/>
+                    <lb/>[Seite 17] <lb/>
+                    <lb/>oder Haubtsachliches<note n="520" type="crit_app">CTS, Dumont, Theatrum
+                        Europaeum, Lünig, Lundorp: hauptsächliches. Kohl: haubtsächliches.</note>
+                    vornehmen, und sollen in ged[achtem] <lb/>Kriegesraht über<note n="521"
+                        type="crit_app">Lundorp: aber.</note> die jedesmahl<note n="522"
+                        type="crit_app">CTS, Dumont: jedes Mals. Lundorp: jedesmals. Theatrum
+                        Europaeum: jedes Mals. Lünig: indenjedesmals. Kohl: jehdeßmahls.</note>
+                        vornehmende<note n="523" type="crit_app">Theatrum Europaeum: vornehme.
+                        Lünig: vornehmenden. Lundorp: vornehmste.</note> und resol- <lb/>virende
+                    Krieges Actiones die majora gelten. <lb/>
+                    <lb/>14. &nbsp;&nbsp;&nbsp; Vors Vierzehende, unterhelt<note n="524"
+                        type="crit_app">CTS, Dumont, Theatrum Europaeum, Lundorp, Kohl: unterhaltet.
+                        Lünig: unterhält.</note> und bezahlet<note n="525" type="crit_app">Kohl:
+                        bezahlt.</note> ein jeder <lb/>Alliirter seine Völcker in deßen Landt nach
+                    seiner <lb/>gelegenheit und ordonantz<note n="526" type="crit_app">Theatrum
+                        Europaeum, Lundorp, Kohl: Ordinantz. Lünig: Ordonnantz.</note>, wan<note
+                        n="527" type="crit_app">CTS, Dumont, Lundorp: Ordinantz, wann. Theatrum
+                        Europaeum, Lünig: wenn.</note> sie aber außerhalb <lb/>Landes in der
+                    Conjunction oder im Feldt stehen, alßdan<note n="528" type="crit_app">CTS,
+                        Dumont, Lundorp: alsdann. Theatrum Europaeum, Lünig: alsdenn.</note>
+                    <lb/>soll Er dieselbe vermittelst zehntägiger Lehnung<note n="529"
+                        type="crit_app">Lünig: Löhnung.</note> nach <lb/>einerleÿ des orths<note
+                        n="530" type="crit_app">CTS, Dumont, Lünig, Lundorp: diß Orts. Theatrum
+                        Europaeum: diß. Kohl: dießohrts.</note> verglichener<note n="531"
+                        type="crit_app">Theatrum Europaeum: vergliechener.</note> und zu end
+                        angehengter<note n="532" type="crit_app">Kohl: endt angehenckter.</note>
+                    <lb/>Verpflegungs ordonantz<note n="533" type="crit_app">CTS, Dumont, Theatrum
+                        Europaeum, Lundorp, Kohl: Ordinantz. Lünig: Ordonnantz.</note> anticipando
+                    richtig bezahlen, <lb/>damit dieselbe wan<note n="534" type="crit_app">CTS,
+                        Dumont, Lundorp: wann. Theatrum Europaeum, Lünig: wen&lt;n&gt;.</note> Sie
+                    in andern Landen stehen<note n="535" type="crit_app">Kohl: stehn.</note>
+                        schwürig<note n="536" type="crit_app">Lundorp: schw&lt;ä&gt;rig&gt;.</note>
+                    <lb/>zu werden, zu exorbitiren, confusion und andere angele- <lb/>genheit<note
+                        n="537" type="crit_app">Lünig, Kohl: Ungelegenheit.</note> anzurichten<note
+                        n="538" type="crit_app">Kohl: zu richten.</note>, keine Uhrsache<note
+                        n="539" type="crit_app">CTS, Dumont, Theatrum Europaeum, Lünig, Lundorp:
+                        Ursach.</note> haben mögen, zu dero<note n="540" type="crit_app">Kohl: deren
+                        behuef.</note>
+                    <lb/>Behu&lt;e&gt;f dan<note n="541" type="crit_app">CTS, Dumont, Lundorp:
+                        Behuff dann. Theatrum Europaeum, Lünig: Behuff denn.</note> auch ein Jeder
+                    seinem beÿ den Völckern ha- <lb/>benden Commissario zween Monaht Soldt<note
+                        n="542" type="crit_app">CTS, Dumont: Solds. Theatrum Europaeum: Monat-Solds.
+                        Lünig, Lundorp: Monat Sold. Kohl: zweyn monaht sold.</note> gleich anfangs
+                    <lb/>zum Vorraht<note n="543" type="crit_app">CTS, Dumont, Lundorp: Vorauß.
+                        Theatrum Europaeum, Lünig: Vorrath. Kohl: vorrhat.</note> liefern laßen und
+                    mitgeben soll. <lb/>
+                    <lb/>15. &nbsp;&nbsp;&nbsp; Im Fall aber, zum<note n="544" type="crit_app">CTS,
+                        Dumont, Theatrum Europaeum, Lünig: Auslassung „aber zum“. Lundorp, Theatrum
+                        Europaeum, Lünig: Fünffzehendes.</note> Fünffzehenden, einer mit anschaffung
+                    <lb/>solcher Bezahlung oder auch Sendung der Völcker undt <lb/>leistung der
+                    versprochenen Hülff säumig sein, oder <lb/>eines oder andern Chur-Fürsten oder
+                    Standes Leuthe<note n="545" type="crit_app">CTS, Dumont, Theatrum Europaeum,
+                        Lundorp: Stands-Leute. Lünig: Leute. Kohl: standtsleuthen.</note>
+                    <lb/>Sperr-<note n="546" type="crit_app">Lünig: Spän.</note> oder Hinderung
+                    einwerffen wurden<note n="547" type="crit_app">CTS, Dumont, Theatrum Europaeum,
+                        Lünig, Lundorp, Kohl: würden.</note>, dar- <lb/>durch die Anschickung des
+                        hierin<note n="548" type="crit_app">CTS, Dumont, Theatrum Europaeum, Lünig,
+                        Lundorp: hierinnen. Kohl: hirin.</note> versprochenen und zu <lb/>ihr und
+                        anderer<note n="549" type="crit_app">CTS, Dumont, Theatrum Europaeum,
+                        Lundorp: ander.</note> Chur- Fürsten undt Stände<note n="550"
+                        type="crit_app">Kohl: ständt.</note>, Lande wol- <lb/>farth<note n="551"
+                        type="crit_app">CTS, Dumont, Theatrum Europaeum, Lundorp, Kohl:
+                        Wolfahrt.</note> und conservation gereichender succurs retardi-
+                        <lb/>ret<note n="552" type="crit_app">Kohl: retardirt.</note> oder auch gar
+                    verhindert würde, werden die anderen <lb/>
+                    <lb/>[Seite 18] <lb/>
+                    <lb/>sich entschliessen wie kegen<note n="553" type="crit_app">CTS, Dumont,
+                        Theatrum Europaeum, Lünig, Lundorp, Kohl: gegen.</note> solche
+                        Se&lt;ü&gt;umige<note n="554" type="crit_app">CTS, Dumont, Theatrum
+                        Europaeum, Lünig, Lundorp: säumige. Kohl: seumige.</note> und wie-
+                        <lb/>derspenstige<note n="555" type="crit_app">CTS, Dumont, Theatrum
+                        Europaeum, Lünig: Widerspänstige. Kohl: Widerspänstig.</note> zu verfahren
+                        seÿ<note n="556" type="crit_app">CTS, Dumont, Theatrum Europaeum, Lundorp:
+                        seye.</note>. <lb/>
+                    <lb/>16. &nbsp;&nbsp;&nbsp; Zum Sechszehenden, soll beÿ erfolgender Conjun-
+                    <lb/>ction der jenige, welchem in seinen Landen und Plätzen <lb/>succurrirt
+                    wirdt, so lang<note n="557" type="crit_app">Kohl: solange.</note> die
+                    conjungirte daselbst com- <lb/>muni<note n="558" type="crit_app">CTS, Dumont,
+                        Theatrum Europaeum, Lünig, Lundorp: communicato.</note> consilio stehen
+                    werden, das Commißbrodt<note n="559" type="crit_app">CTS, Dumont, Theatrum
+                        Europaeum, Lundorp: Brod.</note> vor- <lb/>schußweise<note n="560"
+                        type="crit_app">Kohl: vorschußweiß.</note>, und daß solches Ihme von den
+                    übrigen Ver- <lb/>einigten nach proportion eines jeden Völcker in billig-
+                    <lb/>meßiger alßdan<note n="561" type="crit_app">CTS, Dumont, Lundorp:
+                        billichmässiger als dann. Lünig: billigmäßiger. Theatrum Europaeum, Lünig:
+                        alsdenn.</note> unverzüglich vergleichender taxa <lb/>hinwieder bezahlet
+                        werden<note n="562" type="crit_app">Kohl: bezahlt werde.</note>, anschaffen
+                    lassen, <lb/>zu dem ende<note n="563" type="crit_app">Kohl: endt.</note> ein
+                    jeder in seinen Landen an verschiedenen <lb/>orthen<note n="564" type="crit_app"
+                        >CTS, Dumont, Theatrum Europaeum, Lünig, Lundorp: Orten. Kohl:
+                        ohrten.</note> zureichende Magazin zeitig<note n="565" type="crit_app">Kohl:
+                        zeitlich.</note> aufzurichten, außer- <lb/>halb des Commiss<note n="566"
+                        type="crit_app">Lünig: des Comisses.</note> und Obdachs<note n="567"
+                        type="crit_app">Kohl: obtachs.</note> aber, wie auch Verstat- <lb/>tung
+                        ohnentberlicher<note n="568" type="crit_app">CTS Dumont, Lundorp, Kohl:
+                        unentbehrlicher. Theatrum Europaeum: ohnentbärlicher.</note> fourage, ein
+                        mehres<note n="569" type="crit_app">Lünig: mehrers.</note> herzugeben<note
+                        n="570" type="crit_app">CTS, Dumont, Theatrum Europaeum, Lünig, Lundorp: zu
+                        geben.</note>
+                    <lb/>nicht<note n="571" type="crit_app">Kohl: nit.</note> schuldig sein, Noch
+                    von den Conjungirten Völ- <lb/>ckern ein mehres<note n="572" type="crit_app"
+                        >Lünig, Kohl: mehrers.</note> gefordert oder exequirt werden, <lb/>sondern
+                    was dieselbe außerhalb des Ihnen Vorschuß <lb/>weise<note n="573"
+                        type="crit_app">Kohl: vorschußweiß.</note> gebenden Commiss-<note n="574"
+                        type="crit_app">Lünig: Commisses.</note> und Rauchfutters<note n="575"
+                        type="crit_app">Theatrum Europaeum: rau Futter.</note> verzehren
+                    <lb/>werden, sollen sie in<note n="576" type="crit_app">Lünig: um.</note>
+                        billigem<note n="577" type="crit_app">CTS, Dumont, Lünig, Lundorp:
+                        billichen. Theatrum Europaeum: billichem.</note> werth<note n="578"
+                        type="crit_app">Kohl: wehrt.</note> den unterthanen<note n="579"
+                        type="crit_app">Kohl: underthanen.</note>
+                    <lb/>mit gelde<note n="580" type="crit_app">CTS, Dumont, Theatrum Europaeum,
+                        Lundorp: Geld. Kohl: gelt.</note> bezahlen, Da<note n="581" type="crit_app"
+                        >Kohl: Dahe.</note> aber die Völcker in <lb/>loco tertio, oder an einem
+                    solchen orth stehen müßen<note n="582" type="crit_app">Kohl: müsten.</note>,
+                        <lb/>da<note n="583" type="crit_app">Kohl: dahe.</note> das Commiss
+                        nicht<note n="584" type="crit_app">Kohl: nit.</note> zu bekommen wehre<note
+                        n="585" type="crit_app">Kohl: were. CTS, Dumont, Theatrum Europaeum, Lünig,
+                        Lundorp: wäre.</note>, oder aber<note n="586" type="crit_app">CTS, Dumont,
+                        Theatrum Europaeum, Lünig, Lundorp: Einschub „es“.</note>
+                    <lb/>einem Standt zu schwer fallen würde, soll es von den
+                        <lb/>benachbarthen<note n="587" type="crit_app">CTS, Dumont, Theatrum
+                        Europaeum, Lünig, Lundorp, Kohl: benachbarten.</note> nechstgelegenen<note
+                        n="588" type="crit_app">CTS, Dumont, Theatrum Europaeum, Lünig:
+                        nächstgelegenen. Kohl: negstgelegenen.</note> Vereinigten Chur– und
+                    <lb/>Fürsten beÿgeführet und umb<note n="589" type="crit_app">Kohl: im.</note>
+                        billigen<note n="590" type="crit_app">CTS, Dumont, Theatrum Europaeum,
+                        Lünig, Lundorp: billichen.</note> preiß erkauft<note n="591" type="crit_app"
+                        >CTS, Dumont, Theatrum Europaeum, Lünig, Lundorp: erkaufft.</note> werden. <lb/>
+                    <lb/>17. &nbsp;&nbsp;&nbsp; Zum Siebenzehenden, damit auch die Zufuhr<note
+                        n="592" type="crit_app">Lünig: Zufuhre.</note> zu <lb/>
+                    <lb/>[Seite 19] <lb/>
+                    <lb/>unterhaltung<note n="593" type="crit_app">Kohl: underhaltung.</note> des
+                    conjungirten Succurses<note n="594" type="crit_app">CTS, Dumont, Theatrum
+                        Europaeum, Kohl, Lundorp: Succurs.</note> nicht ge- <lb/>hindert, und die
+                        Unterthanen<note n="595" type="crit_app">Kohl: underthanen.</note> auf
+                    einigerleÿ weise<note n="596" type="crit_app">CTS, Dumont, Theatrum Europaeum,
+                        Lünig, Lundorp, Kohl: Weiß.</note> nicht <lb/>beschweret werden, denselben
+                    auch die obberührte<note n="597" type="crit_app">Kohl: obberürte.</note>
+                    <lb/>bezahlung<note n="598" type="crit_app">CTS, Dumont, Theatrum Europaeum,
+                        Lünig, Lundorp: Zahlung.</note> wiederfahren möge, soll<note n="599"
+                        type="crit_app">Kohl: solle.</note> unter<note n="600" type="crit_app">Kohl:
+                        under.</note> den Völ- <lb/>ckern gute Justitz gehalten, die ubertreter<note
+                        n="601" type="crit_app">CTS, Dumont, Theatrum Europaeum, Lünig: Übelthäter.
+                        Lundorp: Ubelthäter. Kohl: übertrettere.</note> ohne<note n="602"
+                        type="crit_app">Kohl: ohn.</note>
+                    <lb/>einigen aufschub<note n="603" type="crit_app">CTS, Dumont, Theatrum
+                        Europaeum: Auffschub. Lünig, Lundorp: Uffschub. Kohl: ohn einigem
+                        aufschueb.</note> oder respect exemplariter ge- <lb/>strafft<note n="604"
+                        type="crit_app">Kohl: gestrafet.</note> oder an deßen Statt<note n="605"
+                        type="crit_app">Kohl: stat.</note> der Commendant, wel- <lb/>cher jeder
+                    succurrirenden Partheÿ vorgesetzt ist oder nach <lb/>gelegenheit deßelben
+                    folgende officirer<note n="606">Kohl: officier.</note> ernstlich an-
+                    <lb/>gesehen werden.&nbsp;&nbsp;&nbsp; Wan<note n="607" type="crit_app">CTS,
+                        Dumont, Lundorp: wann. Theatrum Europaeum: Wenn. Lünig: Wem.</note> auch
+                        hierwieder<note n="608" type="crit_app">Lundorp, Kohl: hinwieder.</note>
+                    <lb/>wie auch sonsten einiger schad<note n="609">CTS, Dumont, Theatrum
+                        Europaeum, Lünig, Lundorp, Kohl: Schade.</note> in dem Landt von den Of-
+                    <lb/>ficirern, Reutern oder Soldaten zugefügt<note n="610" type="crit_app">CTS,
+                        Dumont, Theatrum Europaeum, Lünig, Lundorp: zugefüget.</note> würde,
+                        <lb/>soll<note n="611" type="crit_app">Theatrum Europaeum: sol.</note> neben
+                    und über solche Bestraffung der Landesfürst<note n="612" type="crit_app">CTS,
+                        Dumont, Theatrum Europaeum, Lünig, Lundorp: Landsfürst. Kohl:
+                        landtsfürst.</note>
+                    <lb/>deme oder deßen unterthanen<note n="613" type="crit_app">Kohl:
+                        underthanen.</note> der schaden zugefügt worden, <lb/>sich deßelben an den
+                        Officirer<note n="614" type="crit_app">Kohl: den officirn.</note> so woll
+                        alß<note n="615" type="crit_app">CTS, Dumont, Theatrum Europaeum, Lundorp:
+                        so wol als. Lünig: so wohl als. Kohl: sowoll als.</note> gemeinen Sol-
+                    <lb/>daten zu erholen bemechtiget<note n="616" type="crit_app">CTS, Dumont,
+                        Theatrum Europaeum, Lünig, Lundorp: bemächtiget. Kohl: berechtiget.</note>
+                    sein. <lb/>
+                    <lb/>18. &nbsp;&nbsp;&nbsp; Zum Achtzehenden, die beÿ der conjunction nö-
+                        <lb/>tige<note n="617" type="crit_app">CTS, Dumont, Theatrum Europaeum,
+                        Lünig, Lundorp: nöthige.</note> munition verschaffet ein jeder den Seinigen,
+                        <lb/>sambt<note n="618" type="crit_app">CTS, Dumont, Lünig, Lundorp: sampt.
+                        Theatrum Europaeum: sammt.</note> aller Zugehör nach proportion der Völcker,
+                    <lb/>der Artillerie<note n="619" type="crit_app">Kohl: artiglerie.</note> und
+                    occasion, Und ist wegen der Artille- <lb/>rie<note n="620" type="crit_app">Kohl:
+                        artiglerie.</note> abgeredet, daß ein jeder die nötige<note n="621"
+                        type="crit_app">CTS, Dumont, Theatrum Europaeum, Lünig, Lundorp: nöthige.
+                        Kohl: Auslassung.</note> geringe <lb/>Stücklein vor seine Völcker alßetwa
+                        auf<note n="622" type="crit_app">CTS, Dumont, Theatrum Europaeum, Lünig,
+                        Lundorp: als etwa auff. Kohl: als ehtwan.</note> jede<note n="623"
+                        type="crit_app">Einschub zwischen den Zeilen.</note> 600 <lb/>man zu
+                        Fueß<note n="624" type="crit_app">CTS, Dumont, Theatrum Europaeum, Lünig,
+                        Lundorp: Mann zu Fuß (auch im Folgenden).</note> Zweÿ Regiments Stücklein
+                        sambt<note n="625" type="crit_app">CTS, Dumont, Lünig, Lundorp: sampt.
+                        Theatrum Europaeum: sam&lt;m&gt;t.</note> Ihrer <lb/>Zugehör, übrige<note
+                        n="626" type="crit_app">Lundorp: Einschub „die“.</note> schwere Stücke<note
+                        n="627" type="crit_app">CTS, Dumont, Theatrum Europaeum, Lünig, Lundorp,
+                        Kohl: Stück.</note> aber neben den requisitis <lb/>an Constabel, Pferden,
+                        Geschir<note n="628" type="crit_app">CTS, Dumont, Theatrum Europaeum, Lünig,
+                        Lundorp: Geschirr. Kohl: geschir.</note>, munition und dergleichen <lb/>der
+                    jenige hergeben und herleÿ&lt;.&gt;hen<note n="629" type="crit_app">Undeutlich
+                        durch Streichung. Kohl: vergleichen.</note> solle, in deßen Landt<note
+                        n="630" type="crit_app">Kohl: lande.</note>
+                    <lb/>oder loco tertio, welcher de&lt;m&gt;selben am nechsten<note n="631"
+                        type="crit_app">CTS, Dumont, Theatrum Europaeum: nächsten. Kohl:
+                        negsten.</note> ist, <lb/>
+                    <lb/>[Seite 20] </p>
+                <p>
+                    <lb/> agirt wirdt, Jedoch auf gemeine Unkosten, schaden <lb/>und
+                        ungeweigerte<note n="632" type="crit_app">Kohl: ohngeweigerte.</note>
+                    wiedererstattung der Vereinigten. <lb/>
+                    <lb/>19. &nbsp;&nbsp;&nbsp; &nbsp;Zum Neünzehenden, soll<note n="633"
+                        type="crit_app">Kohl: solle.</note> der Zuschickende Succurs <lb/>so eilig
+                        alß<note n="634" type="crit_app">CTS, Dumont, Theatrum Europaeum, Lundorp:
+                        eylig als.</note> möglich<note n="635" type="crit_app">Kohl: müglich.</note>
+                    marchiren, keine unnötige<note n="636" type="crit_app">Lünig, Lundorp:
+                        unnöthige.</note> Stillager<note n="637" type="crit_app">Lünig: Still-Läger.
+                        Kohl: stilläger.</note>
+                    <lb/>halten und derjenige, durch deßen Landt der Durchzug <lb/>genommen werden
+                    muß, die quartiere<note n="638" type="crit_app">CTS, Dumont, Theatrum Europaeum,
+                        Lünig, Lundorp, Kohl: Quartier.</note> zum Nachtläger<note n="639"
+                        type="crit_app">Kohl: Nachtlager.</note> auch <lb/>die tagreisen<note
+                        n="640" type="crit_app">Lünig: Tagereisen.</note>, notiges Commisbrodt<note
+                        n="641" type="crit_app">CTS, Dumont, Lünig, Lundorp: nöthiges Commis-Brod.
+                        Kohl: nötiger commisbrott. Theatrum Europaeum: nöthiges... rau
+                        Futter.</note> und Rauchfutter <lb/>Vorschußweise anweisen, und zu der
+                        Durchfuhr<note n="642" type="crit_app">Lünig: Durchfuhre.</note> ge-
+                    <lb/>wiße Commissarien verordnen<note n="643" type="crit_app">Kohl:
+                        verordnet.</note>, denen dan so woll<note n="644" type="crit_app">CTS,
+                        Dumont, Lundorp: dann so wol. Theatrum Europaeum: denn so wol. Lünig: denn
+                        so wohl.</note> wegen <lb/>der marche<note n="645" type="crit_app">Kohl:
+                        march-.</note> und Quartier<note n="646" type="crit_app">Lünig: Quartiere.
+                        Kohl: quartiren.</note> alß andern davon dependi-<lb/>renden<note n="647"
+                        type="crit_app">CTS, Dumont, Lundorp: deputirenden.</note> dispositionen von
+                    allen hohen- und unter- Officiren<note n="648" type="crit_app">Kohl:
+                        underofficieren. Lundorp: Officirern.</note>
+                    <lb/>wie auch gemeinen Soldaten unweigerlich<note n="649" type="crit_app">Kohl:
+                        ohnweigerlich.</note> Folge<note n="650" type="crit_app">Theatrum Europaeum,
+                        Kohl: Folg.</note> geleistet<note n="651" type="crit_app">CTS, Dumont,
+                        Lundorp: Folg geleystet.</note>
+                    <lb/>und von den Vereinigten ernstlich darüber gehalten, <lb/>im übrigen aber es
+                        obgedachter<note n="652" type="crit_app">CTS, Dumont, Theatrum Europaeum,
+                        Lünig, Lundorp: gedachter. Kohl: obgemelter.</note> maßen observiret<note
+                        n="653" type="crit_app">Kohl: observirt.</note> werden <lb/>soll. <lb/>
+                    <lb/>20. &nbsp;&nbsp;&nbsp; Zum Zwantzigsten, die in dieser Verbündnüs<note
+                        n="654" type="crit_app">Kohl: verbüntnuß.</note> stehende, wollen <lb/>was
+                    Sie zu dieser Verfaßung dienlich oder auch schädlich<note n="655"
+                        type="crit_app">Kohl: schaedtlich.</note>
+                    <lb/>in erfahrung bringen, einer dem andern getrewlich<note n="656"
+                        type="crit_app">CTS, Dumont, Theatrum Europaeum, Lünig, Lundorp:
+                        getreulich.</note> unter <lb/>gutem Glauben communciren. <lb/>
+                    <lb/>21. &nbsp;&nbsp;&nbsp; Zum ein und Zwantzigsten, Wan<note n="657"
+                        type="crit_app">CTS, Dumont: Wann. Lünig: Wenn. Kohl: wann.</note> auch
+                        etwan<note n="658" type="crit_app">Theatrum Europaeum: wenn. Kohl:
+                        ehtwan.</note>
+                    <lb/>mehr andere Chur- Fürsten undt Stende<note n="659" type="crit_app">CTS,
+                        Dumont, Theatrum Europaeum, Lünig, Lundorp: Stände. Kohl: churfürsten und
+                        stände.</note> des Reichs, <lb/>Sie sein Catholisch<note n="660"
+                        type="crit_app">CTS, Dumont, Theatrum Europaeum, Lünig, Lundorp:
+                        Cathol-.</note> oder der Augspurgischer Confession <lb/>in diese particular
+                    defensions Verfaßung obge- <lb/>setzter maßen mit eintreten wollen, werden die
+                    Verei- <lb/>nigte darüber ob und mit waß condition dieselbe an-
+                        <lb/>zunehmen<note n="661" type="crit_app">CTS, Dumont, Theatrum Europaeum,
+                        Lünig, Lundorp: einzunehmen.</note>, und was sonsten darbeÿ<note n="662"
+                        type="crit_app">CTS, Dumont, Theatrum Europaeum, Lünig, Lundorp: dabey
+                        sonsten. Kohl: dabey.</note> zu beobachten, sich <lb/> einmühtiglich<note
+                        n="663" type="crit_app">CTS, Dumont, Theatrum Europaeum, Lundorp:
+                        einmüthiglich. Lünig: einmütiglich.</note> vergleichen, und wan<note n="664"
+                        type="crit_app">CTS, Dumont, Theatrum Europaeum, Lünig, Lundorp:
+                        wenn.</note> sich ein<note n="665" type="crit_app">Lünig, Lundorp, Kohl:
+                        einer.</note> oder der ander<note n="666" type="crit_app">Lünig:
+                        andre.</note>
+                    <lb/>
+                    <lb/>[Seite 21] <lb/>
+                    <lb/>deswegen beÿ jemanden<note n="667" type="crit_app">CTS, Dumont, Theatrum
+                        Europaeum, Lünig, Lundorp: jemands. Kohl: jemandten.</note> so in dieser
+                    Verfaßung <lb/>begriffen anmelden würde, soll es derselbe also <lb/>balt<note
+                        n="668" type="crit_app">CTS, Dumont, Theatrum Europaeum, Lünig, Lundorp:
+                        alsbald. Kohl: alspalt.</note> den<note n="669" type="crit_app">Lünig, Kohl:
+                        dem.</note> andern notificiren, auch den zusamen getrete- <lb/>nen<note
+                        n="670" type="crit_app">CTS, Dumont, Theatrum Europaeum, Lundorp, Kohl:
+                        getrettenen.</note> Chur- undt Fürsten freÿstehen vermög des al-
+                        <lb/>gemeinen<note n="671" type="crit_app">Kohl: algemeinen.</note> Münster-
+                    und Oßnabrughischen<note n="672" type="crit_app">CTS, Dumont, Theatrum
+                        Europaeum, Lundorp, Kohl: Oßnabrückischen. Lünig: Osnabrüggischen.</note>
+                        Friedenschluß<note n="673" type="crit_app">Lünig: Friedensschlusses.</note>
+                    <lb/>mit andern Potentaten Chur-<note n="674" type="crit_app">CTS, Dumont,
+                        Theatrum Europaeum, Lundorp: Einschub „und“.</note> Fürsten undt
+                        Stenden<note n="675" type="crit_app">CTS, Dumont, Theatrum Europaeum, Lünig,
+                        Lundorp, Kohl: Ständen.</note>, <lb/>Jedoch<note n="676" type="crit_app"
+                        >Kohl: jehdoch.</note> dieser alliantz<note n="677" type="crit_app">Kohl:
+                        alliance.</note> unabbrüchig<note n="678" type="crit_app">Kohl:
+                        unabbrüchigh.</note> und ohne nachtheil, <lb/>sich in Verbundnus<note
+                        n="679" type="crit_app">Kohl: verbündtnüß.</note> einzulaßen. <lb/>
+                    <lb/>22. &nbsp;&nbsp;&nbsp; Zum Zweÿ und Zwanzigsten, Diese Vereinigung
+                    <lb/>undt particular Verfassung ist, wie oben mit mehrerm <lb/>gemeldet<note
+                        n="680" type="crit_app">Kohl: vermeldet.</note> bloß gegen abtreibung
+                        unrechter<note n="681" type="crit_app">Theatrum Europaeum, Lünig, Kohl:
+                        unrechten. Lundorp: im Rechten.</note> Gewalts<note n="682" type="crit_app"
+                        >Kohl: gwalts.</note>
+                    <lb/>angesehen, und auf des Heÿl[igen] R&lt;ö&gt;mischen Reichs Execu-
+                    <lb/>tionsordnung und den Friedenschluß gegründet, und wollen <lb/>darin<note
+                        n="683" type="crit_app">CTS, Dumont, Lünig, Lundorp: darinn.</note> die
+                    Vereinigte die dreÿ nechst aneinander<note n="684" type="crit_app">CTS, Dumont,
+                        Theatrum Europaeum, Lundorp: einander. Lünig: nechsteinander. Kohl: negst
+                        nacheinander.</note>
+                    <lb/>folgende Jahre<note n="685" type="crit_app">CTS, Dumont, Lundorp, Kohl:
+                        Jahr.</note> verglichener<note n="686" type="crit_app">CTS, Dumont, Theatrum
+                        Europaeum: vergliechener.</note> maßen vestiglich beÿ <lb/>einander stehen,
+                    und ein halb Jahr vor Verfließung <lb/>solcher Zeit, der prorogation halber nach
+                    gestalt der <lb/>leüfften<note n="687" type="crit_app">CTS, Dumont, Theatrum
+                        Europaeum, Lundorp: Läufften.</note> und wie es des gemeinen
+                        Vaterlandes<note n="688" type="crit_app">CTS, Dumont, Theatrum Europaeum,
+                        Lundorp: Vatterlandes. Kohl: vatterlandts.</note>, auch eines <lb/>Jeden
+                        eigene<note n="689" type="crit_app">Theatrum Europaeum, Lundorp: eygne.
+                        Lünig: eigne.</note> und<note n="690" type="crit_app">Kohl: oder.</note>
+                    deßen Landt und Leuthen wolfahrt<note n="691" type="crit_app">Lünig:
+                        Wolfarth.</note>
+                    <lb/>erfordern mochte<note n="692" type="crit_app">CTS, Dumont, Theatrum
+                        Europaeum, Lünig, Lundorp: möchte. Kohl: mögte.</note>, sich so woll<note
+                        n="693" type="crit_app">CTS, Dumont, Theatrum Europaeum, Lünig, Lundorp:
+                        wol. Kohl: sowol.</note> ratione temporis, <lb/>alß conditionum wieder
+                        alhier<note n="694" type="crit_app">Kohl: alhie.</note> in Franckfurth<note
+                        n="695" type="crit_app">CTS, Dumont, Theatrum Europaeum, Lünig, Lundorp:
+                        Franckfurt. Kohl: Frankfurt (auch unten).</note> mitein- <lb/>ander<note
+                        n="696" type="crit_app">CTS, Dumont, Theatrum Europaeum, Lünig, Lundorp:
+                        Auslassung „miteinander“.</note>, jedoch vermittelst<note n="697"
+                        type="crit_app">CTS, Dumont, Lünig, Lundorp: vermittels.</note> eines jeden
+                    freÿen wilkühr<note n="698" type="crit_app">CTS, Dumont, Theatrum Europaeum,
+                        Lünig, Lundorp: Willkühr. Kohl: freye wilkühr.</note>, <lb/>ferners
+                        vereinbahren<note n="699" type="crit_app">CTS, Dumont, Theatrum Europaeum,
+                        Lünig, Lundorp: vereinbaren.</note>, würden aber etwa beÿ zu
+                        endt-<lb/>lauffung<note n="700" type="crit_app">CTS, Dumont, Lünig, Lundorp:
+                        Endlauffung. Kohl: zuentlaufung.</note> dieser dreÿ Jahr<note n="701"
+                        type="crit_app">Kohl: 3 jahren.</note> die alliirte in würcklicher
+                    <lb/>action begriffen<note n="702" type="crit_app">CTS, Dumont, Lundorp:
+                        begrieffen.</note> sein, sollen sie so lang<note n="703" type="crit_app"
+                        >CTS, Dumont, Lundorp: Auslassung „so lang“. Kohl: darin solang.</note>
+                    darinnen con- <lb/>tinuiren, biß selbe zum<note n="704" type="crit_app">Theatrum
+                        Europaeum, Lünig, Lundorp: zu.</note> ende<note n="705" type="crit_app"
+                        >Kohl: endt.</note> gebracht seÿ<note n="706" type="crit_app">CTS, Dumont,
+                        Lünig, Lundorp: bracht seyn.</note>. <lb/>
+                    <lb/>[Seite 22] <lb/>
+                    <lb/>Deßen zu Uhrkundt<note n="707" type="crit_app">CTS, Dumont, Lundorp:
+                        Urkundt. Theatrum Europaeum, Lünig: Uhrkund.</note> und bestendiger<note
+                        n="708" type="crit_app">Theatrum Europaeum, Lünig, Lundorp:
+                        beständiger.</note> Vesthaltung<note n="709" type="crit_app">CTS, Dumon,
+                        Lünig, Lundorp: beständiger Festhaltung.</note>, ist <lb/>dieser Vergleich
+                        Zehnmal<note n="710" type="crit_app">CTS, Dumont, Lünig, Lundorp: zehenmal.
+                        Theatrum Europaeum: 10. mahl. Kohl: eilfmahl.</note> ausgefertiget, und von
+                    al- <lb/>lerseits Chur- undt Fürstlichen<note n="711" type="crit_app">Kohl:
+                        fürsten.</note> Gevollmechtigten<note n="712" type="crit_app">CTS, Dumont,
+                        Theatrum Europaeum, Lünig, Lundorp: Gevollmächtigten.</note> unter
+                        <lb/>schrieben<note n="713" type="crit_app">Kohl: underschrieben.</note>,
+                    auch jedem davon ein Exemplar zu dem endt be- <lb/>hendiget<note n="714"
+                        type="crit_app">CTS, Dumont, Lünig, Lundorp: End behändiget. Theatrum
+                        Europaeum: End eingehändiget.</note> worden, Damit von Allerseits Gnedigst
+                    <lb/>und Gnediger<note n="715" type="crit_app">CTS, Dumont, Theatrum Europaeum,
+                        Lünig, Lundorp, Kohl: Gnädigster und Gnädiger.</note> Herrschafft<note
+                        n="716" type="crit_app">Kohl: herschaft.</note>, die darüber nottige<note
+                        n="717" type="crit_app">CTS, Dumont, Theatrum Europaeum, Lünig, Lundorp:
+                        nöthige. Kohl: nötige.</note> ra- <lb/>tificationes verglichener maßen von
+                    dato in- <lb/>nerhalb Monatszeit ohnfehlbar<note n="718" type="crit_app"
+                        >Theatrum Europaeum: unfehlbar. Lünig: ohnfehlbahr. Kohl:
+                        ohnfeilbahr.</note> bey gebracht<note n="719" type="crit_app">Abweichender
+                        Text bei Kohl: „und bey Churmayntz verwahrlich deponirt werden mögen, worbey
+                        jehdoch vorbehalten wirdt, dass uff den fall ein gevollmechtigter gesanter
+                        diesen alliantzreces jetz so balt nit mitunderschreiben oder die
+                        ratification in ersterwehntem termin nicht einkommen würde, dannoch die
+                        freye beytrettung und dieses schlußs ratification obgedachter maßen offen
+                        stehen und pleiben solle“. </note> undt <lb/>gegen einander ausgewechselt
+                    werden mögen. <lb/>So geschehen zu Franckfurth<note n="720" type="crit_app">CTS,
+                        Dumont, Theatrum Europaeum, Lünig, Lundorp: Franckfurt.</note> am Maÿn den
+                    14 / 4 Au- <lb/>gusti<note n="721" type="crit_app">CTS, Dumont, Lünig, Lundorp:
+                        Datierung hier wie folgt: „den vierzehenden Neuen und vierdten Alten Styli
+                        Monats Augusti, im Jahr Ein Tausend Sechshundert Funffzig und Acht“.
+                        Theatrum Europaeum: 14.4.August A. 1658. Die Unterzeichnung fand in der
+                        Wohnung Heylands in Frankfurt statt. Joachim, II, S. 491, nennt als Datum
+                        der Untrzeichnung den 15. August. Der französische Vertragsbeitritt wird
+                        hier auf den 16. August 1658 datiert. Insgesamt wird – v.a. in der älteren
+                        Rheinbundliteratur Verweis: Aufsatz Martin Peters, in Historicum. net oft
+                        nicht korrekt zwischen den beiden Verträgen getrennt. Auch die Datierungen
+                        weichen ab." </note> im Jahr Ein Tausendt Sechshundert und Acht und
+                        <lb/>Fünffzig<note n="722" type="crit_app">Kohl: Ende der
+                        Textwiedergabe.</note>. <lb/>
+                    <lb/>
+                    <lb/><rs ref="#pp0296">Th.F.H. von <ref
+                        target="http://www.historicum.net/themen/erster-rheinbund-1658/akteure/vertragschliessende-parteien/mainz/johann-christian-von-boineburg/"
+                        >Boineburg</ref></rs><note n="723" type="crit_app">CTS, Dumont, Lundorp:
+                        Beineburg. Theatrum Europaeum: Christian Freyherr von Boineburg. Lünig: Joh.
+                        F. Herr von Beineburg. Johann Christian Freiherr von Boyneburg (1622 -
+                        1672), Mainzer Bevollmächtigter, Geheimrat und (seit 1650) erster Minister
+                        in kurmainzischem Dienst.</note><ref
+                        target="http://www.historicum.net/themen/erster-rheinbund-1658/akteure/vertragschliessende-parteien/mainz/johann-christian-von-boineburg/"
+                        >&nbsp;&nbsp; </ref>&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;
+                    <rs ref="#pp0319">Philip Von <ref
+                        target="http://www.historicum.net/themen/erster-rheinbund-1658/akteure/vertragschliessende-parteien/mainz/philipp-von-vorburg/"
+                        >Vorburg</ref></rs><note n="724" type="annotation">Lünig: Philipp. Philipp von
+                        Vorburg (gest. 1660), Mainzer Gesandter.</note>
+                    <ref
+                        target="http://www.historicum.net/themen/erster-rheinbund-1658/akteure/vertragschliessende-parteien/mainz/philipp-von-vorburg/"
+                        >&nbsp;</ref>&nbsp; mp <lb/>
+                    <lb/><rs ref="#pp0297">W. Ego G.z.<ref
+                        target="http://www.historicum.net/themen/erster-rheinbund-1658/akteure/vertragschliessende-parteien/koeln/wilhelm-egon-von-fuerstenberg/"
+                        >Fürstenberg</ref></rs><note n="725" type="annotation">Wilhelm Egon von
+                        Fürstenberg (1629-1704), Kurkölner Bevollmächtigter und Minister. Hans
+                        Böhmer, Forschungen zur französischen Bündnispolitik im 17. Jahrhundert.
+                        Wilhelm Egon von Fürstenberg und die französische Diplomatie in Deutschland.
+                        In: Rheinische Vierteljahresblätter 4 (1934), S. 225-259." </note><ref
+                        target="http://www.historicum.net/themen/erster-rheinbund-1658/akteure/vertragschliessende-parteien/koeln/wilhelm-egon-von-fuerstenberg/"
+                            >&nbsp;</ref> mp &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; <rs ref="#pp0320">Jo[hann]es
+                    Christophorus <ref
+                        target="http://www.historicum.net/themen/erster-rheinbund-1658/akteure/vertragschliessende-parteien/koeln/johann-christoph-aldenhoven/"
+                        >Aldenhofen</ref></rs><note n="726" type="annotation">Johann Christoph von
+                        Aldenhofen (gest. 1668), Kurkölner Hofrat. 1651 unterzeichnete er für Köln
+                        das Rheinische Bündnis. Ab 1663 war er Kurkölner Reichstagsgesandter in
+                        Regensburg.</note> mp <lb/>
+                    <lb/><rs ref="#pp0298">Frantz von <ref
+                        target="http://www.historicum.net/themen/erster-rheinbund-1658/akteure/vertragschliessende-parteien/pfalz-neuburg/franz-von-gise/"
+                        >Giese</ref></rs><note n="727" type="annotation">Franz Wilhelm von Giese (gest.
+                        1675), Bevollmächtigter Pfalz Neuburgs. Spätestens seit 1637 stand im
+                        Dienste des Hauses Pfalz-Neuenburg, seit 1647 neuburgischer Kanzler.</note>
+                    mp <lb/>
+                    <lb/><rs ref="#pp0299">Georg Von <ref
+                        target="http://www.historicum.net/themen/erster-rheinbund-1658/akteure/vertragschliessende-parteien/schweden-fuer-bremen-und-verden/georg-snoilsky/"
+                        >Snoilsky </ref></rs><note n="728" type="annotation">Theatrum Europaeum:
+                        Snolisky. Lünig: Suoilsky. Georg von Snoilsky (ca. 1607-1672), seit 1651 in
+                        Frankfurt, zunächst als schwedischer Resident beim Kreistag der Kur- und
+                        Oberrheinischen Kreise, ab 1655 als Repräsentant für Schwedisch-Pommern auf
+                        dem Reichsdeputationstag. Nach dessen Ende 1663 vertrat er Schweden (bis zu
+                        seinem Tod) auf dem Reichstag in Regensburg." </note>
+                    <lb/>
+                    <lb/><rs ref="#pp0300">Polycarpus <ref
+                        target="http://www.historicum.net/themen/erster-rheinbund-1658/akteure/vertragschliessende-parteien/braunschweig-lueneburg/polycarp-heiland-wolfenbuettel/"
+                        >Heiland</ref></rs><note n="729" type="annotation">CTS, Dumont, Lünig, Lundorp:
+                        Heyland. Theatrum Europaeum: Polzcarpus Heyland. Policarp Heiland
+                        (1614-1662), vertrat das Herzogtum Braunschweig-Lüneburg-Wolfenbüttel auf
+                        dem Reichsdeputationstag, der seit 1655 in Frankfurt am Main tagte. In
+                        seiner Frankfurter Wohnung wurde am 15. August 1658 der Rheinbund-Vertrag
+                        zwischen den deutschen Fürsten unterzeichnet, auch wenn die
+                        Unterhändlerexemplare auf den 14. August zurückdatiert sind." </note><ref
+                        target="http://www.historicum.net/themen/erster-rheinbund-1658/akteure/vertragschliessende-parteien/braunschweig-lueneburg/polycarpius-heiland-wolfenbuettel/"
+                        >&nbsp;</ref> mp <lb/>
+                    <lb/><rs ref="#pp0301">Otto Johan <ref
+                        target="http://www.historicum.net/themen/erster-rheinbund-1658/akteure/vertragschliessende-parteien/braunschweig-lueneburg/otto-johann-witte-celle/"
+                        >Witte</ref></rs><note n="730" type="crit_app">CTS, Dumont, Lünig, Lundorp:
+                        Johann. Otto Johann Witte (ca. 1615-1677), Hofrat im Dienst des Herzogs
+                        Christian Ludwig von Braunschweig-Lüneburg, Vertreter
+                        Braunschweig-Lündeburg-Celles in Frankfurt und Regensburg.</note> mp <lb/>
+                    <lb/><rs ref="#pp0302">Otto Ottho von <ref
+                        target="http://www.historicum.net/themen/erster-rheinbund-1658/akteure/vertragschliessende-parteien/braunschweig-lueneburg/otto-otto-von-mauderode-calenberg/"
+                        >Mauderode</ref></rs><note n="731" type="annotation">Otto Otto von Mauderode
+                        (1600-1671), seit 1630er Jahren in welfischen Diensten, seit 1652 Hofrat
+                        Herzog Georg-Wilhelms, vertrat dessen Fürstentum
+                        Braunschweig-Lüneburg-Calenberg seit 1655 auf dem Frankfurter
+                        Reichsdeputationstag, später als Geheimer Rat für das Fürstentum
+                        Braunschweig-Lüneburg-Celle auf dem Reichstag in Regensburg." </note><ref
+                        target="http://www.historicum.net/themen/erster-rheinbund-1658/akteure/vertragschliessende-parteien/braunschweig-lueneburg/ottho-ottho-mauderode-calenberg/"
+                        >&nbsp;&nbsp; </ref>
+                    <lb/>
+                    <lb/><rs ref="#pp0303">Regnerus <ref
+                        target="http://www.historicum.net/themen/erster-rheinbund-1658/akteure/vertragschliessende-parteien/hessen-kassel/regner-badenhausen/"
+                        >Badenhausen</ref></rs><note n="732" type="crit_app">CTS, Dumont, Theatrum
+                        Europaeum, Lünig, Lundorp: fehlt. Regnerus Badenhausen (1610-1686),
+                        Bevollmächtigter Hessen-Kassels, Regierungsrat (1644), Delegierter am
+                        Regensburger Reichstag (1652), Geheimrat (1656), Hessischer Kanzler (seit
+                        1684 oder 1685).</note> mp &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;
+                    &nbsp;&nbsp;&nbsp; <rs ref="#pp0304">Sebastian Fridrich <ref
+                        target="http://www.historicum.net/themen/erster-rheinbund-1658/akteure/vertragschliessende-parteien/hessen-kassel/sebastian-friedrich-zobell/"
+                        >Zobell</ref></rs><note n="733" type="crit_app">CTS, Dumont, Theatrum Europaeum,
+                        Lünig, Lundorp: fehlt. Sebastian Friedrich Zobell (1617–1671),
+                        Regierungsrat, Gesandter Hessen-Kassels.</note>&nbsp; mp </p>
+                <p>&nbsp; </p>
+                <p>&nbsp; </p>
+                <p>&nbsp; </p>
+                <p>[bearb. von Andrea Schmidt-Rösler] <lb/>
+                </p>
+            </div>
+        </body>
+        <back>
+            <listBibl>
+                <bibl xml:id="a23">
+                    <title level="a">Theatrum Europaeum (1658-08-14)</title>
+                    <title level="m">Theatrum Europaeum, Band 8 (1657-1660) Aus: Dokumentenarchiv
+                        der Universitätsbibliothek Augsburg (Drucke vor 1900 / Historische
+                        Geschichtswerke).</title>
+                    <biblScope>
+                        <graphic xml:id="A1Pnr1"
+                            url="https://www.ieg-friedensvertraege.de/dbimages/img_49e5afc2f2d8e"/>
+                        <graphic xml:id="A1Pnr2"
+                            url="https://www.ieg-friedensvertraege.de/dbimages/img_49e5b0154ac21"/>
+                        <graphic xml:id="A1Pnr3"
+                            url="https://www.ieg-friedensvertraege.de/dbimages/img_49e5b01d1cd94"/>
+                        <graphic xml:id="A1Pnr4"
+                            url="https://www.ieg-friedensvertraege.de/dbimages/img_49e5b023845ac"/>
+                        <graphic xml:id="A1Pnr5"
+                            url="https://www.ieg-friedensvertraege.de/dbimages/img_49e5b0295b548"/>
+                        <graphic xml:id="A1Pnr6"
+                            url="https://www.ieg-friedensvertraege.de/dbimages/img_49e5b02f5c4c4"/>
+                    </biblScope>
+                </bibl>
+                <bibl>Göhring, Martin: Kaiserwahl und Rheinbund von 1658. Ein Höhepunkt des Kampfes
+                    zwischen Habsburg und Bourbon um die Beherrschung des Reiches. In: Martin
+                    Göhring, Alexander Scharff (Hrsg.): Geschichtliche Kräfte und Entscheidungen.
+                    Festschrift zum fünfundsechzigsten Geburtstage von Otto Becker. Franz Steiner
+                    Verlag, Wiesbaden 1954, S. 65-83 </bibl>
+                <bibl>Joachim, Erich: Die Entwicklung des Rheinbundes vom Jahre 1658. Acht Jahre
+                    reichsständischer Politik (1651 – 1658). Leipzig 1886 </bibl>
+                <bibl>Schindling, Anton: Der erste Rheinbund und das Reich. In: Volker Press
+                    (Hrsg.), Dieter Stievermann (Bearb. nach dem Tod des Hrsg.): Alternativen zur
+                    Reichsverfassung in der Frühen Neuzeit? R. Oldenburg Verlag, München 1995. S.
+                    123-129 (Schriften des Historischen Kollegs, Kolloquien, Bd. 23) </bibl>
+                <bibl>Schnur, Roman: Der Rheinbund von 1658 in der deutschen Verfassungsgeschichte.
+                    Bonn 1955 (Rheinisches Archiv, Veröffenftlichungen des Instituts für
+                    geschichtliche Landeskunde der Rheinlande an der Universität Bonn, Bd. 47)
+                </bibl>
+            </listBibl>
+        </back>
+    </text>
+</tei:TEI>

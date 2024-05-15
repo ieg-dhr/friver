@@ -1,0 +1,518 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE tei SYSTEM "../resources/FriVer_DTD.dtd">
+
+<?xml-model href="../resources/FriVer.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns="http://www.tei-c.org/ns/1.0" xml:id="pa000299-0437">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title level="s">European peace treaties of the pre-modern era in data / Europäische Friedensverträge der Vormoderne in Daten (FriVer+)</title>
+                <title when="1570-08-16" xml:id="t437" when-custom="1570 VIII 16" level="a" ref="https://www.ieg-friedensvertraege.de/treaty/t-437-1-de.html">Vertrag von Speyer</title>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    Digital edition according to
+                    <ref target="http://www.tei-c.org/">TEI P5</ref>
+                </edition>
+                <funder>
+                    <ref target="https://www.text-plus.org/">TEXT+</ref>
+                </funder>
+                <editor role="http://id.loc.gov/vocabulary/relators/edt" ref="https://orcid.org/0000-0002-8741-5916">
+                    <persName>Jaap Geraerts</persName>
+                    <note>The transformation and enrichment of the data is done by Jaap Geraerts (IEG Mainz). The other members of the FriVer+ team are Fabian Cremer, Ines Grund, and Thorsten Wübbena (all IEG Mainz).</note>
+                    <note>
+                        The original data has been created by the
+                        <ref target="https://www.ieg-friedensvertraege.de">team of scholars</ref>
+                        who were part of the Europäische Friedensverträge der Vormoderne project. This project was lead by Prof. Dr. Heinz Duchhardt and was based at the Leibniz Institute of European History in Mainz.
+                    </note>
+                </editor>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>
+                    <orgName ref="http://www.isni.org/0000000119314040">Leibniz-Institut für Europäische Geschichte Mainz</orgName>
+                </publisher>
+                <distributor>
+                    <orgName ref="http://www.isni.org/0000000110101946">Universitäts- und Landesbibliothek Darmstadt</orgName>
+                </distributor>
+                <idno type="ISIL">http://lobid.org/organisation/DE-17</idno>
+                <date type="issued" when="2023-12-23"/>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">
+                        <p xml:lang="en">This file is licensed under the terms of the Creative Commons License CC-BY 4.0 (Attribution 4.0 International)</p>
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <repository xml:id="r4">Budapest MOL
+                    <note>Budapest MOL, Findbuch:<lb />
+                        <ref target="https://www.eleveltar.hu/digitalis-tartalom?source=mnlscope&amp;ref=mnlscope::1984438" >https://www.eleveltar.hu/digitalis-tartalom?source=mnlscope&amp;ref=mnlscope::1984438</ref></note>
+                </repository>
+                <msDesc><p>MolBudapest&nbsp; Acta publica E 142 Fasz. 45 Nr. 65: Ratifikation des siebenbürgischen Fürsten Johann Sigismund, Szapolyai, Karlsburg 1570 XII 1 (beglaubigte Abschrift,m Wien 1794)</p></msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>
+                    The data in this XML file, originally created by the project
+                    <ref target="https://www.ieg-friedensvertraege.de/vertraege">Europäische Friedensverträge der Vormoderne online</ref>
+                    has been transformed in accordance with
+                    <ref target="http://www.tei-c.org/">TEI P5</ref>
+                    as part of the project
+                    <ref target="https://www.ieg-mainz.de/en/research/research-projects/european-peace-treaties-of-the-pre-modern-era-in-data">Europäische Friedensverträge der Vormoderne in Daten (FriVer+)</ref>
+                </p>
+            </projectDesc>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="la" xml:id="lan6">Latein</language>
+            </langUsage>
+        </profileDesc>
+    </teiHeader>
+    <standOff>
+        <listPerson>
+            <person role="signatory" xml:id="p12">
+                <persName ref="https://explore.gnd.network/gnd/4043271-3">
+                    <name>Oesterreich</name>
+                </persName>
+            </person>
+            <person role="signatory" xml:id="p109">
+                <persName ref="https://explore.gnd.network/gnd/4054835-1">
+                    <name>Siebenbürgen</name>
+                </persName>
+            </person>
+        </listPerson>
+        <listPlace>
+            <place xml:id="loc159">
+                <placeName ref="https://explore.gnd.network/gnd/4056179-3">Speyer</placeName>
+            </place>
+        </listPlace>
+        <facsimile>
+            <surface xml:id="FacsPnr1">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_449a41880d2a1"/>
+            </surface>
+            <surface xml:id="FacsPnr2">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_449a41e01f9fc"/>
+            </surface>
+            <surface xml:id="FacsPnr3">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_449a4223ad31b"/>
+            </surface>
+            <surface xml:id="FacsPnr4">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_449a426b45aeb"/>
+            </surface>
+            <surface xml:id="FacsPnr5">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_449a42d59ff68"/>
+            </surface>
+            <surface xml:id="FacsPnr6">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_449a4329b5fce"/>
+            </surface>
+            <surface xml:id="FacsPnr7">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_449a437d0688c"/>
+            </surface>
+            <surface xml:id="FacsPnr8">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_449a43d0490ee"/>
+            </surface>
+            <surface xml:id="FacsPnr9">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_449a4440beeb2"/>
+            </surface>
+            <surface xml:id="FacsPnr10">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_449a44977bfaa"/>
+            </surface>
+            <surface xml:id="FacsPnr11">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_449a459ec4b9f"/>
+            </surface>
+            <surface xml:id="FacsPnr12">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_449a45ed402d0"/>
+            </surface>
+            <surface xml:id="FacsPnr13">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_449a463c4ed1e"/>
+            </surface>
+        </facsimile>
+    </standOff>
+    <text>
+        <front>
+            <div type="Drucke"><p>Roderich Gooss, Österreichische Staatsverträge. Fürstentum iebenbürgen. Wien 1911, S.189-198. [Regest Bittner I, Nr.122]</p></div>
+            <div type="Inhalt"><p> Vertrag unter Vermittlung Polens. Bevollmächtigte. Friede und Einheit. 
+                <lb />Johann Sigismund verzichtete auf den Titel des erwählten Königs. 
+                <lb />Titulatur. Regelung. Titel des Rex electus wird nur gegenüber dem Osmanischen Reich geführt.
+                <lb />Siebenbürgen und Teile Ungarns bleiben erblicher Besitz des Fürsten. Der Fürst erkennt den Kaiser bzw. den ungarischen König als Superior an. Zugehörigkeit Siebenbürgens und der Partes zum Königreich Ungarn. Beistandspakt gegen das Osmanische Reich und gegen die Feinde der Christenheit. Defensivpakt. 
+                <lb />Der Kaiser verpflichtet sich, Siebenbürgen und die Partes zu schützen. Subsidien. 
+                <lb />Kriegsfolge des Fürstentums Siebenbürgen. 
+                <lb />Im Fall der Vertreibung des Fürsten aus Siebenbürgen gewährt der Kaiser eine Entschädigung in Form der Fürstentüner Oppeln und Ratibor. 
+                <lb />Der Fürst verpflichtet die Stände, Siebenbürgen im Fall des Aussterbens der männlichen Linie dem Kaiser zu übergeben. 
+                <lb />Der Kaiser bestätigt Siebenbürgen (mit den Partes) und den Ständen alle Privilegien. 
+                <lb />Aussteuer der Töchter des Fürsten. 
+                <lb />Der siebenbürgische Fürst behält Besitzungen in Ungarn (Bihar mit Großwardeiner Schloß, Gespanschafen Kraszna und Szolnok (mit Cseh), Komitat Marmaros&nbsp; (Details). 
+                <lb />Sigismund tritt seine momentanen Besitzungen in den Komitaten Bereg, Ugocsa, Szabolcs und Szatmár an den Kaiser ab. Der Kaiser gibt die Stadt Tasnád zurück. 
+                <lb />Der Kaiser sichert Schutz vor Übergriffen zu. 
+                <lb />Überläufer. 
+                <lb />Erobert der Fürst Gebiete jenseits der Theis vom Osmanischen Reich, so gehen sie in seinen Besitz über. 
+                <lb />Kaiser wird dem Fürsten eine Ehe mit einer deutschen Prinzessin (Bayern, Jülich) vermitteln. 
+                <lb />Respektierung des Testaments im Todesfall vor einer Eheschließung. 
+                <lb />Beidseitiger Verzicht auf Prozesse wegen Treue. 
+                <lb />Kaiserliche Amnestie für die Partes und für Siebenbürgen. 
+                <lb />Fällt Siebenbürgen an den Kaiser, behält es seine Privilegien und Freiheiten. 
+                <lb />Assekurationsbriefe. 
+                <lb />Geheimhaltung. Austausch der Ratifikationen. 
+                <lb />[Beglaubigung] 
+                <lb />
+            </p></div>
+        </front>
+        <body>
+            <div type="Transliteration">
+                <pb facs="#FacsPnr1"/><p>Copia&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp; 1. Decembris 1570 
+                    <lb /> 
+                    <lb />Capitulatio. 
+                    <lb />Serenissimi Joannis, olim Joannis Regis filÿ Principis 
+                    <lb />Transÿlvaniæ, cum &lt;Divo&gt; quondam Maximiliano secundo 
+                    <lb />Romanorum Imperatore inita 1570. 
+                    <lb /> 
+                    <lb /> 
+                    <lb />Joannes Serenissimi olim Joannis Regis Hungariæ, Dalmatiæ, Croatiæ etc. 
+                    <lb />filius, Dei gratia Princeps Transÿlvaniæ ac partium Regni Hungariæ, Re- 
+                    <lb />cognoscimus, ac memoriæ commendamus tenore præsentium quibus expe- 
+                    <lb />dit universis pro nobis, Hæredibus et Successoribus nostris, quod cum iam inter 
+                    <lb />Serenissimum Principem Dominum Maximilianum Secundum electum Romano- 
+                    <lb />rum Imperatorem semper Augustum, ac Germaniæ, Hungariæ, Bohemiæ, Dal- 
+                    <lb />matiæ, Croatiæ, Sclavoniæ etc. Regem, Archiducem Austriæ, Ducem Burgundiæ, 
+                    <lb />Stiriæ, Carinthiæ, Carniolæ et Wirtembergæ etc., Comitem Tirolis etc. Maiorem, 
+                    <lb />superiorem et Consanguineum nostrum observandissimum ex una, et nomine 
+                    <lb />nostro per Magnificum &lt;Casp&gt;arum Bekes, nostrum supremum Cubicularium, 
+                    <lb />Consiliarium et Oratorem cum pleno mandato et potestate ad id missum ex 
+                    <lb />altera parte, interveniente et mediante Serenissimi Principis Domini Sigismun- 
+                    <lb />di Augusti, Regis Poloniæ etc. avunculi nostri observandissimi Oratore, 
+                    <lb />et ad eam tractationem plenissima cum facultate commissario Reverendis- 
+                    <lb />simo Domino Adamo Conarskÿ de Cobelÿn Episcopo Posnaniensi et Regni 
+                    <lb />Poloniæ Consiliario non solum pro conservatione Regni Hungariæ, sed etiam 
+                    <lb />totius Reipublicæ Christianæ beneficio certi pacis et concordiæ tractatus 
+                    <lb />initi, et conclusi fuerint, quorum quidem tractatuum tenor de verbo ad 
+                    <lb />verbum sequitur, et est talis: 
+                    <lb /> 
+                    <lb />Articuli et conditiones pacificationis inter Sac[ratissim]am Cæs[are]am ac Hungariæ, et&nbsp; 
+                </p>
+                <pb facs="#FacsPnr2"/><p>Bohemiæ Regiam etc. Maiestatem, et Serenissimum Principem Dominum 
+                    <lb />Joannem Serenisimi Joannis Regis Hungariae filium, Principem Transÿl- 
+                    <lb />vaniæ et partium Regni Hungariæ tractati et conclusi cum eadem Sac[ratissim]a 
+                    <lb />Cæsarea Maiestate per Spectabilem et Magnificum Casparum Bekes su- 
+                    <lb />premum Cubicularium Consiliarium et oratorem Serenissimi Principis, 
+                    <lb />cum pleno mandato et potestate ad id missum, interveniente et mediante 
+                    <lb />Seren[issi]mi Regis Poloniæ Oratore et ad eam tractationem plenissima cum fa- 
+                    <lb />cultate Com[m]issario Reverendissimo Domino Adamo Conarski de Cobelÿn 
+                    <lb />Episcopo posnaniensi et Regni Poloniæ consiliario, Spiriæ die decima sexta 
+                    <lb />mensis Augusti, Anno Domini Millesimo, quingentesimo septuagesimo. 
+                    <lb /> 
+                    <lb />Primum igitur cum de titulo, quo a tempore huius pacificationis initæ 
+                    <lb />Serenissimus Princeps Joannes, uti debebit, inter Sacram Cæsaream Regi- 
+                    <lb />amque Maiestatem, ac ipsum Serenissimum Principem controversia exsti- 
+                    <lb />terit, conventum est, hinc inde boni publici et conservandarum reliquia- 
+                    <lb />rum inclÿti Regni Hungariæ studio, quod Serenissimus Princeps titulo 
+                    <lb />ac omni prætensione electi Hungariæ etc. Regis cedat, ac eo qui&lt;.&gt; sequitur, 
+                    <lb />contentum se cum suis posteris et Successoribus fore, ac sub eo frugi- 
+                    <lb />feram operam suam in Republica Christiana navare velle declaret. 
+                    <lb /> 
+                    <lb />Serenissimus Princeps Dominus Johannes, Serenissimi olim Joan[n]is Regis 
+                    <lb />Hungariæ, Dalmatiæ, Croatiæ etc. filius, Dei gratia Princeps Transÿlvaniæ 
+                    <lb />ac partium Regni Hungariæ; quem quidem titulum Serenissimo Princi- 
+                    <lb />pi, ac eius Successoribus Sacra Cæsarea Regiaque Maiestas cum Successo- 
+                    <lb />ribus suis perpetuo conservatura est. Nihilominus evitandorum 
+                    <lb />diversorum periculorum causa electi Regis titulo in literis, quæ ipsi ad 
+                    <lb />&nbsp; 
+                </p> 
+                <p>&nbsp; 
+                </p>
+                <pb facs="#FacsPnr3"/><p>portam Imperatoris Turcarum scribendæ occurrent, citra præiudicium
+                <lb />Sacræ Cæsareæ Regiæque Maiestatis libere utetur.
+                <lb />&nbsp;
+                <lb />Deinde Idem Serenissimus Princeps, eiusdemque liberi hæredes et posteri
+                <lb />masculi universam Transÿlvaniam, nec non eas partes Hungariæ, quas
+                <lb />possidet, pacifice habebunt, et possidebunt, tanquam liberi Principes cum
+                <lb />libera ac plena authoritate et potestate donandorum conferendorumque
+                <lb />bonorum, iudicandarum item causarum et executioni demandandarum
+                <lb />cum alÿs functionibus omnem potestatem et amplitudinem liberi Principis
+                <lb />spectantibus, dummodo nihil alienetur ex his bonis, quæ Serenissimus
+                <lb />Princeps tenet, ad Coronam Regni spectantibus, quæ tamen et ipsa necessi-
+                <lb />tatis tempore oppignorare, aut etiam inscribere alicui (salva alienatio-
+                <lb />onis perpetuæ clausula) ipsis liberum futurum est.
+                <lb />
+                <lb />De omnibus vero reliquis bonis, quæ jam antea inscripta donate, vel alie-
+                <lb />nata, vel a privatis quoque jure possessa successu temporis ad Fiscum
+                <lb />devolventur, Serenissimus Princeps tanquam liber, libere pro suo arbitrio
+                <lb />disponendi habebit facultatem cum suis Successoribus.
+                <lb />
+                <lb />Cæterum Serenissimus Princeps unacum suis descendentibus posteris
+                <lb />habebit, et recognoscet Sacram Cæsaream Regiamque Maiestatem pro capite
+                <lb />totius Christianitatis, pro Rege Hungariæ et Maiore et superiore suo, ipsamque
+                <lb />Transÿlvaniam, ac partes Hungariæ, quas possidet, pro membro Regni Hun-
+                <lb />gariæ (salva nihilominus per omnia et in omnibus plena administratione,
+                <lb />autoritate, potestate et juribus omnibus liberi Principis, ita quod neque ipse
+                <lb />cum Successoribus suis, neque ipsorum ditiones ad aliud quicquam obligabuntur,
+                <lb />
+                <lb />&nbsp; 
+                <pb facs="#FacsPnr4"/>quam ad ea, quæ in articulis expresse continentur) ac in omnibus necessita-
+                <lb />tibus pro defensione et conservatione eiusdem Regni Hungariæ Maiestati
+                <lb />suæ Cæsareæ ac Successoribus suis Hungariæ Regibus fideliter assistet, ita,
+                <lb />ut, quoties Sacram Cæsaream Maiestatem vel Hæredes ipsius in
+                <lb />persona interesse contigerit, persona ipsemet etiam sua vel cum suis auxi-
+                <lb />lÿs, cum auxilia missa contra communem hostem fuerint, est adfuturus,
+                <lb />studiumque liberi Christiani Principis, ac veri sÿnceriterque coniuncti in
+                <lb />defensione non segniter navaturus, vice vero versa Sacra Cæsarea Regiaque
+                <lb />Maiestas casu, quod Imperator Turcarum Serenissimum Principem bello
+                <lb />petat, ditionesque eius hostiliter invadat, Serenissimi Principis defen-
+                <lb />sionem et tutelam pro viribus realiter, eaque qua Imperatorem et Regem
+                <lb />Christianum decet, fide et Sÿnceritate susceptura est, in quo tamen Sacra
+                <lb />Cæsarea Regiaque Maiestas hæc sibi cavet, quod o pacto, vel ratione
+                <lb />contravenire velit capitulis pacis inter Maiestatem suam Cæsaream et
+                <lb />Ser[enissi]mum Turcarum Imperatorem pactis, cum Maiestas Sua Cæsarea ea
+                <lb />inviolabiliter observare velle et promiserit, et apud se plane constitu-
+                <lb />tum habeat, quocirca Serenissimus Princeps evitabit ea omnia,
+                <lb />quæ turbandæ quieti materiam subministrare possint. Imo quantum
+                <lb />maxime poterit cum prædicto Turcarum Imperatore pacem colet, ac ipsum
+                <lb />si quando adversus se offensum aliquid moliri præsenserit, quibuscunque ra-
+                <lb />tionibus et medÿs leniet, ac vel largitionibus et muneribus conciliare stude-
+                <lb />bit, ut nimirum Serenissimus Princeps vel e&lt;x&gt; non iniqua causa hostis illius
+                <lb />potentiæ se opponendo sibi ac Cæsareæ Regiæque Maiestati maiora haud accer-
+                <lb />sat pericula, hoc tamen in loco sicuti prius Sacra Cæsarea Maiestas
+                <lb />suum Serenissimo Principi offert auxilium et opem.
+                <lb />
+                <pb facs="#FacsPnr5"/>Præterea idem Serenissimus Princeps quoties a Turcis aliquod periculum im[m]i-
+                <lb />nere compererit, Maiestatem Suam Cæsaream ea de re protinus certiorem faciet
+                <lb />neque prior quacunque de causa aut praetextu absque scitu et authoritate Cæsa-
+                <lb />reæ Regiæque Maiestatis bellum movebit, aut hostes lacessendo belli causam da-
+                <lb />bit. Imo omni Studio et opera ad avertenda in tempore a Christianitate pe-
+                <lb />ricula incumbet.
+                <lb />
+                <lb />Sacra item Cæsarea Regiaque Maiestas ea, quæcumque im[m]inenti bello a Sacri Impe-
+                <lb />rÿ ordinibus pro tuenda conservandaque Hungaria collata fuerint suæ Maiesta-
+                <lb />ti Subsidia ad Serenissimi quoque Principis atque eius ditionum protectionem
+                <lb />atque defensionem convertet, sicuti vicissim Serenissimus Princeps toti Chri-
+                <lb />stianitati, suæque adeo Cæsareæ Regiæque Maiestati ac Imperÿ Principibus et
+                <lb />Statibus, a quibus se quoque tempore necessitatis adjutum persenserit, in eo-
+                <lb />rundem necessitatibus fideliter astiturus, et omni Studio ac conatu pericula
+                <lb />tam Sacræ Cæsareæ Maiestati, quam Imperÿ Ordinibus imminentia, aversu-
+                <lb />rus est.
+                <lb />
+                <lb />Et quidem Serenissimus Princeps ea omnia absque ulla exceptione omni tempore
+                <lb />se servaturum promittit, ac eapropter Sacra quoque Cæsarea Regiaque Maiestas
+                <lb />cum hoc modo in omnibus se gesserit, Serenissimus Princeps ab eo nunc confectæ
+                <lb />pacificationis tempore vicissim absque ulla exceptione omni tempore pro viribus
+                <lb />defensionem Suæ Serenitatis suscipit.
+                <lb />
+                <lb />Casu vero, quod Serenissimus Princeps aut ipsius Hæredes et posteri Transÿlvaniam, quod absit, am[m]itterent, Sacra Cæsarea Regiaque Maiestas, ac eiusdem Successores
+                <lb />Ducatus Oppoliæ et Ratiboriæ in Silesia Serenissimo Principi, ac eius Successoribus,
+                <lb />eodem Jure, quo antea Serenissimus Princeps prælibati D&lt;uci&gt; olim Ferdinandi
+                <lb />
+                <pb facs="#FacsPnr6"/>Imperatoris favore possedit, redditura vel reddituri sunt, ac super eo speciales
+                <lb />assecuratorias literas assignatura est.
+                <lb />
+                <lb />ltem Serenissimus Princeps se Statusque omnes ditionis suæ fidei juramento
+                <lb />obstringet Transÿlvaniam, in eventum, quo ipse sine legitimis filÿs masculis
+                <lb />decesserit, aut quandocunque posthac in descendentibus et posteris eius lineam de-
+                <lb />ficere contigerit, non in alterius, quam Sacræ Cæsareæ Regiæque Maiestatis eius-
+                <lb />que Successorum, Reg&lt;e&gt;m Hungariæ absque ullo impedimento ditionem potesta-
+                <lb />temque tanquam verum et inseparabile membrum perventuram esse.
+                <lb />
+                <lb />Sacra vero Cæsarea Regiaque Maiestas obligat se ex nunc, ac Suos Successores
+                <lb />Serenissimo Principi ac Statibus Transÿlvaniae, quod omnia ipsorum Jura, Sta-
+                <lb />tuta, privilegia, Donationes item, ac inscriptiones, tam in Transÿlvania, quam
+                <lb />partibus Hungariæ, quas possidet, ac constiutiones Serenissimi Principis, sub
+                <lb />titulo electi Regis factas, aut Serenissimæ parentis ipsius salva integraque in
+                <lb />suo robore servatura, ac ea om&lt;nia&gt; firma rataque citra quamlibet exceptionem,
+                <lb />una cum suis Successoribus perpetuo habitura est.
+                <lb />
+                <lb />Quod si post decessum Serenissimi Principis absque prole mascula filiæ fuerint
+                <lb />superstites, hic Sacra Cæsarea Regiaque Maiestas vel eiusdem Successores
+                <lb />eandem dotem constituent, et dabunt, quam Maiestatis suæ filiæ accipere con-
+                <lb />sueverunt.
+                <lb />
+                <lb />Ut autem in posterum omnis dissidiorum et controversiarum circa limites
+                <lb />et decimas, in bonis illis existents, inter ditiones et subditos utriusque partis
+                <lb />præcidatur occasio, certique constituantur termini Serenissimi Principis,
+                <lb />Serenissimus Princeps cum Successoribus suis pleno jure et authoritate,
+                <lb />
+                <pb facs="#FacsPnr7"/>sicuti superius scriptum est, tenebit, et possidebit, castrum Waradiense cum
+                <lb />Comitatu Bihoriensi, Item Comitatum Crazna, et Zoln&lt;e&gt;ck mediocrem; una
+                <lb />cum dominio Cheh, ita tamen, ut si quæ forte bona ex pertinentÿs Domi-
+                <lb />nÿ Cheh in Comitatu Zathmariensi existerent, illa Cæsareæ Regiæque Ma-
+                <lb />iestati reservata esse debeant. Castrum idem H&lt;u&gt;st cum Comitatu Mara-
+                <lb />maros, et hæc omnia cum juribus et proventibus, ac omnibus pertinen-
+                <lb />tÿs de jure et ab antiquo ad Castra et Comitatus illos spectantibus ex-
+                <lb />ceptis Nagÿbannÿa et Erd&lt;ew&gt;d una cum eorundem pertinentÿs atque
+                <lb />in his terminabitur ditio Serenissimi Principis.
+                <lb />
+                    <lb />Item <note n="1" type="crit_app">Am Rand ein Siegel.</note> Serenissimus Princeps illa bona omnia, quæ ad prædicta Castra ex
+                <lb />diversis Comitatibus Sacræ Cæsareæ Maiestatis, ac signanter ex comitatibus
+                <lb />Beregh et Wgocha, Zathmar et Zabolch occupata tenet, et posside, libere dimit-
+                <lb />tet, ac suæ Maiestati cedet, Sua vero Cæsarea Regiaque Maiestas vicissim re-
+                <lb />stituet Serenissimo Principi quicquid per Milites Maiestatis suæ duran-
+                <lb />te bello ex bonis ad prædictos Comitatus pertinentibus, occupatum fuit,
+                <lb />una cum Oppido Thasnad ac eiusdem pertinentÿs, reservatis tamen ex-
+                <lb />presse ÿs, quæ ad dicta duo Dominia spectant, præsertim vero decimis, si-
+                <lb />cuti quoque Decimæ in alÿs Comitatibus Maiestatis Suæ, etiam horum
+                <lb />tractatuum vigore ad Maiestatem suam Cæsaream Regiamque pertinen-
+                <lb />tibus intactæ manere debent.
+                <lb />
+                <lb />Proinde dabuntur ex nunc a Sacra Cæsarea Regiaque Maiestate ad Ca-
+                <lb />pitaneos illorum locorum literæ, ut non amplius sicuti prius Colonos
+                <lb />vexent, sed ad suorum Comitatuum Castra libere suis functionibus frui
+                <lb />permittant, quod idem eodem tempore pro parte sua expleturus est,
+                <lb />
+                <lb />
+                <pb facs="#FacsPnr8"/>et in his omnibus satisfacturus Serenissimus Princeps.
+                <lb />
+                <lb />Ne autem vasalli vel subditi hinc inde vel ob metum poenæ vel malo
+                <lb />genio ducti transfugientes novarum simultatum semina jacere pos-
+                <lb />sint, cavetur ne huiusmodi transfugæ cuiuscunque generis, et ob quas-
+                <lb />cunque causas ex neutra parte ullo pacto recipiantur, quin imo quoties
+                <lb />ad Serenissimum Principem pervenerint, protinus Serenissimus Princeps
+                <lb />eos ad Suam Cæsaream Regiamque Maiestatem remittet, nec ulla occulta
+                <lb />inibit cum ipsis Consilia, vel quicquam machinabitur, quod in Maiesta-
+                <lb />tis suæ damnum, aut præiudicium vergere possit. Id quod etiam simili
+                <lb />modo Sacra Cæsarea Regiaque Maiestas sincere Serenissimo Principi præ-
+                <lb />stabit, neque suo hac in parte officio ullo pacto defutura est.
+                <lb />
+                <lb />Quod si quando Serenissimus Princeps ac eiusdem Hæredes et posteri mascu-
+                <lb />li auspice Christo per occasiones opportunas ex terra ultra Tÿbiscum ali-
+                <lb />quid e manibus Turcicis eripere et liberare poterunt, id Serenissimo Prin-
+                <lb />cipi, ac eius posteris cedere debebit.
+                <lb />
+                <lb />Quoniam vero Matrimonium cum filia Illustrissimi Bavariæ Ducis hos
+                <lb />omnes tractatus eo firmius concludere, et confirmare debet, ac Sacræ Cæsa-
+                <lb />reæ Regiæque Maiestatis erga Serenissimum Principem benevolentiam auge-
+                <lb />re et conservare Sacra Cæsarea Regiaque Maiestas sua authoritate interim
+                <lb />dum horum articulorum ratificatoriæ literæ a Serenissimo Principe adfe-
+                <lb />runtur, omnia cum Illustrissimo Duce, vel si eius consensum omni
+                <lb />etiam major&lt;i&gt; studio et diligentia adhibita, obtinere nequeat, cum Duce
+                <lb />Juliacensi tractabit, et divino auxilio conficere ac componere omnino
+                <lb />sperat, ut tanquam pro finali, ille, qui ratificationem allaturus est,
+                <lb />
+                <pb facs="#FacsPnr9"/>coeptam a Sacra Cæsarea Regiaque Maiestate conjugÿ tractationem, speciali
+                <lb />ad id allato mandato, ratificet ac ad debitum finem et exitum statim per-
+                <lb />ducat, atque ita a amplius interposita mora voti fiat compos Sere-
+                <lb />nissimus Princeps.
+                <lb />
+                <lb />Si vero Serenissimum Principem ante matrimonium finitum è vivis ex-
+                <lb />cedere, quod Deus optimus maximus avertat, contingeret, testamentum,
+                <lb />quod a morte Suæ Serenissimæ Dominationis inventum fuerit, quatenus
+                <lb />illud hisce pactis et conventis non adversetur, Sacra Cæsarea Regiaque Ma-
+                <lb />iestas eiusdemque posteri ac hæredes firmiter observabunt, et observare facient.
+                <lb />
+                <lb />Item ex utraque parte tam Sacræ Cæsareæ Regiæque Maiestatis, quam Serenissimi
+                <lb />Principis diligenter prospicietur, quod a partium litibus infestare pote-
+                <lb />rit aliam ob impedimenta, violentias, injurias, damna, &lt;quæ&gt; ob fidelitatem
+                <lb />Principibus suis præstitam a tempore ingressus Spectabilis Magnifici olim
+                <lb />Petri Petrowit comitis in Regnum utrinque contigerunt.
+                <lb />
+                <lb />Item Sacra Cæsarea Regiaque Maiestas assecurabit proprÿs literis Do-
+                <lb />minos primores, summates, in genere autem Nobiles ac alios Status et
+                <lb />Ordines Transÿlvaniæ et partium Regni Hungariæ, quas Serenissimus
+                <lb />Princeps possidet, suo hæredumque Suorum Serenissimorum nomi-
+                <lb />ne, quod ob fidelia Servitia Serenissimo Principi moderno præsti-
+                <lb />ta, ipsos non infestabit, neque impediet, neque injurias sibi aut suis
+                <lb />forte illatas ullo unquam tempore ulciscetur, neque in bonis Juribusque possession-
+                <lb />narÿs, aut in personis ob id ipsum quoquo modo interturbabit,
+                <lb />eas porro literas dabit tum, cum literæ assecuratoriæ a Serenissimo
+                <lb />Principe allatæ fuerint.
+                <lb />
+                <pb facs="#FacsPnr10"/>Item quod i partium licebit dolo, furto, proditione aut quovis quæsito Colo-
+                <lb />re, Arcem, Civitatem aut munitionem quamlibet in alterius ditione in-
+                <lb />tercipere, aut subintrare.
+                <lb />
+                <lb />Quod si forte, quod tamen Deus optimus maximus pro sua cle-
+                <lb />mentia longe avertat, contingeret Serenissimum Principem sine hære-
+                <lb />dum Solatio ex hac v&lt;ita&gt; decedere, ac ditio Transÿlvaniæ et partium Hun-
+                <lb />gariæ in manus Sacræ Cæsareæ Regiæque Maiestats deveniret, tenebitur,
+                <lb />et devincta erit Sacra Cæsarea Regiaque Maiestas aut ipsius Hæeredes et
+                <lb />Successores, vigore horum articulorum ditionem illam ac in ea univer-
+                <lb />sos Status, ac ordines in antiquis et receptis Juribus et libertatibus invi-
+                <lb />olate conservare.
+                <lb />
+                <lb />Item Exercitus, si quis in auxilium Serenissimi Principis aut ipsius
+                <lb />ditionem per Sacram Cæsaream Regiamque Maiestatem aut suos, ac ad se
+                <lb />aut imperia sua pertinentes expeditus fuerit, et descenderit citra malam
+                <lb />intentionem, dolum et fraudem procedat, ac huiusmodi a Sa[cr]a Cæs[area] Maiesta-
+                <lb />te sua submissi exercitus auxiliary, damna quoad uspiam Sac[ræ] Cæa[re] æ Re-
+                <lb />giæque Maiestati possibile erit, non secus ac in ditionibus suis proprÿs
+                <lb />præcaveat, super quo etiam assecuratorias literas Sacra Cæsarea Regiaque
+                <lb />Maiestas concessura est; quod et Serenissimus Princeps sua vicissim
+                <lb />ex parte facere debebit.
+                <lb />
+                <lb />Super præscriptis omnibus articulis omni temporis processu Sancte
+                <lb />et inviolabiliter observandis Serenissimus Princeps firmas suas li-
+                <lb />teras obligatorias sub fide Principis Chirographa et Sigillo dare
+                <lb />tenebitur, ac insuper curabit, et perficiet apud omnes ordines et Status
+                <lb />
+                <pb facs="#FacsPnr11"/>Transÿlvaniæ, quod hos tractatus pacificationis eo, quo præscripti
+                <lb />sunt, modo tam iureiurando quam necessarÿs et opportunis literis
+                <lb />ad manus Cæsarea Maiestatis intra certum terminum ab eadem
+                <lb />Sacra Cæsarea Regiaque Maiestate assignatum, consignandis
+                <lb />ratificabunt, approbabunt, et confirmabunt, promittentes, asse-
+                <lb />curantesque ista omnia suprascripta in omnibus punctis et
+                <lb />clausulis suæ Cæsareæ Regiæque Maiestati eiusque in Regno
+                <lb />Hungariæ Successoribus, sincere et inviolate se observaturus esse
+                <lb />Quae tamen ita instituenda erunt, ne res hæc patefiat, similiter
+                <lb />vero Sacra Cæsarea Regiaque Maiestas, post ratificatorias eo-
+                <lb />rum omnium articulorum literas, suo, liberorum successorum-
+                <lb />que suorum Regum Hungariæ nominee, itidem sub fide Principis
+                <lb />Chirographa et Sigillo datas, si tempora ita ferant, ad prima Co-
+                <lb />mitia, quæ in Regno Hungariæ Maiestas sua celebratura est,
+                <lb />sin minus eo, quod rem hanc quam secretissimam haberi plu-
+                <lb />rimum conferat, atque necesse sit, alio tempore commo-
+                <lb />diori (quod ipsum Cæsaream Maiestas Serenissimo quoque Principi assi-
+                <lb />gnabit, ita ut ratificationes utriusque partis ordinum et Sta-
+                <lb />tuum, uno eodemque tempore fiant) perficiet apud ordines
+                <lb />et Status Hungariæ, quod eadem ratione in omnibus punctis
+                <lb />et Clausulis nihil omnino recedendo ab exemplo seu norma
+                <lb />Serenissimi Principis, ea omnia confirmabunt, approbabunt,
+                <lb />et ratificabunt.
+                <lb />
+                <lb />Ultimo convenit, quod omnes et singuli Officiales et ministri,
+                <lb />
+                <pb facs="#FacsPnr12"/>quorum ope&lt;ra&gt; vel Maiestas sua Cæsarea Regiaque vel Serenis-
+                <lb />simus Princeps in hac pacifcationis tractatione usi sunt,
+                <lb />vel in posterum utentur, nec non alÿ, quibus ea manifesta-
+                <lb />bitur juramento astringentur, se rem omnem, quam secre-
+                <lb />tissimam servare, ac nemini quicquam eius pandere
+                <lb />velle.
+                <lb />
+                <lb />Nos volentes ÿs, quæ nobis hoc loci vigore eiusmodi tractationis
+                <lb />Incumb&lt;u&gt;nt, eadem integritate, qua ad hosce tractatus acces-
+                <lb />sinus satisfacere, prænotatam pacificationem, et omnes eius-
+                <lb />dem conditiones, atque articulos, prout superius descripti
+                <lb />et de verbo ad verbum inserti habentur, pro nostra parte
+                <lb />ex certa nostra Scientia, animoque bene deliberato et omni
+                <lb />meliori modo et forma, quibus potuimus, et debuimus, approba-
+                <lb />vimus, ratificavimus et corrboravimus, prouti vigore præsen-
+                <lb />tium approbamus, ratificamus, et corroboramus, Promittentes
+                <lb />in verbo ac sub fide Principis pro nobis et Hæredibus et Successori-
+                <lb />&lt;ri&gt;bus nostris Principibus Translÿaniæ et partium Hungariæ,
+                <lb />quod illa omnia et singula sÿncere sancte firmiter et inviolabi-
+                <lb />liter tenebimus, observabimus, et adimplebinuis, ac per supradi-
+                <lb />ctos Hæredes, et Successores nostros eodem plane pacto observari, et
+                <lb />adimpleri debere volumes, et decernimus, ac tam nos ipsos, quam eos
+                <lb />ad id quam efficacissime obligamus, et obligatos, ac obstrictos redid-
+                <lb />mus omni dolo et fraude postpositis penitus et semotis.
+                <lb />
+                <lb />Harum testimonio literarum manu nostra subscriptarum
+                <lb />
+                <pb facs="#FacsPnr13"/>et sigilli nostri appensione munitarum. Datum in Civitate
+                <lb />nostra Alba Julia, prima die mensis Decembris, Anno Domi-
+                <lb />ni Millesimo Quingentesimo Septuagesimo.
+                <lb />
+                <lb />Joannes Princeps m[anu] p[ropria]
+                <lb />
+                <lb />Præsentem Copiam suo Exemplari, quod inter Acta excelsa Camera
+                <lb />Aulicæ adservatur, in omnibus punctis, et clausulis conformem
+                <lb />esse, testo&lt;r&gt; infrascriptus. Viennæ die 1.ma&lt; O&gt;[cto]bris 1794.
+                <lb />
+                <lb />Joannes Florianus Baumberg m[anu] p[ropria]
+                <lb />Sac[ræ] Cæs[areæ]Regiæque Majestatis
+                <lb />Cameræ Aulicæ Archivi Director,
+                <lb />et Secretarius Auli&lt;cus&gt;.
+                <lb />
+                <lb />
+                </p>
+            </div>
+        </body>
+    </text>
+</tei:TEI>

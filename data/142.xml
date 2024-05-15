@@ -1,0 +1,389 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE tei SYSTEM "../resources/FriVer_DTD.dtd">
+
+<?xml-model href="../resources/FriVer.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns="http://www.tei-c.org/ns/1.0"
+    xml:id="pa000299-0142">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title level="s">European peace treaties of the pre-modern era in data / Europäische
+                    Friedensverträge der Vormoderne in Daten (FriVer+)</title>
+                <title when="1551-07-19" xml:id="t142" when-custom="1551 VII 19" level="a"
+                    ref="https://www.ieg-friedensvertraege.de/treaty/t-142-1-de.html">Vertrag von
+                    Karlsburg</title>
+            </titleStmt>
+            <editionStmt>
+                <edition> Digital edition according to <ref target="http://www.tei-c.org/">TEI
+                        P5</ref>
+                </edition>
+                <funder>
+                    <ref target="https://www.text-plus.org/">TEXT+</ref>
+                </funder>
+                <editor role="http://id.loc.gov/vocabulary/relators/edt"
+                    ref="https://orcid.org/0000-0002-8741-5916">
+                    <persName>Jaap Geraerts</persName>
+                    <note>The transformation and enrichment of the data is done by Jaap Geraerts
+                        (IEG Mainz). The other members of the FriVer+ team are Fabian Cremer, Ines
+                        Grund, and Thorsten Wübbena (all IEG Mainz).</note>
+                    <note> The original data has been created by the <ref
+                            target="https://www.ieg-friedensvertraege.de">team of scholars</ref> who
+                        were part of the Europäische Friedensverträge der Vormoderne project. This
+                        project was lead by Prof. Dr. Heinz Duchhardt and was based at the Leibniz
+                        Institute of European History in Mainz. </note>
+                </editor>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>
+                    <orgName ref="http://www.isni.org/0000000119314040">Leibniz-Institut für
+                        Europäische Geschichte Mainz</orgName>
+                </publisher>
+                <distributor>
+                    <orgName ref="http://www.isni.org/0000000110101946">Universitäts- und
+                        Landesbibliothek Darmstadt</orgName>
+                </distributor>
+                <idno type="ISIL">http://lobid.org/organisation/DE-17</idno>
+                <date type="issued" when="2023-12-23"/>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">
+                        <p xml:lang="en">This file is licensed under the terms of the Creative
+                            Commons License CC-BY 4.0 (Attribution 4.0 International)</p>
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <repository xml:id="r4">Budapest MOL <note>Budapest MOL, Findbuch:<lb/>
+                        <ref
+                            target="https://www.eleveltar.hu/digitalis-tartalom?source=mnlscope&amp;ref=mnlscope::1984438"
+                            >https://www.eleveltar.hu/digitalis-tartalom?source=mnlscope&amp;ref=mnlscope::1984438</ref></note>
+                </repository>
+                <msDesc>
+                    <p>MOLBudapest&nbsp; Act. Publ. Fasz. 45 No. 65 (Abschrift mit hanschriftl.
+                        Notiz: Coll. cum Orig.). [Eine Seite fehlt] <lb/>
+                    </p>
+                    <p>Weitere Stücke </p>
+                    <p>Ratifikation durch König Ferdinand I., Wien 1551 X 18. <lb/>Vertrag zwischen
+                        König Ferdinand I. und Isabella sowie Johann Sigismund Szapolyai betreffend
+                        die Heiratswiderlage Isabellas durch Überlassung der Herzogtümer Münsterberg
+                        und Frankenstein. Karlsburg 1551 VII 19. <lb/>Erläuterungen zu den
+                        Verträgen, Torda 1551 VII 23. </p>
+                    <p>&nbsp; </p>
+                    <p>Anm.: Karlsburg, auch Weißenburg, ung. Gyulafehévár, rum. Alba Julia. <lb/>
+                        <lb/>
+                    </p>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p> The data in this XML file, originally created by the project <ref
+                        target="https://www.ieg-friedensvertraege.de/vertraege">Europäische
+                        Friedensverträge der Vormoderne online</ref> has been transformed in
+                    accordance with <ref target="http://www.tei-c.org/">TEI P5</ref> as part of the
+                    project <ref
+                        target="https://www.ieg-mainz.de/en/research/research-projects/european-peace-treaties-of-the-pre-modern-era-in-data"
+                        >Europäische Friedensverträge der Vormoderne in Daten (FriVer+)</ref>
+                </p>
+            </projectDesc>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="la" xml:id="lan6">Latein</language>
+            </langUsage>
+        </profileDesc>
+    </teiHeader>
+    <standOff>
+        <listPerson>
+            <person role="signatory" xml:id="p12">
+                <persName ref="https://explore.gnd.network/gnd/4043271-3">
+                    <name>Oesterreich</name>
+                </persName>
+            </person>
+            <person role="signatory" xml:id="p109">
+                <persName ref="https://explore.gnd.network/gnd/4054835-1">
+                    <name>Siebenbürgen</name>
+                </persName>
+            </person>
+        </listPerson>
+        <listPlace>
+            <place xml:id="loc89">
+                <placeName ref="https://explore.gnd.network/gnd/4084851-6">Karlsburg</placeName>
+            </place>
+        </listPlace>
+        <facsimile>
+            <surface xml:id="FacsPnr1">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_43ab5d384e567"/>
+            </surface>
+            <surface xml:id="FacsPnr2">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_43ab5d874e568"/>
+            </surface>
+            <surface xml:id="FacsPnr3">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_43ab5db955a99"/>
+            </surface>
+            <surface xml:id="FacsPnr4">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_43ab5e5ee8258"/>
+            </surface>
+            <surface xml:id="FacsPnr5">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_43ab5e9d8b5f7"/>
+            </surface>
+            <surface xml:id="FacsPnr6">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_43ab5f532c288"/>
+            </surface>
+            <surface xml:id="FacsPnr7">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_43ab61718dd09"/>
+            </surface>
+            <surface xml:id="FacsPnr8">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_43ab61f6de618"/>
+            </surface>
+            <surface xml:id="FacsPnr9">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_43ab624f88ee7"/>
+            </surface>
+            <surface xml:id="FacsPnr10">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_43ab62ca75668"/>
+            </surface>
+            <surface xml:id="FacsPnr11">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_43ab62f8f1e97"/>
+            </surface>
+        </facsimile>
+    </standOff>
+    <text>
+        <front>
+            <div type="Drucke">
+                <p> Gooss Roderich, Österreichische Staatsverträge. Fürstentum Siebenbürgen. Wien
+                    1911, S.119-124; Georg Utiešenovič, Lebensgeschichte des Kardinals Georg
+                    Utiešenovič, genannt Martinusius, Urkundenbuch, S.32-36. [Bittner I, Nr. 82:
+                    Regest] </p>
+            </div>
+            <div type="Inhalt">
+                <p>Vertragsmotivation. Bedrohung durch Osmanisches Reich. <lb/>
+                </p>
+                <p>Szapolyai erhält Oppeln als Entschädigung in der Form eines böhmischen Lehens.
+                    <lb/>
+                </p>
+                <p>Zusicherung der jährlichen Einkünfte daraus. <lb/>
+                </p>
+                <p>Übergabe Ungarns und Siebenbürgens an Habsburg. Übergabe der Rechte. </p>
+                <p>Schutz des Besitzes Oppelns. </p>
+                <p>Verleihung Oppelns. </p>
+                <p> Bis zur Übergabe Oppelns erhält Szapolyai Kaschau mit den Einnahmen. <lb/>
+                </p>
+                <p>Übergabe Ungarns und Siebenbürgens. <lb/>
+                </p>
+                <p>Finanzielle Entschädigungen. </p>
+                <p>Entschädigungen für Kriegsmaterial. <lb/>
+                </p>
+                <p>Im Falle des Aussterbens der männlichen Habsburger Linie: Ungarn fällt an
+                    Szapolyai und seine Erben. Stirbt Szapolyai ohne männliche Erben: Rückfall
+                    Oppelns, Königswahl. <lb/>
+                </p>
+                <p>Kaschau. Oppeln. <lb/>
+                    <lb/>
+                </p>
+            </div>
+        </front>
+        <body>
+            <div type="Transliteration">
+                <pb facs="#FacsPnr1"/>
+                <p>Nos ysabella dei gracia Regina hung- <lb/>ari&lt;e&gt;<note n="1" type="crit_app"
+                        >Wiedergabe Genitiv -ae durch &lt;e&gt;. </note>, dalmaci&lt;e&gt;,
+                    Croaci&lt;e&gt; etc. Recognoscimus <lb/>per presentes litteras nostras. Quod
+                    <lb/>cum post mortem Serenissimi quondam <lb/>principis domini Joannis Regis
+                    hun- <lb/>gari&lt;e&gt;, dalmaci&lt;e&gt;, Croaci&lt;e&gt; etc. domini <lb/>et
+                    Mariti nostri charissimi pi&lt;e&gt; memori&lt;e&gt; <lb/>Regnum
+                    hungari&lt;e&gt; sub Thurcico adhuc <lb/>Imperio constitutum Ex defectione eo-
+                    <lb/>rum, in quos princeps ille magna bene- <lb/>ficia contulerat, maximi motos
+                    subse- <lb/>quuti Extitissent, sol&lt;e&gt;que unacum vagien- <lb/>te adhuc
+                    filiolo, et paucis quibusdam, <lb/>in quibus aliqua acceptorum beneficio-
+                    <lb/>rum memoria resederat, Bude, in se- <lb/>de illa Regia, omnibus periculis,
+                    per- <lb/>fidia principis Thurcarum, dum ma- <lb/>gnam parti Regni Nobis
+                    adimeretur Ex- <lb/>positæ essemus: Seren[issi]mi ipsius principis <lb/>domini
+                    et Mariti nostri charissimi stu- <lb/>diorum, quibus tum se (si deus illum
+                    <lb/>diucius superstitem esse voluisset) tum Reg- <lb/>num hungari&lt;e&gt;,
+                    partesque ei subiectas pau- <lb/>latim a Thurcarum Tyrannide eripere <lb/>in
+                    pristinamque libertatem presidio prin- <lb/>cipum christianorum asserere
+                        &lt;...&gt;<note n="2" type="crit_app">Streichung. </note> &nbsp; </p>
+                <pb facs="#FacsPnr2"/>
+                <p>contendebat, memores, nihil prius <lb/>in omni actione nostra habuimus, <lb/>quam
+                    ut vestigÿs illius Ser[enissi]mi princi- <lb/>pis ingress&lt;e&gt;, salutem
+                    Regni istius, no- <lb/>stramque et filÿ nostri charissimi inco- <lb/>lumitatem,
+                    cum multorum aliorum <lb/>quiete, nostra sedulitate quereremus. <lb/>Cumque
+                    mult&lt;e&gt; res gest&lt;e&gt; Thurcarum aper- <lb/>te declararet, illos
+                    nunquam alÿs, sed <lb/>sibi semper Imperium quesivisse, nihil <lb/>prorsus magis
+                    indecorum esse videbatur, <lb/>tanta ab illis calamitate accepta, quam <lb/>si
+                    simulata Thurcorum amicicia, qu&lt;e&gt; <lb/>quidem non tam Expetenda a Nobis
+                    <lb/>fuit, quam necessario suscepta, in <lb/>Regni, nostramque et fily nostri
+                    Il- <lb/>lustrissimi perniciem diucius&nbsp; utere- <lb/>mur. Quapropter cum
+                    Buda egress&lt;e&gt; <lb/>et solucione Tributi, et magnis Mune- <lb/>rum
+                    largicionibus, Inmanem principis <lb/>Thurcarum animum, placare non de-
+                    <lb/>sisteremus, omniaque, quantum in Nobis <lb/>esset ad illius N&lt;u&gt;tum
+                    et voluntatem <lb/>fieri curaremus, nec tamen ille un- <lb/>quam a suo instituto
+                    discederet, &lt;..&gt; <lb/>pium illud, deoque gratissimum esse <lb/>
+                    <lb/>
+                    <pb facs="#FacsPnr3"/>Judicans si quid in Nos, a sua religio- <lb/>ne alienas
+                    totamque Rempublicam chri- <lb/>stianam, durius statueret: Quamvis <lb/>post
+                    cladem illam Budensem, condi- <lb/>cionem benignitate dei &lt;e&gt; am in Trans-
+                    <lb/>silvania eramus consequut&lt;e&gt;, qu&lt;e&gt; pro <lb/>nostra et filÿ
+                    nostri dignitate, sufficere <lb/>videbatur, tamen cum ardentissimis <lb/>semper
+                    votis Imperium christianorum <lb/>principum optassemus, ac de pio, clemen-
+                    <lb/>ti et paterno, tum Sacratissim&lt;e&gt; et Catho- <lb/>lic&lt;e&gt;
+                    Cesare&lt;e&gt;, tum Sacr&lt;e&gt; Regi&lt;e&gt; Maiesta- <lb/>tis Romanorum ac
+                    hungari&lt;e&gt;, ac Boemi&lt;e&gt;, <lb/>dalmaci&lt;e&gt;, Croaci&lt;e&gt; etc.
+                    consanguinei nostri <lb/>Colendissimi cerciores factæ fuissemus,
+                    <lb/>oblit&lt;e&gt; dignitatis nostr&lt;e&gt;, oblit&lt;e&gt; eciam Com-
+                    <lb/>modorum omnium, quibus publice res <lb/>semper anteponendæ sunt, in fidem
+                    et <lb/>tutelam christianorum principum <lb/>Nos unacum filio nostro charissimo
+                    com- <lb/>mittere maluimus, quam eorum voces <lb/>audire, qui dicerent Regnum
+                    istud <lb/>antemurale tocius Reipublice christian&lt;e&gt; <lb/>nostra opera in
+                    potestatem Thurcicam <lb/>incidisse. Sane igitur cum iamdiu <lb/>in ea
+                    cogitacione fuissemus, quibus <lb/>
+                    <lb/>
+                    <pb facs="#FacsPnr4"/>modis et racionibus, tam Sanctum <lb/>Animi nostri
+                    propositum, erga Rem- <lb/>publicam christianam declarare, <lb/>ac de
+                    Synceritate animi nostri Sa- <lb/>cratissimos ipsos principes, securos
+                    <lb/>reddere possemus, honesta, ac saluta- <lb/>ri occasione oblata cum
+                    Illustrissimo, <lb/>ac Spectabilibus et Magnificis dominis <lb/>Joanne Baptista
+                    Gastaldo, Marchione <lb/>de Cassanno, Serenissimi principis domi- <lb/>ni
+                    Maximiliani Regis Boemi&lt;e&gt; in rebus <lb/>bellicis locumtenente, Capitaneo
+                    gene- <lb/>rale, Thoma de Nadasd libero domi- <lb/>no terre&lt;e&gt; fagaras
+                    Comite comitatus <lb/>Castri ferrei Judice Curiæ, et An- <lb/>drea de Bathor
+                    Comite Comitatuum <lb/>Zathmaar et Zabolch, Tavernicorum <lb/>Regalium Magistro
+                    Capitaneis Sup- <lb/>pemis, et Commissarÿs ipsius Sacra- <lb/>tissim&lt;e&gt;
+                    Regi&lt;e&gt; Maiestatis Romanorum <lb/>in Causa Illustrissimi Joannis ducis
+                    <lb/>filÿ nostri charissimi condicionibus <lb/>infrascriptis, virtute et
+                    auctoritate <lb/>pleni mandati in Transigendis nostris <lb/>et filÿ nostri rebus
+                    et Negocÿs per <lb/>ipsam Sacratissimam Regiam Maiestatem <lb/>
+                    <lb/>
+                    <pb facs="#FacsPnr5"/>eisdem dati et concessi convenimus: <lb/>Primo. Quod
+                    Maiestats Regia, ducatum <lb/>oppoliensem in Silesia habitum, simul <lb/>cum
+                    universis Arcibus Castellis, Civitati- <lb/>bus oppidis villis, possessionibus,
+                    pre- <lb/>dÿs, piscinis, alÿsque bonis et Juribus <lb/>possessionarÿs omnibus,
+                    quocumque No- <lb/>mine et Titulo censeantur, ac pariter <lb/>cum cunctis suis
+                    utilitatibus et pertinen- <lb/>cÿs quibuslibet de Jure et ab antiquo <lb/>ad
+                    dictum ducatum pertinentibus, <lb/>cum redditibus viginti quinque Millium
+                    <lb/>florenorum hungaricalium Illustris- <lb/>simo Joanni duci filio nostro
+                    charissimo, <lb/>suisque heredibus et posteritatibus&nbsp; suc-
+                    <lb/>cessoribusque universis dedit contulit, <lb/>et assignavit, iure perpetuo
+                    et inre- <lb/>vocabiliter tenendum utendum et <lb/>possidendum ea condicione, ut
+                    si pre- <lb/>scripta suma viginti quinque Millium <lb/>florenorum Ex proventibus
+                    dicti duca- <lb/>tus compleri non posset, Maiestas <lb/>Regia alia bona et Jura
+                    possessionaria, <lb/>ipsi ducatui addat, Ex quibus dicta <lb/>Summa in integrum
+                    compleri possit. <lb/>Item Quemadmodum Serenissimus quondam <lb/>
+                    <lb/>
+                </p>
+                <pb facs="#FacsPnr6"/>
+                <p>princeps dominus Joannes Rex hungari&lt;e&gt; <lb/>etc. dominus et Maritus
+                    noster, pi&lt;e&gt; me- <lb/>mori&lt;e&gt;, adhuc vivens, totum et omne <lb/>Jus
+                    suum, quod in Regno hungari&lt;e&gt; <lb/>partibusque ei subiectis habuit, per
+                    <lb/>transactionem Juramento confirma- <lb/>tam, &lt;...&gt;<note n="3"
+                        type="crit_app">Streichung.</note>&nbsp; in Sacratissimam Catholi- <lb/>cam
+                    Cesaream ac Maiestatem Regiam, <lb/>ipsorumque heredes et successores con-
+                    <lb/>tulerat, ita Illustrissimus quoque Joan- <lb/>nes dux filius noster Jura
+                    paterna <lb/>sequutus cessit Ex nunc omnibus Juri- <lb/>bus, qu&lt;e&gt; in
+                    Regno hungari&lt;e&gt; et Trans- <lb/>silvani&lt;e&gt;, bonisque paternis et
+                    heredi- <lb/>tarÿs habet, totumque illud in Sacra- <lb/>tissimam et Catholicam
+                    C&lt;e&gt;saream ac <lb/>Maiestatem Regiam, suosque heredes <lb/>pleno Jure
+                    transtulit. <lb/>Item, ut Maiestas Regia, suique heredes et <lb/>successores
+                    Reges hungari&lt;e&gt; et Boemi&lt;e&gt;, <lb/>ipsum Joannem ducem filium
+                    nostrum <lb/>in dominio et pacifica possessione ipsius <lb/>ducatus oppoliensis
+                    contra quoslibet <lb/>legittimos et illegittimos Impetitores, <lb/>turbatores et
+                    actores proprÿs suis la- <lb/>boribus et Expensis, tueri et defendere&nbsp; </p>
+                <pb facs="#FacsPnr7"/>
+                <p>debeant. <lb/>Item ut deinceps Illustrissimus ipse filius <lb/>noster, racione
+                    ipsius ducatus oppolien- <lb/>sis, pro vero et legittimo duce dicti du-
+                    <lb/>catus ab omnibus habeatur, ac in eo <lb/>ipso ducatu per Sacratissimam et
+                    Ca- <lb/>tholicam Cesaream Maiestatem con- <lb/>firmetur, in verumque ducem
+                    erigatur <lb/>et consecretur, hac tamen facta reserva- <lb/>cione, quod ipse
+                    Illustrissimus Joannes <lb/>dux filius noster, Maiestati Regi&lt;e&gt;, suis
+                    <lb/>quoque heredibus et successoribus Regibus <lb/>Boemi&lt;e&gt;, omnia illa
+                    facere, et prestare <lb/>debeat et teneatur, quae hactenus alÿ <lb/>principes et
+                    duces antecessoribus Maiesta- <lb/>tis Regi&lt;e&gt;, et ipsi quoque Regiæ
+                    Maiestati, de <lb/>Jure vel consuetudine prestiterunt, vel <lb/>hodie eciam
+                    facere et prestare tenentur, <lb/>hoc tamen per Expressum declarato, ut si
+                    Sacra- <lb/>tissimam et Catholicam Cesaream ac Maie- <lb/>statem Regiam (quod
+                    deus avertat) interim <lb/>mori contigeret heredes quoque et successores
+                    <lb/>ipsarum Maiestatum, tam Nobis quam Il- <lb/>lustrissimo filio nostro de
+                    ducatibus ipsis effecti- <lb/>ve respondere, Nosque et filium nostrum in
+                    <lb/>eisdem manutenere, debeant et teneantur, <lb/>
+                    <lb/>
+                    <pb facs="#FacsPnr8"/>Quod ipsum eciam de dote Maiestatis No- <lb/>str&lt;e&gt;
+                    intelligendum erit. <lb/>Item Cum ducatus ipse oppoliensis propter <lb/>illam
+                    pignoris obligacionem, in qua nunc <lb/>est, Illustrissimo Joanni duci filio no-
+                    <lb/>stro, statim et Ex promptu, usque ad fe- <lb/>stum Nativitatis domini
+                    proxime fu- <lb/>turum reddi et restitui non possit, <lb/>Maiestas Regia annuit
+                    ut Nos, una- <lb/>cum Illustrissimo filio nostro, infra <lb/>prescriptum tempus
+                    redempcionis ma- <lb/>neamus Cassovi&lt;e&gt; illamque teneamus et
+                    <lb/>possideamus, cum omni Jurisdicione, <lb/>alÿsque omnibus proventibus,
+                    quibus <lb/>hactenus possessa est ad illud videlicet <lb/>tempus Nativitatis
+                    domini, quo ducatus <lb/>ipse redimi, ac ipsi Joanni duci filio <lb/>nostro,
+                    pure et simpliciter reddi et re- <lb/>stitui, ac in potestatem eiusdem peni-
+                    <lb/>tus tradi et assignari debet. Cui nihilo- <lb/>minus Ex viginti quinque
+                    Millibus flo- <lb/>renorum, ad eam sumam quae ad id <lb/>tempus cederet,
+                    solvatur, cuius quidem <lb/>temporis, seu anni Inicium computetur <lb/>ab
+                    hodierno die. <lb/>Item Quod Nos et filius ipse noster Ill[ustrissi]mus <lb/>
+                    <lb/>
+                </p>
+                <pb facs="#FacsPnr9"/>
+                <p>universas Arces Municiones, Castella, Civi- <lb/>tates, oppida, Villas, predia,
+                    possessiones, <lb/>generaliter vero omnia ea quae hactenus in <lb/>Regno
+                    hungari&lt;e&gt; et Transsilvani&lt;e&gt; quocunque <lb/>titulo, seu Nomine
+                    tenuimus, habuimus, <lb/>et possedimus, unacum Sacra Regni hun-
+                    <lb/>gari&lt;e&gt; Corona, constituto die, in Manus <lb/>hominum Maiestatis
+                    Regi&lt;e&gt; dare, conce- <lb/>dere et assignare teneamur, ac per offi-
+                    <lb/>ciales nostros et prefectos dari et assigna- <lb/>ri Jubeamus. <lb/>Item
+                    Cum Nobis sit Ex Transsilvania abeun- <lb/>dum, decimasque istius anni presentis
+                    in <lb/>Transsilvania habeamus, Maiestas Regia <lb/>ad usum nostrum et filÿ
+                    nostri tamdiu <lb/>quousque Cassovi&lt;e&gt; erimus vel Ex Decimis
+                    <lb/>Archiepiscopatus Strigoniensis, vel Episco- <lb/>patus Agriensis, eciam si
+                    alÿs in arendam <lb/>ille locatae essent quibus aliunde pro illis satis-
+                    <lb/>fieri debet, teneatur dare decimas <lb/>Trium Millium florenorum, quarum
+                    <lb/>loco cedant Maiestati Regiæ decimæ <lb/>nostr&lt;e&gt; quas in
+                    Transsilvania habemus. <lb/>Item ut pro Bombardis et Ingenÿs illis quas <lb/>Nos
+                    et Ill[ustrissi]mus filius noster in &lt;...&gt;<note type="crit_app" n="4"
+                        >Streichung.</note>
+                    <lb/>arcibus tam hungaricis quam &lt;... &gt;<note n="5" type="crit_app"
+                        >Streichung.</note><note n="6" type="crit_app">Ab hier: eine Textseite
+                        fehlt.</note>
+                </p>
+                <pb facs="#FacsPnr10"/>
+                <p>Maiestats Regia, suique heredes et successo- <lb/>res teneantur Juxta
+                    promissionem et <lb/>obligacionem Maiestatis Regi&lt;e&gt;, de ducat- <lb/>ibus
+                    ipsis tam oppoliensi&lt;.&gt;&nbsp; quam Munster- <lb/>bergensi&lt;.&gt;&nbsp;
+                    vel frankenstainensi&lt;.&gt;<note n="7" type="crit_app">Jeweils Streichung
+                        "s".</note>, aut simul <lb/>de duobus postremis Nobis et Ill[ustrissi]mo
+                    filio <lb/>nostro prospicere, Nobisque illos reddere <lb/>et restituere.
+                    <lb/>Item ut litteras omnes, super huiusmodi <lb/>transactionibus confectas et
+                    emanatas, <lb/>interim dum Nos, et Ill[ustrissi]mus filius noster,
+                    <lb/>Cassovi&lt;e&gt; erimus, quo citius fieri potest <lb/>Sacratissima et
+                    Catholica C&lt;esarea ac Maiestas <lb/>Regia, ipsorumque heredes et successores,
+                    <lb/>renovari, Ex integroque eas conscribi et <lb/>confirmari curent, et
+                    debeant. <lb/>Item Quod quamvis Nos condicionem Ill[ustrissi]mi <lb/>filÿ
+                    nostri, a Maiestate Regia oblatam, <lb/>boni consuluimus, et acceptavimus, ea
+                    <lb/>tamen spe quod Sacratissima et Catholica <lb/>C&lt;e&gt;sarea Maiestas
+                    statum filÿ nostri auge- <lb/>bit melioremque reddet, in cuius arbi- <lb/>trium
+                    omnem nostram et filÿ nostri <lb/>causam remisimus. <lb/>Cum igitur Nos tum ad
+                    clementissima Mo- <lb/>nita Sacratissim&lt;e&gt; et Catholic&lt;e&gt;
+                    C&lt;e&gt;sare&lt;e&gt; </p>
+                <pb facs="#FacsPnr11"/>
+                <p>Maiestatis, tum ad oblaciones pias et <lb/>paternas, Sacratissim&lt;e&gt;
+                    Regi&lt;e&gt; Maiestatis <lb/>annuissemus, presentes litteras nostras <lb/>super
+                    ipsis articulis et rebus in Trans- <lb/>actione cum dominis &lt;...&gt;<note
+                        n="8" type="crit_app">Streichung.</note>&nbsp; Commissa- <lb/>rys ipsius
+                    Maiestsatis Regi&lt;e&gt; Nobiscum <lb/>Inita, conclusis, Statutis et decretis,
+                    <lb/>eisdem dominis Commissarÿs, in testi- <lb/>monium omnium premissorum,
+                    Sigillo <lb/>nostro, manusque nostr&lt;e&gt; subscripcione, <lb/>Munitas dandas
+                    duximus et conce- <lb/>dendas, datum in Civitate Alb&lt;e&gt;
+                    <lb/>Juli&lt;e&gt;, decima nona Mensis Julÿ, An- <lb/>no domini 1551. <lb/>
+                    <lb/>
+                    <lb/>Ysabella regina. <lb/>
+                    <lb/>Coll. cum Orig[inali] </p>
+            </div>
+        </body>
+        <back>
+            <listBibl>
+                <bibl>Volkmer, Gerald, Das Fürstentum Siebenbürgen 1541-1691. Kronstadt 2002.</bibl>
+            </listBibl>
+        </back>
+    </text>
+</tei:TEI>

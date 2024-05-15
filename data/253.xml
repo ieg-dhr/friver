@@ -1,0 +1,1043 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE tei SYSTEM "../resources/FriVer_DTD.dtd">
+
+<?xml-model href="../resources/FriVer.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns="http://www.tei-c.org/ns/1.0"
+	xml:id="pa000299-0253">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title level="s">European peace treaties of the pre-modern era in data / Europäische
+					Friedensverträge der Vormoderne in Daten (FriVer+)</title>
+				<title when="1713-04-11" xml:id="t253" when-custom="1713 IV 11" level="a"
+					ref="https://www.ieg-friedensvertraege.de/treaty/t-253-1-de.html">Handels- und
+					Schiffahrtsvertrag von Utrecht</title>
+			</titleStmt>
+			<editionStmt>
+				<edition> Digital edition according to <ref target="http://www.tei-c.org/">TEI
+						P5</ref>
+				</edition>
+				<funder>
+					<ref target="https://www.text-plus.org/">TEXT+</ref>
+				</funder>
+				<editor role="http://id.loc.gov/vocabulary/relators/edt"
+					ref="https://orcid.org/0000-0002-8741-5916">
+					<persName>Jaap Geraerts</persName>
+					<note>The transformation and enrichment of the data is done by Jaap Geraerts
+						(IEG Mainz). The other members of the FriVer+ team are Fabian Cremer, Ines
+						Grund, and Thorsten Wübbena (all IEG Mainz).</note>
+					<note> The original data has been created by the <ref
+							target="https://www.ieg-friedensvertraege.de">team of scholars</ref> who
+						were part of the Europäische Friedensverträge der Vormoderne project. This
+						project was lead by Prof. Dr. Heinz Duchhardt and was based at the Leibniz
+						Institute of European History in Mainz. </note>
+				</editor>
+			</editionStmt>
+			<publicationStmt>
+				<publisher>
+					<orgName ref="http://www.isni.org/0000000119314040">Leibniz-Institut für
+						Europäische Geschichte Mainz</orgName>
+				</publisher>
+				<distributor>
+					<orgName ref="http://www.isni.org/0000000110101946">Universitäts- und
+						Landesbibliothek Darmstadt</orgName>
+				</distributor>
+				<idno type="ISIL">http://lobid.org/organisation/DE-17</idno>
+				<date type="issued" when="2023-12-23"/>
+				<availability>
+					<licence target="https://creativecommons.org/licenses/by/4.0/">
+						<p xml:lang="en">This file is licensed under the terms of the Creative
+							Commons License CC-BY 4.0 (Attribution 4.0 International)</p>
+					</licence>
+				</availability>
+			</publicationStmt>
+			<sourceDesc>
+				<repository xml:id="r22">Paris AAE <note>Traités et Accords de la France,
+						TRA17130005. Findbuch:<lb/>
+						<ref
+							target="http://basedoc.diplomatie.gouv.fr/exl-php/cadcgp.php?vue=mae_internet___traites/home.html&amp;MODELE=vues/mae_internet___traites/home.html&amp;COMMANDE=search&amp;QUERY=1&amp;cle=doc_ref&amp;clevaleur=TRA17130005"
+							>http://basedoc.diplomatie.gouv.fr/...TRA17130005</ref></note>
+				</repository>
+				<msDesc>
+					<p>AAE Paris: M.A.E. Traités. Multilateraux 17130005. Traité de Commerce et de
+						navigation avec la Grande-Bretagne.-Utrecht (UI). </p>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<projectDesc>
+				<p> The data in this XML file, originally created by the project <ref
+						target="https://www.ieg-friedensvertraege.de/vertraege">Europäische
+						Friedensverträge der Vormoderne online</ref> has been transformed in
+					accordance with <ref target="http://www.tei-c.org/">TEI P5</ref> as part of the
+					project <ref
+						target="https://www.ieg-mainz.de/en/research/research-projects/european-peace-treaties-of-the-pre-modern-era-in-data"
+						>Europäische Friedensverträge der Vormoderne in Daten (FriVer+)</ref>
+				</p>
+			</projectDesc>
+		</encodingDesc>
+		<profileDesc>
+			<langUsage>
+				<language ident="fr" xml:id="lan4">französisch</language>
+			</langUsage>
+		</profileDesc>
+	</teiHeader>
+	<standOff>
+		<listPerson>
+			<person role="signatory" xml:id="p37">
+				<persName ref="https://explore.gnd.network/gnd/4018145-5">
+					<name>Frankreich</name>
+				</persName>
+			</person>
+			<person role="signatory" xml:id="p42">
+				<persName ref="https://explore.gnd.network/gnd/4022153-2">
+					<name>Großbritannien</name>
+				</persName>
+			</person>
+		</listPerson>
+		<listPlace>
+			<place xml:id="loc53">
+				<placeName ref="https://explore.gnd.network/gnd/4062222-8">Utrecht</placeName>
+			</place>
+		</listPlace>
+	</standOff>
+	<text>
+		<front>
+			<div type="Drucke">
+				<p>DUM VIII/1 S. 345-353&nbsp; <ref
+						target="http://gallica.bnf.fr/ark:/12148/bpt6k122969g.image.f360.langEN"
+						>Link zum Druck auf gallica.bnf.fr </ref>
+					<lb/>
+				</p>
+				<p>VAS, III, 87-111. </p>
+			</div>
+			<div type="Inhalt">
+				<p>Das beste Mittel, den vereinbarten Frieden zu festigen ist, gegenseitige Handels-
+					und Schifffahrtsfreiheit zu gewähren, weshalb Folgendes vereinbart wird: <lb/>
+					<lb/>1.&nbsp;&nbsp; &nbsp;Wechselseitige Schifffahrts- und Handelsfreiheit zu
+					den im Folgenden festgelegten Konditionen. <lb/>2.&nbsp;&nbsp; &nbsp;Im Falles
+					eines Bruchs sechsmonatige Frist, um sich und seine Güter aus dem Land des
+					anderen abzuziehen; Freier Abzug oder Verkauf, Möglichkeit des Rechtsweges.
+					<lb/>3.&nbsp;&nbsp; &nbsp;Verbot der Feindseligkeiten der Untertanen
+					gegeneinander; Verbot der Annahme von Kaperbriefen durch Gesetz der jeweiligen
+					Staatsoberhäupter; falls doch Kapereien durchgeführt werden, werden die Opfer
+					entschädigt; keine Ausgabe von Kaperbriefen binnen vier Monaten, in welchen der
+					Sachverhalt dem zuständigen Minister angetragen und berechtigter Anspruch
+					bewiesen werden muss. <lb/>4.&nbsp;&nbsp; &nbsp;Freier Zutritt zu
+					Herrschaftsgebieten des anderen und freier Erwerb der notwendigen Güter unter
+					der Voraussetzung der Einhaltung lokaler Gesetze und Bräuche.
+					<lb/>5.&nbsp;&nbsp; &nbsp;Freier Zutritt zu allen europäischen Häfen und
+					Marktplätzen des anderen, kein Verkaufszwang, keine anderen Steuern und
+					Erhebungen als die gewöhnlich für Schiffe und Waren zu entrichtenden; Mitnahme
+					von Ehefrauen, Kindern und Angestellten; kein Zwang die Messe zu besuchen und
+					freie Religionsausübung in den eigenen Häusern; Bestattung der Toten auf
+					ausgewiesenen Friedhöfen; Gesetze und Statuten des jeweiligen Königreichs
+					bleiben in Kraft es sei denn es ist in vorliegenden Artikeln anders vereinbart.
+					<lb/>6.&nbsp;&nbsp; &nbsp;Entrichtung der festgesetzten Abgaben, die in Rouen
+					und London und an anderen Handelsplätzen öffentlich zugänglich gemacht werden;
+					Beamte, die darüber hinausgehende Zahlungen fordern, werden bestraft.
+					<lb/>7.&nbsp;&nbsp; &nbsp;Kaufleute und Schiffer dürfen nicht festgehalten und
+					belästigt oder enteignet werden; im Falle eines Vergehens ihrerseits, muss der
+					Rechtsweg beschritten werden. <lb/>8.&nbsp;&nbsp;
+					&nbsp;Meistbegünstigungsklausel. <lb/>9.&nbsp;&nbsp; &nbsp;Innerhalb von zwei
+					Monaten wird in Großbritannien ein Gesetz verabschiedet, das die Zölle auf
+					französische Importe vergleichbaren Waren angleicht; die Gesetze, die nach 1664
+					gegen den Import französischer Waren verabschiedet worden sind, werden
+					aufgehoben; der am 18.9.1664 in Frankreich festgesetzte Zolltarif gilt auch für
+					britische Waren, alle Gesetze gegen den Eintritt britischer Waren werden
+					aufgehoben; da es ein so großes Anliegen Frankreichs ist, werden für Tuchwaren,
+					Zucker, Stockfisch und vom Walfisch stammende Waren Sonderregelungen in einem
+					Separatakt getroffen; innerhalb von zwei Monaten treffen sich die Gesandten in
+					London, um über die aus dem Normaltarif auszunehmenden Waren und über weitere,
+					unten aufgeführte, ungeklärte Punkte zu verhandeln; außerdem soll dort über
+					gesetzliche Maßnahmen zur Verbesserung des Handels verhandelt werden.
+					<lb/>10.&nbsp;&nbsp; &nbsp;Regelung der Abgaben auf Einfuhr von Tabak nach
+					Frankreich. <lb/>11.&nbsp;&nbsp; &nbsp;Tonnageabgabe wird abgeschafft.
+					<lb/>12.&nbsp;&nbsp; &nbsp;Die Briten werden in Frankreich nicht gezwungen, sich
+					bestimmter Helfer wie Übersetzer, Faktoren, Träger etc. zu bedienen, sondern
+					dürfen ihr Personal frei wählen oder alles selbst erledigen; dasselbe gilt für
+					die Franzosen in Großbritannien. <lb/>13.&nbsp;&nbsp; &nbsp;Vererbung oder
+					Schenkung nach Gesetzen des Heimatlandes auch für Kaufleute und Schiffer im
+					Gastland. <lb/>14.&nbsp;&nbsp; &nbsp;Verfahren im Streitfall zwischen Kapitän
+					und Mannschaft in fremden Häfen; freie Sprachwahl der Kaufleute für Bücher und
+					Korrespondenz; wenn nötig, müssen die Bücher als Ganzes dem Gericht vorgelegt
+					werden, doch darf der Richter nur von den relevanten Abschnitten Kenntnis
+					nehmen; auch bleiben die Bücher außer im Fall des Bankrotts immer im Besitz
+					ihrer Eigentümer; die Briten werden nicht gezwungen, gestempeltes Papier für
+					Bücher und Korrespondenz zu verwenden; gemäß den französischen Gesetzen wird das
+					Papier für das Journal vom Richter gratis paginiert und unterschrieben
+					<lb/>15.&nbsp;&nbsp; &nbsp;Untertanen verfeindeter Staaten dürfen ihre Schiffe
+					für Unternehmungen gegen einen der beiden Vertragszeichner nicht in den Häfen
+					des anderen ausrüsten, genauso wenig wie ihre genommenen Prisen verkaufen.
+					<lb/>16.&nbsp;&nbsp; &nbsp;Keine Entlade- oder Verkaufspflicht oder
+					Abgabenerhebung bei Zuflucht vor Unwettern in den Häfen des anderen.
+					<lb/>17.&nbsp;&nbsp; &nbsp;Freier Handel auch mit dem Vertragspartner
+					verfeindeten Häfen außer mit Schmuggelwaren <lb/>18.&nbsp;&nbsp; &nbsp;Das gilt
+					für alle Artikel außer für die als Schmuggelwaren wie folgt definierten:
+					<lb/>19.&nbsp;&nbsp; &nbsp;Aufzählung verschiedener Waffen, Munition, Pferde.
+					<lb/>20.&nbsp;&nbsp; &nbsp;Außerdem verschiedene Textilien, alle für ihre
+					Fertigung nötigen Werkzeuge, Gold Silber, verschiedene Metalle, Tabak, Gewürze,
+					Stockfisch, Lebensmittel, Schiffsbaumaterialien; man zählt Instrumente, die
+					nicht zur Kriegsführung zu gebrauchen oder für etwas anderes gedacht sind, nicht
+					mehr zu den Schmuggelwaren, so dass diese, außer auf belagerten Plätzen, mit den
+					Feinden des anderen gehandelt werden dürfen. <lb/>21.&nbsp;&nbsp; &nbsp;Wenn
+					sich eine Vertragspartei im Krieg befindet, müssen die Untertanen der anderen
+					mit Seebriefen ausgestattet werden, die über Schiffs- und Wareneigner Auskunft
+					geben; die Formulare werden in diesen Vertrag mit aufgenommen; außerdem sollen
+					Zertifikate, die über die Waren und deren Herkunft Auskunft geben ausgestellt
+					werden. <lb/>22.&nbsp;&nbsp; &nbsp;Freies Passieren und Ankern in den Häfen der
+					Alliierten des anderen außer im Fall des begründeten Verdachts auf Schmuggel.
+					<lb/>23.&nbsp;&nbsp; &nbsp;In diesem Fall müssen die oben beschriebenen Papiere
+					vorgezeigt werden. <lb/>24.&nbsp;&nbsp; &nbsp;Regelung der Begegnung von
+					Handelsschiffen mit den Kriegsschiffen des jeweils anderen. <lb/>25.&nbsp;&nbsp;
+					&nbsp;Schiffe, die die Häfen der Feinde des anderen anlaufen, müssen die oben
+					erwähnten Papiere auch auf hoher See bereithalten. <lb/>26.&nbsp;&nbsp;
+					&nbsp;Ordentliche juristische Verfahren bei Schmuggelhandel, keine Konfiskation
+					der übrigen Waren oder Schiffe. <lb/>27.&nbsp;&nbsp; &nbsp;Waren von Untertanen
+					des Vertragspartners, die auf Schiffen des Feindes transportiert werden, werden
+					wie Schmuggelwaren konfisziert außer die vor der Kriegserklärung geladenen Waren
+					bzw. davon abweichende Fristsetzung für die in verschiedenen geografischen
+					Regionen liegenden Häfen. <lb/>28.&nbsp;&nbsp; &nbsp;Kriegskapitänen und
+					Untertanen ist es verboten, den Untertanen des Vertragspartners Schaden
+					zuzufügen; Zuwiderhandlung wird bestraft. <lb/>29.&nbsp;&nbsp; &nbsp;Deshalb
+					muss jeder private Kriegskapitän, bevor er sein Patent bekommt, Bürgen nennen
+					die mit einer festgelegten Summe für die Wiedergutmachung eines eventuell den
+					Untertanen des Vertragspartners zugefügten Schadens sorgen. <lb/>30.&nbsp;&nbsp;
+					&nbsp;Ihre Majestäten befehlen, die anstehenden Prisenverfahren gegen Untertanen
+					des Vertragspartners gemäß der auch für die eigenen Untertanen geltenden
+					Rechtssprechung zu verhandeln. <lb/>31.&nbsp;&nbsp; &nbsp;Appellationsrecht der
+					Gesandten für als ungerecht empfundene Gerichtsurteile. <lb/>32.&nbsp;&nbsp;
+					&nbsp;Letztlich gilt der Spruch des Appellationsgerichts zugunsten dessen der
+					sich gegen eine Prisennahme beschwert. <lb/>33.&nbsp;&nbsp; &nbsp;Bei vor den
+					Küsten des anderen erlittenem Schiffbruch wird alles Gerettete den Eignern
+					zurückerstattet unter Zahlung der Rettungskosten. <lb/>34.&nbsp;&nbsp;
+					&nbsp;Freie Wahl von Anwälten, Notaren etc. <lb/>35.&nbsp;&nbsp; &nbsp;Verbot
+					des Beherbergens von Piraten oder Freibeutern; Bestrafung derselben und ihrer
+					Unterstützer. <lb/>36.&nbsp;&nbsp; &nbsp;Recht zur freien Fahrt mit feindlichen
+					Prisen ohne Zahlung einer Abgabe an die Admiralität des Vertragspartners,
+					lediglich die Patente müssen gezeigt werden; kein Asyl für vom Vertragspartner
+					genommene Prisen außer im Unwetterfall und wenn es früheren Verträgen mit
+					Drittstaaten entspricht. <lb/>37.&nbsp;&nbsp; &nbsp;An den Küsten des einen
+					werden die Schiffe des anderen Vertragspartners geschützt. <lb/>38.&nbsp;&nbsp;
+					&nbsp;Bei Vertragsverletzungen wird nicht der Friede gebrochen, sondern man
+					versucht die Missstände in Freundschaft zu beseitigen; Vertragsverletzer werden
+					bestraft. <lb/>39.&nbsp;&nbsp; &nbsp;Bei Gewaltausübung gegen die Untertanen des
+					anderen bei einer Prisennahme wird nicht nur das Eigentum zurückerstattet,
+					sondern die Schuldigen werden auch schwer bestraft. <lb/>Formulare für Pässe und
+					Seebriefe <lb/>Ratifikationsformel <lb/></p>
+			</div>
+			<div type="Kommentar">
+				<p>Bereits seit Amtsantritt des gesundheitlich und geistig schwächlichen Karls II.
+					in Spanien erwartete man in Europa dessen Tod ohne Erben. Schon 1668 vereinbarte
+					Frankreich deshalb mit Österreich in einem geheimen Vertrag die Aufteilung des
+					spanischen Erbes. Allerdings bemühten sich die Seemächte aus Angst vor einer
+					Gefährdung des europäischen Gleichgewichts, die Bildung einer Weltmacht durch
+					den Fall des spanischen Reichs an Frankreich oder Österreich zu verhindern. Im
+					ersten öffentlichen Teilungsvertrag von 1698 wurde deshalb das spanische Erbe
+					zwischen Philipp von Anjou, Joseph Ferdinand von Bayern und Erzherzog Karl von
+					Österreich geteilt. Als Joseph Ferdinand 1699 starb wurde in einem zweiten
+					Vertrag das spanische Reich erneut aufgeteilt. <lb/>Allerdings setzte Karl II.
+					in der Hoffnung, die Einheit des spanischen Reiches erhalten zu können, kurz vor
+					seinem Tod Philipp von Anjou als Alleinerben ein. Die Proklamation des Dauphin
+					als spanischen König durch Ludwig XIV. führte zunächst zwischen Österreich und
+					Frankreich zum Krieg um das spanische Erbe. In der Folge ließ die französische
+					Politik allerdings die Seemächte um politischen und wirtschaftlichen Einfluss
+					fürchten, so dass sich eine Große Allianz zwischen den Seemächten, Österreich
+					und den wichtigsten deutschen Fürsten bildete, die gegen ein Bündnis zwischen
+					Frankreich, Spanien und dem Haus Wittelsbach (Portugal wechselte 1702 die
+					Seiten) kämpfte. <lb/>Der Konflikt konnte erst beigelegt werden, als ein
+					Machtwechsel in Großbritannien die Stimme der Friedensbefürworter stärkte, der
+					Tod Kaiser Josephs von Österreich die Gefahr einer neuen habsburgischen
+					Weltmacht unter dessen Nachfolger Karl VI. heraufbeschwor und Großbritannien
+					sich über den Asiento de Negros Handelsvorteile in Spanisch-Amerika sicherte. In
+					mehreren separaten Verträgen wurde am Friedenskongress zu Utrecht 1713/14 der
+					Frieden wiederhergestellt und die europäischen Besitzungen Spaniens zwischen den
+					österreichischen Habsburgern und den Bourbonen aufgeteilt. Begleitet wurden die
+					Friedensverträge durch Handelsabkommen. <lb/></p>
+			</div>
+			<div type="Kontext">
+				<p>1665 <lb/>Thronbesteigung Karls II. von Spanien; <lb/>19.1.1668
+					<lb/>Teilungsvertrag des spanischen Erbes zwischen Frankreich und Österreich
+					<lb/>1693 <lb/>Karl II. setzt Joseph Ferdinand von Bayern zu seinem Erben ein
+					<lb/>11.10.1698 <lb/>Erster Teilungsvertrag über das spanische Erbe zwischen
+					Frankreich, Großbritannien und den Vereinigten Provinzen <lb/>Feb. 1699 &nbsp;
+					<lb/>Joseph Ferdinand von Bayern stirbt <lb/>13./25.3.1700 <lb/>Zweiter
+					Teilungsvertrag <lb/>2.10.1700 <lb/>Karl II. setzt Philipp von Anjou als
+					Alleinerben ein <lb/>1.11.1700 <lb/>Karl II. stirbt kinderlos <lb/>Ludwig XIV.
+					proklamiert seinen Enkel Philipp von Anjou zum König von Spanien <lb/>Feb. 1701
+					<lb/>Philipp von Anjou zieht in Madrid ein und wird von Großbritannien, den
+					Vereinigten Provinzen, Savoyen, Portugal und den wichtigsten deutschen Fürsten
+					anerkannt <lb/>Ludwig XIV. ersetzt die Garnisonen in den Niederlanden durch
+					französische Truppen <lb/>April 1701 <lb/>Kriegserklärung Österreichs an
+					Frankreich &nbsp; <lb/>18.6.1701 <lb/>Allianz zwischen Frankreich, Portugal und
+					Spanien; Übergabe des Asiento de Negros an Frankreich <lb/>6.9.1701 <lb/>Der
+					entthronte englische König Jakob II. stirbt; Ludwig XIV. erkennt dessen Sohn als
+					Jakob III. von England an. <lb/>7.9.1701 <lb/>Bildung der Großen Allianz
+					zwischen den Seemächten, Österreich und einigen kleineren Staaten <lb/>1702
+					<lb/>Kriegserklärung der Großen Allianz an Frankreich <lb/>März 1702 <lb/>Tod
+					Wilhelms von Oranien, Königin Anne besteigt den englischen Thron <lb/>Mai 1702
+					<lb/>Eintritt Portugals in die Große Allianz <lb/>1703 <lb/>Die Große Allianz
+					setzt Erzherzog Karl III. von Österreich als spanischen König ein <lb/>1713
+					<lb/>Abschluss eines Asiento de Negros mit Großbritannien <lb/>1713/1714
+					<lb/>Friedens- und Handelsverträge von Utrecht <lb/></p>
+			</div>
+		</front>
+		<body>
+			<div type="Transkription">
+				<p>1713 IV 11 Handels- und Schiffahrtsvertrag von Utrecht</p>
+				<p>D'autant que depuis que le Serenissime et<lb/> tres Puissant Prince Loius XIV,
+					par la grâce de Dieu Roy<lb/> tres Chrestien de France et de Navarre, Et la<lb/>
+					Serenissime et tres Puissante Princesse Anne, par la<lb/> grace de Dieu, Reyne
+					de la Grande-Bretagne &amp;c. ont<lb/> porté leurs vues, par l’inspiration de
+					Dieu tout puissant<lb/> du costé de la paix, Leurs Majestez ont jugé que le
+					moyen<lb/> le plus solide, de la confirmer estoit de procurer a leurs<lb/>
+					Sujets les avantages qu'ils en doivent attendre par une<lb/> mutuelle liberté et
+					accroissement de navigation et de<lb/> commerce; Animées respectivement de ce
+					desir, Elles ont<lb/> par un effet de leur clemence commandé à leurs Ambas-<lb/>
+					sadeurs Extraordinaires et Plenipotentiaires de s'assembler<lb/> à Utrecht, pour
+					y traiter non seulement de la paix, mais<lb/> encore pour renouveller les
+					anciens Traitez de Commerce<lb/> qui ont esté cy devant faits entre les deux
+					nations; Savoir<lb/> de la part du Roy tres Chrestien au Sieur Nicolas
+					Marquis<lb/> d'Huxelles, Marechal de France, Chevalier des Ordres du Roy,<lb/>
+					Lieutnant General; au Gouvernement du Duché de Bourgogne<lb/> Et au Sieur
+					Nicolas Mesnager Chevalier de l’Ordre Royal<lb/> de S[ain]t Michel; Et de la
+					part de la Reyne de la Grande</p>
+				<p> Seite 1 Bretagne Le bien Reverend Jean Evesque de Bristol,<lb/> Garde du Sceau
+					privé d'Angleterre, Conseiller de la Reyne<lb/> en son Conseil d'Estat, Doyen de
+					Windsor, et Secretaire de<lb/> l'Ordre de la Jartière; Et au Sieur Thomas Comte
+					de<lb/> Strafford, Vicomte Wentworth, de Wentworth, Woodhouse, et<lb/> de
+					Staineboroug, Baron d'Ovérsly, Newmarch, et Raby,<lb/> Conseiller de la Reyne en
+					son Conseil d'Estat, Son<lb/> Ambassadeur Extraordinaire et Plenipotentiaire
+					auprès des<lb/> Etats Generaux des provinces Unies des pays bas, Colonel du<lb/>
+					Regiment Royal de Dragons de Sa Majesté, Lieutenant<lb/> General de ses armées,
+					Premier Seigneur de l'Amirauté<lb/> de la Grande Bretagne et d'Irlande et
+					Chevalier du très<lb/> noble Ordre de la Jartière; Lesquels, pour parvenir à
+					une<lb/> fin si pieuse, et remplir un desir si salutaire de leurs<lb/> Majestez,
+					après s'estre communiqué respectivement leurs<lb/> pleinpouvoirs dont les copies
+					seront inserées de mot à<lb/> mot a la fin du present traité, en avoir duement
+					fait<lb/> l'echange, et avoir tenu diverses conferences et discuté la<lb/>
+					matière autant que la brieveté du tems la pu permettre<lb/> sont enfin convenus
+					sur le fait de la navigation et du<lb/> Commerce, des articles qui s'ensuivent.<lb/>
+					<lb/> I.<lb/> Il a esté convenu et accordé entre le Serenissime et tres<lb/>
+					puissant Roy Tres Chrestien, et la Serenissime et tres</p>
+
+				<p> Seite 2 <lb/> Puissante Reyne de la Grande Bretagne qu'il y ait entre<lb/> les
+					Sujets de part et d'autre une liberté réciproque et en<lb/> toute manieres
+					absolue de Navigation et de Commerce<lb/> dans tous et chacun des Royaumes,
+					Etats, Provinces, et<lb/> terres de l'obeissance de Leurs Majestez en Europe,
+					pour<lb/> toutes et chacune sorte de marchandises dans les lieux,<lb/> aux
+					conditions, en la maniere, et en la forme qu’il est<lb/> reglé et etably dans
+					les articles suivants.<lb/>
+					<lb/> 2,,<lb/> Pour asseurer à l'avenir le Commerce et l'amitié<lb/> entre les
+					Sujets de leursd[ites] Majestez, et afin que cette<lb/> bonne correspondance
+					soit à l'abry de tout trouble et de<lb/> toute inquietude, Il a esté convenu et
+					accordé que si<lb/> quelque jour il survient quelque mauvaise intelligence,<lb/>
+					interruption d'amitié, ou rupture entre les Couronnes de<lb/> leurs Majestez (ce
+					qu'à Dieu ne plaise) il sera donné<lb/> pour lors un terme de six mois après
+					lad[ite] rupture aux<lb/> Sujets des deux parties et habitans qui demeureront
+					dans<lb/> les Etats de l’une et de l'autre, en sorte qu'ils puissent<lb/> se
+					retirer avec leurs familles, biens, marchandises, et<lb/> facultez, et les
+					transporter ou bon leur semblera. Comme<lb/> aussy qu'il leur sera permis alors
+					de vendre et d'aliener<lb/> leurs biens meubles, et immeubles librement et
+					sans<lb/> aucun trouble; Que pendant ce tems ils ne seront retenus<lb/>
+				</p>
+				<p> Seite 3 <lb/> ni molestez par arrest, ni par saisie de leurs effets,<lb/> biens,
+					marchandises, et facultez, ni de leurs personnes; Et<lb/> de plus il sera rendu
+					aux Sujets de part et d’autre une<lb/> bonne et promte justice, ensorte qu'ils
+					puissent en profiter<lb/> pour retirer dans led[it] espace de six mois leurs
+					effets et leurs<lb/> facultez confiez tant aux particuliers qu’au public.<lb/>
+					<lb/> 3,,<lb/> On est aussy convenu, et il a esté arresté que les<lb/> Sujets et
+					habitans des Royaumes, Provinces, et Etats<lb/> de leurs Majestez n'exerceront a
+					l'avenir aucuns actes<lb/> d'hostilité, ni violences les uns contre les autres
+					tant sur<lb/> mer que sur terre, fleuves, rivieres, ports, et rades, sous<lb/>
+					quelque nom et prétexte que ce soit en sorte que les Sujets<lb/> de part et
+					d’autre ne pourront prendre aucune patente,<lb/> commission, ou instruction pour
+					armements particuliers,<lb/> et faire la course en mer, ni lettres vulgairement
+					appellées<lb/> de represailles de quelques Princes, ou Etats Enemis de<lb/>
+					l’une ou de l’autre, ni troubler, molester, empecher, ou<lb/> endommager de
+					quelque maniere que se soit, en vertu<lb/> ou sous pretexte de telles patentes,
+					Commissions ou lettres<lb/> de represailles, les Sujets et habitans sus[dit] Roy
+					tres<lb/> Chrestien, ou de la Reyne de la Grande Bretagne, ni faire<lb/> ces
+					sortes d’armements ou s’en servir pour aller en mer,<lb/> et seront a cette fin
+					toutes et quantes fois qu’il sera </p>
+				<p> Seite 4 <lb/> requis de part et d'autre, renouvellées, et publiées des<lb/>
+					deffenses etroites et expresses d'user en aucune maniere<lb/> de telles
+					commissions, ou lettres de represailles sous<lb/> les plus grandes peines qui
+					puissent estre ordonnées<lb/> contre les Infracteurs, outre la restitution et la
+					satis-<lb/> faction entiere dont ils seront tenus envers ceux auxquels<lb/> ils
+					auront causé quelque dommage, et ne seront données<lb/> à l’avenir par l’un
+					des[dits] Alliez au prejudice et au<lb/> dommage des Sujets de l'autre, aucunes
+					lettres de<lb/> represailles; Si ce n’est seulement au cas de deny, ou<lb/> de
+					delay de justice, lequel deny ou delay de justice<lb/> ne sera pas tenu pour
+					verifié, si la requeste de Celuy<lb/> qui demande lesd[ites] lettres de
+					represailles n'est commu-<lb/> niquées au Ministre qui se trouvera sur les lieux
+					de<lb/> la part du Prince contre les Sujets duquel elles<lb/> doivent estre
+					données, afinque dans le terme de<lb/> quatre mois ou plutost s'il se peut, il
+					puisse faire<lb/> connoistre le contraire, ou&nbsp; procurer la juste
+					satis-<lb/> faction qui sera due.<lb/>
+					<lb/> 4,,<lb/> Ou'il sera libre aux Sujets et habitans des Susd[its]<lb/> Alliez
+					d'entrer et d’aller librement et surement sans<lb/> permission, ni saufconduit
+					general, ou special, soit </p>
+				<p> Seite 5 <lb/> par terre ou par mer, et enfin par quelque chemin<lb/> que ce soit
+					dans les Royaumes, Etats, Provinces, terres,<lb/> Iles, villes, Bourgs, places
+					murées, ou non murées, forti-<lb/> fiées ou non fortifiées, ports et domaines de
+					l'autre<lb/> Allié situez en Europe, quels qu'ils puissent estre et<lb/> d'en
+					revenir, d'y séjourner ou d'y passer, d'y achepter<lb/> aussy et acquerir a leur
+					choix toutes les choses néces-<lb/> saires pour leur subsistance et pour leur
+					usage et qu'ils<lb/> seront traitez reciproquement avec toute sorte de<lb/>
+					bienveillance et de faveur. Bien entendu neantmoins<lb/> que dans toutes ces
+					choses ils se conduiront et se<lb/> comporteront conformement a ce qui est
+					prescrit par<lb/> les loix et par les ordonnances, qu'ils vivront les uns<lb/>
+					avec les autres en amis et paisiblement, et qu'ils<lb/> entretiendront par leur
+					bonne intelligence l'union<lb/> réciproque.<lb/>
+					<lb/> 5.<lb/> Il sera libre et permis aux Sujets de leurs dites<lb/> Majestez
+					réciproquement d'aborder avec leurs vaisseaux<lb/> aussi bien qu'avec les
+					marchandises et les effets dont ils<lb/> seront chargez, et dont le commerce et
+					le transport ne<lb/> sont point deffendus par les loix de l’un ou de
+					l'autre<lb/> Royaume, d’entrer dans les terres, Etats, villes,<lb/> ports,
+					lieux, et rivieres de part et d'autres situez en </p>
+				<p> Seite 6 <lb/> Europe, d'y frequenter, séjourner, et demeurer sans<lb/> aucune
+					limitation de tems mesme d'y loüer des<lb/> maisons, ou de loger chez d’autres,
+					d'acheter, où ils<lb/> jugeront a propos toutes sortes de Marchandises<lb/>
+					permises, soit de la premiere main, soit du Marchand,<lb/> et en quelque autre
+					maniere que ce puisse estre, soit<lb/> dans les places et marchez publics, ou
+					sont exposées<lb/> les marchandises, et dans les fayres, soit dans tout<lb/>
+					autre endroit ou ces marchandises se fabriquent, ou<lb/> se vendent. Il leur
+					sera aussi permis de serrer et de<lb/> garder dans leurs magazins, ou entrepots
+					les marchan-<lb/> dises apportées d'ailleurs et de les exposer ensuite en<lb/>
+					vente, sans estre obligez en aucune façon de porter<lb/> leurs marchandises
+					susd[ites] dans les marchez et dans<lb/> les foyres si ce n'est de leur bon gré,
+					et de leur bonne<lb/> volonté, à condition neantmoins qu'ils ne les
+					vendront<lb/> point en détail dans des boutiques ou ailleurs, et ils<lb/> ne
+					pourront pour raison de lad[ite] liberté de Commerce,<lb/> ou pour toute autre
+					cause que ce soit, estre chargez<lb/> d'aucun impost ou droits, à l'exception de
+					ceux qui<lb/> doivent estre payez pour leurs navires, ou pour leurs<lb/>
+					Marchandises, suivant les loix et coutumes receues<lb/> dans l'un et dans
+					l'autre Royaume; Il leur sera<lb/>
+				</p>
+				<p> Seite 7 <lb/> aussy permis de sortir de l'un et de l'autre Royaume<lb/> quand
+					ils le voudront et d'aller oú ils le jugeront<lb/> apropos par terre ou par mer,
+					par les rivieres et<lb/> eaux douces; Et aussy au cas qu'ils fussent mariez<lb/>
+					ils pourront emmener leurs femmes, enfans, domestiques,<lb/> aussy bien que
+					leurs marchandises, facultéz, biens et<lb/> effets acheptez ou apportez, après
+					avoir payé les<lb/> droits accoustumez, nonobstant toute loy, privilege,<lb/>
+					concession, immunitez, ou coustumes à ce contraires<lb/> en façon quelconque, et
+					quant à ce qui concerne la<lb/> Religion les Sujets des deux Couronnes et leurs
+					femmes<lb/> et enfans au cas qu'ils fussent mariez jouiront d'une<lb/> entière
+					liberté, Ils ne pourront estre contrains d'assister<lb/> aux offices divins,
+					soit dans les Eglises ou ailleurs; Mais<lb/> au contraire il leur sera permis
+					sans aucun empechement<lb/> de faire en particulier dans leurs propres
+					maisons<lb/> sans qu'il y intervienne qui que ce soit les exercices<lb/> de leur
+					Religion suivant leur usage, quoyque deffendu<lb/> par les loix du Royaume. On
+					ne refusera point<lb/> de part, ni d'autre la permission d'enterrer dans
+					des<lb/> lieux commodes et decents qui seront designez à cet<lb/> effet, les
+					corps des sujets de l'un et de l'autre Royaume<lb/> decedez dans l’etendue de la
+					Domination de l'autre </p>
+				<p> Seite 8 <lb/> Et il ne sera apporté aucun trouble a la sepulture<lb/> des morts.
+					Les loix et les statuts de l'un et de l'autre<lb/> Royaume demeureront dans leur
+					force et vigueur,<lb/> et seront exactement executez soit que ces loix, ou<lb/>
+					Statuts regardent le commercé et la navigation, ou<lb/> qu'ils concernent
+					quelque’autre droit, à la reserve<lb/> seulement des cas auxquels il est derogé
+					par les<lb/> articles du present traité.<lb/>
+					<lb/> 6.<lb/> Les Sujets de part et d'autre payeront les Douanes,<lb/> impots,
+					et les droits d'entrée et de sortie dus et<lb/> accoustumez dans tous les Etats
+					et Provinces de part<lb/> et d'autre, et afin que chacun puisse sçavoir
+					certainement<lb/> en quoy consistent, les susd[its]. impots, douanes et
+					droits<lb/> d'entrée et de sortie qu’els qu'ils soient, on est convenu<lb/>
+					qu'il y aura dans les lieux publics tant à Rouen, et<lb/> dans les autres villes
+					marchandes de France, qu'à<lb/> Londres, et dans les autres villes dé
+					l'obbeissance de la<lb/> Reyne de la Grande Bretagne, des tarifs qui<lb/>
+					indiquent les impots, douanes, et droits accoustumez,<lb/> afin que l'on y
+					puisse avoir recours toutes les fois<lb/> qu'il s'elevera quelque contestation
+					ou differend à l'occasion </p>
+				<p> Seite 9 <lb/> de ces impots, douanes, ou droits, qui ne pourront se<lb/> lever
+					que conformement à ce qui sera clairement<lb/> expliqué dans les susd[its]
+					tarifs et selon leur sens naturel,<lb/> Et si quelque officier, ou quelqu'un en
+					son nom, sous<lb/> quelque pretexte que ce soit, exige et reçoit
+					publiquement<lb/> ou en particulier directement, ou indirectement d'un<lb/>
+					Marchand, ou d'un autre, aucune somme d'argent, ou<lb/> quelque autre chose que
+					ce soit a raison de droit du,<lb/> d'impost, de visites, ou de compensation,
+					mesme sous<lb/> le nom de don fait volontairement, ou sous quelque<lb/> autre
+					pretexte que ce soit au dela, ou autrement qu'il<lb/> n'est marqué cy dessus; En
+					ce cas, si led[it] officier, ou son<lb/> Substitut estant accusé devant le juge
+					competant<lb/> du lieu ou la faute a esté commise, s'en trouve convaincu,<lb/>
+					il donnera une satisfaction entiere à la partie lezee,<lb/> et il sera mesme
+					puni de la peine due et préscrite par<lb/> les loix.<lb/>
+					<lb/> 7.<lb/> Les Marchands, les Capitaines de Vaisseaux, les<lb/> Maistres de
+					Navires, les Matelots et quelque personne<lb/> que ce soit, les navires, el
+					generalement toutes marchandises<lb/> et effets de l'autre allié, et de ses
+					Sujets, ou habitans ne<lb/> pourront estre pris, saisis, ou arrestez, ni
+					contraints </p>
+				<p> Seite 10 <lb/> par aucune sorte de violence, molestez, ou<lb/> maltraitez au nom
+					du public ou d'un particulier; en<lb/> vertu de quelque Edit general, ou special
+					que ce soit<lb/> dans les terres, ports, havres, rades, et Etats que ce<lb/>
+					puisse estre de l’autre Allié pour le service public,<lb/> pour des actions
+					militaires, ou autres causes, encore<lb/> moins pour aucun usage particulier,
+					mais il sera<lb/> deffendu de prendre ou d’enlever par la force aucune<lb/>
+					chose aux Sujets de part et d'autre sans le consentement<lb/> de celuy à qui
+					elle appartient, et sans le luy payer<lb/> en argent comptant, ce qui ne doit
+					point neantmoins<lb/> s'entendre de la saisie et de l'arrest qui sera fait<lb/>
+					par les voyes ordinaires, par ordonnance et de<lb/> l'autorité de la justice,
+					pour cause de dette, ou de<lb/> crime commis dans lesquelles occasions ou
+					procédera<lb/> par les voyes de droit, et&nbsp; selon les regles de la justice.<lb/>
+					<lb/> 8,,<lb/> De plus on est convenu et il a esté etably pour<lb/> regle
+					generale que tous et chacun des Sujets du<lb/> Serenissime Roy tres Chrestien et
+					de la Serenissime<lb/> Reyne de la Grande Bretagne, useront et jouiront<lb/>
+					respectivement dans toutes les terres et lieux de leur<lb/>
+				</p>
+				<p> Seite 11 <lb/> obéissance des mesmes privileges, libertez, immunitez<lb/> sans
+					aucune exception dont jouit et use, ou pourra<lb/> jouir et user et estre en
+					possession à l'avenir la nation<lb/> la plus amie par raport aux droits,
+					douanes, et imposi-<lb/> tions quels qu'ils soient à l'egard des personnes,
+					marchan-<lb/> dises, effets, navires, fret, matelots, enfin en tout ce qui<lb/>
+					regarde la navigation et le commerce, et qu'ils auront<lb/> la mesme faveur en
+					toutes choses, tant dans les<lb/> Cours de justice que dans tout ce qui concerne
+					le<lb/> Commerce, ou tous autres droits.<lb/>
+					<lb/> 9,,<lb/> On est convenu que dans l'espace de deux mois<lb/> depuis qu'il
+					aura esté fait une loy dans la Grande-<lb/> Bretagne, par laquelle il sera
+					suffisament pourvu à<lb/> ce qu'il ne soit exigé sur les effets et
+					marchandises<lb/> qui seront portées de France dans la Grande Bretagne<lb/>
+					aucuns impots, ou droits plus grands que ceux qui se<lb/> levent sur les effets
+					et marchandises de la&nbsp; mesme<lb/> nature qui y sont aportées de quelque
+					pays que ce<lb/> soit situé dans l'Europe, et que toutes les loix faites<lb/>
+					dans la Grande Bretagne depuis l'année mille six<lb/> cent soixante quatre pour
+					deffendre le transport de<lb/> quelques effets, ou marchandises venant de
+					France, qui </p>
+				<p> Seite 12 <lb/> n'avoit point esté defendue avant lad[ite] année soient<lb/>
+					abrogées, alors le tarif general fait en France le<lb/> 18e Septembre 1664. sera
+					derechef observé dans ce<lb/> Royaume et les droits que les Sujets de la
+					Grande-<lb/> Bretagne doivent payer pour les effets qu’ils apporteront<lb/> en
+					France, ou qu'ils en<note n="1" type="crit_app">Nachträglich eingefügt.</note>
+					tireront, seront reglez suivant la<lb/> teneur dud[it] Tarif, sans exceder la
+					maniere etablie suivant<lb/> led[it] Tarif pour les Provinces dont il est fait
+					mention.<lb/> Quant aux autres Provinces les droits n’y seront levez,<lb/> que
+					suivant la regle prescrite en ce tems là; Toutes les<lb/> defences, tarifs,
+					Edits, declarations ou arrets posterieurs<lb/> à l'année 1664 faits en France et
+					contraires au tarif de<lb/> lad[ite] année, en ce qui concerne les effets et
+					marchan-<lb/> dises de la Grande Bretagne seront abrogez; Et comme<lb/> on
+					insiste de la part de la France que quelques<lb/> Marchandises, scavoir celles
+					de laine, le sucre, les<lb/> poissons salez, et ce qui provient de la Baleine
+					soient<lb/> exceptez de la regle du susd[it] tarif, et qu'il y a d'autres<lb/>
+					points qui regardent ce traité proposez de la part de<lb/> la Grande Bretagne,
+					et dont il n'a pas encore esté<lb/> convenu de part et d'autre, de tous lesquels
+					la specifica-<lb/> tion est contenue dans un acte separé signé des<lb/>
+					Ambassadeurs Extraordinaires Plenipotentiaires du<lb/> Roy tres Chrestien et de
+					la Revne de la Grande Bretagne;<lb/>
+				</p>
+				<p> Seite 13 <lb/> On est convenu et demeuré d'accord par ce present<lb/> article
+					que dans l’espace de deux mois à compter de<lb/> l’echange des ratifications de
+					ce traité, les Commissaires de<lb/> part et d’autre s’assembleront a Londres
+					pour examiner et<lb/> resoudre les difficultez sur les marchandises a
+					excepter<lb/> du tarif de l'année 1664 et sur les autres points qui ne<lb/> sont
+					pas encore assez developez, comme il est dit cy dessus.<lb/> et les mesmes
+					Commissaires donneront pareillement leurs<lb/> soins (conformement a l'interest
+					des deux nations) à bien<lb/> examiner les avantages reciproques du Commerce, à
+					lever<lb/> tout embarras sur ce sujet, à trouver enfin et à etablir<lb/> de part
+					et d'autre des moyens justes et utiles pour moderer<lb/> reciproquement les
+					droits. Bien entendu toutesfois que tous<lb/> et chacun des articles de ce
+					traité demeureront en attendant<lb/> dans leur pleine vigueur et principalement
+					que rien<lb/> ne puisse empescher sous quelque, pretexte que ce soit<lb/> que
+					l'avantage du tarif general de l’année 1664. soit<lb/> accordé aux sujets de la
+					Grande Bretagne, et qu'ils en jouissent<lb/> sans aucun embaras ou retardement
+					dans l'espace de deux<lb/> mois après que la loy dont il a esté parlé cy dessus
+					aura esté<lb/> publiée dans la Grande Bretagne; Cette jouissance devant
+					estre<lb/> pour les sujets de la Grande Bretagne dans la forme et maniere<lb/>
+					aussy ample que les Sujets de la nation la plus amie<lb/> jouiront du benefice
+					du mesme tarif, sans qu'aucune choses </p>
+				<p> Seite 14 <lb/> a faire, ou à discuter par lesd[its] Commissaires le
+					puissent<lb/> empescher.<lb/>
+					<lb/> 10.<lb/> Les droits sur le tabac preparé, ou non preparé, lorsqu'il<lb/>
+					sera apporté en France, seront moderez à l'avenir sur le<lb/> mesme pied de
+					reduction, dont jouit deja ou pourra jouir à<lb/> son entrée en France le mesme
+					tabac de quelque cru qu'il soit<lb/> de l'Europe, ou de l'Amérique. Les Sujets
+					depart et d'autre<lb/> payeront en France les mesmes droits sur le tabac; ils
+					auront<lb/> une liberté egale d'en vendre, et les mesmes loix dont jouiront<lb/>
+					les marchands François mesme, ou auxquelles ils seront assujetis<lb/> seront
+					communes aux Sujets de la Grande Bretagne.<lb/>
+					<lb/> 11<lb/> On a aussy statué que l'impost, ou le tribut de cinquante<lb/>
+					sols tournois par tonneau mis en France sur les navires<lb/> de la Grande
+					Bretagne cesse et soit abrogé entièrement<lb/> à l'avenir, et l'on supprimera
+					pareillement le droit de cinq<lb/> sols Sterling par tonneau, imposé dans la
+					Grande Bretagne<lb/> sur les navires François. Ces levées et d'autres charges
+					semblables<lb/> ne seront plus imposées dans la suite sur les vaisseaux de<lb/>
+					part et d'autre.<lb/>
+					<lb/> 12.<lb/> Il a este statué de plus, et l'on est convenu qu'il soit<lb/>
+					entièrement libre a tous les Marchands, Capitaines de<lb/> Vaisseaux, et autres
+					Sujets de la Reyne de la Grande Bretagne </p>
+				<p> Seite 15 <lb/> dans tous les lieux de France de traiter leurs affaires<lb/> par
+					eux mesmes, ou d'en charger qui bon leur semblera,<lb/> et ils ne seront tenus
+					de se servir d'aucun interprète<lb/> ou facteur, ni de leur payer aucun salaire,
+					si ce n'est<lb/> qu'ils veuillent s'en servir. En outre les Maistres des<lb/>
+					Vaisseaux ne seront point tenus de se servir pour charger<lb/> ou decharger
+					leurs navires de personnes etablies à cet effet<lb/> par l'autorité publique,
+					soit à Bordeaux, soit ailleurs;<lb/> Mais il leur sera entierement libre de
+					charger, ou de<lb/> decharger leurs vaisseaux par eux-mêmes, ou de se
+					servir<lb/> de ceux qu'il leur plaira pour les charger ou les decharger,<lb/>
+					sans payer aucun salaire à quelqu'autre personne que ce<lb/> puisse estre, Ils
+					ne seront point tenus aussy de décharger<lb/> dans les navires d'autruy ou de
+					recevoir dans les leur<lb/> quelques marchandises que ce soit, ni d'attendre
+					leur<lb/> chargement plus long tems qu'ils ne le jugeront a propos;<lb/> Et tous
+					les Sujets du Roy tres Chrestien jouiront pareillement<lb/> et seront en
+					possession des mêmes privileges et libertez dans<lb/> tous les lieux de
+					l'obeissance de la Grande Bretagne en<lb/> Europe.<lb/>
+					<lb/> 13,,<lb/> Il sera entierement libre et permis aux Marchands et<lb/> aux
+					autres Sujets du Roy tres Chrestien, et de la Reyne<lb/> de la Grande Bretagne
+					de leguer ou donner soit par testament<lb/>
+				</p>
+				<p> Seite 16 <lb/> par donation ou, par quelque autre disposition que ce<lb/> soit,
+					faite&nbsp; tant en Santé qu'en maladie, en quelque tems<lb/> que ce soit mesme
+					à l'article de la mort, toutes les marchan-<lb/> dises, effets, argent, dettes
+					actives, et autres biens mobiliaires<lb/> qui se trouveront, ou devront leur
+					appartenir au jour de<lb/> leur decès dans les territoires, Et tous lieux de la
+					domination<lb/> du Roy tres Chrêtien, et de la Reyne de la Grande Bretagne.<lb/>
+					En outre, soit qu'ils meurent après avoir testé, ou abjntestat<lb/> leurs
+					legitimes héritiers, Executeurs, ou administrateurs demeurans<lb/> dans l'un ou
+					l'autre des deux Royaumes, ou venant d'ailleurs,<lb/> quoyqu'ils ne soient pas
+					receus dans le nombre des Citoiens<lb/> pourront recouvrer et jouir paisiblement
+					de tous lesd[its]<lb/> biens et effets quelconques selon les loix respectives de
+					la<lb/> France et de la Grande Bretagne, demaniere cependant<lb/> que les Sujets
+					de l'un et de l'autre Royaume soient tenus<lb/> de faire reconnoistre selon les
+					loix, les testaments, ou le<lb/> droit de receuillir les Successions abintestat
+					dans les<lb/> lieux ou chacun sera decedé soit en France soit dans<lb/> la
+					grande Bretagne, et ce nonobstant toutes loix<lb/> statuts, Edits, Coutumes, ou
+					droit d'aubeyne à ce contraires.<lb/>
+					<lb/> 14.<lb/> Lorsqu'il arrivera quelque differend entre un Capitaine<lb/> de
+					navire et ses matelots, dans les ports de l'un ou de </p>
+				<p> Seite 17 <lb/> l'autre Royaume, pour raison des Salaires dus auxd[its]<lb/>
+					matelots, ou pour quelque autre cause civile que ce soit,<lb/> le Magistrat du
+					lieu exigera seulement du deffendeur<lb/> de donner au Demandeur Sa declaration
+					par ecrit<lb/> attestée par le Magistrat, par laquelle il promettra de<lb/>
+					répondre dans sa patrie sur l'affaire dont jl s'agira<lb/> par devant un juge
+					competant, au moyen de quoy il<lb/> ne sera pas permis aux Matelots d'abandonner
+					le vaisseau,<lb/> ni d'apporter quelque empechement au Capitaine du Navire<lb/>
+					dans la continuation de son voyage. Il sera aussy permis<lb/> aux Marchands de
+					l'un ou de l'autre Royaume de tenir<lb/> dans les lieux de leur domicile, ou par
+					tout ailleurs ou bon<lb/> leur semblera des livres de compte, et de Commerce,
+					et<lb/> d’entretenir aussy correspondance de lettres dans la langue<lb/> ou dans
+					l'idiome qu'ils jugeront a propos, sans qu'on puisse<lb/> les inquieter, ni les
+					rechercher en aucune maniere pour<lb/> ce sujet; Et s'il leur estoit necessaire
+					pour terminer<lb/> quelque procès ou différend, de produire leurs livres de<lb/>
+					compte, En ce cas ils seront obligez de les apporter en<lb/> entier en justice,
+					sans toutes fois qu'il soit permis au<lb/> juge de prendre connoissance dans
+					lesd[its] livres, d'autres<lb/> articles que de ceux seulement qui regarderont
+					l'affaire<lb/> dont il s'agit, ou qui seront necessaires pour etablir la foy </p>
+				<p> Seite 18 <lb/> de ces livres, et il ne sera pas permis de les enlever<lb/> des
+					mains de leurs proprietaires, ni de les retenir sous<lb/> quelque pretexte que
+					ce soit, excepté seulement dans le<lb/> cas de Banqueroute, Les Sujets de la
+					Grande-Bretagne ne<lb/> seront pas tenus de se servir de papier timbré pour<lb/>
+					leurs livres, leurs lettres, et les autres pieces qui regarderont<lb/> le
+					Commerce à la reserve de leur journal, qui pour faire<lb/> foy en justice devra
+					estre cotté et paraphé gratis par<lb/> le Juge conformement aux loix etablies en
+					France, qui<lb/> y assujetissent tous les marchands.<lb/>
+					<lb/> 15,,<lb/> I1 ne sera pas permis aux armateurs Etrangers,<lb/> qui ne
+					seront pas Sujets de l'une ou de l'autre Couronne,<lb/> et qui auront commission
+					de quelque autre Prince ou<lb/> Estat ennemy de l'une et de l'autre, d'armer
+					leurs<lb/> vaisseaux dans les ports de l'un et de l'autre desd[its] deux<lb/>
+					Royaumes, d'y vendre ce qu'ils auront pris, ou de changer<lb/> en quelque
+					maniere que ce soit leurs vaisseaux, marchan-<lb/> dises, ou quelques autres
+					chargements que se soit, ni<lb/> d'acheter mesme d'autres vivres, que ceux qui
+					leur seront<lb/> necessaires pour parvenir au port le plus prochain du<lb/>
+					Prince dont ils auront obtenu des commissions. </p>
+				<p> Seite 19 <lb/> 16,,<lb/> On ne pourra obliger vaisseaux chargez des deux<lb/>
+					parties, passant sur les costes l'un de l'autre, et que la<lb/> tempeste aura
+					obligéz de relacher dans les rades, ou<lb/> ports, ou qui y auront pris terre de
+					quelque autre maniere<lb/> que ce soit, d'y decharger leurs marchandises en
+					tout, ou<lb/> en partie, ou de payer quelque droit à moins qu'ils ne les<lb/> y
+					dechargent de leur bon gré, et qu'ils en vendent quelque<lb/> partie, Il sera
+					cependant libre après en avoir obtenu la<lb/> permission de ceux qui ont la
+					direction des affaires maritimes<lb/> de decharger et de vendre une petite
+					partie du chargement,<lb/> seulement pour achepter les vivres, ou les choses
+					necessaires<lb/> pour le radoub du vaisseau; et dans ce cas on ne pourra<lb/>
+					exiger de droits pour tout le chargement, mais seulement<lb/> pour la petite
+					partie qui aura esté dechargée ou vendue.<lb/>
+					<lb/> 17,,<lb/> Il sera permis à tous les Sujets du Roy tres Chretien<lb/> et de
+					la Reyne de la Grande Bretagne de naviger avec<lb/> leurs vaisseaux en toute
+					seureté et liberté et sans distinction<lb/> de ceux à qui les marchandises de
+					leur chargement appar-<lb/> tiendront, de quelque port que ce soit dans les
+					lieux qui<lb/> sont déjà, ou qui seront cy après en guerre avec le Roy<lb/> tres
+					Chretien, ou avec la Reyne de la Grande Bretagne. </p>
+				<p> Seite 20 <lb/> Il sera aussy permis auxd[its] Sujets de naviger et de<lb/>
+					negocier avec leurs vaisseaux, et Marchandises, avec la<lb/> mesme liberté et
+					seureté des lieux, ports et endroits appar-<lb/> tenant aux Ennemis des deux
+					parties ou de l'une d'elles,<lb/> sans estre aucunement inquietez ni troublez,
+					et d'aller<lb/> directement non seulement desd[its] lieux Ennemis à un lieu<lb/>
+					neutre, mais encore d'un lieu Ennemy à un autre lieu<lb/> ennemy, soit qu'ils
+					soient sous la jurisdiction d'un même<lb/> ou de differents Princes; Et comme il
+					a esté stipulé par<lb/> rapport aux navires et aux marchandises, que les<lb/>
+					vaisseaux libres rendront les marchandises libres, et que<lb/> l'on regardera
+					comme libre, tout ce qui sera trouvé sur<lb/> les vaisseaux appartenans aux
+					Sujets de l'un et de l'autre<lb/> Royaume, quoyque tout le chargement, ou une
+					partie de<lb/> ce mesme chargement appartienne aux Ennemys de Leurs<lb/>
+					Majestez, à l'exception cependant des marchandises de<lb/> contrebande
+					lesquelles etant interceptées, il sera procedé<lb/> conformement à l'esprit des
+					articles suivans; Demesme<lb/> il a esté convenu que cette mesme liberté doit
+					s'etendre<lb/> aussy aux personnes qui navigent sur un vaisseau<lb/> libre, de
+					maniere que quoy qu'elles soient Ennemyes des<lb/> deux parties, ou de l’une
+					d'Elles, elles ne seront point<lb/> tirées du vaisseau libre si ce n'est que ce
+					fussent des </p>
+				<p> Seite 21 <lb/> gens de guerre actuellement au service desd[its] Ennemys.<lb/>
+					<lb/> 18,,<lb/> Cette liberté de navigation et de commerce s'etendra<lb/> à
+					toute sorte de marchandises à la réserve seulement de<lb/> celles qui sont
+					exprimées dans l'article suivant, et<lb/> désignées sous le nom de marchandises
+					de contrebande.<lb/>
+					<lb/> 19,,<lb/> On comprendra sous ce nom de marchandises de<lb/> contrebande,
+					ou deffendues, les armes, canons, arquebuses,<lb/> mortiers, petards, bombes,
+					grenades, saucisses, cercles poissez,<lb/> affuts, fourchettes, Bandoullieres,
+					poudre à canon, meche,<lb/> salpetre, Balles, picques, Epées, morions, casques,
+					cuirasses,<lb/> hallebardes, Javelines, foureaux de pistolets, Baudriers,<lb/>
+					chevaux avec leurs harnois, et tous autres semblables genres<lb/> d'armes et
+					d'instruments de guerre servant à l'usage<lb/> des Troupes.<lb/>
+					<lb/> 20,,<lb/> On ne mettra point au nombre des marchandises<lb/> deffendues
+					celles qui suivent, sçavoir toutes sortes de<lb/> draps et tous autres ouvrages
+					de manufactures de laine,<lb/> de lin, de Soye, de Cotton, et de<note n="2"
+						type="crit_app">Nachträglich eingefügt</note> toute autre matière, tous<lb/>
+					genres d'habillements avec les choses qui servent ordinai-<lb/> rement à les
+					faire, or, argent monnoyé, et non monnoyé,<lb/> Etain, fer, plomb, cuivre,
+					laiton, Charbons à fourneau, bled,<lb/> &nbsp; </p>
+				<p> Seite 22 <lb/> orge, et toute autre sorte de grains et de legumes,<lb/> la
+					nicotiane vulgairement appellée tabac, toutes sortes<lb/> d'aromates, chairs
+					salées et fumée, poissons salez,<lb/> fromages et beure, bierre, huile, vins,
+					succres, toutes<lb/> sortes de sels et de provisions servant à la
+					nourriture<lb/> et à la subsistance des hommes, tous genres de cotton,<lb/>
+					cordages, cables, voiles, toiles propres à faire des voiles,<lb/> ancres et
+					parties d'ancres, quelles qu'elles puissent estre,<lb/> mâts de navires,
+					planches, madriers, poudres de toute<lb/> sorte d'arbres, et toutes les autres
+					choses necessaires<lb/> pour construire ou pour radouber les vaisseaux; On<lb/>
+					ne regardera pas non plus comme marchandises de<lb/> contrebande, celles qui
+					n'auront pas pris la forme de<lb/> quelque instrument ou attirail servant à
+					l'usage de<lb/> la guerre sur terre ou sur mer, encore moins celles<lb/> qui
+					sont preparées ou travaillées pour tout autre<lb/> usage. Toutes ces choses
+					seront censées marchandises<lb/> libres de mesme que toutes celles qui ne sont
+					pas<lb/> comprises, et specialement designées dans l'article<lb/> precedent,
+					ensorte qu'elles pourront estre librement trans-<lb/> portées par les Sujets des
+					deux Royaumes, mesme dans<lb/> les lieux Ennemis, excepté seulement dans les
+					places<lb/> assiegées, bloquées, et investies. </p>
+				<p> Seite 23 <lb/> 21,,<lb/> Mais pour eviter et prevenir la discorde et toute<lb/>
+					sorte d'inimitiez de part et d'autre, il a esté convenu<lb/> qu'en cas que l'une
+					des deux parties, se trouvât engagée<lb/> dans la guerre, les vaisseaux et les
+					batiments appartenant<lb/> aux Sujets de l'autre partie devront estre munis
+					de<lb/> lettres de mer, qui contiendront le nom la proprieté<lb/> et la grandeur
+					du vaisseau, de mesme que le nom et le<lb/> lieu de l'habitation du Maitre ou du
+					Capitaine de ce<lb/> vaisseau, en sorte que par la il paroisse que ce
+					vaisseau<lb/> appartient veritablement el reellement aux Sujets de<lb/> l'une ou
+					de l'autre partie; Et ces lettres de mer seront<lb/> accordées et conceues en la
+					maniere inserée dans ce Traité.<lb/> Elles seront aussy renouvellées chaque
+					année, s'il arrive<lb/> que le vaisseau revienne dans le cours de l'an. Il a
+					esté<lb/> aussy convenu que ces sortes de vaisseaux chargez ne<lb/> devront pas
+					estre seulement munis des lettres de mer<lb/> cy dessus mentionnées, mais encore
+					de certificats<lb/> contenant les especes de la charge, le lieu d'où le
+					vaisseau<lb/> est party et celuy de sa destination, afinque l'on puisse<lb/>
+					connoistre s'il ne porte aucune des marchandises deffendues,<lb/> ou de
+					contrebande specifiées dans le 19e article de ce<lb/> traité, lesquels
+					certificats seront expédiez par les officiers<lb/> du lieu d'ou le vaisseau
+					sortira, selon leur coustume. </p>
+				<p> Seite 24 <lb/> Il sera libre aussy si on le desire, et si on le juge<lb/>
+					apropos, d’exprimer dans lesd[ites] lettres à qui appartiennent<lb/> les marchandises.<lb/>
+					<lb/> 22,,<lb/> Les vaisseaux des Sujets et habitans de leurs Serenissimes<lb/>
+					Majestez de part et d'autre arrivant sur quelque coste<lb/> de l'un, ou de
+					l'autre allié, sans cependant vouloir entrer<lb/> dans le port, ou y etant
+					entrez, et ne voulant point<lb/> debarquer ou rompre leurs charges, ne seront
+					point obligez<lb/> de rendre compte de leur chargement qu'au cas qu'il y<lb/>
+					eut des indices certains qui les rendissent suspects de<lb/> porter aux Ennemys
+					de l'autre Allié des marchandises<lb/> deffendues appellées de contrebande.<lb/>
+					<lb/> 23,,<lb/> Et dans led[it] cas de soupçon manifeste les susdits<lb/> Sujets
+					et habitans des pays de leurs Serenissimes<lb/> Majestez de part et d'autre
+					seront obligez de montrer<lb/> dans les ports leurs lettres de mer, et&nbsp;
+					certificats en la<lb/> forme cy dessus expliquée.<lb/>
+					<lb/> 24,,<lb/> Que si les vaisseaux desd[its] Sujets ou habitans de<lb/> leurs
+					Serenissimes Majestez de part et d'autre<lb/> estoient rencontrez faisant route
+					sur les costes, ou en </p>
+				<p> Seite 25 <lb/> pleine mer par quelque vaisseau de guerre de leurs<lb/>
+					Serenissimes Majestez, ou par quelques vaisseaux armez<lb/> par des
+					particuliers, lesd[its] vaisseaux de guerre ou Armateurs<lb/> particuliers pour
+					eviter tout desordre demeureront hors de la<lb/> portée du canon, et pourront
+					envoyer leurs chalouppes au bord<lb/> du vaisseau Marchand qu’ils auront
+					rencontré et y entrer<lb/> seulement au nombre de deux ou trois hommes, a
+					qui<lb/> seront montrées par le maistre ou Capitaine de ce Vaisseau<lb/> ou
+					batiment, les lettres de mer, qui contiennent la preuve<lb/> de la proprieté du
+					Vaisseau, et conceues dans la forme<lb/> inserée au présent traité; Et il sera
+					libre au vaisseau<lb/> qui les aura montrées de poursuivre sa route sans
+					qu'il<lb/> soit permis de le molester et fouiller en façon quelconque,<lb/> ou
+					de luy donner la chasse, ou de l'obliger a se detourner<lb/> du lieu de sa destination.<lb/>
+					<lb/> 25,,<lb/> Le Batiment marchand de l'une des parties qui<lb/> aura resolu
+					d'aller dans un port ennemy de l'autre,<lb/> et dont le voyage et l'espece des
+					marchandises de son<lb/> chargement seront justement soupçonnez, sera tenu
+					de<lb/> produire en pleine mer, aussy bien que dans les ports<lb/> et rades non
+					seulement ses lettres de mer, mais aussy<lb/> des certificats, qui marquent que
+					ces marchandises<lb/> ne sont pas du nombre de celles qui ont esté deffendues </p>
+				<p> Seite 26 <lb/> et qui sont enoncées dans l'article 19e de ce traité.<lb/>
+					<lb/> 26,<lb/> Que si par l'exhibition des certificats susdits<lb/> contenant un
+					Estat du chargement, l'autre partie y<lb/> trouve quelques unes de ces sortes de
+					marchandises<lb/> deffendues et declarées de contrebande par le 19e article<lb/>
+					de ce traité, et qui soient destinées pour un port de<lb/> l'obeissance de ses
+					Ennemys, Il ne sera pas permis<lb/> de rompre, ni d'ouvrir les Escoutilles,
+					caisses, coffres,<lb/> balles, tonneaux, et autres vases trouvez sur ce
+					navire,<lb/> ni d'en detourner la moindre partie des marchandises<lb/> soit que
+					ce vaisseau appartienne aux Sujets de la<lb/> France, ou a ceux de la Grande
+					Bretagne, amoins que<lb/> son chargement n'ait eté mis à terre en la
+					presente<lb/> des Juges de l'amirauté, et qu'il n'ait esté par eux<lb/> fait
+					inventaire desd[ites] marchandises; Elles ne pourront<lb/> aussy estre vendues,
+					echangées, ou autrement alienées<lb/> de quelque maniere que ce puisse estre,
+					qu'après que<lb/> le procès aura esté fait dans les regles, et selon les<lb/>
+					loix et les coustumes contre ces marchandises deffendues<lb/> et que les Juges
+					de l'amirauté respectivement les<lb/> auront confisquées par sentence, à la
+					reserve </p>
+				<p> Seite 27 <lb/> neantmoins tant du vaisseau mesme que des autres<lb/>
+					marchandises qui y auront esté trouvées, et qui en vertu<lb/> de ce traité
+					doivent estre censées libres et sans qu'elles<lb/> puissent estre retenues sous
+					pretexte qu'elles seroient<lb/> chargées avec des marchandises deffendues et
+					encore moins<lb/> estre confisquées, comme une prise legitime et supposé<lb/>
+					que lesd[ites] marchandises de contrebande ne faisant qu'une<lb/> partie de la
+					charge, le Patron du vaisseau agreast,<lb/> consentit et offrit de les livrer au
+					vaisseau qui les a<lb/> decouvertes, en ce cas, celuy-cy après avoir receu
+					les<lb/> marchandises de bonne prise sera tenu de laisser aller<lb/> aussytost
+					le bastiment, et ne l'empeschera en aucune<lb/> maniere de poursuivre sa route
+					vers le lieu de sa<lb/> destination.<lb/>
+					<lb/> 27,,<lb/> Il a esté au contraire convenu et accordé que tout<lb/> ce qui
+					se trouvera chargé par les sujets et les habitans<lb/> de part et d'autre en un
+					navire appartenant aux<lb/> Ennemys de l'autre bien que ce ne fut pas des
+					marchan-<lb/> dises de contrebande, sera confisqué comme s'il
+						apparten&lt;oit&gt;<note n="3" type="crit_app">Durch Falz
+						abgeschnitten.</note> &nbsp;<lb/> à l'Ennemy mesme, excepté les marchandises
+					et effets<lb/> qui auront esté chargez dans ce vaisseau avant la<lb/>
+					declaration de la guerre, ou mesme depuis sa declaration<lb/> &nbsp; </p>
+				<p> Seite 28 <lb/> pourvu que c'ayt esté dans les termes qui suivent,<lb/> à sçavoir
+					de six semaines après cette declaration, si<lb/> elles ont esté chargées dans
+					quelque port et lieu compris<lb/> dans 1’espace qui est entre Terreneuze en
+					Norvegue<lb/> et les Sorlingues; De deux mois depuis les Sorlingues<lb/> jusqu'à
+					la Ville de Gibraltar; de dix semaines dans la<lb/> mer Méditerranée, et de huit
+					mois dans tous les autres<lb/> pays, ou lieux du monde, de maniere que les
+					marchan-<lb/> dises des Sujets de l'un et de l'autre Prince tant<lb/> celles qui
+					sont de contrebande, que les autres qui auront<lb/> esté chargées, ainsy qu'il
+					est dit sur quelque vaisseau<lb/> Ennemy avant la guerre, ou meme depuis sa
+					declaration,<lb/> dans les tems et les termes susd[its], ne seront en
+					aucune<lb/> maniere sujetes à confiscation, mais seront sans<lb/> delay et de
+					bonne foy rendues aux proprietaires, qui<lb/> les redemanderont, ensorte
+					neantmoins qu'il ne soit<lb/> nullement permis, de porter ensuite ces
+					marchandises<lb/> dans les Ports Ennemys, Si elles sont de contrebande.<lb/>
+					<lb/> 28,,<lb/> Et pour pourvoir plus amplement à la seureté<lb/> reciproque des
+					Sujets de leurs Serenissimes Majestez<lb/> afin qu'il ne leur soit fait aucun
+					prejudice par les<lb/> vaisseaux de guerre de l'autre partie, ou par d'autre </p>
+				<p> Seite 29 <lb/> armez aux depens des particuliers, il sera fait<lb/> defense à
+					tous Capitaines des vaisseaux du Roy tres<lb/> Chrétien, et de la Reyne de la
+					Grande Bretagne et à<lb/> tous leurs Sujets, de faire aucun dommage ou
+					insulte<lb/> à ceux de l'autre partie, et au cas qu'ils y contreviennent<lb/>
+					ils en seront punis, et deplus ils seront tenus, et<lb/> obligez en leurs
+					personnes, et en leurs biens de reparer<lb/> tous les dommages et interets de
+					quelque nature<lb/> qu'ils soient, et d'y satisfaire.<lb/>
+					<lb/> 29,,<lb/> Et pour cette cause chaque Capitaine de vaisseaux<lb/> armez en
+					guerre par des particuliers sera tenu et<lb/> obligé à l'avenir avant que de
+					recevoir ses patentes<lb/> ou ses commissions speciales de bailler et
+					donner<lb/> par devant un Juge competant caution bonne, et<lb/> suffisante de
+					personnes solvables qui n'ayent aucun<lb/> interest dans led[it] vaisseau et qui
+					s'obligent chacune<lb/> solidairement pour la somme de seize mil cinq
+						cen&lt;t&gt;<note n="4" type="crit_app">Durch Falz
+					abgeschnitten.</note>&nbsp;<lb/> livres tournois, ou de quinze cent livres
+					Sterlings; et<lb/> si ce vaisseau est monté de plus de cent cinquante<lb/>
+					matelots ou Soldats, pour la somme de trente trois mi&lt;l&gt; &nbsp;<lb/>
+					livres tournois, ou de trois mil livres<lb/> Sterling pour repondre
+					solidairement de tous les<lb/> &nbsp; </p>
+				<p> Seite 30 <lb/> dommages et torts que luy, ses officiers, ou autres<lb/> etant à
+					son service pourroient faire en leur course<lb/> contre la teneur du present
+					traité et contre les Edits<lb/> faits de part et d'autre vertu du mesme
+					traité<lb/> par leurs Serenissimes&nbsp; Majestez sous peine aussy<lb/> de
+					revocation et de cessation desd[ites] patentes, et<lb/> commissions speciales.<lb/>
+					<lb/> 30,,<lb/> Leurs Majestez susd[ites] tant d'une part que de<lb/> l’autre
+					voulant respectivement traiter dans tous<lb/> leurs Etats les Sujets l'une de
+					l'autre aussy favorablement<lb/> que s'ils etoient leurs propres Sujets
+					donneront les<lb/> ordres necessaires et efficaces, pour faire rendre les<lb/>
+					jugements et arrets concernant les prises dans la<lb/> Cour de l'amirauté, selon
+					les regles de la justice et<lb/> de l'equité, et conformement à ce qui est
+					prescrit<lb/> par ce traité, par des Juges qui soient au dessus<lb/> de tout
+					soupçon et qui n'ayent aucun interest au<lb/> fait dont il est question.<lb/>
+					<lb/> 31,,<lb/> Toutes les fois que les Ambassadeurs de Leurs<lb/> Majestez
+					susd[ites] tant d'une part que de l'autre,<lb/> ou quelque autre de leurs
+					Ministres publics, qui </p>
+				<p> Seite 31 <lb/> resideront à la Cour de l'autre Prince se plaindront de<lb/>
+					l'injustice des sentences qui auront esté rendues, Leurs<lb/> Majestez
+					respectivement feront revoir et examiner de<lb/> nouveau lesd[its] jugemens en
+					leur Conseil afin que l'on connoisse<lb/> avec certitude si les ordonnances et
+					les precautions prescrites<lb/> au present traité auront esté suivies et
+					observées. Leursd[ites]<lb/> Majestez auront soin pareillement d'y faire
+					pourvoir<lb/> pleinement, et de faire rendre justice dans l'espace de trois<lb/>
+					mois à chacun de ceux qui la demanderont, Et néantmoins<lb/> avant ou après le
+					premier jugement, et pendant la revision<lb/> les effets qui seront en litige ne
+					pourront estre en aucune<lb/> maniere vendus ni dechargez, Si ce n'est du
+					consentement<lb/> des parties interessées, pour eviter toute sorte de dommage.<lb/>
+					<lb/> 32,,<lb/> Lorsqu'il y aura procès meu entre ceux qui auront fait<lb/> des
+					prises d'une part, et ceux qui les réclameront d'autre<lb/> part, et que
+					lesd[its] Reclamateurs auront obtenu un jugement<lb/> ou arrest favorable,
+					led[it] jugement ou arrest aura son<lb/> execution en donnant caution, non
+					obstant l'appel de celuy<lb/> qui aura fait la prise à un juge Superieur ce qui
+					n'aura<lb/> point de lieu, si la sentence est&nbsp; rendue contre les Reclamateurs.<lb/>
+					<lb/> 33,,<lb/> Arrivant que des navires de guerre ou marchands
+						contra&lt;ints&gt;<note n="5" type="crit_app">Durch Falz
+						abgeschnitten.</note> &nbsp;<lb/> par tempeste ou autre accident, echouent
+					contre des rochers<lb/> ou des<lb/>
+				</p>
+				<p> Seite 32 <lb/> resideront à la Cour de l'autre Prince se plaindront de<lb/>
+					l'injustice des sentences qui auront esté rendues, Leurs<lb/> Majestez
+					respectivement feront revoir et examiner de<lb/> nouveau lesd[its] jugemens en
+					leur Conseil afin que l'on connoisse<lb/> avec certitude si les ordonnances et
+					les precautions prescrites<lb/> au present traité auront esté suivies et
+					observées. Leursd[ites]<lb/> Majestez auront soin pareillement d'y faire
+					pourvoir<lb/> pleinement, et de faire rendre justice dans l'espace de trois<lb/>
+					mois à chacun de ceux qui la demanderont, Et néantmoins<lb/> avant ou après le
+					premier jugement, et pendant la revision<lb/> les effets qui seront en litige ne
+					pourront estre en aucune<lb/> maniere vendus ni dechargez, Si ce n'est du
+					consentement<lb/> des parties interessées, pour eviter toute sorte de dommage.<lb/>
+					<lb/> 32,,<lb/> Lorsqu'il y aura procès meu entre ceux qui auront fait<lb/> des
+					prises d'une part, et ceux qui les réclameront d'autre<lb/> part, et que
+					lesd[its] Reclamateurs auront obtenu un jugement<lb/> ou arrest favorable,
+					led[it] jugement ou arrest aura son<lb/> execution en donnant caution, non
+					obstant l'appel de celuy<lb/> qui aura fait la prise à un juge Superieur ce qui
+					n'aura<lb/> point de lieu, si la sentence est&nbsp; rendue contre les Reclamateurs.<lb/>
+					<lb/> 33,,<lb/> Arrivant que des navires de guerre ou marchands
+						contra&lt;ints&gt;<note n="6" type="crit_app">Durch Falz
+						abgeschnitten.</note> &nbsp;<lb/> par tempeste ou autre accident, echouent
+					contre des rochers<lb/> ou des<lb/> &nbsp; </p>
+				<p> Seite 33 <lb/> ou des Eceuils aux costes de l'un ou de l'autre allie<lb/> qu'ils
+					s'y brisent, et qu'ils fassent naufrage; Tout ce qui<lb/> aura esté sauvé des
+					vaisseaux et de leurs apparaux, effets,<lb/> ou marchandises, ou le prix qui en
+					sera provenu, le tout<lb/> estant reclamé par les proprietaires, ou autres
+					ayant<lb/> charge et pouvoir d'eux sera restitué de bonne foy, en<lb/> payant
+					seulement les frais qui auront esté faits pour les<lb/> sauver, ainsy qu'il aura
+					esté reglé par l'une et l'autre partie<lb/> pour le droit de sauvement; sauf
+					cependant les droits et<lb/> coustumes de l'une et de l'autre nation, et leurs
+					Serenis-<lb/> simes Majestez de part et d'autre interposeront leur<lb/> autorité
+					pour faire chastier severement ceux de leurs<lb/> sujets qui auront
+					inhumainement profité d'un pareil<lb/> malheur.<lb/>
+					<lb/> 34,,<lb/> Les sujets de part et d'autre pourront se servir de tels<lb/>
+					avocats, Procureurs, Notaires, Solliciteurs et facteurs que<lb/> bon leur
+					semblera, à l'effet de quoy ces mêmes avocats,<lb/> et les autres susd[its]
+					seront commis par les juges ordinaires,<lb/> lorsqu'il sera besoin, et que
+					lesd[its] Juges en seront requis.<lb/>
+					<lb/> 35,,<lb/> Et pour la plus grande seureté&nbsp; et liberté du Commerce<lb/>
+					et de la navigation, on est convenu en outre que ni le </p>
+				<p> Seite 34 <lb/> Roy tres Chrestien, ni la Reyne de la Grande Bretagne<lb/> ne
+					recevront dans aucun de leurs ports, rades, villes, ou<lb/> places des Pirates
+					et des Forbans quels qu'ils puissent<lb/> estre, et ne souffriront qu'aucun de
+					leurs Sujets, et Citoiens<lb/> de part et d'autre les recoivent et protegent
+					dans ces mêmes<lb/> ports, les retirent dans leurs maisons, ou les aydent en
+					façon<lb/> quelconque, mais encore ils feront arrester et punir toutes<lb/> ces
+					sortes de Pirates et de Forbans, et tous ceux qui les auront<lb/> receus,
+					cachez, ou aidez, des peines qu'ils auront meritées<lb/> pour inspirer de la
+					crainte et servir d'exemple aux autres;<lb/> Et tous leurs vaisseaux, les
+					effets, et marchandises enlevées<lb/> par eux et conduites dans les ports de
+					l'un ou de l'autre<lb/> Royaume, seront arrestez, autant qu'il pourra s’en
+					decouvrir<lb/> et seront rendues à leurs proprietaires, ou à leurs facteurs<lb/>
+					ayant leur pouvoir, ou procuration par ecrit, après avoir<lb/> prouvé la
+					proprieté devant les Juges de l'amirauté par<lb/> des certificats suffisants,
+					quand bien mesme ces effets seroient<lb/> passez en d'autres mains par vente et
+					generalement tous<lb/> les vaisseaux et marchandises de quelque nature
+					qu'elles<lb/> soient qui seront prises en pleine mer, seront, conduites<lb/>
+					dans quelque port de l'un ou de l'autre des deux Royaumes<lb/> et seront
+					confiées à la garde des officiers de ce mesme port<lb/> pour estre rendues
+					entieres au veritable proprietaire aussy-<lb/> tost qu'il sera duement et
+					suffisament reconnu. </p>
+				<p> Seite 35 <lb/> 36,,<lb/> Les vaisseaux de guerre de leurs Majestez de part
+					et<lb/> d'autre et ceux qui auront esté armez en guerre par leurs<lb/> Sujets
+					pourront en toute liberté conduire ou bon leur<lb/> semblera les vaisseaux et
+					les marchandises qu'ils auront<lb/> pris sur les Ennemis, sans estre obligez de
+					payer aucun<lb/> droit, soit aux Sieurs amiraux, soit aux autres juges
+					quels<lb/> qu'ils soient sans qu'aussy lesd[ites] prises abordant et
+					entrant<lb/> dans les ports de leursd[ites] Serenissimes Majestez tant
+					d'une<lb/> part que de l'autre puissent estre arrestées ou saisies, ni<lb/> que
+					les visiteurs, ou autres officiers des lieux puissent les<lb/> visiter et
+					prendre connoissance de la validité desd[ites] prises;<lb/> En outre il leur
+					sera permis de mettre à la voile en<lb/> quelque tems que ce soit, de partir et
+					d'emmener les<lb/> prises au lieu porté par les Commissions ou patentes<lb/> que
+					les Capitaines desd[its] navires de guerre seront obligez<lb/> de faire
+					apparoir; et au contraire il ne sera donné azile<lb/> ni retraite dans leurs
+					ports à ceux qui auront fait des<lb/> prises sur les Sujets de l'une ou de
+					l'autre Majesté.<lb/> Mais y etant entrez par necessité de tempeste ou de
+					peril<lb/> de la mer, on employera fortement les soins necessaires<lb/> afin
+					qu'ils en sortent et s'en retirent le plutost qu'il sera possible<lb/> autant
+					que cela ne sera point contraire aux traitez anterieurs<lb/> faits à cet egard
+					avec d'autres Roys ou Etats. </p>
+				<p> Seite 36 <lb/> 37,,<lb/> Leursd[ites] Majestez de part et d'autre ne
+					souffriront<lb/> point que sur les costes, et dans les ports et les
+					rivieres<lb/> de leur obeissance, des navires et des Marchandises des<lb/>
+					Sujets de l'autre soient pris par des vaisseaux de guerre<lb/> ou par d’autres
+					qui seront pourvus de patentes de quelques<lb/> Princes, Republique, ou villes
+					quelconques, et au cas que<lb/> cela arrive, l'une et l'autre partie employeront
+					leurs forces<lb/> unies pour faire reparer le dommage causé.<lb/>
+					<lb/> 38,,<lb/> S'il survenoit à 1’avenir par inadvertance ou autrement<lb/>
+					quelques inobservations, ou contraventions au present trait&lt;é&gt;<note n="7"
+						type="crit_app">Durch Falz abgeschnitten.</note> &nbsp;<lb/> depart ou
+					d'autre, l'amitié et la bonne intelligence ne sera<lb/> pas d'abord rompue pour
+					cela, mais ce traité subsistera, et<lb/> aura son entier effet, et l'on
+					procurera des remedes conve-<lb/> nables pour lever les inconveniens, comme
+					aussy pour faire<lb/> reparer les contraventions, et si les sujets de l'un ou
+					de<lb/> l'autre Royaume sont ris en faute, ils seront seuls puni&lt;s&gt;<note
+						n="8" type="crit_app">Durch Falz abgeschnitten.</note> &nbsp;<lb/> et
+					severement chastiez.<lb/>
+					<lb/> 39,,<lb/> Que s'il est prouvé que celuy qui aura fait une prise ait<lb/>
+					employé quelque genre de torture contre le Capitaine,<lb/> l'équipage, ou autres
+					personnes qui seront trouvées dans<lb/> quelque vaisseau appartenant aux Sujets
+					de l'autre part<lb/> en ce cas non seulement ce vaisseau, et les personnes<lb/>
+					&nbsp; </p>
+				<p> Seite 37 <lb/> marchandises, et effets quels qu'ils puissent estre seront<lb/>
+					relachez aussytost et sans aucun delay, et remis en pleine<lb/> liberté, mais
+					mesme ceux qui seront convaincu d'un<lb/> crime si enorme, aussy bien que leurs
+					complices, seront<lb/> punis des plus grandes peines, et proportionnées à
+					leur<lb/> faute; Ce que le Roy tres Chrestien el la Reyne de<lb/> la Grande
+					Bretagne s'obligent reciproquement de faire<lb/> observer sans aucun egard pour
+					quelque personne que ce soit.<lb/>
+					<lb/> [Es folgen Formulare für Pässe und Seebriefe (bis S.41] </p>
+				<p> Seite 38 <lb/> Le present traité sera ratifié par le Roy tres<lb/> Crestien etl
+					la Reyne de la Grande Bretagne, el les<lb/> Ratifications en seront duement
+					echangées à Vtrecht<lb/> dans l'espace de quatre semaines ou plustost si
+					faire<lb/> se peut.<lb/> En foy de quoy Nous soussignez Ambassadeurs<lb/>
+					Extraordinaires el Plenipotentiaires du Roy tres<lb/> Chrestien et de la Reyne
+					de la Grande Bretagne<lb/> avons fait apposer les cachets de nos armes, fait
+					à<lb/> Vtrecht le unzieme avril l’an mil sept cent treize.<lb/>
+					<lb/> Huxelles&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;Joh.
+					Bristol C: P: S:<lb/> Mesnager&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;Strafford<lb/>
+					<lb/> [Es folgen die Vollmachten] </p>
+				<p> Seite 39 <lb/>
+				</p>
+			</div>
+		</body>
+		<back>
+			<listBibl>
+				<bibl xml:id="a101">
+					<title level="a">Theatrum Europaeum (1713-04-11)</title>
+					<title level="m">Theatrum Europaeum, Band 20 (1713–1715) Aus: Dokumentenarchiv
+						der Universitätsbibliothek Augsburg (Drucke vor 1900 / Historische
+						Geschichtswerke).</title>
+					<biblScope>
+						<graphic xml:id="A1Pnr1"
+							url="https://www.ieg-friedensvertraege.de/dbimages/img_49e72023017dc"/>
+						<graphic xml:id="A1Pnr2"
+							url="https://www.ieg-friedensvertraege.de/dbimages/img_49e7202846d1e"/>
+						<graphic xml:id="A1Pnr3"
+							url="https://www.ieg-friedensvertraege.de/dbimages/img_49e7202dce8d9"/>
+						<graphic xml:id="A1Pnr4"
+							url="https://www.ieg-friedensvertraege.de/dbimages/img_49e72033d7554"/>
+						<graphic xml:id="A1Pnr5"
+							url="https://www.ieg-friedensvertraege.de/dbimages/img_49e7203e91010"/>
+						<graphic xml:id="A1Pnr6"
+							url="https://www.ieg-friedensvertraege.de/dbimages/img_49e7203e91010"/>
+						<graphic xml:id="A1Pnr7"
+							url="https://www.ieg-friedensvertraege.de/dbimages/img_49e72043c0d90"/>
+						<graphic xml:id="A1Pnr8"
+							url="https://www.ieg-friedensvertraege.de/dbimages/img_49e72049093f2"/>
+						<graphic xml:id="A1Pnr9"
+							url="https://www.ieg-friedensvertraege.de/dbimages/img_49e7204e287d1"/>
+						<graphic xml:id="A1Pnr10"
+							url="https://www.ieg-friedensvertraege.de/dbimages/img_49e72056c1cba"/>
+						<graphic xml:id="A1Pnr11"
+							url="https://www.ieg-friedensvertraege.de/dbimages/img_49e7205c2d59a"/>
+						<graphic xml:id="A1Pnr12"
+							url="https://www.ieg-friedensvertraege.de/dbimages/img_49e72063c5aee"/>
+						<graphic xml:id="A1Pnr13"
+							url="https://www.ieg-friedensvertraege.de/dbimages/img_49e720693a068"/>
+					</biblScope>
+				</bibl>
+			</listBibl>
+		</back>
+	</text>
+</tei:TEI>

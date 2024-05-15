@@ -1,0 +1,2266 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE tei SYSTEM "../resources/FriVer_DTD.dtd">
+
+<?xml-model href="../resources/FriVer.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns="http://www.tei-c.org/ns/1.0"
+    xml:id="pa000299-0325">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title level="s">European peace treaties of the pre-modern era in data / Europäische
+                    Friedensverträge der Vormoderne in Daten (FriVer+)</title>
+                <title when="1635-05-30" xml:id="t325" when-custom="1635 V 30" level="a"
+                    ref="https://www.ieg-friedensvertraege.de/treaty/t-325-1-de.html"
+                    >Friedensvertrag von Prag (Dresden)</title>
+            </titleStmt>
+            <editionStmt>
+                <edition> Digital edition according to <ref target="http://www.tei-c.org/">TEI
+                    P5</ref>
+                </edition>
+                <funder>
+                    <ref target="https://www.text-plus.org/">TEXT+</ref>
+                </funder>
+                <editor role="http://id.loc.gov/vocabulary/relators/edt"
+                    ref="https://orcid.org/0000-0002-8741-5916">
+                    <persName>Jaap Geraerts</persName>
+                    <note>The transformation and enrichment of the data is done by Jaap Geraerts
+                        (IEG Mainz). The other members of the FriVer+ team are Fabian Cremer, Ines
+                        Grund, and Thorsten Wübbena (all IEG Mainz).</note>
+                    <note> The original data has been created by the <ref
+                        target="https://www.ieg-friedensvertraege.de">team of scholars</ref> who
+                        were part of the Europäische Friedensverträge der Vormoderne project. This
+                        project was lead by Prof. Dr. Heinz Duchhardt and was based at the Leibniz
+                        Institute of European History in Mainz. </note>
+                </editor>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>
+                    <orgName ref="http://www.isni.org/0000000119314040">Leibniz-Institut für
+                        Europäische Geschichte Mainz</orgName>
+                </publisher>
+                <distributor>
+                    <orgName ref="http://www.isni.org/0000000110101946">Universitäts- und
+                        Landesbibliothek Darmstadt</orgName>
+                </distributor>
+                <idno type="ISIL">http://lobid.org/organisation/DE-17</idno>
+                <date type="issued" when="2023-12-23"/>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">
+                        <p xml:lang="en">This file is licensed under the terms of the Creative
+                            Commons License CC-BY 4.0 (Attribution 4.0 International)</p>
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <repository xml:id="r7">Dresden SaechsHStA</repository>
+                <msDesc>
+                    <p>Sächsisches Hauptstaatsarchiv Dresden 10001 Ältere Urkunden OU 13028: Prag
+                        1563 V 30 (Hauptvertrag). <lb/>
+                        <lb/>Weitere Stücke: <lb/>Sächsisches Hauptstaatsarchiv Dresden 10001 Ältere
+                        Urkunden O.U.&nbsp; 13028: 1. Recess über die vier Magdeburgischen Ämpter
+                        Querfurt, Jütterbork, Dama undt Borgk. Ebd.: Memoriale gegen Aussöhnung der
+                        Herrn Hertzog zu Meckelburgk. 2. Recess von Aufraumung der Orther, welche
+                        die Churfürstl. Dtl. zu Sachsen, noch im Königreich Beheim und Schlesien
+                        Innen haben, Desgleichen was Ihre Kaÿ.Maÿ. noch von Ihrer Churfürstl. Dlt.
+                        Landen Innen hetten. 3. Memoriale wegen Coniungirung der Waffen. Ebd. Recess
+                        Die Abtrettung Ober und Niederlaußnitz betreffs.&nbsp; 4. Recess: Die in der
+                        Churf. Dl. zu Sachsen Inhabung begrieffene Geistliche Gietter betreffendt.
+                        Recess über das Ertzstifft Magdeburg. Sächsisches Hauptstaatsarchiv Dresden
+                        10001 Ältere Urkunden O.U. 13020 (Ratifikation). <lb/>Akzeptation: Marggraf
+                        v. Brandenburg, Plassenburg 1635 VII 5; Mainz, Köln 1635 VII 7;
+                        Münster-Paderborn-Köln , Bonn 1635 VII 14; Kurfürst von Brandenburg, Cölln
+                        a.d.Spree 1635 VIII 9. </p>
+                    <p>[Anm. 1: Alle Zusatzkonventionen bei Bierther]. <lb/>
+                    </p>
+                    <p>[Anm. 2:&nbsp; Methodische Anmerkungen bei Bierther. Ebd. die Pirnaer Noteln
+                        (24. November 1634), die dem Prager Frieden vorangingen]. </p>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p> The data in this XML file, originally created by the project <ref
+                    target="https://www.ieg-friedensvertraege.de/vertraege">Europäische
+                    Friedensverträge der Vormoderne online</ref> has been transformed in
+                    accordance with <ref target="http://www.tei-c.org/">TEI P5</ref> as part of the
+                    project <ref
+                        target="https://www.ieg-mainz.de/en/research/research-projects/european-peace-treaties-of-the-pre-modern-era-in-data"
+                        >Europäische Friedensverträge der Vormoderne in Daten (FriVer+)</ref>
+                </p>
+            </projectDesc>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="de" xml:id="lan2">deutsch</language>
+            </langUsage>
+        </profileDesc>
+    </teiHeader>
+    <standOff>
+        <listPerson>
+            <person role="signatory" xml:id="pp0003">
+                <persName ref="https://explore.gnd.network/gnd/118532510">
+                    <name>Ferdinand II, Holy Roman Emperor</name>
+                </persName>
+            </person>
+            <person role="signatory" xml:id="p139">
+                <persName ref="https://www.wikidata.org/wiki/Q156199">
+                    <name>Sachsen (Kurfürstentum)</name>
+                </persName>
+            </person>
+        </listPerson>
+        <listPlace>
+            <place xml:id="loc78">
+                <placeName ref="https://explore.gnd.network/gnd/4076310-9">Prag</placeName>
+            </place>
+        </listPlace>
+        <facsimile>
+            <surface xml:id="FacsPnr1">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_448d41b30bc4e"/>
+            </surface>
+            <surface xml:id="FacsPnr2">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_448d4444f3b28"/>
+            </surface>
+            <surface xml:id="FacsPnr3">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_448d44b75cb92"/>
+            </surface>
+            <surface xml:id="FacsPnr4">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_448d44fae3aae"/>
+            </surface>
+            <surface xml:id="FacsPnr5">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_448d45ca07d2b"/>
+            </surface>
+            <surface xml:id="FacsPnr6">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_448d46111c223"/>
+            </surface>
+            <surface xml:id="FacsPnr7">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_448d4654bb3e7"/>
+            </surface>
+            <surface xml:id="FacsPnr8">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_448d46c582530"/>
+            </surface>
+            <surface xml:id="FacsPnr9">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_448d475715e4f"/>
+            </surface>
+            <surface xml:id="FacsPnr10">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_448d479f9498f"/>
+            </surface>
+            <surface xml:id="FacsPnr11">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_448d47dd2722b"/>
+            </surface>
+            <surface xml:id="FacsPnr12">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_448d481980729"/>
+            </surface>
+            <surface xml:id="FacsPnr13">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_448d57329d5b6"/>
+            </surface>
+            <surface xml:id="FacsPnr14">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_448d57daee834"/>
+            </surface>
+            <surface xml:id="FacsPnr15">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_448d58363f7e2"/>
+            </surface>
+            <surface xml:id="FacsPnr16">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_448d588aa130b"/>
+            </surface>
+            <surface xml:id="FacsPnr17">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_448d58e76ea09"/>
+            </surface>
+            <surface xml:id="FacsPnr18">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_448d5979b9467"/>
+            </surface>
+            <surface xml:id="FacsPnr19">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_448e70aec8dc1"/>
+            </surface>
+            <surface xml:id="FacsPnr20">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_448e72797723a"/>
+            </surface>
+            <surface xml:id="FacsPnr21">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_448e72f0cccc2"/>
+            </surface>
+            <surface xml:id="FacsPnr22">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_448e738ab6ba9"/>
+            </surface>
+            <surface xml:id="FacsPnr23">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_448e7405f068d"/>
+            </surface>
+            <surface xml:id="FacsPnr24">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_448e74805ec0f"/>
+            </surface>
+            <surface xml:id="FacsPnr25">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_448e74e4cdc54"/>
+            </surface>
+            <surface xml:id="FacsPnr26">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_448e75469d769"/>
+            </surface>
+            <surface xml:id="FacsPnr27">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_448e75b3ad6f5"/>
+            </surface>
+            <surface xml:id="FacsPnr28">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_448e76542ea10"/>
+            </surface>
+            <surface xml:id="FacsPnr29">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_448e77c06ad72"/>
+            </surface>
+            <surface xml:id="FacsPnr30">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_448e78286e8c4"/>
+            </surface>
+            <surface xml:id="FacsPnr31">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_448e78a61fe8b"/>
+            </surface>
+            <surface xml:id="FacsPnr32">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_448e790bc68bd"/>
+            </surface>
+            <surface xml:id="FacsPnr33">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_448e796eb3fb5"/>
+            </surface>
+            <surface xml:id="FacsPnr34">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_448e79d4c56ed"/>
+            </surface>
+            <surface xml:id="FacsPnr35">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_448e7a1e9f4ac"/>
+            </surface>
+            <surface xml:id="FacsPnr36">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_448e7a78a0d58"/>
+            </surface>
+            <surface xml:id="FacsPnr37">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_448e7ae0f2e63"/>
+            </surface>
+            <surface xml:id="FacsPnr38">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_448e7b3459e72"/>
+            </surface>
+            <surface xml:id="FacsPnr39">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_448e7b8f25377"/>
+            </surface>
+            <surface xml:id="FacsPnr40">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_448e7bd67f575"/>
+            </surface>
+            <surface xml:id="FacsPnr41">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_448e7cb01de8c"/>
+            </surface>
+            <surface xml:id="FacsPnr42">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_448e7d10d266b"/>
+            </surface>
+            <surface xml:id="FacsPnr43">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_448e7d6a42751"/>
+            </surface>
+            <surface xml:id="FacsPnr44">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_44c09b6637efb"/>
+            </surface>
+            <surface xml:id="FacsPnr45">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_448e85696783b"/>
+            </surface>
+            <surface xml:id="FacsPnr46">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_448e85b74dad2"/>
+            </surface>
+            <surface xml:id="FacsPnr47">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_448e860fe431b"/>
+            </surface>
+            <surface xml:id="FacsPnr48">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_448e8697db7c4"/>
+            </surface>
+            <surface xml:id="FacsPnr49">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_448e86e39b652"/>
+            </surface>
+            <surface xml:id="FacsPnr50">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_448e872cd7aa3"/>
+            </surface>
+            <surface xml:id="FacsPnr51">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_448e878133287"/>
+            </surface>
+            <surface xml:id="FacsPnr52">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_448e87dd38881"/>
+            </surface>
+            <surface xml:id="FacsPnr53">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_448e88229fab0"/>
+            </surface>
+            <surface xml:id="FacsPnr54">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_448e88814a9ca"/>
+            </surface>
+            <surface xml:id="FacsPnr55">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_448e88cb8428d"/>
+            </surface>
+            <surface xml:id="FacsPnr56">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_448e89169b7ec"/>
+            </surface>
+            <surface xml:id="FacsPnr57">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_448e898a88ca0"/>
+            </surface>
+            <surface xml:id="FacsPnr58">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_448e89db088ec"/>
+            </surface>
+            <surface xml:id="FacsPnr59">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_448e8a13495d3"/>
+            </surface>
+            <surface xml:id="FacsPnr60">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_448e8a558bc08"/>
+            </surface>
+            <surface xml:id="FacsPnr61">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_44c09ba91866d"/>
+            </surface>
+            <surface xml:id="FacsPnr62">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_448e8bb43772c"/>
+            </surface>
+            <surface xml:id="FacsPnr63">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_448e8c0f2a8d1"/>
+            </surface>
+            <surface xml:id="FacsPnr64">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_448e8c4d4cddb"/>
+            </surface>
+            <surface xml:id="FacsPnr65">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_448e8ca022f92"/>
+            </surface>
+            <surface xml:id="FacsPnr66">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_448e8ce8bf750"/>
+            </surface>
+            <surface xml:id="FacsPnr67">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_448e8d381cd83"/>
+            </surface>
+            <surface xml:id="FacsPnr68">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_448e8d80bbc4f"/>
+            </surface>
+            <surface xml:id="FacsPnr69">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_448e8deae6372"/>
+            </surface>
+            <surface xml:id="FacsPnr70">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_448e8e4cc410c"/>
+            </surface>
+            <surface xml:id="FacsPnr71">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_448e8eadb24ee"/>
+            </surface>
+            <surface xml:id="FacsPnr72">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_448e8f2b0959b"/>
+            </surface>
+            <surface xml:id="FacsPnr73">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_448e8f8fb90e5"/>
+            </surface>
+            <surface xml:id="FacsPnr74">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_448e8fd5e8be5"/>
+            </surface>
+            <surface xml:id="FacsPnr75">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_448e907124cc4"/>
+            </surface>
+            <surface xml:id="FacsPnr76">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_448e90b2e08ad"/>
+            </surface>
+            <surface xml:id="FacsPnr77">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_448e91f2c0e55"/>
+            </surface>
+            <surface xml:id="FacsPnr78">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_448e923ef09aa"/>
+            </surface>
+            <surface xml:id="FacsPnr79">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_448e92a86f33b"/>
+            </surface>
+            <surface xml:id="FacsPnr80">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_44c09c13dd9c0"/>
+            </surface>
+            <surface xml:id="FacsPnr81">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_448e92ec6f5ce"/>
+            </surface>
+        </facsimile>
+    </standOff>
+    <text>
+        <front>
+            <div type="Drucke">
+                <p> Briefe und Akten zur Geschichte des Dreißigjährigen Krieges, N.F. Die Politik
+                    Maximilians von Bayern und seiner Verbündeten 1618-1651, Bd. II/10, 4: Der
+                    Prager Friede, hg. von der Historischen Kommission bei der Bayerischen Akademie
+                    der Wissenschaften. Bearb. v. Kathrin Bierther. München-Wien 1997, S. 1606-1631.
+                    Dumont VI/1, S.88-99.&nbsp; Londorp IV, S. 458-479. Friedens-Pacten, S. 66-216.
+                    Gastelius, S. 322-334. Khevenhiller XII, S. 1684-1718. Reichsabschiede III, S.
+                    534-548. Theatrum Europaeum III, S.472-485.&nbsp; </p>
+                <p>Vgl. auch die dem Vertrag vorhergegangenen Pirnaer Noteln, Pirna 1635 XI 24:
+                    Theatrum Europaeum III, S. 401 ff. </p>
+            </div>
+            <div type="Inhalt">
+                <p>Präambel: Friedenszustand, Vorabsprachen. <lb/>Kirchengut (nach 1627).
+                    <lb/>Kirchengut (vor 1627). <lb/>Kirchengut: Überlassung auf 40 Jahre und damit
+                    zusammenhängende Punkte. <lb/>Kriegseinquartierungen. <lb/>Ausnahmen davon.
+                    <lb/>Status quo 1627. Modalitäten. <lb/>Privilegien und Rechte auf 40 Jahre.
+                    <lb/>Dito. <lb/>Schlichtung vor Ablauf der 40 Jahre durch paritätische Gremien.
+                    <lb/>Ziel: endgültige Regelung. <lb/>wenn nicht, dann Status quo 1627.
+                    <lb/>Justiz. <lb/>Katholischer Kirchenbesitz. <lb/>Appelationsmöglichkeit für
+                    Katholiken an Kaiser. <lb/>Dito für Protestanten. <lb/>Erzstift Magdeburg.
+                    <lb/>Dito. <lb/>Status quo für 40 Jahre. <lb/>Magdeburger Ämter. <lb/>Deputat
+                    des Marggrafen von Brandenburg. <lb/>Geltung des Lübecker Friedens.
+                    <lb/>Halberstadt, Bremen. <lb/>Reichsritterschaft. <lb/>Reichsstädte.
+                    <lb/>Donauwörth. <lb/>Kaiserliche Erbländer. Religionsausübung. <lb/>Schlesien,
+                    Lausitz. <lb/>Reichskammergericht. Zusammensetzung. <lb/>Visitationen und
+                    Revisionen. <lb/>Revisionen. <lb/>Reichshofrat: Instruktion, Besetzung.
+                    <lb/>Vertreter protestantischer Reichsstände am Kaiserhof
+                    <lb/>Reichskammergericht, Reichshofrat, Kaiserliches Gesetz. <lb/>Pfalz
+                    <lb/>Pfalzgraf Friedrich. Kriegskosten. <lb/>Dito. Ansprüche der Witwe.
+                    <lb/>Schuldforderungen Tillys <lb/>Mecklenburger Herzöge. <lb/>Restitutionen.
+                    Kriegschäden. <lb/>Assertionen und Behauptungen der Interimsbesitzer
+                    <lb/>Einschluß auswärtiger Mächte. <lb/>Ausnahmen von der Restitutionen.
+                    <lb/>Restitutionen. <lb/>Dito im Niedersächsischen Kreis. <lb/>Dito in Böhmen,
+                    Schlesien. <lb/>Reichsarmada. Durchsetzung des Friedens. <lb/>Anerkennung.
+                    <lb/>Einbeziehung Brandenburgs. <lb/>Pommern, ober- niedersächsischer Kreis.
+                    <lb/>Westfalen, Niederrhein. <lb/>Braunschweig-Lüneburg. <lb/>Weitere Orte.
+                    <lb/>Vollzug der Restitutionen. <lb/>Reichsbesetzung, - kontribution.
+                    <lb/>Herzog von Lothringen. <lb/>Phillipsburg. <lb/>Ehrlicher Vollzug.
+                    <lb/>Interimsbesitz. <lb/>Freilassung Kriegsgefangener. <lb/>Publikation.
+                    Annahme. <lb/>Amnestie <lb/>Dito. <lb/>Ausnahmen von der Amnestie. <lb/>Spätere
+                    Specifikation. <lb/>Anerkennung durch Sachsen. <lb/>Kaiserliche Vergebung.
+                    <lb/>Accorde der Stände. <lb/>Neutrale Stände. <lb/>Einschluß weitere
+                    auswärtiger Mächte in den Frieden. <lb/>Publikation und Annahme des Friedens im
+                    Reich. <lb/>Friedensziele. <lb/>Reichsarmada. <lb/>Vereinigung.
+                    <lb/>Organisation. <lb/>Dito. <lb/>Unterhalt. <lb/>Verpflegung und Quartier.
+                    <lb/>Kriegslasten und Kontributionen. <lb/>Militärhoheit. <lb/>Truppenstärke.
+                    <lb/>Ende mit Eintreten des Friedens. <lb/>Kriegsverfassung. <lb/>Ausländische
+                    Streitkräfte. <lb/>Aufhebung der Bündnisse. <lb/>Erbeinigungen. <lb/>Dito.
+                    <lb/>Beziehung des Kaisers zu auswärtigen Mächten <lb/>Kaiserliches Regiment im
+                    Reich. <lb/>Verhältnis der Reichsstände zum Kaiser. <lb/>Verhältnis der
+                    Konfessionen zueinander. <lb/>Frieden und Recht <lb/>Landfrieden, Einhaltung.
+                    <lb/>Vorgehen gegen ungesetzliche Rüstungen. <lb/>Grundlinien für offene Fragen.
+                    <lb/>Derogation <lb/>Einhaltung des Friedens. Hilfe. Beistand. <lb/>Annahme des
+                    Vertrages. Sanktion <lb/>Versicherung. Übersendung der Beitrittserklärung.
+                    <lb/>Verwahrung. </p>
+            </div>
+        </front>
+        <body>
+            <div type="Transliteration">
+                <pb facs="#FacsPnr1"/><p>Haupt Friedensschluß
+                <lb />und etzliche Neben-Recesse wie sie
+                <lb />von den Kaiserlichen und Chur Säch-
+                <lb />sischen Gesandten zu Prag vollnzo
+                <lb />gen, den 30. May
+                <lb />Anno 1635 
+                </p>
+                <pb facs="#FacsPnr2"/><p>Khundt und Zuwißen<note n="1" type="annotation">(Großes) "Z" im weiteren Verlauf in diesem Zusammenhang als (kleines) "z" transkribiert.</note> Seÿ Hier- 
+                    <lb />mitt Jedermeniglichen&nbsp; Nachdem die Röm[ische] 
+                    <lb />Kaÿ[serliche]. auch zu Hungarn und Böheimb Königl[iche] Maÿ[estät] 
+                    <lb />Unßer allergnedigster Herr, Alß oberhaubt 
+                    <lb />gantz eÿfrig dahin getrachtet, und die Chur[fürst]l[iche] 
+                    <lb />D[urchlaucht] zu Sachßen alß eine vornehme Seule deß 
+                    <lb />Heil[igen] Römischen Reichs darzu&lt;.&gt; treulich Coop- 
+                    <lb />eriret, wie und auf waß maße doch ein christ- 
+                    <lb />licher, allgemeiner, erbarer, billicher und 
+                    <lb />Sicherer Friede in dem Heil[igen]. Römischen Reich 
+                    <lb />wider aufgerichtet und daßelbe nach so vielen 
+                    <lb />lang gewehrten Kriegen und dar über auß- 
+                    <lb />gestandnen Ellendt, Noth und Zerstörrung er- 
+                    <lb />quickhet, der blu&lt;e&gt;tstürtzung einsten einn 
+                    <lb />Ende gemacht und das geliebte Vatterland der 
+                    <lb />hochedlen Teütschen Nation von endtlichen 
+                    <lb />Untergang erröthet werden möchte. 
+                    <lb /> 
+                    <lb />Das Sie darauf und zu&lt;e&gt; solchem hailsam[m]en gemein- 
+                    <lb />nützigen Ende, weil man beÿ diesem Laidigen 
+                </p> 
+                <pb facs="#FacsPnr3"/><p>Unweßen und sonderlich wegen dero ufs Reichs 
+                    <lb />Boden sich noch befindenden Auß Lendischen Nationen 
+                    <lb />und Kriegs Partheÿen zu keiner algemeinen 
+                    <lb />Reichs- oder andern gemeinen Versamblungen 
+                    <lb />Sicherlich gelangen könen, beederseits dero Räthe 
+                    <lb />und gevo[l]lmechtigte, Anffenglich naher Leith- 
+                    <lb />maritz, Von danen naher Pürna und endtlich 
+                    <lb />auf Praga geschickht und sich dem Reich zu Nu&lt;tz&gt; 
+                    <lb />und Ehren, der Teütschen Nation und beederseit 
+                    <lb />Respectivè Königreichen, Chur- Fürstenthumb, 
+                    <lb />Landen und Leüthen zu Trost und Rettung 
+                    <lb />und dem gemeinen weßen zum besten nach- 
+                    <lb />folgenden gemeinen friedenschluß verglichen 
+                    <lb />und vertragen haben. 
+                    <lb /> 
+                    <lb />Anfänglich bleibt es wegen der Mediat 
+                    <lb />Stifte, Clöster und anderer geistlichen gü&lt;.&gt;ter und deren 
+                    <lb />sambtlichen Zubehörungen welche der Augspurgischen 
+                    <lb />Confeszion Verwanthen Chur- Fürsten und 
+                    <lb />Stände des Heil[igen] Römi[schen] Reichs Vorfahren noch 
+                    <lb /> 
+                </p>
+                <pb facs="#FacsPnr4"/><p>vor dem aufgerichteten Paßawischen Vertrag oder
+                <lb />Religionfrieden eingezogen und innengehabt, beÿ dem
+                <lb />claren buchstaben und verordtnung des angeregten
+                <lb />hochbetheüerten Religion friedens, allerdings und
+                <lb />durchauß.
+                <lb />
+                <lb />Was aber anlangen thu&lt;e&gt;t die Immediat Stift und geist-
+                <lb />liche gü&lt;.&gt;ter, so vorm Paßauischen Vertrag oder Re-
+                <lb />ligion frieden eingezogen worden, sowohl auch die
+                <lb />Jenige Stift und geistliche Gü&lt;.&gt;eter, welche nach ge-
+                <lb />dachtem Paßauischen Vertrag oder Religion frieden
+                <lb />in der Augspurg[ischen] Confeszions Verwanthen gewalt
+                <lb />komben, die seÿen gleich Mediat oder Immediat (dar-
+                <lb />unter dann auch die freÿen weltlichen Stift, So dan
+                <lb />die Meisterthumb und Commenthureien der Riter-
+                <lb />lichen hohen orden mit begriffen) Ist es endtlichem
+                <lb />dahin verhandelt, daß dieselben ietztbemelten Chur-
+                <lb />Fürsten und Stenden, Soviel Sie deren Anno 1627
+                <lb />den 12. Novemb[ris] stÿlo novo innengehabt, besessen, und
+                <lb />gebraucht, nichts außgeschloßen, wie es auch genannt
+                <lb />werden möchte, ohne einigen an- und Zuspruch
+                <lb />
+                <pb facs="#FacsPnr5"/>unter was prætext Schein oder Vorwenden auch
+                <lb />solches geschehen könte oder möchte, auff Vierzig
+                <lb />Jahr, von dato dieser beschloßnen Vergleichung an
+                <lb />zurechnen, geru&lt;.&gt;higlich Verbleiben, auch waß
+                <lb />einem und andern ein Zeithero daran ein-
+                <lb />gezogen Und Sie entsetzt, Völlig und plenariè,
+                <lb />Jedoch ohne Erstattung einiger Nutzung, Schaden
+                <lb />&nbsp;oder Uncosten die ein Theil an den andern præ-
+                <lb />tendiren wolte, Restituiert werden.
+                <lb />
+                <lb />Und weillen am 12. Novemb[ris] stÿlo novo Anno 1627
+                <lb />etliche Bistumb und andere geistliche Gü&lt;.&gt;ter So
+                <lb />nach außweisung dieses friedensschlußes dennen
+                <lb />Augspurg[ischen] Confeszions Verwanthen auf obbemelte
+                <lb />Viertzig Jahr bleiben sollen, mit Einquartierung
+                <lb />und Kriegs Volkh belegt, oder wider derselben inn-
+                <lb />habere Rescript befelch und Verordtnung er-
+                <lb />gangen sein mögen.
+                <lb />
+                <lb />Damit nun uber Kurtz oder lang kein Zweifel
+                <lb />entstehe, ob durch solche Einquartierungen und
+                <lb />
+                <pb facs="#FacsPnr6"/>dergleichen Militarische Ordinanzien alß auch Rescript
+                <lb />und be&lt;f&gt;elch der inhabere poßess geendert oder
+                <lb />dermassen geschwecht zu sein erachtet werden
+                <lb />Köndte, daß dieselbige Stifte unter des vorher-
+                <lb />gehenden paragraphi disposition nicht mehr ge-
+                <lb />hörig weren, Alß hat man Sich dahin ver-
+                <lb />glichen, daß vorbesagte Kriegs Einquartierung und
+                <lb />dergleichen Militarische Ordinanzien auch Rescript
+                <lb />Verordtnung und befelch, so in bemelten Stifte&lt;n&gt;
+                <lb />Ergangen, keines wegs zu Nachtheil, weniger zu
+                <lb />auffhöbung der inhabung, welche in oftbesagtem
+                <lb />Stifteren und andern geistlichen gü&lt;.&gt;tern der Aug-
+                <lb />spurg[ischen] Confeszion zugethane Ständt, Vermög er-
+                <lb />langter postulationen oder Electionen, noch am
+                <lb />12. Novemb[ris] stÿlo novo Anno 1627 gehabt, gemeint
+                <lb />seÿen, sondern Unerachtet alles dessen die Jenige
+                <lb />für inhaber zuhalten und der Disposition des negst
+                <lb />Vorhergehenden paragraphi zugeniessen haben sollen,
+                <lb />in deren Nam[m]en noch am besagten 12. Novembr[is]
+                <lb />&nbsp;stÿlo novo Anno 1627 die Regierung deselben bistumbs,
+                <lb />
+                <pb facs="#FacsPnr7"/>&nbsp;Stifts, Closters, oder andern geistlichen gu&lt;e&gt;ts würck-
+                <lb />lich geführt worden.
+                <lb />
+                <lb />Jedoch nem[m]en Ihre Kaÿ [serliche] Maÿ[estät] hievon Expresse auß
+                <lb />die Jenigen Stift, Clöster, Kirchen und andere
+                <lb />geistliche gü&lt;.&gt;eter, welche den Catholischen auf die
+                <lb />von beiden Theilen Judicialiter eingebrachte Acta
+                <lb />und utrinque beschehene Submission (dahin auch
+                <lb />unter andern der sämbtlichen Herrn Churfürsten
+                <lb />Anno 1627 zu&lt;.&gt; Mülhaußen Eröffnetes bedenckhen
+                <lb />gehet) in einem und andern particular fahl
+                <lb />durch gerichtlich publicirte Urtheil an Ihrem Kaÿ[serlichen]
+                <lb />Hoff oder Camergericht zu Speÿer, vor oder
+                <lb />nach dem 12. Novemb[ris] stÿlo novo Anno 1627 zu-
+                <lb />erkandt und etwa umb dieselbe Zeith noch nicht
+                <lb />zur Execution gebracht, dann solche sollen noch-
+                <lb />mals dem Standt Rechtens unterworffen bleiben
+                <lb />und der Execution halben ergehen, waß Sich nach
+                <lb />außweißung des Religion- und Landtfriedens
+                <lb />wirdt gebühren.
+                <lb />
+                </p>
+                    <pb facs="#FacsPnr8"/><p> Es soll&lt;...&gt;<note n="2" type="crit_app">Streichung.</note> aber beÿ den Jenigen Stiften und geist- 
+                    <lb />lichen gü&lt;.&gt;teren, von welchen obiger § was aber 
+                    <lb />anlangen Thuet etc disponirt, Zeithwehrender ver- 
+                    <lb />willigter Viertzig Jahren in geist- und weltlichen 
+                    <lb />sachen in dem Standt, wie es den 12. Novemb[ris] stÿlo 
+                    <lb />novo Anno 1627 gewesen, allerdings verbleiben, 
+                    <lb />auch die Religion betreffendt, beim Exercitio der 
+                    <lb />Catholischen Religion, Item den Mensibus Papalibus, 
+                    <lb />primarÿs precibus, Canonicaten, præbenden und bene- 
+                    <lb />ficien, an denen orthen, wo angeregte Catholische 
+                    <lb />Religion, und was Jetzo vorgehendt mehr gemeldet, 
+                    <lb />am 12. Novemb[ris] stÿlo novo Anno 1627 noch in Übung 
+                    <lb />gewesen, darbeÿ gelaßen, ins künfftig auch noch 
+                    <lb />weiter observirt, deßgleichen die Clöster und 
+                    <lb />Religiosen, So dieselbe Zeith von den Catholischen ver- 
+                    <lb />sehen worden, auch hinführo ihnen unperturbirt 
+                    <lb />gelassen, da einige Enderung da&lt;rsieder&gt; damit 
+                    <lb />gemacht, solche wider abgethan, und alles in den 
+                    <lb />Standt, wie es Anno 1627 den 12. Novemb[ris] stÿlo 
+                    <lb />novo gewesen, wider gesetzt und für die Catholische 
+                </p> 
+                <pb facs="#FacsPnr9"/><p>erhalten, auch wan etwan in denselben Clöstern
+                <lb />ein Catholischer abstürbe, ein anderer an deßen
+                <lb />Ställe genom[m]en, und wider dieses alles die Catholische
+                <lb />keines wegs gravirt, auch kein Eintrag unter
+                <lb />einigem prætext schein oder Vvorwenden dargegen
+                <lb />gestattet, oder einiges darwiderlauffendes statutum,
+                <lb />Juramentum oder Capitulation gültig sein, gut-
+                <lb />geheißen oder allegirt werden.
+                <lb />
+                <lb />In specie sollen die obgemelte Stift und Domb Ca-
+                <lb />pitul diese Viertzig Jahr über beÿ ihrem Standt,
+                <lb />Weßen, Rechten, und gerechtigkheiten, insonderheit
+                <lb />in casu vacantiæ beÿ ihren Electionen und postu-
+                <lb />lationen unverhinderlich gelaßen, dieselbige Elec[tio]-
+                <lb />nen und postulationen auch, die weren nun
+                <lb />seithero des 12. Novemb[ris] stÿlo novo Anno 1627
+                <lb />auf Catholische oder Ausgpurg[ischer] Confeszions
+                <lb />Verwanthe vorgegangen, oder möchten ins
+                <lb />künftig so lang die bewilligte viertzig Jahr wehren
+                <lb />entweder auf Catholische oder Augspurg[ischer] Confeszions
+                <lb />
+                <pb facs="#FacsPnr10"/>Verwanthe fallen, nicht angefochten werden, Und es
+                <lb />ohn einiges disputat, ob der Electus oder postulatus
+                <lb />der Catholischen Religion oder Augspurg[ischen] Confeszion
+                <lb />zugethan, dieße Viertzig Jahr uber sein Verbleiben
+                <lb />dabeÿ haben, Jedoch aber in solchen Stiften, es
+                <lb />seye gleich beÿ Lebzeiten des inhabers oder Sede
+                <lb />vacante, die Election oder postulation geschehen, oder
+                <lb />fahle noch künftig auf einen Catholischen oder Aug-
+                <lb />spurg[ischen] Confeszions Verwanthen, Vigore huius pacti
+                <lb />publici, be dem Jenigen Religions Standt, sowohl
+                <lb />die Catholische Religion, ingleichen die Menses Papales,
+                <lb />preces primarias, Canonicaten, præbenden und beneficien,
+                <lb />Clöster und Religiosen, alß die Augspurg[ische] Confeszion
+                <lb />betreffende, allerdings ungeendert gelaßen werden,
+                <lb />wie es Sich im selbigen Stift noch am 12. Novemb[ris]
+                <lb />stÿlo novo Anno 1627 befunden.
+                <lb />
+                <lb />Anlangendt die Sesziones und Vota beÿ dem Reichs-
+                <lb />und Deputation-, auch Cam[m]ergerichtlichen Visitation-
+                <lb />und Revision Tägen, deren Sich sonst die Augspurg[ischen]
+                <lb />Confeszions Verwanthe Stände, wegen der in Ihrer
+                <lb />
+                <pb facs="#FacsPnr11"/>inhabung begriffenen, oder Crafft dieses friedens-
+                <lb />schlußes, wider dahin gelangenden Immediat Stifte
+                <lb />hette gebrauchen wöllen; Ist es darbeÿ verbliben,
+                <lb />das dieselbe Sesziones und Vota, die benante
+                <lb />Viertzig Jahr über beÿ seits gestelt, und dieselbe
+                <lb />Conventus und Verrichtungen, nichts desto weniger
+                <lb />von der Kaÿ[serlichen] Maÿ[estät] und anderen darzu&lt;e&gt; ge-
+                <lb />hörigen Reichs Ständen Respectivè außgeschrieben,
+                <lb />fortgestelt und verrichtet werden sollen. In
+                <lb />den Craißen aber wo die Augspurg[ischen] Confeszions
+                <lb />Verwanthe Stände alß inhabere eines oder
+                <lb />mehrer Immediat Stifts, Sesziones und Vota herge-
+                <lb />bracht, Sollen Sie ihnen, wie vor diesem, also auch
+                <lb />khünftig die verglichene Viertzig Jahr über gelassen
+                <lb />werden.
+                <lb />
+                <lb />Damit auch nach Verfließung der so oft angezogenen
+                <lb />Viertzig Jahren, die Liebe posteritet umb all solcher
+                <lb />so lang und fern hinauß gest&lt;i&gt;lter Streitigkeiten
+                <lb />willen, nicht abermahls in Uunru&lt;.&gt;he und weiterung
+                <lb />gerathe, sondern vielmehr gu&lt;.&gt;te Lieb und Einigkheit
+                <lb />erhalten werde, So solle noch vor Außgang der
+                <lb />
+                <pb facs="#FacsPnr12"/>bewilligten Viertzig Jährigen Zeith, durch Zusambensetz-
+                <lb />ung friedtliebender Stände von beederleÿ Religionen
+                <lb />in gleicher Anzahl, oder dero hierzu&lt;.&gt; bevo[l]lmecht-
+                <lb />igter Räthe, Bodtschaften und Abgesandten, alle
+                <lb />Eüßerste bemühung, Sorg und Fleiß dahin
+                <lb />angewendet werden, ob die sach angeregter
+                <lb />geistlicher gü&lt;.&gt;ter halber mit beeder theil be-
+                <lb />lieben auf einmahl köndt zu grundt verglichen
+                <lb />werden.
+                <lb />
+                <lb />Darmit aber dieselbe Vergleichung nicht gar zu lang,
+                <lb />und fast bis auf die letzte Zeith gespart werde,
+                <lb />So solle &lt;Sÿ&gt; aufs lengst innerhalb den negesten Zehen
+                <lb />Jahren von dato vorgenom[m]en, und sovil alß
+                <lb />Mensch- und müglichen ist, zu Ende gebracht werden,
+                <lb />Jedoch gantz unverkürtzt und ungeringert deren,
+                <lb />über solche Zehen Jahr, an denen bewilligten Viertzig
+                <lb />Jahren alßdan noch Restirender Zeith.
+                <lb />
+                <lb />Würde aber solches nicht erfolgen, So soll nach auß-
+                <lb />gang der bemelten Vierzig Jahren Jedertheil in dem&nbsp;&nbsp; &nbsp;
+                <lb />
+                <pb facs="#FacsPnr13"/>Jehnigen Rechten stehen, welches Er den 12. Novembris
+                <lb />stÿlo novo Anno 1627 gehabt hat, Sich deßelbigen so
+                <lb />gu&lt;e&gt;t oder schwach es damals geweßen, gü&lt;e&gt;tlich
+                <lb />oder Rechtlich zugebrauchen. Und soll deßwegen kein
+                <lb />Theil wider den andern unerkandtes ordtentlichen
+                <lb />Rechtens zu den Waffen greiffen, die Röm[ische] Kaÿ[serliche]
+                <lb />Maÿ[estät] auch solches andern zuthun nicht gestatten,
+                <lb />weniger für Sich die Ständt damit beschweren.
+                <lb />
+                <lb />Und behalten Ihre Kaÿ[serliche] Maÿ[estät] für Sich und dero
+                <lb />Nachkomben am Reich, alß oberhaubt Ihr auf den
+                <lb />fahl der nicht Vergleichung oder weitern Streitig-
+                <lb />kheiten, die gebührende Hochheit und Jurisdiction und
+                <lb />die strittige felle zwischen denen Partheÿen sow&lt;ohl&gt;
+                <lb />an dero Kaÿ[serlichem] Hoff (doch mit Zu&lt;e&gt; Ziehung etlicher
+                <lb />Chur- Fürsten und Stände des Reichs, Räthe &lt;vonn&gt;
+                <lb />&nbsp;gleicher Anzahl beeder der Catholischen Religion
+                <lb />und Augspurg[ischen] Confeszion zugethan, welche
+                <lb />ihrer Pflicht, damit Sie ihren Herrn sonst Ver-
+                <lb />wanth, zu&lt;e&gt; diesem Actu zuvorher erlaßen, und in
+                <lb />diesen sachen in besondere Aÿdts Pflicht zur Justitz
+                <lb />
+                <pb facs="#FacsPnr14"/>darinnen ohne einiges ansehen der Persohn und welcher
+                <lb />Religion ein oder andere Partheÿ zugethan, dem
+                <lb />Religion frieden und Reichs Constitutionen gemeß
+                <lb />zuverfahren, geno[m]men werden sollen) alß an
+                <lb />dero Kaÿ[serlichen] Cammergericht, allenthalben nach vor-
+                <lb />gehender gnugsamber Verhör und Vermittls or[den]dt-
+                <lb />licher procesz, in Jeder sach absonderlichen zuer-
+                <lb />örthern, wie auch die Manutention des Religion-
+                <lb />und profan friedens, tragenden Kaÿ[serlichen] Hohen Ambts
+                <lb />wegen, und nach außweisung der Reichs Abschiedte
+                <lb />und Kaÿ[serlichen] wahl Capitulation,&nbsp; zu&lt;.&gt; Exerciren, bil-
+                <lb />lich zuvor.
+                <lb />
+                <lb />Denen Catholischen soll weiter nichts von Ihren Erz-,
+                <lb />stiften, Clösteren und andern geistlichen Gü&lt;.&gt;etern
+                <lb />die Sie noch am 12. Novemb[ris] stÿlo novo Anno
+                <lb />1627 innen gehabt, oder auch Vermöge dieses
+                <lb />friedens schlußes wider bekomben sollen, demselbigen
+                <lb />zugegen im weinigsten entzogen, sondern da ihnen
+                <lb />etwas weiter genom[m]en oder abgestrückht würde,
+                <lb />Sollen &lt;Sÿ&gt; dessen alßbaldt unverzüglich Restituirt
+                <lb />werden.
+                <lb />
+                <pb facs="#FacsPnr15"/>Da &lt;Sÿ&gt; auch sonsten wider denn Religion- und Profan-
+                <lb />oder auch diesen frieden in etwas beschwerdt wür-
+                <lb />den, Sollen &lt;Sÿ&gt; befugt sein deßwegen Ihre Kaÿ[serliche]
+                <lb />Maÿ[estät] an dero Kaÿ[serlichem] Hoff oder beÿ dem Kaÿ[serlichen]
+                <lb />Cam[m]ergericht anzulangen, die sollen dan nach
+                <lb />außweißung des Religion- und Profan- oder
+                <lb />auch dieses friedens und anderer Reichs Constitutio-
+                <lb />nen und ordtnungen die Heilige Justitz Administriren.
+                <lb />
+                <lb />Ebenmeßig soll es auch gehalten werden mit den
+                <lb />Augspurg[ischen] Confeszions Verwanthen, daß nemblich
+                <lb />Ihrer Keiner wider den Religion- und Profan-
+                <lb />frieden, noch auch wider diesen frieden oder &lt;wider&gt;
+                <lb />andere Reichs Constitutiones und ordtnungen im
+                <lb />wenigsten gravirt, oder ihnen von denen Stiften
+                <lb />und geistlichen gü&lt;.&gt;tern, So Sie vormals gehabt und
+                <lb />ihnen nach außweißung dieses friedens schlußes bleiben
+                <lb />sollen, etwas entzogen würde.
+                <lb />
+                <lb />Das Erzstift Magdeburg betreffendt ist es umb des
+                <lb />lieben friedens willen dahin gelangt daß Churf[üstlicher]
+                <lb />D[urchlaucht] zu Sachsen fr[eundtlicher] geliebter Sohn, Hertzogs Augusti
+                <lb />
+                <pb facs="#FacsPnr16"/>zu Sachßen, Gülich, Cleve und Berg Fürstl[icher] gn[aden]
+                <lb />daßelbige auf Ihre übrige Lebtage innenhaben
+                <lb />und genießen mögen, Und sollen Seine fürst[liche] Gn[aden]
+                <lb />darinnen nicht perturbiret noch gehindert werden.
+                <lb />
+                <lb />Was die Session und Votum wegen dieses Ertzstifts
+                <lb />auf Reichs- Deputation- und Cam[m]ergerichtlichen
+                <lb />Visitation- und Revision Tägen anlangt, Solle es darmit
+                <lb />allerdings, wie oben wegen anderer von denen der
+                <lb />Augspurg[ischen] Confeszion Verwanthen Ständen inhabenden
+                <lb />&nbsp;hohen Stiften geordnet und verglichen, auch wegen
+                <lb />dieses Erzstifts gehalten werden, und die Reichs- De-
+                <lb />putations- und Cam[m]ergerichtliche Visitation- undt
+                <lb />Revisions Täge, ohnbehindert des Magdeburgischen diß-
+                <lb />fahls beÿseits gestelten Voti, von nun ahn wider vort-
+                <lb />gehen und weiter nicht aufgehalten noch ges&lt;tö&gt;rt
+                <lb />sein. In dem Nider Sechßischen Craiß aber behalten
+                <lb />Ihre Fürstl[iche] Gn[aden] und das Ertzstift wegen der
+                <lb />Direction, Voti und Seszion, daß Jenige, wie es her-
+                <lb />gebracht.
+                <lb />
+                <lb />Es solle auch das Erzstift Magdeburg die oft
+                <lb />
+                </p>
+                <pb facs="#FacsPnr17"/><p>berührte Viertzig Jahr über in geist- und we&lt;ltlichen&gt; 
+                    <lb />sachen, auch die Catholische Religion Menses Pap&lt;ales&gt;<note n="3" type="crit_app">Durch Verfilmungstechnik bedingte fehlende Endsilben. Ergänzt nach dem Wortlaut der Ratifikation und am Zeilenende gekennzeichnet.</note>, 
+                    <lb />&nbsp;preces primarias, Canonicaten, Praenden und 
+                    <lb />beneficien, Clöster und Religiosen, sowohl die 
+                    <lb />Augspurg[ische] Confeszion, und in casu Vacantiæ, &lt; die&gt; 
+                    <lb />&nbsp;wahl und postulation betreffende, allerdings &lt;wie&gt; 
+                    <lb />&nbsp;oben beÿ den bistumben und Stiften, So von Z&lt;eit&gt; 
+                    <lb />dieser geschloßnen handlung an, denen Augspurg[ischen] 
+                    <lb />Confeszions Verwanthen auf viertzig Jahr ver&lt;bleiben&gt; 
+                    <lb />&nbsp;ins gemein verglichen worden, unveränderlich &lt;ge&gt; 
+                    <lb />halten werden. 
+                    <lb /> 
+                    <lb />Wegen der vier Respectivè Herrschaften und 
+                    <lb />Empter, Querfürth, Gütterbock, Dama und 
+                    <lb />Borgk, Ist es umb des lieben friedens willen &lt;auch&gt; 
+                    <lb />dahin gelangt, daß der Herr Churfürst solche zu 
+                    <lb />seiner beßern Contentierung und beru&lt;.&gt;higung &lt;ein&gt; 
+                    <lb />nebmen, und vom Erzstift Magdeburg zu lehen 
+                    <lb />Recognosciren, auch so lang behalten und genießen 
+                    <lb />möchte, biß &lt;Sÿ&gt; mit seiner Churf[ürstlichen] Durchl[aucht] gutem 
+                    <lb />belieben und willen per æquipollens wider auß 
+                </p> 
+                <pb facs="#FacsPnr18"/><lb /><p>gewechselt würden, Jedoch dem Reich und Nider 
+                <lb />Sechßischen Craiß an den Reichs- und Craiß Steüern 
+                <lb />und ander gemeinen Anlagen unabbrüchig, dann 
+                <lb />solche Ihre Churfü[stliche] Durchl[aucht] proportionabiliter zutragen 
+                <lb />schuldig, wie auch deßwegen Seiner Churf[ürstlichen] D[urchlaucht] 
+                <lb />von den domb Capitul und Landtschaft eine Schrift- 
+                <lb />liche einwilligung zuertheillen,&nbsp; und vonn Seiner 
+                <lb />Churf[ürstlichen] D[urchlaucht] mit ehisten würckhlich zuerheben. 
+                <lb />&nbsp;Und sollen Seine Churf[ürstliche] D[urchlaucht] ermelter 
+                <lb />Empter halben nicht angefochten werden. 
+                <lb /> 
+                <lb />Über dieses ist auf gnedigste Erinderung aller höchst- 
+                <lb />gedachter Ihrer Kaÿ[serlichen] Maÿ[estät] damit des Herrn 
+                <lb />Marggraffen Christian Wilhelmbs zu Branden- 
+                <lb />burg Fürstl[icher] gn[aden] zu dero beßern Underhalt, ein 
+                <lb />gewißes am geldt auf Ihr Lebenlang, auß dem 
+                <lb />Erzstift Magdeburg Jährlich gereicht werden 
+                <lb />möchte, mit Sein Churfürstl[ichen] D[urchlaucht]&nbsp; wegen dero 
+                <lb />Herrn Sohns, Hertzogen Augusti Fürstl[icher] gn[aden] ab- 
+                <lb />geredt und verglichen worden, daß Seiner des 
+                <lb />
+                <pb facs="#FacsPnr19"/>Herrn Marggraffen Fürstl[icher] gn[aden] auf Ihr Leben
+                <lb />lang (und Lenger nicht) Jährlich Zwölff Tausend
+                <lb />Reichsthaller in Specie Jedes Jahrs auf Zween Ter-
+                <lb />min halb, auf Ostern, und halb auf St. Michaelis
+                <lb />zu Leipzig in den Meßen daselbst, und zwar mit
+                <lb />dem Ersten Termin nach Verfließung eines
+                <lb />halben Jahrs frist von Zeith erlangter poszession
+                <lb />zu rechnen anzufahen, an seiner deß Herrn
+                <lb />Marggraffen Fürstl[icher] gn[aden] Leüthe, So deßwegen
+                <lb />gevollmechtiget, Und beÿ der Erz bischoff-
+                <lb />lichen Magdeburgischen Rendt Cam[m]er sich angeben
+                <lb />wurden, auß des Ertzstifts Renthen und gefellen
+                <lb />(welche dann, sovil darvon für Hertzogen Aug-
+                <lb />usti Fürstl[ichen] gn[aden] gehören, hiemit würckhlich
+                <lb />verpfendet sein sollen) gewiß und unfehlbahr
+                <lb />gegen Quittung sollen gereicht und erlegt wer-
+                <lb />den. Jedoch stehet Hochgedachts Hertzogs Augusti
+                <lb />Fürstl[icher] gn[aden] bevor, wegen all solcher Sum[m]a
+                <lb />der Jährlichen Zwölff Taußendt Reichs Thaller mit
+                <lb />Zuziehung des domb Capituls und der Landtschaft
+                <lb />dem herkomben gemeß eine Anlag im Erzstift
+                <lb />
+                <pb facs="#FacsPnr20"/>Erzstift Brem[m]en mit der Catholischen Religion und
+                <lb />Augspurg[ischen] Confeszion und deren freÿen üb&lt;ung&gt;
+                <lb />&nbsp;in dem Standt diese Viertzig über erhalten wer-
+                <lb />den soll, wie es den 12. Novemb[ris] stÿlo novo &lt;Anno&gt;
+                <lb />&nbsp;1627 darinnen gewesen und oben von andern
+                <lb />Stiften In Specie dem Ertzstift Magdeburg
+                <lb />&nbsp;verglichen werden.
+                <lb />
+                <lb />Die von der freÿen Reichs Ritterschaft sollen beÿ
+                <lb />dem Exercitio Augspurg[ischer] Confeszion wie es
+                <lb />der Religionfriedt mit sich bringt Ruhig gelaßen
+                <lb />und ihnen darüber gantz kein Eintrag ge-
+                <lb />than, sondern dafern etwan einiger besch&lt;ehen&gt;
+                <lb />&nbsp;were, Sie darwider Restituirt werden.
+                <lb />
+                <lb />In den Reichs Stätten solle es mit denen, mit welchen
+                <lb />albereith in diesem Krieg Ihre Kaÿ[serliche] Maÿ[estät] in par-
+                <lb />ticulari Accordiren laßen, beÿ denselbigen Accorden
+                <lb />bleiben, mit allen anderen Reichs Stätten aber beÿ dem
+                <lb />Religions friedt durch und durch gelaßen werden.
+                <lb />
+                <lb />Wegen der Sadt Don&lt;n&gt;awerth Ist dieses abgeredt,
+                <lb />
+                <pb facs="#FacsPnr21"/>wann zuvor der Churfürstl D[urchlaucht] in Baÿern dero
+                <lb />aufgewanthe Kriegs Uncosten widerumb erstattet
+                <lb />das alßdan an bemelter Statt Restitution kein
+                <lb />mangel sein, auch vonn dieser sachen ferner
+                <lb />underredung etwa hernechst beÿ Reichs Zusamben-
+                <lb />kunften zupflegen, Ihre Kaÿ[serliche] Maÿ[estät] und höchst-
+                <lb />gedachte Churfürstl[iche] D[urchlaucht] in Baÿern Sich villeicht
+                <lb />nicht würden zuwider sein lassen.
+                <lb />
+                <lb />Was der Röm[ischen] Kaÿ[serlichen] Maÿ [estät] Erb Königreich Böhaimb
+                <lb />und andere dero Österreichische Erblender betrifft,
+                <lb />haben beÿ aller Höchstgedachter Ihrer Kaÿ[serlichen] Maÿ[estät]
+                <lb />Seine Churfürstl[iche] D[urchlaucht] zu Sachßen zum aller in-
+                <lb />stendigsten, höchst- und fleißigsten angehalten,
+                <lb />damit gedachtes freÿe Exercitium der ungeend[er]ten
+                <lb />Augspurg[ischen] Confeszion an orth und Ende, wo es
+                <lb />Anno 1612 Sich befunden, gleicher gestalt hinfüro
+                <lb />freÿ und ungehindert zu&lt;.&gt;- und nachgelassen
+                <lb />werden möge, auch solches mit Anführung viller
+                <lb />underschiedtlicher Motiven eÿferig urgirt und dar-
+                <lb />von in keinerleÿ weg weichen wollen. Allein
+                <lb />
+                <pb facs="#FacsPnr22"/>Ihre Kaÿ[serliche] Maÿ[estät] wie oft und villfaltig auch
+                <lb />darumb ansuchung gethan worden, ist hierzu
+                <lb />gar nicht zubewegen gewesen, Sondern haben
+                <lb />Vilmehr hie entgegen allerhandt bedenckhen
+                <lb />und neben andern mehrern auch dieses Erinnern
+                <lb />laßen, daß man Ihrer Kaÿ[serlichen] Maÿ[estät] weill der
+                <lb />Augspurg[ischen] Confeszions Verwanthen Ständt eige-
+                <lb />ner gemachter Regul, Vilfeltigen Suchen und
+                <lb />begehren nach, die Religion und deren einführ-
+                <lb />ung der Landtsfürstlichen Hoheit anhengig sein
+                <lb />solte, Ein solches auch nicht zuentziehen willens &lt;sein&gt;
+                <lb />&nbsp;und deroselben anmuthen würde; dann waß
+                <lb />einem Standt im Reich recht, das müßte Ja
+                <lb />dem andern, zumahlen Ihrer Kaÿ[serlichen] Maÿ[estät] selben
+                <lb />nicht Unrecht noch Verbotten sein, welches dann
+                <lb />daß Ihre Kaÿ[serliche] Maÿ[estät] nicht darein willigen wollen,
+                <lb />Seine Churf[ürstliche] D[urchlaucht] ungern vernom[m]en, und
+                <lb />anders gewünschet, weill aber Ihre Kaÿ[serliche] Maÿ[estät]
+                <lb />dabeÿ so fest bestanden, alß ists darbey aller-
+                <lb />dings geblieben, und haben Ihre Kaÿ[serliche] Maÿ[estät] Sich &lt;wegen&gt;
+                <lb />
+                <pb facs="#FacsPnr23"/>Schleßien absonderlich Resolviert, wegen der Lauß-
+                <lb />nitz aber mit Ihrer Churfürstl[ichen] D[urchlaucht] einen sonder-
+                <lb />bahren Vertrag aufgericht, mit dem es sein
+                <lb />bewenden hat.
+                <lb />
+                <lb />Nachdem auch von Ihrer Churfürstl[ichen] Duchtleucht
+                <lb />zu Sachßen gesucht und begehrt worden, daß mehrere gleichheit
+                <lb />der Religion am Kaÿ[serlichen] Cam[m]ergericht Introducirt
+                <lb />und nach dem ietzigen Catholischen Cam[m]er Richter
+                <lb />ein Augspurg[ischer] Confeszions Verwanther, und
+                <lb />nach abgang deßelben wider ein Catholischer,
+                <lb />und also fortan pervices geordtnet, vier
+                <lb />praesidenten, da&lt;.&gt;runter Zween Catholische und
+                <lb />Zween Augspurg[ischer] Confeszions Verwanthe bestelt,
+                <lb />Und die Anzahl der Augspurg[ischen] Confeszions Ver-
+                <lb />wanthen Asseszorum dem numero der Catholischen
+                <lb />beÿsitzer gantz gleich gemacht werden möchte, der-
+                <lb />gestalt, daß von nun ahn die Röm[ische] Kaÿ[serliche] Maÿ[estät]
+                <lb />auch alle Churfürsten und Cräiße, welche ietzo oder
+                <lb />Khünftig zu praesentiren haben, eitel der Augspurg[ischen]
+                <lb />
+                <pb facs="#FacsPnr24"/>Confeszion Verwanthe praesentiren, So lang und
+                <lb />vill bis die Asseszores beeder Religionen in nu&lt;mero&gt;
+                <lb />pares seÿen.So oft dann künftig ein Asse&lt;szor&gt;
+                <lb />abgienge, daß Cam[m]ergericht die Röm[ische] Kaÿ[serliche]
+                <lb />Maÿ[erstät] oder den Jenigen Chur-Fürsten oder Craiß
+                <lb />an welchem selbigen mahls die praesentation
+                <lb />wehre, berichten solten, Vonn waß für Religion
+                <lb />zu erhaltung einer gleichen Anzahl die præ-
+                <lb />sentandi sein müßten,
+                <lb />
+                <lb />Alß ist dieser Articul bis zu einer ehisten Zusa&lt;mmen&gt;-
+                <lb />kunft der Stände des Reichs beeder Religion Ver-
+                <lb />wanthen außgesetzt worden, So baldt man a&lt;ber&gt;
+                <lb />wirdt zusamben komben, Soll solcher ander&lt;weit&gt;
+                <lb />fürgenom[m]en, Inmitelß aber und biß derselbige
+                <lb />erlediget, es beÿ voriger gemeiner Cam[m]erge-
+                <lb />richts ordtnung ohne Enderung gelaßen, Und die
+                <lb />geliebte Justitz ohne Anstandt Administrirt, auch mit
+                <lb />Underhaltung des Cam[m]ergerichts, und dessen be-
+                <lb />zahlung, vorige ordtnung in Acht genom[m]en werden 
+                <pb facs="#FacsPnr25"/>Die bisher gesteckhte Ordinari Visitationes und Re-
+                <lb />visiones des Cam[m]ergerichts sollen nunmehr wider
+                <lb />angehen und befördert werden.
+                <lb />
+                <lb />Weil aber mit großem Schaden des Reichs solche über
+                <lb />dreÿssig Jahr lang gantz angestanden und erligen
+                <lb />bliben, dahero nicht nur in gemeinen gebrechen
+                <lb />des Cam[m]ergerichts, sondern auch in etlich Tausendt
+                <lb />&nbsp;hochbeschwerlich zusamben aufgewachsenen Re-
+                <lb />vision sachen, für den Ersten Anfang vill zuthun
+                <lb />sein wirdt, alß ists Verglichen, daß ein Extra
+                <lb />Ordinari Visitation, gleich wie in Anno 1600 ge-
+                <lb />schehen, vermittels eines Deputation Tags, angestelt
+                <lb />und von der Röm[ischen] Kaÿ[serlichen] Maÿ[estät] auch schickender Chur-
+                <lb />Fürsten und Stände gesandten alle Imperfection
+                <lb />erkhundiget, Von deren Remedierung gerathschlagt,
+                <lb />ein Modus wie denn aufgeheuften Revision sachen
+                <lb />&nbsp;schleünig und Recht abzuhelfen, ersohnen, auf dem
+                <lb />nechsten Reichs Tage der Röm[ischen] Kaÿ[serlichen] Maÿ[estät] und
+                <lb />sambtlichen Reichs Standen Referirt,&nbsp; ein gemeiner
+                <lb />Schluß darüber gefaßt, nichts desto weniger aber
+                <lb />
+                <pb facs="#FacsPnr26"/>inmitels mit den Jährlichen Ordinari Visitationen &lt;dar&gt;-
+                <lb />mit keine weitere und &lt;Neüe&gt; Imperfection und
+                <lb />Heuffung vorgehe, treülich und fleißig verfah&lt;ren&gt;
+                <lb />werden.
+                <lb />
+                <lb />Denn Kaÿ[serlichen] Reichshof Rath betrefendt, haben &lt;wegen&gt;
+                <lb />Ihr Kaÿ[serlichen] Maÿ[estät] dero gesandte Sich nochmaln er-
+                <lb />klärt, daß beÿ Erster Reichs Versamblung die
+                <lb />Verfaßte Reichshof Raths Instruction, den gesa&lt;mbten&gt;
+                <lb />Herren Churfürsten nnhalts der Kaÿ[serlichen] Capitu&lt;lation&gt;
+                <lb />&nbsp;zu ihrem gu&lt;e&gt;tachten ubergeben, und dersel&lt;ben&gt;
+                <lb />außtrückhlich mit Eingerückht werden solle,
+                <lb />daß die Reichs Ständt ins gemein, mit Commis&lt;sionen&gt;
+                <lb />nicht übereÿlt noch Mandata sine clausula indif-
+                <lb />ferenter, und außer deren in Rechten nachgela&lt;ßenen&gt;
+                <lb />&nbsp;und geordtneten fähle wider Sie Decretiret wer-
+                <lb />den sollen. Weillen aber auch Seine Churfürst[liche]
+                <lb />D[urchlaucht] zu Sachßen p. darbeÿ ferner gesucht, daß &lt;der&gt;
+                <lb />Reichshoff Rath Ebner gestalt in gleicher Anzahl
+                <lb />der Religion besetzt werden möchte, und die
+                <lb />Kaÿ[serlichen] gesandten darwider eingewendet, daß die
+                <lb />
+                <pb facs="#FacsPnr27"/>bestellung des Reichshoff Raths von beiden Religions
+                <lb />Verwanthen in gleicher Anzahl, im Röm[ischen] Reich
+                <lb />&lt;nicht&gt; herkomben, derwegen auch ein solches
+                <lb />Ihrer Kaÿ[serlichen] Maÿ[estät] nicht Zurzumu&lt;e&gt;then, weren
+                <lb />aber des gnedigsten Erbietens, daß wie Sie
+                <lb />und dero Löbl[iche] Vvorfahren am Reich qualificierte
+                <lb />subiecta der Augspurg[ischen] Confeszion zugethan, von
+                <lb />ihrem Reichshof Rath nicht außgeschloßen, also
+                <lb />wolten &lt;Sÿ&gt;, dieselben auch hinführo gnedigst zu&lt;e&gt;be-
+                <lb />fördern, nicht underlaßen, alß ist dieser Punct
+                <lb />auf weitere Khünftige beredung zwischen der
+                <lb />Röm[ischen] Kaÿ[serlichen] Maÿ[estät] und dem hochlöbl[ichen] Churfürstl[ichen]
+                <lb />Collegio, doch ohne einigen abbruch Ihrer Kay[serlichen] May[estät]
+                <lb />Authoritet, Jurisdiction, und Hoheit, außgesetzt wor-
+                <lb />den,&nbsp; Und haben Ihre Kaÿ[serliche] Maÿ[estät] beÿ so beschehner
+                <lb />auß setzung deselben Puncten, Ihr&lt;o&gt; Reser&lt;vir&gt;t, daß
+                <lb />&nbsp;unter dessen, und bis daß die angeregte Under-
+                <lb />redung und mit Ihrer Kaÿ[serlichen] Maÿ[estät] allergnedigstem
+                <lb />gu&lt;e&gt;ten Einwilligen, die Vergleichung deßelben Puncten
+                <lb />erfolge, Ihre Kaÿ[serliche] Maÿ[estät] Ihro selbst, und ihrem
+                <lb />Kaÿ[serlichen] Reichshof Rath in einigem Stu&lt;e&gt;ckh, zumahl auch
+                <lb />
+                <pb facs="#FacsPnr28"/>an Handthabung und Execution dieses gegen&lt;wer&gt;-
+                <lb />tigen friedens schlußes gantz nichts wolten ge&lt;sperrt&gt;
+                <lb />&nbsp;noch entzogen haben.
+                <lb />
+                <lb />Der Augspurg[ischen] Confeszions Verwanthen Chur-
+                <lb />Fürsten und Stände des Reichs Agenten und &lt;pro&gt;-
+                <lb />curatorn Sollen am Kaÿ [serlichen] Hoff wann Sie &lt;sich&gt;
+                <lb />&nbsp;sonsten, wie die Reichshofraths ordtnung mit
+                <lb />Sich bringt, gebührendt legitimiren, und Ihrer
+                <lb />Kaÿ[serlichen] Maÿ[estät] Verordtnung, So der Agenten &lt;und&gt;
+                <lb />Procuratorum halben an dero Kaÿ[serlichen] Hoff ge-
+                <lb />macht, gemeß verhalten, gleich wie beÿ &lt;der&gt;
+                <lb />&nbsp;Hochlöbl[ichen] Kaÿser Maximiliani 2. Rudolp&lt;hi 2&gt;
+                <lb />und Matthiæ Zeithen unweigerlich geduldet &lt;und&gt;
+                <lb />&nbsp;in keinerleÿ weg umb der Religion willen
+                <lb />angefochten werden.
+                <lb />
+                <lb />So solle auch keine sach durch die Röm[ische] Kaÿ[serliche] Maÿ[estät]
+                <lb />vom Kaÿ[serlichen] Cam[m]ergericht an Kaÿ[serlichen] Reichshof &lt;Rath&gt;
+                <lb />&nbsp;abgefordert, was einmahl am Cam[m]ergericht
+                <lb />præveniendo Recht hengig gemacht, und dahin ge-
+                <lb />hörig ist, daselbst gelaßen und Erledigt, und
+                <lb />
+                <pb facs="#FacsPnr29"/>Unwißendt der sämbtlichen Reichs Ständt dem Cam-
+                <lb />mergericht kein Kaÿ[serliches] gesetz gegeben werden.
+                <lb />
+                <lb />Inn der Pfältzischen Sach alß über welcher die Jahr
+                <lb />hero vill grausambe Motus, Unruhe und beschwerung
+                <lb />vorgangen, haben die Churfürstl[iche] D[urchlaucht] zu Sachßen p
+                <lb />instendig darauf getrungen, daß dieselbe sowohl
+                <lb />in puncto der Chur Würde, alß der Landen gentz-
+                <lb />lich und zu grundt möchte beÿgelegt und ver-
+                <lb />tragen werden.
+                <lb />
+                <lb />Dieweill aber welt khündig, es auch daß hochlöbl[iche]
+                <lb />Churf[ürstliche] Collegium zu&lt;e&gt; Mülhaußen Anno 1627 also
+                <lb />befunden, daß der proscribirte Pfaltzgraff Fri-
+                <lb />derich alles des Unheils, so in Ihrer Kaÿ[serlichen] Maÿ[estät]
+                <lb />Erb Königreich Böhaimb, und folgendts im Röm[ischen] Reich
+                <lb />entstanden, Ein Haubt Anfenger und Ursacher
+                <lb />&nbsp;und Ihre Kaÿ[serliche] Maÿ[estät] sambt dero höchstgeehrtem
+                <lb />Hauß darüber in vill Million schulden und andere
+                <lb />große schäden kom[m]en, auch Theils Erbländer wegen
+                <lb />
+                <pb facs="#FacsPnr30"/>des aufgewanthen Kriegs Unkostens dah&lt;inden&gt;
+                <lb />lassen müssen, Und daher von ihrer Reso&lt;lution&gt;
+                <lb />&nbsp;wie starckh und Eÿfrig auch Churf[ürstliche] D[urchlaucht]
+                <lb />zu Sachßen Sich darümb bemühet, nicht weichen
+                <lb />wollen.
+                <lb />
+                <lb />Alß Soll es beÿ dem Jenigen, So Ihre Kaÿ[serliche] Maÿ[estät]
+                <lb />wegen derselben Chur- und Lande, für Ihre
+                <lb />Churf[ürstliche] D[urchlaucht] in Baÿern Und diese Wilhelm&lt;ische&gt;
+                <lb />Linea&lt;m&gt;, auch sonst gemacht, sowohl waß Ihre Kaÿ[serliche]
+                <lb />Maÿ[estät] wegen etlicher geweßner Pfältzischer &lt;diener&gt;
+                <lb />&nbsp;gü&lt;e&gt;ter angeordnet, allerdings verbleiben. &lt;Doch&gt;
+                <lb />soll Weillandt Churfürst Friederichs des Vierdten
+                <lb />Pfaltzgraffen beÿ Rhein, hinterlaßner Fraw
+                <lb />wittiben, Ihr Leibgeding, So vil Sie dessen richtig
+                <lb />Liquidirn wirdt, paszirt, und des proscribirten
+                <lb />Kindern, wan Sie Sich vor Ihrer Kaÿ[serlichen] Maÿ[estät] ge-
+                <lb />bührlichen Humilirn, Ein fürstl[icher] Underhalt a&lt;uß&gt;
+                <lb />Kaÿ[serlichen] gnaden, und nicht auß schuldigkheit gemacht
+                <lb />
+                <lb />Die Tillischen Erben Sollen von dem im Hertzog&lt;thumb&gt; 
+                <pb facs="#FacsPnr31"/>Braunschweig Succedirenden Landtsfürsten und
+                <lb />deßen Erben und Succeszorn Ihrer Aszignirten,
+                <lb />&nbsp;und von denen Hertzogen zu Braunschweig und Lüne-
+                <lb />burgh Vor mahls beliebten, Und zu zahlen bewil-
+                <lb />ligten Viermahl Hundert Tausent Reichs Thaller
+                <lb />in acht Jahren nach einander, jedes Jahr in der
+                <lb />Leipzigischer Ostermeß und zwar A[nn]o 1637 zum
+                <lb />Erstenmahl mit funftzig Thausendt Reichs Thaller
+                <lb />sambt einem Zweÿ Jährigen Zinß von der gantzen
+                <lb />Summa, Je fünff vom Hundert gerechnet, und
+                <lb />dann in der Ostermeß A[nn]o 1638 widerumb mit
+                <lb />funfftzig Thausendt Reichs Thaller, sambt einem
+                <lb />Ein Jährigen Zinß von dem Rest der Haubt Sum[m],
+                <lb />abermahls nur fünff &lt;von&gt; Hundert gerechnet,
+                <lb />und so fort an, des übrigen Rests Jedes mahls zu&lt;e&gt;-
+                <lb />sambt dem Zinß in Annis 1639 und 1640 et se-
+                <lb />quentibus, bezahlt, und unter dessen beÿ Ihrer
+                <lb />Hÿpothec und Aszignation gelaßen, in Verbleibung
+                <lb />aber der bezahlung eines oder anderen Termins,
+                <lb />&nbsp;widerumb zu Ihrer vorigen poszession der Assig-
+                <lb />nirten Ämbter Restituirt werden. 
+                <pb facs="#FacsPnr32"/>Die Vor dato dieses friedens schluß in derselben &lt;schuld&gt;-
+                <lb />sach erschienene Zinße, wie auch die auß &lt;den&gt;-
+                <lb />selben Ämptern schon erhobene Nutzungen &lt;sollen&gt;
+                <lb />umb friedens und Ru&lt;.&gt;he willen Compensirt &lt;und&gt;
+                <lb />alle dar von geweßene forderungen beeder&lt;seits&gt;
+                <lb />&nbsp;gestillt sein.
+                <lb />
+                <lb />Wegen der Hertzoge vonn Mechelburg haben &lt;Ihre&gt;
+                <lb />Kaÿ[serliche] Maÿ[estät] Sich umb gemeines friedens willen
+                <lb />und auß höchst angeborner gü&lt;.&gt;te, auch umb
+                <lb />Ihrer Churfürst[lichen] D[urchlaucht] zu Sachßen beharrlichen
+                <lb />Interceszion willen, dahin Erklärt, Es wollten
+                <lb />Ihre Kaÿ[serliche] Maÿ[estät], Sie die beede Hertzogen (wofern
+                <lb />sie gegenwertigen friedens schluß dankbar-
+                <lb />lich und würckhlich Acceptiren und Sich solchem
+                <lb />gemeß verhalten, auch deme ihrethalben sonderbahr
+                <lb />begriffnen Memmorial gebührendt nachkom-
+                <lb />men werden) widerumb zu Kaÿ[serlichen] hulden und gnaden
+                <lb />aufnehmen, und beÿ Landt und Leüthen gantz
+                <lb />Ruhig Verbleiben laßen.
+                <lb />
+                <pb facs="#FacsPnr33"/>Die Restitution betreffende, sollen der Röm[ischen] Kaÿ[serlichen]
+                <lb />Maÿ[estät] Ihrem Erzhauße, auch allen dero Aszistirenden
+                <lb />Chur- Fürsten und Ständen, So dann allen Ihren
+                <lb />Kriegs Verwanthen&nbsp; und dero Räthen, Dienern,
+                <lb />Landtstenden und Underthanen, auch ordens Leuthen,
+                <lb />Und in gemein allen und Jeden angehörigen
+                <lb />geist- und weltlichen Societet[en] und Communen nie-
+                <lb />manden außgenomben, In specie auch dem Hertzog
+                <lb />zu Lothringen und seinen angehörigen, von den
+                <lb />Augspurg[ischen] Confeszions Verwanthen Ständen,
+                <lb />&nbsp;alle Ihre Churfürstenthumb, Fürstenthumb, Graff-
+                <lb />und Herrschaften, Landt und Leüthe, Schlößer,
+                <lb />Päße, Vestungen, Ligende gründe, und aller
+                <lb />Enden zustehende Rendten, gülten, Nutzung,
+                <lb />&nbsp;gef&lt;ö&gt;ll, und alle örther welche sie der Anno
+                <lb />1630 entstandnen Unru&lt;.&gt;he, nach des Khönigs
+                <lb />Gustavi Adolphi in Schweden Ankunft, aufs
+                <lb />Reichs boden, eingenom[m]en worden, Sovil
+                <lb />Ihre Kaÿ [serliche] Maÿ[estät] und dero Aszistirende zur
+                <lb />&nbsp;gedachter Zeith in poszess gehabt, oder ihnen Ver-
+                <lb />möge dieses Schlußes sonst gebührt, Sie möchten
+                <lb />es in Anno 1630 in poszession gehabt haben 
+                <pb facs="#FacsPnr34"/>oder nicht, was und wievil Sie die Augs&lt;purgische&gt;
+                <lb />Confeszions Verwanthe darvon noch selb&lt;st in&gt;
+                <lb />&nbsp;handen haben, ohnweigerlich Restituirt, und &lt;ein&gt;-
+                <lb />geraumbt werden, Jedoch ohne Ersta&lt;ttung&gt;
+                <lb />aufgehobner Nutzungen, Erlitnen Kriegs&lt;schaden&gt;
+                <lb />&nbsp;und aufgewanther Unkosten, auch ohne &lt;einige&gt;
+                <lb />Demolirung oder Zu&lt;.&gt;fügung und gestattung
+                <lb />einiges fernern Vorsetzlichen Schadens, wie &lt;auch&gt;
+                <lb />ohne Abführung geschützes, Und anderer an &lt;den&gt;
+                <lb />selben örthern annoch befindtlicher mobilien, &lt;aus-&gt;
+                <lb />serhalb was Jeder Theil an Stückhen und Mun&lt;ition&gt;
+                <lb />selbst dahin geschafft, oder mit sich gebracht. &lt;Und&gt;
+                <lb />sollen die Unterthanen, da Sie an einem oder
+                <lb />andern orth Pflicht geleistet, Und Sich verwan&lt;dt&gt;
+                <lb />&nbsp;gemacht, hiervon Loßgezehlt werden.
+                <lb />
+                <lb />Was aber die außwertige Potentaten und Na&lt;tionen&gt;
+                <lb />In specie die Cron Franckhreich, Schweden &lt;und&gt;
+                <lb />&nbsp;andere, die nicht Reichs Stände noch dessen
+                <lb />glieder sein, oder daßelbige an ietzt Reco&lt;gnos&gt;
+                <lb />ciren, oder gleich Reichs Stände und dessen glieder
+                <lb />weren, Jedoch zu diesen frieden Sich nicht be&lt;kennen&gt;
+                <lb />
+                <pb facs="#FacsPnr35"/>noch demselbigen gemeß verhalten würden, inn
+                <lb />handen haben, zu dessen allen würckhlichen un-
+                <lb />fehlbarn Restitution und wider erlangung, sollen
+                <lb />Ihre Churfürstl[iche] D[urchlaucht] zu Sachßen, so wohl die
+                <lb />andern Augspurg[ischen] Confeszions Verwanthen,
+                <lb />Chur-Fürsten und Stende, wann Sie dieses
+                <lb />friedens mit genießen wollen, der Röm[ischen] Kaÿ[serlichen]
+                <lb />Maÿ[estät] und denen Catholischen, mit gesambter handt
+                <lb />und Zuethat, in Craft dießes Vertrags und friedt-
+                <lb />standts auch aufgerichten gemeinen Landtfriedens
+                <lb />und Reichs ordtnungen, ohn allen anstandt helfen,
+                <lb />auf maß und weiße wie darvon unten beÿ der
+                <lb />Execution des friedens schlußes, mit mehrerm be-
+                <lb />redt worden.
+                <lb />
+                <lb />Doch verstehet Sichs in allweg, daß in dem nechstvor-
+                <lb />hergehenden periodo gemelten Puncts der Restitution
+                <lb />nicht gemeint, auch nicht begrifen sein, die Jenige
+                <lb />geist- und weltliche gü&lt;e&gt;ter, So zwar Anno 1630
+                <lb />noch in Catholischer Stenden henden geweßen, Jedoch
+                <lb />aber Craft underschiedener Puncten dieses friedens schlußes
+                <lb />den Augspurg[ischen] Confeszions Verwanthen bleiben sollen.
+                <lb />
+                <pb facs="#FacsPnr36"/>Dargegen sollen und wollen Ihr Kaÿ[serliche] Maÿ[estät] und
+                <lb />sambtliche Catholische Stände, Und dero Kriegs
+                <lb />Verwanthe auch hinwiderumb allen Augspurg[ischen]
+                <lb />Confeszion Verwanthen, Churfürsten, Fürsten
+                <lb />und Stenden des Reichs und dero Räthen, die-
+                <lb />nern, Landtstenden und Underthanen, und
+                <lb />ins gemein allen Und Jeden ihren angehörigen
+                <lb />überall niemandt (alß die so von der Amnistia
+                <lb />Excipirt sein) außgenomben, Restituieren
+                <lb />und einreümben, und gleicher gestalt die
+                <lb />Underthanen von der Pflicht die Sie an einem
+                <lb />oder andren orth geleistet, und Sich darmit
+                <lb />Verwanth gemacht, Loßzehlen, waß von dero
+                <lb />Churfürstenthümben, Fürstenthumben, Landen
+                <lb />und Leüthen, Vestungen, Schlößern, Päßen
+                <lb />ligenden gründen, Und aller enden im Reich
+                <lb />zustehenden Renthen, gülten und Nutzungen
+                <lb />und allen orthen wie die Nam[m]en habenn,
+                <lb />Sie der Anno 1630 entstandener Unru&lt;.&gt;he, nach
+                <lb />Ankunft des Königs in Schweden aufs
+                <lb />Reichs boden, von Aller höchstgedachter Ihrer
+                <lb />Kaÿ[serlicher] Maÿ[estät] dero Aszistierenden Chur- Fürsten
+                <lb />
+                <pb facs="#FacsPnr37"/>Und Stenden auch Kriegs Verwanthen occupiert
+                <lb />geweßen, oder den Augspurg[ischen] Confeszions Ver-
+                <lb />wanthen, Vermöge dießes Friedens schlußes bleiben
+                <lb />sollen, und solches gleichsfahls ohne Demolierung
+                <lb />oder Zu&lt;r&gt;fü&lt;.&gt;gung und gestattung einiges fer-
+                <lb />nern vorsetzlichen schadens, wie auch ohne Abführung
+                <lb />geschützes, oder andern an denselben örthern
+                <lb />annoch befindtlichen Mohilien auch ohne Erstattung
+                <lb />aufgehobner Nutzung erlithner Kriegsschäden
+                <lb />und aufgewanther Uncosten, ausserhalb was
+                <lb />Jeder Theil an Stückhen und Munition, wie oben
+                <lb />gemelt selbst dahin geschafft oder mit Sich ge-
+                <lb />bracht.
+                <lb />
+                <lb />Neben und über diesem haben umb friedens willen
+                <lb />die Röm[ische] Kaÿ[serliche] Maÿ[estät] auch Verwilligt, daß was
+                <lb />beÿ der im Nider Sächsischen Cräiß Anno 1625
+                <lb />entstandnen Unru&lt;.&gt;he occupirt worden, darunder
+                <lb />dann In speciè die Vestung Wolffenbüttl und Niem-
+                <lb />burg mit gemeint, ihren Rechten Herrn, und alles
+                <lb />was Ihre Kaÿ[serliche] Maÿ[estät] und dero Aszistierende sonsten
+                <lb />mehr von Stätten und Vestungen, derer örther in
+                <lb />
+                <pb facs="#FacsPnr38"/>Ihren handen haben, allermaßen wie obgemelt
+                <lb />ohne abstattung der aufgehobnen Nutzungen
+                <lb />ohne abführung noch daselbst verhandnen ge-
+                <lb />schützes, oder andern Mobilien ausserhalb was
+                <lb />an Stücken und Munition Sie und die Catholischen
+                <lb />dahin bringen lassen, Sollen unweigerlich Restituiert
+                <lb />werden, Jedoch bescheidenlich und also:
+                <lb />
+                <lb />Was Churfürstl[icher] D[urchlaucht] zu Sachßen im Königreich
+                <lb />Böhmen und Hertzogthumb Schleßien etwan
+                <lb />noch ihnen hat, daß sollen und wollen Seine
+                <lb />Churfürstl[iche] D[urchlaucht] in Zehen Tagen nach empfa&lt;..&gt;
+                <lb />ung dieses mit Kaÿ[serlicher] Maÿ [estät] handt und Secret
+                <lb />Insigill bekräftigten friedens, ohn allen auf-
+                <lb />enthalt Restituiren, Ihr Kaÿ[serlichen] Maÿ [estät] Kriegs
+                <lb />Volckh darvon abführen, Und der Kaÿ[serlichen] Maÿ[estät] oder
+                <lb />deroselben hierzu&lt;.&gt; In specie gevolmechtigten be-
+                <lb />fehls habern, die Plätz und Vestungen, So Sie etwan
+                <lb />&nbsp;innenhaben abtretten damit kein anders alß
+                <lb />das Kaÿ[serliche] Volckh dieselbige præoccupirn möge
+                <lb />da auch etwan ander Volckh noch drinnen lege
+                <lb />&nbsp;wollen Ihre Churfürst[liche] D[urchlaucht] daßelbige wo
+                <lb />
+                <pb facs="#FacsPnr39"/>Ihre Kaÿ[serliche] Maÿ[estät] es allergnedigst begehren würden,
+                <lb />mit Ihrer alßdan im Nam[m]en Ihrer Kaÿ[serlichen] Maÿ[estät]
+                <lb />und des Heil[igen] Reichs führenden Armada herauß bringen
+                <lb />helffen. Eben auch am selbigen Tag, da die Restitu-
+                <lb />tion der Kaÿ[serlichen] Maÿ[estät] in Böhmen und Schleßien be-
+                <lb />schiecht, Sollen und wollen gleich sowohl die Kaÿ[serliche]
+                <lb />Maÿ[estät], der Chur Fürstl[ichen] D[urchlaucht] zu&lt;.&gt; Sachßen Restituiern
+                <lb />und abtretten, alles was von dero Churfürsten-
+                <lb />thumb, oder andern ihr&lt;o&gt; Zugehörigen Landen,
+                <lb />Ihrer Kaÿ[serlichen] Maÿ [estät] oder dero Herrn Aszisten&lt;t&gt;en
+                <lb />Kriegs Volckh alßdann in besatzung noch haben
+                <lb />möchten.
+                <lb />
+                <lb />So dann sollen und wollen Ihr Churfürstl[iche] D[urchlaucht] mit
+                <lb />erst angeregter Kaÿ[serlicher] Reichs Armada verhelffen,
+                <lb />das auch den Catholischen im Reich das Ihrige, diesem
+                <lb />Vertrag und friedens schluß gemeß zum schleünigsten
+                <lb />widerumb Eingeraumbt werde, Es möchten Sich
+                <lb />gleich die anderen Augspurg[ischen] Confeszions Verwanthe
+                <lb />Chur- Fürsten und Stende zu diesem Accord bekennen
+                <lb />demselbigen gemeß verhalten, oder nicht.
+                <lb />
+                <pb facs="#FacsPnr40"/>Entgegen soll von Ihrer Kaÿ[serlichen] Maÿ[estät] und den
+                <lb />Catholischen, mit gesambter handt und Zuthatt eb-
+                <lb />en meßige Hülff, Rettung und widererlangung
+                <lb />des ihrigen, Jeden Augspurg[ischen] Confeszions Ver-
+                <lb />wanthen, So viel ihm nach außweißung dießes
+                <lb />friedens schlußes gebührt, gedeÿen und widerfa&lt;hren&gt;.
+                <lb />
+                <lb />Inmaßen dan auch hiemit außtrückhlich bedi&lt;ngt&gt;
+                <lb />worden, daß der Churfürstl[ichen] D[urchlaucht] zu&lt;.&gt; Branden-
+                <lb />burg, wann Sie sich zu&lt;.&gt; dieser pacification ver-
+                <lb />stehen und in allem bequemben wie Sie &lt;dan&gt;
+                <lb />von diesem frieden nicht außgeschloßen noch un&lt;ter&gt;
+                <lb />den Excipiendis ab Amnistia gemeint sein die
+                <lb />Anwarttung und darüber habende belehnung
+                <lb />an den Pom[m]erischen Landen und sonsten a&lt;ller&gt;-
+                <lb />dings Verbleiben, Von Ihrer Kaÿ[serlichen] Maÿ[estät]&nbsp; auch die&lt;
+                <lb />selbe darbeÿ geschützt werden solle.
+                <lb />
+                <lb />Nicht allein aber wegen der Pom[m]erischen Lande
+                <lb />sondern auch sonst ingemein soll man Coniunctis
+                <lb />Viribus sich dahin bemühen, daß der Ober- und
+                <lb />Nider Sechßische Cräiß von frembden und in
+                <lb />
+                <pb facs="#FacsPnr41"/>sonderheit den Schwedischen&nbsp; und andern darin
+                <lb />ligenden und diesem friedenschluß Sich nicht ge-
+                <lb />meß Verhaltenden Kriegs Volckh Liberirt, solches
+                <lb />vons Reichs boden abgeschafft, und da es nicht
+                <lb />gu&lt;e&gt;twillig weichen würde, mit zusamben
+                <lb />gesetzter macht darauß gebracht, die Plätze,
+                <lb />welche es besetzt, darvon befreÿet, und ihren
+                <lb />vorigen Herrn und denen Sie Vermöge dieses
+                <lb />friedens schlußes gehören, Unweigerlich widerumb
+                <lb />Eingeraumbt werden.
+                <lb />
+                <lb />Eben deßgleichen soll auch im westphalischen oder Nider
+                <lb />&lt;Rh&gt;einischen Craiß und sonderlich an dem Weeßer
+                <lb />stromb geschehen, damit auch von und auß
+                <lb />denselben orthen dem Reich in specie auch Ihrer
+                <lb />Kaÿ[serlichen] Maÿ[estät]&nbsp; Erb Königreich und Landen, weiter
+                <lb />keine gefahr dahero zugezogen werden möge,
+                <lb />sondern dieser frieden einem Jeden seine Ruhe
+                <lb />bringe.
+                <lb />
+                <lb />Wann solches geschehen oder man deßen beederseits in
+                <lb />würckhlicher Arbeit begriffen, sollen dem Fürstlichen
+                <lb />
+                <pb facs="#FacsPnr42"/>Hauß Braunschweig und Lün&lt;nen&gt;burg, So es di&lt;esem&gt;
+                <lb />friedenschluß Sich Accommodiren, und seine Vires &lt;zu&gt;
+                <lb />&nbsp;deßelbigen Volstreckhung mit der Kaÿ[serlichen] Maÿ[estät]
+                <lb />und des Heil[igen] Reichs Armaden zusam[m]ben setzen
+                <lb />wirdt, die Vestung Wolffenbüttel und alle an&lt;deren&gt;
+                <lb />örther, Vestungen und Plätze, so hochgedachte&lt;m&gt;
+                <lb />&nbsp;hauß zustendig, und vermöge dießes frieden-
+                <lb />schlußes gebühren, Restituirt und abgetretten
+                <lb />werden.
+                <lb />
+                <lb />Ein gleichmeßiges Soll mit allen andern Plätzen &lt;welche&gt;
+                <lb />Ihre Kaÿ[serliche]&nbsp; Maÿ[estät] und die Catholischen etwan &lt;der&gt;
+                <lb />orthen innen hetten, gegen alle die Jenige,
+                <lb />denen solche Vorhin zu&lt;.&gt;gestanden sein, geschehen.
+                <lb />
+                <lb />Wann auch im Chur &lt;Rh&gt;einischen, Ober &lt;Rh&gt;einischen, B&lt;aÿer&gt;-
+                <lb />ischen, Schwäbischen und Fränckhischen Craiß &lt;der&gt;
+                <lb />Röm[ischen] Kaÿ[serlichen] Maÿ[estät], Und den Catholischen sambt &lt;ihren&gt;
+                <lb />mit Verwanthen, insonderheit dem Hertzogen
+                <lb />von Lothringen und seinen angehörigen, das ihrige
+                <lb />plenarie wie obvermelt Restituirt, Und alle
+                <lb />andere besatzung außgeschafft, wollen Ihre
+                <lb />
+                <pb facs="#FacsPnr43"/>Kaÿ[serlichen] Maÿ[estät] Reciprocè denen Augspurg[ischen] Confeszions
+                <lb />Verwanthen in ietzt gemelten Craißen, So sich
+                <lb />zu dießem Accord gleicher gestalt bekennen, und den-
+                <lb />selbigen Volziehen helfen werden, die von ihren
+                <lb />Landen inhabende Veste Plätz und örther widerumb
+                <lb />abtretten und einraumben, auch auß Regenspurg
+                <lb />die Guarnison abführen laßen.
+                <lb />
+                <lb />Ob aber gleich Ihre Kaÿ[serliche] Maÿ[estät] solcher gestalt et-
+                <lb />liche örther in bemelten Craißen noch besetzt be-
+                <lb />hielten, So hats doch dieße klärlich abgeredte
+                <lb />meinung, daß die Stende welchen selbige veste
+                <lb />örther zustehen, nicht sollen schuldig sein, vonn
+                <lb />ihren Landen&nbsp; und Leüthen lenger außzubleiben
+                <lb />oder Sich derßelbigen Regierung zu enthalten,
+                <lb />&nbsp;noch auch solche Kaÿ[serlichen] Reichs besatzungen; auß dem
+                <lb />Ihrigen zu besolden und zu versorgen, Und solchen
+                <lb />last allein zu tragen, sondern auß den gemeinen
+                <lb />Reichs Contributionibus soll die Unterhaltung des
+                <lb />Jenigen Volckhs, so aber die Ordinaria beÿ friedt-
+                <lb />lichen Zeithen gewöhnliche præsidia noch weiter zu&lt;.&gt;
+                <lb />besatzung eingelegt wirdt, hergenommen werden.
+                <lb />
+                <pb facs="#FacsPnr44"/>Es soll auch von denselben besatzungen keinem Standt
+                <lb />an seinen obrigkheitlichen und andern Juribus,
+                <lb />So dann Einkunften und Intraden einiger &lt;Ein&gt;-
+                <lb />halt und Eintrag beschehen, sondern Er &lt;deren&gt;
+                <lb />ungehindert wann Er Sich zu&lt;.&gt; diesem fr&lt;iedens&gt;
+                <lb />schluß würckhlich bekennen und demselbigen
+                <lb />gemeß verhalten thuet, alles des Jenigen genießen
+                <lb />wessen Er vorhin befugt geweßen, Und ihm &lt;in&gt;
+                <lb />dießem schluß nicht benom[m]en ist.
+                <lb />
+                <lb />Wegen des Hertzogs von Lothringen ist hier mit &lt;in&gt;
+                <lb />sonderheit bedingt und abgeredt worden, daß
+                <lb />Er zu allen seinen Landt und Leuthen, Schlößern,
+                <lb />Päßen, Vestungen, Ligenden gründen, Nutzungen,
+                <lb />gülten, und gefällen, hochheiten, würden und
+                <lb />gerechtigkheiten, allenthalben, wie Er dies&lt;elbe&gt;
+                <lb />noch in Anno 1630 gehabt, nichts außgenom[m]en
+                <lb />Restituirt und darbeÿ erhalten, auch nicht
+                <lb />nachgesehen werden solle, daß weiter etw&lt;as&gt;
+                <lb />an seinen Vestungen demolirt oder ihm&lt;e&gt; einiger
+                <lb />Vorsetzlicher schaden zugefügt werde. Solte es
+                <lb />
+                <pb facs="#FacsPnr45"/>aber über Zuversicht geschehen, Soll solches von Ihrer
+                <lb />&nbsp;Kaÿ[serlichen] Maÿ[estät], Und von denen diesen friedenschluß
+                <lb />beliebenden Chur-Fürsten und Stenden deß
+                <lb />Reichs an den Verursachern und Helffers Helffern
+                <lb />nicht ungeandet noch unger&lt;o&gt;chen gelaßen wer-
+                <lb />den.
+                <lb />
+                <lb />Die Vestung Phillipsburg gehört nicht mit in diesen
+                <lb />Restitutions Pünct, sondern Ihre Kaÿ[serliche] Maÿ[estät] haben
+                <lb />Ihr Reservirt es darmit zuhalten wie Sie Es für
+                <lb />Sich und das Heil[ige] Reich am besten befinden.
+                <lb />
+                <lb />Und wirdt solches wie alles andre treülich, Er-
+                <lb />bar, ohn alle arge list und gefehrde Ver-
+                <lb />standen und das damit nach Teütscher Erbar-
+                <lb />und Aufrichtigkheit gehandelt werde.
+                <lb />
+                <lb />Was dann beÿ dieser ab Anno 1630 biß dato
+                <lb />gewehrten Kriegs Übung, die bißherige In-
+                <lb />terims besitzer gegen einem und andern Nachbarn
+                <lb />Asserirt und zubehaubten Sich understanden,
+                <lb />solle keinem Theil Vortheil oder schaden bringen
+                <lb />
+                <pb facs="#FacsPnr46"/>sondern beÿ dem Jenigen, was vor dersel&lt;ben&gt;
+                <lb />Kriegs Übung Üblich, billich und Recht war,
+                <lb />gelaßen werden.
+                <lb />
+                <lb />Alle und Jede Kriegs gefangene deren Prin-
+                <lb />cipalen Sich dieser friedens handlung aller&lt;dings&gt;
+                <lb />würckhlich bequemben, sollen zu allen &lt;und&gt;
+                <lb />ieden theilen, ohne einig Lößegelt von &lt;pub&gt;-
+                <lb />licirung dieses friedens binnen Monats&lt;frist&gt;
+                <lb />erlediget, Und auf freÿen fu&lt;.&gt;ß gest&lt;ellet&gt;
+                <lb />werden, doch daß die Jenige welche Sich alb&lt;ereit&gt;
+                <lb />geschetzt, oder Eine Ranzion versprochen, dieselbe
+                <lb />Erlegen und durch gehendts alle gefangene &lt;es&gt;
+                <lb />seÿ gleich eine Ranzion von ihnen Versprochen
+                <lb />oder nicht, die Uncosten welche auf Sie in
+                <lb />wehrender Custodia ergangen, erstatten sollen.
+                <lb />
+                <lb />Zwischen der Röm[ischen] Kaÿ[serlichen] Maÿ[estät] und denen samb&lt;tlichen&gt;
+                <lb />Catholischen ihr Aszistirenden Chur- Fürsten &lt;und&gt;
+                <lb />Stenden des Reichs, auch allen dero Kriegs
+                <lb />
+                <pb facs="#FacsPnr47"/>verwanthen an Einem, und dann Seiner Churfürstl&lt;ichen&gt;
+                <lb />D&lt;urchlaucht&gt; zu Sachßen, wie auch allen andern ihrer
+                <lb />biß herigen Kriegs Partheÿ zugethan ge-
+                <lb />weßnen der Augspurg[ischen] Confeszions Ver-
+                <lb />wanthen Ständen am andern Theil, wan
+                <lb />Sie sich sambt oder sonders zu diesem friedens
+                <lb />schluß, und zu dessen gentzlicher Vollstreckh-
+                <lb />und handthabung, alßbaldt nach deßelben
+                <lb />publication und an Jeden Standt davon ge-
+                <lb />langenden wissenschaft Vor Verfließung
+                <lb />derer drunten bestimbten Zehen Tage, und
+                <lb />also ohn einige Verzögerung würckhlich be-
+                <lb />quemben, denselben annem[m]en, allerdings
+                <lb />darin Verwilligen und Sich darzu Verbunden
+                <lb />machen, ist eine Vollkomene Amnistia alles
+                <lb />dessen, so beÿ dieser letzten Kriegs Übung
+                <lb />von Anno 1630 an, im Heilig[en] Römischen Reich
+                <lb />nach Ankhunft des Königs in Schweden aufs
+                <lb />Reichs boden zwischen ihnen Vorgegangen und
+                <lb />
+                <pb facs="#FacsPnr48"/>was darzu&lt;.&gt; Ursach gegeben, gestiftet und auf-
+                <lb />gerichtet, Und alle Mißhelligkheit, Unmu&lt;e&gt;th
+                <lb />und wider willen, so darbeÿ entsprungen
+                <lb />und dahero, auf waßerleÿ wege es auch
+                <lb />geschehen möchte, herfür gesucht werden
+                <lb />köndte, gentzlich aufgehoben, der gestalt
+                <lb />und also, daß derselben von keiner Seiten
+                <lb />weiter in Ungu&lt;e&gt;ten nicht zugedenckhen
+                <lb />noch derowegen ein Theil wider den an&lt;dern&gt;
+                <lb />weder durch gü&lt;e&gt;te oder Recht, unter &nbsp;
+                <lb />einigerleÿ schein nichts zu&lt;.&gt; prætendiren
+                <lb />noch Vorzuwenden, Insonderheit aber &lt;auch&gt;
+                <lb />der Kriegs Uncosten und zugefügten sch&lt;äden&gt;
+                <lb />halben sowohl Ihre Kaÿ[serliche] Maÿ[estät] dero hauß
+                <lb />und sambtliche Catholische Churfürsten,
+                <lb />Fürsten und Stände, gegen die andere
+                <lb />Kriegs Partheÿ die Augspurg[ischen] Confeszions
+                <lb />Verwanthe, Und dan auch dieselbe hinwide-
+                <lb />rumb gegen Ihre Kaÿ[serliche] Maÿ[estät] dero Hauß &lt;und&gt;
+                <lb />allerseits Catholische Stende, weder ietzo &lt;noch&gt;
+                <lb />
+                <pb facs="#FacsPnr49"/>künftig nichts Suchen, sondern alles durchaus
+                <lb />gesuncken und gefallen, Und auß Kaÿ[serlichen] macht
+                <lb />und Voll kom[m]enheit, auch Craft dieses friedens-
+                <lb />schlußes aufgehoben und abgethan sein soll.
+                <lb />
+                <lb />In solche Amnistia sollen auch Ihrer Kaÿ[serlichen] Maÿ[estät],
+                <lb />Ihres Haußes und deren ihr Assistirenden
+                <lb />Catholischen und anderer Kriegs Verwanthen,
+                <lb />und dann Seiner Churfürst[lichen] D[urchlaucht] zu Sachßen p.
+                <lb />und der andern auf derselben Seithe
+                <lb />mitgeweßnen Augspurg[ischen] Confeszions
+                <lb />Verwanthen Stände, Erben und nachkomben,
+                <lb />Lande und Leüthe, So dan alle Hohe und Nidere
+                <lb />Kriegs officier und gantze Soldatesca ins ge-
+                <lb />mein, sowohl bestelte Räthe und diener,
+                <lb />Sie haben Nam[m]en wie Sie wollen, vom Höchsten
+                <lb />bis zum Nidrigsten und vom Nidrigsten
+                <lb />bis zum Höchsten, ohne einigen Underschidt,
+                <lb />ingleichem alle Raths Verwanthe in Reichs-
+                <lb />oder andern Stätten, auch dero bediente und
+                <lb />in Sum[m]a Jedermenniglich so Einer oder der
+                <lb />
+                <pb facs="#FacsPnr50"/>andern Partheÿ, beÿ obgesetzter Kriegs-
+                <lb />Übung Verwanth und zugethan gewesen
+                <lb />an Leib, Leben, Ehre, Würde, Freyheit,
+                <lb />Haab, Gü&lt;e&gt;tern, Lehen, Rechten, gerechtig-
+                <lb />kheiten, Standt und Ambt kräftig mit-
+                <lb />eingeschloßen und deßwegen wider Sie &lt;und&gt;
+                <lb />dero Erben in gesambt und sonders &lt;so&gt;
+                <lb />&nbsp;wenig alß wider das Haubt und glieder &lt;selbst&gt;
+                <lb />auch sonsten von keinem diesem Kriege zu-
+                <lb />gethan und verwanth geweßnen Standt
+                <lb />wider des andern, auch darbeÿ Intere&lt;szirt&gt;
+                <lb />geweßnen Standts officier, Räthe, diener
+                <lb />und Underthanen, Under keinerleÿ schein
+                <lb />und prætext, wie solches immer Nam[m]en
+                <lb />haben und Ersonnen werden möchte, zu
+                <lb />ewigen Zeithen in Ungu&lt;e&gt;them nichts ge-
+                <lb />dacht, noch denselben etwas vorgerückt,
+                <lb />Vill weniger geandet und gerochen, auch
+                <lb />denn Stenden des Reichs selbst, Und sonst &lt;anderen&gt;
+                <lb />&nbsp;ins gemein an deren von der Röm[ischen] &lt;Kaserlichen&gt;
+                <lb />Maÿ [estät] und dem Heili[gen] Reich oder auch durch
+                <lb />
+                <pb facs="#FacsPnr51"/>Einen oder mehr Stende von einem oder mehren
+                <lb />seiner Mit Stende tragenden Lehen und anderen
+                <lb />gerechtigkheiten, nichts so ihn thun oder
+                <lb />lassen Vorgegangen, wie auch keine Under-
+                <lb />bliebene Mu&lt;e&gt;t&lt;.&gt;ung oder Versaumbnus, so
+                <lb />etwa wegen vorgeweßener dieser letzten
+                <lb />Kriegs Unru&lt;.&gt;he beschehen, beÿgemessen
+                <lb />oder einige beschwerde zugezogen wer-
+                <lb />den, sondern alles so vorgangen, gentzlich ab-
+                <lb />gethan verloschen und aufgehoben sein.
+                <lb />
+                <lb />Es soll auch wann Seither Anno 1630 am Kaÿ[serlichen]
+                <lb />Reichshof Rath Rechtliche Termin angesetzt wor-
+                <lb />den, und die Partheÿen darauf nicht
+                <lb />erschienen weren, oder ihre notturfft ge-
+                <lb />bührendt nicht eingebracht hetten, solches
+                <lb />ihnen gleichs falls zu keinem Nachtheil
+                <lb />und abbruch ihres Rechtens gereichen.
+                <lb />
+                <lb />Es ziehen aber Ihre Kaÿ[serliche] Maÿ[estät] von dieser Amnistia
+                <lb />
+                <pb facs="#FacsPnr52"/>per Expressum auß, die Böhmische und Pfältz-
+                <lb />ische händel und sachen, und waß den&lt;selben&gt;
+                <lb />anhengt,&nbsp; Und weill Ihre Kaÿ[serliche] Maÿ[estät]
+                <lb />solche zu dempffen, Sich und Ihr Hauß in
+                <lb />schwäre Läste steckhen.Und wie obgedacht
+                <lb />etliche Ihre Erbländer zu Rückhe laßen
+                <lb />und Entrathen mü&lt;e&gt;ßen, So haben Ihre
+                <lb />Kaÿ[serliche] Maÿ[estät] Ihr die Erstattung der&lt;ent&gt;-
+                <lb />wegen aufgewanther Kriegs Uncosten
+                <lb />und Verursachten Schäden, beÿ den Ver&lt;ur&gt;-
+                <lb />sachern, Helffern und beförderern, So viel
+                <lb />derselben mit Ihrer Kaÿ[serlichen] Maÿ[estät] durch
+                <lb />&nbsp;andere Verträge oder sonst nicht al&lt;be&gt;-
+                <lb />reith Verglichen oder außgesöhnt, n&lt;och&gt;
+                <lb />weitern zu&lt;.&gt; suchen Vorbehalten.
+                <lb />
+                <lb />Ferner ziehen auch Ihre Kaÿ[serliche] Maÿ[estät] auß die&lt;ßer&gt;
+                <lb />Amnistia etliche Persohnen und gü&lt;.&gt;ter, von
+                <lb />
+                <pb facs="#FacsPnr53"/>welchen Ihre Kaÿ[serliche] Maÿ[estät] der Churfürstl[ichen] D[urchlaucht]
+                <lb />zu&lt;.&gt; Sachßen p Ein Special Communication schrift-
+                <lb />lich thun lassen, Und zugleich umb friedens
+                <lb />und Ru&lt;.&gt;he willen mildiste Eerbiethung gethan, die
+                <lb />Außna[m] aus der Amnistia ganz und zumahl
+                <lb />nicht weiter zuerstreckhen, alß in diesem friedens-
+                <lb />schluß und in derselbigen schriftlichen Special
+                <lb />Communication Klärlich gemeldet ist
+                <lb />.
+                <lb />Weill dann Ihre Kaÿ[serliche] Maÿ[estät] auf solchen par-
+                <lb />ticular außzug allergnedigst bestanden,
+                <lb />Ihre Churfürstl[iche] D[urchlaucht] auch nicht befinden können,
+                <lb />das umb so bewanter Vorbehaltung willen,
+                <lb />die hailsambe Reichs beruhigung einige stundt
+                <lb />zu&lt;.&gt;hindern, So haben es Seine Churfürstl[iche]
+                <lb />D[urchlaucht] endtlich umb friedens willen, darbeÿ
+                <lb />Verbleiben lassen, Und soll solcher Außzug und
+                <lb />
+                <pb facs="#FacsPnr54"/>dessen Specification, wie Sie in einem neben
+                <lb />Recess Unter heütigem dato verfaßt, eben
+                <lb />so kräftig und gültig sein, auch darüber ge-
+                <lb />halten werden, So wohl alß wan Sie von
+                <lb />worten zu worten diesem Vertrag Spec&lt;iatim&gt;
+                <lb />&nbsp;einverleibt.
+                <lb />
+                <lb />Doch haben Ihre Kaÿ[serliche] Maÿ [estät] Sich dar neben aller
+                <lb />gnedigst Erklärt, das wan nach publicirung
+                <lb />solcher Specification, Ein oder andere außge-
+                <lb />nombene Persohn, Sich beÿ derselben unver&lt;längt&gt;
+                <lb />&nbsp;anmelden und gnad begehren würde, Sie nach
+                <lb />beschaffenheit der sachen ihnen allen den weg
+                <lb />zu ihrem Kaÿ[serlichen] gnadenthron zu komben, hier&lt;dürch&gt;
+                <lb />&nbsp;nicht gesp&lt;ö&gt;rrt haben wolten.
+                <lb />
+                <lb />Welche Ständt mit Ihrer Kaÿ[serlichen] Maÿ[estät] bereith part&lt;icu&gt;-
+                <lb />lariter Accordirt, die sollen beÿ ihren Accord ge-
+                <lb />laßen werden, Entgegen aber nicht befugt &lt;sein&gt;
+                <lb />
+                <pb facs="#FacsPnr55"/>etwas mehrers alß in denen selbigen ihnen Ver-
+                <lb />williget, auß diesem frieden zubegehren, oder aber
+                <lb />Sich des Jenigen was S&lt;ÿ&gt; in selbigen particular
+                <lb />Accorden zugesagt, durch diesen zu entbrechen.
+                <lb />
+                <lb />Obgedachter Amnisti und ins gemein des gantzen
+                <lb />friedens schlußes, Sollen die beÿ der vorgangenen
+                <lb />Kriegs Übung neutral geblibene Stendte, dafern
+                <lb />Sie sich zu diesem friedens schluß gleichsfals alß-
+                <lb />baldt bekenen, denselben annehmen und würck-
+                <lb />lich volnziehen helffen, neben ihren Räthen und
+                <lb />diennern, Landtstenden und Underthanen mit ge-
+                <lb />nießen und aller deßen Commodorum mit
+                <lb />fähig sein.
+                <lb />
+                <lb />In diesen friedenschluß sollen auch mit eingeschloßen
+                <lb />sein, die Jenigen Potentaten und gewälden,
+                <lb />die einem oder andern Theil, beÿ dieser Letzt
+                <lb />vorgangenen Kriegs Übung beÿgestanden, doch
+                <lb />so fern Sie allerseits wollen, Und daß Jenige
+                <lb />waß einer oder andere in diesem letzten Krieg
+                <lb />
+                <pb facs="#FacsPnr56"/>&nbsp;von Anno 1630 biß zur Zeith des friedens, Son&lt;derlich&gt;
+                <lb />&nbsp;auch dem zu Regenspurg in ietzgedachtem 1&lt;630&gt;
+                <lb />Jahr, mit dem König in Franckhreich ge&lt;macht&gt;-
+                <lb />en friedenschluß zugegen Eingenomben, u&lt;nver&gt;-
+                <lb />lengt den Vorigen Besitzern, oder denen es
+                <lb />Vermöge dieses friedens schlußes gebührt, &lt;re&gt;-
+                <lb />stituirn. Uff welchen fahl zu ewigen Tagen
+                <lb />in keinerleÿ weiße Ichtwas Ungleich ge&lt;dacht&gt;
+                <lb />&nbsp;sondern hiermit beÿgelegt sein soll, waß
+                <lb />sonst eine oder andere Kriegende Parthey
+                <lb />wegen der ihrem widertheil beÿ dieser &lt;Kriegs&gt;
+                <lb />übung erwißner Assistenz hete vorwenden
+                <lb />mögen.
+                <lb />
+                <lb />Die Röm[ische] Kaÿ[serliche] Maÿ[estät] haben Allergnedigst &lt;über&gt;-
+                <lb />nomben diesen gantzen friedens schluß allen und
+                <lb />Jeden Chur- Fürsten und Stenden des &lt;Reichs&gt;
+                <lb />auch deßelben freÿer Riterschaft, wie nicht
+                <lb />weniger den See- und &lt;Ansee&gt; Stätten, gantz
+                <lb />förderlichst zu publicirn und zu Notificiren,
+                <lb />Ihnen Vermittelst Kaÿ[serlichen] Patenten und darzu ge&lt;hörigen&gt;
+                <lb />
+                <pb facs="#FacsPnr57"/>Schreiben und befehlchen, die hohe Notturft auch
+                <lb />Schuldigkheit, Lieb und Trew des Vatterlandts
+                <lb />&nbsp;so dan die schwere Pflicht und Aÿdt, damit man
+                <lb />der Röm[ischen] Kaÿ[serlichen] Maÿ[estät] und dem Heil[igen] Reich Ver-
+                <lb />wanth, bester massen zu gemü&lt;e&gt;t zu&lt;.&gt; führen
+                <lb />und beweglich zuermahnen, daß Ein Jeder
+                <lb />an welchen dergleichen abgehen, in seinem ge-
+                <lb />bieth solche pacification zu meniglichs wissen-
+                <lb />schaft offentlich publiciren, auch den gegenwer-
+                <lb />tigen friedens schluß, in allen und Jeden Puncten
+                <lb />belieben und annemben, darauf sein ge-
+                <lb />worben Volckh auß seiner mit Stände Landen
+                <lb />würckhlich abfordern und weckh nem[m]en, Von
+                <lb />deroselben Zeith an niemanden dardurch ein-
+                <lb />igen weitern schaden zufügen lassen, daß
+                <lb />selbe Volckh mit Ihrer Kaÿ[serlichen] Maÿ[estät] Armada con-
+                <lb />iungirn und davon mehr nicht, alß sovil Er des-
+                <lb />sen zu etwas besatzung seiner Vesten Plätze noth-
+                <lb />wendig bedarff, behalten, zugleich mit in seiner
+                <lb />die Acceptation dieses friedensschlußes be-
+                <lb />sagender Erklärung, ob und mit wievil Volckh
+                <lb />
+                <pb facs="#FacsPnr58"/>Er Sich mit der Kaÿ[serlichen] Armada Coniungirn könne
+                <lb />und wolle, und in was für Zustandt und
+                <lb />order sich daßelbe befinden thu&lt;e&gt; andeüten
+                <lb />und dessen noch vor Verfließung Zehen T&lt;age&gt;
+                <lb />nach publicirung und Erlangter wissen-
+                <lb />schaft dieses friedens, entweder mit gebüh-
+                <lb />rendem Respect die Röm[ische] Kaÿ[serliche] Maÿ[estät] oder
+                <lb />da daßelbe Vor Verfließung solcher Zeit
+                <lb />wegen Unsicherheit der Strassen und weite
+                <lb />des we&lt;.&gt;gs gegen Ihre Kaÿ[serliche] Maÿ[estät] selbst &lt;zu&gt;
+                <lb />&nbsp;thun ihm nicht wohl müglich were, doch an
+                <lb />statt Ihrer Kaÿ[serlichen] Maÿ[estät] die Königl[iche] würde &lt;zu&gt;
+                <lb />&nbsp;Hungarn und Böhaimb oder die Churfürstl[ichen]
+                <lb />gn[aden] und Durchl[auchtigkeiten] zu Maintz, Cölln, Bavern &lt;oder&gt;
+                <lb />&nbsp;Sachßen sambt oder sonders, oder die Kaÿ[serlichen]
+                <lb />general befehlshaber, welche ihnen am &lt;nechsten&gt;
+                <lb />oder gelegnesten, deütlich und klar ber&lt;ichten&gt;
+                <lb />solte, damit man alßdan wissen möge, &lt;wie&gt;
+                <lb />Sich gegen Jeden zuverhalten seÿ.
+                <lb />
+                <lb />Dann dieser friede wirdt zu dem Ende gemacht,
+                <lb />
+                <pb facs="#FacsPnr59"/>damit die werthe Teütsche Nation zu voriger Integ-
+                <lb />ritet, Tranquillitet, Libertet und Sicherung Reducirt,
+                <lb />&nbsp;und die Röm[ische] Kaÿ[serliche] Maÿ[estät] und dero Hohes Erzhauß,
+                <lb />auch alle Chur- Fürsten und Stende des Reichs,
+                <lb />so nicht davon außgenomben und Sich darzu be-
+                <lb />kennen, ohne Underschiedt der Catholischen Religion
+                <lb />und Augspurg[ischen] Confeszion, zu dem ihrigen Re-
+                <lb />stituirt und darbeÿ erhalten werden, so
+                <lb />&nbsp;lang und viel auch biß daß selbige zu werckh ge-
+                <lb />richtet, soll nicht geru&lt;.&gt;het noch gefeÿert werden.
+                <lb />
+                <lb />Zu&lt;.&gt; deßen allen würckhlichen und glückhlichen
+                <lb />Volstreckhung und Handthabung, Sollen Ihre Kaÿ[serliche]
+                <lb />Maÿ[estät] alß das oberhaubt im Reich, Armirt Ver-
+                <lb />bleiben. Zu derselben soll Churfürstl[icher] D[urchlaucht] zu&lt;.&gt;
+                <lb />Sachßen und aller anderen Chur- Fürsten und
+                <lb />Stende Kriegs Volckh (ausserhalb was Sie obge-
+                <lb />hörter massen zu besetzung ihrer Vesten Plätze be-
+                <lb />halten) stossen, und Ihrer Kaÿ[serlichen] Maÿ[estät] und dem
+                <lb />&nbsp;Reich zur Exequirung und Handthabung dieses friedens
+                <lb />schlußes Pflicht leisten, und also auß allen Armaden
+                <lb />
+                <pb facs="#FacsPnr60"/>Ein Haubt Armada gemacht werden, die Soll h&lt;eißen&gt;
+                <lb />und genent werden: Der Röm[ischen] Kaÿ[serlichen] Maÿ[estät]
+                <lb />und des Heil[igen] Röm[ischen] Reichs Kriegs Heer,
+                <lb />auß denselben Kriegs Heer Soll von Ihrer Kaÿ[serlichen]
+                <lb />Maÿ[estät] Ihrer Churfürstl[icher] Durchl[aucht] zu Sachßen p. ein an-
+                <lb />sehnlich Corpus zu derselben hohen general Com-
+                <lb />mando gelaßen werden, daß übrige Volckh alles
+                <lb />mit einander soll Immediatè unter Ihrer Kaÿ[serlichen]
+                <lb />Maÿ[estät] geliebtesten Herrn Sohn, der Königl[ichen] W&lt;ürde&gt;
+                <lb />zu Hungarn und Böhaimb, höchsten General Com[m]&lt;ando&gt;
+                <lb />Und wem es Ihre Kaÿ[serliche] Maÿ[estät] nechst dero&lt;selbigen&gt;
+                <lb />Von ihret- und des Heil[igen] Reichs wegen, gantz oder
+                <lb />zum Theil zu dirigirn, albereith Vertrauet hetten
+                <lb />oder noch Vertrauen würden, sein und bleiben.
+                <lb />&nbsp;Und mit solchen Kaÿ[serlichen] Reichs Kriegs Heer und de&lt;ßen&gt;
+                <lb />Underschidnen Corporibus, Soll wider alle die Jenige,
+                <lb />So sich dem frieden widersetzen, oder das Jenige, w&lt;as&gt;
+                <lb />demselben nach, einem Jeglichen Restituirt wer-
+                <lb />den soll, nicht Restituirn, oder Ihre Kaÿ[serliche] Maÿ[estät]
+                <lb />Und das Reich noch weiter Verunru&lt;.&gt;higen würden
+                <lb />nach anweißung und Verordtnung Ihrer Kaÿ[serlichen]
+                <lb />
+                <pb facs="#FacsPnr61"/>Maÿ[estät], zu Volziehung dieses friedens schlußes, gegangen
+                <lb />werden, Inmaßen deßwegen ein besonders
+                <lb />Memorial unter heütigem dato aufgerichtet,
+                <lb />darinnen mit mehrerm zu befinden wie es mit
+                <lb />einem und andern soll gehalten werden.
+                <lb />
+                <lb />Sovil aber Armaden sein werden, auch alle dero
+                <lb />Generaln, General Leüdenant, Feldtmarschal&lt;.ch&gt;, Und
+                <lb />ins gemein alle und Jede denselben Verwanthe
+                <lb />Persohnen, Von der höchsten biß auf die Nidrig-
+                <lb />ste, Sollen der Röm[ischen] Kaÿ[serlichen] Maÿ[estät] Und dem Heil[igen]
+                <lb />Reich Treüe, Holdt, gehorsamb, und gewerttig sein,
+                <lb />Ihr einiges absehen Allergehorsambst auf die
+                <lb />Röm[ische] Kaÿ[serliche] Maÿ[estät] alß auf das einige oberhaubt
+                <lb />und auf das Heil[ige] Römische Reich, sonderlich aber
+                <lb />auch auf die Handthabung dieses friedens schlußes
+                <lb />führen, Und der Röm[ischen] Kaÿ[serlichen] Maÿ[estät]&nbsp; und Heil[igen] Röm[ischen]
+                <lb />Reich, wie solches die Reichsordtnung Vermag, Über
+                <lb />die Jenige Pflicht So deroselben Ihr Volckh albereith
+                <lb />Vorhin gelaistet, mit sonderbahren Pflichten Sich
+                <lb />hierauf verwanth machen, doch sollen die Königl[ichen]
+                <lb />
+                <pb facs="#FacsPnr62"/>Würde zu Hungarn und Böhaimb, und die Churf&lt;ürsten&gt;
+                <lb />des Reichs, da deren einer oder mehr im
+                <lb />Nam[m]en der Röm[ischen] Kaÿ[serlichen]&nbsp; Maÿ[estät]&nbsp; und des Heil[igen] &lt;Reichs&gt;
+                <lb />ein generalat führte, Und also auch die Chur-
+                <lb />fürstl[iche] D[urchlaucht] zu&lt;.&gt; Sachßen Persöhnlicher Aÿ&lt;dts&gt;
+                <lb />Pflicht erlassen, Und Sich an deme begnügt &lt;wer-&gt;
+                <lb />den, daß Sie solchen Ihren Hohen Kriegs befehl
+                <lb />auf Ihre der Röm[ischen] Kaÿ[serlichen] Maÿ[estät] und dem &lt;Heiligen&gt;
+                <lb />Reich ohne das geleistete Tre&lt;ü&gt;e Aÿde, oder d&lt;och&gt;
+                <lb />auf Respective Königl[iche] und Churfürstliche &lt;ehr&gt;
+                <lb />und würde, Treü und Redligkheit an Aÿdts &lt;statt&gt;
+                <lb />nem[m]en, alle andere Kriegs Haübter aber &lt;und&gt;
+                <lb />ins gemein alles Volckh soll die Pflicht wü&lt;rk&gt;-
+                <lb />lich ablegen.
+                <lb />
+                <lb />Die Instructiones auch Articuls brieffe, wollen &lt;Ihre&gt;
+                <lb />Kaÿs[erliche] Maÿ[estät] auß des Heil[igen] Reichs abschieden und &lt;ordt&gt;-
+                <lb />nungen beÿleüffig ziehen, Acht drauff geben &lt;und&gt;
+                <lb />darüber halten lassen, daß zu Verschonung &lt;des&gt;
+                <lb />ohne daß sehr Exhaurirten Vatterlandts alle
+                <lb />Insolentien Verhütet, gu&lt;e&gt;te Kriegs Disciplin &lt;wider&gt;
+                <lb />
+                <pb facs="#FacsPnr63"/>aufgerichtet, und die Kriegs Expeditiones zu&lt;.&gt;
+                <lb />schleünigster Erreichung des allgemeinen hoch de-
+                <lb />siderirten frieden Zweckhs zum vorsichtigsten ange-
+                <lb />stelt, auch die Quartier ohne Underschiedt der Religion
+                <lb />oder Standts, doch der Chur- Fürsten, und Stende
+                <lb />Residenzen und Vestungen, wie auch der auß schrei-
+                <lb />benden Reichs Stätte (welche aber dagegen die
+                <lb />Einquartierung ufm Lande oder sonst nach pro-
+                <lb />portion ersetzen sollen) damit zuverschonen,&nbsp; gleich
+                <lb />außgetheilt werden mögen.
+                <lb />
+                <lb />Und weil ohn müglich zu&lt;.&gt; allgemeinen Reichs-, Craiß
+                <lb />und Deputations Versamblungen, dißmals zugelangen
+                <lb />und doch eine Anlage gemacht sein will, Es gehe
+                <lb />gleich einßmahls (welches Gott gnedig Verleihe) zu&lt;.&gt;
+                <lb />gentzlichem frieden oder zu&lt;.&gt; Underhaltung noch et-
+                <lb />lichen Kriegs Volckhs, Alß Versiehet man Sich, es
+                <lb />werde kein Chur- Fürst und Standt des Reichs,
+                <lb />noch auch die freÿe Reichs Ritterschaften, oder Ansee
+                <lb />Stätte bedenckhens haben, strackhs mit und
+                <lb />neben Ihrer Acceptation dieses friedenschlußes
+                <lb />
+                <pb facs="#FacsPnr64"/>Einhundert und Zwantzig Monath nach dem ein&lt;fachen&gt;
+                <lb />Römer Zug zubewilligen, Und solche in Sechs gl&lt;eichen&gt;
+                <lb />Zihlen benantlich 1. Septembris und 1. Decembris
+                <lb />dieses noch Laufenden Und 1. Martÿ 1. Junÿ &lt;1.&gt;
+                <lb />Septembris und 1. Decembris des nechst künftigen
+                <lb />1636. Jahrs,&nbsp; in die Legstett deren ieder St&lt;andt&gt;
+                <lb />von des Reichs Pfenningmeister, den Reichs sat&lt;zungen&gt;
+                <lb />&nbsp;und dem Herkomben nach, berichtet werden &lt;soll&gt;
+                <lb />&nbsp;an gu&lt;.&gt;ter Reichs Müntz doch der Reichs Thal&lt;er&gt;
+                <lb />&nbsp;höher nicht, alß umb Anderthalben gülden oder
+                <lb />Neuntzig Kreutzer angeschlagen ohnfeilb&lt;ahr&gt;
+                <lb />zuerlegen, damit umb sovil, desto mehr &lt;die&gt;
+                <lb />Disciplina Militaris wider angerichtet und
+                <lb />andere Exorbitanz und Unordtnung, welche
+                <lb />beim Kriegswesen in Ermanglung der o&lt;rdent&gt;-
+                <lb />lichen Zahlung gemeiniglich folgen thu&lt;.&gt;t, Ver&lt;hütet&gt;
+                <lb />werden möge.
+                <lb />
+                <lb />Kein standt soll alßdann schüldig sein zugleich &lt;zu&gt;
+                <lb />Contribuieren, Und auch die Last des Quartiers
+                <lb />
+                <pb facs="#FacsPnr65"/>zuertragen, oder die Verpflegung der Soldatesca
+                <lb />umbsonst zu&lt;.&gt; komben zulaßen, Sondern der
+                <lb />Kaÿ[serlichen] Maÿ[estät] und des Reichs Commiszarÿ, welche nach
+                <lb />diesem schluß absonderlich hier zu&lt;. &gt; zuverordnen,
+                <lb />Sollen darfür Sorgen, daß Richtige, gleichmeß-
+                <lb />ige Verpflegungs Ordonanz gemacht und ge-
+                <lb />halten, Und waß ieder Standt oder deßelben
+                <lb />Underthanen an Pro&lt;v&gt;iandt und fütterung
+                <lb />lifern, ihnen hingegen an den Contributionen
+                <lb />abgezogen, oder auß dem Reichs Pfenningmeister
+                <lb />Ambt wider herauß gegeben und nach getragen
+                <lb />werde.
+                <lb />
+                <lb />Weill aber den gemeinen Ständen Sehr schwär sein
+                <lb />würde, alle von deroselben Zeith an, auf die
+                <lb />obgedachte Kaÿ[serliche] Reichs Armaden gehende Kosten,
+                <lb />&nbsp;Volkömblich und zu&lt;.&gt; gentzlicher abstattung zu&lt;.&gt;
+                <lb />tragen, oder auch denen Stenden welche über
+                <lb />die proportion, auß noth und Zwang des Kriegs
+                <lb />&nbsp;vor andern Stenden leiden müssen, Ihre schäden
+                <lb />auß den Kriegs Contributionen, welche von den
+                <lb />Stenden nach und nach bewilligt werden, zu ersetzen,
+                <lb />
+                <pb facs="#FacsPnr66"/>So solle es nicht drumb die meinung haben, daß
+                <lb />die Stendt des Reichs schuldig sein solten, nachzu-
+                <lb />tragen und zu&lt;.&gt;erstatten, waß über die K&lt;riegs&gt;
+                <lb />Contributionen, So Sie nach und nach bewilligen
+                <lb />auf den Krieg gehet, sondern es soll de&lt;sto&gt;
+                <lb />&nbsp;embsiger auf Erspar- und Einziehung aller
+                <lb />Vermeidlicher Uncosten, und auf eine Ringer-
+                <lb />ung der Anzahl des Kriegs Volckhs, also daß
+                <lb />die Kaÿ[serliche] und des Heil[igen] Römischen Reichs Armada
+                <lb />in unterschiednen Corporibus der gefahr adæq&lt;uirt&gt;
+                <lb />und nicht über die Nothurft starckh seÿ,
+                <lb />gesehen, wie auch auf eine Volkom[m]ene beruhig-
+                <lb />ung des Reichs, Und also auf förderlichste g&lt;äntz&gt;-
+                <lb />liche Abdanckhung des Kriegs Volckhs, tre&lt;ülich&gt;
+                <lb />getrachtet werden, wie dann die Röm[ische] Kaÿ[serliche]
+                <lb />Maÿ[estät] mit Rath und beliebung der Herren Chur&lt;fürsten&gt;
+                <lb />&nbsp;einen Reichstag aufs ehist ausschreihen wol&lt;len&gt;
+                <lb />auf das wann man Je weiter Kriegen müste,
+                <lb />alles was ferner beÿ der Militia zu Consi-
+                <lb />deriren, auf selbigem Reichstag mit gesambter
+                <lb />
+                <pb facs="#FacsPnr67"/>Stände ord&gt;en&gt;tlichen Zu&lt;.&gt;thun Erörthert werde, Inn-
+                <lb />mitlß soll nochmals, weder das gantze Reich Teütscher
+                <lb />Nation, noch einiger Standt deßelben, einiges wegs
+                <lb />zu den Nachträgen oder sonst zu einiger Zahlung
+                <lb />welche nicht ins gemein Verwilligt wirdt, obligirt
+                <lb />sein, sondern es mag denen die Sich diesem friedens-
+                <lb />schluß, entweder gar nicht oder doch nicht gnueg-
+                <lb />samb bequem[m]en, Und an deß Vatterlandts desto lenger
+                <lb />wehrender Kostbahrer Armatur schuldig seindt,
+                <lb />da Sich deren Über Verhoffen einige finden solten,
+                <lb />desto sterckher zugesprochen und die Ersetzung auß
+                <lb />deme so denselben zustehet, Vermög der Reichs
+                <lb />ordtnung gesucht werden.
+                <lb />
+                <lb />Kombt man dan einmahl wider zur Lengst gewünschten
+                <lb />beruhigung des Lieben Vatterlandts Teütscher Nation
+                <lb />(dahin man dan Jederzeit eußer&lt;.&gt;st und treülich
+                <lb />Sich zubemühen) und so baldt nur wegen der Sich
+                <lb />widersetzenden darzu zugelangen, So sollen
+                <lb />alle und Jde Eeinquartirungen, Sam[m]el- und
+                <lb />Muster Plätze, Kriegs Steuern, und andere
+                <lb />
+                <pb facs="#FacsPnr68"/>den Reich satzungen zu widerlaufende beschwer&lt;ungen&gt;
+                <lb />mit denen das Reich eine Zeit hero belegt &lt;und&gt;
+                <lb />beladen gewesen, ins künftig allerdings
+                <lb />und durch auß falle, Und Sich derselben nim[m]er
+                <lb />mehr angemaßt werden.
+                <lb />
+                <lb />Deßgleichen soll auch alßdan Keine einige Kriegs
+                <lb />Verfassung im Heil[igen] Römischen Reich, weder
+                <lb />vom haubt noch gliedern zu wider der Kaÿ[serlichen]
+                <lb />Wahl Capitulation, den Reichs Abschieden, und Craiß
+                <lb />Verfassungen fürgenom[m]en werden.
+                <lb />
+                <lb />Es soll auch wegen Keiner sach Es seÿ dieselbige
+                <lb />in diesem tractat außgestelt verglichen oder
+                <lb />nicht, insonderheit auch wegen der Pfältzischen
+                <lb />sache nicht, der Kaÿ[serlichen] Conceszion, belehnung und
+                <lb />Verordtnung zuwider, einige Außländische K&lt;riegs&gt;-
+                <lb />macht auf des Reichs boden zu komben, ge-
+                <lb />stattet, oder da Sie wider Verhoffen Je darauf
+                <lb />käme, doch mit gesambten zu&lt;.&gt;thun darvon
+                <lb />wider weckh gebracht werden.
+                <lb />
+                <pb facs="#FacsPnr69"/>Ferner sollen in und mit aufrichtung dieses
+                <lb />friedens schlußes und dessen publication, alle und
+                <lb />Jede Uniones, Ligæ, Foedera und dergleichen schlüße,
+                <lb />auch darauf gerichtete Aÿdt und Pflichte gentz-
+                <lb />lich aufgehoben sein, und Sich einig und allein
+                <lb />an die Reichs- und Craiß Verfassungen, Und an
+                <lb />diese gegenwertige pacification gehalten werden,
+                <lb />doch Verstehet Sich solches gar nicht auf eine auf-
+                <lb />hebung der Churfürstlichen Verein.
+                <lb />
+                <lb />Eben so wenig Verstehet es Sich auf der Röm[ischen]
+                <lb />Kaÿ[serlichen] Maÿ[estät] Und dero Hohen Erzhaußes oder auch
+                <lb />auf anderer Chur- Fürsten oder Stende con-
+                <lb />firmirte Erbeinigung.
+                <lb />
+                <lb />So solle auch dardurch der dreÿen Chur- und Fürstlichen
+                <lb />Heüßer Sachßen, Brandenburg und Hessen
+                <lb />Uhralte, Von den Römischen Kaÿsern Confirmirte
+                <lb />Erbeinigung und Erb Verbrüderung ohnbe-
+                <lb />schadet sein.
+                <lb />
+                <lb />Die Röm[ische] Kaÿ[serliche] Maÿ[estät] wollen mit den Außwertigen
+                <lb />
+                <pb facs="#FacsPnr70"/>Christlichen Potentaten und gewälten, welche
+                <lb />derselben und dem Heil[igen] Reich ihre ber&lt;uhig&gt;-
+                <lb />ung Ehr und Würde, auch Landt und &lt;Ge&gt;-
+                <lb />büetter nicht Verhindern, gu&lt;e&gt;te einigkheit &lt;und&gt;
+                <lb />Vertreübliches Vernehmen erhalten, Und &lt;den&gt;
+                <lb />Ihrigen Reciprocirtes Sichers hin- und her
+                <lb />Raisen, auch ungehinderte freÿe Commercia, &lt;nach&gt;
+                <lb />inhalt Ihrer Kaÿ[serlichen] Wahl Capitulation und
+                <lb />des Reichs satzungen gestatten.
+                <lb />
+                <lb />Es wollen auch Ihre Kaÿ[serliche] Maÿ[estät] aller seits Chur-
+                <lb />Fürsten und Stende des Heil[igen] Römischen Reichs
+                <lb />mit Recht und gerechtigkheit, nach inhalt der
+                <lb />fundamental gesetze, güldenen Bull und an&lt;derer&gt;
+                <lb />Löbl&lt;ichen&gt; Reichs Constitutionen, So dan lauth d&lt;ieses&gt;
+                <lb />Vertrags auch mit Sanftmu&lt;.&gt;th und g&lt;üte&gt;
+                <lb />Regieren, Und denselben Kaÿ[serliche] freundtschaft, &lt;hul&gt;-
+                <lb />den, gnadt, und gu&lt;.&gt;ts Erweisen, Und me&lt;nnig&gt;-
+                <lb />lich beÿ gleich und Recht, darine doch Jedes
+                <lb />Reichs grundt feste und glückhseeligkheit be-
+                <lb />stehet, Verbleiben lassen, wie auch das gantze
+                <lb />Röm[ische] Reich beÿ seiner wolhergebrachten Libe&lt;rtet&gt;
+                <lb />
+                <pb facs="#FacsPnr71"/>Freÿheit, und Ho&lt;c&gt;hheit, wie dann auch Religion- und
+                <lb />profan frieden Jederzeit erhalten und schützen.
+                <lb />
+                <lb />Die Churfürsten, Fürsten, und Stende des Reichs aber
+                <lb />sambt und sonders sollen auch zu förderst und
+                <lb />hinwiderumb der Kaÿ[serlichen] Maÿ[estät] allen Schuldigen Under-
+                <lb />thenigsten Respect, Ehr, Gehorsamb, Liebe, und
+                <lb />Tre&lt;ü&gt; Standthafftig erzeigen, Und in allem wie
+                <lb />Tre&lt;ü&gt;en und gehorsamben Churfürsten, Fürsten,
+                <lb />und Stenden gebührt, Sich Verhalten.
+                <lb />
+                <lb />Auch solle zwischen den Catholischen und Augspurg[ischen]
+                <lb />Confeszions Verwanthen Stenden, das alte gu&lt;e&gt;te
+                <lb />aufrechte Teütsche Vertrauen widerumb er-
+                <lb />hoben, treülich Vortgepflantzt und all das
+                <lb />Jenige So müß verständt oder weiterung gebehren möchte,
+                <lb />Umb des allgemeinen bestes willen, fleißig
+                <lb />und zeitlich verhü&lt;e&gt;tet werden.
+                <lb />
+                <lb />Beide, die Catholische und Augspurg[ische] Confeszsions
+                <lb />Verwanthe Chur- Fürsten und Stende, sollen
+                <lb />mit einander zu Handthabung friedt und
+                <lb />
+                <pb facs="#FacsPnr72"/>Rechtens getreülich Concurriren, und Ihrer Kaÿ[serlichen]
+                <lb />Maÿ[estät] alß dem oberhaubt hierzu&lt;.&gt; allen sch&lt;ul&gt;-
+                <lb />digen Respect, gehorsamb und beystandt
+                <lb />erweisen.
+                <lb />
+                <lb />Und weil das Heil[ige] Römische Reich ohne den so we&lt;iß&gt;-
+                <lb />lich aufgerichten Landtfrieden nicht bestehen
+                <lb />kan, Also soll auch derselbige von haubt und
+                <lb />gliedern Jederzeit treülich observirt und für &lt;augen&gt;
+                <lb />gehabt, und darüber zumahl beÿ diesen g&lt;rau&gt;-
+                <lb />samben, eine zeither heuffig Eingerißnen U&lt;n&gt;-
+                <lb />ordtnungen, Und fast ohne sche&lt;w&gt;Verübten ge&lt;walt&gt;-
+                <lb />thaten, mit großem Ernst und Eÿfer gehalten
+                <lb />Und ein Jeder Contravenient nach aller Sch&lt;ärfe&gt;
+                <lb />&nbsp;ohne ansehen einiger Persohn gestraft werden,
+                <lb />damit Eines Exempel ein schröckhen viller
+                <lb />sein möge.
+                <lb />
+                <lb />Und da einer oder Anderer Standt sich den
+                <lb />Reichs gesetzen und Executions ordtnungen und
+                <lb />diesem friedens schluß zuwider in Verfaßung
+                <lb />
+                <pb facs="#FacsPnr73"/>Stöllete, Werbung und Kriegs Volckh annem[m]e, und
+                <lb />darvon auf Erinderung der Kaÿ[serlichen] Maÿ[estät], welche
+                <lb />von den außschreibenden Ständen der angrentzen-
+                <lb />den Craiße, sambt oder sonders, dessen ohnver-
+                <lb />züglich Avisirt werden solle, nicht gü&lt;e&gt;tlich abstehen
+                <lb />wolte, soll wider demselben nach inhalt der Reichs
+                <lb />fundamental gesetze, und anderer hailsamben Con-
+                <lb />stitutionen, auch dieser pacification mit Kaÿ[serlichem]
+                <lb />Ernst Verfahren Und darinnen allerseits des Heil[igen]
+                <lb />Reichs gesetzen und ordtnung nachgegangen,
+                <lb />&nbsp;und die selbige in Acht genom[m]en werden.
+                <lb />
+                <lb />Waß in diesem friedenschluß und dessen Neben Re-
+                <lb />ceszen keine sonderbahre Erklärung und Decision
+                <lb />hat, darin soll es allerdings beÿ des Heil[igen]
+                <lb />Reichs fundamental gesetzen, auch hoch und teüer
+                <lb />Verpönten Religion- und profan-frieden, so-
+                <lb />wohl andern hailsamben Reichs Constitutionen
+                <lb />und ordtnungen, Und wan auch in denselben keine
+                <lb />sonderbahre Disposition befindtlich, beÿ Verordt-
+                <lb />nung gemeiner Kaÿ[serlicher] Rechte gelassen werden.
+                <lb />
+                <pb facs="#FacsPnr74"/>Was aber diesem wolbedechtigen friedenschluß
+                <lb />zuwider und entgegen oder hinderlich und
+                <lb />schedlichen sein möchte, es habe auch Nam[m]en wie
+                <lb />es Im[m]er wolle, daß soll zu keiner Zeith &lt;von&gt;
+                <lb />&nbsp;niemandt wer der auch were angezogen o&lt;der&gt;
+                <lb />Vorgewendet werden, sondern alles und &lt;jedes&gt;
+                <lb />So fern und weit es diesem friedenschluß und
+                <lb />dessen in Sich haltenden Puncten, Articuln
+                <lb />und meinungen, Nachtheillig, abbrüchig und
+                <lb />hinderlich sein köndte, es seÿe gleich gerichtlich
+                <lb />Verordnet oder ausser gerichts Verhandelt
+                <lb />Uund habe Nam[m]en wie es wolle, hiermit &lt;und&gt;
+                <lb />in Craft dieses, gentzlichen und zu grunde a&lt;uf&gt;-
+                <lb />gehebt sein, auch von nun an und zu ewigen
+                <lb />Tagen weder inn- noch ausserhalb gerichts
+                <lb />zu hindertreibung, gloszirung, Declaration
+                <lb />oder Limitation dieses Vergleichs, weder per
+                <lb />modum Actionis noch Exceptionis (ausserhalb
+                <lb />waß droben wegen der geistlichen Gü&lt;.&gt;ter
+                <lb />einem Jeden uff den fahl entstehender &lt;wei&gt;-
+                <lb />terer Vergleichung nach Verfließung der &lt;da&gt;
+                <lb />
+                <pb facs="#FacsPnr75"/>selbst bestimbter Jahr zu seinem Rechten vorbe-
+                <lb />halten) Allegirt und Eingeführt, Vill weniger
+                <lb />Ichtwas darauf erkhenet, Decretirt, Senten-
+                <lb />tionirt oder Exequirt werden, Sondern solcher
+                <lb />Vergleich, wie derselbe in seinen Klaren deüt-
+                <lb />lichen wortten und buchstaben Lautet, alß
+                <lb />eine Veste Unverenderliche norm, Regul und
+                <lb />Richtschnur eines aufrechten bestendigen, Ewig
+                <lb />wehrenden, Unaufflößlichen friedens, in allen
+                <lb />Hohen und Nidern gerichten, wie auch ausser-
+                <lb />halb derselben gehalten, Und &lt;do&gt; deme zu&lt;.&gt;wider
+                <lb />aber Zuversicht auch ins Khünftige von Jemanden,
+                <lb />wäß Standes, würden, oder wesens der auch
+                <lb />were, De facto, Directo oder per Indirectum
+                <lb />&nbsp;vorgenom[m]en, Impetrirt oder motu proprio er-
+                <lb />folgen oder sonsten einigerleÿ weiß gehan-
+                <lb />delt würde, Soll daßselbe Jetzo alß dan, und
+                <lb />dan alß ietzo gantz und allerdings Ungültig, Und
+                <lb />ipso facto  und Nichtig sein, Und als wan
+                <lb />es nicht ergangen und vorgenom[m]en, gehalten
+                <lb />und geachtet werden.
+                <lb />
+                </p>
+                <pb facs="#FacsPnr76"/><p>Und wollen Ihre Kaÿ[serliche] Maÿ[estät] diese gantze 
+                    <lb />pacifications Handlung, beÿ Ihren Kaÿ[serlichen] 
+                    <lb />würden und worten für Sich und Ihre 
+                    <lb />Nachkom[m]en am Reich, auch dero Erzhauß, S&lt;tädt&gt; 
+                    <lb />Unverbrüchlich und Ufrichtig halten und voll 
+                    <lb />ziehen, deren strackhs unweigerlich nach Kom&lt;men&gt; 
+                    <lb />und geleben, Und dar über Jetzo oder Khünftig 
+                    <lb />weder auß Volkombenheit oder einigen andern 
+                    <lb />schein, wie der Nam[m]en haben möchte, nichts &lt;für&gt;- 
+                    <lb />nemen, handlen oder außgehen laßen n&lt;och&gt; 
+                    <lb />Jemandt andern von Ihrentwegen zuthun &lt;ge&gt;- 
+                    <lb />statten. 
+                    <lb /> 
+                    <lb />Ingleichen thu&lt;.&gt;t Ihre Churfürstliche D[urchlaucht] zu Sachßen 
+                    <lb />vor Sich, Ihre Erben und Nachkomben Un&lt;wider&gt;- 
+                    <lb />rufflichen, beÿ dero Chur- und fürstl&lt;ichen&gt; 
+                    <lb />Würden Stande und Nam[m]en Versprechen &lt;und&gt; 
+                    <lb />zusagen, daß S&lt;ÿ&gt; alle das Jenige, So in dieser 
+                    <lb />pacifications Handlung Versehen, Es seÿ per &lt;modum&gt; 
+                    <lb />pacti oder Reservati einkom[m]en,<note n="4" type="crit_app">Streichung.</note>&nbsp; 
+                </p>
+                <pb facs="#FacsPnr77"/><p>Sich, Ihre Erben und Nachkomben, auch Landt, Leüth, Under-
+                <lb />thanen, also treülich und Veste halten, und darwider
+                <lb />in keinerleÿ wege handlen sollen noch wollen,
+                <lb />&nbsp;noch iemandt anderen von ihrentwegen Zuthun gestatten,
+                <lb />und do Ihre Kaÿ[serliche] Maÿ[estät] dero Hohes Hauß und As-
+                <lb />sistirende, oder auch Ihre Churfürstl[liche] D[urchlaucht] Und dero
+                <lb />mit Verwanthe, oder Jemandt, so in diesem Ver-
+                <lb />trage begriffen, Und Sich mit gleicher Verpflichtung
+                <lb />darein begiebet, mit thätlicher handlung, oder
+                <lb />sonsten Vergewaltigung leiden, oder demselben
+                <lb />das seine Vorenthalten würde, denselben wollen
+                <lb />Ihre Kaÿ[serliche] Maÿ[estät] und Churfürstl[iche] D[urchlaucht] getreüe
+                <lb />Hülffe, Rath und beÿstandt in Craft des hier-
+                <lb />über aufgerichteten gemeinen Landtfriedens,
+                <lb />Reichsordnung, und dieses Vertrags und frieden
+                <lb />standts sambtlich und sonderlich leisten, Und solle
+                <lb />also dieses alles Kaÿserlich, Königlich, Churfürstlich,
+                <lb />Fürstlich, Erbar und Ufrichtig, Vest und Kreftig
+                <lb />gehalten werden.
+                <lb />
+                <lb />Und wenn nun dieser friedensschluß von den andern geist-
+                <lb />
+                <pb facs="#FacsPnr78"/>lichen und weltlichen Chur- Fürsten und Stenden
+                <lb />oder doch den mehrern Theil gleichsfals beliebt
+                <lb />und bekräftiget, Soll Er umb des boni publici
+                <lb />willen alß eine gemeine Reichsbewilligung g&lt;elten&gt;
+                <lb />&nbsp;auch Von Ihrer Kaÿ[serlichen] Maÿ [estät], dero Reichshoff&lt;rath&gt;
+                <lb />Sowohl dem Kaÿ[serlichen] Cam[m]ergericht zu&lt;.&gt; Speÿer
+                <lb />tragenden Kaÿ[serlichen] Ambts wegen, darauf Jeder Z&lt;eit&gt;
+                <lb />zu sprechen anbefohlen werden, gestalt dan
+                <lb />Ihre Kaÿ[serliche] Maÿ[estät] alß das oberhaubt Sich darzu
+                <lb />Kaÿserlich Erklärt, Seine Churf[ürstliche] D[urchlaucht] zu
+                <lb />Sachßen auch ihres Theils das solches geschehen
+                <lb />möge bewilliget Und derogleichen von denen,
+                <lb />So diesen Vertrag annehmen, Und sich darzu
+                <lb />verbunden, auch zu beschehen.
+                <lb />
+                <lb />Und soll auch Seine Churfürstl[ichen] D[urchlaucht] zu&lt;.&gt; Sachßen
+                <lb />zu derselben und sämbtlicher Augspurg[ischer] Con-
+                <lb />feszions Verwanther Stände gehörender Si&lt;cher&gt;-
+                <lb />ung, der Herrn Catholischen Chur- Fürsten und
+                <lb />Stände allerseits, oder des mehrern Theils
+                <lb />&nbsp;und waß die Hohen Ertz und Stift belanget
+                <lb />
+                <pb facs="#FacsPnr79"/>zugleich der Domb Capitul beliebung und bekreft-
+                <lb />igung, dieses Vertrags originaliter Ehistes über-
+                <lb />schickhet, auch hierinen keinem Standt, Er seÿ einer
+                <lb />oder der andern Religion zugethan oder Ver-
+                <lb />wandt, einige Außflucht oder Verzögerung nicht
+                <lb />Verstattet, sondern eine durchgehende gleichheit
+                <lb />hierinne gehalten, Und treülich, Teütsch und Uf-
+                <lb />recht, in allen Verfahren werden. Inmaßen
+                <lb />dann auch deßen von Kaÿ[serlicher] und Königl[icher] Maÿ[estäten]
+                <lb />Seine Churf[ürstliche] D[urchlaucht] zu Sachßen und dero
+                <lb />Augspurg[ische] Confeszions Verwanthe mit Stände
+                <lb />hiermit Kaÿserlichen und Königlichen Versichert
+                <lb />sein sollen.
+                <lb />
+                <lb />Schließlich haben Sich Ihr Kaÿ[serliche] Maÿ[estät] und Churf[ürstliche]
+                <lb />D[urchlaucht] zu&lt;.&gt; Sachßen bedächtlich Erinnert, daß außer
+                <lb />eines gemeinen Reichs- oder Je zum wenigsten
+                <lb />Deputation Tags, dergleichen das gantze Reich be-
+                <lb />treffende hohe schlüße nicht zumachen, gestalt dan
+                <lb />&nbsp;auch Ihre Kaÿ[serliche] Maÿ[estät] und Churf[ürstliche] D[urchlaucht] (da es
+                <lb />
+                <pb facs="#FacsPnr80"/>nur die ietzige, mit so gar sonderbahren, schweren
+                <lb />Umbstenden Umbgebene Klagliche Reichs be&lt;wand&gt;-
+                <lb />nus gestattet, Und kein sonderbahr eillendt &lt;un&gt;
+                <lb />verzüglich Rettungs Mitel erfordert hette)
+                <lb />solches gerne Sorgfeltig in Acht genomben.
+                <lb />Ist Sich demnach Verwahrt worden, Undt &lt;wirdt&gt;
+                <lb />&nbsp;nochmals hiemit Klerlich bedinget, daß der
+                <lb />dißmahls auß Unumbgenglicher Noth ge-
+                <lb />brauchte Modus dem Heil[igen] Römischen Rei&lt;ch und&gt;
+                <lb />dessen sambt oder sonderlichen glidern sonst
+                <lb />zu&lt;.&gt; ewigen Tagen keine præjudicirliche C&lt;on&gt;-
+                <lb />sequenz oder beschwerlichen eingang bringen
+                <lb />oder von Jemandt vor ein Exempel angezogen
+                <lb />werden solle.
+                <lb />
+                <lb />In Urkundt Seindt dieser Brieffe dreÿ auf
+                <lb />Pergamen originaliter außgeferttigt,
+                <lb />deren Jeder Von Röm[ischen] Kaÿ[serlichen] Maÿ[estät] auch
+                <lb />Churf[ürstlicher] D[urchlaucht] zu Sachßen Vor Sich und dero 
+                <pb facs="#FacsPnr81"/>Nachkom[m]en selbst hendig Underschrieben, Und mit
+                <lb />anhengung dero Kaÿ[serlichen] und Churf[ürstlichen] Insigill
+                <lb />Verwarth, Und das Eine Ex[em]plar der Kaÿ[serlichen] Maÿ[estät]
+                <lb />daß andere Ihrer Churf[ürstlichen] Gn[aden] zu Maintz zu&lt;.&gt;
+                <lb />&nbsp;dero Reichs Cantzleÿ, daß dritte Ihrer Churf[ürstlichen]
+                <lb />D[urchlaucht] zu Sachßen zu gestelt worden. Geschehen
+                <lb />zu Praga, den dreÿßigsten Maÿ Anno Christÿ,
+                <lb />Unsers Erlösers und Seligmachers Ein Tausent
+                <lb />Sechs Hundert fünffunddreÿßig.
+                <lb />
+                <lb />Maximilian Graf zu Trauttmansdorff
+                <lb />Ferdinandt Sigmundt Khuntz
+                <lb />&lt;......&gt;
+                <lb />Justus Gebhardt m.p.ia
+                <lb />Da&lt;..&gt;? Döring
+                <lb />&lt;..&gt;von Sebottendorf&nbsp; mp
+                <lb />Johan George Oppel mp
+                <lb />
+                </p>
+            </div>
+        </body>
+        <back>
+            <listBibl>
+                <bibl xml:id="a11">
+                    <title level="a">Theatrum Europaeum (1635-05-30)</title>
+                    <title level="m">Theatrum Europaeum, Band 3 (1633-1638) Aus: Dokumentenarchiv
+                        der Universitätsbibliothek Augsburg (Drucke vor 1900 / Historische
+                        Geschichtswerke).</title>
+                    <biblScope>
+                        <graphic xml:id="A1Pnr1"
+                            url="https://www.ieg-friedensvertraege.de/dbimages/img_49e59b482899e"/>
+                        <graphic xml:id="A1Pnr2"
+                            url="https://www.ieg-friedensvertraege.de/dbimages/img_49e59b506428c"/>
+                        <graphic xml:id="A1Pnr3"
+                            url="https://www.ieg-friedensvertraege.de/dbimages/img_49e59b58680db"/>
+                        <graphic xml:id="A1Pnr4"
+                            url="https://www.ieg-friedensvertraege.de/dbimages/img_49e59b6345db8"/>
+                        <graphic xml:id="A1Pnr5"
+                            url="https://www.ieg-friedensvertraege.de/dbimages/img_49e59b780947a"/>
+                        <graphic xml:id="A1Pnr6"
+                            url="https://www.ieg-friedensvertraege.de/dbimages/img_49e59b780947a"/>
+                        <graphic xml:id="A1Pnr7"
+                            url="https://www.ieg-friedensvertraege.de/dbimages/img_49e59b829ac5b"/>
+                        <graphic xml:id="A1Pnr8"
+                            url="https://www.ieg-friedensvertraege.de/dbimages/img_49e59b8c2e5bd"/>
+                        <graphic xml:id="A1Pnr9"
+                            url="https://www.ieg-friedensvertraege.de/dbimages/img_49e59b983df75"/>
+                        <graphic xml:id="A1Pnr10"
+                            url="https://www.ieg-friedensvertraege.de/dbimages/img_49e59ba37a7f0"/>
+                        <graphic xml:id="A1Pnr11"
+                            url="https://www.ieg-friedensvertraege.de/dbimages/img_49e59bb588241"/>
+                        <graphic xml:id="A1Pnr12"
+                            url="https://www.ieg-friedensvertraege.de/dbimages/img_49e59bbf257e7"/>
+                        <graphic xml:id="A1Pnr13"
+                            url="https://www.ieg-friedensvertraege.de/dbimages/img_49e59bc5b4101"/>
+                        <graphic xml:id="A1Pnr14"
+                            url="https://www.ieg-friedensvertraege.de/dbimages/img_49e59bcc7c634"/>
+                    </biblScope>
+                </bibl>
+                <bibl xml:id="a204">
+                    <title level="a">Reichsarchiv (1635-05-30)</title>
+                    <title level="m">Reichsarchiv, Band 3 (1713), PGen Con II, S.87-102 Aus:
+                        Dokumentenarchiv der Universitätsbibliothek Augsburg (Drucke vor 1900 /
+                        Historische Geschichtswerke).</title>
+                    <biblScope>
+                        <graphic xml:id="A2Pnr1"
+                            url="https://www.ieg-friedensvertraege.de/dbimages/img_4a9553307e79d"/>
+                        <graphic xml:id="A2Pnr2"
+                            url="https://www.ieg-friedensvertraege.de/dbimages/img_4a9553376aef5"/>
+                        <graphic xml:id="A2Pnr3"
+                            url="https://www.ieg-friedensvertraege.de/dbimages/img_4a95533e120ef"/>
+                        <graphic xml:id="A2Pnr4"
+                            url="https://www.ieg-friedensvertraege.de/dbimages/img_4a9553453c0a6"/>
+                        <graphic xml:id="A2Pnr5"
+                            url="https://www.ieg-friedensvertraege.de/dbimages/img_4a95534e863f0"/>
+                        <graphic xml:id="A2Pnr6"
+                            url="https://www.ieg-friedensvertraege.de/dbimages/img_4a9553550d24b"/>
+                        <graphic xml:id="A2Pnr7"
+                            url="https://www.ieg-friedensvertraege.de/dbimages/img_4a95535b46c08"/>
+                        <graphic xml:id="A2Pnr8"
+                            url="https://www.ieg-friedensvertraege.de/dbimages/img_4a955361bedc4"/>
+                        <graphic xml:id="A2Pnr9"
+                            url="https://www.ieg-friedensvertraege.de/dbimages/img_4a955368d83d9"/>
+                        <graphic xml:id="A2Pnr10"
+                            url="https://www.ieg-friedensvertraege.de/dbimages/img_4a95536f33316"/>
+                        <graphic xml:id="A2Pnr11"
+                            url="https://www.ieg-friedensvertraege.de/dbimages/img_4a95537693dcd"/>
+                        <graphic xml:id="A2Pnr12"
+                            url="https://www.ieg-friedensvertraege.de/dbimages/img_4a95537da08c4"/>
+                        <graphic xml:id="A2Pnr13"
+                            url="https://www.ieg-friedensvertraege.de/dbimages/img_4a955384b123b"/>
+                        <graphic xml:id="A2Pnr14"
+                            url="https://www.ieg-friedensvertraege.de/dbimages/img_4a95538aecb37"/>
+                        <graphic xml:id="A2Pnr15"
+                            url="https://www.ieg-friedensvertraege.de/dbimages/img_4a955391d2530"/>
+                        <graphic xml:id="A2Pnr16"
+                            url="https://www.ieg-friedensvertraege.de/dbimages/img_4a9553984998c"/>
+                    </biblScope>
+                </bibl>
+                <bibl>Briefe und Akten zur Geschichte des Dreißigjährigen Krieges, N.F.: Die Politik
+                    Maximilians von Bayern und seiner Verbündeten 1618-1651, Bd. II/10, 1-4: Der
+                    Prager Friede, hg. von der Historischen Kommission bei der Bayerischen Akademie
+                    der Wissenschaften. Bearb. v. Kathrin Bierther. München-Wien 1997. Adam
+                    Wandruszka, Reichspatriotismus und Reichspolitik zur Zeit des Prager Friedens
+                    von 1635. Graz-Köln 1955.</bibl>
+            </listBibl>
+        </back>
+    </text>
+</tei:TEI>

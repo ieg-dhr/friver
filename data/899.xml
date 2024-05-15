@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE tei SYSTEM "../resources/FriVer_DTD.dtd">
+
+<?xml-model href="../resources/FriVer.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns="http://www.tei-c.org/ns/1.0"
+    xml:id="pa000299-0899">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title level="s">European peace treaties of the pre-modern era in data / Europäische
+                    Friedensverträge der Vormoderne in Daten (FriVer+)</title>
+                <title when="1667-05-04" xml:id="t899" when-custom="1667 V 4" level="a"
+                    ref="https://www.ieg-friedensvertraege.de/treaty/t-899-1-de.html">Separatartikel
+                    zum Freundschafts- und Beistandsvertrag von St.Germain-en-Laye</title>
+            </titleStmt>
+            <editionStmt>
+                <edition> Digital edition according to <ref target="http://www.tei-c.org/">TEI
+                        P5</ref>
+                </edition>
+                <funder>
+                    <ref target="https://www.text-plus.org/">TEXT+</ref>
+                </funder>
+                <editor role="http://id.loc.gov/vocabulary/relators/edt"
+                    ref="https://orcid.org/0000-0002-8741-5916">
+                    <persName>Jaap Geraerts</persName>
+                    <note>The transformation and enrichment of the data is done by Jaap Geraerts
+                        (IEG Mainz). The other members of the FriVer+ team are Fabian Cremer, Ines
+                        Grund, and Thorsten Wübbena (all IEG Mainz).</note>
+                    <note> The original data has been created by the <ref
+                            target="https://www.ieg-friedensvertraege.de">team of scholars</ref> who
+                        were part of the Europäische Friedensverträge der Vormoderne project. This
+                        project was lead by Prof. Dr. Heinz Duchhardt and was based at the Leibniz
+                        Institute of European History in Mainz. </note>
+                </editor>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>
+                    <orgName ref="http://www.isni.org/0000000119314040">Leibniz-Institut für
+                        Europäische Geschichte Mainz</orgName>
+                </publisher>
+                <distributor>
+                    <orgName ref="http://www.isni.org/0000000110101946">Universitäts- und
+                        Landesbibliothek Darmstadt</orgName>
+                </distributor>
+                <idno type="ISIL">http://lobid.org/organisation/DE-17</idno>
+                <date type="issued" when="2023-12-23"/>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">
+                        <p xml:lang="en">This file is licensed under the terms of the Creative
+                            Commons License CC-BY 4.0 (Attribution 4.0 International)</p>
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <repository xml:id="r21">Muenster StA/LA <note>Archivportal NRW, Findbuch:<lb/>
+                        <ref
+                            target="http://www.archive.nrw.de/LAV_NRW/jsp/findbuch.jsp?archivNr=451&amp;verzguid=42c66056-f094-44b0-924f-46b92d89d985ACTAPRO"
+                            >http://www.archive.nrw.de/LAV_NRW/jsp/findbuch.jsp?archivNr=451&amp;verzguid=42c66056-f094-44b0-924f-46b92d89d985ACTAPRO</ref></note>
+                </repository>
+                <msDesc>
+                    <p>&nbsp; LWL - Westfälisches Archivamt Münster, Haus Assen, L 502
+                        (Separatartikel).</p>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p> The data in this XML file, originally created by the project <ref
+                        target="https://www.ieg-friedensvertraege.de/vertraege">Europäische
+                        Friedensverträge der Vormoderne online</ref> has been transformed in
+                    accordance with <ref target="http://www.tei-c.org/">TEI P5</ref> as part of the
+                    project <ref
+                        target="https://www.ieg-mainz.de/en/research/research-projects/european-peace-treaties-of-the-pre-modern-era-in-data"
+                        >Europäische Friedensverträge der Vormoderne in Daten (FriVer+)</ref>
+                </p>
+            </projectDesc>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="fr" xml:id="lan4">französisch</language>
+            </langUsage>
+        </profileDesc>
+    </teiHeader>
+    <standOff>
+        <listPerson>
+            <person role="signatory" xml:id="p37">
+                <persName ref="https://explore.gnd.network/gnd/4018145-5">
+                    <name>Frankreich</name>
+                </persName>
+            </person>
+            <person role="signatory" xml:id="p78">
+                <persName ref="https://explore.gnd.network/gnd/4040608-8">
+                    <name>Münster</name>
+                </persName>
+            </person>
+        </listPerson>
+        <listPlace>
+            <place xml:id="loc38">
+                <placeName ref="https://explore.gnd.network/gnd/4116311-4">Saint - Germain - en -
+                    Laye</placeName>
+            </place>
+        </listPlace>
+        <facsimile>
+            <surface xml:id="FacsPnr1">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_45e415f6137a6"/>
+            </surface>
+            <surface xml:id="FacsPnr2">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_45e41614cdf06"/>
+            </surface>
+            <surface xml:id="FacsPnr3">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_45e4163317430"/>
+            </surface>
+            <surface xml:id="FacsPnr4">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_45e41659d59d1"/>
+            </surface>
+            <surface xml:id="FacsPnr5">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_45e4167be71fa"/>
+            </surface>
+        </facsimile>
+    </standOff>
+    <text>
+        <front>
+            <div type="Drucke">
+                <p>Wilhelm Kohl (Hg.), Akten und Urkunden zur Aussenpolitik Christoph Bernhards von
+                    Galen (1650-1678), Münster 1980, II, S.77-79.</p>
+            </div>
+        </front>
+        <body>
+            <div type="Transliteration">
+                <pb facs="#FacsPnr1"/>
+                <p>[Seite 1] <lb/>Outre les articles contenus dans le traitté d'Alliance qui a
+                    <lb/>esté conclu et signé aujourdhuy par le S[ieu]r de Lionne <lb/>au Nom du Roy
+                    et le S[ieu]r Commandeur Smising au nom <lb/>de Monsieur l'Evesque de Munster en
+                    vertu de leurs <lb/>pleins pouvoirs respectifz, Ils sont encore tombez d'accord
+                    <lb/>des pointz suivantz qui auront la mesme force et <lb/>vigueur que s'ils
+                    estoient inserez de mot a mot dans <lb/>le susdit traitté: <lb/>Sa Majesté en
+                    premier lieu pour donner a Monsieur <lb/>l'Evesque de Munster de nouvelles
+                    marques de sa <lb/>bienveillance, et de son estime, promet de luy faire
+                    <lb/>payer en vertu du present traitté trente six mille <lb/>Risdalles par an,
+                    qui luy seront fournis en deux <lb/>payementz esgaux dans la ville de Francfort,
+                    dont <lb/>le premier de dix huiet mille Risdalls se fera en <lb/>fournissant la
+                    Ratification du present traitte, <lb/>Le deuxiesme aussy de dix huiet mille
+                    Risdalles <lb/>a la prochaine foire de Septembre de ladite Ville de
+                    <lb/>Francfort et ainsy de foire en foire dix huiet mille <lb/>Risdalles,
+                    chacune jusqu'a l'expiration du present <lb/>Traitté. <lb/>En second lieu ledit
+                    Sieur Evesque s'engage réciproquement <pb facs="#FacsPnr2"/>[Seite 2] <lb/>
+                    <lb/>d´entretenir bonnes trouppes lesquelles ainsy qu'il est <lb/>porté dans le
+                    susdit traitté ne seront moindres en tout <lb/>temps de deux mille cinq cens
+                    hommes de pied de cinq <lb/>cens chevaux. Mais comme en cas de guerre entre le
+                    <lb/>Roy et la Maison d'Austriche Il se trouverroit obligé <lb/>tant pour la
+                    seureté de ses Estatz que pour l'observation <lb/>du susdit traitté et des
+                    presentz articles de mettre plus <lb/>de trouppes sur pied, et d augmenter le
+                    nombre marqué <lb/>cy dessus de quinze cens hommes de pied et de treize
+                    <lb/>cens chevaux, Sa Majesté promet et s'engage dès <lb/>a present que pour
+                    lors Elle luy fera compter <lb/>quarante mil Risdalles pour les fraiz de la
+                    levée, Et <lb/>cent et dix mille Risdalles par an, a payer de trois <lb/>mois en
+                    trois mois audit lieu de Francfort tant et si <lb/>longtemps que la guerre
+                    durera ; Bien entendu que <lb/>ladite somme sera pour l'entretenement des quatre
+                    <lb/>mille fantassins et dix&nbsp; huiet cens chevaux auxquels <lb/>ledit Sieur
+                    Evesque s'oblige. <lb/>Et comme en troisiesme lieu les exemples du passé
+                    <lb/>donnent a Son Altesse juste sujet de craindre que <lb/>l'Empereur ayant
+                    trop d'esgard ans interestz des <lb/>Espagnols, pourroit envoyer des trouppes en
+                    Flandres <pb facs="#FacsPnr3"/>[Seite 3] <lb/>
+                    <lb/>soit en Corps d'Armée ou autrement, durant la guerre <lb/>qui pourra
+                    naistre entre la Couronne de France et celle <lb/>d'Espagne, et, en
+                    contrevenant&nbsp; ainsy aux Constitutions de <lb/>l´Empire au traitté de
+                    Munster et a sa Capitulation de <lb/>Francfort, exposer l'Allemagne a une
+                    nouvelle guerre, <lb/>Monsieur l'Evesque de Munster engage aussy
+                    <lb/>reciproquement sa parole a Sadite Majesté tres <lb/>Chrestienne, non
+                    seulement de n'accorder point de <lb/>passages auxdites trouppes par ses Estatz,
+                    sur la <lb/>requisition qui pourroit luy en entre faite, mais aussy <lb/>de
+                    s'opposer de bonne foy, de tout son pouvoir a ce qu'il <lb/>ne le puisse prendre
+                    par force ny dans ses Estatz <lb/>ny dans ceux de ses Voisins situez sur le
+                    Rhein, <lb/>ou l'Empereur eut moyen de faire passer lesdites <lb/>trouppes; Et
+                    pour cet effect ledit Sieur Evesque promet <lb/>et s'engage de joindre ses
+                    trouppes a celles des autres <lb/>Princes qui auront pris le mesme engagement
+                    avecq <lb/>Luy, comme aussy avec ladite Majesté, pour fermer <lb/>aux trouppes
+                    Imperialles tous les passages dudit fleuve <lb/>du Rhein, depuis le commencement
+                    des Estatz de <lb/>&nbsp;l'Archevesché de Mayence inclusivement, jusques aux
+                    <lb/>Places que les Hollandois possedent sur ledit fleuve, <lb/>
+                    <pb facs="#FacsPnr4"/>[Seite 4] <lb/>
+                    <lb/>&lt;…&gt; en propre ou en depost ; Et en cas qu'on trouvait que <lb/>le
+                    Corps de l'Armée de l'Empereur fut plus fort que <lb/>celuy qu'il aura assemble
+                    avecq les Princes Ses Alliez <lb/>pour s'opposer a son passage, et que ladite
+                    Majesté <lb/>tres Chrestienne veuille envoyer pour les fortifier <lb/>tel nombre
+                    de ses trouppes de Cavallerie et <lb/>d'Infanterie qu'on jugera apropos, ledit
+                    Sieur <lb/>Evesque promet encor non seulement d'agréer cette <lb/>Jonction ;
+                    Mais de faire agir ses trouppes de <lb/>concert avecq celles de ladite Majesté,
+                    et s'opposer <lb/>coniointement aux passages du Corps d'Armée de <lb/>l'Empereur
+                    sur le fleuve du Rhein, depuis le <lb/>commencement des Estatz de l´Archevesché
+                    de <lb/>Mayence, jusques a ceux des Provinces unies comme <lb/>il a esté dit cy
+                    dessus. <lb/>En quatriesme et dernier lieu, si a l'occasion de ce que <lb/>ledit
+                    Sieur Evesque de Munster pourroit faire <lb/>en vertu du present traitté, ou
+                    souz quelque autre <lb/>pretexte Il venoit a estre attaqué par l'Empereur
+                    <lb/>ou quelque autre Prince, Republique ou Puissance <lb/>que ce puisse estre,
+                    Sa Majesté s'engage aussy <lb/>et promet en foy et parole de Roy de l'assister
+                    <lb/>
+                </p>
+                <pb facs="#FacsPnr5"/>
+                <p>[Seite 5] <lb/>
+                    <lb/>de trouppes ou d'argent contre quiconque l'attaquera <lb/>soit de force
+                    ouverte ou autrement, et de ne traitter <lb/>point de paix avec les Ennemis,
+                    jusques a ce que <lb/>ledit Sieur Evesque et ses sujets soient dedommagez
+                    <lb/>du passé et ayent bonne seureté pour l'advenir. <lb/>Les suditz articles,
+                    qui seront tenus de part et d'autre <lb/>dans le dernier secret, ont esté
+                    pareillement arrestez <lb/>entre lesditz S[ieu]rs de Lionne et le Commandeur
+                    <lb/>Smising, dont Ils promettent de fournir les <lb/>Ratifications dans un mois
+                    aussy que de l'autre <lb/>Traitté ; En foy de quoy Ils les ont aussy subscript
+                    <lb/>de leurs propres mains et a jceux fait apposer le <lb/>cachet de leurs
+                    Armes. Fait a Saint Germain <lb/>en Laye le quatriesme jour de May l´an mil-
+                    <lb/>six cens soixante sept. <lb/>
+                    <lb/>Hugues de Lionne, plenipotent[iai]re du Roy </p>
+                <p>
+                    <lb/>Le &lt;chevalier&gt; Korff nomme Schmisingh, plenipotentiaire du Monsieur
+                    <lb/>l'Evesque de Munster </p>
+            </div>
+        </body>
+    </text>
+</tei:TEI>

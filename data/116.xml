@@ -1,0 +1,1043 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE tei SYSTEM "../resources/FriVer_DTD.dtd">
+
+<?xml-model href="../resources/FriVer.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns="http://www.tei-c.org/ns/1.0"
+    xml:id="pa000299-0116">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title level="s">European peace treaties of the pre-modern era in data / Europäische
+                    Friedensverträge der Vormoderne in Daten (FriVer+)</title>
+                <title when="1700-08-18" xml:id="t116" when-custom="1700 VIII 18" level="a"
+                    ref="https://www.ieg-friedensvertraege.de/treaty/t-116-1-de.html"
+                    >Friedensvertrag von Traventhal</title>
+            </titleStmt>
+            <editionStmt>
+                <edition> Digital edition according to <ref target="http://www.tei-c.org/">TEI
+                        P5</ref>
+                </edition>
+                <funder>
+                    <ref target="https://www.text-plus.org/">TEXT+</ref>
+                </funder>
+                <editor role="http://id.loc.gov/vocabulary/relators/edt"
+                    ref="https://orcid.org/0000-0002-8741-5916">
+                    <persName>Jaap Geraerts</persName>
+                    <note>The transformation and enrichment of the data is done by Jaap Geraerts
+                        (IEG Mainz). The other members of the FriVer+ team are Fabian Cremer, Ines
+                        Grund, and Thorsten Wübbena (all IEG Mainz).</note>
+                    <note> The original data has been created by the <ref
+                            target="https://www.ieg-friedensvertraege.de">team of scholars</ref> who
+                        were part of the Europäische Friedensverträge der Vormoderne project. This
+                        project was lead by Prof. Dr. Heinz Duchhardt and was based at the Leibniz
+                        Institute of European History in Mainz. </note>
+                </editor>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>
+                    <orgName ref="http://www.isni.org/0000000119314040">Leibniz-Institut für
+                        Europäische Geschichte Mainz</orgName>
+                </publisher>
+                <distributor>
+                    <orgName ref="http://www.isni.org/0000000110101946">Universitäts- und
+                        Landesbibliothek Darmstadt</orgName>
+                </distributor>
+                <idno type="ISIL">http://lobid.org/organisation/DE-17</idno>
+                <date type="issued" when="2023-12-23"/>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">
+                        <p xml:lang="en">This file is licensed under the terms of the Creative
+                            Commons License CC-BY 4.0 (Attribution 4.0 International)</p>
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <repository xml:id="r13">Kopenhagen RA</repository>
+                <msDesc>
+                    <p>Landesarchiv Schleswig-Holstein: (kein Nachweis).</p>
+
+                    <p>Dänisches Reichsarchiv, Kopenhagen:&nbsp; Kongehusets og Rigets arkiv:
+                        Forholdet til udlandet (Traktater), E 2 Holsten-Gottorp nr. 2 (Hauptvertrag).<lb/>
+                        <lb/> Weitere Stücke:<lb/>
+                        <lb/> Kollationierungsvorlage: LASchleswig Abt. 7 Nr 3573: 2 Abschriften der
+                        6 Separatartikel*. Garantie Großbritanniens Hampton-Court 1700 XII 9 (kein
+                        Nachweis).</p>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p> The data in this XML file, originally created by the project <ref
+                        target="https://www.ieg-friedensvertraege.de/vertraege">Europäische
+                        Friedensverträge der Vormoderne online</ref> has been transformed in
+                    accordance with <ref target="http://www.tei-c.org/">TEI P5</ref> as part of the
+                    project <ref
+                        target="https://www.ieg-mainz.de/en/research/research-projects/european-peace-treaties-of-the-pre-modern-era-in-data"
+                        >Europäische Friedensverträge der Vormoderne in Daten (FriVer+)</ref>
+                </p>
+            </projectDesc>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="de" xml:id="lan2">deutsch</language>
+            </langUsage>
+        </profileDesc>
+    </teiHeader>
+    <standOff>
+        <listPerson>
+            <person role="signatory" xml:id="p32">
+                <persName ref="https://explore.gnd.network/gnd/4010877-6">
+                    <name>Dänemark</name>
+                </persName>
+            </person>
+            <person role="signatory" xml:id="p138">
+                <persName ref="https://explore.gnd.network/gnd/4514664-0">
+                    <name>Schleswig - Holstein - Gottorf</name>
+                </persName>
+            </person>
+            <person xml:id="p94">
+                <persName ref="https://explore.gnd.network/gnd/4101204-5">
+                    <name>Generalstaaten</name>
+                </persName>
+            </person>
+            <person xml:id="pp0179">
+                <persName ref="https://explore.gnd.network/gnd/119546256">
+                    <name>Friedrich IV. (Dänemark und Norwegen)</name>
+                </persName>
+            </person>
+            <person xml:id="pp0180">
+                <persName ref="https://explore.gnd.network/gnd/104193336">
+                    <name>Friedrich IV., Schleswig-Holstein-Gottorf</name>
+                </persName>
+            </person>
+            <person xml:id="pp0181">
+                <persName ref="https://explore.gnd.network/gnd/118505084">
+                    <name>August II. (Polen)</name>
+                </persName>
+            </person>
+            <person xml:id="pp0182">
+                <persName ref="https://explore.gnd.network/gnd/118560123">
+                    <name>Karl XII. (Schweden)</name>
+                </persName>
+            </person>
+            <person xml:id="pp0183">
+                <persName ref="https://explore.gnd.network/gnd/1144428580">
+                    <name>Johan Hugo von Lente</name>
+                </persName>
+            </person>
+            <person xml:id="pp0184">
+                <persName ref="https://explore.gnd.network/gnd/135549671">
+                    <name>Christoph von Blome</name>
+                </persName>
+            </person>
+            <person xml:id="pp0185">
+                <persName ref="https://explore.gnd.network/gnd/100879586">
+                    <name>Magnus von Wedderkop</name>
+                </persName>
+            </person>
+            <person xml:id="pp0186">
+                <persName ref="https://explore.gnd.network/gnd/1243970804">
+                    <name>William III of England</name>
+                </persName>
+            </person>
+        </listPerson>
+        <listPlace>
+            <place xml:id="loc62">
+                <placeName ref="https://explore.gnd.network/gnd/7736875-7">Traventhal</placeName>
+            </place>
+        </listPlace>
+        <facsimile>
+            <surface xml:id="FacsPnr1">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_4624be332d36b"/>
+            </surface>
+            <surface xml:id="FacsPnr2">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_4624becc9195a"/>
+            </surface>
+            <surface xml:id="FacsPnr3">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_4624bed77b1bb"/>
+            </surface>
+            <surface xml:id="FacsPnr4">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_4624bee703f1f"/>
+            </surface>
+            <surface xml:id="FacsPnr5">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_4624bef2a7fdb"/>
+            </surface>
+            <surface xml:id="FacsPnr6">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_4624befe222f8"/>
+            </surface>
+            <surface xml:id="FacsPnr7">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_4624bf0aa600e"/>
+            </surface>
+            <surface xml:id="FacsPnr8">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_4624bf17435a3"/>
+            </surface>
+            <surface xml:id="FacsPnr9">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_4624bf2224162"/>
+            </surface>
+            <surface xml:id="FacsPnr10">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_4624bf2e01e3c"/>
+            </surface>
+            <surface xml:id="FacsPnr11">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_4624bf39b1a74"/>
+            </surface>
+            <surface xml:id="FacsPnr12">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_4624bf44770b5"/>
+            </surface>
+            <surface xml:id="FacsPnr13">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_4624bf4fb0a51"/>
+            </surface>
+            <surface xml:id="FacsPnr14">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_4624bf5f2ebd5"/>
+            </surface>
+            <surface xml:id="FacsPnr15">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_4624bf6b7cd89"/>
+            </surface>
+            <surface xml:id="FacsPnr16">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_4624bf779c140"/>
+            </surface>
+        </facsimile>
+    </standOff>
+    <text>
+        <front>
+            <div type="Drucke">
+                <p>[Transkriptionsgrundlage:] Landesarchiv Schleswig-Holstein: Abt. 7 Nr. 535
+                    (zeitgenössischer Druck; Travendahlischer Friede, geschlossen den 18. Augusti
+                    Anno MDCC). <lb/>[Kollationierungsvorlagen:] CTS, S. 81-97. Dumont 7/2, S.
+                    480-485. Theatrum Europaeum 15, S. 772 - 774. [Weitere Drucke:] Lünig, Teutsches
+                    Reichs-Archiv, pars specialis, continuatio 2(II) (4) (10), S. 224. Faber,
+                    Europäische Staatskanzley 5, S. 693. Actorum Publicorum der zu mehreren Begriff
+                    der Schleswig-Holsteinischen Affairen, Fasciculus 10, S. 60. Thucelius, Acta
+                    Publica S.R.Imp., part II, S. 833. Danmark-Norges Traktater 11, S. 378-386.
+                    Lamberty, Mémoires pour servir à la histoire du XVIII siècle. 1735, I, S.52
+                    (frz.). <lb/></p>
+            </div>
+            <div type="Inhalt">
+                <p>Trotz der früheren Friedensschlüsse (1679, 1689): erneuter Krieg. Mediatioren.
+                    <lb/>Art. 1 Amnestie <lb/>Art. 2 Bestätigung früherer Verträge (1533, 1623,
+                    1658, 1660, 1679, 1689, 1697). <lb/>Art. 3 Fortsetzung der bisherigen
+                    gemeinsamen Regierung. Bedingungen dafür. <lb/>Art. 4 Gleichheit der beiden
+                    Landesteile, auch deren Herrscher. <lb/>Art. 5 Landesverteidigung bei
+                    gemeinsamer Bedrohung. Landesverteidigung bei Bedrohung eines Landesteils. Jus
+                    Armorum. Verteidigunsrecht. Befestigungsrecht. Begrenzung der Zahl der dänischen
+                    Soldaten. Truppenstationierung und durchmarsch. <lb/>Art. 6 Execution des
+                    Altonaer Vergleichs binnen 6 Wochen. <lb/>Art. 7 Einhaltung Glückstädter Rezeß.
+                    <lb/>Art. 8 Einhaltung Glückstädter Rezeß bzgl. Lübecker Kapitel. <lb/>Art. 9
+                    Zahlung von 260.0000 Reichstalern von Dänemark an Gottorf. Modalitäten.
+                    <lb/>Art. 10 Austausch von Orten, die Differenzen verursacht haben. <lb/>Art. 11
+                    Zoll von Tundern. <lb/>Art. 12 Insel Brevenhoff vor dem Hamburger Hafen.
+                    <lb/>Art. 13 Einschluß der Garanten des Altonaer Vergleichs in den Vertrag. Kein
+                    Angriff Dänemarks auf Schweden oder die hannoverschen Gebiete. Keine gegen diese
+                    gerichteten Bündnisse. Auch vice versa. <lb/>Art. 14 Kaiser und die übrigen
+                    Garanten des Altonaer Vergleichs sollen auch diesen Vertrag garantieren.
+                    <lb/>Art. 15 Ratifikationen innerhalb 7 Tagen. </p>
+                <p>Separatartikel 1. Herzogtum Holstein-Plön bleibt unberührt von diesem Vertrag.
+                    <lb/>Separarartikel 2. Waffenruhe auch mit Schweden auf den dänischen Inseln
+                    (Seeland). Schwedischer Rückzug von dort. <lb/>Separatartikel 3. Verpfändungen
+                    bei Nichtzahlung der Kontributionen gemäß Art. 9. <lb/>Separatartikel 4. Lübeck
+                    und zugehörige Orte. <lb/>Separatartikel 5. Stift und Kapitel Lübeck.
+                    <lb/>Separatartikel 6. Elbhandel. <lb/>
+                </p>
+            </div>
+            <div type="Kommentar">
+                <p>Den Angriff Sachsen-Polens und Rußlands auf das schwedische Livland nutzte
+                    Dänemark, um zu Beginn des Nordischen Krieges in Schleswig-Holstein
+                    einzumarschieren. Als Schweden sich gegen Dänemark wandte und Braunschweig,
+                    Hannover und die Niederlande als Garantiemächte des Altonaer Vergleichs Holstein
+                    militärisch unterstützten, mußte Dänemark bereits im August 1700 zu Traventhal
+                    einen Frieden akzeptieren, der den status quo ante wiederherstellte. Zudem mußte
+                    Dänemark Schleswig-Holstein das Bündnis-, Bewaffnungs- und Befestigungsrecht
+                    zugestehen. Dies bedeutete für Gottorf den Höhepunkt seiner Machtstellung**.
+                    Nach dem Tod Herzog Friedrich IV., der in der Schlacht von Klissov auf Seiten
+                    Schwedens fiel, blieb Schleswig-Hostein von den Wirren des Nordischen Krieges
+                    bis 1713 verschont, als eine schwedische Armee die Herzogtümer besetzte. Gottorf
+                    versuchte, nach außen einen Neutralitätskurs zu steuern, paktierte aber
+                    weiterhin mit Schweden gegen Dänemark. Damit stand Gottorf am Kriegsende auf
+                    Seiten des Verlierers. Im Frieden von Fredriksborg 1720 garantierte Schweden
+                    Dänemark seinen Besitz im Herzogtum Schleswig. Im August 1721 legten die Stände
+                    den Eid auf den dänischen König Friedrich IV. ab. Damit hatte der dänische König
+                    auch offiziell die Herrschaft über die gottorfischen Besitzungen in Schleswig
+                    erworben. Der Gottorfer Herzog Karl Friedrich behielt als Reichslehen nur seinen
+                    Besitz in Holstein. Aus dem Herzogtum Schleswig-Holstein-Gottorf war Holstein
+                    Gottorf geworden.***<lb/></p>
+            </div>
+            <div type="Kontext">
+                <p>1460 <lb/>Wahl des dänischen Königs Christian zum Herzog von Schleswig und Grafen
+                    von Holstein. <lb/>1481 <lb/>Nach dem Tod Christian I. wählen die Stände seine
+                    beiden Söhne Friedrich und Johann zu Landesherren. Johann ist gleichzeitig
+                    dänischer König. <lb/>1490 <lb/>Nach der Volljährigkeit Friedrichs wird das Land
+                    erstmals geteilt in einen herzoglichen (Gottorfer) Anteil und einen königlichen
+                    (Segeberger) Anteil. Die Einheit besteht auf dem Papier weiter.<lb/>1544
+                    <lb/>Schleswig-Holsteinische Hauptlandesteilung. Es entsteht erneut ein
+                    herzoglicher und ein königlicher Anteil in einer ausgeprägten Gemengelage.
+                    Schleswig bleibt dänisches Lehen, Holstein Reichslehen.<lb/>1658
+                    <lb/>Kopenhagener Vergleich. Gestützt auf Schweden erreicht Herzog Friedrich
+                    III. die Souveränität über seine Besitzungen in Schleswig. Dänemark versucht in
+                    der Folgezeit, diesen Verlust rückgängig zu machen. Gottorf sucht Anlehnung an
+                    Schweden.<lb/>1667 <lb/>Glückstedter Rezeß. Vorübergehende Annäherung Herzog
+                    Christian Albrechts und König Friedrich III. <lb/>1675 <lb/>Rendsburger
+                    Vergleich. Dänemark erzwingt nach gewonnenem Krieg gegen die Schweden die
+                    Aufgabe der (relativen) Selbständigkeit Schleswig-Holstein-Gottorfs. Der Herzog
+                    muß fliehen.<lb/>23. August/ 2. September 1679 <lb/>Friede von Fontainebleau
+                    (Nimwegen): Der Gottorfer Herzog wird in seine sequestrierten Territorien
+                    restituiert. <lb/>Frühjahr 1684 <lb/>Der dänische König Christian V.
+                    unterbreitet dem Gottorfer Herzog Christian Albrecht ein Ultimatum, durch das
+                    Schleswig dänisches Lehen werden, die herzogliche Souveränität weitgehend
+                    aufgehoben werden solle und das Amt Schwabstedt an den königlichen Anteil
+                    abzutreten sei. Christian Albrecht weist dieses Ansinnen zurück.<lb/>30. Mai
+                    1684 <lb/>Durch das Okkupationspatent ergreift Dänemark erneut Besitz über den
+                    herzoglichen Teil Schleswig-Holsteins (Okkupationspatent 30. Mai 1684) und
+                    vereinigt sie mit dem dänisch-königlichen Anteil. Gottorf wird von dänischen
+                    Truppen besetzt. Danach unterstützen Schweden, der Kaiser, Brandenburg und
+                    England den Herzog. Dänemark findet nur noch Unterstützung bei Frankreich und
+                    muß den Altonaer Vergleich akzeptieren.<lb/>30. Juni 1689 <lb/>Altonaer
+                    Vergleich. Der Gottorfer Herzog Christian Albrecht erhält alle Güter und Rechte
+                    zurück, die er vor 1675 besessen hatte. Damit erhält er auch die Souveränität
+                    über die herzoglichen Gebiete. England und Holland garantieren
+                    dies.<lb/>1700-1721 <lb/>Großer Nordischer Krieg.<lb/>März 1700 <lb/>König
+                    Friedrich IV. von Dänemark greift den unter schwedischem Schutz stehenden Herzog
+                    Friedrich von Gottorf an. Dänemark erobert Husum und Schleswig. <lb/>18. August
+                    1700 <lb/>Friede von Traventhal.<lb/></p>
+            </div>
+
+        </front>
+        <body>
+            <div type="Edition">
+                <p>Travendahlischer Frieden <lb/>Geschlossen den 18. Augusti Anno 1700 </p>
+                <p>Im Nahmen der Heiligen Dreyfaltigkeit </p>
+                <p>Kund und zu wissen sey hiemit<note n="1" type="crit_app">Theatrum Europaeum:
+                        hiermit.</note> jedermänniglich: Demnach seit Anno 1675<note n="2"
+                        type="annotation">Rendsburger Vergleich 10. Juli 1675. Dänemark erzwingt
+                        nach gewonnenem Krieg die Aufgabe der (relativen) Selbständigkeit
+                        Schleswig-Holstein-Gottorfs (Friedensschlüsse und Bündnisse nur mit
+                        Billigung des dänischen Königs, dänisches Primat bei der Landesverteidigung,
+                        Schwabstedt geht an Dänemark über)." </note> zwischen <rs ref="#pp0179"
+                        >König[licher]. Majest[ät]. zu Dennemack</rs><note n="3" type="crit_app"
+                        >Textvariante: Theatrum Europaeum: Dänemarck (auch im Folgenden).
+                        Sachanmerkung: Fredrik IV. (1699-1730), König von Dänemark-Norwegen.</note>
+                    und des <rs ref="#pp0180">Hertzogen zu Schleßwig-Hollstein-Gottorff
+                        Durchl[aucht].</rs><note n="4" type="crit_app">Textvariante: Dumont, CTS:
+                        Durchleucht (im ganzen Text). Sachanmerkung: Friedrich IV. (1694-1702),
+                        Herzog von Schleswig-Holstein-Gottorf. Er war verheiratet mit der Schwester
+                        Karl XII. von Schweden. Durch seine Anlehnung an Schweden suchte er die
+                        Unabhängigkeit seines Landes zu bewahren, die von Dänemark bestritten wurde.
+                        " </note> verschiedene beschwerliche Mißverstände und Dissidien entstanden,
+                    und obgleich dieselbe durch die in Anno 1679 zu Fontainebleau<note n="5"
+                        type="annotation">Im Friedensvertrag von Fontainebleau 2. September 1679 (im
+                        Zusammenhang mit dem Frieden von Nimwegen) zwischen Dänemark und Frankreich
+                        restituierte Dänemark den Herzog von Holstein-Gottorf und verzichtete auf
+                        die in Schweden besetzten Gebiete. "</note> und ferner Anno 1689 zu
+                        Altona<note n="6" type="annotation">Der Altonaer Vergleich 30. Juni 1689
+                        beendet die dänische Okkupation und restituiert den Gottorfer Herzog.</note>
+                    errichtete Frieden-Schlüsse und Vergleiche componiret worden, solche dennoch
+                    occasione der über den eigentlichen Verstand und Interpretation ein- und
+                        andern<note n="7" type="crit_app">In den Kollationierungsvorlagen finden
+                        sich Varianten von andern/anderen etc.; sie werden nicht notiert.</note> in
+                    dem Altonaischen Vergleich enthaltenen Articuls aber einst entstandenen
+                    Zwistigkeiten von neuen<note n="8" type="crit_app">Theatrum Europaeum:
+                        neuem.</note> rege gemacht, und es endlich, ohnerachtet der an Seiten <rs
+                        ref="#pp0001">Ihro Kayserl[ichen]. Maje[stä]t</rs><note n="8"
+                        type="annotation">Leopold I. (1658-1705), römisch-deutscher Kaiser.</note>
+                    und Ihrer Churfürstl[ichen]. <rs ref="#pp0181">Durchl[aucht]. Durchl[aucht]. zu
+                        Sachsen</rs><note n="9" type="annotation">August II. (1694/97-1733),
+                        Kurfürst von Sachsen (August III.) und König von Polen.</note> und <rs
+                        ref="#pp0172">Brandenburg</rs><note n="10" type="annotation">Friedrich III.
+                        (1688-1713), Kurfürst von Brandenburg, ab 1701 als Friedrich I. König in
+                        Preußen.</note> bey der Sache interponirten hohen Mediation, auch der hohen
+                        Garands<note n="11" type="crit_app">Theatrum Europaeum: Garants (auch
+                        unten).</note> gedachten Altonaischen Vergleichs angewandten vielfältigen
+                    Bemühungen darüber zu Thätlichkeiten und einen offentlichen<note n="12"
+                        type="crit_app">Theatrum Europaeum: einem öffentlichen.</note> Kriege
+                    zwischen beyderseits jetzo regierenden, Ihro Königl[iche]. Majest[ät]. in
+                    Dennemarck-Norwegen ec. und des <rs ref="#pp0180">Herrn Hertzogen zu
+                        Schleßwig-Hollstein-Gottorf</rs> ec. Durchl[aucht]., dero hohen Herrn
+                    Alliierten und Garands ausgeschlagen. Man aber nicht allein von Seiten Ihro
+                    Kayserl[ichen]. Majest[ät]. und S[eine]r Chur-Fürstl[ichen]. Durchl[aucht]. zu
+                    Brandenburg noch immerhin und biß ans Ende alleine<note n="13" type="crit_app"
+                        >Dumont, CTS: [Auslassung:] alleine.</note> continuiret, allen möglichsten
+                    Fleiß und Bemühung dahin anzuwenden, daß solche entstandene Kriegs-Unruhe in
+                    Zeiten wieder gedämpffet, und der Ruhe- und Friedens-Stand in diesem
+                    Nieder-Sächsischen Crayß<note n="14" type="crit_app">Theatrum Europaeum:
+                        Creisse.</note> und denen benachbahrten nordischen Quartieren, durch einen
+                    billig-mäßigen Frieden retabliret, mithin ein<note n="15" type="crit_app"
+                        >Theatrum Europaeum: [Einschub:] auch.</note> völliges, auch<note n="16"
+                        type="crit_app">Theatrum Europaeum: und.</note> beständiges gutes Vernehmen
+                    zwischen Ihro Königl[ichen]. Maj[estät]. in Dennemarck und des <rs ref="#pp0180"
+                        >Herrn Hertzogen zu Hollstein-Gottorf ec.</rs><note n="17" type="crit_app"
+                        >Dumont, CTS: [Auslassung:] ec.</note> Durchl[aucht]. wieder gestifftet
+                    werden möchte, sondern auch folglich andere hohe Puissancen ihre Officia
+                    darunter mit angewandt. Daß demnach<note n="18" type="crit_app">Theatrum
+                        Europaeum: darnach.</note> auf<note n="19" type="crit_app">Theatrum
+                        Europaeum: auff (auch unten).</note> die zwischen beyder kriegenden
+                        Theilen<note n="20" type="crit_app">Theatrum Europaeum: Theile.</note> und
+                    dero respective Alliirten und Garands darzu bevollmächtigten Ministris
+                    gepflogene mühsame Tractaten und von aller- und höchst ermeldter Herrn
+                    Mediatoren Abgesandten und Ministris<note n="21" type="annotation">Bei den
+                        Verhandlungen waren neben den Vertragsparteien anwesend: von den
+                        Schiedsmächte: Brandenburg (von Busch), Frankreich (Chamilly, Mraquis de
+                        Bonacq), von den Garantiemächten Schweden (von Lissenheim, von
+                        Friesendorff), England (Cresset), die Generalstaaten (Cranenburg),
+                        Braunschweig-Lüneburg (Bernstorff, Bülow, Fabricius), des weiteren der
+                        Kaiser (Eck). " </note> dabey angewandten emsigsten Bemüh- und Vermittelung
+                    oberwehnte Mißverstände, Differentien und Streitigkeiten, gütlich componiret,
+                    und darüber nachfolgender Tractat und Vergleich verabredet und geschlossen
+                    worden: </p>
+                <p>Art. I <lb/>Sol<note n="22" type="crit_app">Theatrum Europaeum, CTS, Dumont: soll
+                        (auch im Folgenden).</note> alles dasjenige, was<note n="23" type="crit_app"
+                        >Theatrum Europaeum: so.</note> bey diesen Irrungen und Kriege von einem
+                    Theil gegen den anderen und dessen Angehörige zu Wasser und Lande widriges
+                    geschehen, durch diese Amnestie völlig aufgehoben<note n="24" type="crit_app"
+                        >Theatrum Europaeum: auffgehoben.</note> und abgethan seyn, und nimmer
+                    weiter gedacht, viel weniger gegen jemand deswegen weiter einige Ansprach<note
+                        n="25" type="crit_app">Theatrum Europaeum: Ansprache.</note> oder
+                    Praetension gemacht werden. In specie sollen auch dieser Amnestie mit geniessen
+                    die Städte Lübeck und Hamburg und alle deren Einwohner und Angehörige, und
+                    selbigen, wegen alles dessen, so bey und occasione dieser Troublen passiret seyn
+                        könte<note n="26" type="crit_app">Theatrum Europaeum: könnte.</note>, nimmer
+                    einig Leid<note n="27" type="crit_app">Theatrum Europaeum: Leyd.</note>
+                    zugefüget, noch jemanden deswegen die geringste Quaestion moviret<note n="28"
+                        type="crit_app">Theatrum Europaeum: movirt.</note> werden. </p>
+                <p>Art. II <lb/>Werden hiemit<note n="29" type="crit_app">Theatrum Europaeum:
+                        hiermit.</note> die zwischen dem Reich Dannemarck-Norwegen und deren
+                        gesambten<note n="30" type="crit_app">Theatrum Europaeum: gesamten.</note>
+                    Eingesessenen an einem, und denen Herrn<note n="31" type="crit_app">Theatrum
+                        Europaeum: Herren (Abweichungen Herrn/Herren werden im Folgenden nicht mehr
+                        notiert) .</note> Hertzogen zu Schleßwig-Hollstein<note n="32"
+                        type="crit_app">Theatrum Europaeum: Holstein.</note> und deren incorporirten
+                    Landen anderen Theils erreichete Uniones de annis 1533 und 1623<note n="33"
+                        type="annotation">In der Union vom Juli 1533 schlossen die Herzogtümer und
+                        Dänemark einen Beistandspakt ab, der die enge Verbindung betonte. Konflikte
+                        sollten  statt mit Waffen - durch ein gemeinsames Schiedsgericht beigelegt
+                        werden. Zur gegenseitigen Verteidigung gegen Angriffe Dritter sollte jeder
+                        eine bestimmte Anzahl Reiter aufstellen. 1623 wurde dieser Defensivpakt zu
+                        einem Offensivpakt erweitert."</note> (ausser was wegen Auffheben des
+                    Vasallagii und erlangten Souverainität in den Nordischen Friedens-Schlüssen de
+                    annis 1658 und 1660<note n="34" type="annotation">Durch den Frieden von Roskilde
+                        (26. Februar 1658) und durch den Kopenhagener Vertrag (12. Mai 1658) erhielt
+                        der Gottorfer Herzog die Souveränität über seine (durch Vererbung
+                        vermehrten) Besitzungen in Schleswig. Die dänische Lehnshoheit über den
+                        Gottorfer Anteil am Herzogtum wurde aufgehoben. Zudem trat Dänemark das Amt
+                        Schwabstedt ab. Im Frieden von Oliva (3. Mai 1660) wurde dies bestätigt."
+                    </note> stipuliret) auch alle biß ad annum 1675 errichtete Pacta und Verträge,
+                    die Westphälische-Nordische-Fontainebleauische-Altonaische Friedens-, auch
+                        Glückstädtische<note n="35" type="crit_app">Theatrum Europaeum:
+                        Glücksstättische (auch unten).</note> Recesse<note n="36" type="annotation"
+                        >Der Glückstädter Rezeß 1697 zeigte eine Annäherung zwischen Herzog
+                        Christian Albrecht und König Friedrich III.</note> hiemit nochmahlen<note
+                        n="37" type="crit_app">Theatrum Europaeum: nochmalen.</note> bestätiget<note
+                        n="38" type="crit_app">Theatrum Europaeum, Dumont, CTS: bestättiget.</note>:
+                    Jedoch, daß gesagte Uniones als Foedera perpetua nicht weiter als nach
+                        ihren<note n="39" type="crit_app">Theatrum Europaeum: ihrem.</note>
+                    wörtlichen Innhalt<note n="40" type="crit_app">Theatrum Europaeum:
+                        Inhalt.</note> expliciret werden sollen, und zwar, daß die etwa<note n="41"
+                        type="crit_app">Theatrum Europaeum: etwan.</note> künfftig zwischen beyden
+                    regierenden Hertzogen entstehende Irrungen, entweder per amicabilem
+                    compositionem unter sich, oder durch Vermittelung darzu erwehlender<note n="42"
+                        type="crit_app">Theatrum Europaeum: erwählender.</note> Puissancen abgethan
+                    werden sollen. </p>
+                <p>Art. III <lb/>Die über Praelaten, Ritterschafft<note n="43" type="crit_app">Im
+                        Folgenden, sowie in Dumont, Theatrum Europaeum, CTS: wechselnde Schreibweise
+                        Ritterschafft, Ritterschaft.</note> und gewisser Massen<note n="44"
+                        type="crit_app">Theatrum Europaeum: masse.</note> über einige Städte bißhero
+                    geführte gemeinsame Regierung oder Communion wird (wiewol<note n="45"
+                        type="crit_app">Dumont, CTS: wiewohl.</note> ohne Praejuditz der in dem
+                    Nordischen Frieden stipulirten, und nachgehends in dem Glückstädtischen Recess
+                        bestätigten<note n="46" type="crit_app">Theatrum Europaeum, Dumont, CTS:
+                        bestättigten.</note> Disposition wegen Theilung gedachter Praelaten und
+                    Ritterschaft) continuiret<note n="47" type="crit_app">Theatrum Europaeum:
+                        continuirt.</note>: Jedoch mit diesem expressen Bedinge<note n="48"
+                        type="crit_app">Theatrum Europaeum: Beding.</note>, daß kein Theil über
+                    solche zur gemeinschafftlichen Regierung gehörende Persohnen, Oerter und Güter,
+                    das geringste zu Kriegs- und Friedens-Zeiten ohne des anderen Consens und
+                    Mit-Belieben vornehme und disponiere<note n="49" type="crit_app">Theatrum
+                        Europaeum, Dumont, CTS: disponire.</note>, es sey in Administration der
+                    Justiz, Geboten, Patenten, Executionen, oder wegen Einquartierung, Contribution
+                    oder anderen Aufflagen, wie die auch Nahmen<note n="49" type="crit_app">Theatrum
+                        Europaeum: Namen.</note> haben mögen: Massen alles, was darunter nicht
+                        gesambter<note n="50" type="crit_app">Theatrum Europaeum: gesammter.</note>
+                    Hand geschehen würde, an sich ungültig und von keinen Kräfften seyn soll. Und
+                    wie nun Praelaten und Ritterschaft so, wie sie in der Landes-Matricul gesetzet,
+                    so wohl<note n="51" type="crit_app">Theatrum Europaeum: sowol.</note> in
+                    civilibus als ecclesiasticis, auch der Collecten wegen unter gemeinsamer
+                    Regierung und Jurisdiction ohne einige Exception und Exemtion, und daneben bey
+                    ihren Privilegiis und Juribus verbleiben, also hingegen hat in denen übrigen
+                    schon getheilten Landen, Aembtern<note n="52" type="crit_app">Theatrum
+                        Europaeum: Aemptern (auch unten).</note> und Städten, als dem Seinigen jeder
+                    Theil die souveraine und hohe landesfürstl[iche]. Gewalt und daraus
+                    herfliessende Jura gantz allein und privative zu exerciren, und soll von dem
+                    andern Theil unter dem Praetext einiger Communion, oder was Vorwand sonst seyn
+                    möchte, zu keiner Zeit daran einige Behinderung noch Eintrag geschehen. </p>
+                <p>Art. IV <lb/>Damit künfftig<note n="53" type="crit_app">Dumont, CTS:
+                        künftig.</note> allen Streitigkeiten und darzu zufindenden Praetexten umb so
+                    mehr vorgebauet werden möge, ist in genere damals nochmahls<note n="54"
+                        type="crit_app">Theatrum Europaeum: nochmals.</note> fest gestellet worden,
+                    daß, wie in denen beyden Fürstenthümern beyde Theile vermöge der alten Verträge
+                    und Observantz allerdings in völliger Aequalität stehen, und paria jura
+                    genießen, und geniessen sollen. Also auch Ihro<note n="55" type="crit_app"
+                        >Theatrum Europaeum: Ihre (auch unten).</note> Mayest[ät]. in Dennemarck und
+                    dero Successores als regierende Hertzogen<note n="56" type="crit_app">Theatrum
+                        Europaeum: Hertzoge.</note> zu Schleßwig-Holstein in- und ratione der
+                    Fürstenthümer Schleßwig-Holstein, keinen Vorzug und Praerogative in einigen<note
+                        n="57" type="crit_app">Theatrum Europaeum: einigem.</note> Jure, ausser was
+                    ratione ordinis hergebracht ist, vor Ihro Durchl[aucht]. zu Holstein-Gottorff
+                    und dero Successores, als auch regierenden<note n="58" type="crit_app">Theatrum
+                        Europaeum: regierende.</note> Hertzogen zu Schleswig-Holstein, sich annehmen
+                    noch praetendiren, sondern bey der völligen Parität und gleichen Rechten unter
+                    beyden Theilen es unveränderlich bewenden lassen wollen. </p>
+                <p>Art. V <lb/>Was die Defension der Schleßwig-Hollsteinischen Lande<note n="59"
+                        type="crit_app">Dumont, CTS: des Schleßwig-Hollsteinischen Landes.</note>
+                    betrifft, so wird, wenn<note n="60" type="crit_app">Theatrum Europaeum:
+                        wann.</note> dem gantzen Lande, und also beyden paciscirenden Theilen von
+                    Auswärtigen einige Gefahr zustossen solte<note n="61" type="crit_app">Dumont:
+                        sollte.</note>, von selbigen auch billig mit zusammen gesetzten Kräfften und
+                    communi consilio solche abzuwenden getrachtet werden, und die Nothurfft<note
+                        n="62" type="crit_app">Theatrum Europaeum, Dumont, CTS: Nothdurfft.</note>
+                    und erforderte Mittel auf<note n="63" type="crit_app">Theatrum Europaeum: auff
+                        (auch im Folgenden).</note> gemeinen Land-Tagen der alten Observantz nach zu
+                    besorgen seyn, Jedoch sol<note n="64" type="crit_app">Theatrum Europaeum,
+                        Dumont, CTS: soll.</note> unter dem Vorwand solcher gemeinen Defension kein
+                    Theil schuldig seyn, sich in Sachen impliciren zu lassen, deren derselbe sich
+                    anzunehmen nicht nöthig hat, und worin<note n="65" type="crit_app">Theatrum
+                        Europaeum: worinn.</note> der eine Theil etwa ohne des anderen Mit-Gutfinden
+                    und Bewilligung sich eingelassen hätte. Vielweniger soll in solchen Fällen ein
+                    Theil vor dem andern von denen Landes-Collecten sich etwas arrogiren. <lb/>Was
+                    aber einen jeden Theil absonderlich betrifft, nachdemmahlen<note n="66"
+                        type="crit_app">Dumont, CTS: nachdemahlen.</note> die jetzige Irrungen
+                    hauptsächlich wegen des exercitii juris armorum, und in specie fortalitiorum,
+                    und was davon dependiret, mithin über den eigentlichen Verstand des Altonaischen
+                    Vergleichs entstanden. So ist, umb künfftig solchen<note n="67" type="crit_app"
+                        >Theatrum Europaeum: solchem.</note> allen vor zubauen, hiemit declariret
+                    und fest gestellet worden, daß höchstgedachter S[eine]r Durchl[aucht]. und deren
+                    Successoren ohne alle Dispute verbleiben soll das plenum &amp; liberum jus
+                    armorum, armandiae, foederum &amp; fortalitiorum, und was davon dependiret, und
+                    dessen freyes Exercitium. Wobey aber von beyden Theilen beliebet worden, daß
+                    (I.) kein Theil Vestungen erbauen soll, näher als auff<note n="68"
+                        type="crit_app">Dumont, CTS: auf (auch unten).</note> zwey Meilen-Weges an
+                    denen von dem anderen Theil besitzenden Vestungen, (2.) auch überall nicht näher
+                    als auff eine Meile von- und an des andern Territorio (worunter jedoch die
+                    gemeinschafftliche Oerter nicht mit zubegreiffen) etwas fortificiren, (3.) soll
+                    auch kein Theil näher als auff eine Meile-Weges an denen ordinairen Strassen und
+                    Passagen von Flensburg nach Redensburg<note n="69" type="crit_app">Theatrum
+                        Europaeum: Rendsburg.</note>, und von da nach Itzehoe, Glückstadt und
+                    Hamburg, Vestungen bauen, (4.) damit auch von einem Theil dem anderen durch eine
+                    gar zu grosse Armatur und in denen Fürstenthümern zu haltende Anzahl Volckes
+                    keine Ombrage und Jalousie gegeben werden möge; So ist verglichen, daß ausser
+                    einer gantz evidenten Nothwendigkeit, als wenn<note n="70" type="crit_app"
+                        >Theatrum Europaeum: wann.</note> von auswärtigen<note n="71"
+                        type="crit_app">Theatrum Europaeum: außwärtigem.</note> Einbruch,
+                        kundbahre<note n="72" type="crit_app">Theatrum Europaeum: kundbare.</note>
+                    Gefahr vorhanden, oder Ihro Königl[iche]. Mayest[ät]. zu Dennemarck dero
+                    Alliirten aus dero Königreich Dennemarck, einige Hülffe zu leisten hätten, als
+                    welchen fals<note n="73" type="crit_app">Theatrum Europaeum: falls.</note>
+                    deroselben die Passage durch dero Antheil der Fürstenthümer billig frey bleiben
+                    muß, kein Theil mehr als 6000 Mann zu Pferde und Fus<note n="74" type="crit_app"
+                        >Theatrum Europaeum: Fuß.</note> in die Fürstenthümer Schleßwig-Holstein
+                    bringen, noch halten, selbe auch zu keiner Zeit zu Unterdrückung oder
+                    Vergewaltigung des anderen Theils gebrauchen soll. Weilen aber Seine
+                    Durchl[aucht]. zu Holstein-Gottorff mit einer solchen Anzahl Volckes nicht
+                        allemahl<note n="75" type="crit_app">Theatrum Europaeum: allemal.</note>
+                    versehen seyn möchten, und dero Gelegenheit nicht erleydet<note n="76"
+                        type="crit_app">Theatrum Europaeum: erleidet.</note>, solche beständig auff
+                    den Beinen zuhalten, so bleibet deroselben allemahl<note n="77" type="crit_app"
+                        >Theatrum Europaeum: allemal.</note> frey, wenn sie es nöhtig finden, von
+                    dero Freunden und Alliirten aus dem Römischen Reich und Nieder-Sächsichen Crais,
+                    biß auff 3000 Mann einzunehmen und zu dero Sicherheit in die Fürstenthümer zu
+                    bringen und zu verlegen. <lb/>Wann sie auch von frembden Herrn<note n="78"
+                        type="crit_app">Theatrum Europaeum, Dumont, CTS: Herren (Abweichung
+                        Herrn/Herren im Folgenden nicht mehr notiert).</note> einige Troupen<note
+                        n="79" type="crit_app">Dumont, CTS: Trouppen; Theatrum Europaeum: Truppen
+                        (auch unten).</note>, so in dero Dienste, Eyd und Pflichten<note n="80"
+                        type="crit_app">Theatrum Europaeum: Pfliche.</note> treten, und voriger
+                    Pflichte erlassen werden, erhalten können und annehmen wollen, stehet solches
+                    (weil dergleichen Leute nicht anders als Gottorffische eigene Troupen zu
+                    consideriren seyn), umb<note n="81" type="crit_app">Theatrum Europaeum:
+                        um.</note> so mehr und zwar auch ultra numerum der gedachten 3000 und biß
+                    auff die obgedachte Zahl der 6000 Mann, zu Hochgedachter S[eine]r Durchl[aucht].
+                        freyen<note n="82" type="crit_app">Theatrum Europaeum: freyem.</note> Willen
+                    und Disposition: jedoch, daß von einer Puissance allein auch solchergestalt
+                    keine grössere Anzahl als 3000 Mann zu übernehmen seyn wird. <lb/>Letzlich wird
+                    auch verwahret, daß bey denen Durch-Marschen der Troupen kein Theil des andern
+                    Angehörigen und Unterthanen mit Nacht-Lagern und Einquartierungen beschweren
+                        sol<note n="83" type="crit_app">Theatrum Europaeum, Dumont, CTS: soll (auch
+                        unten).</note>: Es wäre dann, daß im Nohtfall<note n="84" type="crit_app"
+                        >Theatrum Europaeum, Dumont, CTS: Nothfall.</note> auf speciale Requisition,
+                    ein Nacht-Lager concediret würde, welchen fals<note n="85" type="crit_app"
+                        >Theatrum Europaeum: Falls.</note> dann<note n="86" type="crit_app">Dumont,
+                        CTS: dan (auch unten). Theatrum Europaeum: denn.</note> alles, so genossen
+                    wird, bezahlet und gantz exacte Disciplin gehalten werden soll. Der blosse
+                    Transitus aber sol auf behörige Requisition nicht verwegert<note n="87"
+                        type="crit_app">Theatrum Europaeum: verweigert.</note> werden. </p>
+                <p>Art. VI <lb/>Der Altonaische Vergleich sol innerhalb 6. Wochen nach Auswechselung
+                    der Ratificationen ad literam, in specie mit Restitution des Guthes<note n="88"
+                        type="crit_app">Theatrum Europaeum, Dumont, CTS: Gutes.</note> Gottes-Gabe
+                    an Ihro Durchl[aucht]. zu Holstein Gottorff zu völliger Execution gebracht
+                    werden; Jedoch in alle Wege dem Fürstl[ichen]. Hause Hollstein-Plön sein Regress
+                    in salvo bleiben. </p>
+                <p>Art. VII <lb/>Als von wegen Ihro Durchl[aucht]. zu Holstein-Gottorf auch
+                    vorgestellet worden, wie aus<note n="89" type="crit_app">Theatrum Europaeum:
+                        auß.</note> der Vestung Christianpries<note n="90" type="crit_app">Theatrum
+                        Europaeum: Christian-Preiß.</note> oder Friedrichsort, dero Aembtern und
+                    Angehörigen, insonderheit aber der Stadt Kiel, vielfältige Beschwerden und
+                    Schaden zugezogen würden, gegen den Inhalt des Glückstädtischen Recesses<note
+                        n="91" type="crit_app">Theatrum Europaeum: Recessus.</note>. Daher Seine
+                    Durchlauchtigkeit die Instances machen lassen, daß gesagte<note n="92"
+                        type="crit_app">Theatrum Europaeum: besagte.</note> Vestung demoliret werden
+                    möchte. <lb/>So ist von wegen Ihro Königl[ichen]. Majest[ät]. zu Dennemarck
+                    versprochen, daß denen Gottorffischen Beschwerden auch in diesem Punct
+                    nachdrücklich und vollkommen remediret<note n="93" type="crit_app">Theatrum
+                        Europaeum: remedirt.</note>, dem Glückstädtischen Recess zu Kriegs- und
+                    Friedenszeiten auch darunter allerdings nachgegangen, die Gottorffische
+                    Angehörige, in specie die Stadt Kiel, dagegen und überall aus gedachter Vestung
+                    künfftig nicht graviret<note n="94" type="crit_app">Theatrum Europaeum:
+                        gravirt.</note> werden sollen<note n="95" type="crit_app">Theatrum
+                        Europaeum: sollte.</note>: Massen dann auch auf allen unverhofften Fall der
+                    Contravention, und da solche auf erfolgendes Ansuchen innerhalb sechs Wochen
+                    nicht repariret<note n="96" type="crit_app">Theatrum Europaeum: reparirt.</note>
+                    würde, Seine Durchl[aucht]. ratione des in mehrgedachten Glückstädtischen
+                    Recess, sub conditione wegen dieser Vestung ertheilten Consens, ihre
+                        Nothurfft<note n="97" type="crit_app">Theatrum Europaeum, Dumont, CTS:
+                        Nothdurfft.</note> und Jura salva &amp; integra sich reserviret haben
+                    wollen. </p>
+                <p>Art. VIII <lb/>Wegen des Pacti<note n="98" type="crit_app">Konnte noch nicht
+                        nachgewiesen werden.</note>, so Anno 1647 mit dem Capitulo zu Lübeck an
+                    Seiten Hollstein-Gottorff<note n="99" type="crit_app">Theatrum Europaeum,
+                        Dumont, CTS: Holstein.</note> wegen der bischöfflichen Wahl auf sechs
+                    Generationen errichtet worden, wollen Ihro Königl[iche]. Majest[ät]. zu
+                    Dennemarck es bey dem Glückstädtischen Recess de Anno 1667 und darin beschehenen
+                    Versprechen allerdings bewenden und solchem auf keine Weise directe oder
+                    indirecte entgegen handeln<note n="100" type="crit_app">Dumont, CTS:
+                        handelen.</note> lassen. </p>
+                <p>Art. IX <lb/>Als von wegen Ihro <rs ref="#pp0180">Durchl[aucht]. zu
+                        Schleßwig-Holstein-Gottorff</rs>, so wohl der hohen Mediation, als Ihro <rs
+                        ref="#pp0179">Königl[ichen]. Majest[ät]. zu Dennemarck-Norwegen ec.</rs>,
+                    selbst in mehrern<note n="101" type="crit_app">Dumont, CTS: mehreren. Theatrum
+                        Europaeum: mehrerm.</note> vorgestellet, in was grossen Schaden und Verderb
+                    Ihr Haus<note n="102" type="crit_app">Theatrum Europaeum: Hauß (auch
+                        unten)</note> und Lande durch die passirte Irrungen gesetzet<note n="103"
+                        type="crit_app">Theatrum Europaeum: gesetzt.</note> worden, so haben Ihro
+                    Königl[iche]. Majestät aus freund-vätterlicher<note n="104" type="crit_app"
+                        >Theatrum Europaeum, Dumont, CTS: freund-vetterlicher.</note> Affection und
+                    Gewogenheit gewilliget, daß sie Ihro Durchl[aucht]. zu Holstein-Gottorff die
+                    Summa von zweyhundertundsechszig<note n="105" type="crit_app">Dumont, CTS: zwey
+                        hundert sechszig tausend.</note> tausend Reichsthalern an guten vollgültigen
+                        Dähnischen<note n="106" type="crit_app">Theatrum Europaeum:
+                        Dänischen.</note> Cronen (mehr<note n="107" type="crit_app">Dumont, CTS:
+                        welche.</note> innerhalb 12 Tagen à dato dieses in Hamburg in Banco, oder
+                    bey sicheren<note n="108" type="crit_app">Theatrum Europaeum: sichern.</note>
+                    guten Kauff-Leuten versichert und angewiesen, und dem Gottorffischen
+                    Gevollmächtigten solche Versicherungen ausgeliefert werden sollen) und zwar
+                    solche summam zwischen hier und künfftigen Kiehler-Umschlag Anno 1701<note
+                        n="109" type="crit_app">Theatrum Europaeum: 1700.</note> in octavis trium
+                    regum, zu Hamburg ohnfehlbahr bezahlen lassen wollen. Hingegen lassen Ihro
+                    Durchl[aucht]. zu Holstein-Gottorff alle andere wegen einiger Schadeloß-Haltung
+                    aus diesem Kriege bereits movirte oder annoch zu movirende Praetensiones
+                    schwinden und fallen. Nicht weniger wird an Seiten Ihro Durchlauchtigkeit
+                        hiemit<note n="110" type="crit_app">Theatrum Europaeum: hiermit.</note>
+                    renunciiret (1.) Denen in Anno 1697 von der Königlichen Milice<note n="111"
+                        type="crit_app">Theatrum Europaeum: Militz.</note> verursachten Kosten (2)
+                    Der ratione der bekandten<note n="112" type="crit_app">Theatrum Europaeum:
+                        bekannten.</note> Peraequation<note n="113" type="crit_app">Theatrum
+                        Europaeum: [Einschub:] der.</note> dem Hoch-Fürstlichen Hause Gottorff
+                    zustehenden Praetension, davon in dem Tractat von Anno 1661<note n="114"
+                        type="crit_app">Konnte noch nicht nachgewiesen werden.</note> und dem
+                    Glückstädtischen Recess Erwehnung geschehen, und (3.) Demjenigen so nach dem
+                    23sten Junij Anno 1689 von Königlicher Seiten aus dem Fürstlichen eingetrieben.
+                    Hingegen wollen Ihro Königliche Majestät allen aus diesem Kriege etwa habenden
+                        Schadelos-Haltungs-Praetensionen<note n="115" type="crit_app">Theatrum
+                        Europaeum: Schadloß.</note> ebenfals<note n="116" type="crit_app">Theatrum
+                        Europaeum: ebenfalls.</note> hiemit renunciiret haben. <lb/>Hiebey<note
+                        n="117" type="crit_app">Theatrum Europaeum: Hierbey.</note> ist ferner
+                    verglichen, daß, was an Domainen-Gefällen in den Hertzogthümern
+                        Schleßwig-Hollstein<note n="118" type="crit_app">Theatrum Europaeum:
+                        Holstein.</note> ec. von ein- oder anderen Theile<note n="119"
+                        type="crit_app">Theatrum Europaeum: anderm Theil.</note> in des andern
+                    Landen biß auf den 14ten August inclusive eingetrieben und erhoben seyn möchte,
+                    solches demselben Theil, welcher es genossen, verbleiben. Was aber weiterhin und
+                    von dem 15ten Augusti inclusive an erhoben seyn würde<note n="120"
+                        type="crit_app">Theatrum Europaeum: möchte.</note>, solches bona fide
+                    innerhalb 4. Wochen restituiret<note n="121" type="crit_app">Theatrum Europaeum:
+                        restituirt.</note> werden sol<note n="122" type="crit_app">Dumont, CTS:
+                        soll. Theatrum Europaeum: solle.</note>. <lb/>Wie dann auch die von beyden
+                    Theilen in des anderen Landen, Aemptern und Städten ausgeschriebene<note n="123"
+                        type="crit_app">Theatrum Europaeum: angeschriebene.</note> Contributiones,
+                    welche nicht gedachte 14ten dieses oder vorher würcklich bezahlet seyn<note
+                        n="124" type="crit_app">Theatrum Europaeum: bezahlt sind.</note>, cessiren
+                    und nicht eingetrieben werden, nicht weniger auch die von denen Städten wegen
+                        den<note n="125" type="crit_app">Theatrum Europaeum, Dumont, CTS:
+                        der.</note> ausgeschriebenen extraordinairen Schatzung extradirte
+                    Obligationes oder gegebene Cautiones hiemit cessiren und annulliret seyn
+                        sollen<note n="126" type="crit_app">Theatrum Europaeum:
+                    [Auslassung].</note>. Die bey Praelaten und Ritterschaft aber bereit
+                    ausgeschriebene und intimirte Contributiones sollen biß zu Ende dieses
+                        Monahts<note n="127" type="crit_app">Theatrum Europaeum: Monats.</note>
+                    bezahlet und excequiret<note n="128" type="crit_app">Theatrum Europaeum:
+                        exequirt.</note> werden. </p>
+                <p>Art. X <lb/>Weilen man befunden, daß (I.) die im Ambte<note n="129"
+                        type="crit_app">Theatrum Europaeum: Ampte.</note> Gottorff nahe bey
+                    Schleßwig belegene zwey Königliche Voigteyen<note n="130" type="crit_app"
+                        >Theatrum Europaeum: Vogteyen.</note> Breckel und Ulsenis<note n="131"
+                        type="crit_app">Theatrum Europaeum: Ulsenitz.</note>, dann auch (2.) das in
+                    Norder-Ditmarschen belegene Dorff Feddring zu allerhand Difficultäten und
+                    Irrungen offters Anlas<note n="132" type="crit_app">Theatrum Europaeum: öffters
+                        Anlaß.</note> gegeben; So haben Ihro Majestät auff beschehenes Ansuchen
+                        hiemit<note n="133" type="crit_app">Theatrum Europaeum: hiermit.</note>
+                    verwilliget und versprochen, daß sie solche Oerter gegen ein Aequivalent aus den
+                    Schleßwischen Capittuls-Gütern der anderen Ihro bequemen Oertern permutiren<note
+                        n="134" type="crit_app">Theatrum Europaeum: permutiren.</note>, die
+                    Proportiones nach sechs-jährigen Registern<note n="135" type="crit_app">Dumont,
+                        CTS: Registeren.</note> ausfinden, und diese Sache innerhalb 4 Monaten zum
+                    Stande bringen lassen wollen. Dafern dann in dem Königlichen Antheil sich
+                    fürstliche Unterthanen oder Manck-Güter finden, so Ihro Majestät gelegen wären,
+                    werden Seine Durchlauchtigkeit mit dergleichen Permutation deroseben auch gerne
+                    willfahren. </p>
+                <p>Art. XI <lb/>Wegen des zu Lyst im Ampte Tundern<note n="136" type="crit_app"
+                        >Dumont, CTS: Tunderen (auch unten).</note> vor Jahren von königlicher
+                    Seiten angelegten<note n="137" type="crit_app">Theatrum Europaeum:
+                        angelegten.</note> Zolles, ist abgeredet worden, daß selbiger von denen
+                    fürstlichen Schleswig-Holstein-Gottorffischen Unterthanen überall nicht, (2.)
+                    auch von denen Kauffmannschafften und Wahren<note n="138" type="crit_app"
+                        >Theatrum Europaeum: Waaren.</note>, so directe aus der See nach der Stadt
+                    und Ambt<note n="139" type="crit_app">Theatrum Europaeum: Ampt.</note> Tundern,
+                    oder von da<note n="140" type="crit_app">Theatrum Europaeum: dar.</note> in die
+                    See gehen, nicht gehoben: Sondern selbige davon allerdings befreyet seyn, und
+                    ohne einige Abgifften von Zollen oder sonsten, wie es immer Nahmen<note n="141"
+                        type="crit_app">Theatrum Europaeum: Namen.</note> haben mag, gelassen werden
+                    sollen. <lb/>Alle übrige Gravamina sollen durch beyderseits darzu zusammen
+                    zuschickende Rähte in Hamburg innerhalb sechs Wochen à die ratificationis dieses
+                    Tractats, bona fide abgethan und gäntzlich gehoben werden. </p>
+                <p>Art. XII <lb/>Als bey diesen Troublen von Ihro Durchl[aucht]. zu
+                        Braunschweig-Lüneburg-Celle<note n="142" type="crit_app">Theatrum Europaeum:
+                        Zelle.</note> eine Schantze auf die vor dem Hamburgischen Hafen<note n="143"
+                        type="crit_app">Theatrum Europaeum: Haafen.</note> in der Elbe gelegne
+                    Insul, der Brevenhoff<note n="144" type="crit_app">Theatrum Europaeum: Greven
+                        Hoff.</note> genandt<note n="145" type="crit_app">Theatrum Europaeum:
+                        genannt.</note>, geleget worden, so ist von deroselben, daß solche Schantze
+                    so fort nach der Ratification dieses Tractats, evacuiret und rasiret<note
+                        n="146" type="crit_app">Theatrum Europaeum: evacuirt und rasirt.</note>
+                    werden sol<note n="147" type="crit_app">Theatrum Europaeum: solle.</note>,
+                    hingegen aber auch an Seiten Ihro <rs ref="#pp0179">Königl[ichen]. Majest[ät].
+                        zu Dennemarck-Norwegen ec.</rs> hiemit versprochen worden, daß die Erbauung
+                        abgedachter<note n="148" type="crit_app">Theatrum Europaeum, Dumont, CTS:
+                        dieser.</note> Schantze nimmer zu jemands Praejuditz allegiret<note n="149"
+                        type="crit_app">Theatrum Europaeum: allegirt.</note>, noch von der Insul des
+                    Brevenhoffs, und was allda noch ferner sich ansetzen möchte, der Schiff-Fahrt
+                    einige Hemmung noch Hinderniß geschehen sol. </p>
+                <p>Art. XIII <lb/>In diesen<note n="150" type="crit_app">Theatrum Europaeum:
+                        diesem.</note> Frieden und Amnestie werden mit eingeschlossen die hohen
+                    Garands des Altonaischen Vergleichs, dero Successores, Reiche, Lande und
+                    Angehörige, und soll alles dasjenige, so von selbigen zu Wasser und Lande gegen
+                    ein- und anderen Theil geschehen, in ewige Vergessenheit gestellet, und in
+                        Unguten<note n="151" type="crit_app">Theatrum Europaeum: Ungutem.</note>
+                    nimmer weiter gedacht werden. <lb/>Insonderheit wollen Ihro <rs ref="#pp0179"
+                        >Königliche Majestät zu Dennemarck-Norwegen ec.</rs> vor sich und dero
+                    Successores hiemit<note n="152" type="crit_app">Theatrum Europaeum:
+                        hiermit.</note> versprochen haben, daß sie wegen dessen, so bißhero
+                    vorgegangen, noch unter was Praetext es sonsten seyn möchte, gegen Ihro <rs
+                        ref="#pp0182">Königliche Majestät zu Schweden</rs> oder das Durchlauchtigste
+                    Haus Braunschweig-Lüneburg Cell- und Hannoverischen Theils, weder selbst etwas
+                    Thätliches vornehmen, noch andern, die solches thun oder thun möchten, mithin
+                    dero Feinden und Widerwärtigen<note n="153" type="crit_app">Theatrum Europaeum:
+                        Wiederwärtigen.</note> auf keinerley Weise mit Raht und That, Hülffe noch
+                    Vorschub, directe noch indirecte leisten, sondern<note n="154" type="crit_app"
+                        >Dumont, CTS: sonderen.</note> vielmehr ohnangesehen alles dessen, so biß
+                    anhero verhandelt, vorkommen und passiret<note n="155" type="crit_app">Theatrum
+                        Europaeum: passirt.</note>, mit denenselben, und zwar was in specie Ihro
+                    Majest[ät]. und die Cron Schweden belanget, nach Inhalt<note n="156"
+                        type="crit_app">Theatrum Europaeum: Innhalt.</note> der zwischen beyden
+                    nordischen Königen und Reichen vor dem errichteten Pacten und Frieden-Schlüssen
+                    ein beständiges gutes freund-nachbahrliches<note n="157" type="crit_app"
+                        >Theatrum Europaeum: nachbarliches (auch unten).</note> Vernehmen
+                    unterhalten wollen. Hingegen wollen Ihro <rs ref="#pp0182">Königl[iche].
+                        Majest[ät]. in Schweden</rs> und Hochgedachtes Durchlauchtigstes Haus sich
+                    auf gleiche Weise gegen die Cron Dennemarck betragen, und in aller guten
+                    freund-, vetter- und nachbahrlichen Correspondentz und Freundschafft mit Ihro
+                    Königl[ichen]. Majest[ät]. es ihrer Seits auch nicht ermangeln lassen. </p>
+                <p>Art. XIV <lb/>Die <rs ref="#pp0001">römisch Kayserliche Majestät</rs> und übrige
+                    hohe Puissances, so sich bißhero der Garantie des Altonaischen Vergleichs
+                    angenommen; Nicht weniger auch Ihro <rs ref="#pp0138">Königliche Majestät in
+                        Franckreich</rs> und die Chur- und Fürsten des Reichs, zu welchen ein- oder
+                    ander Theil darunter ein Vertrauen haben möchte, welche dann innerhalb 2
+                        Monahten<note n="158" type="crit_app">Theatrum Europaeum, Dumont, CTS:
+                        Monaten.</note> zu benennen, sollen invitiret<note n="159" type="crit_app"
+                        >Theatrum Europaeum: invitirt.</note> werden, beyden Theilen die Garantie
+                    dieses Tractats und der dabey errichteten Neben-Articuln<note n="160"
+                        type="crit_app">Theatrum Europaeum: Articul.</note> zu leisten. </p>
+                <p>Art. XV <lb/>Die Ratificationes über diesen Tractat sollen in 7 Tagen à dato, und
+                    eher da möglich, gegen einander in Segeberg ausgewechselt werden. </p>
+                <p>Zur Urkund dessen seyn<note n="161" type="crit_app">Theatrum Europaeum:
+                        seind.</note> dieses Vergleichs zwey Instrumenta verfertiget, von denen ab
+                    beyden Theilen dazu bevollmächtigten Ministris unterschrieben, und mit ihren
+                        Bittschaften<note n="162" type="crit_app">Dumont, CTS: Pittschaften.
+                        Theatrum Europaeum: Petschafften.</note> befestiget worden. So geschehen zu
+                        Travendahl<note n="163" type="crit_app">Theatrum Europaeum:
+                        Traventhal.</note> den 18. Augusti Anno 1700. </p>
+                <p><rs ref="#pp0183">Johann Hugo von Lente</rs><note n="164" type="annotation">Johan
+                        Hugo von Lente (1640-1716), dänischer Diplomat, Kanzler.</note>
+                    <lb/><rs ref="#pp0184">Christoph Blome</rs><note n="165" type="annotation"
+                        >Christoph Blome (1657-1729), dänischer Diplomat, Präfekt.</note>
+                    <lb/><rs ref="#pp0185">Magnus von Wedderkop</rs><note n="166" type="annotation"
+                        >Magnus von Wedderkop (1638-1721), Staatsmann.</note>
+                    <lb/>Pincier von Königstein </p>
+                <p> </p>
+                <p>Des Travendahlschen Friedenß Articuli Separati<note n="167" type="crit_app"
+                        >Dumont, CTS: [Auslassung]. Keine wörtliche Wiedergabe in Theatrum
+                        Europaeum.</note>
+                </p>
+                <p>1 <lb/>Des Herrn Herzogen zu Hollstein Plön<note n="168" type="crit_app"
+                        >LASchleswig 7/3573, Dumont, CTS: Ploen.</note> Durchl[aucht]., dero Erben
+                    und Nachkommen sollen gegen die mit Ihro<note n="169" type="crit_app"
+                        >Dumont,CTS: Ihrer.</note>
+                    <rs ref="#pp0179">Königl[ichen]. Maj[es]t[ä]t zu Dennemarck</rs> und des Herrn
+                        Herzogen<note n="170" type="crit_app">Dumont, CTS: Hertzogen.</note> zu
+                        Schleßwig<note n="171" type="crit_app">Dumont, CTS: Schleßwich.</note>
+                    Hollstein Gottorf<note n="172" type="crit_app">Dumont, CTS: [Einschub:]
+                        in.</note> Durchl[aucht]. errichtete Verträge<note n="173" type="crit_app"
+                        >Dumont, CTS: Vertrage.</note> und Recesse in keinen Weg turbiret, noch
+                    betrübet, sondern<note n="174" type="crit_app">Dumont, CTS: sonder.</note> bey
+                        ihro<note n="175" type="crit_app">LASchleswig 7/3573, Dumont, CTS:
+                        ihren.</note> darin erlangten und sonst habenden juribus und bestehenden
+                    Herrschaften, Aembtern<note n="176" type="crit_app">LASchleswig 7/3573: Ämtern
+                        (auch unten). Dumont, CTS: Aembteren.</note>, und selbigen in corporirten
+                        Gutern<note n="177" type="crit_app">Dumont, CTS: Güteren.</note>, geruhig
+                    gelaßen, und hinkünfftig von niemanden, wer das<note n="178" type="crit_app"
+                        >Dumont, CTS: der.</note> auch seyn möchte, dagegen angefochten, jedoch
+                        dem<note n="179" type="crit_app">Dumont: [Einschub:] dadurch.</note>
+                    Altonaischen Vergleich dadurch<note n="180" type="crit_app">Dumont, CTS:
+                        [Auslassung:] dadurch.</note> nicht praejudiciret werden. Dieser
+                        Separter<note n="181" type="crit_app">LASchleswig 7/3573: Separate. Dumont,
+                        CTS: Separat.</note> Articul, soll eben die Kraftt und Würckung haben, alß
+                    wenn er dem Haupt Tractat<note n="181" type="crit_app">LASchleswig 7/3573:
+                        [Einschub:] von &lt;...&gt; [ein unleserliches Wort].</note> inseriret wäre,
+                    und seyend<note n="182" type="crit_app">Dumont, CTS: seynd.</note> dazu<note
+                        n="183" type="crit_app">LASchleswig 7/3573 : dabey. Dumont, CTS:
+                        davon.</note> 3 originalia verfertiget, von denen ab beiden theils<note
+                        n="184" type="crit_app">LASchleswig 7/3573: von denen von beiden Theilen.
+                        Dumont, CTS: von denen beyden Theilen.</note> dazu bevollmachtigten
+                    Ministris unterschrieben, und mit ihren Pittschaften versigelt<note n="185"
+                        type="crit_app">Dumont, CTS: bekräfftiget worden. So.</note>. Geschehen zu
+                    Travendahl dem 18 Aug 1700. </p>
+                <p>2.<note n="186" type="crit_app">Fehlt in 2. Kopie von LASchleswig.</note>
+                    <lb/>Es versprechen und übernehmen Ihro<note n="187" type="crit_app">Dumont:
+                        Ihre (auch im Folgenden).</note>
+                    <rs ref="#pp0180">Durchl[aucht] zu Schleßwig Hollstein Gottorf</rs> bey Ihro <rs
+                        ref="#pp0182">Konigl[ichen] Maje[s]t[ä]t von Schweden</rs> durch ihre
+                    Officia und Instantzien<note n="188" type="crit_app">Dumont, CTS:
+                        Instantz.</note> zu erhalten, und zu wege zu bringen, daß dieselbe sich
+                    gefallen laßen werden, 1. daß in Seelandt und dessen königl[ichen].
+                    dennemarckschen Insuln<note n="189" type="crit_app">Dumont, CTS: Insulen.</note>
+                    alle Hostilitäten, Contributiones und Exactiones den Tag hernach, wann<note
+                        n="190" type="crit_app">Dumont, CTS: wan.</note> der von S[eine]r.
+                    D[ur]chl[aucht] diesen Abend abzufertigender Courier, so <rs ref="#pp0182">Ihro
+                        Königl[ichen]. May[es]t[ä]t zu<note n="191" type="crit_app">Dumont, CTS:
+                            in.</note> Schweden</rs>, die Nachricht, von dem Schluß des<note n="192"
+                        type="crit_app">Dumont, CTS: dieser.</note> Tractaten bringen wird<note
+                        n="193" type="crit_app">Dumont: solle. CTS: sole.</note>, ankommen<note
+                        n="194" type="crit_app">LASchleswig 7/3573: angekommen. Dumont, CTS:
+                        ankommen wird.</note>, gleich mögen auffhören<note n="195" type="crit_app"
+                        >Dumont, CTS: aufhören.</note>, und was solchen Tag bey<note n="196"
+                        type="crit_app">LASchleswig 7/3573, Dumont, CTS: [Auslassung].</note> der
+                    Ankunfft des Couriers inclusive, nicht würklich gehoben seyn wird; weiter nicht
+                    exigiret; denn auch 2. die königl[iche]. schwedische Völcker so gleich und ohne
+                    Verzug, nachdem bey Ihro May[es]t[ä]t oder dero Generalität in Seeland<note
+                        n="197" type="crit_app">Dumont, CTS: Seelandt.</note> die Nachricht
+                    einlauffen wird, daß die Ratificationes über den Frieden-Tractat wircklich<note
+                        n="198" type="crit_app">LASchleswig 7/3573, Dumont, CTS: würcklich.</note>
+                    ausgewechselt sind<note n="199" type="crit_app">Dumont, CTS: seyn.</note>,
+                        auß<note n="200" type="crit_app">Dumont, CTS: aus.</note> dem Königreich
+                    Dennemarck, wenn<note n="201" type="crit_app">Dumont, CTS: wan.</note> Wind und
+                    Wetter nicht contrair sind<note n="202" type="crit_app">Dumont, CTS:
+                        seyn.</note>, abgeführet werden sollen. Zu Urkundt<note n="203"
+                        type="crit_app">Dumont, CTS: Uhrkundt.</note> ist diese Declaratio<note
+                        n="204" type="crit_app">Dumont, CTS: Deklaration.</note> von Ihro <rs
+                        ref="#pp0180">D[ur]chl[aucht] zu Schleßwig Hollstein</rs>
+                        unterschrieben<note n="205" type="crit_app">Dumont, CTS: [Einschub:] und mit
+                        dero Insiegel befestiget.</note>. So geschehen Segeberg den 18<note n="206"
+                        type="crit_app">CTS: 11.</note> August 1700. </p>
+                <p>
+                    <lb/>3. <lb/>Wan<note n="207" type="crit_app">LASchleswig 7/3573: Wann.</note>
+                    in denen unter dem heutigen Dato in dem 9. Artic[ul].<note n="208"
+                        type="crit_app">LASchleswig 7/3573: neundten articulo.</note> benandten
+                        14<note n="209" type="crit_app">LASchleswig 7/3573: &lt;...&gt;;
+                        unleserlich.</note> Tagen die Einlieferung der Versicherung auff<note
+                        n="210" type="crit_app">Dumont, CTS: auf (auch unten).</note> die 260
+                    Tausend Reichsthaler nicht geschehen würde, so soll soforth<note n="211"
+                        type="crit_app">Dumont, CTS: so fort.</note> die Harde-Bredstedt<note
+                        n="212" type="crit_app">LASchleswig 7/3573: Halbe.</note> oder
+                        Norges-Harde<note n="213" type="crit_app">LASchleswig 7/3573:
+                        Nordgroßharde.</note> mitt<note n="214" type="crit_app">Dumont, CTS:
+                        nit.</note> allen Rechten, Pertinentien und Superiorität alß<note n="215"
+                        type="crit_app">Dumont, CTS: als (auch unten).</note> wie<note n="216"
+                        type="crit_app">Dumont, CTS: ein.</note> Hypothecen<note n="217"
+                        type="crit_app">Dumont, CTS: Hypotheque.</note> an Gottorff tradiert werden,
+                    und es selber als denn<note n="218" type="crit_app">Dumont, CTS: denen.</note>
+                    in Possession zu nehmen befügt seyn<note n="219" type="crit_app">LASchleswig
+                        7/3573: [Auslassung:] und...sein.</note>. Wobey Ihro D[urc]hl[aucht]
+                        versprechen<note n="220" type="crit_app">Dumont, CTS: versprochen.</note> in
+                    eventum nichts weiter, alß die von solchem Capital gebührende Zinsen, ohne alle
+                    weitere Erhöhung der Contributionen<note n="221" type="crit_app">LASchleswig
+                        7/3573: Contribution.</note> oder anderer Einkünffte<note n="222"
+                        type="crit_app">Dumont, CTS: Einkünfften.</note> à 5 pro Cent<note n="223"
+                        type="crit_app">Dumont, CTS: cento.</note> zu geniessen, worinn<note n="224"
+                        type="crit_app">Dumont, CTS: worin.</note> sie auff keine Weise sollen
+                    gehindert werden. Zu mehrer Versicherung ist dieser Separat articul von
+                    beiderseits bevollmächtigten Ministris signiret und eigenhändig
+                        unterschrieben<note n="225" type="crit_app">Dumont, CTS: [Einschub:] und
+                        soll mit dem Haupt-Tractat von gleichen Würden und Kräfften seyn.</note>.
+                    Actum Travend[ahl]. 18 Aug. 1700. </p>
+                <p>
+                    <lb/>4. <lb/>Alß von denen allhier bey diesen Tractaten von wegen <rs
+                        ref="#pp0182">Ihrer May[es]t[ä]t in Schweden</rs>, Ihrer Churfürstl[ichen].
+                    Durchl[aucht]. zu Brandenb[urg]., und dem Durchlauchtigsten Hauße
+                    Braunschweig-Lüneburg anwesenden Ministris inständig verlanget, und
+                    recommandieret worden, daß <rs ref="#pp0179">I[hro] May[es]t[ä]t zu
+                        Dennemarck</rs> geruhen wolten, der Stadt Lübeck die jura superioritatis
+                    über die Örther Meußlingen, Niendorf<note n="226" type="crit_app">Dumont, CTS:
+                        Niendorff.</note>, Recke<note n="227" type="crit_app">Dumont, CTS: Reke.
+                        LASchleswig 7/3573: Rende.</note>, Stäckelsdorff<note n="228"
+                        type="crit_app">LASchleswig 7/3573: Stockelsdorf.</note>, Morie,
+                        Eckfort<note n="229" type="crit_app">Dumont, CTS: Eckhorst.</note>,
+                    Dunckelsdorff und Trenthorst ohne ferneren Streit zu laßen. So hoffen die
+                    Königliche Dähnischen Herren Gevollmächtigte zu wege zu bringen, daß Ihro
+                    May[es]t[ä]t zu Bezeugung dero guten Willens gegen Ihre benachbahrte Craiß<note
+                        n="230" type="crit_app">Dumont, CTS: Kreyß (auch unten).</note> Stände<note
+                        n="231" type="crit_app">Dumont, CTS: Ständen.</note>, und in regard der
+                    eingewandten Intercession, den<note n="232" type="crit_app">Dumont, CTS:
+                        dem.</note> mehrgedachten<note n="233" type="crit_app">Dumont, CTS:
+                        mehrgedachter.</note> Örther wegen am Kayserl[iche]n<note n="234"
+                        type="crit_app">Dumont: Keyserlichen.</note> Hofe<note n="235"
+                        type="crit_app">Dumont, CTS: Hoff.</note> erfolgenden Rechtsspruch ohne
+                    Auffenthalt statt geben, immittelst aber auch deßen unerwartet, wenn die Stadt
+                    Lübeck an Ihro Sr.<note n="236" type="crit_app">Dumont, CTS: Ihre.</note>
+                    May[es]t[ä]t durch eine Abschickung ersuchen wird, deroselben das Gut und
+                        Dorf<note n="237" type="crit_app">Dumont, CTS: Guth und Dorff. LASchleswig
+                        7/3573: Guth.</note> Meußlingen, und alle dero Pertinentien sofort cum omni
+                    teritorii jure übergeben und laßen werden. Zu Urkund<note n="238"
+                        type="crit_app">Dumont, CTS: Uhrkundt. LASchleswig 7/3573: Uhrund
+                        dessen.</note> ist dieser Separatarticul von dem königl[iche]n
+                    dennemarkischen gevollmächtigten<note n="239" type="crit_app">Dumont, CTS:
+                        bevollmächtigten.</note> Ministris unterschrieben, und mitt dero
+                    Pittschaften bekräfftiget worden. Actum Travendahl den 18 Aug 1700 </p>
+                <p>
+                    <lb/>5. <lb/>Auff das von dieses nieder-sächsischen Craißes und deßen hohe
+                    Herren Directoren wegen von Seiten der Königl[ich]. schwedischen,
+                    chur-brandenburg[ischen]n, und baunschweig-lneburg[ischen] gevollmächtigten
+                    Herren Ministrorum beschehenes Anhalten, daß Ihro Königl[iche]. May[es]t[ä]t zu
+                    Dennemarck geruhen wollen, die an das Stift<note n="240" type="crit_app"
+                        >LASchleswig 7/3573, Dumont Stifft.</note> und Capitul zu Lübeck auß
+                    gewissen kayserlichen Assignationen gemachte Forderung auff 120
+                    R[eichs]th[aller]. demselben zu erlaßen, ist von wegen Ihro <rs ref="#pp0179"
+                        >Königl[ichen]. May[es]t[ä]t zu Dennemarck Norwegen</rs><note n="241"
+                        type="crit_app">Dumont, CTS: [Auslassung:] Norwegen.</note>, die
+                        Erklärung<note n="242" type="crit_app">Dumont, CTS: Erklährung.</note>
+                    ertheilet, daß sie an besagtes Stift<note n="243" type="crit_app">LASchleswig
+                        7/3573, Dumont, CTS: Stifft (auch unten).</note> und Capitul ein mehres, alß
+                    was nach den<note n="244" type="crit_app">Dumont, CTS: denen.</note> Reichs -
+                    und Craißgesetzen, und nach dem Fuss der Matricul selbigen obligen und zu
+                    kommen, auch nach Abzug des<note n="245" type="crit_app">LASchleswig 7/3573,
+                        Dumont, CTS: [Einschub:] bereits.</note> von Ihrer May[es]t[ä]t bereits<note
+                        n="246" type="crit_app">LASchleswig 7/3573, CTS: [Auslassung:]
+                        bereits.</note> genosenen<note n="247" type="crit_app">LASchleswig 7/3573:
+                        ersehen. Dumont, CTS: genossenen.</note> restiren kann<note n="248"
+                        type="crit_app">Dumont, CTS: kann.</note>, nicht fordern<note n="249"
+                        type="crit_app">LASchleswig 7/3573, Dumont, CTS: forderen.</note>, auch nach
+                    der Liquidation innerhalb 6 Wochen die Sache zur Richtigkeit bringen, auch mit
+                    mehrgedachtem Stift und Capitul nach aller Billigkeit handeln<note n="250"
+                        type="crit_app">LASchleswig 7/3573, Dumont, CTS: handelen.</note> und
+                    demselben und<note n="251" type="crit_app">LASchleswig 7/3573, Dumont, CTS:
+                        was.</note> einigen anderen Ständen geschehen, widerfahren<note n="252"
+                        type="crit_app">Dumont, CTS: wiederfahren.</note> laßen wollen. Uhrkundlich
+                    ist dieser Separate Articul von beyderseits bevollmächtigten Ministris signiert
+                        und<note n="253" type="crit_app">Dumont, CTS: [Einschub:]
+                        eigenhändig.</note> unterschrieben, und soll mit dem Haubt-Tractat<note
+                        n="254" type="crit_app">LASchleswig 7/3573, Dumont, CTS: Haupt.</note> von
+                    gleichen Würden und Kräfften seyn. Actum Travend[ahl]. 18 Aug 1700. </p>
+                <p>
+                    <lb/>6. <lb/>Auf die bey gegenwärtigen Tractaten beschehene Instanz<note n="255"
+                        type="crit_app">Dumont, CTS: Instantz.</note>, daß <rs ref="#pp0179">Ihro
+                            K[önigliche].<note n="256" type="crit_app">Dumont, CTS:
+                            [Auslassung].</note> May[es]t[ä]t zu Dennemarck Norwegen</rs>, dem Elb
+                    Commercio zum Besten, die in solchen Strohm belegen, so genandte<note n="257"
+                        type="crit_app">Dumont, CTS: genante.</note> Hittler-Schanze<note n="258"
+                        type="crit_app">LASchleswig 7/3573: [undeutlich].</note> wegthun und
+                    demoliren zu laßen, sich gefallen laßen wollen<note n="259" type="crit_app"
+                        >LASchleswig 7/3573, Dumont, CTS: wolten.</note>, hatt mann<note n="260"
+                        type="crit_app">Dumont, CTS: hat man.</note> an Seithen<note n="261"
+                        type="crit_app">LASchleswig 7/3573: Seiten.</note> Hochgedachter I[hrer].
+                    K[öniglichen]. M[ajestät]. sich dahin erklähret, daß sie solchen Punct dem
+                    Arbitrio Ihro <rs ref="#pp0186">Königl[iche]n<note n="262" type="crit_app"
+                            >Dumont, CTS: [Auslassung].</note> May[es]t[ä]t von
+                    Großbrittannien</rs>, und der<note n="263" type="crit_app">Dumont, CTS:
+                        [Auslassung].</note> Herrn <rs ref="#p94">General Staaten</rs><note n="264"
+                        type="crit_app">Dumont, CTS: Staten.</note> der vereinigten Niederlanden,
+                    alß Guarants, und darneben I[hrer]. <rs ref="#pp0138">K[öniglichen].<note
+                            n="265" type="crit_app">Dumont, CTS: [Auslassung].</note> M[ajestät].
+                        von Franckreich</rs> überlaßen, und innerhalb 2 Monathen<note n="266"
+                        type="crit_app">CTS: zwey Monath Zeit. Dumont: zwey Monat Zeit.</note> nach
+                        deren<note n="267" type="crit_app">Dumont, CTS: dem.</note> Außspruch,
+                    solchen ein Genügen leisten wollen. Uhrkundlich ist dieser Separat Articul von
+                    dem Konigl[ichen]n Dennemarckschen &lt;...&gt; Tractats bevollmächtigten
+                        Ministris<note n="268" type="crit_app">Dumont, CTS: beydseits
+                        bevollmächtigten Ministris.</note> signiert, eigenhändig unterschrieben, und
+                    soll mitt<note n="269" type="crit_app">Dumont, CTS: mit.</note> dem Haupt
+                    Tractat von gleichen Würden und Kräfften seyn. Actum Travend. den 18. Aug[ust]
+                        1700.<note n="270" type="crit_app">Abweichende Datierung in der 2. Abschrift
+                        des LASchleswig: Urkundlich zu Traventhal 18. Aug.1702.</note>
+                </p>
+                <p><rs ref="#pp0183">Johann Hugo von Lente</rs><lb/>
+                    <rs ref="#pp0184">Christoph Blome</rs><note n="271" type="crit_app">LASchleswig
+                        7/3573: beide Unterschriften fehlen.</note>
+                    <lb/>
+                </p>
+
+                <p>[Anmerkung]<note n="272" type="crit_app">Weiterführender Abdruck Dumont, CTS:
+                        Garantie der 13. Artikels des Travendahler Friedens durch Dänemark-Norwegen,
+                        Segeberg 1700 VIII 13. sowie: Ihro Königlichen Majestät Friderici IV in
+                        Dännemarck Versicherung, der Hypothec auf die Landschafft Brettstadt oder
+                        Norgensharde wegen der dem Herren Hertzog von Holstein-Gottorff im
+                        Travendahlischen Frieden versprochener 260000 Thaler, Coldingen, 1700 VIII
+                        26. sowie: Nebenvergleich über den Travendahlische Frieden zwischen Ihro
+                        Königlichen Majestät in Dännemarck Friderico IC und Hertzogs Friedirchs zu
+                        Schleswig-Holstein Hochfürstliche Durchleucht wegen Bezahlung derer im
+                        erwehnten Frieden von Ihro Königlichen Majestät an gemelten Heern Hertzogs
+                        Durchleucht versprochenen 260000 Rthlr. , Hamburg 1701 VII 12 [kein Nachweis
+                        in LASchleswig].</note></p>
+            </div>
+        </body>
+        <back>
+            <listBibl>
+                <bibl xml:id="a364">
+                    <title level="a">Reichsarchiv (1700-08-18)</title>
+                    <title level="m">Reichsarchiv, Band 10 (1712), PSpec Con II (2), S.244-250 Aus:
+                        Dokumentenarchiv der Universitätsbibliothek Augsburg (Drucke vor 1900 /
+                        Historische Geschichtswerke).</title>
+                    <biblScope>
+                        <graphic xml:id="A1Pnr1"
+                            url="https://www.ieg-friedensvertraege.de/dbimages/img_4aa79f36ea9d0"/>
+                        <graphic xml:id="A1Pnr2"
+                            url="https://www.ieg-friedensvertraege.de/dbimages/img_4aa79f3d8604c"/>
+                        <graphic xml:id="A1Pnr3"
+                            url="https://www.ieg-friedensvertraege.de/dbimages/img_4aa79f43ef7ae"/>
+                        <graphic xml:id="A1Pnr4"
+                            url="https://www.ieg-friedensvertraege.de/dbimages/img_4aa79f4a86010"/>
+                        <graphic xml:id="A1Pnr5"
+                            url="https://www.ieg-friedensvertraege.de/dbimages/img_4aa79f58e997b"/>
+                        <graphic xml:id="A1Pnr6"
+                            url="https://www.ieg-friedensvertraege.de/dbimages/img_4aa79f58e997b"/>
+                        <graphic xml:id="A1Pnr7"
+                            url="https://www.ieg-friedensvertraege.de/dbimages/img_4aa79f5f4391a"/>
+                    </biblScope>
+                </bibl>
+                <bibl>Fuhrmann, Die Auseinandersetzung zwischen königlicher und gottorfischer Linie
+                    in den Herzogtümern Schleswig und Holstein.</bibl>
+                <bibl>Hoffmann, Reumann, Kellenbenz, Die Herzogtümer von der Landesteilung 1544 bis
+                    zur Wiedervereinigung Schleswigs 1772.</bibl>
+                <bibl>Kellenbenz, Die Herzogtümer vom Kopenhagener Frieden bis zur Wiedervereinigung
+                    Schleswigs 1660-1721.</bibl>
+                <bibl>Christiansen, in: Danmark-Norges Traktater 11, S. 224-377.</bibl>
+                <bibl>Sundberg, Svenska freder och stillestånd, S. 301 f.</bibl>
+                <bibl>Seitz / Rosengren, Sveriges freder och fördrag, S. 72.</bibl>
+            </listBibl>
+        </back>
+    </text>
+</tei:TEI>

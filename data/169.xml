@@ -1,0 +1,311 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE tei SYSTEM "../resources/FriVer_DTD.dtd">
+
+<?xml-model href="../resources/FriVer.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns="http://www.tei-c.org/ns/1.0"
+    xml:id="pa000299-0169">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title level="s">European peace treaties of the pre-modern era in data / Europäische
+                    Friedensverträge der Vormoderne in Daten (FriVer+)</title>
+                <title when="1620-01-16" xml:id="t169" when-custom="1620 I 16" level="a"
+                    ref="https://www.ieg-friedensvertraege.de/treaty/t-169-1-de.html"
+                    >Waffenstillstand von Preßburg</title>
+            </titleStmt>
+            <editionStmt>
+                <edition> Digital edition according to <ref target="http://www.tei-c.org/">TEI
+                        P5</ref>
+                </edition>
+                <funder>
+                    <ref target="https://www.text-plus.org/">TEXT+</ref>
+                </funder>
+                <editor role="http://id.loc.gov/vocabulary/relators/edt"
+                    ref="https://orcid.org/0000-0002-8741-5916">
+                    <persName>Jaap Geraerts</persName>
+                    <note>The transformation and enrichment of the data is done by Jaap Geraerts
+                        (IEG Mainz). The other members of the FriVer+ team are Fabian Cremer, Ines
+                        Grund, and Thorsten Wübbena (all IEG Mainz).</note>
+                    <note> The original data has been created by the <ref
+                            target="https://www.ieg-friedensvertraege.de">team of scholars</ref> who
+                        were part of the Europäische Friedensverträge der Vormoderne project. This
+                        project was lead by Prof. Dr. Heinz Duchhardt and was based at the Leibniz
+                        Institute of European History in Mainz. </note>
+                </editor>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>
+                    <orgName ref="http://www.isni.org/0000000119314040">Leibniz-Institut für
+                        Europäische Geschichte Mainz</orgName>
+                </publisher>
+                <distributor>
+                    <orgName ref="http://www.isni.org/0000000110101946">Universitäts- und
+                        Landesbibliothek Darmstadt</orgName>
+                </distributor>
+                <idno type="ISIL">http://lobid.org/organisation/DE-17</idno>
+                <date type="issued" when="2023-12-23"/>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">
+                        <p xml:lang="en">This file is licensed under the terms of the Creative
+                            Commons License CC-BY 4.0 (Attribution 4.0 International)</p>
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <repository xml:id="r4">Budapest MOL <note>Budapest MOL, Findbuch:<lb/>
+                        <ref
+                            target="https://www.eleveltar.hu/digitalis-tartalom?source=mnlscope&amp;ref=mnlscope::1982777"
+                            >https://www.eleveltar.hu/digitalis-tartalom?source=mnlscope&amp;ref=mnlscope::1982777</ref></note>
+                </repository>
+                <msDesc>
+                    <p>MolBudapest Acta publica E 142 Fasz. 13 Nr. 14 16.I.1620. <lb/>
+                        <lb/>
+                    </p>
+                    <p>Weitere Stücke: </p>
+                    <p>HHStAWien AUR 1620 I 16: Ratifikation Bethlens, Preßburg 1620 I 16. </p>
+                    <p>MolBudapestr Acta publica E 142 Fasz. 13 Nr. 13 : Ratifikation durch
+                        Ferdinand II., Wien 1620 I 16 (Abschrift). <lb/>
+                        <lb/>[Anm.:] Wegen Bedenkens Ferdinands hinsichtlich Art. 2
+                        (Waffenstillstand für Böhmen) wurde die kaiserliche Ratifikation mit einem
+                        Zusatz versehen, der eine Unterstützung Böhmens und der Konföderierten durch
+                        Bethlen und die ungarischen Stände untersagte; sie wurde&nbsp;am 4. Februar
+                        Bethlen zugestellt. Druck: Monumenta Hungariae Historica, Serie
+                        Diplomataria, IV, S. 198-199 und Gooss, S. 492-493 [kein Nachweis]. </p>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p> The data in this XML file, originally created by the project <ref
+                        target="https://www.ieg-friedensvertraege.de/vertraege">Europäische
+                        Friedensverträge der Vormoderne online</ref> has been transformed in
+                    accordance with <ref target="http://www.tei-c.org/">TEI P5</ref> as part of the
+                    project <ref
+                        target="https://www.ieg-mainz.de/en/research/research-projects/european-peace-treaties-of-the-pre-modern-era-in-data"
+                        >Europäische Friedensverträge der Vormoderne in Daten (FriVer+)</ref>
+                </p>
+            </projectDesc>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="la" xml:id="lan6">Latein</language>
+            </langUsage>
+        </profileDesc>
+    </teiHeader>
+    <standOff>
+        <listPerson>
+            <person role="signatory" xml:id="p12">
+                <persName ref="https://explore.gnd.network/gnd/4043271-3">
+                    <name>Oesterreich</name>
+                </persName>
+            </person>
+            <person role="signatory" xml:id="p109">
+                <persName ref="https://explore.gnd.network/gnd/4054835-1">
+                    <name>Siebenbürgen</name>
+                </persName>
+            </person>
+        </listPerson>
+        <listPlace>
+            <place xml:id="loc52">
+                <placeName ref="https://explore.gnd.network/gnd/4076329-8">Preßburg</placeName>
+            </place>
+        </listPlace>
+        <facsimile>
+            <surface xml:id="FacsPnr1">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_43c24ab579c78"/>
+            </surface>
+            <surface xml:id="FacsPnr2">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_43c24aecdff87"/>
+            </surface>
+            <surface xml:id="FacsPnr3">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_43c24b28ad2ac"/>
+            </surface>
+            <surface xml:id="FacsPnr4">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_43c24b60717b0"/>
+            </surface>
+            <surface xml:id="FacsPnr5">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_43c24ba0524d5"/>
+            </surface>
+        </facsimile>
+    </standOff>
+    <text>
+        <front>
+            <div type="Drucke">
+                <p>Roderich Gooss, Österreichische Staatsverträge. Fürstentum Siebenbürgen. Wien
+                    1911, S. 484-493. <lb/>Dumont V/2, S. 358-359 <ref
+                        target="http://gallica.bnf.fr/ark:/12148/bpt6k1229594.zoom.f360.langEN">Link
+                        zum Druck auf gallica.bnf.fr </ref>
+                    <lb/>Bittner 1, Nr. 204 [Regest]. Bernard III, S.159. Firnhaber, Actenstücke zur
+                    Aufhellung der ungrischen Geschichte des 17. und 18. Jahrhunderts XXVIII, S.
+                    464-468. Georg Pray, Gabrielis Bethlenii principatus Transsilvaniae coaevis
+                    documentis illustratus. Pest 1816, I, S. 120ff.&nbsp; </p>
+                <p> </p>
+                <p>[Anm.:] Der bei Dumont unter dem gleichen Datum abgedruckte Waffenstillstand
+                    stimmt nicht mit der Ausfertigung und mit dem Abdruck bei Gooss überein. </p>
+            </div>
+            <div type="Inhalt">
+                <p>Auseinandersetzungen; Willen zum Frieden; Waffenstillstand. <lb/>1. Befristeter
+                    Waffenstillstand auf dem Boden Ungarns sowie in Teilen Polens bis zum 29.
+                    September 1620 <lb/>2. Kaiser kann den Waffenstillstand auf Verlangen auch auf
+                    B&#246;hmen und dessen Verb&#252;ndeten ausdehnen.
+                    Friedensvermittlungsversprechen Bethlens. <lb/>3. Status quo nunc in allen
+                    Besitzfragen. <lb/>4. Bethlen beh&#228;lt alle besetzten Festungen (Oberungarn,
+                    dies- und jenseits der Donau). <lb/>5. Der Kaiser beruft f&#252;r den 31. Mai
+                    1620 einen ungarischen Landtag ein (unter Leitung Bethlens und des Palatins).
+                    <lb/>6. Alle Streitigkeiten sollen auf diesem beigelegt werden. <lb/>7. Freiheit
+                    des Handels. <lb/>8. R&#252;ckzug der Truppen Hommonays ; sie k&#246;nnen sonst
+                    gewaltsam zur&#252;ckgedr&#228;ngt werden. <lb/>9. Einstellung der
+                    Feindseligkeiten. <lb/></p>
+            </div>
+        </front>
+        <body>
+            <div type="Transliteration">
+                <pb facs="#FacsPnr1"/>
+                <p>1 <lb/>Nos Comes Sigismundus Forgachÿ de Ghimes, Regni Hun- <lb/>gariæ Palatinus,
+                    et Judex Cumanorum, nec nin Comitatuum <lb/>Neogradien[si], Saros et de Zabolcz
+                    suppremus Comes etc.&nbsp; Uni- <lb/>versi denique Status et Ordines dicti Regni
+                    Hungariæ, <lb/>in Generali nostra diæta, in hac libera et Regia Civit[a]te
+                    <lb/>Posonien[si] constitui: Recognoscimus tenore præsen- <lb/>tium
+                    significantes quibus expedit universis.&nbsp; Quod <lb/>posteaquam paucis ab
+                    hinc mensibus, concitatis et exortis <lb/>&nbsp;certis quibusdam in hoc Regno
+                    motibus, tristissimas ca- <lb/>lamitates diversorumque periculorum semina secum
+                    tra- <lb/>hentibus, Sa[cratissima] Romano[rum] Imperator[ia] et Regia
+                    Mai[es]tas, <lb/>pro pacis publicæ studio, paternaque erga eandem cura,
+                    <lb/>medio mutui potius tractatus, quam per alia quævis con- <lb/>trariantia
+                    media, eosdem motus sopitos et compositos vo- <lb/>lens, certos suos
+                    Commissarios, Reverendissimum nempe <lb/>Dominum Valentinum Lépes,
+                    Archiepiscopum Colocen[sem], <lb/>Administratorem Episcopatus Jaurien[sis],
+                    locorumque eo- <lb/>rundem Comitem perpetuum, per Regnum Hungariæ Aulæ
+                    <lb/>Cancellarium et Consiliarium, Spectabiles ittem <lb/>ac M[a]g[nific]os
+                    Leonhardum Helfridum Comitem et liberum Ba- <lb/>ronem &nbsp;&nbsp; Meggau, et
+                    in Creuczen, intimum Consiliarium et <lb/>Camerarium, ac Capitaneum dominiorum
+                    Forchtenstain <lb/>et Eysenstadt, Sigefridum Christophorum Prayner <lb/>Liberum
+                    Baronem in Stubingh, Fladnicz, et Rabenstain, <lb/>dominum in Stacz et Asperen,
+                    intimum Consiliarium <lb/>et Camerarium, nec non Thomam Nadasdi de Pethenied
+                    <lb/>itidem Suæ [Majes]t[a]tis Consiliarium, huc Posonium cum suffi- </p>
+                <pb facs="#FacsPnr2"/>
+                <p>cienti plenipotentia et Authoritate nobiscum tractan- <lb/>di et concludendi
+                    expedire dignati fuisset, extunc nos <lb/>quoque in pacis et tranquilitatis
+                    publicæ restitutionem <lb/>Christianis, uti par est, animo propendentes, cum
+                    præta- <lb/>ctis do[mi]nis Commissarijs, de et super certis inducijs, infra tem-
+                    <lb/>pus præfixum utrinque sancte et firmiter observandis, hasce
+                    <lb/>subsequentes conditiones et articulos, unanimi voto <lb/>&nbsp;paribusque
+                    suffragijs, tractavimus, inivimus, et Conclusimus <lb/>in hunc modum. </p>
+                <p>Prima <lb/>Quod utrinque et ubique in Regno Hungariae, etiam in par- <lb/>tibus
+                    Poloniae fiat suspensio armorum (de qua per Sacr[atissimam] <lb/>Cæsar[eam]
+                    Regiamque [Maj]e[s]t[a]tem Serenissimus rex Poloniae requi- <lb/>rendus erit),
+                    pactæque induciæ durent usque ad festum <lb/>Sancti Michaelis, diem videlicet
+                    futuri mensis Septem- <lb/>bris vigesimum nonum Anni præsentis. </p>
+                <p>Secunda <lb/>Quod easdem inducias similiter post requisitionem <lb/>Sua
+                    [Majes]tas Cæsar[ea] Regia, Bohemis etiam et alijs incorpora- <lb/>tis
+                    provincijs, sicut et, secundum statum eorum, utrique <lb/>Austriæ, iustis et
+                    æquis conditionibus concedere dignabitur. <lb/>&nbsp;Atque hunc tractatum
+                    Serenissimus Princeps, melioribus <lb/>quibus poterimus studijs, tam apud Sua
+                    [M]a[jes]t[a]tem Cæsar[eam] et Regiam <lb/>præfata ittem Regna et provincias ac
+                    Christianos Princi- <lb/>pes promovere conabimur, ita ut armis depositis,
+                    secundu[m] <lb/>communem utriusque partis æquitatem, motus isti pace <lb/>optata
+                    terminentur. <lb/>&nbsp; </p>
+                <pb facs="#FacsPnr3"/>
+                <p>Tertia <lb/>Sub hoc induciarum termino Regni administratio ma- <lb/>neat in hoc,
+                    quo nunc est, statu, scilicet ut quæcunque <lb/>nunc præ manibus et in potestate
+                    Suæ Mai[es]t[a]tis reperiun- <lb/>tur, maneant sub Regimine Suae [Majes]t[a]tis.
+                    Quæ vero præ ma- <lb/>nibus Serenissimi Principis reperiuntur, ea omnia, absque
+                    <lb/>præiudicio partis utriusque, maneant teneantur, et ab <lb/>Serenissimo
+                    Principe absolute gubernentur. </p>
+                <p>Quarta <lb/>Arces itaque, Comitatus confinia, Civitates omnes, quæcunque <lb/>tam
+                    in superioribus, quam in his cis ultradanubianis <lb/>Regni Hungariæ partibus
+                    nunc in potestate Serenissimi <lb/>Principis existunt, ad terminum usque
+                    induciarum sub <lb/>eiusdem maneant absoluta potestate et gubernatione. </p>
+                <p>Quinta <lb/>Intra vero induciarum terminos Regni Hungar[iæ] Diæta Ge-
+                    <lb/>neralis ex præsenti Suae [Majes]t[a]tis confirmatione promulgetur <lb/>ad
+                    dominicam Exaudi ultimum vid[e]l[ice]t diem May, in <lb/>liberam ac Regiam
+                    montanam Civitatem Novizoliensem, <lb/>ubi etiam Serenissimus Princeps et
+                    Illustrissimus D[ominus] <lb/>Comes Regni Hungar[iæ] Palatinus, propria in
+                    persona com- <lb/>pareant.Reliqui ittem Status et Ordines Universi in-
+                    <lb/>clyti Regni Hungar[iæ], absque ulla exceptione et tergiversa- <lb/>tione in
+                    propriis personis; Comitatus et Liberæ Civitates, <lb/>Regnoque Hungar[iæ]
+                    annexæ partes per Legatos cum sufficien- <lb/>ti Instructione comparere sint
+                    obligati sub poena. <lb/>
+                </p>
+                <pb facs="#FacsPnr4"/>
+                <p>Sexta <lb/>In Comitijs autem illis diætalibus omnes eæ difficultates <lb/>et
+                    gravamina, conditionesque acceptatæ, quæ vel inter <lb/>Suam Mai[jes]t[a]tem,
+                    Ordinem Ecclesiasticum, reliquosque Re- <lb/>gni Status intercedunt, modis
+                    quibuslibet fieri poterit <lb/>saluti feris penitus tollantur et diluantur,
+                    complanentur <lb/>ac effectuentur. </p>
+                <p>Septima <lb/>Commercia, negotiationes et passus ubique in Regno libe- <lb/>ræ
+                    sint. </p>
+                <p>Octava <lb/>Polonus autem miles in partes aliquas Regni Hungariæ supe-
+                    <lb/>riores per do[min]um Georgium Homonnai, et alios inductus <lb/>primo quoque
+                    tempore educatur; Aut si excedere nolit, <lb/>aut ipsos, quorum inter erit
+                    removere negligerent Princi- <lb/>pales, eo in casu absque læsione aliqua harum
+                    induciar[um] <lb/>liceat Regnicolis providere, ut illi omnibus &lt;v&gt;ijs, et
+                    modis <lb/>removeantur. </p>
+                <p>Nona <lb/>Tempus autem hoc induciarum, ut pote parti utrique sacro <lb/>sanctum,
+                    ut ab omni hostilitate, inimicitijs occultis æque <lb/>ac manifestis, militum
+                    excursionibus, arcium locorumque <lb/>interceptionibus, occupationibus; Cunctis
+                    denique tam <lb/>privatis quam publicis offensionibus, utrique parti sit ubique
+                    <lb/>immune, ad cuius observationem sub vinculo bonæ fidei <lb/>utrinque partes
+                    se se compromittunt et obstringunt. <lb/>
+                </p>
+                <pb facs="#FacsPnr5"/>
+                <p>Nos itaque, prælibatas antefatarum induciarum conditiones, <lb/>&nbsp;et
+                    Articulos, præsentibus literis nostris de verbo ad verbum <lb/>insertos et
+                    inscriptos, ac omnia et singula in eis contenta, <lb/>&nbsp;ratos gratos et
+                    accepta habentes, prælibatam Suam Mai[es]t[a]tem <lb/>Cæsar[eam] Regiamque, ac
+                    omnes et singulos eos, quos præsentes <lb/>induciæ concernere et in se se
+                    comprehendere posse di- <lb/>gnoscuntur, fide bona, sancta et intemerata
+                    assecuramus <lb/>et affidamus; spondentes firmiter, quod præmissa omnia <lb/>in
+                    omnibus punctis, clausulis, et articulis, tam nos ipsi invio- <lb/>labiliter
+                    observabimus, quam per alios omnes, quorum un- <lb/>quam istud interfuerit,
+                    cuiuscunque Status officij digni- <lb/>tatis et conditionis existant, signanter
+                    vero Generales <lb/>exercituum nostrorum Duces Capitaneos, et quibuscunque
+                    <lb/>officijs bellicis, quocunque nominis vocabulo nuncupatis <lb/>fungentes,
+                    firmiter et sancte observari faciemus. Imo <lb/>Assecuramus, affidamus et
+                    spondemus, harum nostrarum <lb/>vigore et testimonio l[ite]rarum mediante. Datum
+                    in libera <lb/>et Regia Civit[a]te Posonien[si] die decima sexta mensis Januarij
+                    <lb/>Anno do[mi]ni Millesimo Sexcentesimo vigesimo. </p>
+                <p>Comes Sigis. Forga&lt;...&gt;<note n="1" type="crit_app">Verdeckt durch Siegel. </note>
+                    <lb/>De Gimes m.p. </p>
+                <p>Comes &lt;...&gt; </p>
+                <p>Comes Emericus Thurzo de Sewar&lt;...&gt; m.p. </p>
+                <p>Andr. Jaka &lt;...&gt;&nbsp; m p </p>
+                <p>K&lt;....&gt;y </p>
+                <p>L&lt;....&gt; </p>
+                <p>&lt;-.....&gt;gi </p>
+                <p>Bogdan &lt;.&gt;ang&lt;.&gt; m.p. </p>
+                <p>Joan Sandor m.p. </p>
+                <p>Paulus P&lt;...&gt; </p>
+                <p>&lt;....&gt; </p>
+                <p>Nicolay &lt;...&gt; m.p. </p>
+                <p>Steph. Ama&lt;.&gt;e m.p. </p>
+                <p>Paulus T&lt;...&gt; M. Regiae &lt;..&gt; Civitatis Cassov. </p>
+            </div>
+        </body>
+        <back>
+            <listBibl>
+                <bibl xml:id="a132">
+                    <title level="a">Theatrum Europaeum (1620-01-16)</title>
+                    <title level="m">Theatrum Europaeum, Band 1 (1618 - 1628) Aus: Dokumentenarchiv
+                        der Universitätsbibliothek Augsburg (Drucke vor 1900 / Historische
+                        Geschichtswerke).</title>
+                    <biblScope>
+                        <graphic xml:id="A1Pnr1"
+                            url="https://www.ieg-friedensvertraege.de/dbimages/img_4a097f26a4565"/>
+                    </biblScope>
+                </bibl>
+                <bibl>Andrea Schmidt-Rösler, Princeps Transilvaniae - Rex Hungariae Gabriel Bethlens
+                    Außenpolitik zwischen Krieg und Frieden, in: Heinz Duchhardt / Martin Peters
+                    (Hg.), Kalkül — Transfer — Symbol. Europäische Friedensverträge der Vormoderne,
+                    Mainz 2006-11-02 (Veröffentlichungen des Instituts für Europäische Geschichte
+                    Mainz, Beihefte Online 1), Abschnitt 80—98. <lb/>URL: &lt;<ref
+                        target="../vieg-online-beihefte/01-2006.html"
+                        >http://www.ieg-mainz.de/vieg-online-beihefte/01-2006.html</ref>&gt;. </bibl>
+                <bibl>Depner Maja, Das Fürstentum Siebenbürgen im Kampf gegen Habsburg. Stuttgart
+                    1938 (bes. S.48-57).</bibl>
+            </listBibl>
+        </back>
+    </text>
+</tei:TEI>

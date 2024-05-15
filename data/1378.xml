@@ -1,0 +1,442 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE tei SYSTEM "../resources/FriVer_DTD.dtd">
+
+<?xml-model href="../resources/FriVer.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns="http://www.tei-c.org/ns/1.0" xml:id="pa000299-1378">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title level="s">European peace treaties of the pre-modern era in data / Europäische Friedensverträge der Vormoderne in Daten (FriVer+)</title>
+                <title when="1716-04-08" xml:id="t1378" when-custom="1716 IV 8_19" level="a" ref="https://www.ieg-friedensvertraege.de/treaty/t-1378-1-de.html">Bündnisvertrag von Danzig</title>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    Digital edition according to
+                    <ref target="http://www.tei-c.org/">TEI P5</ref>
+                </edition>
+                <funder>
+                    <ref target="https://www.text-plus.org/">TEXT+</ref>
+                </funder>
+                <editor role="http://id.loc.gov/vocabulary/relators/edt" ref="https://orcid.org/0000-0002-8741-5916">
+                    <persName>Jaap Geraerts</persName>
+                    <note>The transformation and enrichment of the data is done by Jaap Geraerts (IEG Mainz). The other members of the FriVer+ team are Fabian Cremer, Ines Grund, and Thorsten Wübbena (all IEG Mainz).</note>
+                    <note>
+                        The original data has been created by the
+                        <ref target="https://www.ieg-friedensvertraege.de">team of scholars</ref>
+                        who were part of the Europäische Friedensverträge der Vormoderne project. This project was lead by Prof. Dr. Heinz Duchhardt and was based at the Leibniz Institute of European History in Mainz.
+                    </note>
+                </editor>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>
+                    <orgName ref="http://www.isni.org/0000000119314040">Leibniz-Institut für Europäische Geschichte Mainz</orgName>
+                </publisher>
+                <distributor>
+                    <orgName ref="http://www.isni.org/0000000110101946">Universitäts- und Landesbibliothek Darmstadt</orgName>
+                </distributor>
+                <idno type="ISIL">http://lobid.org/organisation/DE-17</idno>
+                <date type="issued" when="2023-12-23"/>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">
+                        <p xml:lang="en">This file is licensed under the terms of the Creative Commons License CC-BY 4.0 (Attribution 4.0 International)</p>
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <repository xml:id="r19">Moskau RGADA
+                    <note>Moskau RGADA, Findbuch:<lb />
+                        <ref target="http://rgada.info/poisk/index2.php?str=67-opis_3" >http://rgada.info/poisk/index2.php?str=67-opis_3</ref></note>
+                </repository>
+                <msDesc><p>RGADA, f.67,op.3,d.6,Bl. 1-7, C(rus.), 7 Bl.; d.5,Bl. 1-4r, Ü(rus.), 4 Bl.</p></msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>
+                    The data in this XML file, originally created by the project
+                    <ref target="https://www.ieg-friedensvertraege.de/vertraege">Europäische Friedensverträge der Vormoderne online</ref>
+                    has been transformed in accordance with
+                    <ref target="http://www.tei-c.org/">TEI P5</ref>
+                    as part of the project
+                    <ref target="https://www.ieg-mainz.de/en/research/research-projects/european-peace-treaties-of-the-pre-modern-era-in-data">Europäische Friedensverträge der Vormoderne in Daten (FriVer+)</ref>
+                </p>
+            </projectDesc>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="ru" xml:id="lan10">russisch</language>
+            </langUsage>
+        </profileDesc>
+    </teiHeader>
+    <standOff>
+        <listPerson>
+            <person role="signatory" xml:id="p75">
+                <persName ref="https://explore.gnd.network/gnd/4281380-3">
+                    <name>Mecklenburg - Schwerin</name>
+                </persName>
+            </person>
+            <person role="signatory" xml:id="p9">
+                <persName ref="https://explore.gnd.network/gnd/4076899-5">
+                    <name>Russland</name>
+                </persName>
+            </person>
+        </listPerson>
+        <listPlace>
+            <place xml:id="loc349">
+                <placeName ref="https://explore.gnd.network/gnd/4011039-4">Danzig</placeName>
+            </place>
+        </listPlace>
+        <facsimile>
+            <surface xml:id="FacsPnr1">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_45ca148813275"/>
+            </surface>
+            <surface xml:id="FacsPnr2">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_45ca149442023"/>
+            </surface>
+            <surface xml:id="FacsPnr3">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_45ca14a0354b2"/>
+            </surface>
+            <surface xml:id="FacsPnr4">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_45ca14ac11242"/>
+            </surface>
+            <surface xml:id="FacsPnr5">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_45ca14b6a0ada"/>
+            </surface>
+            <surface xml:id="FacsPnr6">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_45ca14c25670e"/>
+            </surface>
+            <surface xml:id="FacsPnr7">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_45ca14cdad55f"/>
+            </surface>
+            <surface xml:id="FacsPnr8">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_45ca14d8045f9"/>
+            </surface>
+            <surface xml:id="FacsPnr9">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_45ca14e22e594"/>
+            </surface>
+            <surface xml:id="FacsPnr10">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_45ca14ed17deb"/>
+            </surface>
+            <surface xml:id="FacsPnr11">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_45ca14f7ca902"/>
+            </surface>
+            <surface xml:id="FacsPnr12">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_45ca15047788d"/>
+            </surface>
+            <surface xml:id="FacsPnr13">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_45ca1510351be"/>
+            </surface>
+        </facsimile>
+    </standOff>
+    <text>
+        <body>
+            <div type="Transliteration">
+                <pb facs="#FacsPnr1"/><p>Копия секретного трактату между
+                <lb />Его императорскимъ величествомъ и герцогом
+                <lb />Мекленбурским, учиненного во гданску
+                <lb />въ „8е„ Апреля „1716„ Году:
+                <lb />
+                <lb />Божиею милостию мы Петръ первый
+                <lb />Црь и самодержецъ всеросииский, и многихъ
+                <lb />Гсдрствъ и Земель восточныхъ, Западныхъ,
+                <lb />и северныхъ наследственный Гдарь,
+                <lb />и облаадaтель, и прочая, и прочая, и прочая,
+                <lb />и мы Карлъ Леополдъ Бжиею млостию
+                <lb />Герцогъ Меклембургскии, кнзь Венденскии
+                <lb />Шверинскии, и Рацебургскии, Ростокскихъ
+                <lb />и Старгардскихъ земель Гсдарь и прочая, за нас
+                <lb />и за нашихъ Наследниковъ и сукцессоровъ
+                <lb />всеросиискои Монархии, и герцоговъ
+                <lb />Меклембургскихъ, Шверинскои и Гистравскои
+                <lb />линеи, обьявляемъ и известно чиним
+                <lb />симъ что мы к славе и чести всевышшаго,
+                <lb />и к ползе Римского, такожде и всеросииского
+                <lb />Гсдрствъ, яко нашего наследного Гсдрства 
+                <pb facs="#FacsPnr2"/>И дражайшаго отечества, такожде
+                <lb />и к вящему приращению обоихъ нашихъ
+                <lb />Црского, и княжеского домов, сей надежнои
+                <lb />дружбы, и утверженный вечный союзъ
+                <lb />и сообязателство по нынешнимъ времянам
+                <lb />и конюнитурамъ учредить запотребно
+                <lb />разсудили, и о томъ следующим обра-
+                <lb />зомъ соединились, и согласились, а имянно
+                <lb />что мы;
+                <lb />
+                <lb />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; „1„
+                <lb />Другъ другу, истинное и верное намерение
+                <lb />иметь благоповедению и интересамъ обоихъ
+                <lb />домовъ Гсдрствъ и земель совокупленными
+                <lb />силами и советами верно способствовать,
+                <lb />нежели онымъ что противного приклю-
+                <lb />чилось, то соединенъною рукою отвращать
+                <lb />искать будемъ, и имееть сей союзъ в силе
+                <lb />вечного пакта на обоихъ странъ наслед-
+                <lb />никовъ и потомство, которые равным же
+                <lb />образомъ какъ мы сами онымъ обязаны
+                <lb />быти имеютъ продолженъ быть, и якоже;
+                <lb />
+                </p>
+                <pb facs="#FacsPnr3"/><p> 
+                    <lb />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; „2„ 
+                    <lb />Мы Црь все елико<note n="1" type="crit_app">Unklar.</note>&nbsp; от насъ зависитъ упо- 
+                    <lb />требить обещаемъ, дабы герцогу 
+                    <lb />и его наследникомъ Шверинской, и Гистрав- 
+                    <lb />ской линей совершенную безопасность 
+                    <lb />от всехъ внутреннихъ и внешнихъ безпо- 
+                    <lb />койствъ вь его земляхъ и сходатайство- 
+                    <lb />вать для отвращения, которыхъ мы 
+                    <lb />в потребномъ случае Герцогу, и его потом- 
+                    <lb />ству доволнымъ по состоянию опасности 
+                    <lb />определяемымъ числомъ воискъ, и протчими 
+                    <lb />к тому принадлежащими воинскими 
+                    <lb />потребностьми вспомогать будемъ, 
+                    <lb />не требуя за то от герцога, или от его 
+                    <lb />наследниковъ никакова награждения, 
+                    <lb />или заплаты, протореи<note n="2" type="crit_app">Unklar.</note>, такожде мы; 
+                    <lb /> 
+                    <lb />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; „3„ 
+                    <lb />Ему Герцогу вспомогать будем, дабы 
+                    <lb />онъ справедливую сатисфакцию за 
+                    <lb />учиненные ему, и его землямъ всей 
+                    <lb />северной воине от высокихъ союзниковъ. 
+                    <lb /> 
+                </p>
+                <pb facs="#FacsPnr4"/><p>Такожде и от короля Швецкого, и за
+                <lb />протчие убытки и вреды получилъ,
+                <lb />и понеже;
+                <lb />
+                <lb />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; „4„
+                <lb />Мы Герцогъ для сей еще продолжаю-
+                <lb />щейся северной войны к довольному
+                <lb />и совершенному учреждению собственных
+                <lb />нашихъ войскъ, како состояние и места
+                <lb />положение земель нашихъ требуетъ
+                <lb />до сего времяни достичь не могли: того
+                <lb />ради мы царь соизволяемъ из нашихъ войскъ
+                <lb />девять или десять полковъ инфантерии,
+                <lb />или столко сколко мы при продолжаю-
+                <lb />щихся еще воинскихъ операцияхъ
+                <lb />дать можемъ к вспоможению и безопа-
+                <lb />сности общаго интереса ему герцогу
+                <lb />такимъ образомъ перепустить, что
+                <lb />оные вь его герцога службу и присягу
+                <lb />приняты будутъ, и вь его одного диспо-
+                <lb />зиции останутся, и якоже оные
+                <lb />войска свои сьестные и конские порции
+                <lb />
+                <pb facs="#FacsPnr5"/>из определенныхъ имъ от насъ герцога
+                <lb />квартиръ безденежно получать имеют,
+                <lb />тако мы црь оным жалованье давать
+                <lb />будемъ, а имянно пока наша армея
+                <lb />во имперскихъ земляхъ обретатся
+                <lb />будетъ. А когда выдетъ из оныхъ
+                <lb />краевъ, то мы Црь хотимъ из техъ
+                <lb />нашихъ войскъ на его герцога жалованье
+                <lb />и пропитании оставить сколко он
+                <lb />пожелаетъ, но с симъ выговоромъ
+                <lb />и кондициею, что мы Црь по некото-
+                <lb />ромъ времяни некоторую часть тех
+                <lb />вь его герцога службе стоящих воискъ
+                <lb />другими росииского народа людми пере-
+                <lb />менять можемъ, однакожъ тако
+                <lb />разумевая что чрезъ такую перемену
+                <lb />целые полки ни баталионы, ниже роты
+                <lb />отозваны не будут, и вместо техъ
+                <lb />отозванныхъ людей тотчасъ оные
+                <lb />воиска другими росииского народа людми
+                <lb />дополнены, и комъплетованы будут,
+                <lb />и мы Герцогъ притомъ еще обязуемся 
+                <pb facs="#FacsPnr6"/>что ежели его Црское величество
+                <lb />в помянутыхъ воискахъ для собственной
+                <lb />какой экспедиции нужду иметь
+                <lb />будет, желать будет, то мы оные
+                <lb />сколко из оныхъ без опасения нашихъ
+                <lb />земель возможно будетъ, немедленно
+                <lb />отпустить, и оными такожде по
+                <lb />требованию, и некоторыми нашими
+                <lb />собственными полками кавалерии
+                <lb />его царскому величеству вспомогать
+                <lb />будемъ;
+                <lb />
+                <lb />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 5.
+                <lb />Мы Царь будемъ чрезъ нашихъ министров
+                <lb />при римскомъ Цесарскомъ, и иныхъ дворехъ
+                <lb />его княжей светлости Гдря Герцога
+                <lb />и его княжего дому и интересу, якобы
+                <lb />собственному своему вспомогать
+                <lb />ровнымъ же образомъ хотимъ
+                <lb />мы геоцогъ для его Царского величе-
+                <lb />ства тожъ чинить, и ежели когда; 
+                </p>
+                <pb facs="#FacsPnr7"/><p> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; „6„. 
+                    <lb />Наше Герцога Шляхетство ради без- 
+                    <lb />Прекословно намъ приналежащихъ 
+                    <lb />имперскихъ княжескихъ, и яко Гсдря 
+                    <lb />земли своея правъ, а особливо что 
+                    <lb />по силе известныхъ имперскихъ 
+                    <lb />уложеней тако названные ландъ 
+                    <lb />сасы<note n="3" type="crit_app">Unklar.</note> вазалы и поlданные всем протчим 
+                    <lb />курфирстамъ и чинамъ в римскомъ 
+                    <lb />Гсдрстве чинить, и исполнять должны 
+                    <lb />дерзновеннымъ образомъ к Цесарскому 
+                    <lb />имперскому надворному совету при- 
+                    <lb />бежище восприимать, и тамо 
+                    <lb />противные указы исходатаиствовать 
+                    <lb />искать будемъ. То мы царь будем 
+                    <lb />чрезъ наши добрые средства, у его 
+                    <lb />римского Цесарского величества 
+                    <lb />то дело к тому привесть трудится, 
+                    <lb />чтобъ такие указы или не даны, или 
+                    <lb />удержаны были, или в нечаянномъ 
+                    <lb />случае в действо произведены не 
+                    <lb />были, по содержанию римскои Цесарскои&nbsp; 
+                </p>
+                <pb facs="#FacsPnr8"/><p>Капитуляции о избрании, и понеже
+                <lb />никому хотя малымъ образомъ
+                <lb />знатнымъ чинамъ имперскихъ
+                <lb />такова утеснения не учинено,
+                <lb />нежели такожде иные державы
+                <lb />или имперские чины чрезъ безответ-
+                <lb />ные и непрестанные интриги нашего
+                <lb />противного Шляхетства склонились
+                <lb />онымъ вь ихъ несправедливыхъ
+                <lb />жалобахъ вспомогать, и для того
+                <lb />нечто самимъ деломъ против насъ
+                <lb />Герцога предвосприять, то хощемъ
+                <lb />мы Царь противъ того наисилнеишим
+                <lb />образом и всею своею силою его
+                <lb />Герцога оборонять, такъ, какъ то
+                <lb />помянутая Цесарская капитуля-
+                <lb />ция о избрании каролинская, а имянно
+                <lb />въ 15м артикуле явственно, и сле-
+                <lb />дующимъ образомъ значитъ якоже
+                <lb />курфирстамъ князьямъ и чинамъ
+                <lb />[включая и неподчиненное волное импер-
+                <lb />ское Шляхетство позволено будетъ
+                <lb />
+                </p>
+                <pb facs="#FacsPnr9"/><p> себя по содержанию имперских консти- 
+                    <lb />туцей при своих древнихъ и имеющих 
+                    <lb />княжескихъ и Гсдрскихъ правъ сами 
+                    <lb />и со вспоможениемъ соcедственных 
+                    <lb />чиновъ противъ подданныхъ своихъ 
+                    <lb />содержать, и оные в послушание 
+                    <lb />привесть и понеже; 
+                    <lb /> 
+                    <lb />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; „7„ 
+                    <lb />Сей междо нами Цремъ, и нами Герцогом 
+                    <lb />учиненной вечной союзъ особливо такожде 
+                    <lb />и вспоможению, и способствованию комерции 
+                    <lb />то есть купечества на Балтиискомъ 
+                    <lb />море касается, к чему земли с обоихъ 
+                    <lb />сторонъ и натуралное положение 
+                    <lb />местъ гавеновь и рекъ, к общему великому 
+                    <lb />Авантажу<note n="4" type="crit_app">Unklar.</note> и безопасности со обоихъ 
+                    <lb />сторонъ зело полезны быть являются, 
+                    <lb />того ради изволимъ мы Царь, и мы 
+                    <lb />Герцогъ, какъ наискоряе формалной 
+                    <lb />трактатъ о комeрции междо собою 
+                    <lb />учинить, которой яко наиважнеишей 
+                </p>
+                <pb facs="#FacsPnr10"/><p> пунктъ в сей пактум включенъ, и темъ 
+                    <lb />утвержденъ быти имеетъ, и притом 
+                    <lb />мы Герцогъ обещаемъ что его Царского 
+                    <lb />величества поданнымъ для лутшаго 
+                    <lb />управления комерции позволено 
+                    <lb />будетъ в нашихъ княжих земляхъ 
+                    <lb />и пристаняхъ свободно и невозбранно, 
+                    <lb />такъ, какъ нашимъ подданымъ 
+                    <lb />обретатись жить склады своихъ 
+                    <lb />товаровъ иметь,то есть товары 
+                    <lb />свои и вещи тамо складовать, такожде 
+                    <lb />свою собственную Церковь иметь, и в оной 
+                    <lb />службу Бжию по греческому исповеда- 
+                    <lb />нию свободно, и без всякого утеснения, 
+                    <lb />и препятствования отправлять; 
+                    <lb /> 
+                    <lb />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; „8„ 
+                    <lb />Обещаемъ мы Царь ему Герцогу симъ 
+                    <lb />наиобязателнеишимъ образомъ, что 
+                    <lb />мы все удоб<note n="5" type="crit_app">Unklar.</note> вымышленные силные спо- 
+                    <lb />собы употребить хощемъ, дабы его 
+                    <lb />княжая светлость Герцогъ владение
+                </p>
+                <pb facs="#FacsPnr11"/><p>и собственность Города висмаря с принадле-
+                <lb />жащими к тому двумя ампты<note n="6" type="crit_app">JG: note was empty</note> некло-
+                <lb />стерь ипель<note n="7" type="crit_app">JG: note was empty</note>, и варнеминдскою пошлиною
+                <lb />получилъ, и чтоб то при заключаемомъ
+                <lb />з Божиею помощию северномъ мире
+                <lb />утверждено было взаимно;
+                <lb />
+                <lb />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; „9„
+                <lb />Обещаемъ мы Герцогъ, что мы Его
+                <lb />Царскому величеству насупротивъ
+                <lb />того при всякихъ случаяхъ, а особливо
+                <lb />ежели его Царскому величеству по-
+                <lb />требно будетъ противъ своихъ непри-
+                <lb />ятелей, или в помощь кому из своихъ
+                <lb />союзниковъ воиска свои, или воинския
+                <lb />карабли в Римскои империумъ, или чрезъ
+                <lb />онаго провинции куды во иные Гсдрства
+                <lb />послать по предидущему о том его Царского
+                <lb />величества требованию онымъ воискам
+                <lb />такожде воинскимъ, и транспортнымъ
+                <lb />караблямъ не токмо позволять будем
+                <lb />в наши пристани свободно и без препятствия 
+                <pb facs="#FacsPnr12"/>входить и чрезъ наши Земли маршировать,
+                <lb />но мы Герцогъ хощемъ в потребномъ
+                <lb />случае для техъ воискъ и караблеи в на-
+                <lb />шихъ земляхъ на его Царского величе-
+                <lb />ства собственныхъ проторяхъ, магазины
+                <lb />сочинять позволять, но и в протчемъ
+                <lb />во всемъ яко верной союзникъ и сродникъ
+                <lb />Его Царского величества елико возможно
+                <lb />оному вспоможение чинить, и якоже
+                <lb />сей междо нами Царемъ всеросиискимъ
+                <lb />и нами владеющимъ Герцогом меклембур-
+                <lb />скимъ Шверинскимъ и Гистравскимъ
+                <lb />и прочая, постановленной тесной и кре-
+                <lb />пкой союзъ, чрезъ смертной в Бжиихъ
+                <lb />рукахъ состоящей случай насъ обоихъ
+                <lb />весма пресечься не имеет, но от обоихъ
+                <lb />нашихъ наследниковъ и потомства
+                <lb />вышеупомянутымъ образомъ про-
+                <lb />долженъ, и вечно содержанъ быти имеет,
+                <lb />и тако мы хощемъ дабы сему союзу,
+                <lb />и соединению толь вящую силу подать
+                <lb />у другихъ. какъ нашимъ царскому, такъ
+                <lb />
+                <pb facs="#FacsPnr13"/>и Княжескому домамъ благонамеренныхъ
+                <lb />державъ исходатаиствовать стара-
+                <lb />тися, дабы оные в томъ, что мы по
+                <lb />основанию сего вечного союза впред
+                <lb />чинить предвосприимать, и вознаме-
+                <lb />ривать будемъ своими добрыми
+                <lb />средствы, и в протчемъ всемъ инымъ
+                <lb />полезным пристойнымъ и крепким
+                <lb />образомъ вспомогали; во свидетелство
+                <lb />того два равногласные сего эксем-
+                <lb />пляры; ис которыхъ одинъ от насъ Царя
+                <lb />и самодержца всеросииского, а другой от нас
+                <lb />владеющаго Герцога меклембурского,
+                <lb />Шверинского, Гистравского, подписаны
+                <lb />и каждого печатью утвержденные
+                <lb />учреждены, и оба единъ противъ другаго
+                <lb />розменены. Еже учинено во Гданске
+                <lb />мца апреля въ 8. / 19 „1716“ Году;
+                <lb />
+                <lb />
+                <lb />уподлинного приписано:
+                <lb />
+                <lb />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; М.П.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Петръ
+                <lb />
+                <lb />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; и ниже: Гдрственной подканцлеръ
+                <lb />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; и тайной советникъ барон
+                <lb />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Петръ Шафировъ, 
+                </p>
+            </div>
+        </body>
+    </text>
+</tei:TEI>

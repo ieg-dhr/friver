@@ -1,0 +1,443 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE tei SYSTEM "../resources/FriVer_DTD.dtd">
+
+<?xml-model href="../resources/FriVer.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns="http://www.tei-c.org/ns/1.0"
+    xml:id="pa000299-0162">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title level="s">European peace treaties of the pre-modern era in data / Europäische
+                    Friedensverträge der Vormoderne in Daten (FriVer+)</title>
+                <title when="1691-03-25" xml:id="t162" when-custom="1691 III 25" level="a"
+                    ref="https://www.ieg-friedensvertraege.de/treaty/t-162-1-de.html">Allianzvertrag
+                    von Münster</title>
+            </titleStmt>
+            <editionStmt>
+                <edition> Digital edition according to <ref target="http://www.tei-c.org/">TEI
+                        P5</ref>
+                </edition>
+                <funder>
+                    <ref target="https://www.text-plus.org/">TEXT+</ref>
+                </funder>
+                <editor role="http://id.loc.gov/vocabulary/relators/edt"
+                    ref="https://orcid.org/0000-0002-8741-5916">
+                    <persName>Jaap Geraerts</persName>
+                    <note>The transformation and enrichment of the data is done by Jaap Geraerts
+                        (IEG Mainz). The other members of the FriVer+ team are Fabian Cremer, Ines
+                        Grund, and Thorsten Wübbena (all IEG Mainz).</note>
+                    <note> The original data has been created by the <ref
+                            target="https://www.ieg-friedensvertraege.de">team of scholars</ref> who
+                        were part of the Europäische Friedensverträge der Vormoderne project. This
+                        project was lead by Prof. Dr. Heinz Duchhardt and was based at the Leibniz
+                        Institute of European History in Mainz. </note>
+                </editor>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>
+                    <orgName ref="http://www.isni.org/0000000119314040">Leibniz-Institut für
+                        Europäische Geschichte Mainz</orgName>
+                </publisher>
+                <distributor>
+                    <orgName ref="http://www.isni.org/0000000110101946">Universitäts- und
+                        Landesbibliothek Darmstadt</orgName>
+                </distributor>
+                <idno type="ISIL">http://lobid.org/organisation/DE-17</idno>
+                <date type="issued" when="2023-12-23"/>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">
+                        <p xml:lang="en">This file is licensed under the terms of the Creative
+                            Commons License CC-BY 4.0 (Attribution 4.0 International)</p>
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <repository xml:id="r21">Muenster StA/LA <note>Trait&eacute;s et Accords de France:<lb/>
+                        <ref
+                            target="http://www.diplomatie.gouv.fr/traites/affichetraite.do?accord=TRA16910004"
+                            >http://www.diplomatie.gouv.fr/traites/affichetraite.do?accord=TRA16910004</ref></note>
+                </repository>
+                <msDesc>
+                    <p>Graphik: Nordrhein-Westfälisches Staatsarchiv Münster, Fürstentum Münster 12,
+                        Nr. 49: Ratifikation Frankreichs, Mons 1691 IV 6 (Hauptvertrag,
+                        Separatartikel) [eine Seite fehlt]. </p>
+                    <p>AAE Paris: M.A.E. Traités. Münster 16910004. Traité d’alliance et de
+                        subsides.- Münster, 25 mars 1691. <lb/>Siehe: </p>
+                    <p>&nbsp;<ref
+                            target="http://www.doc.diplomatie.gouv.fr/BASIS/choiseul/desktop/choiseul/DDW?M=13&amp;K=16910004&amp;W=PAYS+%3D+%27M%FCnster%27+ORDER+BY+EVERY+DATEEXACTE/Ascend"
+                            >Link zur Vertragsseite <lb/>
+                        </ref>
+                    </p>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p> The data in this XML file, originally created by the project <ref
+                        target="https://www.ieg-friedensvertraege.de/vertraege">Europäische
+                        Friedensverträge der Vormoderne online</ref> has been transformed in
+                    accordance with <ref target="http://www.tei-c.org/">TEI P5</ref> as part of the
+                    project <ref
+                        target="https://www.ieg-mainz.de/en/research/research-projects/european-peace-treaties-of-the-pre-modern-era-in-data"
+                        >Europäische Friedensverträge der Vormoderne in Daten (FriVer+)</ref>
+                </p>
+            </projectDesc>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="fr" xml:id="lan4">französisch</language>
+            </langUsage>
+        </profileDesc>
+    </teiHeader>
+    <standOff>
+        <listPerson>
+            <person role="signatory" xml:id="p37">
+                <persName ref="https://explore.gnd.network/gnd/4018145-5">
+                    <name>Frankreich</name>
+                </persName>
+            </person>
+            <person role="signatory" xml:id="p78">
+                <persName ref="https://explore.gnd.network/gnd/4040608-8">
+                    <name>Münster</name>
+                </persName>
+            </person>
+        </listPerson>
+        <listPlace>
+            <place xml:id="loc16">
+                <placeName ref="https://explore.gnd.network/gnd/4040608-8">Münster</placeName>
+            </place>
+        </listPlace>
+        <facsimile>
+            <surface xml:id="FacsPnr1">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_43cd289370a1c"/>
+            </surface>
+            <surface xml:id="FacsPnr2">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_43cd291419180"/>
+            </surface>
+            <surface xml:id="FacsPnr3">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_43cd297f45b32"/>
+            </surface>
+            <surface xml:id="FacsPnr4">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_43cd29dc9f408"/>
+            </surface>
+            <surface xml:id="FacsPnr5">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_43cd2a5fbf403"/>
+            </surface>
+            <surface xml:id="FacsPnr6">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_43cd2ab206cd2"/>
+            </surface>
+            <surface xml:id="FacsPnr7">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_43cd2aed64c9d"/>
+            </surface>
+            <surface xml:id="FacsPnr8">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_43cd2b37a6e13"/>
+            </surface>
+            <surface xml:id="FacsPnr9">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_43cd2c17afa79"/>
+            </surface>
+            <surface xml:id="FacsPnr10">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_43cd2cb943d9f"/>
+            </surface>
+            <surface xml:id="FacsPnr11">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_43cd2e548db28"/>
+            </surface>
+            <surface xml:id="FacsPnr12">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_43cd30a1c95f0"/>
+            </surface>
+            <surface xml:id="FacsPnr13">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_43cd3214bfff3"/>
+            </surface>
+            <surface xml:id="FacsPnr14">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_43cd32668d991"/>
+            </surface>
+            <surface xml:id="FacsPnr15">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_43cd32f67824a"/>
+            </surface>
+            <surface xml:id="FacsPnr16">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_43cd334f359e2"/>
+            </surface>
+            <surface xml:id="FacsPnr17">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_43cd33c8c25e8"/>
+            </surface>
+            <surface xml:id="FacsPnr18">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_43cd397eec4ab"/>
+            </surface>
+            <surface xml:id="FacsPnr19">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_43cd39c521faf"/>
+            </surface>
+        </facsimile>
+    </standOff>
+    <text>
+        <front>
+            <div type="Inhalt">
+                <p>Ratifikation. </p>
+                <p>Vertragsziel. Friede Frankreich - Reich. Neutralität. <lb/>Art. 1 Freundschaft
+                    und Verständigung zum Ziel der Wiederherstellung der Friedensverträge
+                    Münster/Osnabrück, Nijmegen und Regensburg. <lb/>Art. 2 Neutralität Münsters im
+                    Krieg. <lb/>[Art. 3 fehlt] <lb/>Art. 4 Münster kann Verpflichtungen gegenüber
+                    dem Reich dessen ungeachtet nachkommen. <lb/>Art. 5 Das Hauptziel eines Friedens
+                    zwischen Frankreich und dem Reich wird von Münster betrieben. <lb/>Art. 6
+                    Münster bemüht sich um den Beitritt weiterer Reichsstände, um die Gegner
+                    Frankreichs zu einem raschen Frieden zu zwingen. <lb/>Art. 7 Bestätigung des
+                    Vertrags zwischen Münster und Hannover. <lb/>Art. 8 Einsatz Münsters für den
+                    Frieden. Truppen Münsters. Subsidienzahlungen Frankreichs. <lb/>Art. 9 Truppen
+                    Münsters. <lb/>Art. 10 Möglichkeit weiterer Subsidien. <lb/>Art. 11 Beitritt
+                    weiterer Reichsstände. Angriffsfall Münsters. <lb/>Art. 12 Einsatz der Truppen
+                    Münsters konform zum Vertrag. Zustimmung Frankreichs. <lb/>Art. 13 Frankreich
+                    verspricht die Einbeziehung Münsters in den künftigen Frieden und in weitere
+                    Verträge. <lb/>Art. 14 Grafschaft Bentheim. <lb/>Art. 15 Im künftigen Frieden:
+                    Wiederherstellung des Status quo der katholischen Religion gemäß Westfälischem
+                    und Nijmegischen Frieden. <lb/>Art. 16 Frankreich garantiert&nbsp; den Bestand
+                    Münsters. Einsatz französischer Truppen. <lb/>Art. 17 Ratifikation.
+                    <lb/>Ratifikation&nbsp; </p>
+                <p>Separatartikel:&nbsp; Modalitäten der Auslieferung der Ratifikationsurkunden.
+                    <lb/>
+                </p>
+            </div>
+        </front>
+        <body>
+            <div type="Transliteration">
+                <pb facs="#FacsPnr1"/>
+                <p>Louis par la grace de Dieu <lb/>Roy der France et de Navarre à tous ceux <lb/>qui
+                    ces presentes lettres verront Salut. <lb/>Ayant vue et examiné le Traitté de
+                    neutralité que le <lb/>S[ieu]r Frischman en vertu du pleinpouvoir que nous luy
+                    <lb/>en avions donné auroit conclu&lt;.&gt;, arreté et signé à <lb/>Munster le
+                    vingt cinq Mars dernier avec les S[ieu]rs de <lb/>Schmising&nbsp; et de
+                    Wel&lt;..&gt;&nbsp; con[seiller]ers secrets de n[ot]re cher et bien <lb/>amé
+                    cousin l´Evesque et Prince de Munster pareillem[en]t <lb/>munis d´un
+                    pleinpouvoir de sa part du quel traitté <lb/>la teneur s ensuit <lb/>
+                    <lb/>Soit notoire a tous qu´il appartiendra que sa <lb/>Majesté tres chrestienne
+                    ayant toujours conservé <lb/>pendant le cours de cette guerre un veritable
+                    <lb/>desir de &lt;la voir&gt; terminée et changée en &lt;une&gt; bonne paix,
+                    <lb/>Entr´elle et l´Empire, Et ayant a pris avec joye par <lb/>le rapport qui
+                    luy a esté fait que M[onsieur]r l´Evesque de&nbsp; <pb facs="#FacsPnr2"/>Munster
+                    n´ayant pas moins de desir d´y contribuer <lb/>de sa part et de rentrer dans les
+                    bonnes graces de sa <lb/>Ma[jes]té qu´elle en a de donner a ce Prince toutes les
+                    <lb/>marques possibles de l´estime et de l´affection qu´elle <lb/>a toujours eüe
+                    pour luy savoit disposée de prendre <lb/>avec luy toutes les mesures necessaires
+                    pour parvenir <lb/>a un but si salutaire, et que de part et d´autre il auroit
+                    <lb/>esté jugé a propros de commencer par l´etablissement d´une <lb/>bonne
+                    jntelligence moyennant une parfaite neutralité <lb/>entre eux, Sa Ma[jes]té
+                    auroit pour ce sujet commis le S[ieur] <lb/>Frischman son Envoyé pour en
+                    traitter de sa part avec <lb/>led[it] Prince, Et ce Prince ayant aussi commis de
+                    sa <lb/>part les S[ieu]rs de Schmising chevalier de l´ordre de s[ain]t <lb/>Jean
+                    de &lt;J&gt;erusalem et Bailly de Brandebourg, et led[it] <lb/>Baron de
+                    W&lt;el...&gt; chanoine, ses con[seill]ers secrets, Ils <lb/>auroient en vertu
+                    de leurs pouvoirs dont coppie est <lb/>cy jointe transcrite, conclu&lt;.&gt; et
+                    signé tant au nom de <lb/>Sa Ma[jes]té que dud[it] Prince Evesque les articles
+                    et <lb/>conventions qui suivent. </p>
+                <pb facs="#FacsPnr3"/>
+                <p> 1. <lb/>Il y aura desormais une sincere amitié et <lb/>une bonne correspondance
+                    et jntelligence entre sa <lb/>Ma[jes]té tres chrestienne d´une part, et
+                    M[onsieur] l´Evesque <lb/>et Prince de Munster de l´autre tant pour le bien de
+                    <lb/>leurs j&lt;nterests&gt; et avantages propres et reciproques <lb/>que pour
+                    un prompt restablissement du repos de <lb/>l´Empire des Traittez de Westphalie,
+                    de Nimegue, <lb/>et de Ratisbonne. <lb/>
+                    <lb/>2. <lb/>En consequence de &lt;ce renou...&gt;<note n="1" type="crit_app"
+                        >Unklare Lesart, möglicherweise &lt;renouellement&gt;. </note>&nbsp; d´une
+                    bonne <lb/>amitié dont Sa Ma[jes]té tres chrestienne a bien voulu <lb/>honnorer
+                    M[onsieur] l´Evesque et Prince de Munster ledit <lb/>seigneur Evesque promet de
+                    ne se plus mesler en <lb/>aucune façon de la guerre presente tant qu´elle
+                    durera, <lb/>et qu´il se desiste des a&nbsp; present de tous les engagem[ent]s
+                    <lb/>qu´il pouvoit avoir pris avec les ennemies &lt;de&gt; la <lb/>France en
+                    sorte qu´en vertu du present traitté il ne <lb/>luy sera plus permis de les
+                    assister ny tous ensemble <lb/>ny aucun d´jceux en particulier sans exception,
+                    directem[en]t <lb/>ou jndirectement&nbsp; sous quelque pretexte ou cause<note
+                        n="2" type="crit_app">Ab hier: eine Seite fehlt. </note>
+                </p>
+                <p>
+                    <pb facs="#FacsPnr4"/>[Doppelte Seite] <pb facs="#FacsPnr5"/>de la guerre a
+                    cette paix avec la France. <lb/>
+                    <lb/>4. <lb/>Le dit Seig[neu]r Evesque se reserve neantmoins la <lb/>liberté de
+                    fournir a l´Empire son contingent des <lb/>trouppes en simple quotte part en
+                    laquelle il est <lb/>obligé par les constitutions de l´Empire et par son
+                    <lb/>serment de fidelté et la qualité qu´il a de Prince et <lb/>de vassal de
+                    l´Empire, de maniere toutefois qu´il ne <lb/>puisse l´augmenter dont quelque
+                    pretexte que ce <lb/>puisse estre. <lb/>
+                    <lb/>5. <lb/>Comme le but principal de ce traitté est le <lb/>restablissement de
+                    la paix entre la France et <lb/>l´Empire, M[onsieu]r l´Evesque et Prince de
+                    Munster <lb/>s´oblige d´en faire toutes les diligences possibles <lb/>tant a la
+                    Diette de Ratisbonne par le moyen des <lb/>suffrages qu´il y a, qu´a
+                    &lt;vienne&gt;&nbsp; et partout ailleurs <lb/>ou il sera jugé a propos
+                    &lt;le&gt;tout de concert avec sa <lb/>Majesté. <lb/>
+                    <pb facs="#FacsPnr6"/>6. <lb/>Dans cette mesme &lt;voïe&gt; led[it] Prince
+                    Evesque <lb/>travaillera de son costé a faire entrer dans ce <lb/>mesme
+                    engagement d´autres membres et Estats de <lb/>l´Empire pour en former de concert
+                    avec Sa Ma[jes]té <lb/>entiere parti d´autant plus capable d´obliger les
+                    <lb/>Ennemis au restablissement de cette paix a se <lb/>donner les mains. <lb/>
+                    <lb/>7. <lb/>Comme led[it] S[ieu]r Evesque a desja fait avec M[onsieu]r le
+                    <lb/>Duc d´Hannovre un traitté pour le mesme but dont <lb/>Sa M[ajes]té est tres
+                    satisfaite Elle consent que ce traitté <lb/>ayt le mesme effort qu s´il estoit
+                    jnseré jci mot pour <lb/>mot. <lb/>
+                    <lb/>8. <lb/>Sur ce que M[onsieu]r l´Evesque et Prince de Munster a <lb/>temoigé
+                    que pour rendre cet engagement plus solide <lb/>il seroit bon, qu´il fut mis en
+                    estat de si maintenir et de <lb/>pouvoir mieux faire considerer ses offices et
+                    ses <lb/>suffrages pour le restablissement de la paix, sa <lb/>Ma[jes]té ayant
+                    esgard non seulement aux bons sentimens <lb/>
+                    <pb facs="#FacsPnr7"/>dud[it] Prince entierement conformes aux siens pour
+                    <lb/>l´avantage et le salut de l´Empire en general et <lb/>des Estats qui le
+                    com&lt;posent&gt; en particulier, mais <lb/>encor&lt;e&gt; aux despenses et
+                    frais que led[it] Prince <lb/>sera obligé de faire en consequence de ce traitté,
+                    tant <lb/>pour mettre sur pied que pour entretenir le corps <lb/>de Trouppes qui
+                    sera cy apres stipulé que pour <lb/>se mettre par ce mesme moyen a &lt;concert
+                    des&gt; <lb/>surprises et jnsulles de ses voisines, Sa Ma[jes]té <lb/>promet de
+                    luy faire payer ponctuellement par <lb/>chacun au tant que la presente guerre
+                    durera, et <lb/>mesme jusqu´a trois mois apres la ratiffication de <lb/>lad[ite]
+                    Paix avec l´Empire, la somme de sept cens <lb/>cinquante milles livres monnaye
+                    de France payable <lb/>en escus blancs de France a Paris &lt;ou&gt; la valeur
+                    <lb/>d´jcelle a Venise, Genneve ou &lt;Ligourne&gt; au choix dud[it] <lb/>Prince
+                    par quartiers dont le premier commencera a <lb/>courrir du premier jour d´avril
+                    prochain et sera payé <lb/>au jour de l´eschange des ratiffications et ainsy
+                    <lb/>des autres quartiers de trois mois en trois mois <lb/>
+                    <pb facs="#FacsPnr8"/>les payemens se faisant ainsy au commencement <lb/>de
+                    chaque quartier pour le plus grand soulagement <lb/>dud[it] Prince. <lb/>
+                    <lb/>9. <lb/>En consequence de quoy led[it] Seigneur Evesque <lb/>promet et
+                    s´oblige d´augmenter ses trouppes jusqu´au <lb/>nombre de douze milles hommes
+                    effectifs sçavoir <lb/>huit milles fantassins et quatre milles chevaux
+                    <lb/>et&nbsp; de les entretenir bien armez, equipez et montrez <lb/>avec tous
+                    les officiers et les munitions necessaires <lb/>du quel nombre de trouppes ainsy
+                    mis sur pied <lb/>et dont les levées commenceront a ce faire aussitost,
+                    <lb/>aprez la signature du present Traitté et seront ach&lt;..&gt;ez <lb/>le
+                    dernier May ou plustost si´il se peut, il sera fourny <lb/>enrollé bien fidele
+                    et bien verifié quand Sa Ma[jes]té <lb/>le desirera et a celuy qu´elle commetra
+                    pour ce <lb/>sujet. <lb/>
+                    <lb/>10. <lb/>Comme led[it] Seigneur a fait temoigner a sa Ma[jes]té <lb/>qu´il
+                    ne luy seroit pas possible de faire seul <lb/>
+                    <pb facs="#FacsPnr9"/>toutes les depenses necessaires pour la levée des
+                    <lb/>trouppes qu´il y manque pour former ce corps des <lb/>trouppes cy dessus
+                    stipulé, Sa Ma[jes]té voulant <lb/>faire plaisir aud[it] Seigneur Evesque et
+                    favoriser <lb/>ses bonnes jntentions s´oblige de luy faire payer <lb/>comptant
+                    outre le subside ordinaire cy dessus <lb/>speciffié la somme de deux cens
+                    cinquante mil &lt;livres&gt; <lb/>monnaye de France a Paris en Escus blancs de
+                    <lb/>France ou la valleur d´jcelle aux autres lieux <lb/>cy dessus nommez une
+                    fois payée pour toujours <lb/>et ce en deux&nbsp; termes le premier le seize
+                    avril et <lb/>le second un mois apres en sorte neantmoins que <lb/>moyennant
+                    cette somme et le subside qui est stipulé <lb/>cy desuss, led[it] Seigneur
+                    Evesque ne puisse plus <lb/>rien pretendre de sa Ma[jes]té ny pour les gages
+                    <lb/>des officiers ny pour les Ministres necessaires <lb/>ny pour quelqu´autre
+                    cause ou pretexte que ce <lb/>puisse estre. <lb/>
+                    <lb/>11. <lb/>Quoy qu´il y ayt lieu de&lt;part&gt; qu´a&nbsp; l´example <lb/>
+                    <pb facs="#FacsPnr10"/>dud[it] Seigneur Evesque plusieurs autres Princes <lb/>de
+                    l´Empire lassez d´une guerre si ruineuse <lb/>pour eux entreront dans ce mesme
+                    engagement et <lb/>qu´ainsy led[it] Seigneur Evesque n´aura rien a craindre
+                    <lb/>de ses voisines neantmoins et au cas que par la <lb/>suitte d&lt;…pes&gt;
+                    led[it] Seigneur Evesque se trouvast <lb/>en quelque danger d´estre attaqué par
+                    les Ennemis <lb/>de la France dans les Estats et pays qu´il possede <lb/>a
+                    present en haine du present traitté et sous quelque <lb/>pretexte que se puisse
+                    estre ou pour d´autres <lb/>raisons aprouvées par sa Ma[jes]té led[it] Seigneur
+                    <lb/>fust obligé d´augmenter led[it] nombre de trouppes <lb/>Sa Ma[jes]té
+                    declare qu´elle sera tojours disposée <lb/>d´en convenir avec luy par un autre
+                    traitté toutes <lb/>et quantes fois que de part et d´autre il en sera <lb/>jugé
+                    besoin. <lb/>
+                    <lb/>12. <lb/>Comme led[it] corps de trouppes de douze milles <lb/>hommes sera
+                    ainsy levé et entretenu en partie <lb/>aux depense de sa Ma[jes]té il ne sera
+                    pas permis <pb facs="#FacsPnr11"/>aud[it] Seigneur Evesque ny de les congedier,
+                    ny <lb/>de les ceder a d´autres, ny de les employer a un <lb/>autre usage que
+                    celuy qui est cy dessus stipulé <lb/>sans le consentiment expres de sa
+                    Ma[jes]té. <lb/>
+                    <lb/>13. <lb/>Sa Ma[jes]té comprendra led[it] Seigneur Evesque <lb/>non
+                    seulement dans le traitté du Paix Mais <lb/>aussi dans tous les autres
+                    soit&nbsp; d´alliance, et <lb/>Treve ou de Neutralité qu´elle pouroit faire pour
+                    <lb/>parvenir au restabilssement de la tranquilité <lb/>publique. <lb/>
+                    <lb/>14. <lb/>Comme le Comté de Bentheim se trouve enclavé <lb/>dans le dioceze
+                    de Munster et qu´il a esté cy devant <lb/>compris dans les traittéz faits par
+                    les Evesques <lb/>de Munster avec la France, led[it] Prince espere <lb/>que Sa
+                    Ma[jes]té voudra bien encores le comprendre <lb/>en celuy cy et consentir que ce
+                    Comté jouisse aussy <lb/>de l´effect du present Traitté. <lb/>
+                    <pb facs="#FacsPnr12"/>15. <lb/>Sa Ma[jes]té dont le Zele pour le maintien de la
+                    <lb/>Religion catholique apostolique et Romaine a <lb/>toujours esté
+                    jnebranslabale consent que par la <lb/>paix prochaine ou par son accomodement
+                    avec <lb/>l´Empire les affaires de la Religion catholique <lb/>et les biens
+                    Eclesiastiques soient maintenus et <lb/>remis sur le pied de la paix de
+                    Westphalie <lb/>et de celle de Nimegue. <lb/>
+                    <lb/>16. <lb/>S´il arrivoit que dans le cours de cette guerre <lb/>Sa Ma[jes]té
+                    fust obligeé de porter des armes en deça <lb/>du Rhin, Elle promet qu´elle
+                    conservera l´Evesché <lb/>de Munster &lt;..&gt;&nbsp; ny pretendra aucun passage
+                    pour <lb/>ses trouppes sans une necessité jndispensable, <lb/>auquel cas Elle
+                    pourvoira au payment des frais <lb/>necessaires en sorte que les sujets de cet
+                    Evesché <lb/>n´en recoivent aucun dommage, Mais que ses trouppes <lb/>y
+                    &lt;...&gt; suivant les constitutions de l´Empire, et <lb/>au surplus sa
+                    Ma[jes]té ne fera prendre aucunes <lb/>
+                    <pb facs="#FacsPnr13"/>quartieres et logemens de trouppes, ny&nbsp;
+                    l&lt;ever&gt;a <lb/>aucunes contributions, ny ses officiers ne pouvont
+                    <lb/>faire aucunes autres exactions sous quelque <lb/>nom ou pretexte que ce
+                    soit. <lb/>
+                    <lb/>17. <lb/>Les ratiffications du present traitté seront <lb/>delivrées de
+                    part et d´autre de la maniere dont <lb/>on est convenus par un acte separé dans
+                    l´espace <lb/>de trois semaines a compter du jour de la signature <lb/>du
+                    present traitté ou plustost s´il se peut. <lb/>En foy de quoy il a esté expedié
+                    deux exemplaires <lb/>semblables du present Traitté que nous cy dessus
+                    <lb/>nommez auront signé et a jceux fait apposer les <lb/>cachets de nos armes.
+                    Fait a Munster le vingt <lb/>cinquiesme jour de Mars de l an mil six cents
+                    quatre <lb/>vingt onze signé Frischman, de Rosemberg, le <lb/>Bailly Schmising ,
+                    et le Baron We&lt;len&gt;. <lb/>
+                    <lb/>Nous ayant agreable le susd[it] Traitté en tous et <lb/>
+                    <pb facs="#FacsPnr14"/>en chacun les articles qui y sont contenus avons
+                    <lb/>jceux accepté, approuvé, ratiffé et comfirmé et par ces <lb/>presentes
+                    signées de n[ot]re main acceptons aprouvons <lb/>rattiffions et confirmons.
+                    Promettant enfoy et parolle <lb/>du Roy de l acomplir observer et faire observer
+                    sincerem[en]t <lb/>et de bonne foy en tous les points contenus en jceluy
+                    <lb/>sans aller ny souffrir qu´il soit allé directement ny <lb/>jndirectement au
+                    contraire pour quleque cause et occcasion <lb/>que ce puisse estre. En temoin de
+                    quoy nous avons signé <lb/>ces presentes de n[ot]re main et a jcelles fait
+                    apposer n[ot]re <lb/>scel secret. Donné a n[ot]re Camp devant Mon&lt;s&gt; le
+                    <lb/>sixiesme jour d´avril l´an de grace mil six cens quatre <lb/>vingts onze et
+                    de n[ot]re regne le quarant huitiesme. <lb/>
+                    <lb/>Louis <lb/>
+                    <lb/>Par le Roy <lb/>&lt;Colbert&gt; <lb/>&nbsp; <lb/>
+                    <lb/>
+                    <lb/>&nbsp; <pb facs="#FacsPnr15"/>Ratification du traité de neutralité entre la
+                    France et Munster, <lb/>signé a Mons 1691 6. april. <pb facs="#FacsPnr16"/>Louis
+                    par la grace de Dieu Roy de <lb/>France et de Navarre a Tous ceux qui ces
+                    presentes <lb/>lettres verront salut. Aiant veu et examiné l´article secret et
+                    separé <lb/>du Traité que le S[ieu]r Frischman, en vertu du plein pouvoir que
+                    nous luy en <lb/>avions donné et conclu arresté et signé a Munster le vingt
+                    cinquiesme <lb/>Mars dernier avec les S[eigneu]rs de Schmising et de
+                    Wel&lt;en&gt; con[seille]rs secrets de <lb/>nostre tres cher et bien amé Cousin
+                    l´Evesque et Prince de Munster <lb/>pareillement munis d´un pleinpouvoir de sa
+                    part, duquel article <lb/>la teneur ensuit. <lb/>
+                    <lb/>Comme dans ce temps de guerre dont presque toute l´Europe est a
+                    <lb/>present enflamée les passages sont demeures tres dangereux tant pour
+                    <lb/>les postes ordinaires que pour les Couriers extraordinaires, En sorte
+                    <lb/>qu´il paroist tres dificile pour ne pas dire tout a fait jmpracticable,
+                    <lb/>de faire passer seurement de France a Munster, et de mesme de Munster
+                    <lb/>en France les ratifications reciproques du traité qui vient d´estre signé
+                    <lb/>au nom de sa Majesté et de Son Altesse M[onseigneu]r l´Evesque de Munster
+                    <lb/>et qu il est ce pendant de la derniere consequence tant a Sa Majesté
+                    <lb/>qu´à ce Prince de ne point faire esclater avant le temps cette lisaison
+                    <lb/>dont depend le restablissement du repos public, le soubsigné Envoyé du
+                    <lb/>Roy au nom du Roy Son Maistre, et les soubsignez Con[seill]ers secretaires
+                    <lb/>et Ministres au nom de sad[ite] Altesse, sont convenus et ont arresté
+                    <lb/>par l´acte present que lesd[ites] ratifications seront delivrées et
+                    consignées <lb/>sçavoir, la ratification de Sa Majesté entre les mains de
+                    M[onsieu]r Brosseau <lb/>
+                    <pb facs="#FacsPnr17"/>Resident de Son Altesse a Paris, et la ratification de ce
+                    Prince <lb/>aud[it] Envoyé du Roy a Munster pour y &lt;deven...&gt; de part et
+                    d´autre <lb/>jusqu´a ce quoy ayt pû trouves une occasion seure de les envoyes,
+                    <lb/>qu´ils donneront chacun de leur costé un acte signé qui fasse <lb/>foy de
+                    la reception desd[ites] Ratifications qui leurs auront esté mises <lb/>en main,
+                    et que cette consignation se feroit dans le temps <lb/>stipulé par led[it]
+                    Tratié. En foy de quoy Nous avons signé <lb/>deux Exemplaires du present acte,
+                    Et a jceux fait aposer le <lb/>cachet de nos armes. Fait a Munster le vingt
+                    cinquiesme <lb/>Mars Mil six cens quatre vingt onze, Signé Frischman de
+                    <lb/>Rosemberg, le Bailly Schmising, Le Baron de Wel&lt;en&gt;. <lb/>
+                    <lb/>Nous aiant agreable le susdit article, Avons jceluy <lb/>accepté, aprouvé,
+                    ratifié et confirmé et par ces presentes <lb/>acceptons, aprouvons, ratifions et
+                    confirmons, Promettant <lb/>en foy et parole de Roy de l´accomplir, observer et
+                    faire <lb/>observer sincerement et&nbsp; de bonne foy en tous les points
+                    <lb/>contenus en jceluy, sans aller ny soufrir qu il soit allé <lb/>directement
+                    ny jndirectement au Contraire pour quelque <lb/>cause et occasion que ce puisse
+                    estre. En tesmoin <lb/>dequoy Nous avons signé ces presentes de nostre main
+                    <lb/>et a jcelles fait aposer nostre scel secret Donné <lb/>
+                    <pb facs="#FacsPnr18"/>a nostre Camp devant Mons le sixiesme jour <lb/>d´avril
+                    l´an de grace Mil six cens quatre vingt onze <lb/>et de nostre regne le quarante
+                    huitiesme. <lb/>Louis <lb/>
+                    <lb/>&nbsp; <lb/>Par le Roy <lb/>&lt;..&gt; <lb/>
+                    <lb/>&nbsp; <pb facs="#FacsPnr19"/>Ratification de l´article separe entre le Roy
+                    de France et le Prince de Münster. <lb/>Signe à Mons 6. april 1691. &nbsp; </p>
+            </div>
+        </body>
+    </text>
+</tei:TEI>

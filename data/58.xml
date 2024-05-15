@@ -1,0 +1,287 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE tei SYSTEM "../resources/FriVer_DTD.dtd">
+
+<?xml-model href="../resources/FriVer.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns="http://www.tei-c.org/ns/1.0"
+    xml:id="pa000299-0058">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title level="s">European peace treaties of the pre-modern era in data / Europäische
+                    Friedensverträge der Vormoderne in Daten (FriVer+)</title>
+                <title when="1634-09-20" xml:id="t58" when-custom="1634 IX 20" level="a"
+                    ref="https://www.ieg-friedensvertraege.de/treaty/t-58-1-de.html">Allianzvertrag
+                    von Frankfurt/M.</title>
+            </titleStmt>
+            <editionStmt>
+                <edition> Digital edition according to <ref target="http://www.tei-c.org/">TEI
+                        P5</ref>
+                </edition>
+                <funder>
+                    <ref target="https://www.text-plus.org/">TEXT+</ref>
+                </funder>
+                <editor role="http://id.loc.gov/vocabulary/relators/edt"
+                    ref="https://orcid.org/0000-0002-8741-5916">
+                    <persName>Jaap Geraerts</persName>
+                    <note>The transformation and enrichment of the data is done by Jaap Geraerts
+                        (IEG Mainz). The other members of the FriVer+ team are Fabian Cremer, Ines
+                        Grund, and Thorsten Wübbena (all IEG Mainz).</note>
+                    <note> The original data has been created by the <ref
+                            target="https://www.ieg-friedensvertraege.de">team of scholars</ref> who
+                        were part of the Europäische Friedensverträge der Vormoderne project. This
+                        project was lead by Prof. Dr. Heinz Duchhardt and was based at the Leibniz
+                        Institute of European History in Mainz. </note>
+                </editor>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>
+                    <orgName ref="http://www.isni.org/0000000119314040">Leibniz-Institut für
+                        Europäische Geschichte Mainz</orgName>
+                </publisher>
+                <distributor>
+                    <orgName ref="http://www.isni.org/0000000110101946">Universitäts- und
+                        Landesbibliothek Darmstadt</orgName>
+                </distributor>
+                <idno type="ISIL">http://lobid.org/organisation/DE-17</idno>
+                <date type="issued" when="2023-12-23"/>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">
+                        <p xml:lang="en">This file is licensed under the terms of the Creative
+                            Commons License CC-BY 4.0 (Attribution 4.0 International)</p>
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <repository xml:id="r22">Paris AAE <note>Trait&eacute;s et Accords de la France:<lb/>
+                        <ref
+                            target="http://www.diplomatie.gouv.fr/traites/affichetraite.do?accord=TRA16340002"
+                            >http://www.diplomatie.gouv.fr/traites/affichetraite.do?accord=TRA16340002</ref></note>
+                </repository>
+                <msDesc>
+                    <p>AAE Paris: M.A.E. Trait&#233;s. Multilateraux 16340002, Trait&#233;
+                        d'alliance, -Francfort, 20. septembre 1634 (UI). <lb/></p>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p> The data in this XML file, originally created by the project <ref
+                        target="https://www.ieg-friedensvertraege.de/vertraege">Europäische
+                        Friedensverträge der Vormoderne online</ref> has been transformed in
+                    accordance with <ref target="http://www.tei-c.org/">TEI P5</ref> as part of the
+                    project <ref
+                        target="https://www.ieg-mainz.de/en/research/research-projects/european-peace-treaties-of-the-pre-modern-era-in-data"
+                        >Europäische Friedensverträge der Vormoderne in Daten (FriVer+)</ref>
+                </p>
+            </projectDesc>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="fr" xml:id="lan4">französisch</language>
+            </langUsage>
+        </profileDesc>
+    </teiHeader>
+    <standOff>
+        <listPerson>
+            <person role="signatory" xml:id="p37">
+                <persName ref="https://explore.gnd.network/gnd/4018145-5">
+                    <name>Frankreich</name>
+                </persName>
+            </person>
+            <person role="signatory" xml:id="p135">
+                <persName ref="https://explore.gnd.network/gnd/4664745-4">
+                    <name>Konföderierte Reichsstände (Heilbronner Bund)</name>
+                </persName>
+            </person>
+            <person role="signatory" xml:id="p99">
+                <persName ref="https://explore.gnd.network/gnd/4077258-5">
+                    <name>Schweden</name>
+                </persName>
+            </person>
+        </listPerson>
+        <listPlace>
+            <place xml:id="l36">
+                <placeName ref="https://explore.gnd.network/gnd/4018118-2">Frankfurt/M.</placeName>
+            </place>
+        </listPlace>
+    </standOff>
+    <text>
+        <front>
+            <div type="Drucke">
+                <p>Sverges Traktater V:2, S. 241-245. <lb/>
+                </p>
+                <p> DUM VI/1,&nbsp;S. 78. </p>
+            </div>
+            <div type="Inhalt">
+                <p>Der franz&#246;sische K&#246;nig unterst&#252;tzt die Interessen seiner
+                    Alliierten und greift deshalb in den Krieg ein unter bestimmten Bedingungen: </p>
+                <p>1.&nbsp;Gemeinsame Erkl&#228;rung zur freien Aus&#252;bung der katholischen
+                    Religion in allen eroberten und noch zu erobernden Gebieten
+                    <lb/>2.&nbsp;Vereinbarung gegen welche Feinde gek&#228;mpft wird
+                    <lb/>3.&nbsp;Kein Friedensschluss ohne Zustimmung des Vertragspartners
+                    <lb/>4.&nbsp;Loyale Ausf&#252;hrung des obig Vereinbarten <lb/>5.&nbsp;Freie
+                    Passage &#252;ber den Rhein <lb/>6.&nbsp;Gemeinsame Gebietseroberungen
+                    <lb/>7.&nbsp;Die Konf&#246;derierten setzen alle ihre Kr&#228;fte gegen den
+                    Feind ein <lb/>8.&nbsp;Generalkommando f&#252;r Frankreich
+                    <lb/>9.&nbsp;Gegenseitige Unterst&#252;tzung <lb/>10.&nbsp;Katholische Prinzen
+                    sollen auf die eigene Seite gezogen oder neutralisiert werden <lb/>-
+                    Schlie&#223;lich Aufruf die Gefahren f&#252;r Frankreich im Rahmen zu halten
+                    <lb/>- Geltung dieser Bedingungen auch wenn der franz&#246;sische K&#246;nig die
+                    Konf&#246;derierten nur mit Truppen und Geld unterst&#252;tzt
+                    <lb/>Bekr&#228;ftigungsformel <lb/>
+                </p>
+            </div>
+        </front>
+        <body>
+            <div type="Transliteration">
+                <pb facs="#FacsPnr1"/>
+                <p> Traitté entre le Roy Loüis XIII. la Couronne de <lb/> Suede, le College
+                    Electoral, et tous les Princes Confederez <lb/> Signé à Francfort le 10. Sept
+                    1634. <lb/>
+                    <lb/> &nbsp;&nbsp; &nbsp;Le Roy Tres-Chrestien estant convié par <lb/> Messieurs
+                    ses Amys alliez et Confederez de <lb/> vouloir embrasser plus estruictement
+                    leurs Interests, <lb/> et soustenir leurs libertez, et cela ne se pou- <lb/>
+                    vant efficacement faire que’en engageant Sa M[ajes]te <lb/> à se declarer contre
+                    leurs ennemis et par con- <lb/> sequant soubmettre sa personne, Couronne, <lb/>
+                    Éstats et subjects aux perils et evenements <lb/> doubleux d’une grande guerre.
+                    Lesd[it]s S[ieu]rs <lb/> Confederez ingeront qu’il est expedient de de- <lb/>
+                    mander cette puissante assistence soubs des <lb/> conditions, qui tesmoignent de
+                    leur part à sa <lb/> M[ajes]te une telle confiance, qu’elle ayt subject <lb/>
+                    [...]&nbsp; sur ce fondem[en]t principal en communion <lb/> de bonne &amp;
+                    mauvaise fortune avec eux. <lb/> &nbsp;&nbsp;&nbsp;&nbsp; <lb/> La premiere de
+                    ces Conditions doibt estre <lb/> une resolution commune suivie d’execution <lb/>
+                    par la liberté et Exercice de la Religion <lb/> Catholique Apostolique et
+                    Romaine par tous <lb/> les lieux occupez ou a occuper sur l’en- <lb/> nemy
+                    commun et és lieux ou elle à este <lb/> au paravant ces mouvement.<note n="1">Links
+                        daneben: Quand a ce poinct les Confoederez observe- <lb/> ront ce qui est
+                        porté par le traicte d’alliance <lb/> faicte avec S. M[ajes]te et les
+                        declarations données de <lb/> part et d’autre aux quelles ne sera deroge par
+                        ce <lb/> present traitté ains seront sincerement executées. </note>
+                    <lb/>
+                    <lb/>La seconde que l’on convienne contre quels <lb/> ennemis on aura à faire et
+                    du but de la <lb/> guerre.<note n="2">Links daneben: Les ennemis sont la Maison
+                        d’Austriche Espaigne <lb/> et leurs Adherants en quelque façon que se
+                        soit.</note>
+                    <lb/>
+                    <lb/>La troisieme que l’on s’oblige mutuellem[en]t de <lb/> ne faire paix non
+                    seulement sans le sceu<note n="3">Links daneben: Le but des Armes des Confoederez se
+                        peut voir en la <lb/> declaration, faicte en l’entree de leur Confederation
+                        <lb/> de Hailbron communiquée a Sa M[ajes]te et au susd[i]t <lb/> traitte
+                        d’Alliance faicte avec elle. </note>
+                </p>
+                <pb facs="#FacsPnr2"/>
+                <p>mais mesmes sans le consentement les uns des autres <lb/> et d’estre
+                    reciproquement garands dud[i]t traicté de <lb/> paix pendant les dix ans, portez
+                    au traitte d’allianc[e] <lb/> passe à Hailbron, et de sà present on convienne en
+                    <lb/> general des conditions ou au moins de celles qui <lb/> regardent S[a]
+                        M[ajes]te<note n="4">Links daneben: En cas que Sa M[ajes]te vienne a rompre les
+                        Confe- <lb/> derez, s’obligent de faire en sorte que sad[ite] M[ajes]te
+                        <lb/> soit maintenüe par le traitte de paix, en ses <lb/> droicts et
+                        possessions declarez par aultre ar- <lb/> ticle, selon que plus
+                        particulièrement on en <lb/> a conferé avec Messieurs les Ambassadeurs </note>
+                    <lb/>
+                    <lb/> La quatrieme que S[a] M[ajes]te ayt seureté suffisante, <lb/> que ce, que
+                    dessus sera loyallem[en]t executé, offrant <lb/> le mesme de Sa part aux
+                    confederez estant con- <lb/> siderable, que Sa M[ajes]té espouse un peril,
+                    duquel <lb/> elle se peut passer, et auquel les Confederez <lb/> sont desja
+                        engagez.<note n="5">Links daneben: La plus grande Seureté, qui se puisse donner
+                        est <lb/> une promesse mutuelle les Confederez se voulants <lb/> obliger à
+                        ne se separer de la confederation soubs <lb/> quelque pretexte que se soit.
+                        Et que ceux qui <lb/> ont esté et seront despoulles de leurs Estats et <lb/>
+                        pays ne soyent entierement restablis par la paix. </note>
+                    <lb/>
+                    <lb/> La cincquiesme que S. M[ajes]te ayt des lieux <lb/> de passage seur en
+                    tout temps sur le Rhin, et <lb/> de retraicte pour le cas de besoing pour les
+                    Armeés <lb/> et pour y faire les Magazins necessaires.<note n="6">On donnera passage
+                        aux Armées et trouppes <lb/> de Sa M[ajes]te en tous temps, par tout, ou la
+                        necessi- <lb/> te des affaires le reguerra, et ce aux conditions <lb/> des
+                        quelles on conviendra avec Sa M[ajes]te </note>
+                    <lb/>
+                    <lb/> La Sixiesme que S[a] M[ajes]te sache les lieux ou <lb/> elle aura a agir
+                    en l’Empire contre l’ennemy <lb/> &amp; que des Confederéz auront à se joindre a
+                    <lb/> elle. Et en cas que chacun paye, nourrisse <lb/> et entretienne ses
+                    troupes et participe au pro <lb/> rata à la conqueste.<note n="7">Links daneben:
+                        Cecy pourra estre concerté et resolu pres de sa <lb/> M[ajes]te bien entendu
+                        qu’es conqueste ne soyent comprinses <lb/> les terres et places, qui ont
+                        esté prinses aux Confe- <lb/> derez ni celles sur lesquelles ils ont à
+                        pretendre <lb/> et que lesd[i]ts places seront rendues par le Roy quand
+                        <lb/> la paix se fera, a qui des Confederez elles <lb/> appertiendront. </note>
+                    <lb/>
+                    <lb/> La Septiesme que cependant les autres Confederéz <lb/> employent aussy
+                    toutes leurs forces contre l’ennemy <lb/> offensivement le chergants en ses
+                    terres Patrimoni- <lb/> alles &amp; usurpées[.]<note n="8">Links daneben: Cest
+                        article est raisonable. &nbsp;&nbsp;&nbsp; <lb/> &nbsp; </note>
+                </p>
+                <pb facs="#FacsPnr3"/>
+                <p>La huictiesme. En cas de necessité &amp; que les <lb/> Armées ayent à se joindre
+                    S[a] M[ajes]té ou en person- <lb/> ne ou par ses Generaulx aura sans difficulté
+                    <lb/>le commandement principal.<note n="9">Links daneben: Il est aussy raisonnable
+                        que S[a] M[ajes]té trouvant <lb/> en personne dans les Armées chascuin&nbsp;
+                        soubs son <lb/> commendement, mais les secours de part et <lb/> d’autre
+                        recevra l’ordre de celuy vers lequel il <lb/> est envoye, et quand a l’ordre
+                        qui se doibt <lb/> observer quand deux Generaulx d’Armée se <lb/> joindront
+                        on en conviendra avec S[a] M[ajes]té.&nbsp;</note>
+                    <lb/>
+                    <lb/>La neufiesme que S[a] M[ajest]te et les Confederéz <lb/> soyent obligez de
+                    se secourrir mutuellem[en]t au <lb/> cas de necessite.<note n="10">Links daneben:
+                        Article neufiesme est juste&nbsp;&nbsp;&nbsp;</note>
+                    <lb/>
+                    <lb/> La dixiesme que l’on fasche et s’employe <lb/> d’un communion consentement
+                    a desunir &amp; <lb/> separer de l’Empereur tous les Princes Ca- <lb/>
+                    tholiques, qui y sont joincts &amp; les attirer <lb/> ou dans la confederation
+                    au du moins dans la <lb/> Neutralité, s’ils ont trappes ou places encores <lb/>
+                    a leur devotion.<note n="11">Links daneben: Article 10.me Quand a cette condition on
+                        <lb/> se tient aux termes du traicte de
+                        Philipsbourg&nbsp;&nbsp;&nbsp;</note>
+                    <lb/> &nbsp;&nbsp;&nbsp; <lb/> En fin Messieurs les Confederez sont con- <lb/>
+                    vier de proportionner au peril, auquel S[a] M[ajes]té <lb/> soubmettra ses
+                    Estats, si elle se declare; les seu- <lb/> retèz et conditions soubs lesquelles
+                    ils preten- <lb/> dent, l’y engager, afin qu’elle y puisse estre <lb/> d’autant
+                    plustost persuadée, portée et re- <lb/> solüe <lb/>
+                    <lb/> En cas que S[a] M[ajes]té façe difficulté pour cer- <lb/> taines
+                    considerations, de se declarer, &amp; faire <lb/> &nbsp; </p>
+                <p>
+                    <pb facs="#FacsPnr4"/> la guerre de son chef, ains elle ayme mieux <lb/>
+                    assister Messieurs ses Confederez d’hommes <lb/> et d’Argent, les susd[i]tes
+                    conditions et articles ne <lb/> l’aisseront de subsister et valoir de mesmes
+                    <lb/> comme si Sa M[ajes]té se declaroit et rompoit <lb/> avec leurs ennemis. <lb/>
+                    <lb/> Et comme Mess[ieu]rs les Confederez ont ceste <lb/> creance que S[a]
+                    M[ajes]te considerant l’estat des áf- <lb/> faires publiques elle ne les voudra
+                    abandonner veu <lb/> l’interest notable qu’elle a en leur conservation <lb/>
+                    aynsi la supplient ils de faire à cheminer son <lb/> Armee ou un Secours notable
+                    et tel que la ne- <lb/> cessité presente lerequiert et ce le plustost, que <lb/>
+                    faire se pourra avec asseurance, que les Am- <lb/> bassadeurs que l’on depechera
+                    promtem[en]t avec <lb/> plein pouvoir donneront à S[a] M[ajes]té les
+                    esclairisse- <lb/> ments et satisfactions convenables. <lb/>
+                    <lb/> En foy du quoy ce present traitté a este signe <lb/> par Mons[ieu]r le
+                    Directeur General comme aussy les <lb/> Ambassadeurs &amp; Deputez des Estats
+                    Confederez <lb/> fait à franckfort ce 10/20 de Septembre l’an mil <lb/> six cent
+                    et trente quatre. <lb/>
+                    <lb/> Axelsius <lb/> Oxenstierna mp. <lb/>
+                    <lb/> Au nom du College Electoral &amp; des Princes con- <lb/> federéz <lb/>
+                    Conrad Blaver de &nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;
+                    &nbsp;Bernhard Frisel&nbsp; Conseiller <lb/> Geyersperg. Consil. Pal.
+                    El.&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;de la maison Palatino de <lb/>
+                    &nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;
+                    &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;Lauteren <lb/>
+                    <lb/>
+                    <pb facs="#FacsPnr5"/> Au nom des Contes et Barons confederez <lb/> Jean Conte
+                    de Nassau &nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;Georg Federic
+                    Comte <lb/> Sarbrucken&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;
+                    &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;
+                    &nbsp;&nbsp;&nbsp; d’Stoherrla <lb/>
+                    <lb/>
+                    <lb/> Au nom des Villes Imperiales <lb/> Confederez <lb/>
+                    <lb/> Hieronimo Steffan de &nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;
+                    &nbsp;Jein George Beekt D[octo]r <lb/> Cronstetten Conseiller&nbsp;&nbsp;
+                    &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;Cons[eiller]r et Advocat de la <lb/>
+                    de la Ville de Francaforte &nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;
+                    &nbsp;Ville de Strasbourg <lb/>
+                    <lb/>
+                </p>
+            </div>
+        </body>
+    </text>
+</tei:TEI>

@@ -1,0 +1,877 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE tei SYSTEM "../resources/FriVer_DTD.dtd">
+
+<?xml-model href="../resources/FriVer.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns="http://www.tei-c.org/ns/1.0"
+    xml:id="pa000299-0099">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title level="s">European peace treaties of the pre-modern era in data / Europäische
+                    Friedensverträge der Vormoderne in Daten (FriVer+)</title>
+                <title when="1697-09-20" xml:id="t99" when-custom="1697 IX 20" level="a"
+                    ref="https://www.ieg-friedensvertraege.de/treaty/t-99-1-de.html">Friedensvertrag
+                    von Rijswijk</title>
+            </titleStmt>
+            <editionStmt>
+                <edition> Digital edition according to <ref target="http://www.tei-c.org/">TEI
+                        P5</ref>
+                </edition>
+                <funder>
+                    <ref target="https://www.text-plus.org/">TEXT+</ref>
+                </funder>
+                <editor role="http://id.loc.gov/vocabulary/relators/edt"
+                    ref="https://orcid.org/0000-0002-8741-5916">
+                    <persName>Jaap Geraerts</persName>
+                    <note>The transformation and enrichment of the data is done by Jaap Geraerts
+                        (IEG Mainz). The other members of the FriVer+ team are Fabian Cremer, Ines
+                        Grund, and Thorsten Wübbena (all IEG Mainz).</note>
+                    <note> The original data has been created by the <ref
+                            target="https://www.ieg-friedensvertraege.de">team of scholars</ref> who
+                        were part of the Europäische Friedensverträge der Vormoderne project. This
+                        project was lead by Prof. Dr. Heinz Duchhardt and was based at the Leibniz
+                        Institute of European History in Mainz. </note>
+                </editor>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>
+                    <orgName ref="http://www.isni.org/0000000119314040">Leibniz-Institut für
+                        Europäische Geschichte Mainz</orgName>
+                </publisher>
+                <distributor>
+                    <orgName ref="http://www.isni.org/0000000110101946">Universitäts- und
+                        Landesbibliothek Darmstadt</orgName>
+                </distributor>
+                <idno type="ISIL">http://lobid.org/organisation/DE-17</idno>
+                <date type="issued" when="2023-12-23"/>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">
+                        <p xml:lang="en">This file is licensed under the terms of the Creative
+                            Commons License CC-BY 4.0 (Attribution 4.0 International)</p>
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <repository xml:id="r6">Den Haag NA <note>Den Haag NA, Findbuch:<lb/>
+                        <ref
+                            target="http://www.gahetna.nl/collectie/archief/inventaris/index/eadid/1.01.02/inventarisnr/12587.209"
+                            >eadid/1.01.02/inventarisnr/12587.209</ref><lb/>
+                        <lb/> Trait&eacute;s et Accords de la France:<lb/>
+                        <ref
+                            target="http://www.diplomatie.gouv.fr/traites/affichetraite.do?accord=TRA16970001"
+                            >http://www.diplomatie.gouv.fr/traites/affichetraite.do?accord=TRA16970001</ref></note>
+                </repository>
+                <msDesc>
+                    <p>NADH, archief de Staten-Generaal, inv. nr. 12587.209 (Grafik). <lb/>
+                    </p>
+                    <p>AAE Paris: M.A.E. Traités. Multilateraux 16970001, Provinces Unies, Traité de
+                        paix.- Ryswick, 20 septembre 1697 (UI, Transkriptionsgrundlage).
+                        <lb/>Ratifikation&nbsp;durch die&nbsp;Generalstaaten, Den Haag 1697 X 10,
+                        ebd. </p>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p> The data in this XML file, originally created by the project <ref
+                        target="https://www.ieg-friedensvertraege.de/vertraege">Europäische
+                        Friedensverträge der Vormoderne online</ref> has been transformed in
+                    accordance with <ref target="http://www.tei-c.org/">TEI P5</ref> as part of the
+                    project <ref
+                        target="https://www.ieg-mainz.de/en/research/research-projects/european-peace-treaties-of-the-pre-modern-era-in-data"
+                        >Europäische Friedensverträge der Vormoderne in Daten (FriVer+)</ref>
+                </p>
+            </projectDesc>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="fr" xml:id="lan4">französisch</language>
+            </langUsage>
+        </profileDesc>
+    </teiHeader>
+    <standOff>
+        <listPerson>
+            <person role="signatory" xml:id="p37">
+                <persName ref="https://explore.gnd.network/gnd/4018145-5">
+                    <name>Frankreich</name>
+                </persName>
+            </person>
+            <person role="signatory" xml:id="p49">
+                <persName ref="https://explore.gnd.network/gnd/4101204-5">
+                    <name>Generalstaaten</name>
+                </persName>
+            </person>
+        </listPerson>
+        <listPlace>
+            <place xml:id="loc44">
+                <placeName ref="https://explore.gnd.network/gnd/4117019-2">Rijswijk</placeName>
+            </place>
+        </listPlace>
+        <facsimile>
+            <surface xml:id="FacsPnr1">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_45e947142c5cc"/>
+            </surface>
+            <surface xml:id="FacsPnr2">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_45e94733024d3"/>
+            </surface>
+            <surface xml:id="FacsPnr3">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_45e94757e0e04"/>
+            </surface>
+            <surface xml:id="FacsPnr4">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_45e9486e856dc"/>
+            </surface>
+            <surface xml:id="FacsPnr5">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_45e948911ecfb"/>
+            </surface>
+            <surface xml:id="FacsPnr6">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_45e948e8ad314"/>
+            </surface>
+            <surface xml:id="FacsPnr7">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_45e9490c6ca8d"/>
+            </surface>
+            <surface xml:id="FacsPnr8">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_45e94937b6c82"/>
+            </surface>
+            <surface xml:id="FacsPnr9">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_45e9496d61b3a"/>
+            </surface>
+            <surface xml:id="FacsPnr10">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_45e949a579fdd"/>
+            </surface>
+            <surface xml:id="FacsPnr11">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_45e949c773149"/>
+            </surface>
+            <surface xml:id="FacsPnr12">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_45e949ebe5420"/>
+            </surface>
+            <surface xml:id="FacsPnr13">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_45e94a38aa7ef"/>
+            </surface>
+            <surface xml:id="FacsPnr14">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_45e94a538841e"/>
+            </surface>
+            <surface xml:id="FacsPnr15">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_45e94a75b70f0"/>
+            </surface>
+            <surface xml:id="FacsPnr16">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_45e94a9162098"/>
+            </surface>
+            <surface xml:id="FacsPnr17">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_45e94acdb7d80"/>
+            </surface>
+            <surface xml:id="FacsPnr18">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_45e94af1707a2"/>
+            </surface>
+            <surface xml:id="FacsPnr19">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_45e94b1189cc8"/>
+            </surface>
+            <surface xml:id="FacsPnr20">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_45e94b2ee6824"/>
+            </surface>
+            <surface xml:id="FacsPnr21">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_45e94c17518a7"/>
+            </surface>
+            <surface xml:id="FacsPnr22">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_45e94c383cf37"/>
+            </surface>
+            <surface xml:id="FacsPnr23">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_45e94c533fd05"/>
+            </surface>
+        </facsimile>
+    </standOff>
+    <text>
+        <front>
+            <div type="Inhalt">
+                <p>Um die Ruhe wiederherzustellen wird, unter Anerkennung der schwedischen
+                    Vermittlung folgendes vereinbart: <lb/>I.&nbsp;Fester Friede
+                    <lb/>II.&nbsp;Amnestie <lb/>III.&nbsp;R&#252;ckgabe der nach bestimmten Fristen
+                    genommenen Prisen <lb/>IV.&nbsp; Freundschaft innerhalb und au&#223;erhalb
+                    Europas <lb/>V.&nbsp;gegenseitige Hilfe <lb/>VI.&nbsp;R&#252;ckgabe
+                    konfiszierter G&#252;ter <lb/>VII.&nbsp;R&#252;ckgabe des Marquisat Bergen op
+                    Zoom <lb/>VIII.&nbsp;R&#252;ckgabe der im Krieg besetzten Gebiete und Festungen,
+                    besonders Pondicherry <lb/>IX.&nbsp;Freilassung der Kriegsgefangenen
+                    <lb/>X.&nbsp;Ende der Erhebungen f&#252;r den Krieg <lb/>XI.&nbsp;Verzicht auf
+                    alle weiteren Anspr&#252;che <lb/>XII.&nbsp;Freie Inanspruchnahme aller
+                    Rechtsmittel f&#252;r Untertanen des jeweils anderen <lb/>XIII.&nbsp;Bei
+                    Vertragsverletzung erfolgt kein Bruch, sondern das recht wird wieder hergestellt
+                    <lb/>XIV.&nbsp;Im Falle eines Bruchs, neunmonatige Frist f&#252;r R&#252;ckzug
+                    der Untertanen <lb/>XV.&nbsp;Der Vertrag zwischen Frankreich und Brandenburg vom
+                    19.6.1679 von Saint Germain en Laye erh&#228;lt wieder G&#252;ltigkeit
+                    <lb/>XVI.&nbsp;Best&#228;tigung des Vertrags vom 9.8. 1696 zwischen Frankreich
+                    und Savoyen <lb/>XVII.&nbsp;Der schwedische K&#246;nig wird f&#252;r seine
+                    Vermittlungsbem&#252;hungen in den Vertrag namentlich mitaufgenommen
+                    <lb/>XVIII.&nbsp;Mitaufnahme anderer in den Vertrag seitens Frankreich
+                    <lb/>XIX.&nbsp;Mitaufnahme der Verb&#252;ndeten der Generalstaaten bei
+                    Zustimmung <lb/>XX.&nbsp;Anerkennung Schwedens als Garantiemacht von Seiten der
+                    Generalstaaten <lb/>XXI.&nbsp;Ratifikation <lb/>XXII.&nbsp;Publikation </p>
+                <p>Separatartikel: Anerkennung der zuletzt Kaiser und Reich von Seiten Frankreichs
+                    gestellten Bedingungen f&#252;r den Friedensschluss und Festhalten am Vertrag
+                    falls Kaiser und Reich diese Bedingungen nicht akzeptieren <lb/>
+                </p>
+            </div>
+        </front>
+        <body>
+            <div type="Transkription">
+                <p>20e Sep[temb]re <lb/>1697 <lb/>Au nom de Dieu et de la tres Sainte <lb/>Trinité;
+                    à tous presens et avenir, soit notoire, que <lb/>pendant le cours de la plus
+                    sa[n]glante guerre, dont l'Europe <lb/>ait esté affligée depuis long tems; Il a
+                    plû à la divine <lb/>providence de preparer à la Chrestienté la fin de ses
+                    <lb/>maux en conservant un ardent desir de la paix dans le <lb/>coeur de Tres
+                    haut, tres Excellent et tres Puissiant <lb/>Prince, Louis 14e, par la grace de
+                    Dieu Roy Tres-Chretien, <lb/>de France et de Navarre, Sa Majesté Tres-Chretienne
+                    <lb/>n'ayant d'ailleurs en veue, que de la rendre solide et <lb/>perpetuelle par
+                    l'equité de ses conditions; Et les <lb/>Seigneurs Estats Generaux des Provinces
+                    Unies des <lb/>Païs Bas, souhaitant de concourir de bonne foy, et <lb/>autant
+                    qu'il est en Eux au restablissement de la <lb/>tranquillité publique, et de
+                    rentrer dans l'ancienne <lb/>amitié et affection de Sa Majesté tres Chrestienne,
+                    ont <lb/>consenté en premier lieu à reconnoitre pour cet effet la <lb/>mediation
+                    de tres haut, tres-Excellent, et tres Puissant <lb/>Prince Charles onziesme de
+                    glorieuse Memoire, par la <lb/>grace de Dieu Roy de Suede, des Goths et des
+                    Wandales; <lb/>mais une mort precipitée ayant traversé l'esperance, <lb/>que
+                    toute l'Europe avoit justement conceüe de l'heureux <lb/>effet de ses Conseils,
+                    et de ses bons offices; Sa Majesté <lb/>Tres Chrestienne, et lesdits Seigneurs
+                    Etats Generaux, <lb/>persistant dans la resolution d'arrester auplus tost l'
+                    <lb/>effusion de tant de Sang Chrestien, ont estimé ne pouvoir <lb/>mieux faire,
+                    que de continuer de reconnoitre en la mesme <lb/>qualité, Tres haut, Tres
+                    Excellent et Tres Puissant Prince <lb/>Charles douziesme Roy de Suede, son Fils,
+                    et son Successeur, <lb/>qui de sa part a continué aussi les mesmes soins pour
+                    <lb/>l'avancement de la paix entre Sa Maj[es]té Tres Chrestienne <lb/>et lesdits
+                    Seigneurs Etats Generaux, dans les conferences, <lb/>qui se sont tenuës pour cet
+                    effet au Chateau de Ryswicq <lb/>dans la Province de Hollande, entre les
+                    Ambassadeurs <lb/>Extraordinaires, et Plenipotentiaires nommés de part et
+                    <lb/>d'autre; Scavoir de la part de Sa Majesté Tres Chrestienne, <lb/>le Sieur
+                    Nicolas Auguste de Harlay, Chevalier, Seigneur <lb/>de Bonneüil, Comte de Cely,
+                    Conseiller ordinaire de Sa <lb/>Majesté en son Conseil d'Etat: Le Sieur Loüis
+                    Verjus <lb/>
+                    <lb/>[Seite 2] <lb/>
+                    <lb/>Chevalier, Comte de Crecy, Conseiller ordinaire du Roy <lb/>en son Conseil
+                    d'Estat, Marquis de Treon, Baron de <lb/>Couvay, Seigneur du Boulay, les deux
+                    Eglises, de Fortisle, <lb/>du Meuillet, etc; Et le Sieur Francois de Callieres,
+                    <lb/>Chevalier, Seigneur de Callieres, de la Roche-Chellay, et de <lb/>Gigny; Et
+                    de la part des Seigneurs Estats Generaux, <lb/>les Sieurs Antoine Heinsius,
+                    Conseiller Pensionaire des <lb/>Etats de Hollande et de West-Frise, garde du
+                    grand S[c]eau, <lb/>et surintendant des fiefs de la mesme Province; Evrard
+                    <lb/>de Weede, Seigneur de Weede, Dykvelt, Rateles etc, <lb/>Seigneur Foncier de
+                    la Ville d'Oudewater, Doyen et <lb/>Escolatre du Chapitre Imperial de Sainte
+                    Marie à Utrecht, <lb/>Dyckgrave de la Riviere le Rhin dans la Province d'Utrecht
+                    <lb/>President des Estats de ladite Province; Et Guillaume <lb/>de Haren,
+                    Grietman du Bilt, Deputé de la part de la <lb/>Noblesse aux Estats de Frise et
+                    Curateur de l'Université <lb/>de Franeker, Deputés en leur assemblée de la part
+                    des Etats <lb/>de Hollande, d'Utrecht, et de Frise; lesquels, apres avoir
+                    <lb/>imploré l'assistance divine, et s'estre communiqué respec- <lb/>tivement
+                    leurs pleins pouvoirs, dont les Copies seront <lb/>inserées de mot à mot à la
+                    fin du present Traitté, et <lb/>en avoir düement fait l'echange, par
+                    l'intervention <lb/>et l'entremise du Sieur Baron de Lillieroot Ambassadeur
+                    <lb/>Extraordinaire et Plenipotentiaire du Roy de Suede, qui s'est <lb/>acquité
+                    de sa fonction de Mediateur avec toute la prudence, <lb/>toute la capacité, et
+                    toute l'equité necessaire; Ils <lb/>seroient convenus à la gloire de Dieu, et
+                    pour le bien de <lb/>la Chrestienté, des Conditions, dont la teneur s'ensuit. <lb/>
+                    <lb/>1. <lb/>Il y aura à l'avenir entre Sa Majesté Tres-Chrestienne <lb/>et ses
+                    Successeurs Rois de France et de Navarre, et ses <lb/>Royaumes, d'une part, Et
+                    les Seigneurs Etats Generaux <lb/>des Provinces Unies du Païs-Bas, d'autre, une
+                    paix bonne, <lb/>ferme, fidelle et inviolable, et cesseront ensuite et
+                    <lb/>seront delaisséz tous actes d'hostilité, de quelque façon, <lb/>qu'ils
+                    soient, entre ledit Seigneur Roy, et lesdits <lb/>Seigneurs Estats Generaux,
+                    tant par Mer, et autres eaux, <lb/>
+                    <lb/>[Seite 3] <lb/>
+                    <lb/>que par terre, en tous leurs Royaumes, Pais, Terres, <lb/>Provinces et
+                    Seigneuries, et pour tous leurs Sujets et <lb/>habitans, de quelque qualité ou
+                    condition qu'ils soient, sans <lb/>exception des lieux ou des Personnes. <lb/>
+                    <lb/>2. <lb/>Il y aura un oubly et amnestie generale de tout ce, qui <lb/>a esté
+                    commis de part et d'autre à l'occasion de la derniere <lb/>guerre, soit par
+                    ceux, qui estant nez Sujets de la France, <lb/>et engagés au service du Roy Tres
+                    Chrestien, par les employs <lb/>et biens, qu'ils possedoient dans l'estendüe de
+                    la France, sont <lb/>entrés et demeurés, au service des Seigneurs Estats
+                    Generaux <lb/>des Provinces Unies; où par ceux qui estant nés Sujets
+                    <lb/>desd[it]s Seigneurs Estats Generaux, ou engagés à leur Service <lb/>par les
+                    emplois et biens qu'ils possedoient dans l' <lb/>estendüe des Provinces Unies,
+                    sont entrés ou demeurés <lb/>au service de Sa Majesté Tres Chrestienne, et les
+                    susdites <lb/>personnes de quelque qualité et condition, qu'elles soient
+                    <lb/>sans nul excepter, pourront rentrer, rentreront, et seront
+                    <lb/>effectivement laissez et restablis en la possession et <lb/>joüissance
+                    paisible de tous leurs biens, honneurs, <lb/>dignités, privileges, franchises,
+                    droits, exemptions, <lb/>constitutions, et libertés, sans pouvoir estre
+                    recherchés, <lb/>troublés, ny inquietés, en general, ny en particulier, pour
+                    <lb/>quelque cause, ou pretexte, que ce soit, pour raison de ce qui <lb/>s'est
+                    passé depuis la naissance de ladite guerre, et en <lb/>consequence du present
+                    Traitté, et apres qu'il aura esté <lb/>ratifié, tant par Sa Majesté Tres
+                    Chrestienne, que par <lb/>lesd[i]ts Seigneurs Etats Generaux, leur sera permis,
+                    à tous, <lb/>et à chacun en particulier, sans avoir besoin de lettres
+                    <lb/>d'abolition, et de pardon, de retourner en personne dans <lb/>leurs
+                    maisons, en la joüissance de leurs Terres, et de tous <lb/>leurs autres biens,
+                    ou d'en disposer de telle maniere, que <lb/>bon leur semblera. <lb/>
+                    <lb/>3. <lb/>Et si quelques prises se font de part et d'autre dans <lb/>la mer
+                    baltique ou celle du Nord depuis Terneuse <lb/>jusqu'au bout de la Manche, dans
+                    l'espace de quatre <lb/>
+                    <lb/>[Seite 4] <lb/>
+                    <lb/>semaines, ou du bout de ladite Manche, jusqu'au Cap <lb/>de St. Vincent,
+                    dans l'espace de six semaines, et de là <lb/>dans la mer mediterranée, et
+                    jusqu'à la ligne dans l' <lb/>espace de dix semaines, et au delà de la Ligne et
+                    en tous <lb/>les autres endroits du Monde dans, l'espace de huit mois, <lb/>à
+                    compter du jour que se fera la publication de la paix à <lb/>Paris et à la Haye;
+                    lesdites prises, et les dommages, qui <lb/>se feront de part ou d'autre, apres
+                    le terme prefix, seront <lb/>portés en compte, et tout ce, qui aura esté pris,
+                    sera <lb/>rendu avec compensation de tous les domages, qui en <lb/>seront
+                    provenus. <lb/>
+                    <lb/>4. <lb/>Il y aura de plus entre ledit Seigneur Roy, et lesdits Seigneurs
+                    <lb/>Estats Generaux, et leurs Sujets et habitans reciproquement, <lb/>une
+                    sincere, ferme et perpetuelle amitié et bonne Corres- <lb/>pondence, tant par
+                    mer, que par terre, en tout et par tout, <lb/>tant dedans que dehors l'Europe,
+                    sans se ressentir des <lb/>offenses ou domages, qu'ils ont receus, tant par le
+                    passé, qu'à <lb/>l'occasion desdites guerres. <lb/>
+                    <lb/>5. <lb/>Et en vertu de cette amitié et correspondence, tant Sa
+                    <lb/>Majesté, que les Seigneurs Etats Generaux procureront et <lb/>avanceront
+                    fidellement le bien et la prosperité l'un del' <lb/>autre, par tout support,
+                    aide, conseil et assistances reëlles, en <lb/>toutes occasions, et en tous tems;
+                    Et ne consentiront à l' <lb/>avenir aucuns Traittés ou negotiations, qui
+                    pourroient <lb/>apporter du dommage à l'un ou à l'autre, mais les <lb/>rompront
+                    et en donneront les avis reciproquement avec <lb/>soin et sincerité, aussi tost,
+                    qu'ils en auront connoissance. <lb/>
+                    <lb/>6. <lb/>Ceux, sur lesquels quelques biens ont esté saisis et confisques
+                    <lb/>à l'occasion de ladite guerre, leurs heritiers, ou ayant cause, <lb/>de
+                    quelque condition ou religion, qu'ils puissent estre, joüiront <lb/>d'iceux
+                    biens, et en prendront la possession, de leur authorité <lb/>privée, et en vertu
+                    du present Traitté, sans qu'il leur soit <lb/>besoing d'avoir recours<note n="1">
+                        Nachträglich eingefügt.</note> à la Justice, non obstant toutes incorpo-
+                    <lb/>rations au Fisc, engagemens, dons en faits, sentences <lb/>
+                    <lb/>
+                    <lb/>[Seite 5] <lb/>
+                    <lb/>preparatoires ou definitives, données par defaut et contumace, <lb/>en
+                    l'absence des parties, et icelles non oüies, Traittés, Accords, <lb/>et
+                    transactions, quelques renonciations qui ayent esté mises <lb/>esdites
+                    transactions, pour exclure de partie desd[it]s biens, <lb/>ceux à qui ils
+                    doivent appartenir, et tous et chacuns biens <lb/>et droits, qui conformement au
+                    present Traitté seront restitués, <lb/>ou doivent estre restitués reciproquement
+                    aux premiers <lb/>proprietaires, leurs Hoirs ou ayant cause, pourront estre
+                    <lb/>vendus par lesdits proprietaires, sans qu'il soit besoin d' <lb/>impetrer
+                    pour ce, consentement particulier; Et ensuitte les <lb/>proprietaires des
+                    rentes, qui de la part des Fiscs seront <lb/>constitués en lieu des biens
+                    vendus, comme aussi des <lb/>rentes et actions, estant à la charge des Fiscs
+                    respectivement, <lb/>pourront disposer de la proprieté d'icelles par vente ou
+                    <lb/>autrement, comme de leurs autres propres biens. <lb/>
+                    <lb/>7. <lb/>Et comme le Marquisat de Bergopzoom, avec tous les <lb/>droits et
+                    revenus, qui en dependent, et generalement toutes <lb/>les Terres et biens
+                    appartenants à M[onsieur] le Comte d'Auvergne, <lb/>Colonel General de la
+                    Cavallerie legére de France, et qui sont <lb/>sous le pouvoir desd[it]s
+                    Seigneurs Estats Generaux des Provinces <lb/>Unies, ont esté saisis et
+                    confisqués à l'occasion de la <lb/>guerre, à laquelle le present Traitté doit
+                    mettre une heureuse <lb/>fin; il a ésté accorde, que ledit S[ieu]r Comte
+                    d'Auvergne sera <lb/>remis dans la possession dudit Marquisat de Bergopzoom;
+                    <lb/>ses appartenances et dependences, comme aussi dans ses <lb/>droits,
+                    actions, privileges, usances et prerogatives, dont il <lb/>joüissoit, lors de la
+                    declaration de la guerre. <lb/>
+                    <lb/>8. <lb/>Tous les Païs, Villes, Places, Terres, Forts, Isles et Seigneuries,
+                    <lb/>tant au dedans qu'au dehors de l'Europe, qui pourroient <lb/>avoir esté
+                    pris et occupés depuis le commencement de la <lb/>presente guerre, seront
+                    restitués de part et d'autre au meme <lb/>êtât, qu'ils estoient pour les
+                    fortifications lors de la prise, <lb/>et quant aux autres edifices, dans
+                    l'estat, qu'ils se <lb/>trouveront, sans qu'on puisse y rien detruire, ny
+                    deteriorer, <lb/>sans aussi qu'on puisse pretendre aucun dedommagement pour <lb/>
+                    <lb/>[Seite 6] <lb/>
+                    <lb/>ce qui auroit pû estre demoli, et nommement le Fort et <lb/>habitation de
+                    Pondichery sera rendû aux conditions susdites <lb/>à la Compagnie des Indes
+                    Orientales establie en France, et <lb/>quant à l'artillerie, qui y a esté amenée
+                    par la Compagnie <lb/>des Indes Orientales des Provinces Unies, elle luy
+                    demeurera, <lb/>ainsi que les munitions de guerre et de bouches, esclaves et
+                    <lb/>tous les autres effets, pour en disposer comme il luy plaira, <lb/>comme
+                    aussi des Terres, droits et privileges qu'elle a acquis, <lb/>tant du Prince que
+                    des habitans du Païs. <lb/>
+                    <lb/>9. <lb/>Tous Prisonniers de guerre seront delivrés, de part et d'autre,
+                    <lb/>sans distinction ou reserve, et sans payer aucune rançon. <lb/>
+                    <lb/>10. <lb/>La levée des Contributions cessera de part et d'autre du jour
+                    <lb/>de l'echange des ratifications du present Traitté de paix, <lb/>et aucuns
+                    arrerages desdites Contributions demandées et <lb/>accordées ne pourront estre
+                    exigéz, mais toutes les pretentions, <lb/>qui pourroient rester sur ce sujet,
+                    sous quelque tiltre ou <lb/>pretexte que ce soit, seront entierement anneantis
+                    de part <lb/>et d'autre. Comme aussi cesseront à l'echange desdites
+                    <lb/>ratifications du present Traitté toutes les contributions de <lb/>part et
+                    d'autre à l'egard des Pais des Rois Tres Chrestien <lb/>et Catholique. <lb/>
+                    <lb/>11. <lb/>Pour affermir d'autant plus et faire subsister ce Traitté, <lb/>on
+                    est deplus convenu entre Sa Majesté et les Seigneurs <lb/>Etats Generaux,
+                    qu'estant satisfait à ce Traitté, il se fera, <lb/>comme se fait par cetui-cy
+                    une renonciation tant generale <lb/>que particuliere, sur toutes sortes de
+                    pretentions, tant du <lb/>tems passé, que du present, quelles qu'elles puissent
+                    estre, <lb/>que l'un parti pourroit intenter contre l'autre, pour <lb/>oster à
+                    l'avenir toutes les occasions, que l'on pourroit <lb/>susciter et faire parvenir
+                    à de nouvelles dissentions. <lb/>
+                    <lb/>12. <lb/>Les voyes de la justice ordinaire seront ouvertes, et le
+                    <lb/>cours en sera libre reciproquement, et les Sujets de part et <lb/>
+                    <lb/>[Seite 7] <lb/>
+                    <lb/>d'autre pourront faire valoir leurs droits, actions et pretensions
+                    <lb/>suivant les loix et les statuts de chaque Païs, et y obtenir <lb/>les uns
+                    contre les autres, sans distinction toute la satisfaction, <lb/>qui leur pourra
+                    legitimement appartenir; et s'il y a eu des <lb/>lettres de represailles
+                    accordées de part ou d'autre, soit devant <lb/>ou apres la declaration de la
+                    derniere guerre, elles <lb/>demeureront revoquées et annullées, sauf aux
+                    parties, en <lb/>faveur desquelles elles auroient esté accordées à se pourvoir
+                    <lb/>par les voyes ordinaires de la Justice. <lb/>
+                    <lb/>13. <lb/>Si par inadvertence ou autrement il survenoit quelque
+                    <lb/>inobservation ou inconvenient au present Traitté de la <lb/>part de Sa
+                    Majesté, ou desdits Seigneurs Estats Generaux et <lb/>leurs Successeurs, cette
+                    paix et alliance ne laissera pas de <lb/>subsister en toute Sa force, sans que
+                    pour cela on en vienne <lb/>à la rupture de l'amitié et de la bonne
+                    Correspondence: <lb/>mais on reparera promtement lesdites contraventions, et
+                    <lb/>si elles procedent de la faute de quelques particuliers <lb/>Sujets, ils en
+                    seront seuls punis et chastiés. <lb/>
+                    <lb/>14. <lb/>Et pour mieux asseurer à l'avenir le commerce et l'amitié
+                    <lb/>entre les Sujets dudit Seigneur Roy et ceux desdits <lb/>Seigneurs Estats
+                    Generaux des Provinces Unies des <lb/>Pais-bas, il a esté accordé et convenu,
+                    qu'arrivant <lb/>cy après quelque interruption d'amitié ou rupture <lb/>entre la
+                    Couronne de France, et lesdits Seigneurs <lb/>Estats desdites Provinces Unies
+                    (:ce qu'à Dieu ne plaise:) <lb/>il sera tousjours donné neuf mois de tems, apres
+                    ladite <lb/>rupture, aux Sujets de part et d'autre, pour se retirer <lb/>avec
+                    leurs effets, et les transporter ou bon leur semblera, <lb/>ce qu'il leur sera
+                    permis de faire, comme aussi de vendre <lb/>et transporter leurs biens et
+                    meubles en toute liberté, <lb/>sans qu'on leur puisse donner aucun empeschement,
+                    ny <lb/>proceder pendant ledit tems de neuf mois à aucune saisie <lb/>de leurs
+                    effets, moins encore à l'arrest de leurs perdonnes. <lb/>
+                    <lb/>15. <lb/>Le Traitté de paix entre le Roy Tres Chrestien et le feu <lb/>
+                    <lb/>[Seite 8] <lb/>
+                    <lb/>Electeur de Brandebourg, fait à Saint Germain en Laye le <lb/>29 Juin 1679
+                    sera restabli entre Sa Majesté Tres Chrestienne <lb/>et Son Altesse Electorale
+                    de Brandebourg d'à present, en <lb/>tous ses points et articles. <lb/>
+                    <lb/>16. <lb/>Comme il importe à la tranquilité publique, que la paix
+                    <lb/>conclüe entre Sa Majesté Tres Chrestienne et Son Altesse <lb/>Royale le Duc
+                    de Savoye, le 9e Aoust 1696, soit <lb/>exactement observée, il a esté convenu de
+                    la confirmer <lb/>par ce present Traitté. <lb/>
+                    <lb/>17. <lb/>Et comme Sa Majesté et les Seigneurs Estats <lb/>Generaux,
+                    reconnoissent les puissans offices, que le <lb/>Roi de Suede a contribues
+                    incessamment par ses Conseils <lb/>et bons advertissemens au salut, et au repos
+                    public, <lb/>il a esté convenu de part et d'autre, que Sadite <lb/>Majesté
+                    Suedoise, avec ses Royaumes, soit comprise <lb/>nommement dans le present
+                    Traitté en la meilleure <lb/>forme, que faire se peut. <lb/>
+                    <lb/>18. <lb/>En ce present Traitté de paix et d'alliance seront compris <lb/>de
+                    la part dudit Seigneur Roy Tres Chrestien, tous ceux <lb/>qui seront nommés
+                    avant l'echange des ratifications et <lb/>dans l'espace de six mois, apres
+                    qu'elles auront esté <lb/>echangées. <lb/>
+                    <lb/>19. <lb/>Et de la part des Seigneurs Estats Generaux, le Roy de <lb/>la
+                    grande Bretagne, et le Roy d'Espagne, et tous leurs <lb/>autres alliez, qui dans
+                    le tems de six semaines, à compter <lb/>depuis l'echange des Ratifications, se
+                    declareront d'accepter <lb/>la paix, comme aussi les treise loüables Cantons des
+                    ligues <lb/>Suisses, et leurs alliez et confederez, et particulierement, <lb/>en
+                    la meilleure forme et maniere, que faire se peut, les <lb/>
+                    <lb/>[Seite 9] <lb/>
+                    <lb/>Republiques et Cantons Evangeliques, Zurich, Berne, Glaris, <lb/>Basle,
+                    Schaffouse et Appensel, avec tous leurs Alliez et <lb/>Confederez, nommement la
+                    Republique de Geneve et ses <lb/>Dependances, la Ville et Comté de Neufchastel,
+                    les Villes <lb/>de St. Gallen, Mulhausen et Bienne; Item les Ligues grises,
+                    <lb/>et dependances, les Villes de Bremen, et d'Emden, Et de plus <lb/>tous
+                    Roys, Princes et Estats, Villes, et Personnes particulieres, <lb/>à qui les
+                    Seigneurs Estats Generaux, sur la requisition, qui <lb/>leur en sera faitte,
+                    accorderont d'y estre compris. <lb/>
+                    <lb/>20. <lb/>Ledit Seigneur Roy, et lesd[it]s Seigneurs Estats Generaux,
+                    <lb/>consentent que le Roy de Suede, comme Mediateur, et tous <lb/>autres
+                    Potentats et Princes, qui voudront bien entrer en un <lb/>pareil engagement,
+                    puissent donner à Sa Majesté, <lb/>et auxdits Seigneurs Estats Generaux leurs
+                    promesses, <lb/>et obligations de garantie de l'execution de tout le
+                    <lb/>contenu au present Traitté. <lb/>
+                    <lb/>21. <lb/>Le present Traitté sera ratifié et approuvé par <lb/>le Seigneur
+                    Roy et les Seigneurs Estats Generaux, <lb/>et les lettres de ratification,
+                    seront delivrées <lb/>dans le terme de trois semaines, ou plustost, <lb/>si
+                    faire se peut, à compter du jour de la <lb/>signature. <lb/>
+                    <lb/>22. <lb/>Et pour plus grande seureté de ce Traitté de <lb/>paix, et de tous
+                    les points et articles, y <lb/>contenus, sera ledit present Traitté publié,
+                    verifié <lb/>et enregistré en la Cour du Parlement de <lb/>Paris, et de tous
+                    autres Parlemens du Royaume <lb/>de France, et Chambre des Comptes dudit
+                    <lb/>Paris; Comme aussi semblamement ledit Traitté <lb/>sera publié, verifié,
+                    enregistré, par lesdits Seig- <lb/>neurs Estats Generaux dans les cours et
+                    autres <lb/>Places, là ou on a accoutumé de faire les <lb/>
+                    <lb/>[Seite 10] <lb/>
+                    <lb/>publications, verifications, et enregistremens. <lb/>
+                    <lb/>En foy de quoy nous Ambassadeurs de Sadite <lb/>Majesté et des Seigneurs
+                    Estats Generaux, en <lb/>vertu de nos Pouvoirs respectifs, avons esdits
+                    <lb/>noms signé ces presentes de nos Seings ordinaires, <lb/>et à icelles fait
+                    apposer les cachets de nos armes. <lb/>A Ryswick en Hollande le vingtiême jour
+                    du mois <lb/>Septembre mil Six cents quatre vingt dix sept. <lb/>
+                    <lb/>N.Lillienroot&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;N.A.Harlay
+                    Bonneuil&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;Heinsius <lb/>&nbsp;&nbsp;
+                    &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;Verjus de Crecy&nbsp;&nbsp;
+                    &nbsp;&nbsp;&nbsp; &nbsp;DeWeede <lb/>&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;
+                    &nbsp;&nbsp;&nbsp; &nbsp;DeCallieres&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;
+                    &nbsp;&nbsp;&nbsp; &nbsp;W.v.Harren <lb/>
+                    <lb/>Signé à Riswick <lb/>entre la France et la Holande <lb/>le 20. e Septembre
+                    <lb/>1697 <lb/>Pour donner un <lb/>terme àl'Empereur <lb/>Article separé <lb/>
+                    <lb/>Outre ce qui a esté conclu et arresté <lb/>par le traitté de Paix fait
+                    entre les Ambassadeurs <lb/>extraordinaires et plenipotentiaires du Roy Tres-
+                    <lb/>Chretien et ceux des dits Seigneurs Estatz Gene- <lb/>raux des Provinces
+                    Unies, ce jourd'huy vingtjesme <lb/>Septembre 1697. Il a eté encore convenu par
+                    ce <lb/>present article separé, qui aura la mesme force et <lb/>vertu, que s'il
+                    etoit inseré de mot à mot dans le <lb/>susdit traitté, que Sa Majesté
+                    Tres-Chretienne <lb/>accordera, comme Elle accorde par ce present Article <lb/>à
+                    l'Empereur, et à l'Empire jusqu'au premier de <lb/>Novembre prochain, pour
+                    accepter les conditions de <lb/>Paix proposées en dernier lieu par Sadite
+                    Majesté <lb/>tres-Chretienne, suivant sa declaration du premier <lb/>jour du
+                    present mois de Septembre, si Sa Majesté <lb/>Imperiale et l'Empire n'en peuvent
+                    autrement <lb/>convenir avec Sadite Majesté Tres-Chretienne; <lb/>Et en cas que
+                    dans ledit temps, l'Empereur et l'Em- <lb/>pire n'accepte point lesdites
+                    conditions ou n'en con- <lb/>viennent pas autrement avec Sad[it]e Majesté Tres-
+                    <lb/>Chretienne, ledit traitté de paix sortira son plein <lb/>et entier effet,
+                    et sera executé suivant sa forme et <lb/>teneur, sans pouvoir y contrevenir par
+                    lesdits Seigneurs <lb/>Etatz Generaux, sous quelque pretexte que ce puisse
+                    <lb/>etre, directement ou indirectement. <lb/>En foy dequoy Nous Ambassadeurs de
+                    Sadite Majesté <lb/>et des Seigneurs Etatz Generaux, en vertu de nos
+                    <lb/>pouvoirs respectifs, avons esdits noms signé cet <lb/>Article Separé de nos
+                    Seings ordinaires, et y <lb/>avons fait apposer les cachets de nos armes à <lb/>
+                    <lb/>[Seite 2 des Separatartikels] <lb/>
+                    <lb/>Ryswik en Hollande ce vingtiême jour du mois <lb/>de Septembre mil six cent
+                    quatre vingt dix sept. <lb/>
+                    <lb/>NA Harlay de Bonneuil&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;A Heinsius
+                    <lb/>Verjus de Crecy&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;De
+                    Weede <lb/>De Callieres&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;
+                    &nbsp;&nbsp;&nbsp; &nbsp;W.v. Harren <lb/></p>
+            </div>
+
+            <div type="Transliteration">
+                <pb facs="#FacsPnr1"/>
+                <p>20e Sep[temb]re <lb/>1697 <lb/>Au nom de Dieu et de la tres Sainte <lb/>Trinité;
+                    à tous presens et avenir, soit notoire, que <lb/>pendant le cours de la plus
+                    sa[n]glante guerre, dont l'Europe <lb/>ait esté affligée depuis long tems; Il a
+                    plû à la divine <lb/>providence de preparer à la Chrestienté la fin de ses
+                    <lb/>maux en conservant un ardent desir de la paix dans le <lb/>coeur de Tres
+                    haut, tres Excellent et tres Puissiant <lb/>Prince, Louis 14e, par la grace de
+                    Dieu Roy Tres-Chretien, <lb/>de France et de Navarre, Sa Majesté Tres-Chretienne
+                    <lb/>n'ayant d'ailleurs en veue, que de la rendre solide et <lb/>perpetuelle par
+                    l'equité de ses conditions; Et les <lb/>Seigneurs Estats Generaux des Provinces
+                    Unies des <lb/>Païs Bas, souhaitant de concourir de bonne foy, et <lb/>autant
+                    qu'il est en Eux au restablissement de la <lb/>tranquillité publique, et de
+                    rentrer dans l'ancienne <lb/>amitié et affection de Sa Majesté tres Chrestienne,
+                    ont <lb/>consenté en premier lieu à reconnoitre pour cet effet la <lb/>mediation
+                    de tres haut, tres-Excellent, et tres Puissant <lb/>Prince Charles onziesme de
+                    glorieuse Memoire, par la <lb/>grace de Dieu Roy de Suede, des Goths et des
+                    Wandales; <lb/>mais une mort precipitée ayant traversé l'esperance, <lb/>que
+                    toute l'Europe avoit justement conceüe de l'heureux <lb/>effet de ses Conseils,
+                    et de ses bons offices; Sa Majesté <lb/>Tres Chrestienne, et lesdits Seigneurs
+                    Etats Generaux, <lb/>persistant dans la resolution d'arrester auplus tost l'
+                    <lb/>effusion de tant de Sang Chrestien, ont estimé ne pouvoir <lb/>mieux faire,
+                    que de continuer de reconnoitre en la mesme <lb/>qualité, Tres haut, Tres
+                    Excellent et Tres Puissant Prince <lb/>Charles douziesme Roy de Suede, son Fils,
+                    et son Successeur, <lb/>qui de sa part a continué aussi les mesmes soins pour
+                    <lb/>l'avancement de la paix entre Sa Maj[es]té Tres Chrestienne <lb/>et lesdits
+                    Seigneurs Etats Generaux, dans les conferences, <lb/>qui se sont tenuës pour cet
+                    effet au Chateau de Ryswicq <lb/>dans la Province de Hollande, entre les
+                    Ambassadeurs <lb/>Extraordinaires, et Plenipotentiaires nommés de part et
+                    <lb/>d'autre; Scavoir de la part de Sa Majesté Tres Chrestienne, <lb/>le Sieur
+                    Nicolas Auguste de Harlay, Chevalier, Seigneur <lb/>de Bonneüil, Comte de Cely,
+                    Conseiller ordinaire de Sa <lb/>Majesté en son Conseil d'Etat: Le Sieur Loüis
+                    Verjus <lb/>
+                </p>
+                <pb facs="#FacsPnr2"/>
+                <p>Chevalier, Comte de Crecy, Conseiller ordinaire du Roy <lb/>en son Conseil
+                    d'Estat, Marquis de Treon, Baron de <lb/>Couvay, Seigneur du Boulay, les deux
+                    Eglises, de Fortisle, <lb/>du Meuillet, etc; Et le Sieur Francois de Callieres,
+                    <lb/>Chevalier, Seigneur de Callieres, de la Roche-Chellay, et de <lb/>Gigny; Et
+                    de la part des Seigneurs Estats Generaux, <lb/>les Sieurs Antoine Heinsius,
+                    Conseiller Pensionaire des <lb/>Etats de Hollande et de West-Frise, garde du
+                    grand S[c]eau, <lb/>et surintendant des fiefs de la mesme Province; Evrard
+                    <lb/>de Weede, Seigneur de Weede, Dykvelt, Rateles etc, <lb/>Seigneur Foncier de
+                    la Ville d'Oudewater, Doyen et <lb/>Escolatre du Chapitre Imperial de Sainte
+                    Marie à Utrecht, <lb/>Dyckgrave de la Riviere le Rhin dans la Province d'Utrecht
+                    <lb/>President des Estats de ladite Province; Et Guillaume <lb/>de Haren,
+                    Grietman du Bilt, Deputé de la part de la <lb/>Noblesse aux Estats de Frise et
+                    Curateur de l'Université <lb/>de Franeker, Deputés en leur assemblée de la part
+                    des Etats <lb/>de Hollande, d'Utrecht, et de Frise; lesquels, apres avoir
+                    <lb/>imploré l'assistance divine, et s'estre communiqué respec- <lb/>tivement
+                    leurs pleins pouvoirs, dont les Copies seront <lb/>inserées de mot à mot à la
+                    fin du present Traitté, et <lb/>en avoir düement fait l'echange, par
+                    l'intervention <lb/>et l'entremise du Sieur Baron de Lillieroot Ambassadeur
+                    <lb/>Extraordinaire et Plenipotentiaire du Roy de Suede, qui s'est <lb/>acquité
+                    de sa fonction de Mediateur avec toute la prudence, <lb/>toute la capacité, et
+                    toute l'equité necessaire; Ils <lb/>seroient convenus à la gloire de Dieu, et
+                    pour le bien de <lb/>la Chrestienté, des Conditions, dont la teneur s'ensuit. </p>
+                <p>1. <lb/>Il y aura à l'avenir entre Sa Majesté Tres-Chrestienne <lb/>et ses
+                    Successeurs Rois de France et de Navarre, et ses <lb/>Royaumes, d'une part, Et
+                    les Seigneurs Etats Generaux <lb/>des Provinces Unies du Païs-Bas, d'autre, une
+                    paix bonne, <lb/>ferme, fidelle et inviolable, et cesseront ensuite et
+                    <lb/>seront delaisséz tous actes d'hostilité, de quelque façon, <lb/>qu'ils
+                    soient, entre ledit Seigneur Roy, et lesdits <lb/>Seigneurs Estats Generaux,
+                    tant par Mer, et autres eaux, <lb/>
+                </p>
+                <pb facs="#FacsPnr3"/>
+                <p>que par terre, en tous leurs Royaumes, Pais, Terres, <lb/>Provinces et
+                    Seigneuries, et pour tous leurs Sujets et <lb/>habitans, de quelque qualité ou
+                    condition qu'ils soient, sans <lb/>exception des lieux ou des Personnes. </p>
+                <p>2. <lb/>Il y aura un oubly et amnestie generale de tout ce, qui <lb/>a esté
+                    commis de part et d'autre à l'occasion de la derniere <lb/>guerre, soit par
+                    ceux, qui estant nez Sujets de la France, <lb/>et engagés au service du Roy Tres
+                    Chrestien, par les employs <lb/>et biens, qu'ils possedoient dans l'estendüe de
+                    la France, sont <lb/>entrés et demeurés, au service des Seigneurs Estats
+                    Generaux <lb/>des Provinces Unies; où par ceux qui estant nés Sujets
+                    <lb/>desd[it]s Seigneurs Estats Generaux, ou engagés à leur Service <lb/>par les
+                    emplois et biens qu'ils possedoient dans l' <lb/>estendüe des Provinces Unies,
+                    sont entrés ou demeurés <lb/>au service de Sa Majesté Tres Chrestienne, et les
+                    susdites <lb/>personnes de quelque qualité et condition, qu'elles soient
+                    <lb/>sans nul excepter, pourront rentrer, rentreront, et seront
+                    <lb/>effectivement laissez et restablis en la possession et <lb/>joüissance
+                    paisible de tous leurs biens, honneurs, <lb/>dignités, privileges, franchises,
+                    droits, exemptions, <lb/>constitutions, et libertés, sans pouvoir estre
+                    recherchés, <lb/>troublés, ny inquietés, en general, ny en particulier, pour
+                    <lb/>quelque cause, ou pretexte, que ce soit, pour raison de ce qui <lb/>s'est
+                    passé depuis la naissance de ladite guerre, et en <lb/>consequence du present
+                    Traitté, et apres qu'il aura esté <lb/>ratifié, tant par Sa Majesté Tres
+                    Chrestienne, que par <lb/>lesd[i]ts Seigneurs Etats Generaux, leur sera permis,
+                    à tous, <lb/>et à chacun en particulier, sans avoir besoin de lettres
+                    <lb/>d'abolition, et de pardon, de retourner en personne dans <lb/>leurs
+                    maisons, en la joüissance de leurs Terres, et de tous <lb/>leurs autres biens,
+                    ou d'en disposer de telle maniere, que <lb/>bon leur semblera. </p>
+                <p>3. <lb/>Et si quelques prises se font de part et d'autre dans <lb/>la mer
+                    baltique ou celle du Nord depuis Terneuse <lb/>jusqu'au bout de la Manche, dans
+                    l'espace de quatre <lb/>
+                </p>
+                <pb facs="#FacsPnr4"/>
+                <p>semaines, ou du bout de ladite Manche, jusqu'au Cap <lb/>de St. Vincent, dans
+                    l'espace de six semaines, et de là <lb/>dans la mer mediterranée, et jusqu'à la
+                    ligne dans l' <lb/>espace de dix semaines, et au delà de la Ligne et en tous
+                    <lb/>les autres endroits du Monde dans, l'espace de huit mois, <lb/>à compter du
+                    jour que se fera la publication de la paix à <lb/>Paris et à la Haye; lesdites
+                    prises, et les dommages, qui <lb/>se feront de part ou d'autre, apres le terme
+                    prefix, seront <lb/>portés en compte, et tout ce, qui aura esté pris, sera
+                    <lb/>rendu avec compensation de tous les domages, qui en <lb/>seront provenus. </p>
+                <p>4. <lb/>Il y aura de plus entre ledit Seigneur Roy, et lesdits Seigneurs
+                    <lb/>Estats Generaux, et leurs Sujets et habitans reciproquement, <lb/>une
+                    sincere, ferme et perpetuelle amitié et bonne Corres- <lb/>pondence, tant par
+                    mer, que par terre, en tout et par tout, <lb/>tant dedans que dehors l'Europe,
+                    sans se ressentir des <lb/>offenses ou domages, qu'ils ont receus, tant par le
+                    passé, qu'à <lb/>l'occasion desdites guerres. </p>
+                <p>5. <lb/>Et en vertu de cette amitié et correspondence, tant Sa <lb/>Majesté, que
+                    les Seigneurs Etats Generaux procureront et <lb/>avanceront fidellement le bien
+                    et la prosperité l'un del' <lb/>autre, par tout support, aide, conseil et
+                    assistances reëlles, en <lb/>toutes occasions, et en tous tems; Et ne
+                    consentiront à l' <lb/>avenir aucuns Traittés ou negotiations, qui pourroient
+                    <lb/>apporter du dommage à l'un ou à l'autre, mais les <lb/>rompront et en
+                    donneront les avis reciproquement avec <lb/>soin et sincerité, aussi tost,
+                    qu'ils en auront connoissance. </p>
+                <p>6. <lb/>Ceux, sur lesquels quelques biens ont esté saisis et confisques <lb/>à
+                    l'occasion de ladite guerre, leurs heritiers, ou ayant cause, <lb/>de quelque
+                    condition ou religion, qu'ils puissent estre, joüiront <lb/>d'iceux biens, et en
+                    prendront la possession, de leur authorité <lb/>privée, et en vertu du present
+                    Traitté, sans qu'il leur soit <lb/>besoing d'avoir recours<note type="crit_app"
+                         n="2">Nachträglich eingefügt.</note> à la Justice, non obstant toutes incorpo-
+                    <lb/>rations au Fisc, engagemens, dons en faits, sentences <lb/>
+                </p>
+                <p> </p>
+                <pb facs="#FacsPnr5"/>
+                <p>preparatoires ou definitives, données par defaut et contumace, <lb/>en l'absence
+                    des parties, et icelles non oüies, Traittés, Accords, <lb/>et transactions,
+                    quelques renonciations qui ayent esté mises <lb/>esdites transactions, pour
+                    exclure de partie desd[it]s biens, <lb/>ceux à qui ils doivent appartenir, et
+                    tous et chacuns biens <lb/>et droits, qui conformement au present Traitté seront
+                    restitués, <lb/>ou doivent estre restitués reciproquement aux premiers
+                    <lb/>proprietaires, leurs Hoirs ou ayant cause, pourront estre <lb/>vendus par
+                    lesdits proprietaires, sans qu'il soit besoin d' <lb/>impetrer pour ce,
+                    consentement particulier; Et ensuitte les <lb/>proprietaires des rentes, qui de
+                    la part des Fiscs seront <lb/>constitués en lieu des biens vendus, comme aussi
+                    des <lb/>rentes et actions, estant à la charge des Fiscs respectivement,
+                    <lb/>pourront disposer de la proprieté d'icelles par vente ou <lb/>autrement,
+                    comme de leurs autres propres biens. </p>
+                <p>7. <lb/>Et comme le Marquisat de Bergopzoom, avec tous les <lb/>droits et
+                    revenus, qui en dependent, et generalement toutes <lb/>les Terres et biens
+                    appartenants à M[onsieur] le Comte d'Auvergne, <lb/>Colonel General de la
+                    Cavallerie legére de France, et qui sont <lb/>sous le pouvoir desd[it]s
+                    Seigneurs Estats Generaux des Provinces <lb/>Unies, ont esté saisis et
+                    confisqués à l'occasion de la <lb/>guerre, à laquelle le present Traitté doit
+                    mettre une heureuse <lb/>fin; il a ésté accorde, que ledit S[ieu]r Comte
+                    d'Auvergne sera <lb/>remis dans la possession dudit Marquisat de Bergopzoom;
+                    <lb/>ses appartenances et dependences, comme aussi dans ses <lb/>droits,
+                    actions, privileges, usances et prerogatives, dont il <lb/>joüissoit, lors de la
+                    declaration de la guerre. </p>
+                <p>8. <lb/>Tous les Païs, Villes, Places, Terres, Forts, Isles et Seigneuries,
+                    <lb/>tant au dedans qu'au dehors de l'Europe, qui pourroient <lb/>avoir esté
+                    pris et occupés depuis le commencement de la <lb/>presente guerre, seront
+                    restitués de part et d'autre au meme <lb/>êtât, qu'ils estoient pour les
+                    fortifications lors de la prise, <lb/>et quant aux autres edifices, dans
+                    l'estat, qu'ils se <lb/>trouveront, sans qu'on puisse y rien detruire, ny
+                    deteriorer, <lb/>sans aussi qu'on puisse pretendre aucun dedommagement pour
+                    <lb/>
+                </p>
+                <pb facs="#FacsPnr6"/>
+                <p>ce qui auroit pû estre demoli, et nommement le Fort et <lb/>habitation de
+                    Pondichery sera rendû aux conditions susdites <lb/>à la Compagnie des Indes
+                    Orientales establie en France, et <lb/>quant à l'artillerie, qui y a esté amenée
+                    par la Compagnie <lb/>des Indes Orientales des Provinces Unies, elle luy
+                    demeurera, <lb/>ainsi que les munitions de guerre et de bouches, esclaves et
+                    <lb/>tous les autres effets, pour en disposer comme il luy plaira, <lb/>comme
+                    aussi des Terres, droits et privileges qu'elle a acquis, <lb/>tant du Prince que
+                    des habitans du Païs. </p>
+                <p>9. <lb/>Tous Prisonniers de guerre seront delivrés, de part et d'autre, <lb/>sans
+                    distinction ou reserve, et sans payer aucune rançon. </p>
+                <p>10. <lb/>La levée des Contributions cessera de part et d'autre du jour <lb/>de
+                    l'echange des ratifications du present Traitté de paix, <lb/>et aucuns arrerages
+                    desdites Contributions demandées et <lb/>accordées ne pourront estre exigéz,
+                    mais toutes les pretentions, <lb/>qui pourroient rester sur ce sujet, sous
+                    quelque tiltre ou <lb/>pretexte que ce soit, seront entierement anneantis de
+                    part <lb/>et d'autre. Comme aussi cesseront à l'echange desdites
+                    <lb/>ratifications du present Traitté toutes les contributions de <lb/>part et
+                    d'autre à l'egard des Pais des Rois Tres Chrestien <lb/>et Catholique. </p>
+                <p>11. <lb/>Pour affermir d'autant plus et faire subsister ce Traitté, <lb/>on est
+                    deplus convenu entre Sa Majesté et les Seigneurs <lb/>Etats Generaux, qu'estant
+                    satisfait à ce Traitté, il se fera, <lb/>comme se fait par cetui-cy une
+                    renonciation tant generale <lb/>que particuliere, sur toutes sortes de
+                    pretentions, tant du <lb/>tems passé, que du present, quelles qu'elles puissent
+                    estre, <lb/>que l'un parti pourroit intenter contre l'autre, pour <lb/>oster à
+                    l'avenir toutes les occasions, que l'on pourroit <lb/>susciter et faire parvenir
+                    à de nouvelles dissentions. </p>
+                <p>12. <lb/>Les voyes de la justice ordinaire seront ouvertes, et le <lb/>cours en
+                    sera libre reciproquement, et les Sujets de part et <lb/>
+                </p>
+                <pb facs="#FacsPnr7"/>
+                <p>d'autre pourront faire valoir leurs droits, actions et pretensions <lb/>suivant
+                    les loix et les statuts de chaque Païs, et y obtenir <lb/>les uns contre les
+                    autres, sans distinction toute la satisfaction, <lb/>qui leur pourra
+                    legitimement appartenir; et s'il y a eu des <lb/>lettres de represailles
+                    accordées de part ou d'autre, soit devant <lb/>ou apres la declaration de la
+                    derniere guerre, elles <lb/>demeureront revoquées et anées, sauf aux parties, en
+                    <lb/>faveur desquelles elles auroient esté accordées à se pourvoir <lb/>par les
+                    voyes ordinaires de la Justice. </p>
+                <p>13. <lb/>Si par inadvertence ou autrement il survenoit quelque <lb/>inobservation
+                    ou inconvenient au present Traitté de la <lb/>part de Sa Majesté, ou desdits
+                    Seigneurs Estats Generaux et <lb/>leurs Successeurs, cette paix et alliance ne
+                    laissera pas de <lb/>subsister en toute Sa force, sans que pour cela on en
+                    vienne <lb/>à la rupture de l'amitié et de la bonne Correspondence: <lb/>mais on
+                    reparera promtement lesdites contraventions, et <lb/>si elles procedent de la
+                    faute de quelques particuliers <lb/>Sujets, ils en seront seuls punis et
+                    chastiés. </p>
+                <p>14. <lb/>Et pour mieux asseurer à l'avenir le commerce et l'amitié <lb/>entre les
+                    Sujets dudit Seigneur Roy et ceux desdits <lb/>Seigneurs Estats Generaux des
+                    Provinces Unies des <lb/>Pais-bas, il a esté accordé et convenu, qu'arrivant
+                    <lb/>cy après quelque interruption d'amitié ou rupture <lb/>entre la Couronne de
+                    France, et lesdits Seigneurs <lb/>Estats desdites Provinces Unies (:ce qu'à Dieu
+                    ne plaise:) <lb/>il sera tousjours donné neuf mois de tems, apres ladite
+                    <lb/>rupture, aux Sujets de part et d'autre, pour se retirer <lb/>avec leurs
+                    effets, et les transporter ou bon leur semblera, <lb/>ce qu'il leur sera permis
+                    de faire, comme aussi de vendre <lb/>et transporter leurs biens et meubles en
+                    toute liberté, <lb/>sans qu'on leur puisse donner aucun empeschement, ny
+                    <lb/>proceder pendant ledit tems de neuf mois à aucune saisie <lb/>de leurs
+                    effets, moins encore à l'arrest de leurs perdonnes. </p>
+                <p>15. <lb/>Le Traitté de paix entre le Roy Tres Chrestien et le feu <lb/>
+                </p>
+                <pb facs="#FacsPnr8"/>
+                <p>Electeur de Brandebourg, fait à Saint Germain en Laye le <lb/>29 Juin 1679 sera
+                    restabli entre Sa Majesté Tres Chrestienne <lb/>et Son Altesse Electorale de
+                    Brandebourg d'à present, en <lb/>tous &lt;ses points et articles&gt;<note
+                        type="crit_app" n="3">&nbsp;Unleserlich, folgt CTS.&nbsp;</note>
+                </p>
+                <p>16. <lb/>Comme il importe à la tranquilité publique, que la paix <lb/>conclüe
+                    entre Sa Majesté Tres Chrestienne et Son Altesse <lb/>Royale le Duc de Savoye,
+                    le 9e Aoust 1696, soit <lb/>exactement observée, il a esté convenu de la
+                    confirmer <lb/>par ce present Traitté. </p>
+                <p>17. <lb/>Et comme Sa Majesté et les Seigneurs Estats <lb/>Generaux, reconnoissent
+                    les puissans offices, que le <lb/>Roi de Suede a contribues incessamment par ses
+                    Conseils <lb/>et bons advertissemens au salut, et au repos public, <lb/>il a
+                    esté convenu de part et d'autre, que Sadite <lb/>Majesté Suedoise, avec ses
+                    Royaumes, soit comprise <lb/>nommement dans le present Traitté en la meilleure
+                    <lb/>forme, que faire se peut. </p>
+                <p>18. <lb/>En ce present Traitté de paix et d'alliance seront compris <lb/>de la
+                    part dudit Seigneur Roy Tres Chrestien, tous ceux <lb/>qui seront nommés avant
+                    l'echange des ratifications et <lb/>dans l'espace de six mois, apres qu'elles
+                    auront esté <lb/>echangées. </p>
+                <p>19. <lb/>Et de la part des Seigneurs Estats Generaux, le Roy de <lb/>la grande
+                    Bretagne, et le Roy d'Espagne, et tous leurs <lb/>autres alliez, qui dans le
+                    tems de six semaines, à compter <lb/>depuis l'echange des Ratifications, se
+                    declareront d'accepter <lb/>la paix, comme aussi les treise loüables Cantons des
+                    ligues <lb/>Suisses, et leurs alliez et confederez, et particulierement, <lb/>en
+                    la meilleure forme et maniere, que faire se peut, les <lb/>
+                </p>
+                <lb/>
+                <p> </p>
+                <pb facs="#FacsPnr9"/>
+                <p>Republiques et Cantons Evangeliques, Zurich, Berne, Glaris, <lb/>Basle,
+                    Schaffouse et Appensel, avec tous leurs Alliez et <lb/>Confederez, nommement la
+                    Republique de Geneve et ses <lb/>Dependances, la Ville et Comté de Neufchastel,
+                    les Villes <lb/>de St. Gallen, Mulhausen et Bienne; Item les Ligues grises,
+                    <lb/>et dependances, les Villes de Bremen, et d'Emden, Et de plus <lb/>tous
+                    Roys, Princes et Estats, Villes, et Personnes particulieres, <lb/>à qui les
+                    Seigneurs Estats Generaux, sur la requisition, qui <lb/>leur en sera faitte,
+                    accorderont d'y estre compris. </p>
+                <p>20. <lb/>Ledit Seigneur Roy, et lesd[it]s Seigneurs Estats Generaux,
+                    <lb/>consentent que le Roy de Suede, comme Mediateur, et tous <lb/>autres
+                    Potentats et Princes, qui voudront bien entrer en un <lb/>pareil engagement,
+                    puissent donner à &lt;Sa Ma&gt;<note type="crit_app" n="4">Unleserlich, folgt
+                        CTS.</note>jesté, <lb/>et auxdits Seigneurs Estats Generaux &lt;leurs
+                        p&gt;<note type="crit_app" n="5">Unleserlich, folgt CTS. </note>romesses,
+                    <lb/>et obligations de garantie de l'execution de tout le <lb/>contenu au
+                    present Traitté. </p>
+                <p>21. <lb/>Le present Traitté sera ratifié et approuvé par <lb/>le Seigneur Roy et
+                    les Seigneurs Estats Generaux, <lb/>et les lettres de ratification, seront
+                    delivrées <lb/>dans le terme de trois semaines, ou plustost, <lb/>si faire se
+                    peut, à compter du jour de la <lb/>signature. </p>
+                <p>22. <lb/>Et pour plus grande seureté de ce Traitté de <lb/>paix, et de tous les
+                    points et articles, y <lb/>contenus, sera ledit present Traitté publié, verifié
+                    <lb/>et enregistré en la Cour du Parlement de <lb/>Paris, et de tous autres
+                    Parlemens du Royaume <lb/>de France, et Chambre des Comptes dudit <lb/>Paris;
+                    Comme aussi semblamement ledit Traitté <lb/>sera publié, verifié, enregistré,
+                    par lesdits Seig- <lb/>neurs Estats Generaux dans les cours et autres
+                    <lb/>Places, là ou on a accoutumé de faire les <lb/>
+                </p>
+                <lb/>
+                <lb/>
+                <p> </p>
+                <pb facs="#FacsPnr10"/>
+                <p>publications, verifications, et enregistremens. </p>
+                <p>En foy de quoy nous Ambassadeurs de Sadite <lb/>Majesté et des Seigneurs Estats
+                    Generaux, en <lb/>vertu de nos Pouvoirs respectifs, avons esdits <lb/>noms signé
+                    ces presentes de nos Seings ordinaires, <lb/>et à icelles fait apposer les
+                    cachets de nos armes. <lb/>A Ryswick en Hollande le vingtiême jour du mois
+                    <lb/>Septembre mil Six cents quatre vingt dix sept. </p>
+                <p>N.Lillienroot&nbsp;&nbsp; N.A.Harlay Bonneuil&nbsp;&nbsp;&nbsp; Heinsius
+                    <lb/>&nbsp;&nbsp;&nbsp;Verjus de Crecy&nbsp;&nbsp;&nbsp; DeWeede
+                    <lb/>&nbsp;&nbsp;&nbsp;DeCallieres&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    W.v.Harren <lb/>
+                </p>
+                <pb facs="#FacsPnr11"/>
+                <p>Signé à Riswick <lb/>entre la France et la Holande <lb/>le 20. e Septembre
+                    <lb/>1697 <lb/>Pour donner un <lb/>terme àl'Empereur <lb/>Article separé </p>
+                <p>Outre ce qui a esté conclu et arresté <lb/>par le traitté de Paix fait entre les
+                    Ambassadeurs <lb/>extraordinaires et plenipotentiaires du Roy Tres-
+                    <lb/>Chretien et ceux des dits Seigneurs Estatz Gene- <lb/>raux des Provinces
+                    Unies, ce jourd'huy vingtjesme <lb/>Septembre 1697. Il a eté encore convenu par
+                    ce <lb/>present article separé, qui aura la mesme force et <lb/>vertu, que s'il
+                    etoit inseré de mot à mot dans le <lb/>susdit traitté, que Sa Majesté
+                    Tres-Chretienne <lb/>accordera, comme Elle accorde par ce present Article <lb/>à
+                    l'Empereur, et à l'Empire jusqu'au premier de <lb/>Novembre prochain, pour
+                    accepter les conditions de <lb/>Paix proposées en dernier lieu par Sadite
+                    Majesté <lb/>tres-Chretienne, suivant sa declaration du premier <lb/>jour du
+                    present mois de Septembre, si Sa Majesté <lb/>Imperiale et l'Empire n'en peuvent
+                    autrement <lb/>convenir avec Sadite Majesté Tres-Chretienne; <lb/>Et en cas que
+                    dans ledit temps, l'Empereur et l'Em- <lb/>pire n'accepte point lesdites
+                    conditions ou n'en con- <lb/>viennent pas autrement avec Sad[it]e Majesté Tres-
+                    <lb/>Chretienne, ledit traitté de paix sortira son plein <lb/>et entier effet,
+                    et sera executé suivant sa forme et <lb/>teneur, sans pouvoir y contrevenir par
+                    lesdits Seigneurs <lb/>Etatz Generaux, sous quelque pretexte que ce puisse
+                    <lb/>etre, directement ou indirectement. <lb/>En foy dequoy Nous Ambassadeurs de
+                    Sadite Majesté <lb/>et des Seigneurs Etatz Generaux, en vertu de nos
+                    <lb/>pouvoirs respectifs, avons esdits noms signé cet <lb/>Article Separé de nos
+                    Seings ordinaires, et y <lb/>avons fait apposer les cachets de nos armes à <lb/>
+                </p>
+                <pb facs="#FacsPnr12"/>
+                <p>Ryswik en Hollande ce vingtiême jour du mois <lb/>de Septembre mil six cent
+                    quatre vingt dix sept. </p>
+                <p>NA Harlay de Bonneuil&nbsp;&nbsp;A Heinsius <lb/>Verjus de
+                    Crecy&nbsp;&nbsp;&nbsp;De Weede <lb/>De Callieres&nbsp;&nbsp;&nbsp;&nbsp;W.v.
+                    Harren <lb/>
+                </p>
+            </div>
+        </body>
+        <back>
+            <listBibl>
+                <bibl xml:id="a79">
+                    <title level="a">Theatrum Europaeum (1697-09-20)</title>
+                    <title level="m">Theatrum Europaeum, Band 15 (1696-1700) Aus: Dokumentenarchiv
+                        der Universitätsbibliothek Augsburg (Drucke vor 1900 / Historische
+                        Geschichtswerke).</title>
+                    <biblScope>
+                        <graphic xml:id="A1Pnr1"
+                            url="https://www.ieg-friedensvertraege.de/dbimages/img_49e6f48315998"/>
+                        <graphic xml:id="A1Pnr2"
+                            url="https://www.ieg-friedensvertraege.de/dbimages/img_49e6f48b37c45"/>
+                        <graphic xml:id="A1Pnr3"
+                            url="https://www.ieg-friedensvertraege.de/dbimages/img_49e6f49131e5f"/>
+                        <graphic xml:id="A1Pnr4"
+                            url="https://www.ieg-friedensvertraege.de/dbimages/img_49e6f4968003f"/>
+                    </biblScope>
+                </bibl>
+            </listBibl>
+        </back>
+    </text>
+</tei:TEI>

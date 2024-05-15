@@ -1,0 +1,818 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE tei SYSTEM "../resources/FriVer_DTD.dtd">
+
+<?xml-model href="../resources/FriVer.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns="http://www.tei-c.org/ns/1.0" xml:id="pa000299-0638">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title level="s">European peace treaties of the pre-modern era in data / Europäische Friedensverträge der Vormoderne in Daten (FriVer+)</title>
+                <title when="1713-07-13" xml:id="t638" when-custom="1713 VII 13" level="a" ref="https://www.ieg-friedensvertraege.de/treaty/t-638-1-de.html">Zweiter (gültiger) Friedensvertrag von Utrecht</title>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    Digital edition according to
+                    <ref target="http://www.tei-c.org/">TEI P5</ref>
+                </edition>
+                <funder>
+                    <ref target="https://www.text-plus.org/">TEXT+</ref>
+                </funder>
+                <editor role="http://id.loc.gov/vocabulary/relators/edt" ref="https://orcid.org/0000-0002-8741-5916">
+                    <persName>Jaap Geraerts</persName>
+                    <note>The transformation and enrichment of the data is done by Jaap Geraerts (IEG Mainz). The other members of the FriVer+ team are Fabian Cremer, Ines Grund, and Thorsten Wübbena (all IEG Mainz).</note>
+                    <note>
+                        The original data has been created by the
+                        <ref target="https://www.ieg-friedensvertraege.de">team of scholars</ref>
+                        who were part of the Europäische Friedensverträge der Vormoderne project. This project was lead by Prof. Dr. Heinz Duchhardt and was based at the Leibniz Institute of European History in Mainz.
+                    </note>
+                </editor>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>
+                    <orgName ref="http://www.isni.org/0000000119314040">Leibniz-Institut für Europäische Geschichte Mainz</orgName>
+                </publisher>
+                <distributor>
+                    <orgName ref="http://www.isni.org/0000000110101946">Universitäts- und Landesbibliothek Darmstadt</orgName>
+                </distributor>
+                <idno type="ISIL">http://lobid.org/organisation/DE-17</idno>
+                <date type="issued" when="2023-12-23"/>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">
+                        <p xml:lang="en">This file is licensed under the terms of the Creative Commons License CC-BY 4.0 (Attribution 4.0 International)</p>
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <repository xml:id="r17">Madrid AHN
+                    <note>Archivo Histórico Nacional Madrid, ESTADO,3367,Exp.60. Digital:<lb />
+                        <ref target="http://pares.mcu.es/ParesBusquedas20/catalogo/show/5232328">http://pares.mcu.es/ParesBusquedas20/catalogo/show/5232328</ref></note>
+                </repository>
+                <msDesc><p>Spanien, Ministerio de Cultura, AHN Madrid: Estado Legajo 3367-4-60 (UI) (Transkriptionsgrundlage)</p>
+                    <p>Weitere Stücke:</p>
+                    <p>A.S. Torino: Materie politiche per rapporto all’estero - Trattati - Trattati diversi - Mazzo: 17 - Fascicolo: 3. (O, UI)</p></msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>
+                    The data in this XML file, originally created by the project
+                    <ref target="https://www.ieg-friedensvertraege.de/vertraege">Europäische Friedensverträge der Vormoderne online</ref>
+                    has been transformed in accordance with
+                    <ref target="http://www.tei-c.org/">TEI P5</ref>
+                    as part of the project
+                    <ref target="https://www.ieg-mainz.de/en/research/research-projects/european-peace-treaties-of-the-pre-modern-era-in-data">Europäische Friedensverträge der Vormoderne in Daten (FriVer+)</ref>
+                </p>
+            </projectDesc>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="es" xml:id="lan13">spanisch</language>
+            </langUsage>
+        </profileDesc>
+    </teiHeader>
+    <standOff>
+        <listPerson>
+            <person role="signatory" xml:id="p107">
+                <persName ref="https://explore.gnd.network/gnd/4051850-4">
+                    <name>Savoyen - Piemont</name>
+                </persName>
+            </person>
+            <person role="signatory" xml:id="p34">
+                <persName ref="https://explore.gnd.network/gnd/4055964-6">
+                    <name>Spanien</name>
+                </persName>
+            </person>
+        </listPerson>
+        <listPlace>
+            <place xml:id="loc53">
+                <placeName ref="https://explore.gnd.network/gnd/4062222-8">Utrecht</placeName>
+            </place>
+        </listPlace>
+        <facsimile>
+            <surface xml:id="FacsPnr1">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_44d20647e3f67"/>
+            </surface>
+            <surface xml:id="FacsPnr2">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_44ad719e16291"/>
+            </surface>
+            <surface xml:id="FacsPnr3">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_44ad71c667ea6"/>
+            </surface>
+            <surface xml:id="FacsPnr4">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_44ad71e87a2e9"/>
+            </surface>
+            <surface xml:id="FacsPnr5">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_44ad720d4d9a3"/>
+            </surface>
+            <surface xml:id="FacsPnr6">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_44ad723241fa2"/>
+            </surface>
+            <surface xml:id="FacsPnr7">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_44ad725bc05dc"/>
+            </surface>
+            <surface xml:id="FacsPnr8">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_44ad727feaf7f"/>
+            </surface>
+            <surface xml:id="FacsPnr9">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_44ad72a5c2fd7"/>
+            </surface>
+            <surface xml:id="FacsPnr10">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_44ad72ca5ff9e"/>
+            </surface>
+            <surface xml:id="FacsPnr11">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_44ad72f9a543f"/>
+            </surface>
+            <surface xml:id="FacsPnr12">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_44ad731dd9636"/>
+            </surface>
+            <surface xml:id="FacsPnr13">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_44ad734113cb0"/>
+            </surface>
+            <surface xml:id="FacsPnr14">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_44ad73641feb9"/>
+            </surface>
+            <surface xml:id="FacsPnr15">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_44ad738c8ad14"/>
+            </surface>
+            <surface xml:id="FacsPnr16">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_44ad73ba51b30"/>
+            </surface>
+            <surface xml:id="FacsPnr17">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_44ad73ddda51a"/>
+            </surface>
+            <surface xml:id="FacsPnr18">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_44ad740134f1f"/>
+            </surface>
+            <surface xml:id="FacsPnr19">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_44ad742731569"/>
+            </surface>
+            <surface xml:id="FacsPnr20">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_44ad744a371e5"/>
+            </surface>
+            <surface xml:id="FacsPnr21">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_44ad74709d354"/>
+            </surface>
+            <surface xml:id="FacsPnr22">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_44ad7497e309f"/>
+            </surface>
+            <surface xml:id="FacsPnr23">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_44ad74baf350c"/>
+            </surface>
+            <surface xml:id="FacsPnr24">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_44ad74dd11ee0"/>
+            </surface>
+            <surface xml:id="FacsPnr25">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_44ad750172b94"/>
+            </surface>
+            <surface xml:id="FacsPnr26">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_44ad75282a3e0"/>
+            </surface>
+            <surface xml:id="FacsPnr27">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_44ad754b83817"/>
+            </surface>
+            <surface xml:id="FacsPnr28">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_44ad75700d738"/>
+            </surface>
+            <surface xml:id="FacsPnr29">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_44ad759259920"/>
+            </surface>
+            <surface xml:id="FacsPnr30">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_44ad75b709d70"/>
+            </surface>
+            <surface xml:id="FacsPnr31">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_44ad75d9ec922"/>
+            </surface>
+            <surface xml:id="FacsPnr32">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_44ad75fbb944a"/>
+            </surface>
+            <surface xml:id="FacsPnr33">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_44ad7625dcd02"/>
+            </surface>
+            <surface xml:id="FacsPnr34">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_44ad764b7f603"/>
+            </surface>
+            <surface xml:id="FacsPnr35">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_44ad766d764d9"/>
+            </surface>
+            <surface xml:id="FacsPnr36">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_44ad7695e51b2"/>
+            </surface>
+            <surface xml:id="FacsPnr37">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_44ad76b8b27fa"/>
+            </surface>
+            <surface xml:id="FacsPnr38">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_44ad76db769d5"/>
+            </surface>
+            <surface xml:id="FacsPnr39">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_44ad76fdccbdf"/>
+            </surface>
+            <surface xml:id="FacsPnr40">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_44ad7728bcfd2"/>
+            </surface>
+            <surface xml:id="FacsPnr41">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_44ad774e930e9"/>
+            </surface>
+            <surface xml:id="FacsPnr42">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_44ad7775f10e0"/>
+            </surface>
+            <surface xml:id="FacsPnr43">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_44ad7797ba558"/>
+            </surface>
+            <surface xml:id="FacsPnr44">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_44ad77bac57bf"/>
+            </surface>
+            <surface xml:id="FacsPnr45">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_44ad77dc9366e"/>
+            </surface>
+            <surface xml:id="FacsPnr46">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_44ad7801c0a71"/>
+            </surface>
+            <surface xml:id="FacsPnr47">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_44ad7824b9bd5"/>
+            </surface>
+            <surface xml:id="FacsPnr48">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_44ad784726778"/>
+            </surface>
+            <surface xml:id="FacsPnr49">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_44ad786b03eed"/>
+            </surface>
+            <surface xml:id="FacsPnr50">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_44ad788f4c50f"/>
+            </surface>
+            <surface xml:id="FacsPnr51">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_44ad78b41d0d2"/>
+            </surface>
+            <surface xml:id="FacsPnr52">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_44ad78d94a8be"/>
+            </surface>
+            <surface xml:id="FacsPnr53">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_44ad78ff26f62"/>
+            </surface>
+            <surface xml:id="FacsPnr54">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_44ad79220eb79"/>
+            </surface>
+            <surface xml:id="FacsPnr55">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_44ad79565a2b3"/>
+            </surface>
+            <surface xml:id="FacsPnr56">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_44ad797f89f4a"/>
+            </surface>
+            <surface xml:id="FacsPnr57">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_44ad79ad5d0ae"/>
+            </surface>
+            <surface xml:id="FacsPnr58">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_44ad79d05b417"/>
+            </surface>
+            <surface xml:id="FacsPnr59">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_44ad79fa09249"/>
+            </surface>
+        </facsimile>
+    </standOff>
+    <text>
+        <front>
+            <div type="Inhalt"><p>Um Frieden und Ruhe in Europa wieder herzustellen, wir folgendes vereinbart:
+                <lb />1.&nbsp;&nbsp; &nbsp;Friede, Konföderation, Allianz und Freundschaft.
+                <lb />2.&nbsp;&nbsp; &nbsp;Einstellung der Feindseligkeiten, Vergebung der Kriegstaten.
+                <lb />3.&nbsp;&nbsp; &nbsp;Verzicht des Katholischen Königs auf französische Krone; Im Falle fehlender Nachkommenschaft des Katholischen Königs, fällt die Krone Spaniens und [West-]Indiens an das Haus Savoyen; die entsprechende Erklärung von 1712 XI 5, Akt der Cortes von 1712 XI 9 und Gesetz von 1713 III 8 sind essentieller Bestandteil dieses Vertrages und werden in den Text mit aufgenommen. Ebenso die dazu gehörenden Vollmachten und Erklärungen; die Erklärung des Katholischen Königs zugunsten des Herzogs von Orleans von 1703 XI 29 wird nichtig.
+                <lb />4.&nbsp;&nbsp; &nbsp;Der Katholische König übergibt Sizilien an den Herzog von Savoyen; der entsprechende Akt des Katholischen Königs von 1713 VI 10 ist essentieller Bestandteil dieses Vertrages und wird mit aufgenommen; Abwicklung der Übergabe Siziliens, Truppenverlegung.
+                <lb />5.&nbsp;&nbsp; &nbsp;Gegenseitiges Versprechen der Einhaltung dieses Vertrages.
+                <lb />6.&nbsp;&nbsp; &nbsp;Falls das Haus Savoyen ohne männliche Nachkommen bleibt, fällt Sizilien an Spanien zurück.
+                <lb />7.&nbsp;&nbsp; &nbsp;Bestätigung der Sonderrechte des Königreichs Sizilien auch unter dem Haus Savoyen; Amnestie für vom Fiskus verfolgte Tatbestände.
+                <lb />8.&nbsp;&nbsp; &nbsp;Die spanischen Untertanen, die auf Sizilien bleiben wollen, behalten ihre Rechte und Privilegien und dürfen ihre Güter unter Zahlung der üblichen Abgaben frei abziehen. Gleichstellung mit den Untertanen des Königreichs Sizilien. Freier Verkauf ihrer Güter; dasselbe gilt für sizilianische Untertanen in Spanien.
+                <lb />9.&nbsp;&nbsp; &nbsp;Freihandel auf Sizilien für befreundete Mächte der Krone Spaniens und des Hauses Savoyen; Gleichstellung mit Spaniern und Engländern.
+                <lb />10.&nbsp;&nbsp; &nbsp;Bestätigung der seit Karl V dem Maltheserorden gewährten Rechte, vor allem zu Weizen, Zwieback, Fleisch, Gewürzen etc.
+                <lb />11.&nbsp;&nbsp; &nbsp;Vertrag von 1703 XI 8 zwischen Leopold und dem Herzog von Savoyen bleibt gültig; der Katholische König bestätigt diesen Vertrag und bietet an, gemeinsam mit dem Herzog von Savoyen in die Union und Garantie einzutreten, die mit Frankreich und England vereinbart wird, für die Einhaltung der Abmachungen zu Stadt und Provinz Vigevano zu sorgen.
+                <lb />12.&nbsp;&nbsp; &nbsp;Die Verträge von Turin 1696, Münster, Pyrenäen, Nijmegen, Rijswijk werden in den Punkten eingehalten, welche durch diesen Vertrag nicht ungültig werden; ebenso der Vertrag von 1713 IV 11.
+                <lb />13.&nbsp;&nbsp; &nbsp;Mitaufnahme in den Vertrag von dritten in beiderseitigem Einvernehmen.
+                <lb />14.&nbsp;&nbsp; &nbsp; Versprechen der Einhaltung des Vertrages sowie für dessen Einhaltung zu sorgen; die Könige von Spanien und Frankreich und die Königin von England garantrieren dem Herzog von Savoyen das Königreich Sizilien.
+                <lb />15.&nbsp;&nbsp; &nbsp;Zustimmung und Ratifikation.
+                <lb /></p></div>
+        </front>
+        <body>
+            <div type="Transliteration">
+                <pb facs="#FacsPnr1"/><p>Savoya
+                <lb />
+                <lb />Tratado original de Paz ajustado entre
+                <lb />esta Corona y el S[eñ]or Duque de Savoya
+                <lb />en Utrech en 13 de Julio de 1713
+                <lb />
+                <pb facs="#FacsPnr2"/>
+                <pb facs="#FacsPnr3"/>En el nombre de la Santissia Trinidad sea notorio a todos los presentes y
+                <lb />a venir que haviendo placido a Dios, despues de una tan larga, y sangrienta guerra
+                <lb />que a causado la efusion de tanta sangre christiana, y la desolacion de tantos
+                <lb />Estados, inspirar a las Potencias que en ella se an interessado, un sincero deseo
+                <lb />de la Paz, y del restablecimiento de la tranquillidad publica, y que las negociaio-
+                <lb />nes empezadas a este fin en Utreck por el desuelo de la Ser[enisi]ma y Poderos[isi]ma
+                <lb />Princesa Ana, por la gracia de Dios Reyna de la Gran Bretaña hayan por su
+                <lb />prudente conducta llegado a el punto de la conclusion de una Paz, la qual queriendo
+                <lb />establecerla perpetua el Ser[enisi]mo y Poderosisimo Principe Phelipe V. por la gracia
+                <lb />de Dios Rey Catolico de España &amp;ca. que siempre a buscado cuidadoso los medio
+                <lb />de restablecer el reposo general de la Europa, y la tranquilidad en España, y
+                <lb />sua Altezza Real Victor Amadeo 2do por la gracia de Dios Duque de Savoya
+                <lb />Rey de Chypre &amp;ca., que tambien a deseado concurrir en un obra tan saludable; y
+                <lb />anelado ardientemente siempre, bolber a estrechar por una Paz, y una perpetua
+                <lb />alianza los precisos nudos, que tan gloriosamente unen a Sua Altezza Real; y
+                <lb />su casa a su Mag[esta]d Catholica, han dado a este fin sus amplios poderes para tratar
+                <lb />firmar y concluir el tratado de Paz y de Alianza, es a saver Su Mag[esta]d Cat[holi]ca
+                <lb />a los Ex[cilentisi]mos S[eño]res D[o]n Francisco Maria de Paula Tellez Jiron, Venavides, Casillo, y Toledo,
+                <lb />Ponce de Leon, Duque de Ossuna, Conde de Uregna, Marques de Penafiel,
+                <lb />Gentilhombre de la Camara de Su Mag[esta]d Cat[holic]a, Camarero y Copero Mayor,
+                <lb />Notario Mayor de los Reynos de Castilla, Cavallero del orden de Calatrava,
+                <lb />Clavero mayor de la misma orden, y Cavalleria y Comendador de ella, y de la
+                <lb />de usagre en la de Santiago, Capitan de la primera Compania Española de las
+                <lb />Reales Guardias de Corps; Y D[o]n Isidoro Casado de Azevedo, y Rosales
+                <lb />Marques de Monteleon del Consejo de Yndias sus embaxadores extraordinarios,
+                <lb />y Plenipotenciarios en dicho Congresso de Utreck, y Sua Altezza Real de Savoya
+                <lb />a sus Excelecias el S[eñor] Annibal Conde de Maffei Gentilhombre de la Camara,
+                <lb />y Primer Cavallerizo de su dicha Altezza Real, Cav[alle]ro del orden de S[a]n Mauricio,
+                <lb />y S[eño]r Lazaro, Coronel de un&nbsp; Regimiento de Ynfanteria, General de Battalla
+                <lb />
+                <pb facs="#FacsPnr4"/>en sus Exercitos, su embiado extraordinario cerca de Su Mag[esta]d Brit[anni]ca; El S[eñ]or
+                <lb />Ynacio Solar de Moreta Marques de Burgo, Gentilhombre de Camera de
+                <lb />su dicha Altezza Real Cav[alle]ro Gran Cruz del orden de S[a]n Mauricio, y S[a]n Lazaro,
+                <lb />su Embiado Extr[aordina]rio cerca de los S[eño]res Estados generales de las Provincias unidas
+                <lb />de los Payses bajos; Y el S[eñ]or Pedro Mellarede S[en]or de la Casa fuerte de Jordan
+                <lb />Consejero de Estado de su dicha Altezza Real sus Embaxadores Extr[aordina]rios, y
+                <lb />Plenipotenciarios en dicho Congreso de Utreck, los quales despues de haverse commu-
+                <lb />nicado sus dichos Plenos poderes, cuyas copias seran insertas palabra por palabra
+                <lb />al fin de este Tratado, y despues de haverse hecho el cambio de dichos Poderes
+                <lb />autenticos, han combenido en los articulos siguientes en presencia de sus Excelencias
+                <lb />el s[eñ]or Obispo de Bristol y el S[eñ]or Conde de Straford Embaxadores Extr[aordina]rios y Plenipoten-
+                <lb />ciarios de la Reyna de la Gran Bretaña, y en consequencia de lo que se hizo,
+                <lb />y en lo que se combino en la Corte de Madrid, como asi mismo en la de Londres
+                <lb />por sus Ministros
+                <lb />
+                <lb />I
+                <lb />Havra de aqui adelante una buena, firme, y durable Paz, confederation,
+                <lb />y perpetua alianza, y amistad entre Su Magestad Catolica, sus hijos nacidos,
+                <lb />y por nacer, sus descendientes, y sus Reynos de una parte, y su Altezza Real de
+                <lb />Savoya, sus Hijos nacidos, y por nacer, y sus subcesores, y Estados de otra procurando
+                <lb />de todo su poder el bien, el honor, y la ventaja de uno, y otro, y evitando, quanto les
+                <lb />será possible, lo que podrá causarles reciprocamente algûn daño.
+                <lb />
+                <lb />2.
+                <lb />En consequencia de esta Paz, y buena union, cesaran de una parte, y otra, todos
+                <lb />los actos de ostilidad por mar, y tierra sin exception de lugares, ni de
+                <lb />Personas, y todos los motivos de mala inteligenzia quedaran apagados y
+                <lb />abolidos para s[iemp]re, y havra de una parte, y otra un olbido, y perdon perpetuo
+                <lb />de todo lo echo durante la presente guerra, o, a su occasion sin que puedan en
+                <lb />adelante, directa, o indirectamente hacer alguna inquisition sobre esto por
+                <lb />qualquier via, o devajo de qualquier pretexto que sea, ny manifestar algun
+                <lb />resentimiento, ni pretender ninguna suerte de reparacion.
+                <lb />
+                <pb facs="#FacsPnr5"/>3
+                <lb /> Por las mismas razones, y por los mismos motivos de el bien publico,
+                <lb />de la Paz, de el reposo, y del equilibrio de la Europa, y de la tranquilidad
+                <lb />del Reyno de España en particular que Su Magestad Catholica ha echo por si,
+                <lb />y por todos sus descendentes para siempre la renunciacion de la Corona de
+                <lb />Francia en cinco de noviembre del año de mil setecientos y douze, y el reconoci-
+                <lb />miento, y declaracion que Su Mag[esta]d Cat[holi]ca ha hecho por el mismo Año pasado,
+                <lb />por ley en hocho de Marzo proximo pasado, que en defecto de sus descendientes
+                <lb />asegura la subcession de la Corona de España, y de las Yndias a Su Altezza
+                <lb />Real de Savoya, y a sus descendientes Varones nacidos de constante y lexitimo
+                <lb />matrimonio, y subcesivamente a los varones de la Casa de Savoya, y a sus
+                <lb />descendientes varones, nacidos de constante, y lexitimo matrimonio, excluyendo
+                <lb />qualquiera otra casa, por las mismas razones, y motivos que se han de tener
+                <lb />por aqui expresados; Se ha combenido, y estipulado expresamente por
+                <lb />el presente; Que el d[ic]ho Acto de cinco de novembre deve hacer, y ser tenido
+                <lb />como hace, y es tenido por una partida esencial de este Tratado, como
+                <lb />tambien el Acto de nueve del dicho mes de novembre hecho por las
+                <lb />Cortes de España, que han pasado, aprovado, y confirmado el dicho Acto
+                <lb />de Su Magestad Catholica, y la dicha Ley hecha en su consequencia en ocho
+                <lb />de marzo proximo passado, y publicada el mismo dia, hará tambien parte
+                <lb />esencial de este tratado, y todo segun las clausulas especificadas, y esplicadas
+                <lb />en los dichos Actos, de los quales el Rey Catholico hará entregar a Su Altezza
+                <lb />Real dentro de tres meses las expediciones autenticas, y de todos los otros Actos
+                <lb />hechos a este assumpto, como tambien los Registros hechos en todos los
+                <lb />Consejos de Estado, de Guerra, de Inquisition, de Ytalia, de las Yndias, de las
+                <lb />ordenes, de Hazienda, y de Cruzada, y entretanto los dichos Actos de Su Mag[estad]
+                <lb />Cat[holic]a, y de las Cortes de Cinco, y nueve de novembre de mil setecientos, y
+                <lb />douze, y la dicha ley de hocho de marzo de presente año seran puestos en
+                <lb />su tenor al fin del presente con los Actos de renunciacion a la Corona de España
+                <lb />hechos por el S[eño]r Duque de Berri en venti y quattro de dicho mes de noviembre
+                <lb />
+                <pb facs="#FacsPnr6"/>y por el S[eñ]or Duque de Orleans en dies y nueve del mismo, como tambien las
+                <lb />Cartas Patentes de Su Mag[esta]d Anna del mes de marzo proximo passado, que
+                <lb />admiten las dichas renunciaciones, y suprimen sus Cartas Patentes del mes de
+                <lb />Decembre de mil y settecientos todos los quales Actos de renunciation, y Cartas
+                <lb />Patentes d[ic]has hacen, y haran tambien para siempre parte essemptial de este
+                <lb />Tratado, y reconociendo Su Mag[esta]d Catt[holic]a los motivos de los dichos reconocimientos,
+                <lb />declaraciones renunciaciones, y actos, y que son el fundamento, y la seguridad
+                <lb />de la duracion de la Paz de la [Chris]tiandad, promete por si, y sus descendientes
+                <lb />que todo lo contenido en dichos Actos sera imbiolable, y puntualmente observado
+                <lb />en su firma, y tenor, y nunca contravenir, ni permitir, que sea contravenido
+                <lb />directa, ni indirectamente en todo, ni en la menor parte de qualquiera manera, o
+                <lb />por qualquiere via, que sea, y antes bien al contrario, embarazar que sea
+                <lb />contravenido por ninguno en ningun tiempo, o por ninguna causa, o motivo, y
+                <lb />Su Mag[esta]d Cat[holic]a se empeña expressamente por si, y por sus descendientes de
+                <lb />mantener en favor, y contra todos, sin exceptuar alguno, el derecho de
+                <lb />subcession de Su Altezza Real de Savoya, ny de los Principes de la Casa
+                <lb />de Savoia, a la Corona de España, y de las Yndias conforme a la manera
+                <lb />establecida por los d[ic]hos Actos de Su Mag[esta]d y de las Cortes de cinco y nueve de
+                <lb />novembre de 1712: reconocidos por los Actos hechos por los S[eño]res Duque de
+                <lb />Berry, y Duque de Orleans de 19, y 24 de dicho mes de novembre, y las
+                <lb />Cartas Patentes del Rey [Christianissi]mo del mes de marzo proximo passado, y por
+                <lb />la dicha ley de 8 de dicho mes, supliendo el d[ic]ho S[eñ]or Rey Catholico qualesquiera
+                <lb />defectos, y omisiones de hecho, o de derecho, de estilo, o de costumbre, que
+                <lb />podran tener, o haver intervenido en los dichos Actos aqui citados, y confirma,
+                <lb />y aprueva todos los dichos Actos, y quiere que tengan fuersa, y vigor de ley
+                <lb />y de sanction, pragmatica, y que como tales sean recevidos, guardados,
+                <lb />observados, y executados en sus Reynos por sus Vasallos, y subditos, a los
+                <lb />quales ordena aora como para entonces en caso, que la descendentia de Su Mag[esta]d
+                <lb />venga a faltar /lo que Dios no quiera/ reconoscan por su Rey, y lexitimo
+                <lb />soberano al Principe de la Casa de Savoya a quien tocara la subcesion de
+                <lb />
+                <pb facs="#FacsPnr7"/>la Corona de España, y de las Yndias siguiendo el orden de la bocacion jnclusa
+                <lb />en dichos Actos de Su Mag[esta]d y de las Cortes de cinco y nueve de novembre del 1712;
+                <lb />y de la dicha ley de ocho de Marzo, y la recivan, y presten a este fin, juramento
+                <lb />de fidelidad ovedecerle como etsan obligados a su Rey de mantenerle, y
+                <lb />defenderle en favor, y contra todos, prohiviendo a dichos Vasallos que reconoscan
+                <lb />a otro alguno, y declarando por usurpados qualquiera otro Principe, que quiziere
+                <lb />abscender al Trono de la España y que la Guerra que a este fin emprehendiere
+                <lb />sera jniusta, y al Contrario Su Mag[esta]d declara por justa, y lexitima la guerra,
+                <lb />que el dicho Principe de la Casa de Savoya fuere obligado a emrender para
+                <lb />occupar, o mantenerse en el dicho Trono, Su dicha Mag[esta]d Cat[holi]ca revoca de nuevo
+                <lb />a estos fines, y tanto como es necessario, rompe y anula expresamente la
+                <lb />declaration que su Mag[esta]d hizo en Madrid en ventinueve de Novembre de
+                <lb />Milsettecientos tres a favor del S[eñ]or Duque d’Orleans sus Hijos, y descendientes,
+                <lb />y Su Mag[esta]d quiere, y entiende que la dicha declaration sea, y queda nula, y
+                <lb />como nunca hecha, en firmando a este efecto el desistimiento, y la renunciacion
+                <lb />que el S[eñ]or Duque de Orleans ha echo por el dicho Acto de 19 de Novembre,
+                <lb />y todos los actos que pudieren ser, o hayan sido hechos contrarios a las dichas
+                <lb />declaraciones, renunciaciones, y Actos, y al contenido del presente articulo, y a
+                <lb />los derechos reconocidos, y establecidos en estos, antes de ser reputados por
+                <lb />contrarios a la seguridad de la Paz, y a la tranquilidad de la Europa se
+                <lb />declaran por el presente nulos, y de ningun effecto para s[iem]pre.
+                <lb />
+                <lb />4.
+                <lb />Tambien en execution de lo combenido con su Mag[esta]d la Reyna de la
+                <lb />Gran Bretaña trattando de la Paz, y por las mismas razones de el reposo,
+                <lb />y de el equilibrio de la Europa, y de la tranquilidad de España Su Mag[esta]d Cat[oli]ca
+                    <lb />Phelipe quinto Rey de las Españas, y de las Yndias &amp;ca. ha dado<note n="1" type="crit_app">Nachträglich eingefügt.</note> cedido, y
+                <lb />transportado, como por el presente da, cede, y transporta, pura, simple, e
+                <lb />irrebocablemente a Su Altezza Real Victor Amadeo 2.do Duque de
+                <lb />Savoye &amp;ca. para el, y para los Principes sus Hijos, y sus descendientes
+                <lb />varones, y subcesivamente para los varones de la casa de Savoya de
+                <lb />
+                <lb />
+                </p>
+                <pb facs="#FacsPnr8"/><p>&nbsp; 
+                </p> 
+                <p>Primogenito en Primogenito el Reyno de Sicilia, y Yslas dependientes sus 
+                    <lb />pertenencias, dependencias, y anexo, en toda propiedad, y soverania con todos 
+                    <lb />los derechos de Monarchia de jurisdicion, de Patronato, denominacion, 
+                    <lb />prerogativos, preheminensias, y privilegios, regalias, y otros qualesquiera adquisi- 
+                    <lb />ciones, de derecho, de costumbre, de uso, de posesion, o por concesion a los Reyes, 
+                    <lb />y al Reyno de Sicilia, y generalmente todo lo que a pertenecido, o podido 
+                    <lb />pertenecer a Su Magestad Catholica, y a los Reyes sus Predecessornes sin 
+                    <lb />reservar, ni retener cosa alguna, como lo contiene el Acto de cesion que su 
+                    <lb />Mag[esta]d a hecho en el dia diez de Junio proximo pasado, el qual en todas sus 
+                    <lb />clausulas hace y es tenido, como hara, y sera tenido para siempre una 
+                    <lb />partida essempcial de este Tratado, y como tal sera puesto en su tenor 
+                    <lb />al fin de el presente. Y reconociendo Su Altezza Real los motivos, y 
+                    <lb />clausulas de la dicha zesion por uno de los esempciales de la Paz 
+                    <lb />promete por si, y sus descendientes, que todo su contenido será inviolablemente 
+                    <lb />y puntualmente observado en su forma, y tenor para gozar su dicha Altezza 
+                    <lb />Real, y sus subcessores como queda dicho los derechos y cosas aqui cedidas 
+                    <lb />y assi como Su Mag[esta]d Cat[holi]ca y los Reyes sus Predecessores han gozado, podido, y 
+                    <lb />devido gozar, y separa el dicho S[eñ]or Rey de España, en quanto es menester el 
+                    <lb />dicho Reyno de Sicilia, y Yslas dependientes de la Corona de España [declara consien- 
+                    <lb />te, quiere, y entiende que quedan separadas mientras habrá varones de la
+                    casa de Savoya, y hasta q[ue] la Corona de España]<note n="2" type="crit_app">Nachträglich eingefügt.</note>recarga 
+                    <lb />en un Principe de la dicha Casa segun el contenido del precedente articulo, y a 
+                    <lb />este fin se obliga Su Mag[esta]d a que ratificandose por Su Altezza Real el 
+                    <lb />presente Tratado, y luego despues del cambio de las ratificaciones revestira, y 
+                    <lb />dirá a su Altezza Real la plena, real, y actual posesion del dicho Reyno 
+                    <lb />de Sicilia, y las dependientes, y pertinencias, dependencias, y anexos declarando 
+                    <lb />desde aora Su Mag[esta]d mediante el presente Tratado que a dejado, y se a 
+                    <lb />desnudado, deja, y se desnuda del dicho Reyno de Sicilia, y Yslas dependientes, 
+                    <lb />sus pertinencias, dependencias, y anexos, y que del todo a revestido, y reviste 
+                    <lb />a Su Altezza Real para no tener Su Mag[esta]d desde el cambio de las dichas 
+                    <lb />ratificaciones el dicho Reyno de Sicilia, ny Yslas dependientes, y pertenencias 
+                    <lb />dependencias, y anexos en su nombre, y se tendra entonces en nombre de 
+                    <lb />Su Altezza Real por el Marques de los Balbases, que es actualmente 
+                    <lb /> 
+                    <lb /> 
+                    <lb /> 
+                    <lb /> 
+                </p>
+                <pb facs="#FacsPnr9"/><p>Virrey de aquel Reyno y quien le entregará a S[u] A[ltezza] R[eal] o a sus ordenes, quando
+                <lb />mejor le parecera a su Altezza Real hazer tomar la posesion de dicho
+                <lb />Reyno de Sicilia, reconociendo Su Mag[esta]d al dicho Duque de Savoya, como solo,
+                <lb />y lexitimo Rey de Sicilia, en ratificando de su parte el presente Tratado y
+                <lb />desde el cambio de las referidas ratificaciones reciprocas, y entretanto los frutos,
+                <lb />Tributos, y rentas de aquel Reyno, sus dependencias, y anexos, se perciviran
+                <lb />por los mismos Ministros, o, Arrendadores que actualmente los perciven; devajo
+                <lb />de als ordenes, y disposiciones del dicho virrey, y serviran para la subsis-
+                <lb />tencia de manutencion de las Tropas, que tiene Su Mag[esta]d en aquel Reyno
+                <lb />por el tempo, que quedaran alli, a esperar que Su Altezza Real embie otras
+                <lb />como tambien para el gasto de las embarcaciones necessarias para el
+                <lb />trasporte de ellas a España; Y para la execucion de la dicha zesion,
+                <lb />su Mag[esta]d ha livrado, descargado, y dispensado, y libra, descarga, y dispensa
+                <lb />a todos los Arçobispos, Obispos, Abades, Prelados, y otros ecclesiasticos,
+                <lb />Duques, Principes, Marqueses, Condes, Varones, Governadores, Almirantes,
+                <lb />Commandantes, Capitanes, y otros Ofiz[iales] y gente de guerra, de Marina, que
+                <lb />seran naturales de Sicilia, y de Govierno, Superiores, Presidentes, Magistra-
+                <lb />dos, y otros miembros de sus Consejos, Chanzalarias, y Justicias, a los de su
+                <lb />hazienda, Camara de quentas, Ministros, y offiziales de Justicia, Capitanes,
+                <lb />Tenientes, y Soldados de sus Fuertes, y Castillos, y otros empleados en su
+                <lb />servicio, por mar, o Tierra, que seran naturales de Sicilia, Cavalleros,
+                    <lb />Gentilhombres, y Vasallos, vezinos, y ajud<note n="3" type="crit_app">Unsichere Lesart.</note>antes de las Ciudades, Burgos, y
+                <lb />Lugares, y generalmente todos, y cada uno de los subditos de dicho Reyno de
+                <lb />Sicilia, y Yslas dependientes, y respectivamente de el Juramento de
+                <lb />fidelidad que han prestado a Su Mag[esta]d, y de la fee, y ovediencia que le deven
+                <lb />ordenandoles, y mandandoles expresa y perentoriamente, que quando en virtud
+                <lb />del presente Tratado y cambio de sus ratificaciones, tomará Su Altezza
+                <lb />Real posesion del dicho Reyno, hayan todos sin esperar otra disposicion
+                <lb />ni orden, de reconocer al S[eñ]or Duque de Savoia por su solo, y lexitimo Rey
+                <lb />obedecerle, y defenderle, y prestarle Juramento de fidelidad, fee, y ovediencia,
+                <lb />tales, y semejantes a los que han prestado, o a los que han sido obligados hasta
+                <lb />aora a Su dicha Mag[esta]d quien suple todas las faltas, y omissiones de derecho
+                <lb />
+                <lb />
+                <pb facs="#FacsPnr10"/>o de&nbsp; hecho que podra tener la presente Donacion, cesion, transportation del
+                <lb />Reyno de Sicilia, y Yslas dependientes, pertenencias, dependencias, y anexos,
+                <lb />y a este efecto Su Mag[esta]d renuncia todas las Leyes, Estatutos, combenciones,
+                <lb />constituciones, y costumbres que podran ser contrarias, y que havran sido
+                <lb />confirmados por Juramento, a los quales, y a las derogaciones, deroga expresam[ent]e
+                <lb />por el presente Tratdo para el entero efecto de las dichas Donaciones, cesiones, y
+                <lb />transportaciones, que ualdren, y tendran Lugar, sin que la expresion, o specifi-
+                <lb />cazion particular deroghe a la General, ni la General a la particular,
+                <lb />excluyendo a este fin, y para s[iem]pre todas, y qualesquiera escepciones, que
+                <lb />puedan fundarse sobre qualesquiera titulos, derechos, causas, y pretextos.
+                <lb />Su Mag[esta]d ordena tambien expresa, y perentoriamente al Virrey de Sicilia
+                <lb />consignar, y entregar a su d[ic]ha Altezza Real, o a quien diputera el dicho
+                <lb />Reyno de Sicilia, las Yslas dependientes, pertenencias, dependencias, y
+                <lb />anexos, y darle la real posesion de el incontinente, que Su dicha A[ltezza] R[eal]
+                <lb />embiare para tomarla despues del cambio de las ratificaciones de el presente
+                <lb />Tratado, sin esperar ningunas otras ordenes, ni disposiciones, y hacer tambien
+                <lb />entregar, consignar a su dicha A[ltezza] R[eal], o aquellos que diputara, o el Virrey, que
+                <lb />S[u] A[ltezza] R[eal] estableciere las Ciudades, Puertos, Castillos, Plazas, Fuertes, y
+                <lb />Fortalezas en el estado en que se hallan al presente, Artilleria, Arcenales,
+                <lb />y municiones de guerra, y de Boca, las Galeras, y su chusma, las embarcaciones
+                <lb />sus equipajes, y marineros, y generalmente todo lo que le toca a dicho Reyno
+                <lb />de Sicilia, y Yslas dependientes, sin mudar ni transportar cosa alguna, bien
+                <lb />entendido que todas aquellas Galeras, y su chusma, las embarcaciones, sus
+                <lb />equipajes, y marineros quedaran a la disposicion del dicho Marques de los
+                <lb />Balbases Virrey actual, para embarcar, y transportar de Sicilia a España, y
+                <lb />hasta su perfecto, y entero transporte, todas las Tropas que tiene alli
+                <lb />Su Mag[esta]d y que para el passaje de dichas Tropas embarcara quantas de
+                <lb />las dichas municiones de guerra, y de Boca seran menester, y en conformidad
+                <lb />de lo susod[ic]ho ordena Su Mag[esta]d expressa, y perentoriamente a los Governadores
+                <lb />Comandantes, Capitanes, y demas Ofiziales, consignar, y entregar a los que
+                <lb />seran Diputados por su d[ic]ha A[ltezza] R[eal] o por el Virrey que pondra las d[ic]has
+                <lb />Ciudades, Puertos, Castillos, Plazas, Fuertes, y Fortalezas, sus Galeras, y
+                <lb />
+                <pb facs="#FacsPnr11"/>otras embarcaciones, donde se hallaren sea en los Puertos de Sicilia, o en
+                <lb />otras partes con todo lo que depende, como queda dicho, sin mudar, tocar, ni
+                <lb />retener cosa alguna, sino en lo que toca a las Galeras, embarcaciones, marineros
+                <lb />y municiones, de que expresamente se reserva Su Mag[esta]d la disposicion,
+                <lb />solamente para el transporte de sus Tropas de Sicilia a España, y esto no
+                <lb />obstante todos los juramentos que han prestado, o pedido prestar, de los quales
+                <lb />quedan y son dispensados, por el presente Tratado[.] Su Mag[esta]d Cat[holic]a promete
+                <lb />tambien dar, y hacer entregar con el cambio de la ratificacion del presente
+                <lb />Tratado las dichas ordenes por Duplicado, a los Virreyes, Almirantes, Govern[ado]res
+                <lb />Comandantes, Capitanes, y otros ofiziales, como tambien a todos los Avitantes
+                <lb />de d[ic]ho Reano de qualquiera calidad, y condicion, que sean con las clausulas
+                <lb />mas perentorias, y exclusivas de la necesidad de otras mas amplias, y de
+                <lb />reiteradas disposiciones, y de hacer entregar las contraseñas, si las ay para
+                <lb />que la execution de las arriva dichas Donaciones, cessiones, y transportaciones no
+                <lb />padezcan alguna dificultad, retardacion, ni dilacion, y antes al contrario sean
+                <lb />executadas instantaneamente despues de el cambio de las ratificaciones de
+                <lb />este Tratado, y que los dichos Virreyes, ofiziales, y soldados evaquen, y
+                <lb />partan de Sicilia, y de sus dependencias, por las dichas Galeras, embarca-
+                <lb />ciones, y marineros, y con las dichas municiones necesarias a su transporte,
+                <lb />como Su Mag[esta]d se lo ordena expresamente, y como queda dicho desde luego,
+                <lb />y al passo, que S[u] A[ltezza] R[eal] tomará la posesion.
+                <lb />
+                <lb />5.
+                <lb />Su Mag[esta]d Cat[holi]ca y Su Alt[ez]za Real prometen, y se obligan reciprocamente
+                <lb />por si, y por sus descendientes de observar y mantener el presente Tratado
+                <lb />en todo su contenido, sea de la parte del Rey de España para mantener las
+                <lb />dichas Donacion, cesion, y transportacion del Reyno de Sicilia, sea de la parte
+                <lb />de S[u] A[ltezza] R[eal] para mantener a S[u] M[agesta]d en sus Dominios, y de ni contrabenir uno y
+                <lb />otro ni permitir que sea contravenido por ninguna causa pretexto, o motivo, por
+                <lb />Persona alguna, y oponerse uno, y otro con todas sus fuersas a que tenga el
+                <lb />presente Tratado pleno, y entero efecto. Promete el dicho S[eñ]or Rey Catholico
+                <lb />hacer entregar a quien fuere diputando por su dicha A[ltezza] R[eal] dentro de tres meses
+                <lb />despues de el cambio de la ratificacion del presente Tratado, todos los Titulos
+                <lb />
+                <pb facs="#FacsPnr12"/>papeles, y documentos concernientes el dicho Reyno de Sicilia, y sus dependencias
+                <lb />que estan, y se podran hallar en los Reales Archivos de España, o en los de sus
+                <lb />Consejos, y Cortes, o de sus ministros, consejeros, y ofiziales.
+                <lb />
+                <lb />6.
+                <lb />Siguiendo lo que a sido combenido aqui antecedentemente esta tambien combenido
+                <lb />y estipulado aqui expresamente entre su Mag[esta]d Cat[holi]ca y Su Alt[ez]za R[ea]l que en caso,
+                <lb />que los descendientes Varones de d[ic]ho Señor Duque de Savoya, y todos los Varones
+                <lb />de la Casa de Savoya vengan a faltar /lo que Dios no quiera/ en este caso
+                <lb />de defecto de Varones de la d[ic]ha casa de Savoya, el Reyno de Sicilia,
+                <lb />y Yslas dependientes, pertenencias, dependencias, y anexos áqui cadidos
+                <lb />bolberan de pleno derecho a la Corona de España, y tambien se obliga y
+                <lb />empeña S[u] A[ltezza] R[eal] por si, y sus descendientes, Varones, y por todos los Varones
+                <lb />de su casa de no poder jamas vender, ceder, empeñar, trocar, ni dar devajo de
+                <lb />qualquier pretexto de subrogacion, u otros, ni en ninguna manera, empeñar
+                <lb />en todo, ni en parte el dicho Reyno de Sicilia, y Yslas dependientes, sus
+                <lb />pertenencias, dependencias, y anexos a otro que a los Reyes de España
+                <lb />lo que se ha de observar en todo en conformidad del dicho Acto de Zesion del
+                <lb />dicho Reyno de Sicilia, hecho por su Mag[esta]d en diez de Junio ultimo pasado
+                <lb />y hasta que la Corona de España, recarga en un Principe de la casa de
+                <lb />Savoya, y que sea Rey de España.
+                <lb />
+                <lb />7.
+                <lb /> Y teniendo obligacion S[u] A[ltezza]R[eal] conforme a la dicha Zesion, y particulares
+                <lb />clausulas estipuladas en ella aprovar, confirmar, y ratificar, todos los
+                <lb />privilegios, immunidades, exenciones, livertades, estilos, y otras costumbres de
+                <lb />que el dicho Reyno goza, o, a gozado por lo pasado, esplicados por menor
+                <lb />en dicha zesion aprueva S[u] A[ltezza] R[eal], confirma, y ratifica el todo, y se obliga
+                <lb />a mantenerle segun lo stipulado en dicha zesion, y deseando al mismo
+                <lb />tiempo Su Mag[esta]d Cat[holi]ca dar prendas a sus vasallos Españoles, y Sicilianos,
+                <lb />y otros que han quedado a su ovediencia, y tienen vienes en el d[ic]ho Reyno
+                <lb />de Sicilia de la satisfacion, que tiene de su fidelidad, y servicio, declara
+                <lb />que en caso de que el Fisco haya procedido civil, o criminalmente contra
+                <lb />sus dichos vienes, o parte de ellos, o pretenda proceder con qualquier pretexto
+                <lb />
+                <pb facs="#FacsPnr13"/>o por causa fenecida, Su Mag[esta]d Cat[holi]ca lo remite, y perdone desde aora
+                <lb />y a este fin rompe y anula dichos procedimientos para que por lo causado
+                <lb />durante su Dominacion y por lo pasado, no puedan inquietar ni turbar a
+                <lb />los dichos Vasallos en sus vienes, y posesiones, como S[u] A[ltezza] R[eal] promete: que
+                <lb />sus ministros, y fiscales no les turbaran, ni inquietaran por lo pasado,
+                <lb />antes que S[u] A[ltezza] R[eal] entre en la real posesion del d[ic]ho Reyno, y todo sin
+                <lb />perjuicio del derecho del tercero a lo qual Su Mag[esta]d no entiende derogar.
+                <lb />
+                <lb />8.
+                <lb />Los Españoles, y otros subditos de Su Mag[esta]d Cat[holica] y sus subcessores, como
+                <lb />los Sicilianos, que estan, y quieren quedarse en los Estados de S[u] Mag[esta]d Cat[holic]a
+                <lb />o en su servicio podran, y deveran gozar, y gozaran effectiva, y libremente
+                <lb />los Feudos, Senorios, vienes, rentas, Regalias, derechos de Patronato, y otros
+                <lb />qualesquier derechos que tengan en el Reyno de Sicilia, o puedan tener en
+                <lb />adelante por subcesion, herencia, fideycomisos, legados, adjudicaciones, o por
+                <lb />otro qualquier derecho, o titulo, y podran pagando los derechos, como los
+                <lb />Regnicolas retirar sus rentas, haziendas y frutos, o, en especie de dinero,
+                <lb />como mejor les parezca, sin algun embargo, y disputar para la adminis-
+                <lb />tracion de sus vienes, y derechos, y para la exacion de sus Rentas, las
+                <lb />personas que hallaran a proposito, sin que puedan ser obligados a havitar
+                <lb />y vivir en el dicho Reyno de Sicilia, ni poder por causa de ausencia ser
+                <lb />cargados en sus Personas mas, que los habitantes, y Regnicolas del dicho
+                <lb />Reyno, pues antes vien seran tratados en todo como los dichos Regnicolas
+                <lb />assi en la[s] imposiciones, contribuciones, tributos, vassalajes, y otras obligaci-
+                <lb />ones, como en la administracion de la Justicia, la qual se les administrara
+                <lb />imparcialment, y con la mayor brebedad que será posible, tambien les será
+                <lb />permetido, como en virtud de este tratado, y de las clausulas mas por menor
+                <lb />estendidas en el dicho Acto de Zesion del Reyno de Sicilia, se les
+                <lb />permite en la mas amplia forma posible el vender enajenar, o trocar en
+                <lb />todo, o en parte, en una, o en mas vezes los dichos vienes, que tienen, o que
+                <lb />podran tener en adelante en el dicho Reyno de Sicilia a qualesquier
+                <lb />personas sean Regnicolas, o estrangeras, y retirar en una, o mas vezes el
+                <lb />
+                <pb facs="#FacsPnr14"/>precio, y hacerle transportar a las partes donde mejor les pareciere, y esto
+                <lb />sin distincion de vienes francos libres, Alodiales, fideicomisos, o mayorasgoz
+                <lb />sin perjuicio del derecho del tercero, y con la reserva de que por los fideycomi-
+                <lb />sos, y mayorazgos; deveran ser oidos los que a ellos son llamados en forma de
+                <lb />derecho para la seguridad de los suyos, y que de su consentimiento se
+                <lb />emplearan los precios de dichos fideicomisos, y mayorazgoz en la adquisicion
+                <lb />de otros vienes libres, y seguros en el Reyno de España para hacer
+                <lb />subrrogados a los dichos fideicomisos, y mayorazgos, y esto mismo se usará
+                <lb />tambien en todo por su Mag[esta]d Catt[holic]a en España por lo que mira a los
+                <lb />Sicilianos, y subditos de S[u] A[ltezza] R[eal], y otros que no han pasado, ni pasaran, ni
+                <lb />se hallan en el partido opuesto a Su Mag[esta]d y que tienen vienes, Feudos, rentas,
+                <lb />Patronatos, y otros derechos en España, y que havitaran, o querran havitar
+                <lb />en Sicilia, y en los otros Estados de Su Altezza Real, y para todo lo
+                <lb />referido Su Mag[esta]d Cat[holi]ca, y Su Altezza Real daran sin alguna dificultad
+                <lb />ni dilacion los consentimientos, y ordenes necessarios sin perjuicio de sus
+                <lb />derechos de regalia, Feudo, y vassalaje.
+                <lb />
+                <lb />9.
+                <lb />Los subditos de las Potencias amigas de la Corona de España, y de
+                <lb />Su Altezza R[ea]l tendran en adelante, como le han tenido por lo pasado
+                <lb />el comerio libre con el Reyno de Sicilia, y gozaran de las mismas
+                <lb />ventajas de que gozaren todos los Españoles, y los Subditos de Su Mag[esta]d
+                <lb />la Reyna de la Gran Bretaña, qui seran igualmente faborecidos.
+                <lb />
+                <lb />10.
+                <lb /> Todos los privilegios, franquezas, e inmunidades que han sido concedidas
+                <lb />a la ylustre orden de Malta por el Emperador Carlos V. y los Reyes
+                <lb />de España sus subsesores de gloriosa memoria, son confirmadas por el
+                <lb />presente tratado de la manera que la dicha ylustriss[i]ma orden las ha gozado
+                <lb />hasta aora, assi por los tratados de trigo, extraciones de vizcocho, y de
+                <lb />carne de la Sicilia como tambien por la extraccion del producto de los vienes
+                <lb />que posee en Sicilia en especie, y en las mismas del Pais y por otras cosas
+                <lb />aunque no se expecifican aqui, satisfaciendo la d[ic]ha ylustrissima orden
+                <lb />
+                <pb facs="#FacsPnr15"/>lo que esta obligada acia el Rey, y Reyno de Sicilia.
+                <lb />
+                <lb />11.
+                <lb />Al fin de asegurar el publico reposo, y en particular el de Italia, ha sido
+                <lb />combenido, que las zesiones hechas por el Difunto Emperador Leopoldo a su
+                <lb />Altezza Real de Savoya por el tratado estipulado entre los dos en hocho de
+                <lb />noviembre de milsetecientos y tres de la parte del Ducado de Monferrat, que ha
+                    <lb />posehido<note n="4" type="crit_app">Unsichere Lesart, posedido?</note> por el Difunto Duque de Mantua de las Provincias de
+                <lb />Alexandria, y de Valencia con todas las tierras entre el Po, y el Tanaro
+                <lb />de la Lumelina, del valle de Sesta, y derecho, o exercicio de Derecho sobre
+                    <lb />[los feudos]<note n="5" type="crit_app">Nachträglich eingefügt.</note> de las langas, y lo que concierne en el dicho tratado, el vigevenasco, o su equiva-
+                <lb />lente, y las pertenencias, y dependencias de dichas zesiones quedaran como
+                <lb />S[u] Mag[esta]d Cat[holi]ca consiente en ello por el presente tratado en su fuerza, y vigor
+                <lb />firmes, y estables, y tendran su entero efecto irrevocable, y no obstante todos los
+                <lb />rescriptos, decretos, y actos contrarios sin que S[u] A[ltezza] R[eal], y sus subcesores puedan
+                <lb />ser turbados, ni molestados en la posesion, y goce de las cosas, y derechos arriva
+                <lb />dichos por qualquiera causa y pretension, derecho, tratado, y combenciones, que
+                <lb />pueda ser, ni por alguna Persona, no solo por lo que mira al Ducado de
+                <lb />Monferrat, por aquellos que podran tener derecho, o pretension sobre el dicho
+                <lb />Ducado, los cuales pretendientes seran indemnizados conforme al contenido de
+                <lb />dicho tratado de 8. novembre de 1703 prometiendo el dicho S[eñ]or Rey Cat[holi]co
+                <lb />por si, y sus subcesores no contravenir, asistir, ni favorezer directa, ni
+                <lb />indirectamente Principe alguno, û, otra Persona, que quisiere
+                <lb />contravenir a dichas zesiones, y al contrario le ofreze Su Mag[esta]d a entrar junta,
+                <lb />y reciprocamente con su Altezza R[ea]l en la union, y garantia, que se
+                <lb />concertará con la Francia, y la Inglaterra para mantener todos los Tratados
+                <lb />combenidos entre estas quattro Potencias para la manutencion, y seguridad de
+                <lb />las presentes Pazes en favor, y contra todos, comprehendida en esta
+                <lb />garantia la villa, y Provincia de Vigevano por lo que mira a ella, o a lo
+                <lb />que S[u] A[ltezza] R[eal] podrá convenir de recevir en equivalencia, como tambien por lo
+                <lb />que toca a las Provincias, villas, tierra, derechos, o exercicio de derecho
+                <lb />que han dependido del Estado de Milan, y han sido zedidos al d[ic]ho S[eñ]or Duque
+                <lb />
+                <lb />
+                <pb facs="#FacsPnr16"/><lb />de Savoya, S[u] M[agesta] Cat[holi]ca por si, y por sus subcesores se desiste, y aparta 
+                <lb />pura, simple, y irrebocablemente para siempre en favor de su dicha A[ltezza] R[eal] y 
+                <lb />de sus subcesores, y de todos derechos, nombres, y acciones, y pretenciones, que 
+                <lb />le pertenecen, o pueden pertenecer, cediendolos como es necesario, bolbiendolos, y 
+                <lb />transfiriendolos sin reservar, ni detener cosa alguna para que su Alt[ez]za R[ea]l 
+                <lb />posea sin alguan turbacion, ni embarazo los dichos lugares, y goze los 
+                <lb />derechos referidos, y ademas promete Su Mag[esta]d Cat[holi]ca hacer entregar a S[u] A[ltezza] R[eal] 
+                <lb />o a quien diputare dentro de tres meses despues de la ratificacion de este 
+                <lb />tratado todos los titulos, papeles, y documentos que se hallaren en España 
+                <lb />concernientes a los Paises y derechos arriva expresados. 
+                <lb /> 
+                <lb />12. 
+                <lb />El tratado de Turin de 1696, y los articulos de los tratados de Munster, de los 
+                <lb />Pireneos, de Nimega, y de Reisvick, que mira a S[u] A[ltezza] R[eal] seran guardados y 
+                <lb />observados reciprocamente, en quanto no sean derogados aqui por este tratado, 
+                <lb />como si estuvieran estipulados, y insertos en el palabra por palabra, y parti- 
+                <lb />cularmente por lo que toca&nbsp; a los Feudos expresados en dichos Tratados, que 
+                <lb />miran a S[u] A[ltezza] R[eal] no obstante todos los rescriptos y actos hechos en contrario, y assi 
+                <lb />mismo el tratado hecho entre Su Mag[esta]d [Christianiss]ima, y su altezza Real en 11 de 
+                <lb />abril de este presente año es comprehendido, y confirmado por el presente 
+                <lb />como si fuera inserto a la letra ofreciendose S[u] M[agesta]d para este efecto, como se 
+                <lb />a precedentemente ofrecido entrar reciprocamente con S[u] A[ltezza] R[eal] en la union, y 
+                <lb />garantia de todo lo estipulado en las presentes Pazes entre las quatro Potencias de 
+                <lb />España, Francia, Inglaterra, y Savoya, para que tenga su entero, y pleno 
+                <lb />efecto, y sea observado para siempre. 
+                <lb /> 
+                <lb />13. 
+                <lb />Todos los que en el espacio de seis meses seran nombrados por Su Mag[esta]d Cat[holi]ca 
+                <lb />y por su Alt[ez]za R[ea]l de Savoya, seran comprehendidos en el presente tratado 
+                <lb />como esto sea de comun consentimiento. 
+                <lb /> 
+                <lb />14. 
+                <lb />Y a fin de que el presente tratado sea inbiolablemente observado, S[u] M[agesta]d Cat[holi]ca 
+                <lb />y S[u] A[ltezza] R[eal] prometen no hazer cosa contra o en perjuicio de el, ni sufrir 
+                <lb />
+                <pb facs="#FacsPnr17"/>se aga directa, ni indirectamente, y si se hiciere de hacerlo reparar sin
+                <lb />dificultad ni dilacion, y los dos se obligan respectivamente a su entera
+                <lb />observancia, y el presente tratado será confirmado en terminos combenientes en
+                <lb />todos aquellos que Su Mag[esta]d Cat[holi]ca hara con las otras Potencias, con las
+                <lb />quales empleara todos sus mas eficaces oficios, unido con Su Mag[esta]d [Christianissi]ma, y
+                <lb />Su Mag[esta]d B[ritanni]ca para el reconocimiento de Su Altezza Real por Rey de
+                <lb />Sicilia, y que aquellas Potencias entren en el Empeño de asegurar, y
+                <lb />mantener a S[u] A[ltezza] R[eal], y sus herederos en la pacifica, y permanente posesion
+                <lb />de dicho Reyno, y de sus dependencias, y S[u] M[agesta]d Cat[holic]a no incluira en estos tratados
+                <lb />alguna otra Potencia, sin que haya hecho, o prometido hacer el dicho
+                <lb />reconocimiento, y se jnteresará vivamente a Su Altezza Real poner Rey
+                <lb />de Sicilia.
+                <lb />
+                <lb />15.
+                <lb />Este tratado será aprovado, y ratificado por Su Mag[esta]d Cat[holi]ca y por Su
+                <lb />Altezza Real, y las ratificaciones de el se trocaran, y entregaran respec-
+                <lb />tivamente por los Plenipotenciarios de uno y otro dentro del termino de
+                <lb />seis semanas, o antes si fuere possible en Utreck.
+                <lb />
+                <lb />[es folgen:
+                <lb />der Verzicht des katholischen Königs, der Akt der Cortes, das Gesetz, Veröffentlichung; der Verzicht des Herzogs von Berry auf die Krone Spaniens; der Verzicht des Herzogs von Orleans auf die Krone Spaniens; die Vollmachten des spanischen Königs; das Instrument zur Abtretung Siziliens
+                <lb />
+                </p>
+                <pb facs="#FacsPnr54"/><p> […] 
+                    <lb />En fee de lo qual nosotros los ambaxadores extraordinarios, y Plenipo- 
+                    <lb />tenciarios de su Magestad Catholica, y de su Altezza Real de Savoya 
+                    <lb />y en virtud de nuestros plenos poderes hemos firmado el presente Tratado 
+                    <lb />y hecho poner los sellos de nuestras Armas hecho en Utrecht a treize 
+                    <lb />de Julio Millsetecientos y treize. 
+                    <lb /> 
+                    <lb />[M[.]Venavides mma.]<note n="6" type="crit_app">Unsichere Lesart.</note>&nbsp; &nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp; Le C[.] Maffei 
+                    <lb /> 
+                    <lb />El Marquez de Monteleon&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;Le M[arquez] des Bourg 
+                    <lb /> 
+                    <lb />&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp; P. Mellarede 
+                    <lb /> 
+                    <lb /> 
+                    <lb /> 
+                    <lb />[es folgen Vollmachten und Inhaltsverzeichnis] 
+                    <lb /> 
+                    <lb /> 
+                </p>
+            </div>
+        </body>
+    </text>
+</tei:TEI>

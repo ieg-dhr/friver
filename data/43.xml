@@ -1,0 +1,316 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE tei SYSTEM "../resources/FriVer_DTD.dtd">
+
+<?xml-model href="../resources/FriVer.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns="http://www.tei-c.org/ns/1.0"
+    xml:id="pa000299-0043">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title level="s">European peace treaties of the pre-modern era in data / Europäische
+                    Friedensverträge der Vormoderne in Daten (FriVer+)</title>
+                <title when="1658-02-18" xml:id="t43" when-custom="1658 II 18" level="a"
+                    ref="https://www.ieg-friedensvertraege.de/treaty/t-43-1-de.html"
+                    >Präliminarvertrag von Tåstrup/Kopenhagen</title>
+            </titleStmt>
+            <editionStmt>
+                <edition> Digital edition according to <ref target="http://www.tei-c.org/">TEI
+                        P5</ref>
+                </edition>
+                <funder>
+                    <ref target="https://www.text-plus.org/">TEXT+</ref>
+                </funder>
+                <editor role="http://id.loc.gov/vocabulary/relators/edt"
+                    ref="https://orcid.org/0000-0002-8741-5916">
+                    <persName>Jaap Geraerts</persName>
+                    <note>The transformation and enrichment of the data is done by Jaap Geraerts
+                        (IEG Mainz). The other members of the FriVer+ team are Fabian Cremer, Ines
+                        Grund, and Thorsten Wübbena (all IEG Mainz).</note>
+                    <note> The original data has been created by the <ref
+                            target="https://www.ieg-friedensvertraege.de">team of scholars</ref> who
+                        were part of the Europäische Friedensverträge der Vormoderne project. This
+                        project was lead by Prof. Dr. Heinz Duchhardt and was based at the Leibniz
+                        Institute of European History in Mainz. </note>
+                </editor>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>
+                    <orgName ref="http://www.isni.org/0000000119314040">Leibniz-Institut für
+                        Europäische Geschichte Mainz</orgName>
+                </publisher>
+                <distributor>
+                    <orgName ref="http://www.isni.org/0000000110101946">Universitäts- und
+                        Landesbibliothek Darmstadt</orgName>
+                </distributor>
+                <idno type="ISIL">http://lobid.org/organisation/DE-17</idno>
+                <date type="issued" when="2023-12-23"/>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">
+                        <p xml:lang="en">This file is licensed under the terms of the Creative
+                            Commons License CC-BY 4.0 (Attribution 4.0 International)</p>
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <repository xml:id="r26">Stockholm RA <note>Stockholm, Riksarkivet, Digitalisat:<lb/>
+                        <ref target="https://sok.riksarkivet.se/bildvisning/R0000274_00001"
+                            >https://sok.riksarkivet.se/bildvisning/R0000274_00001</ref></note></repository>
+                <msDesc>
+                    <p>Schwedisches Reichsarchiv, Stockholm: Originaltraktater med främmande makter:
+                        Danmark No. 15 A. Fredspreliminärer i Tostrup. 18 Febr. 1658. <lb/></p>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p> The data in this XML file, originally created by the project <ref
+                        target="https://www.ieg-friedensvertraege.de/vertraege">Europäische
+                        Friedensverträge der Vormoderne online</ref> has been transformed in
+                    accordance with <ref target="http://www.tei-c.org/">TEI P5</ref> as part of the
+                    project <ref
+                        target="https://www.ieg-mainz.de/en/research/research-projects/european-peace-treaties-of-the-pre-modern-era-in-data"
+                        >Europäische Friedensverträge der Vormoderne in Daten (FriVer+)</ref>
+                </p>
+            </projectDesc>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="sv-da" xml:id="lan12">schwedisch-dänisch</language>
+            </langUsage>
+        </profileDesc>
+    </teiHeader>
+    <standOff>
+        <listPerson>
+            <person role="signatory" xml:id="p32">
+                <persName ref="https://explore.gnd.network/gnd/4010877-6">
+                    <name>Dänemark</name>
+                </persName>
+            </person>
+            <person role="signatory" xml:id="p99">
+                <persName ref="https://explore.gnd.network/gnd/4077258-5">
+                    <name>Schweden</name>
+                </persName>
+            </person>
+        </listPerson>
+        <listPlace>
+            <place xml:id="l29">
+                <placeName ref="https://explore.gnd.network/gnd/141522-0">Tåstrup</placeName>
+            </place>
+        </listPlace>
+        <facsimile>
+            <surface xml:id="FacsPnr1">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_439042adb26f7"/>
+            </surface>
+            <surface xml:id="FacsPnr2">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_439042dde5b65"/>
+            </surface>
+            <surface xml:id="FacsPnr3">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_439043245a991"/>
+            </surface>
+            <surface xml:id="FacsPnr4">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_4390436800369"/>
+            </surface>
+            <surface xml:id="FacsPnr5">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_439043c2e3438"/>
+            </surface>
+            <surface xml:id="FacsPnr6">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_439043fd0c6b8"/>
+            </surface>
+            <surface xml:id="FacsPnr7">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_439045f79c768"/>
+            </surface>
+        </facsimile>
+    </standOff>
+    <text>
+        <front>
+            <div type="Drucke">
+                <p>Danmark-Norges Traktater 5, S. 215-218 (schwed. Fassung). </p>
+            </div>
+            <div type="Inhalt">
+                <p>Art. 1 Ewiger Frieden und Wiedererrichtung der Freundschaft zwischen beiden
+                    Reichen. Generalamnestie. <lb/>Art. 2 Wiederrufung aller gegeneinander
+                    gerichteten Allianzen mit anderen Mächten. <lb/>Art. 3 Künftig kein Abschluß
+                    gegeneinander gerichteter Allianzen mit anderen Mächten. <lb/>Art. 4 Keine
+                    Passage feindlicher Kriegsflotten durch Öresund oder Großen Belt. <lb/>Art. 5
+                    Bestätigung des Friedens von Brömsebro [1645]. <lb/>Art. 6 Beitritte weiterer
+                    Mächte zu Friedensvertrag nur mit Zustimmung beider Partner. <lb/>Art. 7
+                    Schwedische Schiffe mit Seepaß passieren zollfrei durch Öresund und Großen Belt.
+                    Schwedische Güter auf ausländischen Schiffen passieren zollfrei nach Ausweis
+                    ihrer Bescheinigungen. <lb/>Art. 8 Schweden erhält als Ersatz für Kriegsschäden
+                    und die zu räumenden Gebiete die Provinzen Halland, Schonen, Blekinge, Bornholm
+                    und Bohuslen. <lb/>Art. 9 Dänemark tritt das Lehen Trondheim an Schweden ab.
+                    <lb/>Art. 10 Schweden gibt alle besetzten Gebiete in Dänemark, Norwegen und
+                    Schleswig-Holstein zurück und verzichtet auf alle Ansprüche auf die Grafschaft
+                    Delmenhorst sowie auf Dithmarschen. <lb/>Art. 11 Freilassung aller Gefangenen
+                    beider Seiten ohne Lösegeld. <lb/>Art. 12 Abzug der schwedischen Armee bis zum
+                    2. Mai [1658]. <lb/>Art. 13 Alle Stände und Bewohner der abgetretenen Gebiete
+                    behalten ihre Rechte und Privilegien sowie ihr Eigentum wie vorher. <lb/>Art. 14
+                    Restitution aller von Dänemark besetzten Gebiete sowie dreier von Dänemark
+                    beschlagnahmter Schiffe an Schweden. <lb/>Art. 15 Abtretung der geistlichen und
+                    weltlichen Gerichtsbarkeit Dänemarks über Besitzungen auf der Insel Rügen an
+                    Schweden. <lb/>Art. 16 Übergabe der Festungen ohne Geschütze und Munition.
+                    Abtransport von Geschützen und Munition geregelt. <lb/>Art. 17 Die dänische
+                    Genugtuung an den Herzog von Gottorf geschieht in einem eigenen Vertrag.
+                    <lb/>Art. 18 Graf Korfitz Ulfeldt wird für den Verlust seiner Einkünfte
+                    entschädigt, erhält seine Güter zurück und kann mit seiner Familie nach Dänemark
+                    zurückkehren. Seine Gemahlin erhält ihren Titel zurück. <lb/>Art. 19 Eine
+                    dänische Schmähschrift wird nicht mehr verlegt oder verkauft. <lb/>Art. 20
+                    Dänemark überläßt Schweden je 2000 Mann Fußtruppen und 2000 Berittene.
+                    <lb/>Unterschrieben und besiegelt von den Bevollmächtigten beider Seiten
+                    zusammen mit den französischen und englischen Vermittlern. <lb/></p>
+            </div>
+        </front>
+        <body>
+            <div type="Transliteration">
+                <pb facs="#FacsPnr1"/>
+                <p>Danmark. <lb/>No. 15, A. <lb/>Fredspreliminärer i Tostrup. <lb/>18. Febr. 1658. </p>
+                <pb facs="#FacsPnr2"/>
+                <p>18. Febr: 1658. <lb/>puncter hwar effter Fredsfordraget med danmark <lb/>warit
+                    uprettat. </p>
+                <pb facs="#FacsPnr3"/>
+                <p>Puncter hvoreffter, begge Nordische Kronerß fuldmegtige <lb/>Commissarier ere
+                    forligte och offverenßkomne, dermed dend <lb/>Orlog och Mißforstand at bilegge
+                    som imellom begge Rigerne <lb/>waret haffver. <lb/>
+                    <lb/>1. <lb/>Schal hereffter imellom begge Konninger och Rigerne, saa <lb/>och
+                    dets indbÿggere; were och bliffve, en rigtig och ewigwaren[-] <lb/>de Fred, saa
+                    at hereffter ophører all irring och mißforstand <lb/>och uenighed, och derimod
+                    igien oprettiß et got fortrouligt, <lb/>stadigt Wendschab, fred och enighed, och
+                    saaleediß, wed en <lb/>General Amnistie, forgiettiß och gandsche udslettiß alt
+                    <lb/>hvad paa begge sider, saa wel før som udi warende krig <lb/>kand were
+                    forløbbet. <lb/>
+                    <lb/>2. <lb/>At paa begge sider renunceris hviß alliancer som kun- <lb/>de were
+                    giorde, enten af Parterne til præjuditz. <lb/>
+                    <lb/>3. <lb/>At hereffter den ene ingen alliance giør imod den anden,
+                    <lb/>heller udi nogen maader assisterer den andenß finder. <lb/>
+                    <lb/>4. <lb/>At begge Parterne forhindre, saa wit mest muligt er, at <lb/>ingen
+                    fintlig Orlogsflode, passerer igiennem Sundet och <lb/>Belt ind udi Østersøen. <lb/>
+                    <lb/>5. <lb/>Bremsebrouiß Tractater forbliffver udi deriß forrige <lb/>krafft
+                    och fulde vigeur, saa wit der ved diße Tracta- <lb/>ter ike forandriß. <lb/>
+                    <lb/>6. <lb/>Hvilke Konger eller Republiquer, Potentater eller <lb/>Fÿrster, som
+                    begierer udi denne Fred at indsluttiß, dee <pb facs="#FacsPnr4"/>haffve det hoß
+                    begge kongerne at søge. <lb/>
+                    <lb/>7. <lb/>Alle Svendsche Schibe som tilhører Svendsche Undersaater <lb/>at
+                    passere giennem Øresundet och Belt frie foruden <lb/>nogen Tolds erleggelse
+                    visitation eller certification, <lb/>naar dee alleniste, paa H[an]s K[ongelig]
+                    M[aÿeste]ts af danmarks Toldboe <lb/>rigtig Søepaß fremwiser; menß med Svendsche
+                    godtz Schibet <lb/>och indladet, udi fremmede Schibe, forholdiß det hereffter
+                    som <lb/>tilforn, at dee schall haffve rigtig certificationer effter Brem-
+                    <lb/>sebrouiß pacters indhold, hvorved dee sig for Tolden och <lb/>anden
+                    besvering kand befrie. <lb/>
+                    <lb/>8. <lb/>Giffviß H[an]s K[ongelig] M[aÿeste]t af Sverrig til Satisfication
+                    imod dee <lb/>occuperede landers affstaaelse, saawelsom erlidene schader udi
+                    <lb/>denne krig, Halland, Bleging, Schaane, dißligeste Boring- <lb/>holm, med
+                    dets underliggende øer, saa ochsaa Bahus Slott och <lb/>Lehn i Norge, med ald
+                    dets Höiheder och Rettigheder och apper- <lb/>tinencier, intet undertagendiß,
+                    ligesom det kronen danmar&lt;k&gt; <lb/>hidindtil, brugt och nÿt haffver. <lb/>
+                    <lb/>9. <lb/>Sammelediß cederis, Ko[ngelig] M[aÿeste]t och Kronen Sverrig af
+                    Ko[ngelig] M[aÿeste]t <lb/>och Kronen danmark, Trundhiemß lehn med alle sine
+                    <lb/>appertinencier, som dertil med rette henhører, och der- <lb/>til hørt
+                    haffver, til lands och wandß, at incorporeris <lb/>Sverrigiß Krone til ewindelig
+                    eÿendom. <lb/>
+                    <lb/>10. <lb/>H[an]s K[ongelig] M[aÿeste]t Af Sverrig haffver derimod at
+                    restituere <lb/>alle[1]<note type="crit_app" n="1">alle: vor Zeilenanfang in
+                        Margine.</note> dee lande och Festinger, som H[an]s M[aÿeste]t sig udi
+                    warende </p>
+                <p>
+                    <pb facs="#FacsPnr5"/>feide haffver bemegtiget, were sig udi danmark, Norge,
+                    <lb/>Sleswig, Holstein och Greffschafft Pinnenberg. I lige <lb/>maader afstaar
+                    H[an]s K[ongelig] M[aÿeste]t Af Sverrig, for sig och <lb/>sine effterkommere,
+                    alle dee prætentioner och rettigheder, som <lb/>H[an]s M[aÿeste]t ratione
+                    Ducatus Bremensis haffver eller kand <lb/>haffve paa det Grefschafft delmenhorst
+                    och ditmerschen. <lb/>
+                    <lb/>11. <lb/>dißligeste schal alle Fanger paa begge sider, Höie och <lb/>Lauffe
+                    aff hvad stand och condition dee och were kand <lb/>foruden all rantzion, Strax
+                    leedige och løsgiffviß. <lb/>
+                    <lb/>12. <lb/>H[an]s K[ongelig] M[aÿeste]t Af Sverrigeß Armee, schal ud af
+                    H[an]s <lb/>K[ongelig] M[aÿeste]ts af danmarks lande, ded første och snariste
+                    <lb/>muligt kand were, och i ded seniste inden den 2 Maÿ <lb/>sig begiffve, och
+                    imedlertid, schal dee nÿde deriß nøtørf- <lb/>tig underholding, dog at der
+                    holdiß god ordre och disciplin. <lb/>
+                    <lb/>13. <lb/>Er bevilget at alle Standerne Adel saavelsom Uadel <lb/>Geistlig
+                    och Werslig udi dee, wed diße Tractater bort- <lb/>giffne lande och lehne i
+                    danmarch och Norge schal <lb/>nÿde dee samme loffve och privilegier, (saawit dee
+                    <lb/>ike kand stride imod dee fundamental constitutio- <lb/>ner af kronen
+                    Sverrig; ellerß loffviß, af K[ongelig] M[aÿeste]t udi <lb/>Sverrig deriß
+                    privilegier snarere wilde formere end <lb/>formindsche,) som dee hidindtil hafft
+                    haffver och for sig <lb/>och deriß effterkommere, beholde hviß gods och eÿendom
+                    <lb/>som dennem enten Wed Arf, Kiøb, Pant eller i an- <lb/>dre maader med rette
+                    kand tilkomme. <lb/>
+                    <pb facs="#FacsPnr6"/>14. <lb/>H[an]s K[ongelig] M[aÿestet] Af Sverrig schal och
+                    restitueris alle dee <lb/>lande och platzer, som udi Warende Feide ere bleffne
+                    <lb/>occuperede, och kronen Sverrig afhendiget, hvor dee och <lb/>kunde vere
+                    beliggendiß, saavelsom ochsaa, dee 3 Svend- <lb/>sche Schibe som Ved Krigens
+                    begÿndelse udi Sundet ere <lb/>bleffne anholdene, schal effter certifications
+                    ludelse, med <lb/>deriß lading eller dets billig Werd, i lige maade bliffve
+                    <lb/>restituerede. <lb/>
+                    <lb/>15. <lb/>Afstaaiß til H[an]s K[ongelig] M[aÿeste]t Af Sverrig, all den
+                    Juris- <lb/>diction, Geistlig och Verslig, saawit H[an]s K[ongelig] M[aÿeste]t
+                    Af dan- <lb/>march haffver, til ded godtz paa lante Rÿen. <lb/>
+                    <lb/>16. <lb/>Festningerne schal paa begge sider offverleffveriß foruden
+                    <lb/>nogen Støker och munition, saavel dee, som udi denne <lb/>Krig ere bleffne
+                    erobrede, som dee andre der ved Tracta- <lb/>terne affstaaiß, och bønderne udi
+                    dee lehne, hvor samme <lb/>Festinger ere beliggende, were pligtige samme Stoker
+                    <lb/>och munition til Stranden at fremføre, hvor ded best <lb/>och beleiligst
+                    kand bliffve indschibet. <lb/>
+                    <lb/>17. <lb/>Hertugen af Holstein, schal H[an]s K[ongelig] M[aÿestet] Af
+                    danmarch <lb/>giffve effter billighed, contentement, hvorom med hannem
+                    <lb/>sielf schal Tracteris och sluttiß. <lb/>
+                    <lb/>18. <lb/>loffviß ochsaa hermed, at Gref Ulfeld schal schee restitu-
+                    <lb/>tion af sit godtz och løsøre saa och indkomsten der af <lb/>fra den tid
+                    Commissarierne ded til sig annammet haff&lt;ver&gt; <lb/>
+                    <pb facs="#FacsPnr7"/>och intil denne dag, och schal det hannem vere frit for
+                    <lb/>samt hanß Greffinde, SvarModer, Børn Venner och <lb/>Tienere at bugge och
+                    boe udi danmarch, frie och siker <lb/>hvor hannem och dennem løster; dee lehne
+                    som Gref <lb/>Ulfeld och hanß Søn, nemlig Hirschholm, Munkelie <lb/>och S[an]ct
+                    Hanß Kloster udi Norge med forlehnt haffver <lb/>weret, haffver dee effter
+                    forlehnings breffwe[2] at nÿde <lb/>och beholde, och hanß Gemahl, hindiß
+                    tilbørlig titel, ful- <lb/>komen at restitueris. <lb/>19. <lb/>Den udgangene
+                    Manifest schal igien afschaffiß och ike <lb/>mere opleggiß och selgis. <lb/>20.
+                    <lb/>H[an]s K[ongelig] M[aÿeste]t Af danmark loffver ochsaa at offver- <lb/>lade
+                    til hanß K[ongelig] M[aÿeste]t af Sverrig toutusende, til Hest <lb/>och
+                    toutusende til fods. <lb/>
+                    <lb/>At dette offvenschreffne som af begge Parterß fuldmeg- <lb/>tige
+                    Commissarier loffvet er, trÿggeligen schal holdeß, <lb/>haffver tillige med oß
+                    Her Mediatorerne af H[an]s K[ongelig] M[aÿeste]t <lb/>af Frankrig och H[an]s
+                    Høihed Protecteuren Af Engeland <lb/>Dette til widnißbÿrd underschreffven och
+                    forseilet. <lb/>udi Tostrup den 18 Februarij; 1658. <lb/>
+                    <lb/>
+                    <lb/>[4 Lacksiegel über Heftschnur] <lb/>
+                    <lb/>
+                </p>
+                <p>Le cheualier&nbsp;&nbsp;de Terlon.&nbsp;&nbsp;&nbsp; Ph. Meadowe.&nbsp; Jo.
+                    Gerstorff&nbsp;&nbsp;&nbsp;&nbsp; Christen Skiel </p>
+                <p>&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;
+                    &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;
+                    &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;
+                    &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;
+                    P[ro]p[r]ia.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; subscr[ipsi] [2] breffwe: statt
+                    breffwer mit gestrichenem r am Schluß. </p>
+                <lb/>
+                <p>&nbsp; </p>
+            </div>
+        </body>
+        <back>
+            <listBibl>
+                <bibl xml:id="a21">
+                    <title level="a">Theatrum Europaeum (1658-02-18)</title>
+                    <title level="m">Theatrum Europaeum, Band 8 (1657-1660) Aus: Dokumentenarchiv
+                        der Universitätsbibliothek Augsburg (Drucke vor 1900 / Historische
+                        Geschichtswerke).</title>
+                    <biblScope>
+                        <graphic xml:id="A1Pnr1"
+                            url="https://www.ieg-friedensvertraege.de/dbimages/img_49e5ac9aca05f"/>
+                        <graphic xml:id="A1Pnr2"
+                            url="https://www.ieg-friedensvertraege.de/dbimages/img_49e5aca1a6db7"/>
+                        <graphic xml:id="A1Pnr3"
+                            url="https://www.ieg-friedensvertraege.de/dbimages/img_49e5aca87410e"/>
+                    </biblScope>
+                </bibl>
+                <bibl>Laursen, in: Danmark-Norges Traktater 5, S. 221-225.Sundberg, Svenska freder
+                    och stillestånd, S. 272 f.</bibl>
+            </listBibl>
+        </back>
+    </text>
+</tei:TEI>

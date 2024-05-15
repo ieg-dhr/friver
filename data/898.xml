@@ -1,0 +1,329 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE tei SYSTEM "../resources/FriVer_DTD.dtd">
+
+<?xml-model href="../resources/FriVer.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns="http://www.tei-c.org/ns/1.0" xml:id="pa000299-0898">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title level="s">European peace treaties of the pre-modern era in data / Europäische Friedensverträge der Vormoderne in Daten (FriVer+)</title>
+                <title when="1667-05-04" xml:id="t898" when-custom="1667 V 4" level="a" ref="https://www.ieg-friedensvertraege.de/treaty/t-898-1-de.html">Freundschafts- und Beistandsvertrag von St.Germain-en-Laye</title>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    Digital edition according to
+                    <ref target="http://www.tei-c.org/">TEI P5</ref>
+                </edition>
+                <funder>
+                    <ref target="https://www.text-plus.org/">TEXT+</ref>
+                </funder>
+                <editor role="http://id.loc.gov/vocabulary/relators/edt" ref="https://orcid.org/0000-0002-8741-5916">
+                    <persName>Jaap Geraerts</persName>
+                    <note>The transformation and enrichment of the data is done by Jaap Geraerts (IEG Mainz). The other members of the FriVer+ team are Fabian Cremer, Ines Grund, and Thorsten Wübbena (all IEG Mainz).</note>
+                    <note>
+                        The original data has been created by the
+                        <ref target="https://www.ieg-friedensvertraege.de">team of scholars</ref>
+                        who were part of the Europäische Friedensverträge der Vormoderne project. This project was lead by Prof. Dr. Heinz Duchhardt and was based at the Leibniz Institute of European History in Mainz.
+                    </note>
+                </editor>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>
+                    <orgName ref="http://www.isni.org/0000000119314040">Leibniz-Institut für Europäische Geschichte Mainz</orgName>
+                </publisher>
+                <distributor>
+                    <orgName ref="http://www.isni.org/0000000110101946">Universitäts- und Landesbibliothek Darmstadt</orgName>
+                </distributor>
+                <idno type="ISIL">http://lobid.org/organisation/DE-17</idno>
+                <date type="issued" when="2023-12-23"/>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">
+                        <p xml:lang="en">This file is licensed under the terms of the Creative Commons License CC-BY 4.0 (Attribution 4.0 International)</p>
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <repository xml:id="r21">Muenster StA/LA
+                    <note>Archivportal NRW, Landessachen vornehmlich des Hochstifts Münster, Nr. Ass.L - 502. Findbuch:<lb />
+                        <ref target="http://www.archive.nrw.de/ms/search?link=VERZEICHUNGSEINHEIT-Vz_42c66056-f094-44b0-924f-46b92d89d985ACTAPRO">http://www.archive.nrw.de/ms/search?link=VERZEICHUNGSEINHEIT-Vz_42c66056-f094-44b0-924f-46b92d89d985ACTAPRO</ref></note>
+                </repository>
+                <msDesc><p>LWL - Westfälisches Archivamt Münster, Haus Assen, L 502.(Hauptvertrag; Separatartikel s. dort) 
+                    <lb /> 
+                    <lb />weitere Stücke: Ratifikation Frankreichs Saint-Germain-en-Laye, 1667 V 15.&nbsp; 
+                </p>
+                    <p>AAE Paris: M.A.E. Traités. Multilateraux 16670003. Traité d'alliance avec l'évêché de Münster en vue d'une troisième prorogation de la "Ligue du Rhin".-Saint-Germain-en-Laye (UI). Siehe auch: 
+                        <lb />
+                    <ref target="http://www.doc.diplomatie.gouv.fr/BASIS/choiseul/desktop/choiseul/DDW?M=38&amp;K=16670003&amp;W=PAYS+%3D+%27Multilat%E9raux%27+ORDER+BY+SOUSSERIE/Ascend" >Link zur Vertragsseite 
+                        <lb /> </ref></p></msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>
+                    The data in this XML file, originally created by the project
+                    <ref target="https://www.ieg-friedensvertraege.de/vertraege">Europäische Friedensverträge der Vormoderne online</ref>
+                    has been transformed in accordance with
+                    <ref target="http://www.tei-c.org/">TEI P5</ref>
+                    as part of the project
+                    <ref target="https://www.ieg-mainz.de/en/research/research-projects/european-peace-treaties-of-the-pre-modern-era-in-data">Europäische Friedensverträge der Vormoderne in Daten (FriVer+)</ref>
+                </p>
+            </projectDesc>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="fr" xml:id="lan4">französisch</language>
+            </langUsage>
+        </profileDesc>
+    </teiHeader>
+    <standOff>
+        <listPerson>
+            <person role="signatory" xml:id="p37">
+                <persName ref="https://explore.gnd.network/gnd/4018145-5">
+                    <name>Frankreich</name>
+                </persName>
+            </person>
+            <person role="signatory" xml:id="p78">
+                <persName ref="https://explore.gnd.network/gnd/4040608-8">
+                    <name>Münster</name>
+                </persName>
+            </person>
+        </listPerson>
+        <listPlace>
+            <place xml:id="loc38">
+                <placeName ref="https://explore.gnd.network/gnd/4116311-4">Saint - Germain - en - Laye</placeName>
+            </place>
+        </listPlace>
+        <facsimile>
+            <surface xml:id="FacsPnr1">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_45c7232e98fa9"/>
+            </surface>
+            <surface xml:id="FacsPnr2">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_45c7235794062"/>
+            </surface>
+            <surface xml:id="FacsPnr3">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_45c7237a72bea"/>
+            </surface>
+            <surface xml:id="FacsPnr4">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_45c723b4e3e7c"/>
+            </surface>
+            <surface xml:id="FacsPnr5">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_45c723db63e4e"/>
+            </surface>
+            <surface xml:id="FacsPnr6">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_45c723ff08ff6"/>
+            </surface>
+        </facsimile>
+    </standOff>
+    <text>
+        <front>
+            <div type="Drucke"><p>Wilhelm Kohl (Hg.), Akten und Urkunden zur Aussenpolitik Christoph
+                Bernhards von Galen (1650-1678), Münster 1980, II, S.74-77.</p></div>
+            <div type="Kommentar"><p>Zur Festigung des Pyrenäenfriedens vereinbarte man 1659 auch die Heirat zwischen Ludwig XIV. und der spanischen Infantin. Zwar wurde gegen Zahlungen aus der spanischen Staatskasse ein Verzicht der 
+                Infantin auf alle Erbansprüche vereinbart, doch die Zahlungen blieben aus und Ludwig XIV. beanspruchte nach dem Tod seines Schwiegervaters Philipp IV. unter Berufung auf das brabantische Erbrecht, das die Devolution, 
+                d.h. das Erbrecht der Kinder aus erster Ehe (auch Töchter) vor den Kindern aus weiteren Ehen vorsah, das Erbteil für seine Frau. Als Spanien die Forderungen ablehnte, bereitete er den Einmarsch in die Spanischen 
+                Niederlande vor. Um ein Eingreifen des Reiches zu verhindern, stützte Frankreich sich auf die Verlängerung des Rheinbundes und schloss mit dessen Mitgliedern bilaterale Abkommen, in denen diese sich verpflichteten, 
+                ihre Territorien für den Durchmarsch fremder Truppen zu sperren, keine
+                Truppenerhebungen zu erlauben und im Reichstag auf die Neutralität des Reiches zu dringen.</p></div>
+            <div type="Kontext"><p> 15.8.1658 Erster Rheinbund 
+                <lb /> 1659 
+                <lb />Pyrenäenfrieden zwischen Frankreich und Spanien. Zur Festigung des Friedens wird die Heirat zwischen Ludwig XIV. und der spanischen Infantin Maria-Theresia vereinbart 
+                <lb />9.6.1660 
+                <lb />Eheschließung 
+                <lb />17.9.1665 
+                <lb />Philipp IV stirbt, sein Nachfolger wird der körperlich und geistig schwächliche Karl II. 
+                <lb />23.4.1666 
+                <lb /> Vertrag zwischen Frankreich und Köln 
+                <lb />21.7.1666 
+                <lb />Vertrag zwischen Frankreich und Pfalz-Neuburg 
+                <lb />22.10.1666 
+                <lb />Verlängerungsvertrag für den Rheinbund zwischen Frankreich und Köln 
+                <lb />28.2.1667 
+                <lb />Verlängerungsvertrag für den Rheinbund zwischen Frankreich und Mainz 
+                <lb />4.5.1667 
+                <lb />Freundschafts- und Beistandvertrag zwischen Frankreich und Münster 
+                <lb />24.5.1667 
+                <lb />Einmarsch Frankreichs in die Spanischen Niederlande&nbsp; 
+            </p></div>
+        </front>
+        <body>
+            <div type="Transliteration">
+                <pb facs="#FacsPnr1"/><p>&nbsp; 
+                </p> 
+                <p>&nbsp; 
+                </p> 
+                <p>[Seite 1] 
+                </p> 
+                <p>&nbsp; 
+                </p> 
+                <p>Le Roy tres Chrestien ayant tesmoigné jusques icy 
+                    <lb />dans toutes les occasions qui s'en sont presentées, combien 
+                    <lb />Il avoit a coeur l'exacte observation du Traité de Munster 
+                    <lb />et le repos de l'Empire, et voulant aller au devant de tout 
+                    <lb />cequi pourroit alterer l'un et l'autre s'il arrivoit quelque 
+                    <lb />rupture entre les Couronnes de France et d'Espagne, Sa 
+                    <lb />Majesté a iugé apropos de s'informer d'aucuns des Electeurs 
+                    <lb />et Princes du Rhein ses Alliez quelle resolution Ilz 
+                    <lb />pretendroient de prendre en cas d'une pareille rupture et si 
+                    <lb />on venoit a leur demander des quartiers ou des passages 
+                    <lb />dans leurs Estatz contraires aux Constitutions de l'Empire 
+                    <lb />et a l'Instrument de la paix, Afin qu'elle put prendre 
+                    <lb />des mesures certaines pour le bien et la seureté de 
+                    <lb />ses affaires. 
+                    <lb />Monsieur l'Evesque de Munster a fait entendre a sadite 
+                    <lb />Majesté qu'estant persuadé que le maintien dudit traitté 
+                    <lb />de Munster en toutes ses parties estoit le veritable 
+                    <lb />moyen de conserver le repos, et la tranquillité dont sa 
+                    <lb />patrie jou&lt;y&gt;soit depuis sa conclusion. Il vouloit non 
+                    <lb />seulement l'observer ponctuellement de son costé, Mais 
+                    <lb />s'opposer de tout son pouvoir a ceux qui voudroient y 
+                    <lb />contrevenir, de quelque maniere et souz quelque pretexte 
+                    <lb />que ce pût estre &lt;et que&gt; quelques differens qui pussent arriver 
+                    <lb /> 
+                    <lb /> 
+                </p>
+                <pb facs="#FacsPnr2"/><p>[Seite 2]
+                <lb />
+                <lb />entre les Couronnes de France et d'Espagne Son intention
+                <lb />estoit de demeurer neutre. Et de contribuer de ses soins a
+                <lb />ceque l'Empire ne se meslast point des guerres Estrangeres ;
+                <lb />Que pour cet effect Il estoit sur le point de convenir avecq
+                <lb />quelques autres Electeurs et Princes desja ses Confederez
+                <lb />par l'Alliance du Rhein d'une nouvelle declaration pour une
+                <lb />plus estroite observation de la mesme Alliance, en vertu
+                <lb />de laquelle Ilz veulent empescher dans leurs Estatz toutes
+                <lb />sortes de levées, de quartiers et de passages contraires aux
+                <lb />Constitutions de l'Empire, afinque par ce moyen Ils
+                <lb />pûssent non seulement se conserver dans une parfaite
+                <lb />neutralité, et destourner de leurs Estatz les maux qu'ilz
+                <lb />pourroient y attirer en favorisant les uns ou les autres
+                <lb />des Princes leurs voisins qui seroient en guerre. Mais
+                <lb />encor se mettre par cette neutralité en estat Eux
+                <lb />mesmes de pouvoir estre Mediateurs de leurs
+                <lb />differens.
+                <lb />Sadite Majesté apres avoir meurement consideré&lt;e&gt;
+                <lb />la fin que se proposent ledit Sieur Evesque et les autres
+                <lb />Electeurs et Princes, par susditte declaration, n a pû
+                <lb />&nbsp;s'empescher de louer leur sage conduite, et le zêle
+                <lb />qu'ilz temoignent pour le bien de leur patrie. Et quoy
+                <lb />qu'elle ayt iugé qu'il pourroit se presenter diverses
+                <lb />
+                <pb facs="#FacsPnr3"/>[Seite 3]
+                <lb />
+                <lb />occasions, ou cette pensée et resolution dudit Sieur Evesque
+                <lb />et des autres Princes de ne permettre aucunes levées de
+                <lb />gens de guerre dans leurs Estatz, comme estant contraire
+                <lb />à cequi est porté par l'Alliance du Rhein seroit de grand
+                <lb />preiudice aux affaires de Sa Majesté, Neantmoins
+                <lb />comme Elle a tousiours eu autant a coeur les interestz
+                <lb />des Princes Ses Amis et Alliez que les siens propres, et que
+                <lb />d'aylleurs Elle trouve cette union non moins utile et
+                <lb />advantageuse au reste de la Chrestienté qu'a leur patrie,
+                <lb />Sadite Majesté a pris aussy de sa part la resolution
+                <lb />non seulement d y concourir et de s y conformer; Mais
+                <lb />encore de s'unir pour la mesme fin avecq ledit Sieur
+                <lb />Evesque de Munster, qui a agreé d'autant plus volontiers
+                <lb />l'honneur qu'il plaist au Roy luy vouloir faire qu'il a
+                <lb />sceu que quoy qu'il&nbsp; pût arriver des guerres qui pourroient
+                <lb />se faire entre la France et l'Espagne a l'occasion du
+                <lb />Cercle de Bourgogne lequel doit en vertu du traitté
+                <lb />de Munster demeurer Membre de l'Empire, Sa Majesté
+                <lb />tres Chrestienne declare que son intention est que
+                <lb />l'Empire n'en recoive aucune diminution, préjudice,
+                <lb />ny dommage, et que touttes choses sans y rien innover
+                <lb />ny alterer demeurent en la disposition ou elles ont esté
+                <lb />mises par l'Instrument de la paix.
+                <lb />
+                </p>
+                <pb facs="#FacsPnr4"/><p>[Seite 4] 
+                    <lb />Sur quoy le S[ieu]r Commandeur de Smising<note n="1" type="crit_app">Einschub am Rand : muny d'un plein pouvoir de M[onsieu]r l'Evesque de Munster&nbsp;&nbsp; de Lionne &lt;…&gt; Schmisingh (Unterschriften).</note> ayant eu plusieurs 
+                    <lb />conferences avecq le S[ieu]r de Lionne Ministre et Secretaire 
+                    <lb />d'Estat et Commissaire a ce deputé par le Roy muny aussy 
+                    <lb />d'un pareil plein pouvoir de Sa Majesté, Ils sont enfin 
+                    <lb />convenus du present Acte aux conditions qui en suivent. 
+                    <lb /> 
+                    <lb />Premierement que l'Alliance du Rhein au terme de son 
+                    <lb />expiration sera prorogée encore pour trois années consecutives 
+                    <lb />avecq les mesmes Princes qui la composent aujourdhuy et 
+                    <lb />qui voudront y demeurer, sinon avecq les autres et aux- 
+                    <lb />mesmes conditions des Instruments precedens. 
+                    <lb /> 
+                    <lb />Secondement Sa Majesté promet et s'engage audit S[ieu]r 
+                    <lb />Evesque de Munster, et aux autres Princes de ne leur 
+                    <lb />demander a l'advenir aucunes levées, quartiers, ny passage 
+                    <lb />pour les trouppes dans leurs Estatz, a moins qu'Elle ne se 
+                    <lb />trouve obligée de le faire, pour proteger et assister quelqu'un 
+                    <lb />d'entre Eux en conformité de ladite Alliance du Rhein. 
+                    <lb /> 
+                    <lb />Troisiesmement ledit S[ieu]r Evesque s'engage reciproquement 
+                    <lb />et promet a Sadite Majesté de n'accorder aucunes levées, 
+                    <lb />quartiers, ny passages de trouppes dans ses Estatz et pays, 
+                    <lb />souz quelque pretexte que ce puisse estre a aucun Potentat 
+                    <lb />ou Prince de quelle dignité qu'il puisse estre, soit de l'Empire 
+                </p> 
+                <pb facs="#FacsPnr5"/><p>[Seite 5] 
+                </p> 
+                <p> 
+                    <lb />ou Estranger amoins que lesditz passages se fassent exactement 
+                    <lb />selon les Constitutions dudit Empire, et pour servir et 
+                    <lb />assister quelqu'un de leurs Alliez compris dans ladite 
+                    <lb />Confederation du Rhein. 
+                    <lb /> 
+                    <lb />Quatriesmement afin d'estre tousiours en estat d'effectuer 
+                    <lb />autant qu'il dependra d'un chacun desditz Alliez la 
+                    <lb />resolution qu'on a prise de s'opposer auxditz quartiers, 
+                    <lb />levées, et autres violences qui pourroient leur estre faites, 
+                    <lb />Ledit Sieur Evesque mettra en vertu du present traitté 
+                    <lb />de bonnes trouppes sur pied, lesquelles ne pourront estre 
+                    <lb />moindres en tout temps de deux mille cinq cens fantassins 
+                    <lb />et de cinq cens chevaux, que ledit Sieur Evesque promet 
+                    <lb />et s'engage d'entretenir en bon estat durant trois années, 
+                    <lb />qui commenceront du jour que luy et les autres Princes 
+                    <lb />auront conclu ensemble le traitté de leur union pour 
+                    <lb />ne permettre aucun passage sur le Rhein. 
+                    <lb /> 
+                    <lb />Cinquiesmement En cas que quelque Potentat ou Prince 
+                    <lb />voulut prendre lesditz passages par force, et que Ledit Sieur 
+                    <lb />Evesque ne s'estimant pas assez fort avecq les autres Princes 
+                    <lb />ses Alliez pour l'en empescher, Sa Majesté s'engage 
+                    <lb />aussy et s'oblige de joindre de ses trouppes a celles 
+                    <lb />dudit Sieur Evesque et des autres Princes en nombre 
+                    <lb />suffisant pour les soustenir et s'opposer conjointement 
+                    <lb /> 
+                    <lb /> 
+                </p>
+                <pb facs="#FacsPnr6"/><p>[Seite 6] 
+                    <lb /> 
+                </p> 
+                <p>auxditz passages et d'entretenir a ses fraiz et despends lesdites 
+                    <lb />trouppes aussy long temps qu'elles sejourneront dans les Estatz 
+                    <lb />dudit Sieur Evesque ou desditz Princes Alliez. 
+                    <lb /> 
+                    <lb />Sixiesmement le présent traitté sera obligatoire de 
+                    <lb />part et d'autre jusqus a la fin de l'année mil six 
+                    <lb />cens soixante et dix qui sera le terme de sa durée 
+                    <lb />apres quoy il sera permis a un chacun des Alliez ou de 
+                    <lb />le renouveller ou de s'en retirer tout a fait. 
+                    <lb /> 
+                    <lb />Tous lesquels pointz et articles cy dessus énoncez ont 
+                    <lb />esté ainsy convenus et accordez de part et d autre entre 
+                    <lb />led[it] S[ieu]r de Lionne au Nom du Roy et led[it] S[ieu]r 
+                    <lb />Commandeur de Smising, au Nom de Monsieur l'Evesque 
+                    <lb />de Munster, lesquels ont promis den fournir dans un 
+                    <lb />mois les Ratifications de Sa Majesté tres Chrestienne 
+                    <lb />et de Son Altesse. En foy de quoy Ils ont signé le present 
+                    <lb />traitté de leurs propres mains et a iceluy fait apposer 
+                    <lb />les cachetz de leurs Armes. Fait a S[ain]t Germain 
+                    <lb />en Laye le quatriesme jour de May l´an mil six 
+                    <lb />cent soixante et sept. 
+                    <lb /> 
+                    <lb /><note n="2" type="crit_app">&lt;Hugues de Lionne, plénipotentiaire du roy &gt; , Unterschrift verdeckt durch Siegelschnur.</note> 
+                    <lb /> 
+                    <lb />Le Ch&lt;evalier&gt; Korff nomme Schmisingh plenipotentiaire de 
+                    <lb />Monsieur l'Evesque de Munster
+                </p>
+            </div>
+        </body>
+    </text>
+</tei:TEI>

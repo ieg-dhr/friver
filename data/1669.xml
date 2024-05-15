@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE tei SYSTEM "../resources/FriVer_DTD.dtd">
+
+<?xml-model href="../resources/FriVer.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns="http://www.tei-c.org/ns/1.0" xml:id="pa000299-1669">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title level="s">European peace treaties of the pre-modern era in data / Europäische Friedensverträge der Vormoderne in Daten (FriVer+)</title>
+                <title when="1659-02-03" xml:id="t1669" when-custom="1659 II 3" level="a" ref="https://www.ieg-friedensvertraege.de/treaty/t-1669-1-de.html">Allianz- und Garantievertrag von Westminster</title>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    Digital edition according to
+                    <ref target="http://www.tei-c.org/">TEI P5</ref>
+                </edition>
+                <funder>
+                    <ref target="https://www.text-plus.org/">TEXT+</ref>
+                </funder>
+                <editor role="http://id.loc.gov/vocabulary/relators/edt" ref="https://orcid.org/0000-0002-8741-5916">
+                    <persName>Jaap Geraerts</persName>
+                    <note>The transformation and enrichment of the data is done by Jaap Geraerts (IEG Mainz). The other members of the FriVer+ team are Fabian Cremer, Ines Grund, and Thorsten Wübbena (all IEG Mainz).</note>
+                    <note>
+                        The original data has been created by the
+                        <ref target="https://www.ieg-friedensvertraege.de">team of scholars</ref>
+                        who were part of the Europäische Friedensverträge der Vormoderne project. This project was lead by Prof. Dr. Heinz Duchhardt and was based at the Leibniz Institute of European History in Mainz.
+                    </note>
+                </editor>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>
+                    <orgName ref="http://www.isni.org/0000000119314040">Leibniz-Institut für Europäische Geschichte Mainz</orgName>
+                </publisher>
+                <distributor>
+                    <orgName ref="http://www.isni.org/0000000110101946">Universitäts- und Landesbibliothek Darmstadt</orgName>
+                </distributor>
+                <idno type="ISIL">http://lobid.org/organisation/DE-17</idno>
+                <date type="issued" when="2023-12-23"/>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">
+                        <p xml:lang="en">This file is licensed under the terms of the Creative Commons License CC-BY 4.0 (Attribution 4.0 International)</p>
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <repository xml:id="r22">Paris AAE
+                    <note>Trait&eacute;s et Accords de la France:<lb />
+                        <ref target="http://www.diplomatie.gouv.fr/traites/affichetraite.do?accord=TRA16590007" >http://www.diplomatie.gouv.fr/traites/affichetraite.do?accord=TRA16590007</ref></note>
+                </repository>
+                <msDesc><p>AAE Paris: M.A.E. Traités. Grande-Bretagne 16590007. Traité d'alliance et de garantie.- Westminster, 3 février 1659 (C).</p></msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>
+                    The data in this XML file, originally created by the project
+                    <ref target="https://www.ieg-friedensvertraege.de/vertraege">Europäische Friedensverträge der Vormoderne online</ref>
+                    has been transformed in accordance with
+                    <ref target="http://www.tei-c.org/">TEI P5</ref>
+                    as part of the project
+                    <ref target="https://www.ieg-mainz.de/en/research/research-projects/european-peace-treaties-of-the-pre-modern-era-in-data">Europäische Friedensverträge der Vormoderne in Daten (FriVer+)</ref>
+                </p>
+            </projectDesc>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="la" xml:id="lan6">Latein</language>
+            </langUsage>
+        </profileDesc>
+    </teiHeader>
+    <standOff>
+        <listPerson>
+            <person role="signatory" xml:id="p37">
+                <persName ref="https://explore.gnd.network/gnd/4018145-5">
+                    <name>Frankreich</name>
+                </persName>
+            </person>
+            <person role="signatory" xml:id="p42">
+                <persName ref="https://explore.gnd.network/gnd/4022153-2">
+                    <name>Großbritannien</name>
+                </persName>
+            </person>
+        </listPerson>
+        <listPlace>
+            <place xml:id="loc48">
+                <placeName ref="https://explore.gnd.network/gnd/4079242-0">Westminster</placeName>
+            </place>
+        </listPlace>
+    </standOff>
+    <text>
+        <front>
+            <div type="Kommentar"><p>Aus der Verabschiedung der englischen Navigationsakte&nbsp; folgte der erste Seekrieg zwischen England und den Generalstaaten um die Vormachtstellung zur See, in dem die Franzosen die Niederländer durch einen Handelskrieg gegen England unterstützten. Denn die Briten gingen mit der Begründung der französischen Unterstützung für die englischen Royalisten gegen französische Waren auf niederländischen Schiffen vor.
+                <lb />Im Verlauf des Jahres 1654 suchten sowohl Spanien als auch Frankreich beim erstarkenden Commonwealth um eine vertragliche Festlegung der Beziehungen nach. Cromwell entschied sich in Verwirklichung seines „Western Design“ für eine&nbsp; Auseinandersetzung mit Spanien und einen Friedens- und Handelsvertrag mit Frankreich. Die Zusammenarbeit wurde 1657 und 1658 mit einem gegen Spanien gerichteten Bündnis für die Kriegsführung in Flandern vertieft, welches 1659, noch vor dem Pyrenäenfrieden zwischen Frankreich und Spanien, bereits im Hinblick auf eine Vermittlung im Nordischen Krieg festgeschrieben wurde.
+                <lb /></p></div>
+            <div type="Kontext"><p>1642-1649
+                <lb />Englischer Bürgerkrieg
+                <lb />Flucht vieler Royalisten nach Frankreich und in die Vereinigten Provinzen
+                <lb />1648 
+                <lb />Westfälischer Frieden; der Krieg zwischen Spanien und Frankreich wird fortgesetzt
+                <lb />1648-1653
+                <lb />Französischer Bürgerkrieg der Fronde; seit 1651 unterstützt Spanien die Aufständischen 
+                <lb />1651 
+                <lb />Englische Navigationsakte
+                <lb />1652-1654
+                <lb />Erster englisch-niederländischer Seekrieg 
+                <lb />Frankreich beginnt einen Handelskrieg gegen England in Unterstützung der Niederländer 
+                <lb />16.12.1653
+                <lb />Oliver Cromwell wird Lordprotektor
+                <lb />5.4.1654
+                <lb />der Friedensvertrag von Westminster beendet den ersten englisch-niederländischer Seekrieg
+                <lb />Ende 1654 
+                <lb />Angriff auf spanisches Überseeterritorium 
+                <lb />3.11.1655
+                <lb />Friedensvertrag zwischen Großbritannien und Frankreich 
+                <lb />in der Folge übersiedelt Karl II. von England aus seinem französischen Exil nach Brüssel
+                <lb />23.11.1655 
+                <lb />Beitritt der Vereinigten Provinzen zu diesem Vertrag
+                <lb />23.3.1657
+                <lb />Allianz zwischen Frankreich und Großbritannien für militärische Operationen in Flandern 
+                <lb />28.3.1658
+                <lb />Erneuerung der Allianz
+                <lb />14.6.
+                <lb />Eroberung Dünkirchens 
+                <lb />3.2.1659
+                <lb />Allianz und Garantievertrag 
+                <lb />
+                <lb /> 
+            </p></div>
+        </front>
+    </text>
+</tei:TEI>

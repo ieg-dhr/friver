@@ -1,0 +1,512 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE tei SYSTEM "../resources/FriVer_DTD.dtd">
+
+<?xml-model href="../resources/FriVer.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns="http://www.tei-c.org/ns/1.0"
+    xml:id="pa000299-0017">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title level="s">European peace treaties of the pre-modern era in data / Europäische
+                    Friedensverträge der Vormoderne in Daten (FriVer+)</title>
+                <title when="1666-04-18" xml:id="t17" when-custom="1666 IV 18" level="a"
+                    ref="https://www.ieg-friedensvertraege.de/treaty/t-17-1-de.html">Friedensvertrag
+                    von Kleve</title>
+            </titleStmt>
+            <editionStmt>
+                <edition> Digital edition according to <ref target="http://www.tei-c.org/">TEI
+                        P5</ref>
+                </edition>
+                <funder>
+                    <ref target="https://www.text-plus.org/">TEXT+</ref>
+                </funder>
+                <editor role="http://id.loc.gov/vocabulary/relators/edt"
+                    ref="https://orcid.org/0000-0002-8741-5916">
+                    <persName>Jaap Geraerts</persName>
+                    <note>The transformation and enrichment of the data is done by Jaap Geraerts
+                        (IEG Mainz). The other members of the FriVer+ team are Fabian Cremer, Ines
+                        Grund, and Thorsten Wübbena (all IEG Mainz).</note>
+                    <note> The original data has been created by the <ref
+                            target="https://www.ieg-friedensvertraege.de">team of scholars</ref> who
+                        were part of the Europäische Friedensverträge der Vormoderne project. This
+                        project was lead by Prof. Dr. Heinz Duchhardt and was based at the Leibniz
+                        Institute of European History in Mainz. </note>
+                </editor>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>
+                    <orgName ref="http://www.isni.org/0000000119314040">Leibniz-Institut für
+                        Europäische Geschichte Mainz</orgName>
+                </publisher>
+                <distributor>
+                    <orgName ref="http://www.isni.org/0000000110101946">Universitäts- und
+                        Landesbibliothek Darmstadt</orgName>
+                </distributor>
+                <idno type="ISIL">http://lobid.org/organisation/DE-17</idno>
+                <date type="issued" when="2023-12-23"/>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">
+                        <p xml:lang="en">This file is licensed under the terms of the Creative
+                            Commons License CC-BY 4.0 (Attribution 4.0 International)</p>
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <repository xml:id="r21">Muenster StA/LA <note>Archivportal NRW, Findbuch:<lb/>
+                        <ref
+                            target="http://www.archive.nrw.de/LAV_NRW/jsp/findbuch.jsp?archivNr=1&amp;verzguid=Vz_de15a03b-e7cc-4a3e-a3a4-33526d847f76"
+                            >http://www.archive.nrw.de/LAV_NRW/jsp/findbuch.jsp?archivNr=1&amp;verzguid=Vz_de15a03b-e7cc-4a3e-a3a4-33526d847f76</ref></note>
+                </repository>
+                <msDesc>
+                    <p>Unterh&#228;ndlervertrag: Nordrhein-Westf&#228;lisches Staatsarchiv
+                        M&#252;nster: F&#252;rstentum M&#252;nster Abt. 12 Nr. 3a&nbsp;
+                        (Hauptvertrag). </p>
+                    <p>[Anm.:] Der in CTS abgedruckte Separatartikel ist im Staatsarchiv
+                        M&#252;nster nicht nachgewiesen. </p>
+                    <p>Weitere St&#252;cke: Nordrhein-Westf&#228;lisches Staatsarchiv M&#252;nster:
+                        F&#252;rstentum M&#252;nster Abt. 12 Nr. 3c: Garantie Frankreichs, St.
+                        Germain 1666 V 13; ebd. 3d Garantie Brandenburgs 1666 V 29; ebd. 3f Garantie
+                        des Kaisers, Laxenburg 1666 V 31; ebd. Garantie K&#246;lns 1666 V 4; ebd. 3f
+                        Garantie Pfalzgraf Johann Philipp, Herbipoli 1666 VIII 31; ebd. 3f&nbsp;
+                        Garantie Brandenburg, Kleve 1666 IV 19. <lb/>
+                    </p>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p> The data in this XML file, originally created by the project <ref
+                        target="https://www.ieg-friedensvertraege.de/vertraege">Europäische
+                        Friedensverträge der Vormoderne online</ref> has been transformed in
+                    accordance with <ref target="http://www.tei-c.org/">TEI P5</ref> as part of the
+                    project <ref
+                        target="https://www.ieg-mainz.de/en/research/research-projects/european-peace-treaties-of-the-pre-modern-era-in-data"
+                        >Europäische Friedensverträge der Vormoderne in Daten (FriVer+)</ref>
+                </p>
+            </projectDesc>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="la" xml:id="lan6">Latein</language>
+            </langUsage>
+        </profileDesc>
+    </teiHeader>
+    <standOff>
+        <listPerson>
+            <person role="signatory" xml:id="p49">
+                <persName ref="https://explore.gnd.network/gnd/4101204-5">
+                    <name>Generalstaaten</name>
+                </persName>
+            </person>
+            <person role="signatory" xml:id="p78">
+                <persName ref="https://explore.gnd.network/gnd/4040608-8">
+                    <name>Münster</name>
+                </persName>
+            </person>
+        </listPerson>
+        <listPlace>
+            <place xml:id="l79">
+                <placeName ref="https://explore.gnd.network/gnd/4031155-7">Kleve</placeName>
+            </place>
+        </listPlace>
+        <facsimile>
+            <surface xml:id="FacsPnr1">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_43cacf73579e8"/>
+            </surface>
+            <surface xml:id="FacsPnr2">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_43cacfa343493"/>
+            </surface>
+            <surface xml:id="FacsPnr3">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_43cacfcdcc60d"/>
+            </surface>
+            <surface xml:id="FacsPnr4">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_43cacffa70e0e"/>
+            </surface>
+            <surface xml:id="FacsPnr5">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_43cad025c4b7f"/>
+            </surface>
+            <surface xml:id="FacsPnr6">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_43cad051a2dd4"/>
+            </surface>
+            <surface xml:id="FacsPnr7">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_43cad081e1c54"/>
+            </surface>
+            <surface xml:id="FacsPnr8">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_43cad0b0296fe"/>
+            </surface>
+            <surface xml:id="FacsPnr9">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_43cad0de2cdb3"/>
+            </surface>
+            <surface xml:id="FacsPnr10">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_43cad107d191a"/>
+            </surface>
+            <surface xml:id="FacsPnr11">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_43cad13f06598"/>
+            </surface>
+            <surface xml:id="FacsPnr12">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_43cad16bec5f0"/>
+            </surface>
+            <surface xml:id="FacsPnr13">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_43cad2b91658d"/>
+            </surface>
+            <surface xml:id="FacsPnr14">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_43cad2ef3839f"/>
+            </surface>
+            <surface xml:id="FacsPnr15">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_43cad32731ffa"/>
+            </surface>
+            <surface xml:id="FacsPnr16">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_43cad355611cc"/>
+            </surface>
+            <surface xml:id="FacsPnr17">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_43cad37813e5d"/>
+            </surface>
+            <surface xml:id="FacsPnr18">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_43cad399da97d"/>
+            </surface>
+            <surface xml:id="FacsPnr19">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_43cad3bf95140"/>
+            </surface>
+            <surface xml:id="FacsPnr20">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_43cad3e118c9d"/>
+            </surface>
+            <surface xml:id="FacsPnr21">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_43cad403e1e36"/>
+            </surface>
+        </facsimile>
+    </standOff>
+    <text>
+        <front>
+            <div type="Drucke">
+                <p>Akten und Urkunden zur Außenpolitik Christoph Berhards von Galen (1650-1678)
+                    [=Quellen und Forschungen zum Absolutismus in Westfalen. Bd.1], Münster 1980, I,
+                    S. 562-568. CTS IX, 129-146. Dumont VI/3, S. 106-110. Aitzema, Affaires d´Etat
+                    et de Guerre XII, S. 784f. Lünig, Teutsches Reichs-Archiv, pars specialis,
+                    continuatio I(III)(15), S.215ff. Lündorp, Acta Publica IX, S.481-483 (dt.).
+                    Theatrum Europaeum X, S.156-160 (dt.).</p>
+                <p>[Anm.:] Unklare Angabe in CTS: Receuil des Traitez faits entre les Etats des
+                    Provinces-Unies des Pays-Bas. <lb/>
+                </p>
+            </div>
+            <div type="Inhalt">
+                <p>Einstellung Feindseligkeiten. Vermittlung des Kaisers und einiger
+                    Kurf&#252;rsten. Bevollm&#228;chtigte. <lb/>Art. 1 Friede. <lb/>Art. 2 Amnestie.
+                    <lb/>Art. 3 M&#252;nster restituiert Kriegseroberungen. Modalit&#228;ten.
+                    <lb/>Art. 4 Abzug aller M&#252;nsteraner Soldaten aus dem Gebiet der
+                    Generalstaaten. <lb/>Art. 5 Generalstaaten stellen ab 24. April alle
+                    &#220;bergriffe ein. <lb/>Art. 6 Abzug aller niederl&#228;ndischen Soldaten aus
+                    dem Gebiet M&#252;nsters. Modalit&#228;ten. <lb/>Art. 7 Truppenbegrenzung auf
+                    3000 Mann f&#252;r M&#252;nster. <lb/>Art. 8 M&#252;nster verpflichtet sich,
+                    keine gegen die Generalstaaten gerichteten B&#252;ndnisse einzugehen. <lb/>Art.
+                    9 Die Generalstaaten verpflichten sich, keine gegen M&#252;nster gerichteten
+                    B&#252;ndnisse einzugehen. <lb/>Art. 10 Einschlu&#223; der B&#252;ndnispartner
+                    in den Vertrag (Kaiser, D&#228;nemark, u.a.) <lb/>Art. 11&nbsp;Status quo ante
+                    f&#252;r Borckeloh. <lb/>Art. 12 Aufgabe jeglicher Pr&#228;tentionen. <lb/>Art.
+                    13 M&#252;nster verpflichtet sich zur Nichteinmischung in Angelegenheiten der
+                    Generalstaaten. <lb/>Art. 14 Garantie des Vertrages durch den Kaisern, die
+                    Kurf&#252;rsten von Mainz, K&#246;ln und Brandenburg, sowie durch Paderborn,
+                    Pfalz-Neuburg und Braunschweig-L&#252;neburg. <lb/>Art. 15 Ratifikation. </p>
+                <p>[Vollmacht Generalstaaten] <lb/>[Vollmacht M&#252;nster] </p>
+                <p>[Die Bevollm&#228;chtigten verpflichten sich, innerhalb 6 Wochen die Garantien
+                    beizubringen.] <lb/>[Separatartikel: Einstellung der Feinseligkeiten am 24.
+                    April. Verschiebung wegen der Ostertage auf den 27. April. Abzug der Truppen zu
+                    diesem Datum.] <lb/>
+                </p>
+            </div>
+        </front>
+        <body>
+            <div type="Transliteration">
+                <p>
+                    <pb facs="#FacsPnr1"/>Notum sit unicuiq[ue] hisce præsentibus, quod <lb/>cum
+                    anno proximè elapso orta sint quædam dissidia inter <lb/>Celsos et Præpotentes
+                    Dominos Ordines Generales foedera- <lb/>tarum Belgij Provinciarum ab una, et
+                    Reverendissimum <lb/>ac Celsissimum Dominum, Dominum Christophorum Bern-
+                    <lb/>hardum, Episcopum et Principem Monasteriensem, e&lt;.&gt;<note n="1"
+                         type="crit_app">Undeutliche Schreibart, etc. , auch et möglich.</note>&nbsp; ab <lb/>altera
+                    parte, quæ eo usq[ue] increverunt, ut non modo in a- <lb/>pertum bellum
+                    exarserint, sed et periculum fuerit, ne se <lb/>ad Vicinas Regiones, præcipuè
+                    etiam ad Romani Imperij <lb/>terras et ditiones extenderent, easq[ue] suis
+                    incommodis et <lb/>damnis involverent, nisi in tempore provisum esset, quo
+                    <lb/>dicta dissidia, eorumq[ue] calamitates, pericula &amp; sequelæ <lb/>via
+                    amicabili componerentur; Tandem divina bonitate <lb/>factum esse, ut
+                    mediantibus, annitentibus, et operam suam <lb/>conferentibus, Romanorum
+                    Imperatore, Rege Christianissimo, <lb/>Sacri Romani Imperij Electoribus,
+                    Moguntino, Coloniensi, <lb/>ac Brandeburgico, et Principibus, Episcopo
+                    Paderbornensi, <lb/>Palatino Rheni Neoburgico, Ducibus Brunsvico Lunæburgicis
+                    <lb/>Wulffenbuttano et Calenbergensi de Pace sit suscepta cogita- </p>
+                <p> </p>
+
+                <p> </p>
+                <pb facs="#FacsPnr2"/>
+                <p>tio, in eumq[ue] finem Domini Ordines Generales uniti Bel- <lb/>gij, ad tam bonam
+                    metam collimantes commiserunt ac depu- <lb/>tarunt Nobilissimum et Strenuum
+                    Dominum Hÿeronÿmum <lb/>à Beverningk, in consessu Dominorum Ordinum Generalium
+                    <lb/>Deputatum ab una. Et prædictus Dominus Episcopus et <lb/>Princeps
+                    Monasteriensis ab altera parte, admodum Reve- <lb/>rendum et Generosum Dominum
+                    Matthiam Korff, condictum <lb/>Schmiesing, nec non Nobilissimum ac Strenuum
+                    Dominum <lb/>Berhardum à Wiedenburgk, respective Ecclesiarum Ca- <lb/>thedralium
+                    Monasteriensis et Hildesheimiensis Decanum <lb/>et Thesaurarium, et prædicti
+                    Domini Episcopi intimos Con- <lb/>siliarios ac Judicij aulici Monasteriensis
+                    Praesidem. <lb/>Qui vigore sufficientium mandatorum et necessariarum
+                    <lb/>procurationum, (quarum apographa sub finem hujus in- <lb/>strumenti de
+                    verbo ad verbum inserta sunt) in mutuas Pa- <lb/>cis et amicitiæ leges
+                    consenserunt et convenerunt tenore <lb/>sequenti. </p>
+                <p>1. <lb/>Pax sit perpetua &amp; constans inter Celsos et Præpotentes <lb/>Dominos
+                    Ordines Uniti Belgij, et Reverendissimum ac </p>
+                <p>
+                    <pb facs="#FacsPnr3"/>Celsissimum Dominum Episcopum et Principem Mo-
+                    <lb/>nasteriensem, eaq[ue] sic colatur et servetur serio, ut mu- <lb/>tuis sibi
+                    invicem commodis studeant, et omnia humani- <lb/>tatis bonaeq[ue] viciniæ
+                    officia præstent.</p>
+                <p>2. <lb/>Sit omnium utrinq[ue] actorum amnestia et perpetua <lb/>oblivio eorum
+                    quae ab una vel altera parte facta sunt, <lb/>ita ut nec eorum nec ullius
+                    alterius causa vel praetextu <lb/>alter alteri posthac quicquam hostilitatis,
+                    molestiæ vel <lb/>impedimenti inferat, moliatur, aut in detrimetuurn vel
+                    <lb/>præjudicium alterius tentet, aut tentari faciat. <lb/>Sit etiam amnestia
+                    hæc universalis, ratione omnium eo- <lb/>rum, qui uni vel alteri parti
+                    adhæserunt, exceptis iis <lb/>qui Proditionis arguentur, ita tamen, ut illis via
+                    <lb/>Juris utrinq[ue] aperta et uxoribus, liberisq[ue] et hæredibus <lb/>bona
+                    salva maneant; Dominusq[ue] Episcopus nemini <lb/>Vasallorum ex occasione et
+                    causa hujus belli investituram <lb/>tam ab Episcopatu Monasteriensi , quam
+                    Abbatia Cor- <lb/>bejensi dependentem negabit, neq[ue] ob alias prætensiones
+                    <lb/>aut lites protrahet aut differet, quod idem ex parte </p>
+                <pb facs="#FacsPnr4"/>
+                <p>Dominorum Ordinum in similibus casibus reciprocè <lb/>observabitur.</p>
+                <p>3. <lb/>Porrò Dominus Episcopus Monasteriensis statim et <lb/>illicò pace facta
+                    Dominis Ordinibus Generalibus Con- <lb/>foederati Belgij restituet omnia ea
+                    loca, o reservato, <lb/>quæ durante hoc bello occupavit, et quæ ex iisdem in
+                    <lb/>ipsius potestate tempore conclusionis invenientur, eaq[ue] <lb/>omnia in eo
+                    statu reddet, quo tempore restitutionis <lb/>erunt, specialiter etiam Castrum et
+                    Oppidum Borclu- <lb/>loë, et insuper promittet, se durante hoc negotio, et à
+                    <lb/>die ultimo mensis Martij sedulò curaturum, ne inter- <lb/>eà in prædictis
+                    locis occupatis suo facto vel mandato <lb/>quicquam deterius reddatur, aut à
+                    Subditis aliquid <lb/>amplius vel pro redimendis ædibus, vel sub aliorum belli
+                    <lb/>onerum prætextu, quocunq[ue] demum nomine fiat, petantur <lb/>aut exigatur;
+                    Sed è contrà providebit modis omnibus, <lb/>ut in eo Statu conserventur, quo die
+                    ante nominato fu- <lb/>ere, et si quid contrarium interea autum, aut
+                    qualecunq[ue] <lb/>damnum locis ijs illatum fuerit, ipse bona fide resar- </p>
+                <p>
+                    <pb facs="#FacsPnr5"/>ciet, et in priorem illum Statum suis impensis restitu-
+                    <lb/>et, eumq[ue] in finem utrinq[ue] liberum sit , Commissarios ali- <lb/>quo
+                    si velint, quàm primùm ad præfata loca mittere, qui <lb/>curent, ne quid contra
+                    tenorem hujus articuli quis attentet.</p>
+                <p>4. <lb/>Curabit insuper bona fide, ut Miles omnis, qui præfa- <lb/>to tempore in
+                    prædictis locis reperietur, ex iis omnibus, <lb/>et quidem generaliter ex
+                    universo Territorio Domino- <lb/>rum Ordinum Generalium abducatur; Liberum autem
+                    <lb/>ei transitum per Territoria sua, modò necessarius sit, Do- <lb/>mini
+                    Ordines Generales pollicentur, ita tamen, ut brevi- <lb/>ori et commodiori, qua
+                    fieri poterit, via eaq[ue], quam præ- <lb/>eunte Comissario præscribent, ad
+                    Territorium Mo- <lb/>nasteriense transeat, nec Spolium ullum aut bona de-
+                    <lb/>prædata secum auferat, nec vim aut damnum quodcunq[ue] <lb/>Incolis in eo
+                    transitu inferat. </p>
+                <p>5. <lb/>Vicissim Domini Ordines Generales bonâ fide pro- <lb/>mittunt, um actum
+                    hostilitatis à die vigesimo <pb facs="#FacsPnr6"/>quarto Aprilis contra Dominum
+                    Episcopum aut <lb/>Ejus Episcopatum Monasteriensem exercituros, et si quid
+                    <lb/>contrarium actum fuerit, se bonâ fide resarcituros.</p>
+                <p>6. <lb/>Domini Ordines Generales ex Territorio Domini E- <lb/>piscopi Exercitum
+                    suum, omnemque Militem abducent, qui <lb/>tum temporis ibidem in expeditione aut
+                    Statione reperi- <lb/>etur, eodemq[ue] modo liber iis transitus concedetur, si
+                    ne- <lb/>cessarius sit, nec vim aut damnum quodcunq[ue] Incolis <lb/>in eo
+                    transitu inferat, nec Spolium ullum aut bona post <lb/>prædictum diem deprædata
+                    se cum auferat. Captivi <lb/>etiam hujus belli, cujuscunq[ue] conditionis sint,
+                    utrinq[ue] sine soluto <lb/>pretio seu lÿtro liberi dimittentur, solutis
+                    solummodo debitis <lb/>in captivitate ab iis legitimè contractis, nec exigetur
+                    post <lb/>hac quod à prædictis Captivis, aut etiam durante hoc <lb/>bello ab
+                    unius vel alterius incolis extortum et promissum <lb/>quidem, sed prædicto die
+                    vigesimo quarto Aprilis non- <lb/>dum præstitum fuerit:&nbsp;&nbsp;Et cum ab una
+                    <lb/>vel altera parte indictæ sint Contributiones ad <lb/>certas summas pro
+                    personarum et locorum securitate </p>
+                <p>
+                    <pb facs="#FacsPnr7"/>singulis mensibus aut septimanis persolvendæ, eae secundum
+                    <lb/>normam et regulam, de qua cum Oppidorum aut Pagorum <lb/>Commissarijs,
+                    aliisve quibuscunq[ue] conventum est, ad ulti- <lb/>mum usq[ue] diem hujus
+                    mensis Aprilis, nec ulterius per- <lb/>solvantur.</p>
+                <p>7. <lb/>Conventum est, ut Dominus Episcopus Exercitum <lb/>suum statim subsecuta
+                    ratificatione hujus tractatus <lb/>dimittat, retento solummodò eo Milite, qui
+                    firmandis præ- <lb/>sidijs, et ad securitatem Provinciæ Suæ necessarius est;
+                    <lb/>Quod cum Domini Mediatores et ipse Dominus Episco- <lb/>pus judicent, fieri
+                    posse cum tribus millibus; ita et ille <lb/>promittit, se illum numerum non
+                    excessurum, et quod <lb/>imposterum novum Militem non conscribet, nisi id ne-
+                    <lb/>cessitas et Securitas Imperij et Circulorum, vel etiam <lb/>foedera huic
+                    Tracatui non contraria requisiverint aut <lb/>postulaverint, idq[ue] insuper non
+                    aliter, quàm secundum <lb/>Imperij Constitutiones, Instrumentum Pacis et Jura
+                    <lb/>Principum, quibus Domini Ordines per hoc nihil dero- <lb/>gatum volunt. </p>
+                <p>8. <lb/>Renunciabit insuper Dominus Episcopus omnibus <pb facs="#FacsPnr8"/>et
+                    singulis foederibus huic Paci contrarijs, et nunquam <lb/>se de novo contra
+                    Dominos Ordines Generales cum a- <lb/>lijs Principibus aut Magnatibus devinciet,
+                    neque eorum <lb/>Rempublicam novo unquam bello adorietur.</p>
+                <p>9. <lb/>Ut et ad reciprocam Domini Episcopi securitatem Do- <lb/>mini Ordines
+                    Generales declarabunt, quemadmodum de- <lb/>clarant hisce præsentibus, se
+                    deinceps is omninò foe- <lb/>deribus obstrictos esse, quæ huic Paci sint
+                    contraria, <lb/>ejusvè Scopum aut effectus aliquo modo possint impedi-
+                    <lb/>re;&nbsp;Bona etiam fide promittunt, se peracto hujus <lb/>Tractatus
+                    negotio nihil unquam hostile sub quocunq[ue] præ- <lb/>textu vi aut armis contra
+                    Domini Episcopi personam, <lb/>aut contra Episcopatus Monasteriensis Territoria
+                    m&lt;o&gt;- <lb/>lituros, neq[ue] unquam se contra Eundem aut Ejus Episcopa-
+                    <lb/>tum cum alijs Principibus aut Magnatibus devinctu- <lb/>ros. </p>
+                <p>10. <lb/>Confoederati etiam et Amici utrinque hoc Tractatu com-
+                    <lb/>prehenduntur, et nominatim ex parte Dominorum Or- <pb facs="#FacsPnr9"
+                    />dinum Generalium Serenissimus et Potentissimus <lb/>Princeps ac Dominus,
+                    Dominus Fridericus Tertius, <lb/>Daniæ, Norwegiæ, Gothorum et Vandalorum Rex
+                    etc. <lb/>Serenissimus et Celsissimus Princeps ac Dominus, Do- <lb/>minus
+                    Georgius Wilhelmus, Dux Brunsvicensis et Lü- <lb/>næburgensis etc.
+                    Reverendissimus, Serenissimus ac Cel- <lb/>sisimus Princeps ac Dominus, Dominus
+                    Ernestus Au- <lb/>gustus, Episcopus Osnabrugensis, Dux Brunsvicensis <lb/>et
+                    Lunæburgensis, etc. Serenissimus et Celsissimus Prin- <lb/>ceps ac Dominus,
+                    Dominus Christianus Albertus, Hæ- <lb/>res Norwegiæ, Dux Schleswici, Holsatiæ,
+                    etc. Illustrissi- <lb/>mus Comes ac Dominus, Dominus Anthonius Guntherus,
+                    <lb/>Comes in Oldenburg, etc. cum omnibus Regnis, Ducatibus, <lb/>Comitatibus,
+                    Ditionibus, Regionibus et terris, quæ jam <lb/>possident aut imposterum
+                    possidebunt, simul et eorum <lb/>Incolis et Subditis. &nbsp;Et ex parte Domini
+                    E- <lb/>piscopi Monasteriensis, Sacra Cæsarea Majestas et <lb/>Romanorum
+                    Imperium, ac Confoederati Rhenani, aut <lb/>qui ex iis vel alijs amicis includi
+                    voluerint, et duorum <lb/>vel trium mensium spatio se includi velle
+                    declaraverint, <pb facs="#FacsPnr10"/>cum omnibus Regnis, Ducatibus,
+                    Comitatibus, Ditio- <lb/>nibus, Regionibus et Terris, quæ jam possident aut
+                    <lb/>imposterum possidebunt, simul et eorum Incolis et <lb/>Subditis.
+                    &nbsp;Similiter includantur utriusq[ue] <lb/>partis Duces et Præfecti militiæ,
+                    nominatim Il- <lb/>lustrissimus Comes ac Dominus, Dominus Georgius
+                    <lb/>Fridericus, Comes de Waldeck , cum suis Comitati- <lb/>bus et terris;
+                    idq[ue] eo cum effectu, ut de omnibus et <lb/>singulis in iis contentis absolutè
+                    gaudeant, eodem mo- <lb/>do et eodem jure, quo ipsae partes Principales, ita
+                    <lb/>tamen, ut si inter partes prædictas illarumq[ue] Con- <lb/>foederatos et
+                    comprehensos lis aut controversia quæ- <lb/>dam aut jam sit, aut deinceps orta
+                    fuerit, illa hinc <lb/>inde non aliter, quam via amicabili, aut secundum Jus
+                    <lb/>et Constitutiones Imperij absq[ue] via facti aut armo- <lb/>rum strepitu
+                    determinetur.</p>
+                <p>11. <lb/>Quantum ad Dominium de Borckuloe, Domini Ordines <lb/>Generales non
+                    desiderant, ut ratione Juris sive di- <lb/>recti Dominii sive utilis per hunc
+                    Tractatum aliquid <pb facs="#FacsPnr11"/>mutetur, sed manet hoc jus in eo statu,
+                    in quo fuit an- <lb/>te hoc bellum.&nbsp;&nbsp;Renunciat verò præfatus Domi-
+                    <lb/>nus Episcopus Juri Superioritatis in dicto dominio <lb/>de Borckuloë cum
+                    suis dependentijs, cum consensu Ca- <lb/>pituli, ita tamen, ut ista renunciatio
+                    non præjudicet <lb/>Juri Imperij, sed illud per omnia salvum maneat, quod
+                    <lb/>ipsum tamen inter Imperatorem et Dominos Ordi- <lb/>nes non nisi via
+                    amicabili aut alia utrinq[ue] benè visa <lb/>decidetur.</p>
+                <p>12. <lb/>Ut et utrinq[ue] omnibus et singulis prætensionibus quæ- <lb/>cunq[ue]
+                    tandem illæ sint, vel esse possint, porrò Domini Or- <lb/>dines Generales et
+                    Dominus Epicopus, etiam consenti- <lb/>ente prædicto Capitulo Monasteriensi bonâ
+                    fide re- <lb/>nunciant, ita ut præsenti hoc tractatu pro extinctis
+                    <lb/>habeantur. </p>
+                <p>13. <lb/>Nunquam posthac Dominus Episcopus vel Ejus Suc- <lb/>cessores sub
+                    quocunq[ue] prætextu vel ex quacunq[ue] causa, <lb/>neq[ue] per se, neq[ue] per
+                    sibi incorporatos et Subjectos , causis <pb facs="#FacsPnr12"/>ad Dominos
+                    Ordines Generales confoederati Belgij <lb/>ejusq[ue] incorporatos et subjectos
+                    pertinentibus se im- <lb/>missebit, neq[ue] imposterum contra illos arresta et
+                    re- <lb/>præssalias decernet, vel executiones rerum judicata- <lb/>rum impediet;
+                    Et si quæ controversiæ præter spem <lb/>inter prædictos Dominos Ordines et
+                    Dominum E- <lb/>piscopum Ejusvè successores unquam oriantur, non <lb/>alio quàm
+                    amicabili modo, vi Guarantiæ super <lb/>hoc Tractatu præstitæ, componantur;
+                    Privatorum <lb/>verò lites semper ad Judicem competentem remittan- <lb/>tur;
+                    earum autem vel etiam cujuscunq[ue] alterius <lb/>prætextu et causa, nunquam
+                    contra Dominos Ordines <lb/>Generales Ejusve incorporatos et Subjectos armis,
+                    <lb/>vi aut facto ipso aliquid attentabit. Idem <lb/>Domini Ordines Generales
+                    Confoederati Belgij pro <lb/>se et omnibus sibi incorporatis pollicentur,
+                    atq[ue] pro- <lb/>mittunt, quem in finem utraque pars paciscens tenebitur,
+                    <lb/>quemadmodum se teneri velle hoc ipso se obstringit et <lb/>obligat
+                    facturam, ut omnibus et singulis partibus in <pb facs="#FacsPnr13"/>judicio
+                    litigantibus absq[ue] mora et ullo personarum <lb/>respectu Justitia
+                    administretur.</p>
+                <p>14. <lb/>Ad majorem prædictorum cautelam et securitatem Ro- <lb/>manorum
+                    Imperator, Rex Christianissimus, Electores <lb/>Moguntinus, Coloniensis et
+                    Brandeburgicus, Episcopus <lb/>Paderbornensis, Princeps Palatinus Rheni
+                    Neoburgicus, <lb/>Augustus et Johannes Fridericus Duces Brunsvicen- <lb/>ses et
+                    Lunæburgenses, usq[ue] dum plures ad eandem re- <lb/>quirantur, super hoc
+                    tractatu et omnibus ac singulis <lb/>ejus articulis Guarantiam, solemni et
+                    meliori forma, vi- <lb/>gore specialis desuper confecti Instrumenti promittunt,
+                    <lb/>ita, ut si una vel altera pars huic Paci ejusvè articu- <lb/>lis non
+                    satisfecerit, vel iisdem quocunq[ue] tempore in quo- <lb/>cunq[ue] capite
+                    contravenerit, obstricti esse velint, eam <lb/>non solum authoritatum et
+                    dignitatum suarum interven- <lb/>tione, sed et omni ope et medijs sufficientibus
+                    ad implen- <lb/>da et servanda pacta compulsuros. </p>
+                <p>15. <lb/>Item conventum est, utrinq[ue] placuit, quòd præsens <pb
+                        facs="#FacsPnr14"/>Tracatus atq[ue] omnia in eo contenta et conclusa à
+                    <lb/>dictis Dominis Ordinibus Generalibus Foederata- <lb/>rum Provinciarum, et
+                    dicto Domino Episcopo et <lb/>Principe, simul et à Capitulo Monasteriensī per
+                    pa- <lb/>tentes utriusq[ue] partis literas, sigillo magno munitas, <lb/>debtiâ
+                    et authenticâ formâ intra quindecim dies <lb/>proximè insequentes aut citiùs si
+                    fieri poterit, confir- <lb/>mabuntur et ratihabebuntur, mutuaq[ue] Instrumenta
+                    <lb/>intra prædictum tempus hinc inde extradentur, et <lb/>concedetur hunc in
+                    finem illis qui extraditionem istam <lb/>facient Salvus-Conductus, qui hoc ipso
+                    pro concesso <lb/>habebitur, fietq[ue] à die prædictæ extraditionis mili-
+                    <lb/>tum exauctoratio, prout articulo septimo conventum, <lb/>nec ab
+                    exauctoratione cessetur, donec illa perfecta <lb/>fuerit, quod absq[ue]
+                    intervallo et intra quindecim dies à <lb/>prædicto die computandos absolvi
+                    debet, nec non et <lb/>Tractatus hic statim à traditis et permutatis Instru-
+                    <lb/>mentis forma et loco solitis publicabitur. <pb facs="#FacsPnr15"/>
+                    Sequuntur mandata in lingua <lb/>vernacula:</p>
+                <p>[Es folgt die niederländische Vollmacht, Den Haag 1666 &nbsp; IV 9]. <lb/>[Es
+                    folgt die Münsteraner Vollmacht, Münster 1666 III 25]. </p>
+                <p>In quorum omnium fidem prænominatus Celsorum <lb/>et Præpotentum Dominorum
+                    Ordinum Generalium <lb/>Deputatus Extraordinarius, sicut et prænominati Reve-
+                    <lb/>rendissimi ac Celsissimi Episcopi et Principis Monasterien- <lb/>sis
+                    Deputati Extraordinarij vi et vigore præfatarum <lb/>suarum Commissionum et
+                    Mandatorum manibus proprijs <lb/>subscripserunt, et sigillis suis muniverunt.
+                    Actum Cli- <lb/>viæ ipso die Palmarum, qui est 18.vus Aprilis Stÿli <lb/>novi
+                    A[nno] 1666. </p>
+                <p>(L S) H. v. Beverningh <lb/>mp <lb/>(L S) Matthiaß Korf dictus Schmisinck <lb/>mp
+                    <lb/>(L S) Bernhardt von Wyden- <lb/>buch mp. </p>
+                <p>In supradictorum omnium fidem infra scripti Domini Pleni- <lb/>potentiarij non
+                    solum hoc Instrumentum subsignatione sua communi- <lb/>verunt, sed insuper etiam
+                    promiserunt, sicuti hoc ipso promittunt, <lb/>quod spatio sex septimanarum
+                    Guarantiæ seu Manutentionis <lb/>assecurationem, in tali formâ prout conventum
+                    et à dictis Do- <lb/>minis Plenipotentiarijs ipsis partibus paciscentibus
+                    extraditum <lb/>est, propriâ Dominorum Committentium suorum manu subscriptam
+                    <lb/>exhiberi curabunt. Actum Clivis eodem quo supra die Pal- <lb/>marum, qui
+                    est 18.rus Aprilis Stÿli novi, A[nno] 1666. </p>
+                <p>Joannes Baro de Goesse, <lb/>S[acra]. C[aesarea]. M[ajesatis].
+                    Plenip[otentiarius]. </p>
+                <p>Colbert , S[acra]. Christ[ianissi].mo Maj[esta].tis plenipot[entiar].ius </p>
+                <p>M. Fridericus liber <lb/>Baro de Schönborn </p>
+                <p>Henr[icus]. Batz &lt;dr&gt; &lt;et&gt; Christophor
+                    Gudenus&nbsp;Plenipot[entiarius]. Elect[oris]. Mogunt[iae]. </p>
+                <p>Pet[er]. Buschman Plenipot[entiarius]. Elect[oris]. Col[oniensis]. </p>
+                <p>Ottho l[iber]. B[aro]. à Schwerin et W.W. Blasp&lt;ei&gt;l Plenipot[entiarius].
+                    El[ectoris]. Brande[bugico]. </p>
+                <p>Caspar Philip v. Kettler mp </p>
+                <p>Johannes Adolphus l[liber].B[aro]. de Fürstenbergh </p>
+                <p>Conradus Meinders Dr. Consiliarius Epi[scopi]. Pader[bornenisi]. et
+                    plenipotentiarij </p>
+                <p>Franciscus de Gise plenipotentiarius ducis palatino Neoburgici <lb/>.
+                    <lb/>Fridericus ab Hei&lt;m&gt;burg Augusti Ducis Brunswic et Lunæb[urgae].
+                    plenipotentarius </p>
+                <p>Otto Grote </p>
+                <p>Ludolphus Hugo, Johannis Friderici Ducis Brunsvic. et Lunæburg. Plenipotentiarii.
+                    <lb/>
+                </p>
+                <p> </p>
+            </div>
+        </body>
+        <back>
+            <listBibl>
+                <bibl xml:id="a377">
+                    <title level="a">Reichsarchiv (1666-04-18)</title>
+                    <title level="m">Reichsarchiv, Band 7 (1711), PSpec Con I-III (3), S.215-221
+                        Aus: Dokumentenarchiv der Universitätsbibliothek Augsburg (Drucke vor 1900 /
+                        Historische Geschichtswerke). </title>
+                    <biblScope>
+                        <graphic xml:id="A1Pnr1"
+                            url="https://www.ieg-friedensvertraege.de/dbimages/img_4ab2551209bfb"/>
+                        <graphic xml:id="A1Pnr2"
+                            url="https://www.ieg-friedensvertraege.de/dbimages/img_4ab25518df9b3"/>
+                        <graphic xml:id="A1Pnr3"
+                            url="https://www.ieg-friedensvertraege.de/dbimages/img_4ab25520b8886"/>
+                        <graphic xml:id="A1Pnr4"
+                            url="https://www.ieg-friedensvertraege.de/dbimages/img_4ab25528b6917"/>
+                        <graphic xml:id="A1Pnr5"
+                            url="https://www.ieg-friedensvertraege.de/dbimages/img_4ab2553c02da8"/>
+                        <graphic xml:id="A1Pnr6"
+                            url="https://www.ieg-friedensvertraege.de/dbimages/img_4ab2553c02da8"/>
+                        <graphic xml:id="A1Pnr7"
+                            url="https://www.ieg-friedensvertraege.de/dbimages/img_4ab25543482de"/>
+                    </biblScope>
+                </bibl>
+                <bibl>Brand, Geschichte des Fürstbistums Münster,&nbsp;S.194-213. Wilhelm Kohl
+                    (Hg.), Westfälische Geschichte. Bd. 1. Düsseldorf 1983. Wilhelm Kohl,
+                    C.B.v.Galen. Politische Geschichte des Fürstbistums Münster 1650-1678. Münster
+                    1964.</bibl>
+            </listBibl>
+        </back>
+    </text>
+</tei:TEI>

@@ -1,0 +1,808 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE tei SYSTEM "../resources/FriVer_DTD.dtd">
+
+<?xml-model href="../resources/FriVer.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns="http://www.tei-c.org/ns/1.0"
+    xml:id="pa000299-0107">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title level="s">European peace treaties of the pre-modern era in data / Europäische
+                    Friedensverträge der Vormoderne in Daten (FriVer+)</title>
+                <title when="1629-09-25" xml:id="t107" when-custom="1629 IX 25" level="a"
+                    ref="https://www.ieg-friedensvertraege.de/treaty/t-107-1-de.html"
+                    >Waffenstillstand von Altmark</title>
+            </titleStmt>
+            <editionStmt>
+                <edition> Digital edition according to <ref target="http://www.tei-c.org/">TEI
+                        P5</ref>
+                </edition>
+                <funder>
+                    <ref target="https://www.text-plus.org/">TEXT+</ref>
+                </funder>
+                <editor role="http://id.loc.gov/vocabulary/relators/edt"
+                    ref="https://orcid.org/0000-0002-8741-5916">
+                    <persName>Jaap Geraerts</persName>
+                    <note>The transformation and enrichment of the data is done by Jaap Geraerts
+                        (IEG Mainz). The other members of the FriVer+ team are Fabian Cremer, Ines
+                        Grund, and Thorsten Wübbena (all IEG Mainz).</note>
+                    <note> The original data has been created by the <ref
+                            target="https://www.ieg-friedensvertraege.de">team of scholars</ref> who
+                        were part of the Europäische Friedensverträge der Vormoderne project. This
+                        project was lead by Prof. Dr. Heinz Duchhardt and was based at the Leibniz
+                        Institute of European History in Mainz. </note>
+                </editor>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>
+                    <orgName ref="http://www.isni.org/0000000119314040">Leibniz-Institut für
+                        Europäische Geschichte Mainz</orgName>
+                </publisher>
+                <distributor>
+                    <orgName ref="http://www.isni.org/0000000110101946">Universitäts- und
+                        Landesbibliothek Darmstadt</orgName>
+                </distributor>
+                <idno type="ISIL">http://lobid.org/organisation/DE-17</idno>
+                <date type="issued" when="2023-12-23"/>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">
+                        <p xml:lang="en">This file is licensed under the terms of the Creative
+                            Commons License CC-BY 4.0 (Attribution 4.0 International)</p>
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <repository xml:id="r30">Warschau AGAD</repository>
+                <msDesc>
+                    <p>Transkriptionsgrundlage: AGAD Warschau: Perg. 5516 (schwedisches
+                        Unterhändlerinstrument).<lb/> Kollationierungsexemplar: Sverges Traktater,
+                        Bd. V:2, S. 348-356 (polnische Ratifikation, Warschau 1629 X 8).<lb/>
+                        <lb/> Weitere Stücke:<lb/>
+                        <lb/> AGAD Warschau Perg. 5515: Kommissionsernennung (Abschrift).<lb/>
+                        <lb/> Weitere Angaben:<lb/> Ratifikation Schwedens 1629 XII [1.?].<lb/>
+                        Ratifikation der polnischen Stände Warschau 1629 XI 27.</p>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p> The data in this XML file, originally created by the project <ref
+                        target="https://www.ieg-friedensvertraege.de/vertraege">Europäische
+                        Friedensverträge der Vormoderne online</ref> has been transformed in
+                    accordance with <ref target="http://www.tei-c.org/">TEI P5</ref> as part of the
+                    project <ref
+                        target="https://www.ieg-mainz.de/en/research/research-projects/european-peace-treaties-of-the-pre-modern-era-in-data"
+                        >Europäische Friedensverträge der Vormoderne in Daten (FriVer+)</ref>
+                </p>
+            </projectDesc>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="la" xml:id="lan6">Latein</language>
+            </langUsage>
+        </profileDesc>
+    </teiHeader>
+    <standOff>
+        <listPerson>
+            <person role="signatory" xml:id="p91">
+                <persName ref="https://explore.gnd.network/gnd/4046496-9">
+                    <name>Polen</name>
+                </persName>
+            </person>
+            <person role="signatory" xml:id="p99">
+                <persName ref="https://explore.gnd.network/gnd/4077258-5">
+                    <name>Schweden</name>
+                </persName>
+            </person>
+            <person xml:id="pp0066">
+                <persName ref="https://explore.gnd.network/gnd/118543733">
+                    <name>Gustav II. Adolf</name>
+                </persName>
+            </person>
+            <person xml:id="pp0067">
+                <persName ref="https://www.wikidata.org/wiki/Q155127">
+                    <name>Axel Oxenstierna</name>
+                </persName>
+            </person>
+            <person xml:id="pp0068">
+                <persName ref="https://explore.gnd.network/gnd/136469604">
+                    <name>Hermann von Wrangel</name>
+                </persName>
+            </person>
+            <person xml:id="pp0069">
+                <persName ref="https://explore.gnd.network/gnd/116048611">
+                    <name>Johan Gustafsson Banér</name>
+                </persName>
+            </person>
+            <person xml:id="pp0070">
+                <persName ref="https://explore.gnd.network/gnd/119383845">
+                    <name>Sigismund III. Wasa</name>
+                </persName>
+            </person>
+            <person xml:id="pp0071">
+                <persName ref="https://explore.gnd.network/gnd/11872942X">
+                    <name>Louis XIII of France</name>
+                </persName>
+            </person>
+            <person xml:id="pp0072">
+                <persName ref="https://www.wikidata.org/wiki/Q1609591">
+                    <name>Hercules Girard de Charnace</name>
+                </persName>
+            </person>
+            <person xml:id="pp0073">
+                <persName ref="https://explore.gnd.network/gnd/118720856">
+                    <name>Charles I of England</name>
+                </persName>
+            </person>
+            <person xml:id="pp0074">
+                <persName ref="https://explore.gnd.network/gnd/118922866">
+                    <name>Thomas Roe</name>
+                </persName>
+            </person>
+            <person xml:id="pp0075">
+                <persName ref="https://explore.gnd.network/gnd/123314097">
+                    <name>Jakub Zadzik</name>
+                </persName>
+            </person>
+            <person xml:id="pp0076">
+                <persName ref="https://explore.gnd.network/gnd/118948733">
+                    <name>Jakub Sobieski</name>
+                </persName>
+            </person>
+            <person xml:id="pp0077">
+                <persName ref="https://explore.gnd.network/gnd/122914074">
+                    <name>Jerzy Ossoliński </name>
+                </persName>
+            </person>
+            <person xml:id="pp0078">
+                <persName ref="https://www.wikidata.org/wiki/Q442621">
+                    <name>Magnus Ernest Denhoff</name>
+                </persName>
+            </person>
+            <person xml:id="pp0079">
+                <persName ref="https://explore.gnd.network/gnd/102116156">
+                    <name>George William, Elector of Brandenburg</name>
+                </persName>
+            </person>
+            <person xml:id="pp0097">
+                <persName ref="https://explore.gnd.network/gnd/118676059">
+                    <name>Christian IV</name>
+                </persName>
+            </person>
+            <person xml:id="pp0098">
+                <persName ref="https://explore.gnd.network/gnd/119108542">
+                    <name>Gábor Bethlen</name>
+                </persName>
+            </person>
+            <person xml:id="pp0099">
+                <persName ref="https://explore.gnd.network/gnd/118593870">
+                    <name>Philipp IV of Spanien</name>
+                </persName>
+            </person>
+            <person xml:id="pp0100">
+                <persName ref="https://explore.gnd.network/gnd/118579355">
+                    <name>Maximilian I. (Bayern)</name>
+                </persName>
+            </person>
+        </listPerson>
+        <listPlace>
+            <place xml:id="loc56">
+                <placeName ref="https://explore.gnd.network/gnd/4104653-5">Altmark</placeName>
+            </place>
+        </listPlace>
+        <facsimile>
+            <surface xml:id="FacsPnr1">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_462487d682292"/>
+            </surface>
+            <surface xml:id="FacsPnr2">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_462487ed2845f"/>
+            </surface>
+            <surface xml:id="FacsPnr3">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_462487fe78516"/>
+            </surface>
+            <surface xml:id="FacsPnr4">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_46248817adfae"/>
+            </surface>
+            <surface xml:id="FacsPnr5">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_462488281888c"/>
+            </surface>
+            <surface xml:id="FacsPnr6">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_4624883859eeb"/>
+            </surface>
+            <surface xml:id="FacsPnr7">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_4624886303e99"/>
+            </surface>
+            <surface xml:id="FacsPnr8">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_4624887e1d403"/>
+            </surface>
+            <surface xml:id="FacsPnr9">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_4624888d7710b"/>
+            </surface>
+            <surface xml:id="FacsPnr10">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_4624889b4a1dd"/>
+            </surface>
+            <surface xml:id="FacsPnr11">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_462488aa14607"/>
+            </surface>
+        </facsimile>
+    </standOff>
+    <text>
+        <front>
+            <div type="Drucke">
+                <p>[Kollationierungsvorlagen:] Londorp, Acta Publica 3, S. 1104. <lb/>[Weitere
+                    Drucke:] Sverges Traktater, Bd. V:1, S. 347-356 (poln. Ratifikation 1629 X 8).
+                    <lb/>Dumont V/2, S. 594-596 (frz.) <ref
+                        target="http://gallica.bnf.fr/ark:/12148/bpt6k1229594.zoom.f596.langEN">Link
+                        zum Druck auf gallica.bnf.fr</ref>
+                    <lb/>Mercure François 15(1), S.1008 (frz.). <ref
+                        target="http://digbib.bibliothek.uni-augsburg.de/2/pages/02_IV_13_2_0026_02_0100.html"
+                    />
+                </p>
+            </div>
+            <div type="Inhalt">
+                <p> Art. 1 Waffenstillstand für 6 Jahre (bis 1. Juli 1635).<lb/> Art. 2 Enthaltung
+                    von allen Feindseligkeiten.<lb/> Art. 3 Gebietsrückgaben Schwedens an Polen.
+                    Hafen Frauenburg schwedisch. <lb/> Art. 4 Besitzstand in Livland wird
+                    eingefroren. Besitzstand Preußens und Schwedens.<lb/> Art. 5 Preußische
+                    Sequestration über Marienburg (ohne das Gebiet Elbingens) für die<lb/> Dauer des
+                    Waffenstillstands. <lb/> Art. 6 Schweden erhält einige Gebiete als Sicherheit.
+                    <lb/> Art. 7 Ausführung der Sequestration. Gebietsübergaben nach erfolgter
+                    Ratifikation.<lb/> Art. 8 Polen respektiert den Besitzstand (v.a. Marienburg)
+                    für die Dauer des<lb/> Waffenstillstandes. <lb/> Art. 9 Amnestie. <lb/> Art. 10
+                    Kirchenrechte in den sequestrierten Gebieten. Rechte der katholischen Kirche
+                    in<lb/> Braunsberg und Neustadt. Freiheit der evangelischen Kirche.<lb/> Art. 11
+                    Rechte in den restituierten Gebieten. Optionsrecht.<lb/>Art. 12 Garantie
+                    beweglicher Besitz. Waffen.<lb/> Art. 13 Schweden respektiert die tradierten
+                    Besitzrechte. <lb/> Art. 14 Truppenrückzug.<lb/> Art. 15 Handels- und
+                    Reisefreiheit. Status quo ante in Zollfragen.<lb/> Art. 16 Auslieferung der
+                    Gefangenen.<lb/> Art. 17 Militärische Disziplin und Überwinterung der Truppen
+                    beider im Herzogtum<lb/> Preußen.<lb/> Art. 18 Einstellung aller Aktionen im
+                    Herzogtum Preußen für die Dauer des<lb/> Waffenstillstandes.<lb/> Art. 19
+                    Beistandspflicht bei Verletzung des Waffenstillstandes. Schutz des
+                    schwedischen<lb/> Besitzes in Preußen. Jurisdiktion. <lb/> Art. 20 Verhandlung
+                    über einen dauerhaften Frieden oder eine Verlängerung des<lb/> Waffenstillstands
+                    durch Kommissare binnen Jahresfrist. <lb/> Art. 21 Möglicher Einschluß
+                    Dänemarks, der Generalstaaten, Siebenbürgens, Bayerns, des<lb/> Kaisers binnen 5
+                    Monaten.<lb/> Art. 22 Einhaltung des Vertrages. Zustimmung Polens und Schwedens.
+                    Ausführung der<lb/> Bestimmungen. </p>
+            </div>
+            <div type="Kommentar">
+                <p>Der Waffenstillstand von Altmark zeigte auf, daß weder Schweden noch Polen in dem
+                    seit 1617 dauernden Krieg einen militärischer Sieg erringen konnten. Der
+                    Waffenstillstand war so ein settlement of exhaustion und ein strategic
+                    stalemate (Frost).<lb/> Schweden behielt de facto die Kontrolle über Livland
+                    nördlich der Drina. Elbing wurde Schweden zugesprochen, so daß dieses auch den
+                    Großteil der Zölle erhielt. Marienburg (und weitere Orte) wurden von Brandenburg
+                    für die Dauer des Waffenstillstandes sequestriert und sollten erst dann an
+                    Schweden fallen, wenn kein Frieden geschlossen werden würde. Bis dahin konnte
+                    Schweden vier Küstenstädte (darunter Pillau) als Pfand besetzen und behielt
+                    damit einen wichtigen Brückenkopf. <lb/>Das Ergebnis war für Schweden damit
+                    weitaus positiver als es die militärische Lage versprochen hatte. Polen zog aus
+                    dem Waffenstillstand keine Vorteile. Die Szlachta hatte König Sigismund jedoch
+                    mit dem Vorwurf, er hätte mit dem Beharren auf das schwedische Thronrecht den
+                    Krieg verschuldet, zur Annahme gedrängt, selbst als Gustav Adolf im Tausch für
+                    die Aufgabe dieses Anspruchs Livland angeboten hatte.<lb/>Kurz vor Ablauf des
+                    Waffenstillstandes einigten sich Polen und Schweden in Stuhmsdorf am <lb/>12.
+                    September 1635 auf eine Fortsetzung der Waffenruhe. </p>
+            </div>
+            <div type="Kontext">
+                <p>1572 <lb/>Mit dem Tod Sigismund II. August erlischt die Jagiellonendynastie im
+                    Mannesstamm. Polen wird Wahlmonarchie. <lb/>1587 <lb/>Mit Sigismund III.
+                    (schwedischer Kronprinz) wird erstmals ein Wasa auf den polnischen Thron gewählt
+                    <lb/>1592 <lb/>Nach dem Tod König Johann III. von Schweden wird Sigismund III.
+                    auch schwedischer König <lb/>Februar 1600 <lb/>Schweden schließt Sigismund III.
+                    und seine Nachkommen von der schwedischen Thronfolge aus. Herzog Karl von
+                    Södermanland wird zum König (Karl IX. ab 1604) berufen. <lb/>März 1600 <lb/>Die
+                    bewaffnete Auseinandersetzung zwischen Polen und Schweden beginnt. <lb/>27.
+                    September 1605 <lb/>Dreijähriger Waffenstillstand. <lb/>Ab 1609 <lb/>Polen
+                    greift militärisch in die Moskauer Wirren ein. <lb/>9. März 1617 <lb/>Friede
+                    von Stolbovo zwischen Schweden und Russland. Danach beginnt der <lb/>1617
+                    <lb/>Krieg zwischen Polen und Schweden um Livland erneut. <lb/>1618-1648
+                    <lb/>Dreißigjähriger Krieg. Polen bleibt offiziell neutral. <lb/>16. September
+                    1619 <lb/>Gustav II. Adolf erobert Riga und erreicht damit die schwedische
+                    Vorherrschaft über Livland <lb/>26. August 1625 <lb/>Schweden erobert Dorpat.
+                    <lb/>7. Januar 1626 <lb/>Polnisch-litauische Niederlage in Kurland. Schweden
+                    besetzt die kurländischen Häfen. <lb/>Juli 1626 <lb/>Schweden besetzt die Küste
+                    des Königlichen und des Herzoglichen Preußen. Damit wird der
+                    polnisch-schwedische Krieg nach Preußen hineingetragen. In zähen Kämpfen (auch
+                    auf der Ostsee) kann Schweden jedoch keine Erfolge erringen. <lb/>Juni 1629
+                    <lb/>Niederlage Schwedens bei Marienwerder. <lb/>26. September 1626
+                    <lb/>Waffenstillstand von Altmark <lb/>30. April 1630 <lb/>Tod König Sigismund
+                    III. Sein ältester Sohn W³adys³aw IV. wird zum König gewählt. Er erhält seine
+                    Ansprüche auf den schwedischen Thron aufrecht. Die Auseinandersetzung geht
+                    weiter. <lb/>12. September 1635 <lb/>Waffenstillstand zu Stuhmsdorf. W³adys³aw
+                    IV. verzichtet auf die Ansprüche auf den schwedischen Thron. Livland und Estland
+                    bleiben schwedisch. <lb/>1648 <lb/>Kosakenunruhen. <lb/>20. Mai 1648 <lb/>Tod
+                    W³adys³aw IV.; Johann III. Kasimir wird polnischer König. <lb/>Sommer 1655
+                    <lb/>Karl X. Gustav fällt in Polen ein. Beginn des Nordischen Kriegs, der am
+                    <lb/>3. Mai 1660 <lb/>mit dem Frieden von Oliva endet. </p>
+            </div>
+        </front>
+        <body>
+            <div type="Edition">
+                <p>Nos serenissimi, potentissimique principis ac domini, domini <rs ref="#pp0066"
+                        >Gustavi Adolphi</rs>, Suecorum, Gothorum, Wandalorumque regis, magni
+                    principis Finlandiae, ducis Esthoniae et Careliae, nec non Ingriae, d[omi]ni
+                    domini nostri clementissimi regnique Sueciae commissarii: <rs ref="#pp0067"
+                        >Axelius Oxenstierna</rs>, s[acr]ae regiae m[ajesta]tis regnique Sueciae
+                    senator et cancellarius, ad exercitum legatus. Partiumque s[acr]ae regiae
+                    m[ajesta]tis in Borussia subjectarum gubernator generalis, liber baro in
+                    Kÿmitho, d[omi]nus in Fÿholmen et Tydöen , eques auratus <rs ref="#pp0068"
+                        >Hermannus Wrangelius</rs>, s[acr]ae r[egi]ae m[ajesta]tis exercituum campi
+                    mareschallus, haereditarius in Ahlo et Skogcloster, et <rs ref="#pp0069"
+                        >Johannes Banerius</rs>, tribunus ac gubernator Höfftenensis, haereditatius
+                    in Mulhammer, eques auratus etc. Notum testatumque facmius universis quorum
+                    interest. Quod cum ad sopiendum hoc funestum bellum, cum serenissimo ac
+                    potentissimo principe ac domino, domino <rs ref="#pp0070">Sigismundo
+                    tertio</rs>, rege Poloniae, magno duce Lithuaniae<note type="crit_app" n="1"
+                        >Sverges Traktater: Lithvaniae (u/v Schreibvarianten werden im folgenden
+                        nicht mehr angemerkt).</note>, Russiae, Prussiae, Masoviae, Samogithiae,
+                    Livoniaeque, reque publica Polona gestum, serenissimus ac potentissimus princeps
+                    ac dominus, dominus <rs ref="#pp0071">Ludovicus XIII.</rs>, Franciae ac Navarrae
+                    rex christianissimus, legatum suum illustrissimum dominum <rs ref="#pp0072"
+                        >Herculem baronem de Charnace</rs>, equitem sui ordinis, cubicularium
+                    secretiorem ac tribunum, ac serenissimus et potentissimus princeps et dominus,
+                    dominus <rs ref="#pp0073">Carolus, Magnae Britanniae, Franciae et Hyberniae
+                        rex</rs>, fidei defensor, legatum suum illustrissimum dominum <rs
+                        ref="#pp0074">Thomam Roe</rs>, equitem auratum misissent. Hi postquam studio
+                    omni, summa fide ac dexteritate reducendae tranquillitati incubissent, seposito
+                    in praesens ad tempus certum, pacis perpetuae negotio, quo interim de hoc
+                    pacatius ageretur, eo rem Divina adjuvante bonitate, deduxerunt, ut congressi
+                    hisce diebus cum reverendissimis ac illustrissimis, illustribus, magnificis et
+                    generalis dominis commissariis serenissimi regis regnique Poloniae, domino <rs
+                        ref="#pp0075">Jacobo Zadzik</rs>, episcopo culmensi ac pomesaniae, regni
+                    Poloniae supremo cancellario, domino <rs ref="#pp0076">Jacobo Sobiesky</rs>,
+                    incisore regni crasnostaviensis, domino <rs ref="#pp0077">Georgio <note
+                            type="annotation" n="2">Jerzy Ossoliński (1595-1650), Wojewode von
+                            Sandomierz, Vizekanzler, Kronkanzler.</note>Osolinsky</rs> de Teczyn,
+                    dapifero regni, Adselensis, et domino <rs ref="#pp0078">Magno Ernesto
+                            Döenhoff<note type="annotation" n="3">Magnus Ernest Denhoff (1589-1648),
+                            Wojewode von Pommern.</note></rs>, Derpartensi capitaneis etc. de
+                    induciis ad modum sequentem convenerimus, statuerimus et concluserimus.</p>
+                <p>[Zusatz]<note type="crit_app" n="4">Sverges Traktater: Nos Sigismundus III., Dei
+                        gratia rex Poloniae, magnus dux Lithuaniae Russiae, Prussiae, Masoviae,
+                        Samogitiae, Livoniaeque etc. nec non Suecorum, Gothorum Vandalorumque
+                        haereditatius rex, notum facimus universis quorum interest, dedisse nos
+                        mense praeterito iulii commissarios nostros, plena potestate et mandatis
+                        instructos ad tractandum, interveniente mediatione christianissimi et
+                        serenissimi Ludowici XIII., Galliarum et Navarrae ac serenissimae Caroli
+                        Magnae Britanniae regum, de pace aut induciis cum serenissimo principe
+                        domino, domino Gustavo Adolpho, Suecorum, Gothorum Vandalorumquem rege,
+                        magno principe Finlandiae etc. cui hos titulos absque praeiudicio iuris
+                        nostri haereditarii tribuimus – consanguineo nostro, regnoque Sueciae. Qui
+                        congressi cum serenitatis eius commissariis sequentia pacta, uti verbotenus
+                        infra sunt expressa et inserta, inierunt. Nos commissarii serenissimi et
+                        potentissimi principis domini, domini Sigismundi III., regis Poloniae, magni
+                        ducis Lithuaniae, Russiae, Prussiae, Masoviae, Samogitiae Livoniaeque etc.
+                        nec non Suecorum, Gothorum Vandalorumque haereditarii regis, et regni
+                        Poloniae ac magni ducatus Lithuaniae, Jacobus Zadzik, episcopus Culmensis et
+                        Pomesaniae, regni Poloniae supremus cancellarius, Jacobus Sobiesky, incisor
+                        regni, Crasnostaviensis, Georgius Osolinsky de Tenczyn, dapifer regni,
+                        Adselensis, Magnus Ernestus Doenhoff, Derpartenis capitanei, notum
+                        testatumque facimus universis quorum interest, quod cum ad sopiendum hoc
+                        funestum bellum cum serenissimo ac potentissimo principe domino, domino
+                        Gustavo Adolpho, Suecorum, Gothorum Vandalorumque rege, magno principe
+                        Finlandiae, duce Careliae, domino Ingermanniae, regnoque Sueciae gestum,
+                        serenissimus ac potentissimus princeps ac dominus, dominus Ludowicus XIII.,
+                        Franciae et Navarrae rex, legatum suum illustrissimum dominum Herculem
+                        baronem Charnace, ac serenissimus et potentissimus princeps ac dominus,
+                        dominus Carolus, Magnae Britanniae rex, legatum suum illustrissimum dominum
+                        Thomam Roe, equitem auratum misissent; hi, adiunctis sibi serenissimi
+                        principis domini Georgii Wilhelmi, marchionis brandenburgensis, Sac[ri].
+                        Rom[ani]. Imperii electoris ac archicamerarii, in Prussia ducis,
+                        commissariis, magnificis ac generosis dominis Andrea a Kreyczen, supremo
+                        consiliario et capitaneo provinciali, Bernhardo a Kensik, consiliario
+                        provinciali, Georgio Rauschke, consiliario iudicii aulici ducatus Prussiae,
+                        postquam omni studio, summa fide et dexteritate, reducendae tranquillitati
+                        incubissent, sepostio in praesens ad certum tempus pacis perpetuae negotio,
+                        quo interim pacatius de hoc ageretur, eo rem Divina adiuvante bonitate
+                        deduxerunt, ut congressi hisce diebus cum illustrissimis dominis Axelio
+                        Oxenstierna, regni Sueciae senatore et cancellario, libero barone in
+                        Kimitho, domino in Fiholmen et Tidöen, equite aurato, Hermano Vrangelio,
+                        exercituum serenissimi regis Sueciae campimarschalco, haereditario in Ahlo
+                        et Scocloster, et Joanne Banerio, tribuno ac gubernatore Hofftensi,
+                        haereditario in Mulhammar, equite aurato, eiusdem regis regnique Sueciae
+                        commissariis. Georg Wilhelm (1620-1640), Kurfürst von Brandenburg. Andreas
+                        von Kreytzen (1579-1641), Landeshofmeister. Bernhard von Kensink [nicht
+                        ermittelt]. Georg Rauschken [nicht ermittelt].</note></p>
+                <p><note type="crit_app" n="5">Artikelzählung weicht bei Dumont ab, der Vertrag
+                        umfaßt hier 33 Artikel, hat jedoch den gleichen Inhalt.</note>[Art.
+                    1]<lb/>Sint ex hoc die induciae inter serenissimum principem dominum Gustavum
+                    Adolphum, regem Sueciae, dominum nostrum clementissimum s[acr]ae regiae
+                    m[ajesta]tis suae successores, reges Suecorum, regnumque Sueciae ex una parte et
+                    serenissimum principem, dominum Sigismundum tertium, regem Poloniae, magnum
+                    ducem Lithuaniae, suaeque m[ajesta]tis successores reges Poloniae et magnos
+                    duces Lithuaniae, regnumque Poloniae et magnum ducatum Lithuaniae ex altera
+                        parte<note type="crit_app" n="6">Sverges Traktater: inter sac[ram].
+                        Reg[iam]. m.[ajesta]tem Poloniae et Sueciae, magnum ducem Lithuaniae,
+                        dominum nostrum clementissimum, suaeque m[ajesta]tis successores reges
+                        Poloniae et magnos duces Lithuaniae, regnumque Poloniae et magnum ducatum
+                        Lithuaniae, ex una parte, et serenissimum regem Sueciae suaeque m[ajesta]tis
+                        posteros ac successores reges Suecorum regnumque Sueciae, ex altera
+                        parte</note> annis sequentibus sex, a data praesentium computando usque ad
+                    primam julii, stylo veteri<note type="crit_app" n="7">Sverges Traktater: XI.am
+                        iulii, stilo novo, anni MDCXXXV.</note> anni millesimi sexcentesimi,
+                    trigesimi quinti.</p>
+                <p>[Art. 2]<lb/>S[acra]. regia m[ajes]tas regnumque Sueciae abstineat
+                        durantibus<note type="crit_app" n="8">Sverges Traktater: Sacra reg[ia].
+                        m[ajes]tas regnumque Poloniae et magnus ducatus Lithuanaie, durantibus
+                        induciis, abstineat.</note> induciis omni hostilitate adversus regem,
+                    regnumque Poloniae et magnum ducatum Lithuaniae<note type="crit_app" n="9"
+                        >Sverges Traktater: serenissimum regem, regnumque Sueciae.</note> eisque
+                    subjectas provincias, castra, civitates et territoria, neque quicquam<note
+                        type="crit_app" n="10">Sverges Traktater: quidquam.</note> vel per se, vel
+                    per alios moliatur aut tentet, tentarive faciat, in horum detrimentum aut
+                    praeiudicium. Ad eundem modum serenissimus rex, regnumque Poloniae et magnus
+                    ducatus Lithuaniae durantibus induciis abstineat<note type="crit_app" n="11"
+                        >Sverges Traktater: serenissimus rex et regnum Sueciae abstineat, durantibus
+                        induciis.</note> omni hostilitate adversus regem regnumque Sueciae<note
+                        type="crit_app" n="12">Sverges Traktater: serenissimum regem regnumque
+                        Poloniae et magnum ducatum Lithuaniae.</note> eisque subjectas provincias,
+                    castra civitates et territoria, neque quicquam<note type="crit_app" n="13"
+                        >Sverges Traktater : quidquam.</note> vel per se, vel per alios moliatur aut
+                    tentet, tentarive faciat in horum detrimentum aut praejudicium.</p>
+                <p>[Art. 3]<lb/>Serenissimus rex Sueciae reddat serenissimo regi reique publicae
+                    Polonae Strasburgum in Culmensi<note type="crit_app" n="14">Erworben durch den
+                        Vertrag von Kulm [bislang noch nicht ermittelt].</note> tractu, cum suo
+                    territorio, Dirschaviam in Pomerellia, cum suo territorio, insulam<note
+                        type="crit_app" n="15">verges Traktater: [Einschub:] minorem.</note>
+                    Gedanensem, Gutstadium, Wormitum et Milsaccum<note>Sverges Traktater:
+                        Melsacum.</note> cum suis territoriis, in episcopatu Warmiensi<note
+                        type="crit_app" n="16">Sverges Traktater: Varmiensi.</note>; item ecclesiam
+                        Frauwenburgensem<note type="crit_app" n="17">Sverges Traktater:
+                        Frauenburgensem.</note>, cum suo adjecto oppidulo et pagis; tum Mithaviam in
+                    Semigallia, cum suo territorio, duci Churlandiae, hoc observato, ut Nova Munda
+                    et Spilven, cum iis quae cohaerent, ut in prioribus induciis factum est, Rigam
+                    sequantur, et Frawenburgum<note n="18" type="crit_app">Sverges Traktater.
+                        Frauenburgum (auch im Folgenden).</note> his legibus reddatur, ut portus
+                    Frawenburgensis cum tota Habi ripa ac<note n="19" type="crit_app">Sverges
+                        Traktater: et.</note> littore maneat in potestate regis Sueciae, reservatis
+                    Frawenburgensibus suo piscandi jure. Deinde ne Frawenburgum aut quis alius locus
+                    ejus territorii, stantibus induciis, muniatur, et ut iter regis Sueciae subditis
+                    ac militibus semper sit liberum per Frawenburgense territorium.</p>
+                <p>[Art. 4]<lb/>In Livonia utraque pars, uti nunc possidet, ita possideat,
+                    durantibus induciis, excepta Mitavia, uti in superiori articulo. In Prussia vero
+                    rex regnumque Sueciae retineat et possideat, uti possidet, Brunsbergam et
+                        Tolkemitum<note type="crit_app" n="20">Sverges Traktater: Tolkmitum.</note>
+                    cum suis territoriis, Elbingam cum suo territorio, tam in continente quam in
+                    utraque insula et insulam Fischaviensem<note type="crit_app" n="21">Sverges
+                        Traktater: Fischausensem.</note> integram. In majori insula ripam omnem
+                    Habi, incipiendo a territorio Elbingensi, usque ad ostium Vistulae, cum
+                    adjacentibus et propinquis pagis, Stobendorff, Habersdorff, et Allendorff; tum
+                    ad Vistulam Tigenort<note type="crit_app" n="22">Sverges Traktater:
+                        Tiegenort.</note>, atque inde ducta linea ad aggerem insularem cum ipso
+                    aggere et Kukukskrug<note type="crit_app" n="23">Sverges Traktater:
+                        Kukuxkruk.</note> usque ad Janckendorff<note type="crit_app" n="24">Sverges
+                        Traktater: Jankendorff (auch unten).</note>, et quicquid<note
+                        type="crit_app" n="25">Sverges Traktater: quidquid.</note> agri, vudo
+                        Butendyk<note type="crit_app" n="26">Sverges Traktater: Budendich.</note>,
+                    insularum aut paludum, cum inaedificatis aedibus, tabernis et structuris, quae
+                    insulam majorem et Neringiam interjacent, atque a Janckendorff inter aggerem
+                    insulare ac Neringiam in Habum usque procurrunt, una cum Cobelgrube,
+                    Gros&lt;ken&gt;gruk, Stuthoff<note type="crit_app" n="27">Sverges Traktater:
+                        Stuthof.</note>, Stegen<note>Sverges Traktater: Stein.</note>, atque hinc
+                    ducta in mare linea, quicquid<note type="crit_app" n="28">Sverges Traktater:
+                        quidquid.</note> Neringiae, Stegen atque Pillavaim interjacet, cum ipso
+                    portu Pillaviensi, salvis operis et excubiis circa reficiendos et conservandos
+                    aggeres, quas coloni earundem villarum statis temporibus praestare tenebuntur,
+                    more consueto.</p>
+                <p>[Art. 5]<lb/>Mariaeburgum cum insula maiori (excepto Elbingensi territorio et
+                    ripa pagisque supradictais) Stuma, capite Vistulae in Neringia, durantibus
+                    induciis, collocentur et sequestrentur in manu serenissimi principis domini <rs
+                        ref="#pp0079">Georgii Guilhelmi</rs>, marchionis et electoris
+                        Brandeburgensis<note type="crit_app" n="29">Sverges Traktater:
+                        Brandeburgici</note>, in Prussia ducis etc.<note type="crit_app" n="30"
+                        >Sverges Traktater: [Auslassung:] etc.</note>, hac lege, ut mense uno ante
+                    exitum induciarum, (si interea de principali negotio non convenerit),
+                    Mariaeburgum cum capite seu fortalitio Vistulae, Stuma et Maiori Insula, non
+                    aliter ac nunc tenentur ac possidentur, regi regnoque Sueciae reddantur ac
+                    restituantur, sine fraude doloque. </p>
+                <p>[Art. 6]<lb/>Pro<note type="crit_app" n="31">Sverges Traktater: [kein Absatz
+                        vor:] Pro.</note> majore securitate regis regnique Sueciae ratione
+                    recuperationis Mariaeburgi, capitis Vistulae et Stumae, serenissimus elector
+                    relinquat in manu regis Sueciae Fischausium et Lochstetum<note type="crit_app"
+                        n="32">Sverges Traktater: Lochstetium.</note> cum suis territoriis, et eam
+                    territorii Schakensis<note type="crit_app" n="33">Sverges Traktater:
+                        Sakensis.</note> partem, quae Neringiam ac lacum Churonicum<note>Sverges
+                        Traktater: Curonicum (auch unten).</note> spectat, Fischausenseque
+                    territorium cum Neringia et lacu connectit, prout inter regis Sueciae ac<note
+                        type="crit_app" n="34">Sverges Traktater: et.</note> electoris commissarios
+                    convenerit, tum ipsam Neringiam Churonicam ac demum Memelam<note type="crit_app"
+                        n="35">Sverges Traktater: Memelliam.</note> castrum et civitatem, cum suo
+                    territorio et haec possideat ac retineat<note type="crit_app" n="36">Sverges
+                        Traktater: territorio retineat ac possideat.</note> rex regnumque Sueciae
+                    eodem jure, quo nunc Mariaeburgum habet, donec aut hoc cum Insula,
+                        Vistulaeque<note type="crit_app" n="37">Sverges Traktater: Vistulae.</note>
+                    capite seu fortalitio, caeterisque, uti dictum est, redditum fuerit (quo casu
+                    illa serenissimo electori sine fraude doloque restituentur) aut per nova
+                    diuturnioris pacis pacta aliter convenerit.</p>
+                <p>[Art. 7]<lb/>In seqestrandis aut tradendis hisce, quae restituentur vel cautionis
+                    loco dabuntur, hic ordo observetur, ut, tradita regis Poloniae ratificatione,
+                    Strasburgum, Gutstadium, Wormitum, Melsaccum<note type="crit_app" n="38">Sverges
+                        Traktater: Melsacum.</note>, Frawenburgum et Dirschavia, deductis
+                    praesidiis, tradantur commisssariis regis regnique Poloniae intra di<note
+                        type="crit_app" n="39">Sverges Traktater: [Einschub:] ad summum.</note>es
+                    sex. Tradatur<note type="crit_app" n="40">Sverges Traktater: tradetur.</note>
+                    quoque Mariaeburgum et Stuma, deductis praesidiis regis Sueciae, serenissimo
+                    electori intra duodecim dies<note type="crit_app" n="41">Sverges Traktater: dies
+                        duodecim.</note>. Quo recepto Memelia<note type="crit_app" n="42">Sverges
+                        Traktater: Memellia.</note> commissariis regis Sueciae deducto praesidio
+                    electoris, intra dies octo consignabitur, ac demum caput Vistulae eidem electori
+                    deductis praesidiis, intra dies octo tradetur, idque omne, quicquid<note
+                        type="crit_app" n="43">Sverges Traktater: quidquid.</note> sit, sinde dolo
+                    ac fraude, a singulis et universis fiat ac praestetur, bona et principali fide,
+                    justitiaque de praesidiariis, si quam injuriam civibus et inculois ante et in
+                    abitu, sive etiam in transitu intulerint, vel pecunias exegerint,
+                    administretur.</p>
+                <p>[Art. 8]<lb/>Rex ac respublica Polona<note type="crit_app" n="44">Sverges
+                        Traktater: Sacra regia m[ajes]tas Poloniae ac respublica Polona.</note>
+                    nihil durantibus induciis moliatur at tentet adversus Mariaeburgum, Stumam<note
+                        type="crit_app" n="45">Sverges Traktater: [Einschub:] caput Vistulae
+                        aut.</note>, majorem Insulam<note>Sverges Traktater: vel Insulam
+                        maiorem.</note> aut caput Vistulae<note>Sverges Traktater: [Auslassung:] aut
+                        caput Vistulae.</note>, nec vi, nec alia quavis ratione, sed serenissimum
+                    electorem toto<note type="crit_app" n="46">Sverges Traktater: [Einschub:]
+                        hoc.</note> tempore ab omni periculo immunem praestet, locaque supradicta
+                    pacifice possidere patiatur.</p>
+                <p>[Art. 9]<lb/>Sit omnium anteactorum amnistia, et rex ac respublica Polona
+                    receptas in fidem suam civitates ac territoria singulosque cives et incolas omni
+                    meliori modo indemnes praestet, juribus ac privilegiis, quibus ante hoc bellum
+                    gavisis sunt, singuli ac<note type="crit_app" n="47">Sverges Traktater:
+                        aut.</note> tota communitas, non minus in posterum libere et sine cujusquam
+                    impedimento fruantur. Cunctae actiones adversus illos, qui partes regis Sueciae
+                    hoc bello secuti sunt, aut secuti esse insimulantur, quibuscunque in locis, sive
+                    restitutis, sive sequestrandis habitent; vel instituendae, vel institutae<note
+                        type="crit_app" n="48">Sverges Traktater. vel instituae vel
+                        instituendae.</note> cesset, et si quae intentae sunt, tollantur omnique
+                    careant executione tempore induciarum.</p>
+                <p>[Art. 10]<lb/>In locis sequestratis ecclesiae ac bona sacerdotum maneant ad
+                    eundem modum tempore induciarum, quo erant ante occupationem. Tum Brunsberga pro
+                    libero religionis catholicae usu templum Neustadense, et in districtu eodem rure
+                    tres ecclesiae concedantur. Neque vis aliqua<note type="crit_app" n="49">Sverges
+                        Traktater: [Auslassung:] aliqua.</note> aut injuria<note type="crit_app"
+                        n="50">Sverges Traktater: [Einschub:] aliqua.</note>illis inferatur,
+                    justitaque debita conquerentibus administretur. Evangelicis quoque salvo manente
+                    et libero in locis<note type="crit_app" n="51">Sverges Traktater: administretur.
+                        Salvo quoque et libero manente in.</note> sequestratis restitutisve, ubi
+                    antea viguit, publico suae religionis exercitio<note type="crit_app" n="52"
+                        >Sverges Traktater: „viguit, augustanae confessionis exercitio,“.</note>
+                    sine ullo impedimento et molestia. Parochi autem concessarum catholicis
+                    ecclesiarum supra nominatarum antiquis suis proventibus gaudeant.</p>
+                <p>[Art. 11]<lb/>Si cui aut quibus non placuerit in restituis civitatibus et
+                    territoriis manere, sed potius, mutato domicilio, se vel Elbingam, vel etiam ad
+                    exteros conferre, liberum sit cuilibet<note type="crit_app" n="53">Sverges
+                        Traktater. cuilibet sit.</note> sua divendere, aliis elocare aut pro
+                    l&lt;i&gt;bitu suo distrahere sine ullo impedimento aut onere, sub quocunque
+                    praetextu imponendo. Idem quoque liberum sit<note type="crit_app" n="54">Sverges
+                        Traktater: erit.</note> in iis locis, qui<note type="crit_app" n="55"
+                        >Sverges Traktater. quae.</note> in possessione regis regnique Sueciae
+                    remanebunt.</p>
+                <p>[Art. 12]<lb/>In locis restituendis et sequestrandis relinquantur bona fide omnia
+                    mobilia ecclesiarum, quae in praesens reperiuntur, uti sunt vasa et vestes
+                    sacrae, campanae, aliaque ad usum ecclesiarum servientia, tum libri
+                    cancellariae, privilegia et acta publica, si quae tamen temporum injuria a
+                    milite sunt direpta, aut reliquorum negligentia corrupta, ulterior in id
+                    inquisitio non instituantur, nec quisquam ad restitutionem teneatur. Tormenta
+                    itidem bellica et bombardae maiores, quae tempore occupationis inventae fuerant,
+                    et adhuc in civitatibus restitutis sunt, restituentur<note type="crit_app"
+                        n="56">Sverges Traktater: restituantur.</note> Tormenta vero et alia
+                    instrumenta bellica tot in quantitate et qualitate remaneant Mariaeburgi, et in
+                    capite Vistulae, quot ad electore in Memelia<note type="crit_app" n="57">Sverges
+                        Traktater: Memellia.</note> traditae<note type="crit_app" n="58">Sverges
+                        Traktater: tradita.</note> fuerint, sicut de hisce inter regem Sueciae atque
+                    electorem convenerit<note>Sverges Traktater: conventum fuerit.</note>. </p>
+                <p>[Art. 13]<lb/>Si s[acr]a regia m[ajes]tas<note type="crit_app" n="59">Sverges
+                        Traktater: serenissimus rex.</note> Suecaie aliqua bona mobilia, iure caduco
+                    vel communitatibus vel privatis et singulis largitus fuerit, ea serventur iis,
+                    quibus collata sunt.</p>
+                <p>[Art. 14]<lb/>Exercitus omnes, exceptis praesidiariis, ab utraque parte ex
+                    provincia deducantur, nec inposterum<note type="crit_app" n="60">Sverges
+                        Traktater: imposterum.</note> utrinque reducantur, stantibus induciis, multo
+                    minus in terras ac<note>Sverges Traktater: et.</note> ducatum<note
+                        type="crit_app" n="61">Sverges Traktater: [Einschub:] Prussiae.</note>, sub
+                    qualicunque praetextu mittantur.</p>
+                <p>[Art. 15]<lb/>Commercia et<note type="crit_app" n="62">Sverges Traktater:
+                        [Auslassung:] et.</note> itinera terra, fluminibus ac in portubus utrinque
+                    libera ac minime impedita sint, tam in regno Poloniae, quam<note type="crit_app"
+                        n="63">Sverges Traktater: [Einschub:] in.</note> magno ducatu Lithuaniae,
+                    nullaque vectigalia aut exactiones in terra aut fluminibus alterutra pars
+                    imponat, sed omnia maneant in hoc statu, prout ante hoc bellum fuerant.
+                    Defluitatio mercium ex magno ducatu Lithuaniae Regiomotum versus, nulla ratioe
+                    in Lacu Curonesi ex portu Memelensi<note type="crit_app" n="64">Sverges
+                        Traktater: Memelliensi.</note> impediatur, nullaque vectigalia in eodem<note
+                        type="crit_app" n="65">Sverges Traktater: praedicto.</note> lacu exigantur.
+                    Eadem libertate fruantur incolae magni ducatus Lithuaniae in commerciis per
+                    Dunam exercendis.</p>
+                <p>[Art. 16]<lb/>Omnes captivi utrinque detenti, cuiuscunque sint conditionis et
+                    status, nemine excepto, liberi et sine pretio<note type="crit_app" n="66"
+                        >Sverges Traktater: precio.</note>, ii qui in Prussia et<note
+                        type="crit_app" n="67">Sverges Traktater: [Einschub:] in.</note>
+                    vicinioribus palatinatibus, intra<note type="crit_app" n="68">Sverges Traktater:
+                        infra.</note> quindecim dies, qui in maiori et minore<note>Sverges
+                        Traktater: minori.</note> Polonia intra<note>Sverges Traktater:
+                        infra.</note> menses duos, qui in Russia et<note>Sverges Traktater:
+                        [Auslassung:] et.</note> Lithuania remotioribusque provinciis detinentur,
+                        intra<note type="crit_app" n="69">Sverges Traktater: infra.</note> menses
+                        tres<note>Sverges Traktater: tres menses.</note> dimittantur; idem servandum
+                    ex parte regis, ut ii<note type="crit_app" n="70">Sverges Traktater. Regis
+                        Sueciae, et ii.</note>, qui in hisce locis detinentur, intra<note
+                        type="crit_app" n="71">Sverges Traktater: infra.</note> quindecim dies, qui
+                    vero in Sueciam abducti aut<note type="crit_app" n="72">Sverges Traktater:
+                        vel.</note> in Livonia detinentur, intra<note type="crit_app" n="73">Sverges
+                        Traktater: infra.</note> tres menses dimittantur.</p>
+                <p>[Art. 17]<lb/>Praesidia utriusque partis ex locis ducatus Prussiae, ubi fuerint,
+                        deducantur<note type="crit_app" n="74">Sverges Traktater: [Einschub:]
+                        observata militari disciplina.</note>, nec miles ab utrinque observata
+                    militari disciplina<note type="crit_app" n="75">Sverges Traktater: [Auslassung:]
+                        observata militari dispciplina.</note> ducatum hybernis aliquibus
+                        gravabit<note>Sverges Traktater: gravet.</note>.</p>
+                <p>[Art. 18]<lb/>Si quae actiones cuipiam cujuscunque status et conditionis, in
+                    ducatu Prussiae occasione hujus belli intentae sunt, aut intentari possunt, eae
+                    durantibus induciis cessent ac desinant.</p>
+                <p>[Art. 19]<lb/>Si quis, quicunque is futurus sit, aut sub quocunque praetextu
+                    hisce pactis contravenire, effectum pactorum et restitutionem dictorum locorum
+                    impedire, aut si tertius quis, sub quocunque praetextu serenissimum regem
+                    regnumque Sueciae<note n="76" type="crit_app">Sverges Traktater: regem
+                        remquepublicam Polonam.</note> hic in Prussia infestare et armis<note n="77"
+                        type="crit_app">Sverges Traktater: [Auslassung:] armis.</note> aggredi
+                    voluerit, rex et respublica Polona<note n="78" type="crit_app">Sverges
+                        Traktater: rex regnumque Sueciae.</note> cum duce Borussiae, ordinibus
+                    regalis Borussiae et inprimis urbe Dantiscana<note n="79" type="crit_app"
+                        >Sverges Traktater: [Auslassung:] cum duce Borussiae, ordinibus regalis
+                        Borussiae et inprimis urbe Dantiscana.</note> spondeant ac promittant se
+                    arma cum s[acr]a reg[ia]. m[ajesta]te regnoque Sueciae<note n="80"
+                        type="crit_app">Sverges Traktater: rege regnoque Poloniae.</note>
+                    conjuncturos et id pro virili aversuros, neque haec pacta passuros ullo modo
+                    violari. Idem spondeat ac promittat serenissimus rex regnumque Sueciae<note
+                        n="81" type="crit_app">Sverges Traktater: serenissimus rex regnumque
+                        Poloniae, dux Prussiae, ordines regalis Prussiae et urbs Dantiscana.</note>
+                    se nullo modo passuros pacta haec violari, sed arma cum serenissimus rege ac
+                    republica Polona, ut et duce Borussiae et ordinibus regalis Borussiae, inprimis
+                    urbe Dantiscana<note n="82" type="crit_app">Sverges Traktater: serenissimo rege
+                        regnoque Sueciae. [statt:] serenissimus rege ac republica Polona, ut et duce
+                        Borussiae et ordinibus regalis Borussiae, inprimis urbe Dantiscana. </note>
+                    juncturos adversus quemcuque, qui hisce pactis contravenire, effectum pactorum
+                    et restitutionem dictorum locorum impedire, aut sub quocunque praetextu regem ac
+                    rempublicam Polonam<note n="83" type="crit_app">Sverges Traktater. praetextu
+                        regem regnumque Sueciae.</note> armis in Borussia<note n="84"
+                        type="crit_app">Sverges Traktater: Prussia.</note> infestare, aut huc
+                    penetrare aggressus fuerit, cunctaque imminentia mala pro virili adversuros<note
+                        n="85" type="crit_app">Sverges Traktater: [Absatz].</note>. Injurias, tam
+                    personales, quam reales, sub istas inducias incidentes una pars de altera non
+                    vindicabit, salva jurisdictione cujusque<note n="86" type="crit_app">Sverges
+                        Traktater: utriusque.</note> partis ordinaria, sed justita ab officialibus
+                    et magistratibus competenter requiratur, eademque indilata ab utrinque
+                    administretur, severaeque poenae in violatores pacis fide publica roboratae
+                    exerceantur. Nullaeque repressaliae aut arresta, tam terra, quam mari, ratione
+                    cujucunque injuriae, nisi justitia pluribus vicibus petita non administretur,
+                    admittantur, et si quae ante hoc bellum concessa sunt, cassentur, ita tamen ut
+                    iis, quibus concessa sunt, justitia administretur. Quod si quid gravius
+                    inciderit, quod violationem pactorum concernere videretur, dentur utrinque bini
+                    commissarii, qui loco aliquo medio<note n="87" type="crit_app">Sverges
+                        Traktater: [Auslassung:] medio.</note> inter Elbingam et Mariaeburgum<note
+                        n="88" type="crit_app">Sverges Traktater: Mariaeburgum et Elbingam.</note>
+                    assignato convenient<note n="89" type="crit_app">Sverges Traktater:
+                        conveniant.</note> controversiasque exortas sopient ac decident<note n="90"
+                        type="crit_app">Sverges Traktater: sopiant ac decidant.</note>. Idem in
+                    Livonia constituatur.</p>
+                <p>[Art. 20]<lb/>Cum induciae praesentes, eo fine conclusae sunt, ut tanto facilius
+                    sive de pace perpetua, sive longioribus induciis inter partes, christianorum
+                    principum interventu<note n="91" type="crit_app">Sverges Traktater: interventu
+                        christianorum principum.</note>, tractari possit, assignetur comissarii
+                    utrinque cum plenissimis mandatis, qui intra spacium<note n="92" type="crit_app"
+                        >Sverges spatium.</note> unius anni a data praesentium computando, loco et
+                    tempore, de quibus inter partes per serenissimum electorem conventu fuerit,
+                        convenient<note n="93" type="crit_app">Sverges Traktater:
+                    conveniant.</note>, ac de principali negotio, firmaque ac stabili pace,
+                    mediantibus amicis, tractent, qui, si rebus infectis (quod Deus avertat)
+                    discesserint, firmae maneant induciae, neque tamen occasiones reducendae
+                    perpetuae pacis ulterius omittantur.</p>
+                <p>[Art. 21]<lb/>Si hisce pactis ex parte s[acr]ae regiae <rs ref="#pp0066"
+                    >m[ajesta]tis regnique Sueciae</rs>, <rs ref="#pp0097">rex Daniae</rs><note
+                        n="94" type="annotation">Christian IV. (1588/96-1648), König von
+                        Dänemark.</note>, tum ordines generales confoederati Belgii et <rs
+                            ref="#pp0097">princeps Transylvaniae</rs><note n="95" type="annotation">Gábor
+                        Bethlen (1613-1629) Fürst von Siebenbürgen.</note> comprehendi et inseri
+                    velint, sit ipsis ejus facultas, modo se ad ista intra<note n="96"
+                        type="crit_app">[Einfügung zwischen den Zeilen].</note> quinque abhinc
+                    menses declaraverint.<lb/>Similiter ex parte serenissimi regis et reiublicae
+                    Polonae, <rs ref="#pp0003">Romanorum imperator</rs><note n="97" type="annotation"
+                        >Ferdinand II. (1619-1637), Kaiser.</note>, <rs ref="#pp0099">Hispaniarum
+                        rex</rs>, infans Hispaniarum<note n="98" type="annotation">Philipp IV.
+                        (1621-1665), König von Spanien.</note>, Belgii princeps, <rs ref="0100">dux
+                        et elector Bavariae</rs><note n="99" type="annotation">Maximilian I.
+                        (1598/1623-1651), Herzog und Kurfürst von Bayern.</note> comprehendi ac
+                    inseri velint, sit ipsis ejus facultas, modo se ad ista quinque ab hinc menses
+                    declaraverint.</p>
+                <p>[Zusatz]<note n="100" type="crit_app">Sverges Traktater: [Umstellung im gesamten
+                        Artikel:] Si hisce pactis ex parte sac[rae]. reg[iae]. M[ajesta]tis et
+                        reipublicae Polonae, serenissimus et potentissimus Romanorum imperator,
+                        Hispaniarum rex, infans Hispaniarum, Belgii princeps, dux et elector
+                        Bavariae comprehendi ac inseri velint sit ipsis eius facultas, modo se ad
+                        ista quinque ab hinc menses declaraverint. Similiter ex parte serenissimi
+                        regis regnique Sueciae, si hisce pactis rex Daniae, tum ordines generales
+                        confoederati Belgii et princeps Transylvaniae comprehendi et inseri velint,
+                        sit ipsis eius facultas, modo se ad ista quinque ab hinc menses
+                        declaraverint. </note></p>
+                <p>[Art. 22]<lb/>Ut pactis hisce firmius insistatur, certoque constet bona fide
+                    utrinque servatum iri, ita convenit, ut primo, redditis utrinque procuratoriis
+                    commissariorum, pacta haec manu et sigillo<lb/>Dominorum commissariorum<note
+                        n="101" type="crit_app">Sverges Traktater: [statt: Dominorum
+                        commissariorum:] eorundem.</note> firmarentur et vicissim redderentur. Tum
+                        ut<note n="102" type="crit_app">Sverges Traktater: [Einschub:]
+                        serenissimus.</note>
+                    <rs ref="#pp0070">rex Poloniae</rs> quantocius secundum praescriptam formulam
+                    confirmaret haec pacta, et antequam ullius loci fiat restituio, suam
+                    cconfirmationem traderet; deinde ut<note n="103" type="crit_app">Sverges
+                        Traktater: [Einschub:] serenissimus.</note>
+                    <rs ref="#pp0066">rex Sueciae</rs>, solenni instrumento suo, illa nomine suo et
+                    regni Sueciae rata haberet, et respublica Polona eadem in comitiis primo quoque
+                    tempore celebrandis<note n="104" type="crit_app">Sverges Trakteter: [Einschub:]
+                        solenniter.</note>, approbarent<note n="105" type="crit_app">Sverges
+                        Traktater: approbaret.</note>, atque confectis instrumentis ratificaret.
+                    Quae instrumenta solennia ad formulam praescriptam, nulla voce aut syllaba
+                    mutata, per utriusque partis deputatos comissarios<note n="106" type="crit_app"
+                        >Sverges Traktater: commissarios deputatos.</note>, quanto citius<note
+                        n="107" type="crit_app">Sverges Traktater: cyus.</note> poterit, ad limites
+                    territoriales inter Elbingam et Mariaeburgum sine mora aut excusatione reddi
+                    utrinque et recipi debenbunt. Ad eundem modum<note n="108" type="crit_app"
+                        >Sverges Traktater: [Einschub:] serenissimus.</note> elector Brandeburgicus
+                    promittat se Mariaeburgum et caput Vistulae cum Insula maiori et Stuma jure
+                    sequestrationis retenturum et mense uno aute exitum induciarum deductis suis
+                        praesidiis<note n="109" type="crit_app">Sverges Traktater: [Einschub:]
+                        serenissimo.</note> regi et regno Sueciae in manu<note n="110"
+                        type="crit_app">Sverges Traktater: manum.</note> redditurum, recepturus
+                    vicissim Memelam<note n="111" type="crit_app">Sverges Traktater:
+                        Memelliam.</note>, Fischausium et Lochstetium et Schakium<note n="112"
+                        type="crit_app">Sverges Traktater: [Auslassung:] et Schakium.</note>, uti
+                    ante convenit, et haec<note n="113" type="crit_app">Sverges traktater:
+                        hoc.</note> speciali instrumento spondeat ac promittat. Actum in campo ad
+                        Altemarck<note n="114" type="crit_app">Textvariante: Sverges Traktater: ad
+                        villam Altemarcke vulgo Starytarg. Sachanmerkung: Poln. Stary Targ,
+                        südwestlich von Marienburg gelegen.</note>, die decima quinta septembris
+                    stiili veteris anno millesimo sexcentesimo vigesimo nono<note n="115"
+                        type="crit_app">Sverges Traktater: vigesima sexta mensis septembris anno
+                        Domini MDCXXIX.</note>.</p>
+                <p>US, LS <lb/><rs ref="pp0067">Axelius Oxenstierna</rs><lb/><rs ref="#pp0068">H
+                    Wrangelius</rs> &lt;mp.&gt;<lb/><rs ref="#pp0069">Johanes Baner</rs>
+                    &lt;mp&gt;</p>
+                <p>[Zusatz]<note n="116" type="crit_app">Sverges Traktater: Nos itaque Sigismundus
+                        III., Dei gratia res Poloniae et Sueciae etc. promittimus et recipimus
+                        nostro et successorum nostrorum regum Poloniae et magnorum ducum Lithuaniae
+                        nomine, nos singula et universa capita, pactis suprascriptis inserta et
+                        comprehensa bona et regali fide approbare, laudare et ratihabere, sicut
+                        hisce approbamus, laudamus et ratihabemus, nec passsuros a nostratibus aut
+                        aliis ullo modo violari. In quorum maiorem fidem ac certitudinem hisce manu
+                        nostra subscripsimus et signum nostrum apponi iussimus. Datum Varsaviae die
+                        VIII mensis octobris anno Domini MDCXXIX regnorum nostrorum Poloniae XXXXII,
+                        Sueciae vero XXXVII anno. Sigismundus Rex. Petrus Zernoski, Cancellariae
+                        regiae M[ajesta]tis regens. </note>
+                    <lb/></p>
+            </div>
+        </body>
+        <back>
+            <listBibl>
+                <bibl xml:id="a9">
+                    <title level="a">Theatrum Europaeum (1629-09-25)</title>
+                    <title level="m">Theatrum Europaeum, Band 2 (1619-1632) Aus: Dokumentenarchiv
+                        der Universitätsbibliothek Augsburg (Drucke vor 1900 / Historische
+                        Geschichtswerke).</title>
+                    <biblScope>
+                        <graphic xml:id="A1Pnr1"
+                            url="https://www.ieg-friedensvertraege.de/dbimages/img_49e5977e62b73"/>
+                        <graphic xml:id="A1Pnr2"
+                            url="https://www.ieg-friedensvertraege.de/dbimages/img_49f56d8962dbc"/>
+                        <graphic xml:id="A1Pnr3"
+                            url="https://www.ieg-friedensvertraege.de/dbimages/img_49f56d914e56e"/>
+                    </biblScope>
+                </bibl>
+                <bibl>Seitz / Rosengren, Sveriges freder och fördrag, S. 23f.</bibl>
+                <bibl>Sundberg, Svenska freder och stillestånd, S. 235-238.</bibl>
+                <bibl>Robert Frost, The Northern Wars. War, State and Society in Northeastern Europe
+                    1558-1721. Harlow 2000.</bibl>
+            </listBibl>
+        </back>
+    </text>
+</tei:TEI>

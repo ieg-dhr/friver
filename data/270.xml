@@ -1,0 +1,642 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE tei SYSTEM "../resources/FriVer_DTD.dtd">
+
+<?xml-model href="../resources/FriVer.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns="http://www.tei-c.org/ns/1.0" xml:id="pa000299-0270">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title level="s">European peace treaties of the pre-modern era in data / Europäische Friedensverträge der Vormoderne in Daten (FriVer+)</title>
+                <title when="1727-04-16" xml:id="t270" when-custom="1727 IV 16" level="a" ref="https://www.ieg-friedensvertraege.de/treaty/t-270-1-de.html">Allianz- und Subsidienvertrag von Kopenhagen</title>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    Digital edition according to
+                    <ref target="http://www.tei-c.org/">TEI P5</ref>
+                </edition>
+                <funder>
+                    <ref target="https://www.text-plus.org/">TEXT+</ref>
+                </funder>
+                <editor role="http://id.loc.gov/vocabulary/relators/edt" ref="https://orcid.org/0000-0002-8741-5916">
+                    <persName>Jaap Geraerts</persName>
+                    <note>The transformation and enrichment of the data is done by Jaap Geraerts (IEG Mainz). The other members of the FriVer+ team are Fabian Cremer, Ines Grund, and Thorsten Wübbena (all IEG Mainz).</note>
+                    <note>
+                        The original data has been created by the
+                        <ref target="https://www.ieg-friedensvertraege.de">team of scholars</ref>
+                        who were part of the Europäische Friedensverträge der Vormoderne project. This project was lead by Prof. Dr. Heinz Duchhardt and was based at the Leibniz Institute of European History in Mainz.
+                    </note>
+                </editor>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>
+                    <orgName ref="http://www.isni.org/0000000119314040">Leibniz-Institut für Europäische Geschichte Mainz</orgName>
+                </publisher>
+                <distributor>
+                    <orgName ref="http://www.isni.org/0000000110101946">Universitäts- und Landesbibliothek Darmstadt</orgName>
+                </distributor>
+                <idno type="ISIL">http://lobid.org/organisation/DE-17</idno>
+                <date type="issued" when="2023-12-23"/>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">
+                        <p xml:lang="en">This file is licensed under the terms of the Creative Commons License CC-BY 4.0 (Attribution 4.0 International)</p>
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <repository xml:id="r13">Kopenhagen RA</repository>
+                <msDesc><p>Dänisches Reichsarchiv, Kopenhagen: Kongehusets og Rigets arkiv: Forholdet til udlandet (Traktater), E 2 Storbritannien nr. 7 a. 
+                </p> 
+                    <p>AAE Paris: M.A.E. Traités. Multilateraux 17270002. Traité pour la garantie du duché de Schleswig contre les attaques de la Russie.- Copenhague (UI). Siehe auch:&nbsp; 
+                    </p> 
+                    <p><ref target="http://www.doc.diplomatie.gouv.fr/BASIS/choiseul/desktop/choiseul/DDW?M=98&amp;K=17270002&amp;W=PAYS+%3D+%27Multilat%E9raux%27+ORDER+BY+SOUSSERIE/Ascend">Link zur Vertragsseite&nbsp; 
+                        <lb /></ref></p></msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>
+                    The data in this XML file, originally created by the project
+                    <ref target="https://www.ieg-friedensvertraege.de/vertraege">Europäische Friedensverträge der Vormoderne online</ref>
+                    has been transformed in accordance with
+                    <ref target="http://www.tei-c.org/">TEI P5</ref>
+                    as part of the project
+                    <ref target="https://www.ieg-mainz.de/en/research/research-projects/european-peace-treaties-of-the-pre-modern-era-in-data">Europäische Friedensverträge der Vormoderne in Daten (FriVer+)</ref>
+                </p>
+            </projectDesc>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="fr" xml:id="lan4">französisch</language>
+            </langUsage>
+        </profileDesc>
+    </teiHeader>
+    <standOff>
+        <listPerson>
+            <person role="signatory" xml:id="p32">
+                <persName ref="https://explore.gnd.network/gnd/4010877-6">
+                    <name>Dänemark</name>
+                </persName>
+            </person>
+            <person role="signatory" xml:id="p37">
+                <persName ref="https://explore.gnd.network/gnd/4018145-5">
+                    <name>Frankreich</name>
+                </persName>
+            </person>
+            <person role="signatory" xml:id="p42">
+                <persName ref="https://explore.gnd.network/gnd/4022153-2">
+                    <name>Großbritannien</name>
+                </persName>
+            </person>
+        </listPerson>
+        <listPlace>
+            <place xml:id="loc34">
+                <placeName ref="https://explore.gnd.network/gnd/4032399-7">Kopenhagen</placeName>
+            </place>
+        </listPlace>
+        <facsimile>
+            <surface xml:id="FacsPnr1">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_46268830c29d3"/>
+            </surface>
+            <surface xml:id="FacsPnr2">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_4626883f19a40"/>
+            </surface>
+            <surface xml:id="FacsPnr3">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_4626884da63cd"/>
+            </surface>
+            <surface xml:id="FacsPnr4">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_4626885c0ed7c"/>
+            </surface>
+            <surface xml:id="FacsPnr5">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_4626886b45804"/>
+            </surface>
+            <surface xml:id="FacsPnr6">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_4626888d9d535"/>
+            </surface>
+            <surface xml:id="FacsPnr7">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_4626889b58f08"/>
+            </surface>
+            <surface xml:id="FacsPnr8">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_462688a94755c"/>
+            </surface>
+            <surface xml:id="FacsPnr9">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_462688b7be728"/>
+            </surface>
+            <surface xml:id="FacsPnr10">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_462688eaca117"/>
+            </surface>
+            <surface xml:id="FacsPnr11">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_46268915ec2a5"/>
+            </surface>
+            <surface xml:id="FacsPnr12">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_46268925cce28"/>
+            </surface>
+            <surface xml:id="FacsPnr13">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_46268936c0285"/>
+            </surface>
+            <surface xml:id="FacsPnr14">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_46268945942ed"/>
+            </surface>
+            <surface xml:id="FacsPnr15">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_462689571c083"/>
+            </surface>
+            <surface xml:id="FacsPnr16">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_462689672ba06"/>
+            </surface>
+            <surface xml:id="FacsPnr17">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_462689762c92f"/>
+            </surface>
+            <surface xml:id="FacsPnr18">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_46268986f2c8d"/>
+            </surface>
+            <surface xml:id="FacsPnr19">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_46268a96a9054"/>
+            </surface>
+            <surface xml:id="FacsPnr20">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_46268aa433cea"/>
+            </surface>
+        </facsimile>
+    </standOff>
+    <text>
+        <body>
+            <div type="Transliteration">
+                <pb facs="#FacsPnr1"/><p> 
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; England A II <note n="1" type="crit_app">England A II: durchgestrichen.</note>
+                        <lb /> 
+                     
+                &nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Königlich Grossbritannischer Hof 
+                <lb /> 
+                &nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Nr. 7a 
+                    <lb /> 
+                 
+                <lb /> 
+                <lb /> 
+                <lb /> 
+                <lb /> 
+                <lb /> 
+                <lb />&nbsp;&nbsp; &nbsp;Alliance- og Subsidietraktat med England og Frankrig 
+                <lb /> 
+                &nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;(med hemmelige Artikler) 
+                    <lb /> 
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 16. April 1727. 
+                        <lb /> 
+                
+                </p> 
+                <p>&nbsp; 
+                </p> 
+                <p>&nbsp; 
+                </p> 
+                <p>&nbsp; 
+                </p> 
+                <p>&nbsp; 
+                </p> 
+                
+                <pb facs="#FacsPnr2"/><p>Comme Leurs Majestés le Roy de la Grande
+                <lb />Bretagne, et le Roy Tres Chretien Sont
+                <lb />toujours attentifs a remplir leurs Engage-
+                <lb />ments, et a veiller au repos &amp; a la Seure-
+                <lb />té de leurs Amis et Allies. Et Comme
+                <lb />Leurs dites Majesteés ont effectivement
+                <lb />lieu de croire que les Moscowites &amp; leurs
+                <lb />Adherans pourront bientot concerter
+                <lb />les moyens et Se disposer a venir atta-
+                <lb />quer les Etats de Sa Majesté le Roy de
+                <lb />Dannemarc, Soit pour oter par la force
+                <lb />a Sa Majesté Dannoise le Duché de
+                <lb />Sleswig ou Se preparer les moyens
+                <lb />d’executer d’autres Projets contraires
+                <lb />a la tranquilité du Nord et de la
+                <lb />Basse Saxe, et des Paÿs qui interessent
+                <lb />les Hauts Contractans dans le Cercle
+                <lb />de Westphalie, et d’autant que Leurs
+                <lb />Majestés Brittanique et Tres Chretienne
+                <lb />Sont Se fort interessées a Se precautio-
+                <lb />ner contre tout ce qui pouroit en
+                <lb />troublant la Paix desdits Paÿs donner
+                <lb />en même tems atteinte au Traitté 
+                <pb facs="#FacsPnr3"/>d’Hannovre, confirmatif Specialement
+                <lb />des Traittés de Westphalie, et a Semettre
+                <lb />en etat d’executer fidellement Les
+                <lb />Guaranties données contre toutte Inva-
+                <lb />Sion ou hostilitié de la part de la Cza-
+                <lb />rinne ou de quelque autre Puissance
+                <lb />que ce Puisse etre qui viendroit pour
+                <lb />attaquer le duché de Sleswig; Leurs
+                <lb />Majestés Brittanique, Dannoise, et Tres
+                <lb />Chretienne ont trouvé a propos de
+                <lb />donner Leurs pleins pouvoirs c’est a
+                <lb />dire Sa Majesté Brittanique au Sieur
+                <lb />Jean Lord Glenorchy, Chevalier de
+                <lb />lordre du Bain, et Envoyé Extraordinaire
+                <lb />de Sa Majesté le Roy de la Grande
+                <lb />Bretagne aupres de Sa Majesté le Roy
+                <lb />de Dannemarc etc. Ainsy que Sa
+                <lb />Majesté Dannoise a Ses Ministres Scavoir
+                <lb />le Sieur Ulrich Adolph de Holstein
+                <lb />Comte de Holstenbourg, Chevalier de
+                <lb />lordre de l’Elephant, Grand Chancelier,
+                <lb />Conseiller Privé du Conseil, et Chambellan
+                <lb />de Sa Majesté le Roy de Dannemarc etc.
+                <lb />le Sieur Jean Georg de Holsten Seigneur
+                <lb />
+                <pb facs="#FacsPnr4"/>de Möllenhagen, Chevalier de l’ordre de
+                <lb />l’Elephant, Conseiller Privé du Conseil, et
+                <lb />Gouverneur du Bailliage de Tondern,
+                <lb />de Sa Majesté le Roy de Dannemarc, etc.
+                <lb />et le Sieur Christian Ludowig de
+                <lb />Plessen Seigneur de Fusingöe, Silsöe,
+                <lb />et Glorup, Chevalier de lordre de Danebrog,
+                <lb />Conseiller Privé du Conseil de Sa Majeste
+                <lb />le Roy de Dannemarc etc.
+                <lb />Et Sa Majesté Tres Chretienne au Sieur
+                <lb />Pierre Blouet Comte de Camilly, Che-
+                <lb />valier Grand Croix de lordre de Saint
+                <lb />Jean de Jerusalem, Capitaine des
+                <lb />vaisseaux de Sa Majesté Tres Chretienne
+                <lb />et Son Ambassadeur Plenipotentiaire
+                <lb />aupres de Sa Majesté le Roy de Danemarc etc.
+                <lb />&nbsp;&nbsp; &nbsp;Lesquels ayant pesé meurement
+                <lb />touttes les circonstances du tems et
+                <lb />des dangers qui menacent les Etats
+                <lb />de Sa Majesté Dannoise et qui pour-
+                <lb />roient troubler le repos de la Basse
+                <lb />Saxe et des Paÿs Susmentionnés, Sont
+                <lb />convenus des Articles Suivants.
+                <lb />
+                <pb facs="#FacsPnr5"/>Article premier.
+                <lb />Sa Majesté Dannoise etant pleinement
+                <lb />persuadée, que Leurs Majestés Britanique
+                <lb />et Tres Chretienne, rempliront Leurs
+                <lb />engagements et Guaranties données
+                <lb />par rapport au Duché de Sleswig, et
+                <lb />feront tous les Efforts imaginables
+                <lb />pour maintenir le repos de la Basse
+                <lb />Saxe, Sa Majesté Dannoise, pour con-
+                <lb />courir a la même fin promet de
+                <lb />tenir Sur pied un Corps de Trouppes
+                <lb />de Vingt quatre Mille hommes, Leurs
+                <lb />Officiers, Equipages, et Artilleries, qui
+                <lb />S’assemblera Sans aucun retardement
+                <lb />au lieu qui Sera le plus a propos et
+                <lb />Se portera par tout ou besoin Sera
+                <lb />Sur les premiers avis certains qu’on
+                <lb />aura du mouvement des Trouppes
+                <lb />Moscovites, et de toutte autre Puissan-
+                <lb />ce que ce puisse être, qui viendroit
+                <lb />pour attaquer le Sleswig et pour
+                <lb />troubler le repos et la tranquilité
+                <lb />de la Basse Saxe et des Provinces 
+                <pb facs="#FacsPnr6"/>apartenantes aux Hauts Contractans
+                <lb />dans le Cercle de Westphalie.
+                <lb />
+                <lb />&nbsp;&nbsp; &nbsp;2.
+                <lb />Sa Majesté Dannoise Soblige en outre
+                <lb />a ce que ledit Corps de Trouppes de Vingt
+                <lb />quatre Mille hommes venant a Se
+                <lb />mettre en marche Elle auroit encore
+                <lb />alors sur pied un Corps de Six Mille
+                <lb />hommes lequel Seroit destiné a ren-
+                <lb />forcer ce Corps S’il en etoit besoin.
+                <lb />
+                <lb />&nbsp;&nbsp; &nbsp;3.
+                <lb />Et pour aider des a present Sa Majesté
+                <lb />Dannoise a soutenir la depense qu’Elle
+                <lb />Sera obligée de faire pour remplir
+                <lb />l’engagement porté par les precedens
+                <lb />articles, Sa Majesté Tres Chretienne
+                <lb />promet de faire payer a Sa Majesté
+                <lb />Dannoise un Subside Annuel de
+                <lb />Trois Cent cinquante Mille Rixdallers
+                <lb />argent Courant de Dannemarc le-
+                <lb />quel Sera continué pendant le 
+                <pb facs="#FacsPnr7"/>Cours de quatre années, a compter du
+                <lb />Jour de la Ratification du present
+                <lb />Traitté et payé exactement tous les
+                <lb />trois mois par avance a Hambourg.
+                <lb />
+                <lb />&nbsp;&nbsp; &nbsp;4.
+                <lb />Sa Majesté Tres Chretienne promet
+                <lb />encore pour Soulager Sa Majesté Dan-
+                <lb />noise d’une partie des fraix qu’Elle
+                <lb />auroit a faire dans les cas que lesdits
+                <lb />Vingt quatre Mille hommes Se mettent
+                <lb />en marche pour se rendre au Lieu
+                <lb />du Rendés vous, de prendre doux
+                <lb />Mille hommes a Sa Solde en Sorte
+                <lb />que S’agissant premierement de la
+                <lb />defense du Roy de Dannemarc, Sa
+                <lb />Majesté Tres Chretienne ne les payera
+                <lb />que Sur le pied de Neuf Mille dans la
+                <lb />proportion de ce que Sa Majesté
+                <lb />Dannoise donne a Ses Trouppes quand
+                <lb />Elles Sont en Campagne tant pour
+                <lb />la Solde de chaque Regiment d’Infante-
+                <lb />rie et de Cavallerie, que pour celle 
+                <pb facs="#FacsPnr8"/>de l’Etat Major de chaque Regiment
+                <lb />de l’Etat Major General, et de l’Artille-
+                <lb />rie proportionnée au nombre de doux
+                <lb />Mille hommes de Trouppes, Officiers et
+                <lb />autres gens necessaires pour Son
+                <lb />Service.
+                <lb />
+                <lb />&nbsp;&nbsp; &nbsp;5.
+                <lb />La Solde ainsy qu’il vient d’etre dit
+                <lb />ne commencera a être a la charge
+                <lb />de Sa Majesté Tres Chretienne que
+                <lb />du jour de la premiere revue qui Se
+                <lb />fera devant le Commissaire General
+                <lb />de Sa Majesté, lors que les Trouppes
+                <lb />Seront assemblées en Corps d’Armée
+                <lb />pour entrer en Campagne, le pre-
+                <lb />mier mois en Sera payé d’avance
+                <lb />et ainsy de mois en mois aussy long-
+                <lb />tems que Lesdites Trouppes Seront
+                <lb />Soldoyées par Sa Majesté Tres Chretienne.
+                <lb />
+                <lb />&nbsp;&nbsp; &nbsp;6.
+                <lb />Et quoy que Sa Majesté Tres Chretienne
+                <lb />pust pretendre avec justice, que le 
+                <pb facs="#FacsPnr9"/>Subside cesseroit au jour que la Solde
+                <lb />commenceroit a courir, cependant
+                <lb />comme il pouroit ariver que le paye-
+                <lb />ment de cette Solde viendroit avant
+                <lb />que le Roy de Dannemarc eut pu
+                <lb />recevoir un Secours effectif par ledit
+                <lb />Subside Sadite Majesté Tres Chretienne
+                <lb />veut bien consentir, a ce que Si ladite
+                <lb />Solde commencoit a courir avant
+                <lb />que le Roy de Dannemarc eut pu re-
+                <lb />cevoir deux années du Subside, alors
+                <lb />elle feroit continuer le Subside autant
+                <lb />de tems qu’il faudroit pour que le
+                <lb />Roy de Dannemarc touchat toujours
+                <lb />deux années du Subside compris ce
+                <lb />qui Seroit echeu et ce qui resteroit
+                <lb />a echoir, et Si apres lesdites deux
+                <lb />années lesdites Trouppes ne restent
+                <lb />plus a la Solde de Sa Majesté Tres C[hretien]ne
+                <lb />alors le Subside Stipulé dans le
+                <lb />troisieme Article continuera d’etre
+                <lb />payé a Sa Majesté Dannoise jusques 
+                </p>
+                <pb facs="#FacsPnr10"/><p> a la fin des quatre années qui est le 
+                    <lb />terme du present Traitté. 
+                    <lb /> 
+                    <lb />&nbsp;&nbsp; &nbsp;7. 
+                    <lb />Sa Majesté Tres Chretienne envoyera 
+                    <lb />Sur les lieux des qu’Elle en Sera requise 
+                    <lb />un Commissaire pour assister a la 
+                    <lb />Revuë qui Sera faitte desdites Trouppes, 
+                    <lb />pour Se mettre en marche le même 
+                    <lb />Commissaire prendra le nom des 
+                    <lb />Regimens qui passeront ainsy a 
+                    <lb />la Solde de Sa Majesté Tres Chretienne[;] 
+                    <lb />Il examinera S’ils Sont duement 
+                    <lb />equipés montés et armés. 
+                    <lb />&nbsp;&nbsp; &nbsp;La Collation des Charges vacantes<note n="2" type="crit_app">vacantes: über der Zeile nachgetragen.</note>&nbsp; et 
+                    <lb />l’Administration de la justice S’y 
+                    <lb />feront comme au paravant par 
+                    <lb />Sa Majesté Dannoise le Commissaire 
+                    <lb />General de Sa Majesté assistera a 
+                    <lb />touttes les deliberations pour les 
+                    <lb />Operations Militaires, Et quoy qu’il 
+                    <lb />ne Soit pas possible de Statuer da- 
+                    <lb />vance Sur les cas non avenu de la 
+                </p> 
+                <pb facs="#FacsPnr11"/><p>Guerre, L’on convient cependant en
+                <lb />General, que les douse Mille hommes
+                <lb />de Trouppes a la Solde de Sa Majesté
+                <lb />Tres Chretienne Sur le pied de Neuf
+                <lb />mille hommes Seront traittées en
+                <lb />tout dans une parfaitte egalité avec
+                <lb />les douse mille hommes entierement
+                <lb />a la Solde du Roy de Dannemarc.
+                <lb />
+                <lb />&nbsp;&nbsp; &nbsp;8.
+                <lb />S’il arrive que Sadite Majesté Tres
+                <lb />Chretienne ne crust plus avoir besoin
+                <lb />pour le Secours de Ses alliés de conti-
+                <lb />nuer le payement de la dite Solde
+                <lb />Elle Sera obligée d’en avertir Sa
+                <lb />Majesté Dannoise deux mois aupa-
+                <lb />ravant.
+                <lb />
+                <lb />&nbsp;&nbsp; &nbsp;9.
+                <lb />Sa Majesté Britanique de Son coté
+                <lb />tiendra prêt a marcher un Corps de
+                <lb />douse Mille hommes pour etre joint
+                <lb />aux Vingt quatre Mille hommes 
+                <pb facs="#FacsPnr12"/>de Trouppes Dannoises Susmentionnées
+                <lb />Sur les premiers avis certains qu’on
+                <lb />aura du mouvement des Trouppes
+                <lb />Moscovites ou de toutte autre Puissance
+                <lb />que se puisse être qui viendroit pour
+                <lb />ataquer le Sleswig et pour troubler
+                <lb />le repos et la tranquilité de la
+                <lb />Basse Saxe.
+                <lb />
+                <lb />&nbsp;&nbsp; &nbsp;10.
+                <lb />Sa Majesté Dannoise ayant fait
+                <lb />entendre a Sa Majesté Britanique
+                <lb />qu’Etant engagée par le present
+                <lb />Traitté de faire marcher un Corps
+                <lb />de Trouppes considerable dans la
+                <lb />Basse Saxe, Ses Provinces Maritimes
+                <lb />Se trouveroient exposées aux
+                <lb />entreprises de Ses Ennemis. Sa
+                <lb />Majesté Britanique etant toujours
+                <lb />disposée a pourvoir Selon Ses
+                <lb />engagements en bon et fidelle
+                <lb />Allié a la Seureté des Etats de Sa 
+                <pb facs="#FacsPnr13"/>Majesté Dannoise, promet et S’engage
+                <lb />d’envoyer au Secours de Sa Majesté
+                <lb />Dannoise Sur les premiers avis des
+                <lb />mouvements de la Flotte Moscovitte
+                <lb />qui donneront dejuste Sujets de crainte
+                <lb />une Escadre Suffisante de bons Vaisseaux
+                <lb />de Guerre pour aider a couvrir les Côtes
+                <lb />de mer de Sa dite Majesté Dannoise et
+                <lb />empecher que les Moscowites ne
+                <lb />puissent les attaquer.
+                <lb />
+                <lb />&nbsp;&nbsp; &nbsp;11.
+                <lb />Et quoy que Leurs Majestés Britanique
+                <lb />et Tres Chretienne ne Soient obligés a
+                <lb />aucun Secours fixe envers le Roy de
+                <lb />Dannemarc, cependant comme Elles
+                <lb />veuleut esloigner des Etats de ce
+                <lb />Prince toutte Invasion dont la
+                <lb />Suitte Seroit Sans doutte d’allumer
+                <lb />le feu de la Guerre, en violation du
+                <lb />Traitté d’Hannovre aussy bien que
+                <lb />des Traittés de Westphalie, qui les 
+                <pb facs="#FacsPnr14"/>obligeroient d’aller au Soutien de
+                <lb />Leurs Guaranties, et au Secours de
+                <lb />Leurs Alliés qui Seroient ataqués
+                <lb />ou en danger de l’Etre: a cette fin
+                <lb />Sa Majesté Tres Chretienne S’engage
+                <lb />de tenir toujours prêt un Corps au
+                <lb />moins de trente Mille hommes lequel
+                <lb />Corps Sera destiné des qu’Elle en
+                <lb />Sera requise a être porté par tout
+                <lb />ou le besoin Sera, et dont on con-
+                <lb />viendra, ou a faire les diversions
+                <lb />ou autres Operations necessaires
+                <lb />pour l’avantage commun et pour
+                <lb />la Seureté de Ses Alliés dans L’Empire
+                <lb />ou dans le Nord, et en même tems
+                <lb />Sa Majesté Britanique S’engage
+                <lb />de tenir aussy en Etat un autre Corps
+                <lb />de Trouppes qui ne pourra être
+                <lb />moindre de douse Mille hommes
+                <lb />pour être destiné de la même ma-
+                <lb />niere a être porté par tout ou le
+                <lb />besoin Sera et dont on conviendra
+                <lb />ou a faire les diversions ou autres 
+                <pb facs="#FacsPnr15"/>Operations necessaires pour la Seureté
+                <lb />de Ses Alliés dans l’Empire ou dans le
+                <lb />Nord Selon que le cas l’exigera.
+                <lb />
+                <lb />&nbsp;&nbsp; &nbsp;12.
+                <lb />Comme les Moscovites ou autres Trouppes
+                <lb />qui pouront Se joindre a eux pour
+                <lb />venir attaquer les Etats du Roy de
+                <lb />Dannemarc pour luy ôter le Duché
+                <lb />de Sleswig pouront tacher de passer
+                <lb />par les Paÿs Sujets au Roy de Prusse
+                <lb />ce que les Alliés Se persuadent que ce
+                <lb />Prince ne manquera pas de refuser;
+                <lb />En cas donc que la Czarinne ou toutte
+                <lb />autre Puissance, qui que ce puisse
+                <lb />etre voudroit forcer les Passages par les
+                <lb />Territoires du Roy de Prusse ou l’ataqueroient
+                <lb />ou luy feroient aucun tord ou domage
+                <lb />a cause du refus que Sa Majesté pouroit
+                <lb />faire de laisser passer par Ses Paÿs les
+                <lb />Moscovites ou leurs Adherans comme cy
+                <lb />dessus; alors les Roys Contractans feront
+                <lb />marcher leur Armée combinée au Secours
+                <lb />du Roy de Prusse et feront la Guerre a
+                <lb />ceux qui l’auront envahi ou troublé 
+                <pb facs="#FacsPnr16"/>Jusques a ce que l’attaque et danger
+                <lb />cesse, et que tout tord ou dommage Soit
+                <lb />reparé.
+                <lb />
+                <lb />&nbsp;&nbsp; &nbsp;13.
+                <lb />Les Ratifications du present Traitté
+                <lb />seront echangées a Copenhague dans
+                <lb />Six Semaines a compter du jour de
+                <lb />la Signature de ce Traitté ou plutôt
+                <lb />Si faire Se peut.
+                <lb />&nbsp;&nbsp; &nbsp;En foy de quoy Nous avons Signé
+                <lb />ce Traitté et y avons fait mettre les
+                <lb />Sceaux de nos Armes: Fait a
+                <lb />Copenhague ce 16me d’Avril l’An
+                <lb />Mille SeptCent vingt Sept.
+                <lb />
+                <lb />Glenorchy
+                <lb />[Lacksiegel]
+                <lb />
+                <lb />
+                </p>
+                <pb facs="#FacsPnr17"/><p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Articles Separés 
+                    <lb />&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; et Secrets. 
+                    <lb /> 
+                    <lb />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Premier 
+                </p> 
+                <p> 
+                    <lb />Quoy que Sa Majesté Tres Chretienne 
+                    <lb />puisse justement pretendre que les 
+                    <lb />Trouppes qu’Elle prend a Sa Solde 
+                    <lb />luy deussent preter Serment cepen- 
+                    <lb />dant Sa Majesté Dannoise ayant 
+                    <lb />resolu de Commander en personne 
+                    <lb />l’Armée Combinée, on est convenu 
+                    <lb />par consideration pour Sa Majesté 
+                    <lb />Dannoise de S’en remettre a Sa 
+                    <lb />parole Royalle pour agir confor- 
+                    <lb />mement aux engagemens qu’Elle 
+                    <lb />a pris par le Traitté Signé ce jourd’huy 
+                    <lb />mais S’il arivoit que Sa Majesté 
+                    <lb />Dannoise changeat Sa resolution 
+                    <lb />Susditte et que les Roys Contractans 
+                    <lb />trouvassent a propos de Separer 
+                    <lb />le Corps de Trouppes pour l’avantage 
+                    <lb />de la cause commune, alors lesdites 
+                </p>
+                <pb facs="#FacsPnr18"/><p>Trouppes a la Solde de Sa Majesté
+                <lb />Tres Chretienne luy preteroient le
+                <lb />Serment en la forme ordinaire.
+                <lb />
+                <lb />&nbsp;&nbsp; &nbsp;2.
+                <lb />Comme Leurs Majestés Britanique
+                <lb />et Tres Chretienne font des Efforts
+                <lb />extraordinaires pour les Interets du
+                <lb />Roy de Dannemarc, Sa Majesté
+                <lb />Dannoise promet de ne point dis-
+                <lb />poser d’aucune partie de Ses Trouppes
+                <lb />Soit directement ou indirectement
+                <lb />contre les interets de Leurs Majestés
+                <lb />Britanique et Tres Chretienne, et
+                <lb />on convient que pendant que ce
+                <lb />Traitté durera, Sa Majesté Danoise
+                <lb />ne donnera ni ne vendra aucune
+                <lb />partie de Ses Trouppes a quelque
+                <lb />Puissance que ce Soit qu’apres en
+                <lb />être concertee avec Leurs Majestés
+                <lb />Britanique et Tres Chretienne
+                <lb />contre les interets desquels Elle
+                <lb />promet de ne rien faire, S’engageant 
+                <pb facs="#FacsPnr19"/>même de S’oposer par tout ou besoin
+                <lb />Sera a tout ce qui pouroit etre fait
+                <lb />ou projetté de contraire par quelque
+                <lb />Puissance que ce Soit ce que Leurs Ma_
+                <lb />jestés Britanique et Tres Chretienne
+                <lb />promettent reciproquement.
+                <lb />
+                <lb />&nbsp;&nbsp; &nbsp;3.
+                <lb />Lon est convenu que Si Sa Majesté Tres
+                <lb />Chretienne desiroit employer lesdits
+                <lb />douse Mille hommes qu’Elle paye Sur
+                <lb />le pied de neuf Mille, pour des affaires
+                <lb />qui n’ayant aucun rapport a la
+                <lb />Seurete du Roy de Dannemarc n’inte-
+                <lb />resseroient que le bien du Service de Sa
+                <lb />Majesté Tres Chretienne, ou celuy de l’Al-
+                <lb />liance d’Hannovre, alors le Roy de Dan-
+                <lb />nemarc ne feroit aucune difficulté de les
+                <lb />donner au Service de Sa Majesté Tres Chret[ien]ne
+                <lb />et dont on conviendroit Six Semaines apres
+                <lb />la demande qui en auroit eté faitte par
+                <lb />Sa Majesté Tres Chretienne.
+                <lb />
+                <lb />&nbsp;&nbsp; &nbsp;4.
+                <lb />Et attendu que Si les Moscovites venoient
+                <lb />par Terre pour penetrer dans le Nord
+                <lb />et troubler la Paix de l’Empire ils ne
+                <lb />pouroient point avoir d’autre passage 
+                <pb facs="#FacsPnr20"/>que par les Etats de Pologne et que l’on ne peut
+                <lb />douter que ce Royaume ne Se Souvienne
+                <lb />encore des desordres qu’y ont commis
+                <lb />les Moscovites il y a peu d’années, L’on
+                <lb />est convenu par le present Article de
+                <lb />communiquer au Roy et a la Republique
+                <lb />de Pologne le concert que l’on a formé
+                <lb />pour empecher leur entrée dans l’Empire
+                <lb />et de les inviter a prendre aussy de leur
+                <lb />coté les mesures les plus efficaces pour
+                <lb />fermer aux Moscovites les passages
+                <lb />qu’ils voudroient prendre Sur les Terres
+                <lb />de la Republique de Pologne.
+                <lb />&nbsp;&nbsp; &nbsp;Fait a Copenhague ce 16me d’Avril
+                <lb />l’An Mille Sept Cent vingt Sept.
+                <lb />
+                <lb />Glenorchy
+                <lb />[Lacksiegel]
+                <lb />
+                </p>
+            </div>
+        </body>
+    </text>
+</tei:TEI>

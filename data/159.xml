@@ -1,0 +1,627 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE tei SYSTEM "../resources/FriVer_DTD.dtd">
+
+<?xml-model href="../resources/FriVer.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns="http://www.tei-c.org/ns/1.0"
+    xml:id="pa000299-0159">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title level="s">European peace treaties of the pre-modern era in data / Europäische
+                    Friedensverträge der Vormoderne in Daten (FriVer+)</title>
+                <title when="1682-09-14" xml:id="t159" when-custom="1682 IX 4_14" level="a"
+                    ref="https://www.ieg-friedensvertraege.de/treaty/t-159-1-de.html"
+                    >Defensivvertrag von Neuhaus</title>
+            </titleStmt>
+            <editionStmt>
+                <edition> Digital edition according to <ref target="http://www.tei-c.org/">TEI
+                        P5</ref>
+                </edition>
+                <funder>
+                    <ref target="https://www.text-plus.org/">TEXT+</ref>
+                </funder>
+                <editor role="http://id.loc.gov/vocabulary/relators/edt"
+                    ref="https://orcid.org/0000-0002-8741-5916">
+                    <persName>Jaap Geraerts</persName>
+                    <note>The transformation and enrichment of the data is done by Jaap Geraerts
+                        (IEG Mainz). The other members of the FriVer+ team are Fabian Cremer, Ines
+                        Grund, and Thorsten Wübbena (all IEG Mainz).</note>
+                    <note> The original data has been created by the <ref
+                            target="https://www.ieg-friedensvertraege.de">team of scholars</ref> who
+                        were part of the Europäische Friedensverträge der Vormoderne project. This
+                        project was lead by Prof. Dr. Heinz Duchhardt and was based at the Leibniz
+                        Institute of European History in Mainz. </note>
+                </editor>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>
+                    <orgName ref="http://www.isni.org/0000000119314040">Leibniz-Institut für
+                        Europäische Geschichte Mainz</orgName>
+                </publisher>
+                <distributor>
+                    <orgName ref="http://www.isni.org/0000000110101946">Universitäts- und
+                        Landesbibliothek Darmstadt</orgName>
+                </distributor>
+                <idno type="ISIL">http://lobid.org/organisation/DE-17</idno>
+                <date type="issued" when="2023-12-23"/>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">
+                        <p xml:lang="en">This file is licensed under the terms of the Creative
+                            Commons License CC-BY 4.0 (Attribution 4.0 International)</p>
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <repository xml:id="r21">Muenster StA/LA</repository>
+                <msDesc>
+                    <p>Nordrhein-Westäflisches Staatsarchiv Münster, Fürstentum Münster 12, Nr. 45
+                        (Hauptvertrag: Abschrift; Separatartikel: Unterhändlerinstrument) </p>
+                    <p>Weitere Stücke: ebd. Nr. 40: Ratifikation Brandenburgs, Potsdam 1682 X 1/11.
+                        Ratifikation Dänemarks 1682 IX 19/29. <lb/>
+                    </p>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p> The data in this XML file, originally created by the project <ref
+                        target="https://www.ieg-friedensvertraege.de/vertraege">Europäische
+                        Friedensverträge der Vormoderne online</ref> has been transformed in
+                    accordance with <ref target="http://www.tei-c.org/">TEI P5</ref> as part of the
+                    project <ref
+                        target="https://www.ieg-mainz.de/en/research/research-projects/european-peace-treaties-of-the-pre-modern-era-in-data"
+                        >Europäische Friedensverträge der Vormoderne in Daten (FriVer+)</ref>
+                </p>
+            </projectDesc>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="de" xml:id="lan2">deutsch</language>
+            </langUsage>
+        </profileDesc>
+    </teiHeader>
+    <standOff>
+        <listPerson>
+            <person role="signatory" xml:id="p27">
+                <persName ref="https://www.wikidata.org/wiki/Q157367">
+                    <name>Brandenburg - Preußen</name>
+                </persName>
+            </person>
+            <person role="signatory" xml:id="p32">
+                <persName ref="https://explore.gnd.network/gnd/4010877-6">
+                    <name>Dänemark</name>
+                </persName>
+            </person>
+            <person role="signatory" xml:id="p78">
+                <persName ref="https://explore.gnd.network/gnd/4040608-8">
+                    <name>Münster</name>
+                </persName>
+            </person>
+        </listPerson>
+        <listPlace>
+            <place xml:id="loc14">
+                <placeName ref="https://explore.gnd.network/gnd/4216012-1">Neuhaus</placeName>
+            </place>
+        </listPlace>
+        <facsimile>
+            <surface xml:id="FacsPnr1">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_44281f4116cb3"/>
+            </surface>
+            <surface xml:id="FacsPnr2">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_4428202f57701"/>
+            </surface>
+            <surface xml:id="FacsPnr3">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_44282135bbce2"/>
+            </surface>
+            <surface xml:id="FacsPnr4">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_4428222569aae"/>
+            </surface>
+            <surface xml:id="FacsPnr5">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_442823276fb76"/>
+            </surface>
+            <surface xml:id="FacsPnr6">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_442823b46710f"/>
+            </surface>
+            <surface xml:id="FacsPnr7">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_442824c611b6e"/>
+            </surface>
+            <surface xml:id="FacsPnr8">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_4428259f201ea"/>
+            </surface>
+            <surface xml:id="FacsPnr9">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_44282767cf100"/>
+            </surface>
+            <surface xml:id="FacsPnr10">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_44284b92d40c0"/>
+            </surface>
+            <surface xml:id="FacsPnr11">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_44284ca38458a"/>
+            </surface>
+            <surface xml:id="FacsPnr12">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_44284d4059a92"/>
+            </surface>
+            <surface xml:id="FacsPnr13">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_44284e19dfad4"/>
+            </surface>
+            <surface xml:id="FacsPnr14">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_44284f2a17e08"/>
+            </surface>
+            <surface xml:id="FacsPnr15">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_442850f423f55"/>
+            </surface>
+            <surface xml:id="FacsPnr16">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_4428530321b43"/>
+            </surface>
+            <surface xml:id="FacsPnr17">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_442857b901e33"/>
+            </surface>
+            <surface xml:id="FacsPnr18">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_442859596acb4"/>
+            </surface>
+            <surface xml:id="FacsPnr19">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_44286107d7347"/>
+            </surface>
+            <surface xml:id="FacsPnr20">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_4428745d6d236"/>
+            </surface>
+            <surface xml:id="FacsPnr21">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_442876efe72ec"/>
+            </surface>
+            <surface xml:id="FacsPnr22">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_4428776edc5e0"/>
+            </surface>
+            <surface xml:id="FacsPnr23">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_442877e47ea56"/>
+            </surface>
+        </facsimile>
+    </standOff>
+    <text>
+        <front>
+            <div type="Drucke">
+                <p>Danmark-Norges Traktater 7, S. 633-640 (Hauptvertrag), 641-643
+                    (Separatartikel).</p>
+            </div>
+            <div type="Inhalt">
+                <p>Art. 1 Defensiver Bündnischarakter. Beistand. </p>
+                <p>Art. 2 Enges Bündnis. Vertrauliche Kommunikation. </p>
+                <p>Art. 3 Keine gegen diese Allianz gerichteten Bündnisse. </p>
+                <p>Art. 4 Verhütung eines Krieges zwischen Frankreich und dem Reich. </p>
+                <p>Art. 5 Beistand, falls in einem anzunehmenden Krieg ein Vertragspartner behelligt
+                    wird. </p>
+                <p>Art. 6 Neutralität. Ausnahme: Reichskrieg. </p>
+                <p>Art. 7 Einschluß Holsteins, Delmenhorst, Oldenburg, alle Gebiete diesseits der
+                    Elbe. </p>
+                <p>Art. 8 Truppenstärke für den Vertragsfall gemäß Art. 5. </p>
+                <p>Art. 9 Mögliche weitere Hilfe. </p>
+                <p>Art. 10 Unverzügliche Hilfe. </p>
+                <p>Art. 11 Kommando der Hilfstruppen. Justiz. </p>
+                <p>Art. 12 Material. </p>
+                <p>Art. 13 Verpflegung, Besoldung. </p>
+                <p>Art. 14 Organisation der Verpflegung. </p>
+                <p>Art. 15 Durchzug. Modalitäten. </p>
+                <p>Art. 16 Kommunikation bei gemeinsamem Vorgehen. </p>
+                <p>Art. 17 Regelungen für interne Spannungen. </p>
+                <p>Art. 18 Beitrittsmöglichkeit. </p>
+                <p>Art. 19 Vertragsdauer. </p>
+                <p>Art. 20 Ratifikation </p>
+                <p>&nbsp; </p>
+                <p>Separatartikel </p>
+                <p>1. Präzisierung Art. 5. </p>
+                <p>2. Regelung für Waffenhilfe in Schleswig. </p>
+                <p>3. Mitteilung an Frankreich . </p>
+                <p>&lt;Beigabe zu Art. 5&gt;&nbsp; </p>
+                <p>&nbsp; </p>
+                <p>&nbsp; </p>
+                <p>&nbsp; </p>
+            </div>
+        </front>
+        <body>
+            <div type="Transliteration">
+                <pb facs="#FacsPnr1"/>
+                <p>[Seite 1] <lb/>&nbsp; <lb/>Nachdeme der Allerdurchläuchtigster,
+                    <lb/>Großmächtigster Fürst undt Herr, Herr <lb/>Christian der Fünffte König zu
+                    <lb/>Dennemarck, Norwegen p. tit. <lb/>Wie auch der durchlauchtigste Fürst
+                    <lb/>undt Herr, Herr Fridrich Wilhelm, <lb/>Marggraff zu Brandenburg, des
+                    <lb/>Heÿl[igen] Röm[ischen] Reichs Ertz Cämmerer, <lb/>undt Churfürst p. tit.
+                    Undt der <lb/>Hochwürdigster, Hochgebohrer&nbsp; Fürst <lb/>undt&nbsp; Herr
+                    Ferdinand Bischoff <lb/>zu Paderborn undt Münster p. tit. <lb/>beÿ sich erwogen,
+                    wie große Un- <lb/>sicherheit, schade undt gefahr ihren <lb/>allerseits Landen
+                    wegen der ietzo <lb/>&lt;weit aufsehenden&gt; Zeiten, undt ferner
+                    <lb/>begeblichen gefahr zuwachßen <lb/>könne, undt wie Sie auß angeborner
+                    <lb/>undt schüldiger Landt Vatterlicher <lb/>vorsorge verbunden, solchen be-
+                    <lb/>vorstehenden unheil &lt;nechst&gt; Gött- <lb/>lichen Beÿstandt nach allen
+                    er- <lb/>sinnlichen Kräfften undt Vermögen <lb/>zu begegnen undt vorzubawen,
+                    <lb/>&nbsp; <pb facs="#FacsPnr2"/>[Seite 2] <lb/>
+                    <lb/>So haben Sie diensam undt nötig <lb/>erachtet, zu Ihrer, undt Ihrer
+                    <lb/>Lande mehrer versicherung wieder <lb/>alle unziemliche gewaldt, zu&lt;r&gt;
+                    <lb/>Beÿbehaltung ruhe undt Friedens <lb/>sich näher zusammen zu verei-
+                    <lb/>nigen, undt nur auf gegenwer- <lb/>tige gefährliche conjunctur ge-
+                    <lb/>richtete Defensivalliance undt <lb/>Bundtnüs under sich zu handeln,
+                    <lb/>undt zu schließen, alß Sie dan <lb/>Ihro hierzu ende underschrieben
+                    <lb/>Ministros aller Seits hierzu in- <lb/>gnaden verordnet, undt Bevoll-
+                    <lb/>mächtiget, haben selbige auff <lb/>gepflogene weisse berathschlagung
+                    <lb/>undt nach beschehener allerseitigen <lb/>extradition undt außwechßelung
+                    <lb/>der original Volmachten biß auff <lb/>Ihrer […] Königl[ichen] Maÿ[es]t[ä]t,
+                    Churfürstl[ichen] <lb/>D[urch]l[auch]t, undt Hochfürstl[ichen] D[urch]l[auch]t
+                    gnä- <lb/>digste genehmhaltung undt rati- <lb/>fication nachfolgende puncten
+                    <lb/>abgehandelt undt geschloßen. <lb/>
+                    <lb/>1. Erstlich soll diese Zusammensetzung <lb/>
+                    <pb facs="#FacsPnr3"/>[ Seite 3] <lb/>
+                    <lb/>Undt defensivalliance zu keines <lb/>menschen Beleidigung oder offen-
+                    <lb/>sion angesehen, sondern bloß zur <lb/>Beschützung undt conservation
+                    <lb/>allerseits Hoher Herren Allÿrten, <lb/>dero Lande undt&nbsp; Underthanen,
+                    auch <lb/>sonsten habenden Jurium wieder <lb/>allerhandt gewaldthätige
+                    eingriffe, <lb/>wie auch denen Reichs Constitu- <lb/>tionibus undt executions
+                    ord- <lb/>nungen zu wiederlauffende <lb/>zunöhtigungen, Uberführungen,
+                    <lb/>invasiones, durchzüge, quartier- <lb/>Sammel- undt Muster Plätze, Con-
+                    <lb/>tributiones, exactiones, undt <lb/>undertrückungen, wie die nahmen
+                    <lb/>haben, undt von weme undt <lb/>under welcherleÿ prætext es ge- <lb/>schehe
+                    undt herrühren mögten, <lb/>gemeinet undt gerichet seÿe. <lb/>
+                    <lb/>2. Zu welchem ende dan Höchstgn[ädige] <lb/>Herren Confoederierte einander
+                    <lb/>in rechten vertrawen meinen, <lb/>mit rath undt that deßfalß beÿ
+                    <lb/>einander festiglich halten, einer <lb/>
+                    <pb facs="#FacsPnr4"/>[Seite 4] <lb/>
+                    <lb/>des anderen bestes beforderen, schaden <lb/>undt arges &lt;wa&gt;hren undt
+                    wehren, <lb/>uber alle begebenheiten, worauß <lb/>unruhe undt gefahr entstehen
+                    <lb/>könte, wie auch, was zu deren <lb/>abwendung gereichen mögte, <lb/>fleißig
+                    undt verträwlich com- <lb/>municiren, undt consultiren, <lb/>auch, wo möglich,
+                    mit einander <lb/>gleichmeßige undt solche mesures <lb/>nehmen wollen, welche
+                    dem Reich <lb/>undt deßen allgemeinen freÿ- <lb/>undt sicherheit zuträglich sein
+                    <lb/>können, wie Sie dan auch Ihren <lb/>auf Reichs- undt Craißtägen, <lb/>undt
+                    sonsten habenden Ministris <lb/>anbefehlen wollen, verträwliche
+                    <lb/>correspondentz, undt communica- <lb/>tion mit einander zu pflegen. <lb/>
+                    <lb/>3. Es will ferner keiner der Herrn <lb/>Confoederirten einige Bundtnüs
+                    <lb/>oder pacta mit jemand, wer <lb/>der auch seÿe, in handlung nehmen,
+                    <lb/>vielweniger eingehen, dardurch <lb/>denen übrigen Herrn Confoederirten <lb/>
+                    <pb facs="#FacsPnr5"/>[Seite 5] <lb/>
+                    <lb/>&lt;oder&gt; dero Allÿrten directè vel <lb/>per indirectum schaden oder
+                    nach- <lb/>theil zu wachsen könte, sondern <lb/>was einen, oder anderen deßfalß
+                    <lb/>oder sonsten von dergleichen foe- <lb/>deribus offerirt undt proponirt
+                    <lb/>wirdt, soll Er dene übrigen ver- <lb/>träwlich communiciren, auch die-
+                    <lb/>selbe nach deren belieben in alle <lb/>künfftigen foedera mit einschließen
+                    <lb/>undt Ihr bestes nach möglichkeit <lb/>darinnen beobachten. <lb/>
+                    <lb/>4. Nachdem der Christenheit undt <lb/>absonderlich&nbsp; dem Röm[ischen]
+                    Reich, im <lb/>fall gegenwertiger zwischen Ihrer <lb/>Kaÿ[ser]l[ichen]
+                    Maÿ[estä]t, undt dem Reich Eines <lb/>undt Ihrer Königl[ichen] Ma ÿ[estä]t zu
+                    Franck- <lb/>reich anderen Theils sich ent- <lb/>&lt;f&gt;altenden differentien
+                    in der <lb/>güte nicht beÿzulegen, sondern <lb/>es &lt;seÿe&gt; gleich zu einer
+                    allge- <lb/>meiner, oder particuliere <lb/>rupture außgeschlagen solten,
+                    <lb/>ein &lt;gewisser&gt; Verderb, großer <lb/>jammer, undt gerewliche Blut-
+                    <lb/>Vergießung vor augen schwebt, <lb/>
+                    <pb facs="#FacsPnr6"/>[Seite 6] <lb/>
+                    <lb/>So versprechen die Herren Confoede- <lb/>rirten zu abwandelung, undt Ver-
+                    <lb/>hütung solchen unheils aller- <lb/>dienlicher Orten durch zusammen
+                    <lb/>gesetzten Fleiß, wie bißhero, alß <lb/>hinferner die consilia pacis <lb/>zu
+                    recommendiren undt zu ur- <lb/>giren, auch zudem ende sowohl <lb/>beÿ
+                    de&lt;…&gt;st wegen specialiter <lb/>angestelten Conventibus, alß <lb/>auch
+                    gemeinen Reichs- undt <lb/>Craiß Versamblungen, wie nicht <lb/>weniger sonsten
+                    an denen be- <lb/>nöhtigten Höfen unablässiger <lb/>ermahnung&nbsp; undt
+                    instantz zur <lb/>thun, daß auf die in vorschlag <lb/>gebrachte conditiones,
+                    oder so- <lb/>&lt;gut&gt; sie sonst von Franckreich zu <lb/>erhandeln , alle
+                    mißhelligkeiten, <lb/>undt gravamina abgethan, undt <lb/>durch einen deutlichen
+                    bestendigen <lb/>ewigen Friedens tractat hin- <lb/>gelegt werden mögten. <lb/>
+                    <lb/>5. Sollte aber wieder alle Zuversicht <lb/>
+                    <pb facs="#FacsPnr7"/>[Seite 7] <lb/>
+                    <lb/>durch vorerwehnte Consilia undt <lb/>wohlmeinende&nbsp; gute Officia deren
+                    <lb/>Hohen Herren Confoederirten, der <lb/>löblich intendirende Zweck <lb/>eines
+                    bestendigen Friedens <lb/>nicht zu erreichen sein, sondern <lb/>durch Gottes
+                    ver&lt;h&gt;ängnis es <lb/>zu einer rupture kommen, <lb/>undt ein, oder ander
+                    der Herren <lb/>Allÿrten sowohl vor- alß beÿ- <lb/>undt nach erfolgender
+                    rupture, <lb/>solcher zu Beÿbehaltung des Friedens, <lb/>undt Ruhestandts, undt
+                    abwendung <lb/>aller gefährlichen &lt;witterungen&gt; <lb/>im Röm[ischen] Reich
+                    zu &lt;.&gt;enden auff- <lb/>richtigen intention undt rath- <lb/>schlägen halber
+                    oder sonsten von <lb/>jemanden, wer der auch seÿ, in <lb/>seinen Landen undt
+                    Provincien, <lb/>wie auch an seinen Rechten undt <lb/>Gerechtigkeiten dem
+                    Instrumento <lb/>Pacis undt Reichs Satzungen zu- <lb/>wieder ohne gegebene
+                    ursach, oder <lb/>Zunöhtigung&nbsp; beeinträchtigt und <lb/>angegriffen, mit
+                    Werbungen, <lb/>Muster Plätzen, einquartierung, <lb/>Standtquartieren,
+                    durchzügen <lb/>
+                    <pb facs="#FacsPnr8"/>[Seite 8] <lb/>
+                    <lb/>Contributionen, proviand- undt mu- <lb/>nition lieferung, oder dergleichen
+                    <lb/>auflagen undt Zumuthungen <lb/>gravirt, turbirt und verfolget <lb/>werden,
+                    oder daß solches geschehen <lb/>würde, gewisse nachricht vorhan- <lb/>den sein,
+                    solchen falß sollen undt <lb/>wollen die übrige Herren Bundts-
+                    <lb/>&nbsp;genoßen sich deßen trewlich <lb/>annehmen, undt demselben mit
+                    <lb/>der in diesem foedere verein- <lb/>barten hülffe undt Manschafft
+                    <lb/>würcklich zu assistiren verbun- <lb/>den sein. <lb/>
+                    <lb/>6.&nbsp; Ferner ist hiebeÿ abgeredet undt <lb/>bedungen, daferne wieder
+                    alles <lb/>verhoffen auf einer oder anderen weiß <lb/>wieder Ihre Königl[iche]
+                    Maÿ[es]t[ä]t zu Franck- <lb/>reich&nbsp; eine particuliere rupture <lb/>undt
+                    ohne ein förmblich Reichs- <lb/>Conclusum erfolgte, dass die Herrn
+                    <lb/>Confoederirte mit ihrem Reichs- <lb/>undt Craiß Contingent darzu <lb/>nicht
+                    concurriren, noch dardurch <lb/>die kriegende Parthÿen ver- <lb/>stärcken
+                    wollen; Solte aber <pb facs="#FacsPnr9"/>[Seite 9 ] <lb/>
+                    <lb/>Imgleichen rupture durch ein all- <lb/>gemeines Reichs Conclusum re-
+                    <lb/>solvirt werden, bleibt es beÿ <lb/>dem, was ieder der Herren Bundts-
+                    <lb/>Verwandten sich hierüber schon <lb/>anderwerths declarirt, undt er-
+                    <lb/>betten hat. <lb/>
+                    <lb/>7. Gleich wie aber die Herren Allÿrte <lb/>verschiedner Reiche,
+                    Fürstenthümber <lb/>undt Lande in Besitz haben, undt <lb/>die meinung nicht ist,
+                    dieses <lb/>foedus auff alsolche undt außer <lb/>Reichs gelegene zu extendiren,
+                    <lb/>also werden an seiten Ihrer Königl[ichen] <lb/>May[estä]t zu Dennemarck das
+                    hertzog- <lb/>thumb Holstein, sambt den Graff- <lb/>scahfften Oldenburg undt
+                    Delmen- <lb/>horst, an seiten Ihrer Churfürstl[ichen] <lb/>D[urch]l[aucht] zu
+                    Brandenburg, undt Ihrer <lb/>Hochfürstl[ichen] Gnaden zu Paderborn, <lb/>undt
+                    Münster aber alle dero <lb/>dießseits der Elbe gelegenen Fürsten- <lb/>thümber,
+                    Graff- und Herschafften <lb/>in vorberürtes Bündtnus, undt <lb/>mutuellen schutz
+                    eingeschlossen. <lb/>
+                    <lb/>8. Derer haben sich höchstgn[ädige] Herren <lb/>Bundtgenoßen wegen des
+                    quanti <lb/>der leistenden Hülff für &lt;…&gt;mahl, <lb/>
+                </p>
+                <pb facs="#FacsPnr10"/>
+                <p>[Seite 10] <lb/>
+                    <lb/>&lt;…&gt; ohne consequentz und salvâ <lb/>Imperij matriculâ dergestalt ver-
+                    <lb/>glichen, daß Ihre Königl[iche] May[estä]t <lb/>zu Dennemarck mit
+                    dreÿhundert <note type="crit_app" n="1">Notiz am Rand: vid. not.</note>&nbsp;
+                    <lb/>fünffzig zu pferdt, undt Eintau- <lb/>sent, fünffzig zu fueß, S[eine] Chur-
+                    <lb/>fürstl[iche] M[ayestä]t zu Brandenburg- <lb/>mit Sechs hundert&nbsp; zu
+                    pferdt, <lb/>undt Ein tausent, acht hundert <lb/>zu Fueß S[eine]
+                    Hochfürstl[iche] Gn[aden] zu <lb/>Paderborn undt Münster, wan Sie <lb/>solten
+                    von jemand in art[icul]o 5.to <lb/>bedeuteter maßen attacquirt <lb/>oder
+                    beunrühiget werden, Selbige <lb/>aber hingegen auf gleichen fall <lb/>S[eine]
+                    Königl[iche] May[estä]t , undt Churfürstl[iche] <lb/>D[urchlauch]t mit dreÿ
+                    hundert zu pferdt <lb/>undt Neun hundert zu Fueß as- <lb/>sistiren und helffen
+                    sollen undt <lb/>wollen; Woferne auch derjenige, <lb/>welcher die Hülff begehrt,
+                    einige <lb/>dragoner verlangen solte, soll der <lb/>requisitus, wofern Er darmit
+                    <lb/>versehen, &lt;…&gt; darmit an Handt <lb/>zu gehen verbunden sein, undt alß-
+                    <lb/>dan Zwö&lt;hn&gt; dragoner für dreÿ zu <lb/>Fueß gerechnet werden. <lb/>
+                </p>
+                <pb facs="#FacsPnr11"/>
+                <p>[Seite 11] <lb/>
+                    <lb/>9. Sollte diese verglichene Hülffe zu <lb/>abwendung der den beleidigten zu
+                    <lb/>gestoßenen gefahr undt schaden <lb/>nicht zureichend sein, alßdan
+                    <lb/>wollen die Herren Bundtsgenoßen <lb/>sich mit einander wegen derelben
+                    <lb/>verstärckung ad duplum, vel <lb/>triplum usque vereinigen undt <lb/>die
+                    hülff &lt;…&gt; mahl nach propor- <lb/>tion der noth undt gefahr deter-
+                    <lb/>miniren undt einrichten, &lt;wie dan &gt; <lb/>auch in des requirenten
+                    Wilkühr <lb/>stehet, die Stipulirte Hülffe ent- <lb/>weder gantz, oder zum theil
+                    zu- <lb/>begehren. <lb/>
+                    <lb/>10.&nbsp; Ein jeder von denen Herren Bundts- <lb/>genoßen ist schuldig, die
+                    stipulirte <lb/>Hülffe sobaldt, alß nach gelegenheit <lb/>der Lande möglich,
+                    undt auf das- <lb/>längste binnen sechs wochen à dato <lb/>requisitionis in des
+                    requirienten <lb/>Lande würcklich undt ohne eintzige <lb/>auß- oder wiederrede
+                    undt verzo- <lb/>gerungen,&nbsp; under waßerleÿ prætext <lb/>es auch sein mögte,
+                    zu sistiren, <lb/>dabeÿ aber nicht verbunden, &lt;um&gt;b- <lb/>
+                    <pb facs="#FacsPnr12"/>[Seite 12] <lb/>
+                    <lb/>Deß willen mit dem attacquirenden <lb/>Theil in ruptur zu tretten, iedoch
+                    <lb/>beÿ demselben alle mögliche gute <lb/>officia zu des beleidigten Satis-
+                    <lb/>faction undt sicherheit nach euße- <lb/>rster möglichkeit zu interponiren,
+                    <lb/>Es mögen aber solche officia einig <lb/>effect haben, oder nicht, so blei-
+                    <lb/>ben die requisiti doch nichts <lb/>desto weniger schüldig, die verglichene
+                    <lb/>Hülff würcklich zu leisten, auch dar- <lb/>mit so lang zu continuiren, biß
+                    der <lb/>beleidigte Theil in seinem vorigen <lb/>standt, worin Er ante
+                    turbationem <lb/>vel invasionem gewesen, plena- <lb/>riè restituirt, der
+                    zugefügte schade <lb/>undt tort auch gebührendt reparirt <lb/>undt erstattet
+                    seÿe, Es were dan, <lb/>daß die assistenetes selbst überzogen <lb/>oder
+                    vergewaltiget, undt dieselbe <lb/>zu ihrer eigenen defension undt <lb/>rettung
+                    der auxiliar Völcker, <lb/>gantz oder zum Theil vonnöhten <lb/>haben mögten. <lb/>
+                    <lb/>11.&nbsp; Beÿ erfolgender conjunction bleibt <lb/>dem commandirenden
+                    officier <lb/>
+                    <pb facs="#FacsPnr13"/>[Seite 13] <lb/>
+                    <lb/>der auxiliar trouppen das commando <lb/>undt die justiz über selbige ohne
+                    <lb/>eintzigen eingriff oder hinderung, <lb/>welcher doch gute ordre undt Kriegs
+                    <lb/>disciplin zu halten, undt die Uber- <lb/>tetter&lt;n&gt; ohne einigen
+                    auffschub, conni- <lb/>ventz, oder absehen exemplariter <lb/>zu strafen schüldig
+                    sein soll, das <lb/>general commando aber im feldt <lb/>undt denen actionibus
+                    milita- <lb/>ribus, wie auch in Vestungen, wan <lb/>von denen auxiliar trouppen
+                    <lb/>etwas darin eingenohmen werden <lb/>sollte, bleibt dem ienigen Allyrten,
+                    <lb/>undt deßen General, welchem die <lb/>Hülffe zugesandt wirdt, iedoch daß
+                    <lb/>nichts haubtsachliches vorgenohmen <lb/>werde, ohne dass die sach vorhero
+                    <lb/>im Kriegsrath, undt in Beÿsein des <lb/>von dem anderen Allyrten ge-
+                    <lb/>schickten Generals, oder comman- <lb/>direnden officiers überlegt undt
+                    <lb/>resolvirt werden. <lb/>
+                    <lb/>13. Der requirent ist schüldig, die <lb/>zu denen Kriegsoperationen benö-
+                    <lb/>tigte schwere Stück, munition, <lb/>
+                    <pb facs="#FacsPnr14"/>[Seite 14] <lb/>
+                    <lb/>Undt was sonsten zur feldt artillerie <lb/>gehörig, auf seine Kosten zur
+                    Handt <lb/>zu schaffen, womit Ih&lt;nen&gt; doch die <lb/>requisiti, wan Sie
+                    dergleichen <lb/>in der nähe im vorraht haben, <lb/>undt deßen ohne schaden ent-
+                    <lb/>rahten können, gegen billimeßige <lb/>Zahlung undt satisfaction an
+                    <lb/>Handt gehen werden, wie dan <lb/>auch die requisiti Ihre trouppen <lb/>mit
+                    einigen regiments- undt <lb/>kleinen stücken zu versehen <lb/>gehalten sein. <lb/>
+                    <lb/>13. D&lt;ie&gt; Jenige, welche die Hülff leisten, <lb/>seindt schüldig,
+                    dieselbige mit be- <lb/>höriger verpflegung undt gage zu <lb/>versehen, der
+                    requirent aber <lb/>muß die vorsehung thun, damit <lb/>denen auxiliar trouppen
+                    das be- <lb/>nötigte proviand undt hartfuter <lb/>umb billigen preiß, undt wie
+                    Er <lb/>es für seine Völcker haben kan, zur <lb/>handt geschaffet, undt
+                    übergelaßen <lb/>werden möge, Rauhfutter undt <lb/>graß aber wirdt denen
+                    auxiliar <lb/>Völckern ohnentgeldtlich gereichet <lb/>undt verstattet. <lb/>
+                </p>
+                <pb facs="#FacsPnr15"/>
+                <p>[Seite 15]&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    &nbsp; <lb/>
+                    <lb/>14. Beÿ würcklicher leistung der hülff <lb/>soll zwischen allerseits
+                    Bundts- <lb/>genoßen wegen einrichtung der <lb/><note type="crit_app" n="2">Anm.
+                        am Rand: vid.not.&nbsp;</note> Verpflegungs ordonnance, for- <lb/>mierung
+                    der regimenter undt Compagni- <lb/>en, dabeÿ gehöriger regiments- <lb/>Stücken,
+                    undt anderer dergleichen <lb/>sachen richtige abrede genohmen, <lb/>undt
+                    mögliche gleicheit in allen <lb/>dingen observirt, auch alle confec- <lb/>tion
+                    undt verwirrung außerster <lb/>möglichkeit nach præca&lt;virt&gt; undt
+                    <lb/>verhuetet werden. <lb/>
+                    <lb/>15. Keiner von denen Hohen Herrn Allÿrten <lb/>soll durch des anderen Lande
+                    un- <lb/>nötige durchzüge begehren, wan <lb/>aber solches die unumbgängliche
+                    Noth <lb/>der Lande situation nach erfordert <lb/>soll es damit nach dem marché
+                    <lb/>reglement, worüber man sich vor- <lb/>oder beÿ außwechßelung der
+                    <lb/>ratification vergleichen wirdt, <lb/>allerdings gehalten, undt dar-
+                    <lb/>wieder nicht gehandelt werden. <lb/>
+                    <lb/>16. Falß in dem Röm[ischen] Reich, oder auf <lb/>dessen Gräntzen&nbsp;
+                    einige troublen <lb/>
+                    <lb/>
+                    <pb facs="#FacsPnr16"/>[Seite 16] <lb/>
+                    <lb/>Entstünden, welche daßselbe, undt <lb/>mithin die Herren Allÿrte undt
+                    <lb/>deren Lande involviren könten, <lb/>darüber wollen sie mit allen sofort
+                    <lb/>verträwlich communiciren, undt <lb/>von dem ienigen, was Sie deshalber
+                    <lb/>in erfahrung bringen,&nbsp; einer dem <lb/>anderen umbstandtliche nachricht
+                    <lb/>geben, sondern auch zeitig mit- <lb/>einander uberlegen undt concer-
+                    <lb/>tiren, ob undt wie man dießseits <lb/>zu deroselben &lt;…&gt;pir- undt
+                    &lt;dempfung&gt; <lb/>gütliche officia entweder conjunctim <lb/>oder jeder
+                    absonderlich, seiner ge- <lb/>fälligkeit nach, zu offeriren, undt
+                    <lb/>anzuwenden habe. <lb/>
+                    <lb/>17. Ob auch zwischen denen Herrn Con- <lb/>foederirten undt&nbsp; dero
+                    Underthanen <lb/>einige Nachbarliche irrungen <lb/>oder streitigkeiten in
+                    obgesetzen <lb/>dero Landen (welches doch nicht &nbsp; <lb/>verhoftet wirdt)
+                    entstünden, <lb/>soll doch dieses Bundtnüs undt <lb/>aufrichtige freundt- undt
+                    Nach- <lb/>barschafft nichts desto weniger <lb/>
+                    <pb facs="#FacsPnr17"/>[Seite 17] <lb/>
+                    <lb/>Bestendige undt unverbrüchlich <lb/>underhalten, vorangeregte ir-
+                    <lb/>rungen auchnicht anderst, alß <lb/>entweder viâ juris, oder per
+                    <lb/>amicabilem compositionem ge- <lb/>schlichtet, undt abgetahn, keines
+                    <lb/>wegs aber deßhalber viâ facti <lb/>verfahren werden. <lb/>
+                    <lb/>18. Da auch andere Reichs Stände, so- <lb/>gleiche friedens intention mit
+                    <lb/>denen Herrn Bundtsgenoßen führen, <lb/>beliebung trügen, in dieses foedus
+                    <lb/>mit einzutretten, wollen die <lb/>Hohe Herrn Allÿrte auff erhaltene
+                    <lb/>nachricht darüber communiciren, <lb/>undt sich ratione accessionis, <lb/>et
+                    conditionum vergleichen. <lb/>
+                    <lb/>19. Obiges Verbündtnis nun soll von <lb/>dato an auff dreÿ Jahr sich er-
+                    <lb/>strecken, undt ein halbes Jahr vor <lb/>dero ablauff wegen nöhtiger
+                    <lb/>prorogation gehandelt werden, <lb/>da man aber beÿ endigung <lb/>solcher
+                    Zeit in würcklicher <lb/>gefahr, oder Kriegs operation <pb facs="#FacsPnr18"
+                    />[Seite 18] <lb/>
+                    <lb/>Begriffen, soll das foedus, undt was <lb/>man&nbsp; vermöge deßselben zu
+                    præsti- <lb/>ren hat, so lange, biß die gefahr, <lb/>undt operation vorbeÿ,
+                    conti- <lb/>nuiren. <lb/>
+                    <lb/>20. Schließlich soll dieser Tractat <lb/>von aller seits Herrn Princi-
+                    <lb/>palen innerhalb sechs wochen <lb/>à dato dieses oder , so viel mög-
+                    <lb/>lich eher ratificirt, undt sothaner <lb/>ratificationes zu Minden ge-
+                    <lb/>höriger maßen außgewechselt <lb/>werden. Deßen zu Urkundt, <lb/>undt daß
+                    obiges alles also ver- <lb/>glichen, abgehandelt undt ge- <lb/>schloßen., haben
+                    die hierzu ge- <lb/>vollmächtigte Königl[iche] Churfürstl[iche] <lb/>und
+                    fürstl[iche] Ministri sich <lb/>eigenhändig underschrieben, und <lb/>Ihr
+                    pitschafft dabeÿ getrückt, <lb/>So geschehen zu Newhauß den <lb/>4./14.
+                    Septmebris 1682. <lb/>
+                    <pb facs="#FacsPnr19"/>[Seite 19] <lb/>
+                    <lb/>Articuli secreti zu der Defensiv Alliance abgeschloßen <lb/>zwischen
+                    Dennemarck, Brandenburg, Paderborn und Münster, <lb/>durch ihre Minister Gensch
+                    von Breitenau, Clamor von dem <lb/>Buschen, Matthias Korff genannt Smisinck,
+                    Friedrich Christian <lb/>von Plettenberg. <lb/>1682 September 4 / 14 zu Neuhaus. <lb/>
+                    <lb/>Vier Unterschriften <lb/>„ Insiegel. <lb/>
+                    <pb facs="#FacsPnr20"/>[Seite 20] <lb/>
+                    <lb/>Alß heute dato dieses zwischen Ihr[er] Königl[ichen] May[es]t[ä]t <lb/>zu
+                    Dennemarck, Ihrer Churfürstl[ichen] D[ur]chl[auch]t zu Brandenburg <lb/>und des
+                    Herren Bischoffen zu Paderborn und Münster hochfürstl[icher] <lb/>Gnaden eine
+                    gewiße defensiv Alliance abgehandelt und <lb/>geschloßen worden, Und man dan für
+                    nöhtig befunden, einen <lb/>oder anderen darinnen enthaltenen articul, dürch
+                    einen <lb/>geheimen Nebenrecess in etwas zu decla&lt;.&gt;iren und zu er-
+                    <lb/>läuteren, Alß sind deßwegen nachfolgende puncten annoch <lb/>verabredet und
+                    allerseiths eingewilliget. <lb/>
+                    <lb/>Articuli secreti <lb/>
+                    <lb/>1. Ob zwaren beÿ dem 5. articul dießes foederis generaliter
+                    <lb/>verglichen, dass beÿ erfolgender rupture ein Allÿrter <lb/>denen anderen
+                    wieder die dabeÿ bedeuthete ohnzuläßige <lb/>vergewaltigungen und pressuren
+                    &lt;…&gt;ftig schützen und main- <lb/>teniren helffen solle, So wollen doch die
+                    Herren Confoede- <lb/>rirte solchen articulum hiedurch dergestalt declarirt und
+                    <lb/>erläutert haben, daß dafern ein oder andere derenhalben <lb/>beÿ
+                    erfolgenden sölchen rupture wegen einer assistentz, welche <lb/>selbiger ein
+                    oder anderen kriegenden theil, in Krafft etwas <lb/>habender particulier
+                    Alliance lesiten mögte, angegriffen <lb/>und &lt;erwehnter&gt; maßen gravirt
+                    werden, oder sonst in einen <lb/>Krieg tretten solte, die stipulirte hülffe und
+                    garantie <lb/>cessiren, und&nbsp; obigen &lt;Herren&gt; Allÿrte solchenfals
+                    daran <lb/>nicht verbunden seÿn, im übrigen aber sich neutral zu <lb/>halten,
+                    und die gegenpartheÿ und deren Adsistenten, <lb/>weder directe noch indirecte
+                    vorschub, hülffe oder beÿ- <lb/>stand zu lesiten, vielweniger daß solches durch
+                    Ihre Under- <lb/>thanen offenbahr oder heimblich geschehe, zu verstatten,
+                    <lb/>schuldig seyn sollen. Jedoch mit dem fürbehalt, wan <lb/>
+                    <pb facs="#FacsPnr21"/>[Seite 21] <lb/>
+                    <lb/>derjenigen von denen Herren Allÿrten, welcher mit solcher <lb/>assistentz
+                    eines oder anderen kriegenden theils nichts zu <lb/>schaffen haben, sondern sich
+                    neutral und auß dem krieg halten <lb/>will, nichts desto weniger besagter maßen
+                    überzogen und <lb/>vergewaltiget würde, daß die vereinbahrte hülffe von
+                    <lb/>denen übrigen Herren Bundtsgenoßen Ihnen &lt;uff sein&gt; ver- <lb/>langen
+                    nach wie vor geleistet werden solle, Eß were dan, <lb/>daß beÿ begebendem
+                    solchen fall die Hohe Herren Confoede- <lb/>rirte sich eines anderen zu
+                    vergleichen und andere me- <lb/>sures zu faßen verlaßet werden mögten, Zu deßen
+                    <lb/>facilitirung dan beliebt ist, daß derjenige von denen <lb/>Herren Allÿrten,
+                    welcher vermögen vorgesagter Alliantzen <lb/>jemandt eine assistentz zu leisten
+                    &lt;.&gt;irt vorhabe&lt;ns&gt; oder <lb/>sonst in einen krieg zu tretten
+                    genöhtigt seÿn, denen <lb/>übrigen Herren Mitallÿrten hievon in Zeiten verträw-
+                    <lb/>liche communcation zu thun, d&lt;..&gt;selbe aber die em- <lb/>pfangene
+                    nachricht in gehöriger verschwiegenheit zu be- <lb/>halten schuldig seyn sollen. <lb/>
+                    <lb/>2. Nachdem anseithen Ihrer Königl[icher] May[es]t[ä]t zu Dennemarck
+                    <lb/>das hertzogthumb Holstein in dieses foedus mit eingeschloßen , <lb/>und
+                    aber des Herrn Bischoffs Hochfürstl[icher] Gnaden für allzu be- <lb/>schwehrlich
+                    gehalten, dero zum succurs schickende Völcker <lb/>wegen der weithen
+                    entlegenheit über die Elbe transpor- <lb/>tiren zu laßen,&nbsp; Alß&nbsp; ist zu
+                    facilitirung dieses negotij <lb/>verglichen, daß, obschon Höchstgedachte Ihre
+                    Königl[iche] May[es]t[ä]t <lb/>die von des Herrn Bischoffen Hochfürstl[icher]
+                    Ganden stipulirte <lb/>assistentz in Holstein solten benöthigt seÿn, selbige
+                    doch nicht <lb/>weiter alß biß in die Graffschafften Oldenburg und Del-
+                    <lb/>menhorst marchiren, dahselbst verbleiben, und zu besetzung der <lb/>
+                </p>
+                <pb facs="#FacsPnr22"/>
+                <p> [Seite 22] <lb/>
+                    <lb/>der gräntzen und Vestungen sich gebrauchen laßen <lb/>solle, dahmit die
+                    Königl[iche] Militz hingegen auß obbe- <lb/>sagten Graffschafften und
+                    der&lt;o&gt; Vestungen geli&lt;..&gt;tet <lb/>nach Holstein transportirt werden,
+                    und also die stelle <lb/>des Entsatzes alldort ersetzen können. <lb/>
+                    <lb/>3. Ferneres ist verabredet, daß Ihre Köngil[iche] May[es]t[ä]t in
+                    <lb/>Franckreich durch allerseiths Herren Allÿrte von diesem <lb/>Bündtnüs
+                    verträwliche communication geschehen solle, <lb/>und wie dieselbe
+                    &lt;..&gt;hrsten theils <note n="3" type="crit_app">Einschub am Rand: zu
+                        maintenirung/ des Münsterischen/ und Nimwegischen/ Friedens, worüber/
+                        Hochstgedachte Ihre/ Kayserl[iche] May[stät] die/ garantie
+                        übernoh/men.</note> mit zu höchstgnädigster <lb/>Ihrer Königl[ichen]
+                    May[es]t[ä]t hoher reputation und nützbarkeit <lb/>gereichet, Also zwischen die
+                    sämbtliche Herren Allÿrten <lb/>nicht , eß werden Ihre Königl[iche] May[estät],
+                    dergleichen woll- <lb/>gemeinte Zusammensetzung nicht allein ger&lt;…&gt;
+                    <lb/>vernehmen, sondern derselbe auch beliebig seÿn, so- <lb/>thanes verbündtnüs
+                    Ihres orths auff bedürffenden fall <lb/>zu secundiren, und daßelbe wieder allen
+                    abbruch <lb/>oder nachtheil garantiren zu helffen<note type="crit_app" n="4"
+                        >gestrichene Passage: So ver- / sprechen Ihre Königl[iche] May[estät] zu
+                        Dennemarck und Ihre&nbsp; / Churfürstl[iche] Durchl[aucht] zu Brandenburg
+                        auch beÿ höchstbe&lt;…&gt; / Ihrer Königl[ichen] May[estät] in Franckreich
+                        es an guten <lb/>officijs und instantien, zu erlangung annehmlicher /
+                        subsidien für S[eine] Hochfürstl[iche]e Gnaden den Herrn Bischoff / nichts
+                        ermangeln zu laßen.</note>&nbsp; <lb/>
+                    <lb/>Welches alles von eben der gült- und bündigkeit seÿn <lb/>soll, alß wan es
+                    von wort zu wort der Alliantz selbst <lb/>inserirt stünde; Immaßen über dieses
+                    geheime Neben- <lb/>articul die ratification der Hohen Herrn Principalen </p>
+                <pb facs="#FacsPnr23"/>
+                <p>[Seite 23 ] <lb/>
+                    <lb/>gleich alß über die Alliantz selbst, auff bestimbte Zeit <lb/>und stelle
+                    reservirt und bedungen ist, Zu deßen ver- <lb/>bundt solcher Nebenrecess durch
+                    allerseiths Königl[iche] <lb/>Churfürstl[iche] und fürstl[iche] Ministros
+                    aigenhändig unter- <lb/>schrieben und besiegelt worden. So geschehen zu New-
+                    <lb/>hauß den 4/14-ten Septembris 1682. <lb/>
+                    <lb/>Gensch von Brei- <lb/>tenau mp <lb/>
+                    <lb/>Clamor von dem <lb/>Busche mp <lb/>
+                    <lb/>Matthiß Korff <lb/>genandt Schmisink mp <lb/>
+                    <lb/>Fridrich Christian <lb/>von Plettenberg </p>
+            </div>
+        </body>
+        <back>
+            <listBibl>
+                <bibl xml:id="a313">
+                    <title level="a">Reichsarchiv (1682-09-14)</title>
+                    <title level="m">Reichsarchiv, Band 9 (1712), PSpec Con II, S.176-177 Aus:
+                        Dokumentenarchiv der Universitätsbibliothek Augsburg (Drucke vor 1900 /
+                        Historische Geschichtswerke).</title>
+                    <biblScope>
+                        <graphic xml:id="A1Pnr1"
+                            url="https://www.ieg-friedensvertraege.de/dbimages/img_4a9e6df7994a7"/>
+                        <graphic xml:id="A1Pnr2"
+                            url="https://www.ieg-friedensvertraege.de/dbimages/img_4a9e6dfe7eea3"/>
+                    </biblScope>
+                </bibl>
+                <bibl xml:id="a70">
+                    <title level="a">Theatrum Europaeum (1682-09-14)</title>
+                    <title level="m">Theatrum Europaeum, Band 12 (1679-1686) Aus: Dokumentenarchiv
+                        der Universitätsbibliothek Augsburg (Drucke vor 1900 / Historische
+                        Geschichtswerke).</title>
+                    <biblScope>
+                        <graphic xml:id="A2Pnr1"
+                            url="https://www.ieg-friedensvertraege.de/dbimages/img_49e6e879186c2"/>
+                        <graphic xml:id="A2Pnr2"
+                            url="https://www.ieg-friedensvertraege.de/dbimages/img_49e6e87f37a9c"/>
+                        <graphic xml:id="A2Pnr3"
+                            url="https://www.ieg-friedensvertraege.de/dbimages/img_49e6e88523257"/>
+                        <graphic xml:id="A2Pnr4"
+                            url="https://www.ieg-friedensvertraege.de/dbimages/img_49e6e88b0ea12"/>
+                    </biblScope>
+                </bibl>
+                <bibl>Laursen, in: Danmark-Norges Traktater 7, S. 621-633.</bibl>
+            </listBibl>
+        </back>
+    </text>
+</tei:TEI>

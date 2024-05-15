@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE tei SYSTEM "../resources/FriVer_DTD.dtd">
+
+<?xml-model href="../resources/FriVer.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns="http://www.tei-c.org/ns/1.0" xml:id="pa000299-1103">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title level="s">European peace treaties of the pre-modern era in data / Europäische Friedensverträge der Vormoderne in Daten (FriVer+)</title>
+                <title when="1654-04-05" xml:id="t1103" when-custom="1654 IV 5" level="a" ref="https://www.ieg-friedensvertraege.de/treaty/t-1103-1-de.html">Friedensvertrag von Westminster</title>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    Digital edition according to
+                    <ref target="http://www.tei-c.org/">TEI P5</ref>
+                </edition>
+                <funder>
+                    <ref target="https://www.text-plus.org/">TEXT+</ref>
+                </funder>
+                <editor role="http://id.loc.gov/vocabulary/relators/edt" ref="https://orcid.org/0000-0002-8741-5916">
+                    <persName>Jaap Geraerts</persName>
+                    <note>The transformation and enrichment of the data is done by Jaap Geraerts (IEG Mainz). The other members of the FriVer+ team are Fabian Cremer, Ines Grund, and Thorsten Wübbena (all IEG Mainz).</note>
+                    <note>
+                        The original data has been created by the
+                        <ref target="https://www.ieg-friedensvertraege.de">team of scholars</ref>
+                        who were part of the Europäische Friedensverträge der Vormoderne project. This project was lead by Prof. Dr. Heinz Duchhardt and was based at the Leibniz Institute of European History in Mainz.
+                    </note>
+                </editor>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>
+                    <orgName ref="http://www.isni.org/0000000119314040">Leibniz-Institut für Europäische Geschichte Mainz</orgName>
+                </publisher>
+                <distributor>
+                    <orgName ref="http://www.isni.org/0000000110101946">Universitäts- und Landesbibliothek Darmstadt</orgName>
+                </distributor>
+                <idno type="ISIL">http://lobid.org/organisation/DE-17</idno>
+                <date type="issued" when="2023-12-23"/>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">
+                        <p xml:lang="en">This file is licensed under the terms of the Creative Commons License CC-BY 4.0 (Attribution 4.0 International)</p>
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <repository xml:id="r12">Kew NA
+                    <note>The National Archives Kew, SP 108/300 (Art. 5 Ende bis Art. 7 Anfang nicht abgebildet). Findbuch:<lb />
+                        <ref target="http://discovery.nationalarchives.gov.uk/results/r?_ep=SP%20108%2F300" >http://discovery.nationalarchives.gov.uk/results/r?_ep=SP%20108%2F300</ref></note>
+                </repository>
+                <msDesc><p>The National Archives, Kew, Richmond: SP 108 / 300 (Art. 5 Ende bis Art.
+                    7 Anfang nicht abgebildet).</p></msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>
+                    The data in this XML file, originally created by the project
+                    <ref target="https://www.ieg-friedensvertraege.de/vertraege">Europäische Friedensverträge der Vormoderne online</ref>
+                    has been transformed in accordance with
+                    <ref target="http://www.tei-c.org/">TEI P5</ref>
+                    as part of the project
+                    <ref target="https://www.ieg-mainz.de/en/research/research-projects/european-peace-treaties-of-the-pre-modern-era-in-data">Europäische Friedensverträge der Vormoderne in Daten (FriVer+)</ref>
+                </p>
+            </projectDesc>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="la" xml:id="lan6">Latein</language>
+            </langUsage>
+        </profileDesc>
+    </teiHeader>
+    <standOff>
+        <listPerson>
+            <person role="signatory" xml:id="p49">
+                <persName ref="https://explore.gnd.network/gnd/4101204-5">
+                    <name>Generalstaaten</name>
+                </persName>
+            </person>
+            <person role="signatory" xml:id="p42">
+                <persName ref="https://explore.gnd.network/gnd/4022153-2">
+                    <name>Großbritannien</name>
+                </persName>
+            </person>
+        </listPerson>
+        <listPlace>
+            <place xml:id="loc48">
+                <placeName ref="https://explore.gnd.network/gnd/4079242-0">Westminster</placeName>
+            </place>
+        </listPlace>
+        <facsimile>
+            <surface xml:id="FacsPnr1">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_467a76d7e6da6"/>
+            </surface>
+            <surface xml:id="FacsPnr2">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_467a77082a4c8"/>
+            </surface>
+            <surface xml:id="FacsPnr3">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_467a7739c771c"/>
+            </surface>
+            <surface xml:id="FacsPnr4">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_467a799435f0d"/>
+            </surface>
+            <surface xml:id="FacsPnr5">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_467a79d25804f"/>
+            </surface>
+            <surface xml:id="FacsPnr6">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_467a7a36afbf6"/>
+            </surface>
+            <surface xml:id="FacsPnr7">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_467a7a7893520"/>
+            </surface>
+            <surface xml:id="FacsPnr8">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_467a7ab53384e"/>
+            </surface>
+            <surface xml:id="FacsPnr9">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_467a7af1ebfda"/>
+            </surface>
+            <surface xml:id="FacsPnr10">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_467a7b194eb35"/>
+            </surface>
+            <surface xml:id="FacsPnr11">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_467a7b4b4da4a"/>
+            </surface>
+            <surface xml:id="FacsPnr12">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_467a7b8b68e21"/>
+            </surface>
+            <surface xml:id="FacsPnr13">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_467a7bc342b56"/>
+            </surface>
+            <surface xml:id="FacsPnr14">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_467a7beeb1f7b"/>
+            </surface>
+            <surface xml:id="FacsPnr15">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_467a7c225616c"/>
+            </surface>
+            <surface xml:id="FacsPnr16">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_467a7c4c33d7a"/>
+            </surface>
+            <surface xml:id="FacsPnr17">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_467a7c77afcbf"/>
+            </surface>
+            <surface xml:id="FacsPnr18">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_467a7ca1c342c"/>
+            </surface>
+            <surface xml:id="FacsPnr19">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_467a7ccec5245"/>
+            </surface>
+            <surface xml:id="FacsPnr20">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_467a7cff05a8b"/>
+            </surface>
+            <surface xml:id="FacsPnr21">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_467a7d2ac4feb"/>
+            </surface>
+            <surface xml:id="FacsPnr22">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_467a7d5a9be75"/>
+            </surface>
+            <surface xml:id="FacsPnr23">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_467a7d856a081"/>
+            </surface>
+            <surface xml:id="FacsPnr24">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_467a7dbc16f0e"/>
+            </surface>
+            <surface xml:id="FacsPnr25">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_467a7dec75982"/>
+            </surface>
+            <surface xml:id="FacsPnr26">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_467a7e17db171"/>
+            </surface>
+        </facsimile>
+    </standOff>
+    <text>
+        <front>
+            <div type="Drucke"><p> Theatrum Europaeum VII, S.654-660, LINK: <ref target="http://digbib.bibliothek.uni-augsburg.de/7/pages/02_IV_13_2_0026_07_0724.html">http://digbib.bibliothek.uni-augsburg.de/7/pages/02_IV_13_2_0026_07_0724.html</ref>
+            </p>
+                <p>CTS, III, S. 225-247 (l.), 248-256 (e.).
+                    <lb />
+                </p></div>
+            <div type="Kommentar"><p>Schon seit Beginn des 17. Jahrhunderts konkurrierten Niederländer und Engländer bei der Erschließung Asiens für den eigenen Handel. Allerdings endete die erste Phase der englischen Bemühungen in Fernost bereits 1623, als die Engländer wegen der schlechten Handelssituation einige Handelsposten in Japan und Siam (heute Thailand) wieder schließen mussten und im so genannten Amboyna-Massaker, das noch Jahre später propagandistisch gegen die Niederländer genutzt wurde, der holländischen Übermacht unterlagen.
+                <lb />Durch den Westfälischen Frieden verloren die Engländer darüber hinaus alle Handelsvorteile, die sie seit ihren Friedensschlüssen mit Spanien 1604 und 1630 gegenüber den Niederländern errungen hatten. Das Commonwealth reagierte mit der Verabschiedung der Navigationsakte, die a) Ausländern den Handel mit englischen Kolonien verbot und b) englischen Schiffen die Einfuhr jeglicher Waren aus Afrika, Asien oder Amerika nach Großbritannien vorbehielt. Beide Maßnahmen waren direkt gegen die Vormachtstellung des niederländischen Handels gerichtet. Nach einigen Monaten inoffizieller Kriegsführung, während denen britische Kapitäne niederländische Schiffe durchsuchten und festsetzten entzündete sich der Krieg 1652 an der Frage des Begrüßungsrechts auf Hoher See.
+                <lb />Die Auseinandersetzungen endeten mit einer Niederlage der Generalstaaten. In dem hier gezeigten Friedensvertrag wurden Kompensationszahlungen für das Amboyna-Massaker, jährliche Zahlungen der Niederländer für Fischereirechte und die Respektierung der Navigationsakte und des britischen Begrüßungsrechts vereinbart.
+                <lb /></p></div>
+            <div type="Kontext"><p>1623
+                <lb />Amboyna-Massaker
+                <lb />1648
+                <lb />Westfälischer Friede
+                <lb />1651
+                <lb />Navigationsakte
+                <lb />1652-1654
+                <lb />Erster englisch-niederländischer Seekrieg
+                <lb />5.4.1654
+                <lb />Friede von Westminster
+                <lb /></p></div>
+        </front>
+        <back>
+            <listBibl>
+                <bibl xml:id="a16">
+                    <title level="a">Theatrum Europaeum (1654-04-05)</title>
+                    <title level="m">Theatrum Europaeum, Band 7 (1651-1657) Aus: Dokumentenarchiv der Universitätsbibliothek Augsburg (Drucke vor 1900 / Historische Geschichtswerke).</title>
+                    <biblScope>
+                        <graphic xml:id="A1Pnr1" url="https://www.ieg-friedensvertraege.de/dbimages/img_49e5a66fe3c4d"/>
+                        <graphic xml:id="A1Pnr2" url="https://www.ieg-friedensvertraege.de/dbimages/img_49e5a6775b0a0"/>
+                        <graphic xml:id="A1Pnr3" url="https://www.ieg-friedensvertraege.de/dbimages/img_49e5a67cc1920"/>
+                        <graphic xml:id="A1Pnr4" url="https://www.ieg-friedensvertraege.de/dbimages/img_49e5a683a53d4"/>
+                        <graphic xml:id="A1Pnr5" url="https://www.ieg-friedensvertraege.de/dbimages/img_49e5a6903eaea"/>
+                        <graphic xml:id="A1Pnr6" url="https://www.ieg-friedensvertraege.de/dbimages/img_49e5a6903eaea"/>
+                        <graphic xml:id="A1Pnr7" url="https://www.ieg-friedensvertraege.de/dbimages/img_49e5a695d8f87"/>
+                    </biblScope>
+                </bibl>
+                <bibl>BASSETT, David K., The Trade of the English East India Company in the Far East, 1623-84, in: Om PRAKASH (ed.), European Commercial Expansion in Early Modern Asia. (An expanding World: The European Impact on World History, 1450-1800, Vol. 10), Aldershot 1997, S. 208-236. </bibl>
+                <bibl>FARNELL, J.E., The Navigation Act of 1651, the first Dutch war, and the London merchant community, in: EHR, 2nd ser. 16, 1963/64, S. 439-454.</bibl>
+                <bibl>FARRINGTON, Anthony, Trading Places. The East India Company an Asia 1600-1834, London 2002.</bibl>
+                <bibl><ref target="http://www.british-civil-wars.co.uk">http://www.british-civil-wars.co.uk/</ref></bibl>
+            </listBibl>
+        </back>
+    </text>
+</tei:TEI>

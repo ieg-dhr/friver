@@ -1,0 +1,517 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE tei SYSTEM "../resources/FriVer_DTD.dtd">
+
+<?xml-model href="../resources/FriVer.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns="http://www.tei-c.org/ns/1.0" xml:id="pa000299-0299">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title level="s">European peace treaties of the pre-modern era in data / Europäische Friedensverträge der Vormoderne in Daten (FriVer+)</title>
+                <title when="1782-11-04" xml:id="t299" when-custom="1782 XI 4, 12 und 13" level="a" ref="https://www.ieg-friedensvertraege.de/treaty/t-299-1-de.html">Edikt von Genf zur Befriedung der Stadt</title>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    Digital edition according to
+                    <ref target="http://www.tei-c.org/">TEI P5</ref>
+                </edition>
+                <funder>
+                    <ref target="https://www.text-plus.org/">TEXT+</ref>
+                </funder>
+                <editor role="http://id.loc.gov/vocabulary/relators/edt" ref="https://orcid.org/0000-0002-8741-5916">
+                    <persName>Jaap Geraerts</persName>
+                    <note>The transformation and enrichment of the data is done by Jaap Geraerts (IEG Mainz). The other members of the FriVer+ team are Fabian Cremer, Ines Grund, and Thorsten Wübbena (all IEG Mainz).</note>
+                    <note>
+                        The original data has been created by the
+                        <ref target="https://www.ieg-friedensvertraege.de">team of scholars</ref>
+                        who were part of the Europäische Friedensverträge der Vormoderne project. This project was lead by Prof. Dr. Heinz Duchhardt and was based at the Leibniz Institute of European History in Mainz.
+                    </note>
+                </editor>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>
+                    <orgName ref="http://www.isni.org/0000000119314040">Leibniz-Institut für Europäische Geschichte Mainz</orgName>
+                </publisher>
+                <distributor>
+                    <orgName ref="http://www.isni.org/0000000110101946">Universitäts- und Landesbibliothek Darmstadt</orgName>
+                </distributor>
+                <idno type="ISIL">http://lobid.org/organisation/DE-17</idno>
+                <date type="issued" when="2023-12-23"/>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">
+                        <p xml:lang="en">This file is licensed under the terms of the Creative Commons License CC-BY 4.0 (Attribution 4.0 International)</p>
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <repository xml:id="r22">Paris AAE
+                    <note><ref target="http://www.doc.diplomatie.gouv.fr/BASIS/choiseul/desktop/choiseul/DDW?M=142&amp;K=17820001&amp;W=PAYS+%3D+%27Multilat%E9raux%27+ORDER+BY+SOUSSERIE/Ascend" >
+                        <lb /></ref></note></repository>
+                <msDesc><p>AS Torino: Materie politiche per rapporto all’estero, Trattati diversi, mazzo 34, fascicolo 9. (Original, Grafik 3-130 UI u. Sep. Art., Grafik 131-134 Beibrief )<lb />Basisdaten zum Dokument und Regest auf der Website des ASTO. &nbsp; <ref target="http://www.archiviodistatotorino.it/User/index.php?PAGE=Sito_it/invdet&amp;desc_id=163188"> </ref><ref target="http://www.archiviodistatotorino.it/User/index.php?PAGE=Sito_it/invdet&amp;desc_id=163188">Link zum ASTO</ref><lb />  
+                    <lb /> Weitere Stücke: 
+                        <lb />AAE Paris: M.A.E. Traités. Multilateraux 17820001. Édit de la pacification de la république de Genève.- Genève (UI). 
+                        <lb /> <ref target="http://www.doc.diplomatie.gouv.fr/BASIS/choiseul/desktop/choiseul/DDW?M=142&amp;K=17820001&amp;W=PAYS+%3D+%27Multilat%E9raux%27+ORDER+BY+SOUSSERIE/Ascend">Link zur Vertragsseite </ref> </p>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>
+                    The data in this XML file, originally created by the project
+                    <ref target="https://www.ieg-friedensvertraege.de/vertraege">Europäische Friedensverträge der Vormoderne online</ref>
+                    has been transformed in accordance with
+                    <ref target="http://www.tei-c.org/">TEI P5</ref>
+                    as part of the project
+                    <ref target="https://www.ieg-mainz.de/en/research/research-projects/european-peace-treaties-of-the-pre-modern-era-in-data">Europäische Friedensverträge der Vormoderne in Daten (FriVer+)</ref>
+                </p>
+            </projectDesc>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="fr" xml:id="lan4">französisch</language>
+            </langUsage>
+        </profileDesc>
+    </teiHeader>
+    <standOff>
+        <listPerson>
+            <person role="signatory" xml:id="p157">
+                <persName ref="https://explore.gnd.network/gnd/4005762-8">
+                    <name>Bern</name>
+                </persName>
+            </person>
+            <person role="signatory" xml:id="p37">
+                <persName ref="https://explore.gnd.network/gnd/4018145-5">
+                    <name>Frankreich</name>
+                </persName>
+            </person>
+            <person role="signatory" xml:id="p155">
+                <persName ref="https://explore.gnd.network/gnd/4020137-5">
+                    <name>Genf</name>
+                </persName>
+            </person>
+            <person role="signatory" xml:id="p192">
+                <persName ref="https://explore.gnd.network/gnd/4051686-6; https://explore.gnd.network/gnd/4046039-3">
+                    <name>Sardinien - Piemont</name>
+                </persName>
+            </person>
+            <person role="signatory" xml:id="p156">
+                <persName ref="https://explore.gnd.network/gnd/4068038-1">
+                    <name>Zürich</name>
+                </persName>
+            </person>
+        </listPerson>
+        <listPlace>
+            <place xml:id="loc118">
+                <placeName ref="https://explore.gnd.network/gnd/4020137-5">Genf</placeName>
+            </place>
+        </listPlace>
+        <facsimile>
+            <surface xml:id="FacsPnr1">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_468a7b4bddf24"/>
+            </surface>
+            <surface xml:id="FacsPnr2">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_468a7b5bdafd7"/>
+            </surface>
+            <surface xml:id="FacsPnr3">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_468a7b6851464"/>
+            </surface>
+            <surface xml:id="FacsPnr4">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_468a7b77784fd"/>
+            </surface>
+            <surface xml:id="FacsPnr5">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_468a7b845dec7"/>
+            </surface>
+            <surface xml:id="FacsPnr6">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_468a7b914b590"/>
+            </surface>
+            <surface xml:id="FacsPnr7">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_468a7b9db4cbc"/>
+            </surface>
+            <surface xml:id="FacsPnr8">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_468a7baf4d407"/>
+            </surface>
+            <surface xml:id="FacsPnr9">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_468a7bc00dbf6"/>
+            </surface>
+            <surface xml:id="FacsPnr10">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_468a7bcf7730c"/>
+            </surface>
+            <surface xml:id="FacsPnr11">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_468a7bdc9b4d5"/>
+            </surface>
+            <surface xml:id="FacsPnr12">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_468a7bea75317"/>
+            </surface>
+            <surface xml:id="FacsPnr13">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_468a7bf68c9c7"/>
+            </surface>
+            <surface xml:id="FacsPnr14">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_468a7c064f0fd"/>
+            </surface>
+            <surface xml:id="FacsPnr15">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_468a7c127fdeb"/>
+            </surface>
+            <surface xml:id="FacsPnr16">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_468a7c1ed3d58"/>
+            </surface>
+            <surface xml:id="FacsPnr17">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_468a7c2b8f743"/>
+            </surface>
+            <surface xml:id="FacsPnr18">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_468a7c371c335"/>
+            </surface>
+            <surface xml:id="FacsPnr19">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_468a7c446b47b"/>
+            </surface>
+            <surface xml:id="FacsPnr20">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_468a7c51ba5c1"/>
+            </surface>
+            <surface xml:id="FacsPnr21">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_468a7c60e359b"/>
+            </surface>
+            <surface xml:id="FacsPnr22">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_468a7c70c7011"/>
+            </surface>
+            <surface xml:id="FacsPnr23">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_468a7c809df68"/>
+            </surface>
+            <surface xml:id="FacsPnr24">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_468a7c91049d8"/>
+            </surface>
+            <surface xml:id="FacsPnr25">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_468a7ca0cad50"/>
+            </surface>
+            <surface xml:id="FacsPnr26">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_468a7cb05f627"/>
+            </surface>
+            <surface xml:id="FacsPnr27">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_468a7cbea4b26"/>
+            </surface>
+            <surface xml:id="FacsPnr28">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_468a7cccc0046"/>
+            </surface>
+            <surface xml:id="FacsPnr29">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_468a7cda48dac"/>
+            </surface>
+            <surface xml:id="FacsPnr30">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_468a7ce641ffd"/>
+            </surface>
+            <surface xml:id="FacsPnr31">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_468a7cf2de3ac"/>
+            </surface>
+            <surface xml:id="FacsPnr32">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_468a7cfe509bb"/>
+            </surface>
+            <surface xml:id="FacsPnr33">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_468a7d0b5d483"/>
+            </surface>
+            <surface xml:id="FacsPnr34">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_468a7d19c2d22"/>
+            </surface>
+            <surface xml:id="FacsPnr35">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_468a7d2a43d74"/>
+            </surface>
+            <surface xml:id="FacsPnr36">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_468a7d38bfd72"/>
+            </surface>
+            <surface xml:id="FacsPnr37">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_468a7d4873a49"/>
+            </surface>
+            <surface xml:id="FacsPnr38">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_468a7d59286bb"/>
+            </surface>
+            <surface xml:id="FacsPnr39">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_468a7d67eea37"/>
+            </surface>
+            <surface xml:id="FacsPnr40">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_468a7d78f0904"/>
+            </surface>
+            <surface xml:id="FacsPnr41">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_468a7d8993c35"/>
+            </surface>
+            <surface xml:id="FacsPnr42">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_468a7d9808174"/>
+            </surface>
+            <surface xml:id="FacsPnr43">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_468a7e162df88"/>
+            </surface>
+            <surface xml:id="FacsPnr44">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_468a7e2279254"/>
+            </surface>
+            <surface xml:id="FacsPnr45">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_468a7e30d8d35"/>
+            </surface>
+            <surface xml:id="FacsPnr46">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_468a7f147ab43"/>
+            </surface>
+            <surface xml:id="FacsPnr47">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_468a7f53893fe"/>
+            </surface>
+            <surface xml:id="FacsPnr48">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_468a7f6447caf"/>
+            </surface>
+            <surface xml:id="FacsPnr49">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_468a7f74007a5"/>
+            </surface>
+            <surface xml:id="FacsPnr50">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_468a7f992586e"/>
+            </surface>
+            <surface xml:id="FacsPnr51">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_468a7faae4e75"/>
+            </surface>
+            <surface xml:id="FacsPnr52">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_468a82fe454fb"/>
+            </surface>
+            <surface xml:id="FacsPnr53">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_468a83131c42f"/>
+            </surface>
+            <surface xml:id="FacsPnr54">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_468a832663850"/>
+            </surface>
+            <surface xml:id="FacsPnr55">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_468a834adf7bc"/>
+            </surface>
+            <surface xml:id="FacsPnr56">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_468a835d28d62"/>
+            </surface>
+            <surface xml:id="FacsPnr57">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_468a83734a00f"/>
+            </surface>
+            <surface xml:id="FacsPnr58">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_468a83861a1f2"/>
+            </surface>
+            <surface xml:id="FacsPnr59">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_468a83931e01b"/>
+            </surface>
+            <surface xml:id="FacsPnr60">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_468a83a12aade"/>
+            </surface>
+            <surface xml:id="FacsPnr61">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_468a83c18d426"/>
+            </surface>
+            <surface xml:id="FacsPnr62">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_468a83d122ca0"/>
+            </surface>
+            <surface xml:id="FacsPnr63">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_468a83e3018e7"/>
+            </surface>
+            <surface xml:id="FacsPnr64">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_468a83f4d1892"/>
+            </surface>
+            <surface xml:id="FacsPnr65">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_468a8406363be"/>
+            </surface>
+            <surface xml:id="FacsPnr66">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_468a841598d78"/>
+            </surface>
+            <surface xml:id="FacsPnr67">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_468a8428e5f57"/>
+            </surface>
+            <surface xml:id="FacsPnr68">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_468a843a53722"/>
+            </surface>
+            <surface xml:id="FacsPnr69">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_468a844f2d539"/>
+            </surface>
+            <surface xml:id="FacsPnr70">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_468a84631f9f3"/>
+            </surface>
+            <surface xml:id="FacsPnr71">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_468a8473a65c9"/>
+            </surface>
+            <surface xml:id="FacsPnr72">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_468a8482ac325"/>
+            </surface>
+            <surface xml:id="FacsPnr73">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_468a8496dc03c"/>
+            </surface>
+            <surface xml:id="FacsPnr74">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_468a84a5d42d9"/>
+            </surface>
+            <surface xml:id="FacsPnr75">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_468a84b4514b8"/>
+            </surface>
+            <surface xml:id="FacsPnr76">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_468a84c664cc1"/>
+            </surface>
+            <surface xml:id="FacsPnr77">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_468a84daca539"/>
+            </surface>
+            <surface xml:id="FacsPnr78">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_468a84ecb5ca2"/>
+            </surface>
+            <surface xml:id="FacsPnr79">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_468a855105d87"/>
+            </surface>
+            <surface xml:id="FacsPnr80">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_468a8566231bb"/>
+            </surface>
+            <surface xml:id="FacsPnr81">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_468a8575b7852"/>
+            </surface>
+            <surface xml:id="FacsPnr82">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_468a8587abc5b"/>
+            </surface>
+            <surface xml:id="FacsPnr83">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_468a859d2304c"/>
+            </surface>
+            <surface xml:id="FacsPnr84">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_468a85bcb4799"/>
+            </surface>
+            <surface xml:id="FacsPnr85">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_468a85cd25ded"/>
+            </surface>
+            <surface xml:id="FacsPnr86">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_468a85dc7ace7"/>
+            </surface>
+            <surface xml:id="FacsPnr87">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_468a85eabf24b"/>
+            </surface>
+            <surface xml:id="FacsPnr88">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_468a8602d68a7"/>
+            </surface>
+            <surface xml:id="FacsPnr89">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_468a8612a3bbf"/>
+            </surface>
+            <surface xml:id="FacsPnr90">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_468a862039445"/>
+            </surface>
+            <surface xml:id="FacsPnr91">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_468a862f3f1a0"/>
+            </surface>
+            <surface xml:id="FacsPnr92">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_468a863d85642"/>
+            </surface>
+            <surface xml:id="FacsPnr93">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_468a864d008d9"/>
+            </surface>
+            <surface xml:id="FacsPnr94">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_468a86629300a"/>
+            </surface>
+            <surface xml:id="FacsPnr95">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_468a86706ed8e"/>
+            </surface>
+            <surface xml:id="FacsPnr96">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_468a867ce6f19"/>
+            </surface>
+            <surface xml:id="FacsPnr97">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_468a868b0843e"/>
+            </surface>
+            <surface xml:id="FacsPnr98">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_468a86998925d"/>
+            </surface>
+            <surface xml:id="FacsPnr99">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_468a86a88ff59"/>
+            </surface>
+            <surface xml:id="FacsPnr100">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_468a86ba00605"/>
+            </surface>
+            <surface xml:id="FacsPnr101">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_468a86c8535c6"/>
+            </surface>
+            <surface xml:id="FacsPnr102">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_468a86d7832ff"/>
+            </surface>
+            <surface xml:id="FacsPnr103">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_468a86ea822e2"/>
+            </surface>
+            <surface xml:id="FacsPnr104">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_468a86f8b6e43"/>
+            </surface>
+            <surface xml:id="FacsPnr105">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_468a8705a73ed"/>
+            </surface>
+            <surface xml:id="FacsPnr106">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_468a871a75682"/>
+            </surface>
+            <surface xml:id="FacsPnr107">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_468a87285b048"/>
+            </surface>
+            <surface xml:id="FacsPnr108">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_468a873dc1858"/>
+            </surface>
+            <surface xml:id="FacsPnr109">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_468a8757ea7e9"/>
+            </surface>
+            <surface xml:id="FacsPnr110">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_468a87662340b"/>
+            </surface>
+            <surface xml:id="FacsPnr111">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_468a8773cf1b0"/>
+            </surface>
+            <surface xml:id="FacsPnr112">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_468a87853aa3b"/>
+            </surface>
+            <surface xml:id="FacsPnr113">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_468a8798791bd"/>
+            </surface>
+            <surface xml:id="FacsPnr114">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_468a87ade28ae"/>
+            </surface>
+            <surface xml:id="FacsPnr115">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_468a87d12dd26"/>
+            </surface>
+            <surface xml:id="FacsPnr116">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_468a87e28b8b0"/>
+            </surface>
+            <surface xml:id="FacsPnr117">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_468a87f78d763"/>
+            </surface>
+            <surface xml:id="FacsPnr118">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_468a880d80bb2"/>
+            </surface>
+            <surface xml:id="FacsPnr119">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_468a881b10677"/>
+            </surface>
+            <surface xml:id="FacsPnr120">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_468a8827991a4"/>
+            </surface>
+            <surface xml:id="FacsPnr121">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_468a8835a8b47"/>
+            </surface>
+            <surface xml:id="FacsPnr122">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_468a884145139"/>
+            </surface>
+            <surface xml:id="FacsPnr123">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_468a884e71fa5"/>
+            </surface>
+            <surface xml:id="FacsPnr124">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_468a885e49e98"/>
+            </surface>
+            <surface xml:id="FacsPnr125">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_468a886ef1da9"/>
+            </surface>
+            <surface xml:id="FacsPnr126">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_468a887c7ca4f"/>
+            </surface>
+            <surface xml:id="FacsPnr127">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_468a888c13268"/>
+            </surface>
+            <surface xml:id="FacsPnr128">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_468a889c5e51b"/>
+            </surface>
+            <surface xml:id="FacsPnr129">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_468a88abc7c37"/>
+            </surface>
+            <surface xml:id="FacsPnr130">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_468a88bb0372f"/>
+            </surface>
+            <surface xml:id="FacsPnr131">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_468a88c995e90"/>
+            </surface>
+            <surface xml:id="FacsPnr132">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_468a88d5c7b1f"/>
+            </surface>
+            <surface xml:id="FacsPnr133">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_468a88e2ac548"/>
+            </surface>
+            <surface xml:id="FacsPnr134">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_468a88efe4f33"/>
+            </surface>
+            <surface xml:id="FacsPnr135">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_468a88ffd7406"/>
+            </surface>
+        </facsimile>
+    </standOff>
+</tei:TEI>

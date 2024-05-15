@@ -1,0 +1,383 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE tei SYSTEM "../resources/FriVer_DTD.dtd">
+
+<?xml-model href="../resources/FriVer.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns="http://www.tei-c.org/ns/1.0"
+    xml:id="pa000299-0422">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title level="s">European peace treaties of the pre-modern era in data / Europäische
+                    Friedensverträge der Vormoderne in Daten (FriVer+)</title>
+                <title when="1633-05-16" xml:id="t422" when-custom="1633 V 16" level="a"
+                    ref="https://www.ieg-friedensvertraege.de/treaty/t-422-1-de.html">Änderung des
+                    Vertrags von Eperjes durch den siebenbürgischen Fürsten Georg I. Rákóczi</title>
+            </titleStmt>
+            <editionStmt>
+                <edition> Digital edition according to <ref target="http://www.tei-c.org/">TEI
+                        P5</ref>
+                </edition>
+                <funder>
+                    <ref target="https://www.text-plus.org/">TEXT+</ref>
+                </funder>
+                <editor role="http://id.loc.gov/vocabulary/relators/edt"
+                    ref="https://orcid.org/0000-0002-8741-5916">
+                    <persName>Jaap Geraerts</persName>
+                    <note>The transformation and enrichment of the data is done by Jaap Geraerts
+                        (IEG Mainz). The other members of the FriVer+ team are Fabian Cremer, Ines
+                        Grund, and Thorsten Wübbena (all IEG Mainz).</note>
+                    <note> The original data has been created by the <ref
+                            target="https://www.ieg-friedensvertraege.de">team of scholars</ref> who
+                        were part of the Europäische Friedensverträge der Vormoderne project. This
+                        project was lead by Prof. Dr. Heinz Duchhardt and was based at the Leibniz
+                        Institute of European History in Mainz. </note>
+                </editor>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>
+                    <orgName ref="http://www.isni.org/0000000119314040">Leibniz-Institut für
+                        Europäische Geschichte Mainz</orgName>
+                </publisher>
+                <distributor>
+                    <orgName ref="http://www.isni.org/0000000110101946">Universitäts- und
+                        Landesbibliothek Darmstadt</orgName>
+                </distributor>
+                <idno type="ISIL">http://lobid.org/organisation/DE-17</idno>
+                <date type="issued" when="2023-12-23"/>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">
+                        <p xml:lang="en">This file is licensed under the terms of the Creative
+                            Commons License CC-BY 4.0 (Attribution 4.0 International)</p>
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <repository xml:id="r4">Budapest MOL <note>Budapest MOL, Findbuch:<lb/>
+                        <ref
+                            target="https://www.eleveltar.hu/digitalis-tartalom?source=mnlscope&amp;ref=mnlscope::2016050"
+                            >https://www.eleveltar.hu/digitalis-tartalom?source=mnlscope&amp;ref=mnlscope::2016050</ref></note>
+                </repository>
+                <msDesc>
+                    <p>MolBudapest Tractatus publici E 143 Fasz. 6 Nr. 23: Änderung des
+                        Vertragstextes durch den siebenbürgischen Fürsten Georg I. Rákóczi,&nbsp;
+                        (nach:) 1633 V 16 (zeitgleiche Abschrift)</p>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p> The data in this XML file, originally created by the project <ref
+                        target="https://www.ieg-friedensvertraege.de/vertraege">Europäische
+                        Friedensverträge der Vormoderne online</ref> has been transformed in
+                    accordance with <ref target="http://www.tei-c.org/">TEI P5</ref> as part of the
+                    project <ref
+                        target="https://www.ieg-mainz.de/en/research/research-projects/european-peace-treaties-of-the-pre-modern-era-in-data"
+                        >Europäische Friedensverträge der Vormoderne in Daten (FriVer+)</ref>
+                </p>
+            </projectDesc>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="la" xml:id="lan6">Latein</language>
+            </langUsage>
+        </profileDesc>
+    </teiHeader>
+    <standOff>
+        <listPerson>
+            <person role="signatory" xml:id="p109">
+                <persName ref="https://explore.gnd.network/gnd/4054835-1">
+                    <name>Siebenbürgen</name>
+                </persName>
+            </person>
+        </listPerson>
+        <listPlace>
+            <place xml:id="loc151">
+                <placeName ref="https://explore.gnd.network/gnd/4393577-1">Eperjes</placeName>
+            </place>
+        </listPlace>
+        <facsimile>
+            <surface xml:id="FacsPnr1">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_448d7531651e7"/>
+            </surface>
+            <surface xml:id="FacsPnr2">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_448d75e10f7f8"/>
+            </surface>
+            <surface xml:id="FacsPnr3">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_448d76714a5a7"/>
+            </surface>
+            <surface xml:id="FacsPnr4">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_448d770e98be3"/>
+            </surface>
+            <surface xml:id="FacsPnr5">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_448d77a8c31dd"/>
+            </surface>
+            <surface xml:id="FacsPnr6">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_448d7831d5f47"/>
+            </surface>
+        </facsimile>
+    </standOff>
+    <text>
+        <front>
+            <div type="Drucke">
+                <p>Roderich Gooss, Österreichische Staatsverträge. Fürstentum Siebenbürgen. Wien
+                    1911, S. 676-682. Monumenta comitiali regni Transsilvaniae IX,
+                    S.333-336.&nbsp;</p>
+            </div>
+            <div type="Inhalt">
+                <p> Art. 1 Fortgeltung Art. 2 und 9 des Kaschauer Friedens. Bestätigung früherer
+                    Friedensabkommen. Assekurationen. Räuber und Vagabunden. <lb/>Art. 2 Fürstliche
+                    Garnison in Ónod. Keine Übergabe an das Osmanische Reich. Mögliche Hinzuziehung
+                    kaiserlicher Truppen im Kriegsfall. Einschränkung der königlichen Macht in Ónod.
+                    <lb/>Art. 3 Modifikation der Treuereverse der in kaiserlichen Diensten stehenden
+                    Siebenbürger. Der Kaiser muß auf die Formel „Salva tamen…“ verzichten. <lb/>Art.
+                    4 Ausfolgung der Untertanen; dabei Ausschlußdes Ortes Székelyhidas. <lb/>Art. 5
+                    Regelung von Ansprüchen. Ausgleich durch Rákóczi. Schwarzer Wald. </p>
+                <p>Art. 6 Munkács geht für eine Inskription an den siebenbürgischen Fürsten und
+                    seine Söhne. Es darf nicht zu Siebenbürgen geschlagen werden. <lb/>Art. 7 Máad.
+                    <lb/>Art. 8 Auslieferung des Besitzes der Fürstinwitwe nur aus Munkács. Die
+                    Entschädigungssumme von 100.000 Gulden wird innerhalb eines Jahre ausgezahlt.
+                    <lb/>Art. 9. Resitutierung der Güter Prépostvárys und Csákys. Davon ausgenommen
+                    bleibt Pécs. <lb/>Art. 10 Abänderung der Modalitäten für Großwardein u.a.
+                    <lb/>Art. 11 Keine ungewohnten Lasten auf die ungarischen Besitzungen des
+                    siebenbürgischen Fürsten. Art. 7 des Kaschauer Vertrages bleibt inkraft. <lb/>
+                </p>
+                <p>Bestätigung des Kauschauer Vertrages (Ausnahme: Art. 14. Erweiterung der
+                    kaiserlichen Ratifikation (bona fide) <lb/>&nbsp; <lb/>
+                </p>
+            </div>
+        </front>
+        <body>
+            <div type="Transliteration">
+                <pb facs="#FacsPnr1"/>
+                <p> Hoc modo immutavit Diploma <lb/>Princeps Transylvaniæ et <lb/>ita habere
+                    solicitavit. <lb/>
+                </p>
+                <p>&nbsp; </p>
+                <p>Nr. 23 <lb/>Nos Stephanus Kovachoczÿ de Keörtvelyfaia Comes Comit[a]tus
+                    Thorden[sis], Sedisque <lb/>Siculicalis &lt;M&gt;arus Supremus Capitaneus,
+                    Ill[ustrissi]mi Principis Transylva- <lb/>niæ Cancellarius, Andreas de Kapi
+                    Comes Comit[a]tus Colosien[sis], Regnique <lb/>Transylvaniæ Arendator, et
+                    Consiliarÿ; Ladislaus de Balasha- <lb/>za, ViceComes Comit[a]tus Szolnok
+                    mediocre[is]; Tabulæque Judiciariæ <lb/>eiusdem Ill[ustrissi]mi Principis
+                    Transylvaniæ Assessor. Memoriæ com- <lb/>mendamus tenore præsentium
+                    Significantes quibus expedit Univers[is]. <lb/>Quod cum post Pacificationem
+                    Cassovien[sem] inter Sacratissimam <lb/>Cæsaream Regiamque Ma[jesta]tem, et
+                    Ill[ustrissi]mum Principem, ac Dominum <lb/>dominum Georgium Rakoczÿ DEI gratia
+                    Principem Transylvaniæ, <lb/>Partium Regni Hungariæ Dominum et Siculorum
+                    Comitem, Dominum <lb/>Nostrum Clementissimum initam, quædam differentiæ et
+                    Contrarie- <lb/>tates contra Contenta dicti Diplomatis Cassovien[sis] in his
+                    partibus <lb/>Regni Hungariæ Superoribus, exortæ fuissent; Ad complanandas
+                    <lb/>eiusmodi differentias, pacemque rursus et tranquillit[a]tem stabi-
+                    <lb/>liendam, dignata est Sua Celsitudo, mutuo cum Sua Ma[jesta]te
+                    <lb/>Cæsar[ea] consensus, conventui seu tractatui in Regiam liberam hanc
+                    <lb/>Civ&lt;itat&gt;em Epperiesien[sem] indicto consentire. Ubi cum Nos prædicti
+                    <lb/>Suæ Celsitudinis Commissarÿ ab una, parte verò ab altera Ill[ustrissim]us
+                    et <lb/>Reverendissimus Sp[ectabi]les Mag[nifi]ci ac G[ene]rosi Domini Stephanus
+                    Se&lt;nynyei&gt; <lb/>de Kis Sennie, Ep[isco]pus Jauriensis, Locique eiusdem
+                    Comes perpetuus <lb/>et per Hungariam Aulæ Cancellarius Nicolaus Forgacz de
+                    Ghymes <lb/>Eques Auratus, Comit[a]tus Barsien[sis] Supremus Comes Partium Regni
+                    Hungariæ <lb/>Superiorum Generalis Capitaneus, Cubicularius, Stephanus Ostrosith
+                    de <lb/>&lt;Gyletyncz&gt;,&nbsp; Thomas Mikulich de Brokunoucz Personalis
+                    Præsen[tiæ] <lb/>in Judicÿs Locumtenens, et Caspar Tassÿ, &lt;…&gt;dem dictæ
+                    Sacratissim&lt;æ&gt; <lb/>Cæsar[eæ] Regi&lt;æ&gt;que Ma[jesta]tis Consiliarÿ et
+                    Commissarÿ convenissemus, post <lb/>varios ultro citroque Tractatus
+                    habit&lt;o&gt;s, in nunc tandem, qui sequitur <lb/>modum, pacis et Concordiae
+                    unionem devenimus inviolabiliter utrinque <lb/>observandum: <lb/>
+                    <lb/>Primo. Sancitur ut Articuli Pacificationis Cassoviensis, Secundus et Nonus
+                    <lb/>in omnibus suis punctis et clausulis in Vigore suo permaneant <lb/>pro
+                    quorum et modernorum quoque firmiori observatione, Status <lb/>et ordines
+                    Transylvaniæ, ut in prioribus Pacificationibus Niclspur- <lb/>
+                </p>
+                <pb facs="#FacsPnr2"/>
+                <p>gen[si], Viennen[si] et Posonien[si] conclusum et effectuatum est, &lt;…&gt;
+                    <lb/>Ma[jesta]tem assecurent. <lb/>De Prædonibus et Vagabundis Grassatoribus
+                    conclusum est, ut tales statim <lb/>ad primam Capitaneorum, in Confinÿs utrinque
+                    vel G[ene]ralis Capitanei <lb/>requisitionem (prævia Inquisitione iu&lt;x&gt;ta
+                    Continentias novella- <lb/>rum Constitutionum si Nobilis fuer&lt;in&gt;t)
+                    captiventur, et in Capti- <lb/>vit[a]te constituti purgent sese de obiectis,
+                    Convicti verò sufficien- <lb/>tibus documentis, pro demeriti eorum ratione
+                    puniantur. <lb/>
+                    <lb/>Secundo. Annuit clementer Sua Ma[jes]tas, ut Arx Ónod Præsidio solius
+                    <lb/>Principis teneatur, de qua assecurat Suam Ma[jesta]tem Dominus Prin-
+                    <lb/>ceps, quod iam Turcis unquam nec per se, nec per suos tradet, <lb/>quin imò
+                    omni conatu defendet. Cum Capitaneo et Præsidio Suæ Ma[jesta]tis
+                    <lb/>Onodien[si] per suos Officiales bonam semper in omnibus ad Patriæ per-
+                    <lb/>mansionem, et Conservationem defensionemque Arcis spectantibus cor-
+                    <lb/>respondentiam habebit. Fideles Suæ Maj[esta]tis exinde non lædet, neque
+                    ullo <lb/>damno afficiet. Præsidium autem domini Principis Juramento sit
+                    <lb/>adstrictum Suæ quoque Ma[jesta]ti Tempore Obsidionis vel alicuius
+                    <lb/>Insultes Capitaneum et Præsidium Suæ Ma[jesta]tis in Arcem intromittet.
+                    Solu- <lb/>ta autem Obsidione, et Insult&lt;u&gt; amplius non existente,
+                    Capitaneus et <lb/>Præsidium Suæ Ma[jesta]tis, illico ex Arce excedat, et Arx
+                    solius <lb/>Domini Principis Præsidio inque Statu priori relinquantur. Ac ÿdem
+                    <lb/>Capitaneus et Præsidiarÿ Suæ Ma[jesta]ti, in consuetos Domini Principis
+                    &lt;pro&gt;ventus <lb/>sese non immisceant. Si quando autem ex filÿs Domini
+                    Principis <lb/>aliqui, in Hungaria[m] sese ad residendum conferrent, tanquam
+                    unus <lb/>ex Magnatibus Regni Hungariæ Arcemque ipsam in suam directionem
+                    <lb/>reciperent in Suæ Ma[jesta]tis fidelitate existendo eo Casu directio et
+                    <lb/>possessio Arcis in priorem Statum et Consuetudinem, in quo hactenus
+                    <lb/>extitit, reducatur. <lb/>
+                    <lb/>Tertio. De liberis utrinque servitÿs confirmatur Ar[ticu]lus Quintus
+                    Pacifica- <lb/>tionis prioris hoc addito, quod si Dominus Princeps a Nobilibus
+                    et <lb/>Magnatibus Transylvanis, Servitio Suæ Ma[jesta]tis hic obstrictis rever-
+                    <lb/>sales habere voluerit in licitum quidem sit.&nbsp; hac &lt;…&gt; clausula
+                    <lb/>&lt;…&gt;salibus inserta. Idem intelligatur ex parte quoque Suæ
+                    Ma[jesta)tis <lb/>de Nobilibus et Magnatibus Hungaris in Transylvania
+                    servientibus <lb/>Servitores autem Domini Prrincipis p[ro]pter quod servitÿs
+                    eius <lb/>addicti sunt, o damno ab Officialibus Suæ Ma[jesta]tis afficiantur.
+                    <lb/>Ita tamen ut in omnibus accomodent sese legibus et Consuetudinibus
+                    <lb/>Regni. <lb/>
+                    <lb/>Quarto. Subditi harum partium, per Comitem &lt;q&gt;uondam Stephanum
+                    Bethlen Junior[em] <lb/>et Dawidem Zolyomi abducti, si qui in Bonis dictorum
+                    condam Stephani <lb/>
+                </p>
+                <pb facs="#FacsPnr3"/>
+                <p>Bethlen Junioris, et Davidis Zolyomi in Ditione domini Principis exis-
+                    <lb/>tentibus reperti per dominos suos terrestres fuerint, eorundem resti-
+                    <lb/>tutionem, ad requisitionem Dominornm terrestrium, Dominus Princeps
+                    <lb/>serio mandabit. <lb/>
+                    <lb/>Quinto. Prætensiones Cameræ Suæ M[ajesta]tis Scepusien[sis] Domino Princeps
+                    complanabit <lb/>et præcipuè quoad p[&lt;rae&gt;]tensionem
+                    Debrecziniens&lt;ium&gt; attinet, eorum æquas <lb/>prætensiones, si quas
+                    habebunt, diligenter intelliget, et quod æqui- <lb/>tas &lt;….&gt; Justitiae
+                    suadebit, illud per hominess, tam à parte <lb/>sua, quam Cameræ Scepusien[sis]
+                    denominandos, primo quoque tempore <lb/>faciet. Item Decimas Pagorum
+                    pro&lt;…&gt;us Nadudvar in Comit[a]tu <lb/>Biharien[si] existentium, in eo Statu
+                    reliquet, p[ro]ut in Tractatu Caro- <lb/>lien[si] decisum fuit. Ubi autem Camera
+                    Decimas Pagorurm illorum <lb/>in Arendam elocaret, Dominus Princeps habeat in ÿs
+                    præemption[em]. <lb/>Negocium Sylvae Nigrae cum antiqua controversia sit, pace
+                    DEO <lb/>volente conclusa revideatur per Commissarios utrinque quantocyus
+                    <lb/>fieri poterit, ordinandos, et quod aequum ibi visum fuerit, illud
+                    <lb/>observetur. <lb/>
+                    <lb/>Sexto. Si quidem Dominus Princeps gratissima Sua Studia et obsequia
+                    <lb/>summo affecta pollicetur Suæ Ma[jesta]ti omni occasione &lt;….&gt;
+                    <lb/>efficereque ut hanc benignit[a]tem in se optimè collatam Sua Ma[jes]tas
+                    <lb/>experiatur. Ideo Sacra quoque Sua M[ajes]tas&nbsp; benignè confisa
+                    <lb/>hanc liberalit[a]tem suam memori grataque mente à Domino Principe
+                    <lb/>reponendam Arcem Munkachiensem cum omnibus suis bonis <lb/>et pertinentÿs
+                    quibuslibet, Domino Principi eiusque filÿs <lb/>Georgio et Sigismundo vita eorum
+                    durante in Centum Quinqua- <lb/>ginta pro p[rae]tenso Jure suo, super
+                    addendisque quamprimum post <lb/>permutationem Diplomatum à Domino Principe
+                    paratis in pecu- <lb/>nÿs Quinquaginta Millibus, et sic in toto pro Ducentis
+                    Millibus <lb/>florenis Hungaricalibus clementer inscribit et impignorat, ea </p>
+                <p>sub Conditione, ut ipsis viventibus, ne Capitalis quidem Summæ <lb/>depositione
+                    redimi possi. Illis vero &lt;é&gt; vivis sublatis, ab <lb/>hæredibus et
+                    Successoribus, vel quibus legaverint, non aliter, qua[m] <lb/>depositis ducentis
+                    florenorum millibus, auferri redimique possit. <lb/>Hoc etiam per
+                    express&lt;u&gt;m addito et declarato, quod Munka- <lb/>chium nunqua[m] ullo sub
+                    quæsito colore aut p[rae]textu ad Tran- <lb/>sylvaniam applicabit, applicareque
+                    et incorporare clam vel <lb/>palam intendet. Subditis Suæ Ma[jesta]tis exinde
+                    non nocebit neque <lb/>profugos et malefactores illuc recipiet. <lb/>
+                    <lb/>
+                </p>
+                <pb facs="#FacsPnr4"/>
+                <p>Septimo. Dominus Princeps Oppidum Máád Relictae condam Melchioris <lb/>Alaghy
+                    remittat possidendum cum omnibus pertinentÿs et proventibus <lb/>præsentibus et
+                    futuris, Sacra quoque Sua&nbsp; Ma[jes]tas Collationem <lb/>per D[ominum] condam
+                    imperatorem Rudolphum Secundum Parenti Domini <lb/>Principis factam, clementer
+                    confirmare, ratificareque dignabitur <lb/>in omnibus punctis et clausulis.
+                    Totumque et omne Jus suam <lb/>Regiam in perpetuum Domino Principi et fratri
+                    Beius domino Comiti <lb/>Paulo Rákóczÿ Judici Curiæ Suæ Regiæ Successoribusque
+                    et poste- <lb/>ritatibus ipsorum utriusque Sexus Univer[sis] conferet cum
+                    Evictione <lb/>sufficienti, non obstante eo etiam, si cuipiam Bona Regecziana
+                    <lb/>Ma[jes]tas Sua inscripsisset. In Casu autem mortis Dominæ Alaghi- <lb/>anæ,
+                    statim et defacto p[rae]sente ViceComite aut uno Judice Nobilium
+                    <lb/>Comit[a]tus Zemplinien[sis] proprÿs authoritatibus Dominus Princeps
+                    p[rae]dictusque frater eius et hæredes vel Successores eorum, p[rae]dictum
+                    Oppidum <lb/>Máád cum omnibus pertinentÿs sub suis veris metis et antiquis
+                    <lb/>Limitibus de Jure et ab antiquo ad illud pertinentibus apprehendere
+                    <lb/>possint et valeant. Pro firmiori autem Successions p[rae]dicta <lb/>domina
+                    Alaghiana statim et defacto duos Colonos, unum pro Domino <lb/>Principe, alterum
+                    pro Comite Paulo Rakoczy, cum pertinentÿs <lb/>ad easdem Domos Coloniales
+                    spectantibus in dicto Oppido Máád tra- <lb/>dat sine tamen p[rae]iudicio
+                    Educilli et Macelli. Et insuper eos assecu- <lb/>ret, quod nihil ex Bonis et
+                    Pertinentÿs Oppido eius abalienabit <lb/>neque eadem Bona desolari aut
+                    deteriorari permittet. Ea verò <lb/>quæ domina vidua p[ro]prÿs pecunÿs per se
+                    vel cum Domino Marito <lb/>suo coëmisset, maneant eidem et Successoribus
+                    Legatarÿsque integra. <lb/>
+                    <lb/>Octavo. Ad benignam Ma[jesta]tis Suæ Cæsar[eæ] et Regiæque requisitionem
+                    Dominus <lb/>Princeps Sernissimæ Principissæ Brandeburgicæ, omnes eius res
+                    <lb/>mobiles et Clenodia in Arce Munkachiensi existentia (exceptis rebus <lb/>et
+                    Clenodÿs per dictam Principissam Domino Principi promissis) statim <lb/>post
+                    Diplomatum permutationem restituet. De debitis verò quæ Principissa <lb/>domina
+                    Principi in pecunia parata mutuo debit et de quibus Obligato- <lb/>rias habet
+                    (dempta pecuniæ Summa ratione Oppidi et Bonorum <lb/>Vinez) pro Arce vero
+                    Fogarasien[si] et Bonis ad eandem spectan[tibus], atque <lb/>pro p[ro]ventibus
+                    eiusdem Arcis et Bonorum hucusque p[er]ceptis, sexaginta <lb/>Millia florenorum
+                    hungaricalium (defalcatis tamen ex ea Summa <lb/>si quæ Bona Principissa alÿs
+                    inscripsisset). Pro p[ro]ventibus autem Arcis <lb/>et Bonorum Munkachiens[is] à
+                    die prima Mensis Augusti Anni Domini <lb/>Millesimi Sex[centesi]mi Trigesimi
+                    Primi hucusque perceptis Qadraginta <lb/>Millia florenorum hungaricalium, et hæc
+                    omnia intra Spatium duodecim <lb/>
+                    <pb facs="#FacsPnr5"/>Mensium, sive decursum unius integri Anni, à die
+                    permutationis Diplo- <lb/>matum computanda, Dominæ Principissæ deponet et
+                    persolvet, Ita <lb/>tamen ut domina Principissa Monetas eadem Valore acceptet,
+                    quo <lb/>in partibus Regni Hungar[iae] superioribus currunt. Si quæ autem ex
+                    <lb/>rebus Argenteis vel Aureis, materÿsque per Dominum Principem <lb/>ablata
+                    fuissent, de ÿs etiam nominatim Principissæ sub eodem <lb/>termino satisfaciet. <lb/>
+                    <lb/>Nono. Mag[nifi]corum Sigismundi Præpostvarÿ et Stephani Chiakÿ Bona Univer-
+                    <lb/>sa restituet, respectu Authorit[a]tis et interpositionis Suæ Ma[jesta]tis,
+                    Excep- <lb/>ta portione in Péc, quæ Illustrissimam Dominam Principissam
+                    <lb/>optimo Jure concernit. <lb/>
+                    <lb/>Decimo. De Bonis Ep[isco]patus Varadien[sis] cum in Tractatu Caroliensi ita
+                    conclusum <lb/>sit, ut quando Usus p[rae]fatorum Bonorum ex utraque parte suffi-
+                    <lb/>cienter sit comp[ro]batus, ideo manere debere utramque partem in usu
+                    <lb/>hactenus ob&lt;serv&gt;ato. Itaque Art[icu]lus ille maneat imposterum etiam
+                    <lb/>in suo Vigore, ita tamen ut utraque pars ab antiquo usu non <lb/>recedat.
+                    De Pago Beregh Joannes Bogdanÿ procedat secundum <lb/>Jura et Constitutiones
+                    Regni, de Pago verò Kolÿ p[ro]cedat secun- <lb/>dum Jura Transylvaniæ et
+                    Articulus &lt;…&gt; de Violentÿs <lb/>&lt;adictos&gt;. Uti etiam hæredes
+                    Magnifici quondam Casparis Horvat <lb/>de Vegla, quibus Judicium, et Justicia à
+                    parte Domini Prin- <lb/>cipis impendetur in consensus Judicium &lt;…&gt;.
+                    Privilegia <lb/>autem Domini Comitis Joannis Drugeth de Homonna per Dominum
+                    <lb/>Principem quæcunque p[er] manibus eius sunt, integrè restituantur,
+                    <lb/>sufficienti per eundem Dominum Comitem Joannem Drugeth p[rae]stita
+                    <lb/>Quietantia, de non impetendo amplius Domino Principe eiusque <lb/>hæredibus
+                    ratione quorumcunque Privilegiorum suorum. <lb/>Vin&lt;i&gt;am Hétszölö vocatam,
+                    eodem Jure quo defunctus quondam <lb/>Princeps Gabriel possedit, defacto Domina
+                    Principissa, tanquam <lb/>legatum Mariti sui, Collegio Alben[si] restituat. <lb/>
+                    <lb/>Undecimo. Bonorum Domini Principis in Hungaria existentium condigna
+                    <lb/>ratio habebitur, ne damnis ab insolenti Milite afficiantur. <lb/>Salvo
+                    tamen Septimo Articulo Pacificationis et Clausulis. <lb/>
+                    <lb/>Denique Conclusum est, ut Universis offensis et Iniurÿs, si quæ post
+                    <lb/>initam Transactionem Cassoviensem, usque ad Tractatus <lb/>huiusque
+                    conclusione quovis modo utrinque forte contigissent, perpetua <lb/>oblivione
+                    utrinque consopitis et annihilatis, obliteratisque <lb/>
+                    <pb facs="#FacsPnr6"/>prioris Pacificationis Articuli, Puncta, Clausulæ (excepto
+                    A[rticu]lo <lb/>decimo quarto) de quibus hic vel mentio facta non est, vel
+                    specialis <lb/>aliqua in hoc Diplomate immutatio eorum non habetur, omnes et
+                    singuli <lb/>omniaque et singula in eis contenta, in suo Vigore Salva et integra
+                    <lb/>permansisse et permanere debere intelligantur, defactoque permaneant.
+                    <lb/>Imò Virtute huius Transactionis denuò renovata sint, habeantque <lb/>et in
+                    futurum robur suæ firmit[a]tis. Prout conclusimus, concorda- <lb/>mus, in
+                    unionemque pacis stabiliendæ devenimus cum Ablegatis <lb/>Sacræ Cæsar[eæ]
+                    Regiæque Ma[jesta]tis, ad ratificationem Ill[ustrissi]mi Domini
+                    <lb/>Transylvaniæ Principis Domini Nostri Clementissimi, Harum <lb/>Nostrarum
+                    Vigore et Testimonio l[ite]rarum mediante. Datum in Libera <lb/>Regiaque
+                    Civitate Epperiensi die 6. Mensis Maÿ Anno D[omi]ni 1633. <lb/>
+                    <lb/>Nos itaque quibus a Natura institutoque Nostro nihil charius po-
+                    <lb/>tiusque unquam fuit, quam Saluti et tranquillitati populorum <note n="1"
+                        type="crit_app">Randbemerkung: hoc modo postulavit Principis
+                        ratification[em] à Sua Majestate, et Sua Majestas noluit acceptare (verba)
+                        ac bona fide, qui&lt;.&gt; nec constitutiones Regni secus confirmat quam sub
+                        verbo Regio.</note> Nobis <lb/>Divinitus commissorum consulere.
+                    P[rae]scriptos universos et singulos Ar[ticu]los <lb/>ac omnia et Singula in ÿs
+                    contenta, ex certa Nostra Scientia <lb/>et animo bene deliberato acceptamus,
+                    approbamus, ratificamus et <lb/>confirmamus. Assecurantes sæpedictum Dominum
+                    Principem, eiusque <lb/>Successores legitimos Transylvaniæ Principes in Verbo
+                    Nostro Cæ- <lb/>sareo et Regia ac bona fide, quod p[rae]scriptos Universos
+                    Ar[ticu]los in <lb/>omnibus suis punctis et clausulis, tam Nos ipsi
+                    observabimus, <lb/>quam etiam per alios subditos Nostros cuiuscunque Status et
+                    Conditionis <lb/>sint, observari faciemus. Ad quod observandum etiam Successores
+                    <lb/>Nostros legitimos Hungariæ Re&lt;…&gt;, quos v[&lt;ideli&gt;]cet Transactio
+                    ista concernere <lb/>dignoscitur, obligatos esse volumus. Harum N[ost]rarum
+                    Manus Nostræ <lb/>subscriptione roboratarum Vigore et Testimonio L[ite]rarum
+                    mediante. Datum …. &nbsp; <lb/>
+                </p>
+            </div>
+        </body>
+    </text>
+</tei:TEI>

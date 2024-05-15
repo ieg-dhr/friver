@@ -1,0 +1,476 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE tei SYSTEM "../resources/FriVer_DTD.dtd">
+
+<?xml-model href="../resources/FriVer.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns="http://www.tei-c.org/ns/1.0"
+    xml:id="pa000299-0114">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title level="s">European peace treaties of the pre-modern era in data / Europäische
+                    Friedensverträge der Vormoderne in Daten (FriVer+)</title>
+                <title when="1688-07-29" xml:id="t114" when-custom="1688 VII 29" level="a"
+                    ref="https://www.ieg-friedensvertraege.de/treaty/t-114-1-de.html"
+                    >Verlängerungsvertrag von Warschau betr. Wehlau, Bromberg</title>
+            </titleStmt>
+            <editionStmt>
+                <edition> Digital edition according to <ref target="http://www.tei-c.org/">TEI
+                        P5</ref>
+                </edition>
+                <funder>
+                    <ref target="https://www.text-plus.org/">TEXT+</ref>
+                </funder>
+                <editor role="http://id.loc.gov/vocabulary/relators/edt"
+                    ref="https://orcid.org/0000-0002-8741-5916">
+                    <persName>Jaap Geraerts</persName>
+                    <note>The transformation and enrichment of the data is done by Jaap Geraerts
+                        (IEG Mainz). The other members of the FriVer+ team are Fabian Cremer, Ines
+                        Grund, and Thorsten Wübbena (all IEG Mainz).</note>
+                    <note> The original data has been created by the <ref
+                            target="https://www.ieg-friedensvertraege.de">team of scholars</ref> who
+                        were part of the Europäische Friedensverträge der Vormoderne project. This
+                        project was lead by Prof. Dr. Heinz Duchhardt and was based at the Leibniz
+                        Institute of European History in Mainz. </note>
+                </editor>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>
+                    <orgName ref="http://www.isni.org/0000000119314040">Leibniz-Institut für
+                        Europäische Geschichte Mainz</orgName>
+                </publisher>
+                <distributor>
+                    <orgName ref="http://www.isni.org/0000000110101946">Universitäts- und
+                        Landesbibliothek Darmstadt</orgName>
+                </distributor>
+                <idno type="ISIL">http://lobid.org/organisation/DE-17</idno>
+                <date type="issued" when="2023-12-23"/>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">
+                        <p xml:lang="en">This file is licensed under the terms of the Creative
+                            Commons License CC-BY 4.0 (Attribution 4.0 International)</p>
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <repository xml:id="r3">Berlin GStAPK <note>Archiwum Główne Akt Dawnych Warschau,
+                        Zbiór dokumentów papierowych Nr. 2030. Findbuch:<lb/>
+                        <ref target="https://agad.gov.pl/?page_id=1599"
+                            >https://agad.gov.pl/?page_id=1599</ref> [hier abgebildet]<lb/> Geheimes
+                        Staatsarchiv Preußischer Kulturbesitz Berlin, Registratur-/Altsignatur: VI.
+                        HA, Nr. 643 (M) = Bestellsignatur: I. HA GR, Rep. 11 Staatsvertraege, Nr.
+                        683. Digital:<lb/>
+                        <ref
+                            target="http://archivdatenbank.gsta.spk-berlin.de/midosasearch-gsta/MidosaSEARCH/i_ha_gr_rep_11_stv/index.htm?kid=GStA_i_ha_gr_rep_11_stv_45&amp;uid=GStA_i_ha_gr_rep_11_stv_I_HA_GR_Rep_11_Staatsvertraege_Nr_683"
+                            >http://archivdatenbank.gsta.spk-berlin.de ...</ref></note>
+                </repository>
+                <msDesc>
+                    <p>Graphik: AGADWarschau: Zbiór Dokumentów Papierowych Nr. 2030<lb/>
+                        <lb/> GSABerlin VI HA Nr. 643: Cölln a.d.Spree 1688 VI 30 (Perg., 4 LS, 4
+                        US, lat., 6 S.) [hier nicht abgebildet]</p>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p> The data in this XML file, originally created by the project <ref
+                        target="https://www.ieg-friedensvertraege.de/vertraege">Europäische
+                        Friedensverträge der Vormoderne online</ref> has been transformed in
+                    accordance with <ref target="http://www.tei-c.org/">TEI P5</ref> as part of the
+                    project <ref
+                        target="https://www.ieg-mainz.de/en/research/research-projects/european-peace-treaties-of-the-pre-modern-era-in-data"
+                        >Europäische Friedensverträge der Vormoderne in Daten (FriVer+)</ref>
+                </p>
+            </projectDesc>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="la" xml:id="lan6">Latein</language>
+            </langUsage>
+        </profileDesc>
+    </teiHeader>
+    <standOff>
+        <listPerson>
+            <person role="signatory" xml:id="p27">
+                <persName ref="https://www.wikidata.org/wiki/Q157367">
+                    <name>Brandenburg - Preußen</name>
+                </persName>
+            </person>
+            <person role="signatory" xml:id="p91">
+                <persName ref="https://explore.gnd.network/gnd/4046496-9">
+                    <name>Polen</name>
+                </persName>
+            </person>
+            <person xml:id="pp0136">
+                <persName ref="https://explore.gnd.network/gnd/119389118">
+                    <name>Jan II. Kazimierz Wasa</name>
+                </persName>
+            </person>
+            <person xml:id="pp0119">
+                <persName ref="https://explore.gnd.network/gnd/189438886">
+                    <name>Friedrich Wilhelm (Brandenburg)</name>
+                </persName>
+            </person>
+            <person xml:id="pp0172" ref="https://explore.gnd.network/gnd/118535730">
+                <persName>
+                    <name>Friedrich I. (Preußen)</name>
+                </persName>
+            </person>
+            <person xml:id="pp0173">
+                <persName>
+                    <name>Otto Frydryk Felkiersamb</name>
+                </persName>
+            </person>
+            <person xml:id="pp0174">
+                <persName ref="https://viaf.org/viaf/165515712/">
+                    <name>Jan Dobrogost Krasiński</name>
+                </persName>
+            </person>
+            <person xml:id="pp0175">
+                <persName ref="https://explore.gnd.network/gnd/116170964">
+                    <name>Alexander Graf von Dohna </name>
+                </persName>
+            </person>
+            <person xml:id="pp0176">
+                <persName>
+                    <name>Christoph Wichert</name>
+                </persName>
+            </person>
+            <person xml:id="pp0177">
+                <persName ref="https://explore.gnd.network/gnd/119054558">
+                    <name>Stanisław Szczuka</name>
+                </persName>
+            </person>
+            <person xml:id="pp0178">
+                <persName ref="https://explore.gnd.network/gnd/119053322">
+                    <name>Eberhard Christoph Danckelmann</name>
+                </persName>
+            </person>
+        </listPerson>
+        <listPlace>
+            <place xml:id="loc42">
+                <placeName ref="https://explore.gnd.network/gnd/4079048-4">Warschau</placeName>
+            </place>
+        </listPlace>
+        <facsimile>
+            <surface xml:id="FacsPnr1">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_462497a915f2e"/>
+            </surface>
+            <surface xml:id="FacsPnr2">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_462497bf342e7"/>
+            </surface>
+            <surface xml:id="FacsPnr3">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_462497d292df5"/>
+            </surface>
+            <surface xml:id="FacsPnr4">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_462497e2eda9b"/>
+            </surface>
+            <surface xml:id="FacsPnr5">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_462497f397b1f"/>
+            </surface>
+            <surface xml:id="FacsPnr6">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_4624980483281"/>
+            </surface>
+        </facsimile>
+    </standOff>
+    <text>
+        <front>
+            <div type="Drucke">
+                <p>CTS 18 (277)279-289. Dogiel IV, S. 509-512.</p>
+            </div>
+            <div type="Inhalt">
+                <p>Polen und Brandenburg bestätigen die Pacta, und besonders den Artikel, der jeden
+                    neuen König zur Bestätigung verpflichtet. Bevollmächtigte tagen in
+                    Wilanów.<lb/>Formula Juramentum der Bevollächtigten.<lb/>Vollmacht und
+                    Bekräftigung Jan III.<lb/>Vollmacht und Bekräftigung Friedrich
+                    III.<lb/>Bestätigung der Verträge durch die Bevollmächtigten.</p>
+            </div>
+            <div type="Kommentar">
+                <p>Diese Erneuerung der 1657 in Wehlau und Bromberg geschlossenen Verträge ist die
+                    zweite in der Regierungszeit Jan III. Sobieskis. Sie wurde nach dem Tod Kurfürst
+                    Friedrich Wilhelms und dem Amtsantritt Friedrich III. gemäß den Bestimmungen der
+                    Verträge nötig. Die Bestätigung wurde unter den gleichen Bedingungen vorgenommen
+                    wie 1672.</p>
+            </div>
+            <div type="Kontext">
+                <p>-&gt; s.a Wehlau, Bromberg<lb/><lb/>1655 - 1660 (Erster) Nordischer Krieg<lb/>19.
+                    September 1657 Vertrag von Wehlau zwischen Brandenburg und Polen. Polen scheidet
+                    aus dem Krieg, in dem es an Seiten Schwedens gestanden hatte, aus. Das Herzogtum
+                    Preußen wird in die Souveränität entlassen. Preußen sichert Huldigung und
+                    Heeresfolge zu.<lb/>6. November 1657 Vertrag von Bromberg. Friedrich Wilhelm
+                    verpflichtet sich zu einem Bündnis mit Polen und erhält dafür Draheim,
+                    Lauenburg, Bütau.<lb/>9. Februar 1658 Offensivpakt Polen, Brandenburg, Habsburg
+                    gegen Schweden.<lb/>3. Mai 1660 Friede von Oliva beendet den Nordischen Krieg.
+                    Polen verzichtet auf schwedische Thronansprüche. Die Souveränität des Herzogtums
+                    Preußen wird bestätigt. <lb/>16. September 1668 Abdankung Jan Kazimierz. Ihm
+                    Folgt Miha³ Korybut Wisñiowiecki auf dem Thorn. <lb/>26. März 1672 Erste
+                    Erneuerung der Verträge von Wehlau/Bromberg.<lb/>19. Mai 1674 Nach dem Tod
+                    Wisñiowieckis wird Jan III. Sobieski zum König gewählt.<lb/>17. Mai 1677
+                    Erneuerung der Verträge von Wehlau/Bromberg<lb/>9. Mai 1688 Tod Friedrich
+                    Wilhelm (der Große Kurfürst); Nachfolger: Friedrich III. <lb/>29. Juli 1688
+                    Erneuerung der Verträge <lb/>17. Juni 1696 Tod Jan III. Sobieski. Im Juni 1697
+                    wird der Wettiner Kurfürst Friedrich August von Sachsen zum polnischen König
+                    gewählt. <lb/>8. Juli 1698 Letzte Erneuerung der Verträge.</p>
+            </div>
+
+        </front>
+        <body>
+            <div type="Edition">
+                <p>In nomine Sacrosanctae et Individuae Trinitatis<note n="1" type="crit_app"
+                        >Dogiel, CTS: Ratifikationsformel Jan III., Warschau 1688 VII 29.</note>
+                    <lb/>Notum sit universis et singulis, quorum interest vel quomodo libet
+                    interesse potest. Quod deducendo ad executionem perpetui inter Serenissimos et
+                    Potentissimos Reges et Rem publicam Poloniae ab una, Electoresque
+                    Brandenburgicos in Prussia Duces<note n="2" type="crit_app">Dogiel: etc. parte
+                        [Einschub].</note> ab altera, foederis inconcussum robur, firmitatemque
+                    habentia pacta<note n="3" type="crit_app">Siehe die Verträge von Wehlau 1657 IX
+                        19 und Bromberg 1657 XI 6.</note>, et inprimis articulum, quo disponitur, ut
+                    quotiescunque novus Rex<note n="4" type="crit_app">Dogiel, CTS: Poloniae
+                        [Einschub].</note> electus fuerit aut Dux Prussiae in Ducatum<note n="5"
+                        type="crit_app">Dogiel, CTS: Ducatu.</note> successerit, idem foedus ab
+                    utraque parte renovetur confirmeturque iuramentis<note n="6" type="crit_app"
+                        >Dogiel, CTS: juramentis (auch im Folgenden).</note> de super praestitis,
+                    per deputatos in animam<note n="7" type="crit_app">Dogiel, CTS: animas.</note>
+                    principalium iurantes. Existente nunc casu novae in Ducatu Prussiae successionis
+                    (constitutis prius ex mutua conventione eidem actui die, locoque infra
+                    expressis) alte memoratorum tam <rs ref="#pp0168">Regiae Maiestatis</rs><note n="8" type="annotation"
+                        >Jan III. Sobieski (1674-1696), König von Polen.</note> quam <rs
+                            ref="#pp0171">Serenitatis
+                        Electoralis</rs><note n="9" type="annotation">Friedrich III. (1688-1713),
+                        Kurfürst von Brandenburg, ab 1701 König in Preußen.</note> deputati
+                    plenipotentiarii, a parte quidem Regia magnificus <rs ref="#pp0173">Ottho Fridericus
+                        Felkiersamb</rs><note n="10" type="crit_app">Textvariante: Dogiel, CTS: Otto
+                        Fridericus Fölkersamb (auch im Folgenden). Sachanmerkung: Otto Frydryk
+                        Felkiersamb (gest. 1705), Palatin, Wojewode.</note>, Palatinus
+                        Czerniecoviensis<note n="11" type="crit_app">Dogiel, CTS:
+                            Czernichoviensis.</note>, et generosus <rs ref="#pp0174">Ioannes
+                                Bonaventura Krasinski</rs><note
+                        n="12" type="annotation">Jan Dobrogost (Bonaventura) Krasiński († 1717),
+                        Wojewode von Płock, Sejmgesandter.</note>, Referendarius Regni, Capitaneus
+                    Varsaviensis, Sztumensis<note n="13" type="crit_app">Dogiel, CTS:
+                        Stumensis.</note>, Prasnisensis<note n="14" type="crit_app">Dogiel, CTS :
+                        Prasnicensis.</note>. A parte vero Electorali Illustris Alexander S[acri].
+                    R[omani]. I[mperii]. Burggravius<note n="15" type="crit_app">Dogiel, CTS:
+                        Burgravius.(auch im Folgenden).</note> et <rs ref="#pp0175">Comes a Dohna</rs><note n="16"
+                        type="crit_app">Textvariante: Dogiel, CTS: Dhona (auch unten).
+                        Sachanmerkung: Alexander Graf von Dohna (1661-1728), Generalfeldmarschall.
+                        Dogiel, CTS: Dhona (auch unten).</note> Serenissimi Electoris Brandenburgici
+                    Consiliarius status intimus, Morungensis<note n="17" type="crit_app">Dogiel,
+                        CTS: Monungensis.</note> et Lipstadiensis Capitaneus, et generosus
+                    <rs ref="#pp0176">Christophorus à Wichert</rs><note n="18" type="annotation">Christoph Wichert, Hof-
+                        und Legationsrat. Keine weiteren Angaben bekannt.</note>, Serenissimi
+                    Electoris Brandenburgici Aulae et Legationum Consiliarius, praestitua die in
+                    Palatio Regio Villanoviensi ad Varsaviam<note n="19" type="annotation"
+                        >Königliches Schloß Wilanów, vor den Toren Warschaus gelegen.</note>
+                        companuerint<note n="20" type="crit_app">Dogiel, CTS: comparuerunt.</note>,
+                    post mutuasque plenipotentiarium tabulas (quarum apographa<note n="21"
+                        type="crit_app">Dogiel, CTS: Authographa.</note> sub finem huius instrumenti
+                    de verbo ad verbum sunt inserta) rite commutatas, sequenti tenore in animas
+                    principalium iurarunt. <lb/>
+                    <lb/>Nos <rs ref="#pp0173">Ottho Fridericus</rs>, et <rs ref="#pp0174">Ioannes
+                        Bonaventura</rs> à Serenissimo et Potentissimo
+                    Principe Domino, <rs ref="#pp0168">D[omi]no Ioanne Tertio</rs>, Dei gratia Rege Poloniae, Magno Duce
+                    Lithuaniae, Russiae, Prussiae, Masoviae, Samogitiae, Livoniae, Kyioviae,
+                    Volhyniae, Podoliae, Podlachiae, Smolensiae Severiae Czerniechoviaeque<note
+                        n="22" type="crit_app">Dogiel, CTS: etc. [Auslassung der Titulatur].</note>
+                    ad renovationem et confirmationem pactorum, quae die 19. septemb[ris] Velaviae,
+                    tum die 6ta novembris Bidgostiae<note n="23" type="crit_app">Dogiel, CTS:
+                        Bydgostiae (auch unten).</note> anno 1657 cum Serenissimo Principe Domino
+                    <rs ref="#pp0119">Friderico Wilhelmo</rs><note n="24" type="crit_app">Dogiel, CTS: Vilhelmo (auch
+                        unten).</note> Marchione Brandenburgico<note n="25" type="crit_app"
+                        >Friedrich Wilhelm (1640-1688), Kurfürst von Brandenburg.</note> S[acri]
+                    R[oman]i Imp[erii]. Archicamerario et Principe Electore Prussiae<note n="26"
+                        type="crit_app">Dogiel, CTS: in [Einschub].</note>, Magdeburgi, Juliae,
+                    Montium, Stetini, Pomeraniae, Cassubiorum, Vandalorumque, nec non in Silesia
+                    Crosnae et Carnoviae Duce, Burggrabio Norimbergensi, Principe Halberstadii,
+                    Mindae et Camini, Comite Marcae et Ravensbergi, Domino in Ravenstein, Lauenburg
+                    et Büttau<note n="27" type="crit_app">Dogiel, CTS: Prussia etc. [Auslassung der
+                        Titulatur].</note>, <rs ref="#pp0136">nomine inclyti Regni Poloniae</rs><note n="28"
+                        type="crit_app">Jan II. Kazimierz (1648-1672), König von Polen.</note>, et
+                    Magni Ducatus Lithuaniae conclusa et stabilita, et per constiutionem omnium
+                    ordinum totius Reipublicae approbata et confirmata sunt; deputati
+                        commissarii<note n="29" type="crit_app">CTS: [Auslassung].</note> nomine
+                    eiusdem S[acr]ae R[egi]ae Maiestatis Poloniae, eiusque successorum Regum,
+                    quandoquidem praefata pacta Sua Serenitas Electoralis<note n="30"
+                        type="crit_app">Dogiel, CTS: Elect. Sua Seren.</note> per supra memoratos
+                    deputatos plenipotentiarios in instanti quoque ratihabet et iuramento confirmat.
+                    Nos ex vi specialis mandati in animam eiusdem<note n="31" type="crit_app"
+                        >Dogiel, CTS: ejusdem [Auslassung].</note> S[acr]ae R[egi]ae Ma[iesta]tis
+                    iuramus; quod Sa[cra]. R[egi]a Maiestas praedicta pacta, in omnibus articulis,
+                    punctis et clausulis observatura sit, nec iisdem sive directe sive indirecte
+                    contraventura, aut contraveniri a subditis passura sit. Sic ipsam et Nos DEUS
+                    adiuvet, par haec Sancta DEI Evangelia Amen. <lb/>
+                    <lb/>Forumla Iuramenti Deputatorum Electoralium <lb/>Nos Alexander S[acri].
+                    R[omani]. I[mperio]. Burggravius<note n="32" type="crit_app">Dogiel:
+                        Burgrabius.</note> et <rs ref="#pp0175">Comes a Dohna</rs>, et <rs
+                            ref="#pp0176">Christophorus à Wichert</rs> à
+                    Serenissimo et Potentissimo<note n="33" type="crit_app">Dogiel, CTS: et
+                        Potentissimo [Auslassung].</note> Principe ac Domino, D[omi]no <rs
+                            ref="#pp0172">Friderico
+                    Tertio</rs> Marchione Brandenburgico, S[acri] R[omani] Imp[erii]. Archi Camerario et
+                    Principe Electore Prussiae<note n="34" type="crit_app">Dogiel, CTS: in
+                        [Einschub].</note>, Magdeburgi, Juliae, Cliviae, Montium, Stetini,
+                    Pomeraniae, Cassubiorum, Vandalorumque, nec non in Silesia Crosnae et Svibussae,
+                    Duce, Burggravio Norimbergensi, Principe Halberstadii, Mindae et Camini Comite
+                    de Hohenzollern, Marcae et Ravensbergi, Domino in Ravenstein, Lauenburg et
+                    Büttau, ad renovationem et confirmationem pactorum, quae die 19. septem[bris].
+                    Velaviae, tum die 6ta novembris Bidgostiae anno 1657 cum Rege et Regno Poloniae,
+                    item cum Magno Ducatu Lithuaniae Sua Serenitas Electoralis iniit, quaeque
+                    Respublica postmodum in comitiis Regni anno 1658 sicuti quoque Serenissimus et
+                    Potentissimus Princeps ac Dominus, D[omi]nus Ioannes Tertius Rex Poloniae,
+                    Magnus Dux Lithuaniae<note n="35" type="crit_app">Dogiel, CTS: etc. [Auslassung
+                        der Titulatur].</note> Russiae, Prussiae, Masoviae, Samogitiae, Livoniae,
+                    Kijoviae, Volhyniae, Podoliae, Podlachiae, Smolensciae, Severiae,
+                    Czerniechoviaeque ratihabuit et confirmavit, deputati commissarii nomine Suae
+                        Serentatis<note n="36" type="crit_app">Dogiel, CTS: Suae
+                        [Auslassung].</note> Electoralis vi specialis mandati iuramus; quod sua
+                    Serenitas Electoralis praedicta pacta in omnibus articulis, punctis, et
+                    clausulis, observatura sit, nec iisdem sive directe, sive indirecte
+                    contraventura, aut contraveniri à subditis passura sit. Sic Ipsam et Nos DEUS
+                    adiuvet per haec Sancta Dei Evangelia. Amen. <lb/>Utque huius rei ad
+                        posteritatem<note n="37" type="crit_app">Dogiel, CTS: posteritati.</note>
+                    constet memoria fidesque, duo exemplaria eiusdem tenoris confecta, manibusque ac
+                    sigillis propriis partium munita et firmata sunt. <lb/>Sequitur apographum
+                    mandatorum tam <rs ref="#pp0168">S[acr]ae R[egi]ae Maiestatis</rs>, quam <rs
+                        ref="#pp0172">Serenitatis suae
+                        Electoralis</rs><note n="38" type="crit_app">Dogiel, CTS: Sequitur Autographum
+                        Mandatorum tam S. R. Majest. quam Suae Serenitatis Electoralis.</note>. <lb/>
+                    <lb/><rs ref="#pp0168">Ioannes Tertius</rs> Dei gratia Rex Poloniae, Magnus Dux Lithuaniae<note n="39"
+                        type="crit_app">Dogiel, CTS: etc. [Auslassung Titulatur].</note>, Russiae,
+                    Prussiae, Masoviae, Samogitiae, Livoniae, Kijoviae, Volhyniae, Podoliae,
+                    Podlachiae, Smolensiae, Severiae, Czerniechoviaeque. Notum testatumque facimus
+                    per praesentes. Quod cum pactis Bidgostiensibus cautum sit, ut pacta illa, quae
+                    Nobis et Regno Poloniae<note n="40" type="crit_app">Dogiel, CTS: quae Nobiscum
+                        et cum Regno Poloniae.</note> ac Magno Ducatui Lithuaniae cum Serenissimo
+                        olim<note n="41" type="crit_app">Dogiel, CTS: olim [Auslassung].</note>
+                    Principe Domino <rs ref="#pp0119">Friderico Wilhelmo</rs> Marchione Brandenburgensi<note n="42"
+                        type="crit_app">Dogiel, CTS: Brandenburgico.</note>, S[acri]. R[omani].
+                    Imp[erii]. Archi camerario et Principe Electore<note n="43" type="crit_app"
+                        >Dogiel, CTS: in [Einschub].</note>, Prussiae<note n="44" type="crit_app"
+                        >Dogiel, CTS: etc. [Auslassung der Titulatur].</note>, Magdeburgi, Iuliae,
+                    Cliviae, Montium, Stetini, Pomeraniae, Cassubiorum Vandalorumque, nec non in
+                    Silesia et Carnoviae Duce, Burggravio Norimbergensi, Principe Halberstadii
+                    Mindae et Camini, Comite Marcae et Ravensbergi, Domino in Ravenstein et Terrarum
+                    Lauenburg et Büttau intercesserunt<note n="45" type="crit_app">Dogiel, CTS:
+                        intercedunt.</note>. Quotiescunque novus Rex Poloniae electus fuerit, aut
+                    Dux Prussiae in Ducatum successerit, ab utraque parte renoventur et
+                    confirmentur. Iuramento de super praestito per deputatos in animam principalium
+                    iurantes. Cum itaque post obitum memorati Ser[e]n[issi]mi Electoris,
+                    Serenissimus Princeps Dominus <rs ref="#pp0172">Fridericus Tertius</rs> Marchio Brandenburgensis
+                    S[acri]. R[omani]. Imp[erii]. Archicamerarius et Princeps Elector, Prussiae<note
+                        n="46" type="crit_app">Dogiel, CTS: etc. [Auslassung der Titulatur].</note>
+                    Magdeburgi, Juliae, Cliviae, Montium, Stetini, Pomeraniae, Cassubiorum,
+                    Vandalorumque, nec non in Silesia Crosnae et Svibussae Dux, Burggravius
+                    Norimbergensis, Princeps Halberstadii Mindae et Camini, Comes de Hohenzollern
+                    Marcae et Ravensbergi Dominus in Ravenstein Lauenburg et Büttau, D[omi]nus
+                    cognatus et Frater Noster Charissimus in praefactum Prussiae Ducatum<note n="47"
+                        type="crit_app">Dogiel, CTS: Ducatum Prussiae.</note> succedat. Nos
+                    praedictis pactis satisfaciendo, Magnifico <rs ref="#pp0173">Otthoni Friderico
+                        de Fölkiersamb</rs>
+                    Palatino Czerniechoviensi, et generoso <rs ref="#pp0174">Ioanni Bonaventurae in
+                        Krasne Krasinski</rs>,
+                    Referendario Regni, Capitaneo Nostro Varsaviensi, Sztumensi, Prasnysensi<note
+                        n="48" type="crit_app">Dogiel, CTS: Prasnicensi.</note> etc in mandatis
+                    dedimus, ut super memoratis pactis Bidgostiensibus iuramentum in animam Nostram
+                    praestent, atque ex altera parte per deputatos electorales praestandum audiant,
+                    et excipiant. Quem admodum praesentibus hisce ipsis iniungimus, ut mediante tali
+                    iuramento Pacta ista renovent atque confirment, eorundemque observantiam a parte
+                    nostra promittant, prout et hisce praesentibus illam facultatem et
+                    plenipotentiam praedictis deputatis<note n="49" type="crit_app">Dogiel, CTS:
+                        Legatis.</note> nostris damus et concedimus, ratihabentes omnia, quae hac in
+                    parte iuxta pactorum tenorem acturi sunt. In cuius fidem hanc nostram
+                    plenipotentiam manu nostra subscriptam sigillo regni communiri iussimus. Datum
+                    in Palatio Nostro Villanoviensi ad Varsaviam<note n="50" type="crit_app">Dogiel,
+                        CTS: Varsaviam.</note> die XXIX<note n="51" type="crit_app">Dogiel, CTS:
+                        vigesima prima.</note> mensis julii anno Domini MDCLXXXVIII<note n="52"
+                        type="crit_app">Dogiel, CTS: millesimo sexcentesimo octuagesimo
+                        octavo.</note> Regni vero Nostri XV<note n="53" type="crit_app">Dogiel, CTS:
+                            decimo quarto.</note> Anno. Ioannes Rex <lb/>Locus Sigilli <rs
+                                ref="#pp0177">Stanislaus
+                        Szczuka</rs><note n="54" type="crit_app">Stanisław Szczuka. Konnte nicht
+                        ermittelt werden.</note> Regens Cancell[arii]<note n="55" type="crit_app"
+                        >Dogiel, CTS: Regni.</note>., Cap[itaneus]. Lubl[inensis]. <lb/>
+                    <lb/>Nos <rs ref="#pp0172">Friedericus Tertius</rs>, Dei gratia Marchio Brandenburgensis<note n="56"
+                        type="crit_app">Dogiel, CTS: Brandenburgicos.</note>, S[acri]. R[omani].
+                    Imp[erii]. Archi Camerarius, et Princeps Elector Prussiae<note n="57"
+                        type="crit_app">Dogiel, CTS: etc. [Auslassung der Titulatur].</note>,
+                    Magdeburgi, Juliae, Cliviae, Montium, Stetini, Pomeraniae, Cassubuiorum,
+                    Vandalorumque nec non in Silesia Crosnae et Svibussae Dux, Burggravius
+                    Norimbergensis, Princeps Halberstadii, Mindae et Camini, Comes de Hohenzollern,
+                    Marcae et Ravensbergi Dominus in Ravenstein Lauenburg et Büttau. Notum facimus
+                    et testatum praesentibus. Quod cum Pactis Bidgostiensibus cautum sit, ut
+                        Foedus<note n="58" type="crit_app">Dogiel, CTS: illud [Einschub].</note>
+                    perpetuum, quod nobis cum Serenissimo et Potenssimo Rege inclytaque Republica
+                    Poloniae, nec non<note n="59" type="crit_app">Dogiel, CTS: ac.</note> Magno
+                    Ducatu Lithuaniae intercedit, quotiescunque novus Rex Poloniae electus fuerit,
+                    aut Dux Prussiae in Ducatum successerit, ab utraque parte renovetur et
+                    confirmetur, iuramento desuper praestito per deputatos in animam principalium
+                    iurantes. Nos post luctuosissima Divi parentis nostri fata et suscepta in Ducatu
+                    Nostro Prussiae rerum gubernacula praedictis pactorum legibus quam
+                        exactissime<note n="60" type="crit_app">Dogiel, CTS: exactissima.</note>
+                    fide satisfacere cupientes, illustri et generoso Consiliariis Nostris Status
+                        Intimo<note n="61" type="crit_app">Dogiel, CTS: intimis.</note>, et
+                        Aulico<note n="62" type="crit_app">Dogiel, CTS: Aulicis.</note> singulariter
+                    Nobis dilectis et fidelibus <rs ref="#pp0175">Alexandro Burggravio et Comiti a
+                        Dohna</rs>, et
+                    <rs ref="#pp0176">Christophorus à Wichert</rs><note n="63" type="crit_app">Dogiel, CTS: Chist. a
+                        Vichert.</note> mandatum dedimus, ut praestito prius iuramento super pactis
+                    à deputatis Regiis in animam Regiae suae Maiestatis iuramentum istud a parte
+                        quoque<note n="64" type="crit_app">Dogiel, CTS: quoque a parte.</note>
+                    nostra in animam nostram praestent; quemadmodum praesentibus hisce ipsis
+                    iniungimus, plenamque potestatem largimur ac concedimus, ut mediante tali
+                    iuramento pacta ista renovent, confirment, eorundemque observantiam a parte
+                    nostra spondeant et promittant. Quidquoid etiam a memoratis deputatis nostris
+                    sive ab utroque sive ab uno eorum solum in hoc negotio agi concludique
+                    contigerit, id omne nos gratum, ratum et acceptum habituri sumus, eodem prorsus
+                    modo ac si nos ipsi coram illud fecissemus et egissemus. In quorum omnium fidem
+                    maiorem hasce praesentes manu nostras subscripsimus sigiloque Nostro Electorali
+                    communiri iussimus. Dabantur Coloniae ad Spream die 30 junii 1688
+                    <lb/><rs ref="#pp0172">Fridericus Elector</rs> <lb/>Locus Sigilli <rs
+                        ref="#pp0178">Eberard Dankelman</rs><note n="65"
+                        type="crit_app">Textvariante: Dogiel, CTS: [Auslassung]. Sachanmerkung:
+                        Eberhard Christoph Danckelmann (1643-1722), brandenburgischer Staatsmann,
+                        1688 von seinem Schüler Friedrich III. zum Geheimen Staats- und Kriegsrat
+                        ernannt, 1697 aus diesem Amt entlassen und bis 1707 wegen angeblicher
+                        Misswirtschaft und gescheiterter Außenpolitik inhaftiert.</note>
+                    <lb/>
+                    <lb/>Tandem Nos a S[acr]a R[egi]a M[aies]t[a]te Domino<note n="66"
+                        type="crit_app">Dogiel, CTS: Domino [Auslassung] (auch unten).</note>
+                    D[omin]o Nostro Clementissimo ad renovationem pactorum alte memoratum deputati
+                    commissarii quemadmodum circa inchoationem actus praesentis solenniter et clara
+                    voce manifestati<note n="67" type="crit_app">Dogiel, CTS: manifestaturi.</note>
+                    sumus, iuramentum praestandum nihil praeiudicare Reipublicae debere, neque
+                    posse, quo minus Respublica et S[acr]a R[egi]a Ma[jes]t[as] Dominus D[omi]nus
+                    Noster Clementissimum praetensiones omnes ab non satisfactionem pactis
+                    Bidgostiensibus in non nullis articuls punctis et clausulis à Sua Serenitate
+                    Electorali mediis iis, quae in pactis exstant specificata servatis gradibus in
+                    iisdem expressis requirere possit, ita nunc praestito iuramento iterato
+                    praesenti acripto protestamur et manifestamus; quam quidem manifestationem
+                    propter memoriam et fidem maiorem circa conclusionem istius instrumenti rite
+                    inter nos commutati inseri curavimus. Vicissim nos a Ser[enissi]mo Electore
+                    Brandenburgico Domino, Domino N[ost]ro Clementissimo ad renovationem pactorum
+                    alte nominatorum<note n="68" type="crit_app">Dogiel, CTS: moratorum.</note>
+                    deputati commissarii quemadmodum circa inchoatioem actus praesentis solenniter
+                    et clara voce remanifestati sumus. Iuramentum praestandum nihil praeiudicare
+                    debere Ser[e]n[issi]mo Electori neque posse, quo minus Sua Serenitas Electorali
+                    Dominus D[omi]nus Noster Clementissimus praetensiones omnes ob non
+                    satisfactionem pactis Bidgostiensibus in non nullis articulis punctis et
+                    clausulis a Reipublica Polona mediis iis, quae in pactis exstant<note n="69"
+                        type="crit_app">Dogiel, CTS: extant.</note> specificata, servatis gradibus
+                    in iisdem expressis requirere possit, ita nunc iuramento iterato praesenti
+                    scripto protestamur et manifestmus. Quam quidem manifestationem propter memoriam
+                    et fidem maiorem, circa conclusionem istius instrumenti<note n="70"
+                        type="crit_app">Dogiel, CTS: juramenti.</note> rite inter Nos commutati
+                    inseri curavimus. Datum in Palatio Regio Villanoviensi ad Varsaviam Die XXIX
+                    Mensis Julii Anno Domini Millesimo Sexcentesimo Octuagesimo Octavo. <lb/>
+                    <lb/><rs ref="#pp0173">Ottho Friderico de Felkiersamb</rs> Palatinus Czerniechoviensis LS <lb/>LS
+                    <rs ref="#pp0175">Alexander S[acri] R[romani] I[mperii] Burggravio et Comes de
+                        Dohna</rs> <lb/>LS
+                    <rs ref="#pp0174">Ioannes Krasinski</rs> Referendar[ius]. Regni Mat[iest]atu
+                    <lb/>LS <rs ref="#pp0176">Christophorus à
+                    Wichert</rs></p>
+            </div>
+        </body>
+    </text>
+</tei:TEI>

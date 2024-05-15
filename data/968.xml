@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE tei SYSTEM "../resources/FriVer_DTD.dtd">
+
+<?xml-model href="../resources/FriVer.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns="http://www.tei-c.org/ns/1.0"
+    xml:id="pa000299-0968">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title level="s">European peace treaties of the pre-modern era in data / Europäische
+                    Friedensverträge der Vormoderne in Daten (FriVer+)</title>
+                <title when="1697-10-30" xml:id="t968" when-custom="1697 X 30" level="a"
+                    ref="https://www.ieg-friedensvertraege.de/treaty/t-968-1-de.html"
+                    >Friedensvertrag von Rijswijk</title>
+            </titleStmt>
+            <editionStmt>
+                <edition> Digital edition according to <ref target="http://www.tei-c.org/">TEI
+                        P5</ref>
+                </edition>
+                <funder>
+                    <ref target="https://www.text-plus.org/">TEXT+</ref>
+                </funder>
+                <editor role="http://id.loc.gov/vocabulary/relators/edt"
+                    ref="https://orcid.org/0000-0002-8741-5916">
+                    <persName>Jaap Geraerts</persName>
+                    <note>The transformation and enrichment of the data is done by Jaap Geraerts
+                        (IEG Mainz). The other members of the FriVer+ team are Fabian Cremer, Ines
+                        Grund, and Thorsten Wübbena (all IEG Mainz).</note>
+                    <note> The original data has been created by the <ref
+                            target="https://www.ieg-friedensvertraege.de">team of scholars</ref> who
+                        were part of the Europäische Friedensverträge der Vormoderne project. This
+                        project was lead by Prof. Dr. Heinz Duchhardt and was based at the Leibniz
+                        Institute of European History in Mainz. </note>
+                </editor>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>
+                    <orgName ref="http://www.isni.org/0000000119314040">Leibniz-Institut für
+                        Europäische Geschichte Mainz</orgName>
+                </publisher>
+                <distributor>
+                    <orgName ref="http://www.isni.org/0000000110101946">Universitäts- und
+                        Landesbibliothek Darmstadt</orgName>
+                </distributor>
+                <idno type="ISIL">http://lobid.org/organisation/DE-17</idno>
+                <date type="issued" when="2023-12-23"/>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">
+                        <p xml:lang="en">This file is licensed under the terms of the Creative
+                            Commons License CC-BY 4.0 (Attribution 4.0 International)</p>
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <repository xml:id="r34">Wien HHStA</repository>
+                <msDesc>
+                    <p>HHStA Wie AUR 1697 X 30: O (l.). [Abbildung steht aus].</p>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p> The data in this XML file, originally created by the project <ref
+                        target="https://www.ieg-friedensvertraege.de/vertraege">Europäische
+                        Friedensverträge der Vormoderne online</ref> has been transformed in
+                    accordance with <ref target="http://www.tei-c.org/">TEI P5</ref> as part of the
+                    project <ref
+                        target="https://www.ieg-mainz.de/en/research/research-projects/european-peace-treaties-of-the-pre-modern-era-in-data"
+                        >Europäische Friedensverträge der Vormoderne in Daten (FriVer+)</ref>
+                </p>
+            </projectDesc>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="la" xml:id="lan6">Latein</language>
+            </langUsage>
+        </profileDesc>
+    </teiHeader>
+    <standOff>
+        <listPerson>
+            <person role="signatory" xml:id="p37">
+                <persName ref="https://explore.gnd.network/gnd/4018145-5">
+                    <name>Frankreich</name>
+                </persName>
+            </person>
+            <person role="signatory" xml:id="pp0001">
+                <persName ref="https://explore.gnd.network/gnd/118571869">
+                    <name>Leopold I, Holy Roman Emperor</name>
+                </persName>
+            </person>
+            <person role="signatory" xml:id="p94">
+                <persName ref="https://www.wikidata.org/wiki/Q12548">
+                    <name>Reich</name>
+                </persName>
+            </person>
+        </listPerson>
+        <listPlace>
+            <place xml:id="loc44">
+                <placeName ref="https://explore.gnd.network/gnd/4117019-2">Rijswijk</placeName>
+            </place>
+        </listPlace>
+    </standOff>
+    <text>
+        <back>
+            <listBibl>
+                <bibl xml:id="a124">
+                    <title level="a">Theatrum Europaeum (1697-10-30)</title>
+                    <title level="m">Theatrum Europaeum, Band 15 (1696-1700) Aus: Dokumentenarchiv der Universitätsbibliothek Augsburg (Drucke vor 1900 / Historische Geschichtswerke).</title>
+                    <biblScope>
+                        <graphic xml:id="A1Pnr1" url="https://www.ieg-friedensvertraege.de/dbimages/img_4a0928f5d5f17"/>
+                        <graphic xml:id="A1Pnr2" url="https://www.ieg-friedensvertraege.de/dbimages/img_4a0928fe39ad9"/>
+                        <graphic xml:id="A1Pnr3" url="https://www.ieg-friedensvertraege.de/dbimages/img_4a0929042fe6f"/>
+                        <graphic xml:id="A1Pnr4" url="https://www.ieg-friedensvertraege.de/dbimages/img_4a092909ef4c5"/>
+                        <graphic xml:id="A1Pnr5" url="https://www.ieg-friedensvertraege.de/dbimages/img_4a09291c5dc21"/>
+                        <graphic xml:id="A1Pnr6" url="https://www.ieg-friedensvertraege.de/dbimages/img_4a09291c5dc21"/>
+                        <graphic xml:id="A1Pnr7" url="https://www.ieg-friedensvertraege.de/dbimages/img_4a09292431cca"/>
+                        <graphic xml:id="A1Pnr8" url="https://www.ieg-friedensvertraege.de/dbimages/img_4a09292c2edb1"/>
+                        <graphic xml:id="A1Pnr9" url="https://www.ieg-friedensvertraege.de/dbimages/img_4a092943473ac"/>
+                        <graphic xml:id="A1Pnr10" url="https://www.ieg-friedensvertraege.de/dbimages/img_4a092949b4980"/>
+                        <graphic xml:id="A1Pnr11" url="https://www.ieg-friedensvertraege.de/dbimages/img_4a09294f1d377"/>
+                        <graphic xml:id="A1Pnr12" url="https://www.ieg-friedensvertraege.de/dbimages/img_4a092954a8de9"/>
+                    </biblScope>
+                </bibl>
+                <bibl xml:id="a199">
+                    <title level="a">Reichsarchiv (1697-10-30)</title>
+                    <title level="m">Reichsarchiv, Band 1 (1710), PGen I, S.1069-1095 Aus: Dokumentenarchiv der Universitätsbibliothek Augsburg (Drucke vor 1900 / Historische Geschichtswerke).</title>
+                    <biblScope>
+                        <graphic xml:id="A2Pnr1" url="https://www.ieg-friedensvertraege.de/dbimages/img_4a9544feb4517"/>
+                        <graphic xml:id="A2Pnr2" url="https://www.ieg-friedensvertraege.de/dbimages/img_4a954505856f6"/>
+                        <graphic xml:id="A2Pnr3" url="https://www.ieg-friedensvertraege.de/dbimages/img_4a95450bd4871"/>
+                        <graphic xml:id="A2Pnr4" url="https://www.ieg-friedensvertraege.de/dbimages/img_4a9545ff42afd"/>
+                        <graphic xml:id="A2Pnr5" url="https://www.ieg-friedensvertraege.de/dbimages/img_4a9546091aa25"/>
+                        <graphic xml:id="A2Pnr6" url="https://www.ieg-friedensvertraege.de/dbimages/img_4a954610d719a"/>
+                        <graphic xml:id="A2Pnr7" url="https://www.ieg-friedensvertraege.de/dbimages/img_4a95464ddaec1"/>
+                        <graphic xml:id="A2Pnr8" url="https://www.ieg-friedensvertraege.de/dbimages/img_4a9546548bcff"/>
+                        <graphic xml:id="A2Pnr9" url="https://www.ieg-friedensvertraege.de/dbimages/img_4a95465aafefb"/>
+                        <graphic xml:id="A2Pnr10" url="https://www.ieg-friedensvertraege.de/dbimages/img_4a9546653caff"/>
+                        <graphic xml:id="A2Pnr11" url="https://www.ieg-friedensvertraege.de/dbimages/img_4a9546810dc61"/>
+                        <graphic xml:id="A2Pnr12" url="https://www.ieg-friedensvertraege.de/dbimages/img_4a954687aee5f"/>
+                        <graphic xml:id="A2Pnr13" url="https://www.ieg-friedensvertraege.de/dbimages/img_4a95468eade99"/>
+                        <graphic xml:id="A2Pnr14" url="https://www.ieg-friedensvertraege.de/dbimages/img_4a95469565a30"/>
+                        <graphic xml:id="A2Pnr15" url="https://www.ieg-friedensvertraege.de/dbimages/img_4a95469c3ba2a"/>
+                        <graphic xml:id="A2Pnr16" url="https://www.ieg-friedensvertraege.de/dbimages/img_4a9546a957efd"/>
+                        <graphic xml:id="A2Pnr17" url="https://www.ieg-friedensvertraege.de/dbimages/img_4a9546b073457"/>
+                        <graphic xml:id="A2Pnr18" url="https://www.ieg-friedensvertraege.de/dbimages/img_4a9546b073457"/>
+                        <graphic xml:id="A2Pnr19" url="https://www.ieg-friedensvertraege.de/dbimages/img_4a9546c0ddb1a"/>
+                        <graphic xml:id="A2Pnr20" url="https://www.ieg-friedensvertraege.de/dbimages/img_4a9546c92ee0b"/>
+                        <graphic xml:id="A2Pnr21" url="https://www.ieg-friedensvertraege.de/dbimages/img_4a9546d054f43"/>
+                        <graphic xml:id="A2Pnr22" url="https://www.ieg-friedensvertraege.de/dbimages/img_4a9546d930cf1"/>
+                        <graphic xml:id="A2Pnr23" url="https://www.ieg-friedensvertraege.de/dbimages/img_4a9546e77a080"/>
+                        <graphic xml:id="A2Pnr24" url="https://www.ieg-friedensvertraege.de/dbimages/img_4a9546f207c25"/>
+                        <graphic xml:id="A2Pnr25" url="https://www.ieg-friedensvertraege.de/dbimages/img_4a9546f8e27fc"/>
+                        <graphic xml:id="A2Pnr26" url="https://www.ieg-friedensvertraege.de/dbimages/img_4a9546ff146f9"/>
+                        <graphic xml:id="A2Pnr27" url="https://www.ieg-friedensvertraege.de/dbimages/img_4a954704daac3"/>
+                    </biblScope>
+                </bibl>
+            </listBibl>
+        </back>
+    </text>
+</tei:TEI>

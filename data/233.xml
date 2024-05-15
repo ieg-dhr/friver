@@ -1,0 +1,813 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE tei SYSTEM "../resources/FriVer_DTD.dtd">
+
+<?xml-model href="../resources/FriVer.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns="http://www.tei-c.org/ns/1.0"
+    xml:id="pa000299-0233">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title level="s">European peace treaties of the pre-modern era in data / Europäische
+                    Friedensverträge der Vormoderne in Daten (FriVer+)</title>
+                <title when="1678-08-10" xml:id="t233" when-custom="1678 VIII 10" level="a"
+                    ref="https://www.ieg-friedensvertraege.de/treaty/t-233-1-de.html"
+                    >Friedensvertrag von Nijmegen</title>
+            </titleStmt>
+            <editionStmt>
+                <edition> Digital edition according to <ref target="http://www.tei-c.org/">TEI
+                        P5</ref>
+                </edition>
+                <funder>
+                    <ref target="https://www.text-plus.org/">TEXT+</ref>
+                </funder>
+                <editor role="http://id.loc.gov/vocabulary/relators/edt"
+                    ref="https://orcid.org/0000-0002-8741-5916">
+                    <persName>Jaap Geraerts</persName>
+                    <note>The transformation and enrichment of the data is done by Jaap Geraerts
+                        (IEG Mainz). The other members of the FriVer+ team are Fabian Cremer, Ines
+                        Grund, and Thorsten Wübbena (all IEG Mainz).</note>
+                    <note> The original data has been created by the <ref
+                            target="https://www.ieg-friedensvertraege.de">team of scholars</ref> who
+                        were part of the Europäische Friedensverträge der Vormoderne project. This
+                        project was lead by Prof. Dr. Heinz Duchhardt and was based at the Leibniz
+                        Institute of European History in Mainz. </note>
+                </editor>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>
+                    <orgName ref="http://www.isni.org/0000000119314040">Leibniz-Institut für
+                        Europäische Geschichte Mainz</orgName>
+                </publisher>
+                <distributor>
+                    <orgName ref="http://www.isni.org/0000000110101946">Universitäts- und
+                        Landesbibliothek Darmstadt</orgName>
+                </distributor>
+                <idno type="ISIL">http://lobid.org/organisation/DE-17</idno>
+                <date type="issued" when="2023-12-23"/>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">
+                        <p xml:lang="en">This file is licensed under the terms of the Creative
+                            Commons License CC-BY 4.0 (Attribution 4.0 International)</p>
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <repository xml:id="r22">Paris AAE <note>Den Haag NA, Findbuch:<lb/>
+                        <ref
+                            target="http://www.gahetna.nl/collectie/archief/inventaris/index/eadid/1.01.02/inventarisnr/12587.185"
+                            >eadid/1.01.02/inventarisnr/12587.185</ref></note>
+                </repository>
+                <msDesc>
+                    <p>NADH, archief van de Staten-Generaal, inv. nr. 12587.185. (Grafik) </p>
+                    <p> AAE Paris: M.A.E. Traités. Multilateraux 16780002. Traité de paix avec les
+                        Provinces-Unies.-Nimègue (UI). (Transkriptionsgrundlage) Siehe auch: <ref
+                            target="http://www.doc.diplomatie.gouv.fr/BASIS/choiseul/desktop/choiseul/DDW?M=49&amp;K=16780002&amp;W=PAYS+%3D+%27Multilat%E9raux%27+ORDER+BY+SOUSSERIE/Ascend"
+                            >Link zur Vertragsseite <lb/>
+                        </ref></p>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p> The data in this XML file, originally created by the project <ref
+                        target="https://www.ieg-friedensvertraege.de/vertraege">Europäische
+                        Friedensverträge der Vormoderne online</ref> has been transformed in
+                    accordance with <ref target="http://www.tei-c.org/">TEI P5</ref> as part of the
+                    project <ref
+                        target="https://www.ieg-mainz.de/en/research/research-projects/european-peace-treaties-of-the-pre-modern-era-in-data"
+                        >Europäische Friedensverträge der Vormoderne in Daten (FriVer+)</ref>
+                </p>
+            </projectDesc>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="fr" xml:id="lan4">französisch</language>
+            </langUsage>
+        </profileDesc>
+    </teiHeader>
+    <standOff>
+        <listPerson>
+            <person role="signatory" xml:id="p37">
+                <persName ref="https://explore.gnd.network/gnd/4018145-5">
+                    <name>Frankreich</name>
+                </persName>
+            </person>
+            <person role="signatory" xml:id="p49">
+                <persName ref="https://explore.gnd.network/gnd/4101204-5">
+                    <name>Generalstaaten</name>
+                </persName>
+            </person>
+        </listPerson>
+        <listPlace>
+            <place xml:id="loc21">
+                <placeName ref="https://explore.gnd.network/gnd/4075410-8">Nijmegen</placeName>
+            </place>
+        </listPlace>
+        <facsimile>
+            <surface xml:id="FacsPnr1">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_45e6def3847f8"/>
+            </surface>
+            <surface xml:id="FacsPnr2">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_45e6eea21db8f"/>
+            </surface>
+            <surface xml:id="FacsPnr3">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_45e6eec3b40e2"/>
+            </surface>
+            <surface xml:id="FacsPnr4">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_45e6eeec47963"/>
+            </surface>
+            <surface xml:id="FacsPnr5">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_45e6ef173bcb3"/>
+            </surface>
+            <surface xml:id="FacsPnr6">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_45e6ef3744870"/>
+            </surface>
+            <surface xml:id="FacsPnr7">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_45e6ef5d42821"/>
+            </surface>
+            <surface xml:id="FacsPnr8">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_45e6efec55ca9"/>
+            </surface>
+            <surface xml:id="FacsPnr9">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_45e6f01b53c1a"/>
+            </surface>
+            <surface xml:id="FacsPnr10">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_45e6f04576d72"/>
+            </surface>
+            <surface xml:id="FacsPnr11">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_45e6f069eafda"/>
+            </surface>
+            <surface xml:id="FacsPnr12">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_45e6f08d96f27"/>
+            </surface>
+            <surface xml:id="FacsPnr13">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_45e6f0b365144"/>
+            </surface>
+            <surface xml:id="FacsPnr14">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_45e6f0d6cb8f2"/>
+            </surface>
+            <surface xml:id="FacsPnr15">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_45e6f0f944bc6"/>
+            </surface>
+            <surface xml:id="FacsPnr16">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_45e6f11ab4022"/>
+            </surface>
+            <surface xml:id="FacsPnr17">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_45e6f1408511f"/>
+            </surface>
+            <surface xml:id="FacsPnr18">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_45e6f17ea1495"/>
+            </surface>
+            <surface xml:id="FacsPnr19">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_45e6f1a234d40"/>
+            </surface>
+            <surface xml:id="FacsPnr20">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_45e6f1c16b769"/>
+            </surface>
+            <surface xml:id="FacsPnr21">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_45e6f1edd6cf7"/>
+            </surface>
+            <surface xml:id="FacsPnr22">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_45e6f20a35a14"/>
+            </surface>
+            <surface xml:id="FacsPnr23">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_45e6f22b30b11"/>
+            </surface>
+            <surface xml:id="FacsPnr24">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_45e6f24bb5730"/>
+            </surface>
+            <surface xml:id="FacsPnr25">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_45e6f27fcec07"/>
+            </surface>
+            <surface xml:id="FacsPnr26">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_45e6f2a16a1bf"/>
+            </surface>
+        </facsimile>
+    </standOff>
+    <text>
+        <front>
+            <div type="Drucke">
+                <p>CTS Vol. XIV, (365), 367-397 (f.). <lb/>DUM VII/1, S. 350-357 (f.) <ref
+                        target="http://gallica.bnf.fr/ark:/12148/bpt6k122965z.image.f371.langEN"
+                        >Link zum Druck auf gallica.bnf.fr </ref>
+                    <lb/>VAS Vol. 2, S. 53-62 (f.) <ref
+                        target="http://gallica.bnf.fr/ark:/12148/bpt6k960306.zoom.f56.langEN">Link
+                        zum Druck auf gallica.bnf.fr</ref>
+                    <lb/>
+                </p>
+            </div>
+            <div type="Inhalt">
+                <p>Auch während des Krieges hat der König von Frankreich den Wunsch bewahrt, den
+                    Vereinigten Provinzen seine Frendschaft zu widmen und auf Vermittlung des Königs
+                    von Großbritannien wird folgendes vereinbart: <lb/>
+                    <lb/>1.&nbsp;&nbsp; &nbsp;Fester und unverletzlicher Friede, Einstellung der
+                    Feindseligkeiten. <lb/>2.&nbsp;&nbsp; &nbsp;Fristenregelung für Entschädigungen
+                    für nach dem Friedensschluss genommene Prisen. <lb/>3.&nbsp;&nbsp;
+                    &nbsp;Freundschaft zwischen Souveränen und Untertanen, die nicht durch in der
+                    Vergangenheit erlittenes Unrecht getrübt werden darf. <lb/>4.&nbsp;&nbsp;
+                    &nbsp;Gegenseitige Hilfe und Unterstützung; kein Vertragsschluss mit dritten,
+                    der dem anderen schadet. <lb/>5.&nbsp;&nbsp; &nbsp;Entschädigungsregelungen für
+                    im Krieg konfiszierte Güter. <lb/>6.&nbsp;&nbsp; &nbsp;Rückgabe Bergen op Zooms
+                    an den Grafen d’Auvergne. <lb/>7.&nbsp;&nbsp; &nbsp;Jeder Vertragspartner
+                    behält, was er jetzt besitzt, ohne darin gestört werden zu dürfen.
+                    <lb/>8.&nbsp;&nbsp; &nbsp;Rückgabe Maastrichts mit der Grafschaft Vronof(?) und
+                    die Grafschaften Fauquemont, Daalhem, Rolleduc mit den dazugehörigen Städten an
+                    die Generalstaaten. <lb/>9.&nbsp;&nbsp; &nbsp;Die Generalstaaten versprechen,
+                    dass in Maastricht alle Einrichtungen katholischer Religion wieder etabliert und
+                    aufrecht erhalten werden. <lb/>10.&nbsp;&nbsp; &nbsp;Abzug von Truppen, Waffen
+                    und Munition aus Maastricht. <lb/>11.&nbsp;&nbsp; &nbsp;Freilassung der
+                    Kriegsgefangenen. <lb/>12.&nbsp;&nbsp; &nbsp;Bis zur Ratifikation dürfen in
+                    Maastricht die Abgaben für die Besatzung weiter erhoben werden.
+                    <lb/>13.&nbsp;&nbsp; &nbsp;Die Generalstaaten bewahren Neutralität und
+                    garantieren alle Auflagen, unter welchen sich auch Spanien der Neutralität
+                    anschließt. <lb/>14.&nbsp;&nbsp; &nbsp;Bei Vertragsverletzungen bleibt Vertrag
+                    gültig. Entschädigung für die entstandenen Schäden. <lb/>15.&nbsp;&nbsp;
+                    &nbsp;Im Fall des Bruchs des Vertrags bleibt den Untertanen sechs Monate Zeit,
+                    ihre Effekten aus dem jeweils anderen Land abzuziehen. <lb/>16.&nbsp;&nbsp;
+                    &nbsp;Der Separatartikel gilt genauso als ob er Wort für Wort in diesen Vertrag
+                    mit aufgenommen&nbsp; worden wäre. <lb/>17.&nbsp;&nbsp; &nbsp;Einschluss des
+                    Königs von Großbritannien in den Vertrag. <lb/>18.&nbsp;&nbsp; &nbsp;Von Seiten
+                    des Königs von Frankreich werden der König von Schweden, der Herzog von
+                    Holstein, der Erzbischof von Straßburg und Prinz Wilhelm von Fürstenberg in den
+                    Vertrag mit aufgenommen sowie, nach Wunsch, die Krone Portugals, die Republik
+                    Venedig, der Herzog von Savoyen, die 13 Kantone der Schweizer Liga und ihre
+                    Alliierten, der Kurfürst von Bayern, Herzog Johann Friedrich von Braunschweig
+                    Hannover sowie weitere Souveräne, mit denen Frankreich übereinkommt.
+                    <lb/>19.&nbsp;&nbsp; &nbsp;Seitens der Generalstaaten werden der König von
+                    Spanien, die 13 Kantone der Schweizer Liga und ihre Alliierten, die Stadt Emden
+                    sowie weitere Souveränen, mit denen die Generalstaaten übereinkommen mit in den
+                    Vertrag aufgenommen. <lb/>20.&nbsp;&nbsp; &nbsp;Garantie des Vertrags durch den
+                    König von Großbritannien und weiter Souveräne, die dies wünschen.
+                    <lb/>21.&nbsp;&nbsp; &nbsp;Ratifikation. <lb/>
+                    <lb/>Separatartikel <lb/>Wiedereinsetzung des Prinzen von Oranien in seine
+                    Rechte in den Gebieten in Frankreich der Franche Comté, Charolois, Flandern und
+                    anderen von seiner Majestät abhängigen Gebieten wie vor Ausbruch des Krieges.
+                    <lb/></p>
+            </div>
+        </front>
+        <body>
+            <div type="Transkription">
+                <p>10e aoust 1678 <lb/>traité de Paix entre <lb/>le Roy et les Estats generaux
+                    <lb/>a Nimegue <lb/>Au nom de Dieu le Createur a <lb/>tous presens et à venir
+                    soit notoire, Comme pendant <lb/>le Cours de la guerre qui s'est meüe depuis
+                    quelques années <lb/>Entre le tres hault, tres excellent, et tres puissant
+                    <lb/>Prince Louis Quatorze par la grace <lb/>de Dieu Roy tres chrestien de
+                    France et de Navarre. <lb/>Et les Seigneurs Estats generaux des Provinces
+                    <lb/>unies, Sa Maiesté auroit tousiours conservé un <lb/>sincere desir de rendre
+                    ausd[it]s Seigneurs Estats <lb/>sa premiere amitie; Et eux tous les sentiments
+                    de <lb/>respect pour Sa Maiesté, et de reconnoissance pour <lb/>les obligations
+                    et les avantages considerables <lb/>qu'ils ont recus d'Elle et des Roys ses
+                    predecesseurs, <lb/>Il est enfin arrivé que ces bonnes dispositions
+                    <lb/>secondées des puissants Offices de Tres haut, tres <lb/>excellent et tres
+                    puissant Prince Le Roy de la <lb/>Grand Bretagne, qui durant ces temps
+                    <lb/>fascheux, quand presque toute la chrestienté &nbsp; <lb/>
+                    <lb/>[Seite 2] <lb/>s'est trouvée en armes, n’a cessé de contribuer par <lb/>ses
+                    Conseils et bons advertissemens au salut et au <lb/>repos public, auroient porté
+                    Sa Majesté tres <lb/>Chrestienne, et lesdits Seigneurs Estats generaux
+                    <lb/>Comm’aussi tous les autres Princes et Pottentats <lb/>qui se sont
+                    interessez dans cette guerre a consentir <lb/>que la ville de Nimegue fut
+                    choisie pour y traitter <lb/>de Paix, Et pour y parvenir Sa Majesté tres
+                    <lb/>Chrestienne auroit nommé pour ses Ambassadeurs <lb/>Extraordinaires et
+                    Plenipotentiaires le Sieur <lb/>Comte d'Estrades Mareschal de France, Et
+                    <lb/>Che¬valier de ses ordres, Le Sieur Colbert chevalier <lb/>mar¬quis de
+                    Croissi conseiller ordinaire en son <lb/>Conseil d'Estat, Et le Sieur de Mesmes
+                    chevalier <lb/>Comte d'Avaux aussi Conseiller en ses Conseils. <lb/>Et lesdits
+                    Seigneurs Estats generaux, Le Sieur <lb/>Hierosme de Beverningk Seigneur de
+                    Teylingen <lb/>curateur de l'université à Leyden, cy devant conseiller <lb/>et
+                    tresorier general des Provinces unies, Le Sieur <lb/>Guillaume de Nassau
+                    Seigneur d'Odyk, Cortgene, <lb/>et premier, noble et representant la noblesse
+                    dans <lb/>Les Estats et au Con¬seil de Zelande, Et Sieur <lb/>Guillaume d'Haren,
+                    Grietman du Bildt deputez <lb/>
+                    <lb/>[Seite 3] <lb/>en leurs assembléés de la part des Estats d'Hollande
+                    <lb/>Zelande etc. Lesquels Ambassadeurs Extraordinaires <lb/>et
+                    plenipotentiaires deüement instruits des bonnes <lb/>intentions de leurs
+                    Maistres se seroient rendus en lad[ite] <lb/>Ville de Nimegue, Ou apres une
+                    reciproque <lb/>Communication des pleins pouvoirs dont à la fin <lb/>de ce
+                    traitté Les copies sont inseréés de mot a mot, <lb/>seroient convenus des
+                    Conditions de Paix <lb/>et d'amitié en la teneur qui ensuit. <lb/>
+                    <lb/>1. <lb/>Il y aura à l’avenir entre Sa Majesté tres <lb/>Chrestienne et ses
+                    successeurs Roys de France <lb/>et de Navar¬re, et ses Royaumes, d'une part. Et
+                    <lb/>Les Seigneurs Estats generaux des Provinces unies <lb/>des pays bas
+                    d'autre, Une paix bonne, ferme, <lb/>fidelle et inviolable, Et cesseront
+                    ensuitte et <lb/>seront dellaissez tous actes d'hostilité de quelque <lb/>façon
+                    qu'ils soient entre ledit Seigneur Roy, et lesdits <lb/>Seigneurs Estats
+                    generaux tant par mer et autres <lb/>eaux que par terre en tous leurs Royaumes,
+                    pays <lb/>Terres, Provinces, et Seigneuries, Et pour tous <lb/>leurs Sujets et
+                    habitans de quelle qualité ou <lb/>condition qu'ils soient sans exception des
+                    lieux <lb/>
+                    <lb/>[Seite 4] <lb/>
+                    <lb/>ou des personnes. <lb/>
+                    <lb/>2. <lb/>Et si quelques prises se font de part ou d'autre <lb/>dans la mer
+                    Baltique, ou celle du Nort depuis <lb/>Terneuse jusqu'au bout de la Manche dans
+                    <lb/>l'espace de quatre semaines, ou du bout de ladite <lb/>Manche jusqu'au Cap
+                    de S[ain]t Vincent dans l’espace <lb/>de six semaines, Et dela dans la Mer
+                    Mediterranéé <lb/>et jusqu'a la Ligne dans l'espace de Dix semaines, <lb/>et au
+                    dela de la Ligne, et en tous les autres endroits du <lb/>Monde dans l'espace de
+                    huit mois à compter du <lb/>jour que se fera la publication de la paix, à Paris
+                    <lb/>et à la Haye, Lesdites prises et les dommages qui se <lb/>feront depart ou
+                    d’autre apres les termes prefix seront <lb/>portez en compte et tout ce qui aura
+                    esté pris sera <lb/>rendu avec compensation de tous les dommages qui en
+                    <lb/>seront provenus. <lb/>
+                    <lb/>3 <lb/>Il y aura deplus Entre Ledit Seigneur Roy, et lesd[its]
+                    <lb/>Seigneurs Estats generaux, et leurs sujets et habitans <lb/>reciproquement
+                    une sincere, ferme, et perpetuelle <lb/>amitié et bonne corespondance tant par
+                    Mer que <lb/>par Terre en tout et partout tant dedans, que dehors <lb/>L’Europe
+                    sans se ressentir des offenses ou dommages <lb/>qu'ils ont receus, tant par le
+                    passé qu'a l’occasion <lb/>
+                    <lb/>[Seite 5] <lb/>
+                    <lb/>desdites Guerres. <lb/>
+                    <lb/>4. <lb/>Et en vertu de cette amitié et correspondance <lb/>tant Sa Maiesté
+                    que Les Seigneurs Estats <lb/>generaux procureront et avanceront fidelement
+                    <lb/>Le bien et la prosperité l’un de l’autre par tout <lb/>Suport, Ayde,
+                    Conseil et assistances reelles en toutes <lb/>occasions et en tous temps. Et ne
+                    consentiront <lb/>à l’avenir à aucuns traittez ou negotiations qui
+                    <lb/>pouroient apporter du dommage à l’un ou à 1'autre, <lb/>Mais Les rompront
+                    et en donneront les avis <lb/>reciproquement avec soin et sincerité aussitost
+                    <lb/>qu'ils en auront connoissance. <lb/>
+                    <lb/>5. <lb/>Ceux Sur Lesquels quelques biens ont esté saisis <lb/>et confisquez
+                    à l'occasion de lad[ite] guerre, Leurs heritiers <lb/>ou ayans cause de quelle
+                    condition ou religion qu’ils <lb/>puissent estre joüiront d'iceux biens et en
+                    prendront <lb/>la possession de leur authorité privéé, et en vertu du
+                    <lb/>present traitté sans qu'il leur soit besoin d'avoir recours <lb/>à la,
+                    Justice, nonobstant toutes incorporations au fisc, <lb/>engagement, dons en
+                    faits, Sentences preparatoires <lb/>ou diffinitives donnéés par deffaut et
+                    coustumace &nbsp; <lb/>
+                    <lb/>[Seite 6] <lb/>en l'absence des parties et Icelles non oüyes, traittez,
+                    <lb/>accords, et transactions quelques Renonciations qui ayent <lb/>esté mises
+                    esdites transactions pour exclure de partie desd[its] <lb/>biens, ceux à qui ils
+                    doivent appartenir, et tous et chacuns <lb/>biens et droits qui conformement au
+                    present traitté seront <lb/>restituez ou doivent estre restituez reciproquement
+                    aux <lb/>premiers proprietaires leurs hoirs et ayans cause <lb/>pouront estre
+                    vendus par lesd[its] proprietaires, sans <lb/>qu’il soit besoin d'impetrer pour
+                    ce consentement <lb/>particulier;&nbsp; Et en suitte Les proprietaires des
+                    <lb/>rentes qui de la part des fiscs seront constituez en lieu <lb/>des biens
+                    vendus, Comme aussi des rentes et actions <lb/>estans à la charge des fiscs,
+                    respectivement pouront <lb/>disposer de la proprieté d'Icelles par <lb/>vente ou
+                    autrement comme de leurs autres propres biens. <lb/>
+                    <lb/>6. <lb/>Et Comme le Marquisat de Bergopzom avec tous <lb/>les droits et
+                    revenus qui en dependentr, et generalement <lb/>toutes les terres et biens
+                    appartenant au S[ieu]r&nbsp; Comte <lb/>d'Auvergne Colonnel general de la
+                    Cavalerie legere <lb/>de France, et qui sont sous le pouvoir desd[it]s Seigneurs
+                    <lb/>Estats generaux des Provinces Unies, ont esté saisis <lb/>et confisquez à
+                    l'occaslion de la guerre, à laquelle <lb/>le present traitté doit mettre une
+                    heureuse fin Il a <lb/>esté accordé que Led[it] Sieur Comte d'Auvergne sera <lb/>
+                    <lb/>[Seite 7] <lb/>remis dans la possession dud[it] marqui¬sat de
+                    <lb/>Bergopzom, ses appartenances et dependances; <lb/>Comme aussi dans ses
+                    droits, actions, privileges, usances, <lb/>et prerogatives dont il jouissoit
+                    lors de la declaration <lb/>de la guerre. <lb/>
+                    <lb/>7. <lb/>Chacun demeurera saisi et jouira effectivement <lb/>des Pays villes
+                    et places terres, Isles, et seigneuries tant <lb/>au dedans que dehors l’Europe
+                    qu'il tient et possede <lb/>a present sans estre troublé ny inquieté directement
+                    <lb/>ny indirectement de quelque façon que ce soit. <lb/>
+                    <lb/>8. <lb/>Mais Sa Majesté tres chrestienne voulant rendre <lb/>aux Seigneurs
+                    Estats generaux sa premiere amitié <lb/>et leur en donner une preuve
+                    particuliere dans cette <lb/>occasion, Les remettra immediatement apres
+                    l’eschange <lb/>des ratifications dans la possession de la ville de
+                    <lb/>Mastrick avec le Comte de Vronof , et les Comtez <lb/>et pays de
+                    Fauquemont, Daalhem, et Rolleduc <lb/>d'outremeuse avec les villages de
+                    Redemption, Baneq <lb/>de S[ain]t Servais, et tout ce qui depend de lad[ite]
+                    ville; <lb/>
+                    <lb/>9. <lb/>Lesdits Seigneurs Estats generaux promettent que <lb/>toutes choses
+                    qui concernent l’exercice de la Religion <lb/>
+                    <lb/>[Seite 8] <lb/>
+                    <lb/>Catholique Romaine et la jouissance des biens <lb/>de ceux qui en font
+                    profession seront restablies <lb/>et maintenues sans aucune exception dans
+                    lad[ite] ville <lb/>de Maestrick et ses dependances en l’Estat et comm’elles
+                    <lb/>estoient reglees par la Capitulation de 1632. Et <lb/>que ceux qui auront
+                    esté pourveuz de quelques biens <lb/>Eclesiastiques Canonicats, personnats,
+                    Prevostez <lb/>et autres benefices y demeureront establis et en jouiront
+                    <lb/>sans aucune contradiction. <lb/>
+                    <lb/>10. <lb/>Sa Majesté rendant ausd[its] Seigneurs Estats <lb/>ge¬neraux la
+                    ville de Maestrick et pays en deppendans <lb/>en pourra faire retirer et
+                    emporter toute l’artillerie, <lb/>poudres, boulets, vivres, et autres munitions
+                    de guerre <lb/>qui s'y trouveront au temps de la remise ou restitution
+                    <lb/>d'icelle, Et ceux qu'elle aura Commis à cet effect <lb/>se serviront si bon
+                    leur semble pendant deux mois des <lb/>Charrois et batteaux du pays, Auront le
+                    passage <lb/>libre tant par eau que par terre pour la retraite <lb/>desd[ites]
+                    munitions, et leur sera donné par les gouverneurs, <lb/>Comandants, Officiers,
+                    ou Magistrats de ladite <lb/>Ville, toutes les facilitez qui dependent d'eux
+                    <lb/>pour la voiture et conduite desdites artillerie et <lb/>Munitions. Pou¬ront
+                    aussi les officiers, soldats, <lb/>gens de guerre et autres qui sortiront de
+                    lad[ite] place <lb/>
+                    <lb/>[Seite 9] <lb/>
+                    <lb/>en tirer et emporter les biens meubles à eux appartenant <lb/>sans qu'il
+                    leur soit loisible d'exiger aucune chose <lb/>des habitans de lad[ite] Ville de
+                    Maestrick et des environs <lb/>n’y endommager leurs Maisons ou emporter aucune
+                    <lb/>chose appartenant ausd[its] habitans. <lb/>
+                    <lb/>11. <lb/>Tous Prisonniers de guerre seront delivrez <lb/>d'une part et
+                    d'autre sans distinction ou reserve et sans <lb/>payer aucune rançon. <lb/>
+                    <lb/>12. <lb/>La Levée des Contributions demandéé par l'Intendant <lb/>de la
+                    ville de Maestrick aux pays qui y sont soumis&nbsp; sera <lb/>continuéé pour
+                    tout&nbsp; ce qui restera&nbsp;&nbsp; à echeoir jusques&nbsp; à <lb/>la
+                    ratification du present Traitté, et les arrerages qui <lb/>resteront
+                    seront&nbsp; payez dans l'espace de trois mois apres <lb/>le terme susdit, dans
+                    des termes convenables et&nbsp; moyennant <lb/>caution valable et resseante dans
+                    une des villes de la <lb/>Domination de Sa Majesté. <lb/>
+                    <lb/>13. <lb/>Les Seigneurs Estats generaux ont promis et promettent <lb/>non
+                    seulement de demeurer dans une exacte neutralité sans <lb/>pouvoir assister
+                    directement ny indirectement&nbsp; Les&nbsp; ennemis <lb/>
+                    <lb/>[Seite 10] <lb/>
+                    <lb/>de la France et de ses Alliez, Mais aussi de garentir <lb/>toutes les
+                    obligations dans lesquelles l'Espagne entrera <lb/>par le traitté qui
+                    interviendra entre Leurs Majestez <lb/>Tres chrestienne et Catholique&nbsp;
+                    et&nbsp; principalement&nbsp; celle <lb/>par&nbsp; laquelle led[it] Seigneur Roy
+                    Catholique sera <lb/>tenu de garder cette mesme neutralité. <lb/>
+                    <lb/>14. <lb/>Si par inadvertance ou autrement il survenoit <lb/>quelque
+                    inobservation ou inconvenient au present <lb/>Traitté de la part de Sad[ite]
+                    Majesté ou desd[its] Seigneurs <lb/>Estats generaux et leurs Successeurs,&nbsp;
+                    Cette paix <lb/>et Alliance ne laissera pas de subsister en toute <lb/>sa force,
+                    sans que pour cela on en vienne a la <lb/>rupture de l'amittié et de la bonne
+                    correspondance. <lb/>Mais on reparera promptement lesd[ites] contraventions
+                    <lb/>Et si elles procedent de la faute de quelques <lb/>particuliers suiets ils
+                    en seront seuls punis et <lb/>chastiez. <lb/>
+                    <lb/>15. <lb/>Et pour mieux asseurer à l’avenir le Commerce <lb/>et l’amitié
+                    entre les sujets dud[it] Seigneur Roy, et <lb/>ceux desd[its] Seigneurs Estats
+                    generaux des provinces <lb/>
+                    <lb/>[Seite 11] <lb/>
+                    <lb/>unies des pays bas, Il a esté accordé et convenu <lb/>qu'arrivant cy apres
+                    quelque interruption <lb/>d'amitie ou rupture entre la couronne de France
+                    <lb/>et lesd[its] Seigneurs Estats desdites Provinces unies <lb/>(ce qu’à Dieu
+                    ne plaise) Il sera touiours donné <lb/>six mois de temps apres lad[ite] rupture
+                    aux Sujets <lb/>de part et d'autre, pour se retirer avec leurs effects <lb/>et
+                    les transporter ou bon leur semblera, ce qu’il <lb/>leur sera permis de faire.
+                    Comme aussi de vendre <lb/>ou transporter leurs biens et meubles en toute
+                    <lb/>liberté, sans qu'on leur puisse donner aucun empeschem[ent] <lb/>ny
+                    proceder pendant led[it] temps de six mois à aucune <lb/>saisie de leurs
+                    effects, moins encore a l’arrest de leurs <lb/>personnes. <lb/>
+                    <lb/>16. <lb/>Touchant les pretentions et interests qui concernent <lb/>Monsieur
+                    le Prince d'Orange dont il a esté traitté <lb/>et convenu separement, par actes
+                    signé ce jour d'huy <lb/>ledit escrit et tout le contenu d'iceluy sortira effect
+                    <lb/>et sera confirmé, accompli et executé selon sa forme <lb/>et teneur ny plus
+                    ni moins que si tous lesd[its] points <lb/>en general ou chacun d'eux en
+                    particulier, estoient <lb/>de mot à mot inserez en ce present traitté; <lb/>
+                    <lb/>[Seite 12] <lb/>
+                    <lb/>17. <lb/>Et Comme Sa Majesté et les Seigneurs Estats <lb/>generaux
+                    reconnoissent les puissans offices que le Roy <lb/>de la grande Bretagne a
+                    contribué incessamment par ses <lb/>Conseils et bons advertissemens au salut et
+                    au repos <lb/>Public, il a esté convenu de part et d'autre que Sad[ite]
+                    <lb/>Majesté Britannique avec ses Royaumes soit comprise <lb/>nommement dans le
+                    present traitté de la meilleure <lb/>forme que faire se peut. <lb/>
+                    <lb/>18. <lb/>En ce present traitté de paix et d'alliance seront <lb/>compris de
+                    la part dud[it] Seigneur Roy tres chrestien <lb/>le Roy de Suede, le Duc
+                    d'Holstein, l'Evesque de <lb/>Strasbourg, et le Prince Guillaume de Furstemberg
+                    <lb/>comme interesséz dans la presente guerre ; en outre <lb/>seront compris si
+                    compris ils veulent estre, le Prince <lb/>et la Couronne de Portugal, la
+                    Republique de <lb/>Venise, le Duc de Savoye, les treize Cantons des <lb/>Ligues
+                    Suisses et leurs alliez, l’Electeur de Baviere, <lb/>le Duc Jean Frederic de
+                    Brunswik Hanover, et tous <lb/>Roys, Pottentats, Princes et Estats, villes et
+                    personnes <lb/>particulieres a qui Sa Majesté tres chrestienne sur <lb/>la
+                    requisition qu'ils luy en seront, accordera de sa part <lb/>d'estre compris dans
+                    ce traitté. <lb/>
+                    <lb/>[Seite 13] <lb/>
+                    <lb/>19. <lb/>Et de la part des Seigneurs Estats generaux, le Roy <lb/>d'Espagne
+                    et tous leurs autres Alliez qui dans le <lb/>temps de six semaines à compter
+                    depuis l'escheance &nbsp; <lb/>des ratifications se declareront d'accepter la
+                    paix, <lb/>Comme aussi les treize louables Cantons des Ligues <lb/>Suisses et
+                    leurs Alliez et confederés, la ville <lb/>d'Embdem, et de plus tous Roys,
+                    Princes, et Estats, <lb/>villes et personnes particulieres a qui les seigneurs
+                    <lb/>Estats gene¬raux sur la requisition qui leur en sera <lb/>faite accorderont
+                    de leur part d'y estre compris. <lb/>
+                    <lb/>20. <lb/>Ledit seigneur Roy et lesdits seigneurs Estats generaux consentent
+                    que le Roy de la grand Bre¬tagne, <lb/>comme mediateur, et tous autres Potentats
+                    et Princes qui voudront bien entrer en un pareil <lb/>engagement puissent donner
+                    à Sa Majesté et ausdits Seigneurs Estats generaux leurs promesses <lb/>et
+                    obligations de garentie de l’execution de tout le contenu au present Traitté. <lb/>
+                    <lb/>21. <lb/>Le present Traitté sera ratifié et approuvé <lb/>par ledit
+                    Seigneur Roy, et lesdits Seigneurs <lb/>Estats generaux, Et les Lettres de
+                    ratification <lb/>seront delivréés de l’un et l’autre en bonne et <lb/>deue
+                    forme dans le terme de six sepmaines, ou <lb/>plustost si faire se peut, à
+                    compter du jour de la <lb/>signature. <lb/>
+                    <lb/>En foy dequoy Nous Ambassadeurs <lb/>susdits de Sa Majesté, et des
+                    Seigneurs Estats <lb/>generaux en vertu de nos pouvoirs respectifs avons <lb/>
+                    <lb/>[Seite 14] <lb/>
+                    <lb/>esdits noms signé ces presentes de nos seings ordinaires <lb/>et à icelles
+                    fait apposer les cachets de nos armes <lb/>à Nimegue le Dixiesme jour du mois
+                    <lb/>d'aoust mil six cens soixante et dixhuit. <lb/>Le M[aresch]al
+                    D'Estrades&nbsp;&nbsp; &nbsp;H. Beverningk <lb/>Colbert&nbsp;&nbsp; &nbsp;W de
+                    Nassau <lb/>De Mesmes&nbsp;&nbsp; &nbsp;W Harren. <lb/>
+                    <lb/>[Seite 15] <lb/>Article separé touchant <lb/>Monsieur le Prince D’Orange <lb/>
+                    <lb/>Comme ensuite de la guerre qui depuis quelques <lb/>annéés est survenüe
+                    entre Le Roy tres chrestien, et <lb/>les Seigneurs Estats generaux des Provinces
+                    unies <lb/>des pays bas, Sa Majesté a fait saisir tous les <lb/>biens
+                    appartenants à Monsieur le Prince d'Orange <lb/>tant ladite Principauté, que les
+                    seigneuries et terres <lb/>situées en France et&nbsp; en a donné&nbsp; les&nbsp;
+                    revenus&nbsp; au&nbsp; S[ieu]r <lb/>Comte d'Auvergne qui en jouit encore
+                    presentement <lb/>Et que par la grace de Dieu la paix a esté restablie <lb/>par
+                    le Traitté conclu ce jourd’huy,&nbsp; et qu'ainsi tous <lb/>les facheur effects
+                    de la guerre doivent cesser, Sa Majesté <lb/>a promis audit Sieur Prince, et
+                    promet par cet acte <lb/>separé qu'immediatement apres les ratifications
+                    eschangéés <lb/>elle fera lever ladite saisie, et fera remettre ledit <lb/>Sieur
+                    Prince dans la possession de ladite Principauté <lb/>et des terres qui luy
+                    appartiennent en France <lb/>Franche Comté, Charolois,&nbsp; Flandres et autres
+                    <lb/>Pays deppendans de la domination de Sa <lb/>Maiesté, et dans tous ses
+                    droits, actions, privileges, <lb/>Usances, et prerogatives au mesme Estat et
+                    <lb/>en la mesme maniere dont il en joussoit avant <lb/>
+                    <lb/>[Seite 16] <lb/>qu'il en eust esté depossedé à l’occasion de la
+                    <lb/>presente guerre. Fait à Nimegue le <lb/>dixiesme jour du mois d'Aoust mil
+                    six cens <lb/>soixante et dixhuit; <lb/>Le M[aresch]al D'Estrades&nbsp;&nbsp;
+                    &nbsp;H. Beverningk <lb/>Colbert&nbsp;&nbsp; &nbsp;W de Nassau <lb/>De
+                    Mesmes&nbsp;&nbsp; &nbsp;W Harren. <lb/>
+                    <lb/>
+                    <lb/>[es folgen beide Vollmachten] <lb/></p>
+            </div>
+            <div type="Transliteration">
+                <pb facs="#FacsPnr1"/>
+                <p>10e aoust 1678 <lb/>traité de Paix entre <lb/>le Roy et les Estats generaux
+                    <lb/>a Nimegue <lb/>Au nom de Dieu le Createur a <lb/>tous presens et à venir
+                    soit notoire, Comme pendant <lb/>le Cours de la guerre qui s'est meüe depuis
+                    quelques années <lb/>Entre le tres hault, tres excellent, et tres puissant
+                    <lb/>Prince Louis Quatorze par la grace <lb/>de Dieu Roy tres chrestien de
+                    France et de Navarre. <lb/>Et les Seigneurs Estats generaux des Provinces
+                    <lb/>unies, Sa Maiesté auroit tousiours conservé un <lb/>sincere desir de rendre
+                    ausd[it]s Seigneurs Estats <lb/>sa premiere amitie; Et eux tous les sentiments
+                    de <lb/>respect pour Sa Maiesté, et de reconnoissance pour <lb/>les obligations
+                    et les avantages considerables <lb/>qu'ils ont recus d'Elle et des Roys ses
+                    predecesseurs, <lb/>Il est enfin arrivé que ces bonnes dispositions
+                    <lb/>secondées des puissants Offices de Tres haut, tres <lb/>excellent et tres
+                    puissant Prince Le Roy de la <lb/>Grand Bretagne, qui durant ces temps
+                    <lb/>fascheux, quand presque toute la chrestienté <lb/>
+                    <pb facs="#FacsPnr2"/>s'est trouvée en armes, n’a cessé de contribuer par
+                    <lb/>ses Conseils et bons advertissemens au salut et au <lb/>repos public,
+                    auroient porté Sa Majesté tres <lb/>Chrestienne, et lesdits Seigneurs Estats
+                    generaux <lb/>Comm’aussi tous les autres Princes et Pottentats <lb/>qui se sont
+                    interessez dans cette guerre a consentir <lb/>que la ville de Nimegue fut
+                    choisie pour y traitter <lb/>de Paix, Et pour y parvenir Sa Majesté tres
+                    <lb/>Chrestienne auroit nommé pour ses Ambassadeurs <lb/>Extraordinaires et
+                    Plenipotentiaires le Sieur <lb/>Comte d'Estrades Mareschal de France, Et
+                    <lb/>Chevalier de ses ordres, Le Sieur Colbert chevalier <lb/>marquis de Croissi
+                    conseiller ordinaire en son <lb/>Conseil d'Estat, Et le Sieur de Mesmes
+                    chevalier <lb/>Comte d'Avaux aussi Conseiller en ses Conseils. <lb/>Et lesdits
+                    Seigneurs Estats generaux, Le Sieur <lb/>Hierosme de Beverningk Seigneur de
+                    Teylingen <lb/>curateur de l'université à Leyden, cy devant conseiller <lb/>et
+                    tresorier general des Provinces unies, Le Sieur <lb/>Guillaume de Nassau
+                    Seigneur d'Odyk, Cortgene, <lb/>et premier, noble et representant la noblesse
+                    dans <lb/>Les Estats et au Conseil de Zelande, Et Sieur <lb/>Guillaume d'Haren,
+                    Grietman du Bildt deputez <lb/>
+                    <pb facs="#FacsPnr3"/>en leurs assembléés de la part des Estats d'Hollande
+                    <lb/>Zelande etc. Lesquels Ambassadeurs Extraordinaires <lb/>et
+                    plenipotentiaires deüement instruits des bonnes <lb/>intentions de leurs
+                    Maistres se seroient rendus en lad[ite] <lb/>Ville de Nimegue, Ou apres une
+                    reciproque <lb/>Communication des pleins pouvoirs dont à la fin <lb/>de ce
+                    traitté Les copies sont inseréés de mot a mot, <lb/>seroient convenus des
+                    Conditions de Paix <lb/>et d'amitié en la teneur qui ensuit. <lb/>
+                    <lb/>1. <lb/>Il y aura à l’avenir entre Sa Majesté tres <lb/>Chrestienne et ses
+                    successeurs Roys de France <lb/>et de Navarre, et ses Royaumes, d'une part. Et
+                    <lb/>Les Seigneurs Estats generaux des Provinces unies <lb/>des pays bas
+                    d'autre, Une paix bonne, ferme, <lb/>fidelle et inviolable, Et cesseront
+                    ensuitte et <lb/>seront dellaissez tous actes d'hostilité de quelque <lb/>façon
+                    qu'ils soient entre ledit Seigneur Roy, et lesdits <lb/>Seigneurs Estats
+                    generaux tant par mer et autres <lb/>eaux que par terre en tous leurs Royaumes,
+                    pays <lb/>Terres, Provinces, et Seigneuries, Et pour tous <lb/>leurs Sujets et
+                    habitans de quelle qualité ou <lb/>condition qu'ils soient sans exception des
+                    lieux <lb/>
+                    <pb facs="#FacsPnr4"/>ou des personnes. <lb/>
+                    <lb/>2. <lb/>Et si quelques prises se font de part ou d'autre <lb/>dans la mer
+                    Baltique, ou celle du Nort depuis <lb/>Terneuse jusqu'au bout de la Manche dans
+                    <lb/>l'espace de quatre semaines, ou du bout de ladite <lb/>Manche jusqu'au Cap
+                    de S[ain]t Vincent dans l’espace <lb/>de six semaines, Et dela dans la Mer
+                    Mediterranéé <lb/>et jusqu'a la Ligne dans l'espace de Dix semaines, <lb/>et au
+                    dela de la Ligne, et en tous les autres endroits du <lb/>Monde dans l'espace de
+                    huit mois à compter du <lb/>jour que se fera la publication de la paix, à Paris
+                    <lb/>et à la Haye, Lesdites prises et les dommages qui se <lb/>feront depart ou
+                    d’autre apres les termes prefix seront <lb/>portez en compte et tout ce qui aura
+                    esté pris sera <lb/>rendu avec compensation de tous les dommages qui en
+                    <lb/>seront provenus. <lb/>
+                    <lb/>3 <lb/>Il y aura deplus Entre Ledit Seigneur Roy, et lesd[its]
+                    <lb/>Seigneurs Estats generaux, et leurs sujets et habitans <lb/>reciproquement
+                    une sincere, ferme, et perpetuelle <lb/>amitié et bonne corespondance tant par
+                    Mer que <lb/>par Terre en tout et partout tant dedans, que dehors <lb/>L’Europe
+                    sans se ressentir des offenses ou dommages <lb/>qu'ils ont receus, tant par le
+                    passé qu'a l’occasion <lb/>
+                </p>
+                <pb facs="#FacsPnr5"/>
+                <p>desdites Guerres. <lb/>
+                    <lb/>4. <lb/>Et en vertu de cette amitié et correspondance <lb/>tant Sa Maiesté
+                    que Les Seigneurs Estats <lb/>generaux procureront et avanceront fidelement
+                    <lb/>Le bien et la prosperité l’un de l’autre par tout <lb/>Suport, Ayde,
+                    Conseil et assistances reelles en toutes <lb/>occasions et en tous temps. Et ne
+                    consentiront <lb/>à l’avenir à aucuns traittez ou negotiations qui
+                    <lb/>pouroient apporter du dommage à l’un ou à 1'autre, <lb/>Mais Les rompront
+                    et en donneront les avis <lb/>reciproquement avec soin et sincerité aussitost
+                    <lb/>qu'ils en auront connoissance. <lb/>
+                    <lb/>5. <lb/>Ceux Sur Lesquels quelques biens ont esté saisis <lb/>et confisquez
+                    à l'occasion de lad[ite] guerre, Leurs heritiers <lb/>ou ayans cause de quelle
+                    condition ou religion qu’ils <lb/>puissent estre joüiront d'iceux biens et en
+                    prendront <lb/>la possession de leur authorité privéé, et en vertu du
+                    <lb/>present traitté sans qu'il leur soit besoin d'avoir recours <lb/>à la,
+                    Justice, nonobstant toutes incorporations au fisc, <lb/>engagement, dons en
+                    faits, Sentences preparatoires <lb/>ou diffinitives donnéés par deffaut et
+                        coustumace<note n="1" type="crit_app">Eigentlich contumace.</note>
+                    <lb/>
+                    <lb/>
+                </p>
+                <pb facs="#FacsPnr6"/>
+                <p>en l'absence des parties et Icelles non oüyes, traittez, <lb/>accords, et
+                    transactions quelques Renonciations qui ayent <lb/>esté mises esdites
+                    transactions pour exclure de partie desd[its] <lb/>biens, ceux à qui ils doivent
+                    appartenir, et tous et chacuns <lb/>biens et droits qui conformement au present
+                    traitté seront <lb/>restituez ou doivent estre restituez reciproquement aux
+                    <lb/>premiers proprietaires leurs hoirs et ayans cause <lb/>pouront estre vendus
+                    par lesd[its] proprietaires, sans <lb/>qu’il soit besoin d'impetrer pour ce
+                    consentement <lb/>particulier;&nbsp; Et en suitte Les proprietaires des
+                    <lb/>rentes qui de la part des fiscs seront constituez en lieu <lb/>des biens
+                    vendus, Comme aussi des rentes et actions <lb/>estans à la charge des fiscs,
+                    respectivement pouront <lb/>disposer de la proprieté d'Icelles par <lb/>vente ou
+                    autrement comme de leurs autres propres biens. <lb/>
+                    <lb/>6. <lb/>Et Comme le Marquisat de Bergopzom avec tous <lb/>les droits et
+                    revenus qui en dependentr, et generalement <lb/>toutes les terres et biens
+                    appartenant au S[ieu]r&nbsp; Comte <lb/>d'Auvergne Colonnel general de la
+                    Cavalerie legere <lb/>de France, et qui sont sous le pouvoir desd[it]s Seigneurs
+                    <lb/>Estats generaux des Provinces Unies, ont esté saisis <lb/>et confisquez à
+                    l'occaslion de la guerre, à laquelle <lb/>le present traitté doit mettre une
+                    heureuse fin Il a <lb/>esté accordé que Led[it] Sieur Comte d'Auvergne sera
+                    <lb/>
+                </p>
+                <pb facs="#FacsPnr7"/>
+                <p> remis dans la possession dud[it] marquisat de <lb/>Bergopzom, ses appartenances
+                    et dependances; <lb/>Comme aussi dans ses droits, actions, privileges, usances,
+                    <lb/>et prerogatives dont il jouissoit lors de la declaration <lb/>de la guerre. <lb/>
+                    <lb/>7. <lb/>Chacun demeurera saisi et jouira effectivement <lb/>des Pays villes
+                    et places terres, Isles, et seigneuries tant <lb/>au dedans que dehors l’Europe
+                    qu'il tient et possede <lb/>a present sans estre troublé ny inquieté directement
+                    <lb/>ny indirectement de quelque façon que ce soit. <lb/>
+                    <lb/>8. <lb/>Mais Sa Majesté tres chrestienne voulant rendre <lb/>aux Seigneurs
+                    Estats generaux sa premiere amitié <lb/>et leur en donner une preuve
+                    particuliere dans cette <lb/>occasion, Les remettra immediatement apres
+                    l’eschange <lb/>des ratifications dans la possession de la ville de
+                    <lb/>Mastrick avec le Comte de Vronof<note n="2" type="crit_app">Oder
+                        Truof.</note>, et les Comtez <lb/>et pays de Fauquemont, Daalhem, et
+                    Rolleduc <lb/>d'outremeuse avec les villages de Redemption, Baneq <lb/>de
+                    S[ain]t Servais, et tout ce qui depend de lad[ite] ville; <lb/>
+                    <lb/>9. <lb/>Lesdits Seigneurs Estats generaux promettent que <lb/>toutes choses
+                    qui concernent l’exercice de la Religion <lb/>
+                    <lb/>
+                </p>
+                <pb facs="#FacsPnr8"/>
+                <p>Catholique Romaine et la jouissance des biens <lb/>de ceux qui en font profession
+                    seront restablies <lb/>et maintenues sans aucune exception dans lad[ite] ville
+                    <lb/>de Maestrick et ses dependances en l’Estat et comm’elles <lb/>estoient
+                    reglees par la Capitulation de 1632. Et <lb/>que ceux qui auront esté pourveuz
+                    de quelques biens <lb/>Eclesiastiques Canonicats, personnats, Prevostez <lb/>et
+                    autres benefices y demeureront establis et en jouiront <lb/>sans aucune
+                    contradiction. <lb/>
+                    <lb/>10. <lb/>Sa Majesté rendant ausd[its] Seigneurs Estats <lb/>generaux la
+                    ville de Maestrick et pays en deppendans <lb/>en pourra faire retirer et
+                    emporter toute l’artillerie, <lb/>poudres, boulets, vivres, et autres munitions
+                    de guerre <lb/>qui s'y trouveront au temps de la remise ou restitution
+                    <lb/>d'icelle, Et ceux qu'elle aura Commis à cet effect <lb/>se serviront si bon
+                    leur semble pendant deux mois des <lb/>Charrois et batteaux du pays, Auront le
+                    passage <lb/>libre tant par eau que par terre pour la retraite <lb/>desd[ites]
+                    munitions, et leur sera donné par les gouverneurs, <lb/>Comandants, Officiers,
+                    ou Magistrats de ladite <lb/>Ville, toutes les facilitez qui dependent d'eux
+                    <lb/>pour la voiture et conduite desdites artillerie et <lb/>Munitions. Pouront
+                    aussi les officiers, soldats, <lb/>gens de guerre et autres qui sortiront de
+                    lad[ite] place <lb/>
+                    <pb facs="#FacsPnr9"/>en tirer et emporter les biens meubles à eux appartenant
+                    <lb/>sans qu'il leur soit loisible d'exiger aucune chose <lb/>des habitans de
+                    lad[ite] Ville de Maestrick et des environs <lb/>n’y endommager leurs Maisons ou
+                    emporter aucune <lb/>chose appartenant ausd[its] habitans. <lb/>
+                    <lb/>11. <lb/>Tous Prisonniers de guerre seront delivrez <lb/>d'une part et
+                    d'autre sans distinction ou reserve et sans <lb/>payer aucune rançon. <lb/>
+                    <lb/>12. <lb/>La Levée des Contributions demandéé par l'Intendant <lb/>de la
+                    ville de Maestrick aux pays qui y sont soumis&nbsp; sera <lb/>continuéé pour
+                    tout&nbsp; ce qui restera&nbsp;&nbsp; à echeoir jusques&nbsp; à <lb/>la
+                    ratification du present Traitté, et les arrerages qui <lb/>resteront
+                    seront&nbsp; payez dans l'espace de trois mois apres <lb/>le terme susdit, dans
+                    des termes convenables et&nbsp; moyennant <lb/>caution valable et resseante dans
+                    une des villes de la <lb/>Domination de Sa Majesté. <lb/>
+                    <lb/>13. <lb/>Les Seigneurs Estats generaux ont promis et promettent <lb/>non
+                    seulement de demeurer dans une exacte neutralité sans <lb/>pouvoir assister
+                    directement ny indirectement&nbsp; Les&nbsp; ennemis <lb/>
+                    <pb facs="#FacsPnr10"/>de la France et de ses Alliez, Mais aussi de garentir
+                    <lb/>toutes les obligations dans lesquelles l'Espagne entrera <lb/>par le
+                    traitté qui interviendra entre Leurs Majestez <lb/>Tres chrestienne et
+                    Catholique&nbsp; et&nbsp; principalement&nbsp; celle <lb/>par&nbsp; laquelle
+                    led[it] Seigneur Roy Catholique sera <lb/>tenu de garder cette mesme neutralité. <lb/>
+                    <lb/>14. <lb/>Si par inadvertance ou autrement il survenoit <lb/>quelque
+                    inobservation ou inconvenient au present <lb/>Traitté de la part de Sad[ite]
+                    Majesté ou desd[its] Seigneurs <lb/>Estats generaux et leurs Successeurs,&nbsp;
+                    Cette paix <lb/>et Alliance ne laissera pas de subsister en toute <lb/>sa force,
+                    sans que pour cela on en vienne a la <lb/>rupture de l'amittié et de la bonne
+                    correspondance. <lb/>Mais on reparera promptement lesd[ites] contraventions
+                    <lb/>Et si elles procedent de la faute de quelques <lb/>particuliers suiets ils
+                    en seront seuls punis et <lb/>chastiez. <lb/>
+                    <lb/>15. <lb/>Et pour mieux asseurer à l’avenir le Commerce <lb/>et l’amitié
+                    entre les sujets dud[it] Seigneur Roy, et <lb/>ceux desd[its] Seigneurs Estats
+                    generaux des provinces <lb/>
+                    <pb facs="#FacsPnr11"/>unies des pays bas, Il a esté accordé et convenu
+                    <lb/>qu'arrivant cy apres quelque interruption <lb/>d'amitie ou rupture entre la
+                    couronne de France <lb/>et lesd[its] Seigneurs Estats desdites Provinces unies
+                    <lb/>(ce qu’à Dieu ne plaise) Il sera touiours donné <lb/>six mois de temps
+                    apres lad[ite] rupture aux Sujets <lb/>de part et d'autre, pour se retirer avec
+                    leurs effects <lb/>et les transporter ou bon leur semblera, ce qu’il <lb/>leur
+                    sera permis de faire. Comme aussi de vendre <lb/>ou transporter leurs biens et
+                    meubles en toute <lb/>liberté, sans qu'on leur puisse donner aucun
+                    empeschem[ent] <lb/>ny proceder pendant led[it] temps de six mois à aucune
+                    <lb/>saisie de leurs effects, moins encore a l’arrest de leurs <lb/>personnes. <lb/>
+                    <lb/>16. <lb/>Touchant les pretentions et interests qui concernent <lb/>Monsieur
+                    le Prince d'Orange dont il a esté traitté <lb/>et convenu separement, par actes
+                    signé ce jour d'huy <lb/>ledit escrit et tout le contenu d'iceluy sortira effect
+                    <lb/>et sera confirmé, accompli et executé selon sa forme <lb/>et teneur ny plus
+                    ni moins que si tous lesd[its] points <lb/>en general ou chacun d'eux en
+                    particulier, estoient <lb/>de mot à mot inserez en ce present traitté; <lb/>
+                    <pb facs="#FacsPnr12"/>17. <lb/>Et Comme Sa Majesté et les Seigneurs Estats
+                    <lb/>generaux reconnoissent les puissans offices que le Roy <lb/>de la grande
+                    Bretagne a contribué incessamment par ses <lb/>Conseils et bons advertissemens
+                    au salut et au repos <lb/>Public, il a esté convenu de part et d'autre que
+                    Sad[ite] <lb/>Majesté Britannique avec ses Royaumes soit comprise <lb/>nommement
+                    dans le present traitté de la meilleure <lb/>forme que faire se peut. <lb/>
+                    <lb/>18. <lb/>En ce present traitté de paix et d'alliance seront <lb/>compris de
+                    la part dud[it] Seigneur Roy tres chrestien <lb/>le Roy de Suede, le Duc
+                    d'Holstein, l'Evesque de <lb/>Strasbourg, et le Prince Guillaume de Furstemberg
+                    <lb/>comme interesséz dans la presente guerre ; en outre <lb/>seront compris si
+                    compris ils veulent estre, le Prince <lb/>et la Couronne de Portugal, la
+                    Republique de <lb/>Venise, le Duc de Savoye, les treize Cantons des <lb/>Ligues
+                    Suisses et leurs alliez, l’Electeur de Baviere, <lb/>le Duc Jean Frederic de
+                    Brunswik Hanover, et tous <lb/>Roys, Pottentats, Princes et Estats, villes et
+                    personnes <lb/>particulieres a qui Sa Majesté tres chrestienne sur <lb/>la
+                    requisition qu'ils luy en seront, accordera de sa part <lb/>d'estre compris dans
+                    ce traitté. <lb/>
+                </p>
+                <pb facs="#FacsPnr13"/>
+                <p>19. <lb/>Et de la part des Seigneurs Estats generaux, le Roy <lb/>d'Espagne et
+                    tous leurs autres Alliez qui dans le <lb/>temps de six semaines à compter depuis
+                        l'escheance<note n="3" type="crit_app">Eigentlich échange.</note> &nbsp;
+                    <lb/>des ratifications se declareront d'accepter la paix, <lb/>Comme aussi les
+                    treize louables Cantons des Ligues <lb/>Suisses et leurs Alliez et confederés,
+                    la ville <lb/>d'Embdem, et de plus tous Roys, Princes, et Estats, <lb/>villes et
+                    personnes particulieres a qui les seigneurs <lb/>Estats generaux sur la
+                    requisition qui leur en sera <lb/>faite accorderont de leur part d'y estre
+                    compris. <lb/>
+                    <lb/>20. <lb/>Ledit seigneur Roy et lesdits seigneurs Estats generaux consentent
+                    que le Roy de la grand Bretagne, <lb/>comme mediateur, et tous autres Potentats
+                    et Princes qui voudront bien entrer en un pareil <lb/>engagement puissent donner
+                    à Sa Majesté et ausdits Seigneurs Estats generaux leurs promesses <lb/>et
+                    obligations de garentie de l’execution de tout le contenu au present Traitté. <lb/>
+                    <lb/>21. <lb/>Le present Traitté sera ratifié et approuvé <lb/>par ledit
+                    Seigneur Roy, et lesdits Seigneurs <lb/>Estats generaux, Et les Lettres de
+                    ratification <lb/>seront delivréés de l’un et l’autre en bonne et <lb/>deue
+                    forme dans le terme de six sepmaines, ou <lb/>plustost si faire se peut, à
+                    compter du jour de la <lb/>signature. <lb/>
+                    <lb/>En foy dequoy Nous Ambassadeurs <lb/>susdits de Sa Majesté, et des
+                    Seigneurs Estats <lb/>generaux en vertu de nos pouvoirs respectifs avons <lb/>
+                    <lb/>
+                </p>
+                <lb/>
+                <lb/>
+                <pb facs="#FacsPnr14"/>
+                <p>esdits noms signé ces presentes de nos seings ordinaires <lb/>et à icelles fait
+                    apposer les cachets de nos armes <lb/>à Nimegue le Dixiesme jour du mois
+                    <lb/>d'aoust mil six cens soixante et dixhuit. <lb/>
+                    <lb/>Le M[aresch]al D'Estrades&nbsp;&nbsp; &nbsp;H. Beverningk
+                    <lb/>Colbert&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;
+                    &nbsp;&nbsp;&nbsp; &nbsp;W de Nassau <lb/>De Mesmes&nbsp;&nbsp;
+                    &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;W Harren. <lb/>
+                    <pb facs="#FacsPnr15"/>Article separé touchant <lb/>Monsieur le Prince D’Orange <lb/>
+                    <lb/>Comme ensuite de la guerre qui depuis quelques <lb/>annéés est survenüe
+                    entre Le Roy tres chrestien, et <lb/>les Seigneurs Estats generaux des Provinces
+                    unies <lb/>des pays bas, Sa Majesté a fait saisir tous les <lb/>biens
+                    appartenants à Monsieur le Prince d'Orange <lb/>tant ladite Principauté, que les
+                    seigneuries et terres <lb/>situées en France et&nbsp; en a donné&nbsp; les&nbsp;
+                    revenus&nbsp; au&nbsp; S[ieu]r <lb/>Comte d'Auvergne qui en jouit encore
+                    presentement <lb/>Et que par la grace de Dieu la paix a esté restablie <lb/>par
+                    le Traitté conclu ce jourd’huy,&nbsp; et qu'ainsi tous <lb/>les facheur effects
+                    de la guerre doivent cesser, Sa Majesté <lb/>a promis audit Sieur Prince, et
+                    promet par cet acte <lb/>separé qu'immediatement apres les ratifications
+                    eschangéés <lb/>elle fera lever ladite saisie, et fera remettre ledit <lb/>Sieur
+                    Prince dans la possession de ladite Principauté <lb/>et des terres qui luy
+                    appartiennent en France <lb/>Franche Comté, Charolois,&nbsp; Flandres et autres
+                    <lb/>Pays deppendans de la domination de Sa <lb/>Maiesté, et dans tous ses
+                    droits, actions, privileges, <lb/>Usances, et prerogatives au mesme Estat et
+                    <lb/>en la mesme maniere dont il en joussoit avant <lb/>
+                    <pb facs="#FacsPnr16"/>qu'il en eust esté depossedé à l’occasion de la
+                    <lb/>presente guerre. Fait à Nimegue le <lb/>dixiesme jour du mois d'Aoust mil
+                    six cens <lb/>soixante et dixhuit; <lb/>
+                    <lb/>Le M[aresch]al D'Estrades&nbsp;&nbsp; &nbsp;H. Beverningk
+                    <lb/>Colbert&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;
+                    &nbsp;&nbsp;&nbsp; &nbsp;W de Nassau <lb/>De Mesmes&nbsp;&nbsp;
+                    &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;W Harren. <lb/>
+                    <lb/>
+                    <lb/>[es folgen beide Vollmachten] <lb/>
+                </p>
+            </div>
+        </body>
+        <back>
+            <listBibl>
+                <bibl xml:id="a40">
+                    <title level="a">Theatrum Europaeum (1678-08-10)</title>
+                    <title level="m">Theatrum Europaeum, Band 11 (1672-1679) Aus: Dokumentenarchiv
+                        der Universitätsbibliothek Augsburg (Drucke vor 1900 / Historische
+                        Geschichtswerke).</title>
+                    <biblScope>
+                        <graphic xml:id="A1Pnr1"
+                            url="https://www.ieg-friedensvertraege.de/dbimages/img_49e5db656e9c8"/>
+                        <graphic xml:id="A1Pnr2"
+                            url="https://www.ieg-friedensvertraege.de/dbimages/img_49e5db6b45962"/>
+                    </biblScope>
+                </bibl>
+            </listBibl>
+        </back>
+    </text>
+</tei:TEI>

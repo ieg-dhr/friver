@@ -1,0 +1,415 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE tei SYSTEM "../resources/FriVer_DTD.dtd">
+
+<?xml-model href="../resources/FriVer.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns="http://www.tei-c.org/ns/1.0"
+    xml:id="pa000299-0128">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title level="s">European peace treaties of the pre-modern era in data / Europäische
+                    Friedensverträge der Vormoderne in Daten (FriVer+)</title>
+                <title when="1746-04-21" xml:id="t128" when-custom="1746 IV 21" level="a"
+                    ref="https://www.ieg-friedensvertraege.de/treaty/t-128-1-de.html"
+                    >Subsidienvertrag von Paris</title>
+            </titleStmt>
+            <editionStmt>
+                <edition> Digital edition according to <ref target="http://www.tei-c.org/">TEI
+                        P5</ref>
+                </edition>
+                <funder>
+                    <ref target="https://www.text-plus.org/">TEXT+</ref>
+                </funder>
+                <editor role="http://id.loc.gov/vocabulary/relators/edt"
+                    ref="https://orcid.org/0000-0002-8741-5916">
+                    <persName>Jaap Geraerts</persName>
+                    <note>The transformation and enrichment of the data is done by Jaap Geraerts
+                        (IEG Mainz). The other members of the FriVer+ team are Fabian Cremer, Ines
+                        Grund, and Thorsten Wübbena (all IEG Mainz).</note>
+                    <note> The original data has been created by the <ref
+                            target="https://www.ieg-friedensvertraege.de">team of scholars</ref> who
+                        were part of the Europäische Friedensverträge der Vormoderne project. This
+                        project was lead by Prof. Dr. Heinz Duchhardt and was based at the Leibniz
+                        Institute of European History in Mainz. </note>
+                </editor>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>
+                    <orgName ref="http://www.isni.org/0000000119314040">Leibniz-Institut für
+                        Europäische Geschichte Mainz</orgName>
+                </publisher>
+                <distributor>
+                    <orgName ref="http://www.isni.org/0000000110101946">Universitäts- und
+                        Landesbibliothek Darmstadt</orgName>
+                </distributor>
+                <idno type="ISIL">http://lobid.org/organisation/DE-17</idno>
+                <date type="issued" when="2023-12-23"/>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">
+                        <p xml:lang="en">This file is licensed under the terms of the Creative
+                            Commons License CC-BY 4.0 (Attribution 4.0 International)</p>
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <repository xml:id="r7">Dresden SaechsHStA</repository>
+                <msDesc>
+                    <p>SHSADresden OU 14831: Traité de subsides, Paris 1746 IV 21. Frankreich [kein
+                        Nachweis]. <lb/>Spanien [kein Nachweis]. SHSADresden OU14831: Ratifikation
+                        Frankreichs, Versailles 1746 <lb/>IV 23. Verlängerung des Vertrages bis
+                        1750: Tongres 1747 IX 7 (auch: 1747 IX 6; <lb/>Ratifikation der Verlängerung
+                        1747 X 22). Ratifikation durch Spanien, Paris 1746 V 13. </p>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p> The data in this XML file, originally created by the project <ref
+                        target="https://www.ieg-friedensvertraege.de/vertraege">Europäische
+                        Friedensverträge der Vormoderne online</ref> has been transformed in
+                    accordance with <ref target="http://www.tei-c.org/">TEI P5</ref> as part of the
+                    project <ref
+                        target="https://www.ieg-mainz.de/en/research/research-projects/european-peace-treaties-of-the-pre-modern-era-in-data"
+                        >Europäische Friedensverträge der Vormoderne in Daten (FriVer+)</ref>
+                </p>
+            </projectDesc>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="fr" xml:id="lan4">französisch</language>
+            </langUsage>
+        </profileDesc>
+    </teiHeader>
+    <standOff>
+        <listPerson>
+            <person role="signatory" xml:id="p37">
+                <persName ref="https://explore.gnd.network/gnd/4018145-5">
+                    <name>Frankreich</name>
+                </persName>
+            </person>
+            <person role="signatory" xml:id="p92">
+                <persName ref="https://www.wikidata.org/wiki/Q824047">
+                    <name>Sachsen / Polen</name>
+                </persName>
+            </person>
+            <person xml:id="pp0028">
+                <persName ref="https://explore.gnd.network/gnd/118729438">
+                    <name>Louis XV of France</name>
+                </persName>
+            </person>
+            <person xml:id="pp0081">
+                <persName ref="https://explore.gnd.network/gnd/118505092">
+                    <name>August III of Poland</name>
+                </persName>
+            </person>
+            <person xml:id="pp0019">
+                <persName ref="https://explore.gnd.network/gnd/118577867">
+                    <name>Maria Theresia</name>
+                </persName>
+            </person>
+            <person xml:id="pp0220">
+                <persName ref="https://explore.gnd.network/gnd/118538543">
+                    <name>Georg II. (Großbritannien)</name>
+                </persName>
+            </person>
+            <person xml:id="pp0223">
+                <persName ref="https://explore.gnd.network/gnd/132243946">
+                    <name>Johann Graf von Loss</name>
+                </persName>
+            </person>
+        </listPerson>
+        <listPlace>
+            <place xml:id="loc37">
+                <placeName ref="https://explore.gnd.network/gnd/4044660-8">Paris</placeName>
+            </place>
+        </listPlace>
+        <facsimile>
+            <surface xml:id="FacsPnr1">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_44c46b429beb1"/>
+            </surface>
+            <surface xml:id="FacsPnr2">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_44c46b6343cae"/>
+            </surface>
+            <surface xml:id="FacsPnr3">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_44c46b805350c"/>
+            </surface>
+            <surface xml:id="FacsPnr4">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_44c46ba246d33"/>
+            </surface>
+            <surface xml:id="FacsPnr5">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_44c46bc308173"/>
+            </surface>
+            <surface xml:id="FacsPnr6">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_44c46be24cbfd"/>
+            </surface>
+            <surface xml:id="FacsPnr7">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_44c46c0b2005a"/>
+            </surface>
+            <surface xml:id="FacsPnr8">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_44c46c2ba8823"/>
+            </surface>
+            <surface xml:id="FacsPnr9">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_44c46c4d4de7a"/>
+            </surface>
+            <surface xml:id="FacsPnr10">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_44c46c6f0abc4"/>
+            </surface>
+            <surface xml:id="FacsPnr11">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_44c46c94b8626"/>
+            </surface>
+            <surface xml:id="FacsPnr12">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_44c46cb6645f3"/>
+            </surface>
+            <surface xml:id="FacsPnr13">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_44c46cddb5eb6"/>
+            </surface>
+            <surface xml:id="FacsPnr14">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_44c46cf7540bb"/>
+            </surface>
+        </facsimile>
+    </standOff>
+    <text>
+        <front>
+            <div type="Inhalt">
+                <p>Gemeinsamer Wille zum Frieden. Bevollmächtigte. <lb/>Art. 1 Freundschaftliche
+                    Beziehungen. <lb/>Art. 2 Gemeinsames Bemühen Frankreichs, Österreichs und
+                    Großbritanniens um <lb/>einen Frieden. <lb/>Art. 3 Solange es selbst nicht
+                    angegriffen wird, verpflichtet sich Frankreich das Reich <lb/>und seine
+                    Mitglieder nicht anzugreifen. <lb/>Art. 4 Neutralität Sachsen-Polens. <lb/>Art.
+                    5 Verzicht auf Bündnisse mit feindlichen Mächten. <lb/>Art. 6 Die
+                    Verpflichtungen Sachsens gegenüber dem Deutschen Reich werden nicht
+                    <lb/>berührt. <lb/>Art. 7 Subsidienzahlungen Frankreichs. <lb/>Art. 8
+                    Dreijährige Subsidien. Modalitäten. <lb/>Art. 9 Mögliche spanische Subsidien.
+                    <lb/>Art. 10 Neuverhandlungen nach drei Jahren. <lb/>Art. 11 Frankreich
+                    unterstützt die Interessen Sachsen-Polens bei einem europäischem
+                    <lb/>Friedensschluß. <lb/>Art. 12 Geheimhaltungsklausel. <lb/>Art. 13
+                    Waffenhilfe Frankreichs im Angriffsfall. <lb/>Art. 14 Ratifikation.
+                    <lb/>Vollmacht für D´Argenson 1746 IV 17. <lb/>
+                    <lb/></p>
+            </div>
+            <div type="Kommentar">
+                <p>Der französische König Ludwig XV. und August III. von Sachsen schließen einen
+                    Bündnis-,<lb/>Subsidien- und Neutralitätspakt, wodurch das Bündnis, das zu
+                    Beginn des Österreichischen<lb/>Erbfolgekrieg bestanden hatte, wiederbelebt
+                    wird. Eine wesentliche Rolle für die Beziehung<lb/>zwischen Frankreich und
+                    Sachsen spielt Graf Moritz von Sachsen (1696-1750), einem<lb/>legitimierten Sohn
+                    Augusts des Starken, der seit 1720 in Diensten Frankreichs stand,
+                    im<lb/>Polnischen und Österreichischen Erbfolgekrieg kämpfte und 1744 zum
+                    &quot;Maréchal du camp&quot;<lb/>ernannt wurde.</p>
+            </div>
+            <div type="Kontext">
+                <p>1. Februar 1733 <lb/>Nach dem Tod August II. stehen sich sein Sohn August III.
+                    und der von <lb/>Frankreich (und Schweden) protegierte Stanis³aw Leszczyñski,
+                    <lb/>Schwiegervater Ludwigs XV., als Thronprätendenten gegenüber. <lb/>September
+                    1733 <lb/>Leszczyñski wird mit französischer Hilfe zum polnischen König
+                    <lb/>gewählt (12.9.). August, unterstützt von Österreich und Russland, kann
+                    <lb/>ihn mit Hilfe russischer Truppen verjagen und wird am <lb/>5. Oktober 1733
+                    zum polnischen König gewählt. In Polen bilden sich Konföderationen, <lb/>die
+                    einen bewaffneten Kampf führen. Ausbruch des <lb/>1733 - 1738 <lb/>Polnischen
+                    Thronfolgekriegs zwischen Frankreich und Österreich mit <lb/>Russland.
+                    Frankreich nimmt die Ereignisse in Polen zum Anlaß, gegen <lb/>Habsburg
+                    vorzugehen und okkupiert Lothringen. <lb/>31. Oktober 1735 <lb/>Wiener
+                    Friedenspäliminarien: Anerkennung August III. als polnischer <lb/>König.
+                    <lb/>1735-1736 <lb/>Pazifikationsreichstag in Polen. Anerkennung August III. Der
+                    Reichstag <lb/>wird von Leszczyñski-Anhängern "zerrissen". Bis 1763 bleiben alle
+                    <lb/>Reichstagssitzungen ohne Beschlüsse. <lb/>18. November 1738 <lb/>Wiener
+                    Friede bestätigt die Präliminarien von 1735. August III. wird als
+                    <lb/>polnischer König anerkannt. Leszczyñski erhält das Herzogtum Bar <lb/>(ohne
+                    Stimme im Reichstag) und führt auf Lebzeiten den Ehrentitel des <lb/>Königs von
+                    Polen. <lb/>Europa <lb/>1740 - 1748 <lb/>Österreichischer Erbfolgekrieg.
+                    <lb/>19. September 1741 <lb/>Frankfurter Vertrag. Sachsen stellt sich unter
+                    Vermittlung Frankreichs <lb/>auf die Seite Bayerns. August II. soll dafür mit
+                    (u.a.) Mähren <lb/>entschädigt werden. Danach marschiert August II. in Böhmen
+                    ein und <lb/>erobert zusammen mit französischen und bayerischen Truppen Prag.
+                    -&gt; <lb/>1740 - 1742 <lb/>Erster Schlesischer Krieg und <lb/>1744 - 1745
+                    <lb/>Zweiter Schlesischer Krieg. Preußen erwirbt durch diese Kriege
+                    <lb/>Schlesien und wird Nachbar Polens. <lb/>1744 - 1747 <lb/>Seekrieg zwischen
+                    Großbritannien und Frankreich. 1745 schlagen in <lb/>der Schlacht von Fontenoy
+                    französische Truppen unter Moritz von <lb/>Sachsen die englische Armee.
+                    Frankreich besetzt die spanischen <lb/>Niederlande (Statthalter: Moritz von
+                    Sachsen). <lb/>18. Oktober 1748 <lb/>Der Friede von Aachen beendet den
+                    Erbfolgekrieg auf der Basis des <lb/>status quo ante. </p>
+            </div>
+        </front>
+        <body>
+            <div type="Edition">
+                <p><rs ref="#pp0028">Sa Majesté tres chretienne</rs><note n="1" type="annotation"
+                        >Ludwig XV. (1715-1774), französischer König.</note> ayant jusqu´à present
+                    donné à connoitre en differentes occasions à Sa Maj[es]té le <rs ref="#pp0081"
+                        >Roy de Pologne</rs>, Electeur de Saxe<note n="2" type="annotation">August
+                        III. (1733/35-1763), sächsischer Kurfürst und polnischer König.</note>, ses
+                    dispositiones sinceres à entrer dans une etroite liaison d´amitié avec Elle dans
+                    la vue principalement du retablissement d´une paix generale et durable<note
+                        n="3" type="annotation">1733-1738 hatte Frankreich im polnischer
+                        Erbfolgekrieg Leszczyński, den Gegenkandidaten Augusts III.,
+                        unterstützt.</note>, Sa Maj[es]té le <rs ref="#pp0081">Roy de Pologne</rs> a
+                    concouru d´autant plus volontiers a cette ouverture, qu´elle est entierement
+                    conforme au desir extreme, qu´Elle a de procurer le bien de la patrie allemande,
+                    n´ayant rien tant à coeur, que de voir le feu de la guerre s´eteindre promtement
+                    et qu´en attendant la conclusion de la paix, il puisse s´eloigner des frontieres
+                    du S. Empire. Dans cette vue salutaire, qui ne tend à l´offense de personne, Sa
+                    Maj[es]té tres Chret[ien]ne a donné ses pleinpouvoirs au S[ieur]. de Voyer de
+                    Paulmy, Marquis<note n="4" type="crit_app">Unsichere Lesart: M.[arquis] oder RL
+                        [René Louis].</note> D´Argenson<note n="5" type="annotation">Auf Grund der
+                        unsicheren Lesart ist diese Person nicht endgültig zu identifizieren: René
+                        Louis de Voyer d´Argenson, Marquis de Paulmy (1694-1757), Politiker,
+                        Schriftsteller. Marc Antoine René de Voyer d´Argenson, Marquis de Paulmy
+                        (1722-1787), Schriftsteller, Diplomat. Marc René (1722-1782), Offizier.
+                        Pierre Marc (1696-1764), Politiker.</note>, Grand Croix de l´ordre Royal et
+                    militaire de S[ain]t. Louis, ministre et secretaire d´etat et des commandemens
+                    de Sa Majesté, et Sa Maj[es]té le <rs ref="#pp0081">Roy de Pologne</rs>,
+                    Electeur de Saxe ayant donné les siens au S.[ieur] <rs ref="#pp0223">Comte de
+                        Loss</rs><note n="6" type="annotation">Johann Graf von Loss (1690-1759),
+                        Staatsmann.</note>, Son ministre d´etat et son envoyé extraord[inai]re près
+                    sa d[ite]. Maj[es]té trés chret[ienn]ne, ces ministres après avoir<lb/>conferé
+                    entr´eux et echangé mutuellement leurs d[ites]. Pleinpouvoirs, qui seront
+                    transcrits à la fin du present traité, sont convenus des articles
+                    suivans<lb/>Article 1<lb/>Sa Maj[es].té tres chret[ien].ne et Sa Maj[es].té le
+                        <rs ref="#pp0081">Roy de Pologne</rs>, Elect[eur]. de
+                    Saxe<lb/>entretiendront entr´Elles une etroite amitié, bonne correspondance et
+                    sincere intelligence, et Elles contribueront en tout, ce qui pourra dependre
+                    d´Elles, à en resserrer et fortiffier les noeuds.<lb/><lb/>Article 2<lb/>Et
+                    comme <rs ref="#pp0028">Sa Maj[es].té très chr[etien]ne</rs> est actuellement
+                    engagée dans une guerre contre la <rs ref="#pp0019">Cour de Vienne</rs><note
+                        n="7" type="annotation">Maria Theresia (1717/1740-1780), Erzherzogin von
+                        Österreich, Königin von Ungarn und Böhmen.</note> et contre le <rs
+                        ref="#pp0220">Roy de la Grande Bretagne</rs><note n="8" type="annotation"
+                        >Georg II. (1727-1760), König von Großbritannien.</note>, Sa d[dite]. <rs
+                        ref="#pp0028">Maj[es]té tres chret[ien]ne</rs> cherchera conjointement avec
+                    le <rs ref="#pp0081">Roy de Pologne</rs> les moyens amiables de la terminer le
+                    plustot, qu´il sera possible, par une paix solide et se concertera pour cet
+                    effet avec Sa Maj[es]té Polonoise sans perte de tems et dans la plus grande
+                    confidence sur les conditions justes et equitables, qui pourront y servir de
+                    base.<lb/><lb/>Article 3<lb/><rs ref="#pp0028">Sa Maj[es]té tres
+                        Chret[ien]ne</rs> promet et s´engage, en vertu du present Traité, de vouloir
+                    aussi longtems, que cette paix ne sera pas portée a sa perfection, tenir la
+                    guerre eloignée des frontieres de l´Empire autant qu´il sera possible, et
+                    consequement de ne point attaquer l´Empire, ni aucun de ses membres en
+                    Allemagne, etant bien eloignée de vouloir troubler les d[ite]s Etats ou leurs
+                    sujets dans leurs libertés et justes prerogatives, tant que Sa d[ite]. Maj[es]té
+                    ne sera point attaquée Elle meme de la part de l´Empire; cette negociation ayant
+                    été etablie sur la reserve expresse, qu´il ne seroit porté aucune atteinte par
+                    le present Traité aux obligations de Sa Maj[es].té le <rs ref="#pp0081">Roy de
+                        Pologne</rs> comme membre de l´Empire, ni aux autres alliances non
+                    contraires au present traité dans lesquelles Sa d[ite]. Maj[es]té se trouve avec
+                    d´autres puissances.<lb/><lb/>Article 4<lb/>Sur cette declaration Sa Maj[es].té
+                    le <rs ref="#pp0081">Roy de Pologne</rs> s´engage reciproquement à ne prendre
+                    aucune part hors de l´Allemagne dans la guerre susmentionnée directement ni
+                    indirectement, ou de quelqu´autre maniere, que ce puisse etre, soit en donnant
+                    ou envoyant des troupes a une puissance, qui seroit impliquée directement ou
+                    indirectement dans la presente guerre avec les Couronnes de France et d´Espagne,
+                    Sa d[ite]. Maj[es]té le <rs ref="#pp0081">Roy de Pologne</rs> promettant
+                    d´observer de son coté la neutralité la plus exacte, qui sans cela a deja eté
+                    agréee par plusieurs cercles et etats de l´Empire.<lb/><lb/>Article 5<lb/><rs
+                        ref="#pp0028">Sa Maj[es]té tres Chret[ie]ne</rs> et Sa Maj[es]té le <rs
+                        ref="#pp0081">Roy de Pologne</rs> promettent et s´engagent de n´entrer dans
+                    aucunes nouvelles liaisons, qui puissent etre contraires au traité d´amitié, ou
+                    qui pourroient troubler le repos general de l´Empire.<lb/><lb/>Article
+                    6<lb/>Neanmoins Sa Maj[es]té le <rs ref="#pp0081">Roy de Pologne</rs>,
+                    Elect[eur]. de Saxe se reserve expressement,<lb/>qu´au cas, que l´Empire Romain
+                        declara&lt;t&gt;<note n="9" type="crit_app">Unsichere Lesart.</note> la
+                    guerre a la France, le present traité d´amitié ne l´empechera pas de remplir ses
+                    obligatioms comme membre de l´Empire, de fournir son contingent en conformité,
+                    de ce qui sera resolu par le d[it]. Empire, et de faire agir le d[it].
+                    contingent a l´exemple d´autres troupes de l´Empire.<lb/><lb/>Article 7<lb/>Et à
+                    fin que Sa Maj[es].té le <rs ref="#pp0081">Roy de Pologne</rs>, Elect[eur]. de
+                    Saxe soit plus en etat d´observer la neutralité promise en ne faisant point
+                    usage de l´armée, qu´Elle a sur pied, et pour que son entretien ne soit pas trop
+                    a charge a son pais, et que sa d[ite]. Maj[es]té puisse plustot porter les
+                    choses au retablissement de la paix souhaitée, <rs ref="#pp0028">Sa Maj[es].té
+                        tres Chret[ien].ne</rs> promet pour soy et ses successeurs à la Couronne, à
+                    Sa d[ite]. Maj[es]té le <rs ref="#pp0081">Roy de Pologne</rs>, Elect[eur]. de
+                    Saxe une somme de deux millions de livres en deux cent mille ducats chacun a
+                    quatre florins ou deux ecus seize gros de l´Empire par an, à titre de subside
+                    pendant trois années consecutives, soit que la paix se fasse ou non, et de payer
+                    la ditte somme sans diminuation, quand meme le cas d´une guerre de l´Empire et
+                    la marche du contingent Saxon existoient, comme il est dit dans l´article
+                    six.<lb/><lb/>Article 8<lb/>Le payement de ces trois années de subsides se fera
+                    exactement chaque fois à Leipsiek de la maniere suivante, savoir un million en
+                    cent mille ducats, chacun à quatre florins ou deux ecus seize gros de l´Empire
+                    pour les premiers six mois de la premiere année à commencer du 1er janvier 1746,
+                    quatre semaines après l´echange des ratiffications du present traité, le second
+                    million pour les six derniers mois pareillement dans les premiers jours du mois
+                    de juillet prochain; et de meme pour les deux années suivantes, jusqu´au dernier
+                    decembre 1748, on payera les deux millions stipulés par an, de demie année en
+                    demie année praenumerando<note n="10" type="crit_app">Hervorgehoben durch
+                        Unterstreichung.</note> chaque fois un million, et on payera toutes ces
+                    sommes en purs et bons ducats de bon poids, sans aucune reserve ou decompte, ni
+                    aucuns frais des provisions ou transport, ou de quelque nature que cela
+                    soit.<lb/><lb/>Article 9<lb/>Et comme Sa Maj[es]té le <rs ref="#pp0081">Roy de
+                        Pologne</rs>, Electeur de Saxe a accepté les subsides annuels offerts par la
+                    France de deux millions de livres ou deux cent mille ducats chacun à quatre
+                    florins ou deux leurs seize gros de l´Empire dans la ferme confiance, que la
+                    Couronne d´Espagne accordera pareillement un subside convenable et suffisant à
+                    sa ditte Maj[es]té , le <rs ref="#pp0028">Roy tres chretien</rs> promet de faire
+                    tous ses efforts de façon, que la d[ite]. Couronne d´Espagne s´engage de la même
+                    maniere auprès du <rs ref="#pp0081">Roy de Pologne</rs> pour un subside annuel
+                    considerable pendant trois années consecutives aux memes conditions, que celles
+                    stipulées dans ce traité par raport au subside de la France.<lb/><lb/>Article
+                    10<lb/>Après l´expiration des dittes trois années leurs Majestés contractantes
+                    s´entendront et se concerteront ensemble, soit pour un renouvellement de
+                    subsides, ou pour toute autre matiere d´une maniere convenable.<lb/><lb/>Article
+                        11<lb/><rs ref="#pp0028">Sa Maj[es]té tres Chret[ien]ne</rs> promet de la
+                    façon la plus solemnelle de s´employer<lb/>efficacement à la pacification
+                    generale pour les interêts de Sa Maj[es]té le <rs ref="#pp0081">Roy de
+                        Pologne</rs> et de sa Maison, et de les faire valoir, comme aussi de
+                    disposer l´Espagne à en faire autant de son coté.<lb/><lb/>Article 12<lb/><rs
+                        ref="#pp0028">Sa Maj[es]té tres Chret[ien]ne</rs> et Sa Maj[es]té le <rs
+                        ref="#pp0081">Roy de Pologne</rs> se promettent<lb/>reciproquement de garder
+                    un secret inviolable et impenetrable au sujet de la presente<lb/>negociation,
+                    sans qu´il soit permis ni à l´un , ni à l´autre des contractans de decouvrir de
+                    bouche le d[it]. traité en tout ou en partie et encore moins d´en communiquer
+                    l´original, l´extrait ou copie.<lb/><lb/>Article 13<lb/>En cas que Sa Maj[es]té
+                    le <rs ref="#pp0081">Roy de Pologne</rs>, Electeur de Saxe à l´occasion du
+                    present traité ou pour avoir tenu des subsides des couronnes de France et
+                    d´Espagne &lt;vint&gt;<note n="11" type="crit_app">Unklare Lesart.</note> a etre
+                    attaquée hostilement de qui, que ce soit, ou que ses pais electoraux ou ceux,
+                    qui en dependent, fussent inquietés ou molestés soit par des quartiers d´hiver,
+                    des executions militaires, exactions d´argent, de provisions ou fourages, soit
+                    par des passages ou autres voyes de faits, le <rs ref="#pp0028">Roy tres
+                        chretien</rs> s´oblige de la secourir de toutes ses forces le plus
+                    promtement, qu´il sera possible pour eloigner tout danger d´Elle, et de luy
+                    continuer ses secours, jusqu´à ce qu´il lui en ait procuré de
+                    dedommagement.<lb/><lb/>Article 14<lb/>Le present traité sera ratiffié de part
+                    et d´autre et bonne et due forme et l´echange des<lb/>ratifficatons sera fait
+                    dans le terme de trois semaines ou plustot si faire se peut.<lb/>En foy de quoi
+                    nous ministres soussignés avons signé le present traité et y avos apposé les
+                    cachets de nos armes. Fait a Paris le vingt-unieme avril Mille sept cent
+                    quarante six<lb/>LS, US &lt;R&gt;<note n="12" type="crit_app">Unsichere Lesart:
+                        M.[arquis] oder RL [René Louis].</note> &lt;L&gt; D´Argenson<lb/></p>
+                <p><rs ref="#pp0081">Louis par la grace de Dieu Roy de France</rs> et de Navarre a
+                    tous ceux, qui ces presentes lettres verront salut. Notre tres cher et très amé
+                    frere le <rs ref="#pp0081">Roy de Pologne</rs> Elect[eur]. de Saxe nous ayant
+                    fait connoiter les dispositions, ou il est des unir etroitement avec nous, pour
+                    travailler de concert au retablissement de la paix generale, et etant egalement
+                    de notre part dans les memes dispositions. Ou ces causes nous confiant
+                    entierement en la capacité, experience, zele et fidelité pour notre service de
+                    notre amé et &lt;fial&gt;<note n="13" type="crit_app">Unsichere Lesart.</note>
+                    le S[ieur] de Voyer de Paulmy Marq[uis]. D´Argenson, Grand Croix de notre Royal
+                    et militaire de S[aint]. Louis, Ministre et Secretaire d´Etat et de nos
+                    Commandemens, nous l´avons commis, ordonné et deputé, et par ces presentes
+                    signéés de notre main le committons, ordonnons et deputons et luy avons donné et
+                    donnons pleinpouvoir, commission et mandement special pour en notre nous
+                    convenir avec tel ministre de notre d[it]. frere pareillement muni de ses
+                    pleinpouvoirs en bonne forme, arreter, conclure et signer tels traités, articles
+                    et conventions, qu´il avisera bon etre entre nous et notres dit frere, voulant
+                    qu´il agisse en cette occasion avec la meme autorité, que nous ferions ou
+                    pourrions faire, si nous y etions present en personne, encore qu´il y eût
+                    quelque chose qui requît un mandement plus special que ce qui est contenu en cet
+                    d[ites]. presentes. Promettant en foy et parole de Roy d´avoir agreable, tenir
+                    ferme et stable, accomplir et executer ponctuellement tout ce que le d[it].
+                    S[ieur]. Marq[uis]. Dargenson aura stipulé, promis et signé en vertu du present
+                    pouvoir sans y contrevenir ni permettre, qu´il y soit contrevenu pour quelque
+                    cause que ce puisse etre, comme aussi d´en faire expedier nos lettres de
+                    ratiffication en bonne forme pour etre echangées dans le tems qui sera convenu.
+                    Car tel est notre plaisir. En temoin de quoy nous avons fait mettre notre sçel
+                    secret a ces presentes. Donné a Versailles le 17 jour d´avril l´an de grace
+                    mille sept cent quarante six et de notre regne le trent-unieme, signé Louis et
+                    plus bas par le Roi Thelipeaux </p>
+            </div>
+
+        </body>
+    </text>
+</tei:TEI>

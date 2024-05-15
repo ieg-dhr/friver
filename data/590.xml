@@ -1,0 +1,405 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE tei SYSTEM "../resources/FriVer_DTD.dtd">
+
+<?xml-model href="../resources/FriVer.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns="http://www.tei-c.org/ns/1.0" xml:id="pa000299-0590">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title level="s">European peace treaties of the pre-modern era in data / Europäische Friedensverträge der Vormoderne in Daten (FriVer+)</title>
+                <title when="1739-05-16" xml:id="t590" when-custom="1739 V 16" level="a" ref="https://www.ieg-friedensvertraege.de/treaty/t-590-1-de.html">Hauptvergleich betr. Amt und Haus Steinhorst</title>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    Digital edition according to
+                    <ref target="http://www.tei-c.org/">TEI P5</ref>
+                </edition>
+                <funder>
+                    <ref target="https://www.text-plus.org/">TEXT+</ref>
+                </funder>
+                <editor role="http://id.loc.gov/vocabulary/relators/edt" ref="https://orcid.org/0000-0002-8741-5916">
+                    <persName>Jaap Geraerts</persName>
+                    <note>The transformation and enrichment of the data is done by Jaap Geraerts (IEG Mainz). The other members of the FriVer+ team are Fabian Cremer, Ines Grund, and Thorsten Wübbena (all IEG Mainz).</note>
+                    <note>
+                        The original data has been created by the
+                        <ref target="https://www.ieg-friedensvertraege.de">team of scholars</ref>
+                        who were part of the Europäische Friedensverträge der Vormoderne project. This project was lead by Prof. Dr. Heinz Duchhardt and was based at the Leibniz Institute of European History in Mainz.
+                    </note>
+                </editor>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>
+                    <orgName ref="http://www.isni.org/0000000119314040">Leibniz-Institut für Europäische Geschichte Mainz</orgName>
+                </publisher>
+                <distributor>
+                    <orgName ref="http://www.isni.org/0000000110101946">Universitäts- und Landesbibliothek Darmstadt</orgName>
+                </distributor>
+                <idno type="ISIL">http://lobid.org/organisation/DE-17</idno>
+                <date type="issued" when="2023-12-23"/>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">
+                        <p xml:lang="en">This file is licensed under the terms of the Creative Commons License CC-BY 4.0 (Attribution 4.0 International)</p>
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <repository xml:id="r10">Hannover StA/LA
+                    <note>Arcinsys Niedersachsen, Hannover NLA, Findbuch:<lb />
+                        <ref target="http://www.arcinsys.niedersachsen.de/arcinsys/detailAction?detailid=v3436366" >http://www.arcinsys.niedersachsen.de/arcinsys/detailAction?detailid=v3436366</ref></note>
+                </repository>
+                <msDesc><p>Hauptstaatsarchiv Hannover: Hannover 10, Nr. 54, 1-3 (Hauptvertrag, 1. und 2. Separatartikel).</p> 
+                    <p>weitere Stücke:</p> 
+                    <p>Hauptstaatsarchiv Hannover: Hannover 10, Nr. 54, 4: Ratifikation Dänemarks, Schloß Hirschholm 1739 V 29.&nbsp;</p></msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>
+                    The data in this XML file, originally created by the project
+                    <ref target="https://www.ieg-friedensvertraege.de/vertraege">Europäische Friedensverträge der Vormoderne online</ref>
+                    has been transformed in accordance with
+                    <ref target="http://www.tei-c.org/">TEI P5</ref>
+                    as part of the project
+                    <ref target="https://www.ieg-mainz.de/en/research/research-projects/european-peace-treaties-of-the-pre-modern-era-in-data">Europäische Friedensverträge der Vormoderne in Daten (FriVer+)</ref>
+                </p>
+            </projectDesc>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="de" xml:id="lan2">deutsch</language>
+            </langUsage>
+        </profileDesc>
+    </teiHeader>
+    <standOff>
+        <listPerson>
+            <person role="signatory" xml:id="p32">
+                <persName ref="https://explore.gnd.network/gnd/4010877-6">
+                    <name>Dänemark</name>
+                </persName>
+            </person>
+            <person role="signatory" xml:id="p51">
+                <persName ref="https://explore.gnd.network/gnd/4023349-2">
+                    <name>Hannover</name>
+                </persName>
+            </person>
+        </listPerson>
+        <listPlace>
+            <place xml:id="loc25">
+                <placeName ref="https://explore.gnd.network/gnd/4023349-2">Hannover</placeName>
+            </place>
+        </listPlace>
+        <facsimile>
+            <surface xml:id="FacsPnr1">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_44892e22aac92"/>
+            </surface>
+            <surface xml:id="FacsPnr2">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_44892e573cecd"/>
+            </surface>
+            <surface xml:id="FacsPnr3">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_44892e884d6a0"/>
+            </surface>
+            <surface xml:id="FacsPnr4">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_44892ec1082bb"/>
+            </surface>
+            <surface xml:id="FacsPnr5">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_44892ef0a45c9"/>
+            </surface>
+            <surface xml:id="FacsPnr6">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_44892f17da91e"/>
+            </surface>
+            <surface xml:id="FacsPnr7">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_44892f45e58e6"/>
+            </surface>
+            <surface xml:id="FacsPnr8">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_44892f86acb58"/>
+            </surface>
+            <surface xml:id="FacsPnr9">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_44892faf782b9"/>
+            </surface>
+            <surface xml:id="FacsPnr10">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_44892fe2e3e14"/>
+            </surface>
+            <surface xml:id="FacsPnr11">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_4489301318ad1"/>
+            </surface>
+        </facsimile>
+    </standOff>
+    <text>
+        <front>
+            <div type="Inhalt"><p>Nachdem Dänemark und Hannover bereits im Präliminarvergleich 1739 III 5 die Ausübung von Gewalt in der Streitsache um das Amt Steinhorst in Lauenburg ausgeschlossen haben, verzichten die Parteien nun auf die im Präliminarvergleich Art. 5 vorgesehenen Lösungsvorschläge; stattdessen kommen sie zur schnelleren Beilegung des Konflikts auf folgende Punkte überein:
+                <lb />
+                <lb />1. Beide Seiten beharren auf ihren grundsätzlich gegensätzlichen Ansprüchen auf den Besitz des Amtes Steinhorst; der dänische König läßt seinen Anspruch jedoch unter einigen bestimmten Bedingungen ruhen.
+                <lb />
+                <lb />2. Hannover fördert die Besserstellung des vom dänischen König geführten Votums für Holstein-Glückstadt und gibt ihm auf dem Niedersächsischen Kreistag und Reichstag den Vortritt vor dem vom Kurfürsten von Hannover geführten Votum für Sachsen-Lauenburg.
+                <lb />
+                <lb />3. Hannover zahlt 70.000 Reichsthaler in dänischer Währung an Dänemark.
+                <lb />
+                <lb />4. Die Ratifikationen des Vergleichs werden nach spätestens vier Wochen ausgewechselt.
+                <lb />
+                <lb />Separatart. 1. Stirbt die Linie des Kurfürsten von Hannover im Mannesstamm aus, fällt das Amt Steinhorst an die Erbnachfolger des dänischen Königs, gegen eine Entschädigung von 200.000 Reichsthalern für die Erben der Kurfürsten.
+                <lb />
+                <lb />Separatart. 2 Nachdem das vom dänischen König geführte Votum für Holstein-Glückstadt mit Unterstützung und Billigung Hannovers seine Besserstellung auf dem Niedersächsischen Kreistag und Reichstag erlangt hat, fördert Dänemark die entsprechende Besserstellung des vom Kurfürsten von Hannover geführten Votums für Sachsen-Lauenburg.
+                <lb /></p></div>
+        </front>
+        <body>
+            <div type="Transliteration">
+                <pb facs="#FacsPnr1"/><p>Kund und zuwißen seÿ hiemit: Nachdem die
+                <lb />zwischen S[eine]r König[lichen] Maj[estä]t von Groß-Britannien,
+                <lb />als Churfürsten zu Braunschweig-Lüneburg,
+                <lb />und S[eine]r König[lichen] Maj[estä]t zu Dännemarck-Norwe-
+                <lb />gen, als Herzogen zu Holstein, ohnvermuhtet
+                <lb />entstandener Differenz wegen des Amtes und
+                <lb />Hauses Steinhorst, durch Göttliche Verleihung
+                <lb />bereits in so fern sich gütlich beÿgeleget
+                <lb />befindet, daß darüber unterm 5ten Martii
+                <lb />dieses jetztlauffenden Jahres ein Préliminair-
+                <lb />Vergleich geschloßen, und nach der Hand rati-
+                <lb />ficiret und exequiret, mithin dadurch alle
+                <lb />Besorgniß einer Thätlichkeit gehoben, und
+                <lb />das so sehr erwünschliche gute Vernehmen
+                <lb />zwischen beÿderseits König[lichen] Maj[estä]t Maj[estä]t wieder
+                <lb />hergestellet worden:
+                <lb />&nbsp;&nbsp; Und dann zwar in sothanem Préliminair-
+                <lb />Vergleich, Articulo 5to, versehen ist, daß
+                <lb />die Sache selbst, und in so weit es dabeÿ
+                <lb />auf beÿderseitige hohe Ansprüche auf besag-
+                <lb />tes Amt und Hauß ankommt, durch einen
+                <lb />der dreÿ vorhin in Vorschlag gekomme-
+                <lb />nen Wege, nemlich durch eine Gemein-
+                <lb />schafftliche Commission, durch ein Compromiss, 
+                <pb facs="#FacsPnr2"/>oder durch den ordentlichen Weg Rechtens, er-
+                <lb />örtert und gäntzlich abgethan werden solte;
+                <lb />Indessen aber beÿderseits König[liche] Maj[estä]t Maj[estä]t
+                <lb />aus gleich aufrichtiger Begierde, diesen Zweck
+                <lb />je eher je lieber zu erhalten, und alle
+                <lb />Spuhr einer zwischen Ihnen obwaltenden
+                <lb />Differenz auszutilgen, allergnädigst genehmiget,
+                <lb />darüber Handlung pflegen zu laßen, wie
+                <lb />solches in der Kürtze, und ohne auf einem
+                <lb />der dreÿ vorgedachten etwas langsahmen
+                <lb />Wege zu recurriren, zu reciproquer hoher
+                <lb />zufriedenheit geschehen könnte:
+                <lb />&nbsp;&nbsp; daß dannenhero, nach gepflogener solchen
+                <lb />handlung, von beÿderseitigen Bevollmächtig-
+                <lb />ten Ministris, bis auf Ratification Ihrer
+                <lb />respective allergnädigsten Herren König[lichen]
+                <lb />Maj[estä]t Maj[estä]t, nachfolgendes verabredet und
+                <lb />geschloßen worden.
+                <lb />
+                <lb />1mo
+                <lb />Gleich wie S[ein]e König[liche] Maj[estä]t von Groß.Britan-
+                <lb />nien und Churfürst[lichen] Durch[laucht] zu Braun-
+                <lb />schweig-Lüneburg das Hauß und Amt
+                <lb />Steinhorst, theils als Herzog von Lauenburg,
+                <lb />theils vermöge des mit dem Herzoglich- 
+                <pb facs="#FacsPnr3"/>Holsteinischen Hause unterm 13ten Junii 1738.
+                <lb />errichteten Vergleichs, in Anspruch genom-
+                <lb />men haben; S[ein]e König[liche] Maj[estä]t von Dännemarck-
+                <lb />Norwegen hingegen Sich auf ein Ihro, als
+                <lb />Herzogen zu Holstein, zu kommendes Recht,
+                <lb />und auf ein dero in Gott ruhenden Herrn
+                <lb />Vaters König[lichen] Maj[estä]t von den Gebrüderen
+                <lb />Von Weddercopp A[nn]o 1719 geschehenes Oblatum
+                <lb />gründen, nach welchem besagtes Guht dero
+                <lb />Cron, nach Abgang des Weddercoppischen
+                <lb />Manns-Stammes, anfallen solte, wie-
+                <lb />wohl solcher Anprüche halber, beÿde hohe
+                <lb />Theile einer dem andern nichtes einge-
+                <lb />standen haben, sondern in contradictoriis
+                <lb />bestehen geblieben sind; Also versprechen
+                <lb />und erklähren Sich S[ein]e König[liche] Maj[estä]t von
+                <lb />Dännemarck-Norwegen hiemit vor
+                <lb />Sich, dero Erben und Nachfolger an der
+                <lb />Cron, solcher Ihrer Prætension Sich gegen
+                <lb />S[eine]r König[lichen] Maj[estä]t von Groß-Britannien und
+                <lb />Churfürst[lichen] Durch[laucht] zu Braunschweig-Lüne-
+                <lb />burg nicht gebrauchen, sondern selbige
+                <lb />gegen nachgesetzte Bedingungen und Gegen-
+                <lb />Convenienzien gäntzlich fallen und geschehen 
+                <pb facs="#FacsPnr4"/>laßen zu wollen, daß S[ein]e König[liche] Maj[estä]t von
+                <lb />Groß-Britannien, als Churfürst, das
+                <lb />Amt und Hauß Steinhorst vollends reacqui-
+                <lb />riren, und den Geheimten Raht von Weddercopp
+                <lb />wegen seiner daran habenden Gerecht-
+                <lb />sahme abfinden; Inmaßen dann mehr-
+                <lb />höchstgedachte S[ein]e König[lich] Dänische Maj[estä]t bemel-
+                <lb />deter Ihrer ex quorunq[ue] capite zu machender
+                <lb />Ansprüche auf Steinhorst Sich bündigst und
+                <lb />kräfftigst verzeihen und begeben.
+                <lb />
+                <lb />2do
+                <lb />Dahingegen verbinden Sich S[ein]e König[liche] Maj[estä]t von
+                <lb />Groß-Britannien, als Churfürst von Braun-
+                <lb />schweig-Lüneburg 1.) nicht nur geschehen zu
+                <lb />laßen, daß S[eine]r König[lichen] Maj[estä]t von Dännemarck-
+                <lb />Norwegen Holstein-Glückstädtisches Votum
+                <lb />auf dem Reichs-Tage unter die 5. alter-
+                <lb />nirende Alt-Fürst[lich]e Vota in perpetuum
+                <lb />aufgenommen werde, und also dem
+                <lb />Herzoglich-Lauenburgischen Reichs-Täglichen
+                <lb />voto vortrete, sondern auch dazu aller
+                <lb />diensahmer Ohrten, nach bester Möglichkeit
+                <lb />mit dero guten Officiis zu cooperiren, und
+                <lb />Sich dahin zu bestreben, daß diese Sache 
+                <pb facs="#FacsPnr5"/>auf dem Reichs-Tage ad motum und zur Pro-
+                <lb />position komme, und ein Kaÿser[liche]s Commissions-
+                <lb />Decret darüber erfolge, mithin solche als dero
+                <lb />eigene Sache betreiben zu laßen.
+                <lb />
+                <lb />3tio
+                <lb />Ferner und 2.) machen S[ein]e König[liche] Maj[estä]t Von
+                <lb />Groß-Britannien und Churfürst[liche] Durch[laucht] zu
+                <lb />braunschweig-Lüneburg Sich anheischig, so fort
+                <lb />beÿ Auswechslung der Ratificationen dieses
+                <lb />Vergleichs, S[eine]r König[lichen] Maj[estä]t von Dännemarck-
+                <lb />Norwegen die Summe von Siebenzig Tausend th[a]l[e]r
+                <lb />dänisch current, als eine Vergleichungs-Summe
+                <lb />entrichten, und gegen höchstderoselben Anweisung
+                <lb />und Quitung ausliefern zu laßen.
+                <lb />
+                <lb />4to
+                <lb />Werden beÿderseits unterzeichnende Ministri
+                <lb />ihnen angelegen seÿn laßen, binnen Zeit von 3. bis
+                <lb />4. Wochen ihrer allergnädigsten Herren Ratifica-
+                <lb />tion über diesen Vergleich zu verschaffen und aus-
+                <lb />zuwechseln; Und wie so dann damit Anfangs-
+                <lb />gedachte Differenz völlig abgethan, erlediget und
+                <lb />verglichen seÿn wird; Also wird von beÿden hohen
+                <lb />Theilen allen Einwendungen und Behelffen, so
+                <lb />dagegen erdacht werden könnten, kräfftigst und 
+                <pb facs="#FacsPnr6"/>so, als wenn sie Nahmentlich alhier erwehnet
+                <lb />wären, in perpetuum renunciiret.
+                <lb />&nbsp;&nbsp; Zu Uhrkunde dessen sin von gegenwärtigem
+                <lb />Vergleiche zweÿ gleichlautende Originalia ausge-
+                <lb />fertiget, und von beÿderseits bevollmächtigten
+                <lb />Ministris unterschrieben und besiegelt; So
+                <lb />geschehen Hannover den 16ten Maji 1739.
+                <lb />
+                <lb />[Lacksiegel] Gerlach Adolph von&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Lacksiegel] Bernstorff
+                <lb />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Münchhausen
+                <lb />
+                <lb />[Lacksiegel] Friederich Lu-
+                <lb />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; dewig von Hauß.
+                <lb />
+                <lb />[Lacksiegel] Crafft von Erffa
+                <lb />
+                <pb facs="#FacsPnr7"/>Articulus Separatus 1mus
+                <lb />
+                <lb />Nachdem beÿ denen, laut schrifftlichen Recessus und
+                <lb />Vergleichs vom heütigen dato, wegen gäntzlicher
+                <lb />Hinlegung der Differenz wegen des Amtes und
+                <lb />Hauses Steinhorst, zwischen denen respective König[lich]
+                <lb />Groß-Britannischen und Churfürst[lich] braunschweig-
+                <lb />Lüneburgischen einer Seits, und dem König[lich] Dänischen
+                <lb />bevollmächtigten Ministris, anderer Seits, ge-
+                <lb />pflogenen Tractaten, als ein Medium Composi-
+                <lb />tionis mit in Vorschlag gekommen, daß S[eine]r König[lichen]
+                <lb />Maj[estä]t zu Dännemarck-Norwegen König[lichen] Erbfol-
+                <lb />geren der Rückfall von sothanem Amte und
+                <lb />Hause stipuliret werden mögte:
+                <lb />&nbsp;&nbsp; Und man dann Chur-braunschweig-Lüne-
+                <lb />burgischer Seits diesem Postulato zu fügen keinen
+                <lb />Umgang haben können, da daraus eine Con-
+                <lb />ditio sine qua non gemachet worden, und kein
+                <lb />anderes Expediens, zu gäntzlicher vergnüglicher
+                <lb />Abthuung der Differenz aus zu finden, noch
+                <lb />an Seiten S[eine]r König[lichen] Maj[estä]t von Groß-Britan-
+                <lb />nien die Acquisition von Steinhorst möglich
+                <lb />zu machen gewesen;
+                <lb />&nbsp;&nbsp; So ist deshalber verabredet und geschloßen,
+                <lb />und wird krafft dieses von beÿderseits
+                <lb />
+                <pb facs="#FacsPnr8"/>König[lichen] Maj[estä]t Maj[estä]t aufs bündigste für Sich
+                <lb />und dero Nachfolgere stipuliret:
+                <lb />&nbsp;&nbsp; daß auf den Fall, daß die König[lich] Dänische Erb-
+                <lb />Succession, S[eine]r König[lichen] Maj[estä]t von Groß-Britannien
+                <lb />Manns-Stamm überleben, und dieses vor jener
+                <lb />verblühen solte, so dann vorbesagtes Amt und
+                <lb />Hauß Steinhorst mit allen seinen Zubehörun-
+                <lb />gen, und cum omni jure, vorhochbemeldeten
+                <lb />König[lich] Dänischen Erbfolgeren anfallen, und
+                <lb />auf dieselbe vererbet werden, jedoch diese
+                <lb />dahingegen schuldig und gehalten seÿn sollen,
+                <lb />S[eine]r König[lichen] Maj[estä]t von Groß-Britannien
+                <lb />Allodial-Erben, welche inzwischen bis dahin
+                <lb />das Jus retentionis zu exerciren befugt sind,
+                <lb />statt aller Acquisitions- und Meliorations-
+                <lb />Kosten, eins vor alles eine Summe von
+                <lb />Zweÿ Hundert Tausend Reichsth[a]l[e]r Lünebur-
+                <lb />gischer Wehrung, die Marck fein zu 12 th[a]l[e]r
+                <lb />ausgemüntzet, baar auszuzahlen und
+                <lb />zu entrichten.
+                <lb />&nbsp;&nbsp; Inmaßen dann dieser Separat-Articul,
+                <lb />welchen jedoch geheim zu halten und keinem
+                <lb />davon Wißenschafft oder Abschrifft zu geben,
+                <lb />verabredet ist, von eben der Krafft und
+                <lb />
+                <pb facs="#FacsPnr9"/>verbindlichkeit seÿn soll, als wenn er dem
+                <lb />Haupt-vergleich wörtlich eingefüget wäre.
+                <lb />Zu Uhrkund dessen haben beÿderseitige bevoll-
+                <lb />mächtigte Ministri solchen unterzeichnet und
+                <lb />besiegelt; So geschehen Hannover den 16ten Maji 1739.
+                <lb />
+                <lb />[Lacksiegel] Gerlach Adolph&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Lacksiegel] Bernstorff
+                <lb />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; von Münchhausen
+                <lb />
+                <lb />[Lacksiegel] Friederich
+                <lb />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Ludewig von
+                <lb />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Hauß.
+                <lb />
+                <lb />[Lacksiegel] Crafft von Erffa 
+                <pb facs="#FacsPnr10"/>Articulus Separatus 2dus
+                <lb />
+                <lb />Als in dem wegen gäntzlicher Abthuung der
+                <lb />zwischen S[eine]r König[lichen] Maj[estä]t von Groß-Britannien
+                <lb />und Churfürst[lichen] Durch[laucht] zu Braunschweig-Lüneburg,
+                <lb />und S[eine]r König[lichen Maj[estä]t zu Dännemarck-Norwegen,
+                <lb />des Amtes und Hauses Steinhorst halber entstan-
+                <lb />denen Differenz unterm heütigen dato geschloßenen
+                <lb />Vergleichs Art[iculo] 2do versehen und stipuliret
+                <lb />worden:
+                <lb />
+                <lb />&nbsp;&nbsp; daß S[ein]e König[liche] Maj[estä]t von Groß-Britannien nicht
+                <lb />&nbsp;&nbsp; nur die Reception des Holstein-Glückstädtischen
+                <lb />&nbsp;&nbsp; Reichs-Täglichen voti unter die 5. alternirende
+                <lb />&nbsp;&nbsp; Alt-Fürst[lichen] vota, mithin den Vortritt sothanen
+                <lb />&nbsp;&nbsp; voti vor dem Herzoglich-Lauenburgischen, geschehen
+                <lb />&nbsp;&nbsp; laßen, sondern auch darzu bestmöglich cooperiren,
+                <lb />&nbsp;&nbsp; und daß die Sache auf dem Reichs-Tage zur
+                <lb />&nbsp;&nbsp; Proposition und ad motum käme, und ein Kaÿser[liches]
+                <lb />&nbsp;&nbsp; Commissions-Decret hierüber erfolget, bewür-
+                <lb />&nbsp;&nbsp; cken helfen, mithin solche als Ihre eigene Sache
+                <lb />&nbsp;&nbsp; betreiben laßen wolten;
+                <lb />
+                <lb />So versprechen S[ein]e König[liche] Maj[estä]t von Dännemarck-
+                <lb />Norwegen S[eine]r König[lichen] Maj[estä]t von Groß-Britannien,
+                <lb />in Absicht deroselben Lauenburgischen voti, ein
+                <lb />gleichs wiederfahren zu laßen, und Sich dahin zu 
+                <pb facs="#FacsPnr11"/>bestreben, daß besagtes Votum, wann zuforderst
+                <lb />die Reception des Glückstädtischen Voti völlig geschehen,
+                <lb />und in Activität gesetzet seÿn wird, ebenwohl
+                <lb />unter besagte alternirende mit aufgenommen
+                <lb />werden möge.
+                <lb />&nbsp;&nbsp; Gestalt dann dieser Separat-Articul von eben
+                <lb />der Krafft und Verbindlichkeit seÿn soll, als
+                <lb />wann er dem Haupt-Vergleich wörtlich ein-
+                <lb />gefüget wäre.
+                <lb />&nbsp;&nbsp; Zu Uhrkund dessen haben beÿderseitige Bevoll-
+                <lb />mächtigte Ministri solchen unterzeichnet und be-
+                <lb />siegelt; So geschehen Hannover, den 16ten Maji 1739.
+                <lb />
+                <lb />[Lacksiegel] Gerlach Adolph&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Lacksiegel] Bernstorff
+                <lb />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; von Münchhausen
+                <lb />
+                <lb />[Lacksiegel] Friederich Lu-
+                <lb />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; dewig von Hauß.
+                <lb />
+                <lb />[Lacksiegel] Crafft von Erffa
+                <lb />
+                </p>
+            </div>
+        </body>
+    </text>
+</tei:TEI>

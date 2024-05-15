@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE tei SYSTEM "../resources/FriVer_DTD.dtd">
+
+<?xml-model href="../resources/FriVer.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns="http://www.tei-c.org/ns/1.0"
+    xml:id="pa000299-0199">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title level="s">European peace treaties of the pre-modern era in data / Europäische
+                    Friedensverträge der Vormoderne in Daten (FriVer+)</title>
+                <title when="1666-08-31" xml:id="t199" when-custom="1666 VIII 31" level="a"
+                    ref="https://www.ieg-friedensvertraege.de/treaty/t-199-1-de.html">Garantie des
+                    Kurfürsten und Erzbischofs von Mainz Johann Philipp betr. 1666 IV 18</title>
+            </titleStmt>
+            <editionStmt>
+                <edition> Digital edition according to <ref target="http://www.tei-c.org/">TEI
+                        P5</ref>
+                </edition>
+                <funder>
+                    <ref target="https://www.text-plus.org/">TEXT+</ref>
+                </funder>
+                <editor role="http://id.loc.gov/vocabulary/relators/edt"
+                    ref="https://orcid.org/0000-0002-8741-5916">
+                    <persName>Jaap Geraerts</persName>
+                    <note>The transformation and enrichment of the data is done by Jaap Geraerts
+                        (IEG Mainz). The other members of the FriVer+ team are Fabian Cremer, Ines
+                        Grund, and Thorsten Wübbena (all IEG Mainz).</note>
+                    <note> The original data has been created by the <ref
+                            target="https://www.ieg-friedensvertraege.de">team of scholars</ref> who
+                        were part of the Europäische Friedensverträge der Vormoderne project. This
+                        project was lead by Prof. Dr. Heinz Duchhardt and was based at the Leibniz
+                        Institute of European History in Mainz. </note>
+                </editor>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>
+                    <orgName ref="http://www.isni.org/0000000119314040">Leibniz-Institut für
+                        Europäische Geschichte Mainz</orgName>
+                </publisher>
+                <distributor>
+                    <orgName ref="http://www.isni.org/0000000110101946">Universitäts- und
+                        Landesbibliothek Darmstadt</orgName>
+                </distributor>
+                <idno type="ISIL">http://lobid.org/organisation/DE-17</idno>
+                <date type="issued" when="2023-12-23"/>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">
+                        <p xml:lang="en">This file is licensed under the terms of the Creative
+                            Commons License CC-BY 4.0 (Attribution 4.0 International)</p>
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <repository xml:id="r21">Muenster StA/LA</repository>
+                <msDesc>
+                    <p>Nordrhein-Westfälisches Staatsarchiv Münster: Fürstentum Münster 12, Nr. 3f:
+                        Würzburg 1666 VIII 31. </p>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p> The data in this XML file, originally created by the project <ref
+                        target="https://www.ieg-friedensvertraege.de/vertraege">Europäische
+                        Friedensverträge der Vormoderne online</ref> has been transformed in
+                    accordance with <ref target="http://www.tei-c.org/">TEI P5</ref> as part of the
+                    project <ref
+                        target="https://www.ieg-mainz.de/en/research/research-projects/european-peace-treaties-of-the-pre-modern-era-in-data"
+                        >Europäische Friedensverträge der Vormoderne in Daten (FriVer+)</ref>
+                </p>
+            </projectDesc>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="la" xml:id="lan6">Latein</language>
+            </langUsage>
+        </profileDesc>
+    </teiHeader>
+    <standOff>
+        <listPerson>
+            <person role="signatory" xml:id="p146">
+                <persName ref="https://explore.gnd.network/gnd/4100026-2">
+                    <name>Mainz (Kurfürstentum)</name>
+                </persName>
+            </person>
+        </listPerson>
+        <listPlace>
+            <place xml:id="loc95">
+                <placeName ref="https://explore.gnd.network/gnd/4067037-5">Würzburg</placeName>
+            </place>
+        </listPlace>
+        <facsimile>
+            <surface xml:id="FacsPnr1">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_442b1194c98b7"/>
+            </surface>
+            <surface xml:id="FacsPnr2">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_442b11d387bd7"/>
+            </surface>
+        </facsimile>
+    </standOff>
+    <text>
+        <front>
+            <div type="Inhalt">
+                <p>Pfalzgraf Johann Philipp garantiert den Frieden von Kleve.</p>
+            </div>
+        </front>
+        <body>
+            <div type="Transliteration">
+                <pb facs="#FacsPnr1"/><p>Nos Joannes Philippus Dei gratiâ S[acr] æ Sedis Moguntinæ Archi-
+                <lb />episcopus, S[acri] Rom[an]i Imperÿ per Germaniam Archicancella-
+                <lb />rius ac Princeps Elector, Episcopus Herbipolensis et Worma-
+                <lb />tiensis et Franconiæ Dux. Notum hisce facimus, Quod
+                <lb />cum per S[acr] æ Cæsareæ Maiestatis, Regis Christianissimi,
+                <lb />Principum Electorum Coloniensis et Brandeburgensis, nec
+                <lb />non Episcopi et Principum Paderbornensis, Comitis Pa-
+                <lb />latini Neoburgici, Ducum Brunsvico-Luneburgensium
+                <lb />Wolffenbutensis et Calenbergensis, et nostram interposi-
+                <lb />tionem, bellum inter Rev[erendissi]mum Dominum Episcopum et
+                <lb />Pricipem Monasterienem ex una, ac Celsos et Præpoten-
+                <lb />tes Ordines uniti Belgÿ ex altera parte nuper exortum
+                <lb />amicabilibus pactis Clivis sub dato 18.t. Aprilis Anno 1666.
+                <lb />feliciter compositum sit, ÿsque simul provisum, ut D[ominos]
+                <lb />Mediatores ad guarantiam huiusce Tractatus se obstrin-
+                <lb />gant. Hinc est, quod Nos huic Conventioni satisfacere vo-
+                <lb />lentes, firmiter et verbo Principis polliceamur, si quis-
+                <lb />quam huius Pacificationis tenori quocunque modo contra-
+                <lb />venire ausus fuerit, Nos cum per vim et arma ad repa-
+                <lb />rationem damnorum, et constantem pacis observatio-
+                <lb />
+                </p>
+                <pb facs="#FacsPnr2"/><p> nem, ac ad implementum omni ope compulsuros. Da- 
+                    <lb />bamus Herbipoli trigesimâ primâ Augusti, Anno 
+                    <lb />millesimo sexcentesimo &lt;sexages&gt;<note type="annotation" n="1">Verdeckt durch Siegelabdeckung.</note> imo sexto. 
+                    <lb /> 
+                    <lb />Jo[ann]es Philip 
+                </p> 
+            </div>
+        </body>
+        <back>
+            <listBibl>
+                <bibl>Wilhelm Kohl (Hg.), Westfälische Geschichte. Bd.1. Düsseldorf 1983. Wilhelm
+                    Kohl, C.B.v.Galen. Politische Geschichte des Fürstbistums Münster 1650-1678.
+                    Münster 1964.</bibl>
+            </listBibl>
+        </back>
+    </text>
+</tei:TEI>

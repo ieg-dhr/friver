@@ -1,0 +1,438 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE tei SYSTEM "../resources/FriVer_DTD.dtd">
+
+<?xml-model href="../resources/FriVer.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns="http://www.tei-c.org/ns/1.0" xml:id="pa000299-0769">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title level="s">European peace treaties of the pre-modern era in data / Europäische Friedensverträge der Vormoderne in Daten (FriVer+)</title>
+                <title when="1713-06-20" xml:id="t769" when-custom="1713 VI 20" level="a" ref="https://www.ieg-friedensvertraege.de/treaty/t-769-1-de.html">Konvention von Wandsbek zur Fortsetzung des Krieges gegen Schweden</title>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    Digital edition according to
+                    <ref target="http://www.tei-c.org/">TEI P5</ref>
+                </edition>
+                <funder>
+                    <ref target="https://www.text-plus.org/">TEXT+</ref>
+                </funder>
+                <editor role="http://id.loc.gov/vocabulary/relators/edt" ref="https://orcid.org/0000-0002-8741-5916">
+                    <persName>Jaap Geraerts</persName>
+                    <note>The transformation and enrichment of the data is done by Jaap Geraerts (IEG Mainz). The other members of the FriVer+ team are Fabian Cremer, Ines Grund, and Thorsten Wübbena (all IEG Mainz).</note>
+                    <note>
+                        The original data has been created by the
+                        <ref target="https://www.ieg-friedensvertraege.de">team of scholars</ref>
+                        who were part of the Europäische Friedensverträge der Vormoderne project. This project was lead by Prof. Dr. Heinz Duchhardt and was based at the Leibniz Institute of European History in Mainz.
+                    </note>
+                </editor>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>
+                    <orgName ref="http://www.isni.org/0000000119314040">Leibniz-Institut für Europäische Geschichte Mainz</orgName>
+                </publisher>
+                <distributor>
+                    <orgName ref="http://www.isni.org/0000000110101946">Universitäts- und Landesbibliothek Darmstadt</orgName>
+                </distributor>
+                <idno type="ISIL">http://lobid.org/organisation/DE-17</idno>
+                <date type="issued" when="2023-12-23"/>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">
+                        <p xml:lang="en">This file is licensed under the terms of the Creative Commons License CC-BY 4.0 (Attribution 4.0 International)</p>
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <repository xml:id="r7">Dresden SaechsHStA</repository>
+                <msDesc><p> Sächsisches Hauptstaatsarchiv Dresden OU 14407. 
+                </p> 
+                    <p>Weitere Stücke: 
+                    </p> 
+                    <p>Ratifikation Dänemarks, Gottorf 1713 VI 28 (Sächsisches Hauptstaatsarchiv Dresden OU 14409a). 
+                        <lb /> 
+                    </p>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>
+                    The data in this XML file, originally created by the project
+                    <ref target="https://www.ieg-friedensvertraege.de/vertraege">Europäische Friedensverträge der Vormoderne online</ref>
+                    has been transformed in accordance with
+                    <ref target="http://www.tei-c.org/">TEI P5</ref>
+                    as part of the project
+                    <ref target="https://www.ieg-mainz.de/en/research/research-projects/european-peace-treaties-of-the-pre-modern-era-in-data">Europäische Friedensverträge der Vormoderne in Daten (FriVer+)</ref>
+                </p>
+            </projectDesc>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="de" xml:id="lan2">deutsch</language>
+            </langUsage>
+        </profileDesc>
+    </teiHeader>
+    <standOff>
+        <listPerson>
+            <person role="signatory" xml:id="p32">
+                <persName ref="https://explore.gnd.network/gnd/4010877-6">
+                    <name>Dänemark</name>
+                </persName>
+            </person>
+            <person role="signatory" xml:id="p9">
+                <persName ref="https://explore.gnd.network/gnd/4076899-5">
+                    <name>Russland</name>
+                </persName>
+            </person>
+        </listPerson>
+        <listPlace>
+            <place xml:id="loc241">
+                <placeName ref="https://explore.gnd.network/gnd/4079036-8">Wandsbek</placeName>
+            </place>
+        </listPlace>
+        <facsimile>
+            <surface xml:id="FacsPnr1">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_44c9e3e162fae"/>
+            </surface>
+            <surface xml:id="FacsPnr2">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_44c9e4060f582"/>
+            </surface>
+            <surface xml:id="FacsPnr3">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_44c9e42745c67"/>
+            </surface>
+            <surface xml:id="FacsPnr4">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_44c9e447602bd"/>
+            </surface>
+            <surface xml:id="FacsPnr5">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_44c9e46b8bc02"/>
+            </surface>
+            <surface xml:id="FacsPnr6">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_44c9e48e7b514"/>
+            </surface>
+            <surface xml:id="FacsPnr7">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_44c9e4b196559"/>
+            </surface>
+            <surface xml:id="FacsPnr8">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_44c9e4d2bed9f"/>
+            </surface>
+            <surface xml:id="FacsPnr9">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_44c9e511e508e"/>
+            </surface>
+            <surface xml:id="FacsPnr10">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_44c9e542bf93f"/>
+            </surface>
+            <surface xml:id="FacsPnr11">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_44c9e564c4a98"/>
+            </surface>
+            <surface xml:id="FacsPnr12">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_44c9e5809194f"/>
+            </surface>
+            <surface xml:id="FacsPnr13">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_44c9e59d08c8c"/>
+            </surface>
+            <surface xml:id="FacsPnr14">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_44c9e5ba76c68"/>
+            </surface>
+        </facsimile>
+    </standOff>
+    <text>
+        <front>
+            <div type="Inhalt"><p>1. Der russische Feldmarschall Fürst Menschikow verleiht 4000 Soldaten, darunter 700 Berittene, mit insgesamt 1720 Pferden in Pommern für Operationen gegen Schweden vor Stralsund und auf Rügen unter dem Kommando des sächsischen Feldmarschalls Graf Flemming.
+                <lb />
+                <lb />2. Bei allen militärischen Operationen werden die Soldaten nach dem jeweiligen Anteil Rußlands, Sachsen-Polens und Dänemark an den beteiligten Truppen eingesetzt und kommandiert.
+                <lb />
+                <lb />3. Die russischen Truppen sollen zu Disziplin und Gehorsam gegenüber dem Grafen Flemming angehalten werden. Ungehorsame werden nach Kriegsrecht bestraft.
+                <lb />
+                <lb />4. Fürst Menschikow stimmt zu, daß Schwedisch-Pommern und Rügen in der Verfügungsgewalt Sachsen-Polens und Dänemarks verbleiben, gemäß dem dänisch-polnischen Vertrag vom 26. Sept. 1711. Die russischen Militärs haben keine weiteren Ansprüche als auf den von Sachsen-Polen und Dänemark versprochenen Unterhalt an Sold und Verpflegung.
+                <lb />
+                <lb />5. Die russischen Truppen werden sowohl aus dem Getreide der russischen Kornmagazine in Mecklenburg und Pommern, aus den Kontributionen für die polnischen Truppen als auch aus den vom Zaren in Amsterdam angewiesenen Kornlieferungen an Polen verpflegt.
+                <lb />
+                <lb />6. Fürst Menschikow verzichtet für Rußland jetzt und künftig auf alle Ansprüche auf Pommern und Rügen zugunsten Sachsen-Polens und Dänemarks.
+                <lb />
+                <lb />7. Graf Flemming und der dänische Generalkriegkommissar von Platen versprechen, den russischen Truppen täglich einen festen Sold in Form von Geld und Brot zu bezahlen und deren Pferde mit Futter zu versorgen. Die Versorgung beginnt mit dem Einrücken der Russen in Pommern, dauert über den Winter und endet mit dem Rückmarsch der Russen Ende April 1714.
+                <lb />
+                <lb />8. Beim Rückmarsch spätestens Ende April 1714 erhalten die russischen Truppen Sold in Form von Geld und Brot für weitere acht Tage.
+                <lb />
+                <lb />9. Generalkriegskommissar von Platen verspricht, daß die Dänen bei Operationsbeginn in Pommern die schwedische Festung Wismar einschließen wollen.
+                <lb />
+                <lb />10. Die dänische Flottille bleibt zur Unterstützung der Operationen gegen Rügen in pommerschen Gewässern unter dem Kommando des Grafen Flemming.
+                <lb />
+                <lb />11.Die Dänen wollen schnellstmöglich 12 bis 16 Mörsergeschütze nach Pommern verschiffen.
+                <lb />
+                <lb />12. Auf dänische Kosten sollen sechs Batallione Infanteriesoldaten und ein Reiterregiment zu den Operationen auf Rügen und zur Einschließung Stralsunds entsandt und unter das Kommando des Grafen Flemming gestellt werden.
+                <lb />
+                <lb />13. Die Rangordnung der Generäle und höheren Offiziere bei den drei Verbündeten richtet sich nach ihrem Dienstalter.
+                <lb />
+                <lb />14. Kranke und verwundete russische Soldaten werden ebenso versorgt wie die Kranken und Verwundeten der anderen Verbündeten.
+                <lb />
+                <lb />15. Falls Schwedisch-Pommern und die Insel Rügen binnen zehn Wochen unter die zivile Verwaltung seiner Nachbarn gestellt werden, sollen die russischen Truppen sofort abziehen und nur noch für den Rückmarsch Verpflegung erhalten.
+                <lb />
+                <lb />16. Nach der Übergabe Stralsunds oder einer anderen schwedischen Festung fällt ein Drittel aller erbeuteten leichten Geschütze und Feldzeichen sowie der Gefangenen an die Russen. Mörsergeschütze will Graf Flemming den Russen nach Gutdünken überlassen und verspricht, den russischen Anteil an den Beutewaffen treuhänderisch zu verwahren. Nach der Erstürmung einer schwedischen Festung wird die Beute gleichmäßig unter die Truppen der Verbündeten verteilt. In offener Feldschlacht genommene Beute verbleibt jedem Verbündeten allein.
+                <lb />
+                <lb /></p></div>
+        </front>
+        <body>
+            <div type="Transliteration">
+                <pb facs="#FacsPnr1"/><p>Convention 
+                    <lb />zwischen dem russ[ischen] Gen[eral-]Feldmarschall 
+                    <lb />Fürsten v[on] Menzikoff, dem Kön[iglich] poln[ischen] u[nd] 
+                    <lb />Kurf[ürstlich] sächs[ischen ] Gen[eral-]Feldmarschall Grafen 
+                    <lb />v[on] Flemming und dem K[önig]gl[ich]dänischen Gen[eral-] 
+                    <lb />Kriegscommissar von Platen, zu Fort- 
+                    <lb />setzung des Kriegs gegen Schweden. 
+                    <lb />Wandsbeck den 20 Juni 1713. 
+                </p>
+                <pb facs="#FacsPnr2"/><p>Nach denen im Eÿderstädtischen durch Verliehener
+                <lb />Göttl[icher] Assistentz glückl[ich] geendigten Operationen
+                <lb />haben Ihro groß Czaarischen Maÿ[estä]t General-feld-Mar-
+                <lb />schall, S[eine]r durchl[aucht] der fürst von Menzikoff, Ihro
+                <lb />Königl[icher] Maÿ[este]t in Pohlen und Chufürstl[ichen] durchl[aucht] zu Sachsen
+                <lb />General-feld-Marschall, S[eine]r Excell[ence] Herr Graff
+                <lb />von Flemming und S[eine]r Königl[ichen] Maÿ[este]t Von dennemarck,
+                <lb />General=Kriegs-Commissarius Herr von Platen
+                <lb />Zu heilsahmer Fortsetzung und Endigung des Krieges
+                <lb />mit Schweden nach einhabender Vollmacht folgende
+                <lb />Convention getroffen, nem[m]lich es wollen
+                <lb />
+                <lb />1. S[eine]r durchl[aucht] der fürst Menzikoff von denen Czaarischen
+                <lb />Trouppen Siebenhundert Man[n] Dragoner und dreÿ-
+                <lb />tausend dreÿhundert Man[n] zu fuß, zusam[m]en Vier-
+                <lb />tausend Köpffe, wobeÿ Eintausend Siebenhundert
+                <lb />und Zwantzig Ober Officirer, Dragoner, auch
+                <lb />bagage, Artillerie und Ammunition Pferde
+                <lb />befindlich, nach beÿgefügter unterschriebener liste
+                <lb />in Pom[m]ern zurücklaßen, worunter der General
+                <lb />Staab nicht mit verstanden, auf demselben wird à
+                <lb />parte nach Einhalt der Liste außer dem die fou-
+                <lb />rage gereichet, welche wan selbige die Pom[m]erische
+                <lb />Gräntzen erreichet, so dan sollen Sie an das Com-
+                <lb />mando S[eine]r Excell[ence] des Herrn General-feldt Mar- 
+                <pb facs="#FacsPnr3"/>schall Graffen von Flemmings oder in dero
+                <lb />Abwesenheit des Königl[lich] Pohlnischen ChurSäch-
+                <lb />sischen Com[m]andirenden Generals dergestalt
+                <lb />Verliehen werden, daß Sie zu denen Opera-
+                <lb />tiones Vor Stralsundt und auf Rügen ge-
+                <lb />braucht werden mögen, sonder einiger Aus-
+                <lb />nahme.
+                <lb />
+                <lb />2. beÿ der Operation auf Rügen und gegen Stral-
+                <lb />sundt wird die Proportion nach der quantitét
+                <lb />einer jegl[lichen] Puissance Trouppen wie solches
+                <lb />die Detaille in der Execution hernach geben
+                <lb />wird, observiret, nem[m]lich beÿ aller Operation
+                <lb />und Arbeit werden die Leute Von allen dreÿen
+                <lb />Seiten nach Proportion der Trouppen commandiret
+                <lb />und gebrauchet,
+                <lb />
+                <lb />3. haben Ihr durchl[aucht] der fürst Menzikoff Versprochen
+                <lb />denen Trouppen keine Excesse noch disordre
+                <lb />weder directe noch indirectement auszuüben,
+                <lb />in ordre zu hinterlaßen, und daß Sie denen
+                <lb />Von S[eine]r Excell[ence], des Herrn General-feld-Marschall
+                <lb />Graffen von Flemmings oder des nach ihm com-
+                <lb />mandirenden Generals hierüber stellende ordres
+                <lb />ein Genügen leisten, auch in so ferne über Ver- 
+                <pb facs="#FacsPnr4"/>hoffen darwieder gehandelt, und einige Excessen
+                <lb />oder Disordres ausgeübet werden, so dan die excediren-
+                <lb />de nach gehaltenem Kriegs-Recht und Untersuchung, Kriegs-
+                <lb />manier und Gebrauch nach bestraffen zu laßen.
+                <lb />
+                <lb />4. haben auch S[eine]r Durchl[aucht] der fürst Menzikoff sich engagiret,
+                <lb />daß Pommern und Rügen mit allen zubehörigen nach Ein-
+                <lb />halt des Tractats Vom 20ten Sept[ember] 1711, zu der Disposi-
+                <lb />tion beÿder Königl[ichen] Maÿ[este]ten Maÿ[este]ten Von Pohlen und denne-
+                <lb />marck und dan auch dero Commissariats Verbleiben un[d]
+                <lb />sich niemand Von denen Herren Rußen hierinnen auf
+                <lb />keinerleÿ arth noch im geringsten nicht meliren, sondern
+                <lb />mit dem waß ihnen wie folgend ausgemachet, Sich Ver-
+                <lb />gnügen sollen, woferne man Sie Königl[lich] Pohlinischer
+                <lb />und Königl[ich] dähnischer Seiten Versprochener maßen
+                <lb />mit Proviant als auch Gelde contentiren wird.
+                <lb />
+                <lb />5. Versprechen Ihr durchl[aucht] der fürst Menzikoff gleichfals,
+                <lb />daß das Korn, so in denen Von den Rußen aufgerichte-
+                <lb />te Magazins in Mecklenburg und Pommern sich albe-
+                <lb />reit befindet, oder noch dahin zu liefern stehet,
+                <lb />item waß Von demjenigen so der General- 
+                <pb facs="#FacsPnr5"/>Major Buck für die Pohlnische Trouppen
+                <lb />eingefodert hat, restiren wird, zu der Subsisten-
+                <lb />ce dieser Rußischen Trouppen, imgleichen auch
+                <lb />das Korn, so Ihr Königl[iche] Maÿ[este]t der König in
+                <lb />Pohlen Von Ihro Maÿ[este]t dem Czaar Vorgeschoßen
+                <lb />und in Amsterdam assigniret, und nach geflohener
+                <lb />berechnung mit dem Herrn General-Kriegs-Com-
+                <lb />missario von Kisewetter in rest Verbleibet, em-
+                <lb />ploÿret, und zu oberwehnten Zurückbleibenden
+                <lb />Trouppen Verpflegung cediret werden sollen.
+                <lb />
+                <lb />6. Versprechen auch Ihr durchl[aucht] der fürst Menzikoff
+                <lb />nomine Ihr Czaarischen Maÿ[este]t keine prætensiones
+                <lb />weder auf Pommern, der Insul Rügen noch deren de-
+                <lb />pendentzien dieser oder sonst einer wegen zu machen,
+                <lb />sondern cediren Pommern, die Insul Rügen und allen deren
+                <lb />Zugehörigen an beÿderseits Königl[liche] Maÿ[este]t Maÿ[este]t in Pohlen
+                <lb />und dennemarck, nach deren deßfalß unter beiderseits
+                <lb />Maÿ[este]ten Maÿ[este]ten errichteten Conventiones und Tractaten wie
+                <lb />oben erwehnet, solchergestalt und absolute, daß dieserwegen,
+                <lb />niemahle überlang oder Kurtz einige forderung oder Rechnung
+                <lb />gemachet werden soll. 
+                </p>
+                <pb facs="#FacsPnr6"/><p> 7. Hingegen Versprechen S[eine]r Excell[ence] der Herr 
+                    <lb />General-feldt-Marschall Graff von Flem[m]ing 
+                    <lb />und der Herr General-Kriegs-Commissarius 
+                    <lb />von Platen oberwehnte Viertausend Man[n] 
+                    <lb />jeden Man[n] tägl[ich] mit Zweÿ Pfund weich brod und 
+                    <lb />Ein halben guten Groschen oder Sechs Pfennige 
+                    <lb />und also zusam[m]en mit Achttausend pfund weichbrodt 
+                    <lb />und Zweÿtausend guten Groschen tägl[lich] exactement 
+                    <lb />Verpflegen, imgleichen denen in der Liste enthalte- 
+                    <lb />nen Eintausend Siebenhundert und Zwantzig Ober 
+                    <lb />Officierer, Dragoner, auch Bagage, Artillerie 
+                    <lb />und Ammunition, als auch denen zum General- 
+                    <lb />Staab gehörigen pferden, gleich denen irigen<note n="1" type="crit_app">jrigen: über die Zeile eingefügt für unterstrichenes Unsrigen.</note> in 
+                    <lb />natura aus dem Lande, die fourage reichen, auch 
+                    <lb />selbige in winter gleichmäßig Versorgen zu laßen, 
+                    <lb />und nimt mehrerwehnte Verpflegung ihren Anfang 
+                    <lb />Von der einrückung dieser Rußischen Trouppen in 
+                    <lb />die Pom[m]erische Lande, und dauert bis zu den letzten 
+                    <lb />April des künfftigen 1714ten Jahres; als nach welcher 
+                    <lb />Zeit ihr Abmarsch gewiß erfolgen und ihnen so 
+                    <lb />dan die Verpflegung weder aus dem lande noch Von 
+                    <lb />Ihnen<note n="2" type="crit_app">Ihnen: über der Zeile eingefügt für unterstrichenes Uns. </note> mehr gereichet werden soll. 
+                </p> 
+                <lb /> 
+                <p>&nbsp; 
+                </p>
+                <pb facs="#FacsPnr7"/><p> 8. Versprechen fernerweit S[eine]r Excell[ence] der Herr 
+                    <lb />General=feld Marschall Graff von Flem[m]ing 
+                    <lb />und Herr General-Kriegs-Commissarius 
+                    <lb />von Platen offterwehnte Viertausend Mann 
+                    <lb />Rußische Cavallerie und Infanterie beÿ ihre[m] 
+                    <lb />Rückmarsch nach dero Landen, auf Acht tagen 
+                    <lb />mit brod und Gelde stipulirter maßen, auf jeden Man[n] 
+                    <lb />tägl[ich] Zweÿ pfund brod und Sechs pfenninge an 
+                    <lb />Gelde, in so ferne der Auffbruch aus Pommern 
+                    <lb />Vor Verfließung des Monaths Aprilis 1714 er- 
+                    <lb />folgen möchte, auf den fall aber daß solcher 
+                    <lb />nach den Verlauff ermelten Monaths geschehen solte 
+                    <lb />nur allein mit brod und Zwar Von betretung 
+                    <lb />der brandenburgschen Gräntze[n] an auf oben er- 
+                    <lb />wehnte Zeit der Acht Tage Versorgen zu laßen. 
+                    <lb /> 
+                    <lb />9. Es Verspricht der Herr General-Kriegs-Com- 
+                    <lb />missarius von Platen nomine Ihr Königl[lichen] Maÿ[este]t 
+                    <lb />in dennem[arck] daß Sie die festung Wismer zu gleicher 
+                    <lb />Zeit dieses jahr da die operationes in Pom[m]ern Vorge- 
+                    <lb />nom[m]en werden einschließen und blocquiret halten 
+                    <lb />auch die Trouppen thunlicher weise so gleich<note n="3" type="crit_app">so gleich: über der Zeile eingefügt.</note> dahin marchi- 
+                    <lb />ren laßen wollen. 
+                </p> 
+                <lb /> 
+                <p>&nbsp; 
+                </p>
+                <pb facs="#FacsPnr8"/><p>10. ferner wollen Ihr Königl[iche] Maÿ[este]t in dennem[arck]
+                <lb />dero Flottilje Zu beförderung und Secundirung
+                <lb />der Entreprise auf Rügen, auf ihren eigenen un-
+                <lb />Kosten in Pom[m]ern laßen, inzwischen so gleich ordre
+                <lb />stellen, daß alle im Haff und sonst befindl[iche]
+                <lb />Schiffe und fahrzeuge zusam[m]en gebracht werden
+                <lb />und Verbleibet diese Flottilje in solcher frist unter
+                <lb />Commando S[eine]r Excell[ence] des Herrn General
+                <lb />feld-Marschall Graffen von Flem[m]ing oder
+                <lb />dem negst ihm Com[m]andirenden General.
+                <lb />
+                <lb />11. Ihr Königl[iche] Maÿ[este]t Von dennem[arck] wollen Zwölff
+                <lb />bis Sechszehen Mortiers benebst behöriger
+                <lb />Ammunition an Pulver und bomben ohne Verzug
+                <lb />nach Einhalt dieser wegen mit Ihro Königl[ichen] Maÿ[este]t
+                <lb />Von Pohlen errichteten Vergleich nach Pommern
+                <lb />überschiffen laßen.
+                <lb />
+                <lb />12. ferner wollen auch Ihr Königl[iche]Maÿ[este]t in dennem[arck]
+                <lb />In der Expedition auf Rügen und Einschließung
+                <lb />Stralsunds auf Ihr Königl[ichen] Maÿ[este]t eigener
+                <lb />Unkosten Sechs Battaillons Infanterie und Ein
+                <lb />Reg[imen]t zu pferde so gleich aufbrechen und dahin
+                <lb />marschiren, auch unter Com[m]ando S[eine]r Excell[ence] des 
+                <pb facs="#FacsPnr9"/>herrn General-feld-Marschall graffen
+                <lb />von Flemming oder dem negst Com[m]andiren-
+                <lb />den Königl[lich] Pohlnischen General Verbleiben
+                <lb />laßen.
+                <lb />
+                <lb />13. beÿ alle zu dieser Operation Von allen dreÿen
+                <lb />Maÿ[este]ten kom[m]enden Trouppen ist Verabredet,
+                <lb />daß alle Generals und Ober Officirer nach ihrer
+                <lb />habenden Anciennité ihren rang mainteniren
+                <lb />und dienste Verrichten sollen.
+                <lb />
+                <lb />14. Versprechen so wohl S[eine]r Excell[ence] der herr General
+                <lb />feld-Marschall Graff von Flemming als auch
+                <lb />der Herr General-Kriegs-Commissarius von
+                <lb />Platen, daß die Krancken und blessirten Von
+                <lb />Ihro Groß Czaarischen Maÿ[este]t in Pom[m]ern zurückge-
+                <lb />laßene Trouppes gleich der ihrigen Verpflegt und
+                <lb />Versorget werden sollen.
+                <lb />
+                <lb />15. In so ferne das hertzogthum Pom[m]ern benebst der
+                <lb />Insul Rügen Von denen benachbarten Puissancen
+                <lb />in sequestration genom[m]en werden, folgl[ich] die Troup-
+                <lb />pes der ohrten nicht mehr nötig seÿn solten, So
+                <lb />Versprech[en] Ihr[e] durchl[aucht] der fürst Menzikoff Ihr Groß-
+                </p>
+                <p>
+                <lb />Czaarischen Maÿ[este]t Trouppes gleichfals so fort abmar- 
+                <pb facs="#FacsPnr10"/>schiren Zu laßen, auch cessiret so dan nach über- 
+                    <lb />nom[m]ener Sequestration die auf selbige Trouppen 
+                    <lb />Versprochene Verpflegung an Geld, brod und fourage 
+                    <lb />Völlig, außer waß wegen der Acht Tage march-pro- 
+                    <lb />vision stipuliret, wan[n] aber solche Sequestration in- 
+                    <lb />ner zehen wochen à dato nicht erfolgen solte, so wird 
+                    <lb />denen Rußischen Trouppen die Subsistence bis d[en] 30 
+                    <lb />April 1714, wie oben erwehnet, gereichet. 
+                    <lb /> 
+                    <lb />16. wan[n] Stralsund oder eine ander Vestung Vom 
+                    <lb />feinde erobert, und sich ergiebet, so wird Von 
+                    <lb />dem darin befindlichen Eroberten, nemlich Stücke 
+                    <lb />so Von 12 lb. und drunter /: die über 12 lb. Verblei- 
+                    <lb />ben Königl[icher] Maÿ[este]t von Pohlen nach offterwehnter Con- 
+                    <lb />vention :/ und waß Von fahnen, Estandarten 
+                    <lb />Paucken, Trummele und dergl[eichen] insignibus sich darin 
+                    <lb />befinden möchten, item Von denen Gefangenen, wird 
+                    <lb />der dritte theil S[eine]r Groß Czaarischen Maÿ[este]t zugestanden 
+                    <lb />waß aber die Mortiers anbelanget. davon Versprechen 
+                    <lb />S[eine]r Excell[ence] der Herr General-feld Marschall 
+                    <lb />Graff von Flemming nach seinen guth befinden 
+                    <lb />[an]<note n="4" type="crit_app">[an]: unleserlich wegen des Siegelabdrucks auf der Rückseite.</note> dieRußische Armeè zu schencken, auch Versichern 
+                    <lb />Selbige den S[eine]r Groß Czarischen Maÿ[este]t Trouppen Zu- 
+                    <lb />kom[m]enden theil, an gewehr, Artillerie und dergl[eichen] 
+                </p> 
+                <pb facs="#FacsPnr11"/><p>in Pom[m]erischen festungen so lange zu conser-
+                <lb />viren und in Verwahrung Zu nehmen, biß
+                <lb />selbige, Von S[eine]r Groß-Czaarischen Maÿ[este]t abge-
+                <lb />fodert werden, solte aber die festung Stral-
+                <lb />sund oder eine andere feindl[iche] mit Stürmender hand
+                <lb />eingenom[m]en werden, soll alles, waß Von denen Ein-
+                <lb />wohnern außer der Kriegs-Armatur genom[m]en
+                <lb />und bekom[m]en wird, egalement unter die Troup-
+                <lb />pen Vertheilet werden, waß aber in bataille
+                <lb />Von dem feinde erbeutet wird, bleibet einer
+                <lb />jegl[ichen] Puissance Trouppen Zu eigen,
+                <lb />
+                <lb />Zu festhaltung obiger puncten und dieser
+                <lb />errichteten Convention sind dreÿ gleichlautende
+                <lb />Exemplaria Verfertiget, und Von allerseits
+                <lb />unterschrifft und besiegelung nach einhabender
+                <lb />Vollmacht Vollenzogen, auch jeden Theil ein exem-
+                <lb />plar extradiret worden, so geschehen Wandsbeck
+                <lb />d[en] 20 Junij, 1713
+                <lb />
+                <lb />JHvFlemming&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;[russ. Unterschrift]&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;HCPlaten
+                <lb />
+                <lb />[3 Lacksiegel über Heftschnur] 
+                </p>
+            </div>
+        </body>
+    </text>
+</tei:TEI>

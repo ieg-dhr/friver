@@ -1,0 +1,558 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE tei SYSTEM "../resources/FriVer_DTD.dtd">
+
+<?xml-model href="../resources/FriVer.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns="http://www.tei-c.org/ns/1.0"
+    xml:id="pa000299-0131">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title level="s">European peace treaties of the pre-modern era in data / Europäische
+                    Friedensverträge der Vormoderne in Daten (FriVer+)</title>
+                <title when="1757-09-08" xml:id="t131" when-custom="1757 IX 8" level="a"
+                    ref="https://www.ieg-friedensvertraege.de/treaty/t-131-1-de.html">Konvention von
+                    Zeven</title>
+            </titleStmt>
+            <editionStmt>
+                <edition> Digital edition according to <ref target="http://www.tei-c.org/">TEI
+                        P5</ref>
+                </edition>
+                <funder>
+                    <ref target="https://www.text-plus.org/">TEXT+</ref>
+                </funder>
+                <editor role="http://id.loc.gov/vocabulary/relators/edt"
+                    ref="https://orcid.org/0000-0002-8741-5916">
+                    <persName>Jaap Geraerts</persName>
+                    <note>The transformation and enrichment of the data is done by Jaap Geraerts
+                        (IEG Mainz). The other members of the FriVer+ team are Fabian Cremer, Ines
+                        Grund, and Thorsten Wübbena (all IEG Mainz).</note>
+                    <note> The original data has been created by the <ref
+                            target="https://www.ieg-friedensvertraege.de">team of scholars</ref> who
+                        were part of the Europäische Friedensverträge der Vormoderne project. This
+                        project was lead by Prof. Dr. Heinz Duchhardt and was based at the Leibniz
+                        Institute of European History in Mainz. </note>
+                </editor>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>
+                    <orgName ref="http://www.isni.org/0000000119314040">Leibniz-Institut für
+                        Europäische Geschichte Mainz</orgName>
+                </publisher>
+                <distributor>
+                    <orgName ref="http://www.isni.org/0000000110101946">Universitäts- und
+                        Landesbibliothek Darmstadt</orgName>
+                </distributor>
+                <idno type="ISIL">http://lobid.org/organisation/DE-17</idno>
+                <date type="issued" when="2023-12-23"/>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">
+                        <p xml:lang="en">This file is licensed under the terms of the Creative
+                            Commons License CC-BY 4.0 (Attribution 4.0 International)</p>
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <repository xml:id="r10">Hannover StA/LA <note>Arcinsys Niedersachsen, Hannover NLA:<lb/>
+                        <ref
+                            target="http://www.arcinsys.niedersachsen.de/arcinsys/detailAction?detailid=v3436399"
+                            >http://www.arcinsys.niedersachsen.de/arcinsys/detailAction?detailid=v3436399</ref></note>
+                </repository>
+                <msDesc>
+                    <p>NHSAHannnover, Hannover 10, 15 Frankreich Nr. 88: Hauptvertrag (Papier,
+                        Wasserschäden; restauriert; US Richelieu, Lynar) sowie Separatartikel
+                        Kloster Zeven 1757 IX 10 (Papier, Wasserschäden, US Richelieu, Lynar)*
+                        <lb/>Frankreich [ohne Nachweis]. </p>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p> The data in this XML file, originally created by the project <ref
+                        target="https://www.ieg-friedensvertraege.de/vertraege">Europäische
+                        Friedensverträge der Vormoderne online</ref> has been transformed in
+                    accordance with <ref target="http://www.tei-c.org/">TEI P5</ref> as part of the
+                    project <ref
+                        target="https://www.ieg-mainz.de/en/research/research-projects/european-peace-treaties-of-the-pre-modern-era-in-data"
+                        >Europäische Friedensverträge der Vormoderne in Daten (FriVer+)</ref>
+                </p>
+            </projectDesc>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="fr" xml:id="lan4">französisch</language>
+            </langUsage>
+        </profileDesc>
+    </teiHeader>
+    <standOff>
+        <listPerson>
+            <person role="signatory" xml:id="p37">
+                <persName ref="https://explore.gnd.network/gnd/4018145-5">
+                    <name>Frankreich</name>
+                </persName>
+            </person>
+            <person role="signatory" xml:id="p51">
+                <persName ref="https://explore.gnd.network/gnd/4023349-2">
+                    <name>Hannover</name>
+                </persName>
+            </person>
+            <person xml:id="pp0220">
+                <persName ref="https://explore.gnd.network/gnd/118538543">
+                    <name>Georg II. (Großbritannien)</name>
+                </persName>
+            </person>
+            <person xml:id="pp0028">
+                <persName ref="https://explore.gnd.network/gnd/118729438">
+                    <name>Louis XV of France</name>
+                </persName>
+            </person>
+            <person xml:id="pp0235">
+                <persName ref="https://explore.gnd.network/gnd/120911167">
+                    <name>Wilhelm August, Herzog von Cumberland</name>
+                </persName>
+            </person>
+            <person xml:id="pp0236">
+                <persName ref="https://explore.gnd.network/gnd/118788744">
+                    <name>Louis François Armand de Vignerot Plessis</name>
+                </persName>
+            </person>
+            <person xml:id="pp0237">
+                <persName ref="https://explore.gnd.network/gnd/11954931X">
+                    <name>Friedrich V. (Dänemark und Norwegen)</name>
+                </persName>
+            </person>
+            <person xml:id="pp0238">
+                <persName ref="https://explore.gnd.network/gnd/117667919">
+                    <name>Rochus Friedrich von Lynar</name>
+                </persName>
+            </person>
+            <person xml:id="pp0239">
+                <persName ref="https://explore.gnd.network/gnd/117485225">
+                    <name>Friedrich von Spörken</name>
+                </persName>
+            </person>
+            <person xml:id="pp0240">
+                <persName>
+                    <name>François de Riotor</name>
+                </persName>
+            </person>
+        </listPerson>
+        <listPlace>
+            <place xml:id="loc68">
+                <placeName ref="https://explore.gnd.network/gnd/4067713-8">Zeven</placeName>
+            </place>
+        </listPlace>
+        <facsimile>
+            <surface xml:id="FacsPnr1">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_44911e5b90743"/>
+            </surface>
+            <surface xml:id="FacsPnr2">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_44911ea66276f"/>
+            </surface>
+            <surface xml:id="FacsPnr3">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_44911ee160c37"/>
+            </surface>
+            <surface xml:id="FacsPnr4">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_44911f2b6bafd"/>
+            </surface>
+            <surface xml:id="FacsPnr5">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_44911f6672878"/>
+            </surface>
+            <surface xml:id="FacsPnr6">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_44911fa5cea8e"/>
+            </surface>
+            <surface xml:id="FacsPnr7">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_44911fe887d30"/>
+            </surface>
+            <surface xml:id="FacsPnr8">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_44912032d2757"/>
+            </surface>
+        </facsimile>
+    </standOff>
+    <text>
+        <front>
+            <div type="Drucke">
+                <p>CTS 41, S. 83-90. Wenck 3, S. 152. Danske Tractater 1751-1800, S. 146. Mercure
+                    historique 143, S. 422-428. Moser, Versuch des Völkerrechts 10/1, S. 185-190.
+                    Teutsche Kriegskanzley (anno 1757) 3, S. 634-638 (dt.).</p>
+            </div>
+            <div type="Inhalt">
+                <p>Präambel Vermittlung und Garantie Dänemarks<lb/>Art. 1 Ende der Feindseligkeiten
+                    binnen 24 Stunden<lb/>Art. 2 Hilfstruppen des Herzogs von Cumberland werden in
+                    die Heimat entlassen. Dort folgen dann Vereinbarungen zwischen den Souveränen
+                    und Richelieu.<lb/>Art. 3 Cumberland zieht seine Armee über die Elbe zurück und
+                    nimmt dort Quartier. Als Ausnahme verbleiben in Stade 4000-6000 Mann unter der
+                    Bürgschaft Dänemarks. Kommissare legen Grenzen und Abzugsmodalitäten fest. Pässe
+                    und Sicherheit für abziehende Truppen. Französische Truppen bleiben bis zu einem
+                    endgültigem Friedensschluß in den von ihnen besetzten Teilen Bremens und
+                    Verdens<lb/>Art. 4 Rückzug muß binnen 24 Stunden beginnen. Kommissare legen
+                    Demarkationslinie fest.</p>
+                <p>Bestätigung und Garantie Lynars</p>
+                <p>Sep.art.1 Aufgelöste Truppen werden nicht als Kriegsgefangene
+                    betrachtet.<lb/>Sep.art.2 Garantie Dänemarks für die hannoversche Garnison in
+                    Stade. Ausführungsbestimmungen und Demarkationslinie für Stade.<lb/>Sep.art.3
+                    Zeitliche Ausnahmeregelungen für den Rückzug. Zusatzvereinbarungen der
+                    Generäle.</p>
+                <p>Garantieerklärung Dänemarks.<lb/></p>
+            </div>
+            <div type="Kommentar">
+                <p><lb/>Der Kolonialkrieg zwischen Frankreich und Großbritannien bedrohte Hannover
+                    unmittelbar, denn es war "für den englischen König eine Prestigefrage, daß der
+                    König seine Stammlande nicht verlieren durfte, wenn sie in einem Kriege um
+                    englischer Interessen willen angegriffen wurden" (Mediger, S. 138). Die
+                    hannoversche Regierung zögerte, dem englisch-preußischen Bündnis bedingungslos
+                    zu folgen und tendierte zu einer neutralen Haltung. Als Frankreich und
+                    Österreich am 28. April in einem Ultimatum eine Neutralität anboten, die jedoch
+                    an die Bedingung eines freien Durchzugs für Frankreich geknüpft war, lehnte
+                    Georg II. ab, hätte diese doch das Kurfürstentum [...] zur Operations- und
+                    Verpflegungsbasis der gegen Preußen eingesetzten französischen Truppen gemacht
+                    und Hannover kampflos in die Gewalt Frankreichs gebracht (Mediger, S.
+                    144).<lb/>Die zur Verteidigung Hannovers aufgestellte Observationsarmee unter
+                    dem Oberbefehl Cumberlands gab sich am 26. Juli 1757 in der Schlacht von
+                    Hastenbeck geschlagen und zog sich in das Gebiet zwischen Bremen und Verden
+                    zurück. Angesichts der französischen Besetzung wählte Georg II. nun den Weg,
+                    die Sache Hannovers von der Englands [...] zu trennen und die Gewährung der
+                    Neutralität für sein Stammland zu erkaufen. Den Preis, den er zu bieten hatte,
+                    war die Auflösung der Observationsarmee, die Entlassung der Soldtruppen, [...]
+                    Verlegung der hannoverschen Truppen in ihre Standquartiere, die Verpflichtung,
+                    während des gegenwärtigen Krieges [...] niemanden Vorschub zu leisten.
+                    (Mediger, S. 158). Im August erhielt Cumberland die Vollmacht, ein derartiges
+                    Abkommen auszuhandeln. Am 3. September begannen unter der Vermittlung Dänemarks
+                    die Verhandlungen, in denen Richelieu hohe Forderungen, darunter die Besetzung
+                    Stades durch Dänemark, stellte. Letzteres wurde von Cumberland abgelehnt. Auch
+                    bei der Entlassung der Soldtruppen erreichte Cumberland eine Modifikation; sie
+                    sollten nicht als Kriegsgefangene behandelt werden. Die Änderungen Cumberlands
+                    wurden in Separatartikeln zusammengefasst. Am 8. September unterzeichnete
+                    Cumberland in Bremervörde, am 10. 9. Richelieu in seinem Hauptquartier Kloster
+                    Zeven** die Konvention. Cumberland hatte sein oberstes Ziel, nämlich die Rettung
+                    der Armee, erreicht, deren Aufspaltung aber nicht verhindern können.*** In
+                    Großbritannien stieß die Konvention von Zeven auf Ablehnung; eine Kontroverse
+                    entbrannte, ob eine militärische Fortsetzung des Kampfes nicht realistische
+                    Siegeschancen gehabt hätte. Georg II. verwarf die Verhandlungsergebnisse seines
+                    Sohnes bereits unmittelbar nach ihrem Bekanntwerden und lehnte im Einklang mit
+                    der Regierung Pitt eine Neutralisierung Hannovers nun ab. Die Konvention von
+                    Kloster Zeven, [...] die [...] den seltenen Vorzug hatte, daß man sie einfach
+                    unausgeführt lassen konnte, ohne sie förmlich brechen zu müssen, beschlossen der
+                    König und sein Minister sie einfach als nicht vorhanden zu betrachten
+                    (Rosendahl, S. 505). Georg II. plante eine Wiederaufnahme des Krieges, und
+                    Anfang November gaben die militärischen Erfolge Preußens das Signal. Cumberland
+                    wurde desavouiert und die Observationsarmee unter dem Oberbefehl Herzog
+                    Ferdinands von Braunschweig wieder aufgestellt. Bis März 1758 war Frankreich aus
+                    den besetzten Gebieten zurückgedrängt; Hannover stand nun endgültig an der Seite
+                    Großbritanniens im Krieg. </p>
+                <p/>
+            </div>
+            <div type="Kontext">
+                <p>1756 - 1763 &quot;Kolonialkrieg&quot; zwischen Großbritannien und Frankreich
+                    <lb/>1756 - 1763 Siebenjähriger Krieg (29. August 1756: Einmarsch Preußens in
+                    Sachsen)<lb/>16. Januar 1756 Konvention von Westminister (Defensivbündnis
+                    zwischen Preußen und Großbritannien)<lb/>Mitte März 1757 Vormarsch französischer
+                    Truppen auf Moers, Geldern, Cleve und Münster<lb/>1. Mai 1757 Vertrag von
+                    Versailles zwischen Frankreich und Österreich (&quot;renversement des
+                    alliances&quot;)<lb/>17. April 1757 Herzog Wilhelm von Cumberland als
+                    Oberbefehlshaber der Observationsarmee (bestehend aus Truppenteilen Hannovers,
+                    Braunschweigs, Hessens, Sachsen-Gothas, Schaumburg-Lippes und
+                    Bückeburgs)<lb/>26. Juni 1757 Dänemark garantiert Hannover den Besitz
+                    Bremen-Verdens. <lb/>26. Juli 1757 Schlacht bei Hastenbeck (Die
+                    Observationsarmee, die an der Weser das Kurfürstentum verteidigen soll, kann dem
+                    französischen Angriff nicht standhalten und zieht sich in das Gebiet
+                    Bremen-Verden zurück. Die hannoversche Regierung wird nach Stade
+                    verlegt.)<lb/>3. August 1757 Richelieu Oberbefehlshaber der französischen
+                    Truppen<lb/>9. August 1757 Besetzung Hannovers<lb/>19. August 1757 Besetzung
+                    Braunschweigs und Wolfenbüttels (Frankreich errichtet eine Militärverwaltung zur
+                    finanziellen Ausbeutung der Gebiete.)<lb/>3. September 1757 Verhandlungen
+                    zwischen Hannover und Frankreich unter der Vermittlung Dänemarks<lb/>8./10.
+                    September 1775 Konvention von Zeven<lb/>20. September 1757 Ablehnung der
+                    Konvention von Zeven durch Georg II.<lb/>15. Oktober 1757 Entbindung Cumberlands
+                    vom Oberbefehl <lb/>5. November 1757 Preußischer Sieg bei Rossbach und
+                    Wiederaufnahme des Krieges gegen Frankreich<lb/>23. November 1757 Oberbefehl
+                    Herzog Ferdinand von Braunschweig über die Observationsarmee<lb/>26. November
+                    1757 Aufkündigung des Waffenstillstandes durch England (Die Observationsarmee
+                    marschiert bis Hannover und Minden, preußische Truppen nach Goslar und
+                    Braunschweig.)<lb/>Frühjahr 1758 Rückzug der französischen Besatzungstruppen
+                    <lb/>10. Februar 1763 Friede von Paris zwischen Frankreich und Großbritannien
+                    (Anerkennung der britischen Erfolge in den Kolonien und Wiederherstellung des
+                    Status quo ante in Europa)<lb/>15. Februar 1763 Friede von Hubertusburg zwischen
+                    Preußen und Sachsen sowie Preußen und Österreich<lb/><lb/></p>
+            </div>
+
+        </front>
+        <body>
+            <div type="Edition">
+                <p>Convention entre S[on]. A[ltesse]. R[oy]ale Monseigneur le <rs ref="#pp0235">Duc
+                        de Cumberland</rs><note n="1" type="annotation">Wilhelm August, Herzog von
+                        Cumberland (1721-1765), zweiter Sohn des engl. Königs Georg II.,
+                        General.</note> et S[on]. A[ltesse]. M[onsieur].<note n="2"
+                        type="annotation">Wenck: S.E.Mr.</note> le <rs ref="#pp0236">Duc<note n="3"
+                            type="crit_app">Danske Traktater: le Maréchal, Duc.</note> de
+                        Richelieu</rs><note n="4" type="crit_app">Textvariante: Wenck: conclue à
+                        Closter-Zeven. Sachanmerkung: Louis François Armand de Vignerot Plessis,
+                        Herzog von Richelieu (1696-1788), Marschall.</note>
+                </p>
+                <p>Sa <rs ref="#pp0237">Majesté le Roy</rs><note n="5">CTS; Wenck; Danske Traktater:
+                        Roi (auch im weiteren Text).</note> de Dannemarck<note n="6" type="crit_app"
+                        >Textvariante: CTS; Danske Traktater: Danemark (auch im Folgenden). Wenck:
+                        Dannemarc (auch im Folgenden). Sachanmerkung: Friedrich V. (1746-1766), Kg.
+                        von Dänemark.</note> touchée<note n="7" type="crit_app">CTS; Danske
+                        Traktater: touché.</note> des malheurs des pais<note n="8" type="crit_app"
+                        >CTS; Wenck; Danske Traktater: pays (auch im Folgenden).</note> de
+                        Bremen<note n="9" type="crit_app">CTS; Danske Traktater: Brême. Wenck: Breme
+                        (auch im Folgenden).</note> et Verden<note n="10" type="crit_app">CTS;
+                        Danske Traktater: Vehrden (auch im Folgenden).</note> auxquels elle<note
+                        n="11" type="crit_app">CTS; Danske Traktater: il.</note> a toujours accordé
+                    une protection particulière, et dèsirant en empêchant ces pais d´etre plus
+                        longtems<note n="12" type="crit_app">CTS; Danske Traktater:
+                        longtemps.</note> le théâtre de la guerre, d´epargner aussi le sang des<note
+                        n="13" type="crit_app">CTS; Danske Traktater: le sang entre les.</note>
+                    armées prêtes à en<note n="14" type="crit_app">CTS; Wenck; Danske Traktater:
+                        s´en.</note> disputer la possession, employé<note n="15" type="crit_app"
+                        >CTS; Danske Traktater: emploie.</note> sa médiation par le ministere de
+                    S.E.M[onsieur]. le <rs ref="#pp0238">Comte de Lynar</rs><note n="16"
+                        type="crit_app">Rochus Friedrich Graf von Lynar (1708 - 1781), dänischer
+                        Statthalter in Oldenburg.</note>.<lb/>S[on]. A[ltesse]. R[oyale].
+                    Monseigneur le <rs ref="#pp0235">Duc de Cumberland</rs>, général de l´armée des
+                    alliés d´une part et S.E.M[onsieur]. le Maréchal, <rs ref="#pp0236">Duc de
+                        Richelieu</rs>, général des armées du Roy en Allemagne<note n="17"
+                        type="crit_app">CTS; Danske Traktater: de S.M.T.C. en Allemagne.</note>
+                    d´autre part, en considération de l´intermission de <rs ref="#pp0237">S[a]
+                        M[ajes]té Danoise,</rs> ont engagé respectivement leur parole d´honneur
+                    entre les mains de M[onsieu]r le <rs ref="#pp0238">C[om]te de Lynar</rs>, de
+                    tenir les conventions<note n="18" type="crit_app">Wenck: conditions.</note>
+                    stipulées cy après<note n="19" type="crit_app">CTS; Wenck; Danske Traktater:
+                        ci-après (auch im Folgenden).</note> et luy<note n="20" type="crit_app">CTS;
+                        Wenck; Danske Traktater: lui.</note> M[onsieur]. le C[om]te de Lynar pour
+                    répondre à la magnanimité des intentions du Roy, son maître s´est engagé
+                    d´obtenir la garantie énoncée cy aprés dans la présente convention, de sorte
+                    qu´elle luy soit envoyée avec ses pleins pouvoirs dont l´expédition en forme n´a
+                    pu être aussi prompte que son départ dans les circonstances qui en ont hâté le
+                    moment.</p>
+                <p>Article 1er<lb/>Les hostilités cesseront de part et d´autre dans vingt
+                        quatre<note n="21" type="crit_app">Danske Traktater: 24 [Zahlen auch im
+                        Folgenden].</note> heures et plustôt s´il est possible ; on enverra des
+                    ordres sur le champ à cet égard dans les corps détachés.</p>
+                <p><lb/>Article 2<lb/>Les troupes auxiliaires de l´armée de M[onseigneu]r le <rs
+                        ref="#pp0235">Duc de Cumberland</rs> scavoir<note n="22" type="crit_app"
+                        >CTS; Wenck; Danske Traktater: savoir.</note> celles de Hesse,
+                        Brunswick<note n="23" type="crit_app">CTS; Danske Traktater: Brunsvic.
+                        Wenck: Brounswic.</note>, Saxe-Gota<note n="24" type="crit_app"> Wenck:
+                        Saxe-Gotha.</note> et même celles du C[om]te de la Lippe Buckembourg<note
+                        n="25" type="crit_app">CTS; Danske Traktater: Bückebourg. Wenck:
+                        Buckebourg.</note> seront renvoiées<note n="26" type="crit_app">CTS; Danske
+                        Traktater: congédiées et. Wenck: renvoyées et.</note> comme il est
+                    nécessaire d´arranger particulièrement la marche qu´elles<note n="27"
+                        type="crit_app">CTS; Danske Traktater: qn´elles.</note> tiendront pour se
+                    rendre dans leurs pais respectifs, il sera envoyé de l´armée des alliés un
+                    officier général ou particulier de chaque nation avec leque on conviendra de la
+                    marche de ces troupes, ou<note n="28" type="crit_app">CTS; Wenck; Danske
+                        Traktater: du.</note> nombre de<note n="29" type="crit_app">CTS: des.</note>
+                    divisions sur lesquelles elles marcheront, de leur subsistance et<note n="30"
+                        type="crit_app">CTS; Danske Traktater: [Auslassung:] du.</note> des
+                    passeports que S.E.M[onsieu]r. le<note n="31" type="crit_app">CTS; Danske
+                        Traktater: Maréchal.</note>
+                    <rs ref="#pp0236">Duc de Richelieu</rs> leur accordera pour se rendre dans leur
+                    pais, où elles seront placées et dispersées suivant ce qui<note n="32"
+                        type="crit_app">CTS; Danske Traktater: ce qu´il.</note> sera convenu entre
+                    la Cour de France et leurs souverains respectifs.</p>
+                <p><lb/>Article 3<lb/>S[on]. A[ltesse]. R[oyale]. Monseigneur le <rs ref="#pp0235"
+                        >Duc de Cumberland</rs> s´engage de passer l´Elbe avec la partie de son
+                    armée, qu´il ne pourra pas placer dans la ville de Stade. La partie de ses
+                    troupes qui entrera en garnison dans cette ville et qu´on estime pouvoir monter
+                    de quatre à six mille hommes , y restera sous la garantie de <rs ref="#pp0237"
+                        >S[a]. M[ajes]té le Roy de Dannemarck</rs>, qu´elle ne pourra y faire<note
+                        n="33" type="crit_app">Wenck: elle n´y pourra faire.</note> aucun acte
+                    d´hostilité et réciproquement qu´elle ny<note n="34" type="crit_app">CTS; Wenck:
+                        n´y.</note> sera pas exposée de la part des troupes françoises<note n="35"
+                        type="crit_app">CTS; Danske Traktater: françaises.</note>. En conséquence il
+                    sera convenu par des commissaires respectifs des limites que l´on fixera autour
+                    de cette place pour l´aisance de la garnison lesquelles ne pourront pas être
+                    étendues au de la<note n="36" type="crit_app">CTS; Wenck; Danske Traktater:
+                        au-delà.</note> d´une demie lieue<note n="37" type="crit_app">CTS:
+                        demi-lieue.</note> ou une<note n="38" type="crit_app">CTS; Wenck; Danske
+                        Traktater: d´une.</note> lieue suivant la nature du Terrain ou des
+                    circonstances dont les commissaires conviendront de bonne foy<note n="39"
+                        type="crit_app">CTS; Wenck; Danske Traktater: foi.</note>.<lb/>Le reste de
+                    l´armée hanovrienne<note n="40" type="crit_app">Wenck: Hannovrienne (auch im
+                        Folgenden).</note> ira prendre des quartiers dans les pais<note n="41"
+                        type="crit_app">Wenck: le Pays.</note> au dela<note n="42" type="crit_app"
+                        >CTS; Wenck; Danske Traktater: au-delà.</note> de l´Elbe, et pour faciliter
+                    la marche de ces troupes S.E.M[onsieur]. le Maréchal <rs ref="#pp0236">Duc de
+                        Richelieu</rs> concertera avec un officier général envoyé de même de l´armée
+                    hanovrienne les routes qu´elles tiendront, s´engageant de donner tous les
+                    passeports et les sûretés nécessaires pour que lesd[ites]. trouppes<note n="43"
+                        type="crit_app">CTS; Wenck; Danske Traktater: troupes.</note> et leurs
+                    équipages puissent se rendre librement aux lieux<note n="44" type="crit_app"
+                        >CTS; Danske Traktater: au lieu.</note> de leur destination S[on].
+                    A[ltesse]. R[oyale]. Monseigneur le <rs ref="#pp0235">Duc de Cumberland</rs> se
+                    réservant de négocier entre les cours pour l´extention de ses<note n="45"
+                        type="crit_app">CTS; Wenck; Danske Traktater: ces.</note> quartiers.<lb/>A
+                    l´égard des trouppes françoises<note n="46" type="crit_app">Danske Traktater:
+                        troupes Françaises.</note> elles demeureront dans le reste des Duchés de
+                    Bremen et Verden jusque à<note n="47" type="crit_app">CTS; Wenck:
+                        jusqu´à.</note> une conciliation définitive des deux souverains.</p>
+                <p><lb/>Article 4<lb/>Les articles cy dessus<note n="48" type="crit_app">Danske
+                        Traktater: ci-dessus.</note> devant s´exécuter dans le plus court délay<note
+                        n="49" type="crit_app">CTS; Wenck; Danske Traktater: délai.</note>, l´armée
+                    hanovrienne et les corps qui en seront<note n="50" type="crit_app">Danske
+                        Traktater: sont.</note> détachés particulièrement celuy qui se trouve dans
+                    Burg Schantze<note n="51" type="crit_app">CTS; Danske Traktater: Burg-Schantz.
+                        Wenck: Burck-Schantze.</note>, et les environs se retireront sous Stade dans
+                    l´espace de deux fois vingt quatre heures. L´armée françoise ne passera pas la
+                    rivière &lt;d´loste&gt;<note n="52" type="crit_app">Unsichere Lesart. CTS;
+                        Danske Traktater: d´Ost. Wenck: de l´Oste. Oste, Flußlauf, der Zeven und
+                        Bremervörde verbindet und in die Elbe mündet.</note> dans le Duché de Bremen
+                    jusqu´à ce que les limittes<note n="53" type="crit_app">CTS: limités. Wenck;
+                        Danske Traktater: limites (auch im Folgenden).</note> ayent<note n="54">CTS;
+                        Danske Traktater: aient.</note> été réglées,<note n="55" type="crit_app"
+                        >CTS: [Einschub:] et.</note> elle conservera d´ailleurs tous les autres
+                    postes et pais dont elle est en possession. Et<note n="56" type="crit_app">CTS;
+                        Wenck; Danske Traktater: , et.</note> pour ne pas retarder le règlement<note
+                        n="57" type="crit_app">CTS; Danske Traktater: ne pas retarder le moment du
+                        règlement."</note> des limittes qui seront établies entre les<note n="58"
+                        type="crit_app">Wenck: [Einschub:] deux.</note> armées, il sera nommé et
+                    envoyé après demain dix du &lt;...&gt;<note n="59" type="crit_app">CTS: dix du
+                        présent. Wenck: dix du présent mois. Danske Traktater: 10 du
+                    présent.</note>, à Bremenforden<note n="60" type="crit_app">CTS; Danske
+                        Traktater: Bremerföhrde. Wenck: Bremervörde (auch im Folgenden).</note> par
+                    S[on]. A[ltesse]. R[oyale]. Monseigneur le <rs ref="#pp0235">Duc de Cumberland</rs> et par
+                        S.E.M[onsieur].<note n="61" type="crit_app">CTS; Wenck; Danske Traktater:
+                            S.E.Mr.</note> le Maréchal <rs ref="#pp0236">Duc de Richelieu</rs> des commissaires en parité de
+                    grade pour régler tant les limittes de l´armée françoise que celles qui devront
+                    être observées à Stade par la garnison suivant l´article 3.<note n="62"
+                        type="crit_app">Danske Traktater: trois.</note><lb/>Tous les<note n="63"
+                        type="crit_app">CTS; Danske Traktater: ces.</note> articles cy dessus seront
+                    exécutés fidellement<note n="64" type="crit_app">CTS; Wenck; Danske Traktater:
+                        fidèlement.</note> dans leur forme et teneur et sous la foi de la garantie
+                    de S[a]. M[ajes]té le <rs ref="#pp0237">Roy de Dannemarck</rs> que M[onieur]. le
+                    <rs ref="#pp0238">C[om]te de Lynar</rs> son
+                    ministre soussigné s´est engagé<note n="65" type="crit_app">Danske Traktater:
+                        chargé [anstatt engagé].</note> d´obtenir. Fait au camp de Closter Seven le
+                    8. S[eptem]bre 1757.<note n="66" type="crit_app">CTS; Danske Traktater: Fait à
+                        Bremerföhrde et à Kloster-Seven le 8. Sept. 1757. Guillaume –
+                        Richelieu.</note></p>
+                <p>US Richelieu<note n="67" type="crit_app">Wenck: [Auslassung].</note></p>
+                <p>Le soussigné ministre<note n="68" type="crit_app">Wenck: [Auslassung]:
+                    ministre.</note> chargé de la part de S[a]. M.[ajes]té le <rs ref="#pp0237">Roy
+                        de Dannemarck</rs>,
+                    son maître, d´interposer sa médiation entre les deux armées de <rs ref="#pp0028">S[a]. M.[ajes].té
+                    T[rès]. C[hrétienne]</rs>. et de <rs ref="#pp0220">S[a] .M[ajesté]. B[ritannique]</rs>.<note n="69"
+                        type="crit_app">CTS; Danske Traktater: S.M. Britannique et de S.M.
+                        Très-Chrestienne.</note> ayant négocié entre les généraux des d[ites].
+                    armées et les ayant amené<note n="70" type="crit_app">CTS; Wenck; Danske
+                        Traktater: amenés."</note> à l´heureuse fin contenue dans les<note n="71"
+                        type="crit_app">Wenck: lesdits.</note> articles cy dessus, comme il les
+                    trouve conformes à l´objet de sa mission, promet d´y<note n="72" type="crit_app"
+                        >CTS; Danske Traktater: de.</note> remplir tout ce qui le concerne et de
+                    faire l´échange des d[ites].<note n="73" type="crit_app">CTS; Danske Traktater:
+                        présentes.</note> conventions dans les vingt quatre heures.</p>
+                <p>US <rs ref="#pp0238">Comte de Lynar</rs></p>
+                <p><lb/> Articles Séparés<note n="74" type="crit_app">CTS; Danske Traktater:
+                        Articles séparés de la convention.</note></p>
+                <p>Sur les réprésentations qui ont été faites par M[onsieu]r le <rs
+                    ref="#pp0238">Comte de Lynar</rs> dans
+                    la vue d´éclaircir d´avantage<note n="75" type="crit_app">CTS: davantage.</note>
+                    quelques dispositions de la présente convention, il a été ajouté les articles cy
+                    après.</p>
+                <p>Article 1<lb/>Que S.E.M[onsieur]. le Maréchal <rs ref="#pp0236">Duc de Richelieu</rs> entend que les
+                    troupes aliès<note n="76" type="crit_app">CTS; Wenck; Danske Traktater:
+                        alliées</note> de l´armée de S[on]. A[ltesse]. R[oyale]. Monseigneur le <rs
+                            ref="#pp0235">Duc
+                    de Cumberland</rs>, seront renvoyées dans leurs pays respectifs, suivant la forme
+                    énoncée dans l´article deux, et qu´a l´égard<note n="77" type="crit_app">CTS;
+                        Danske Traktater: qu´en égard.</note> de leur séparation et dispension dans
+                    les dits pays il en sera traité par les cours, ne regardant pas les dites
+                    troupes comme prisonnières de guerre.</p>
+                <p>Article 2<lb/>Qu´ayant été représenté que le pays de Lavenbourg<note n="78"
+                        type="crit_app">CTS; Wenck; Danske Traktater: Lauenbourg.</note> ne
+                        pouvoit<note n="79" type="crit_app">CTS; Danske Traktater: pouvait.</note>
+                    pas comporter au delà de quinze bataillons et<note n="80" type="crit_app">CTS:
+                        [Einschub:] de.</note> six escadrons et que la ville de Stade ne
+                        pouvoit<note n="81" type="crit_app">CTS; Danske Traktater: pouvait.</note>
+                    pas absolument contenir les six mille hommes de garnison qui y étoient<note
+                        n="82" type="crit_app">CTS; Danske Traktater: étaient.</note> déstinés
+                    S.E.M[onsieu]r le Maréchal <rs ref="#pp0236">Duc de Richelieu</rs> pressé par le M[onsieur]. le <rs ref="#pp0238">Comte
+                        de Lynar</rs>, qui a de nouveau appuyé cette représentation de la garantie
+                    de <rs ref="#pp0237">S[a].
+                    M[ajesté]. Danoise</rs>, a consenti, et S.A.R. Monseigneur le <rs ref="#pp0235">Duc
+                        de Cumberland</rs><note
+                        n="83" type="crit_app">Danske Traktater: Cumberlund.</note> s´engage de
+                    faire passer l´Elbe à quinze bataillons,<note n="84" type="crit_app">Wenck:
+                        [Einschub]: à.</note> six escadrons et tout<note n="85" type="crit_app"
+                        >Wenck: [Einschub]: à.</note> le corps des chasseurs; <lb/>Les dix
+                    bataillons et vingt huit escadrons restants<note n="86" type="crit_app">Wenck:
+                        restans.</note> seront placés dans la ville et environs les plus proches de
+                    Stade contenus dans une ligne qui sera marquée avec des poteaux<note n="87"
+                        type="crit_app">CTS; Danske Traktater: potaux.</note> depuis a<note n="88"
+                        type="crit_app">CTS; Wenck; Danske Traktater: [Auslassung:] a.</note>
+                    l´embouchure de l´Aue<note n="89" type="crit_app">Textvarainte: Wenck: la Luhe.
+                        Sachanmerkung: Flußlauf der Luhe.</note> dans l´Elbe passant par
+                        Hornbourg<note n="90" type="crit_app">CTS; Danske Traktater: Horneberg.
+                        Wenck: Hornbourg.</note> inclusivement et dirigée en droiture sur
+                    l´embouchure de l´Elmerbeck<note n="91" type="crit_app">Danske Traktater:
+                        l’Elmer-Beck.</note> dans la riviere d´Oste<note n="92" type="crit_app">CTS;
+                        Danske Traktater: d´Ost. Wenck: de l´Oste.</note>, bien entendu
+                        toutesfois<note n="93" type="crit_app">Danske Traktater: toutefois.</note>
+                    que les dix bataillons et les vingt huit escadrons susdit<note n="94"
+                        type="crit_app">Danske Traktater: susdits.</note> y seront établis tels
+                    qu´ils se trouvent au moment de la présente convention sans qu´ils puissent sous
+                    aucun prétexte être recrutés ou augmentés dans aucun cas, et cette clause
+                    particulièrement garantie par M[onsieur]. le <rs ref="#pp0238">Comte de
+                        Lynar</rs> au nom de <rs ref="#pp0237">S[a]
+                    M[ajesté]. Danoise.</rs></p>
+                <p><lb/>Article 3<lb/>Sur ce qui a été représenté de la part de S[on]. A[ltesse].
+                    R[oyale]. Monseigneur le <rs ref="#pp0235">Duc de Cumberland</rs> que relativement aux articles de la
+                    convention toutes les troupes, tant celles de l´armée que des<note n="95"
+                        type="crit_app">Wenck: les.</note> corps avencés ne pouvoient<note n="96"
+                        type="crit_app">CTS; Danske Traktater: pouvaient. Wenck : pourroient.</note>
+                    être retirées sous Stade dans deux fois vingt quatre heures. S.E.M[onsieur]. le
+                    M[aréch]al <rs ref="#pp0236">Duc<note n="97" type="crit_app">Wenck: [Auslassung:] Duc.</note> de
+                    Richelieu</rs> s´est expliqué, qu´il accorderoit<note n="98" type="crit_app">CTS;
+                        Danske Traktater: accorderait.</note> le tems qui seroit<note n="99"
+                        type="crit_app">CTS; Danske Traktater: serait.</note> necessaire, pourvu que
+                    le corps campé à Burgschantze<note n="100" type="crit_app">Wenck:
+                        Burck-Schantze. Danske Traktater: Burg-Schantz.</note> se mît en marche pour
+                    se retirer vingt quatre heures après la convention signée ainsy<note n="101"
+                        type="crit_app">CTS; Wenck; Danske Traktater: ainsi</note> que l´armée
+                    campée à Bremervorde. Il sera convenu du tems nécessaire pour les arrangements
+                    ultérieurs entre M[onsieur]. le L.[ieutenan]t<note n="102" type="crit_app"
+                        >Wenck: [Auslassung:] L.</note> <rs ref="#pp0239">Général de Spoercken</rs><note n="103"
+                        type="crit_app">Textvariante: CTS; Danske Traktater: Spörken. Wenck:
+                        Spörcken. Sachanmerkung: Friedrich von Spörken (1698-1776), General,
+                        braunschweigischer Feldmarschall.</note> et M[onsieur]. le <rs ref="#pp0240">Marquis de
+                        Villemur</rs><note n="104" type="crit_app">Textvariante: CTS; Danske Traktater:
+                        Villemeur. Sachanmerkung: François de Riotor, Marquis de Villemur; keine
+                        näheren Angaben bekannt.</note> premier L.[ieutenan]t General de l´armée du
+                        Roy<note n="105" type="crit_app">CTS; Danske Traktater: de S.M.
+                        Très-Chrétienne.</note> ainsy que de l´exécution de l´article contenant les
+                    limites respectives<note n="106" type="crit_app">CTS; Danske Traktater:
+                        [Einschub:] Artikel 4 (unterzeichnet mit Guillaume, Richelieu).</note>.</p>
+                <p>Fait au camp de Clauster Seven le dix septembre mil sept cent cinquante
+                        sept.<note n="107" type="crit_app">Wenck: [Zeile ausgelassen].</note></p>
+                <p>US Le M. D. de Richelieu<note n="108" type="crit_app">Wenck:
+                    [Auslassung].</note></p>
+                <p>La présente convention ou<note n="109" type="crit_app">Wenck: et ses.</note>
+                    articles séparés également faits sous<note n="110" type="crit_app">Wenck: sont
+                        faits également sous.</note> la garantie très-expresse<note n="111"
+                            type="crit_app">Wenck: expresse.</note> de <rs ref="#pp0237">S[a].
+                                M[ajesté]. Danoise</rs> qui<note
+                        n="112" type="crit_app">CTS; Danske Traktater: elle.</note> s´obligera d´en
+                    assurer, l´execution pleine et entiere, dont je me fais fort. <lb/>Fait à
+                    Bremerföhrde le 10 Septembre 1757.<note n="113" type="crit_app">Wenck:
+                        [Auslassung].</note></p>
+                <p>US R.F. <rs ref="#pp0238">Comte de Lynar</rs> <lb/></p>
+            </div>
+
+        </body>
+        <back>
+            <listBibl>
+                <bibl>Charteris, Wilhelm Augustus, Duke of Cumberland, and the Seven Years War.
+                    Mediger, Hastenbeck und Zeven. Der Eintritt Hannovers in den Siebenjährigen
+                    Krieg. in: Niedersächsisches Jahrbuch für Landesgeschichte 56 (1984), S.137-
+                    166.</bibl>
+                <bibl>Oberschelp, Politische Geschichte Niedersachsens 1714-1803. Savory, His
+                    Britannic Majesty´s Army in Germany during the Seven Years War.</bibl>
+
+            </listBibl>
+        </back>
+    </text>
+</tei:TEI>

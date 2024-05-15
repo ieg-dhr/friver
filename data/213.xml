@@ -1,0 +1,306 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE tei SYSTEM "../resources/FriVer_DTD.dtd">
+
+<?xml-model href="../resources/FriVer.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns="http://www.tei-c.org/ns/1.0" xml:id="pa000299-0213">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title level="s">European peace treaties of the pre-modern era in data / Europäische Friedensverträge der Vormoderne in Daten (FriVer+)</title>
+                <title when="1660-08-31" xml:id="t213" when-custom="1660 VIII 31" level="a" ref="https://www.ieg-friedensvertraege.de/treaty/t-213-1-de.html">Erste Verlängerung des Ersten Rheinbundes von Frankfurt am Main</title>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    Digital edition according to
+                    <ref target="http://www.tei-c.org/">TEI P5</ref>
+                </edition>
+                <funder>
+                    <ref target="https://www.text-plus.org/">TEXT+</ref>
+                </funder>
+                <editor role="http://id.loc.gov/vocabulary/relators/edt" ref="https://orcid.org/0000-0002-8741-5916">
+                    <persName>Jaap Geraerts</persName>
+                    <note>The transformation and enrichment of the data is done by Jaap Geraerts (IEG Mainz). The other members of the FriVer+ team are Fabian Cremer, Ines Grund, and Thorsten Wübbena (all IEG Mainz).</note>
+                    <note>
+                        The original data has been created by the
+                        <ref target="https://www.ieg-friedensvertraege.de">team of scholars</ref>
+                        who were part of the Europäische Friedensverträge der Vormoderne project. This project was lead by Prof. Dr. Heinz Duchhardt and was based at the Leibniz Institute of European History in Mainz.
+                    </note>
+                </editor>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>
+                    <orgName ref="http://www.isni.org/0000000119314040">Leibniz-Institut für Europäische Geschichte Mainz</orgName>
+                </publisher>
+                <distributor>
+                    <orgName ref="http://www.isni.org/0000000110101946">Universitäts- und Landesbibliothek Darmstadt</orgName>
+                </distributor>
+                <idno type="ISIL">http://lobid.org/organisation/DE-17</idno>
+                <date type="issued" when="2023-12-23"/>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">
+                        <p xml:lang="en">This file is licensed under the terms of the Creative Commons License CC-BY 4.0 (Attribution 4.0 International)</p>
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <repository xml:id="r10">Hannover StA/LA
+                    <note>Niedersächsisches Landesarchiv Hannover, Cal. Or. 31 Nr. 430. Findbuch:<lb />
+                        <ref target="http://www.arcinsys.niedersachsen.de/arcinsys/detailAction?detailid=v1594630" >http://www.arcinsys.niedersachsen.de/arcinsys/detailAction?detailid=v1594630</ref></note>
+                </repository>
+                <msDesc><p>Niedersächsisches Hauptstaatsarchiv Hannover: Cal. Or. 31 Nr. 430 (Papierlibell, 2 Doppelbögen, 11 aufgedrückte Petschafte in rotem Lack).
+                </p>
+                    <p>Weitere Stücke:<lb />
+                        <lb />
+                        Hessisches Staatsarchiv Darmstadt A 6 Nr.10: Ratifikation Frankreichs, Paris 1660 IX 24<lb />
+                        <lb />
+                        AAE Paris: M.A.E. Traités. Multilateraux 16600004. Traité d'alliance pour la première prorogation de la "Ligue du Rhin" (UI).</p>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>
+                    The data in this XML file, originally created by the project
+                    <ref target="https://www.ieg-friedensvertraege.de/vertraege">Europäische Friedensverträge der Vormoderne online</ref>
+                    has been transformed in accordance with
+                    <ref target="http://www.tei-c.org/">TEI P5</ref>
+                    as part of the project
+                    <ref target="https://www.ieg-mainz.de/en/research/research-projects/european-peace-treaties-of-the-pre-modern-era-in-data">Europäische Friedensverträge der Vormoderne in Daten (FriVer+)</ref>
+                </p>
+            </projectDesc>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="fr" xml:id="lan4">französisch</language>
+            </langUsage>
+        </profileDesc>
+    </teiHeader>
+    <standOff>
+        <listPerson>
+            <person role="signatory" xml:id="p132">
+                <persName ref="https://www.wikidata.org/wiki/Q565812">
+                    <name>Braunschweig - Lüneburg - Calenberg</name>
+                </persName>
+            </person>
+            <person role="signatory" xml:id="p22">
+                <persName ref="https://explore.gnd.network/gnd/17444-0">
+                    <name>Braunschweig - Lüneburg - Celle</name>
+                </persName>
+            </person>
+            <person role="signatory" xml:id="p24">
+                <persName ref="https://explore.gnd.network/gnd/17444-0; https://explore.gnd.network/gnd/4066832-0">
+                    <name>Braunschweig - Lüneburg - Wolfenbüttel</name>
+                </persName>
+            </person>
+            <person role="signatory" xml:id="p37">
+                <persName ref="https://explore.gnd.network/gnd/4018145-5">
+                    <name>Frankreich</name>
+                </persName>
+            </person>
+            <person role="signatory" xml:id="p54">
+                <persName ref="https://explore.gnd.network/gnd/4072471-2">
+                    <name>Hessen - Darmstadt</name>
+                </persName>
+            </person>
+            <person role="signatory" xml:id="p55">
+                <persName ref="https://explore.gnd.network/gnd/4072472-4">
+                    <name>Hessen - Kassel</name>
+                </persName>
+            </person>
+            <person role="signatory" xml:id="p64">
+                <persName ref="https://explore.gnd.network/gnd/4031485-6">
+                    <name>Köln (Kurfürstentum)</name>
+                </persName>
+            </person>
+            <person role="signatory" xml:id="p146">
+                <persName ref="https://explore.gnd.network/gnd/4100026-2">
+                    <name>Mainz (Kurfürstentum)</name>
+                </persName>
+            </person>
+            <person role="signatory" xml:id="p152">
+                <persName ref="https://explore.gnd.network/gnd/4045461-7">
+                    <name>Pfalz - Neuburg</name>
+                </persName>
+            </person>
+            <person role="signatory" xml:id="p99">
+                <persName ref="https://explore.gnd.network/gnd/4077258-5">
+                    <name>Schweden</name>
+                </persName>
+            </person>
+            <person role="signatory" xml:id="p129">
+                <persName ref="https://explore.gnd.network/gnd/4067029-6">
+                    <name>Württemberg</name>
+                </persName>
+            </person>
+        </listPerson>
+        <listPlace>
+            <place xml:id="loc36">
+                <placeName ref="https://explore.gnd.network/gnd/4018118-2">Frankfurt/M.</placeName>
+            </place>
+        </listPlace>
+        <facsimile>
+            <surface xml:id="FacsPnr1">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_487340c0d63a4"/>
+            </surface>
+            <surface xml:id="FacsPnr2">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_487340cfde041"/>
+            </surface>
+            <surface xml:id="FacsPnr3">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_487340dcc3a0c"/>
+            </surface>
+            <surface xml:id="FacsPnr4">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_487340ea3dd15"/>
+            </surface>
+        </facsimile>
+    </standOff>
+    <text>
+        <front>
+            <div type="Transliteration">
+                <pb facs="#FacsPnr1"/><p>Cal: Or: Ar: Des: 31&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Maintz 
+                    <lb /> zweite Cammer unten 
+                    <lb /> Schrank 8 Caps: 10. 
+                </p> 
+                <p>Prorogations-Reces der a[nno]. 1658 
+                    <lb /> 
+                </p> 
+                <p>zu Frankfurt am Main mit der Cron 
+                    <lb /> 
+                </p> 
+                <p> Franckreich und verschiedenen Fürsten des 
+                    <lb /> 
+                </p> 
+                <p> Reichs geschloßenen Union und 
+                    <lb /> 
+                </p> 
+                <p> Defensio-Alliantz 
+                </p> 
+                <p>&nbsp; 
+                </p> 
+                <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; D[atum] Franckfurt am Main 
+                    <lb />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; A[nn]o 1660 21/31 Aug[ust] 
+                </p> 
+                <p>&nbsp; 
+                </p> 
+                <p>
+                    <lb /> 
+                </p> 
+                <pb facs="#FacsPnr2"/><p>Zue Wisßen Demnach zwischen der Königl[ichen] Maÿ[estät] 
+                    <lb /> zu Franckhreich unnd denen Hochwürdigsten, durchläuchtigsten 
+                    <lb /> Auch hochwürdig unnd durchläuchtigsten Chur Fürsten unnd 
+                    <lb /> Herrn, Herrn Johann Philippsen, des Haÿ[ligen] Stuels zue 
+                    <lb /> Maÿntz Ertz Bichoffen, des Haÿl[igen] Röm[ischen] Reichs durch Germanien 
+                    <lb /> ErtzCantzlern unnd Churfürsten, Bischoffen zue Würtzburg unnd 
+                    <lb /> Hertzogen zu Franckhen etc. Herrn Carln Casparn Ertz Bischoffen 
+                    <lb /> zue Trÿer, des Haÿ[ligen] Röm[ischen] Reichs durch Gallien, unnd des König- 
+                    <lb /> Reichs Arrelatern ErtzCanzlern unnd Churfürsten, Administratorn 
+                    <lb /> zue Pfriem etc. Herrn Maximilian Heinrichen ErtzBischoffen 
+                    <lb /> zu Cölln, des Haÿ[ligen] Röm[ischen] Reichs durch Italien ErzCantzlern 
+                    <lb /> unnd Churfürst, Bischoffen zue Hildesheim unnd Lüttich Administra- 
+                    <lb /> torn<note type="crit_app" n="1">Administratorn: Das letzte n nachgetragen.</note>zue Berchtesgaden unnd Stablo in Ober unnd Nid[er]baÿern 
+                    <lb /> auch der Obern Pfaltz in Westphalen zue Engern, unnd Poullion 
+                    <lb /> Hertzog, Pfaltzgraffen beÿ Rhein, Lanndtgraffen zue Leichtenberg 
+                    <lb /> Marggraffen zue Franchimont, etc. Herr Christoph Bernhardten 
+                    <lb /> Bischoffen zue Münster des Haÿ[ligen] Röm[ischen] Reichs Fürsten, Burggraffen 
+                    <lb /> zue Stromberg, unnd Herrn zue Burckhenlohe etc. H[errn] Philipps 
+                    <lb /> Willhelm, Pfaltzgraffen beÿ Rhein (in Bayern)<note type="crit_app" n="2">in Bayern: Nachträglich über das Wort „zue“ geschrieben.</note> zue Gülch, Cleve unnd 
+                    <lb /> Berge, Hertzogen, Graffen zue Veldentz, Sponheim, der Margg 
+                    <lb /> Ravenspurg, unnd Mörß, Herrn zue Ravenstein etc. Ihr könig[liche] 
+                    <lb /> Maÿ[estät] zu Schweden etc. alß Hertzogen zue Brehmen unnd Verdten 
+                    <lb /> unnd Herrn zue Wißmar etc. H[errn] Augusto, Hertzogen zue 
+                    <lb /> Braunschweig unnd Lünaburg, Herrn Christian Ludwigen 
+                    <lb /> Hertzogen zue Braunschweig unnd Lünaburg etc. Herr Georg 
+                </p> 
+                <pb facs="#FacsPnr3"/>
+                <p>Willhelm Hertzogen zue Braunscheig unnd Lünaburg etc. Herrn
+                    <lb /> Willhelmen Lanndtgraffen zue Hesßen Fürsten zue Hirschfeldt, Graffen
+                    <lb /> zue Katzenehlenbogen, Dietz, Ziegenheim, Nidda unnd Schawenburg etc.
+                    <lb /> am 14/4. und 15/5. Aug[ust] des verwichenen 1658. Jahrs zue
+                    <lb /> Franckhfurth am Maÿn und Maÿntz eine gewiße Defensiv Ver-
+                    <lb /> bunndtnuß (: welcher hernachmahls auch die durchleuchtigste Fürsten
+                    <lb /> unnd Herrn, Herrn Georg Landtgraff zue Hessen, Fürst zue Hirschfeld
+                    <lb /> Graff zue Catzen Ehlenbogen, Dietz, Ziegenheim, Nidda, Schawenburg,
+                    <lb /> Jßenburg unnd Bÿdingen, denn 18/8ten Junij Anno 1659. So dan
+                    <lb /> H[err] Eberhardt, Hertzog zue Württemberg unnd Theckh, Graffen
+                    <lb /> zue Montpelgarth unnd Herrn zue Haÿdenheim, denn 4. Feb[ruar]/ 25. Janu[ar]
+                    <lb /> Ietztlaufenden 1660. Jahrs beÿgetretten :) auf 3. Jahr auf-
+                    <lb /> gerichtet, bißhero continuiret, unnd nun solche weiters zue erstreckhen
+                    <lb /> unnd zue prorogiren vor gueth unnd nöthig angesehen worden,
+                    <lb /> Daß solchem nach, im Nahmen unnd auß Special gnädigsten
+                    <lb /> Befehl, höchstgedachter König[lichen] Maÿ[estät] zu Frankhreich, unnd Chur-
+                    <lb />unnd F[ü]rst[licher] Gnaden, unnd d[u]rch[laucht] d[u]rch[laucht] d[u]rch[laucht] durch deroselben
+                    <lb /> Räthe unnd Gesanndte, auß darzue bewegenden Uhrsachen, heut zue
+                    <lb />Unden benandtem dato unanimiter unnd allerseits verbündtlich
+                    <lb />geschlosßen unnd zuegesagt worden, daß obgedachte Defensions
+                    <lb />Verein, in den terminis unnd Clausulen, wie solche aufgesetzt
+                    <lb />(: unnd nun auch die König[lich] Schwedische Pomerische Lande nach
+                        <lb />nunmehr erfolgendem<note type="crit_app" n="3">erfolgendem: Nachträglich geändert zu erfolgeten.</note> Pohlnischen Friden würckhlich mit ein-
+                    <lb />geschlosßen; Nach Verfließung obgemelter Dreÿer Jahren
+                </p>
+                <pb facs="#FacsPnr4"/><p>benandthlichen von dem 14/4. unnd 15/5. Augusti deß einstehenden 
+                    <lb /> Sechzehen Hundert Ain Unnd Sechzigsten Jahres, die nach- 
+                    <lb /> folgende Dreÿ Jahr benandthlichen bis denn 14/4. unnd 15/5. 
+                    <lb /> Aug[usti] Sechzehen Hundert Vier Unnd Sechzig ohngenndert 
+                    <lb /> fortgesetzet, unnd observiert werden solle. Gestalten man sich 
+                    <lb /> darzue allerseits steif unnd festiglich gegen einander verbunden hatt, 
+                    <lb /> auch darüber der hohen Herrn Principalen ratificationes innerhalb 
+                    <lb /> zweÿ Monath. à dato einzubringen verabredet unnd verglichen 
+                    <lb /> worden, sonder arge lüst und gefärdte; Dessen zue 
+                    <lb /> Urkhundt und beständiger Festhaltung, ist dießer prorogations vergl[e]ich 
+                    <lb /> Eilffmahl außgefertigt, unnd von der könig[lichen] Maÿ [estät] in Franckhreich 
+                    <lb /> unnd allerseits Chur unnd Fürst[lichen] Bevollmächtigten, underschriben, 
+                    <lb /> auch jedem darvon ein Exemplar behändigt worden, So geschehen 
+                    <lb /> zu Frankhfurth am Maÿn den 21/31. Augusti anno. 1660 ://: 
+                </p> 
+                <p>&nbsp;
+                </p> 
+                <p>[L.S.] Robertus de Gravel&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [L.S.] Philippus Otto von Herzelles 
+                </p> 
+                <p>&nbsp;
+                </p> 
+                <p>[L.S.] Jo[hann]es Christophorus Aldenhofen 
+                </p> 
+                <p>&nbsp;
+                </p> 
+                <p>[L.S.] Matthias Korff genandt Smisinck&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[L.S.] Frantz von Gise p[ro]p[ria] 
+                </p> 
+                <p>&nbsp; 
+                </p> 
+                <p>[L.S.] Georg v[on] Snoilskÿ&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[L.S.] Polycarpus Heiland D[octor] 
+                    <lb />&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; m[anu] p[ro]p[ria] s[ub]s[cripsi] 
+                </p> 
+                <p >
+                    <lb />
+                </p> 
+                <p>&nbsp;[L.S.] Otto Johan Witte m[anu] p[ro]p[ria]&nbsp;&nbsp;&nbsp;&nbsp; [L.S.] G. v[on] Wÿdembach p[ro]p[ria]
+                </p> 
+                <p>&nbsp; 
+                </p> 
+                <p>[L.S.] Regnerus Badenhausen p[ro]p[ria]&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [L.S.] Conradus Fabricius 
+                </p>
+                <p>&nbsp;
+                </p>
+                <p>&nbsp;
+                </p>
+                <p>&nbsp;
+                </p>
+                <p>[bearb. von Peter Seelmann]&nbsp; 
+                    <lb />
+                </p> 
+            </div>
+        </front>
+        <back>
+            <listBibl>
+                <bibl xml:id="a286">
+                    <title level="a">Reichsarchiv (1660-08-31)</title>
+                    <title level="m">Reichsarchiv, Band 7 (1711), PSpec Con I-II (2), S.321 Aus: Dokumentenarchiv der Universitätsbibliothek Augsburg (Drucke vor 1900 / Historische Geschichtswerke).</title>
+                    <biblScope>
+                        <graphic xml:id="A1Pnr1" url="https://www.ieg-friedensvertraege.de/dbimages/img_4a9e305609c43"/>
+                    </biblScope>
+                </bibl>
+            </listBibl>
+        </back>
+    </text>
+</tei:TEI>
+                        

@@ -1,0 +1,2206 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE tei SYSTEM "../resources/FriVer_DTD.dtd">
+
+<?xml-model href="../resources/FriVer.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns="http://www.tei-c.org/ns/1.0"
+    xml:id="pa000299-0111">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title level="s">European peace treaties of the pre-modern era in data / Europäische
+                    Friedensverträge der Vormoderne in Daten (FriVer+)</title>
+                <title when="1660-05-03" xml:id="t111" when-custom="1660 IV 23_V 3" level="a"
+                    ref="https://www.ieg-friedensvertraege.de/treaty/t-111-1-de.html"
+                    >Friedensvertrag von Oliva (Berlin)</title>
+            </titleStmt>
+            <editionStmt>
+                <edition> Digital edition according to <ref target="http://www.tei-c.org/">TEI
+                        P5</ref>
+                </edition>
+                <funder>
+                    <ref target="https://www.text-plus.org/">TEXT+</ref>
+                </funder>
+                <editor role="http://id.loc.gov/vocabulary/relators/edt"
+                    ref="https://orcid.org/0000-0002-8741-5916">
+                    <persName>Jaap Geraerts</persName>
+                    <note type="crit_app">The transformation and enrichment of the data is done by
+                        Jaap Geraerts (IEG Mainz). The other members of the FriVer+ team are Fabian
+                        Cremer, Ines Grund, and Thorsten Wübbena (all IEG Mainz).</note>
+                    <note type="crit_app"> The original data has been created by the <ref
+                            target="https://www.ieg-friedensvertraege.de">team of scholars</ref> who
+                        were part of the Europäische Friedensverträge der Vormoderne project. This
+                        project was lead by Prof. Dr. Heinz Duchhardt and was based at the Leibniz
+                        Institute of European History in Mainz. </note>
+                </editor>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>
+                    <orgName ref="http://www.isni.org/0000000119314040">Leibniz-Institut für
+                        Europäische Geschichte Mainz</orgName>
+                </publisher>
+                <distributor>
+                    <orgName ref="http://www.isni.org/0000000110101946">Universitäts- und
+                        Landesbibliothek Darmstadt</orgName>
+                </distributor>
+                <idno type="ISIL">http://lobid.org/organisation/DE-17</idno>
+                <date type="issued" when="2023-12-23"/>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">
+                        <p xml:lang="en">This file is licensed under the terms of the Creative
+                            Commons License CC-BY 4.0 (Attribution 4.0 International)</p>
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <repository xml:id="r3">Berlin GStAPK <note type="crit_app">Geheimes Staatsarchiv
+                        Preußischer Kulturbesitz Berlin, Registratur-/Altsignatur: VI. HA, Nr. 624
+                        (M) = Bestellsignatur: I. HA GR, Rep. 11 Staatsvertraege, Nr. 664. Digital:<lb/>
+                        <ref
+                            target="http://archivdatenbank.gsta.spk-berlin.de/midosasearch-gsta/MidosaSEARCH/i_ha_gr_rep_11_stv/index.htm?kid=GStA_i_ha_gr_rep_11_stv_45&amp;uid=GStA_i_ha_gr_rep_11_stv_I_HA_GR_Rep_11_Staatsvertraege_Nr_664"
+                            >http://archivdatenbank.gsta.spk-berlin.de ...</ref><lb/> Geheimes
+                        Staatsarchiv Preußischer Kulturbesitz Berlin, Registratur-/Altsignatur: VI.
+                        HA, Nr. 632 (M) = Bestellsignatur: I. HA GR, Rep. 11 Staatsvertraege, Nr.
+                        672. Digital:<lb/>
+                        <ref
+                            target="http://archivdatenbank.gsta.spk-berlin.de/midosasearch-gsta/MidosaSEARCH/i_ha_gr_rep_11_stv/index.htm?kid=GStA_i_ha_gr_rep_11_stv_45&amp;uid=GStA_i_ha_gr_rep_11_stv_I_HA_GR_Rep_11_Staatsvertraege_Nr_672"
+                            >http://archivdatenbank.gsta.spk-berlin.de ...</ref></note>
+                </repository>
+                <msDesc>
+                    <p>[Transkriptionsgrundlage:]</p>
+
+                    <p>A) GSABerlin VI HA Nr. 624: Hauptvertrag, Oliva 1660 IV 23/ V 3 (lat.,
+                        Papier, fol 1-17, 5 US, 5 aufgedrückte LS der polnischen
+                        Bevollmächtigten).</p>
+
+                    <p>B) GSABerlin VI HA Nr. 632: Ratifikation des Zusatzartikels (Oliva 1660 V 3)
+                        durch Polen, Warschau 1660 VI 26 (US, Siegel Johann Kasimir an blausilberner
+                        Schnur, Siegel fehlt, 1 LS de Lumbres, roter Samteinband, Pergament, fol
+                        1-4).</p>
+
+                    <p>C) AGADWarschau Dok. Perg. 5611: Instumentum Pacis Polono-Sueticae à
+                        commissarios ser. Sueciae regis commutatum. [Anm: Aus urheberrechtlichen
+                        Gründen können die Abbildungen aus dem GSABerlin nicht gezeigt werden.]</p>
+
+                    <p><lb/> [Weitere Stücke:]</p>
+
+                    <p>D) GSABerlin VI HA Nr. 628: Ratifikation Polens, Warschau 1660 VI 26
+                        (Prunkausfertigung des Vertrages, 6 US, 6 LS der franz. und poln. Gesandten,
+                        Pergament, roter Samteinband, Fol.1-16).</p>
+
+                    <p>E) GSABerlin VI HA Nr. 630-631: Ratifikation Polens, Warschau 1660 VI 26 und
+                        Danzig 1660 VIII 16 (1 US, 1 Siegel Johann Kasimir an blau-silberner Schnur
+                        in versilberter Kapsel, 3 aufgedrückte LS de Lumbres, Vladislaus Rey,
+                        Joachimus Pastorius, Prunkausfertigung, Pergament, Fol.1-12, 2. Exemplar mit
+                        Unterschrift und Siegel des Erzbischofs von Gnesen, Fol.1-10.</p>
+
+                    <p>F) GSABerlin VI HA Nr.633: Ratifikation des Deutschen Ordens, Danzig 1660 VII
+                        26, Danzig (2 Siegel, Holzkapseln ohne Deckel, 1 LS, Prunkausfertigung mit
+                        rotem Samteinband, Perg., fol 1-5, lat). Ebd. Ratifikation der polnischen
+                        Stände Warschau 1660 V 24.</p>
+
+                    <p>G) GSABerlin VI HA Nr.802: Ratifikation Schwedens des Zusatzartikels,
+                        Stockholm 1660 VI 14.</p>
+
+                    <p>H) Schwedisches Reichsarchiv, Stockholm: Originaltraktater med främmande
+                        makter, Tyskland, II. Kejsaren No. 4 A) Unterhänderinstrument (Perg.),
+                        Unterzeichner: Franciscus Carolus Libsteinski Comes a Kolowratt, Franciscus
+                        Baro de Lisola.</p>
+
+                    <p>I) Ebd., No. 4 B) Unterhändlerinstrument (Papier), Unterzeichner: Magnus
+                        Gabriel De la Gardie, Benedictus Oxenstierna, Christopherus Carolus
+                        Schlippenbach, A. Gyldenclou.</p>
+
+                    <p>J) Ebd., No. 4 D) Kaiserl. Ratifikation von No. 4 A), dat. Graz 1660 VII
+                        12.</p>
+
+                    <p>K) Ebd., Tyskland, III. Brandenburg-Preussen No. 8 A)
+                        Unterhändleriunstrumente (2 Exemplare: Perg., Papier), Unterzeichner: De
+                        Lumbres, Joannes ab Hoverbeeke, Laurentius Christoph, Somnitz, Albertus ab
+                        Ostaw.</p>
+
+                    <p>L) Ebd., No. 8 C) Brandenburg. Ratifikation von No. 8 A), dat. Cölln an der
+                        Spree 1660 VI 16_26.</p>
+
+                    <p>M) Ebd., Frankrike No. 19 A) Franz. Ratifikation und Garantie, dat. Paris
+                        1660 IX 22.</p>
+
+                    <p>N) Ebd., Polen No. 7 A) Unterhändlerinstrument (Papier), Unterzeichner: A. de
+                        Lumbres, Joannes Comes de Lesno, Christopherus Pac, Joan. Andreas Morstin,
+                        Joannes Gninski, Joannes ab Hoverbeeke, Laurentius Christoph. Somnitz,
+                        Albertus ab Ostaw.</p>
+
+                    <p>O) Ebd., No. 7 : Unterhändlerinstrument (Perg.), Unterzeichner: A. de
+                        Lumbres, Joannes Comes de Lesno, Nicolaus(?) Praszmowski, Christopherus Pac,
+                        Joann. Andreas Morstin, Vladislaus Rey, Joannes Gninski, Joannes ab
+                        Hoverbeeke.</p>
+
+                    <p>P) Ebd., No. 7 D) Königl. poln. Ratifikation von No. 7 A), dat. Warschau 1660
+                        VI 26.</p>
+
+                    <p>Q) Ebd., No. 7 E) Ratifikation von No. 7 A) durch poln. Stände, dat. Warschau
+                        1660 VI 26.</p>
+
+                    <p>R) Archives du Ministère des affaires ètrangères, Paris: 28 M.A.E. Traités.
+                        Multilatèraux 16590003. 1660. 3 mai. Traité de paix (Oliwa). Brandebourg,
+                        Empire, France, Pologne, Suède:<lb/> R A) Traités de Paix&nbsp; d' Oliwa, 3
+                        mai 1660.<lb/> R B) Ratifikationen: - Brandenburg: Ratifikation&nbsp; durch
+                        Markgraf Friedirch Wilhelm, Berlin (Cölln a.d.Spree), 26 VI 1660&nbsp; -
+                        Polen: Ratifikation durch König Jan Kazimierz II, Danzig 4 V 1660&nbsp; -
+                        Schweden: Ratifikation durch König Karl XI., Stockholm, 4 VI 1660<lb/>
+                        <lb/> Abschriften:<lb/>
+                        <lb/> H ) AGAD Warschau Perg. 5503: Extractum Authenticum Suetico legatione
+                         Connotatum Erra&lt;&gt; in Instrumento Ratificationum tractatus
+                        Oliven[sis], 1660 VIII 15.<lb/> I) GSA Berlin VI HA Nr. 623: Ratifikation
+                        und Garantiererklärungen zu Oliva: fol.4-5: Garantie Schwedens für Art 2.,
+                        1660 VI 14. fol 6-8: Garantie Polens für Art.2, 1660 VI 26. fol 9: Garantie
+                        durch Großbritannien 1663 I 27. fol 13-16: Ratifikation der
+                        Garantieerklärung durch Frankreich 1664 V 25.<lb/> J) GSA Berlin VI HA Nr.
+                        625: Erklärung Polens zu den im Vertrag enthaltenen Regelungen über die
+                        Generalamnestie und Bestätigung aller zwischen PL und BRA vor 1660
+                        getroffenen Vereinbarungen, Oliva 1660 V 3.<lb/> K) GSA Berlin VI HA Nr.
+                        800: 2 C der Ratifikation Schwedens 1660 V 3 (ohne Insert)<lb/> L) LA
+                        Schleswig Abt 7 Nr. 372: C; ebd. C der Garantie F und der Generalstaaten;
+                        Cautio Christian Alberts, Herzog von Holstein-Gottorf (Dumont, S.311-312),
+                        1660 V III.</p>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p> The data in this XML file, originally created by the project <ref
+                        target="https://www.ieg-friedensvertraege.de/vertraege">Europäische
+                        Friedensverträge der Vormoderne online</ref> has been transformed in
+                    accordance with <ref target="http://www.tei-c.org/">TEI P5</ref> as part of the
+                    project <ref
+                        target="https://www.ieg-mainz.de/en/research/research-projects/european-peace-treaties-of-the-pre-modern-era-in-data"
+                        >Europäische Friedensverträge der Vormoderne in Daten (FriVer+)</ref>
+                </p>
+            </projectDesc>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="la" xml:id="lan6">Latein</language>
+            </langUsage>
+        </profileDesc>
+    </teiHeader>
+    <standOff>
+        <listPerson>
+            <person role="signatory" xml:id="p27">
+                <persName ref="https://www.wikidata.org/wiki/Q157367">
+                    <name>Brandenburg - Preußen</name>
+                </persName>
+            </person>
+            <person role="signatory" xml:id="pp0001">
+                <persName ref="https://explore.gnd.network/gnd/118571869">
+                    <name>Leopold I, Holy Roman Emperor</name>
+                </persName>
+            </person>
+            <person role="signatory" xml:id="p91">
+                <persName ref="https://explore.gnd.network/gnd/4046496-9">
+                    <name>Polen</name>
+                </persName>
+            </person>
+            <person role="signatory" xml:id="p99">
+                <persName ref="https://explore.gnd.network/gnd/4077258-5">
+                    <name>Schweden</name>
+                </persName>
+            </person>
+            <person xml:id="pp0136">
+                <persName ref="https://explore.gnd.network/gnd/119389118">
+                    <name>Jan II. Kazimierz Wasa</name>
+                </persName>
+            </person>
+            <person xml:id="pp0137">
+                <persName ref="https://explore.gnd.network/gnd/118720945">
+                    <name>Karl X. Gustav von Schweden</name>
+                </persName>
+            </person>
+            <person xml:id="pp0138">
+                <persName ref="https://explore.gnd.network/gnd/118816829">
+                    <name>Louis XIV of France</name>
+                </persName>
+            </person>
+            <person xml:id="pp0139">
+                <persName ref="https://explore.gnd.network/gnd/123129869">
+                    <name>Antoine de Lumbres</name>
+                </persName>
+            </person>
+            <person xml:id="pp0140">
+                <persName ref="https://www.wikidata.org/wiki/Q11718258">
+                    <name>Jan Leszczyński</name>
+                </persName>
+            </person>
+            <person xml:id="pp0141">
+                <persName ref="https://explore.gnd.network/gnd/119521733">
+                    <name>Jerzy Sebastian Lubomirski</name>
+                </persName>
+            </person>
+            <person xml:id="pp0142">
+                <persName ref="https://explore.gnd.network/gnd/1157908519">
+                    <name>Mikołaj Prażmowksi</name>
+                </persName>
+            </person>
+            <person xml:id="pp0143">
+                <persName ref="https://explore.gnd.network/gnd/1033803677">
+                    <name>Krzysztof Pac</name>
+                </persName>
+            </person>
+            <person xml:id="pp0144">
+                <persName ref="https://explore.gnd.network/gnd/11892527X">
+                    <name>Jan Andrzej Morsztyn</name>
+                </persName>
+            </person>
+            <person xml:id="pp0145">
+                <persName ref="https://www.wikidata.org/wiki/Q9382245">
+                    <name>Władysław z Nagłowice Rey</name>
+                </persName>
+            </person>
+            <person xml:id="pp0146">
+                <persName ref="https://explore.gnd.network/gnd/122326792">
+                    <name>Jan Gniński</name>
+                </persName>
+            </person>
+            <person xml:id="pp0147">
+                <persName ref="https://explore.gnd.network/gnd/124327109">
+                    <name>Franz Karl Liebsteinský-Kolowrat</name>
+                </persName>
+            </person>
+            <person xml:id="pp0148">
+                <persName ref="https://explore.gnd.network/gnd/11878014X">
+                    <name>Franz Paul von Lisola</name>
+                </persName>
+            </person>
+            <person xml:id="pp0149">
+                <persName ref="https://explore.gnd.network/gnd/121782441">
+                    <name>Johann von Hoverbeck</name>
+                </persName>
+            </person>
+            <person xml:id="pp0150">
+                <persName ref="https://explore.gnd.network/gnd/102836515">
+                    <name>Lorenz Christoph von Somnitz</name>
+                </persName>
+            </person>
+            <person xml:id="pp0151">
+                <persName ref="https://explore.gnd.network/gnd/119778777">
+                    <name>Albert von Ostau</name>
+                </persName>
+            </person>
+            <person xml:id="pp0152">
+                <persName ref="https://explore.gnd.network/gnd/119144646">
+                    <name>Magnus Gabriel de la Gardie</name>
+                </persName>
+            </person>
+            <person xml:id="pp0153">
+                <persName ref="https://explore.gnd.network/gnd/100127282">
+                    <name>Bengt Oxenstierna</name>
+                </persName>
+            </person>
+            <person xml:id="pp0154">
+                <persName ref="https://explore.gnd.network/gnd/121425177">
+                    <name>Christoph Carl Schlippenbach</name>
+                </persName>
+            </person>
+            <person xml:id="pp0155">
+                <persName ref="https://explore.gnd.network/gnd/122244273">
+                    <name>Anders Gyldenklau</name>
+                </persName>
+            </person>
+            <person xml:id="pp0156">
+                <persName ref="https://explore.gnd.network/gnd/118775812">
+                    <name>Jacob Kettler</name>
+                </persName>
+            </person>
+            <person xml:id="pp0157">
+                <persName ref="https://explore.gnd.network/gnd/1159073112">
+                    <name>Hans Christoph Graf von Königsmarck</name>
+                </persName>
+            </person>
+            <person xml:id="pp0158">
+                <persName ref="https://explore.gnd.network/gnd/115803890">
+                    <name>Anna Maria Radziwiłł</name>
+                </persName>
+            </person>
+            <person xml:id="pp0159">
+                <persName ref="https://explore.gnd.network/gnd/103122087">
+                    <name>Janusz Radziwiłł</name>
+                </persName>
+            </person>
+            <person xml:id="pp0160">
+                <persName ref="https://explore.gnd.network/gnd/135698111">
+                    <name>Christoff Delphicus von Dohna</name>
+                </persName>
+            </person>
+            <person xml:id="pp0161">
+                <persName ref="https://explore.gnd.network/gnd/1046977709">
+                    <name>Zygmunt Guldenstern</name>
+                </persName>
+            </person>
+            <person xml:id="pp0162">
+                <persName ref="https://explore.gnd.network/gnd/122846915">
+                    <name>Arvid Wittenberg</name>
+                </persName>
+            </person>
+            <person xml:id="pp0163">
+                <persName ref="https://explore.gnd.network/gnd/1122852134">
+                    <name>Fredrik III von Dänemark</name>
+                </persName>
+            </person>
+        </listPerson>
+        <listPlace>
+            <place xml:id="loc23">
+                <placeName ref="https://explore.gnd.network/gnd/4075642-7">Oliva</placeName>
+            </place>
+        </listPlace>
+    </standOff>
+    <text>
+        <front>
+            <div type="Drucke">
+                <p> GSABerlin VI HA Nr.623 Nr.629 (Druck). Offizielle zeitgenössische Drucke: A).
+                    Instrumentum ratificatum pacis perpetuae inter S.R.M. Poloniae, ejusque
+                    foederatos ac belli socios, Sac. Caes. Majest. et suam Serenit. Electoralem
+                    Brandenburgicam ab una, et S.R.M. Sueciae ab altera partibus. A. MDCLX XXIII
+                    Aprilis / III Maii Olivae initae et conclusae. Una cum Ratificationibus Articuli
+                    Separati Declaratorii ratione Elbingae aliisque his annexis cum gratia et
+                    privilegio Sereniss. Elector. Brandenburg. Regiomonti Typis Paschalis Mensenii
+                    imprimebat. Josua Segebadius An. DCLXI . B) Instrumentum pacis perpetuae inter
+                    S. Regiam Majestatem et Rempubl. Poloniae ejusque confoederatos S.Caesar.
+                    Majestatem et sereniss. Electorem Brandenburgicum ex una, et inter S.Regiam
+                    Majestatem, regnumque Sueciae ex altera parte ad Gedanum in monasterio Olivensi
+                    III. Maii anno MDCLX initae et conclusae. Cum privilegio Sac. Reg. Maj. Gedani
+                    Sumptius Jacobi Weis, ejusdem Re. Maj. Bibliopolae, typis Philippi Christiani
+                    Rheti, Typo.Reg. o.J. 4.to. <lb/>[Kollationierungsvorlagen:] CTS 4, S. 9-92
+                    (11-36). Dumont 4/2, S. 303-310 (315). Johannes Gottlob Böhme, Acta Pacis
+                    Olivensis inedita. Vratislaviae 1663, 1, S.154-181 ; Theatrum pacis 1, S.
+                    613-658 (lat., dt.). Lünig, Teutsches Reichsarchiv, Pars specialis 2/4 (3)
+                    (1713), S.172- (dt., lat.). <lb/>[Weitere Druckfassungen:] Diarium Europ. cont.
+                    3, S. 292. Londorp, Acta publica 8, S. 665. Locenius, Rerum Suecicarum hist.,
+                    doc. p. 900. Chwalkowski (auch: Chwalkouski), Jus publ. regni Poloniae, p. 281.
+                    Dogiel 4, S. 499 (Vollmachten). Pufendorf, De rebus a Carolo Gustavo Sveciae
+                    regis gestis commentariorum, Norimbergae 1696, S. 39. Pufendorf, De rebus gestis
+                    Friederici Wilhemli Magni, Berlin 1695, Lipsiae 1733. Gastelius, De statu
+                    publico Europae novissimae Tractatus 6, S. 202 . Moerner, S. 239-251 [dt.
+                    Regest]. </p>
+                <p>Theatrum Europaeum VIII, S.1255-1266, LINK: <ref
+                        target="http://digbib.bibliothek.uni-augsburg.de/8/pages/02_IV_13_2_0026_08_1330.html"
+                        >http://digbib.bibliothek.uni-augsburg.de/8/pages/02_IV_13_2_0026_08_1330.html</ref>
+                    <lb/>
+                    <lb/>
+                </p>
+            </div>
+            <div type="Inhalt">
+                <p>[Inhalt] </p>
+                <p>[Art. I-XXI Friede zwischen Polen und Schweden] </p>
+                <p>Art. I <lb/>Ewiger Friede. Frühere Verträge bleiben in Kraft, so sie diesem nicht
+                    entgegenstehen. Bündnisse. <lb/>Art. II <lb/>Amnestie (Präzisierungen).
+                    <lb/>Art. III <lb/>Johann Kasimir entsagt allen Ansprüchen auf Schweden. Titel
+                    auf Lebzeiten. Führung des Titels und des Wappens. <lb/>Art. IV <lb/>Polnische
+                    Gebietsabtretungen an Schweden (Teile Livlands, Estland). Schutz der Katholiken.
+                    Schutz des Eigentums. <lb/>Art. V <lb/>Östliches Livland bleibt polnisch. Keine
+                    Ansprüche Moskowiens, Schwedens. <lb/>Kommission für Grenzstreitigkeiten.
+                    <lb/>Art. VI <lb/>Herzog von Kurland-Semgallen. Freilassung und Restitution.
+                    Verzicht auf Rache. <lb/>Art. VII <lb/>Elbing, Marienburg und alle von Schweden
+                    besetzten Orte an Polen übergeben. <lb/>Regelungen für die Räumung. <lb/>Art.
+                    VIII <lb/>Rückgabe der Obligationen u.ä.. <lb/>Art. IX <lb/>Schweden gibt
+                    Archive und die königl. Bibliothek an Polen zurück. <lb/>Art. X <lb/>Kassierung
+                    der Obligationen in Kurland, Semgallen u. dem Piltenser Distrikt. <lb/>Art. XI
+                    <lb/>Privatschulden. <lb/>Art. XII <lb/>Restitution von Mobilien. <lb/>Art. XIII
+                    <lb/>Waffen. Restitution. Erfüllung Thorner Übergabetraktat. <lb/>Art. XIV
+                    <lb/>Übergabe der Kriegsgefangenen ohne Lösegeld. Polnische Vermittlung für
+                    schwedische Gefangene bei den Tataren. <lb/>Art. XV <lb/>Freiheit des Handels.
+                    Zölle. <lb/>Art. XVI <lb/>Freilassung des schwed. Feldmarschalls Königsmark.
+                    <lb/>Art. XVII <lb/>Erbfrage der Familie Radziwill. <lb/>Art. XVIII
+                    <lb/>Übergabe Gefallener. <lb/>Art. XIX <lb/>Croysche Schuldforderung.
+                    Bestätigung auf Reichstag. <lb/>Art. XX <lb/>Schuldforderungen des Grafen Dohna.
+                    <lb/>Art. XXI <lb/>Dito für Gyldenstern. </p>
+                <p>[Art. XXII-XXIII Friede zwischen dem Kaiser und Schweden] </p>
+                <p>Art. XXII <lb/>Friede, Amnestie zwischen Kaiser Leopold und König Karl. Kaiser
+                    restituiert besetzte Orte in Pommern und Mecklenburg an Schweden, Orte in
+                    Holstein und Schleswig an Herzog von Holstein-Gottorp. Räumung. Klärung offener
+                    Fragen. <lb/>Art. XXIII <lb/>Freigabe der Kriegsgefangenen. </p>
+                <p>[Art. XXIV-XXX Friede zwischen Brandenburg und Schweden] </p>
+                <p>Art. XXIV <lb/>Friede zwischen Kurfürst Friedrich Wilhelm und König Karl.
+                    Bündnisse und <lb/>Verträge. Amnestie. Restitutionen (Königsmark,Wittenberg).
+                    <lb/>Art. XXV <lb/>Schweden annuliert die 1656 geschlossenen Verträge
+                    (Königsberg, Marienburg, <lb/>Labiau). Annullierung durch Brandenburg. <lb/>Art.
+                    XXVI <lb/>Brandenburg restituiert die in Pommern besetzten Orte an Schweden, die
+                    in Holstein und Schleswig an das Haus Holstein-Gottorp. <lb/>Art. XXVII
+                    <lb/>Übergabe der Kriegsgefangenen. <lb/>Art. XXVIII <lb/>Schulden. Begleichung
+                    und Aufhebung. <lb/>Art. XXIX <lb/>Handel und Verkehr. Status quo ante.
+                    <lb/>Art. XXX <lb/>Restitutionen. <lb/>Art. XXXI <lb/>Beilegung des Krieges
+                    zwischen Dänemark und Schweden. Aufnahme Dänemarks in den Frieden. </p>
+                <p>[Art. XXXII-XXXVII gemeinsame Vollzugsbestimmungen] </p>
+                <p>Art. XXXII <lb/>Waffenruhe. Fristen. Schutz durch Kommissionen. <lb/>Art. XXXIII
+                    <lb/>Entlassung der Truppen. <lb/>Art. XXXIV <lb/>Einhaltung des Friedens.
+                    Wechselseitige Garantien. Beistandspflicht. <lb/>Streitschlichtung ohne Waffen.
+                    <lb/>Art. XXXV <lb/>Ratifikationsmodalitäten. <lb/>Art. XXXVI <lb/>Vermittlung
+                    und Garantie Frankreichs auf Wunsch Schwedens und Polens. <lb/>Art. XXXVII
+                    <lb/>Beitrittsmöglichkeit. </p>
+                <p>Zusatzartikel </p>
+                <p>Erklärung Schwedens und Polens zu Art. II und zu Elbing. <lb/>
+                </p>
+            </div>
+            <div type="Kommentar">
+                <p>Der unter Vermittlung Frankreichs (ab 1659) zwischen Polen, Brandenburg und dem
+                    Kaiser einerseits sowie Schweden andererseits geschlossene Frieden beendet den
+                    seit 1655 dauernden (Ersten) Nordischen Krieg. Schweden war nach einem
+                    anf&auml;nglich raschen milt&auml;rischen Vorsto&szlig; 1657, der Polen an den
+                    "Rand des staatlichen Kollapses" (Duchhardt, Europa am Vorabend, S. 289)
+                    brachte, 1657/58 in die Defensive geraten, nicht zuletzt ausgel&ouml;st durch
+                    den Frontwechsel des brandenburgischen Kurf&uuml;rsten Friedrich Wilhelm durch
+                    die Vertr&auml;ge von Bromberg und Wehlau im September/Oktober 1657 und dem
+                    Anschlu&szlig; &Ouml;sterreichs an die antischwedische Koalition 1658. Ende 1658
+                    war absehbar, dass der Krieg auf milit&auml;rischem Wege nicht zu entscheiden
+                    war. Frankreichs Vermittlung beruhte auf dem Wunsch, einen v&ouml;lligen
+                    Zusammenbruch Schwedens zu verhindern. Frankreich warf Brandenburg den Bruch des
+                    Westph&auml;lischen Friedens vor, und drohte zeitweise dem Kaiser und seinem
+                    brandenburgischen Verb&uuml;ndeten mit Krieg. &Ouml;sterreich, das weder
+                    Aussicht auf territoriale Gewinne hatte, aber auch keine Einbu&szlig;en
+                    bef&uuml;rchten musste, wollte verhindern, dass Schweden seine Position auf
+                    Kosten Polens ausdehnte. Brandenburg, neben Polen der Hauptkriegsschauplatz,
+                    strebte einen Generalfrieden an; 1659 war es noch an der Fortsetzung des Krieges
+                    interessiert, um seinen Machtbereich in Hinterpommern auszuweiten; alleine
+                    fehlte jedoch die milit&auml;rische Kraft.<lb/> Am 5. Januar begannen in Oliva
+                    die Verhandlungen, die sofort wegen Verfahrensfragen ins Stocken gerieten. Bis
+                    Mitte April hatten Polen und Schweden sich auf Vertragsgrunds&auml;tze geeinigt
+                    und ihren Friedenswillen am 28. April durch einen Waffenstillstand manifestiert.
+                    Um einen Separatfrieden abzuwenden, mussten Brandenburg und &Ouml;sterreich
+                    rasch zu Verhandlungsergebnissen mit Schweden kommen. Am 3. Mai wurde in Oliva
+                    der umfassende Vertrag unterzeichnet.<lb/> Schweden b&uuml;&szlig;te durch Oliva
+                    (sowie durch die Friedensschl&uuml;sse mit D&auml;nemark und Russland) die
+                    Vormachtstellung in der Ostsee teilweise ein, konnte jedoch seine Erwerbungen
+                    aus den Vertr&auml;gen von Osnabr&uuml;ck und Roeskilde bewahren. Zudem erkannte
+                    Polen den schwedischen Besitz &uuml;ber Livland an. Die polnischen Wasa
+                    verzichteten auf den ohnehin schon obsoleten Anspruch auf den schwedischen
+                    Thron. Polen fand sich in milit&auml;rischen Auseinandersetzungen mit Schweden,
+                    Moskau und den Kosaken wieder; dieses an &uuml;berraschenden Peripetien reiche
+                    V&ouml;lkerringen beschleunigte den Niedergang der Adelsrepublik (J&ouml;rg
+                    Hoensch, Geschichte Polens. Stuttgart 1983, S. 148). Nicht zuletzt hatte
+                    Brandenburg durch die Best&auml;tigung der Vertr&auml;ge von Wehlau und Bromberg
+                    die internationale Anerkennung als souver&auml;ner Staat erhalten, nach Frost
+                    the most significant cause (Frost, Northern Wars, S. 183) des Friedens von
+                    Oliva. Die Friedensschl&uuml;sse 1660/61 haben den Ostseebereich in einen
+                    Zustand relativer Stabilit&auml;t &uuml;berf&uuml;hrt (Duchhardt, Europa am
+                    Vorabend der Moderne, S. 290). Jedoch konnte kein Problem zwischen den Nachbarn
+                    als dauerhaft gel&ouml;st betrachtet werden.</p>
+            </div>
+
+            <div type="Kontext">
+                <p>1600 <lb/>Nachdem der schwedische Reichstag die polnischen Wasa von der
+                    schwedischen <lb/>Thronfolge ausschließt, beginnt der Krieg zwischen Schweden
+                    und Polen. <lb/>1605 <lb/>Erster Waffenstillstand (3 Jahre), danach gehen die
+                    Kämpfe weiter (1611; ab 1617). <lb/>26. September 1629 <lb/>Waffenstillstand von
+                    Altmark zwischen Schweden und Polen für 6 Jahre. Schweden behält wichtige
+                    preußische Küstenstädte, Sigismund III. erhält den Kronanspruch aufrecht.
+                    <lb/>12. September 1635 <lb/>Waffenstillstand von Stuhmsdorf zwischen Schweden
+                    und Polen (für 26 Jahre). Polen erhält das Königliche Preußen zurück, Livland
+                    und Estland verbleiben bei Schweden. <lb/>Sommer 1655 <lb/>König Karl X. Gustav
+                    fällt in Polen ein. Es beginnt der "Erste Nordische Krieg"
+                    (Schwedisch-Polnischer Krieg). Gleichzeitig ist Polen in einen Krieg gegen
+                    Moskowien verwickelt. Schweden besetzt Großpolen und Kujawien. <lb/>18. August
+                    1655 <lb/>Der litauische Hetman Janusz Radziwill unterwirft Litauen den
+                    Schweden. <lb/>September 1655 <lb/>Schweden besetzt Warschau. König Johann
+                    Kasimir flieht. <lb/>19. Oktober 1655 <lb/>Schweden besetzt Krakau. <lb/>17.
+                    Januar 1656 <lb/>Vertrag von Königsberg zwischen Schweden und Brandenburg.
+                    Friedrich Wilhelm erkennt die schwedische Oberhoheit an und verpflichtet sich zu
+                    Abgaben und Waffenhilfe. <lb/>17. Mai 1656 <lb/>Schweden erklärt Moskau den
+                    Krieg. <lb/>25. Mai 1656 <lb/>Vertrag von Marienburg zwischen Brandenburg und
+                    Schweden. Trotz (territorialer) <lb/>Konzessionen bleibt die Waffenhilfe
+                    bestehen. <lb/>20. November 1656 <lb/>Vertrag von Labiau zwischen Schweden und
+                    Brandenburg (Souveränität des Herzogtums Preußen, weitere Heeresfolge). Bündnis
+                    zwischen Schweden und Siebenbürgen (Rákoczi). <lb/>1. Dezember 1656
+                    <lb/>Subsidienvertrag zwischen Polen und dem Kaiser. <lb/>27. Mai 1657
+                    <lb/>Vertrag von Wien zwischen Polen und Habsburg. Polen soll Hilfe erhalten.
+                    <lb/>19. September und 9. Oktober 1657 <lb/>Verträge von Bromberg und Wehlau
+                    zwischen Polen und Brandenburg. Polen erkennt die Souveränität Preußens an;
+                    Preußen sichert Heeresfolge zu. <lb/>9. Februar 1658 <lb/>Habsburg schließt sich
+                    der Allianz Polens und Brandenburgs gegen Schweden an. <lb/>26. Februar 1658
+                    <lb/>Friede von Roskilde zwischen Schweden und Dänemark (Krieg seit 1657) bringt
+                    Gebietsgewinne für Schweden. <lb/>30. Dezember 1659 <lb/>Waffenstillstand
+                    zwischen Schweden und Russland. <lb/>13. Februar 1660 <lb/>Tod Karl X. Gustav
+                    von Schweden. <lb/>3. Mai 1660 <lb/>Friede von Oliva. Danach beginnt der Krieg
+                    zwischen Polen und Moskowien erneut (1667 Waffenstillstand von Andrussovo).
+                    <lb/>6. Juni 1660 <lb/>Friede von Kopenhagen zwischen Schweden und Dänemark.
+                    <lb/>1. Juli 1661 <lb/>Friede von Kardis zwischen Schweden und Russland.
+                    <lb/></p>
+            </div>
+        </front>
+        <body>
+            <div type="Edition">
+                <p>In nomine sacrosanctae<note n="1" type="crit_app">Lünig, Böhme, Theatrum Pacis:
+                        Sacro-Sanctae. 28 M.A.E. Traités. Multilatèraux 16590003 : Sacro
+                        Sanctae.</note> et indivduae<note n="2" type="crit_app">Böhme, 28 M.A.E.
+                        Traités. Multilatèraux 16590003: Indiuiduae (Abweichungen u/v im Folgenden
+                        nicht mehr notiert; ebenso ci/ti).</note> trinitatis<lb/>Notum sit univeris
+                    et singulis, quorum interest, aut quomodo libet<note n="3" type="crit_app">28
+                        M.A.E. Traités. Multilatèraux 16590003, Theatrum Pacis: quomodolibet
+                        (Worttrennungen werden – so weit sie den Sinn nicht verändern – im Folgenden
+                        nicht notiert).</note> interesse potest. Postquam a multis annis bella,
+                    dissidiaque inter serenissimos reges, regnaque Poloniae et Sueciae<note n="4"
+                        type="crit_app">AGADWarschau Dok. Perg. 5611, 28 M.A.E. Traités.
+                        Multilatèraux 16590003, Theatrum Pacis, Lünig: Sueciae et Poloniae."</note>
+                    orta, et interdum induciis, praecipue vero sexennalibus anno<note n="5"
+                        type="crit_app">Böhme: an (abgekürzt auch im Folgenden).</note> 1629<note
+                        n="6" type="crit_app">Theatrum Pacis, Lünig MDCXXIX. (Schreibweise auch im
+                        Folgenden).</note>, deinde viginti sexennalibus anno 1635 sopita et
+                    composita fuerint<note n="7" type="annotation">Waffenstillstände zwischen
+                        Schweden und Polen: Altmark 1629 IX 29 und Stuhmsdorf 1635 IX 12,
+                        geschlossen für 6 bzw. 26 Jahre.</note>, ac denique inter serenissimum et
+                    potentissimum principem ac dominum, dominum<note n="8" type="crit_app"
+                        >AGADWarschau Dok. Perg. 5611, 28 M.A.E. Traités. Multilatèraux 16590003,
+                        Theatrum Pacis, Lünig: Carolum Gustavum .... Ioannem Casimirum
+                        [Umstellung].</note>
+                    <rs ref="#pp0136">Ioannem Casimirum</rs>, regem Poloniae, magnum ducem
+                        Lithuaniae<note n="9" type="annotation">Jan II. Kazimierz Wasa (1648-1668),
+                        polnischer König.</note> etc. etc. etc. et serenissimum ac<note n="10"
+                        type="crit_app">AGADWarschau Dok. Perg. 5611: et.</note> potentissimum
+                    principem ac<note n="12" type="crit_app">Böhme: et.</note> dominum, dominum <rs
+                        ref="#pp0137">Carolum G1ustavum</rs><note n="13" type="annotation">Karl X.
+                        Gustav (1654-1660), schwedischer König. </note>, Suecorum, Gottorum<note
+                        n="14" type="crit_app">GSABerlin VI HA Nr.628: Gotorum. AGADWarschau Dok.
+                        Perg. 5611, 28 M.A.E. Traités. Multilatèraux 16590003, Böhme, Lünig,
+                        Theatrum Pacis, CTS, Dumont: Gothorum (auch im Folgenden, teilweise jedoch
+                        uneinheitlich im Gebrauch).</note>, Vandalorumque regem, magnum principem
+                    Finlandiae etc. etc. etc. deventum sit ad bellum, quod non solum dictos reges,
+                    regnaque eorum per plures annos exercuit, sed &lt;et&gt; Poloniae foederatos,
+                        &lt;ac&gt;<note type="crit_app" n="15">GSABerlin VI HA Nr.624: [..]
+                        [verderbte Stelle]. AGADWarschau Dok. Perg. 5611, GSABerlin VI HA Nr.628, 28
+                        M.A.E. Traités. Multilatèraux 16590003, Böhme, Theatrum Pacis, Lünig: ac.
+                        Dumont, CTS: ad.</note> belli socios, videlicet, serenissimum et
+                    potentissimum principem ac dominum, dominum <rs ref="#pp0001"
+                        >Leopoldum</rs><note n="16" type="annotation">Leopold I. (1640-1705),
+                        deutscher Kaiser ab 1658.</note>, electum Romanorum Imperatorem, semper
+                    Augustum, Germaniae, Hungariae, Bohemiae, Dalmatiae, Croatiae et Sclavoniae
+                    regem, archiducem Austriae etc. etc. etc. serenissimo regi et regno<note n="17"
+                        type="crit_app">Böhme: Regnoque.</note> Poloniae, ad eiusdem requisitionem,
+                    auxilia ferentem; nec non serenissimum principem ac dominum, dominum <rs
+                        ref="#pp0119">Fridericum Vilhelmum</rs><note n="18" type="crit_app"
+                        >AGADWarschau Dok. Perg. 5611, 28 M.A.E. Traités. Multilatèraux 16590003,
+                        Böhme, Lünig, Theatrum Pacis, CTS, Dumont, GSABerlin VI HA Nr.628:
+                        Wilhelmum. Friedrich Wilhelm (1620-1688), ab 1640 Kurfürst und Markgraf von
+                        Brandenburg.</note>, marchionem Brandeburgicum<note n="19" type="crit_app"
+                        >AGADWarschau Dok. Perg. 5611, 28 M.A.E. Traités. Multilatèraux 16590003,
+                        Theatrum Pacis, Dumont: Brandeburgensem. CTS: Brandenburgensem. Lünig:
+                        Brandenburgensam.</note>, sacri Romani Imperii archi camerarium et principem
+                    electorem Magdeburgi in<note n="20" type="crit_app">CTS, Dumont: [Auslassung:
+                        in] Prussiae.</note> Prussia etc. etc. etc. ducem, involvit; unde multa
+                    christiani sanguinis effusio, cum plurimarum provinciarum desolatione
+                        secuta<note n="21" type="crit_app">GSABerlin VI HA Nr.628: sequuta.</note>
+                    est, tandem divina bonitate factum<note n="22" type="crit_app">Lünig:
+                        factam.</note>, ut utrinque de pace universali inter regem remque publicam
+                    Polonam, et eius confoederatos, ac belli socios ab una; et regem regnumque
+                    Sueciae ab altera parte<note n="23" type="crit_app">AGADWarschau Dok. Perg.
+                        5611, 28 M.A.E. Traités. Multilatèraux 16590003, Theatrum Pacis, Lünig:
+                        inter regem regnumque Sueciae ab una, et regem remque publicam Poloniam et
+                        eius confoederatos et belli socios ab altera parte.</note>, suscepta sit
+                    cogitatio, opera et studio serenissimi ac<note n="24" type="crit_app">28 M.A.E.
+                        Traités. Multilatèraux 16590003: et.</note> potentissimi principis ac
+                    domini, domini <rs ref="#pp0138">Ludovici XIV.</rs><note type="crit_app" n="25"
+                        >Dumont: Ludovici [Auslassung: XIV.]; Ludwig XIV. (1643/61-1715), König von
+                        Frankreich.</note>, Galliarum et Navarrae regis christianissimi, qui huic
+                    paci conciliandae mediationem obtulit, et in ipso negotio pacis, per
+                    illustrissimum et excellentissimum dominum <rs ref="#pp0139">Antonium de
+                        Lumbres</rs><note n="26" type="annotation">Antoine de Lombres (auch: Lumbres
+                        ; 1635-1665), französischer Diplomat.</note>, dominum de
+                        Herbing&lt;k&gt;en<note n="27" type="crit_app">Unklare Lesart: [k], auch
+                        [h].AGADWarschau Dok. Perg. 5611, 28 M.A.E. Traités. Multilatèraux 16590003:
+                        Herbinghen. Lünig, Böhme, Theatrum Pacis, CTS, Dumont: Herbingen.</note> ,
+                        Löos<note n="28" type="crit_app">AGADWarschau Dok. Perg. 5611, GSABerlin VI
+                        HA Nr.628, Böhme: Loos. Theatrum Pacis, CTS, Dumont: Löös. 28 M.A.E.
+                        Traités. Multilatèraux 16590003 : unklare Lesart (Flecken).</note> , et la
+                    Cloye, comitem consistorianum, regiique ordinis equitem, legatum suum, eandem
+                    mediationem serenissimis regibus Poloniae et Sueciae<note n="29" type="crit_app"
+                        >AGADWarschau Dok. Perg. 5611, 28 M.A.E. Traités. Multilatèraux 16590003,
+                        Theatrum Pacis, Lünig: Sueciae et Poloniae.</note>, nec non serenissimo
+                    electore Brandeburgico acceptantibus praestitit. In eum ergo finem, ex mutua
+                    partium conventione, constitutus<note n="30" type="crit_app">AGADWarschau Dok.
+                        Perg. 5611, 28 M.A.E. Traités. Multilatèraux 16590003, Theatrum Pacis,
+                        Lünig, Dumont, CTS: constitua.</note> est dies quintus januarii<note n="31"
+                        type="crit_app">AGADWarschau Dok. Perg. 5611, 28 M.A.E. Traités.
+                        Multilatèraux 16590003, Theatrum Pacis, Lünig: dies 26 decembris/ 5 januarii
+                        anno 1659/1660. Lünig : 26. decembris anno MDCLIX (5.) januarii anno
+                        MDCLX.</note> anno 1660 congressui plenipotentiariorum Olivae instituendo.
+                    <lb/>Comparentes igitur statuto tempore, ac<note n="32" type="crit_app"
+                        >AGADWarschau Dok. Perg. 5611, 28 M.A.E. Traités. Multilatèraux 16590003:
+                        et.</note> loco omnium paciscentium legitime constituti legati
+                    plenipotentiarii, a parte quidem<note n="33" type="crit_app">AGADWarschau Dok.
+                        Perg. 5611, 28 M.A.E. Traités. Multilatèraux 16590003, Theatrum Pacis,
+                        Lünig: [Umstellung der Reihenfolge: Schweden - Polen].</note> serenissimi
+                    regis, reique publicae Poloniae<note n="34" type="crit_app">Dumont, CTS:
+                        Polonae.</note>, illustrissimi et excellentissimi domini, ex ordine
+                    senatorio quidem, dominus <rs ref="#pp0140">Joannes comes a Leszno</rs><note
+                        n="35" type="crit_app">CTS, Dumont: Lesno. Jan Leszczyński (1603-1678),
+                        Wojewode von Krakau, Kronkanzler.</note>, palatinus Posnaniensis, reginalis
+                        majestatis<note n="36" type="crit_app">AGADWarschau Dok. Perg. 5611,
+                        GSABerlin, Böhme, Theatrum Pacis: [uneinheitlicher Gebrauch i, j; im
+                        Folgenden nicht mehr notiert; dito für u/v].</note> supremus aulae
+                    praefectus ac marschallus<note n="37" type="crit_app">AGADWarschau Dok. Perg.
+                        5611, 28 M.A.E. Traités. Multilatèraux 16590003, Theatrum Pacis, Lünig:
+                        marschalcus. Böhme: mareschallus.</note>, generalis Maioris Poloniae,
+                    Mariaeburgensis, Corsunensis gubernator, dominus <rs ref="#pp0141">Georgius
+                        Lubomierski</rs><note n="38" type="crit_app">AGADWarschau Dok. Perg. 5611,
+                        28 M.A.E. Traités. Multilatèraux 16590003, Theatrum Pacis, Lünig:
+                        Lubomirski. CTS, Dumont, Böhme: Lubomirsky. Jerzy Sebastian Lubomirski
+                        (1616-1667), Feldmarschall.</note>, comes in Wisnicz<note n="39"
+                        type="crit_app">AGADWarschau Dok. Perg. 5611: Wisnitz. 28 M.A.E. Traités.
+                        Multilatèraux 16590003 : Wisniz. Lünig : Wisnics.</note> et Jaroslaw<note
+                        n="40" type="crit_app">Theatrum Pacis, Lünig: Jaroslau. Böhme:
+                        Iaroslavv.</note>, supremus regni et campi marschallus<note n="41"
+                        type="crit_app">Böhme, CTS, Dumont: mareschallus. Theatrum Pacis, Lünig:
+                        Marschalcus.</note>, generalis Cracoviensis, Scepusiensis, Chmielnicensis,
+                    Pereaslaviensis, Casimiriensis, Olstinensis gubernator; dominus <rs
+                        ref="#pp0142">Nicolaus in Prazmow Prazmowski</rs><note n="42"
+                        type="annotation">Mikołaj Prażmowksi (1617-1673), Kronkanzler, Primas.
+                        Böhme: Prazmovv Prazmovvsky.</note>, supremus regni cancellarius, nominatus
+                    episcopus Luceoriensis et Brestensis, abbatiae Sieciechoviensis administrator
+                    perpetuus. Praepositus<note n="43" type="crit_app">Theatrum Pacis:
+                        prepositus.</note> sancti Michaelis ecclesiae collegiatae in arce
+                        Cracoviensi<note n="44" type="crit_app">Lünig: Crucoviensi.</note>, dominus
+                        <rs ref="#pp0143">Christophorus Pac</rs><note n="45" type="annotation"
+                        >Krzysztof Pac (1621-1684), litauischer Kanzler.</note>, supremus magni
+                    ducatus Lithuaniae cancellarius, Wilkowiscensis<note n="46" type="crit_app"
+                        >AGADWarschau Dok. Perg. 5611, 28 M.A.E. Traités. Multilatèraux 16590003:
+                        Wilkoviscensis. Böhme: Nilcouiscensis. Theatrum Pacis: Wilcovicensis. Lünig:
+                        Wilkoviensis.</note>, Ostrinensis, Kozienicensis<note n="47" type="crit_app"
+                        >Dumont, CTS: Cozienicensis.</note>, Klesczelensis<note n="48"
+                        type="crit_app">AGADWarschau Dok. Perg. 5611, 28 M.A.E. Traités.
+                        Multilatèraux 16590003, GSABerlin VI HA Nr.628, Lünig, Böhme::
+                        Kleszczelinensis. Dumont, CTS: Kleszelensis.</note> et Nemonocensis
+                    gubernator. Ex ordine vero equestri, dominus <rs ref="#pp0144">Joannes Andreas
+                        de Raciborsko Morstin</rs><note n="49" type="crit_app">Textvariante:
+                        AGADWarschau Dok. Perg. 5611: Morsztin. GSABerlin VI HA Nr.628: Morsztyn. 28
+                        M.A.E. Traités. Multilatèraux 16590003, Böhme: Morsztin. Sachanmerkung: Jan
+                        Andrzej Morsztyn (1621-1693), Diplomat, Delegierter des Senats für die
+                        Verhandlungen.</note>, referendarius regni, Kowalensis<note n="50"
+                        type="crit_app">Böhme: Kovvalensis. AGADWarschau Dok. Perg. 5611, 28 M.A.E.
+                        Traités. Multilatèraux 16590003: Kovalensis.</note> et Zavichostensis----
+                    gubernator, dominus <rs ref="#pp0145">Vladislaus de Naglowice</rs><note n="51"
+                        type="crit_app">AGADWarschau Dok. Perg. 5611, Theatrum pacis, Lünig:
+                        Naglovice. Böhme: Noglovvice.</note> Rey<note n="52" type="annotation"
+                        >Władysław z Nagłowice Rey (gest.1682), Kronkanzler.</note>, thesaurarius
+                    curiae regni, reginalis maiestatis cancellarius, Neokorcinensis<note n="53"
+                        type="crit_app">AGADWarschau Dok. Perg. 5611, 28 M.A.E. Traités.
+                        Multilatèraux 16590003, Theatrum pacis, Lünig: Neocorczinensis.</note>,
+                        Libussiensis<note n="54" type="crit_app">CTS, Dumont: Libusiensis. Theatrum
+                        pacis, Lünig: Libuszinensis.</note>, Kamionacensis<note n="55"
+                        type="crit_app">Lünig: Camionacensis.</note> gubernator. Dominus <rs
+                        ref="#pp0146">Ioannes in Gnin Gninski</rs><note n="56" type="crit_app"
+                        >Textvariante: Böhme: Gninsky. Sachanmerkung: Jan Gniński (gest. 1685),
+                        Diplomat, Vizekronkanzler.</note>, Pomeraniae succamerarius<note n="57"
+                        type="crit_app">Lünig: subcamerarius.</note>, Gnesnensis gubernator. Et a
+                    parte foederatorum Poloniae, videlicet serenissimi Imperatoris Romanorum,
+                    illustrissimi et excellentissimi domini, dominus <rs ref="#pp0147">Franciscus
+                        Carolus Libsteinski</rs><note n="58" type="crit_app">Textvariante:
+                        AGADWarschau Dok. Perg. 5611, 28 M.A.E. Traités. Multilatèraux 16590003,
+                        GSABerlin Nr.628, Theatrum Pacis, Lünig: Lipsteinski. Böhme: Libsteinsky.
+                        Sachanmerkung: Franz Karl Liebsteinský-Kolowrat (1620-1700),
+                        Appellationspräsident, Statthalter von Böhmen.</note>, sacri Romani Imperii
+                    comes a Kolowrat<note n="59" type="crit_app">AGADWarschau Dok. Perg. 5611, 28
+                        M.A.E. Traités. Multilatèraux 16590003, GSABerlin VI HA Nr.628: Colowrat.
+                        CTS, Dumont: Kollowradt. Böhme: Kollovvrat.</note>, dominus in
+                        Reichenaw<note n="60" type="crit_app">28 M.A.E. Traités. Multilatèraux
+                        16590003 : Richenow. AGADWarschau Dok. Perg. 5611: Reichenow. CTS, Dumont:
+                        Reichenau. GSABerlin VI HA Nr. 628: Reichenauw. Böhme: Reichenavv.</note>,
+                    sacrae Caesareae regiaeque Hungariae et Bohemiae majestatis consiliarius
+                    camerarius, iudicii maioris provincialis assessor, regius locumtenens et
+                    appellationum in arce Pragensi praeses. Dominus <rs ref="#pp0148">Franciscus,
+                        liber baro de Lisola</rs><note n="61" type="annotation">Franz Paul von
+                        Lisola (1613-1674) stand seit 1638 in kaiserlichen Diensten u.a. auch als
+                        Gesandter in verschiedenen europäischen Staaten. Der österreichische
+                        Verhandlungserfolg des Friedens von Oliva ist ihm zuzuschreiben. Oberstes
+                        Ziel seiner Politik war der Ausbau der Hegemonie Österreichs und die
+                        Eindämmung der französischen Großmachtpolitik. Pribram, Franz Paul von
+                        Lisola und die Politik seiner Zeit. Baumann, Das publizistische Werk des
+                        kaiserlichen Diplomaten Franz Paul Freiherr von Lisola.</note>, a Thise<note
+                        n="62" type="crit_app">Böhme, CTS, Dumont: Thiese.</note> et
+                        Marienfeldt<note n="63" type="crit_app">Theatrum pacis, Böhme, Lünig, CTS,
+                        Dumont: Marienfeld.</note>, consiliarius cameralis aulicus. Et serenissimi
+                    electoris Brandeburgici<note n="64" type="crit_app">CTS: Brandenburgici.</note>,
+                    illustrissimi et excellentissimi domini, dominus <rs ref="#pp0149">Joannes ab
+                        Baronowen</rs><note n="65" type="annotation">Johann von Hoverbeck (geb. 1606
+                        in Alexandrowice, gest. 1682 in Hohenstein) stand seit 1631 im Dienst der
+                        Kurfürsten. Seiner Ernennung nach war er als Geheimer Sekretär für die
+                        „preußischen, polnischen und anderen ausländischen Sachen“ zuständig. Er war
+                        auch am Zustandekommen des Vertrages von Wehlau bzw. Bromberg 1657
+                        maßgeblich beteiligt und beschäftigte sich bis zum Ende seiner
+                        diplomatischen Laufbahn 1681 überwiegend mit dem Verhältnis zu Polen. Hein,
+                        Johann von Hoverbeck.">Hoverbecke</note> in Eickmedien<note n="66"
+                        type="crit_app">GSABerlin VI HA Nr.628, Theatrum Pacis, Dumont, CTS, Lünig:
+                        Eichmedien.</note>, Baronowen<note n="67" type="crit_app">Böhme: Baranoven.
+                        Lünig: Baronnowen.</note>, Geyerswalde et Domk&lt;o&gt;w<note n="68"
+                        type="crit_app">AGADWarschau Dok. Perg. 5611, 28 M.A.E. Traités.
+                        Multilatèraux 16590003: Geyerswalde et Domkaw. CTS, Dumont: Gayerswalde et
+                        Domkau. Böhme: Geyerswalde et Domkavv. Theatrum Pacis, Lünig: Geyerswalde et
+                        Domkau.</note> dominus et haeres, suae serenitatis consiliarius status
+                    intimus, electoratusque dapifer haereditarius, Hohenstinensis<note n="69"
+                        type="crit_app">GSABerlin VI HA Nr.628 : Hohensteinensis. AGADWarschau Dok.
+                        Perg. 5611: Hohenstiniensis. CTS, Dumont: Hehensteinensis.</note>
+                    praefectus, dominus <rs ref="#pp0150">Laurentius Christophorus à
+                        Somnitz</rs><note n="70" type="crit_app">Textvariante: 28 M.A.E. Traités.
+                        Multilatèraux 16590003: Somniz. Sachanmerkung: Lorenz Christoph von Somnitz
+                        (gest. 1678), Staatsmann.</note> in Grumsdorff<note n="71" type="crit_app"
+                        >CTS, Dumont: Gromsdorff.</note>, Dren&lt;o&gt;w<note n="72" type="crit_app"
+                        >AGADWarschau Dok. Perg. 5611, 28 M.A.E. Traités. Multilatèraux 16590003,
+                        Theatrum Pacis: Drenow. Böhme: Drenov. Lünig: Drenovv.</note> et
+                        Gerbero<note n="73" type="crit_app">Theatrum Pacis: Gerberow. Lünig :
+                        Gerberovv.</note>, dominus et haeres, suae serenitatis consiliarius status
+                    intimus, et orientalis Pomeraniae cancellarius, eiusdemque ducatus camerarius
+                    haereditarius, Lawenburgensis et Butoviensis<note n="74" type="crit_app"
+                        >AGADWarschau Dok. Perg. 5611, Theatrum Pacis: Bütoviensis. Böhme:
+                        Lauenburgensis et Butouiensis. Lünig: Lavvenburgensis et Bütoviensis.</note>
+                    praefectus; Dominus <rs ref="#pp0151">Albertus ab Ostau</rs><note n="75"
+                        type="crit_app">Textvariante: Böhme: Ostavv. 28 M.A.E. Traités.
+                        Multilatèraux 16590003 : Ostaw. Sachanmerkung: Albert von Ostau [konnte
+                        nicht ermittelt werden].</note>, in Nerwiken et Kegels<note n="76"
+                        type="crit_app">AGADWarschau Dok. Perg. 5611: Kegels[..] [möglich: et].
+                        Theatrum Pacis, Böhme: Nervviken et Kegelset. Lünig: Nervvicken et Kegelset.
+                        28 M.A.E. Traités. Multilatèraux 16590003: Nervi[.]ken et Kegelset.</note>,
+                    dominus et haeres, suae serenitatis in supremo ducalis Prussiae appellationum
+                    judicio consiliarius. A<note n="77" type="crit_app">AGADWarschau Dok. Perg.
+                        5611, Theatrum Pacis, Lünig: [Umstellung: hier: Polen].</note> parte vero
+                    serenissimi regis regnique Sueciae, illustrissimi et excellentissimi domini,
+                    dominus <rs ref="#pp0152">Magnus Gabriel de la Gardie</rs><note n="78"
+                        type="annotation">Magnus Gabriel de la Gardie (1622-1686), Staatsmann,
+                        Diplomat, schwedischer Verhandlungsführer.</note>, comes in Leckoö<note
+                        n="79" type="crit_app">AGADWarschau Dok. Perg. 5611: Läcköö. Böhme: Leckov.
+                        Theatrum pacis: Lekö. Lünig: Leckô.</note> et Arensburg, liber baro in
+                    Eckholmen, d[omi]nus in Habsal<note n="80" type="crit_app">AGADWarschau Dok.
+                        Perg. 5611: Hapsal.</note>, Magnushoff et Hoyendo&lt;r&gt;p<note n="81"
+                        type="crit_app">AGADWarschau Dok. Perg. 5611: Hoyendorff. Theatrum Pacis:
+                        Hoyencorp. 28 M.A.E. Traités. Multilatèraux 16590003, Lünig :
+                        Hoyentorp.</note>, regiae suae majestatis, regnique Sueciae senator et
+                    thesaurarius, generalis gubernator Livoniae et locumtenens per Esthoniam,
+                    Livoniam et Ingriam, militae generalis, judex provincialis Vestrogothiae<note
+                        n="82" type="crit_app">CTS, Dumont: Westrogothiae. Theatrum pacis, Lünig:
+                        Westro-Gothiae. </note> et Daliae, nec non academiae Upsaliensis
+                    cancellarius, d[omi]nus <rs ref="#pp0153">Benedictus Oxenstierna</rs><note
+                        n="83" type="crit_app">Textvariante: Lünig: Oxenstirnia. Sachanmerkung:
+                        Bengt Oxenstierna (1623-1701), Kanzleipräsident.</note>, comes in Korsholm
+                    et Wasa, liber baro in Möreby<note n="84" type="crit_app">AGADWarschau Dok.
+                        Perg. 5611, CTS, Dumont: Moreby.</note> et Lindholmen, dominus in Coporium
+                    et Rosersberg, suae regiae majestatis regnique Sueciae senator et cancellariae
+                    consiliarius. Dominus <rs ref="#pp0154">Christophorus Carolus
+                        Schlippenbach</rs><note n="85" type="annotation">Christoph Carl
+                        Schlippenbach (1624-23.11.1660), Reichsrat, Diplomat.</note>, comes in
+                        Schöuede<note n="86" type="crit_app">AGADWarschau Dok. Perg. 5611: Schöwede.
+                        CTS, Dumont: Schöweede. Böhme: Schowede.</note>, liber baro in Liusala,
+                    dominus in Salinge, suae regiae majestatis, regnique Sueciae senator et consilii
+                    bellici praeses. Et dominus <rs ref="#pp0155">Andreas Gyldenclau</rs><note
+                        n="87" type="crit_app">Textvariante: AGADWarschau Dok. Perg. 5611, CTS,
+                        Dumont,: Guldenklau. 28 M.A.E. Traités. Multilatèraux 16590003, Theatrum
+                        Pacis, Lünig: Guldenclau. Böhme: Güldenklavv. Sachanmerkung: Anders
+                        Gyldenklau (1602-1665), Königlicher Rat.</note>, dominus et haeres in
+                        Schonela<note n="88" type="crit_app">Böhme: Schönela.</note>, Ekeby,
+                        Hylinge<note n="90" type="crit_app">CTS, Dumont: Ekebii, Hylynge.</note> et
+                        Hulterstadt<note n="91" type="crit_app">CTS, Dumont: Hulderstad. Böhme:
+                        Hulderstadt.</note>, regiae suae majestatis consiliarius status, et per
+                    Pomeraniam regiam regiminis ac consilii status, ut et supremae curiae justitiae
+                    praeses. Post invocatum<note n="92" type="crit_app">Theatrum pacis, Lünig:
+                        invocati.</note> Divini numinis auxilium, mutuasque plenipotentiarium
+                    tabulas (quarum apographa sub finem huius instrumenti de verbo ad verbum inserta
+                        sunt<note n="93" type="crit_app">Theatrum Pacis, Lünig: [Auslassung:]
+                        (quarum apographa sub finem huius instrumenti de verbo ad verbum inserta
+                        sunt).</note>) rite commutatas, tractatus pacis auspicato inchoatus est. Et
+                    licet in eius fere decursu, praememoratus serenissimus rex Sueciae, disponente
+                    ita divina providentia, mortali hac<note n="94" type="crit_app">CTS, Dumont:
+                        hae.</note> vita decesserit, tractatus tamen hic renovatis a serenissimo et
+                    potentissimo principe ac domino, domino Carolo, Suecorum, Gottorum,
+                    Vandalorumque rege, et principe haereditario, magno principe Finlandiae, etc.
+                    etc. etc. plenipotentiarium tabulis (quae ad calcem huius tractatus quoque
+                        inseruntur<note n="95" type="crit_app">Theatrum Pacis, Lünig: [Auslassung:]
+                        (quae ad calcem huius tractatus quoque inseruntur).</note>) feliciter
+                    continuatus est, ac tandem ad Divini numinis<note n="96" type="crit_app">Böhme:
+                        nominis.</note> gloriam, et christianae rei publicae salutem, partes omnes
+                    in mutuas pacis et amicitiae leges consenserunt et<note n="97" type="crit_app"
+                        >Lünig: [Auslassung:] consenserunt et.</note> convenerunt, tenore
+                    sequenti.</p>
+                <p>I.<lb/>Sit pax universalis ac perpetua, et vera sinceraque amicitia inter
+                    serenissimum et potentissimum principem ac dominum<note n="98" type="crit_app"
+                        >AGADWarschau Dok. Perg. 5611, 28 M.A.E. Traités. Multilatèraux 16590003,
+                        Theatrum Pacis, Lünig: [Umkehrung der Reihenfolge:
+                        Schweden-Polen-Kaiser-Brandenburg].</note>, dominum <rs ref="#pp0136"
+                        >Joannem Casimirum</rs>, regem Poloniae, magnum ducem Lithuaniae, etc etc.
+                    etc. eiusque regiae majestatis successores ac posteros, reges Poloniae, magnos
+                    duces Lithuaniae, regnumque Poloniae et magnum ducatum Lithuaniae, atque
+                    subiectas illis ditiones ac provincias, atque<note n="99" type="crit_app">Böhme:
+                        ut et.</note> eiusdem majestatis et regni Poloniae confoederatos, inprimis
+                    serenissimum et potentissimum principem ac dominum, <rs ref="#pp0001">dominum
+                        Leopoldum, electum Romanorum Imperatorem</rs>, semper Augustum, Germaniae,
+                    Hungariae, Bohemiae, Dalmatiae, Croatiae, Sclavoniae regem, archiducem Austriae
+                    etc. etc. etc. eiusque majestatis haeredes ac successores, provincias ac
+                    ditiones, intra vel extra Imperium Romanum sitas. Et serenissimum principem ac
+                    dominum, dominum <rs ref="#pp0119">Fridericum Vilhelmum</rs>, marchionem
+                    Brandeburgicum, sacri Romani Imperii principem electorem et archi-camerarium,
+                    Magdeburgi, Prussiae<note n="100" type="crit_app">AGADWarschau Dok. Perg. 5611:
+                        in Prussia. 28 M.A.E. Traités. Multilatèraux 16590003: in (Einschub über der
+                        Zeile).</note> etc etc. etc. ducem, eiusque serenitatis haeredes ac
+                    successores, provincias ac ditiones, in vel extra Imperium Romanum sitas, ab
+                    una. Atque serenissimum et potentissimum principem ac dominum, dominum Carolum,
+                    Suecorum, Gottorum et Vandalorum regem, magnum principem Finlandiae etc. etc.
+                    etc. eiusq<note n="101" type="crit_app">Lünig: [Einschub:] regiae.</note>ue
+                    majestatis successores ac posteros reges Suecorum<note n="102" type="crit_app"
+                        >Böhme: Suecorumque.</note>, regnumque Sueciae, atque subiectas illis
+                        in<note n="103" type="crit_app">AGADWarschau Dok. Perg. 5611, 28 M.A.E.
+                        Traités. Multilatèraux 16590003, GSABerlin VI HA Nr.628, Lünig, Böhme, CTS,
+                        Dumont: intra.</note> vel extra Imperium, ditiones ac provincias, ab altera
+                    parte; ita, ut altera pars alteri posthac nihil hostilitatis aut inimicitiae,
+                    clam aut palam, directe vel indirecte, inferat, vel per suos aut per alios
+                    inferre faciat, nec alterius hostibus auxilia, quocunque nomine praestet, nec
+                    cum alterius hostibus foedera, huic paci contraria ineat, nec qui
+                        &lt;d&gt;quam<note n="104" type="crit_app">Unsichere Lesart. AGADWarschau
+                        Dok. Perg. 5611, 28 M.A.E. Traités. Multilatèraux 16590003, GSABerlin VI HA
+                        Nr.628, Böhme, CTS, Dumont, Theatrum Pacis, Lünig: quicquam.</note> in
+                    alterius status et<note n="105" type="crit_app">Lünig: ac.</note> securitatis
+                    diminutionem per se, vel per alios, moliatur aut tentet, vel tentari faciat, sed
+                    utraque pars alterius utilitatem, honorem ac<note n="106" type="crit_app">Böhme:
+                        et.</note> commodum promoveat, et fidam invicem vincitatem, pacem et
+                    amicitiam, serio colat ac servet. Pacta vero et<note n="107" type="crit_app"
+                        >Böhme: ac.</note> foedera omnia, quae partes paciscentes inter se, vel cum
+                    aliis principibus ac statibus utrinque sancita habent, quo ad omnia sua puncta,
+                    clausulas et articulos, integra et in pleno robore suo permaneant; ita tamen, ut
+                    per ea praesens transactio pacis<note n="108" type="crit_app">AGADWarschau Dok.
+                        Perg. 5611, 28 M.A.E. Traités. Multilatèraux 16590003, Theatrum Pacis,
+                        Lünig: pacis transactio.</note> nullum praeiuditium<note n="109"
+                        type="crit_app">AGADWarschau Dok. Perg. 561, 28 M.A.E. Traités.
+                        Multilatèraux 16590003, Lünig, Böhme, Theatrum Pacis: praejudicium.</note>
+                    patiatur.</p>
+                <p>II.<lb/>§1 Sit utrinque perpetua oblivio et amnistia<note n="110" type="crit_app"
+                        >AGADWarschau Dok. Perg. 5611, 28 M.A.E. Traités. Multilatèraux 16590003,
+                        GSABerlin VI HA Nr.628, Theatrum Pacis, Lünig, Böhme, CTS, Dumont: amnestia
+                        (auch unten).</note> eorum omnium, quae quocunque loco, modoque à quacunque
+                    paciscentium parte hactenus hostiliter facta sunt, ita ut, nec eorum, nec ullius
+                    alterius rei causa, vel praetextu, ulla pars alteri, posthac quicquam
+                    hostilitatis aut inimicitiae, specie juris aut via facti inferat, aut per suos
+                    aliosve inferri faciat.<lb/>§ 2 Hac generali amnistia gaudeant omnes et singuli,
+                    cuiuscunque status, conditionis et religionis fuerint, ut et omnes communitates,
+                    quae ab utrinque partes hostiles secutae sunt, aut in hostilem possessionem
+                    devenerunt; nec ullis hoc bellum praeiudicio et<note n="111" type="crit_app"
+                        >Lünig: aut.</note> noxae sit, in suis juribus, privilegiis ac
+                    consuetudinibus generalibus et specialibus, tam in ecclesiaticis, quam in
+                    civilibus profanisve, quibus ante hoc bellum gavisi sunt, sed iis in totum
+                    fruantur secundum leges regni. Nec ullis communitatibus aut privatis actio,
+                    ratione adhaesionis hosti, intentabitur, ita ut nemini liceat alcui negotium
+                        facessere<note n="112" type="crit_app">AGADWarschau Dok. Perg. 5611,
+                        Theatrum Pacis: facescere.</note>, ratione illius adhaesionis hostilis<note
+                        n="113" type="crit_app">CTS, Dumont: ratione adhaesionis ullius
+                        hostilis.</note>, aut eam exprobare.<lb/>§ 3 Civitatibus Prussiae regalis,
+                    quae in possessione suae<note n="114" type="crit_app">AGADWarschau Dok. Perg.
+                        5611, Theatrum Pacis, Lünig: sacrae. 28 M.A.E. Traités. Multilatèraux
+                        16590003: S.</note> regiae majestatis, regnique Sueciae hoc bello fuerunt,
+                    manebunt itidem omnia jura, libertates et privilegia, quibus sive in
+                    ecclesiasticis, sive in profanis potitae sunt ante hoc bellum (salvo libero, uti
+                        ante<note n="115" type="crit_app">GSABerlin VI HA Nr.628: [Einschub:]
+                        hoc.</note> bellum viguit, in praedictis civitatibus catholicae et
+                    evangelicae religionis exercitio) earumque territoria, magistratus,
+                    communitates, cives, incolas et subditos, sacra regia majestas Poloniae eadem,
+                    qua olim clementia et gratia regia in posterum<note n="116" type="crit_app">CTS,
+                        Dumont: imposterum (auch im Folgenden).</note> prosequetur, fovebit et
+                    tuebitur. Dabitur iisdem quoque facultas, aedificia publica et privata, per
+                    iniuriam belli destructa, reficere et reaedificare. Pro his vero, quae
+                    necessitate defensionis destructa sunt, minime tenebuntur. Quo ad ea vero, quae
+                    militiae Sueticae<note n="117" type="crit_app">28 M.A.E. Traités. Multilatèraux
+                        16590003, Lünig: Sveciae.</note> tributi loco, ab utriusque insulae subditis
+                        exsolvere<note n="118" type="crit_app">GSABerlin VI HA Nr.628, CTS :
+                        exolvere.</note> necesse fuit, a nemine molestia inferetur, sicut et propter
+                    decimas, aliosve<note n="119" type="crit_app">Theatrum Pacis, Lünig:
+                        aliosque.</note> census, quibus subditi insulani satisfacere tempore belli
+                    minime potuerunt, non turbabuntur.<lb/>§ 4 Cunctae actiones et inquisitiones
+                    adversus illos, qui partibus hostilibus hoc bello adhaeserunt, vel easdem secuti
+                    esse insimulantur, quibuscunque in locis Poloniae, magni ducatus Lithuaniae,
+                    Prussiae regalis, Curlandiaeque<note n="120" type="annotation">Kurland, lett.
+                        Kurzeme, historische Landschaft südwestlich der Düna, begrenzt von Rigaer
+                        Bucht und Ostsee, seit 1561 weltliches Herzogtum unter polnischer
+                        Lehnshoheit, seit 1617 Adelsrepublik. Im Krieg zunächst neutral, wurde es
+                        1658 von Schweden besetzt.</note> habitent, cuiuscunque status et
+                        conditionis<note n="121" type="crit_app">Theatrum Pacis: coditionis.</note>
+                    aut religionis sint, sive privati vixerint, sive officio publico functi, aut
+                        servitiis<note n="122" type="crit_app">Böhme: servitio.</note> suae<note
+                        n="123" type="crit_app">AGADWarschau Dok. Perg. 5611, Theatrum Pacis, Lünig:
+                        sacrae. 28 M.A.E. Traités. Multilatèraux 16590003: S.</note> majestatis<note
+                        n="124" type="crit_app">GSABerlin VI HA Nr.628, CTS: Suae regiae majestatis.
+                        28 M.A.E. Traités. Multilatèraux 16590003 : S.R. Maj. AGADWarschau Dok.
+                        Perg. 5611: sacrae regiae Majestatis.</note> Sueciae in sago, vel toga
+                    adstricti fuerint, institutae, nec dum finitae et ad executionem deductae
+                    abrogentur, omnique executione careant in perpetuum. Et in posterum contra eos,
+                    nulla unquam quaestio, vel actio ex hac causa instituetur.<lb/>§ 5 Quae durante
+                    hoc ultimo bello, iure fisci, ex occasione ac praetextu adhaesionis aut
+                    protectionis alterius partis, cuiquam, sive nobili, sive plebeio, cuiuscunque
+                    status, conditionis ac religionis adempta, vel fisco illata, vel aliis collata
+                    sunt bona, sive regia ac reipublicae, sive etiam privatorum sunt<note n="124a"
+                        type="crit_app">CTS, Dumont: sint.</note>, mobilia quidem, si tradita sunt,
+                    modernis possessoribus relinquantur. Si vero eius modi jura caduca hacentus in
+                    executionem deducta non sunt, antiquis possessoribus relinquantur, neque ulla
+                    actio dehinc, adversus communitates aut privatos, ratione eiusmodi bonorum
+                    intentetur. Bona vero immobilia, haereditaria, advitalitia et jure hypothecae
+                    possessa, fiso applicata<note n="125" type="crit_app">AGADWarschau Dok. Perg.
+                        561, 28 M.A.E. Traités. Multilatèraux 16590003, Theatrum Pacis:
+                        adplicata.</note>, tum quorum<note n="126" type="crit_app">Lünig:
+                        quarum.</note> donationes et largitiones factae sunt, sive iam ante tradita,
+                    sive nondum tradita sunt, maneant penes antiquos dominos, cessantibus de caetero
+                    omnibus actionibus, ratione redituum, sive ex publicis, sive ex privatis bonis
+                        perceptorum.<lb/><lb/>III.<note type="crit_app" n="127">CTS, Dumont: §
+                        1.</note><lb/>Serenissimus ac potentissimus princeps ac dominus, dominus <rs
+                        ref="#pp0136">Ioannes Casimirus</rs>, rex Poloniae, pro se ac haeredibus
+                    posterisque suis, amore pacis, vigore huius instrumenti pacis, solenniter<note
+                        n="128" type="crit_app">Theatrum Pacis, Lünig: solemniter.</note> ex nunc et
+                    in perpetuum<note n="129" type="crit_app">Böhme: posterum.</note> renunciat
+                    omnibus praetensionibus in regnum Sueciae et magnum principatum Finlandiae et
+                    alias ipsis subiectas provincias, regiones, ditiones, civitates, castra et
+                    munimenta, sive haec omnia nuper, sive ab antiquo acquisita sint, nec non in
+                    bona avita in regno Sueciae, dictisque provinciis sita in regnum Sueciae<note
+                        n="130" type="crit_app">Böhme: [Auslassung:] dictisque bis Sueciae.</note>,
+                    dictasque provincias et bona, praesentibus vel futuris temporibus nihil
+                        quicquam<note n="131" type="crit_app">AGADWarschau Dok. Perg. 5611, 28
+                        M.A.E. Traités. Multilatèraux 16590003, Theatrum Pacis, Lünig:
+                        quidquam.</note> praetensurus<note n="132" type="crit_app">CTS, Dumont: §
+                        2.</note>. Quo ad titulos et insignia ita conventum est, quod serenissimus
+                    rex Poloniae, prout hacentus, ita in posterum, ad dies vitae suae, utetur
+                    integris titulis et sigillis, insignibusque regni Sueciae in Polonia et ad omnes
+                    principes, status et privatos, extra Sueciam, sine ullo tamen plenariae
+                    supradictae renunciationis praeiudicio. Dictis vero titulis et insignibus non
+                    utetur ad serenissimos reges, regnumque Sueciae in literis<note n="133"
+                        type="crit_app">CTS, Dumont: litteris.</note> aliisve<note n="134"
+                        type="crit_app">AGADWarschau Dok. Perg. 5611, 28 M.A.E. Traités.
+                        Multilatèraux 16590003, Böhme: aliisve.</note> diplomatibus aut scriptis,
+                    sed observabitur ab utrinque receptus hactenus modus abbreviandorum titulorum
+                    cum etcaeterationibus<note n="135" type="crit_app">CTS, Dumont: etceterationibus
+                        (auch unten).</note>, ita, ut post verba, magnus dux Lithuaniae, tres
+                    etcaeterationes, in titulo serenissimi moderni<note n="136" type="crit_app"
+                        >Theatrum Pacis, Böhme: moderni serenissimi.</note> regis Poloniae, et<note
+                        n="137" type="crit_app">CTS, Dumont: et [Auslassung].</note> vicissim post
+                    verba magnus princeps Finlandiae, tres etcaeterationes in titulo serenissimi
+                    regis Sueciae adiiciantur<note n="138" type="crit_app">AGADWarschau Dok. Perg.
+                        5611, 28 M.A.E. Traités. Multilatèraux 16590003, Theatrum Pacis, Lünig: ut
+                        post verba magnus princeps Finlandiae, tres etcaeterationes in titulo
+                        serenissimi regis Sueciae, et vicissim post verba magnus dux Lithuaniae,
+                        tres etcaeterationes in titulo serenissimi moderni regis Poloniae,
+                        adiiciantur.</note>. Insignibus tamen regni Sueciae in sigillis regis et
+                    reipublicae Polonae, dum in Sueciam scribetur, penitus omissis. Post obitum vero
+                    moderni serenissimi regis Poloniae, successores eius et respublica Polona in
+                    titulos et insignia Sueciae nihil<note n="139" type="crit_app">Böhme:
+                        nil.</note> unquam praetendent, sed utrinque reges et regna suis quisque
+                    titulis et insignibus tantum, plenarie gaudebunt et utentur.</p>
+                <p>IV.<lb/>§ 1 Serenissimus rex et status ordinesque regni Poloniae, magnique
+                    ducatus Lithuaniae, a modo et in perpetuum cedunt vi huius pacificationis,
+                    serenissimo regi Sueciae, eiusque successoribus, regibus, regnoque Sueciae,
+                    omnem illam Livoniam trans dunanam<note n="140" type="crit_app">Düna, lett.
+                        Daugava, Fluß, mündet bei Riga in die Ostsee.</note>, quam Suecia hactenus,
+                    per tempus induciarum tenuit et possedit, ut et partes cis dunanas omnes et
+                    insulam Rünen<note n="141" type="crit_app">Textvariante: AGADWarschau Dok. Perg.
+                        5611, 28 M.A.E. Traités. Multilatèraux 16590003, CTS, Dumont: Runen.
+                        Sachanmerkung: Insel Runö, in der Rigaer Bucht gelegen.</note> in mari
+                    sitam, quas per idem tempus induciarum Suecia tenuit et possedit. Nec non
+                        quidquid<note n="142" type="crit_app">AGADWarschau Dok. Perg. 5611,
+                        GSABerlin VI HA Nr.628, Böhme, CTS, Dumont: quicquid.</note> juris regibus
+                    et reipublicae Polonae in Esthoniam et Osiliam<note n="143" type="crit_app"
+                        >GSABerlin VI HA Nr.628: Ösiliam. Oesel, estn. Saaremaa, Ostseeinsel vor der
+                        Rigaer Bucht.</note> hactenus ullo modo competere poterat. Atque haec quidem
+                    omnia et singula, cum omnibus suis pertinentiis, terrestribus et maritimis,
+                    urbibus, arcibus, propugnaculis, bonis et proventibus, nec non iuribus,
+                    iurisdictionibus, regalibus et superioritatibus, tam in ecclesiasticis, quam
+                        in<note n="144" type="crit_app">Lünig: [Auslassung:] in.</note> politicis,
+                    nullis penitus exceptis, in plenum dominium et proprietatem regum, regnique
+                    Sueciae transferunt; Ordinesque et subditos in illa Livonia, eiusque recensitis
+                    partibus, omni erga regem et rempublicam Polonam, obedientiae<note n="145"
+                        type="crit_app">Theatrum Pacis: obediente.</note> vinculo et fidelitatis
+                    sacramento exsolvunt, nihil unquam in eos ac dictam Livoniam, eiusque
+                    pertinentias posthac praetensuri. Cis dunam autem serenissimi reges, regnumque
+                    Sueciae non ulterius<note n="146" type="crit_app">CTS, Dumont: alterius.</note>,
+                    quam hacentus fines suae possessionis in Curlandia aut Semigallia<note n="147"
+                        type="crit_app">Semgallen, Landstrich in Lettland, südlich der Düna
+                        gelegen.</note> promoveant, aut servitutes a subditis<note n="148"
+                        type="crit_app">Böhme: [Auslassung:] a subditis.</note> illustrissimi
+                    Curlandiae ducis exigant, aut ullum ius lignandi, aliudve quod vis in Curlandia
+                    aut Semigallia praetendant. Commissarii vero ad declarandos et determinandos ab
+                    utraque parte fines, ab utrinque deputabuntur, et commissio haec intra quatuor
+                    septimanas a subscripto tractatu inchoetur, et intra duas expediatur.<lb/>§ 2
+                    Quod religionem catholicam, eiusque exercitium in Livonia Suedicae possessionis
+                    attinet, omnes incolae Livoniae, subditique illi religioni addicti, omni
+                    securitate gaudeant, ac conscientia libera religione devotioneque sua domi sine
+                    inquisitione vel animadversione privatim utantur.<lb/>§ 3 Tituli provinciales,
+                    tam spirituales, quam saeculares, senatorii et equestris ordinis in Livonia
+                    Suecica penes possessores modernos maneant, durante ipsorum vita, sine ullis
+                    proventibus aliisve praetensionibus; nec ullum exinde praeiudicium iuris sacrae
+                    regiae maiestatis regnique Sueciae in Livoniam Sueticam, neque praetensio
+                    quaepiam regno Poloniae, Magnoque Ducatui Lithuaniae interea temporis et in
+                    futurum inde enascetur.<lb/>§ 4 Iudicia omnia decretaque ad cuiusvis instantiam,
+                    modo non in invitos aut absentes lata, nec non contractus et transactiones in
+                    locis, dum illa Suecia hoc bello<note n="149" type="crit_app">AGADWarschau Dok.
+                        Perg. 5611, 28 M.A.E. Traités. Multilatèraux 16590003, CTS, Dumont, Theatrum
+                        Pacis, Lünig, Böhme: hoc bello Suecia.</note> tenuit, institutae
+                    iudicialiter, sive extra iudicialiter, si modo statui publico, qui ante hoc
+                    bellum fuit, et pacificationi praesenti non contrariantur, firma maneant, aeque
+                    ac si nulla regiminis et magistratuum mutatio intervenisset, salvis
+                    appellationibus et revisionibus in iis, in quibus haec juris remedia hactenus
+                    haud fuerunt adhibita, et quae in rem iudicatam non transierunt. Sententiae
+                    quoque et decreta, si quae Rigae in incolas et subiectos<note n="150"
+                        type="crit_app">Theatrum Pacis, Lünig: subditos.</note> magni ducatus
+                    Lithuaniae, tum et Curlandiae Semigalliaeque, in invitos vel in auditos; et ex
+                    adverso, si similia per magistratus magni ducatus Lithuaniae et Curlandiae in
+                    Livoniae Sueciae subditos, circa tempus belli lata fuerint, nullum valorem et
+                    robur obtinebunt in perpetuum.<lb/><lb/>V. <lb/>§ 1 Pars Livoniae<note n="151"
+                        type="crit_app">Theatrum Pacis, Lünig, Böhme: [Einschub] eaque.</note>
+                    australis, quae ante haec et per haec bella et temporibus induciarum, sub
+                    ditione fuit regni Poloniae, magnique<note n="152" type="crit_app">AGADWarschau
+                        Dok. Perg. 5611, 28 M.A.E. Traités. Multilatèraux 16590003: et magni.</note>
+                    ducatus Lithuaniae, nempe Duneburgum<note n="153" type="crit_app">Dünaburg,
+                        lett. Daugavpils, Stadt an der Düna.</note>, Rositen<note n="154"
+                        type="crit_app">Textvariante: GSABerlin VI HA Nr.628: Rositten. CTS:
+                        Rositten. Dumont: Rossiten. Sachanmerkung: Rossiten, estn. Rezekne, Ort auf
+                        der Kurischen Nehrung.</note>, Lutzen<note n="155" type="crit_app"
+                        >Textvariante: 28 M.A.E. Traités. Multilatèraux 16590003, Theatrum Pacis:
+                        Luzen. Lünig: Lüzen. Sachanmerkung: Lötzen, poln. Giżycko, Stadt in
+                        Ostpreußen. Marienhaus, im östlichen Livland gelegen.</note>,
+                        Marienhusen<note n="156" type="crit_app">Textvariante: AGADWarschau Dok.
+                        Perg. 5611, 28 M.A.E. Traités. Multilatèraux 16590003: Marienhausen.
+                        AGADWarschau Dok. Perg. 5611, GSABerlin VI HA Nr.628, CTS, Dumont, Theatrum
+                        Pacis, Lünig: etc. [Einschub]. Sachanmerkung: Marienhaus, im östlichen
+                        Livland gelegen.</note>, itemque reliqua omnia loca, quae per commissarios
+                    ad id utrinque deputandos Polonicae possessionis per tempus induciarum fuisse
+                        invenientur<note n="157" type="crit_app">GSABerlin VI HA Nr.628: Induciarum
+                        Poloniae possessionis invenientur. AGADWarschau Dok. Perg. 5611, 28 M.A.E.
+                        Traités. Multilatèraux 16590003, CTS, Dumont: deputandos fuisse per tempus
+                        induciarum Polonicae possesiones invenientur.</note>, cum omnibus suis
+                    pertinentiis, territioriis, urbibus, pagis, fructibus et proventibus
+                        theloneisque<note n="158" type="crit_app">AGADWarschau Dok. Perg. 5611, 28
+                        M.A.E. Traités. Multilatèraux 16590003, CTS, Dumont, Theatrum Pacis, Böhme:
+                        teloneisque (auch im Folgenden). Lünig: teloniisque.</note> iuribus,
+                    directoque et utili dominio remanent in possessione serenissimorum regum et
+                    regni Poloniae, magnique<note n="160" type="crit_app">AGADWarschau Dok. Perg.
+                        5611, 28 M.A.E. Traités. Multilatèraux 16590003, CTS, Dumont: et
+                        magni.</note> ducatus Lithuaniae, nec serenissimi reges regnumque Sueciae in
+                    istam partem Livoniae, ut ab altera diversam, neque in ducatus Curlandiae,
+                    Semigalliaeque et districtum Piltensem<note n="161" type="crit_app">Pilten,
+                        Stift in Kurland. 1585 von Preußen erworben, 1609/12 an Kurland
+                        zurückgegeben.</note>, vel respectu Livoniae septentrionalis<note n="162"
+                        type="crit_app">CTS, Dumont: septemtrionalis.</note>, vel quovis alio
+                    praetextu nullum<note n="163" type="crit_app">AGADWarschau Dok. Perg. 5611,
+                        GSABerlin VI HA Nr.628, 28 M.A.E. Traités. Multilatèraux 16590003, Lünig,
+                        Theatrum Pacis, Böhme, CTS, Dumont: ullum.</note> unquam ius praetendent aut
+                    praetendere poterunt<note n="164" type="crit_app">Lünig: potuerunt.</note>.
+                    <lb/>§ 2<note n="165" type="crit_app">28 M.A.E. Traités. Multilatèraux 16590003,
+                        AGADWarschau Dok. Perg. 5611, GSABerlin VI HA Nr.628, Lünig, Theatrum Pacis,
+                        Böhme, CTS, Dumont: Zählung fehlt.</note> Cum vero magnus dux
+                        Moschoviae<note n="166" type="crit_app">AGADWarschau Dok. Perg. 5611, 28
+                        M.A.E. Traités. Multilatèraux 16590003, Lünig, CTS, Dumont: Moscoviae
+                        [Schreibweise auch im Folgenden].</note>, non modo dictam Livoniam
+                    Polonicam, sed etiam partem Sueciae occupatas armis nunc teneat, ideo conventum
+                    est, ut, si respublica Polona aliquid ex Livonia Suecica<note n="167"
+                        type="crit_app">AGADWarschau Dok. Perg. 5611, 28 M.A.E. Traités.
+                        Multilatèraux 16590003, Theatrum Pacis, Lünig: ut si Suecia aliquid ex
+                        Livonia Polonica.</note>, quocunque tempore a Moschis, armis, tractatibus,
+                    aut aliter<note n="168" type="crit_app">AGADWarschau Dok. Perg. 5611: [Korrektur
+                        durch eine Streichung:] aut aliter aut aliter.</note> receperit, teneatur
+                    totum id Sueciae<note n="169" type="crit_app">28 M.A.E. Traités. Multilatèraux
+                        16590003, AGADWarschau Dok. Perg. 5611, Theatrum Pacis, Lünig: totum id
+                        Poloniae et magno ducatui Lithuaniae.</note>, ultro et gratuito non
+                    imputatis belli expensis<note n="170" type="crit_app">AGADWarschau Dok. Perg.
+                        5611, 28 M.A.E. Traités. Multilatèraux 16590003, Theatrum Pacis: expensis
+                        belli.</note> restituere. Eodem modo et vicissim, si regnum Sueciae<note
+                        n="171" type="crit_app">AGADWarschau Dok. Perg. 5611, 28 M.A.E. Traités.
+                        Multilatèraux 16590003 : si Polonia. Theatrum Pacis, Lünig: si respublica
+                        Polona.</note> aliquid ex Livonia Polonica<note n="172" type="crit_app"
+                        >AGADWarschau Dok. Perg. 5611, 28 M.A.E. Traités. Multilatèraux 16590003,
+                        Theatrum Pacis, Lünig: ex Livona Suecica.</note>, quocunque tempore a
+                    Moschis armis, tractatibus, aut aliter receperit, teneatur totum illud Poloniae
+                    et magno ducatui Lithuaniae<note n="173" type="crit_app">AGADWarschau Dok. Perg.
+                        5611, 28 M.A.E. Traités. Multilatèraux 16590003, Theatrum Pacis, Lünig: id
+                        Suecia.</note>, ultro et gratuito, non imputatis expensis belli<note n="174"
+                        type="crit_app">GSABerlin VI HA Nr.628, CTS: belli expensis.</note>,
+                        restituere<note n="175" type="crit_app">AGADWarschau Dok. Perg. 5611, 28
+                        M.A.E. Traités. Multilatèraux 16590003, GSABerlin VI HA Nr.628, Lünig,
+                        Böhme, CTS, Dumont, Theatrum Pacis: §2.</note>. Titulis et insignibus
+                    Livoniae, tam sacra regia maiestas Poloniae, eiusque successores reges Poloniae
+                    et magni<note n="176" type="crit_app">28 M.A.E. Traités. Multilatèraux 16590003,
+                        Böhme, CTS, Dumont: magnique. AGADWarschau Dok. Perg. 5611, GSABerlin VI HA
+                        Nr.628, Theatrum Pacis, Lünig: magnique duces.</note> ducatus Lithuaniae
+                    ratione australis Livoniae, tum<note n="177" type="crit_app">CTS: tam.
+                        AGADWarschau Dok. Perg. 5611, 28 M.A.E. Traités. Multilatèraux 16590003,
+                        GSABerlin VI HA Nr.628, Theatrum Pacis, Lünig, Dumont: quam.</note> sacra
+                    regia maiestas Sueciae<note n="178" type="crit_app">28 M.A.E. Traités.
+                        Multilatèraux 16590003, AGADWarschau Dok. Perg. 5611, Theatrum Pacis, Lünig,
+                        Böhme: eiusque successores reges Sueciae [Einschub].</note>, ratione
+                    septentrionalis Livoniae sub titulo ducatus promiscue utentur<note n="179"
+                        type="crit_app">AGADWarschau Dok. Perg. 5611, 28 M.A.E. Traités.
+                        Multilatèraux 16590003: Livoniae promiscue utentur, sub titulo ducatus.
+                        GSABerlin VI HA Nr.628, Theatrum Pacis, Lünig: quam sacra regia maiestas
+                        Sueciae, eiusque successores reges Sueciae, ratione Livoniae septentrionalis
+                        sub titulo ducatus promiscue utentur. CTS: ratione septemtrionalis,
+                        promiscue utentur sub titulo ducatus. Dumont: quam sacra regia majestatis
+                        Sueciae, ejusque successores reges Sueciae, ratione Livoniae
+                        septemtrionalis, promiscue utentur sub titulo ducatus.</note>.<lb/>§ 3 Si
+                    quas posthac controversias de limitibus aut de rebus aliis inter regnum
+                    Poloniae, magnum ducatum Lithuaniae, Livoniam Polonicam, Curlandiamque et
+                    Semigalliam ab una<note n="180" type="crit_app">28 M.A.E. Traités. Multilatèraux
+                        16590003 : [Einschub :] parte.</note>, et regnum Sueciae, eique subiectas
+                    provincias, inprimisque Livoniam Sueciam<note n="181" type="crit_app">28 M.A.E.
+                        Traités. Multilatèraux 16590003: [Auslassung:] inprimisque Livoniam
+                        Suecicam. AGADWarschau Dok. Perg. 5611: inprimisque Livoniam Suecicam
+                        [nachträglicher Einschub am Seitenrand in abweichender Handschrift]. Lünig:
+                        Svecicam.</note>, ab altera parte<note n="182" type="crit_app">AGADWarschau
+                        Dok. Perg. 5611, 28 M.A.E. Traités. Multilatèraux 16590003: parte
+                        [Auslassung].</note>, incidere et suboriri contigerit, eae per deputatos
+                    utrinque commissarios ad fines Livoniae amicabili ratione complanentur. Si quae
+                    vero lites minores exortae fuerint inter subditos et incolas<note n="183"
+                        type="crit_app">28 M.A.E. Traités. Multilatèraux 16590003, Theatrum Pacis:
+                        accolas.</note> utriusque partis, nec transigi de iis amicabiliter inter
+                    litigantes possit, quae libet pars ad suum competens forum remittatur, et
+                    iustitia indilate administretur.<lb/>§ 4 Subditi hoc ultimo bello<note n="184"
+                        type="crit_app">28 M.A.E. Traités. Multilatèraux 16590003, AGADWarschau Dok.
+                        Perg. 5611, GSABerlin VI HA Nr.628, CTS, Lünig, Theatrum Pacis: [Einschub:]
+                        et in futurum fugitivi.</note> magni ducatus Lithuaniae, Samogitiae<note
+                        n="185" type="crit_app">Samland, Halbinsel zwischen Kurischem und Frischem
+                        Haff, kam 1525 zum Deutschen Orden.</note>, Curlandiae, Livoniae
+                        Polonicae<note n="186" type="crit_app">AGADWarschau Dok. Perg. 5611, 28
+                        M.A.E. Traités. Multilatèraux 16590003, Theatrum Pacis, Lünig, Böhme: magni
+                        ducatus Lithuaniae, Samogitiae, Livoniae Polonicae et Curlandiae,
+                        Semigalliaeque. GSABerlin VI HA Nr.628, CTS, Dumont: Livoniae Polonicae et
+                        Curlandiae Semigalliaeque.</note>, quicunque in Livonia Suecia<note n="187"
+                        type="crit_app">Theatrum Pacis, Lünig: Svedica.</note> reperti fuerint, suis
+                    dominis, sine ullo processu iuris reddentur, una cum suis mobilibus, quae
+                    inveniri poterunt, quae profugus secum tulit, nec sub novo domino acquisivit.
+                    Quod etiam vice versa observabitur, si qui subditi fugitivi Livoniae
+                        Suecicae<note n="188" type="crit_app">Theatrum Pacis, Lünig:
+                        Svedicae.</note> in magno ducatu Lithuaniae, Curlandiae, Livonia Polonica
+                    reperti fuerint. Si qui etiam abducti sunt, et adhuc supersunt, reddantur et
+                    illi, sine processu iudiciario, suis quisque<note n="189" type="crit_app"
+                        >AGADWarschau Dok. Perg. 5611, 28 M.A.E. Traités. Multilatèraux 16590003,
+                        Theatrum Pacis, Lünig, Böhme: quique.</note> dominis.<lb/>§ 5 Quo<note
+                        n="190" type="crit_app">CTS, Dumont: quod.</note> favorem commerciis et
+                    navigationi sacra regia m[ajes]tas Poloniae contestetur, signa nautica in
+                    Domesnes et Luserort<note n="191" type="crit_app">CTS, Dumont: Luserorth
+                        [geographische Angabe konnte nicht ermittelt werden].</note> extructa<note
+                        n="193" type="crit_app">Böhme: exstructa.</note>, consistere permittit. De
+                    ratione vero conservationis et manutentionis eorundem, convenietur à Suecis cum
+                    fundi dominis, nullo inde jure aut praetensione regni Sueciae in fundos dictos
+                    aut territorium Piltense enascente aut enascituro.</p>
+                <p/>
+                <p>VI.<lb/>Illustrissimus in Livona Curlandiae et Semigalliae <rs ref="#pp0156"
+                        />dux<note n="194" type="annotation">Jacob Kettler (1642-1682), Herzog von
+                        Kurland; er geriet 1658 in schwedische Gefangenschaft.</note>, cum
+                    serenissima coniuge, proleque sua ducali, ac tota familia et aula, absque ulla
+                    protractione intra sex septimanarum spatium, a die quinta aprilis styli novi
+                    Rigam sistetur. Inde vero intra dies quatuordecim decenti et suae dignitati
+                    accomodato, convenientique modo, ubi modernus tractatus subscriptus fuerit, ad
+                    fines Semigalliae deducetur, omniaque sua, suorumque mobilia non distracta,
+                    ubicunque intercepta, vel Rigae deposita, literatoria similiter, sive publica,
+                    sive privatorum documenta, bona fide extradentur, et Mitaviam<note n="195"
+                        type="annotation">Mitau, Stadt in Kurland, südwestlich der Düna und Rigas
+                        gelegen.</note> reportabuntur. Ante eliberationem autem suam ac
+                    restitutionem plenariam peculiari reversalium diplomate caveat de non
+                    offendendo, aut vindicando aliquid contra sacram<note n="196" type="crit_app"
+                        >AGADWarschau Dok. Perg. 5611, 28 M.A.E. Traités. Multilatèraux 16590003:
+                        suam.</note> regiam m[ajes]t[atem]. regnumque Sueciae<note n="197"
+                        type="crit_app">CTS, Dumont: Sueciae [Auslassung].</note> in futurum; salva
+                    fidelitate et obligatione regibus regnoque Poloniae et magno ducatui Lithuaniae
+                    debita.</p>
+                <p>VII.<lb/>§ 1 Serenissimus rex, regnumque Sueciae, restituit serenissimo regi, rei
+                        publicaeque<note n="198" type="crit_app">Theatrum Pacis, Lünig, CTS, Dumont:
+                        reique Publicae.</note> Poloniae Mariaeburgum, Elbingamque cum suis
+                    fortalitiis, reliquaque in Prussia loca, quae Sueticis<note n="199"
+                        type="crit_app">Theatrum Pacis, Lünig: Svedicis.</note> praesidiis tenentur.
+                    Ac Mariaeburgum quidem una cum arce ac fortalitiis suis, ut et Stuma<note
+                        n="200" type="crit_app">Stuhm, poln. Stumska Wieś, Stadt in
+                        Westpreußen.</note> intra octiduum, a subscriptione moderni tractatus, et
+                    deposita in manus excellentissimi domini mediatoris, serenissimi regis Poloniae
+                    provisionali horum pactorum ratificatione evacuabitur, et praesidium
+                        Sueticum<note n="201" type="crit_app">Theatrum Pacis, Lünig:
+                        Svedicum.</note> inde Elbingam deducetur. Elbinga autem cum suis
+                    fortalitiis, ubi tractatus modernus, plenaria serenissimi regis Poloniae
+                    ratificatione confirmatus, et per reipublicae comitiali authoritate<note n="202"
+                        type="crit_app">28 M.A.E. Traités. Multilatèraux 16590003:
+                        autoritate.</note> delegatos pro futuro conventu ratificatus fuerit,
+                    quatriduo post ipsam ratificationum commutationem, sine contradictione
+                    evacuabitur, et in manus serenissimi Poloniae regis, eiusque commissariorum
+                    tradetur. Bauskum<note n="203" type="crit_app">Bauske, Bauska, Ort in Kurland.
+                        Böhme: Bauscum.</note> etiam, uti<note n="204" type="crit_app">Theatrum
+                        Pacis, Lünig: ut.</note> et reliqua, si quae sint in Suecorum potestate,
+                    loca in Curlandia, praesidiis Sueticis<note n="205" type="crit_app">Theatrum
+                        Pacis, Lünig: Svedicis.</note> evacuabuntur, intra octiduum, postquam
+                    notitia ad generalem exercituum in Livonia, vel in absentia eius, ad eius
+                    locum-tenentem pervenerit, de subscripto tractatu, quae notitia per tubicines
+                    utriusque partis coniunctim Rigam deferetur.<lb/>§ 2 Deductio militiae
+                        Sueticae<note n="206" type="crit_app">Theatrum Pacis, Lünig:
+                        Svedicae.</note>, una cum bellicis tormentis maioribus et minoribus iuxta
+                    factam hic conventionem, nec non cum impedimentis, fiet Elbinga diversis
+                    vicibus, intra tamen definitum tempus permutationis ratificationum et
+                    evacuationis Elbingae, dato eidem libero et innoxio transitu per Habum<note
+                        n="207" type="crit_app">Frisches Haff.</note> ad portum Pilaviensem<note
+                        n="208" type="crit_app">AGADWarschau Dok. Perg. 5611, 28 M.A.E. Traités.
+                        Multilatèraux 16590003, Dumont, Theatrum Pacis, Lünig: Pillaviensem. Böhme :
+                        Pillauiensem. Pillau, heute russ. Baltijsk, Hafenstadt bei Königsberg. Im
+                        polnisch-schwedischen Krieg wichtiger Kriegshafen Schwedens.</note>, et inde
+                    ad naves proprias, quas milites conscensuri et ad ditiones Sueticas<note n="209"
+                        >Theatrum Pacis, Lünig: Svedicas.</note> ituri sunt. Imponetur autem dicta
+                    milita circa deductionem navibus Elbinganis, et si illae non sufficiant, tum
+                    navibus adiacentium territoriorum aliorum, sine aliquo pretio. Communicabit
+                    etiam praefectus militiae Sueticae<note n="210" type="crit_app">Theatrum Pacis,
+                        Lünig: Svedicae.</note>, et conveniet cum praefecto militiae electoralis,
+                    aut eius locumtenente, de eiusmodi dedactione sine damno et noxa subditiorum in
+                    Prussia tam Polonicarum quam electoralium<note n="211" type="crit_app"
+                        >AGADWarschau Dok. Perg. 5611, 28 M.A.E. Traités. Multilatèraux 16590003,
+                        GSABerlin VI HA Nr.628, Theatrum Pacis, Böhme, CTS, Dumont: locumtenente, de
+                        modo transitus per dictum portum Pillaviensem. Et fiat de caetero eiusmodi
+                        deductio sine damno, et noxa subditorum in Prussia, tam Polonicorum, quam
+                        Electoralium.</note>. Quod si per periculum belli maritimo itineri militia
+                    se se committere<note n="212" type="crit_app">Theatrum Pacis, Lünig: belli
+                        maritimo itineri sese militia comittere.</note> tuto nequeat, liber illi et
+                    innoxius transitus per terram quam brevissimo itinere, in ditiones iuris
+                        Suetici<note n="213" type="crit_app">Theatrum Pacis, Lünig: Svedici.</note>
+                    proximas sine damno incolarum reipublicae Poloniae et serenissimo electori
+                        Brandeburgico<note n="214" type="crit_app">Theatrum Pacis, Lünig, CTS:
+                        Brandenburgico.</note>, subiectorum deducentibus commissariis serenissimorum
+                    regis Poloniae et electoris Brandeburgici<note n="215" type="crit_app">Theatrum
+                        Pacis, Lünig, CTS: Brandenburgici.</note>, concedi debet, iustitia vero per
+                    praefectos indilata, bona fide administretur, damna et iniuriam passis.<lb/>§ 3
+                    Si cui aut quibus in civitatibus Prussiae evacuandis, earumque territoriis, non
+                    placuerit manere, sed mutato domicilio alio se conferre<note n="216"
+                        type="crit_app">Böhme: sese conferre.</note>, iis liberum sit in spatio
+                    trium ab hinc annorum sua divendere, aliis elocare, aut pro suo libitu<note
+                        n="217" type="crit_app">AGADWarschau Dok. Perg. 5611, 28 M.A.E. Traités.
+                        Multilatèraux 16590003, Theatrum Pacis, Lünig, Böhme: lubitu.</note>
+                    distrahere, sine ullo impedimento aut onere, sub quocunque praetextu imponendo,
+                    salvis antiquis civitatum iuribus et privilegiis.</p>
+                <p>VIII.<lb/>Quidquid<note n="218" type="crit_app">AGADWarschau Dok. Perg. 5611, 28
+                        M.A.E. Traités. Multilatèraux 16590003, Theatrum Pacis, Lünig, Böhme:
+                        quicquid.</note> in Polonia et magno ducatu Lithuaniae, provinciisque
+                    annexis, in iisque Curlandia, per hoc bellum serenissimo regi regnoque Sueciae,
+                    eorumque ducibus ac legatis, vel a privatis, vel a communitatibus, exercitibus
+                        et<note n="219" type="crit_app">28 M.A.E. Traités. Multilatèraux 16590003:
+                        [Auslassung:] et.</note> provinciis per necessitatem belli, vel aliter datum
+                    est, quocunque titulo, diplomatum, obligationum et literarum<note n="220"
+                        type="crit_app">Lünig: litterarum.</note>, instrumentorum et actorum
+                    publicorum, ea omnia autographa, quae supersunt, serenissimo regi et rei
+                    publicae Polonae<note n="221" type="crit_app">Lünig: Poloniae.</note> ducique
+                    Curlandiae, circa ratificationum commutationem, bona fide extradentur. Quod si
+                    naufragio absorpta sint, vel alio modo perierint, omnia eiusmodi scripta,
+                    actaque privata et publica ex nunc cassantur, annihilantur et eliminantur,
+                    nihilque exinde reges regnumque Sueciae in provincias, exercitus, districtus vel
+                    privatos in Polonia, magno ducatu Lithuaniae et povinciis illis annexis vel
+                    subiectis, in specie etiam Curlandia et districtu Piltensi, iuris praetendere
+                    velle aut posse, omni meliori modo declaratur.</p>
+                <p>IX.<lb/>Restituentur quoque a parte Suecorum omnia archiva, acta publica,
+                    castrensia, iuridica, ecclesiastica, nec non bibliotheca regia, quae ex regno
+                    Poloniae et magno ducatu Lithuaniae avecta, et quorum copia haberi potest, idque
+                    intra tempus commutationis ratificationum, vel ad summum intra tres menses à
+                    facta commutatione.</p>
+                <p>X.<lb/>Obligationes atque recognitiones, si quae sunt ab illustrissimo Curlandiae
+                    et Semigalliae duce, aut incolis Curlandiae et Semigalliae, districtusque
+                    Piltensis extortae per Suecos, aut viceversa, a Suecis per Polonos, in totum
+                    cassantur, nullumque habere pondus declarantur.</p>
+                <p>XI.<lb/>Debita inter utriusque partis subditos et incolas, tum etiam a ducibus et
+                    officiariis belli, ubicunque contracta, utrinque bona fide solventur. Si quae
+                    vero hoc bello ultimo obligationes et recognitiones extortae ab utrinque sint,
+                    in totum cassantur, nullumque pondus habere declarantur.</p>
+                <p>XII.<lb/>Deposita, aliaque bona mobilia, ubicunque reperiuntur et fisco nondum
+                    adiudicata, bona fide propriis dominis restituantur. Nemo autem tenebitur ad
+                    eorum refusionem, quae fisco adiudicata et extradita sunt, praestandam.</p>
+                <p>XIII.<lb/>Tormenta bellica maiora, minoraque in Polonia, magno ducatu Lithuaniae,
+                    Prussia, Curlandia caeterisque annexis provinciis à Suecis capta, sive sint
+                    reipublicae, sive privatorum, sive civitatum, quaecunque in locis evacuandis
+                    reperientur, exacte relinquentur. Quae vero ex Suecia invecta sunt in Poloniam,
+                    Lithuaniam, Prussiam, Curlandiam, liberum erit Sueciae sine ulla praetensione,
+                    secum auferre. Transactioni quoque deditionis Thoruniae<note n="222"
+                        type="annotation">Thorner Übergabetraktat, vermutlich: Zweiter Thorner
+                        Frieden 1466 X 19, durch den der Deutsche Orden Gebiete (u.a. Kulm,
+                        Pomerellen, Ermland, Marienburg, Elbing) an Polen abgeben mußte. Der
+                        Hochmeister mußte als polnischer Fürst für das ihm verbliebene Land einen
+                        persönlichen Lehnseid auf den polnischen König ablegen.</note>, quod adhuc
+                    restat, hac in re satisfiet.</p>
+                <p>XIV.<lb/>§ 1 Quicunque hoc bello, ab utrinque inter Polonos, Lithuanos et
+                        Suecos<note n="223" type="crit_app">AGADWarschau Dok. Perg. 5611, 28 M.A.E.
+                        Traités. Multilatèraux 16590003, Theatrum Pacis, Lünig: inter Suecos,
+                        Polonos et Lithuanos.</note>, in quocunque loco capti sunt, ciuscunque
+                    conditionis ac status, liberi et sine ullo soluto pretio, nisi aliter ante hunc
+                    tractatum ab ipsis conventum fuerit, dimittentur, pristinaeque libertati
+                    restituentur, solutis tamen impensis officiariorum, in victum eorum factis et
+                    debitis in captivitate ab eis contractis. Caeterum captivis quoque annumerandi
+                    et ab utraque parte restituendi sunt, qui inviti militiae alterius partis nomina
+                    dederunt. Omnes vero supradicti, qui quidem in Polonia, magno ducatu Lithuaniae,
+                    Prussia regali, utraque Livonia aut Curlandia detinentur, intra tres septimanas
+                    à subscripto moderno tractatu, illi autem, qui extra Poloniam, Lithuaniam,
+                    Livonias et Curlandiam detinentur, intra tres menses libertati restituantur.
+                    Quod autem de lytri conventi solutione hic supra dictum est, tantum locum
+                    habebit, in maioribus officiariis, ut pote de generalibus, tribunis, tribunorum
+                    locumtenentibus et capitaneis.<lb/>§ 2 Sacra regia maiestas et regnum Poloniae,
+                    magnusque ducatus Lithuaniae, id paci huic perpetuae dandum censuerunt, ut
+                        authoritatem<note n="224" type="crit_app">28 M.A.E. Traités. Multilatèraux
+                        16590003, Theatrum Pacis, Lünig, Böhme, CTS, Dumont: autoritatem.</note> et
+                    officia sua interponant apud Chamum Hordasque Tartarorum, quo sine lytro captivi
+                    in Tartaria Suetici<note n="225" type="crit_app">Theatrum Pacis, Lünig:
+                        Svedici.</note> intra sex abhinc menses inde dimittantur, dimissi vero per
+                    regnum Poloniae, magnumque ducatum Lithuaniae, annexasque iis provincias
+                        liberi<note n="226" type="crit_app">Theatrum Pacis, Lünig, Böhme:
+                        libere.</note> ac tuto transeant, et benigne habiti ad provincias ac
+                    ditiones iuris Suetici<note n="227" type="crit_app">Theatrum Pacis, Lünig:
+                        Svedici.</note> promoveantur.</p>
+                <p>XV.<lb/>§ 1 Commercia pristina sint libera et non impedita inter utrumque regnum
+                    Poloniae, magnumque ducatum Lithuaniae et Sueciae<note n="228" type="crit_app"
+                        >AGADWarschau Dok. Perg. 561, 28 M.A.E. Traités. Multilatèraux 16590003,
+                        Theatrum Pacis, Lünig: utrumque regnum Sueciae et Poloniae, magnumque
+                        ducatum Lithuaniae.</note>, subiectasque<note n="229" type="crit_app">28
+                        M.A.E. Traités. Multilatèraux 16590003: subjectas.</note> illis provincias,
+                    subditos et incolas, tam terra quam mari, et in veteri usu atque exercitio, quo
+                    fuerunt tempore induciarum, conserventur<note n="230" type="crit_app">Theatrum
+                        Pacis: conservetur.</note>. Inprimis sit liberum commerciorum exercitium,
+                    liberaque defluitatio<note n="231" type="crit_app">CTS, Dumont:
+                        difluitatio.</note> mercium per fluvium Dunam et Bulderaviam<note n="232"
+                        type="crit_app">Düna und Bulderaa, Flüsse.</note> subditis et incolis regni
+                    Poloniae, magnique ducatus Lithuaniae et Polonicae Livoniae, Curlandiaeque ac
+                    Semigalliae, cum subditis incolisve<note n="233" type="crit_app">Theatrum Pacis,
+                        Lünig, Böhme: incolisque.</note> Livoniae Sueticae<note n="234"
+                        type="crit_app">Theatrum Paci, Lünig: Svedicae.</note>, et vice versa
+                    subditis incolisque regni Sueciae et Livoniae Sueticae<note n="235"
+                        type="crit_app">Theatrum Pacis, Lünig: Svedicae.</note>, sit liber
+                    commerciorum usus per eadem flumina cum subditis incolisque Poloniae,
+                    Lithuaniae, Livoniae Polonicae et Curlandiae, Semigalliaeque, theloneorum vero
+                    et vectigalium in flumine Duna et Bulder&lt;.&gt;a<note n="236" type="crit_app"
+                        >Unsichere Lesart: [i] oder [a]. GSABerlin VI HA Nr.628, 28 M.A.E. Traités.
+                        Multilatèraux 16590003, Theatrum Pacis, Lünig: Bulderavia. AGADWarschau Dok.
+                        Perg. 5611, CTS, Dumont: Bulderaa. Böhme: Buldera.</note>, ut et maritimorum
+                    ac terrestrium in Livonia eadem ratio, et in iisdem tantum locis, ab utraque
+                    parte inposterum sit, uti et ubi tempore induciarum et ante hoc ultimum bellum
+                    fuit.<lb/>§ 2 Maioris<note n="237" type="crit_app">Lünig: majores.</note> quoque
+                    Poloniae incolae, cuiuscunque conditionis sint, sive terra, sive aqua commercia
+                    sua exercentes, nullis novis theloneis<note n="238" type="crit_app">Theatrum
+                        Pacis, CTS, Dumont: teloniis. Lünig: telonis.</note> et gabellis Stetini
+                    onerabuntur.<lb/>§ 3 Civitas quoque Gedanensis<note n="239" type="crit_app"
+                        >Danzig.</note>, et aliae Prussiae civitates, in regno Sueciae et subiectis
+                    provinciis aliis, gaudeant ea libertate commerciorum et vectigalium, qua gavsiae
+                    sunt, ante hoc novissimum bellum.</p>
+                <p>XVI.<lb/><rs ref="#pp0157">Dominus comes Königsmarckius</rs><note n="240"
+                        type="crit_app">Textvariante: Böhme: Königsmarkius. Sachanmerkung: Hans
+                        Christoph Graf von Königsmarck (1600-1663), schwedischer
+                        Feldmarschall.</note>, campi mareschallus<note n="241" type="crit_app"
+                        >GSABerlin VI HA Nr.628, CTS, Dumont: marschalcus. Theatrum Pacis:
+                        marschallus.</note> Sueciae, absque ulla protractione, intra sex
+                    septimanarum spatium à die quinta aprilis styli novi Dantiscum modo decenti
+                    sistetur. Inde vero intra dies quatuordecim, ubi modernus tractatus subscriptus
+                    fuerit, eliberabitur; ante restitutionem<note n="242" type="crit_app">Theatrum
+                        Pacis: eliberationem.</note> autem plenariam, peculiari reversalium
+                        diplomate<note n="243" type="crit_app">CTS, Dumont: diplomate
+                        reversalium.</note> caveat de non offendendo et vindicando aliquid contra
+                    sacram regiam maiestatem regnumque Poloniae et specialiter civitatem Gedanensem,
+                    salva tamen debita regibus, regnoque Sueciae obedientia et fide.<lb/><lb/>XVII.
+                    <lb/>Serenissimus rex et respublica Poloniae, illustrissimae principis, <rs
+                        ref="#pp0158">Annae Mariae</rs><note n="244" type="annotation">Anna Maria
+                        Radziwiłł (gest. 1667), Tochter von Janusz Radziwiłł.</note>, defuncti
+                    illustrissimi ducis<note n="245" type="crit_app">AGADWarschau Dok. Perg. 5611:
+                        principis.</note>
+                    <rs ref="#pp0159">Ianussy Radzivillii</rs><note n="246" type="crit_app"
+                        >Textvariante: 28 M.A.E. Traités. Multilatèraux 16590003: Janussy
+                        Radzivilii. Böhme: Ianussii Radziuillii. Theatrum Pacis: Januszii
+                        Radzivilii. CTS, Dumont: Januschii Radzivilii. Sachanmerkung: Janusz
+                        Radziwiłł (1612-1655), Fürst von Litauen.</note>, palatini Vilnensis,
+                    supremi exercituum, magni ducatus Lithuaniae ducis, filiae unicae<note n="247"
+                        type="crit_app">AGADWarschau Dok. Perg. 5611, 28 M.A.E. Traités.
+                        Multilatèraux 16590003, Theatrum Pacis: unicae filiae.</note>, in adeundis,
+                    secundum legitimas consuetudines regni et magni ducatus Lithuaniae
+                    haereditatibus et bonis paternis ac maternis vigore generalis amnistiae
+                    praesenti conventione omnibus cautae, ut ei satisfiat, condignam rationem
+                    habituri sunt.</p>
+                <p>XVIII.<lb/>De mortuorum belli ducum atque officialium aliorum corpora, sive in
+                    Polonia, sive in Prussia adhuc inhumata, et non nullis in locis asservata sunt,
+                    tradentur et non denegabuntur iis, quibus cura mandabitur<note n="248"
+                        type="crit_app">Theatrum Pacis: demandabitur.</note>, ea inde deducendi.
+                    Quorum autem cadavera, tum in priori tum hoc ultimo bello humata sunt in
+                    Elbingensi, Mariaeburgensi et aliis in Prussia et Polonia<note n="249"
+                        type="crit_app">AGADWarschau Dok. Perg. 5611, 28 M.A.E. Traités.
+                        Multilatèraux 16590003, Theatrum Pacis: in Prussiae et Poloniae.</note>
+                    templis, intacta iaceant, ac sepulchra<note n="250" type="crit_app">AGADWarschau
+                        Dok. Perg. 5611, 28 M.A.E. Traités. Multilatèraux 16590003, Theatrum Pacis:
+                        sepulcra.</note> eorum ab omni violatione et inquietudine sint immunia.</p>
+                <p>XIX.<lb/>De domini ducis Croyani<note n="251" type="crit_app">Textvariante:
+                        Theatrum Pacis, Lünig, Dumont: Ducis Crojani. Böhme: Croiani. Sachanmerkung:
+                        1568 hatten die Herzöge von Pommern dem polnische König Sigismund August
+                        100.000 Taler verzinste Kriegshilfe gewährt. Polen konnte seinen Schulden
+                        nicht nachkommen. Die Forderungen gingen zunächst auf die pommerschen Stände
+                        und 1633 auf Herzogin Anna von Croy und deren Sohn Ernst Boguslaw über. Nach
+                        dem Frieden von Oliva wurden die ausstehenden Zahlungen 1661 vom polnischen
+                        Reichstag erneut anerkannt.</note> desiderio, ratione debitorum apud
+                    rempublicam Polonam, ita conventum est, ut praedictus dominus dux, ius suum,
+                    originalium obligationum productione doceat, in proxime futuris comitiis regni
+                    generalibus, ibidemque debita ratio eius habeatur; salvo quoque iure
+                    illustrissimi ducis Curlandiae, si quod eidem adpraefatas summas pecuniarias
+                    competierit.</p>
+                <p>XX.<lb/>Quo ad dominorum <rs ref="#pp0160">comitum a Dona</rs><note n="252"
+                        type="crit_app">Textvariante: AGADWarschau Dok. Perg. 5611: Dhona. 28 M.A.E.
+                        Traités. Multilatèraux 16590003, Theatrum Pacis, Lünig, CTS, Dumont: Dohna.
+                        Sachanmerkung: Christoff Delphicus von Dohna (1628-1668), Kriegsrat,
+                        General, Feldmarschall, zeitw. Gouverneur von Pommern. Er stellte Geld- und
+                        Entschädigungsforderungen für in Livland verlorene Besitzungen.</note>
+                    postulatum et debitum apud rempublicam Poloniae, in quantum illud liquidari
+                    poterit, iusta eorum ratio in futuris comitiis regni<note n="253"
+                        type="crit_app">28 M.A.E. Traités. Multilatèraux 16590003, CTS, Dumont:
+                        regni comitiis.</note> habebitur.</p>
+                <p>XXI.<lb/>Habebitur quoque aequa ratio a Suecia domini Baronis <rs ref="#pp0161"
+                        >Sigismundi a Guldenstern</rs><note n="254" type="crit_app">Textvariante:
+                        AGADWarschau Dok. Perg. 5611: Gyldenstern. GSABerlin VI HA Nr.628, Theatrum
+                        Pacis, CTS, Dumont: Güldenstern. Sachanmerkung: Zygmunt Gyldenstern
+                        (1598-1666), Starost von Stuhm, Kastellan von Danzig, Kommandant in
+                        Marienburg. Er stammte aus schwedischem Adel und war als Gefolgsmann König
+                        Sigismunds nach Polen gekommen, wo er 1633 naturalisiert wurde. Seine
+                        Forderungen beziehen sich auf Familiengüter, die in Schweden konfisziert
+                        wurden.</note>, quo ad bona in regno Sueciae, vel illi subiectis provinciis,
+                    praetensa.</p>
+                <p>XXII.<lb/>§ 1 Eadem similiter pax, amicitia, amnistia<note n="255"
+                        type="crit_app">AGADWarschau Dok. Perg. 5611, 28 M.A.E. Traités.
+                        Multilatèraux 16590003, Lünig, Theatrum Pacis, Böhme: amnestia.</note> et
+                    praeteritorum omnium perpetua oblivio sub iisdem clausulis et vinculis in hocce
+                    instrumento contentis vigeat, et in perpetuum stabilitia sit inter serenissimum
+                    et potentissimum principem ac dominum, <rs ref="#pp0001">dominum Leopoldum,
+                        electum Romanorum Imperatorem</rs>, semper Augustum, Germaniae, Hungariae,
+                    Bohemiae, Dalmatiae, Croatiae, Sclavoniae regem, archiducem Austriae<note
+                        n="256" type="crit_app">Theatrum Pacis, Lünig, CTS, Dumont: Aufgeführt ist
+                        die volle Titulatur. 28 M.A.E. Traités. Multilatèraux 16590003 :, ducem
+                        Burgundiae, Brabantiae, Styriae, Carinthiae, Carniolae, marchionem Moraviae,
+                        ducem Luxemburgiae, ac superioris et inferioris Silesiae, Wirtembergae ac
+                        Te[.]kae, Sveviae, comitem Habsburgi, Tyrolis, Ferretis, Kyburgi, Burgoviae,
+                        ac superioris et inferioris Lusatiae, dominum Marchiae Slavonicae, Portus
+                        Naonis et Salinarum.</note> etc. etc. etc. praecipuum Poloniae foederatum,
+                    bellique socium, nec non eius haeredes ac successores, regna et subiectas
+                    provincias, tam in, quam extra Imperium Romanum, eorumque subditos et incolas,
+                    ac serenissimum<note n="257" type="crit_app">CTS, Dumont: et potentissimum
+                        principem ac [Auslassung].</note> et potentissimum principem ac dominum,
+                    dominum Carolum, Suecorum, Gottorum, Vandalorumque regem<note n="258"
+                        type="crit_app">GSABerlin VI HA Nr.628, Theatrum Pacis, Lünig, CTS, Dumont:
+                        et principem haereditarium [Einschub]. 28 M.A.E. Traités. Multilatèraux
+                        16590003: [Einschub:] principem haereditarium.</note>, magnum principem
+                    Finlandiae etc. etc. etc<note n="259" type="crit_app">28 M.A.E. Traités.
+                        Multilatèraux 16590003, Theatrum Pacis, Lünig, CTS, Dumont: [volle
+                        Titulatur:]ducem Scaniae, Esthoniae, Livoniae, Careliae, Bremae, Verdae,
+                        Stetini, Pomeraniae, Cassubiae et Vandaliae, principem Rugiae, d[omin]um
+                        Ingriae et Wismariae nec non comitem Palatinum Rheni, Bavariae, Juliaci,
+                        Cliviae et Montium ducem.</note>. eiusque haeredes ac successores<note
+                        n="260" type="crit_app">AGADWarschau Dok. Perg. 5611: unleserliche Anm. am
+                        Blattrand, abweichende Handschrift.</note>, reges, regnumque Sueciae et
+                    subiectas provincias, tum in Imperio Germanico, tum extra illud sitas, eorumque
+                    subditos et incolas, ita ut quidquid<note n="261" type="crit_app">AGADWarschau
+                        Dok. Perg. 5611, 28 M.A.E. Traités. Multilatèraux 16590003, CTS, Dumont,
+                        Lünig, Böhme: quicquid.</note> vel ante hoc bellum, vel illo durante, sive
+                    in Polonia, sive extra illam, seu ratione auxilii serenissimo regi ac
+                    reipublicae Poloniae praestiti, sive quavis alia de causa mutuae offensionis,
+                    atque inimicitiarum aut praetensionum oriri potuit, perpetuae oblivioni
+                    tradatur. Neutrique parti, quocunque praetextu licitum sit, alterius regna,
+                    status aut provincias, clam aut palam, directe vel indirecte, armis impetere,
+                    vel ullum in ipsas hostilitatis genus exercere, sed alter alterius commoda
+                    sectetur, et omnia inter utramque partem, earumque status ac subditos ad
+                    pristinum prorsus statum, unionem et fidam correspondentiam restituta et
+                    redintegrata sint, et nemini ex utriusque partis subditis, aut Imperii statibus
+                    ac vasallis noxae sit, aut praeiudicio, quod alterius partes hoc bello, sago vel
+                    toga fuerit sectatus; sed quicunque ex sola causa huius belli de fortunis, aut
+                    statu suo decidisset, is in pristinum statum, in quo ante hoc bellum immediate
+                    fuit, quo ad honores ac bona immobilia, nec non etiam quo ad bona mobilia, si
+                    fisco nondum adiudicata et extradita sint, indilate et sine contradictione
+                    restituatur, iisque plenarie gaudeat ac fruatur.<lb/>§ 2 Ut autem firmioribus
+                    fundamentis haec pax et amicitia stabiliri queat, sacra Caesarea m[ajes]tas loca
+                    omnia, quae in Pomerania et Megapoli<note n="262" type="crit_app"
+                        >Mecklenburg.</note> occupata praesidiis suis insidentur, serenissimo regi
+                    ac regno Sueciae; ea vero, quae in Holsatia et ducatu Sleviciensi<note n="263"
+                        type="crit_app">AGADWarschau Dok. Perg. 5611, 28 M.A.E. Traités.
+                        Multilatèraux 16590003: Slesvicensi. GSABerlin VI HA Nr.628: slevicensi.
+                        CTS, Dumont: Schlesvicensi. Theatrum Pacis: Sclesvicensi. Böhme :
+                        Slesuicensi (auch unten).</note>, duci Holsatiae, Gottorpiensi, qui<note
+                        n="263a" type="crit_app">AGADWarschau Dok. Perg. 5611, 28 M.A.E. Traités.
+                        Multilatèraux 16590003, Theatrum Pacis, Böhme: [Passage bis censebitur in
+                        (...)].</note> praevia tamen cautione de non vindicando, iuxta forumlam, de
+                    qua hic convenit, hac pace consensu partium inclusus censebitur; restituet
+                    plenarie cum tormentis bellicis ipsorum propriis, re armamentaria, caeteroque
+                    apparatu bellico, nec non mobilibus cuiuscunque generis, item actis
+                    cancellariae, archivis ac literariis documentis, prout ea omnia tempore
+                    occupationis vel deditionis inibi reperta sunt et adhuc non distracta
+                        extant<note n="264" type="crit_app">Böhme, CTS, Dumont: exstant.</note>.
+                    Quae evacuatio fiet, locorum scilicet Pomeraniae et Megapoleos, exceptis
+                        Vollino<note n="265" type="crit_app">Textvariante: AGADWarschau Dok. Perg.
+                        5611, 28 M.A.E. Traités. Multilatèraux 16590003, Theatrum Pacis, Lünig,
+                        Böhme: Wollino. Sachanmerkung: Wollin, pol. Wolin, Ostseeinsel.</note>
+                        Damm<note n="266" type="crit_app">28 M.A.E. Traités. Multilatèraux 16590003,
+                        Theatrum Pacis, Lünig, Böhme, CTS, Dumont: Dam. Damm, südlich Rostocks
+                        gelegen.</note> et Grifenhagen<note n="267" type="crit_app">Textvariante:
+                        AGADWarschau Dok. Perg. 5611, 28 M.A.E. Traités. Multilatèraux 16590003,
+                        Theatrum Pacis, Lünig, Böhme, CTS, Dumont: Greiffenhagen. Sachanmerkung:
+                        Greifenhagen, poln. Gryfino, bei Stettin.</note>, intra duas septimanas, à
+                    die permutationis ratihabitionum computandas, quo tempore Elbinga quoque
+                    Poloniae restituetur. Vollinum vero, Damm et Grifenhagen, nec non loca Holsatiae
+                    et ducatus Slesviciensis, intra alias duas sequentes hebdomadas a die
+                    supramemoratae permutationis evacuabuntur, deductis eodem tempore e<note n="268"
+                        type="crit_app">Theatrum Pacis: et.</note> dictis locis praesidiariis
+                    militibus et e provinci&lt;i&gt;s<note n="269" type="crit_app">Unsichere Lesart:
+                        [i]. 28 M.A.E. Traités. Multilatèraux 16590003, AGADWarschau Dok. Perg.
+                        5611, GSABerlin VI HA Nr.628, Theatrum Pacis, Lünig, Böhme, Dumont, CTS:
+                        provinciis.</note> ad sacram regiam maiestatem regnumque Sueciae, duces
+                    Megapolitanos et ducem Holsatiae Slesvicensem<note n="270" type="crit_app"
+                        >AGADWarschau Dok. Perg. 5611, 28 M.A.E. Traités. Multilatèraux 16590003,
+                        CTS, Dumont: Slesvici. Lünig: Slesvicensem. Böhme: Slesuicensem.</note>
+                    spectantibus, copiis omnibus, ea ratione et modo, de quo inter generales
+                    utriusque partis, vel eorum locumtenentes intra tempus ratihabitionibus
+                    commutandis praefinitum, conventum fuerit.<lb/>§ 3 Caeterum, quicquid circa res
+                    Imperii controversiae intercesserit, iuxta Imperii et pacis Germanicae<note
+                        n="271" type="crit_app">AGADWarschau Dok. Perg. 5611: Textkorrektur.</note>
+                    leges, absque strepitu armorum componetur aut decidetur, et stabitur ab utraque
+                    parte per omnia dispositioni pactorum Osnabrugensium et constitutionibus
+                    Imperii.</p>
+                <p>XXIII.<lb/>§ 1<note n="272" type="crit_app">28 M.A.E. Traités. Multilatèraux
+                        16590003, Lünig, Böhme: [Nummerierung fehlt].</note> Similiter tam à parte
+                    serenissimi Imperatoris, quam serenissimi regis Sueciae, captivi huius belli,
+                    cuiuscunque sint conditionis ac status, libere<note n="273" type="crit_app"
+                        >AGADWarschau Dok. Perg. 5611, 28 M.A.E. Traités. Multilatèraux 16590003,
+                        Theatrum Pacis, Lünig: liberi.</note> et sine soluto ullo pretio seu lytro,
+                    nisi aliter ante subscriptum tractatum ab ipsis conventum fuerit, intra spatium
+                    trium hebdomadarum à die ratihabitionis<note n="274" type="crit_app"
+                        >AGADWarschau Dok. Perg. 5611, 28 M.A.E. Traités. Multilatèraux 16590003,
+                        Theatrum Pacis, Lünig, Böhme, CTS, Dumont: ratificationis.</note>
+                    dimittentur, et libertati pristinae, solutis ab officiariis impensis in victum
+                    eorum factis et debitis in captivitate ab eis contractis, restituentur. Et
+                    captivis, quoque annumerandi, et ab utraque parte restituendi sunt, qui inviti
+                    ad danda alterius partis militiae nomina sua adacti fuerunt. Quod autem de lytri
+                    conventi solutione hic supra dictum est, tantum locum habebit in maioribus
+                    officiariis, ut pote generalibus, tribunis, tribunorum locumtenentibus et
+                    capitaneis.</p>
+                <p>XXIV.<lb/>§ 1 Sit itidem pax perpetua, veraque ac sincera amicitia inter
+                    serenissimum ac potentissimum principem ac dominum, dominum Carolum (titulus
+                        abbreviat<note n="275" type="crit_app">AGADWarschau Dok. Perg. 5611, 28
+                        M.A.E. Traités. Multilatèraux 16590003, GSABerlin VI HA Nr.628: Suecorum,
+                        Gotorum Vandalorumque regem, et principem haereditarium, magnum principem
+                        Finlandiae etc. etc. etc. AGADWarschau Dok. Perg. 5611: [Einschub über der
+                        Zeile:] principem haereditarium . Böhme: Suecorum, Gothorum Vandalorumque
+                        regem, magnum principem Finlandiae etc. etc. etc. 28 M.A.E. Traités.
+                        Multilatèraux 16590003, Theatrum Pacis, Lünig, CTS, Dumont (ab hierweiter
+                        mit voller Titulatur): ducem Scaniae, Esthoniae, Livoniae, Careliae, Bremae,
+                        Verdae, Stetini Pomeraniae, Cassubiae et Vandaliae, principem Rugiae,
+                        dominum Ingriae et Wismariae, nec non comitem Palatinum Rheni, Bavariae,
+                        Juliaci, Clivae et Montium ducem.</note>), eius<note n="276" type="crit_app"
+                        >Theatrum Pacis, Lünig: ejusque.</note> haeredes, successores ac posteros
+                    reges, regnumque Sueciae, eiusdemque tam in Imperio, quam extra illud sitas
+                    provincias, status ac ditiones; et serenissimum principem ac dominum, dominum
+                        <rs ref="#pp0136">Fridericum Vilhelmum</rs><note n="277" type="crit_app"
+                        >AGADWarschau Dok. Perg. 5611, 28 M.A.E. Traités. Multilatèraux 16590003,
+                        Theatrum Pacis, Lünig, Böhme: Wilhelmum.</note> (titulus abbreviat<note
+                        n="278" type="crit_app">AGADWarschau Dok. Perg. 5611, GSABerlin VI HA
+                        Nr.628, Böhme: marchionem Brandeburgicum, sacri Romani Imperii
+                        archicamerarium, et principem electorem, Magdeburgi, Prussiae etc. etc. etc.
+                        ducem. 28 M.A.E. Traités. Multilatèraux 16590003, Theatrum Pacis, Lünig,
+                        CTS, Dumont: [volle Titulatur:] marchionem Brandeburgensem, sac. Rom.
+                        Imperii archi camerarium et principem electorem, Magdeburgi, Prussiae,
+                        Stetini Pomeraniae, Cassubiorum et Vandalorumque nec non in Silesia Crosnae
+                        et Carnoviae ducem, burggravius Norinbergensem, principem Halberstadii et
+                        Mindae.</note>), Poloniae foederatum, bellique socium, eiusdemque haeredes
+                    ac successores, provinciasque, status ac ditiones, in et extra Imperium Romanum
+                    sitas, ita, ut alter alterius honorem, commodum et utilitatem, sincere serioque
+                    in perpetuum promoveat.<lb/>§ 2 Pacta vero et foedera omnia, quae partes
+                    paciscentes inter se, vel cum aliis principibus ac statibus utrinque sancita
+                    habent, quo ad<note n="279" type="crit_app">Lünig: quod.</note> omnia sua
+                    puncta, clausulas et articulos integra et in pleno robore suo permaneant, ita
+                    tamen, ut per ea praesens transactio pacis, nullum praeiudicium patiatur.<lb/>§
+                    3 Sit etiam utrinque amnestia et praeteritorum omnium perpetua oblivio, ita, ut
+                        quidquid<note n="280" type="crit_app">AGADWarschau Dok. Perg. 5611, 28
+                        M.A.E. Traités. Multilatèraux 16590003, GSABerlin VI HA Nr.628, Lünig,
+                        Böhme, CTS, Dumont: quicquid.</note> hactenus, quocunque loco et quavis de
+                    causa, sive in Imperio Romano, sive extra illud, ab alterutra partium, vel sub
+                    earum Imperio, potestateque existentibus, absque ullo personarum rerumque
+                    respectu, gestum vel admissum fuerit, nullo praetextu, via iuris vel facti,
+                    directe vel per indirectum<note n="281" type="crit_app">CTS, Dumont: vel
+                        indirecte.</note>, a neutra parte unquam vindicari possit. Et nec horum, nec
+                    ullius alterius rei causa vel praetextu, alter alteri posthac quicquam
+                    hostilitatis aut inimicitiae, vel etiam quo ad ministros, officiarios, aliosque
+                    incolas ac subditos, statum, bona, vel securitatem per se, vel per alios, clam
+                    vel palam inferat, vel inferri faciat.<lb/>§ 4 Nemini quoque ex utriusque partis
+                    subditis aut vasallis, cuiuscunque conditionis et dignitatis fuerit, noxae sit,
+                    aut praeiudicio, quod alterius partes hoc bello sago vel toga fuerit sectatus,
+                    sed quicunque ex sola causa huius belli de suis possessionibus decidisset, is in
+                    pristinum statum, in quo ante hoc bellum immediate fuit, quo ad honores, ac bona
+                    immobilia, nec non etiam quoad mobilia bona, si haec bona mobilia fisco nondum
+                    adiudicata et extradita, aut alias distracta sint, indilate et sine ulla
+                    contradictione restituatur, eisque<note n="281a" type="crit_app">AGADWarschau
+                        Dok. Perg. 5611, GSABerlin VI HA Nr.628, CTS: iisque.</note> plenarie
+                    gaudeat ac fruatur. Atque proinde et campi mareschallo<note n="282"
+                        type="crit_app">GSABerlin VI HA Nr.628: campi marschalco. Lünig:
+                        marschallo.</note>, comiti a Königsmark<note n="283" type="crit_app"
+                        >Sachanmerkung: AGADWarschau Dok. Perg. 5611, 28 M.A.E. Traités.
+                        Multilatèraux 16590003, GSABerlin VI HA Nr.628, Theatrum Pacis, Lünig,
+                        Böhme, CTS, Dumont: Königsmarck. Textvariante: Hans Christoph Graf von
+                        Königsmarck (1600-1663), schwedischer Feldmarschall. Es handelt sich um
+                        Neustadt a.d.Dosse, die Ämter Hötensleben und Weferlingen und die Dörfer
+                        Wilsleben und Winningen. Sie waren konfisziert worden und werden nun
+                        restituiert.</note>, ut et campi mareschalli<note n="284" type="crit_app"
+                        >GSABerlin VI HA Nr.628: marschalci. Theatrum Pacis, Lünig:
+                        marschalli.</note>, <rs ref="#pp0162">comitis Wittembergii</rs><note n="285"
+                        type="crit_app">Textvariante: AGADWarschau Dok. Perg. 5611, 28 M.A.E.
+                        Traités. Multilatèraux 16590003, Lünig, Theatrum Pacis, Böhme: Wittenbergii.
+                        Sachanmerkung: Arvid Wittenberg (1606-1658), schwedischer Feldmarschall. Es
+                        handelt sich um das Amt Belgrad (Hinterpommern), das 1659 konfisziert worden
+                        war.</note> haeredibus, bona immobilia, quae in ditionibus suae serenitatis
+                    electoralis, ubicunque locorum ante hoc bellum possederunt, in eo statu, quo
+                    nunc sunt, restituantur, vigore huius pacificationis, atque eo jure tenenda, quo
+                    ante bellum hoc exortum ea tenuerunt, ac possederunt.</p>
+                <p>XXV.<lb/>Et ne occasione anteactorum lis et dissidium aliquod oriri possit, sacra
+                    regia maiestas Sueciae, pro se, haeredibus ac successoribus suis, regibus
+                    regnoque Sueciae, virtute huius instrumenti pacis, quam fieri potest,
+                    validissime in perpetuum et irrevocabiliter renunciat pactis, quae die
+                        7./17<note n="286" type="crit_app">GSABerlin VI HA Nr.628: 17. Königsberger
+                        Vertrag (1656 I 17) zwischen Schweden und Brandenburg, durch den Kurfürst
+                        Friedrich Wilhelm das Herzogtum Preußen und das Bistum Ermland als
+                        schwedisches Lehen erhielt und und zu Abgaben und Heeresfolge verpflichtet
+                        wurde.</note>. januarii anni 1656 Regiomonti, item 15./25.<note
+                        type="crit_app" n="287">GSABerlin VI HA Nr.628: 25. Marienburger Vertrag
+                        (1656 VI 25) zwischen Schweden und Brandenburg; er modifiziert angesichts
+                        der schwedischen Schwäche den Königsberger Vertrag zugunsten Friedrich
+                        Wilhelms, der jedoch weiter Waffenhilfe leisten musste.</note> junii
+                    praedicti anni Mariaeburgi, tum quae 10/20.<note type="crit_app" n="288"
+                        >GSABerlin VI HA Nr.628: 20.</note> novembris eodem anno 1656 Labiaviae<note
+                        n="289" type="annotation">Vertrag von Labiau (1656 XI 20) zwischen Schweden
+                        und Brandenburg. Er tritt an die Stelle des Königsberger Vertrages und
+                        übergibt Brandenburg die Souveränität über das Herzogtum Preußen und über
+                        Ermland. Friedrich Wilhelm wurde zu weiterer Waffenhilfe verpflichtet. Der
+                        Vertrag wird mit dem Verträgen von Wehlau und Bromberg (1657 IX 16 bzw.XI 6)
+                        zwischen Brandenburg und Polen hinfällig.</note> inter <rs ref="#pp0137"
+                        >serenissimum Sueciae regem gloriosae memoriae</rs><note n="290"
+                        type="annotation">Karl X. Gustav (1654-1660), König von Schweden.</note>,
+                    nuper defunctum, et suam serenitatem electoralem confecta sunt, ut et aliis
+                    omnibus conventionibus, quae illis adiectae, aut separatim quocunque modo,
+                    durante hoc ultimo bello Polonico, eiusque respectu initae sunt. Atque ea omnia
+                    et singula, in omnibus et singulis clausulis, conditionibus et articulis suis
+                    irrita et nulla pronunciat, omnemque ipsis vim, vigorem et effectum hoc ipso et
+                    virtute huius pacti penitus, et in aeternum detrahit, ita ut contra suam
+                    serenitatem electoralem Brandeburgicam<note n="291" type="crit_app">CTS:
+                        Brandenburgicam.</note>, eiusque haeredes, agnatos, successores, provincias,
+                    ubicunque locorum sitas, et in specie in ducatum Prussiae, atque eiusdem ordines
+                    et incolas aut contra sacram<note n="292" type="crit_app">AGADWarschau Dok.
+                        Perg. 5611: suam.</note> regiam maj[es]t[a]tem, eiusdem successores, reges,
+                    regnumque Poloniae, ex nominatis et indigitatis supra pactis et conventionibus
+                    abolitis, nunc et in posterum, sive successionis in Prussiam, sive unionis, aut
+                    quocunque alio praetextu, vel causa, nomine regis, regum, haeredum ac
+                    successorum, et regni Sueciae, nihil unquam allegari, praetendi aut postulari
+                    possit, aut debeat. Quare praememoratorum pactorum et conventionum originalia,
+                    cum retradi non potuerint, hoc ipso pro retraditis, scissis et in cineres
+                    redactis habentur, atque in aeternum habebuntur. Quemadmodum et serenissimus
+                    elector Brandeburgicus in Prussia dux, quam fieri potest, validissime in
+                    perpetuum et irrevocabiliter vigore huius instrumenti pacis, pro se,
+                        haeredibusque<note n="293" type="crit_app">28 M.A.E. Traités. Multilatèraux
+                        16590003, AGADWarschau Dok. Perg. 5611: haeredibus.</note> ac successoribus
+                    suis profitetur, nihil vel se, vel haeredes ac posteros suos ex praedictis
+                    pactis et conventionibus contra sacram<note n="294" type="crit_app">28 M.A.E.
+                        Traités. Multilatèraux 16590003: suam.</note> regiam maiestatem, regnumque
+                    Sueciae praetensuros, sed sua serenitas electoralis pro se, haeredibusque ac
+                    successoribus suis hoc ipso et virtute huius pacti, supramemoratis pactis
+                    omnibus iam abolitis renunciat, et eadem omnia pro retraditis, scissis, et in
+                    cineres redactis, nunc et in aeternum declarat, et irrita ac nulla pronunciat,
+                    omnemque ipsis vim, vigorem et effectum penitus et in aeternum detrahit.</p>
+                <p>XXVI.<lb/><rs ref="#pp0119">Serenissimus elector Brandeburgicus</rs> etc. etc.
+                        etc.<note type="crit_app" n="295">Theatrum Pacis, Lünig: [Auslassung:]
+                        etc.etc.etc.</note> loca omnia, quae in Pomerania hoc<note n="296"
+                        type="crit_app">"AGADWarschau Dok. Perg. 5611, 28 M.A.E. Traités.
+                        Multilatèraux 16590003, Theatrum Pacis, Lünig, Böhme; CTS, Dumont:
+                        hocce.</note> bello occupata praesidiis suis insidentur, sacrae<note n="297"
+                        type="crit_app">AGADWarschau Dok. Perg. 5611: suae.</note> regiae maiestati
+                    et regno Sueciae, ea vero, quae in Holsatia et ducatu Slesviciensi<note n="298"
+                        type="crit_app">28 M.A.E. Traités. Multilatèraux 16590003, Lünig; Böhme:
+                        Slesvicensi.</note>, celsissimo principi et duci Holsatiae Gottorpiensi<note
+                        n="299" type="crit_app">AGADWarschau Dok. Perg. 5611, 28 M.A.E. Traités.
+                        Multilatèraux 16590003, Theatrum Pacis, Lünig; Böhme: (qui ... censebitur)
+                        [Abtrennung durch Klammern].</note>, qui praevia tamen cautione de non
+                    vindicando iuxta formulam, de qua hic convenit, hac pace consensu partium
+                    inclusus censebitur, restituet plenarie cum tormentis bellicis ipsorum propriis,
+                    re armamentaria, caeteroque apparatu bellico, nec non mobilibus cuiuscunque
+                    generis, item actis cancellariae, archivis et literariis documentis, prout ea
+                    omnia tempore occupationis vel deditionis inibi reperta, et adhuc non distracta
+                    extant. Quae evacuatio fiet, locorum scilicet Pomeraniae, exceptis Wollino, Dam
+                    et Grifenhagen, intra duas septimanas, a die permutationis ratihabitionum
+                    computandas, quo tempore quoque Elbinga restituetur. Vollinum vero, Damm et
+                    Grifenhagen, nec non loca Holsatiae et ducatus Slesviciensis<note n="299a"
+                        type="crit_app">28 M.A.E. Traités. Multilatèraux 16590003, Lünig; Böhme:
+                        Slesvicensis.</note>, intra alias demum sequentes septimanas duas<note
+                        n="300" type="crit_app">AGADWarschau Dok. Perg. 5611, 28 M.A.E. Traités.
+                        Multilatèraux 16590003, GSABerlin VI HA Nr.628, Theatrum Pacis, Lünig,
+                        Böhme, CTS, Dumont: inter alias demum duas sequentes hebdomadas.</note>, á
+                    die supramemoratae restitutionis evacuabuntur, deductis eodem tempore e dictis
+                    locis praesidiariis militibus et<note n="301" type="crit_app">Lünig, Böhme:
+                        [Einschub:] e.</note> provinciis ad sacram regiam m[ajes]t[a]tem regnumque
+                        Sueciae<note n="302" type="crit_app">AGADWarschau Dok. Perg. 5611, 28 M.A.E.
+                        Traités. Multilatèraux 16590003, GSABerlin VI HA Nr.628, Theatrum Pacis,
+                        Lünig, Böhme, CTS, Dumont: ad serenissimum regem Sueciae et.</note> ac ducem
+                    Holsatiae et Slesvici regentem spectantibus, copiis omnibus, ea ratione et modo,
+                    de quo inter generales utriusque partis<note n="303" type="crit_app"
+                        >AGADWarschau Dok. Perg. 5611, 28 M.A.E. Traités. Multilatèraux 16590003,
+                        GSABerlin VI HA Nr.628, Theatrum Pacis, Lünig, CTS, Dumont, Böhme: inter
+                        partis utriusque generales.</note>, vel eorum<note n="304" type="crit_app"
+                        >CTS, Dumont: eorum [Auslassung].</note> locumtenentes, intra tempus
+                    ratihabitionibus commutandis praefinitum, conventum fuerit. Ita tamen, ne in
+                    praememoratis restituendis et evacuandis locis vel communitatibus, qui praesidia
+                    electoralia habuerunt, aut quovis modo<note n="305" type="crit_app">Lünig:
+                        [Einschub:] per</note>, hoc bello<note n="306" type="crit_app">Lünig:
+                        bellum.</note> in suae serenitatis electoralis fide et potestate fuerunt,
+                    vel cuiquam privato, quod partes suae serenitatis secutus fuerit, ulla ratione
+                    noxae, fraudique sit, vel alia in re, quo ad pristina iura, privilegia, bona,
+                    feuda et libertates illi competentes absque exceptione vel reservatione
+                    praeiudicet. </p>
+                <p>XXVII<lb/>Captivi huiusce belli, cuiuscunque conditionis ac status, liberi et
+                    sine ullo soluto<note n="307" type="crit_app">AGADWarschau Dok. Perg. 5611,
+                        Theatrum Pacis, Lünig, Böhme: soluto ullo.</note> pretio, seu lytro, nisi
+                    aliter ante subscriptum tractatum ab ipsis conventum fuerit, intra spatium trium
+                    hebdomadarum à die ratificationis dimittentur, pristinaeque libertati
+                    restituentur, solutis tamen ab officiariis impensis in victum eorum factis et
+                    debitis ab eis in captivitate contractis<note n="308" type="crit_app"
+                        >AGADWarschau Dok. Perg. 561128 M.A.E. Traités. Multilatèraux 16590003: ab
+                        eis contractis. GSABerlin VI HA Nr.628, Theatrum Pacis, Lünig, Böhme, CTS,
+                        Dumont: in captivitate ab eis. CTS, Dumont: caeterum [Auslassung].</note>,
+                    caeterum captivis quoque annumerandi, et ab utraque parte restituendi sunt, qui
+                    inviti militiae alterius partis nomina dederunt.</p>
+                <p>XXVIII<lb/>Debita inter utriusque partis subditos et incolas, tum etiam a ducibus
+                    et officiariis belli, ubicunque contracta, utrinque bona fide solventur; si quae
+                    vero hoc bello ultimo obligationes et recognitiones extortae ab utrinque sint,
+                    in totum cassantur, nullumque habere pondus<note n="309" type="crit_app">28
+                        M.A.E. Traités. Multilatèraux 16590003, Lünig: pondus habere.</note>
+                    declarantur.</p>
+                <p>XXIX<lb/>Inter sacrae regiae maiestatis Sueciae et suae serenitatis electoralis
+                        Brandeburgicae<note n="310" type="crit_app">Lünig: Brandenburgicae.</note>,
+                    regni, provinciarium, statuum, ditionum, tam in Imperio Romano, quam extra illud
+                    sitarum, subditos et incolas pristina restituantur commercia, atque imposterum
+                    in pleno vigore conserventur.</p>
+                <p>XXX<lb/>Si quae bona, à suae serenitatis electoralis subditis, vel eiusdem
+                    ditionum incolis, in regiae suae maiestatis Sueciae regno, provinciis,
+                    ditionibus aut locis occupatis et hacentus posessis, ante vel sub tempus huiusce
+                    belli deposita, vel alio quocunque modo eo delata sunt, ea sine ulla mora vel
+                    effugiis, dominis suis restituantur, nisi iam fisco adiudicata, atque extradita
+                    fuerint.</p>
+                <p>XXXI<lb/>Cum vero ad stabilitatem<note n="311" type="crit_app">Theatrum Pacis,
+                        Lünig: stabiliendum.</note> huius pacis plurimum intersit, ut universaliter
+                    componatur, et inter omnes belli huius socios securitati commerciorum plene
+                    prospiciatur; ideo licet controversiae, quae serenissimo regi regnoque Sueciae
+                    cum serenissimo <rs ref="#pp0163">rege Daniae</rs><note n="312"
+                        type="annotation">Fredrik III. (1648-1670), König von Dänemark und
+                        Norwegen.</note> intercedunt, hic commode decidi non potuerint, et in ipsa
+                    Dania cum spe successus tractentur; nihilominus conventum est, ut serenissimus
+                    Daniae et Norvegiae<note n="313" type="crit_app">Theatrum Pacis, Lünig, Dumont:
+                        Norwegiae (auch unten).</note> rex, eiusque regna ac ditiones, in hoc
+                    tractatu conclusa in Dania pace, comprehendantur, ita, ut ea omnia, quae inter
+                    alte memoratos Sueciae et Daniae reges conclusa et constituta fuerint, ad hanc
+                    pacem pariter, ac si in hoc instrumento specifice inserta forent, pertinere
+                    censeantur. Salvo per omnia ipso tractatu in Dania inter utrosque reges et regna
+                    concluso, vel concludendo.</p>
+                <p>XXXII<lb/>§ 1 Cessent omnes hostilitatis actus inter partes paciscentes omnes,
+                    tum principales, tum foederatas, earumque exercitus, à die conclusae et
+                    subscriptae huius pacis, computando in Prussia, tam regali, quam ducali, exactis
+                    quatuor, in Pomerania et Megapoli duodecim, in Curlandia et Livonia
+                    quatuordecim, et in Holsatia et Slesviciensi<note n="314" type="crit_app"
+                        >AGADWarschau Dok. Perg. 5611, 28 M.A.E. Traités. Multilatèraux 16590003,
+                        Lünig: Slesvicensi. Theatrum Pacis: Scelsvicensi. Böhme: Slesuicensi.</note>
+                    ducatu exactis viginti diebus. Eodem quoque die in singulis praememoratis locis,
+                    negotiationes, quae vis pristino usui restituantur, et literarum<note n="315"
+                        type="crit_app">Lünig: litterarum.</note> commercia libera sint.<lb/>§ 2
+                    Generales praesidii Elbingensis in Prussia, ac tam Caesarei, quam electorales in
+                    Pomerania, post acceptam huius armorum cessationis intimationem, exactam curam
+                    adhibebunt, ut usque ad finalem pacis executionem militis sustentatio non
+                    amplius exigatur more hostili, nec ultra iustam et necessariam alimentationem
+                    provinciae, ipsorum armis insessae aggraventur. In quem finem commissarii a
+                    partibus deputabuntur, qui curam sedulam habeant, ne exorbitantiae contra hanc
+                    conventionem fiant.</p>
+                <p>XXXIII<lb/>Denique omnium belligerantium in Imperio partium, copiae<note n="316"
+                        type="crit_app">Theatrum Pacis: copia.</note> et exercitus post
+                    restitutionem locorum, ab omnibus partibus paciscentibus dimittantur et
+                    exauctorentur, eo tantum<note n="317" type="crit_app">CTS, Dumont: tamen.</note>
+                    numero in suos cuiusque<note n="318" type="crit_app">CTS, Dumont:
+                        cuiuscunque.</note> proprios status traducto, quem quaeque pars pro sua
+                    securitate iudicaverit necessarium.<lb/>
+                    <lb/>XXXIV<note n="319" type="crit_app">AGADWarschau Dok. Perg. 5611, GSABerlin
+                        VI HA Nr.628, 28 M.A.E. Traités. Multilatèraux 16590003 : steht an Stelle
+                        XXXV. Theatrum Pacis, Lünig, Böhme, CTS, Dumont: steht an Stelle
+                        XXXV.</note>
+                    <lb/>§ 1 Quo firmior, stabilior et securior pax haec coalescat, et ab omni parte
+                    intemerata duret, promittunt supra memoratae partes paciscentes omnes, tam
+                    principales, quam foederatae, se hanc transactionem et pacem omnesque eius
+                    articulos, capita et clausulas, sancte et inviolabiliter servare velle et
+                    debere, et ne in posterum violari queat, se invicem ad generalem garantiam<note
+                        n="320" type="crit_app">AGADWarschau Dok. Perg. 5611, 28 M.A.E. Traités.
+                        Multilatèraux 16590003, Theatrum Pacis, Lünig, Böhme: guarantiam.</note> et
+                    evictionem mutuam, ac defensionem reciprocam, omni ex parte obstringunt, hisce,
+                    quam fieri potest, firmissime spondentes, ut, si contingat, unam partem ab
+                    altera, vel plures a pluribus, terra vel mari, bello contra hanc pacificationem
+                    impeti, aggressor ipso facto pro infractore huius pacis ab omnibus habeatur,
+                    eiusdemque beneficio excidat. Et tum altera reliquaeque paciscentium partes
+                    parti laesae, ad summum<note n="321" type="crit_app">CTS, Dumont: summam.</note>
+                    intra duos menses à requisitione partis laesae, eidem communibus armis
+                    assistere, et bellum tamdiu contra aggressorem prosequi, donec pax communi
+                    omnium partium consensu, restituta fuerit, invicem teneantur.<lb/>§ 2 Si vero
+                        contingat<note n="322" type="crit_app">Lünig: contigant.</note>, unam partem
+                    ab altera, vel plures à pluribus gravi aliqua iniuria, citra tamen vim armorum
+                    vexari, non licebit ideo laeso ad arma subito recurrere, sed ante amicabilis
+                    componendarum huiusmodi controversiarum ratio ineunda erit, videlicet, ut
+                    laesus, accepta iniuria, si immediate cum laedente<note n="323" type="crit_app"
+                        >Theatrum Pacis, Lünig: delinquente.</note> convenire nequeat, alios
+                    paciscentes moneat, et commissio generalis omnium paciscentium nomine
+                    instituatur ad laesi confinia, intra spatium quatuor mensium, in quo inter
+                    deputatos utrinque commissarios negotium discutiatur et si possibile erit, intra
+                    quatuor ad summum alios menses terminetur.<lb/>§ 3 Si vero laedentem
+                    refractarium adaequa, quae proponentur, media deprehenderint, tunc laesis
+                    licebit, facta tamen prius legitima belli denunciatione, ius suum armis
+                    prosequi, et bellum, ut supra statutum est, laedenti inferre.<lb/>§ 4 Quod si
+                    vero turbationes vi, contrariisque actibus retundantur, solum modo tuendorum
+                    limitum causa, actus eiusmodi pro violatione pacis non reputabuntur, ipsa autem
+                    super limitibus controversia citra vim armorum terminetur.</p>
+                <p>XXXV<note n="324" type="crit_app">In AGADWarschau Dok. Perg. 5611, 28 M.A.E.
+                        Traités. Multilatèraux 16590003, GSABerlin VI HA Nr.628 und Theatrum Pacis,
+                        Lünig, Böhme, CTS, Dumont: XXIV.</note>
+                    <lb/>Pacta haec ratihabeantur a serenissimo rege Poloniae nec non republica
+                    Polona, eiusque foederatis ab una, et serenissimo rege Sueciae ab altera
+                        parte<note n="325" type="crit_app">28 M.A.E. Traités. Multilatèraux
+                        16590003, AGADWarschau Dok. Perg. 5611, Theatrum Pacis, Lünig: à serenissimo
+                        rege Sueciae ab una, et serenissimo rege Poloniae nec non republica Polona
+                        eiusque confoederatis ab altera parte.</note>, qua de re ad modum sequentem
+                    convenit. <lb/>Primo. Instrumentum huius pacis manibus ac sigillis dominorum
+                    commissariorum utriusque partis, tum et excellentissimi domini legati
+                    mediatoris, subscribatur et invicem tradatur et commutetur.<lb/>Secundo.
+                    Serenissimus rex Poloniae, eadem pacta illios<note n="326" type="crit_app"
+                        >AGADWarschau Dok. Perg. 5611: illi[c]o. 28 M.A.E. Traités. Multilatèraux
+                        16590003, Theatrum Pacis, Lünig, Böhme: illico.</note> à subscriptione et
+                    signatione dominorum commissariorum polonicorum, diplomate ratificationis in
+                    forma conventa confirmet, atque ex nunc assecurationem suam interponat,
+                    subsecuturam intra spatium ad summum trium mensium, computandorum à
+                    subscriptione huius instrumenti pacis, plenariam eiusdem regiae maiestatis
+                    ratificationem cum integra insertione instrumenti pacis conclusae, ad formulam
+                    inter utriusque partis commissarios conventam.<lb/>Tertio. Serenissimus rex
+                    Sueciae solenni instrumento haec pacta nomine suo et regni Sueciae per
+                    subscriptionem serenissimae reginae matris suae et dominorum regni Sueciae
+                    administratorum in forma conventa rata habeat.<lb/>Quarto. Domini delegati à
+                    republica Polona lege comitiali a[nno]. 1659 deputati, nomine reipublicae haec
+                    pacta subscriptione et sigillatione sua approbent, in futura conventione intra
+                    tres menses celebrand<note n="327" type="crit_app">28 M.A.E. Traités.
+                        Multilatèraux 16590003: celebrand[o].</note>a.<lb/>Quinto. Diplomata
+                    ratificationis, tam sacrae regiae maiestatis Poloniae, quam deputatorum
+                    comitiali lege delegatorum, in proximis comitiis, constitutionibus et volumini
+                    legum Polonicarum inserantur.<lb/>Sexto. Instrumenta haec solennia
+                    ratificationis, tum utriusque serenissimi regis, tum dictorum reipublicae
+                    delegatorum, ab ambarum partium commissariis, intra spatium ad summum trium
+                    mensium a subscriptione huius instrumenti pacis computandorum, ad limites
+                    territoriales inter Elbingam et Mariaeburgum, utrinque per excellentissimum
+                    dominum mediatorem a partibus paciscentibus recipiantur, et ab eodem ipso
+                    tempore inter partes commutentur.<lb/>Septimo. Ut sacra Caesarea maiestas et
+                    serenissimus elector Brandeburgicus ratihabitiones<note n="328" type="crit_app"
+                        >28 M.A.E. Traités. Multilatèraux 16590003: ratihationis.</note> suas itidem
+                    tempore et loco eodem tradi faciant.<lb/>Octavo. Denique ut dicta serenissimorum
+                    regum et reipublicae Polonae ac eius foederatorum instrumenta ratificationum ad
+                    conventam et praescriptam formulam, quo ad titulaturam et sigillationem aliaque
+                    requisita, nulla voce aut syllaba immutata conficiantur<note n="329"
+                        type="crit_app">Böhme: conferantur.</note>, et reciproce commutentur.</p>
+                <p>XXXVI.<lb/>Cum autem, pro maior&lt;i&gt;<note type="crit_app" n="330">28 M.A.E.
+                        Traités. Multilatèraux 16590003, Lünig: majore.</note> securitate huius
+                    pacificationis, tam serenissimus et<note n="331" type="crit_app">AGADWarschau
+                        Dok. Perg. 5611, 28 M.A.E. Traités. Multilatèraux 16590003, Theatrum Pacis,
+                        Lünig, Böhme: ac.</note> potentissimus rex et respublica Poloniae, quam
+                    serenissimus et potentissimus rex Sueciae<note n="332" type="crit_app"
+                        >AGADWarschau Dok. Perg. 5611, 28 M.A.E. Traités. Multilatèraux 16590003,
+                        Theatrum Pacis, Lünig: rex Sueciae, quam serenissimus ac potentissimus rex
+                        et respublica Poloniae.</note>, ut et serenissimus elector
+                        Brandeburgicus<note n="333" type="crit_app">Lünig: Brandenburgicus.</note>
+                    postularint, ut serenissimus ac potentissimus princeps ac dominus, dominus
+                    Ludovicus XIV., Galliarum et Navarrae rex christianissimus, cuius ope ac studio
+                    inter praememoratos serenissimos reges et serenissimum electorem
+                        Brandeburgicum<note n="333a" type="crit_app">Lünig: Brandenburgicum.</note>
+                    pax promota, et mediatione ad optatum finem perducta est. Executionis et
+                    observationis illius inter eosdem fideiussor existeret, sacra regia<note n="334"
+                        type="crit_app">28 M.A.E. Traités. Multilatèraux 16590003 : [Auslassung:]
+                        regia.</note> maiestas christianissima, postulationibus ac votis illorum
+                    annuens, eodemque animo pacis huius perpetuitatem exoptans, quo eam procuravit,
+                    pro se ac successoribus suis regibus Galliae spondet ac promittit, idque per
+                    illustrissimum et excellentissimum dominum Antonium de Lumbres, legatum suum
+                    plenariis mandatis ad hanc guarantiam<note n="335" type="crit_app">AGADWarschau
+                        Dok. Perg. 5611: garantiam.</note> cavendam instructum, se executionem horum
+                    pactorum, eorumque observationem ac perpetuitatem, inter eosdem
+                        supranominatos<note n="336" type="crit_app">Lünig: memoratos.</note>
+                    principes, omni meliori, quo fieri potest, modo, etiam armis, ubi amicabilia
+                    media non processerint, asserturam. Et si quis eorum sub hac fideiussione
+                    comprehensorum illa violarit, arma viresque suas parti laesae ad eius
+                    requisitionem iuncturam. Quod ut firmius omnibus constet, promittit dictus
+                    dominus legatus gallicus, se ratificationem regis sui super hanc guarantiam<note
+                        n="337" type="crit_app">AGADWarschau Dok. Perg. 5611: garantiam.</note>
+                    eodem tempore, quo ratihabitiones pacis commutabuntur, extraditurum. Integrum
+                    quoque erit paciscentibus omnibus, eandem christianissimi regis guarantiam et
+                    fideiussionem suscipere, et alios quoque in tempore ratihabitionis ad idem
+                    officii genus, invitare et denominare principes ac potestates.</p>
+                <p><lb/>XXXVII. <lb/>Si qui regum, principum, nec non rerum publicarum ac statuum
+                    amicorum, hisce pactis a quacunque parte paciscentium includi voluerint, sit
+                    ipsis eius facultas, modo se ad ista intra sex ab hinc menses declaraverint. Et
+                    id consensu omnium partium fiat.</p>
+                <p>In quorum omnium et singulorum fidem maiusque robur, omnium partium legati et
+                    commissarii, cum illustrissimo et excellentissimo domino mediatore praesens
+                    pacis instrumentum, et hoc quidem exemplar, serenissimi regis et reipublicae
+                    Poloniae atque serenissimi electoris Brandeburgici<note n="338" type="crit_app"
+                        >CTS: atque … Brandenburgici [Auslassung].</note> legati ac commissarii<note
+                        n="339" type="crit_app">AGADWarschau Dok. Perg. 5611, 28 M.A.E. Traités.
+                        Multilatèraux 16590003, Theatrum Pacis, Lünig: et hoc quidem exemplar
+                        serenissimi regis Sueciae legati ac commissarii. Dumont: serenissimi regis,
+                        regnique Poloniae legati ac commissarii manibus.</note> manibus sigillisque
+                    propriis munierunt ac firmarunt. Datum Olivae die tertia<note n="340"
+                        type="crit_app">Dumont: mensis.</note> maii anno domino millesimo
+                    sexcentesimo sexagesimo<note n="341" type="crit_app">AGADWarschau Dok. Perg.
+                        5611, 28 M.A.E. Traités. Multilatèraux 16590003, Theatrum Pacis: die
+                        vigesima tertia aprilis / tertia maji anno MDCLX. Lünig: die (vigesima
+                        tertia mensis aprilis) tertia mensis maji anno MDCLX.</note>.</p>
+                <p>[Unterschriften]<note type="crit_app" n="341a">AGADWarschau Dok. Perg. 5611,
+                        GSABerlin VI HA Nr. 628: Unterzeichner der Ratifikation: an erster Stelle de
+                        Lumbres. Auch in 28 M.A.E. Traités. Multilatèraux 16590003, Dumont, CTS.
+                        Theatrum Pacis, Lünig: A. de Lumbres, Magnus Gabriel de la Gardie,
+                        Benedictus Oxenstierna (Lünig: Oxenstirna), Christophorus Carolus
+                        Schlippenbach, A. Güldenclau (28 M.A.E. Traités. Multilatèraux 16590003:
+                        Gyldenclau). Abdruck in Theatrum Pacis und Lünig endet mit diesen
+                        Unterschriften. Böhme: Locus nominorum ac sigillorum illustrissimorum et
+                        excellentissimorum legatorum. AGADWarschau Dok. Perg. 5611 28 M.A.E.
+                        Traités. Multilatèraux 16590003: Unterzeichnet: de Lumbres, Magnus Gabriel
+                        de la Gardie, Benedictus Oxenstierna, Christophorus Carolus [de]
+                        Schlippenbach, A. Gyldenclau. Diesem Stück schließt sich die
+                        Verhandlungsvollmacht Karl Gustavs (Falster 1659 X 17) an. Die Vefilmung des
+                        französischen Exemplars endet mit den Unterschriften.</note><lb/>
+                    <lb/><rs ref="#pp0140">Joannes comes de Lesno</rs>, palatinus Posnaniensis,
+                    Maiores Pol[oniae] generalis, serenissimi regis regnique Poloniae legatus
+                        plenipotentiarius<note n="342" type="crit_app">GSABerlin VI HA Nr.628:
+                        plenipotentiarius [Auslassung].</note>
+                    <lb/></p>
+                <p>[Unterschriften]<note type="crit_app" n="343">GSABerlin VI HA Nr.628: Nicolaus in
+                        Prazmow, cancellarius regni supremus, n[omina]tus Luceorien[sis]
+                        Brest[ensis] [.] [Kürzel nicht auflösbar], legatus cum plena p[otes]tate a
+                        s[acra] regia m[ajes]t[a]te regnoque Poloniae ad tractatus pacis cum regno
+                        [Suecis]. CTS, Dumont: Nicolaus Prazmowski, nominatus Episcopus Luceoriensis
+                        et Brestensis, supremus Regni Poloniae Cancellarius, legatus
+                        plenipoteniarius. Dumont: Nicolaus Prazmowski.</note></p>
+                <p><lb/><rs ref="#pp0143">Christophorus Pac</rs>, supr[e]m[us] cancellarius et
+                    legatus plenipotentiarius Mag[ni]. Duc[atus]. Lith[uaniae]<lb/><rs ref="#pp0144"
+                        >Ioann. Andreas<note n="344" type="crit_app">Dumont: Joannes Andreas.</note>
+                        Morstin de Raciborsko</rs><note n="345" type="crit_app">Dumont: de
+                        Raciborsko [Auslassung].</note>, refferendarius regni, <rs ref="#pp0145"
+                        >legatus plenipotentiarius</rs><lb/><lb/>[Unterschriften]<note
+                        type="crit_app" n="346">GSABerlin VI HA Nr.628 und CTS, Dumont: Vladislaus
+                        de Naglovice Rey, thesaurarius curiae regni, legatus
+                        plenipotentiarius.</note></p>
+                <p>
+                    <lb/><rs ref="#pp0146">Ioannes Gninski</rs>, succamerarius Pomeraniae,
+                    seren[issi]mi regis regnique Poloniae legatus plenipotentiarius <lb/>Joannes in
+                    Zelezno Zelecki &lt;...&gt; &lt;...&gt;<note type="crit_app" n="347">Zwei Wörter
+                        durch Siegelband verdeckt.</note> Legatus &lt;...&gt;<note type="crit_app"
+                        n="348">Unterschrift unterer rechter Seitenrand. Unleserlich. Diese Signatur
+                        fehlt in GSABerlin VI HA Nr.628. Hier schließt sich die königliche
+                        Ratifikationsformel des Königs und der Stände, Warschau 1660 V 24 an.</note>
+                </p>
+                <p>[Declaratio plenipoteniarium Poloniae, seu articulus separatus declaratorius
+                    articuli secundi pacis de amnistia et regintegratione jurium, quod non
+                    praejudicare debeat juribus electoris Branbeburgici et in specie traditioni
+                    Elbingae. Olivae 3. maii anno 1660.]<note type="crit_app" n="349">GSABerlin VI
+                        HA Nr.632: Ratifikation durch Johann Kasimir, Warschau 1660 VI 26 sowie
+                        durch Senat und Stände, Warschau 1660 VI 26.</note><lb/>
+                </p>
+                <p><lb/>Nos <rs ref="#pp0136">Ioannes Casimirus</rs>, Dei gratia rex Poloniae,
+                    Magnus Dux Lithuaniae, Russiae, Prussiae, Masoviae, Samogitiae, Livoniae,
+                    Smolensciae Czerniechoviaeque, nec non Suecorum, Gottorum Vandalorumque
+                    haereditarius rex.<lb/>Significamus omnibus et singulis quorum interest. Quod
+                    cum illustrissimi, illustres et magnifici nostri et reipublicae commissarii ad
+                    tractatus pacis perpetuae, inter nos regnumque nostrum Poloniae et Magnum
+                    Ducatum Lithuaniae, nostrosque foederatos et belli socios ab una et serenissimum
+                    regem regnumque Sueciae parte ab altera Olivae institutos, illustrissimis,
+                    illustribus, magnificis et generosis serenissimi electoris Brandeburgici
+                    commissariis articulum separatum declaratorium articuli secundi, qui der
+                    amnistia et redintegratione iurium in instrumento pacis habetur, ut sequitur
+                    ediderint, isque a partibus acceptatus sit.<lb/></p>
+                <p>[Articulus separatus] <lb/>Nos infra scripti sacrae regiae majestatis reipublicae
+                    Polonae ad tractatus Polono-Sueticos legati plenipotentiarii, notum facimus,
+                    quorum interest, vel ulla ratione interesse poterit universis et singulis.
+                    Quandoquidem instrumento pacis principali hodie subscripto articulis amnestiae,
+                    in quo tam communitatum quam singulorum iura redintegrantur, forma generali
+                    conceptus est, et nulla specialis acquisitorum tam in Prussia ducali, quam extra
+                    eandem serenissimo electori Brandeburgico per pacta cum sacra regia majestate
+                    requepublica primum Velaviae, demum Bydgostiae<note n="350" type="crit_app">CTS,
+                        Dumont: Bidgostiae. Veträge von Wehlau und Bromberg (1657 19 IX bzw. XI 6)
+                        stellen das Verhältnis zwischen Polen und Brandenburg auf eine neue Basis,
+                        indem Polen die Souveränität Brandenburgs anerkennt.</note>, inita ac
+                    constitutione comitiali approbata, suae serenitatis electoralis iurium, ut pote
+                    independentiae ducatus Prussiae. Condescensionisque in feudum Bytoviensis et
+                        Leoburgensis<note n="351" type="crit_app">Dumont: Butoviensis. Bütau (poln.
+                        Bytów) und Lauenburg (poln. Lębork), westlich von Danzig gelegen, seit 1657
+                        polnische Lehen.</note> districtuum, in palatinu Pomeraniae existentium, tum
+                    et iuris competentis in civitatem Elbingensem, nec non praefecturam
+                        Draheimensem<note n="352" type="crit_app">Draheim, poln. Drahim, in Pommern
+                        östl. von Stettin gelegen, war durch die Verträge von Wehlau und Bromberg
+                        für drei Jahre als Sicherheitspfand für die Zahlung von
+                        Kriegsentschädigungen durch Polen an Brandenburg gegangen. 1668 besetzte
+                        Brandenburg Draheim.</note> in eodem facta est mentio. Ne id in praeiudicium
+                    memoratorum suae serenitatis electoralis iurium trahi posset, plures modi
+                    ratione inclusionis praedictorum, in praefato articuclo amnestiae propositi
+                    fuere. Cum autem partibus nequaquam satisfacere potuissent, tandem prudenti
+                    illustrissimi et excellentissimi domini christianissimi regis legati mediatione
+                    ac indefesso studio, maturandae pacis gratia convenit, ut peculiari articulo,
+                    qui tamen pro inserto pacis instrumento haberi, eiusdemque<note n="353"
+                        type="crit_app">Böhme: et eiusdem.</note> valoris esse debet, ea ipsa iura
+                    serenissimo electori Brandeburgico caverentur, quod et factum est a legatione
+                    Suetica per sequentem articulum tenoris eiusmodi.<lb/>Legatio Suetica declarat,
+                    serenissimi regis regni Sueciae nomine, ea, quae in instrumento pacis articulo
+                    secundo de redintegratione iurium disponuntur, non debere concernere ditiones,
+                    status, civitates, terras et loca, quae a sua serenitate electorali possidentur,
+                    nec eo trahenda. Neque obstare eundem articulum, quo minus suae serenitati
+                    electorali Elbinga iure, quod eidem suae serenitati electorali competere potest,
+                    tendena tradatur, salvis de caetero eiusdem civitatis privilegiis et
+                    immunitatibus, tam in ecclesiasticis, quam in<note n="354" type="crit_app"
+                        >Böhme: [Auslassung:] in.</note> politicis, salvo itidem iure retractus
+                    conventionalis serenissimo regi et reipublicae Poloniae quo ad Elbingam. Qui
+                    quidem articulus tanquam si in ipso instrumento pacis esset insertus, ibidemque
+                    cum aliis appositus, eiusdem cum eo valoris (ut supra dictum est) esse haberique
+                    debeat.<lb/>Proinde et nos infra scripti legati commissarii, cum plena potestate
+                    sacrae regiae majestatis et statuum reipublicae eorundem nomine mentem nostram
+                    praesenti itidem articulo, quem pro inserto et eiusdem cum instrumento pacis
+                    valoris haberi volumus, declaramus palamque facimus. Articulum amnistiae<note
+                        n="355" type="crit_app">Böhme: amnestiae.</note> generalis in instrumento
+                    pacis contentum, nulla tenus posse, vel debere iurbus suae serenitatis
+                    electoralis, tam antiquis, quam noviter acquisitis et in specie traditioni
+                    Elbingensis civitatis juxta pacta cum sua serenitate electorali inita derogare
+                    et praejudicare, imo eadem pacta in omnibus eorundem articulis, punctis et
+                    clausulis, salva et integra, conservare et manutenere.<lb/>In cuius rei fidem
+                    praesentem declarationem manibus nostris subscripsimus, sigillisque nostris
+                    gentiliis roboravimus. Die tertia maii anno Domini millesimo sexcencesimo
+                    sexagesimo in monasterio Olivensis.</p>
+                <p>Georgius Lubomierski<note n="356" type="crit_app">Böhme: Lubomirski.</note>,
+                    supremus marschalcus, generalisque exercituum regni<note n="357" type="crit_app"
+                        >Böhme, CTS, Dumont: Abweichung in der Reihenfolge der
+                        Unterschriften.</note><lb/><rs ref="#pp0140">Joannes Comes de Leszno</rs>,
+                    palatinus Posnaniae<note n="358" type="crit_app">Böhme: Posnaniensis.</note>,
+                    Maioris Poloniae generalis, Marieburgensis, Korsun[ensis] capitan[eus]<lb/><rs
+                        ref="#pp0144">Joannes Andreas Morsztyn</rs><note n="359" type="crit_app"
+                        >Böhme: Morsztin.</note>, referendarius regni<lb/><rs ref="#pp0142">Nicolaus
+                        Prazmowski</rs>, episcopus Luceorien[sis] et Bresten[sis], regni
+                    cancellarius supremus<lb/><rs ref="#pp0145">Vladislaus Rey</rs>, thesaurarius
+                    curiae regni<lb/><rs ref="#pp0143">Christophorus Pac</rs>, supremus Mag[ni].
+                    Duc[atui]. Lithuaniae cancellarius<lb/><rs ref="#pp0146">Joannes Gninski</rs>,
+                    succamerar[ius]. Pomeran[iae], capitaneus Gnesnensis </p>
+                <p>Nos itaque <rs ref="#pp0136">Ioannes Casimirus</rs> eadem gratia rex Poloniae,
+                    Mag[nus]. Dux Lithuan[iae]. etc. promittimus et recipimus regio nostro,
+                    successorum ac posterorum nostrorum et reipublicae Poloniae nomine, nos
+                    praemissum articulum, omniaque et singula, in eo comprehensa capita, approbare
+                    et ratihabere, sicuti, vigore quoque praesentium, approbamus, et ratihabemus,
+                    ita ut eiusdem autoritatis cum instrumento principali esse debeat et haberi; Nec
+                    non passuros ut ab ullo reipublicae statu, vasallo, officiali, aut subdito,
+                    quovis modo violetur cavemusque diplomata ratificationis huius pacis, tam hoc
+                    nostrum senatorum et equestris ordinis a nobis et republ. Poloniae, lege
+                    comitiali delegatorum in proximis comitiis regni generalibus constitutionibuis
+                    et volumini legum eipublicae insertum iri. In cuius rei fidem et certitudinem
+                    hasce manu nostra subscripsimus et sigillo regni communiri iussimus . Danbatur
+                    Varsaviae in convocatione solenni die XXVI mensis iunii anno Domini MDCLX
+                    regnorum nostrorum Poloniae et Sueciae XIII.<lb/><rs ref="#pp0136">Ioannes
+                        Casimirus Rex</rs>. <lb/>
+                    <lb/>[Unterschriften]<note type="crit_app" n="360">Dumont: Stephanus Hankiewicz,
+                        Secr. Reg. Majest.. Stefan Hankiewicz (gest. 1704),
+                    Kanzleisekretär.</note></p>
+            </div>
+
+        </body>
+        <back>
+            <listBibl>
+                <bibl xml:id="a216">
+                    <title level="a">Reichsarchiv (1660-05-03)</title>
+                    <title level="m">Reichsarchiv, Band 5 (1713), PSpec I-3, S.173-202 Aus:
+                        Dokumentenarchiv der Universitätsbibliothek Augsburg (Drucke vor 1900 /
+                        Historische Geschichtswerke).</title>
+                    <biblScope>
+                        <graphic xml:id="A1Pnr1"
+                            url="https://www.ieg-friedensvertraege.de/dbimages/img_4a96599f908b3"/>
+                        <graphic xml:id="A1Pnr2"
+                            url="https://www.ieg-friedensvertraege.de/dbimages/img_4a9659aa58dd1"/>
+                        <graphic xml:id="A1Pnr3"
+                            url="https://www.ieg-friedensvertraege.de/dbimages/img_4a9659b387b9c"/>
+                        <graphic xml:id="A1Pnr4"
+                            url="https://www.ieg-friedensvertraege.de/dbimages/img_4a9659e7e854d"/>
+                        <graphic xml:id="A1Pnr5"
+                            url="https://www.ieg-friedensvertraege.de/dbimages/img_4a9659fe7ed4b"/>
+                        <graphic xml:id="A1Pnr6"
+                            url="https://www.ieg-friedensvertraege.de/dbimages/img_4a9659fe7ed4b"/>
+                        <graphic xml:id="A1Pnr7"
+                            url="https://www.ieg-friedensvertraege.de/dbimages/img_4a965a07c7156"/>
+                        <graphic xml:id="A1Pnr8"
+                            url="https://www.ieg-friedensvertraege.de/dbimages/img_4a965a14a000a"/>
+                        <graphic xml:id="A1Pnr9"
+                            url="https://www.ieg-friedensvertraege.de/dbimages/img_4a965a214b062"/>
+                        <graphic xml:id="A1Pnr10"
+                            url="https://www.ieg-friedensvertraege.de/dbimages/img_4a965a2c200a3"/>
+                        <graphic xml:id="A1Pnr11"
+                            url="https://www.ieg-friedensvertraege.de/dbimages/img_4a965a3553c8e"/>
+                        <graphic xml:id="A1Pnr12"
+                            url="https://www.ieg-friedensvertraege.de/dbimages/img_4a965a40e5468"/>
+                        <graphic xml:id="A1Pnr13"
+                            url="https://www.ieg-friedensvertraege.de/dbimages/img_4a965a4a40392"/>
+                        <graphic xml:id="A1Pnr14"
+                            url="https://www.ieg-friedensvertraege.de/dbimages/img_4a965a53cae1d"/>
+                        <graphic xml:id="A1Pnr15"
+                            url="https://www.ieg-friedensvertraege.de/dbimages/img_4a965a5c347aa"/>
+                        <graphic xml:id="A1Pnr16"
+                            url="https://www.ieg-friedensvertraege.de/dbimages/img_4a965a6808848"/>
+                        <graphic xml:id="A1Pnr17"
+                            url="https://www.ieg-friedensvertraege.de/dbimages/img_4a965a9ca1c35"/>
+                        <graphic xml:id="A1Pnr18"
+                            url="https://www.ieg-friedensvertraege.de/dbimages/img_4a965aaad09ea"/>
+                        <graphic xml:id="A1Pnr19"
+                            url="https://www.ieg-friedensvertraege.de/dbimages/img_4a965ab49dd2d"/>
+                        <graphic xml:id="A1Pnr20"
+                            url="https://www.ieg-friedensvertraege.de/dbimages/img_4a965abf5a6cd"/>
+                        <graphic xml:id="A1Pnr21"
+                            url="https://www.ieg-friedensvertraege.de/dbimages/img_4a965acd3e15b"/>
+                        <graphic xml:id="A1Pnr22"
+                            url="https://www.ieg-friedensvertraege.de/dbimages/img_4a965ad5c9b89"/>
+                        <graphic xml:id="A1Pnr23"
+                            url="https://www.ieg-friedensvertraege.de/dbimages/img_4a965addbff1c"/>
+                        <graphic xml:id="A1Pnr24"
+                            url="https://www.ieg-friedensvertraege.de/dbimages/img_4a965ae9dc3f7"/>
+                        <graphic xml:id="A1Pnr25"
+                            url="https://www.ieg-friedensvertraege.de/dbimages/img_4a965af40081d"/>
+                        <graphic xml:id="A1Pnr26"
+                            url="https://www.ieg-friedensvertraege.de/dbimages/img_4a965affe8e96"/>
+                        <graphic xml:id="A1Pnr27"
+                            url="https://www.ieg-friedensvertraege.de/dbimages/img_4a965b0b3ef98"/>
+                        <graphic xml:id="A1Pnr28"
+                            url="https://www.ieg-friedensvertraege.de/dbimages/img_4a965b14dc2fe"/>
+                        <graphic xml:id="A1Pnr29"
+                            url="https://www.ieg-friedensvertraege.de/dbimages/img_4a965b1e8f067"/>
+                        <graphic xml:id="A1Pnr30"
+                            url="https://www.ieg-friedensvertraege.de/dbimages/img_4a965b283df54"/>
+                        <graphic xml:id="A1Pnr31"
+                            url="https://www.ieg-friedensvertraege.de/dbimages/img_4a965b374b9b6"/>
+                    </biblScope>
+                </bibl>
+                <bibl xml:id="a27">
+                    <title level="a">Theatrum Europaeum (1660-04-23 bis 1660-05-03)</title>
+                    <title level="m">Theatrum Europaeum, Band 8 (1657-1660) Aus: Dokumentenarchiv
+                        der Universitätsbibliothek Augsburg (Drucke vor 1900 / Historische
+                        Geschichtswerke).</title>
+                    <biblScope>
+                        <graphic xml:id="A2Pnr1"
+                            url="https://www.ieg-friedensvertraege.de/dbimages/img_49e5c539dfe75"/>
+                        <graphic xml:id="A2Pnr2"
+                            url="https://www.ieg-friedensvertraege.de/dbimages/img_49e5c5412b3a6"/>
+                        <graphic xml:id="A2Pnr3"
+                            url="https://www.ieg-friedensvertraege.de/dbimages/img_49e5c546ef823"/>
+                        <graphic xml:id="A2Pnr4"
+                            url="https://www.ieg-friedensvertraege.de/dbimages/img_49e5c54d5b0fc"/>
+                        <graphic xml:id="A2Pnr5"
+                            url="https://www.ieg-friedensvertraege.de/dbimages/img_49e5c5547a4d0"/>
+                        <graphic xml:id="A2Pnr6"
+                            url="https://www.ieg-friedensvertraege.de/dbimages/img_49e5c55c56280"/>
+                        <graphic xml:id="A2Pnr7"
+                            url="https://www.ieg-friedensvertraege.de/dbimages/img_49e5c5678dcdb"/>
+                        <graphic xml:id="A2Pnr8"
+                            url="https://www.ieg-friedensvertraege.de/dbimages/img_49e5c56ece3ec"/>
+                        <graphic xml:id="A2Pnr9"
+                            url="https://www.ieg-friedensvertraege.de/dbimages/img_49e5c576561e2"/>
+                        <graphic xml:id="A2Pnr10"
+                            url="https://www.ieg-friedensvertraege.de/dbimages/img_49e5c57f08f49"/>
+                        <graphic xml:id="A2Pnr11"
+                            url="https://www.ieg-friedensvertraege.de/dbimages/img_49e5c584ac088"/>
+                        <graphic xml:id="A2Pnr12"
+                            url="https://www.ieg-friedensvertraege.de/dbimages/img_49e5c58b0507e"/>
+                    </biblScope>
+                </bibl>
+                <bibl>Friese, Über den äußeren Gang der Verhandlungen beim Frieden von Oliva.</bibl>
+                <bibl>Frost, The Northern Wars </bibl>
+                <bibl>Frost, After the deluge. Poland-Lithuania and the second Northern War. </bibl>
+                <bibl>Opitz, Österreich und Brandenburg im Schwedisch-Polnischen Krieg </bibl>
+                <bibl>>Lepszy, Polska w okresie drugiej wojny pól/nocnej 1655-1660. </bibl>
+                <bibl>Sundberg, Svenska freder och stillestånd, S. 279-282. </bibl>
+                <bibl>Seitz / Rosengren, Sveriges freder och fördrag, S. 48-50.</bibl>
+            </listBibl>
+        </back>
+    </text>
+</tei:TEI>

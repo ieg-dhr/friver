@@ -1,0 +1,766 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE tei SYSTEM "../resources/FriVer_DTD.dtd">
+
+<?xml-model href="../resources/FriVer.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns="http://www.tei-c.org/ns/1.0"
+    xml:id="pa000299-0597">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title level="s">European peace treaties of the pre-modern era in data / Europäische
+                    Friedensverträge der Vormoderne in Daten (FriVer+)</title>
+                <title when="1658-08-15" xml:id="t597" when-custom="1658 VIII 5_15" level="a"
+                    ref="https://www.ieg-friedensvertraege.de/treaty/t-597-1-de.html">Erster
+                    Rheinbund, Erweiterung um Frankreich</title>
+            </titleStmt>
+            <editionStmt>
+                <edition> Digital edition according to <ref target="http://www.tei-c.org/">TEI
+                        P5</ref>
+                </edition>
+                <funder>
+                    <ref target="https://www.text-plus.org/">TEXT+</ref>
+                </funder>
+                <editor role="http://id.loc.gov/vocabulary/relators/edt"
+                    ref="https://orcid.org/0000-0002-8741-5916">
+                    <persName>Jaap Geraerts</persName>
+                    <note>The transformation and enrichment of the data is done by Jaap Geraerts
+                        (IEG Mainz). The other members of the FriVer+ team are Fabian Cremer, Ines
+                        Grund, and Thorsten Wübbena (all IEG Mainz).</note>
+                    <note> The original data has been created by the <ref
+                            target="https://www.ieg-friedensvertraege.de">team of scholars</ref> who
+                        were part of the Europäische Friedensverträge der Vormoderne project. This
+                        project was lead by Prof. Dr. Heinz Duchhardt and was based at the Leibniz
+                        Institute of European History in Mainz. </note>
+                </editor>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>
+                    <orgName ref="http://www.isni.org/0000000119314040">Leibniz-Institut für
+                        Europäische Geschichte Mainz</orgName>
+                </publisher>
+                <distributor>
+                    <orgName ref="http://www.isni.org/0000000110101946">Universitäts- und
+                        Landesbibliothek Darmstadt</orgName>
+                </distributor>
+                <idno type="ISIL">http://lobid.org/organisation/DE-17</idno>
+                <date type="issued" when="2023-12-23"/>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">
+                        <p xml:lang="en">This file is licensed under the terms of the Creative
+                            Commons License CC-BY 4.0 (Attribution 4.0 International)</p>
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <repository xml:id="r10">Hannover StA/LA <note>Arcinsys Niedersachsen, Hannover NLA, Findbuch:<lb/>
+                        <ref
+                            target="http://www.arcinsys.niedersachsen.de/arcinsys/detailAction?detailid=v1594321"
+                            >http://www.arcinsys.niedersachsen.de/arcinsys/detailAction?detailid=v1594321</ref><lb/>
+                        Trait&eacute;s et Accords de la France:<lb/>
+                        <ref
+                            target="http://www.diplomatie.gouv.fr/traites/affichetraite.do?accord=TRA16580001"
+                            >http://www.diplomatie.gouv.fr/traites/affichetraite.do?accord=TRA16580001</ref></note>
+                </repository>
+                <msDesc>
+                    <p>Unterhändlerinstrumente <lb/>Hauptstaatsarchiv Hannover: Cal. Or. 31,
+                        Frankreich 1 (Transkriptionsgrundlage); <lb/>AAE Paris: M.A.E. Traités
+                        Multilateraux 16580001. Traité d'alliance, dit "Ligue du Rhin".-Mayence.
+                        Siehe auch: <lb/><ref
+                            target="http://www.doc.diplomatie.gouv.fr/BASIS/choiseul/desktop/choiseul/DDW?M=26&amp;K=16580001&amp;W=PAYS+%3D+%27Multilat%E9raux%27+ORDER+BY+SOUSSERIE/Ascend"
+                            >Link zur Vertragsseite </ref>
+                        <lb/>
+                    </p>
+                    <p>
+                        <lb/>Ratifikationen <lb/>Braunschweig-Lüneburg (Herzog Georg Wilhelm) :
+                        Hannover 1658 IX 25 (Nachweis: Hessisches Staatsarchiv Darmstadt A 6, Nr. 9
+                        [Ratifikation Hannover 1659 VII 21], AAEParis).
+                        <lb/>Braunschweig-Lüneburg-Celle (Herzog Christian Ludwig): Celle 1658 X
+                        &lt;..&gt; (Nachweis: Hessisches Staatsarchiv Darmstadt A 6, Nr. 8
+                        [Ratifikation Celle 1659 VII 30]; AAEParis) Braunschweig-Wolfenbüttel
+                        (Herzog August): Wolfenbüttel 1658 X 12 (Nachweis: AAEParis) <lb/>Köln: Bonn
+                        1658 IX 9 (Nachweis: AAEParis). <lb/>Hessen-Kassel: Kassel 1658 X 10
+                        (Nachweis: AAEParis). <lb/>Pfalz-Neuburg: Düsseldorf 1658 XI 12 (Nachweis:
+                        AAEParis). <lb/>Schweden: Ibbestrup (camp de Hafnia; Feldlager in Ibstrup
+                        (heute Jægersborg, ca. 10 km nördlich von Kopenhagen). 1658 IX 22 (Nachweis:
+                        AAEParis). <lb/>
+                        <lb/>Beitritte <lb/>Hessen-Darmstadt: Frankfurt 1659 VI 18 (Ratifikation
+                        Darmstadt 1659 IX 24 ; Nachweis: <lb/>Hessisches Staatsarchiv Darmstadt A 6,
+                        Nr. 7. Ratifikation Frankreichs, Fontainebleau 1659 VII 16; Nachweis:
+                        AAEParis). <lb/>Hohenlohe: Frankfurt 1659 VII 30 (Ratifikation Neuenstein
+                        1660 I 26; (Nachweis: AAEParis). <lb/>Münster: Frankfurt 1660 X 6
+                        (Ratifikation Wolbeck 1660 XI 30; Nachweis: AAEParis). <lb/>Salm-Salm:
+                        Frankfurt 1659 VI 25 (Ratifikation Frankfurt 1659 X 7; Nachweis: AAEParis).
+                        <lb/>Waldeck: Frankfurt 1659 XII 17 (Ratifikation Arolsen 1659 XII 16;
+                        Nachweis: AAEParis). <lb/>Württemberg: Frankfurt 1660 II 7 (Ratifikation
+                        Stuttgart 1660 IV 6; Nachweis: AAEParis). <lb/>Trier vgl. den Beitritt:
+                        Trier: 1662 III 20 Frankfurt (Link: AAE Paris) <lb/>Brandenburg: vgl. den
+                        Beitritt Regensburg 1665 XI 18 (Nachweis: AAE Paris) <lb/>
+                        <lb/>
+                        <lb/>
+                        <lb/>
+                    </p>
+                    <p>&nbsp; </p>
+                    <p>&nbsp; </p>
+                    <p>&nbsp; </p>
+                    <p>
+                        <lb/>
+                        <lb/>
+                        <ref
+                            target="http://www.doc.diplomatie.gouv.fr/BASIS/choiseul/desktop/choiseul/DDW?M=26&amp;K=16580001&amp;W=PAYS+%3D+%27Multilat%E9raux%27+ORDER+BY+SOUSSERIE/Ascend">
+                            <lb/>
+                        </ref></p>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p> The data in this XML file, originally created by the project <ref
+                        target="https://www.ieg-friedensvertraege.de/vertraege">Europäische
+                        Friedensverträge der Vormoderne online</ref> has been transformed in
+                    accordance with <ref target="http://www.tei-c.org/">TEI P5</ref> as part of the
+                    project <ref
+                        target="https://www.ieg-mainz.de/en/research/research-projects/european-peace-treaties-of-the-pre-modern-era-in-data"
+                        >Europäische Friedensverträge der Vormoderne in Daten (FriVer+)</ref>
+                </p>
+            </projectDesc>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="la" xml:id="lan6">Latein</language>
+            </langUsage>
+        </profileDesc>
+    </teiHeader>
+    <standOff>
+        <listPerson>
+            <person role="signatory" xml:id="p132">
+                <persName ref="https://www.wikidata.org/wiki/Q565812">
+                    <name>Braunschweig - Lüneburg - Calenberg</name>
+                </persName>
+            </person>
+            <person role="signatory" xml:id="p22">
+                <persName ref="https://explore.gnd.network/gnd/17444-0">
+                    <name>Braunschweig - Lüneburg - Celle</name>
+                </persName>
+            </person>
+            <person role="signatory" xml:id="p24">
+                <persName
+                    ref="https://explore.gnd.network/gnd/17444-0; https://explore.gnd.network/gnd/4066832-0">
+                    <name>Braunschweig - Lüneburg - Wolfenbüttel</name>
+                </persName>
+            </person>
+            <person role="signatory" xml:id="p37">
+                <persName ref="https://explore.gnd.network/gnd/4018145-5">
+                    <name>Frankreich</name>
+                </persName>
+            </person>
+            <person role="signatory" xml:id="p55">
+                <persName ref="https://explore.gnd.network/gnd/4072472-4">
+                    <name>Hessen - Kassel</name>
+                </persName>
+            </person>
+            <person role="signatory" xml:id="p64">
+                <persName ref="https://explore.gnd.network/gnd/4031485-6">
+                    <name>Köln (Kurfürstentum)</name>
+                </persName>
+            </person>
+            <person role="signatory" xml:id="p146">
+                <persName ref="https://explore.gnd.network/gnd/4100026-2">
+                    <name>Mainz (Kurfürstentum)</name>
+                </persName>
+            </person>
+            <person role="signatory" xml:id="p152">
+                <persName ref="https://explore.gnd.network/gnd/4045461-7">
+                    <name>Pfalz - Neuburg</name>
+                </persName>
+            </person>
+            <person role="signatory" xml:id="p99">
+                <persName ref="https://explore.gnd.network/gnd/4077258-5">
+                    <name>Schweden</name>
+                </persName>
+            </person>
+            <person xml:id="pp0138">
+                <persName ref="https://explore.gnd.network/gnd/118816829">
+                    <name>Louis XIV of France</name>
+                </persName>
+            </person>
+            <person xml:id="pp0137">
+                <persName ref="https://explore.gnd.network/gnd/118720945">
+                    <name>Karl X. Gustav von Schweden</name>
+                </persName>
+            </person>
+            <person xml:id="pp0246">
+                <persName ref="https://explore.gnd.network/gnd/119200767">
+                    <name>Georg Wilhelm (Braunschweig-Lüneburg)</name>
+                </persName>
+            </person>
+            <person xml:id="pp0286">
+                <persName>
+                    <name>Johann Philipp von Schönborn</name>
+                </persName>
+            </person>
+            <person xml:id="pp0287">
+                <persName>
+                    <name>Karl Kaspar von der Leyen</name>
+                </persName>
+            </person>
+            <person xml:id="pp0288">
+                <persName>
+                    <name>Maximilian Heinrich, Köln, Erzbischof</name>
+                </persName>
+            </person>
+            <person xml:id="pp0289">
+                <persName>
+                    <name>Christoph Bernhard von Galen</name>
+                </persName>
+            </person>
+            <person xml:id="pp0290">
+                <persName>
+                    <name>Philipp Wilhelm, Pfalz, Kurfürst</name>
+                </persName>
+            </person>
+            <person xml:id="pp0291">
+                <persName>
+                    <name>August, Braunschweig-Lüneburg, Herzog</name>
+                </persName>
+            </person>
+            <person xml:id="pp0292">
+                <persName>
+                    <name>Christian Ludwig, Braunschweig-Lüneburg, Herzog</name>
+                </persName>
+            </person>
+            <person xml:id="pp0293">
+                <persName>
+                    <name>Wilhelm VI., Hessen-Kassel, Landgraf</name>
+                </persName>
+            </person>
+            <person xml:id="pp0294">
+                <persName>
+                    <name>Antoine Gramont</name>
+                </persName>
+            </person>
+            <person xml:id="pp0295">
+                <persName>
+                    <name>Hugues de Lionne</name>
+                </persName>
+            </person>
+            <person xml:id="pp0296">
+                <persName>
+                    <name>Johann Christian von Boyneburg</name>
+                </persName>
+            </person>
+            <person xml:id="pp0297">
+                <persName>
+                    <name>Wilhelm Egon Graf von Fürstenberg</name>
+                </persName>
+            </person>
+            <person xml:id="pp0298">
+                <persName>
+                    <name>Franz Wilhelm von Giese</name>
+                </persName>
+            </person>
+            <person xml:id="pp0299">
+                <persName>
+                    <name>Georg Hansson von Snoilsky</name>
+                </persName>
+            </person>
+            <person xml:id="pp0300">
+                <persName>
+                    <name>Polycarp Heiland</name>
+                </persName>
+            </person>
+            <person xml:id="pp0301">
+                <persName>
+                    <name>Otto Johann Witte</name>
+                </persName>
+            </person>
+            <person xml:id="pp0302">
+                <persName>
+                    <name>Otto Otto von Mauderode</name>
+                </persName>
+            </person>
+            <person xml:id="pp0303">
+                <persName>
+                    <name>Regner Badenhausen</name>
+                </persName>
+            </person>
+            <person xml:id="pp0304">
+                <persName>
+                    <name>Sebastian Friedrich Zobell</name>
+                </persName>
+            </person>
+        </listPerson>
+        <listPlace>
+            <place xml:id="loc102">
+                <placeName ref="https://explore.gnd.network/gnd/4037124-4">Mainz</placeName>
+            </place>
+        </listPlace>
+        <facsimile>
+            <surface xml:id="FacsPnr1">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_4491272ec8bd4"/>
+            </surface>
+            <surface xml:id="FacsPnr2">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_44912849690ba"/>
+            </surface>
+            <surface xml:id="FacsPnr3">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_449128f5de6c4"/>
+            </surface>
+            <surface xml:id="FacsPnr4">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_4491296062d77"/>
+            </surface>
+            <surface xml:id="FacsPnr5">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_449129ca1186f"/>
+            </surface>
+            <surface xml:id="FacsPnr6">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_44912a637aac2"/>
+            </surface>
+            <surface xml:id="FacsPnr7">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_44912ae354f7e"/>
+            </surface>
+            <surface xml:id="FacsPnr8">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_44912b4cad57d"/>
+            </surface>
+            <surface xml:id="FacsPnr9">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_44912bd2e8d05"/>
+            </surface>
+        </facsimile>
+    </standOff>
+    <text>
+        <front>
+            <div type="Drucke">
+                <p> </p>
+                <p>VAS I, S.72-78; <ref
+                        target="http://gallica.bnf.fr/ark:/12148/bpt6k55623h/f90.chemindefer"
+                        > </ref><ref
+                        target="http://gallica.bnf.fr/ark:/12148/bpt6k55623h/f90.chemindefer">Link
+                        zum Druck auf gallica.bnf.fr</ref>
+                </p>
+                <p>Lundorp, Acta Publica VIII, S. 422-423 </p>
+                <p>Dumont VI/ II, S.239-240 (frz) </p>
+                <p>CTS V, S.161–167(frz.) </p>
+                <p> Léonard, Receuil des Traitez de Paix III, S. 749750 (frz.) <ref
+                        target="http://www.altes-reich.de/quelle16.pdf"
+                        >http://www.altes-reich.de/quelle16.pdf</ref> (dt.; Auszüge) </p>
+                <p>Hofmann Hanns Hubert (Hrsg.): Quellen zum Verfassungsorganismus des Heiligen
+                    Römischen Reiches Deutscher Nation 1495-1815 (= Ausgewählte Quellen zur
+                    deutschen Geschichte der Neuzeit – Freiherr vom Stein-Gedächtnisausgabe, Bd.
+                    XIII), Darmstadt 1976, Nr. 36, S. 222-225 (frz.; dt) </p>
+                <p>&nbsp; </p>
+                <lb/>
+            </div>
+        </front>
+        <body>
+            <div type="Edition">
+                <p>[Seite 1] </p>
+                <p>Alliantz Recess <lb/>mit <lb/>der Cron Franckreich &lt;…&gt;<note n="0"
+                        type="crit_app">Unleserliche Textpassage durch Papierschäden.</note>
+                    <lb/>der Confoederirten &lt;….&gt;<note n="0.5" type="crit_app">Unleserliche
+                        Textpassage durch Papierschäden.</note>
+                    <lb/>Maÿntz <lb/>Trier <lb/>Cölln <lb/>Münster <lb/>Pfaltz Newburg <lb/>Schweden
+                    &lt;wegen Bremen…..&gt;<note n="0.75" type="crit_app">Unleserliche Textpassage
+                        durch Papierschäden.</note>
+                    <lb/>Braunschweig <lb/>Hessen </p>
+                <p>
+                    <lb/>[Seite 2] </p>
+                <p>Quandoquidem <ref
+                        target="http://www.historicum.net/themen/erster-rheinbund-1658/akteure/vertragschliessende-parteien/frankreich/ludwig-xiv/"
+                            ><rs ref="#pp0138">Sacra Christianissima <lb/>Regia</rs></ref>
+                        M[ajes]tas<note n="1" type="annotation">Ludwig XIV. (1638-1715),
+                        französischer König.</note>, ut consors pacis accedit ad foedus, <lb/>quod
+                    Eminent[issi]mi Ser[enissi]mi et Reverend[issi]mi Principes <lb/>ac Domini
+                    D[omi]nus <rs ref="#pp0286">Johannes Philippus</rs><note n="2" type="annotation"
+                        >Johann Philipp von Schönborn (1605-1673), Kurfürst, (Erz)Bischof von Mainz
+                        (1645/47), Würzburg (1642) und Worms (1663). Teilnehmer und Mitgestalter am
+                        Westphälischen Friedenskongress.</note>
+                    <ref
+                        target="http://www.historicum.net/themen/erster-rheinbund-1658/akteure/vertragschliessende-parteien/mainz/johann-philipp-von-schoenborn/"
+                        >Mogun- <lb/>tinus</ref>, D[omi]nus <rs ref="#pp0287">Carolus Casparus
+                        Trevirensis</rs><note n="3" type="annotation">Caspar von der
+                        Leyen-Hohengeroldseck (1618-1676), Erzbischof von Trier seit 1652.</note>,
+                    Do[mi]nus <lb/><rs ref="#pp0288">Maximillianus Henricus <ref
+                            target="http://www.historicum.net/themen/erster-rheinbund-1658/akteure/vertragschliessende-parteien/koeln/maximilian-heinrich/"
+                            >Coloniensis</ref></rs><note n="4" type="annotation">Maximilian Heinrich
+                        (1621-1688), Kurfürst von Köln, Bischof von Hildesheim und Lüttich, ab 1683
+                        auch Bischof von Münster.</note><ref
+                        target="http://www.historicum.net/themen/erster-rheinbund-1658/akteure/vertragschliessende-parteien/koeln/maximilian-heinrich-von-wittelsbach/"
+                    > </ref>Archiepi- <lb/>scopi S[acri] R[omani] Imperii per Germaniam,&nbsp;<note
+                        n="5" type="crit_app">Lundorp: Einschub: „per“.</note> Galliam Regnum
+                    <lb/>Arelatense ac Italiam Archi Cancellarii ac Princi- <lb/>pes Electores
+                    D[omi]nus <rs ref="#pp0289">Christophorus Bernhardus<note n="6"
+                            type="annotation">Christoph Bernhard von Galen (1606-1678), Kurfürst,
+                            seit 1650 Erzbischof von Münster.</note>
+                        <lb/>Episcopus Monasteriensis</rs>, S[acri] Rom[ani] Imp[erii] Princeps
+                    <lb/>D[omi]nus <rs ref="#pp0290">Philippus Wilhelmus</rs><note n="7"
+                        type="annotation">Philipp Wilhelm (1615-1690), ab 1653 Pfalzgraf, Herzog von
+                        Pfalz Neuburg, Herzog von Jülich und Berg, ab 1685 Herzog von Bayern und der
+                        Pfalz.</note>, <ref
+                        target="http://www.historicum.net/themen/erster-rheinbund-1658/akteure/vertragschliessende-parteien/pfalz-neuburg/pfalzgraf-philipp-wilhelm/"
+                        >Comes Palatinus</ref><ref
+                        target="http://www.historicum.net/themen/erster-rheinbund-1658/akteure/vertragschliessende-parteien/pfalz-neuburg/pfalzgraf-philipp-wilhelm/"> </ref>
+                    <lb/>Rheni Dux Bavariæ, Juliaci, Cliviæ et Montium &lt;et&gt; <lb/><rs
+                        ref="#pp0137">Regia M[a]j[es]tas<ref
+                            target="http://www.historicum.net/themen/erster-rheinbund-1658/akteure/vertragschliessende-parteien/schweden-fuer-bremen-und-verden/karl-x-gustav/"
+                            type="annotation"> Sueciæ</ref></rs><note n="8">Karl X. Gustav
+                        (1622-1660), König von Schweden.</note>, ut Dux Bremæ et Verdæ et<note n="9"
+                        type="crit_app">Lundorp: ac.</note>
+                    <lb/>D[omi]nus Wismariæ<note n="10" type="crit_app">Lundorp: Einschub:
+                        etc.</note>, D[ominus] D[ominus] D[ominus]<note n="11" type="crit_app"
+                        >Lundorp: Auslassung.</note>
+                    <rs ref="#pp0291">Augu<ref
+                            target="http://www.historicum.net/themen/erster-rheinbund-1658/akteure/vertragschliessende-parteien/braunschweig-lueneburg/august-der-juengere-wolfenbuettel/"
+                            >stus</ref></rs><note n="12" type="annotation">August der Jüngere
+                        (1579-1666), Herzog von Braunschweig-Lüneburg-Wolfenbüttel.</note>, <rs
+                        ref="#pp0292">Christia-<lb/>nus <ref
+                            target="http://www.historicum.net/themen/erster-rheinbund-1658/akteure/vertragschliessende-parteien/braunschweig-lueneburg/christian-ludwig-celle/"
+                            >Ludovicus</ref></rs><note n="13" type="crit_app">Lundorp:
+                        Christophorus. Christian Ludwig (1622-1665), Herzog von
+                        Braunschweig–Lüneburg-Celle.</note> et <rs ref="#pp0246">Georgius <ref
+                            target="http://www.historicum.net/themen/erster-rheinbund-1658/akteure/vertragschliessende-parteien/braunschweig-lueneburg/georg-wilhelm-calenberg/"
+                            >Wilhelmus</ref></rs><note n="14" type="annotation">Georg Wilhelm
+                        (1624-1705), Herzog von Braunschweig-Lüneburg-Calenberg.</note>
+                    <ref
+                        target="http://www.historicum.net/themen/erster-rheinbund-1658/akteure/vertragschliessende-parteien/braunschweig-lueneburg/georg-wilhelm-calenberg/"
+                        >, </ref>Duces <lb/>Brunsvicenses<note n="15" type="crit_app">Vast:
+                        Brunswicenses.</note>, et Lunæburgenses<note n="16" type="crit_app">Lundorp:
+                        Luneburgenses etc.</note>, nec non <rs ref="#pp0293">D[omi]nus Wil-
+                        <lb/>helmus <ref
+                            target="http://www.historicum.net/themen/erster-rheinbund-1658/akteure/vertragschliessende-parteien/hessen-kassel/wilhelm-vi/"
+                            >Hassiæ Landgravius</ref></rs><note n="17" type="crit_app">Lundorp:
+                        Landgraffius etc. Wilhelm VI. (1629-1663), Landgraf von
+                        Hessen-Kassel.</note>, vi&nbsp; Recessus<note n="18" type="crit_app"
+                        >Lundorp: in Recessu. Vast: ut.</note> Franco- <lb/>furti hujus 1658 anni,
+                    die 4./14. Augusti<note n="19" type="crit_app">Allianzresecess. s.dort. Lundorp:
+                        14.</note> una- <lb/>nimiter conventi<note n="20" type="crit_app">Lundorp:
+                        convento.</note> inierunt. Ideo Rex Christia- <lb/>nissimus eundem Recessum
+                    per omnia omnino com- <lb/>probat et juxta ejus tenorem iisdemq[ue] sub condi-
+                    <lb/>tionibus prædictis Electoribus et Pricipibus <lb/>se associat; adeoq[ue]
+                    Rex Christianissimus ab unâ, <lb/>deinde Electores et Principes foederati ex al-
+                    <lb/>terâ parte pro communis<note n="21" type="crit_app">Vast: communi.</note>
+                    in S[acro] Imperio tran- </p>
+                <p>
+                    <lb/>[Seite 3] </p>
+                <p>quillitatis conservatione bonam inter se se a- <lb/>micitiam et mutuæ defensionis
+                    corresponden- <lb/>tiam iniere, ea&lt;n&gt;demq[ue] præter supradictum ab
+                    <lb/>omnibus solenniter<note n="22" type="crit_app">Lundorp: solemniter.</note>
+                    initum et acceptatum Reces- <lb/>sum singulari hac pactione confirmant et
+                    utrinq[ue] <lb/>in conditiones infra scriptas porrò convenerunt, <lb/>ita tamen
+                    ut prout in dicto<note n="23" type="crit_app">Vast: Ita tamen ut in
+                        dicto.</note> Recessu continetur <lb/>ad idem foedus liber aditus patere
+                    debeat o- <lb/>mnibus nullo excepto, reliquis Principibus pacis
+                    <lb/>consortibus, tum Catholicis tum Augustanæ con- <lb/>fessioni addictis.
+                    <lb/>Sit super pace publicâ Monasteriensi et osna- <lb/>bruggensi<note n="24"
+                        type="crit_app">Lundorp: Osnabrugensi.</note> inter Regem Christianiss[i]mum
+                    et foe- <lb/>deratos Electores et Principes supradictos <lb/>omnes et singulos,
+                    eorum successores, h&lt;e&gt;redes<note n="25" type="crit_app">Lundorp:
+                        hæredes</note> et <lb/>posteros amica, sincera<note n="26" type="crit_app"
+                        >Lundorp: syncera.</note> et firma correspondentia <lb/>ac reciproca
+                    obligatio in terminis defensivis<note n="27" type="crit_app">Vast:
+                        defensionis.</note>, <lb/>ita ut unus alteri omnesq[ue] uni et sic mutuò
+                    <lb/>sibi inter se si invadantur in suis ditionibus <lb/>Instr[umento] Pacis
+                    comprehensis assistant modo sequenti: <lb/>Defensiva hæc correspondentia ultra
+                    non ex- <lb/>tendatur, nisi quousq[ue] unum alteri Instru- <lb/>mentum pacis
+                    obstringit, ex quo securitate <lb/>tam publica quam privata Rex Christia-
+                    <lb/>nissimus et foederati Electores ac Principes </p>
+                <p>
+                    <lb/>[Seite 4] </p>
+                <p>quisq[ue] seorsim et junctim omnes fruantur mutuis <lb/>auxiliis tuti adversus
+                    quoscunq[ue] aggressores et in- <lb/>vasores Instrumento Pacis contraventuros.
+                    <lb/>In specie unus alteri opem ferat contra turba- <lb/>tores in eo, quod
+                    quisq[ue] correspondentium jure suc- <lb/>cessionis aut electionis aut<note
+                        n="28" type="crit_app">Lundorp: Auslassung.</note> vi Instr[ument]i Pacis
+                    reipsa <lb/>possidet.&nbsp;Ex hac servandæ Pacis <lb/>conventione particulari
+                    nullo modo lædatur quis- <lb/>quam, sive intra sive extra Imperium Bella<note
+                        n="29" type="crit_app">Vast: Bella.</note> etiam <lb/>Hispano-Gallica inde
+                    penitus sint ecxlusa, adeò <lb/>ut iis foederati Electores ac Principes implica-
+                    <lb/>ri nolint, nec quoquomodo teneantur. <lb/><rs ref="#pp0138">Rex
+                        Christianissimus</rs> foederi huic defensivo <lb/>accedit et promittit
+                    servare omnibus modis In- <lb/>strumentum Pacis et requisitus assistere eis<note
+                        n="30" type="crit_app">Lundorp: iis.</note>, qui <lb/>idem servare volunt,
+                    quive Electorum tum o- <lb/>mnium et singulorum Principum et Imperii or-
+                    <lb/>dinum jura et libertatem sibi cordi esse sinunt, <lb/>contra omnes quotquot
+                    voluerint vel tentaverint <lb/>eos jmpugnatum ir&lt;e&gt;<note n="31"
+                        type="crit_app">Vast: iri.</note> aut in exercitio jurium liber-
+                    <lb/>tatumq[ue] suarum impedire. <lb/>Rex Christian[issi]mus promittit arma sua
+                    nullo modo <lb/>applicare vel conferre contra vel in Imperium <lb/>aut Electores
+                    Principesq[ue] aut eorundem Provin- <lb/>cias terrasq[ue] hostiliter incursare
+                    aut hybernis </p>
+                <p>
+                    <lb/>[Seite 5] </p>
+                <p>contributionib[u]s aliisve quibuscunq[ue] exactionib[u]s <lb/>bellicis gravare,
+                    easve nullo alio modo turbare <lb/>nec permittere, ut in præjudicium S[acri]
+                        Rom[ani]<note n="32" type="crit_app">Lundorp: Auslassung.</note> Imperii
+                    <lb/>vel confoederatorum Electorum ac Principum qui- <lb/>cunq[ue] jam sint vel
+                    foederi huic accessuri sint, miles <lb/>in Galliis aut in Alsatia conscribatur
+                    indeq[ue] in <lb/>perniciem illorum educatur armave tormenta vel <lb/>pulveres
+                    tormentarii hostibus ipsorum submittant[ur]. <lb/>Rex in Specie suos quoq[ue]
+                    reliquos foederatos, qui- <lb/>cunq[ue] illi sint, vel futuri sint, intra et
+                    extra Im- <lb/>perium eo disponet ut pariter bonam et stabilem <lb/>amicitiam
+                    pacemq[ue] servent cum Imperio, Electo- <lb/>ribus et Principibus foederatis
+                    hisq[ue] ne<note n="33" type="crit_app">Lundorp: non.</note> nocere <lb/>aut
+                    præjudicare ullo modo vel directe vel in- <lb/>directe velint aut faciant.
+                        <lb/><rs ref="#pp0138">Rex Christianissimus</rs> in simplo se obligat tum
+                    <lb/>omnibus foederatis his conjunctim, tum seor&lt;sim&gt;<note n="34"
+                        type="crit_app">Lundorp: seorsum.</note>
+                    <lb/>singulis assistere mille sexcentis pedi- <lb/>tibus<note n="35"
+                        type="crit_app">Vast: pedibus.</note> et octingentis equitibus cum conve-
+                    <lb/>nientibus tormentis bellicis proprijs q[ue] sumptib[u]s <lb/>si ipsi ullæve
+                    eorum ditiones ubicumq[ue] sit&lt;æ&gt; sint <lb/>in Germania hostiliter
+                    invadantur vel stati- <lb/>vis, hybernis, exactionibus Contributionibus,
+                    <lb/>transitib[u]s violentis, et executionib[u]s milita- <lb/>ribus aliisq[ue]
+                    factis atq[ue] pressuris quovismo- <lb/>do gravent[ur]. </p>
+                <p>
+                    <lb/>[Seite 6] </p>
+                <p>Vice versâ<note n="36" type="crit_app">Vast: vorsa.</note> pollicentur Electores
+                    et Princi- <lb/>pes foederati pacem servare cum Rege Christia- <lb/>nissimo,
+                    Regno Galliæ, et cunctis Regionib[u]s ei<note n="37" type="crit_app">Vast:
+                        eis.</note> nunc <lb/>subjacentibus neq[ue] directe nec indirecte assi-
+                    <lb/>stere milite vel pecuniâ iis, qui volent<note n="38" type="crit_app"
+                        >Lundorp: velint.</note> Instr[umentu]m <lb/>Pacis Regem eiusq[ue] terras
+                    per Instr[umentu]m P[acis] acquisi- <lb/>tas atq[ue] possessas, aut in quibus vi
+                    Instr[ument]i Pacis <lb/>habet jus præsidii hostiliter invadere. <lb/>Electores
+                    et Principes foederati obligant <lb/>se in simplo illo numero et peditum et
+                    equitum <lb/>qui in supradicto Recessu expressus est suopte <lb/>ære auxilio
+                    esse Regi Christ[ianissim]o in et pro illis pro- <lb/>vinciis quas ex
+                    Instr[ument]o Pacis habet, si ex Imperio <lb/>ab ullo statuum aliisve qui
+                    Monasteriensis Pa- <lb/>cis socii sunt hostiliter invadatur, aut arma
+                    <lb/>auxiliaria inimicis ejus illas terras jnvadenti- <lb/>bus præbeantur.
+                    <lb/>Si Instr[umentu]m Pacis non servetur, tunc ad requisi- <lb/>tionem partis
+                    læsæ statim foederati Electores <lb/>et Principes et qui porrò accesserint huic
+                    foe- <lb/>deri juxta præscriptum Instr[umen]ti Pacis omnem <lb/>fidam operam
+                    studia et officia prompta in id <lb/>adhibebunt, ut ejusmodi infractiones sine
+                    mora <lb/>et re ipsa tollantur et reparentur. <lb/>Vigore hujus foederis singuli
+                    et omnes </p>
+                <p>
+                    <lb/>[Seite 7] </p>
+                <p>Electores et Principes foederati promittunt <lb/>se ad obtinendam pacis
+                    observantiam, tam in Im- <lb/>perii comitiis quam alibi omni modo totis viri-
+                    <lb/>bus curaturos et prospecturos ut generalis gua- <lb/>rantia in
+                    Instr[umento] Pacis § verumtamen etc. <lb/>fundata efficaciter et realiter in
+                    ipso opere <lb/>constituatur. Qua constituta<note n="39" type="crit_app"
+                        >Lundorp: Auslassung: Qua constituta.</note> vel specia- <lb/>li aliqua
+                    guarantia tantis per donec illa gene- <lb/>ralis plenè firmetur inter pacis
+                    socios plurium <lb/>ad hoc foedus accessu facta<note n="40" type="crit_app"
+                        >Lundorp: facto.</note> de aliis realibus <lb/>et effectivis mediis pacem
+                    conservandi et tuen- <lb/>di ac de conjunctione consiliorum viriumq[ue] in
+                    <lb/>contravenientes porrò convenietur. <lb/>Interim singuli et omnes foederati
+                    Electo- <lb/>res Principesq[ue] ad Fluvios ac præsertim ad <lb/>Rhenum
+                    habitantes et ubicunq[ue] præterea id <lb/>obsitus opportunitatem fieri poterit
+                    quilibet <lb/>eorum in suo territorio tenebuntur cavere ne copiæ <lb/>adversus
+                    Regem Christian[issi]mum ejusq[ue] modernos foe- <lb/>deratos in Belgium aut
+                    alio miss&lt;a&gt;<note n="41" type="crit_app">Lundopr: missæ.</note> per
+                    ditiones <lb/>suas transeant neve in suis terris ulla stativa <lb/>hyberna,
+                    arma, tormenta comeatus<note n="42" type="crit_app">Lundorp: commeatus.</note>
+                    eis permit- <lb/>tantur qui paci contraveniunt. <lb/><rs ref="#pp0138">Rex
+                        Christian[issi]mus</rs> et foederati Electores et Prin- <lb/>cipes mutuo
+                    sibi promittunt, si occasione vel </p>
+                <p>
+                    <lb/>[Seite 8] </p>
+                <p>sub prætextu hujus defensivæ pro pace corre- <lb/>spondentiæ in Germania
+                        &lt;unus&gt;<note n="43" type="crit_app">Vast: ullus.</note> illorum vel
+                    omnes <lb/>ab ullo, quisquis ille vel intra vel extra Imper[iu]m <lb/>futurus
+                    sit offendatur, hostiliterve<note n="44" type="crit_app">Lundorp:
+                        hostiliterque.</note> tractetur <lb/>quod tum unus alteri omni conatu, et
+                    necessi- <lb/>tati congrua virium suarum potentia præsto <lb/>esse suos
+                    exercitus eo conducere et pro de- <lb/>fensione laborantis socii copias suas
+                    paratis- <lb/>simas conjungere velint. <lb/>Duret defensivum hoc foedus ad
+                    proximum <lb/>triennium â die Ratificationis computandum, <lb/>atq[ue] si
+                    interea pax inter Galliæ et Hispaniæ <lb/>coronas non coierit prorogetur
+                    consensu con- <lb/>foederatorum omnium aut eorum qui in hoc <lb/>foedere
+                        ulterius<note n="45" type="crit_app">Vast: alterius.</note> persistere
+                    volent, et de hoc <lb/>tractetur Francofurti medio anno ante lapsum
+                        triennii<note n="46" type="crit_app">Diese Zeile: Nachträglicher
+                        Einschub.</note>. </p>
+                <p>Hos omnes articulos et singulos <rs ref="#pp0138">Rex Christ[ianissimus]</rs>
+                    <lb/>et foederati Electores et Principes sibi appro- <lb/>miserunt, quia
+                    Instr[ument] Pacis et cæteris Imperii <lb/>constitutionibus nituntur, Recessui
+                    hujus 1658. <lb/>anni die 4./14. Augusti Francofurti inter principio
+                    <lb/>memoratos Electores. et Principes inito<note n="47" type="crit_app"
+                        >Lundorp: initi.</note>, cui <rs ref="#pp0138">Rex
+                        <lb/>Christian[issi]mus</rs> accedit conformes sunt et ad neminis
+                    <lb/>mortalium offensionem spectant. <lb/>Reservant tamen sibi Electores et
+                    Principes foe- <lb/>derati omnes et singuli fidem Imperio patriæ suæ <lb/>et
+                    Imperatori debitam. </p>
+                <p>
+                    <lb/>[Seite 9] </p>
+                <p>In fidem et solidamentum horum omnium Instr[umentu]m hujus <lb/>foederis ad
+                    ratificationes dominorum Principalium <lb/>intra spacium<note n="48"
+                        type="crit_app">Vast: spatium.</note> unius mensis invicem commutandas sub-
+                    <lb/>scriptum et subsignatum est â Regis Christ[iannissi]mi et foe-
+                    <lb/>deratorum Electorum Principumq[ue] legatis Dat[um] Moguntiæ <lb/>die 5./15.
+                    Augusti Anno Christi millesimo sexcente- <lb/>simo quinquagesimo octavo. </p>
+                <p>&nbsp; </p>
+                <p>
+                    <lb/><rs ref="#pp0294">Antonius dux e mar[éschal] de <ref
+                            target="http://www.historicum.net/themen/erster-rheinbund-1658/akteure/vertragschliessende-parteien/frankreich/antoine-de-gramont/"
+                            >Gramont</ref></rs><note n="49" type="annotation">Antoine Gramont
+                        (1604-1678), französischer Unterhändler.</note> m.p. </p>
+                <p><rs ref="#pp0295">Hugo <ref
+                            target="http://www.historicum.net/themen/erster-rheinbund-1658/akteure/vertragschliessende-parteien/frankreich/hugues-de-lionne/"
+                            >De Lionne</ref></rs><note n="50" type="annotation">Lundorp: fehlt.
+                        Hugues de Lionne (1611-1671), französischer Unterhändler.</note>
+                    plenipot[enta]rius [...]&nbsp; m.p.p. </p>
+                <p><rs ref="#pp0296">Jo[hannes] Christianus L[iber] Baro à <ref
+                            target="http://www.historicum.net/themen/erster-rheinbund-1658/akteure/vertragschliessende-parteien/mainz/johann-christian-von-boineburg/"
+                            >Boineburg</ref></rs><note n="51" type="annotation">Johann Christian
+                        Freiherr von Boineburg ( 1622 - 1672), Mainzer Bevollmächtigter, Geheimrat
+                        und (seit 1650) erster Minister in kurmainzischem Dienst.</note>
+                </p>
+                <p><rs ref="#pp0297">Guilielmus Ego[n] Comes <ref
+                            target="http://www.historicum.net/themen/erster-rheinbund-1658/akteure/vertragschliessende-parteien/koeln/wilhelm-egon-von-fuerstenberg/"
+                            >à Fürstenberg </ref></rs><note n="52" type="annotation">Wilhelm Egon
+                        von Fürstenberg (1629-1704), Kurkölner Bevollmächtigter und
+                    Minister.</note>m.p.p. </p>
+                <p><rs ref="#pp0298">Franziscus&nbsp; de <ref
+                            target="http://www.historicum.net/themen/erster-rheinbund-1658/akteure/vertragschliessende-parteien/pfalz-neuburg/franz-von-gise/"
+                            >Gise</ref></rs><note n="53" type="crit_app">Lundorp: Franciscus. Franz
+                        Wilhelm von Giese (gest. 1675), Bevollmächtigter Pfalz Neuburgs. Spätestens
+                        seit 1637 stand im Dienste des Hauses Pfalz-Neuenburg, seit 1647
+                        neuburgischer Kanzler.</note> m.p.p. </p>
+                <p><rs ref="#pp0299">Georgius à <ref
+                            target="http://www.historicum.net/themen/erster-rheinbund-1658/akteure/vertragschliessende-parteien/schweden-fuer-bremen-und-verden/georg-snoilsky/"
+                            >Snoilsky</ref></rs><note type="crit_app" n="54">Lundorp: Snolsky. Georg
+                        von Snoilsky (ca. 1607-1672), seit 1651 in Frankfurt, zunächst als
+                        schwedischer Resident beim Kreistag der Kur- und Oberrheinischen Kreise, ab
+                        1655 als Repräsentant für Schwedisch-Pommern auf dem Reichsdeputationstag.
+                        Nach dessen Ende 1663 vertrat er Schweden (bis zu seinem Tod) auf dem
+                        Reichstag in Regensburg.</note>
+                </p>
+                <p><rs ref="#pp0300">Polycarpus <ref
+                            target="http://www.historicum.net/themen/erster-rheinbund-1658/akteure/vertragschliessende-parteien/braunschweig-lueneburg/polycarp-heiland-wolfenbuettel/"
+                            >Heilandt&nbsp;</ref></rs><note n="55" type="crit_app">Lundorp: Heiland.
+                        Policarp Heiland (1614-1662), vertrat das Herzogtum
+                        Braunschweig-Lüneburg-Wolfenbüttel auf dem Reichsdeputationstag, der seit
+                        1655 in Frankfurt am Main tagte.</note>
+                    <ref
+                        target="http://www.historicum.net/themen/erster-rheinbund-1658/akteure/vertragschliessende-parteien/braunschweig-lueneburg/polycarp-heiland-wolfenbuettel/"
+                    > </ref>&lt;…&gt;. m.p.p.&nbsp; </p>
+                <p><rs ref="#pp0301">Otto Joannes <ref
+                            target="http://www.historicum.net/themen/erster-rheinbund-1658/akteure/vertragschliessende-parteien/braunschweig-lueneburg/otto-johann-witte-celle/"
+                            >Witte</ref></rs><note n="56" type="crit_app">Lundorp: Otto Johannes
+                        VVitte&lt;m&gt;. Otto Johann Witte (ca.1615-1677), Hofrat, Gesandter Herzog
+                        Christian Ludwigs von Braunschweig-Lüneburg, Vertreter
+                        Braunschweig-Lündeburg-Celles in Frankfurt und Regensburg.</note>&nbsp;
+                    m.p.p.&nbsp; </p>
+                <p><rs ref="#pp0302">Ottho Ottho de <ref
+                            target="http://www.historicum.net/themen/erster-rheinbund-1658/akteure/vertragschliessende-parteien/braunschweig-lueneburg/otto-otto-von-mauderode-calenberg/"
+                            >Mauderode</ref></rs><note n="57" type="crit_app">Lundorp: Otto de
+                        Manderode. Otto Otto von Mauderode (1600-1671), seit 1630er Jahren in
+                        welfischen Diensten, seit 1652 Hofrat Herzog Georg-Wilhelms, vertrat dessen
+                        Fürstentum Braunschweig-Lüneburg-Calenberg seit 1655 auf dem Frankfurter
+                        Reichsdeputationstag, später als Geheimer Rat für das Fürstentum
+                        Braunschweig-Lüneburg-Celle auf dem Reichstag in Regensburg.</note>&nbsp;
+                    m.p.p.&nbsp; </p>
+                <p><rs ref="#pp0303">Regnerus <ref
+                            target="http://www.historicum.net/themen/erster-rheinbund-1658/akteure/vertragschliessende-parteien/hessen-kassel/regner-badenhausen/"
+                            >Badenhausen</ref></rs><note n="58" type="annotation">Regnerus
+                        Badenhausen (1610-1686), Bevollmächtigter Hessen-Kassels, Regierungsrat
+                        (1644), Delegierter am Regensburger Reichstag (1652), Geheimrat (1656),
+                        Hessischer Kanzler (seit 1684 oder 1685).</note>
+                    m.p.p.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; <rs ref="#pp0304"
+                        >Sebastianus Fridericus <ref
+                            target="http://www.historicum.net/themen/erster-rheinbund-1658/akteure/vertragschliessende-parteien/hessen-kassel/sebastian-friedrich-zobell/"
+                            >Zobel</ref></rs><note n="59" type="annotation">Sebastian Friedrich
+                        Zobell (1617–1671), Regierungsrat, Gesandter Hessen-Kassels.</note>
+                </p>
+                <p>&nbsp; </p>
+                <p>&nbsp; </p>
+                <p>[bearb. von Andrea Schmidt-Rösler]&nbsp; <lb/>
+                </p>
+                <p>
+                    <lb/>
+                    <lb/>&nbsp; </p>
+            </div>
+            <div type="Inhalt">
+                <p>[1.] Union und gegenseitige Verteidigung. <lb/>[2.]&nbsp; Defensivallianz geht
+                    nicht über die Verpflichtungen des Friedensvertrags hinaus. <lb/>[3.]&nbsp; Der
+                    Krieg zwischen Spanien und Frankreich wird aus dem Beistandspakt ausdrücklich
+                    ausgenommen. Keine Verpflichtung der Vertragspartner hinsichtlich dieses
+                    Krieges. <lb/>[4.] Beitritt des französischen Königs zur Allianz. Beachtung des
+                    Friedensvertrags. Schutz der darin verbürgten Rechte und Freiheiten der Stände.
+                    <lb/>[5.]&nbsp; Keine feindlichen Handlungen des französischen Königs gegen
+                    Konföderierte. <lb/>[6.]&nbsp; Der französische König hält seine jetzigen und
+                    künftigen Alliierten zu Frieden und Freundschaft mit Reich und Konföderierten
+                    an. <lb/>[7.] Festlegung der Stärke der französischen Hilfstruppen. <lb/>[8.]
+                    Die Konföderierten versprechen, den Frieden mit Frankreich zu halten.
+                    Keine&nbsp; Unterstützung der Feinde Frankreichs. <lb/>[9.] Unterstützung des
+                    französischen Königs durch Konföderierte gegen Angriffe aus dem Reich oder durch
+                    Vertragspartner des Friedens von Münster. <lb/>[10.] Bei Vertragsverletzung
+                    bemühen sich Konföderierte um Wiederherstellung des Friedens. <lb/>[11.] Die
+                    Konföderierten bemühen sich um den Erhalt des Friedens innerhalb und außerhalb
+                    des Reichstags. <lb/>[12.] Keine Passage oder Winterquartier für die dem
+                    französischen König feindlichen Truppen auf dem Weg nach Flandern. <lb/>[13.]
+                    Gegenseitige Hilfe bei Angriffen aufgrund dieser Allianz. <lb/>[14.] &nbsp;
+                    Dreijährige Gültigkeit. <lb/>[15.] &nbsp; Bestätigung und Ratifikation.</p>
+            </div>
+
+            <div type="Transliteration">
+                <pb facs="#FacsPnr1"/>
+                <p>[Seite 1] Alliantz Recess <lb/>mit <lb/>der Cron Franckreich &lt;…&gt; <lb/>der
+                    Confoederirten &lt;….&gt; <lb/>Maÿntz <lb/>Trier <lb/>Cölln <lb/>Münster
+                    <lb/>Pfaltz Newburg <lb/>Schweden &lt;wegen Bremen…..&gt; <lb/>Braunschweig
+                    <lb/>Hessen </p>
+            </div>
+        </body>
+        <back>
+            <listBibl>
+                <bibl xml:id="a210">
+                    <title level="a">Reichsarchiv (1658-08-14)</title>
+                    <title level="m">Reichsarchiv, Band 5 (1713), PSpec I-1, S.327-332 Aus:
+                        Dokumentenarchiv der Universitätsbibliothek Augsburg (Drucke vor 1900 /
+                        Historische Geschichtswerke).</title>
+                    <biblScope>
+                        <graphic xml:id="A1Pnr1"
+                            url="https://www.ieg-friedensvertraege.de/dbimages/img_4a96472c7bc6f"/>
+                        <graphic xml:id="A1Pnr2"
+                            url="https://www.ieg-friedensvertraege.de/dbimages/img_4a9647384be8d"/>
+                        <graphic xml:id="A1Pnr3"
+                            url="https://www.ieg-friedensvertraege.de/dbimages/img_4a96474295234"/>
+                        <graphic xml:id="A1Pnr4"
+                            url="https://www.ieg-friedensvertraege.de/dbimages/img_4a96476024cae"/>
+                        <graphic xml:id="A1Pnr5"
+                            url="https://www.ieg-friedensvertraege.de/dbimages/img_4a9647690393d"/>
+                        <graphic xml:id="A1Pnr6"
+                            url="https://www.ieg-friedensvertraege.de/dbimages/img_4a964772e8148"/>
+                    </biblScope>
+                </bibl>
+                <bibl><ref target="http://www.altes-reich.de/quelle16.pdf"
+                        >http://www.altes-reich.de/quelle16.pdf</ref>
+                    <ref target="http://www.historicum.net/themen/erster-rheinbund-1658"
+                        >http://www.historicum.net/themen/erster-rheinbund-1658</ref>
+                    <lb/> Aretin, Karl Otmar Freiherr von (Hg.), Der Kurfürst von Mainz und die
+                    Kreisassoziationen 1648–1746, Zur verfassungsmäßigen Stellung der Reichskreise
+                    nach dem Westfälischen Frieden, (Veröffenlichungen des Inst. f. Europ.
+                    Geschichte, Beiheft 2), Wiesbaden 1975. <lb/>
+                    <lb/>Göhring, Martin, Kaiserwahl und Rheinbund von 1658. Ein Höhepunkt des
+                    Kampfes zwischen Habsburg und Bourbon um die Beherrschung des Reiches. In:
+                    Martin Göhring, Alexander Scharff (Hrsg.): Geschichtliche Kräfte und
+                    Entscheidungen. Festschrift zum fünfundsechzigsten Geburtstage von Otto Becker.
+                    Franz Steiner Verlag, Wiesbaden 1954, S. 65-83. <lb/>
+                    <lb/>Hintereicher, Margarete, Der Rheinbund von 1658 und die französische
+                    Reichspolitik in einer internen Darstellung des Versailler Außenministeriums des
+                    18. Jh. In: Francia 13 (1985), S. 247-270. <lb/>
+                    <lb/>Joachim, Erich, Die Entwicklung des Rheinbundes vom Jahre 1658. Acht Jahre
+                    reichsständischer Politik (1651 – 1658), Leipzig 1886. <lb/>
+                    <lb/>Pribram, Alfred Francis, Beitrag zur Geschichte des Rheinbundes von 1658.
+                    Wien 1888. <lb/>
+                    <lb/>Schnur, Roman, Der Rheinbund von 1658 in der deutschen
+                    Verfassungsgeschichte. (Rheinisches Archiv, Veröffenflichungen des Instituts für
+                    geschichtliche Landeskunde der Rheinlande an der Universität Bonn, Bd. 47), Bonn
+                    1955. <lb/>
+                    <lb/>Schindling, Anton, Der erste Rheinbund und das Reich. In: Volker Press
+                    (Hrsg.), Dieter Stievermann (Bearb. nach dem Tod des Hrsg.), Alternativen zur
+                    Reichsverfassung in der Frühen Neuzeit? (Schriften des Historischen Kollegs,
+                    Kolloquien, Bd. 23) S. 123-129, München 1995. <lb/>
+                    <lb/>Schneider, Karl, Der Beitritt des ehemaligen Herzogtums
+                    Sachsen-Hildburghausen zum Rheinbund, Coburg 1926. <lb/>
+                    <lb/>Valfrey, Jules, La diplomatie française au XVIIme siècle: Hugues de Lionne,
+                    ses ambassades en Espagne et en Allemagne, Paris 1881. <lb/>
+                    <lb/>
+                    <lb/>
+                    <lb/>
+                </bibl>
+            </listBibl>
+        </back>
+    </text>
+</tei:TEI>

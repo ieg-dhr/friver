@@ -1,0 +1,436 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE tei SYSTEM "../resources/FriVer_DTD.dtd">
+
+<?xml-model href="../resources/FriVer.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns="http://www.tei-c.org/ns/1.0"
+    xml:id="pa000299-0050">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title level="s">European peace treaties of the pre-modern era in data / Europäische
+                    Friedensverträge der Vormoderne in Daten (FriVer+)</title>
+                <title when="1615-05-06" xml:id="t50" when-custom="1615 V 6" level="a"
+                    ref="https://www.ieg-friedensvertraege.de/treaty/t-50-1-de.html">Erster Tyrnauer
+                    Vergleich (Budapest)</title>
+            </titleStmt>
+            <editionStmt>
+                <edition> Digital edition according to <ref target="http://www.tei-c.org/">TEI
+                        P5</ref>
+                </edition>
+                <funder>
+                    <ref target="https://www.text-plus.org/">TEXT+</ref>
+                </funder>
+                <editor role="http://id.loc.gov/vocabulary/relators/edt"
+                    ref="https://orcid.org/0000-0002-8741-5916">
+                    <persName>Jaap Geraerts</persName>
+                    <note>The transformation and enrichment of the data is done by Jaap Geraerts
+                        (IEG Mainz). The other members of the FriVer+ team are Fabian Cremer, Ines
+                        Grund, and Thorsten Wübbena (all IEG Mainz).</note>
+                    <note> The original data has been created by the <ref
+                            target="https://www.ieg-friedensvertraege.de">team of scholars</ref> who
+                        were part of the Europäische Friedensverträge der Vormoderne project. This
+                        project was lead by Prof. Dr. Heinz Duchhardt and was based at the Leibniz
+                        Institute of European History in Mainz. </note>
+                </editor>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>
+                    <orgName ref="http://www.isni.org/0000000119314040">Leibniz-Institut für
+                        Europäische Geschichte Mainz</orgName>
+                </publisher>
+                <distributor>
+                    <orgName ref="http://www.isni.org/0000000110101946">Universitäts- und
+                        Landesbibliothek Darmstadt</orgName>
+                </distributor>
+                <idno type="ISIL">http://lobid.org/organisation/DE-17</idno>
+                <date type="issued" when="2023-12-23"/>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">
+                        <p xml:lang="en">This file is licensed under the terms of the Creative
+                            Commons License CC-BY 4.0 (Attribution 4.0 International)</p>
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <repository xml:id="r4">Budapest MOL <note>Budapest MOL, Findbuch:<lb/>
+                        <!--   <ref target="https://www.eleveltar.hu/digitalis-tartalom?source=mnlscope&ref=mnlscope::2015762">https://www.eleveltar.hu/digitalis-tartalom?source=mnlscope&ref=mnlscope::2015762</ref>-->
+                    </note>
+                </repository>
+                <msDesc>
+                    <p>[Transkriptionsgrundlage:] MolBudapest E 143 Fasz.1&nbsp;Nr. 44 18.V.1615:
+                        Ratifikation des siebenbürgischen Fürsten Gabriel Bethlen, Karlsburg 1615 V
+                        18 (kollationierte Abschrift). <lb/>HHStAWien AUR 1615 V 18: Ratifikation
+                        der siebenbürgischen Stände, Karlsburg 1615 V 18. <lb/>
+                    </p>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p> The data in this XML file, originally created by the project <ref
+                        target="https://www.ieg-friedensvertraege.de/vertraege">Europäische
+                        Friedensverträge der Vormoderne online</ref> has been transformed in
+                    accordance with <ref target="http://www.tei-c.org/">TEI P5</ref> as part of the
+                    project <ref
+                        target="https://www.ieg-mainz.de/en/research/research-projects/european-peace-treaties-of-the-pre-modern-era-in-data"
+                        >Europäische Friedensverträge der Vormoderne in Daten (FriVer+)</ref>
+                </p>
+            </projectDesc>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="la" xml:id="lan6">Latein</language>
+            </langUsage>
+        </profileDesc>
+    </teiHeader>
+    <standOff>
+        <listPerson>
+            <person role="signatory" xml:id="p12">
+                <persName ref="https://explore.gnd.network/gnd/4043271-3">
+                    <name>Oesterreich</name>
+                </persName>
+            </person>
+            <person role="signatory" xml:id="p109">
+                <persName ref="https://explore.gnd.network/gnd/4054835-1">
+                    <name>Siebenbürgen</name>
+                </persName>
+            </person>
+        </listPerson>
+        <listPlace>
+            <place xml:id="l6">
+                <placeName ref="https://explore.gnd.network/gnd/4696475-7">Tyrnau</placeName>
+            </place>
+        </listPlace>
+        <facsimile>
+            <surface xml:id="FacsPnr1">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_449150b61677e"/>
+            </surface>
+            <surface xml:id="FacsPnr2">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_44915127f0e5c"/>
+            </surface>
+            <surface xml:id="FacsPnr3">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_44915185b737e"/>
+            </surface>
+            <surface xml:id="FacsPnr4">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_449151fe3e88e"/>
+            </surface>
+            <surface xml:id="FacsPnr5">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_4491525dca0de"/>
+            </surface>
+            <surface xml:id="FacsPnr6">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_449152c2dc084"/>
+            </surface>
+            <surface xml:id="FacsPnr7">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_4491534deae3b"/>
+            </surface>
+            <surface xml:id="FacsPnr8">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_449153bb349ca"/>
+            </surface>
+            <surface xml:id="FacsPnr9">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_4491542c54ca2"/>
+            </surface>
+        </facsimile>
+    </standOff>
+    <text>
+        <front>
+            <div type="Drucke">
+                <p>Gooss, 437- 456. Monumenta Hungariae Historica. Comitiali Regni Transsylvaniae
+                    VII, T&#246;rv &#233;s Okiratok, XXIV, b (Ausz&#252;ge). Katona, X/29, S.
+                    583-592. Mon. Hung. Hist. Dipl. IV, S. 115-121. Uj magyar muzeum (1859), I,
+                    S.433ff. <lb/></p>
+            </div>
+            <div type="Inhalt">
+                <p>Wiederherstellung Friede und Eintracht. Unterhändler.] <lb/>Siebenbürgen entsagt
+                    einer Lösung von Ungarn; es schließt sich keiner antihabsburgischen Allianz an.
+                    Siebenbürgen behält alle Freiheiten. Rechte Bethlens. <lb/>Die siebenbürgischen
+                    Stände erhalten das freie Wahlrecht. Privilegien <lb/>Bethlen unterstützt den
+                    Kaiser gegen alle Feinde (Ausnahme: Osmanen). <lb/>Der Kaiser garantiert die
+                    Einhaltung des Wiener Friedens. Freie Religionsausübung. <lb/>Restitutionen.
+                    <lb/>Freier Handel. <lb/>Freilassung politischer Gefangener. <lb/>Bestimmungen
+                    dazu. <lb/>Sonderfälle (Drugeth, Hommonay) <lb/>Regelung von Ansprüchen.
+                    <lb/>Ansprüche Anna Paloczys. <lb/>Bistum Varad. <lb/>Ungarische
+                    Rechtsgrundlagen bleiben in Siebenbürgen und den Partes bestehen.
+                    <lb/>Bestätigung durch ungarischen Reichstag. <lb/>Regelungen für Siebenbürger
+                    Sachsen. <lb/>Haiduken. <lb/>Bestrafungen. <lb/>István Kendi (Amnestie).
+                    <lb/>Rückerstattungen in den Partes. Czernfalva. <lb/>Dito. Ferenc Dároczi.
+                    <lb/>Dito. Thomas Bosnyak. <lb/>Dito Komitat Maramuresch. <lb/>Dito Festung
+                    Hunyad. </p>
+            </div>
+        </front>
+        <body>
+            <div type="Transliteration">
+                <pb facs="#FacsPnr1"/>
+                <p>[Beiblatt:] </p>
+                <p>Conditiones et Articuli Pacis <lb/>inter &lt;.&gt;n&lt;uic&gt;mu[m] Imper.um
+                    Matthiam et <lb/>Ill[ustrissimu]m Betthlen Gaborem stabilita per <lb/>utriusque
+                    Commissarios in libera civitate <lb/>Tyrnaviensi 6 Maij Anno 1615 <lb/>Confecti
+                    e conlusi, atque à pro&lt;...&gt; <lb/>by deinde Magnatibusque et caeteris
+                    <lb/>universis Statibus ac Ordinibus <lb/>Trium Nationum Regni Transylvaniae
+                    <lb/>et regni Hungaiae eidem subiectarum <lb/>in civitate Alba Julia in generali
+                    <lb/>congregatione 18 May eiusdem, eiusdem <lb/>annis, approbati et subscripti
+                    <lb/>1615 </p>
+                <p>&nbsp; </p>
+                <p>[Anm.: Text in HHStAWien. 1615 18. May. Ratification des Friedens <lb/>zwischen
+                    K. Mathias und dem Siebenbürg. Fürsten Gabriel Bethlen von den <lb/>Siebenbürgi.
+                    Ständen <lb/>Dat. Albæ Juliæ. 18. May A.° 1615]. </p>
+                <pb facs="#FacsPnr2"/>
+                <p>Transactio <lb/>Cum Principe Transylva- <lb/>niæ Gabriele Battohrij inita. </p>
+                <p>Nos Gabriel Betthlenn, Dei gratia Princeps Transsyl- <lb/>vania, partium Regni
+                    Hungariæ Dominus, et Siculourum Comes </p>
+                <p>Memoriæ commendamus tenore pr[æsen]tium si[gnifi]cantes quibus expedit
+                    <lb/>universis. Quod cum Sacr[atissi]ma Cæsarea Regiaque M[aies]tas, Dominus
+                    meus <lb/>Clementissimum, ad tollendas non ita pridem subortas differentias pa-
+                    <lb/>cemque et Concordiam stabiliendam, aliquoties a nobis requisita, cer-
+                    <lb/>tos suos pacis, et concordiæ amantes Commissarios, in liberam Civi-
+                    <lb/>tatem Tÿrnavien[sem] ablegare dignata fuisset; quo nos etiam ex clemen-
+                    <lb/>ti Suæ Ma[jes]t[a]tis præmonitione, tam n[ost]ro, quam Statuum, et Ordinum
+                    <lb/>Trium Nationum Regni n[ost]ri Transsylvaniæ numinibus, no[str]or pariter
+                    <lb/>Legatos, et Commissarios submittentes, ac ex utraque parte cum literis
+                    <lb/>Plenipotentionalibus, modo sufficienti comparentes, ibique certas pacis et
+                    <lb/>concordiæ Conditiones inter se conclusissent, quas ex utraque parte vi-
+                    <lb/>gore Plenipotentionalium confirmandas in sese assumsissent, Nobisque
+                    <lb/>debito modo, et tempore præsentari fecissent; quæ quidem Conditiones
+                    <lb/>et Articuli in hunc sequuntur modum. </p>
+                <p>Nos Franciscus Forgach de Ghÿmes, Sacræ Romanæ <lb/>Ecclesiæ Præsbÿter,
+                    Cardinalis, Archiep[isco]pus Strigonien[sis], Primas Hun- <lb/>Gariæ, Legatus
+                    natus summus et Secretarius, Cancellarius Joan[nes] <lb/>à Molard, Liber Baro in
+                    Reinegh et Drosendorff, intimus Consilij <lb/>Bellici Præses, Civitatis
+                    Wiennen[sis] Supremus Capitaneus, et Cubicularius, <lb/>Paulus Jacobus,
+                    D[omi]nus à Stahrembergh in Schönpüchell Cubicularius; <lb/>Petrus de Rewa
+                    Thurocien[sis], Curiæ Regiae in Hungaria Magister, <lb/>Sacræque eiusdem Regni
+                    Coronae Conservator. Ladislaus Pethe de He&lt;th&gt;es <lb/>Thornen[sis], Cameræ
+                    Hungaricæ Præfectus. Michael Czobor de Czobor <lb/>Szentmihaly, Eques Auratus,
+                    et Franciscus Daroczÿ de Dereghneö de <lb/>Beregh Comitatuum Comites, et Cameræ
+                    Scepusien[sis] Præfectus, Sac[ratissi]mæ <lb/>Cæsareæ Regiæque ma[ies]t[a]tis,
+                    Domini n[ost]ri clementissimi Consiliarij, et ad </p>
+                <p>
+                    <pb facs="#FacsPnr3"/>Tractatum ab Eadem Ma[ies]t[a]te Sacr[atissi]ma, cum
+                    dominis Legatis Ill[ust]r[issi]mi domini <lb/>Gabrielis Betthlenn, Statuumque et
+                    Ordinum Transylvaniæ delegati Com- <lb/>missarij. Damus pro memoria tenore
+                    præsentium &lt;significan&gt;tes quibus ex- <lb/>pedit universis. Quod cum
+                    proximè præteritis disturbijs Transylvani- <lb/>cis, ac novis mutationibus, nonæ
+                    difficultates, ob rumorum quo- <lb/>rundam circum ductiones, inter
+                    Sacr[atissi]mam Cæs[are]am Regiamque ma[jes]t[a]tem <lb/>et Transylvanos,
+                    fuerint emersæ, ex quibus tandem graviores sub- <lb/>secutæ sint differentiæ, ut
+                    ex parte Suæ ma[ies]t[a]tis, tractus terrarum <lb/>cum Arcibus Husztt, et
+                    Keöwar, et Comitatu Maramarusien[si], à par- <lb/>tibus Transsylvan[or]um in
+                    manus Suæ ma[jes]t[a]tis devenerant, qua de <lb/>re cum multis ijsque solennibus
+                    Legationibus, humiliter ac demis- <lb/>se Sua Ma[jes]tas Cæsar[ea] atque Regia,
+                    ab ipso d[omi]no Gabriele de Betth- <lb/>lenn, tum verò statibus et ordinibus
+                    identidem fuisset requisi- <lb/>ta, Sua Majestas Cæsarea Regiaque publicae
+                    quieti Reg[nor]um et <lb/>tranquillitati, clementer et gratiose consultum
+                    volens, nos tanquam <lb/>certos suos Legatos, et Commissarios designavit,
+                    locumque hac <lb/>Liberam nempe Civitatem Suæ ma[ies]t[a]tis Tÿrnavien[sem], quo
+                    ex parte etiam <lb/>domini Gabrielis Betthlenn, Statuumque et Ordinum Trium
+                    Nationum <lb/>Regni Transylvaniae Legati, Ma[gnifi]ci, Gen[ero]si, Eg[reg]ij,
+                    Prudentes, et Circumsp[ecti] <lb/>Simon Pechy de Zentersebeth Cancellarius;
+                    Sigismundus Sarmasza- <lb/>gy de Keöwesd; Franciscus Balassy Senior de Weczke,
+                    Universitatis <lb/>Siculorum Generalis, Sedisque Siculicalis Udvarhely
+                    Cap[ita]neus, Consiliarij d[omi]ni <lb/>Gabrielis Betthlenn, Thomas Borsos de
+                    Marosvasarhely, Tabulæ Ju- <lb/>diciariæ Assessor, Joannes Rhen&lt;er&gt;,
+                    Mag[iste]r Civium Cibinien[sium], et Pau- <lb/>lus Weres, Senator primarius
+                    Segeswarien[sis], Liber[ar]um Civitatum, cum <lb/>literis Plenipotentionalibus
+                    sufficienter instructi, ex utraqua parte compa- <lb/>rentes in hisce punctis,
+                    modis, et rationibus, in unionem devenimus. Quod Transylvaniæ Status et Ordines
+                    maneant in libera electione eorum <lb/>Domini, et idem Electus,&nbsp; et
+                    Provincia, ad observationem Tyrnaviensium <lb/>Articulorum astringantur. </p>
+                <p>Transylvaniam, aut partes ditioni eius subiectas, præsidiaque, et Confinia
+                    <lb/>in eisdem habita, nunquam à Corona Regni Hungariæ abalienabunt, <lb/>sed
+                    o[mn]ia et singula toto studio facultate, et conatu conservabunt, et retinebunt, </p>
+                <pb facs="#FacsPnr4"/>
+                <p>neque contra Suam m[ajes]t[a]tem, eiusque legitimos successores Reges Hungariæ,
+                    et <lb/>Regnum Augustissimamque Domum Austriacam, Regna et Provincias <lb/>cum
+                    quibus Suæ ma[jes]t[a]tes singularia pacta habent, o unquam tempore
+                    <lb/>aversam, vel hostilem prætensionem habebunt, aut contra Regni Hun-
+                    <lb/>gariæ libertates et Privilegia, quietem, et tranquillitatem, palam vel
+                    <lb/>occulte, quidquam molientur, aut per alios fieri patientur, aut ad di-
+                    <lb/>tiones, decimas, Tri[cesi]mas, aliosque proventus Regios, et &lt;qua&gt;
+                    ad&nbsp; Regnum <lb/>Hungariæ pertinentia, um Jus prætendent, aut se in haec,
+                    per se <lb/>vel alios, sine prævio&nbsp; Suarum Ma[jes]t[a]tum clemen[tissi]mo
+                    assensu immisce- <lb/>bunt, partesque Regni Hungariae, quarum D[omi]nus
+                    Betthlenn D[omi]nus <lb/>nuncupatur, eo, et non ampliori Jure possideat, quam a
+                    prædeces- <lb/>soribus Suæ Ma[jes]t[a]tis Hungariæ Regibus concessæ fuerunt. </p>
+                <p>Quod Sacr[atissi]ma Cæsarea Regiaque m[ajes]tas, vicissim pro se et suis
+                    successoribus, <lb/>legitimis Regibus Hungariæ, et Regnum, in necessitatibus
+                    requi- <lb/>rentibus supradicto modo electis, nec non Transsylvaniæ similiter
+                    <lb/>contra omnes hostes, salvo Articulo præcedente, auxiliaturos esse obli-
+                    <lb/>gantur, atque Tran[ssylva]niam in antiquis Juribus, Privilegijs, et alijs
+                    ad <lb/>eandem spectantibus conservabunt, nihilque palam, vel occulte, in con-
+                    <lb/>trarium facient, statuent, aut per alios fieri patientur. </p>
+                <p>Omnium Statuum, et Ordinum tam Hunga[ro]rum, quam Sicu[lo]rum, et Saxon- <lb/>um,
+                    à Divis quondam Regibus, et Imperatoribus atque Principi- <lb/>bus ipsis collata
+                    Privilegia, antiquæ consuetudines et libertates salvæ, <lb/>integræ, et
+                    inviolatæ conservabuntur, nec ullo modo turbabuntur, <lb/>et si quæ collapsæ
+                    fuerint, restituentur. </p>
+                <p>Quod idem D[omi]nus Betthlenn, et Successores sui legitimè electi, una cum
+                    <lb/>Statibus et Ordinibus Provinciæ, et partium Hungariæ Suæ Ma[jes]t[a]ti,
+                    <lb/>Suis Successoribus legitimis; Regno Hungariæ, quandocunque neces- <lb/>sum
+                    fuerit, contra omnes e[or]um hostes, excepto Turca, omni ope auxilio,
+                    <lb/>viribus et fidelitate aderunt; et ubi opus; et tempestive requisiverint,
+                    <lb/>Exercitum Suæ m[ajes]t[a]tis, et Successorum in Tran[ssylvan]iam et Partes
+                    Hun- <lb/>gariæ intromittent et disponent. </p>
+                <p>Quod Wiennensem pacificationem in omnibus suis punctis; et clausulis, qua </p>
+                <pb facs="#FacsPnr5"/>
+                <p>tenus liberæ electioni non præiudicat; observabunt, et Juxta illam liber
+                    <lb/>Religionis usus relinquetur. Suæque ma[jes]t[a]tis fidelibus, Arces, Jura
+                    posses- <lb/>Sionaria, aliaque præter viam Juris, aut reditus in Provincia
+                    habentibus, <lb/>in exilium actis, adempta Jure revideantur, et legitima
+                    executio fiat. </p>
+                <p>Profugi, et coloni in Transsylvaniam, et partes annexas, ob damna, et maleficia
+                    <lb/>Illata, et commissa, sese recipientes, ad requisitionem Suæ m[aies]t[a]tis,
+                    eiusdemque <lb/>Successo[ru]m, et Regnicolarum Officialium, et Capitaneo[rum],
+                    comperta rei verita- <lb/>te, absque omni difficultate remittentur, eisque am
+                    securitatem in illis <lb/>locis commorandi, utrinque in posterum à tempore huius
+                    Tractatus, et <lb/>Confirmationis subministrabunt. </p>
+                <p>Quod Commercia, transitus, Legationes, et missiones, ultro citroque tam hinc in
+                    <lb/>Transylvaniam, quam illinc in has partes, sine ullo impedimento, et
+                    <lb/>Controversia, secundum antiquum observatum usum libere permittantur.
+                    <lb/>Stipendiarijs autem militibus liber transitus utr&lt;ou&gt;bique cum
+                    praevio Suæ <lb/>Ma[jes]t[a]tis consensu, ad stipendia merenda, concedatur. </p>
+                <p>Arrestationes, tam in Hungaria, Austria, et alijs Suae ma[jes]t[a]tis Regnis, et
+                    Pro- <lb/>vincijs, quam in Transsylvania, et partibus sibi concessis, omnino
+                    pro- <lb/>hibeantur, sed quaelibet partium earum arrestationum loco, sua Jura,
+                    co- <lb/>ram suo competente Judice, Jure mediante prosequatur. </p>
+                <p>Suae m[aies]t[a]tis fideles, aut in Hungaria, aut Transsylvania possessionati,
+                    vel <lb/>Capitanei, vel privati quicunque, qui tempore h[oru]m disturbiorum,
+                    penes Suam <lb/>Ma[jes]t[a]tem manentes, in receptione Arcium et bonorum operam
+                    suam impen- <lb/>dissent, utr&lt;o&gt;bique parcatur, et adempta ipsis bona,
+                    quae apud manus <lb/>domini Betthlenn sunt, mox restituantur, si autem alijs
+                    collata essent, Ju- <lb/>re requirantur. </p>
+                <p>Ut Arces Huszt et Keöwar, cum omnibus suis tormentis, armamentarijs,
+                    <lb/>rebusque quibus libet in eisdem habitis, ac bonis etiam possessionarijs ad
+                    Ar- <lb/>ces pertinentibus, et quibusvis utilitatibus, cum Comitatu, Salisque
+                    fodina <lb/>Maramarusien[si], manibus prædicto[rum] d[omi]no[rum]
+                    Comissario[rum] Transsylvanien[sium] <lb/>assignentur. </p>
+                <p>Ratione Nagybanya Sua Ma[jes]tas Suis Juribus insistit. </p>
+                <p>Domini Georgij Drugeth de Homonna, et alio[rum] quo[rum] intererit Jus et præ- </p>
+                <pb facs="#FacsPnr6"/>
+                <p>tensio ad Arcem Husztt, intra Anni spatium; ascitis horsu[m] penes Provinciæ
+                    <lb/>Transsylvaniæ Juris consultis, et Judicibus ordinarijs, Tribus Suæ
+                    ma[ies]t[a]tis <lb/>Commissarijs, et Prothonotario, omnibus apellationibus,
+                    alijsque Juridicis <lb/>Remedijs, et prorogationibus seclusis, in Urbe
+                    Claudiopoli intra Annum <lb/>Jure revideatur. Solutio vero adiudicati intra
+                    subsequens Triennium, <lb/>et inclusive quatuor Annor[um] spacio, plenarie fiat. </p>
+                <p>Liberum porrò relinquitur etiam ante exactum p[ræ]declaratum Judiciarium
+                    <lb/>Terminum utrinque prætensionum har[um] causa inita, via amicabili u-
+                    <lb/>trinque convenire. </p>
+                <p>Identidem circa Relictæ quondam Principis Gabrielis Bathorij Annæ Pa- <lb/>lochay
+                    prætensionem observetur,&nbsp; cui interea usque ad totalem, finalemque
+                    <lb/>decisionem, et contentationem de residentia competenti D[omi]nus Betthlenn
+                    <lb/>et Provincia providere teneantur. </p>
+                <p>Super bonis Ep[isco]patus Waradiensis semper libere possessis iam distractis,
+                    etiam <lb/>sub hoc Commissionis Termino in oppido Karoly, cum cæteris quærelis
+                    <lb/>sub peculiari consignatione comprehensis, ad festum Nativitatis S[ancti]
+                    Jo- <lb/>annis Baptistæ, et alijs subsequentibus diebus, ex qualibet partium
+                    <lb/>sex, et in universum duodecim adscitis, et admissis horsum Commissa-
+                    <lb/>riis decidetur. Interea temporis, utraque pars Attestationes suas, et
+                    <lb/>comprobationes, quibus locus dandus erit, procurent; et producant. </p>
+                <p>Literæ quævis Testimoniales, et aliæ causales capitulor[um], Judicum ordinario-
+                    <lb/>rum, et Magistrorum prothonotario[rum] Regni Hungariæ in Transsyl-
+                    <lb/>vania, similiter Transylvaniensium, partiumque ei annexarum <lb/>in
+                    Hungaria, coram quibus&lt;vis&gt; Judicibus, et Justiciarijs in vigore
+                    <lb/>conserventur, et acceptentur ubique. </p>
+                <p>Confirmatio Articulorum Tyrnaviæ nunc conclusor[um], Sua M[aies]tas, ut in
+                    <lb/>primitus celebranda Hungariæ Diæta fiat, curatura est. </p>
+                <p>Nationis Saxonicæ aliorumque Suæ ma[jes]t[a]tis obligatorias habentium debitum,
+                    <lb/>dominis Commissarijs Sacræ Cæsareæ ac Regiæ ma[jes]t[a]tis in parata
+                    <lb/>pecunia mutuo datum, iuxta &lt;Articulos&gt; Viennen[ses] Sua Ma[jes]tas
+                    persolvi <lb/>mandabit. </p>
+                <pb facs="#FacsPnr7"/>
+                <p>Quod si posthac Hungariæ vel Transylvaniæ Haydones, contra publicam Re-
+                    <lb/>gnorum Tranquillitatem, et Tyrnavienses Articulos aliquid molirentur,
+                    <lb/>aut violentias exercere præsummerent, dominus Bethlen, Successores sui,
+                    <lb/>et Provincia obstricti sint adversus illos consurgere, arma summere, eos
+                    op- <lb/>rimere, et pro delictis suis tanquam publicæ pacis Turbatores vigore
+                    <lb/>Tractatus condignis poenis punire, et satisfactionem convenientem <lb/>ab
+                    ijs exigere. Sua m[ajes]tas etiam requisita mandabit, ut comperta rei
+                    <lb/>veritate, tales per Capitaneos et Officiales compescantur, et puniantur, et
+                    <lb/>si necessum fuerit, etiam coniunctis viribus sopiantur et deleantur. </p>
+                <p>Similiter publicos Prædones, fures et latrones hinc inde commeantes, officia-
+                    <lb/>les, ac viarum custodes punire teneantur severissime, rebus tamen fur-
+                    <lb/>to ablatis, et depredatis, semper et ubique ad quos pertinere compertum
+                    <lb/>fuerit restitutis. </p>
+                <p>Ad intercessionem D[omi]norum Commissariorum, offerunt se domini Legati, quod
+                    <lb/>dominus Stephanus Kendy, securé Transsylvaniam ingredi possit, do-
+                    <lb/>minum Betthlen requirat debite, et sic in Transsylvania, bona sua
+                    <lb/>patrimonialia omnia recipiat, quæ autem hac ratione consequi non
+                    <lb/>posset, et quæ extra patrimonialia essent, Jure &lt;guarat&gt;<note
+                        type="crit_app" n="1">Auch &lt;querat&gt; möglich.</note>. </p>
+                <p>Possessio Czernaffalva in districtu Keöwarien[si] existens, apud dominum Mi-
+                    <lb/>chaelem Ankrayter, Salvo Jure&nbsp; alieno relinquatur. </p>
+                <p>Bona fidelium Ma[jes]t[a]tis Cæsar[eis] ob fidelit[a]tem suis M[ajes]t[a]tibus
+                    præstitam, ut <lb/>pote Magnifici domini Francisci Daroczy Zekelhidiana,
+                    violenter <lb/>à Boczkaio adempta, quorum restitutio in Wiennen[sibus] quoque
+                    Articulis <lb/>conclusa fuerat, ut absque aliquo Juridico processu spoliato
+                    ,simpli- <lb/>citer restituantur, dignum censetur. Offerunt se domini Legati a-
+                    <lb/>pud dominum Betthlenn, et Regnicolas intercessuros, ut sive per mo-
+                    <lb/>dum compositionis, mox sub ingressum domi[no]rum Commissari[or]um, qua non
+                    <lb/>succedente, in breviori termino de lege concesso, sive celebrentur octavæ
+                    <lb/>sive non, sub Comitijs causa determinetur. </p>
+                <p>Bona Coniugis Mag[nific]i domini Thomae Bosnyak Baioniensia violenter ablata,
+                    itidem <lb/>in brevi termino Jure revideantur et restituantur. </p>
+                <p> </p>
+                <p> </p>
+                <pb facs="#FacsPnr8"/>
+                <p>Sunt bona in Comitatu Maramaros precise Suam ma[jes]t[a]tem Cæsar[eam] ac Re-
+                    <lb/>giam concernentia, ante etiam ad rationem Suæ ma[jes]t[a]tis possessa, quæ
+                    <lb/>ut de cætero etiam iuxta immunitates consuetas, ad rationem Suæ
+                    ma[jes]t[a]tis <lb/>libere possideantur, tempore Arcium restitutionis in
+                    effectum dedu- <lb/>cendum. </p>
+                <p>Arx Hunyad, et ad eandem pertinentia bona, à Magnifico domino Stephano
+                    <lb/>Thörök, non ita pridem adempta, ut per amicabilem initam superinde
+                    <lb/>compositionem restituatur, aut vero in brevi termino revideatur,
+                    <lb/>Dominus Betthlenn, et Provincia curabunt. </p>
+                <p>In cuius rei fidem et certitudinem à principio statim huius Tractatus no-
+                    <lb/>minati domini Commissarij, et Legati utriusque partis communi con-
+                    <lb/>silio statuerunt, ut pro recognitione, et Confirmatione Sac[rissim]ae
+                    Cæsar[eæ] <lb/>Ma[jes]t[a]ti præscripti Articuli quam citissime offerentur, qua
+                    de causa etiam <lb/>Ill[ust]r[issi]mus Dominus Gabriel Betthlen, et Provincia,
+                    Legatos suos quam <lb/>primum fieri poterit, ad Sacr[issi]mam Cæsar[eam]
+                    Ma[jes]t[a]tem ablegabunt, ut præ- <lb/>notati Articuli omnes, certis
+                    indubitatisque literis, sigillis, partiumque <lb/>Suæ ma[jes]t[a]tis, domini
+                    Betthlenij, et Provinciæ subscriptionibus, et Juramen- <lb/>tis muniantur, et
+                    confirmentur. Actum in Libera Civitate Tyrna <lb/>vien[si] sexta die mensis May,
+                    Anno, Millesimo, Sexcen[tesi]mo, Decimo quinto. </p>
+                <p>
+                    <lb/>Nos itaque præscriptos omnes Articulos, inter Sacr[issimam] Cæsar[eam]
+                    <lb/>Regiamque ma[jes]t[a]tem, Regnum Hungariæ, et Nos, Statusque et Ordi-
+                    <lb/>nis Trium Nationum Regni n[ost]ri Transsylvaniæ, et partium Hun- <lb/>Gariæ
+                    eidem subjectarum, per n[ost]ros pariter et &lt;eorum&gt; Legatos, modo
+                    <lb/>supranotato conclusos, et præsentibus hisce n[ost]ris literis de verbo ad
+                    <lb/>verbum insertos, ac omnia, et singula in eisdem conten[ta], approbamus,
+                    <lb/>ratificamus, et confirmamus. Promittentes n[ost]ro Successorumque
+                    n[ostrorum] <lb/>legitimorum Transsylvaniæ Principium, nomine in verbo n[ost]ro
+                    Principali <lb/>et bona fide mediante, quod praescriptos Articulos; ac omnia; et
+                    sin- <lb/>gula in eisdem contenta; tam nos ipsi Sancte; et inviolabiliter obser-
+                    <lb/>vabimus, quam etaim per omnes subditos n[ost]ros, et alios q[uor]um
+                    intererit, </p>
+                <pb facs="#FacsPnr9"/>
+                <p>observari faciemus, ac ad observationbem e[or]um omniu[m] etiam successores
+                    <lb/>n[ost]ros legitimos Transslyvaniæ Principes, et Regnum obligatos esse
+                    volumus <lb/>in perpetuum. In cuius rei fidem ac testimonium, pr[æsen]tes
+                    <lb/>hasce l[ite]ras n[ost]ras quas manu n[ost]ra subscripsimus, et sigillo, quo
+                    ut Prin- <lb/>ceps Transsylvaniæ utimur, munivimus, præliberatæ Sacr[issimæ]
+                    Cæsar[eæ] <lb/>Regiæque ma[jes]t[a]ti, Eiusque successoribus legitimis Regni
+                    Hungariæ Regi- <lb/>bus et Regno, dandas duximus et concedendas. Datum in Civi-
+                    <lb/>tate n[ost]ra Alba Julia die decima octava mensis May, Anno <lb/>Domini
+                    Millesimo Sexcentesimo, Decimo Quinto. </p>
+                <p>Gabriel Betthlenn mp </p>
+                <p>In similo Status et .&lt;...&gt; Trium <lb/>Nationum Transsylvan[ium] sub
+                    sigillis <lb/>Et chirographis dedixerunt literas </p>
+                <p>Simon Pechy Cancellarius mp </p>
+                <p>&nbsp; </p>
+            </div>
+        </body>
+        <back>
+            <listBibl>
+                <bibl>Czettler, Die Au&#223;enpolitik der siebenb&#252;rgischen F&#252;rsten im 16.
+                    und 17. Jahrhundert, in: Ungarn-Jahrbuch 11 (1980/81), S. 91-122. Volkmer, Das
+                    F&#252;rstentum Siebenb&#252;rgen 1541-1691, Kronstadt-Heidelberg 2002, S.
+                    136-138. <lb/></bibl>
+            </listBibl>
+        </back>
+    </text>
+</tei:TEI>

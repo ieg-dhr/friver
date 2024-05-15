@@ -1,0 +1,926 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE tei SYSTEM "../resources/FriVer_DTD.dtd">
+
+<?xml-model href="../resources/FriVer.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns="http://www.tei-c.org/ns/1.0" xml:id="pa000299-0439">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title level="s">European peace treaties of the pre-modern era in data / Europäische Friedensverträge der Vormoderne in Daten (FriVer+)</title>
+                <title when="1597-12-23" xml:id="t439" when-custom="1597 XII 23" level="a" ref="https://www.ieg-friedensvertraege.de/treaty/t-439-1-de.html">Zessionsvertrag von Prag (1. Zession)</title>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    Digital edition according to
+                    <ref target="http://www.tei-c.org/">TEI P5</ref>
+                </edition>
+                <funder>
+                    <ref target="https://www.text-plus.org/">TEXT+</ref>
+                </funder>
+                <editor role="http://id.loc.gov/vocabulary/relators/edt" ref="https://orcid.org/0000-0002-8741-5916">
+                    <persName>Jaap Geraerts</persName>
+                    <note>The transformation and enrichment of the data is done by Jaap Geraerts (IEG Mainz). The other members of the FriVer+ team are Fabian Cremer, Ines Grund, and Thorsten Wübbena (all IEG Mainz).</note>
+                    <note>
+                        The original data has been created by the
+                        <ref target="https://www.ieg-friedensvertraege.de">team of scholars</ref>
+                        who were part of the Europäische Friedensverträge der Vormoderne project. This project was lead by Prof. Dr. Heinz Duchhardt and was based at the Leibniz Institute of European History in Mainz.
+                    </note>
+                </editor>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>
+                    <orgName ref="http://www.isni.org/0000000119314040">Leibniz-Institut für Europäische Geschichte Mainz</orgName>
+                </publisher>
+                <distributor>
+                    <orgName ref="http://www.isni.org/0000000110101946">Universitäts- und Landesbibliothek Darmstadt</orgName>
+                </distributor>
+                <idno type="ISIL">http://lobid.org/organisation/DE-17</idno>
+                <date type="issued" when="2023-12-23"/>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">
+                        <p xml:lang="en">This file is licensed under the terms of the Creative Commons License CC-BY 4.0 (Attribution 4.0 International)</p>
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <repository xml:id="r4">Budapest MOL
+                    <note>Budapest MOL, Findbuch:<lb />
+                        <ref target="https://www.eleveltar.hu/digitalis-tartalom?source=mnlscope&amp;ref=mnlscope::1984438" >https://www.eleveltar.hu/digitalis-tartalom?source=mnlscope&amp;ref=mnlscope::1984438</ref></note>
+                </repository>
+                <msDesc><p>MolBudapest Acta publica E 142 Fasz. 45 Nr. 65: Ratifikation des Kaisers,
+                    Wien 1598 [I 31] (beglaubigte Abschrift)</p>
+                    <p>weitere Stücke: 
+                    </p> 
+                    <p>Verleihung der Herzogtümer Oppeln und Ratibor an den siebenbürgischen Fürsten Sigismund Báthory, Prag 1598 I 31. 
+                    </p> 
+                    <p>Ratifikation durch den siebenbürgischen Fürsten Sigismund Báthory, Karlsburg 1598 IV 10.</p></msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>
+                    The data in this XML file, originally created by the project
+                    <ref target="https://www.ieg-friedensvertraege.de/vertraege">Europäische Friedensverträge der Vormoderne online</ref>
+                    has been transformed in accordance with
+                    <ref target="http://www.tei-c.org/">TEI P5</ref>
+                    as part of the project
+                    <ref target="https://www.ieg-mainz.de/en/research/research-projects/european-peace-treaties-of-the-pre-modern-era-in-data">Europäische Friedensverträge der Vormoderne in Daten (FriVer+)</ref>
+                </p>
+            </projectDesc>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="la" xml:id="lan6">Latein</language>
+            </langUsage>
+        </profileDesc>
+    </teiHeader>
+    <standOff>
+        <listPerson>
+            <person role="signatory" xml:id="p12">
+                <persName ref="https://explore.gnd.network/gnd/4043271-3">
+                    <name>Oesterreich</name>
+                </persName>
+            </person>
+            <person role="signatory" xml:id="p109">
+                <persName ref="https://explore.gnd.network/gnd/4054835-1">
+                    <name>Siebenbürgen</name>
+                </persName>
+            </person>
+        </listPerson>
+        <listPlace>
+            <place xml:id="loc78">
+                <placeName ref="https://explore.gnd.network/gnd/4076310-9">Prag</placeName>
+            </place>
+        </listPlace>
+        <facsimile>
+            <surface xml:id="FacsPnr1">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_448fd8b2baaff"/>
+            </surface>
+            <surface xml:id="FacsPnr2">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_448fd8ee8a14d"/>
+            </surface>
+            <surface xml:id="FacsPnr3">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_448fd9615e066"/>
+            </surface>
+            <surface xml:id="FacsPnr4">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_448fd9cd40245"/>
+            </surface>
+            <surface xml:id="FacsPnr5">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_448fda26d3f08"/>
+            </surface>
+            <surface xml:id="FacsPnr6">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_448fdab41a088"/>
+            </surface>
+            <surface xml:id="FacsPnr7">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_448fdc1d2b64c"/>
+            </surface>
+            <surface xml:id="FacsPnr8">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_448fdc6f76b54"/>
+            </surface>
+            <surface xml:id="FacsPnr9">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_448fdcc20318b"/>
+            </surface>
+            <surface xml:id="FacsPnr10">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_448fdd17b4172"/>
+            </surface>
+            <surface xml:id="FacsPnr11">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_448fdd77c7798"/>
+            </surface>
+            <surface xml:id="FacsPnr12">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_448fddb96af33"/>
+            </surface>
+            <surface xml:id="FacsPnr13">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_448fddf3995fd"/>
+            </surface>
+            <surface xml:id="FacsPnr14">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_448fde35dc404"/>
+            </surface>
+            <surface xml:id="FacsPnr15">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_448fde7484b87"/>
+            </surface>
+            <surface xml:id="FacsPnr16">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_448fdecd74f7f"/>
+            </surface>
+            <surface xml:id="FacsPnr17">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_448fdf0c2196a"/>
+            </surface>
+            <surface xml:id="FacsPnr18">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_448fdf48e60fe"/>
+            </surface>
+            <surface xml:id="FacsPnr19">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_448fdf7e66585"/>
+            </surface>
+            <surface xml:id="FacsPnr20">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_448fdfb806b36"/>
+            </surface>
+            <surface xml:id="FacsPnr21">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_448fdff267a7d"/>
+            </surface>
+            <surface xml:id="FacsPnr22">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_448fe034a2f6f"/>
+            </surface>
+            <surface xml:id="FacsPnr23">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_448fe1310cba2"/>
+            </surface>
+            <surface xml:id="FacsPnr24">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_448fe1a63be41"/>
+            </surface>
+            <surface xml:id="FacsPnr25">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_448fe1e2e2958"/>
+            </surface>
+            <surface xml:id="FacsPnr26">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_448fe219ab92c"/>
+            </surface>
+        </facsimile>
+    </standOff>
+    <text>
+        <front>
+            <div type="Drucke"><p>Roderich Gooss, Österreichische Staatsverträge. Fürstentum Siebenbürgen. Wien 1911, S.&nbsp; 241-249.&nbsp; Uj magyar muzeum 1885/I, S.193 ff.
+            </p> <p>[Regest: Bittner I, Nr.155]</p></div>
+        </front>
+        <body>
+            <div type="Transliteration">
+                <pb facs="#FacsPnr1"/><p>[Seite 1]
+                </p>
+                <p>&nbsp;
+                </p>
+                <p>Confirmatio 
+                    <lb />Pactorum Transÿlva- 
+                    <lb />nicorum de cessione 
+                    <lb />Provinciæ. 
+                    <lb />dd. 1. æ Mensis Janu[arii] 
+                    <lb />Anno 1598 
+                </p>
+                <pb facs="#FacsPnr2"/><p>[Seite 2] 
+                </p> 
+                <p>&nbsp; 
+                </p> 
+                <p>Copia&nbsp;&nbsp;&nbsp; dd 23. Decembris 1597 
+                    <lb />et 21. Januarii 1598 
+                    <lb /> 
+                    <lb />Rudolphus Secundus divina fa- 
+                    <lb />vente clementia electus Romanorum Impera- 
+                    <lb />tor semper Augustus, ac Germaniæ, Hungariæ, 
+                    <lb />Bohemiæ, Dalamtiæ, Croatiæ, Sclavoniæ, etc. Rex, 
+                    <lb />Archidux Austriæ, Dux Burgundiæ, Brabantiæ <note n="1" type="crit_app">Einschub über der Zeile.</note>, Stiriae, Ca- 
+                    <lb />rinthiæ, Carnioliæ etc. Marchio Moraviæ etc. 
+                    <lb />Dux Lu&lt;c&gt;emburgiæ ac Superioris et inferioris 
+                    <lb />Silesiæ, Wiertembergiæ et Teckæ Princeps, Sue- 
+                    <lb />viæ et Goritiæ, Landtgravius Alsatiæ, Marchio 
+                    <lb />Sacri Romani Imperij, Burgoniæ, ac superioris 
+                    <lb />et inferioris Lusatiæ,&nbsp; Dominus Marchiæ, Sclavo- 
+                    <lb />niæ, Portus Naonis et Salinarum, Recognoscimus 
+                    <lb />ca notum facimus tenore præsentium universis; 
+                    <lb />Quod cum Illustrissimus Sigismundus Bathoreus 
+                    <lb />de Somlio, Transÿlvaniæ Princeps, Siculorum Comes etc. 
+                    <lb />Affinis et Princeps noster charissimus, multis 
+                    <lb />ac varijs ijsque gravissimus rationibus tum pu- 
+                    <lb />blicis, tum privatis motus Provinciam suam 
+                    <lb />Transÿlvanicam, et quæ intra et extra eam habet, 
+                    <lb />patrimonalia bona una cum omnibus eodem quo- 
+                    <lb />cunque modo pertinentibus, nobis cedere et in 
+                    <lb />nos transfere, nostræque potestati in solidum 
+                    <lb />subdere, ac tradere certis pactis mutuis statuerit, 
+                </p> 
+                <pb facs="#FacsPnr3"/><p>[Seite 3] 
+                </p> 
+                <p>&nbsp; 
+                </p> 
+                <p>ac de eorum pactorum formula, ut ea confirmanda sint, 
+                    <lb />inter Nos et Dilectionem ipsius convenerit, quæ est 
+                    <lb />talis. 
+                    <lb /> 
+                    <lb /> 
+                    <lb />Pacta et Conventiones inter Sac[ram] 
+                    <lb />Cæs[aream] Ma[jesta]tem, Dominum nostrorum clementissimum 
+                    <lb />ex una, et illustrissimum Sigismundum Bathoreum de 
+                    <lb />Somlio, Transÿlvaniae Principem, Siculorum Comitem, 
+                    <lb />et quarundam Hungariæ partium Dominum etc. ex 
+                    <lb />altera parte, in et super cessione suæ Maiestati ab 
+                    <lb />eo facienda universæ Provinciæ suæ Transylvanicæ, 
+                    <lb />cum omnibus et singulis ad eam pertinentibus et spectantibus , 
+                    <lb />atque inde et hac occasione quomodolibet 
+                    <lb />emergentibus ipsamque cessionem concomitantibus 
+                    <lb />juribus et acticonibus, quæ et quas antedicta sua Maje- 
+                    <lb />stas et præfatus Princeps in omnibus et per omnia par- 
+                    <lb />tim perpetuo et partim ad tempus, prout infra la- 
+                    <lb />tius continetur inviolabiliter fieri, servari et con- 
+                    <lb />tinuari pro se quisque cupit, vult et mandat teno- 
+                    <lb />re præsentium Capitularum et articulorum, ut 
+                    <lb />hic sequitur. 
+                    <lb /> 
+                    <lb />Et primum ex parte Illustrissimi 
+                    <lb />Principis &lt;velut&gt; cedentis cum ei iam aliquoties 
+                    <lb />in cogitationem venerit, in quantas ac quales angustias 
+                    <lb /> 
+                </p>
+                <pb facs="#FacsPnr4"/><p>[Seite 4] 
+                </p> 
+                <p>&nbsp; 
+                </p> 
+                <p>et difficultates is hactenus dilapsus fuerit, ob præsens 
+                    <lb />diuturnum Turcicum bellum, et in quæ pericula, una 
+                    <lb />cum tota sua ditione Transÿlvanica propterea deve- 
+                    <lb />nerit, videns se multis de causis (quas omnes hoc loci 
+                    <lb />enumerare minime opus est) tam atrox, acerbum et 
+                    <lb />periculosum bellum amplius nequaquam sustentare pos- 
+                    <lb />se, quicquid interea sit, quod ipsum tamen hactenus, 
+                    <lb />eousque divino auxilio satis feliciter produxerit, 
+                    <lb />quod toti Christiane Reipublici optime constat, simul- 
+                    <lb />que perpendens, se, uti imparem potentissimo æque ac 
+                    <lb />iniustissimo et infidelissimo hosti, ne ipsa quidem in- 
+                    <lb />tercedente pace, bellorum omnium fine, et malorum 
+                    <lb />medel&lt;l&gt;a, rebus suis pro desiderio suo probe consulere 
+                    <lb />posse, eo<note n="2" type="crit_app">Einschub.</note> quod quemadmodum toti orbi notissimum est, 
+                    <lb />Tyrannus ille et humani generis exiciosissima pestis<note n="3" type="crit_app">Einschub.</note> cui fides 
+                    <lb />ludibrio, perfidia autem honori, et ornamento, imo re- 
+                    <lb />ligio quoque esse solet, non minus pace, quam bello pro 
+                    <lb />voluntate sua ad libidinem suam, uti atque abuti con- 
+                    <lb />sueverit, quæ quidem etsi multo duriora sint, quam 
+                    <lb />quivis facile cogitare possit, ferenda tamen adhuc 
+                    <lb />Principis Judicio quodammodo essent, pro communi 
+                    <lb />Christianorum bono, et hac etiam in parte quævis belli 
+                    <lb />alea, præsertim in causa adeo justa, sancta et pia sub- 
+                    <lb />eunda foret, si alia quoque et forte etiam maiora do- 
+                    <lb />mestica nimirum atque adeo vicina etiam eundem, 
+                </p> 
+                <pb facs="#FacsPnr5"/><p>[Seite 5] 
+                </p> 
+                <p>&nbsp; 
+                </p> 
+                <p>dum bona fide, pro aris et focis pugnat, non solicitarent pericula, 
+                    <lb />quæ veluti indigna Christiana nostra Religi- 
+                    <lb />one consultius fuerit in honorem Christianæ reipublicæ 
+                    <lb />æterno potius silentio involvere, quam ea hic coram in 
+                    <lb />medium adferre. Itaque hæc et alia similia impedimen- 
+                    <lb />ta animo suo diligenter et candide, prout prudentem, 
+                    <lb />et bene cordatum Principem decet, volvens atque re- 
+                    <lb />volvens, eaque cum ijs sedulo conferens, quæ antehac 
+                    <lb />cum Sacratissima sua Cæsarea Majestate acta et trans- 
+                    <lb />acta, atque solenni juramento vallata, sancte firmata 
+                    <lb />et stabilita fuere, cum primis vero eius optime conscius 
+                    <lb />quod alias data fide, non semel, sed sæpe et sæpius 
+                    <lb />pollicitus fuit, se potius privatum nobilem cum Chri- 
+                    <lb />stianis, reliquum vitæ suæ tempus traducturum, quam 
+                    <lb />Principem cum Turcis, amplius mansurum. Ne ergo 
+                    <lb />dum immenso in patriam amore et eius quomodolibet 
+                    <lb />conservandæ atque defendendæ studio extrema qua- 
+                    <lb />vis tentat, eo tandem miseriarum ab incomparabili 
+                    <lb />et nimia hostili vi conjiciatur, et coangustetur, ita ut 
+                    <lb />nolens volens cum summo Christiani Orbis detrimento 
+                    <lb />suoque ipsius ingenti et is unquam Seculis delendo 
+                    <lb />dedecore, Principatu suo exturbetur, vel ipsum aliter 
+                    <lb />cum vita simul perdere et amittere compellatur. Post 
+                    <lb />horum ut dicitur omnium Susceptam longam et mature 
+                    <lb />quoque de ijs habitam consultationem et deliberationem 
+                    <lb /> 
+                </p>
+                <pb facs="#FacsPnr6"/><p>[Seite 6] 
+                </p> 
+                <p>&nbsp; 
+                </p> 
+                <p>postremo in hanc devenit sententiam, se o alio pacto 
+                    <lb />aque alia meliori via aut saniori modo et ratione pa- 
+                    <lb />triæ et Christianæ reipublicæ prospicere posse, quam si 
+                    <lb />tot ingruentibus malis unicum illud salutiferum remedium 
+                    <lb />a se adhibeatur, quo alios quam plurimos se longe et absque 
+                    <lb />ulla comparatione majores et potentiores Principes 
+                    <lb />in similibus et forte etiam multo minoribus pericu- 
+                    <lb />lis et angustijs constitutos summa cum ipsorum lau- 
+                    <lb />de et suorum singulari cum beneficio et emolumento 
+                    <lb />usos fuisse, humanarum rerum tradit historia, videlicet 
+                    <lb />se Principatu suo sponte abdicando eique cedendo, et 
+                    <lb />ipsum alteri tradendo, Qua in re animadvertens præterea 
+                    <lb />dictus Princeps quam plurimis etiam alijs rebus opus 
+                    <lb />esse<note n="4" type="crit_app">Einschub.</note> ad eiusmodi deliberationem effectuandam, resque omnes 
+                    <lb />stabiliendas et firmandas, ac cum primis et ante omnia 
+                    <lb />necessario sibi cogitandum fore de Principe cessionario<note n="5" type="crit_app">Einschub.</note>, in quem 
+                    <lb />Provinciam suam Transÿlvanicam iusto et bono titulo 
+                    <lb />conferre possit, item de modo faciendæ eiusmodi cessionis 
+                    <lb />et translationis, similiter quid<note n="6" type="crit_app">Einschub.</note> de sua ipsius persona, de sere- 
+                    <lb />nissima sua Conjuge in posterum statuendum sit, cum 
+                    <lb />haud quaquam conveniens esset, tantum ac talem Prin- 
+                    <lb />cipem, optimis imo sanctissimis moribus imbutam, et 
+                    <lb />cœlestibus virtutibus exornatam ex<note n="7" type="crit_app">Korrektur, urspr. ac</note> augustissima 
+                    <lb />omnium tot Cæsarum et maximorum Regum et 
+                    <lb />Archiducum Austriaca Domo natam, hac occasione 
+                    <lb /> 
+                </p> 
+                <pb facs="#FacsPnr7"/><p>[Seite 7] 
+                </p> 
+                <p>&nbsp; 
+                </p> 
+                <p>et nihil tale, imo præclarissime de ipso Principe me- 
+                    <lb />ritam a Principatu deturbare, et ad privatum Sta- 
+                    <lb />tum quodammodo abijcere. Ideo et quoad primum opti- 
+                    <lb />me memor eorum omnium, quæ ab hinc triennium 
+                    <lb />apud Sacratissimam suam Cæsaream Majestatem &nbsp; 
+                    <lb />sibi occurrerunt, dum inter eam et se notum illud et
+                    <lb />celebratissimum fœdus sanciretur et mente insuper 
+                    <lb />sua recolligens omnia et singula beneficia non minus 
+                    <lb />in suammet personam, quam in Provinciam suam a 
+                    <lb />sacratissima sua Cæsarea Majestate cumulatissi- 
+                    <lb />me hac usque collata, ob quæ Princeps Maiestati 
+                    <lb />suæ et universæ Augustæ familiæ, adeo multa 
+                    <lb />se debere cognoscit, et quidem libenter, ut si vi- 
+                    <lb />tam quoque suam pro invictissima Archiducum 
+                    <lb />familia sibi profundere contingat, tamen tot 
+                    <lb />ipsius meritis haud quaquam a se satisfieri posse 
+                    <lb />&nbsp;arbitretur, cumque animo ipsius necdum exciderit, 
+                    <lb />imo nec unquam ullo tempore facile excidere pos- 
+                    <lb />sit, quo pacto sponte sua et nemine quidem cogente, 
+                    <lb />ad idve ne minimo quidem ipsum adigente aut im- 
+                    <lb />pellente in antedicto fœdere se obstrinxerit , ut casu 
+                    <lb />quo filios non suscipiat, sed sine liberis legitimis natu- 
+                    <lb />ralibus decedat, quod tunc universa sua Provincia 
+                    <lb />ad Cæsaream suam Majestatem deinceps devolvatur. 
+                    <lb /> 
+                </p>
+                <pb facs="#FacsPnr8"/><p>[Seite 8] 
+                </p> 
+                <p>&nbsp; 
+                </p> 
+                <p>Etsi eo Dei beneficio necdum deventum sit, attamen 
+                    <lb />sentiens ac manifeste cognoscens, se non quidem Serenis- 
+                    <lb />simæ suæ Conjugis, sed sui ipsius Causa, ut pote, ex procre- 
+                    <lb />andi defectu, et inhabilitate, iam tum detecta liberorum 
+                    <lb />spe de cætero frustatum iri, quin imo ipsa usque ex- 
+                    <lb />perientia ex varijs symptomatibus, quæ sibi subinde ab 
+                    <lb />aliquo hinc tempore accidere solent, iam aliquoties edoctus 
+                    <lb />se corpore adeo male affectum, ut sibi vel ab inopinata etiam 
+                    <lb />et improvisa morte maximopere verendum sit (quo casu 
+                    <lb />quis non videt totam Provinciam subitaneo quasi, ac re- 
+                    <lb />pentino quodam infortunio correptam, ubi eidem prius de 
+                    <lb />certo successore provisum non foret, usque deque inex- 
+                    <lb />pectato ferri deferrique posse) eapropter in priori 
+                    <lb />sua usque adhuc durans et consistens sententia de ce- 
+                    <lb />denda nimirum Provincia, ideoque cupiens et sum- 
+                    <lb />mopere desiderans promissis suis stare, simulque volens 
+                    <lb />rebus suis et patriæ optime ac<note n="8" type="crit_app">Korrektur, urspr. et.</note> tempestive quoque et quam- 
+                    <lb />primum prospectum et provisum iri, iam longe ante sta- 
+                    <lb />tuit, sæpedictam eiusmodi cessionem Sacratissimæ suæ 
+                    <lb />Cæsareæ Majestati facere, et in eam universam Pro- 
+                    <lb />vinciam suam cum omni suo jure, quod in ea, et super 
+                    <lb />eam quomodolibet habet aut habere potest, transferre. Quod 
+                    <lb />quidem etiam iam dudum atque adeo in ipso sta- 
+                    <lb />tim coepti sui consilij initio a se factum fuisset, dum- 
+                    <lb />modo sua quoque Sacratissima Cæsarea Majestas 
+                </p> 
+                <pb facs="#FacsPnr9"/><p>[Seite 9] 
+                </p> 
+                <p>&nbsp; 
+                </p> 
+                <p>consultationi huic auscultare<note n="9" type="crit_app">Korrektur, urspr. Wort nicht lesbar.</note>, et eiusmodi cessioni 
+                    <lb />Cæsareum suum assensum præbere hactenus voluisset. 
+                    <lb />Nam cum ab anno usque superiori Princeps ipse par- 
+                    <lb />tim coram et partim per alios summi ac medij Ordinis 
+                    <lb />viros de sæpedicta cessione ad Sacratissimam Cæsa- 
+                    <lb />ream Majestatem suam retulisset, referrique curasset<note n="10" type="crit_app">Beide Wörter: Einschub.</note>tamen eadem sua 
+                    <lb />Maiestas nunquam adduci potuit, ut sæpefatam ces- 
+                    <lb />sionem acceptaret. Tanta est Austriaci Sanguinis 
+                    <lb />in omnibus sibi quam rectissime conscij bonitas et 
+                    <lb />pietas, ut optimi hi Principes suis solummodo contenti 
+                    <lb />aliena non querant; Donec tandem urgentissimis ipsius 
+                    <lb />Principis et aliorum pro eo multoties repetitis<note n="11" type="crit_app">Korrektur s.</note> et itera- 
+                    <lb />tis precibus victa et superata Majestas Sacratissima 
+                    <lb />benignam au&lt;r&gt;em præbere coacta fuit, certo sibi persua- 
+                    <lb />dens, hac in re multo magis Principi ipsi et Provinciæ 
+                    <lb />ipsius et toti orbi Christiano, quam sibi satisfactum iri. 
+                    <lb />Ea propter atque ex supra memoratis causis sæpe- 
+                    <lb />fatus Princeps habito præsertim et obtento Sacratis- 
+                    <lb />simæ Maiestatis assensu, inhærendo et insistendo, an- 
+                    <lb />tedicto proxime celebrato foederi, ad quod, et contenta 
+                    <lb />in eo, idem se refert, ac ne minimum quidem ab eo 
+                    <lb />et dicta sua deliberatione discedens, nisi in quantum 
+                    <lb />etiam animo firmo et stabili in præsentiarum pro- 
+                    <lb />mittit et pollicetur, se Sacratissimæ Cæsareæ suæ 
+                    <lb />Maiestati et hæredibus ac successoribus suis in per- 
+                </p> 
+                <pb facs="#FacsPnr10"/><p>[Seite 10] 
+                </p> 
+                <p>&nbsp; 
+                </p> 
+                <p>petuum daturum, cessurum, concessurum, et in eandem, 
+                    <lb />in eosque translaturum totam atque universam suam 
+                    <lb />Provinciam Transÿlvanicam, una cum omnibus quibus- 
+                    <lb />cunque suis bonis patrimonialibus, immobilibus sive 
+                    <lb />stabilibus ubivis locorum existentibus, quam et quæ 
+                    <lb />nunc, tam intra, quam extra Provinciam Transÿlvanicam 
+                    <lb />possidet, habet, et tenet, cum omnibus suis juribus, nomi- 
+                    <lb />nibus et actionibus realibus et personalibus et quibus- 
+                    <lb />cunque alijs sibi quomodolibet quovis jure sive Princi- 
+                    <lb />patus, sive privato competentibus o plane excepto 
+                    <lb />vel reservato, constiturumque Majestatem suam Do- 
+                    <lb />minum in rem suam, et positurum eam in locum et 
+                    <lb />universum ius suum ita, quod in posterum dicta Sere- 
+                    <lb />nissima Maiestas ijs omnibus non aliter atque suis possit 
+                    <lb />uti et frui, et cum ijs ad libitum et beneplacitum suum 
+                    <lb />facere et disponere et ad hoc ut Princeps suæ Majesta- 
+                    <lb />ti vel cui magis libuerit S[acr]a Majestas supradicta 
+                    <lb />omnia et singula, quiete ac pacifice effecta reddere pos- 
+                    <lb />sit, spondet idem Princeps et promittit se ad hoc specia- 
+                    <lb />tim generalia Provincialia Comitia congregaturum 
+                    <lb />et curaturum, ut is quem sua Majestas sive successorem 
+                    <lb />sive Gubernatorem pro se et suo nomine in Provinciam 
+                    <lb />deputaverit, ablegaveritve, prout magis et melius sacra- 
+                    <lb />tissimæ suæ Majestati visum fuerit, ac placuerit in 
+                    <lb />eandem placide et tranquille absque tumultu et impedi- 
+                    <lb /> 
+                </p>
+                <pb facs="#FacsPnr11"/><p>[Seite 11] 
+                </p> 
+                <p>&nbsp; 
+                </p> 
+                <p>mento introducatur, secure admittatur et amanter ac 
+                    <lb />obsequenter ac reverenter recipiatur, eidem univer- 
+                    <lb />sum dominium absque ulla contradictione vel&nbsp; hæsita- 
+                    <lb />tione, libere et absolute tradatur, et in Summa se curatu- 
+                    <lb />rum, conaturum et elaboraturum atque perfecturum 
+                    <lb />ut hac in parte ad negotij huius perfectionem, unde 
+                    <lb />quaque nihil desiderari possit. 
+                    <lb /> 
+                    <lb />Porro Secundo et ex parte Sacratis- 
+                    <lb />simæ suæ Cæ[sare] æ Majestatis, etsi eadem, ut ante et 
+                    <lb />sæpe quidem dictum fuit, maluisset omnino ut Prin- 
+                    <lb />ceps in&nbsp; sua Provincia mansisset, et eo, quo hucusque 
+                    <lb />&nbsp;laudabili prorsus modo ab ipso factum est, suis ipse 
+                    <lb />præfuisset rebus, tamen cum ipsius adeo firma et irre-
+                    <lb />vocabilis cedendæ Sacratissimæ Majestati suæ memo- 
+                    <lb />ratæ provinciæ stat sententia, ut ab ea is rationi- 
+                    <lb />bus abduci se patiatur, Nolens sua Majestas (atten- 
+                    <lb />to præsertim dicto fœdere) reipublicæ Christianæ 
+                    <lb />ac in primis Transÿlvaniæ alioquin in eum iam 
+                    <lb />tum, quo supradictum casum Cæsarei et Regij Juris 
+                    <lb />effectæ vel in minimo deesse, eidem Principi dictam 
+                    <lb />Provinciam cedenti vicissim promittit, ac pollicetur 
+                    <lb />se ipsam accepturam et in potestatem suam auxi- 
+                    <lb />lijs et medijs, quibus supra suspecturam et reductu- 
+                    <lb />ram, et æque tractaturam ac reliquas suas hæreditarias 
+                    <lb /> 
+                </p>
+                <pb facs="#FacsPnr12"/><p>[Seite 12] 
+                </p> 
+                <p>&nbsp; 
+                </p> 
+                <p>Provincias et regna, omni nimirum paterno animi affectu et amore, sperans itidem
+                    provinciam<note n="12" type="crit_app">Passage als Einschub über der Zeile: et... provinciam.</note> ipsam e converso Majestatem suam Cæsaream 
+                    <lb />uti suum verum et legitimum ac naturalem dominum 
+                    <lb />agnituram, culturam, eidemque omnem debitam obedien- 
+                    <lb />tiam et observantiam delaturam, imo summi ac quidem 
+                    <lb />cœlestis beneficij loco reposituram, quod S[acr]a Cæsarea 
+                    <lb />Majestas ad Principis preces et Oblationes tam benigne 
+                    <lb />et clementer respexerit, cogitans facile alioquin con- 
+                    <lb />tingere potuisse, ut summa eiusdem calamitate et ex- 
+                    <lb />terminio ad eius manus pervenisset, a quo omnia mala 
+                    <lb />et incommoda sibi expectanda fuissent. Verum enimvero 
+                    <lb /><note n="13" type="crit_app">Siegel am Textrand.</note>cum ipsius quoque Principis, ut dictum fuit, sit habenda 
+                    <lb />Ratio, eidemque de eiusmodi condicione et commoditate 
+                    <lb />prospiciendum, ut is nihilominus in Principis dignitate 
+                    <lb />remaneat, et se uti Principem gerere possit, ideo S[acr]a 
+                    <lb />Majestas eo, quo in Principem semper fuit, estque pa- 
+                    <lb />terno prorsus amore affecta et singulari Augusta 
+                    <lb />sua in eum clementia propensa eidem inprimis, et 
+                    <lb />ante omnia utrumque Ducatum Oppoliæ et Rati- 
+                    <lb />borij ita concedit, et tradit, ut quoad ipse Princeps vi- 
+                    <lb />xerit, utriusque Dux et Dominus hoc pacto et hoc 
+                    <lb />moderamine sit et vocetur, ijsque eo prorsus modo et 
+                    <lb />illa ratione utatur et fruatur, qua Majestas sua 
+                    <lb />Cæsarea ad præsens tanquam Dux utriusque Du- 
+                    <lb />catus utitur fruitur salvis quoque et illæsis Or- 
+                    <lb />dinum et Statuum in dictis Ducatibus existentium 
+                </p>
+                <pb facs="#FacsPnr13"/><p>[Seite 13] 
+                </p> 
+                <p>&nbsp; 
+                </p> 
+                <p>privilegiis, statutis immunitatibus, ac juribus Pro- 
+                    <lb />vincialibus, omnibus et quibuscunque, et ut superiorem 
+                    <lb />S[acr]am Cæsaream Majestatem agnoscat, et quod inde iux- 
+                    <lb />ta Provinciæ constitutiones quomodolibet<note n="14" type="crit_app">Einschub.</note> ordinarie, vel extraordina- 
+                    <lb />rie solvi consuevit, illud non minus et ipse solvat, post 
+                    <lb />ipsius autem obitum uterque Ducatus ad S[acr]am Ma- 
+                    <lb />jestatem eiusque Successores redeat, recidat, ac devo- 
+                    <lb />lvatur.&nbsp; Secundo præter hos duos Ducatus pro- 
+                    <lb />mittit etiam Sacra sua Majestas eidem Principi pro- 
+                    <lb />ventum annuum (at similiter vita duntaxat ipsius 
+                    <lb />Principis durante) quiquaginta millium talerorum 
+                    <lb />ad rationem septuaginta cruciatorum in singulos 
+                    <lb />taleros, computandorum, idque sive in taleris, sive alia 
+                    <lb />currenti moneta usque ad integralem satisfactionem 
+                    <lb />antedictæ summæ, utque dicta Summa ipsi in Italia 
+                    <lb />quidem, si eundem ibi degere contingat, Romæ, aut 
+                    <lb />Venetijs, in Germania autem habitanti Augustæ, aut 
+                    <lb />Norimbergæ, per certos et ad hic deputatos Mercato- 
+                    <lb />res a semestre in semestrem quovis semestre vi- 
+                    <lb />ginti quinque<note n="15" type="crit_app">Einschub.</note> mille taleri, valoris supra, realiter numeren- 
+                    <lb />tur, ac reddantur, et in quidem hac expressa, pro sua 
+                    <lb />Majestate reservata condicione et exceptione, ut Sac[rae] 
+                    <lb />suæ Majestati deinceps quando cunque eidem visum 
+                    <lb />fuerit, liberum sit hanc summam, sive integre sive 
+                </p> 
+                <pb facs="#FacsPnr14"/><p>[Seite 14] 
+                </p> 
+                <p>&nbsp; 
+                </p> 
+                <p>eius partem, qualem et quantamcunque ei placuerit, 
+                    <lb />beneficijs Ecclesiasticis, sive in suæ Majestatis regnis 
+                    <lb />ac Provincijs, sive extra, aut alibi, ut ut potuerit, et 
+                    <lb />maluerit, permutare compensare vel redimere ad- 
+                    <lb />dendo supra dictis, ut antedicta solutio ab eo tempore 
+                    <lb />demum incipere debeat , quando dictæ mutuæ cessiones 
+                    <lb />Transÿlvaniæ ab una et duorum Ducatuum ab altera 
+                    <lb />partibus actualiter, realiter et reciprocum suum sor- 
+                    <lb />titæ fuerint effectum, id est simul atque Princeps ex 
+                    <lb />Provincia Majestati suæ cessa et secure tradita ex- 
+                    <lb />cesserit, quo tempore reditus quoque et dominia reci- 
+                    <lb />proca tam suæ Majestatis, quam ipsius Principis 
+                    <lb />inchoabuntur, et initia sua sumptura sunt, scilicet ex 
+                    <lb />parte Principis dominium et redditus &lt;Einschub&gt; Ducatuum duorum, sed ut 
+                    <lb />dictum est, temporanei et saltem ad dies vitæ ipsius, ex 
+                    <lb />parte vero S[acr] æ Majestatis et omnium et quorumcunque 
+                    <lb />Suorum hæredum et Successorum in infinitum Domi- 
+                    <lb />nium et redditus perpetui Provinciæ Transÿlvanicæ 
+                    <lb />et bonorum patrimonialium ipsius Principis, hoc semel 
+                    <lb />expresso, ut si qui forte redditus in Provincia et bonis 
+                    <lb />patrimonialibus a Principe semel cessis, et in suam 
+                    <lb />Majestatem translatis, et alia super fuerint, tempore 
+                    <lb />discessus ipsius Principis ex Provincia Transÿlvani- 
+                    <lb />ca, quod ea omnia et singula intelligantur, spectare 
+                    <lb />et pertinere debere ad S[acr]am Majestatem Cæsaream, 
+                    <lb /> 
+                </p>
+                <pb facs="#FacsPnr15"/><p>[Seite 15] 
+                </p> 
+                <p>&nbsp; 
+                </p> 
+                <p>quemadmodum reciproce in utroque Ducatu Oppoliæ et 
+                    <lb />Ratiborij Sacra sua Majestas id ipsum erga Principem 
+                    <lb />servari vult et mandat. Et quoniam Princeps animum 
+                    <lb />ad Statum Ecclesiasticum amplectendum et Ssacros Ordines 
+                    <lb />suscipiendos induxit, Sac[ra] Majestas sua benigne annuit, 
+                    <lb />ut consensu accedente Serenissimæ Conjugis ac Serenis- 
+                    <lb />simorum Archiducum Matris, ac fratris dispensationem 
+                    <lb />Pontificis super matrimonio di&lt;r&gt;imendo impetret. Ut ve- 
+                    <lb />ro etiam Princeps sacris ordinibus assumptis in aliqua 
+                    <lb />persona suo digno gradu deinceps consistat, Sac[ra] Ma- 
+                    <lb />jestas Sua apud Sanctitatem suam commendationis of- 
+                    <lb />ficia ad impetrandam Cardinalitiam dignitatem in- 
+                    <lb />terponere non desistet, donec voti compos fiat), cui si- 
+                    <lb />mul titulum quoque ac honorem Principis Imperij 
+                    <lb />nihilo secius, quemadmodum hactenus factum fuit, 
+                    <lb />&nbsp;ei conservari et continuari faciet, eiusdemque sin- 
+                    <lb />gularem protectionem una cum tota Augusta domo 
+                    <lb />sua amanter ac benigne perpetuo suscipiet. Ut de- 
+                    <lb />nique in Ecclesiastica dignitate Princeps<note n="16" type="crit_app">Korrektur: s.</note> se se com- 
+                    <lb />modius et honorificentius sustentare possit, Sac[ra] Ma- 
+                    <lb />jestas Sua apud Serenissimum Hispaniarum Regem 
+                    <lb />Catholicum partes suas amanter interponet, ut a 
+                    <lb />Serenitate ipsius Illustrissimo Principi pensio aliqua 
+                    <lb />Ecclesiastica aliquot millium aureorum ultra præ- 
+                </p>
+                <pb facs="#FacsPnr16"/><p>[Seite 16] 
+                </p> 
+                <p>&nbsp; 
+                </p> 
+                <p>dictam sibi a Majestate sua promissam summam assignetur. 
+                    <lb />Et ut omnis plane tollatur occasio, cuivis hanc cessionis 
+                    <lb />formam et rationem cavillandi et repræhendendi, præ- 
+                    <lb />sertim forte asserendo, ipsam Simoniæ labe, ob inter- 
+                    <lb />ventum sacrorum ordinum Cardinalitiæ dignitatis, 
+                    <lb />beneficiorum, proventuum, et aliorum eiusmodi etc. ne- 
+                    <lb />quaquam carere, conventum fuit præterea inter Suam 
+                    <lb />Majestatem et ipsum Illus[trissimum] P[rinci]pem, ut quatenus opus sit,
+                    sum[m]us Pontifex<note n="17" type="crit_app">Einschub "et ... Pontifex".</note> hac etiam in parte de idonea dispensa- 
+                    <lb />tione et confirmatione requiratur et rogetur. 
+                    <lb /> 
+                    <lb />Quod ad Serenissimam Prin- 
+                    <lb />cipem Conjugem attinet, placet Sacræ Majestati 
+                    <lb />suæ, quemadmodum ipsimet Principi, ut bona illi do- 
+                    <lb />nata in Transÿlvania retineat, et ad stabiliendum 
+                    <lb />magis Provinciæ Statum in eadem ipsa Princeps 
+                    <lb />iuxta suæ Majestatis desiderium maneat, ita tamen, 
+                    <lb />ut si eadem quoque Provincia excedere et alibi 
+                    <lb />degere voluerit, liberum eidem sit bonis et juribus 
+                    <lb />suis detentis, id facere, sane optasset quidem Princeps 
+                    <lb />ut Serenitas sua Successori nupsisset, sed quandoqui- 
+                    <lb />dem hoc non minus a suæmet Serenitatis quam Successoris<note n="18" type="crit_app">Einschub.</note> volunta- 
+                    <lb />te et arbitrio, cum primis vero a Dei optimi Ma- 
+                    <lb />ximi dispositione et providentia pendet, cum is 
+                    <lb />iam aliud non possit, rem totam Divinæ suæ 
+                    <lb />Majestati<note n="19" type="crit_app">Streichung s.</note> ex intimis cordis visceribus com- 
+                </p> 
+                <pb facs="#FacsPnr17"/><p> [Seite 17] 
+                </p> 
+                <p>&nbsp; 
+                </p> 
+                <p>mendat, eandem omni qua potest pietate majori orans, 
+                    <lb />et obsecrans, ut tam piæ et sanctæ Principis divinam 
+                    <lb />curam et patrocinium suscipiat, consiliaque sua et 
+                    <lb />actiones omnes divina sua Sapientia dirigat, quod 
+                    <lb />fore non diffidit, Ac faletur quidem Princeps um 
+                    <lb />se æque grave onus post cessionem hanc manere, quam 
+                    <lb />uxorium hoc sit, sed quandoquidem ita Domino Deo 
+                    <lb />visum est, ferendum quoque et Diviniæ ipsius voluntati 
+                    <lb />se una cum Serenissima Conjuge, sic rerum extrema 
+                    <lb />necessitate cogente subjicere opus erit, sperans inte- 
+                    <lb />rea Cæsaream Suam Majestatem uti eadem se pro 
+                    <lb />posse curaturam benigne ac clementer obtulit, Sere- 
+                    <lb />nissimæ Principi hac eius in parte, imo Provinciæ 
+                    <lb />ipsi non defuturam, sed tentaturam, et proposituram, 
+                    <lb />ut ea cum successore in matrimonio conjugatur. 
+                    <lb />Demum promittit Sacra Majestate sua se et Suc- 
+                    <lb />cessores ratas et firmas habituros donationes hacte- 
+                    <lb />nus factas, una cum Articulis per Illustrissimum 
+                    <lb />Principem in Generalibus Provinciæ Comitijs ap- 
+                    <lb />probatis. Item cum erectione novi Episcopatus Alben- 
+                    <lb />sis, et alijs donationibus, articulisque in graciam Catho- 
+                    <lb />licæ Ecclesiæ factis, alijsque Provinciarum illarum 
+                    <lb />privilegijs. Et ad hæc&nbsp; quidem omnia quæ Sacræ 
+                    <lb /> 
+                </p>
+                <pb facs="#FacsPnr18"/><p>[Seite 18] 
+                </p> 
+                <p>&nbsp; 
+                </p> 
+                <p>Majestati suæ secundum hæc pacta præstanda sint 
+                    <lb />se se, ac<note n="20" type="crit_app">EInschub.</note> suos Successores obligabit, seque ut successor aut 
+                    <lb />Gubernator, qui in Transÿlvaniam venturus est, quod 
+                    <lb />primo quoque tempore curaturam se sua Majestas 
+                    <lb />promittit, literas reciprocæ cessionis duorum Ducatu[u]m 
+                    <lb />Oppoliæ et Ratiborij in eum finem secum adferat 
+                    <lb />ac Principi porrigat, ut ipse Princeps ex Transÿlvania 
+                    <lb />decedens, ac recta eo&nbsp; contenden&lt;s&gt; utriusque Ducatus pos- 
+                    <lb />sessionem Commissarijs ad hoc constitutis accipiat, ibidem- 
+                    <lb />que aulam tanquam domi suæ componat. 
+                    <lb /> 
+                    <lb />Quæ quidem omnia et singula Sua Cæsarea Ma- 
+                    <lb />jestas et Illustrssimus Princeps promittunt et polli- 
+                    <lb />centur, se omnino supradictos modo et forma, inviolabi- 
+                    <lb />liter conservaturam et conservaturum, facturam et 
+                    <lb />facturum, adimpleturam et adimpleturum&nbsp; omni et 
+                    <lb />quavis juris vel facti exceptionibus privile- 
+                    <lb />gijs etc. In quorum omnium et singulorum plenam et 
+                    <lb />indubitatam fidem dictæ Conventionis et cessio- 
+                    <lb />nis, duo æqualia paria et conformia exemplaria 
+                    <lb />conscripta, et ad perpetuam rei sic gestæ memo- 
+                    <lb />riam (donec et quoad usque de ijs iuxta juris formam 
+                    <lb />idoneum conficiatur instrumentum) alterum horum 
+                </p> 
+                <p>exemplar a S[ua] Majestate Cæsarea manu sua et Si- 
+                    <lb />gillo suo Cæsareo, alterum vero a sæpedicto Illustris- 
+                    <lb />simo Principe Sigismundo itidem manu sua et suo 
+                    <lb />Sigillo, munita, firmata, et corroborata fuere. Actum<note n="21" type="crit_app">EInschub.</note> Pragæ 
+                    <lb />23 Decembris Anno 1597. 
+                    <lb /> 
+                </p>
+                <p>Nos igitur tum Regnorum nostrorum hæreditariorum 
+                    <lb />ac ditionum, tum Transÿlvaniæ coniunctissimæ nostris 
+                    <lb />provinciæ securitati maxime hoc Turcico bello, quod cum 
+                    <lb />Sult&lt;o&gt;ne Mehemete gerimus, quoad eius fieri possit, con- 
+                    <lb />sulere, ac Principi Affini nostro satisfacere cupientes 
+                    <lb />supra commemorata pacta, iuxta eandem formulam 
+                    <lb />in omnibus Articulis, conditionibus, clausulis, punctis 
+                    <lb />ac verbis rata et grata habentes approbavimus, rati- 
+                    <lb />ficavmus, ac confirmavimus, quemadmodum authori- 
+                    <lb />tate nostra Cæsarea ac Regia pro nobis et successori- 
+                    <lb />bus nostris tenore præsentium approbamus, ratificamus 
+                    <lb />et confirmamus. Promittentes verbo nostro Cæsareo 
+                    <lb />ac Regio bonaque fide, nos eiusmodi pacta et eo- 
+                    <lb />rum confirmationem, omniaque et singula in ijs 
+                    <lb />contenta et expressa nostra ex parte inviolabi- 
+                    <lb />liter observaturos et adimpleturos esse, dolo et fraude 
+                </p> 
+                <pb facs="#FacsPnr20"/><p>[Seite 20] 
+                </p> 
+                <p>&nbsp; 
+                </p> 
+                <p>fraude &lt;…is&gt;<note n="22" type="crit_app">Fleck.</note>. Harum tgestimonio literarum manu 
+                    <lb />nostra subscriptarum, et sigilli nostri appesione mu- 
+                    <lb />nitarum. 
+                    <lb />Datum in Arce nostra regia Pragæ die Vigesima pri- 
+                    <lb />ma Mensio Januarij Anno Domini Millesimo 
+                    <lb />Quingentesimo Nonagesimo octavo. Regnorum No- 
+                    <lb />strorum Romani, Vigesimo tertio, Hungariæ vige- 
+                    <lb />simo sexto, et Bohemici itidem vigesimo tertio. 
+                    <lb /> 
+                    <lb />Rudolphus. 
+                    <lb /> 
+                    <lb />Ad mandatum Sac[ræ] Cæsareæ 
+                    <lb />Majestatis proprium 
+                    <lb />Jo. Barvitius. 
+                    <lb /> 
+                    <lb /> 
+                    <lb />Præsentem Copiam cum suo vero Originali collatam eidemque 
+                    <lb />per omnia (correctis tamen corrigendis, et suppletis omissis) 
+                    <lb />conformem esse testor infrascriptus. Viennæ 3.tia O[cto]bris 1794. 
+                    <lb /> 
+                    <lb />Johannes Florianus Baumberg m[anu] p[ropria] 
+                    <lb />Sac[r]æ Cæs[are]æ Regiæque Majestatis 
+                    <lb />Cameræ Aulicæ Archivi-Director. 
+                </p> 
+                <pb facs="#FacsPnr21"/><p> [Seite 21] 
+                </p> 
+                <p>1598. 
+                    <lb />Mandatum procura- 
+                    <lb />torium ad recipiendas 
+                    <lb />Provincias Transÿlvanicas. 
+                    <lb /> 
+                </p>
+                <pb facs="#FacsPnr22"/><p> [ Seite 22] 
+                </p> 
+                <p>&nbsp; 
+                </p> 
+                <p>Copia 
+                    <lb /> 
+                    <lb />Mandatum procurat ad recipiend[as] Provinc[ias] Transÿl[vanicas] 1598. 
+                    <lb /> 
+                    <lb />Rudolphus Secundus Divina favente 
+                    <lb />clementia Electus Romanorum Imperator Sem- 
+                    <lb />per Augustus, ac Germaniæ, Hungariæ, Bohemiæ, 
+                    <lb />Dalamtiæ, Croatiæ, Slavoniæ etc. Rex, Archidux Aus- 
+                    <lb />triæ, Dux Burgundiæ, Stiriæ, Carinthiæ, Carniolæ, 
+                    <lb />et Wirtembergæ etc. Comes Tyrolis. 
+                    <lb />Recognosciums ac notum facimus tenore præsentium 
+                    <lb />universis.&nbsp; Quod cum nobis Illustrissimus Sigismun- 
+                    <lb />dus Bathoreus de Somlio, Transÿlvaniæ Princeps, 
+                    <lb />Siculorum Comes, et quarundam Hungariæ partium Do- 
+                    <lb />minus, Affinis et Princeps noster charissimus, con- 
+                    <lb />siliam ac desiderium suum significarit, ut provin- 
+                    <lb />ciam suam Transÿlvanicam, ac patrimonalia sua, 
+                    <lb />quæ intra, et extra eam habet, bona, cum omnibus 
+                    <lb />eodem pertinentibus, certis nobis conditionibus, et 
+                    <lb />pactis cedere, et in nos transferre cupiat, nosque 
+                    <lb />tum rationibus, quas nobis aperiri curavit, tum 
+                    <lb />Reipublicæ totius Christianæ beneficio, quod inde 
+                    <lb />sperandum sit, moti, desiderio Dilectionis ipsius 
+                    <lb />acquieverimus, ut de conditionibus illis et pactis, 
+                    <lb />quantum necesse esset, ageretur.&nbsp;&nbsp;&nbsp;&nbsp; Et jam 
+                    <lb />tandem res eo confirmation iuxta conceptam formu- 
+                    <lb />lam utrumque perficienda, et quæ iis compræhendantur, 
+                    <lb /> 
+                </p>
+                <pb facs="#FacsPnr23"/><p>[Seite 23]
+                </p>
+                <p>&nbsp;
+                </p>
+                <p>tum apud Dilectionem ipsius, tum apud Serenissimam 
+                    <lb />eius coniugem Mariam Christiernam, patruelem nos- 
+                    <lb />tram charissimam, Provinciæque ordinis, et alios præs- 
+                    <lb />tanda., et executioni demandata, Provincia etiam nos- 
+                    <lb />tro nomine appræhendenda, et in nostram potestatem 
+                    <lb />acceptanda, Juramentum ab ordinibus, et stati- 
+                    <lb />bus exigendum, et Gubernatio instituenda, ac supradic- 
+                    <lb />tæ Serenissimæ Archiducissæ, patrueli nostræ, donec 
+                    <lb />nos aliud statuerimus, concredenda et com[m]itenda sit. 
+                    <lb />Necesse autem nobis ducamus, ut id nostra ex parte 
+                    <lb />per Legatos fieri curemus. Idcirco singularem 
+                    <lb />opinionem habentes de fide, integritate, prudentia, 
+                    <lb />rerumque gerendarum usu, industria ac dexteritate, 
+                    <lb />Reverendi, Spectabilis, ac Magnifici, Honorabilis 
+                    <lb />ac docti Stephani Szuhaÿ Electi Episcopi Vaciensis, 
+                    <lb />Præfecti Cameræ nostræ Hungaricæ, Comitis Francisci 
+                    <lb />de Nadasd, Comitatuum Castriferrei et Soproniensis 
+                    <lb />Comitis, Agazonum nostrorum Regalium in Hungaria 
+                    <lb />Magistri, Bartholomei P&lt;e&gt;zzÿ<note n="23" type="crit_app">Einschub.</note> ab Wriskirchen J.V.D.ris 
+                    <lb />consiliariorum nostrorum fidelium nobis dilectorum 
+                    <lb />eosdem sponte et ex certa nostra scientia, animoque 
+                    <lb />bene deliberato de omnibus melioribus, modo et via 
+                    <lb />ac iure, causa et forma, quibus melius validius, et ef- 
+                    <lb />ficacius de iure vel consuetudine potuimus aut debuimus 
+                </p> 
+                <pb facs="#FacsPnr24"/><p> [Seite 24]
+                </p>
+                <p>&nbsp;
+                </p>
+                <p>possumus, aut debemus, fecimus, constituimus, crea- 
+                    <lb />vimus, ac deputavimus, ac tenore præsentium facimus, 
+                    <lb />constituimus, creamus, ac deputamus nostros veros, 
+                    <lb />certos, legitimos et indubitatos Commissarios et Manda- 
+                    <lb />tarios, ac negotiorum nostrorum gestores, et procura- 
+                    <lb />tores, speciales et generales. Ita tamen, ut specialitas 
+                    <lb />generalitati non deroget, nec è contra dantes et con- 
+                    <lb />cedentes iisdem consiliariis, oratoribus, com[m]issariis 
+                    <lb />ac Mandatariis nostris, coniunctim ac separatim 
+                    <lb />plenam omnimodamque facultatem, authoritatem et 
+                    <lb />potestatem, ut videlicet pro nobis et nomine nostro, cum 
+                    <lb />supradicto Illustrissimo Principe affine nostro, vel 
+                    <lb />eius mandatariis, et cum dicta Serenissima Archiducissa 
+                    <lb />Maria Christierna patruele nostra charissima, nec 
+                    <lb />non cum Statibus et ordinibus Transylvaniæ, eorumve 
+                    <lb />deputatis, nunciis, et procuratoribus, et cum omnibus aliis 
+                    <lb />cum quibus opus fa&lt;erit&gt;, ut conditionum illarum, et pac- 
+                    <lb />torum, de quibus supra mentio sit, confirmatio, iuxta 
+                    <lb />conceptam formulam perficiatur, et quæ iis compræ- 
+                    <lb />henduntur, præstentur, et executioni mandentur, 
+                    <lb />utque Provincia nostro nomine appræhendatur, et in 
+                    <lb />nostram potestatem acceptetur, ac iuramentum ab or- 
+                    <lb />dinibus et Statibus exigatur, utque gubernatio Pro- 
+                    <lb />vinciæ, omniumque eo pertinentium appræhendatur, 
+                    <lb />
+                </p>
+                <pb facs="#FacsPnr25"/><p>[Seite 25]
+                </p>
+                <p>&nbsp;
+                </p>
+                <p>et in nostram potestatem acceptetur, ac Supradictæ Se- 
+                    <lb />renissimæ Archiducissæ Patrueli nostræ, donec aliud Sta- 
+                    <lb />tuerimus, committatur, et concredatur, ac de omnibus 
+                    <lb />aliis inde dependentibus, emergentibus, annexis, et conexis, 
+                    <lb />agere, tractare, et concludere, nec non observationem 
+                    <lb />et confirmationem Jurium, libertatum, ac privilegi- 
+                    <lb />orum Statuum et ordinum et aliorum promittere. 
+                    <lb />Et super præmissis omnibus, literas, pacta, et quævis alia 
+                    <lb />documenta necessaria erigere. Nec non omnia alia 
+                    <lb />et singula in prædictis necessaria et opportuna, quæque 
+                    <lb />nos ipsi, si interes&lt;s&gt;emus, gerere et exequi pos&lt;s&gt;emus 
+                    <lb />et iam si talia forent, quæ mandatum exigerent magis 
+                    <lb />speciale, quam præsentibus est expressum, facere, dicere, 
+                    <lb />exequi, cum plena et omnimoda facultate et potestate, 
+                    <lb />à nobius eis concessa, possint et valeant. Ponentes 
+                    <lb />iccirco, eosdem Consiliarios, oratores, Com[m]issarios ac 
+                    <lb />Mandatarios nostros coniunctim, ac separatim quo ad 
+                    <lb />præmissa in locum et vicem persona nostræ; 
+                    <lb />Promittentes etiam in verbo nostro regio, nos omnia et 
+                    <lb />singula, quæ per eos in præmissis, vel circa ea, acta 
+                    <lb />transacta inita, conclusa, promissa, fermata, et ro- 
+                    <lb />borata fuerint, firmiter, et inconcusse observare, 
+                    <lb />ac perpetuo rata, grata, valida, et firma habere, 
+                    <lb />executionique demandare, et inviolabiliter custodire 
+                    <lb />
+                </p>
+                <pb facs="#FacsPnr26"/><p>[Seite 26] 
+                </p> 
+                <p>&nbsp; 
+                </p> 
+                <p>et observare, nec contra ea, vel eorum aliquod, ullo 
+                    <lb />unquam tempore, dicere, facere, vel venire, velle aut 
+                    <lb />debere. Harum testimonio literarum, ma- 
+                    <lb />nus nostræ subscriptione, et Sigilli nostri app&lt;en&gt;sio- 
+                    <lb />ne munitarum. Datum in Arce nostra regia 
+                    <lb />Pragæ die ultima Januarij Anno &lt;.&gt; Nonagesi- 
+                    <lb />mo Octavo, Regnorum nostrorum Romani XXIII. 
+                    <lb />Hungariæ XXVI. et Bohemici XXIII. 
+                    <lb /> 
+                    <lb />Rudolphus. 
+                    <lb /> 
+                    <lb />Ad mandatum Sacræ 
+                    <lb />Cæs[areæ] Majestatis proprium 
+                    <lb />Jo. Barvitius. 
+                    <lb /> 
+                    <lb /> 
+                    <lb />Præsentem Copiam cum suo vero in Archivo Imp[eria]lkis ac Regia 
+                    <lb />Cameræ Aulicæ existenti Originali diligenter collatam, ergo 
+                    <lb />in omnibus conformem esse testor. Viennæ &lt;1.a&gt; O[cto]bris 1794. 
+                    <lb /> 
+                    <lb />Joannes Florianus Baumberg m[anu] p[ropria] 
+                    <lb />Sac[ræ] Cæs[are] æ Regiæque Majestatis 
+                    <lb />Cameræ Aulicæ Archivi-Director 
+                    <lb />et Secretarius. 
+                    <lb /> 
+                </p>
+            </div>
+        </body>
+    </text>
+</tei:TEI>

@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE tei SYSTEM "../resources/FriVer_DTD.dtd">
+
+<?xml-model href="../resources/FriVer.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns="http://www.tei-c.org/ns/1.0" xml:id="pa000299-1805">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title level="s">European peace treaties of the pre-modern era in data / Europäische Friedensverträge der Vormoderne in Daten (FriVer+)</title>
+                <title when="1668-01-19" xml:id="t1805" when-custom="1668 I 19" level="a" ref="https://www.ieg-friedensvertraege.de/treaty/t-1805-1-de.html">Teilungsvertrag des spanischen Erbes von Wien</title>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    Digital edition according to
+                    <ref target="http://www.tei-c.org/">TEI P5</ref>
+                </edition>
+                <funder>
+                    <ref target="https://www.text-plus.org/">TEXT+</ref>
+                </funder>
+                <editor role="http://id.loc.gov/vocabulary/relators/edt" ref="https://orcid.org/0000-0002-8741-5916">
+                    <persName>Jaap Geraerts</persName>
+                    <note>The transformation and enrichment of the data is done by Jaap Geraerts (IEG Mainz). The other members of the FriVer+ team are Fabian Cremer, Ines Grund, and Thorsten Wübbena (all IEG Mainz).</note>
+                    <note>
+                        The original data has been created by the
+                        <ref target="https://www.ieg-friedensvertraege.de">team of scholars</ref>
+                        who were part of the Europäische Friedensverträge der Vormoderne project. This project was lead by Prof. Dr. Heinz Duchhardt and was based at the Leibniz Institute of European History in Mainz.
+                    </note>
+                </editor>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>
+                    <orgName ref="http://www.isni.org/0000000119314040">Leibniz-Institut für Europäische Geschichte Mainz</orgName>
+                </publisher>
+                <distributor>
+                    <orgName ref="http://www.isni.org/0000000110101946">Universitäts- und Landesbibliothek Darmstadt</orgName>
+                </distributor>
+                <idno type="ISIL">http://lobid.org/organisation/DE-17</idno>
+                <date type="issued" when="2023-12-23"/>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">
+                        <p xml:lang="en">This file is licensed under the terms of the Creative Commons License CC-BY 4.0 (Attribution 4.0 International)</p>
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <repository xml:id="r22">Paris AAE
+                    <note>Trait&eacute;s et Accords de la France:<lb />
+                        <ref target="http://www.diplomatie.gouv.fr/traites/affichetraite.do?accord=TRA16680006" >http://www.diplomatie.gouv.fr/traites/affichetraite.do?accord=TRA16680006</ref></note>
+                </repository>
+                <msDesc><p>AAE Paris: M.A.E. Traités. Autriche 16680006. Traité relatif au partage de la monarchie espagnole.- Vienne, 19 janvier 1668 (UI).</p></msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>
+                    The data in this XML file, originally created by the project
+                    <ref target="https://www.ieg-friedensvertraege.de/vertraege">Europäische Friedensverträge der Vormoderne online</ref>
+                    has been transformed in accordance with
+                    <ref target="http://www.tei-c.org/">TEI P5</ref>
+                    as part of the project
+                    <ref target="https://www.ieg-mainz.de/en/research/research-projects/european-peace-treaties-of-the-pre-modern-era-in-data">Europäische Friedensverträge der Vormoderne in Daten (FriVer+)</ref>
+                </p>
+            </projectDesc>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="la" xml:id="lan6">Latein</language>
+            </langUsage>
+        </profileDesc>
+    </teiHeader>
+    <standOff>
+        <listPerson>
+            <person role="signatory" xml:id="p37">
+                <persName ref="https://explore.gnd.network/gnd/4018145-5">
+                    <name>Frankreich</name>
+                </persName>
+            </person>
+            <person role="signatory" xml:id="p12">
+                <persName ref="https://explore.gnd.network/gnd/4043271-3">
+                    <name>Oesterreich</name>
+                </persName>
+            </person>
+        </listPerson>
+        <listPlace>
+            <place xml:id="loc9">
+                <placeName ref="https://explore.gnd.network/gnd/4066009-6">Wien</placeName>
+            </place>
+        </listPlace>
+    </standOff>
+    <text>
+        <front>
+            <div type="Drucke"><p>CTS X, (385), 387-391(l.)-396(e.)</p></div>
+            <div type="Kommentar"><p>Zur Festigung des Pyrenäenfriedens vereinbarte man 1659 auch die Heirat zwischen Ludwig XIV. und der spanischen Infantin. Zwar wurde gegen Zahlungen aus der spanischen Staatskasse ein Verzicht der Infantin auf alle Erbansprüche vereinbart, doch die Zahlungen blieben aus und Ludwig XIV. beanspruchte nach dem Tod seines Schwiegervaters Philipp IV. unter Berufung auf das brabantische Erbrecht, das die Devolution, d.h. das Erbrecht der Kinder aus erster Ehe (auch Töchter) vor den Kindern aus weiteren Ehen vorsah, das Erbteil für seine Frau. Als Spanien die Forderungen ablehnte, marschierte er 1667 in die Spanischen Niederlande ein, in einem Augenblick als sowohl die Kräfte Spaniens im Krieg gegen Portugal gebunden waren als auch diejenigen der Seemächte im zweiten niederländisch-englischen Seekrieg. Allerdings verständigten sich die Seemächte Ende Juli 1667 im Friedensvertrag von Breda und die Generalstaaten bemühten sich aus Angst vor der französischen Bedrohung auch der eigenen Grenzen um eine anti-französische Allianz.
+                <lb />Im geheimen Teilungsvertrag über das spanische Erbe mit Österreich Anfang 1668 konnte Frankreich über die Teilung des spanischen Erbes nach dem erwarteten baldigen Tod Karls II. von Spanien die Verwirklichung seiner Ansprüche vereinbaren, so dass deren militärische Durchsetzung nicht mehr notwendig erschien. Auch bemühte sich die Allianz zwischen Großbritannien, den Generalstaaten und Schweden um einen Friedensschluss zwischen Frankreich und Spanien. Schließlich erhöhte Frankreich durch die Einnahme der Freigrafschaft Burgund den Druck auf Spanien und im Mai 1668 konnte der Frieden von Aachen geschlossen werden, in dem der französische König zwar Burgund zurückgab, aber die zuvor eroberten Gebiete und Festungen behalten durfte.
+                <lb /></p></div>
+            <div type="Kontext"><p>1659
+                <lb />Pyrenäenfrieden zwischen Frankreich und Spanien. Zur Festigung des Friedens wird die Heirat zwischen Ludwig XIV. und der spanischen Infantin Maria-Theresia
+                <lb />9.6.1660
+                <lb />Eheschließung
+                <lb />17.9.1665
+                <lb />Philipp IV stirbt, sein Nachfolger wird der körperlich und geistig schwächliche Karl II.
+                <lb />1667
+                <lb />Einmarsch Frankreichs in die Spanischen Niederlande
+                <lb />19.1.1668
+                <lb />Teilungsvertrag des spanischen Erbes zwischen Frankreich und Österreich
+                <lb />23.1.1668
+                <lb />Bildung eines antifranzösischen Bündnisses zwischen den Generalstaaten, Großbritannien und Schweden
+                <lb />Feb. 1668
+                <lb />Eroberung der Freigrafschaft Burgund
+                <lb />25.4.1668
+                <lb />Trippelallianz zwischen den Generalstaaten, Großbritannien und Schweden
+                <lb />2.5.1668
+                <lb />Friedensvertrag von Aachen
+                <lb /></p></div>
+        </front>
+    </text>
+</tei:TEI>

@@ -1,0 +1,336 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE tei SYSTEM "../resources/FriVer_DTD.dtd">
+
+<?xml-model href="../resources/FriVer.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns="http://www.tei-c.org/ns/1.0"
+    xml:id="pa000299-0166">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title level="s">European peace treaties of the pre-modern era in data / Europäische
+                    Friedensverträge der Vormoderne in Daten (FriVer+)</title>
+                <title when="1703-03-13" xml:id="t166" when-custom="1703 III 13" level="a"
+                    ref="https://www.ieg-friedensvertraege.de/treaty/t-166-1-de.html"
+                    >Subsidienvertrag von Den Haag</title>
+            </titleStmt>
+            <editionStmt>
+                <edition> Digital edition according to <ref target="http://www.tei-c.org/">TEI
+                        P5</ref>
+                </edition>
+                <funder>
+                    <ref target="https://www.text-plus.org/">TEXT+</ref>
+                </funder>
+                <editor role="http://id.loc.gov/vocabulary/relators/edt"
+                    ref="https://orcid.org/0000-0002-8741-5916">
+                    <persName>Jaap Geraerts</persName>
+                    <note>The transformation and enrichment of the data is done by Jaap Geraerts
+                        (IEG Mainz). The other members of the FriVer+ team are Fabian Cremer, Ines
+                        Grund, and Thorsten Wübbena (all IEG Mainz).</note>
+                    <note> The original data has been created by the <ref
+                            target="https://www.ieg-friedensvertraege.de">team of scholars</ref> who
+                        were part of the Europäische Friedensverträge der Vormoderne project. This
+                        project was lead by Prof. Dr. Heinz Duchhardt and was based at the Leibniz
+                        Institute of European History in Mainz. </note>
+                </editor>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>
+                    <orgName ref="http://www.isni.org/0000000119314040">Leibniz-Institut für
+                        Europäische Geschichte Mainz</orgName>
+                </publisher>
+                <distributor>
+                    <orgName ref="http://www.isni.org/0000000110101946">Universitäts- und
+                        Landesbibliothek Darmstadt</orgName>
+                </distributor>
+                <idno type="ISIL">http://lobid.org/organisation/DE-17</idno>
+                <date type="issued" when="2023-12-23"/>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">
+                        <p xml:lang="en">This file is licensed under the terms of the Creative
+                            Commons License CC-BY 4.0 (Attribution 4.0 International)</p>
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <repository xml:id="r21">Muenster StA/LA <note>Archivportal NRW, Findbuch:<lb/>
+                        <ref
+                            target="http://www.archive.nrw.de/LAV_NRW/jsp/findbuch.jsp?archivNr=1&amp;verzguid=Vz_2e7b6525-df3c-49a4-a066-f475f4b938ad"
+                            >http://www.archive.nrw.de/LAV_NRW/jsp/findbuch.jsp?archivNr=1&amp;verzguid=Vz_2e7b6525-df3c-49a4-a066-f475f4b938ad</ref></note>
+                </repository>
+                <msDesc>
+                    <p>Nordrhein-Westfälisches Staatsarchiv Münster, Fürstentum Münster 12, KU 157:
+                        Ratifikation der Generalstaaten, Den Haag 1703 V 5 (Hauptvertrag). </p>
+                    <p>[Anm.: Separatartikel ohne Nachweis; Druck: Braubach, S.175]&nbsp; </p>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p> The data in this XML file, originally created by the project <ref
+                        target="https://www.ieg-friedensvertraege.de/vertraege">Europäische
+                        Friedensverträge der Vormoderne online</ref> has been transformed in
+                    accordance with <ref target="http://www.tei-c.org/">TEI P5</ref> as part of the
+                    project <ref
+                        target="https://www.ieg-mainz.de/en/research/research-projects/european-peace-treaties-of-the-pre-modern-era-in-data"
+                        >Europäische Friedensverträge der Vormoderne in Daten (FriVer+)</ref>
+                </p>
+            </projectDesc>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="fr" xml:id="lan4">französisch</language>
+            </langUsage>
+        </profileDesc>
+    </teiHeader>
+    <standOff>
+        <listPerson>
+            <person role="signatory" xml:id="p49">
+                <persName ref="https://explore.gnd.network/gnd/4101204-5">
+                    <name>Generalstaaten</name>
+                </persName>
+            </person>
+            <person role="signatory" xml:id="p78">
+                <persName ref="https://explore.gnd.network/gnd/4040608-8">
+                    <name>Münster</name>
+                </persName>
+            </person>
+        </listPerson>
+        <listPlace>
+            <place xml:id="loc13">
+                <placeName ref="https://explore.gnd.network/gnd/4011446-6">Den Haag</placeName>
+            </place>
+        </listPlace>
+        <facsimile>
+            <surface xml:id="FacsPnr1">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_4430014b3da31"/>
+            </surface>
+            <!--no link to image in database
+            <surface xml:id="FacsPnr2">
+                <graphic url=""/>
+            </surface>
+            -->
+            <surface xml:id="FacsPnr3">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_443001bf3722b"/>
+            </surface>
+            <surface xml:id="FacsPnr4">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_443001fd38bd8"/>
+            </surface>
+            <surface xml:id="FacsPnr5">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_4430023af1f2b"/>
+            </surface>
+            <surface xml:id="FacsPnr6">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_4430027074ac0"/>
+            </surface>
+            <surface xml:id="FacsPnr7">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_443002a7d38a5"/>
+            </surface>
+            <surface xml:id="FacsPnr8">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_443002d4a8dc8"/>
+            </surface>
+            <surface xml:id="FacsPnr9">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_443002f3821e6"/>
+            </surface>
+            <surface xml:id="FacsPnr10">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_4430031449f89"/>
+            </surface>
+            <surface xml:id="FacsPnr11">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_443003317e98d"/>
+            </surface>
+        </facsimile>
+    </standOff>
+    <text>
+        <front>
+            <div type="Drucke">
+                <p>Braubach (vgl. Literatur), S.172-175.&nbsp; Resolutien van de Heeren Staaten van
+                    Hollandt en West-Vrieslandt (1703), S.159-163. Journals of the House of Commons
+                    14 (1702-1704), S.215-216 (engl.).</p>
+            </div>
+
+            <div type="Inhalt">
+                <p>&nbsp;&nbsp; [Ratifikation] </p>
+                <p>Art. 1 Hilfstruppen Münsters. </p>
+                <p>Art. 2 Bereitstellung gut gerüsteter Truppen. </p>
+                <p>Art. 3 Rasche Inmarschsetzung. </p>
+                <p>Art. 4 Treueeid. Sold. </p>
+                <p>Art. 5 Besoldung. Kriegsgefangene. </p>
+                <p>Art. 6 Besoldungsmodalitäten. </p>
+                <p>Art. 7 Verpflegungsleistungen. </p>
+                <p>Art. 8 Generalität. Gleichstellung. </p>
+                <p>Art. 9 Einsatz der Truppen. </p>
+                <p>Art. 10 Rekrutierungen. </p>
+                <p>Art. 11 Ersatz der Offiziere. </p>
+                <p>Art. 12 Eigene Militägerichtsbarkeit unter gewissen Vorgaben. </p>
+                <p>Art. 13 Zahlung der Generalstaaten an Münster. </p>
+                <p>Art. 14 Einsatz der Truppen Münsters v.a. zum eigenen Schutz. Garantien der
+                    Generalstaaten. Beitrittsversprechen&nbsp; Münsters zu Allianz 1701 IX 7.
+                    Modalitäten. </p>
+                <p>Art. 15 Modalitäten (Fortsetzung). </p>
+                <p>Art. 16 Ratifikation </p>
+                <p>[Ratifikation]&nbsp; </p>
+                <lb/>
+                <p>&nbsp; </p>
+            </div>
+        </front>
+        <body>
+            <div type="Transliteration">
+                <pb facs="#FacsPnr1"/>
+                <p>Beiblatt <lb/>Bischof Friedrich Christian von Münster <lb/>verpflichtet sich
+                    durch einen Subsidien-Tractat mit den <lb/>Generalstaaten 3 Bataillone a 800
+                    Mann zu stellen. <lb/>Die Convention ist abgeschloßen durch die Bevollmächtigten
+                    <lb/>D.V. Eck v.Pant.on&nbsp; H.r v. Gent; Norff, Il. V. Bleiswÿk,
+                    <lb/>A.&nbsp;&nbsp; &nbsp;Heinsisus, W. de Nassau; D. V. Velthuÿsen; Du Tour;
+                    <lb/>B.&nbsp;&nbsp; &nbsp;A. Lemker, J. de Drews. Unterzeichnet von Soheltinga
+                    <lb/>C.&nbsp;&nbsp; &nbsp;und Fagelau&nbsp; 13.ten März. <lb/>
+                    <lb/>1703 März 13. zu Haag (französisch) </p>
+                <pb facs="#FacsPnr2"/>
+                <p>Pergament&nbsp; Siegel in Holztasche <pb facs="#FacsPnr3"/> Les Estats Generaux
+                    <lb/>des Provinces Unies. A tous ceux <lb/>qui ces presentes verront Salut.
+                    Ayant <lb/>veu et examiné la Convention faite et <lb/>signée ici à la Haye le
+                    13. Mars de la pre- <lb/>sente année 1703 par Nos Deputez par <lb/>le Conseiller
+                    et Plenipotentiaire de Son <lb/>Altesse le Seigneur Evesque et Prince <lb/>de
+                    Munster de la maniere suivante. <lb/>
+                    <lb/>Convention faite entre les <lb/>Deputez des Seigneurs Estats Gene-
+                    rau&lt;x&gt; de la part de la Reine de la <lb/>Grande Bretagne et desdits
+                    Seigneurs <lb/>Estats Generau&lt;x&gt; des Provinces <lb/>Unies d´une part et
+                    Son Altesse <lb/>le Seigneur Evesque et Prince <lb/>de Munster d´autre part. <lb/>
+                    <lb/>1. <lb/>Son Altesse de Munster fournira encore aux <lb/>Seigneurs Estats
+                    Generau&lt;x&gt; deux mille quatre cents hom[m]es, <lb/>qui consisteront en
+                    trois bataillons chacun de huit com- <lb/>pagnies, et chaque compagnie de cent
+                    hommes, de la mesme <lb/>mainere et sur le meme pied, que Son <lb/>Altesse a
+                    deja donné au Service de Leurs Hautes <lb/>Puissances. <lb/>
+                    <pb facs="#FacsPnr4"/>2. <lb/>Les deux mille quatre cents hommes seront de
+                    bonnes <lb/>troupes bien habilées et armées et pourveuës de tout <lb/>ce qui
+                    leur sera necessaire. <lb/>
+                    <lb/>3. <lb/>Son Altesse de Munster fera marscher lesdites <lb/>troupes le
+                    plustost qu´il sera possible, et s´engage <lb/>de les faire arriver sur la
+                    frontiere de l´Estat sur <lb/>la fin du mois courant. <lb/>
+                    <lb/>4. <lb/>Lesdits batallions y estant arrivés ser&lt;o&gt;nt receus par
+                    <lb/>un Commissaire qui en sera authorisé, et presteront le <lb/>serment de
+                    fidelité à Leurs Hautes Puissances, dans <lb/>la mesme forme, comme les autres
+                    deux mille hommes <lb/>ont fait, et on leurs donnera alors la paye d´un mois,
+                    <lb/>par avance, par maniere de pret. <lb/>
+                    <lb/>5. <lb/>Lesdits trois bataillons seront payez regulierem[ent] <lb/>sur le
+                    meme pied que les Seigneurs Estats Generaux <lb/>payent leurs propres troupes,
+                    et seront mise sur de <lb/>bons Comptoirs, et mesme sur celuy de la Province de
+                    <lb/>Hollande autant que la disposition de l´Estats, et <lb/>l´ordre des
+                    Finances le permettra; et ils y recevront <lb/>un prompt payement en attendant
+                    ils seront pro- <lb/>visionellement payez par le Comptoir de l´Union. <lb/>
+                    <pb facs="#FacsPnr5"/>à la Haye. Et en cas, que quelques uns des officiers,
+                    <lb/>ou soldats des troupes de Son altesse fussent <lb/>faits prisonniers, ils
+                    seront reclamés, ranconnés <lb/>ou eschangés contre ceux de l´ennemy, tous de
+                    meme <lb/>comme les propres troupes de l´Estat. <lb/>
+                    <lb/>6. <lb/>Le solde et le traittement des susdits bataillons <lb/>commencera
+                    le vingt cinquiesme de ce mois, qui sera <lb/>payé par avance, comme il a esté
+                    dit dans l´article <lb/>quatrieme: tellement, que le second mois commencera
+                    <lb/>le septieme May, qui sera paye le vingtcinquieme <lb/>Juin. <lb/>
+                    <lb/>7. <lb/>Les extraordinaires des fourages du pain, des <lb/>chariots
+                    recreuës, logemens, douceurs et autres <lb/>pareils seront payez avec exactitude
+                    et sur le <lb/>mesme pied qu´aux autres troupes auxiliaires. <lb/>
+                    <lb/>8. <lb/>Si Son Altesse de Munster trouve à propos <lb/>de joindre aux dites
+                    troupes, quelque´un des ses <lb/>Generau&lt;x&gt;, il servira à l´armée de
+                    l´Estat, et <lb/>en des detachemens qui s´en feront, et roulera <lb/>selon son
+                    rang, et recevra outre les gages ordinai- <lb/>res et autres avantages du
+                    Colonel et Capitaine, <lb/>
+                    <pb facs="#FacsPnr6"/>le haut traittement des autres Generaux, selon <lb/>sa
+                    charge. <lb/>
+                    <lb/>9. <lb/>Et afin que ledit General puisse avoir meilleur <lb/>soin de la
+                    conservation de toutes les troupes de Son <lb/>Altesse ces dernieres seront
+                    jointes en cas et <lb/>operation aux autres deux mille hommes, données <lb/>à
+                    Leurs Hautes Puissances l´année precendente <lb/>pour autant que la raison de
+                    guerre le requerra et le <lb/>permettra, ne pouvant toujouts &lt;esté&gt;&nbsp;
+                    envoyées au <lb/>Haut Rhin, pendant que le Bas Rhin et conse- <lb/>quemment les
+                    frontieres de l´Eveché de Munster <lb/>seront encore exposez en danger. Mais ce
+                    danger <lb/>estant passé, les dites troupes seront employés <lb/>ou la raison de
+                    guerre le requerra, sous le comman- <lb/>dement du General en Chef; ainsi qu´il
+                    a été stipulé <lb/>par l´article quatrieme du precedent traitté du
+                    <lb/>&lt;XVII&gt; d´Octobre 1701. <lb/>
+                    <lb/>10. <lb/>Il sera permis de faire les recruës dans les etatz <lb/>de Son
+                    Altesse de Munster, des dits deux <lb/>mille quatre cent hommes, aussy bien que
+                    les regi- <lb/>mens que Son Altesse a deja donné au service <lb/>de l´Estat. <lb/>
+                    <pb facs="#FacsPnr7"/>11. <lb/>Son Altesse de Munster remplira les charges
+                    <lb/>des officiers qui vaqueront: mais Elle en fera <lb/>d´abord scavoir les
+                    noms au Conseil d´Estat pour <lb/>les inserer dans les listes, et aura regard à
+                    la recom- <lb/>mandation de Leurs Hautes Puissances, autant <lb/>qu´il se pourra
+                    faire, selon la resolution des Seign[eu]rs <lb/>Estatz donnée le 4 d´Aoust 1702. <lb/>
+                    <lb/>12. <lb/>Les troupes conserveront leur jurisdiction et feront
+                    <lb/>administrer la justice, selon leur coutume par leurs <lb/>propres officiers
+                    et gens destinez à cela. Les sentences <lb/>de mort, de mesme que celles, qui
+                    osteront la charge et <lb/>l´honneur à un Officier, ne pourront etre executées
+                    <lb/>qu´après estre approuvées, ainsi qu´il a esté stipulé <lb/>avec les troupes
+                    de Hannover, excepté lors qu´il s´agira <lb/>d´un crime d´Estat, au quel cas, le
+                    criminel sera jugé <lb/>par la Justice Ordinaire, en y admettant pourtant
+                    <lb/>un tiers des Officiers de Son Altesse de Munster. <lb/>
+                    <lb/>13. <lb/>Les Seigneurs Estats Generaux accorde&lt;nt&gt; de leur costé
+                    <lb/>a Son Altesse de Munster, une douceur de soixan- <lb/>te mille ecus, ou
+                    cent cinquante mille florins <lb/>monoye courante de Hollande, dont la moitié
+                    sera <lb/>payée à l´eschange des ratifications, et l´autre moitié <lb/>deux mois
+                    aprez. <lb/>
+                    <pb facs="#FacsPnr8"/>14. <lb/>Comme Son Altesse de Munster va employer <lb/>la
+                    plus part de ses troupes pour la defense et le bien de <lb/>la cause commune,
+                    Leurs Hautes Puissances pro- <lb/>mettent encore de garantir les estats de Son
+                    Altesse, <lb/>contre toute sorte d´insulte, d´invasion, violence et hosti-
+                    <lb/>lité, de qui et sous quelque pretexte que ce puisse estre <lb/>par la voye
+                    de bons offices, ou des armes mesme, en cas que <lb/>cela ne se puisse pas faire
+                    autrement ; Sadite Altesse <lb/>promettant d´autre part, qu´Elle entrera dans la
+                    <lb/>Grande alliance, faite entre Sa Majesté Imperiale <lb/>feu Sa Majesté le
+                    Roy de la Grande Bretagne et <lb/>Leurs Hautes Puissances les Estats
+                    Generau&lt;x&gt; le 7. <lb/>Septembre 1701; et que son contigent de l´Empire
+                    <lb/>ne sera pas compris dans ces quatre mille quatre cent <lb/>hommes. Et Elle
+                    sera receüe dans ladite Grande Alli- <lb/>ance par des actes d´accession et de
+                    reception qui en seront <lb/>donnés à l´eschange des ratifications de ce Traitté
+                    : <lb/>ainsy qu´il a esté observé avec les autres Princes Con- <lb/>foederez,
+                    qui sont entré dans ladite Grande Al- <lb/>liance. <lb/>
+                    <lb/>15. <lb/>Et comme il a esté convenu par l´article 5. de la <lb/>convention,
+                    faite le &lt;XVII&gt; d´Octobre de l´an 1701, que si <lb/>Son Altesse de Munster
+                    vienne a s´engager de four- <lb/>nir un corps de troupes plus considerables,
+                    sous d´autres <lb/>conditions, que celles qui sont contenuës dans ladite
+                    <lb/>conventon, pour autant que regarde le payement <lb/>
+                    <pb facs="#FacsPnr9"/>promt et les autres emoluments, alors les deux mille
+                    <lb/>hommes que sont deja dans le service de l´Estat, en feront <lb/>une partie,
+                    et sortiront en tout des conditions susmention- <lb/>nées dudit Traitté, pour
+                    entrer dans celles dont on con- <lb/>viendra. Cet article aura lieu
+                    presentement, et lesdits <lb/>deux mille hommes jouïront en suite de tous les
+                    avantages, <lb/>qui sont contenus dans la presente Convention, pour ce qui
+                    <lb/>regarde un payement promt dans les Provinces, sur lesquelles <lb/>elles
+                    sont repartiées ou assignées sans souffrir d´autres <lb/>raba&lt;t&gt;s que ceux
+                    qu´on fait aux autres troupes auxiliaires, <lb/>qui ont stipulé un promt
+                    payement. Le reste de la susdite <lb/>Convention du &lt;XVII&gt; d´Octobre 1701
+                    dans tous ses points, clau- <lb/>ses et articles qui ne sont pas changés par la
+                    presente <lb/>demeurant en son entier et de la meme vigueur comme <lb/>s´il fut
+                    inseré icy tout au long. <lb/>
+                    <lb/>16. <lb/>Cette Convention sera ratifiée de part et d´autre <lb/>et les
+                    ratifications en seront eschangées à la Haye <lb/>dans le terme de quinze jours
+                    après la signature <lb/>et mesme plustost , s´il est possible <lb/>
+                    <lb/>En foy de quoy Nous Deputez desdits <lb/>Seigneurs Estats Generaux d´une
+                    part et <lb/>Conseiller et Plenipotentiaire de Son Altesse le <lb/>Seigneur
+                    Evesque et Prince de Munster, <lb/>d´autre, avons signé la presente, et y apposé
+                    le cachet <lb/>
+                    <pb facs="#FacsPnr10"/>de nos&nbsp; armes. A la Haye le treizieme de Mars mil
+                    s[ept] <lb/>cent trois <lb/>
+                    <lb/>D. v. Eck v. Pant.&lt;on&gt; H.r v.Gent&nbsp; &nbsp; <lb/>Norff
+                    <lb/>H.v.Bleiswÿk <lb/>A. Heinsius <lb/>W. de Nassau <lb/>D. v. Veldhuÿsen
+                    <lb/>Du Tour <lb/>A. Lemker <lb/>J. de Drews <lb/>
+                    <lb/>Nous avons agrée, aprouvé et ratifié <lb/>la dite Convention, l´agreons,
+                    aprouvons et rati- <lb/>fions par ces presentes: promettant sincèrement <lb/>et
+                    de bonne foy de l´observer et de l´accomplir en <lb/>
+                    <pb facs="#FacsPnr11"/>tous et chacun de ses articles. En foy dequoy <lb/>Nous
+                    avons fait munir ces presentes de Nostre <lb/>Grand Sceau, l´avons fait signer
+                    par le President <lb/>de Nostre assemblée, et soussigner par Nostre
+                    <lb/>Greffier. A la Haye le cinqujeme May mil septembre cent trois. <lb/>
+                    <lb/>&lt;...&gt; <lb/>Par ordonnance des dits <lb/>Seigneurs Estats Generauax
+                    <lb/>&lt;...agel&gt; <lb/>
+                </p>
+            </div>
+        </body>
+        <back>
+            <listBibl>
+                <bibl>Max Braubach, Politisch-militärische Verträge zwischen den Fürstbischöfen von
+                    Münster und den Generalstaaten der Vereinigten Niederlande im 18. Jahrhundert.
+                    in: Westfälische Zeitschrift 91 (1935), S.150-194. </bibl>
+
+            </listBibl>
+        </back>
+    </text>
+</tei:TEI>

@@ -1,0 +1,1418 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE tei SYSTEM "../resources/FriVer_DTD.dtd">
+
+<?xml-model href="../resources/FriVer.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns="http://www.tei-c.org/ns/1.0"
+    xml:id="pa000299-0125">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title level="s">European peace treaties of the pre-modern era in data / Europäische
+                    Friedensverträge der Vormoderne in Daten (FriVer+)</title>
+                <title when="1720-02-01" xml:id="t125" when-custom="1720 I 21_II 1" level="a"
+                    ref="https://www.ieg-friedensvertraege.de/treaty/t-125-1-de.html"
+                    >Friedensvertrag von Stockholm</title>
+            </titleStmt>
+            <editionStmt>
+                <edition> Digital edition according to <ref target="http://www.tei-c.org/">TEI
+                        P5</ref>
+                </edition>
+                <funder>
+                    <ref target="https://www.text-plus.org/">TEXT+</ref>
+                </funder>
+                <editor role="http://id.loc.gov/vocabulary/relators/edt"
+                    ref="https://orcid.org/0000-0002-8741-5916">
+                    <persName>Jaap Geraerts</persName>
+                    <note>The transformation and enrichment of the data is done by Jaap Geraerts
+                        (IEG Mainz). The other members of the FriVer+ team are Fabian Cremer, Ines
+                        Grund, and Thorsten Wübbena (all IEG Mainz).</note>
+                    <note> The original data has been created by the <ref
+                            target="https://www.ieg-friedensvertraege.de">team of scholars</ref> who
+                        were part of the Europäische Friedensverträge der Vormoderne project. This
+                        project was lead by Prof. Dr. Heinz Duchhardt and was based at the Leibniz
+                        Institute of European History in Mainz. </note>
+                </editor>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>
+                    <orgName ref="http://www.isni.org/0000000119314040">Leibniz-Institut für
+                        Europäische Geschichte Mainz</orgName>
+                </publisher>
+                <distributor>
+                    <orgName ref="http://www.isni.org/0000000110101946">Universitäts- und
+                        Landesbibliothek Darmstadt</orgName>
+                </distributor>
+                <idno type="ISIL">http://lobid.org/organisation/DE-17</idno>
+                <date type="issued" when="2023-12-23"/>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">
+                        <p xml:lang="en">This file is licensed under the terms of the Creative
+                            Commons License CC-BY 4.0 (Attribution 4.0 International)</p>
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <repository xml:id="r3">Berlin GStAPK</repository>
+                <msDesc>
+                    <p>Unterhändlerinstrumente: GSABerlin VI HA Nr. 850: Stockholm 1720 I 21 / II 1
+                        (dt.; fol. 1-30, Papier; Hauptvertrag mit 22 Art., 1 Sep.Art. mit 5 Art.; je
+                        6 US und aufgedrückte LS der Bevollmächtigten Johann August Meyerfeld, Carl
+                        Gustav Dücker, Gustav Adolf Taube, Graf Magnus Julius de la Gardie, Graf
+                        Johann Lillenstedt, Baron Daniel Niclas von Höpken). Schwedisches
+                        Reichsarchiv, Stockholm: Originaltraktater med främmande makter: Tyskland,
+                        III. Brandenburg-Preussen No. 32 A-B: Fredsfördrag i Stockholm. 21 Januari
+                        1720 (dt.). Ratifikationen: GSABerlin VI HA Nr.853: Ratifikation Schwedens:
+                        Stockholm 1720 II 27 (blasse braune Schrift, Siegel fehlt, Schnur,
+                        Pergament, fol. 1-15). GSABerlin VI HA Nr.854: Ratifikation des
+                        Geheimartikels durch Schweden: Stockholm 1720 II 27 (Unterschrift und Siegel
+                        Königin Ulrike Eleonore von Schweden an gold-silberner Schnur, Siegel fehlt,
+                        Perg., Fol. 1-5, dt.). GSABerlin VI HA Nr. 855: Schwedische Erklärung zu den
+                        Art. 2, 3, 5 sowie zum 2. Separatartikel: Stockholm 1720 III 14 (US Baron
+                        Niclas von Höpken, US Königin Ulrike Eleonore von Schweden). Schwedisches
+                        Reichsarchiv Stockholm, Tyskland III N:o 32 D) Samme konungs ratifikation af
+                        Litt. A. Dat. Berlin 21 Febr. 1720 (Tyska); E) D:o d:o af Litt. B. </p>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p> The data in this XML file, originally created by the project <ref
+                        target="https://www.ieg-friedensvertraege.de/vertraege">Europäische
+                        Friedensverträge der Vormoderne online</ref> has been transformed in
+                    accordance with <ref target="http://www.tei-c.org/">TEI P5</ref> as part of the
+                    project <ref
+                        target="https://www.ieg-mainz.de/en/research/research-projects/european-peace-treaties-of-the-pre-modern-era-in-data"
+                        >Europäische Friedensverträge der Vormoderne in Daten (FriVer+)</ref>
+                </p>
+            </projectDesc>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="de" xml:id="lan2">deutsch</language>
+            </langUsage>
+        </profileDesc>
+    </teiHeader>
+    <standOff>
+        <listPerson>
+            <person role="signatory" xml:id="p93">
+                <persName ref="https://explore.gnd.network/gnd/4047194-9">
+                    <name>Preußen</name>
+                </persName>
+            </person>
+            <person role="signatory" xml:id="p99">
+                <persName ref="https://explore.gnd.network/gnd/4077258-5">
+                    <name>Schweden</name>
+                </persName>
+            </person>
+            <person xml:id="pp0021">
+                <persName ref="https://explore.gnd.network/gnd/123038162">
+                    <name>Ulrika Eleonora of Sweden</name>
+                </persName>
+            </person>
+            <person xml:id="pp0204">
+                <persName ref="https://explore.gnd.network/gnd/118535978">
+                    <name>Friedrich Wilhelm I (Preußen)</name>
+                </persName>
+            </person>
+            <person xml:id="pp0205">
+                <persName ref="https://explore.gnd.network/gnd/1243999756">
+                    <name>Georg I. (Großbritannien)</name>
+                </persName>
+            </person>
+            <person xml:id="pp0028">
+                <persName ref="https://explore.gnd.network/gnd/118729438">
+                    <name>Louis XV of France</name>
+                </persName>
+            </person>
+            <person xml:id="pp0024">
+                <persName ref="https://explore.gnd.network/gnd/1019737409">
+                    <name>Karl Gustav Dücker</name>
+                </persName>
+            </person>
+            <person xml:id="pp0025">
+                <persName ref="https://explore.gnd.network/gnd/1160566828">
+                    <name>Gustaf Adam Taube</name>
+                </persName>
+            </person>
+            <person xml:id="pp0026">
+                <persName ref="https://explore.gnd.network/gnd/1262003539">
+                    <name>Magnus Julius De la Gardie</name>
+                </persName>
+            </person>
+            <person xml:id="pp0027">
+                <persName ref="Daniel Niklas von Höpken">
+                    <name>Daniel Niklas von Höpken</name>
+                </persName>
+            </person>
+            <person xml:id="pp0211">
+                <persName ref="https://explore.gnd.network/gnd/116617640">
+                    <name>Friedrich Ernst von Cnyphausen</name>
+                </persName>
+            </person>
+            <person xml:id="pp0014">
+                <persName ref="https://explore.gnd.network/gnd/118532529">
+                    <name>Ferdinand III, Holy Roman Emperor</name>
+                </persName>
+            </person>
+            <person xml:id="pp0182">
+                <persName ref="https://explore.gnd.network/gnd/118560123">
+                    <name>Karl XII. (Schweden)</name>
+                </persName>
+            </person>
+            <person xml:id="pp0179">
+                <persName ref="https://explore.gnd.network/gnd/119546256">
+                    <name>Friedrich IV. (Dänemark und Norwegen)</name>
+                </persName>
+            </person>
+            <person xml:id="pp0194">
+                <persName ref="https://explore.gnd.network/gnd/118592955">
+                    <name>Peter I. (Russia)</name>
+                </persName>
+            </person>
+            <person xml:id="pp0212">
+                <persName ref="https://explore.gnd.network/gnd/105520928X">
+                    <name>Jacques David Martin de Campredon</name>
+                </persName>
+            </person>
+            <person xml:id="pp0213">
+                <persName ref="https://explore.gnd.network/gnd/141907185">
+                    <name>Johann August, Graf von Meyerfeldt</name>
+                </persName>
+            </person>
+            <person xml:id="pp0214">
+                <persName ref="https://explore.gnd.network/gnd/123587417">
+                    <name>Johan Lillienstedt</name>
+                </persName>
+            </person>
+            <person xml:id="pp0215">
+                <persName ref="https://explore.gnd.network/gnd/119558718">
+                    <name>John Granville Carteret</name>
+                </persName>
+            </person>
+        </listPerson>
+        <listPlace>
+            <place xml:id="loc18">
+                <placeName ref="https://explore.gnd.network/gnd/4057648-6">Stockholm</placeName>
+            </place>
+        </listPlace>
+    </standOff>
+    <text>
+        <front>
+            <div type="Drucke">
+                <p>Dumont 8/2, S. 21. CTS 31, S.(127)129-145(147). Loewe, Preussens Staatsverträge
+                    aus der Regierungszeit König Friedrich Wilhelms I, Leipzig 1913, S. 226-243.
+                    Schmauß, Corpus juris publici academicum 2, Leipzig 1722, S. 1813. Fassmann,
+                    Leben und Thaten des Königs von Preußen Friderici Wilhelmi 1, Hamburg-Breslau
+                    1735, S. 267-268(298). Dähnert, Sammlung pommerscher und rügischer
+                    Landesurkunden, 1 (1765), S. 195. Rousset, Receuil historique d´actes,
+                    négociations 2, La Haye 1728-1742, S. 373.</p>
+            </div>
+            <div type="Inhalt">
+                <p>Art 1 Beendigung des Krieges und der Feindseligkeiten. Absicht, Freundschaft und
+                    Correspondence zu pflegen. Handel zu Wasser und zu Lande.<lb/>Art. 2
+                    Vergessenheit und Amnestie. <lb/>Art. 3 Bestimmungen über Stadt Stettin, dem
+                    Oder-Peene-Distrikt, den Inseln Wollin und Usedom. Vorstellung des neuen Landes-
+                    und Oberherrn.<lb/>Art. 4 Bestimmung über Sitz und Stimme Schwedens auf den
+                    Kreistagen.<lb/>Art. 5 Bestimmungen über Freiheiten, Rechte, Güter, Privilegien
+                    und Religionsausübung der Stände, Untertanen und Einwohner.<lb/>Art. 6 Über das
+                    Lehnsrecht der Ritterschaft.<lb/>Art. 7 Über Rechtmäßigkeit eingezogener Güter
+                    etc.<lb/>Art. 8 Über Restitution bestimmter Güter etc.<lb/>Art. 9 Bestimmungen
+                    über Verpfändungen.<lb/>Art. 10 Erklärung über Vergütungen.<lb/>Art. 11
+                    Gegenseitige Zustellung der Archive, Schriften und Dokumente.<lb/>Art. 12
+                    Bestimmungen über Handel und Binnenschiffahrt. Die Peene wird gemeinschaftlich
+                    genutzt. Neue Zölle sollen hier nicht eingerichtet werden.<lb/>Art. 13
+                    Einrichtung einer Kommission.<lb/>Art. 14 Bestätigung der Freiheiten, Rechte,
+                    Prärogative und Immunitäten für die Städte und Orte Vorpommerns.<lb/>Art. 15
+                    Bestimmungen über Deserteure.<lb/>Art. 16 Ius Postarum. Freie Station in
+                    Anklam.<lb/>Art. 17 Bestimmungen über mögliche Bündnisse zwischen Preußen und
+                    Rußland während des Krieges zwischen Schweden und Rußland..<lb/>Art. 18
+                    Bündnisabsichten zwischen Preußen und Schweden. Geldzahlungen.<lb/>Art.19
+                    Bestimmungen über die Städte Damm und Gollnow.<lb/>Art. 20 Status des Friedens
+                    von Stockholm (1719 XI 9/20).<lb/>Art. 21 Garantie des Kaisers.<lb/>Art. 22
+                    Ratifikation.</p>
+                <p>Separatartikel<lb/>Art. 1 Erklärung, die Protestanten unterstützen zu
+                    wollen.<lb/>Art. 2 Bestimmung über die Besetzung des preußischen Konsistoriums
+                    und über die Freiheiten etc. der Zivilbedienten der Stadt und Festung
+                    Stettin.<lb/>Art. 3 Bestimmung über Erstattungen und
+                    Ausgleichszahlungen.<lb/>Art. 4 Erklärung über Kooperation mit
+                    Dänemark.<lb/>Art. 5 Status des Separatartikels.</p>
+                <p>Erklärung (Stockholm 1720 III 14)<lb/>Art. 1 Erklärung zu Artikel 2 des
+                    Friedenschlusses über die Restitution der Gefangenen.<lb/>Art 2 Erklärung zu
+                    Artikel 3 des Friedenschlusses über die Gemeinschaft der Peene.<lb/>Art. 3
+                    Erklärung zu Artikel 5 des Friedenschlusses über Privilegien der
+                    Untertanen.<lb/>Art. 4 Erklärung zum 2. Separatartikel über die
+                    Restantien.<lb/>Art. 5 Erklärung zum Tribunal zu Wismar.</p>
+            </div>
+            <div type="Kommentar">
+                <p>Preußen, das seit dem Bündnis vom 27. April 1715 auf der Seite des hannoverschen
+                    Kurfürsten und englischen Königs Georg I. stand, aber auch enge Beziehungen zu
+                    Rußland pflegte, war 1715 in den Großen Nordischen Krieg eingetreten, nachdem
+                    Karl XII. von Schweden Richtung Usedom vorgestoßen war. Die Ausweitung der
+                    Herrschaft im seit 1648 zwischen Brandenburg-Preußen (Hinterpommern) und
+                    Schweden (Vorpommern mit Stettin) geteilten Pommern war ein zentrales Kriegsziel
+                    Preußens, dem zahlreiche diplomatische Aktionen galten. Friedrich Wilhelm I.
+                    schloß am 22. Juni 1713 mit Dänemark einen Vertrag ab, der eine gemeinsame
+                    Besetzung Vorpommerns vorsah und Preußen den südlich der Peene gelegenen Teil
+                    Pommerns in Aussicht stellte. Am 6. Oktober 1713 kamen Rußland und Preußen
+                    überein, daß Preußen das Gebiet bis zur Peene (mit Usedom und Wollin) zur
+                    Verwaltung erhalten sollte. Am 12. Juni 1714 schlossen sie einen Vertrag, der
+                    Preußen den Erwerb eines Teils Vorpommerns endgültig zusicherte. Dem gleichen
+                    Zweck diente auch ein Bündnis mit Hannover vom 27. April 1714. Am 1. Mai 1715
+                    erklärte Preußen Schweden den Krieg und eroberte - zusammen mit Dänemark - Teile
+                    Schwedisch-Pommerns. Den Friedensbemühungen Georg I. ist es zuzuschreiben, daß
+                    sich Schweden in einem englisch-schwedischen Vertrag vom 18./29. August 1718
+                    verpflichtete, pommersche Gebiete (darunter Stettin und die Odermündung) an
+                    Preußen abzutreten. Unter englischer und französischer Vermittlung wurde am 21.
+                    Januar 1720 der Friedensvertrag zwischen Preußen und Schweden in Stockholm
+                    unterzeichnet, der diese Abtretung gegen eine Zahlung von 2 Millionen Thalern an
+                    Preußen verfügte. Für Preußen war dieser Frieden ein &quot;Balanceakt&quot;, der
+                    den einzigen verbliebenen russischen Allianzpartner gegen den Zugewinn Stettins
+                    ins andere Lager führte<note n="1" type="crit_app">Duchhardt, Pentarchie, S.
+                        254.</note>. </p>
+            </div>
+            <div type="Kontext">
+                <p>1701-1714 Spanischer Erbfolgekrieg.<lb/>1700-1721 Großer Nordischer Krieg.
+                    Dänemark, Sachsen-Polen, Rußland und Brandenburg (in zeitlich wechselnden
+                    Bündniskonstellationen) versuchen, die schwedische Vorherrschaft im Ostseeraum
+                    zu brechen. Sachsen fällt in Livland ein, Dänemark richtet sich gegen Schleswig.
+                    <lb/>18. August 1700 Friede von Travendal zwischen Dänemark und Schweden.
+                    Dänemark scheidet aus dem Krieg aus und erkennt den Herzog von Holstein-Gottorf
+                    an. Der Krieg zwischen Sachsen-Polen und Rußland mit Schweden geht weiter
+                    (1701/02 Siege Karls XII. Besetzung Polens.) <lb/>24. September 1706 Friede von
+                    Altranstädt zwischen Sachsen-Polen und Schweden. August II. muß auf den
+                    polnischen Thron verzichten. <lb/>1. September 1707 Konvention von Altranstädt.
+                    Um einen weiteren Vormarsch Schwedens zu verhindern, garantiert der Kaiser die
+                    Rechte der Protestanten in Schlesien. Damit wird eine Verschmelzung mit dem
+                    Span. Erbfolgekrieg verhindert. <lb/>8. Juli 1709 Russischer Sieg bei Poltava.
+                    Der schwedische Rückzug beginnt.<lb/>12. Juni 1714 Preußisch-russisches Bündnis.
+                    Im November schließt sich Hannover an. <lb/>2. Mai 1715 Durch einen Vertrag mit
+                    Dänemark erwirbt Hannover Bremen und Verden. Hannover und Preußen treten in den
+                    Krieg gegen Schweden ein.<lb/>11. Dezember 1718 Tod Karl XII.<lb/>1719 - 1721
+                    Friedensverträge beenden den Nordischen Krieg. Die schwedische Hegemonie im
+                    Ostseeraum ist beendet. Dänemark und Preußen verzeichnen wichtige territoriale
+                    Gewinne. Rußland wird zur Großmacht im Baltikum. <lb/>11./22. Juli 1719
+                    Präliminarfriede zwischen Hannover und Schweden.<lb/>20. November 1719 Friede
+                    von Stockholm zwischen Schweden und Hannover. Hannover erhält Bremen und
+                    Verden<lb/>21. Januar 1721 Friede von Stockholm zwischen Schweden und Preußen.
+                    Preußen erhält Teile Pommerns<lb/>3. Juli 1721 Friede von Frederiksborg zwischen
+                    Schweden und Dänemark bringt territoriale Gewinne (Schleswig) für Dänemark.
+                    Schweden behält Vorpommern.<lb/>10. September 1721 Friede von Nystad zwischen
+                    Rußland und Schweden. Estland, Teile Kareliens, Ingermanland und Livland fallen
+                    an Rußland.</p>
+                <p/>
+            </div>
+
+        </front>
+        <body>
+            <div type="Edition">
+                <p>Im Nahmen der heiligen und unzertrenten Dreyeinigkeit<lb/>Kund und zu wißen sei
+                    hiemit, daß gleich wie die Durchlauchtigste Großmächtigste Fürstin und Frau,
+                    Frau <rs ref="#pp0021">Ulrica Eleonora</rs><note n="2" type="annotation">Sachanmerkung: Ulrika Eleonora
+                        (1688-1741; Regierungszeit 11.12.1718-26.3.1720) folgte ihrem im Krieg
+                        gefallenen Bruder Karl XII. 1718 auf dem Thron nach. Sie war seit 1715
+                        verheiratet mit Prinz Friedrich von Hessen, dem sie 1720 den Thron übergab
+                        (als König Friedrich/Fredrik I.; 1720-1751). Er beeinflusste den Frieden mit
+                        Preußen maßgeblich. Textvariante: Eigennamen sowie Monats- und Ortsnamen
+                        sind durchlaufend durch lateinische Buchstaben hervorgehoben." </note>, der
+                    Schweden, Gothen und Wenden Königin etc. etc. etc<note n="3" type="crit_app"
+                        >Loewe: p.; Schmauss bringt die Titulatur durchgegehend in umgekehrter
+                        Reihenfolge.</note>. an einer, und der Durchlauchtigste, Großmächtigste
+                    Fürst und Herr, Herr <rs ref="#pp0204">Fridrich Wilhelm</rs><note n="4" type="crit_app">Sachanmerkung:
+                        Friedrich Wilhelm I. (1688-1740), Kurfürst von Brandenburg, ab 1713 König in
+                        Preußen. Textvariante: CTS; Fassmann; Dumont: Friederich Wilhelm; Dähnert:
+                        Friderich Wilhelm; Herrschaftstitulatur ist in CTS; Dähnert, Dumont,
+                        Fassmann und Loewe nicht abgedruckt." </note>, König in Preußen, Marggraff
+                    zu Brandenburg<note n="5" type="crit_app">Loewe: Brandenburg p. [Aufzählung wird
+                        ausgelassen].</note>, des heiligen Römischen Reichs Ertz-Cämmerer und
+                    Churfürst, Souverainer Printz von Oranien, Neu-Castel und Vallangin<note n="6"
+                        type="crit_app">Schmauss: Neufchatel und Vallengin, in Geldern, zu
+                        Magdeburg, Cleve, Jülich, Berge, Stettin, Pommern, der Cassuben und Wenden,
+                        zu Mecklenburg, auch in Schlesien zu Crossen Hertzog; Burggraff zu Nürnberg;
+                        Fürst zu Halberstadt, Minden, Camin, Wenden, Schwerin, Ratzeburg und Meurs;
+                        Graff zu Hohenzollern, Ruppin, der Marck, Ravensberg, Hohenstein,
+                        Tecklenburg, Lingen, Schwerin, Bühren und Lehrdam; Marquis der Vehre und
+                        Vlissingen; Herr zu Ravenstein, der Lande Rostock, Stargardt, Lauenburg,
+                        Bütau, Arlay und Breda etc." </note>, zu Magdeburg, Stettin, Pommern, der
+                    Caßuben und Wenden, auch in Schlesien und zu Croßen Hertzog, Burggraf zu
+                    Nürnberg, Fürst zu Halberstadt, Minden, Cammin und Meuers, Graf zu Hohenzollern,
+                    der Marck, Rawensberg, Lingen, Bühren und Lehrdam, Marggraf zu der Weher und
+                    Vlißingen, Herr zu Rawenstein, Lauenburg, Bütau, Arley und Breda
+                        &lt;...&gt;<note n="7" type="crit_app">Unleserlich.</note> anderer seits,
+                    ohnerachtet des unter denenselben entstandenen Krieges jedesmahl eine
+                    auffrichtige Intention und Begierde behalten, fordersahmst<note n="8"
+                        type="crit_app">CTS: fordersambst; Dähnert; Loewe; Schmauss: fordersamst;
+                        Fassmann: fördersamst.</note> miteinander in das vorhin unter sich
+                    gepflogene gute Vernehmen und Verständniß wieder zu treten, also Sie auch mit
+                        vielen<note n="9" type="crit_app">Dähnert; Loewe; Schmauss: vielem.</note>
+                    Vergnügen wahrgenommen, daß der Durchlauchtigste<note n="10" type="crit_app"
+                        >CTS: Durchleuchtigste (auch im Folgenden).</note> Großmächtigste Fürst und
+                    Herr, Herr <rs ref="#pp0205">Georg</rs><note n="11" type="annotation">Georg Ludwig (1660-1727),
+                        Kurfürst von Hannover, seit 1714 als Georg I. König von Großbritannien,
+                        vereinigte Celle mit Hannover (1705) und erreichte in den Friedensschlüssen
+                        1713/1714 die internationale Anerkennung der hannoverschen Kurwürde. Seit
+                        5.1.1719 mit Österreich und Sachsen verbündet (vergleiche NHSAHan Hannover
+                        10, 27 Kaiser Nr. 168), schloss er am 11./22.7.1719 einen Präliminarfrieden
+                        (NHSAHAN Hannover 10, 54 Schweden Nr. 387) und am 9./20.11.1719 in Stockholm
+                        den Frieden mit Schweden (NHSAHan Hannover 10, 54 Schweden Nr. 387, 4-5), in
+                        dem er Bremen und Verden erhielt und die Vermittlerrolle für weitere
+                        Friedensschlüsse Schwedens übernahm." </note>, König von Groß-Britannien,
+                    Franckreich und Irland, Beschützer des Glaubens, Hertzog zu Braunschweig und
+                    Lüneburg, des heiligen Römischen Reichs Ertz-Schatzmeister und Churfürst<note
+                        n="12" type="crit_app">Titulatur fehlt in CTS; Dumont.</note> zu Beforderung
+                    dieses heilsahmen Zwecks<note n="13" type="crit_app">CTS; Dumont: wercks.</note>
+                    dero Fleiß und Bemühung anwenden wollen, welches dann auch den erwünschten und
+                    von Gott gesegneten Effect gehabt, daß, nachdem höchsterwehnte Seine
+                    königl[iche]. <rs ref="#pp0205">Maj[es]t[ä]t von Groß Britannien</rs> vermittelst des mit ihrer
+                    königl[ichen]. <rs ref="#pp0021">Maj[es]t[ä]t von Schweden</rs> den 18/29 Aug[ust]. 1719 aufgerichteten
+                        Tractats<note n="14" type="crit_app">Textvariante: Hervorhebung durch
+                        lateinische Buchstaben (auch im Folgenden). Sachanmerkung: Vertrag zwischen
+                        Schweden und Großbritannien Stockholm (1719 VIII 18/29), in dem sich die
+                        Parteien auf Friedensgrundlinien mit Preußen verständigten (die Ratifikation
+                        Schwedens; 1719 VIII 19/30; befindet sich in GSABerlin VI HA Nr. 849)."
+                    </note> sich gewißer Preliminair Puncte, so zum Grunde und Fundament des
+                    Friedens zwischen Ihro <rs ref="#pp0021">königl[ichen]. Maj[es]t[ä]t von
+                        Schweden</rs> und Ihro
+                    <rs ref="#pp0204">königl[ichen]. Maj[es]t[ä]t in Preußen</rs><note n="15" type="crit_app">CTS; Dumont:
+                        von Preußen.</note> dienen solten, durch rühmlich und beständig von
+                    allerseits paciscirenden Cronen angewandten Officiis<note n="16" type="crit_app"
+                        >CTS; Dähnert; Dumont; Fassmann; Schmauss: Officia.</note> und Mediation des
+                    Durchlauchtigsten Großmächtigsten Fürsten und Herren, Herrn <rs ref="#pp0028">Ludwig des
+                        XVten</rs><note n="16" type="annotation">Ludwig XV. (1710-1774), französischer
+                        König seit 1715, bis 1723 unter der Regentschaft Herzog Philipp II. von
+                        Orléans.</note> Allerchristlichsten Königs von Franckreich und Navarra,
+                    alhier subsistirenden Residenten und Plenipotentiair des Wohlgebohrnen Herrn
+                    <rs ref="#0212">Jacobs von Campredon</rs><note n="17" type="annotation">Jacques Campredon (geboren
+                        1646), frz. Diplomat, 1702/07- 1717 frz. Gesandter in Stockholm, Vermittler
+                        in den Friedensverhandlungen zwischen Schweden und Hannover, Preußen,
+                        Dänemark und Schweden sowie mit Russland. (Dictionnaire de Biographie
+                        française 7, S. 1006-1007)." </note> verglichen, hierüber unter denen
+                        an<note n="18" type="crit_app">Fassmann: von.</note> beyden höchsten Theilen
+                    dazu bevollmächtigten Ministris, und zwar an Seiten ihrer <rs ref="#pp0021">königl[ichen].
+                        Maj[es]t[ä]t von Schweden</rs>, dem Hochwohlgebohrnen Grafen, Herrn <rs ref="#pp0213">Johan August
+                            Meyerfeldt</rs><note n="19" type="annotation">Sachvariante: Johan August
+                        Meyerfeldt (1666-1749), Graf, Feldmarschall, Generalgouverneur in Pommern.
+                        Textvariante: Dähnert: Meyerfeld." </note>, ihro <rs ref="#pp0021">königl[ichen]. Maj[es]t[ä]t
+                    von Schweden</rs> und dero Reichs Rath, General von der Infanterie, General
+                        Gouverneuren<note n="20" type="crit_app">Titel durch lateinische Buchstaben
+                        hervorgehoben.</note> des Hertzogthums Pommern und Fürstenthums Rügen auch
+                    verordneter Cantzley Rath, wie auch dem Hochwohlgebohrnen Grafen <rs ref="#pp0024">Carl Gustav
+                        Dücker</rs><note n="21" type="annotation">Carl Gustav Dücker (Düker) (1663-1732),
+                        Feldmarschall, Mitglied und seit 1720 Präsident im Kriegskollegium." </note>
+                    Ihro königl[ichen]. Maj[es]t[ä]t von Schweden und dero Reichs Rath,
+                    Feldmarschall und verordneten Kriegs Rath<note n="22" type="crit_app">Fassmann:
+                        [Auslassungen:] ''[...] Meyerfeldt, Ihrer Königl. Maytt. von Schweden und
+                        dero Reichs Rath, Feldmarschalln und verordneten Kriegs Rath desgleichen
+                        [...]''." </note>, desgleichen dem Hochwohlgebohrnen Grafen Herrn <rs
+                            ref="#pp0025">Gustav
+                    Adam Taube</rs><note n="23" type="annotation">Gustav Adam Taube (1673-1732),
+                        Freiherr, Reichsrat, Feldmarschall, Kommandant der schwedischen Truppen in
+                        Pommern 1712, Generalgouverneur in Pommern." </note> <rs ref="#pp0021">Ihro königl[ichen].
+                            Maj[es]t[ä]t von Schweden</rs> und dero Reichs Rath und Ober Stathalter<note n="24"
+                        type="crit_app">CTS; Dumont: Oberist-Stadthalter. Fassmann; Schmauss: Ober
+                        Stadthalter; Dähnert; Loewe: Statthalter." </note> in Stockholm,
+                    gleichermaßen dem hochwohlgebohrnen Grafen, Herrn <rs ref="#pp0026">Magnus de la Gardi</rs><note n="25"
+                        type="annotation">Sachanmerkung: Magnus Julius de la Gardie (auch: Garde,
+                        Gardi; 1669-1741) Graf, Oberst, führte zahlreiche diplomatische Missionen
+                        aus; er war Kommissar für die Friedensverhandlungen Schwedens mit Hannover,
+                        mit Preußen und mit Dänemark 1719/20. (Svenskt Biografskit Lexikon 10,
+                        S.725-735). Textvariante: Dähnert; Schmauss: Gardie." </note> Ihro
+                    königl[ichen]. Maj[es]t[ä]t von Schweden und dero Reichs Rath und Presidenten in
+                    dem königl[ichen]. Commercie Collegio<note n="26" type="crit_app">Hervorhebung
+                        durch lateinische Buchstaben.</note>, so auch dem Hochwohlgebohrnen<note
+                        n="27" type="crit_app">Dähnert: Wohlgebohrnen.</note> Grafen Herrn <rs
+                            ref="#pp0214">Johan
+                            Lilliensted</rs><note n="28" type="annotation">Johan Lillienstedt (auch
+                        Lilljenstedt; 1655-1732), Graf, Staatsmann, Delegierter für die
+                        Friedensverhandlungen mit Russland zu Nystad (1721) (Svenskt Biografskit
+                        Lexikon 23, S. 129-131)." </note> Ihro königl[ichen]. Maj[es]t[ä]t von
+                    Schweden und dero Reichs Rath und verordneten<note n="29" type="crit_app"
+                        >Dähnert; Schmauss: verordnetem.</note> Cantzley Rath wie nicht weniger dem
+                    Wohlgebohrnen Baron<note n="30" type="crit_app">Hervorhebung durch lateinische
+                        Buchstaben.</note> Herrn <rs ref="#pp0027">Daniel Niclas von Höpken</rs><note n="31"
+                        type="annotation">Sachanmerkung: Daniel Niclas von Höpken (1669-1741),
+                        Baron, Staatsrat. Textvariante: CTS; Dumont: Hopken." </note>, Ihro
+                    königl[ichen]. Maj[es]t[ä]t von Schweden verordneten Etats<note n="32"
+                        type="crit_app">Fassmann: Staats.</note> Secretaire und an Seiten Seiner
+                    königl[ichen]. Maj[es]t[ä]t in Preußen<note n="33" type="crit_app">CTS; Dumont:
+                        von Preußen.</note> dem Hochwohlgebohrnen Freyherrn Fridrich <rs ref="#pp0211">Ernst<note
+                        n="34" type="crit_app">CTS; Dumont; Schmauss: Friederich (auch im
+                        Folgenden); Dähnert: Hochwohlgebohrnen Herrn Friderich Ernst.</note> von und
+                    in Cnyphausen</rs><note n="35" type="annotation">Sachanmerkung: Friedrich Ernst
+                        Freiherr von Inn- und Knyphausen (1678-1731), preußischer Gesandter und
+                        Staatsminister. Textvariante: CTS: von und zu; Dumont: von und zu
+                        Cnypshausen; Fassmann: Hochwohlgebohrnen Herrn Friderich Ernst Freyherrn von
+                        und in Knyphausen; Schmauss: Friedrich Ernst Freyherrn von und in
+                        Cnyphausen; Dähnert: von und in Cnijphausen." </note> Seiner königl[ichen].
+                    <rs ref="#pp0204">Maj[es]t[ä]t in Preußen</rs><note n="36" type="crit_app">Dumont: von Preußen.</note>
+                    würcklichen Etats<note n="37" type="crit_app">Fassmann: Kriegs.</note>
+                        Ministre<note n="38" type="crit_app">Hervorhebung durch lateinische
+                        Buchstaben. Dähnert; Schmauss: Etats- und Krieges-Ministre.</note>, des
+                        Johanniter<note n="39" type="crit_app">Hervorhebung durch lateinische
+                        Buchstaben.</note> Ordens Ritter und Commendator<note n="40" type="crit_app"
+                        >Hervorhebung durch lateinische Buchstaben.</note> zu Lützen<note n="41"
+                        type="crit_app">CTS; Dähnert; Dumont; Loewe; Schmauss: Lietzen.</note>
+                    deshalb weitere Handlung gepflogen, und endlich folgender Tractat vermittelst
+                    ihrer <rs ref="#pp0205">königl[ichen]. Maj[es]t[ä]t von Groß Britannien</rs> Mediation<note n="42"
+                        type="crit_app">Hervorhebung durch lateinische Buchstaben.</note> durch dero
+                    alhier subsistierenden Ambassadeur Extraordinair und Plenipotentiair<note n="43"
+                        type="crit_app">Titel durch lateinische Schreibweise hervorgehoben. CTS;
+                        Dähnert; Dumont; Fassmann; Loewe; Schmauss: Extraordinaire und
+                        Plenipotentiaire." </note> <rs ref="#pp0215">Lord Carteret</rs><note n="44" type="crit_app">John
+                        Carteret, Vicomte de (1690-1763), englischer Hauptverhandlungsführer beim
+                        Friedensschluß zwischen Schweden und Hannover 1719 XI 20, 1721
+                        Staatsminister." </note>, geschloßen worden.<lb/>1.<lb/>Zwischen Ihro
+                    <rs ref="#pp0021">königl[ichen]. Maj[es]t[ä]t von Schweden</rs> und dem Königreich Schweden, denen dazu
+                    gehörigen Provinzen<note n="45" type="crit_app">Hervorhebung durch lateinische
+                        Buchstaben (auch im Folgenden). GSABerlin VI HA Nr. 850: Stockholm 1720 I 21
+                        / II 1: Provintzien; Schmauss: Provincien (auch im Folgenden).</note>,
+                        Ländern<note n="46" type="crit_app">Dähnert; Schmauss: Landen; CTS:
+                        Länder.</note>, Städten, Einwohnern und Unterthanen in und außer dem
+                    Römischen Reiche an einer, und <rs ref="#pp0204">Seiner königl[ichen].
+                        Maj[es]t[ä]t in Preußen</rs>,
+                    dero Königreich<note n="47" type="crit_app">Dähnert; Fassmann; Schmauss:
+                        Königreich, Churfürstentum auch übrigen angehörigen Provintzien.</note> und
+                    dazu gehörigen Provinzen, Ländern, Städten, Einwohnern und Unterthanen in und
+                    außer dem Römischen Reiche<note n="48" type="crit_app">Dähnert: in und ausser
+                        dem Reiche.</note> anderer seits, soll von nun an der Krieg<note n="49"
+                        type="annotation">Preußen war 1715 V 1 auf Seiten der "Nordischen
+                        Alliierten", denen es bereits seit 1713 vertraglich verbunden war, in den
+                        Krieg gegen Schweden eingetreten." </note> gäntzlich cessiren und keine
+                    Feindseligkeiten, weder directe noch indirecte<note n="50" type="crit_app"
+                        >Hervorhebung durch lateinische Buchstaben.</note>, unter keinerley
+                        Praetext<note n="51" type="crit_app">Hervorhebung durch lateinische
+                        Buchstaben.</note> und<note n="52" type="crit_app">Dähnert: noch.</note>
+                    Vorwand, es sey derselbe beschaffen wie er wolle, von dem einen Theil wieder den
+                    andern weiter verübet<note n="53" type="crit_app">Dähnert: andern
+                        verübert.</note> noch ins Werck gestellet werden. Vielmehr aber an statt
+                    deßen zwischen beyderseits königl[ichen]. Maj[es]t[ä]ten, dero Unterthanen und
+                    Angehörigen eine vollenkommene gute Freundschaft und Correspondence<note n="54"
+                        type="crit_app">Hervorhebung durch lateinische Buchstaben.</note> gepflogen,
+                        auch<note n="55" type="crit_app">CTS; Dähnert; Dumont; Fassmann; Schmauss:
+                        und das Commercium.</note> das Commercium<note n="56" type="crit_app"
+                        >Hervorhebung durch lateinische Buchstaben.</note> zu Waßer und zu Lande
+                    zwischen beyderseits Königreichen und Provintzien wieder frey gegeben und in
+                    allen befodert werden.<lb/>2.<lb/>Es soll auch beyderseits eine immerwährende
+                    Vergeßenheit und Amnestie<note n="57" type="crit_app">Hervorhebung durch
+                        lateinische Buchstaben (auch im Folgenden).</note> alles deßen seyn, was an
+                    der einen oder der andern Seite, es sey auf was Weise es wolle, feindliches oder
+                    wiederwärtiges gegen einander vorgenommen seyn möchte, und soll deren keines dem
+                    einen oder dem andern Theile oder jemand der Seinigen in<note n="58"
+                        type="crit_app">Dähnert; Schmauss: im.</note> Unguten<note n="59"
+                        type="crit_app">Loewe: Ungutem.</note> jemahlen zugerechnet oder vergolten
+                    werden, sondern das alles soll hiemit todt und abseyn<note n="60"
+                        type="crit_app">Fassmann: abgethan seyn.</note>, auch deßen nimmer gedacht
+                    werden. Vielmehr soll und will ein jeder<note n="61" type="crit_app">Fassmann:
+                        jedweder.</note> Theil des andern Gloire<note n="62" type="crit_app"
+                        >Hervorhebung durch lateinische Buchstaben.</note> nutzen und bestes von nun
+                    an in allen Vorfallenheiten eyfrigsten<note n="63" type="crit_app">Fassmann:
+                        eyffrigen.</note> Fleißes befordern, Schaden und Unheil aber nach allen<note
+                        n="64" type="crit_app">CTS; Dähnert; Loewe: allem.</note> Vermögen treulich
+                        ablehnen<note n="65" type="crit_app">Dähnert; Fassmann; Loewe; Schmauss:
+                        abkehren.</note> und wenden helffen. Dabenebenst sollen auch alle unter
+                    währendem Kriege genommene<note n="66" type="crit_app">Fassmann:
+                        gemachte.</note> Gefangene, wes Standes sie auch seyn mögen, keinen
+                    ausgenommen, gleich nach ausgewechselten Ratificationen über gegenwärtiges
+                    Friedens Instrument von beyden höchsten Theilen ohne Rançon<note n="67"
+                        type="crit_app">Frz. "Lösegeld". Hervorhebung durch lateinische
+                        Buchstaben. Fassmann: ohne Ranzion loß gegeben.</note> ausgegeben und auf
+                    freyen Fuß gestellet werden.<lb/>3.<lb/>Gleichwie <rs ref="#pp0021">Ihro königl[iche].
+                    Maj[es]t[ä]t von<note n="68" type="crit_app">Fassmann; Schmauss: in.</note>
+                    Schweden</rs> um desto mehr an den Tag<note n="69" type="crit_app">Dähnert: am
+                        Tage.</note> zu legen, wie sehr Sie geneigt sind, ihres Ortes alles
+                    dasjenige beyzutragen, was zu Wiederherstellung und künfftiger desto mehrerer
+                    Befestigung des vorigen zwischen beyden Cronen Schweden und Preußen gepflogenen,
+                    eine zeiterhero aber unterbrochen gewesenen guten Vernehmens<note n="70"
+                        type="crit_app">Fassmann: gewesenen Vernehmens.</note> auf einige Weise hat
+                    dienlich seyn können, derowegen auch aus Liebe zum Frieden, Vermöge des mit
+                    S[eine]r <rs ref="#pp0205">königl[ichen]. Maj[es]t[ä]t von Groß Britannien</rs> unterm 18/29 Augusti
+                    1719 errichteten, eingangs berührten und beyderseits ratificirten Preliminair
+                        Tractats<note n="71" type="crit_app">Hervorhebung durch lateinische
+                        Buchstaben.</note> und deßen Separat Articuls<note n="72" type="crit_app"
+                        >Hervorhebung durch lateinische Buchstaben (auch im Folgenden).</note>
+                    bereits versprochen haben vor<note n="73" type="crit_app">Dähnert: für.</note>
+                    sich, dero Erben und Nachkommen die Stadt Stettin<note n="74" type="crit_app"
+                        >Sachanmerkung: Stettin (heute poln. Szczecin), Hauptstadt der Provinz
+                        Pommern und bedeutende Handelsstadt an der unteren Oder, gehörte 1648-1720
+                        zu Schweden. Textvariante: Hervorhebung durch lateinische Buchstaben."
+                    </note> samt dem District<note n="75" type="crit_app">Hervorhebung durch
+                        lateinische Buchstaben (auch im Folgenden).</note> zwischen der Oder und der
+                        Pehne<note n="76" type="crit_app">Sachanmerkung: Peene, Pehne, (poln.
+                        Piana), westlicher der drei Mündungsarme der Oder zwischen dem Festland und
+                        er Insel Usedom. Textvariante: Dähnert; Loewe: Peene (auch im Folgenden)."
+                    </note> mit denen Insuln Wollin<note type="annotation">Wollin (poln. Wolin),
+                        Insel und Stadt, die 1648-1720 zu Schweden gehörte.</note> und Usedom<note
+                        n="77" type="annotation">Usedom (poln. Uznam), Insel zwischen Stettiner Haff
+                            und Ostsee, 1648-1720 schwedisch.</note> an <rs ref="#pp0204">S[eine]r königl[ichen].
+                    Maj[es]t[ä]t in Preußen</rs>, dero königl[ichen]. preußischem Hause nebst<note n="78"
+                        type="crit_app">CTS; Dumont; Schmauss: Königlichen Hause auch dero Erben;
+                        Dähnert: dero königliches Haus auch dero.</note> dero Erben und Successoren
+                    ohne Ausnahme auf ewig und mit eben dem Rechte zu cediren<note n="79"
+                        type="crit_app">Hervorhebung durch lateinische Buchstaben (auch im
+                        Folgenden).</note>, wie solches alles der Cron Schweden durch den
+                    Westphälischen Frieden Art[ikel]. X im Jahr 1648<note n="80" type="annotation"
+                        >Im Frieden von Osnabrück (1648 X 24) wurde Pommern zwischen Preußen
+                        (''Hinterpommern'' mit dem Bistum Cammin) und Schweden (''Vorpommern'' mit
+                        Stettin, Gartz, Usedom, Wollin, Damm) entlang der Oder geteilt (Art. 10).
+                        Schweden erhielt die pommerschen Gebiete als Reichslehen, huldigte als
+                        Lehensherrn dem Kaiser als pommerscher Herzog und erhielt für Pommern Sitz
+                        im Reichstag und im obersächsischen Kreis. Vergleiche Die Friedensverträge
+                        mit Frankreich und Schweden 1: Urkunden, bearb. v. Oschmann, S. 132-136;
+                        Lucht, Pommern- Historische Landeskunde; Backhaus, Reichsterritorium und
+                        schwedische Provinz - Vorpommern unter Karls XI. Vormündern (1660-1672),
+                        besonders S. 39-55." </note> von dem damahligen regierenden <rs ref="#pp0014">Römischen
+                            Kayser</rs><note n="81" type="crit_app">Ferdinand III. (1608-1657), seit 1636
+                        röm. König, seit 1637 Kaiser.</note> und dem Reich übertragen und
+                        conferiret<note n="82" type="crit_app">Hervorhebung durch lateinische
+                            Buchstaben.</note> worden, S[eine]r <rs ref="#pp0204">königl[ichen].
+                                Maj[es]t[ä]t von Preußen</rs>
+                    auch diese von S[eine]r <rs ref="#pp0205">königl[ichen]. Maj[es]t[ä]t von Groß
+                        Britannien</rs> vor Sie
+                    und zu ihrem besten durch oberwehnten Tractat vom 18/29 August 1719 geschene
+                        Stipulation<note n="83" type="crit_app">Hervorhebung durch lateinische
+                        Buchstaben.</note> in allen Puncten acceptiret<note n="84" type="crit_app"
+                        >Beide Worte durch lateinische Buchstaben hervorgehoben.</note> und
+                    angenommen haben, also hat es auch dabey sein bewenden, und cediren und
+                    übertragen Sie Krafft dieses nochmahlen für Sich, das Reich Schweden, und ihre
+                        Successoren<note n="85" type="crit_app">Hervorhebung durch lateinische
+                            Buchstaben (auch unten).</note> und Nachkommen Seiner <rs ref="#pp0204">königl[ichen].
+                    Maj[es]t[ä]t in Preußen</rs> dero königl[ichen]. Hause auch Erben<note n="86"
+                        type="crit_app">CTS; Dumont: auch Nachkommen und Successoren.</note>,
+                    Nachkommen und Successoren, keine davon ausbeschieden, in perpetuum die Stadt
+                    Stettin mit dem dazu gelegten gantzen District Landes zwischen der Oder und
+                    Pehne Strohm, nebst denen Insuln<note n="87" type="crit_app">Fassmann: Inseln
+                        (auch im Folgenden).</note> Wollin und Usedom samt denen Ausflüßen der
+                        Suine<note n="88" type="crit_app">Sachanmerkung: Swine (poln. ¼wina),
+                        Hauptmündungsarm der Oder. Textvariante: CTS; Dähnert; Loewe; Fassmann:
+                        Swine (auch im Folgenden).</note> und Dievenau<note n="89" type="annotation"
+                        >Sachanmerkung: Dievenow (poln. Dziwnów), rechter Mündungsarm der Oder,
+                        gleichnamiges Dorf. Textvariante: Loewe: Dievenow.</note>, dem frischen Haff
+                    und Oder, biß sie in die Pehne fließt, und ihren Nahmen verliehret, welcher
+                    Pehne Strohm die Gräntze seyn und beyden angräntzenden Hohen Theilen
+                    gemeinschafftlich verbleiben soll, pleno jure<note n="90" type="crit_app"
+                        >Hervorhebung durch lateinische Buchstaben.</note> mit allen denen Rechten
+                    und Zubehörungen, so wie selbige Stadt mit dem anjetzo besagten und Krafft
+                    dieses Seiner königl[ichen]. Maj[es]t[ä]t in Preußen abgetretenen Districts
+                    nebst denen Insuln Wollin und Usedom auch oberwehnter Maßen angeführten
+                    Ausflüßen und Wässern durch das Oßnabrücksche Friedens Instrument<note n="91"
+                        type="crit_app">Hervorhebung durch lateinische Buchstaben (auch im
+                        Folgenden)</note> vom 14/24 Octob[er]. 1648 der Cron Schweden mit mehrerm
+                    zugeeignet worden, und wie die Könige von Schweden und das Reich Schweden
+                        selbige<note n="92" type="crit_app">Schmauss: wie die Könige von Schweden
+                        selbige.</note> seithero besessen, genutzet und gebrauchet haben, oder
+                    besitzen, nutzen und gebrauchen sollen, nichts überall davon ausgenommen,
+                    solches alles und jedes mit eben dem Rechte, wie es Ihro <rs ref="#pp0021">königl[ichen].
+                    Maj[es]t[ä]t von Schweden</rs> und dero Vorfahren an der Regierung wie auch das Reich
+                    Schweden bißhero beseßen, ohne einige Schmählerung oder Vorbehalt, auch ohne
+                    alle in oder außerhalb Gerichts von Ihro <rs ref="#pp0021">königl[ichen]. Maj[es]t[ä]t von
+                    Schweden</rs> oder dero Mitbeschriebenen jemahls zumachende wiederrede, Hinderung
+                    oder Sperrung völlig und eigenthümlich zu haben und zu behalten. Ihro
+                    königl[iche]. Maj[es]t[ä]t und die Cron Schweden renunciiren<note n="93"
+                        type="crit_app">Hervorhebung durch lateinische Buchstaben.</note> auch
+                    völlig auf alle bißhero in denen locis cessis<note n="94" type="crit_app"
+                        >Hervorhebung durch lateinische Buchstaben.</note> gehabte Rechte,
+                    Gerechtigkeiten und dem jure territoriali et superioritatis<note n="95"
+                        type="crit_app">Hervorhebung durch lateinische Buchstaben.</note>, hiemit
+                    aufs bündigste und auf ewig. Entbinden gleichfals hiemit die Unterthanen
+                    Eingeseßene und Angehörige mehrbesagter <rs ref="#pp0204">S[eine]r königl[ichen]. Maj[es]t[ä]t in
+                    Preussen</rs> anjetzo cedirten Örter aller derer Pflichten und Verbindungen, womit
+                    sie ihrer königl[ichen]. Maj[es]t[ä]t und dem Reiche Schweden verbunden gewesen,
+                    und verweisen sie damit an S[eine]r königl[ichen]. Maj[es]t[ä]t in Preussen und
+                    dero Ob-Mitbeschriebene als ihre nunmehrige rechtmäßige ohnstreitige Landes- und
+                    Oberherren.<lb/>4.<lb/>Was aber den ihrer königl[ichen]. Maj[es]t[ä]t von
+                    Schweden und dem Reich Schweden ratione dieses Herzogthums gehörigen und ferner
+                    ohngehindert zu führenden Sitz und Stimme auf Reichs und Kreis<note n="96"
+                        type="crit_app">GSABerlin VI HA Nr. 850: Stockholm 1720 I 21 / II 1: Crayß;
+                        Dähnert; Loewe: Kreis.</note> Tägen im Römischen Reich nebst andern der Cron
+                    Schweden in Ansehen dieses voti et sessionis<note n="97" type="crit_app"
+                        >Hervorhebung durch lateinische Buchstaben.</note> zuständigen juribus<note
+                        n="98" type="crit_app">Hervorhebung durch lateinische Buchstaben.</note>
+                    anbelanget, so bleibet es desfals bey der in Ansehung der Pommerschen Lande in
+                    dem Westphälischen Friedens Schluß und andern zwischen der Cron Schweden und dem
+                    Churfürstlichen Hause Brandenburg deshalb errichteten Conventionen<note n="99"
+                        type="crit_app">Hervorhebung durch lateinische Buchstaben. CTS; Dumont:
+                        Convention.</note> beliebten und festgestelleten Disposition<note n="100"
+                        type="crit_app">Sachanmerkung: Die Teilung Pommerns 1648 brachte Probleme
+                        mit sich, die Brandenburg und Schweden in mehreren Folgeverträgen regelten,
+                        z.B. im Stettiner Grenzrezeß (1653 V 4). Textvariante: Hervorhebung durch
+                        lateinische Buchstaben.</note>. <lb/>5.<lb/><rs ref="#pp0204">Seine königl[iche]. Maj[es]t[ä]t
+                    in Preußen</rs> und dero Obmitbeschriebene versprechen und geloben ihrerseits die
+                    Stände, Unterthanen und sämtliche Einwohner<note n="101" type="crit_app"
+                        >Dähnert: den Ständen, Unterthanen und sämtlichen Einwohnern.</note> des
+                    deroselben durch diesen Tractat cedierten Districts nebst denen Insuln Wollin
+                    und Usedom, der Stadt und Festung Stettin auch allen andern daselbst belegenen
+                    Orten, Städten, Flecken, Schlößer, Dörffer<note n="102" type="crit_app">Dähnert;
+                        Schmauss: Schlössern, Dörffern. CTS: Schlössern, Dörfer.</note> und was
+                    denenselben anhängig und zugehörig seyn kan, niemanden ausgenommen, und also
+                    einen jeden<note n="103" type="crit_app">Fassmann: jedweden. Dähnert: einem
+                        jeden.</note> derselben absonderlich so wohl als alle insgemein bey ihren
+                    wohlhergebrachten Freyheiten, Gütern, Rechten und Privilegien, so wohl in
+                    Ecclesiasticis als Politicis<note n="104" type="crit_app">Hervorhebung durch
+                        lateinische Buchstaben.</note>, so wie besagte Stände, Unterthanen und
+                    Einwohner solche von Zeit zu Zeit von ihrer Herrschaft erworben, und ihnen in
+                    dem Instrumento Pacis Westphalicae<note n="105" type="crit_app">Hervorhebung
+                        durch lateinische Buchstaben.</note> selbige bestätiget und vorbehalten,
+                    auch ihnen nach dem von denen Königen<note n="106" type="crit_app">Fassmann:
+                        Königen in Schweden.</note> und der Cron Schweden verliehen worden, wie auch
+                    bey dem freyen Religions Exercitio<note n="107" type="crit_app">Hervorhebung
+                        durch lateinische Buchstaben.</note> zu folge der unveränderten
+                    Augspurgischen Confession<note n="108" type="crit_app">Hervorhebung durch
+                        lateinische Buchstaben.</note> nach Maßgebung Tit[el]. 1 in der Pommerschen
+                    Regiments Form<note n="109" type="crit_app">Hervorhebung durch lateinische
+                        Buchstaben.</note> de An[no]. 1663<note n="110" type="annotation"
+                        >Sachanmerkung: Die sog. ''Regierungsform'' (1663 VII 17), eine ständische
+                        Landesverfassung, ist die wesentliche verfassungsrechtliche Grundlage der
+                        schwedischen Herrschaft in Vorpommern. Vergleiche Backhaus, Aspekte
+                        schwedischer Herrschaft in Pommern, in: Tausend Jahre pommersche Geschichte,
+                        S. 195-215. Textvariante: CTS; Dumont: 1603." </note> und der Pommerschen
+                    Kirchen Ordnung<note n="111" type="crit_app">Fassmann: ''Tit. 1 der Pommerischen
+                        Kirchenordnung''.</note> als des Landes Fundamental<note n="112"
+                        type="crit_app">Hervorhebung durch lateinische Buchstaben.</note>
+                        Satzungen<note n="113" type="crit_app">Dähnert; Schmauss: nach Maßgebung
+                        Tit.1 der Pommerischen Kirchen-Ordnung, als des Landes
+                        Fundamental-Satzung.</note> jederzeit unbekümmert und ungekränckt zu laßen,
+                    zu handhaben und zu schützen.<lb/>6.<lb/><rs ref="#pp0204">Seine königl[iche]. Maj[es]t[ä]t in
+                    Preußen</rs> und dero Obmitbeschriebene versprechen auch die in denen locis
+                        cessis<note n="114" type="crit_app">Hervorhebung durch lateinische
+                        Buchstaben.</note> wohnhaffte und angeseßene Ritterschaft außer denen
+                    allgemeinen Landes Juribus bey ihren wohlerworbenen absonderlichen
+                        Privilegien<note n="115" type="crit_app">Hervorhebung durch lateinische
+                        Buchstaben.</note>, Befugnißen und Gerechtsahmen, wie nicht weniger habenden
+                    besonderen Juribus<note n="116" type="crit_app">Hervorhebung durch lateinische
+                        Buchstaben.</note> in Lehn-Sachen, so wie selbige alle besagter Ritterschaft
+                    in dem Westphälischen Friedens Instrument<note n="117" type="crit_app"
+                        >Hervorhebung durch lateinische Buchstaben.</note> vorbehalten, und Sie
+                    solche unter denen Königen und der Cron Schweden beseßen und erworben, besitzen
+                    sollen oder mögen, ungekränckt zu laßen, zu schützen und bey zubehalten, auch
+                    die Possessores der Lehngüter, so selbige bey Anfang dieses letzten Krieges inne
+                    gehabt, ohne einige Distinction, ob sie selbige von denen vorigen Hertzogen in
+                    Pommern oder von Ihro jetzt regierenden <rs ref="#pp0021">königl[ichen].
+                        Maj[es]t[ä]t von Schweden</rs>
+                    und dero Vorfahren von Königen zu Königen bekommen haben, bey ihren
+                    solchergestalt wohlhergebrachten Rechten stets zu mainteniren und zu schützen,
+                    wie dann auch zu folge deßen alles dasjenige, was währendem diesen Kriege dem
+                    zuwieder geschehen und verfüget seyn möchte, hiemit aufgehoben und im vorigen
+                    Stande, wie es beym Anfang deßelben gewesen, wieder soll gesetzet
+                    weden.<lb/>7.<lb/>Als auch die unter voriger königl[ich]. schwedischen Regierung
+                    überall ins Werck gestellte Reduction und Liquidation<note n="118"
+                        type="crit_app">Hervorhebung durch lateinische Buchstaben.</note> zu
+                    vielfältigen Beschwerden derer Unterthanen und Eingeseßenen Anleitung gegeben,
+                    wodurch dann Seine in Gott ruhende <rs ref="#pp0182">königl[iche]. Maj[es]t[ä]t
+                        zu Schweden</rs>
+                    glorwürdigsten Andenckens<note n="119" type="crit_app">Karl XII. (1682-1718),
+                        schwedischer König seit 1697.</note> so wohl als in Ansehen der Sachen
+                    Biligkeit bewogen worden mittelst eines im Jahr 1700 den 13 Aprilis durch
+                    öffentlichen Druck bekand gemachten Patents<note n="120" type="crit_app"
+                        >Hervorhebung durch lateinische Buchstaben.</note> die Versicherung von sich
+                    zu geben, daß im Fall einiger von ihren Unterthanen mit gewißen Beweißthümern
+                    darthun könten, daß ihnen einige Güter, welche ihnen mit Recht zugehören,
+                    eingezogen worden, ihnen ihr Recht unbenommen seyn solte, zu folge deßen auch
+                    unterschiedliche besagter Unterthanen in dem Besitz ihrer vorigen durch erwehnte
+                    Reductionee oder unter andern Vorwand ihnen abgesprochene eingezogene oder
+                        sequestirte<note n="121" type="crit_app">Hervorhebung durch lateinische
+                        Buchstaben. Dähnert; Schmauss: abgesprochenen, eingezogenen oder
+                        sequestrierten. CTS; Loewe; Fassmann: sequestrirte.</note> Güter wieder
+                    zurückgetreten, dieses Recht nachgehends von denen sämtlichen Reichs Ständen bey
+                    ihrer letzten Zusammenkunfft durch ihren vom<note n="122" type="crit_app"
+                        >Dähnert; Schmauss: den.</note> 30.ten letzt verwichenen May abgefaßten
+                    Reichstags Beschluß aufs neüe festgestellet worden; Als ist hiemit von beyden
+                    Allerhöchsten Theilen verabredet und beliebet worden, daß die im vorhergehenden
+                    3.ten Articul gegenwärtigen Tractats geschehene Cession<note n="123"
+                        type="crit_app">Hervorhebung durch lateinische Buchstaben. Fassmann:
+                        Concession.</note> keinesweges schmählern, viel weniger aber aufheben<note
+                        n="124" type="crit_app">Fassmann: oder gar aufheben solle.</note> sollen,
+                    derer in solchem abgetretenen District, Städte und Orte befindlichen
+                    Eingeseßenen und Unterthanen oder derer Erben, sie mögen intra oder extra
+                        territorium<note n="125" type="crit_app">Hervorhebung durch lateinische
+                        Buchstaben.</note> sich aufhalten in diesem Fall habende rechtmäßige
+                        Ansprach<note n="126" type="crit_app">Fassmann: Ansprüche.</note> und
+                    Forderungen, sondern sollen selbige gegen Seine <rs ref="#pp0204">königl[iche]. Maj[es]t[ä]t von
+                    Preußen</rs> in eben derselben Krafft und Würckung verbleiben, wie sie anjetzo gegen
+                    Ihro <rs ref="#pp0021">königl[ichen]. Maj[es]t[ä]t von Schweden</rs> sind und sich befinden, und nun
+                    oder ins künfftige können erweißlich gemachet werden.<lb/>8.<lb/>Imgleichen
+                    sollen Krafft der in dem vorhergehenden anderen Articul beliebten und
+                    festgestelleten Amnestie die wegen des bißhero gewesenen Krieges etwa
+                    vorenthaltene Güter, Lehn, Häuser und Eigenthum von was Art und beschaffenheit
+                    es auch immer seyn mag, denenjenigen Proprietariis, sie mögen intra oder extra
+                    territorium sich aufhalten, wieder zugestellet und eingeräumet werden, welche
+                    selbige bey königl[ich]. schwedischen Zeiten gehabt und beseßen
+                    haben.<lb/>9.<lb/>Nicht weniger sollen alle in mehrerwehnter <rs ref="#pp0204">Seiner
+                    königl[lichen]. Maj[es]t[ä]t in Preußen</rs> anjetzo cedirten<note n="127"
+                        type="crit_app">Hervorhebung durch lateinische Buchstaben.</note> Stadt
+                    Stettin und dem District zwischen der Oder und Pehne, Usedom und Wollin
+                        inclusive<note n="128" type="crit_app">Hervorhebung durch lateinische
+                        Buchstaben.</note>, nebst denen dazu gehörigen Ämtern, Städten, Flecken und
+                    Orten, von der dortigen damahligen königl[ich]. schwedischen Regierung, biß man
+                    königl[icher]. preußischer Seits sich des gantzen Landes mit gewaffneter Hand
+                    völlig bemächtiget<note n="129" type="crit_app">Fassmann: sich des gantzen
+                        Landes völlig bemächtiget.</note>, publico nomine<note n="130"
+                        type="crit_app">Hervorhebung durch lateinische Buchstaben.</note>, und mit
+                    der dortigen Lands Stände Consens<note n="131" type="crit_app">Hervorhebung
+                        durch lateinische Buchstaben.</note> wegen Schulden und Posten so auf auff
+                    königl[ichen]. Befehl aufgenommen, und in des Königs oder der Cron Schweden
+                    Nutzen verwand worden, gemachte würckliche Verpfändungen, und von besagter
+                    Regierung verliehene Immissiones<note n="132" type="annotation">Sachanmerkung:
+                        Immisson, die Einsetzung in ein Amt oder einen Besitz. Textvariante:
+                        Hervorhebung durch lateinische Buchstaben.</note> obgleich dieselbe des
+                    nachgehends eingefallenen Krieges halber könten interrumpiret worden seyn, in
+                    ihrer vollen kommenen Krafft verbleiben, dergestalt, daß die Creditores<note
+                        n="133" type="crit_app">Hervorhebung durch lateinische Buchstaben.</note>
+                    und rechtmäßige Inhaber so wohl die so<note n="134" type="crit_app">CTS; Dumont:
+                        so wohl die in Pommern geblieben.</note> in Pommern geblieben, als diejenige
+                    so wegen ihrer Civil und Militair<note n="135" type="crit_app">Hervorhebung
+                        durch lateinische Buchstaben.</note> Dienste dieses Krieges halber nach
+                    Schweden oder anderswohin gehen müßen, solches ihnen in Ansehen<note n="136"
+                        type="crit_app">Schmauss: Ansehung.</note> ihres gethanen Vorschußes
+                    erweißlich verliehenen oder eingeräumten Unterpfandes von was Art und
+                    Beschaffenheit es auch immer seyn mag, nichts davon ausgenommen ihre in Händen
+                    habende Contracte<note n="137" type="crit_app">Hervorhebung durch lateinische
+                        Buchstaben (auch im Folgenden).</note> und darin enthaltenen Verschreibungen
+                    so lange zu gute genießen, biß dieselbe nach Inhalt bemeldter Contracten völlig
+                    expiriret, und sie ihres Vorschußes halber gäntzlich vergnüget worden, als dann
+                    erst besagten Creditoren<note n="138" type="crit_app">Hervorhebung durch
+                        lateinische Buchstaben.</note> verpfändete und in mehr besagter Stadt
+                    Stettin und dazu gelegten District Wollin und Usedom inclusive belegene Güter,
+                    Ämter und Häuser Seiner <rs ref="#pp0204">königl[ichen]. Maj[es]t[ä]t in
+                        Preußen</rs> und dero
+                    Obmitbeschriebenen zufallen, und dero Cammer einverleibet werden. Es wäre dann,
+                    dass ihre königl[ichen]. Maj[es]t[ä]t in Preußen solche Verpfändungen vor der
+                    Zeit wieder einlösen, und die Interessenten<note n="139" type="crit_app"
+                        >Hervorhebung durch lateinische Buchstaben.</note> laut Inhalts der in
+                    Händen habenden Verschreibungen mit baarem Gelde abfinden wolten, sonst aber und
+                    vor so thaner erfolgter würcklichen Reluition<note n="140" type="crit_app"
+                        >Hervorhebung durch lateinische Buchstaben. Schmauss: Resolution.</note>
+                    verbleiben wie vorbesagt die Pfandhaber<note n="141" type="crit_app">CTS;
+                        Dumont: Innhaber.</note> in dem vollkommenen ruhigen Besitz ihrer
+                        Hypothequen<note n="142" type="crit_app">Hervorhebung durch lateinische
+                        Buchstaben.</note>, so lange biß die ihnen verschriebene Jahre völlig
+                    expiriret und selbe wegen ihrer Contracten gäntzlich vergnüget
+                    worden.<lb/>10.<lb/>Desgleichen nehmen auch Seine <rs ref="#pp0204">königl[iche]. Maj[es]t[ä]t in
+                    Preußen</rs> als nunmehrige Landes Obrigkeit über mehr besagte loca cessa<note
+                        n="143" type="crit_app">Hervorhebung durch lateinische Buchstaben.</note>
+                    auf sich, die von dem damahligen königl[ich]. schwedischen General
+                        Gouverneur<note n="144" type="crit_app">Hervorhebung durch lateinische
+                        Buchstaben.</note> und Regierung auch anderen aldorten Commandirenden<note
+                        n="145" type="crit_app">Hervorhebung durch lateinische Buchstaben.</note>
+                    königl[ich]. schwedischen Generalen<note n="146" type="crit_app">Hervorhebung
+                        durch lateinische Buchstaben.</note> ausgegebenen speciale<note n="147"
+                        type="crit_app">Hervorhebung durch lateinische Buchstaben.</note>
+                    Verschreibungen und Versicherungen wegen eingetriebenen Viehes und Getreide auch
+                    andern Nothdürfften<note n="148" type="crit_app">Fassmann:
+                        Nothdürfftigkeiten.</note>, so zu des Landes damahliger Defension<note
+                        n="149" type="crit_app">Hervorhebung durch lateinische Buchstaben.</note> in
+                    diesem letzten Kriege würcklich angewand worden, denen Inhabern solcher
+                    Verschreibungen biß auf fünfzehn Tausend Reichsthaler Pommersche Courant<note
+                        n="150" type="crit_app">Hervorhebung durch lateinische Buchstaben (auch im
+                        Folgenden).</note> Währung zu vergüten.<lb/>11.<lb/>Beyde hohe
+                        Compaciscenten<note n="151" type="crit_app">Hervorhebung durch lateinische
+                        Buchstaben.</note> versprechen die annoch in Händen habende Archive<note
+                        n="152" type="crit_app">Hervorhebung durch lateinische Buchstaben (auch im
+                        Folgenden).</note>, Schriften und Documenten<note n="153" type="crit_app"
+                        >Hervorhebung durch lateinische Buchstaben (auch im Folgenden).</note>,
+                    nichts davon ausgenommen, welche so wohl die loca cessa<note n="154"
+                        type="crit_app">Hervorhebung durch lateinische Buchstaben.</note>, als den
+                    Seiner königl[ichen]. Maj[es]t[ä]t und dem Reiche Schweden verbleibenden Antheil
+                    von Pommern und die Insul<note n="155" type="crit_app">Hervorhebung durch
+                        lateinische Buchstaben (auch im Folgenden).</note> Rügen angehen, einander
+                    bona fide<note n="156" type="crit_app">Hervorhebung durch lateinische
+                        Buchstaben.</note>, so bald es möglich abliefern und denenjenigen zustellen
+                    zu laßen, welche dazu mit behöriger Vollmacht werden versehen werden; da aber
+                    der größte Teil der letzteren von Seiner königl[ichen]. Maj[es]t[ä]t in Preussen
+                    des <rs ref="#pp0179">Königs von<note n="157" type="crit_app">Schmauss:
+                        in.</note> Dennemarck</rs><note
+                        n="158" type="crit_app">Friedrich IV. (1671-1730), seit 1699 König von
+                        Dänemark.</note> Maj[es]t[ä]t soll eingehändiget worden seyn, so wollen
+                    hochbesagte Seine königl[iche]. Maj[es]t[ä]t in Preußen dero Officia<note
+                        n="159" type="crit_app">Hervorhebung durch lateinische Buchstaben.</note>
+                    beydes Königs in Dennemarck Maj[es]t[ä]t anwenden, damit selbige Archiven,
+                    Docmenten und Schriften nebst denen dazu gehörigen Wismarischen<note n="160"
+                        type="crit_app">Schmauss: Wismarischen (auch im Folgenden).</note> Tribunals
+                        Acten<note n="161" type="crit_app">Hervorhebung durch lateinische
+                        Buchstaben.</note> nichts davon ausbeschieden, Seiner königl[ichen].
+                    Maj[es]t[ä]t und dem Reiche Schweden bey erfolgter Restitution<note n="162"
+                        type="crit_app">Hervorhebung durch lateinische Buchstaben.</note> des in
+                    königl[ich]. dänischen Händen anjetzo seyenden Antheils von Pommern mit der
+                    Insul Rügen wieder sollen abgeliefert werden.<lb/>12.<lb/>Damit auch das
+                        Commercium<note n="163" type="crit_app">Hervorhebung durch lateinische
+                        Buchstaben (auch im Folgenden).</note> und die Schiffahrt sämtlichen
+                    Eingeseßenen und Einwohnern in dem Herzogthum Pommern so wohl königl[ichen].
+                    schwedischen Antheils als den an Seine <rs ref="#pp0204">königl[iche].
+                        Maj[es]t[ä]t in Preußen</rs>
+                    anjetzo cedirten Districts und darinnen befindlichen Städte und Dörffer
+                    bestmöglichst befodert und allen desfals entstehenden Difficultäten und
+                        Incommoditäten<note n="164" type="crit_app">Hervorhebung durch lateinische
+                        Buchstaben.</note> zu Zeiten<note n="165" type="crit_app">CTS; Dumont;
+                        Schmauss: in zeiten.</note> nachdrücklichst möge vorgebauet werden, So haben
+                    beyderseits hohe Compaciscenten<note n="166" type="crit_app">Hervorhebung durch
+                        lateinische Buchstaben (auch im Folgenden).</note> sich dahin verglichen und
+                    hiemit verabredet, daß der Pehne Strohm auf fürberührte Art die Gräntze mache,
+                    gemeinschafftlich verbleibe, und daß weder auf dieß noch jenseits der Pehne auf
+                    besagtem Strohm<note n="167" type="crit_app">Fassmann: dass weder auf dieser
+                        noch jener Seite der Peene an dem Strohm.</note> und anderen darin
+                    fließenden Wäßern einige neue Zölle oder andere Imposten<note n="168"
+                        type="crit_app">Hervorhebung durch lateinische Buchstaben.</note>
+                    aufgerichtet noch die alte vermehret, sondern in allem wie es vor alten Zeiten
+                    und vor diesem letzten Kriege gewesen, unverbrüchlich soll gelaßen und gehalten
+                    werden, so daß die Schiffahrt und das Commercium auf keine Weise gehemmet werden
+                    möge. Es behalten auch die königl[ich]. preußische Unterthanen für ihre kommende
+                    und gehende Schiffe gleich allen anderen Fremden den freyen und ungehinderten
+                    Gebrauch des Hafens Grunschwart um sich dorthin zu retiriren<note n="169"
+                        type="crit_app">Hervorhebung durch lateinische Buchstaben.</note>, und mögen
+                    sie sich daselbst ungehindert aufhalten, so lange die Nothdurftt es erfordert,
+                    ohne daß sie desfals<note n="170" type="crit_app">Schmauss: deshalb.</note>
+                    einige Onera<note n="171" type="crit_app">Hervorhebung durch lateinische
+                        Buchstaben.</note> weder daselbst noch beym Ruden<note n="172"
+                        type="annotation">Sachanmerkung: Ruden, flache Düneninsel am südöstlichen
+                        Rand des Greifswalder Boddens. Textvariante: Hervorhebung durch lateinische
+                        Buchstaben.</note> abzuführen gehalten seyn sollen, nachdem Sie einmahl die
+                    vor diesem Kriege gewöhnliche Auflagen in Wolgast<note n="173" type="annotation"
+                        >Wolgast, Stadt an der Peene, unweit der Mündung des Flusses in die Ostsee,
+                        schwedisch 1648-1815.</note> erleget. Desgleichen sollen auch die
+                    königl[ich]. schwedische Pommersche Unterthanen<note n="174" type="crit_app"
+                        >CTS; Dumont: Königl. Schwedische Unterthanen.</note> eine ebenmäßige
+                    Freyheit in denen locis cessis<note n="175" type="crit_app">Hervorhebung durch
+                        lateinische Buchstaben.</note> und dort gelegenen Hafen, Küsten und Wäßern
+                    zu genießen haben. Seine <rs ref="#pp0204">königl[iche]. Maj[es]t[ä]t in
+                        Preußen</rs> wollen auch<note
+                        n="176" type="crit_app">Dumont: Seine Königl. Maytt. wollen auch.</note> den
+                    Holtz- und Eichenhandel den die Cron Schweden und dero Unterthanen vorhin in
+                    Pommern und anderen königl[ich]. preußischen Orten getrieben, keinesweges
+                    hemmen, sondern solchen bestens favorisiren<note n="177" type="crit_app"
+                        >Hervorhebung durch lateinische Buchstaben.</note>, die königl[ich].
+                    schwedische Unterthanen auch so wohl in diesen als allen andern Handlungen, es
+                    sey auf der Oder oder Warthe<note n="178" type="crit_app">Fassmann:
+                        Warta.</note> Strohm als gentem amicissimam<note n="179" type="crit_app"
+                        >Hervorhebung durch lateinische Buchstaben.</note> handhaben, auch diesen
+                    Strohm so breit und offen laßen, daß die Flöße und Schiffahrt dadurch keine
+                    Hinderung leiden können. Es wollen auch beyde Compaciscenten beyderseits
+                    Unterthanen in ihren Angelegenheiten und rechtmäßigen Foderungen prompte<note
+                        n="180" type="crit_app">Hervorhebung durch lateinische Buchstaben.</note>
+                    und gleichmäßige<note n="181" type="crit_app">Fassmann; Schmauss:
+                        rechtmässige.</note> Justice<note n="182" type="crit_app">Hervorhebung durch
+                        lateinische Buchstaben.</note> wiederfahren laßen. <lb/>13.<lb/>Demnach man
+                    wegen des bey königl[ich]. schwedischen Zeiten in Stettin bezahlten Licents
+                    diesesmahl nicht übereinkommen können, die jetzigen Conjuncturen<note n="183"
+                        type="crit_app">Hervorhebung durch lateinische Buchstaben.</note> aber die
+                    Unterzeichnung dieses Friedens Tractats länger aufzuschieben<note n="184"
+                        type="crit_app">Fassmann: anzustehen. Schmauss: aufzuziehen.</note> nicht
+                    verstatten wollen, als ist von beyden hohen Theilen gut befunden worden, die
+                    gäntzliche Entscheidung dieser Sache biß zu einer absonderlich dazu zu
+                    verordnenden Commission<note n="185" type="crit_app">Hervorhebung durch
+                        lateinische Buchstaben.</note> auszusetzen, um sich desfals durch die
+                    fernere Officia<note n="186" type="crit_app">Hervorhebung durch lateinische
+                        Buchstaben.</note> anfangs hocherwehnter beyden Cronen, welche als
+                        Mediateurs<note n="187" type="crit_app">Hervorhebung durch lateinische
+                        Buchstaben (auch im Folgenden).</note> bey diesem Friedens Negotio<note
+                        n="188" type="crit_app">Hervorhebung durch lateinische Buchstaben.</note>
+                    gewesen, gütlich zu vergleichen, und darin einen baldigen endlichen Schluß zu
+                    treffen, ohne daß solches mitlerweile einem oder dem andern derer hohen
+                        Paciscenten<note n="189" type="crit_app">Hervorhebung durch lateinische
+                        Buchstaben.</note> an seinen Rechten derogiren<note n="190" type="crit_app"
+                        >Hervorhebung durch lateinische Buchstaben.</note>, noch der zwischen Ihro
+                    <rs ref="#pp0021">königl[ichen]. Maj[es]t[ä]t von Schweden</rs> und Seiner <rs
+                        ref="#pp0205">königl[ichen]. Maj[es]t[ä]t
+                    von Groß Britannien</rs> errichteter vorhin angezogener Premliminair<note n="191"
+                        type="crit_app">Dumont; Fassmann: der zwischen Ihro Königl. Maytt. von Groß
+                        Brittannien errichteten Premlininair. Loewe: errichtete, vorhin angezogene
+                        Premlininair.</note> Tractats dadurch einigen Anstoß leiden, weniger die
+                    Vollenziehung derer übrigen in gegenwärtigem Tractat festgestellten
+                        Articuln<note n="192" type="crit_app">Fassmann: [Auslassung:] fesgestellten
+                        Articuln.</note> auf einige Weise aufhalten können<note n="193"
+                        type="crit_app">Schmauss: </note>. Wobenebenst die hier anwesende Ministres
+                    derer hohen Mediateurs über sich genommen, dieser Sache halber bey ihren
+                        respective<note n="194" type="crit_app">Hervorhebung durch lateinische
+                        Buchstaben.</note> Höfen solche Vorstellung zu thun, daß dieser Zwist der
+                    Billigkeit nach und zum längsten innerhalb drey oder vier Monath<note n="195"
+                        type="crit_app">Schmauss: 3. oder 4. Monathen. CTS: 3. oder 4.
+                        Monath.</note> von heütigem dato angerechnet gütlich abgethan werden
+                    möge.<lb/>14.<lb/>Die durch diese Friedens Tractaten an Seine königl[iche].
+                    Maj[es]t[ä]t in Preussen cedirte<note n="196" type="crit_app">Hervorhebung durch
+                        lateinische Buchstaben.</note> Vor Pommersche Städte und Orte auch deren
+                    sämtliche Eingeseßene sollen aller derer Rechte, Praerogativen, und Immunitäten,
+                        Exemtionen<note n="197" type="crit_app">Sachanmerkung: Exemtion, Ausnahme
+                        oder Befreiung von einem allgemein gültigen Gesetz. Textvariante:
+                        Hervorhebung durch lateinische Buchstaben.</note> und Freyheiten, deren
+                    Seine <rs ref="#pp0204">königl[iche]. Maj[es]t[ä]t in Preußen</rs> übrige Unterthanen in dem Königreich
+                    Schweden und denen dazu gehörigen Ländern und Provintzien genießen oder auch
+                    sonsten amicissimae gentihb können accordiret<note n="198" type="crit_app"
+                        >Hervorhebung durch lateinische Buchstaben.</note> werden, sich ins
+                    Künfftige zu erfreuen haben. Und weil Ihro <rs ref="#pp0179">königl[iche]. Maj[es]t[ä]t von
+                        Dennemarck</rs><note n="199" type="crit_app">Dähnert: Dännemark (auch im
+                        Folgenden).</note> seit<note n="200" type="crit_app">Dähnert: Zeit.</note>
+                    des bißherigen Krieges die für denen königl[ichen]. schwedischen Unterthanen
+                    vorhin durch solenne<note n="201" type="crit_app">Hervorhebung durch lateinische
+                        Buchstaben.</note> Tractaten festgestellete Freyheit von dem Zoll im
+                        Sunde<note n="201" type="annotation">Sachanmerkung: Öresund. Die Einnahmen
+                        aus dem Sundzoll (aufgehoben 1857) waren für die dänische Kriegskasse von
+                        großer Bedeutung. Textvariante: Hervorhebung durch lateinische
+                        Buchstaben.</note> bißher nicht gestatten wollen, sie auch selbige ihnen
+                    künftig zu entziehen und zu verweigern Uhrsach und Gelegenheit suchen dürfften;
+                    Ihro <rs ref="#pp0021">königl[iche]. Maj[es]t[ä]t von Schweden</rs> aber und Seine <rs ref="#pp0204">königl[iche].
+                    Maj[es]t[ä]t in Preußen</rs> beyderseits billig und recht finden, daß diese denen
+                    königl[ichen]. schwedischen Unterthanen, und zwar nicht weniger denen, welche
+                    durch diesen Tractat an <rs ref="#pp0204">Seine königl[liche]. Maj[es]t[ä]t in
+                        Preußen</rs> kommen, als
+                    denen die unter königl[icher]. schwedischer Botmäßigkeit sind und bleiben,
+                    einmahl zugestandene Zollfreyheit im Sunde ihnen auch ferner ungekränckt
+                    verbleibe und gelaßen werde; So wollen beyderseits königl[liche]. Maj[estä]ten
+                    auf oberwehnten Fall daran seyn auch, da es nöthig, alle zulängliche und
+                    kräfftige Mittel vorkehren, und zur Hand nehmen, damit diese von der Cron
+                    Dennemarck etwa vorgenommene Neuerung wieder abgestellet, und nicht weniger alle
+                    königl[iche]. schwedische als anjetzo cedirte<note n="202" type="crit_app"
+                        >Hervorhebung durch lateinische Buchstaben.</note> königl[ich]. preußische
+                    Unterthanen bey der Exemtion<note n="203" type="crit_app">Hervorhebung durch
+                        lateinische Buchstaben. Dähnert; Schmauss: Exemption.</note> und Freyheit
+                    von dem Zoll im Sunde denen deshalb aufgerichteten Tractaten gemäß
+                        conserviret<note n="204" type="crit_app">Hervorhebung durch lateinische
+                        Buchstaben.</note> und erhalten werden, zu welchem Ende beyderseits hohe
+                    Compasciscenten sich hiemit verbinden bedürffenden Falls sich näher hierüber
+                    zusammen zu setzen, und die desfals nöthige Mesures<note n="205" type="crit_app"
+                        >Hervorhebung durch lateinische Buchstaben.</note> zu
+                    nehmen.<lb/>15.<lb/>Was die Deserteurs<note n="206" type="crit_app">Hervorhebung
+                        durch lateinische Buchstaben.</note> so wohl Soldaten als Landes Einwohner
+                    betrifft, so verbleibet es damit bey denen vorigen zwischen denen Cronen
+                    Schweden und Preußen in diesem Fall errichteten Conventionen<note n="207"
+                        type="crit_app">Hervorhebung durch lateinische Buchstaben.</note>, welche
+                    dann so wohl als ein neues Cartel<note n="208" type="crit_app">Hervorhebung
+                        durch lateinische Buchstaben.</note> bey erster Gelegenheit renoviret<note
+                        n="209" type="crit_app">Hervorhebung durch lateinische Buchstaben.</note>
+                    und aufgerichtet werden soll.<lb/>16.<lb/>Was die Posten in Pommern betrifft, so
+                    behalten sich beyde hohe Compaciscenten in dero Territoriis<note n="210"
+                        type="crit_app">Hervorhebung durch lateinische Buchstaben.</note> sowohl
+                    dies-, als jenseits der Pehne das Ius Postarum<note n="211" type="crit_app"
+                        >Hervorhebung durch lateinische Buchstaben.</note> vor; Doch wollen Ihro
+                    Maj[es]t[ä]t der König in<note n="212" type="crit_app">Fassmann: von.</note>
+                    Preußen die vorhin mit der Cron Schweden desfals aufgerichtete Conventionen, in
+                    so weit die anjetzo<note n="213" type="crit_app">Fassmann: darinnen.</note>
+                    geschehene Cession<note n="214" type="crit_app">Hervorhebung durch lateinische
+                        Buchstaben.</note> die Sache nicht verändert, renoviren<note n="215"
+                        type="crit_app">Hervorhebung durch lateinische Buchstaben.</note>, und
+                    darinnen keine Neuerung machen, auch das Postgeld so wohl für die
+                        Passagierer<note n="216" type="crit_app">Hervorhebung durch lateinische
+                        Buchstaben (auch im Folgenden).</note> als Briefe, auf eine billige und in
+                    dem Römischen Reiche gewöhnliche Weise reguliren, wie nicht weniger das
+                    königl[ich]. schwedische Post Wesen so viel möglich, und zu beyderseits hohen
+                        Interessenten<note n="217" type="crit_app">Hervorhebung durch lateinische
+                        Buchstaben.</note> Nutzen, bestens favorisiren und befodern helffen. Wie
+                    denn in specie<note n="218" type="crit_app">Hervorhebung durch lateinische
+                        Buchstaben.</note> verabredet ist, daß denen königl[ich]. schwedischen
+                    Posten eine freye Station in Anclam<note n="219" type="annotation">Anklam, Ort
+                        am schiffbaren Unterlauf der Oder.</note> gelaßen werden soll, so daß
+                    selbige ihre von Schwedischen Orten kommende Brieffe, Pacquete<note n="220"
+                        type="crit_app">Hervorhebung durch lateinische Buchstaben.</note> und
+                    Passagierer alda abliefern, und durch königl[ich]. preußische Posten weiter
+                    befodern auch die mit königl[ich]. preußischen Posten von anderen Orten in
+                    Anclam ankommende und nach dem königl[ich]. schwedischen Pommern und weiter
+                    gehende Briefe, Pacquete und Passagiere daselbst annehmen und folglich sicher
+                    und ohngehindert weiter fortbringen können. Solte sonst in Ansehung der Posten
+                    noch einige weitere Abrede zu nehmen seyn, so soll solches durch die von beyden
+                    hohen Theilen künftig dazu verordnenden Commissarien<note n="221"
+                        type="crit_app">Hervorhebung durch lateinische Buchstaben.</note> geschehen,
+                    und das Nothige darunter verfüget werden.<lb/>17.<lb/>Seine <rs ref="#pp0204">königl[iche].
+                    Maj[es]t[ä]t in Preußen</rs> verbinden sich auf das allerkräfftigste und nach Inhalt
+                    des oberwehnten mit Ihro <rs ref="#pp0205">königl[ichen]. Maj[es]t[ä]t von Groß
+                        Britannien</rs>
+                    geschloßenen Preliminair Tractats und deßen 2.ten Separat Articuls dem
+                    <rs ref="#pp0194">Czaren<note n="222" type="crit_app">Hervorhebung durch lateinische
+                        Buchstaben.</note> von Rußland</rs><note n="223" type="annotation">Sachanmerkung:
+                        Peter I. der Große (1672-1725), seit 1689 Zar. Textvariante: Schmauss: des
+                        Czaaren von Russland Majestät. Dähnert: des Czaren von Russland Majestät.
+                        Loewe: Zaren. CTS: Czaarn.</note>, so lange der gegenwärtige Krieg zwischen
+                        Seiner<note n="224" type="crit_app">Dähnert; Schmauss: Ihrer.</note>
+                    königl[ichen]. Maj[es]t[ä]t von Schweden und demselben währet<note n="225"
+                        type="annotation">Schweden und Russland führten von 1700 bis 1721 Krieg. Im
+                        Frieden von Nystad (1721 IX 10) mußte Schweden Estland, Livland,
+                        Ingermanland und Teile Kareliens an Russland abtreten; gegen eine
+                        Entschädigungszahlung verzichtete Russland auf finnische Gebiete. " </note>,
+                    auf keinerley Art , unter was Schein und Vorwand es auch immer seyn mag, weder
+                    directe noch indirecte zu assistiren<note n="226" type="crit_app">Hervorhebung
+                        durch lateinische Buchstaben.</note>, zu helfen, noch deßen gegen Ihro
+                    königl[ichen]. Maj[es]t[ä]t und das Reich Schweden wie auch deßen hohe
+                        Alliirte<note n="227" type="crit_app">Hervorhebung durch lateinische
+                        Buchstaben (auch im Folgenden).</note> und Bunds Verwandte führende
+                    schädliche Absichten und Vorhaben zu befodern, noch befodern zu
+                    helffen.<lb/>18.<lb/>Vielmehr geloben und versprechen <rs ref="#pp0204">Seine königl[iche].
+                        Maj[es]t[ä]t in Preußen</rs> hiemit, die mit <rs ref="#pp0021">Ihro königl[ichen]. Maj[es]t[ä]t zu
+                    Schweden</rs> Vorfahren und dem Reich Schweden vorhin gepflogene vertrauliche
+                    Freundschaft und Bündniße nebst denen Garantien<note n="228" type="crit_app"
+                        >Hervorhebung durch lateinische Buchstaben.</note>, so dem fürstlichen
+                    Holsteinischen Hause auf dem Fuß der mit denen Nordischen Alliirten<note n="229"
+                        type="crit_app">Dänemark, Preußen, Russland, Sachsen/Polen</note>
+                    geschloßenen, oder noch ferner mit Concert<note n="230" type="crit_app"
+                        >Hervorhebung durch lateinische Buchstaben.</note> von Ihro <rs ref="#pp0204">königl[ichen].
+                    Maj[es]t[ä]t von Preußen</rs> zu schließenden Frieden können zu gute kommen, anjetzo
+                    mit Ihro königl[ichen]. Maj[es]t[ä]t und dem Reiche Schweden zu erneuern und
+                    selbige nach denen jetzigen Conjoncturen<note n="231" type="crit_app"
+                        >Hervorhebung durch lateinische Buchstaben.</note> einzurichten. Überdem
+                    wollen Ihro königl[liche]. Ma[jes]t[ä]t in<note n="232" type="crit_app"
+                        >Fassmann: von.</note> Preußen gehalten seyn, an Ihro königl[ichen].
+                    Maj[es]t[ä]t in Schweden auf dero Assignation<note n="233" type="crit_app"
+                        >Hervorhebung durch lateinische Buchstaben.</note> und Quitung die Summa von
+                    zwey Millionen oder zwantzig mahl hundert tausend Reichsthaler<note n="234"
+                        type="crit_app">Hervorhebung durch lateinische Buchstaben.</note> an neuen
+                    vollgültigen einfachen und gedoppelten Marck oder Drittheil<note n="235"
+                        type="crit_app">CTS; Dähnert: Drittelstücken. Schmauss: Drittel.</note>
+                    Stücken nach dem Leipziger Müntz Fuß de Anno 1690 da die Marck feinen Silbers zu
+                    zwölff Courant<note n="236" type="crit_app">Hervorhebung durch lateinische
+                        Buchstaben.</note> Thalern ausgemüntzet ist, in Hamburg zahlen zu laßen, und
+                    zwar in drey Terminen<note n="237" type="crit_app">Hervorhebung durch
+                        lateinische Buchstaben.</note>, wovon der erste sechs Wochen nach ihrer
+                    <rs ref="#pp0021">[ichen]. Maj[es]t[ä]t in Schweden</rs> ausgestellten Ratification<note n="238"
+                        type="crit_app">Hervorhebung durch lateinische Buchstaben (auch im
+                        Folgenden).</note> über gegenwärtiges Friedens Instrument mit sechs mahl
+                    hundert tausend<note n="239" type="crit_app">CTS; Dähnert; Schmauss:
+                        600000.</note> Reichsthalern, der andere am Ende des bevorstehenden Monaths
+                    May mit sieben mahl hundert tausend<note n="240" type="crit_app">CTS; Dähnert;
+                        Schmauss: 700000.</note> Reichsthalern, und der letzte den 1.ten des darauf
+                    folgenden Monaths Decembris des jetztlauffenden 1720.ten Jahres abermahl mit
+                    sieben mahl hundert tausend<note n="241" type="crit_app">CTS; Dähnert; Schmauss:
+                        700000.</note> Reichsthalern, alle dreymahlen und bey jeden hieroben
+                    ausgesetzten Termin<note n="242" type="crit_app">Hervorhebung durch lateinische
+                        Buchstaben.</note> richtig, ohnabgekürtzt und ohnfehlbar zu Hamburg an Ihro
+                    <rs ref="#pp0021">königl[ichen]. Maj[es]t[ä]t von Schweden</rs> mit behörigen Vollmachten und Quitungen
+                    versehenen Gevollmächtigten sollen bezahlet und geliefert
+                    werden.<lb/>19.<lb/>Wann auch Seine<note n="243" type="crit_app">Dähnert;
+                        Schmauss: Ihre.</note> <rs ref="#pp0021">königl[ichen]. Maj[es]t[ä]t von
+                            Schweden</rs> und das
+                    Reich Schweden außer die in diesem Tractat Seiner königl[ichen].
+                        Maj[es]t[ä]t<note n="244" type="crit_app">Dähnert; Fassmann; Schmauss:
+                        Königl. Maytt. in Preussen.</note> cedirte<note n="251" type="crit_app"
+                        >Hervorhebung durch lateinische Buchstaben.</note> und abgetretene Orte und
+                    Länder hochgedachter Seiner königl[ichen]. Maj[es]t[ä]t dero Erben und
+                    Nachkommen hiemit und Krafft dieses annoch auf gleiche Weise und mit eben der
+                    Verbindlichkeit, wie Art[ikel]. 3 die Cession von Stettin nebst dem District
+                    zwischen der Oder und Pehne nebst denen Insuln Wollin und Usedom geschehen,
+                    cediren und abtreten in perpetuum<note n="252" type="crit_app">Hervorhebung
+                        durch lateinische Buchstaben.</note> die auf jener Seite der Oder belegne
+                    Städte Dam<note n="253" type="crit_app">Sachanmerkung: Damm, 1648 schwedisch.
+                        Textvariante: Dähnert; Loewe; Schmauss: Damm.</note> und Golnau<note n="254"
+                        type="crit_app">Sachanmerkung: Gollnow, Stadt im Regierungsbezirk Stettin an
+                        der schiffbaren Ihna, 1648 schwedisch. Textvariante: Fassmann: Golnen.
+                        Loewe: Gollnow.</note> mit allen deren Appartinentien<note n="255"
+                        type="crit_app">Hervorhebung durch lateinische Buchstaben (auch im
+                        Folgenden).</note> und Zubehörungen, Rechten und Gerechtigkeiten so wie ihro
+                    königl[ichen]. Maj[es]t[ä]t und Cron<note n="256" type="crit_app">Dähnert;
+                        Schmauss: und die Cron.</note> Schweden besagte Örter mit ihren
+                    Appartinentien vermöge des Westphälischen Friedens Schlußes Art[ikel]. X
+                    beseßen, genutzet und gebrauchet haben, nichts davon ausbeschieden, Als
+                    versprechen und geloben Seine <rs ref="#pp0204">königl[ichen]. Maj[es]t[ä]t in
+                        Preussen</rs> dahingegen
+                    alle zulängliche Auswege und nachdrückliche Officia<note n="257" type="crit_app"
+                        >Hervorhebung durch lateinische Buchstaben.</note> anzuwenden, um die
+                    gegenwärtige gegen Ihro <rs ref="#pp0021">königl[ichen]. Maj[es]t[ä]t von<note n="258"
+                        type="crit_app">Schmauss: in.</note> Schweden</rs>, und der Cron Schweden
+                        declarirte<note n="259" type="crit_app">Hervorhebung durch lateinische
+                        Buchstaben.</note> Feinde dahin zu vermögen, einen billigen und sichern
+                    Frieden mit Ihro königl[ichen]. Maj[es]t[ä]t und dem Reiche Schweden
+                    fordersahmst einzugehen.<lb/>20.<lb/>Der Westphälische Friedens Schluß, in so
+                    weit derselbe weder durch gegenwärtigen Tractat noch durch den mit Seiner
+                    <rs ref="#pp0205">königl[ichen]. Maj[es]t[ä]t von Groß Britannien</rs> als Churfürsten und Hertzogen zu
+                    Braunschweig und Lüneburg geschloßenen Friedens Instrument vom 9/20 Nov
+                        1719<note n="260" type="annotation">Friede von Stockholm zwischen Schweden
+                        und Hannover (1719 XI 20). Hannover erhält Bremen und Verden und übernimmt
+                        die Rolle eines Vermittlers zwischen Schweden und den Kriegsgegnern.</note>
+                    nicht geändert noch durch den Nordischen Frieden de concert mit Preußen ferner
+                    geändert werden möchte, bleibet in seiner vollenkommenen Kraft und Würckung, und
+                    verbinden sich beyde compaciscirende hohe Theile ihres Orts alles dasjenige
+                    beyzutragen, was zu Wiederherstellung des übrigen und Befestigung besagten
+                    Westphälischen Friedens Schlußes nöthig und dienlich seyn wird. Zufolge deßen
+                    wollen auch Ihro <rs ref="#pp0204">königl[ichen]. Maj[es]t[ä]t in Preußen</rs> zugleich mit denen
+                    übrigen hiebey interessirten Puissancen<note n="261" type="crit_app"
+                        >Hervorhebung durch lateinische Buchstaben.</note> und in specie<note
+                        n="262" type="crit_app">Hervorhebung durch lateinische Buchstaben.</note>
+                    mit Ihro <rs ref="#pp0205">königl[liche] Maj[es]t[ä]t von Groß Britannien</rs> und Churfürsten zu
+                    Braunschweig und Lüneburg in Ansehung daß die Cron Dennemarck sich gegen
+                    obbemeldte königl[ichen]. Maj[es]t[ä]t von Großbritannien schon an heischig
+                    gemachet, den in Besitz habenden Antheil von Pommern nebst der Insul Rügen an
+                    die Cron Schweden zu restituiren, alle nachdrückliche Mittel vorkehren, um<note
+                        n="263" type="crit_app">Dähnert; Fassmann: und.</note> zum Besten Ihro
+                    königl[ichen]. Maj[es]t[ä]t und des Reichs Schweden sothane völlige
+                        Restitution<note n="264" type="crit_app">Hervorhebung durch lateinische
+                        Buchstaben.</note> obbenandten von der Cron Dennemarck occupirten Antheils
+                    von Pommern mit der Insul Rügen bewürcken zu helfen. Deshalb auch nebst Ihro
+                    <rs ref="#pp0205">königl[ichen]. Maj[es]t[ä]t von Groß Britannien</rs> und churfürstl[ichen].
+                    Durchl[aucht]. zu Braunschweig und Lüneburg bey Ihro kayserl[ichen].
+                    Maj[es]t[ä]t als Oberhaupt des Römischen Reichs<note n="265" type="crit_app"
+                        >Fassmann: Oberhaupt des Reichs.</note> alle ersinliche Officia<note n="266"
+                        type="crit_app">Hervorhebung durch lateinische Buchstaben.</note> anwenden.
+                    Wobenebenst <rs ref="#pp0204">Seine königl[iche]. Maj[es]t[ä]t von Preußen</rs> gleichfals angeloben,
+                    so bald der Friede zwischen denen Cronen Schweden und Dennemarck geschloßen<note
+                        n="267" type="crit_app">Friedensvertrag zu Frederiksborg (1720 VII
+                        3).</note>, dero in Wismar habende Besatzung daraus zu
+                    ziehen.<lb/>21.<lb/>Beyde compasciscirende hohe Theile reserviren<note n="268"
+                        type="crit_app">Hervorhebung durch lateinische Buchstaben.</note> sich
+                    hiemit Ihro <rs ref="#pp0014">kayserl[iche]. Maj[es]t[ä]t</rs>, auch anderer Puissancen Garantie<note
+                        n="269" type="crit_app">Hervorhebung durch lateinische Buchstaben .
+                        Schmauss: Guarantie.</note> über dieses Friedens Instrument zu suchen und zu
+                    nehmen.<lb/>22.<lb/>Die Ratificationes über dieses Friedens Instrument sollen
+                    innerhalb fünff biß sechs Wochen a dato dieses beygebracht, auch allhie zu
+                    Stockholm gegeneinander ausgewechselt werden. Uhrkundlich sind von diesem
+                    Friedens Tractat zwey gleichlautende Exemplaria<note n="270" type="crit_app"
+                        >Hervorhebung durch lateinische Buchstaben.</note> verfertiget, deren eines
+                    von denen königl[ich]. schwedischen Plenipotentiarien und das andere von dem
+                    königl[ich]. Preußischen Plenipotentiario unterschrieben und unterzeichnet,
+                    beyde auch gegeneinander ausgewechselt worden. So gegeben und geschehen
+                    Stockholm den Ein und Zwantzigsten Tag des Monaths Januarii im Jahr Eintausend
+                    siebenhundert und Zwantzig.<lb/><rs ref="#pp0213">Johan August
+                        Meyerfeldt</rs><lb/><rs ref="#pp0024">Carl Gustav
+                        Dücker</rs><note n="271" type="crit_app">CTS; Dumont: Ducker.</note>
+                    <lb/><rs ref="#pp0025">Gustav Adam Taube</rs><lb/><rs ref="#pp0026">Magnus
+                        Julius De la Garde</rs><note n="272"
+                        type="crit_app">CTS; Dumont: Gardie. Loewe: Delagarde.</note>
+                    <lb/><rs ref="#pp0214">Johan Lillenstedt</rs><note n="273" type="crit_app">CTS; Dumont:
+                        Lilienstedt.</note>
+                    <lb/><rs ref="#pp0027">von Höpken</rs><note n="274" type="crit_app">CTS: Daniel Nicla von Hopken.
+                        Dumont: Hopken.</note></p>
+                <p/>
+                <p/>
+                <p><lb/>Articuli Separati<lb/>Alldieweilen man auch nöthig gefunden bey
+                    Unterzeichnung des zwischen Ihro <rs ref="#pp0021">königl[ichen]. Maj[es]t[ä]t
+                        von Schweden</rs> und
+                    dem Reiche Schweden eines und Seiner <rs ref="#pp0204">königl[ichen].
+                        Maj[es]t[ä]t in Preußen</rs>
+                    andern Theils unterm heutigen dato geschloßenen Friedens Instruments demselben
+                    einige Separat Articuln beyzufügen; So sind nach folgende<note n="275"
+                        type="crit_app">Schmauss: so sind folgende.</note> einzugehen und fest zu
+                    setzen beyderseits beliebet worden.<lb/>1.<lb/>Demnach bekandter maßen denen
+                    Westphälischen und Olivischen Friedens Schlüßen<note n="276" type="annotation"
+                        >Friede von Oliva (1660 V 3) zwischen Schweden einerseits und Polen,
+                        Brandenburg und Österreich andererseits.</note> zuwieder die Protestantische
+                    Religion an unterschiedlichen Örtern in und außerhalb des Römischen Reichs sehr
+                    hart gedrücket und verfolget wird, dergestalt, daß selbige große Gefahr läufft,
+                    an gewißen Orten gäntzlich ausgerottet zu werden, derowegen verbinden sich
+                    hiemit aufs kräfftigste beyderseits königl[iche]. Maj[es]t[ä]ten alle nur
+                    ersinliche Mittel nachdrücklich anzuwenden, damit die evangelische der
+                    unveränderten Augspurgischen Confession<note n="277" type="crit_app"
+                        >Hervorhebung durch lateinische Buchstaben.</note> so wohl als reformirter
+                    Religions Verwandte<note n="278" type="annotation">Fassmann; Schmauss: "damit
+                        die Evangelischen sowohl der reformirten Religion als der unveränderten
+                        Augspurgischen Confession Verwandte".</note> bey ihre vermöge des
+                    Westphälischen und Olivischen Friedens Schlußes, andern Pacten<note n="279"
+                        type="crit_app">Schmauss: vermöge des Westphälischen Friedens-Schlusses,
+                        anderen Pacten.</note>, Verträgen und Pacificationen<note n="280"
+                        type="crit_app">Hervorhebung durch lateinische Buchstaben.</note> rechtlich
+                    erworbenen Religions Exercitio<note n="281" type="crit_app">Hervorhebung durch
+                        lateinische Buchstaben (auch im Folgenden).</note> und Gewissens Freyheit
+                    nicht allein in dem Römischen Reich, sondern auch in allen andern Orten, wo
+                    dieselbe eingeführet und gebräuchlich gewesen oder seyn sollen, beständig
+                    erhalten, und die unterdrückte evangelische und reformirte Religions Verwandten
+                    in dem vorigen Besitz und Genuß ihrer Rechte, Privilegien<note n="282"
+                        type="crit_app">Hervorhebung durch lateinische Buchstaben.</note>, Gewißens
+                    und Religions Freyheit vollenkommen gesetzet werden.<lb/>2.<lb/>Seine
+                    <rs ref="#pp0204">königl[iche]. Maj[es]t[ä]t in Preußen</rs> versprechen auch die in denen locis
+                        cessis<note n="283" type="crit_app">Hervorhebung durch lateinische
+                        Buchstaben (auch unten).</note> bey dem dortigen preußischen
+                        Consistorio<note n="284" type="crit_app">Hervorhebung durch lateinische
+                        Buchstaben.</note>, der Augspurgischen Confession zugethanen Unterthanen
+                    allda vorkommende Sachen nur von denenjenigen Membris<note n="285"
+                        type="crit_app">Hervorhebung durch lateinische Buchstaben (auch
+                        unten).</note> so von der Augspurgischen Confession sind, erörtern und
+                    entscheiden zu lassen. Anbey wollen hochgedachte<note n="286" type="crit_app"
+                        >Schmauss: höchstgedachte.</note> seine königl[iche]. Maj[es]t[ä]t alle und
+                    jede der Cron Schweden zugehörige rechtmäßige Restantien<note n="287"
+                        type="crit_app">Sachanmerkung: Restantien, Rückstände in der
+                        Schuldenbegleichung. Textvariante: Hervorhebung durch lateinische
+                        Buchstaben.</note>, von was Nahmen und bey welchem die auch in locis cessis
+                    seyn mögen, nach der desfals zu überreichenden Specification<note n="288"
+                        type="crit_app">Hervorhebung durch lateinische Buchstaben.</note> innerhalb
+                    einer gewißen mit dem ehesten zu determinirenden Zeit ohnweigerlich abfolgen und
+                        bezahlen<note n="289" type="crit_app">Fassmann: bezahlen zu lassen.</note>,
+                    auch die Hand darüber halten laßen, daß die Stände in locis cessis ihrer
+                    Obliegenheit nach denen Membris von dem Wismarschen Tribunal<note n="290"
+                        type="crit_app">Hervorhebung durch lateinische Buchstaben.</note> den ihnen
+                    aus dem jetzo cedirten District zustehenden rückständigen Lohn so wohl, als was
+                    einer oder anderer unter denen dortigen Ständen noch wegen unbezahlten Lehn
+                        Sporteln<note n="291" type="crit_app">Sachanmerkung: Sporteln, Entgelt, das
+                        Gerichtspersonen für Amtshandlungen zusteht. Textvariante: Hervorhebung
+                        durch lateinische Buchstaben.</note> an den dortigen vormahls gewesenen
+                    Lehns Cantzley schuldig seyn kan, so bald als möglich ohnabgekürtzet reichen und
+                    abtragen mögen. Imgleichen<note n="292" type="crit_app">Fassmann: Auch sollen
+                        derer.</note> sollen auch derer königl[ich]. schwedischen Civil<note n="293"
+                        type="crit_app">Hervorhebung durch lateinische Buchstaben.</note> Bedienten
+                    in der Stadt und Festung Stettin liegende und ihnen zugehörige Häuser bey der
+                    Gerechtigkeit, Immunität<note n="294" type="crit_app">Hervorhebung durch
+                        lateinische Buchstaben.</note> und Freyheit, welche dieselbe bey der
+                    königl[ich]. schwedischen Zeiten gehabt, hinführo ferner ungekräncket,
+                        conserviret<note n="295" type="crit_app">Hervorhebung durch lateinische
+                        Buchstaben.</note> und ihnen jederzeit freye Disposition<note n="296"
+                        type="crit_app">Hervorhebung durch lateinische Buchstaben.</note> gelaßen
+                    werden, damit eigenes<note n="297" type="crit_app">Fassmann: nach
+                        eigenem.</note> Gefallens zu schalten und zu walten.<lb/>3.<lb/>Was
+                    diejenige Foderungen anbetrifft, welche eines Theils königl[ich] schwedischer
+                    Seiten an <rs ref="#pp0204">Ihro königl[ichen]. Maj[es]t[ä]t von Preußen</rs> gemacht worden, wegen
+                    Erstattung der Revenuen<note n="298" type="crit_app">Hervorhebung durch
+                        lateinische Buchstaben.</note> an die Proprietarios<note n="299"
+                        type="crit_app">Hervorhebung durch lateinische Buchstaben.</note> von
+                    solchen Gütern, Häusern, Capitalien und andern Eigenthum, welche die von der
+                    Ritterschaft und Adel, Bedienten und andern Eingesessenen, sie mögen intra oder
+                    extra territorium<note n="300" type="crit_app">Hervorhebung durch lateinische
+                        Buchstaben.</note> sich befinden, währenden diesen Troublen von der
+                    königl[ich]. preußischen Cammer eingezogen und gehoben worden, andern Theils
+                    diejenigen Praetensionen<note n="301" type="crit_app">Hervorhebung durch
+                        lateinische Buchstaben.</note> betrifft<note n="302" type="crit_app"
+                        >Fassmann; Schmauss: [Auslassung:] betrifft.</note>, so von königl[ich].
+                    preußischer Seiten oder von dero Unterthanen an Ihro <rs ref="#pp0021">königl[ichen]. Maj[es]t[ä]t
+                    von Schweden</rs> wegen der von königl[ich]. schwedischen Schiffen und Armateurs<note
+                        n="303" type="crit_app">Hervorhebung durch lateinische Buchstaben.</note>
+                    denen königl[ich]. preußischen Unterthanen genommenen Fahrzeugen, Gütern und
+                    Ladungen formiret<note n="304" type="crit_app">Hervorhebung durch lateinische
+                        Buchstaben.</note> werden; So sollen diese ermeldete Foderungen, nehmlich
+                    die so königl[ich]. schwedischer Seiten wegen der von der königl[ich].
+                    preußischen Cammer eingezogenen und gehobenen Revenuen<note n="305"
+                        type="crit_app">Hervorhebung durch lateinische Buchstaben.</note> aus der
+                    erwehnten Privatorum<note n="306" type="crit_app">Hervorhebung durch lateinische
+                        Buchstaben.</note> Eigenthum und von wegen königl[ich]. preußischer Seiten
+                    wegen der aufgebrachten und denen königl[ich]. preußischen Unterthanen
+                    zugehörigen Schiffen, Gütern und Ladungen gegen einander gemacht werden,
+                    hiedurch gäntzlich aufgehoben seyn, so daß desfals von dem einen Theil an dem
+                    andern hinführo nimmer einige Ansprache<note n="307" type="crit_app">Fassmann:
+                        einigen Anspruch. Schmauss: einiger Anspruch.</note> weder nun oder ins
+                    künfftige mehr kan formiret werden.<lb/>4.<lb/>Solte auch die königl[ich].
+                    schwedische pommersche Regierung, wenn selbige bey Restitution<note n="308"
+                        type="crit_app">Hervorhebung durch lateinische Buchstaben.</note> dies von
+                    der Cron Dennemarck occupirten<note n="309" type="crit_app">Hervorhebung durch
+                        lateinische Buchstaben.</note> Antheils in ihrer Activität<note n="310"
+                        type="crit_app">Hervorhebung durch lateinische Buchstaben.</note> kommt
+                    wegen ein oder andern Sachen, so die bißherige Oeconomie<note n="311"
+                        type="crit_app">Hervorhebung durch lateinische Buchstaben.</note> und
+                    Verwaltung der Financien<note n="312" type="crit_app">Hervorhebung durch
+                        lateinische Buchstaben. Schmauss: Finanzien.</note> oder auch einige
+                        particulaire<note n="313" type="crit_app">Hervorhebung durch lateinische
+                        Buchstaben.</note> Angelegenheiten betreffen, mit gutem Fundament und
+                        Raison<note n="314" type="crit_app">Hervorhebung durch lateinische
+                        Buchstaben.</note> vorschlagen<note n="315" type="crit_app">Fassmann;
+                        Schmauss: Raison etwas vorschlagen.</note> und beybringen können, so wollen
+                    Ihro <rs ref="#pp0204">königl[iche]. Maj[es]t[ä]t in Preußen</rs> solches vernehmen, und billig mäßige
+                        Reflexion<note n="316" type="crit_app">Hervorhebung durch lateinische
+                        Buchstaben. Fassmann: billige Reflexion. Hervorhebung durch lateinische
+                        Buchstaben.</note> darauf machen. Daferne sich auch finde, daß die auf der
+                    einen Seite der Pehne belegene Städte und Particuliers<note n="317"
+                        type="crit_app">Hervorhebung durch lateinische Buchstaben.</note> auf der
+                    andern gewiße Iura<note n="318" type="crit_app">Hervorhebung durch lateinische
+                        Buchstaben.</note> zu exerciren<note n="319" type="crit_app">Hervorhebung
+                        durch lateinische Buchstaben.</note> hätten und in deren possessione vel
+                        quasi<note n="320" type="crit_app">Hervorhebung durch lateinische
+                        Buchstaben.</note> sich befinden, so verstehet sich von selbst, daß
+                    ohngeachtet der Pehne Strohm zwischen beyden territoriis<note n="321"
+                        type="crit_app">Hervorhebung durch lateinische Buchstaben.</note> die
+                    Gräntze machet, und gemeinschafftlich verbleibet, es dennoch dabey sein bewenden
+                    haben und beyderseits Regierung , solche dabey schützen wollen.<lb/>5.<lb/>Diese
+                    Separat Articul sollen von eben der Krafft und Würckung seyn, als ob sie dem
+                    heutigen vollenzogenen und geschloßenen Friedensinstrument von Wort zu Wort
+                    einverleibet worden<note n="322" type="crit_app">Schmauss: wären.</note>, und
+                    sind hievon gleichfals zwey gleich lautende Exemplaria<note n="323"
+                        type="crit_app">Hervorhebung durch lateinische Buchstaben.</note>
+                    verfertiget, deren eines von denen königl[ich]. schwedischen Plenipotentiariis
+                    und das andere von dem königl[ich]. preußischen Plenipotentiario unterschrieben
+                    und unterzeichnet, beyde auch gegen einander ausgewechselt worden. So gegeben
+                    und geschehen Stockholm den Ein und zwantzigsten Tag des Monaths Januarii im
+                    Jahr Eintausend Siebenhundert und zwantzig.<lb/>6 aufgedrückte LS<note n="324"
+                        type="crit_app">Die Siegel überdecken z.T. die Unterschriften.</note>
+                    <lb/><rs ref="#pp0213">J A Meyerfeldt</rs><lb/><rs ref="#pp0024">Carl Gustav
+                        Dückers</rs> <lb/><rs ref="#pp0025">Taube</rs><lb/><rs ref="#pp0026">Magnus Julius De la
+                            Garde</rs> <lb/><rs ref="#pp0214">Johan Lillenstedt</rs> <lb/><rs
+                                ref="#pp0027">von Höpken</rs> <lb/><rs ref="#pp0021">Ihro königl[iche].
+                    Maj[es]t[ä]t von Schweden</rs> Erklährung über die königl[ich]. preußischer Seiten
+                    durch die beyde Herren Mediatores, nemlich den königl[ich]. Groß Britannischen
+                    Ambassadeur Extraord[inair]. <rs ref="#pp0215">Lord Carteret</rs>, und königl[ich]. französischen
+                    Residenten und Plenipotentiarien den <rs ref="#pp0212">von Campredon</rs> insinuirte Erinnerungen über
+                    ein und andere Puncten des unterm 21. Jan. a.c. mit S[eine]r königl[ichen].
+                    Maj[es]t[ä]t von Preußen geschloßenen Friedens Tractats. Gegeben Stockholm 14.
+                    Martii 1720<note n="325" type="crit_app">GSABerlin VI HA Nr. 855; Titel fehlt in
+                        Fassmann; Schmauss. Kein Abdruck in Loewe.</note></p>
+                <p>Nachdem der alhier anwesende Groß Britannische Ambassadeur Extraord[inair]. <rs ref="#pp0215">Lord
+                    Carteret</rs>, wie auch der königl[ich]. französische Resident und Plenipotentiaire
+                    der <rs ref="#pp0212">von Campredon</rs> ihrer <rs ref="#pp0021">königl[ichen].
+                        Maj[es]t[ä]t von Schweden</rs> geziemend zu
+                    erkennen gegeben, was maßen der königl[ich]. preußische Ministre
+                    Plenipotentiaire der <rs ref="#pp0211">Baron von Cnyphausen</rs><note n="326" type="crit_app">CTS;
+                        Dumont: Cniphausen. Fassmann: Knyphausen.</note> Nahmens S[eine]r
+                    <rs ref="#pp0204">königl[ichen]. Maj[es]t[ä]t von Preußen</rs> bey ihnen alß Mediateurs angehalten, daß
+                    weilen seiner Meinung nach ein und anderer Articul des zwischen beyden Crohnen
+                    geschloßenen Tractats Erläuterung<note n="327" type="crit_app">Fassmann;
+                        Schmauss: Tractats einiger Erläuterung. CTS: einige Erläuterung.</note>
+                    nötig hätten, bey ihrer <rs ref="#pp0021">königl[ichen]. Maj[es]t[ä]t von
+                        Schweden</rs> eine nähere
+                    Erklährung zu bewürcken, und sie dann dabey vorgestellet, daß ihre Intention nur
+                    dahin ginge, zu<note n="328" type="crit_app">CTS; Schmauss: die.</note>
+                    Etablirung einer vollenkommenen guten Freundschaft zwischen beyden
+                    contrahirenden Crohnen ihres Ortes so viel möglich zu veranlaßen und zu
+                    befestigen. So haben ihro <rs ref="#pp0021">königl[iche]. Maj[es]t[ä]t von
+                        Schweden</rs> in Ansehen
+                    dieses heilsahmen Endzwecks sich in Gnaden gefallen laßen, daß ihnen folgende
+                    Erklährung gegeben und zugestellet werde.<lb/>1. Daß wann in dem 2.ten Articul
+                    des solennen Friedens-Traktats von der Restitution der Gefangenen gesprochen
+                    wirdt, ihro <rs ref="#pp0021">königl[iche]. Maj[es]t[ä]t von Schweden</rs> darunter keine Deserteurs
+                    oder solche so vor Zeichnung der Preliminarien unter denen königl[ich].
+                    preußischen Trouppen Dienste genommen, verstehen wollen.<lb/>2. Daß die in dem
+                    3.ten Articul des solennen Friedens-Tractats von beyden Seiten stipulirte
+                    Communion des Pehne Strohms von dem Ohrte ihren Anfang nehme, da der eine Theil
+                    auf der einen und der andere Theil auf der anderen Seite des Stohms die Uffer
+                    besitzen, wo aber der eine Theil beyde Uffer besitzet, diese Gemeinschafft
+                    auffhöre, diese Communion auch an sich selbst keinem Theil an seinen Rechten
+                    nachtheilig seyn, noch auff etwas weiter extendiret werden solle, alß auff den
+                    gemeinschafftlichen Gebrauch des Waßers zur Schiffahrt. Im übrigen wird die
+                    Hoheit und Jurisdiction des Strohms zwischen beyden Herrschaften dergestalt
+                    getheilet, daß der eine auff seiner und der andere ebenfalß auff der seinigen
+                    selbige genießet und exerciret.<lb/>3. Waß die Privilegien betrifft, so denen
+                    Unterthanen in dem an <rs ref="#pp0204">Ihr[e] königl[iche]. Maj[es]t[ä]t in
+                        Preußen</rs> cedirten
+                    District in dem 5.ten Articul des Tractats confirmiret worden, so haben Ihr[e]
+                    <rs ref="#pp0021">königl[iche]. Maj[es]t[ä]t von Schweden</rs> hierunter keine andere Intention, alß
+                    besagten Unterthanen die Freyheit<note n="329" type="crit_app">Fassmann:
+                        Freyheiten.</note> und Immuniteten, welche sie durch den Westphälischen
+                    Frieden erlanget und von denen vormahligen Fürsten von Pommern und von denen
+                    Königen in Schweden Ihr[er]. Maj[es]t[ä]t Vorfahren von Zeit zu Zeit überkommen
+                    beyzubehalten, übrigens aber declariren Ihr[e]. <rs ref="#pp0021">königl[iche]. Maj[es]t[ä]t von
+                    Schweden</rs>, daß Sie diesem nunmehro an ihre <rs ref="#pp0204">königl[iche].
+                        Maj[es]t[ä]t von Preußen</rs>
+                    cedirten District und deßelben Einwohnern bey dem antritt dero Regierung oder
+                    sonsten keine neue Privilegia accordiret, sondern bloßerdings, wie jetzt
+                    erwehnet, selbige bey ihren vorigen wohlhergebrachten Freyheiten und Rechten
+                    bestätigen und erhalten wollen.<lb/>4. Daß in Ansehung der Restantien, wovon in
+                    dem 2.ten Separat-Articul Meldung geschehen, Ihr[e]. königl[iche]. Maj[es]t[ä]t
+                    nicht wollen oder verstehen dergleichen Restantien und Arrerages<note n="330"
+                        type="crit_app">Deutsch: Rückstand.</note> en general oder bloßerdings von
+                    denen cedirten Pommerschen Unterthanen fordern zu lassen, sondern es verlangen
+                    nur Ihro königl[iche]. Maj[es]t[ä]t in Kraftt besagten 2.ten Articuls daß alle
+                    Pächter und diejenige, so eine Einnahme gehabt, wovon sie Rechnung zu thun
+                    schuldig sind, und ihre Rechnungen an die königl[ich]. schwedische Cammer und
+                    Contoirs vor dem Sequester und dem darauff erfolgten Kriege nicht abgethan,
+                    dermahlen aber unter der Bothmäßigkeit ihrer <rs ref="#pp0204">königl[ichen]. Maj[es]t[ä]t von
+                    Preußen</rs> stehen, dazu alß von Rechts wegen mögen angehalten werden, die
+                    solchergestalt Ihr[o]. <rs ref="#pp0021">königl[ichen]. Maj[es]t[ä]t von
+                        Schweden</rs> rückständige
+                    Gelder zu bezahlen und desfalß Richtigkeit zu machen.<lb/>5. Betreffend die
+                    Wißmarsche Tribunals Bediente zu deren Subsistence die sämtl[iche].
+                    hinterpommersche Lande oder Stände mit contribuiret, so zweifeln Ihr[o].
+                    <rs ref="#pp0021">königl[ichen]. Maj[es]t[ä]t von Schweden</rs> keines weges, es werden Ihr[o].
+                    <rs ref="#pp0204">königl[ichen]. Maj[es]t[ä]t von Preußen</rs> dasjenige was in dem Tractat wegen ihres
+                    rückständigen Lohns bedungen worden, ihnen laßen zu gute kommen; wann<note
+                        n="331" type="crit_app">CTS: weilen.</note> aber sowohl die Stände von
+                    Rügen, Strahlsund und dem Antheil von Pommern dießeit der Pehne gelegen, alß
+                    auch die in dem an Ihro <rs ref="#pp0204">königl[ichen]. Maj[es]t[ä]t von
+                        Preußen</rs> cedirten
+                    Districts befindl[iche]. Stände zu Unterhaltung bemeldter Tribunals bediente
+                    jederzeit concurriret, so sind Ihr[o]. <rs ref="#pp0021">königl[ichen].
+                        Maj[es]t[ä]t von Schweden</rs>
+                    auch zu frieden, daß eine solche Eintheilung gemachet werde, damit hierunter von
+                    beyden Seiten die Billigkeit und Proportion in allem beobachtet werde.<lb/>Datum
+                    ut supra</p>
+                <p>1 aufgedrücktes LS<lb/>Ad mandatum Sac.ae Reg.ae Maj[esta]tis. Sueciae proprium
+                    <rs ref="#pp0027">N. von Höpken</rs></p>
+            </div>
+
+        </body>
+        <back>
+            <listBibl>
+                <bibl>Droysen Johann Gustav, Geschichte der preußischen Politik 4/2, S.
+                    260-284.</bibl>
+                <bibl>Frost, The Northern Wars 1558-1721, besonders S. 226-300.</bibl>
+                <bibl>Hassinger, Brandenburg-Preußen, Schweden und Russland 1700-1713.</bibl>
+                <bibl>Sundberg, Svenska freder och stillestånd, S. 311.</bibl>
+                <bibl>Seitz / Rosengren, Sveriges freder och fördrag, S. 76-79.</bibl>
+            </listBibl>
+        </back>
+    </text>
+</tei:TEI>

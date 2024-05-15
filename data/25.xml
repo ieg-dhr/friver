@@ -1,0 +1,580 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE tei SYSTEM "../resources/FriVer_DTD.dtd">
+
+<?xml-model href="../XML%20schema%20FriVer/FriVer.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns="http://www.tei-c.org/ns/1.0"
+    xml:id="pa000299-0025">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title level="s">European peace treaties of the pre-modern era in data / Europäische
+                    Friedensverträge der Vormoderne in Daten (FriVer+)</title>
+                <title when="1720-07-03" xml:id="t25" when-custom="1720 VII 3" level="a"
+                    ref="https://www.ieg-friedensvertraege.de/treaty/t-25-1-de.html">Friedensvertrag
+                    von Frederiksborg</title>
+            </titleStmt>
+            <editionStmt>
+                <edition> Digital edition according to <ref target="http://www.tei-c.org/">TEI
+                        P5</ref>
+                </edition>
+                <funder>
+                    <ref target="https://www.text-plus.org/">TEXT+</ref>
+                </funder>
+                <editor role="http://id.loc.gov/vocabulary/relators/edt"
+                    ref="https://orcid.org/0000-0002-8741-5916">
+                    <persName>Jaap Geraerts</persName>
+                    <note>The transformation and enrichment of the data is done by Jaap Geraerts
+                        (IEG Mainz). The other members of the FriVer+ team are Fabian Cremer, Ines
+                        Grund, and Thorsten Wübbena (all IEG Mainz).</note>
+                    <note> The original data has been created by the <ref
+                            target="https://www.ieg-friedensvertraege.de">team of scholars</ref> who
+                        were part of the Europäische Friedensverträge der Vormoderne project. This
+                        project was lead by Prof. Dr. Heinz Duchhardt and was based at the Leibniz
+                        Institute of European History in Mainz. </note>
+                </editor>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>
+                    <orgName ref="http://www.isni.org/0000000119314040">Leibniz-Institut für
+                        Europäische Geschichte Mainz</orgName>
+                </publisher>
+                <distributor>
+                    <orgName ref="http://www.isni.org/0000000110101946">Universitäts- und
+                        Landesbibliothek Darmstadt</orgName>
+                </distributor>
+                <idno type="ISIL">http://lobid.org/organisation/DE-17</idno>
+                <date type="issued" when="2023-12-23"/>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">
+                        <p xml:lang="en">This file is licensed under the terms of the Creative
+                            Commons License CC-BY 4.0 (Attribution 4.0 International)</p>
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <repository xml:id="r26">Stockholm RA <note>Stockholm, Riksarkivet, Digitalisat:<lb/>
+                        <ref target="https://sok.riksarkivet.se/bildvisning/R0000328_00001"
+                            >https://sok.riksarkivet.se/bildvisning/R0000328_00001</ref></note>
+                </repository>
+                <msDesc>
+                    <p>Schwedisches Reichsarchiv, Stockholm: Originaltraktater med främmande makter:
+                        Danmark No. 32 A. Fredsfördrag. 3 Juli 1720.</p>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p> The data in this XML file, originally created by the project <ref
+                        target="https://www.ieg-friedensvertraege.de/vertraege">Europäische
+                        Friedensverträge der Vormoderne online</ref> has been transformed in
+                    accordance with <ref target="http://www.tei-c.org/">TEI P5</ref> as part of the
+                    project <ref
+                        target="https://www.ieg-mainz.de/en/research/research-projects/european-peace-treaties-of-the-pre-modern-era-in-data"
+                        >Europäische Friedensverträge der Vormoderne in Daten (FriVer+)</ref>
+                </p>
+            </projectDesc>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="fr" xml:id="lan4">französisch</language>
+            </langUsage>
+        </profileDesc>
+    </teiHeader>
+    <standOff>
+        <listPerson>
+            <person role="signatory" xml:id="p32">
+                <persName ref="https://explore.gnd.network/gnd/4010877-6">
+                    <name>Dänemark</name>
+                </persName>
+            </person>
+            <person role="signatory" xml:id="p99">
+                <persName ref="https://explore.gnd.network/gnd/4077258-5">
+                    <name>Schweden</name>
+                </persName>
+            </person>
+        </listPerson>
+        <listPlace>
+            <place xml:id="l17">
+                <placeName ref="https://explore.gnd.network/gnd/601145-7">Frederiksborg</placeName>
+            </place>
+        </listPlace>
+        <facsimile>
+            <surface xml:id="FacsPnr1">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_43c2a6b05210f"/>
+            </surface>
+            <surface xml:id="FacsPnr2">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_43c2a6f2426f7"/>
+            </surface>
+            <surface xml:id="FacsPnr3">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_43c2a71d32ed0"/>
+            </surface>
+            <surface xml:id="FacsPnr4">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_43c2a74b5b346"/>
+            </surface>
+            <surface xml:id="FacsPnr5">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_43c2a77a2ff69"/>
+            </surface>
+            <surface xml:id="FacsPnr6">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_43c2a7cb27193"/>
+            </surface>
+            <surface xml:id="FacsPnr7">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_43c2a81192590"/>
+            </surface>
+            <surface xml:id="FacsPnr8">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_43c2a852e7149"/>
+            </surface>
+            <surface xml:id="FacsPnr9">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_43c2a8db90f43"/>
+            </surface>
+            <surface xml:id="FacsPnr10">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_43c2a91026c16"/>
+            </surface>
+            <surface xml:id="FacsPnr11">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_43c2a95853708"/>
+            </surface>
+            <surface xml:id="FacsPnr12">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_43c2a99c11b17"/>
+            </surface>
+            <surface xml:id="FacsPnr13">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_43c2a9dfe73cf"/>
+            </surface>
+            <surface xml:id="FacsPnr14">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_43c2aa1ff0d31"/>
+            </surface>
+            <surface xml:id="FacsPnr15">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_43c2aa6030fce"/>
+            </surface>
+            <surface xml:id="FacsPnr16">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_43c2aa99bee4d"/>
+            </surface>
+            <surface xml:id="FacsPnr17">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_43c2aadee0377"/>
+            </surface>
+            <surface xml:id="FacsPnr18">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_43c2ab39cb43a"/>
+            </surface>
+            <surface xml:id="FacsPnr19">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_43c2abd914988"/>
+            </surface>
+            <surface xml:id="FacsPnr20">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_43c2ac11c6e90"/>
+            </surface>
+            <surface xml:id="FacsPnr21">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_43c2ac4f3c27d"/>
+            </surface>
+            <surface xml:id="FacsPnr22">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_43c2ac84cce50"/>
+            </surface>
+            <surface xml:id="FacsPnr23">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_43c2acc17fef7"/>
+            </surface>
+            <surface xml:id="FacsPnr24">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_43c2ad92a8061"/>
+            </surface>
+            <surface xml:id="FacsPnr25">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_43c2adc57d5da"/>
+            </surface>
+            <surface xml:id="FacsPnr26">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_43c2af1319569"/>
+            </surface>
+            <surface xml:id="FacsPnr27">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_43c2af4924841"/>
+            </surface>
+            <surface xml:id="FacsPnr28">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_43c2b0b347a8b"/>
+            </surface>
+        </facsimile>
+    </standOff>
+    <text>
+        <body>
+            <div type="Transliteration">
+                <pb facs="#FacsPnr1"/>
+                <pb facs="#FacsPnr2"/>
+                <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Au nom de la Tres-Sainte
+                    <lb/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    et individue Trinité. <lb/>
+                    <lb/>Qu’il soit notoire à tous presens et à venir <lb/>qu’il appartiendra ou
+                    qu’il pourra appar- <lb/>tenir, que la funeste guerre, qui dure depuis <lb/>plus
+                    de dix ans entre Sa Majesté le Roy <lb/>FRIEDRIC IV. Roy de Dannemarc et de Nor-
+                    <lb/>vegue, des Vandales et des Goths, Duc de <lb/>Slesvic, Holstein, Stormarn
+                    et de Dit- <lb/>marchen, Comte d’Oldenburg et de Delmen- <lb/>horst d’une part,
+                    et Leurs Majestés feu <lb/>le Roy de Svede Charles XII. de glorieuse
+                    <lb/>memoire, la Reine ULRICA ELEONORA <lb/>et le Roy à present regnant
+                    FRIEDRICH <lb/>Roy de Svede, des Goths et des Vandales <lb/>etc. etc. etc. et
+                    Leurs Royaumes d’autre, <lb/>dont les suites facheuses ont causé l’ef-
+                    <lb/>fusion de beaucoup de sang, troublé le <lb/>commerce de la mer Baltique et
+                    alteré <lb/>la bonne intelligence, que les liaisons <lb/>du sang et du voisinage
+                    avoient cy-de- <lb/>vant formé entre Leurs dites Maj[es]tés <pb facs="#FacsPnr3"
+                    />et leurs sujets. Il a plû enfin à la provi- <lb/>dence Divine, de faire naitre
+                    des conjonctu- <lb/>res plus heureuses, propres à retablir la <lb/>tranquillité
+                    dans le Nord par une bonne, <lb/>seure et durable paix conformement au de-
+                    <lb/>sir sincere que Leurs Maj[es]tés ont toujours <lb/>conservé, de voir cesser
+                    l’effusion du sang <lb/>Chretien et de faire jouir leurs peuples des <lb/>fruits
+                    de la paix si necessaire et si long <lb/>tems desirée. Ces louables motifs ont
+                    por- <lb/>té Leurs dites Maj[es]tés à concourir de tout <lb/>leur pouvoir à
+                    l’avancement et à la <lb/>consommation d’un ouvrage si salutai- <lb/>re, sur les
+                    instances reiterées, pendant <lb/>plusieurs mois de Sa Maj[es]té GEORGE,
+                    <lb/>Roy de la Grande Bretagne, de France et <lb/>d’Irlande, Defenseur de la
+                    foÿ, Duc de <lb/>Bronsvic et de Luneburg, Archi-Thresau- <lb/>rier et Electeur
+                    de l’Empire, qui s’est <lb/>donné tous les soins imaginables, pour
+                    <lb/>reconcilier les parties belligerantes. <lb/>Elle les a fait convenir d’une
+                    suspensi- <lb/>on d’armes, pour pouvoir plus facile- <pb facs="#FacsPnr4"/>ment
+                    parvenir à la conclusion de la paix <lb/>et Elle leurs a offert en meme tems Sa
+                    me- <lb/>diation, laquelle a été acceptée de part et <lb/>d’autre; Aussibien que
+                    celle de Sa Maj[es]té <lb/>tres-Chretienne Louis XV. Roy de France et <lb/>de
+                    Navarre, qui desirant de son coté <lb/>contribuer à la pacification du Nord, a
+                    <lb/>bien voulû joindre ses soins et ses bons <lb/>offices à ceux de Sa
+                    Maj[es]té Britannique, <lb/>aussitot qu’Elle a jugé, qu’ils auroient <lb/>un
+                    succes conforme à ses bonnes inten- <lb/>tions. C’est pourquoi Leurs Maj[es]tés
+                    de <lb/>Dannemarc et de Svede ont ordonné à <lb/>Leurs Ministres
+                    Plenipotentiaires, savoir <lb/>de la part de Sa Maj[es]té Danoise, mons[ieu]r
+                    <lb/>de Lövenörn Son General Major et Pleni- <lb/>potentiaire à la cour de Sa
+                    Maj[es]té le <lb/>Roy de Svede, et de la part de Sa Maj[es]té <lb/>Svedoise,
+                    Leurs Excellences mons[ieu]r le Com- <lb/>te Gustave Cronhielm, Senateur de Sa
+                    <lb/>Maj[es]té le Roy de Svede et de son Royaume, <lb/>President au Conseil
+                    Royal de la Chancel- <lb/>lerie et Chancelier de l’Université d’Up- <pb
+                        facs="#FacsPnr5"/>sal, mons[ieu]r le Comte Gustave Adam Taube, Sena-
+                    <lb/>teur de Sa Maj[es]té le Roy de Svede et de son <lb/>Royaume, Marechal de
+                    Svede et Grand Gou- <lb/>verneur de Stockholm, mons[ieu]r le Comte Mag- <lb/>nus
+                    de la Gardie, Senateur de Sa Maj[es]té le <lb/>Roy de Svede et de son Royaume et
+                    President <lb/>au college de Commerce, mons[ieu]r le Comte <lb/>Johann
+                    Lillienstedt, Senateur de Sa Maj[es]té <lb/>le Roy de Svede et de son Royaume et
+                    Con- <lb/>seiller au Conseil royal de la Chancellerie; <lb/>mons[ieu]r le Comte
+                    Andrè Leyonstedt senateur <lb/>de Sa Maj[es]té le Roy de Suede et de son
+                    <lb/>Royaume et President à la Chambre de Re- <lb/>vision et mons[ieu]r le Baron
+                    Daniel Niclas <lb/>de Höpken, Secretaire d’Estat de Sa Maj[es]té <lb/>le Roy de
+                    Svede, d’entrer en negociation <lb/>sur les moyens de convenir des articles
+                    <lb/>d’un Traitté de paix, lesquels, aprés l’ <lb/>échange de leurs
+                    pleinpouvoirs respe- <lb/>ctifs, dont la copie sera transcrite à la <lb/>fin de
+                    cet instrument, ont eu plusieurs <lb/>Conferences, et par les bons et tres-loua-
+                    <lb/>bles offices de Milord Carteret Ambassa- <pb facs="#FacsPnr6"/>deur
+                    Extraordinaire de Sa Maj[es]té Britannique <lb/>à la Cour de Svede et son
+                    Plenipotentiai- <lb/>re, et de mons[ieu]r de Campredon Resident de Sa
+                    <lb/>Maj[es]té Tres-Chretienne et son Plenipotentiai- <lb/>re en la méme cour,
+                    apres avoir imploré <lb/>l’assistence Divine, ont conclû, arreté <lb/>et signé
+                    les articles dont la teneur <lb/>s’en suit. <lb/>
+                    <lb/>&nbsp;&nbsp; &nbsp;1. <lb/>Il y aura à l’avenir une paix generale <lb/>et
+                    eternelle, et une amitié sincere et per- <lb/>petuelle entre Leurs Maj[es]tés de
+                    Dannemarc <lb/>et de Svede, Leurs Heritiers et Succes- <lb/>seurs en la Regence,
+                    comme aussi entre <lb/>Leurs Royaumes, terres, provinces, paÿs <lb/>et sujets,
+                    et en consequence toutes les <lb/>hostilités de part et d’autre, tant par
+                    <lb/>mer que par terre cesseront entierement <lb/>du jour de la signature du
+                    present Trait- <lb/>té. Tous les differens, mesintelligences <lb/>et disputes,
+                    qu’il y a eu jusques à pre- <lb/>sent entre eux, seront non seulement <pb
+                        facs="#FacsPnr7"/>abolis, mais aussi Leurs Maj[es]tés se procureront
+                    <lb/>autant qu’il sera possible avec zele et sin- <lb/>cerité, tous le biens et
+                    les avantages reci- <lb/>proques, en sorte qu’il y aura desormais en- <lb/>tre
+                    Leurs dites Maj[es]tés et Leurs Royaumes <lb/>une parfaite confiance et union,
+                    et qu’el- <lb/>les puissent se fortifier de jour en jour, ain- <lb/>si qu’il
+                    convient à des bons Voisins et <lb/>Alliés. <lb/>
+                    <lb/>&nbsp;&nbsp; &nbsp;2. <lb/>Tous les Dommages, degats, torts, offenses et
+                    <lb/>prejudices commis ou causés l’un contre <lb/>l’autre, pendant le cours de
+                    cette guerre, <lb/>soit en actions, paroles ou écrits, seront <lb/>ensevelis
+                    dans un éternel oubly et am- <lb/>nestie generale et sans retour, en sorte
+                    <lb/>qu’il ne sera point permis à l’avenir <lb/>à l’une des parties, d’en faire
+                    usage, <lb/>ni de s’en ressentir contre l’autre, de me- <lb/>me que si le tout
+                    n’étoit jamais ave- <lb/>nu, et en vertu de cette abolition gene- <lb/>rale on
+                    ne pourra desormais faire au- <lb/>cune mention de ces griefs, ni entre <pb
+                        facs="#FacsPnr8"/>les Royaumes, ni envers leurs sujets, sous <lb/>quelque
+                    pretexte ou pour quelque cause <lb/>que ce puisse être. <lb/>
+                    <lb/>&nbsp;&nbsp; &nbsp;3. <lb/>La liberté du Commerce et de la naviga-
+                    <lb/>tion, tant par terre que par mer et au- <lb/>tres eaux, sera desormais
+                    entierement reta- <lb/>blie entre les sujets de Leurs Maj[es]tés de Dan-
+                    <lb/>nemarc et de Svede et defense faite de <lb/>part et d’autre, de n’y
+                    apporter aucun <lb/>obstacle, sous quelque pretexte que ce <lb/>soit, ni
+                    d’empecher le libre transport <lb/>des marchandises et denrées, dont on a
+                    <lb/>joui en tems de paix. <lb/>
+                    <lb/>&nbsp;&nbsp; &nbsp;4. <lb/>Et à fin de prevenir et detruire entiere-
+                    <lb/>ment tout ce qui pourroit à l’avenir <lb/>donner lieu à quelque desunion,
+                    mésin- <lb/>telligence ou dispute, entre les deux par- <lb/>ties Leurs
+                    Maj[es]tés de Dannemarc et de <lb/>Svede renoncent par les presentes, de <lb/>la
+                    maniere la plus precise et la plus <pb facs="#FacsPnr9"/>efficace à tous les
+                    Traittés, Conventions et <lb/>Alliances faites avec d’autres Puissances, <lb/>en
+                    tant que ces Traittés, Conventions et al- <lb/>liances pourroient être
+                    contraires à la te- <lb/>neur du present Traitté de paix et pour <lb/>cet effet
+                    l’une des parties ne consentira <lb/>desormais à aucunes alliances ou Traittés
+                    <lb/>qui pourroient en quelque maniere que <lb/>ce soit, causer du dommage ou du
+                    preju- <lb/>dice à l’autre. <lb/>
+                    <lb/>&nbsp;&nbsp; &nbsp;5. <lb/>Comme en vertu des precedents articles <lb/>la
+                    paix retablit une parfaite intelligen- <lb/>ce entre les deux Couronnes de
+                    Danne- <lb/>marc et de Suede et detruit les engage- <lb/>mens reciproques,
+                    qu’Elles pourroient <lb/>avoir pris l’une contre l’autre, pendant <lb/>le cours
+                    de cette funeste guerre, Sa Maj[es]té <lb/>le Roy de Dannemarc promet speciale-
+                    <lb/>ment et s’engage par les presentes de <lb/>la maniere la plus forte et la
+                    plus <lb/>precise, de n’assister directement ni <lb/>indirectement de ses
+                    conseils, ou par <pb facs="#FacsPnr10"/>voye de fait, par lui ni par autrui, le
+                    Czar <lb/>de Moscovie, sous quelque pretexte que ce <lb/>puisse être, dans ses
+                    entreprises contre la <lb/>Couronne de Svede et ses Alliés, aussi <lb/>long tems
+                    que la presente guerre avec le <lb/>Czar durera. Et comme il n’est pas moins
+                    <lb/>de l’interet du Roy de Dannemarc et de <lb/>sa Couronne, que de celui des
+                    autres nati- <lb/>ons, qu’elle cesse bientot, pour retablir <lb/>la liberté du
+                    commerce dans le mer Bal- <lb/>tique, Sa Maj[es]té Danoise promet, de ne
+                    <lb/>souffrir en aucun de ses ports de Danne- <lb/>marc et de Norvegue aucun
+                    armateur <lb/>Moscovite destiné à troubler le dit com- <lb/>merce et la
+                    navigation. Sa Maj[es]té per- <lb/>mettra point non plus, qu’on donne dans
+                    <lb/>ses dits ports retraitte à aucune prise <lb/>faite par les armateurs ou
+                    Corsaires <lb/>Moscovites sur quelque nation que <lb/>ce soit et s’il arrivoit,
+                    que telles pri- <lb/>ses entrassent dans les ports de Sa dite <lb/>Maj[es]té
+                    Elle les fera restituer à leurs le- <lb/>gitimes proprietaires: Ce qui s’entend
+                        <pb facs="#FacsPnr11"/>aussi par rapport à la Svede, en sorte qu’au-
+                    <lb/>cune des prises qu’elle pourroit faire sur les <lb/>Moscovites, ne pourra
+                    entrer ni avoir retrait- <lb/>te dans les ports de Dannemarc. <lb/>
+                    <lb/>&nbsp;&nbsp; &nbsp;6. <lb/>Pareillement comme Son Altesse S[érénissi]me le
+                    Duc <lb/>de Slesvic Holstein a eté enveloppé dans <lb/>la guerre du Nord et que
+                    l’etroite liaison <lb/>de sang, qui est entre Sa dite Altesse et la
+                    <lb/>Couronne de Svede, pourroit être considerée, <lb/>comme un obstacle à la
+                    decision de ce <lb/>qui regarde le Duché de Slesvig, Sa Maj[es]té <lb/>Svedoise
+                    pour Elle et la Couronne de Svede <lb/>declare et promet par ces presentes, de
+                    <lb/>ne s’opposer directement ni indirectement <lb/>à ce que sera stipulé en
+                    faveur du Roy <lb/>de Dannemarc, concernant le dit Duché <lb/>de Slesvic, par
+                    les deux Puissances Me- <lb/>diatrices, qui ont concouru au present <lb/>Traitté
+                    et de ne donner aucune assisten- <lb/>ce de fait au dit Duc, contre le Roy de
+                    <lb/>Dannemarc, pour l’inquieter au preju- <lb/>dice des susdites stipulations.
+                        <pb facs="#FacsPnr12"/>&nbsp;&nbsp;&nbsp; 7. <lb/>Comme Sa Maj[es]té le Roy
+                    de Dannemarc a occu- <lb/>pé par les armes pendant cette guerre et tient
+                    <lb/>actuellement une grande partie du Duché <lb/>de Pomeranie jusques à la
+                    Riviere de Peh- <lb/>ne, comme aussi la ville et Forteresse de <lb/>Stralsund,
+                    avec la Principauté et l’Isle <lb/>de Rugen, la ville et Forteresse de Mar-
+                    <lb/>strandt avec quelques autres Isles, qui ap- <lb/>partiennent à la Couronne
+                    de Svede et que <lb/>Sa Maj[es]té le Roy de Suede insiste sur la re-
+                    <lb/>stitution des dits Duché, Principauté, Vil- <lb/>les, Forteresses, Isles,
+                    Terres et pays incor- <lb/>porés à la Couronne de Svede, Sa Maj[es]té le
+                    <lb/>Roy de Dannemarc aux instances des <lb/>deux Puissances Mediatrices et pour
+                    <lb/>faciliter d’autant plus la paix si desi- <lb/>rée, y a enfin consenti, et,
+                    en vertu du <lb/>present article, Elle restitüe pour Elle <lb/>et pour ses
+                    Heritiers et Successeurs à <lb/>Sa Maj[es]té et à la Couronne de Svede, <lb/>ses
+                    Heritiers et Successeurs la susdite <lb/>partie de la Pomeranie, jusques à la
+                    <lb/>riviere de Pehne, comme aussi la ville <pb facs="#FacsPnr13"/>et la
+                    Forteresse de Strahlsund, l’Isle et la <lb/>Principauté de Rugen, la ville et la
+                    Forteresse <lb/>de Marstrand et toutes les autres Isles et <lb/>appartenances du
+                    Royaume de Svede, oc- <lb/>cupées par le Roy de Dannemarc sans <lb/>exception, à
+                    savoir les Forteresses et le <lb/>pays dans l’Etat, où ils étoient pendant
+                    <lb/>l’armistice et l’artillerie, et les maga- <lb/>zins en l’etat, où ils
+                    étoient lors de l’ <lb/>occupation de ces villes et Forteresses <lb/>par le Roy
+                    de Dannemarc, le tout moyen- <lb/>nant l’equivalent qui sera stipulé cy-
+                    <lb/>apres. <lb/>
+                    <lb/>&nbsp;&nbsp; &nbsp;8. <lb/>Et à l’égard de la ville de Wismar, com- <lb/>me
+                    elle nè fera plus partie de cet equi- <lb/>valent, Sa Maj[es]té le Roy de
+                    Dannemarc <lb/>cede et renonce en faveur de Sa Maj[es]té <lb/>et de la Couronne
+                    de Svede, à toutes <lb/>les pretensions, qu’Elle auroit pû avoir <lb/>sur cette
+                    ville et son territoire; Elle <lb/>promet d’en retirer ses Trouppes d’abord
+                    <lb/>aprés la ratification du present Trait- <pb facs="#FacsPnr14"/>té, laissant
+                    au Roy et à la Couronne de <lb/>Svede le droit incontestable, qui appar-
+                    <lb/>tient à la dite Couronne de Svede sur la <lb/>dite ville de Wismar, son
+                    territoire et <lb/>ses dependances. <lb/>
+                    <lb/>&nbsp;&nbsp; &nbsp;9. <lb/>En consideration de ces restitutions, Sa
+                    <lb/>Maj[es]té et le Royaume de Svede consent par <lb/>le present article, que
+                    pour l’avenir il <lb/>n’y ait aucune distinction de Nations <lb/>dans le Sund et
+                    dans les deux Belts, et <lb/>en consequence Sa Maj[es]té et le Royaume <lb/>de
+                    Svede renoncent à l’exemtion et <lb/>Franchise de peage du Sund et des deux
+                    <lb/>Belts, dont les Svedois ont joui jus- <lb/>ques à present, en vertu des
+                    Traittés <lb/>de paix cy-devant conclus, de sorte <lb/>que les sujets du royaume
+                    de Svede et <lb/>des Provinces qui en dependent, paye- <lb/>ront à l’avenir à Sa
+                    Maj[es]té le Roy de <lb/>Dannemarc et à ses Successeurs dans le <lb/>Sund et les
+                    deux Belts le peage pour <lb/>leurs vaisseaux, effets et marchandises, <pb
+                        facs="#FacsPnr15"/>en tout de la méme maniere que les Anglois <lb/>et
+                    Hollandois, ou autre nation, qui est ou <lb/>sera desormais traittée par le Roy
+                    de <lb/>Dannemarc le plus favorablement à cet <lb/>égard, à commencer du jour,
+                    que les Rati- <lb/>fications du present Traitté seront échan- <lb/>gées, et que
+                    tous les articles avec leurs <lb/>stipulations touchant la restitution <lb/>et
+                    satisfaction, seront executés de part <lb/>et d’autre; Surquoy l’on est
+                    expresse- <lb/>ment convenu, comme il a eté dit, que <lb/>les vaisseaux et les
+                    effets des sujets du <lb/>Royaume de Svede en passant et repas- <lb/>sant les
+                    detroits du Sund et des Belts, <lb/>à l’egard du retardement et empeche-
+                    <lb/>ment pour leur promte expedition, ou <lb/>sous quelque nom, que ce puisse
+                    être, <lb/>ne seront point traittés autrement, que <lb/>les Nations Angloise et
+                    Hollandoise, <lb/>ou autre le plus amie. <lb/>
+                    <lb/>&nbsp;&nbsp; &nbsp;10. <lb/>Sa Maj[es]té Svedoise voulant donner
+                    <lb/>encore une preuve plus convaincante <pb facs="#FacsPnr16"/>de son desir
+                    pour la paix, promet pour Elle <lb/>et la Couronne de Svede de payer, au de là
+                    <lb/>de la Cession de la Franchise du Sund à Sa <lb/>Maj[es]té de Dannemarc la
+                    Somme de Six <lb/>Cent mille Rixdaller courant en bonnes et <lb/>valables pieces
+                    de deux tiers sur le pied <lb/>communement appellé de Leipzic de l’an- <lb/>née
+                    1690 à raison de 12 R[ix]d[aller] par marc d’ar- <lb/>gent fin, pour toutes les
+                    pretensions du Roy <lb/>de Dannemarc et en un seul payement <lb/>en bonnes
+                    lettres de change acceptées à <lb/>Hambourg, lesquelles seront deposées en-
+                    <lb/>tre les mains des Mediateurs six semai- <lb/>nes aprés la signature du
+                    present Trait- <lb/>té, ou plûtôt si faire se peut, pour l’usa- <lb/>ge et le
+                    compte de Sa Maj[es]té de Danne- <lb/>marc, pour être delivrées par les Media-
+                    <lb/>teurs aux Commissaires nommés par le Roy <lb/>de Dannemarc et être
+                    exactement et <lb/>nettement payées, aussitôt que la resti- <lb/>tution,
+                    conformement à l’article <lb/>suivant, sera entierement faite et ache- <lb/>vée,
+                    et que les Forteresses, Duché, Prin- <pb facs="#FacsPnr17"/>cipauté, Isles et
+                    autres lieux appartenants à <lb/>la Couronne de Svede en enoncés dans les ar-
+                    <lb/>ticles 7 et 8. seront evacués par Sa Maj[es]té <lb/>de Dannemarc, et mis en
+                    la possession de <lb/>celle de Svede. <lb/>
+                    <lb/>&nbsp;&nbsp; &nbsp;11. <lb/>C’est pourquoi aussitot que la susdite Som-
+                    <lb/>me de Six Cent mille R[ix]d[aller] aura eté deposée <lb/>de la part du Roy
+                    et du Royaume de Sve- <lb/>de entre les mains des Mediateurs, pour <lb/>le Roy
+                    de Dannemarc, ainsi qu’il a eté <lb/>expliqué en l’article precedant, les
+                    <lb/>Forteresses de Strahlsund et de Marstrand <lb/>avec la Principauté et
+                    l’Isle de Rugen <lb/>et la partie de Pomeranie occupée par <lb/>le Roy de
+                    Dannemarc, sans aucune ex- <lb/>ception de ce qui est stipulé dans les
+                    <lb/>precedants articles, seront remis le mé- <lb/>me jour aux Commissaires et
+                    aux Trouppes <lb/>du Roy de Svede, par les Gouverneurs <lb/>et officiers du Roy
+                    de Dannemarc, à sa- <lb/>voir les Forteresses et le pays et Isles <lb/>en l’état
+                    où ils ont eté pendant l’armi- <pb facs="#FacsPnr18"/>stice, et l’artillerie et
+                    les magazins en celui <lb/>où ils étoient lorsqu’ils sont tombés entre <lb/>les
+                    mains du Roy de Dannemarc conforme- <lb/>ment aux inventaires qui en seront
+                    fournis. <lb/>L’evacuation étant ainsi faite, les troupes <lb/>du Roy de
+                    Dannemarc, tant celles qui <lb/>auront eté dans les places, que dans le plat
+                    <lb/>pays, seront transportées en Dannemarc, <lb/>le plûtôt que faire se pourra,
+                    par terre ou <lb/>par mer, selon que l’occasion et la com- <lb/>modité le
+                    requereront, et en ce cas on four- <lb/>nira à ces troupes aux depens du Roy
+                    <lb/>de Dannemarc, mais à un prix le plus <lb/>modique, qu’il sera possible,
+                    selon les or- <lb/>dres exprés, que Sa Maj[es]té le Roy de <lb/>Svede en donnera
+                    à Ses Commissaires, <lb/>la subsistence dont elles auront besoin, <lb/>bien
+                    entendu, que du jour que la Som- <lb/>me susdite de 600000. R[ix]d[aller] aura
+                    eté depo- <lb/>sée entre les mains des Mediateurs en <lb/>la maniere expliquée,
+                        la<note n="1" type="crit_app">la: so, statt les. </note>fournitures <lb/>des rations de pain
+                    et de fourage ne <lb/>seront plus à la charge du pays, mais <pb
+                        facs="#FacsPnr19"/>que les officiers et Soldats auront francs <lb/>et sans
+                    payement les logements, qui leur <lb/>seront assignés par les Commissaires Sve-
+                    <lb/>dois, jusqu’au jour de leur depart, et qu’ <lb/>en attendant les
+                    Commissaires de part et d’au- <lb/>tre cesseront incessament, du jour de la
+                    <lb/>Signature du Traitté et avant l’expira- <lb/>tion de l’armistice d’exiger
+                    de part ni <lb/>d’autre les arrerages de ce qui pourroit <lb/>être dû par le
+                    pays pour le fait des con- <lb/>tributions, ou autres impositions concer-
+                    <lb/>nant le public, veu la triste situation <lb/>et la misere, où cette funeste
+                    guerre a <lb/>reduit les sujets du dit pays.&nbsp;&nbsp;&nbsp;&nbsp; On
+                    <lb/>cessera pareillement de couper les Bois, <lb/>de transporter ceux qui se
+                    trouveront <lb/>abatus, et de deteriorer le pays, toutes <lb/>les pretensions du
+                    Roy de Dannemarc <lb/>étant comprises dans la cession de la <lb/>Franchise du
+                    Sund et dans la Somme <lb/>de Six Cent mille R[ix]d[aller] cy-dessus stipulés.
+                    <lb/>A l’égard des Archives de Strahlsund, <lb/>de Grypswalde et de Wismar, avec
+                    la <lb/>Bibliotheque Tribunale du dit Wismar <pb facs="#FacsPnr20"/>et les
+                    autres titres et papiers qui regar- <lb/>dent le pays, et qui se trouvent entre
+                    les <lb/>mains du Roy de Dannemarc, ils seront re- <lb/>stitués de bonne foy au
+                    Roy et à la Cou- <lb/>ronne de Svede. Toutes les sentences pro- <lb/>noncées
+                    selon les loix pendant la Regen- <lb/>ce de Sa Maj[es]té Danoise, dans le dit
+                    Duché <lb/>de Pomeranie auront leur plein et en- <lb/>tier effet, et tous les
+                    sujets des villes, Isles <lb/>et pays restitués seront dechargés du ser-
+                    <lb/>ment de fidelité, qu’ils avoient preté au <lb/>Roy de Dannemarc, pour être
+                    à l’avenir <lb/>entierement et uniquement soumis et <lb/>attachés au Roy et au
+                    Royaume de Svede. <lb/>
+                    <lb/>&nbsp;&nbsp; &nbsp;12. <lb/>Les sujets de part et d’autre de quelque
+                    <lb/>condition et qualite qu’ils puissent être, <lb/>seront restitués
+                    immediatement aprés <lb/>la Ratification du present Traitté, dans <lb/>toutes
+                    leurs terres et biens, meubles et <lb/>immeubles, qui ont été occupés et con-
+                    <lb/>fisqués à l’occasion de cette guerre, <lb/>sans exception, et sur les
+                    preuves en <lb/>bonne forme, qui en seront donneés; en <pb facs="#FacsPnr21"
+                    />sorte qu’ils rentreront aussitot, sans au- <lb/>tre forme de proces et sans
+                    aucun rembour- <lb/>sement des fruits perçus de part et d’au- <lb/>tre, dans la
+                    pleine et entiere jouissance <lb/>des dits biens et terres, dont ils étoient en
+                    <lb/>possession avant la guerre. Á condition <lb/>néanmoins que les depenses
+                    faites par or- <lb/>dre du public, ou par des personnes privé- <lb/>és<note
+                        n="2" type="crit_app">privéés: so!</note>, qui ont possedé ces biens et terres, soit
+                    <lb/>pour leur amelioration, reparation, ou pour <lb/>les tenir en valeur, au de
+                    là des revenûs <lb/>qu’elles ont produit, seront rembourcés <lb/>par les
+                    proprietaires lorsqu’ils rentre- <lb/>ront en la possession actuelle de leurs
+                    <lb/>dites terres et biens, la saison de l’année <lb/>ne souffrant aucun delai
+                    sur ce sujet; au <lb/>surplus touts les autres biens, de quel- <lb/>que nature
+                    qu’ils soient, seront rendus <lb/>dans le méme état, qu’ils sont à present
+                    <lb/>et dans un meilleur s’il est possible. <lb/>Toutes les pretensions,
+                    demandes et droits, <lb/>qui pendant le cours de cette guerre <lb/>et en vertu
+                    des loix de chaque Royaume <lb/>sont echues aux sujets de Leurs Maj[es]tés
+                    <lb/>par Succession, procés ou autre voye <pb facs="#FacsPnr22"/>juridique que
+                    ce puisse être, comme aussi les <lb/>pretensions et griefs, qu’ils pourroient
+                    <lb/>avoir eu avant et pendant cette guerre, <lb/>ou qu’ils ont actuellement,
+                    tant contre <lb/>Leurs Majestés qu’entre eux en particu- <lb/>lier, resteront en
+                    leur entier et ne pour- <lb/>ront être affoiblis ni abolis pour raison <lb/>de
+                    la dite guerre. À cette fin il sera <lb/>nommé par chacune des parties contra-
+                    <lb/>ctantes trois Commissaires authorisés, qui <lb/>se rendront au lieu, dont
+                    on conviendra <lb/>un mois aprés la Ratification de ce <lb/>Traitté, où selon
+                    les circonstances de <lb/>chaque cas, ils termineront eux mémes <lb/>tous les
+                    differens, ou bien ils les ren- <lb/>voyeront aux Tribunaux, qui pour rai-
+                    <lb/>son de la Jurisdiction locale devoient <lb/>en prendre connoissance, avant
+                    le com- <lb/>mencement de la guerre. En sorte né- <lb/>anmoins que tous les
+                    differens et dis- <lb/>cussions soient terminés trois mois aprés
+                    <lb/>l’établissement de cette Commission. <lb/>Et à l’égard de ceux, qui
+                    pourront prou- <lb/>ver, que leurs terres et biens ont eté <pb facs="#FacsPnr23"
+                    />ruinés et deteriorés à dessein par ceux des <lb/>particuliers qui les ont
+                    possedé pendant <lb/>la guerre, ils s’addresseront aux susdits Com-
+                    <lb/>missaires, qui leur feront rendre bonne et <lb/>promte justice, et payer
+                    les dedommagemens <lb/>qui leur seront legitimement dûs; tout ce <lb/>qui dessus
+                    enoncé au present article de- <lb/>vant aussi s’entendre de ceux, qui pendant
+                    <lb/>cette guerre ont suivi le parti de l’une ou <lb/>de l’autre des parties
+                    contractantes. <lb/>
+                    <lb/>&nbsp;&nbsp; &nbsp;13. <lb/>Les prisonniers de guerre de Leurs Maj[es]tés,
+                    <lb/>de quelque condition qu’ils soient, seront <lb/>rendûs de part et d’autre
+                    sans rançon et <lb/>tout ce qui s’est passé à cet égard, soit <lb/>pour raison
+                    d’evasion ou de repressailles, <lb/>sera entierement ané et oublié, comme
+                    <lb/>non avenu, sans avoir méme égard au <lb/>plus grand nombre des prisonniers,
+                    ni à <lb/>ceux que l’une des parties pourroit <lb/>avoir rendu à l’autre à
+                    compte, en ver- <lb/>tû du Cartel reglé entre Leurs Maj[es]tés. <lb/>Les dettes
+                    contractées par les officiers, <lb/>pendant leur detention, seront liquidées <pb
+                        facs="#FacsPnr24"/>par des Commissaires établis à cet effet en <lb/>deux
+                    mois de tems et sur les preuves juridi- <lb/>ques, qui seront fournies de ces
+                    dettes, <lb/>Leurs Maj[es]tés feront retenir pour les payer <lb/>les gages et
+                    autres effets de ceux, qui se <lb/>trouveront dans leurs Estats, et pour les
+                    <lb/>autres, qui seront evadés, ou hors du service, <lb/>Leurs dites Maj[es]tés
+                    feront payer reciproque- <lb/>ment les dettes, qu’ils auront contracté,
+                    <lb/>comme dit est, pendant le tems de leur <lb/>prison; bien entendû neanmoins
+                    que la <lb/>liquidation et payement de ces dettes n’ <lb/>apportera aucun
+                    retardement ni empè- <lb/>chement à l’execution de tous les au- <lb/>tres
+                    articles du present Traitté. <lb/>
+                    <lb/>&nbsp;&nbsp; &nbsp;14. <lb/>Comme il est survenû quelques differens
+                    <lb/>entre Leurs Maj[es]tés, au sujet des limites <lb/>de la Finmarckie ou
+                    Lapponie Norvegien- <lb/>ne, pendant et avant cette guerre, en sor- <lb/>te que
+                    Leurs dites Maj[es]tés sur le rapport, <lb/>que leur en a eté fait, pretendent
+                    reci- <lb/>proquement, qu’on a formé quelques <lb/>établissemens au de là des
+                    frontieres l’une <pb facs="#FacsPnr25"/>de l’autre, on est convenû de nommer des
+                    <lb/>Commissaires des deux cotés, qui se transpor- <lb/>teront sur les lieux
+                    trois mois aprés l’echan- <lb/>ge des Ratifications, et aprés avoir examiné
+                    <lb/>avec l’attention necessaire, ce qui concerne <lb/>cette matiere, regleront
+                    au plustot les limi- <lb/>tes des deux Finmarckies selon les anciens
+                    <lb/>Traittés, auxquels il n’a eté apporté au- <lb/>cun changement et
+                    conformement aux <lb/>actes de limites fondés sur ces Traittés. <lb/>
+                    <lb/>&nbsp;&nbsp; &nbsp;15. <lb/>Pour ce qui regarde le cours de la poste
+                    <lb/>Svedoise établi par les Etats du Roy de <lb/>Dannemarc, Sa Maj[es]té
+                    Danoise avoit de- <lb/>mandé qu’il ne fut plus desormais per- <lb/>mis à la
+                    Couronne de Svede, d’avoir <lb/>un Commissaire à Helsingör et que les
+                    <lb/>lettres de Svede ne puissent être portées <lb/>par ses postillons, qu’une
+                    fois la semaine, <lb/>au lieu que jusques à present elles ont <lb/>passé deux
+                    fois. Mais comme il n’est <lb/>pas moins necessaire pour le public et <lb/>pour
+                    le Commerce, que les choses restent sur <lb/>le méme pied et que le Roy et la
+                    Couronne <pb facs="#FacsPnr26"/>de Suede ne veulent apporter aucun change-
+                    <lb/>ment au libre passage des Postes, qui vont de <lb/>Dannemarc en Norvegue,
+                    on est convenû de <lb/>part et d’autre et sur les representations <lb/>des
+                    Puissances Mediatrices, que le Roy de <lb/>Dannemarc pourra avoir de son coté un
+                    <lb/>Commissaire à Helsingborg et faire passer <lb/>ses lettres une fois la
+                    semaine par la <lb/>Svede, comme la Svede pour l’avenir ne <lb/>pourra faire
+                    passer aussi les siennes qu’une <lb/>fois la Semaine par le Dannemarc. Les
+                    <lb/>choses restants d’ailleurs à l’esgard des <lb/>postes, tant de la Svede à
+                    Hambourg, par <lb/>les Etats du Royaume de Dannemarc, que <lb/>de Dannemarc en
+                    Norvegue par la Sve- <lb/>de, entierement dans le méme état et de <lb/>la
+                    maniere pratiquée jusqués à present; <lb/>d’autant plus, que depuis que la
+                    Couronne <lb/>de Svede a soumis ses sujets au peage <lb/>du Sund, il lui est
+                    indispensable d’avoir <lb/>un Commissaire à Helsingör, pour l’expe- <lb/>dition
+                    de leurs vaisseaux, à l’exemple <lb/>des autres nations, qui naviguent dans
+                    <lb/>la mer Baltique et qui ont leurs Com- <pb facs="#FacsPnr27"/>missaires au
+                    dit Helsingör, Sa Maj[es]té Sve- <lb/>doise promettant, de donner les ordres
+                    necessai- <lb/>res, pourque celui qu’Elle y tiendra ne cause <lb/>aucun dommage,
+                    derangement ni malver- <lb/>sation au prejudice des Postes du Roy de
+                    <lb/>Dannemarc et de faire rendre toute la justi- <lb/>ce, qu’on doit attendre
+                    de son équité sur les <lb/>plaintes, qui pourroient être faites au
+                    <lb/>contraire. Ce que le Roy de Dannemarc <lb/>promet aussi de son coté, par
+                    rapport au <lb/>Commissaire, qu’il pourra tenir à Hel- <lb/>singburg. <lb/>
+                    <lb/>&nbsp;&nbsp; &nbsp;16. <lb/>Les autres Conventions et Traittés de paix
+                    <lb/>cy-devant conclus entre le Dannemarc et <lb/>la Svede sont en vertû des
+                    presentes <lb/>confirmés et renouvellés dans tous leurs <lb/>points et articles,
+                    comme s’ils étoient <lb/>inserés mot à mot dans le present Trait- <lb/>té, en
+                    tout ce qui n’est point contrai- <lb/>re à sa teneur. <lb/>
+                    <lb/>&nbsp;&nbsp; &nbsp;17. <lb/>Tous les points et articles cy-dessus
+                    <lb/>seront ratifiés de Leurs Majestés <pb facs="#FacsPnr28"/>et les
+                    Ratifications en bonne forme échan- <lb/>gées en quatre semaines à compter du
+                    jour <lb/>de la signature, ou plustot, si faire se peut. <lb/>En foy de quoi on
+                    a dressé deux Exemplai- <lb/>res uniformes du present Traitté, dont l’un <lb/>a
+                    été signé par le Plenipotentiaire de <lb/>Sa Maj[es]té le Roy de Dannemarc et
+                    l’autre <lb/>par les Plenipotentiaires de Sa Maj[es]té <lb/>le Roy de Svede et à
+                    iceux apposé le ca- <lb/>chet de leurs armes. Fait à Friderichsburg <lb/>le
+                    troisieme Juillet, Mil Sept Cent Vingt. <lb/>
+                    <lb/>Paul de LöwenÖrren. <lb/>
+                    <lb/>[Lacksiegel] <lb/>
+                </p>
+            </div>
+        </body>
+    </text>
+</tei:TEI>

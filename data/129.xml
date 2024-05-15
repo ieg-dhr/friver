@@ -1,0 +1,551 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE tei SYSTEM "../resources/FriVer_DTD.dtd">
+
+<?xml-model href="../resources/FriVer.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns="http://www.tei-c.org/ns/1.0"
+    xml:id="pa000299-0129">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title level="s">European peace treaties of the pre-modern era in data / Europäische
+                    Friedensverträge der Vormoderne in Daten (FriVer+)</title>
+                <title when="1746-07-21" xml:id="t129" when-custom="1746 VII 21" level="a"
+                    ref="https://www.ieg-friedensvertraege.de/treaty/t-129-1-de.html"
+                    >Subsidienvertrag von München</title>
+            </titleStmt>
+            <editionStmt>
+                <edition> Digital edition according to <ref target="http://www.tei-c.org/">TEI
+                        P5</ref>
+                </edition>
+                <funder>
+                    <ref target="https://www.text-plus.org/">TEXT+</ref>
+                </funder>
+                <editor role="http://id.loc.gov/vocabulary/relators/edt"
+                    ref="https://orcid.org/0000-0002-8741-5916">
+                    <persName>Jaap Geraerts</persName>
+                    <note>The transformation and enrichment of the data is done by Jaap Geraerts
+                        (IEG Mainz). The other members of the FriVer+ team are Fabian Cremer, Ines
+                        Grund, and Thorsten Wübbena (all IEG Mainz).</note>
+                    <note> The original data has been created by the <ref
+                            target="https://www.ieg-friedensvertraege.de">team of scholars</ref> who
+                        were part of the Europäische Friedensverträge der Vormoderne project. This
+                        project was lead by Prof. Dr. Heinz Duchhardt and was based at the Leibniz
+                        Institute of European History in Mainz. </note>
+                </editor>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>
+                    <orgName ref="http://www.isni.org/0000000119314040">Leibniz-Institut für
+                        Europäische Geschichte Mainz</orgName>
+                </publisher>
+                <distributor>
+                    <orgName ref="http://www.isni.org/0000000110101946">Universitäts- und
+                        Landesbibliothek Darmstadt</orgName>
+                </distributor>
+                <idno type="ISIL">http://lobid.org/organisation/DE-17</idno>
+                <date type="issued" when="2023-12-23"/>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">
+                        <p xml:lang="en">This file is licensed under the terms of the Creative
+                            Commons License CC-BY 4.0 (Attribution 4.0 International)</p>
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <repository xml:id="r20">Muenchen BayHStA</repository>
+                <msDesc>
+                    <p>&nbsp; Bayerisches Hauptstaatsarchiv München: Bayern Urkunden 1089
+                        (Hauptvertrag, Separatartikel). <lb/>&nbsp; </p>
+                    <p>Weitere Stücke: Bayerisches Hauptstaatsarchiv München: Kurbayern Urkunden
+                        9315: Ratifikation Großbritanniens, Kensington 1746 VIII 4 (Ratification à
+                        Georgio II. Magno Britanniae Rege super Tractatum Amicitiae inter illum et
+                        Ordines Belgii generales erga Maximilianum Josephum Bav. Elect. die julii
+                        1746 initum, facta 4 augustii 1746) </p>
+                    <p>Bayerisches Hauptstaatsarchiv München:&nbsp; Kurbayern Urkunden 9316:
+                        Ratifikation der Generalstaaten, Haag 1746 IX 21. <lb/>
+                    </p>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p> The data in this XML file, originally created by the project <ref
+                        target="https://www.ieg-friedensvertraege.de/vertraege">Europäische
+                        Friedensverträge der Vormoderne online</ref> has been transformed in
+                    accordance with <ref target="http://www.tei-c.org/">TEI P5</ref> as part of the
+                    project <ref
+                        target="https://www.ieg-mainz.de/en/research/research-projects/european-peace-treaties-of-the-pre-modern-era-in-data"
+                        >Europäische Friedensverträge der Vormoderne in Daten (FriVer+)</ref>
+                </p>
+            </projectDesc>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="fr" xml:id="lan4">französisch</language>
+            </langUsage>
+        </profileDesc>
+    </teiHeader>
+    <standOff>
+        <listPerson>
+            <person role="signatory" xml:id="p20">
+                <persName ref="https://explore.gnd.network/gnd/4005044-0">
+                    <name>Bayern</name>
+                </persName>
+            </person>
+            <person role="signatory" xml:id="p49">
+                <persName ref="https://explore.gnd.network/gnd/4101204-5">
+                    <name>Generalstaaten</name>
+                </persName>
+            </person>
+            <person role="signatory" xml:id="p42">
+                <persName ref="https://explore.gnd.network/gnd/4022153-2">
+                    <name>Großbritannien</name>
+                </persName>
+            </person>
+            <person xml:id="pp0220">
+                <persName ref="https://explore.gnd.network/gnd/118538543">
+                    <name>Georg II. (Großbritannien)</name>
+                </persName>
+            </person>
+            <person xml:id="pp0019">
+                <persName ref="https://explore.gnd.network/gnd/118577867">
+                    <name>Maria Theresia</name>
+                </persName>
+            </person>
+            <person xml:id="pp0005">
+                <persName ref="https://explore.gnd.network/gnd/118692925">
+                    <name>Francis I, Holy Roman Emperor</name>
+                </persName>
+            </person>
+            <person xml:id="pp0015">
+                <persName ref="https://explore.gnd.network/gnd/118560115">
+                    <name>Charles VII, Holy Roman Emperor</name>
+                </persName>
+            </person>
+            <person xml:id="pp0224">
+                <persName ref="https://explore.gnd.network/gnd/118579436">
+                    <name>Maximilian III Joseph, Elector of Bavaria</name>
+                </persName>
+            </person>
+            <person xml:id="pp0225">
+                <persName ref="https://viaf.org/viaf/315533384/">
+                    <name>Onslow Burrish</name>
+                </persName>
+            </person>
+            <person xml:id="pp0226">
+                <persName>
+                    <name>Tjaard van Aylva</name>
+                </persName>
+            </person>
+            <person xml:id="pp0227">
+                <persName ref="https://explore.gnd.network/gnd/118564420">
+                    <name>Johann Georg von Königsfeld</name>
+                </persName>
+            </person>
+            <person xml:id="pp0228">
+                <persName>
+                    <name>Maximilian Franz Rheinstein und Tattenbach</name>
+                </persName>
+            </person>
+            <person xml:id="pp0229">
+                <persName ref="https://explore.gnd.network/gnd/119472120">
+                    <name>Joseph Franz von Seinsheim</name>
+                </persName>
+            </person>
+            <person xml:id="pp0230">
+                <persName>
+                    <name>Franz Andreas Braidlohn</name>
+                </persName>
+            </person>
+        </listPerson>
+        <listPlace>
+            <place xml:id="loc66">
+                <placeName ref="https://explore.gnd.network/gnd/4127793-4">München</placeName>
+            </place>
+        </listPlace>
+        <facsimile>
+            <surface xml:id="FacsPnr1">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_44f84b60ed54e"/>
+            </surface>
+            <surface xml:id="FacsPnr2">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_44f84b91a18cd"/>
+            </surface>
+            <surface xml:id="FacsPnr3">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_44f84be9ad2cc"/>
+            </surface>
+            <surface xml:id="FacsPnr4">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_44f84c0fa5a97"/>
+            </surface>
+            <surface xml:id="FacsPnr5">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_44f84c3707769"/>
+            </surface>
+            <surface xml:id="FacsPnr6">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_44f84c6564b65"/>
+            </surface>
+            <surface xml:id="FacsPnr7">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_44f84c8f3ec84"/>
+            </surface>
+            <surface xml:id="FacsPnr8">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_44f84cb74da72"/>
+            </surface>
+            <surface xml:id="FacsPnr9">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_44f84cddcd9e1"/>
+            </surface>
+            <surface xml:id="FacsPnr10">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_44f84d0734b71"/>
+            </surface>
+            <surface xml:id="FacsPnr11">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_44f84d70c4fd3"/>
+            </surface>
+            <surface xml:id="FacsPnr12">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_44f84da04a606"/>
+            </surface>
+            <surface xml:id="FacsPnr13">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_44f84dcbe678c"/>
+            </surface>
+            <surface xml:id="FacsPnr14">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_44f84e3709b33"/>
+            </surface>
+            <surface xml:id="FacsPnr15">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_44f84e5da2ceb"/>
+            </surface>
+            <surface xml:id="FacsPnr16">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_44f84e929b786"/>
+            </surface>
+            <surface xml:id="FacsPnr17">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_44f84ec6f0710"/>
+            </surface>
+            <surface xml:id="FacsPnr18">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_44f84ee96a1b4"/>
+            </surface>
+            <surface xml:id="FacsPnr19">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_44f84f1143462"/>
+            </surface>
+            <surface xml:id="FacsPnr20">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_44f84f8fe784a"/>
+            </surface>
+            <surface xml:id="FacsPnr21">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_44f84ffc333af"/>
+            </surface>
+        </facsimile>
+    </standOff>
+    <text>
+        <front>
+            <div type="Drucke">
+                <p>Staatsverträge des Kurfürstentums Bayern 1745-1764. Bearb. v. Alois Schmid.
+                    München 1991, S.41-48.</p>
+            </div>
+            <div type="Inhalt">
+                <p>Freundschaft. Friedensziel. Bewahrung des Reichs. Bayerische Hilfstruppen für die
+                    Generalstaaten. Unterhändler.<lb/>Art. 1 Bayerische Hilfstruppen für 4
+                    Jahre.<lb/>Art. 2 Zahlungsmodalitäten für die Generalstaaten.<lb/>Art. 3
+                    Marschbestimmungen.<lb/>Art. 4 Militärische Jurisdiktion.<lb/>Art. 5 Generäle.
+                    Kommando.<lb/>Art. 6 Sold durch Generalstaaten. Einsatz nach Wunsch der
+                    Seemächte.<lb/>Art. 7 Zahlungen an Bayern.<lb/>Art. 8 Rückführung der Truppen
+                    nach 4 Jahren.<lb/>Art. 9 Weitere Subsidien.<lb/>Art. 10 Bündnis Bayerns mit dem
+                    Kaiser. Abstimmung.<lb/>Art. 11 Rekrutierungen.<lb/>Art. 12 Entschädigungen für
+                    Verluste.<lb/>Art. 13 Behandlung von Kriegsgefangenen.<lb/>Art. 14 Bayern bleibt
+                    loyal im Reich. Der Subsidienvertrag steht dem momentanen Friedenszustand nicht
+                    entgegen.<lb/>Art. 15 Deserteure.<lb/>Art. 16 Deserteure.<lb/>Art. 17
+                    Verwundete. Seelsorge.<lb/>Art. 18 Ausstattung beim Abmarsch.<lb/>Art. 19
+                    Versorgung. Marketender.<lb/>Art. 20 Freie Religionsausübung für die bayerischen
+                    Truppen.<lb/>Art. 21 Ratifikationen. </p>
+            </div>
+            <div type="Kommentar">
+                <p>Max III. Joseph hatte ein geschlagenes, von Schulden schier erdrücktes Bayern
+                    übernommen (Kraus). Aus fiskalischen Gründen und mit dem Ziel, den
+                    Staatsbankrott abzuwenden, ging Bayern auf Vermittlung Maria Theresias diesen
+                    Subsidienvertrag mit den (mit Österreich verbündeten) Seemächten England und
+                    Holland ein. Bayern stellte gegen Subsidienzahlungen ein Hilfskorps, das in den
+                    Niederlanden bis zum Frieden von Aachen (18. Oktober 1748) gegen Frankreich
+                    kämpfte. 1750 wurde der Vertrag für sechs weitere Jahre erneuert. </p>
+            </div>
+            <div type="Kontext">
+                <p>1740-1748: Österreichischer Erbfolgekrieg. Karl Albert von Bayern, Philipp V. von
+                    Spanien und August III. von Sachsen erheben Anspruch auf das Habsburgische
+                    Erbe.<lb/>1740-1742: Erster Schlesischer Krieg.<lb/>1744-1745: Zweiter
+                    Schlesischer Krieg. <lb/>22. April 1745: Friede von Füssen zwischen Bayern und
+                    Österreich. Der bayerische Kurfürst Maximilian III. Josef verzichtet auf die
+                    Kaiserkrone und erkennt die Pragmatische Sanktion an.<lb/>25. Dezember 1745:
+                    Friede von Dresden zwischen Österreich und Preußen, das im Besitz Schlesiens
+                    bleibt.<lb/>18. Oktober 1748: Friede von Aachen; er beendet den österreichischen
+                    Erbfolgekrieg auf der Basis des status quo ante.</p>
+            </div>
+
+        </front>
+        <body>
+            <div type="Edition">
+                <p>Traité d´amitié, de bonne intelligence et de subside entre Sa Majesté le <rs
+                        ref="#pp0220">Roy de la Grande Bretagne</rs><note n="1" type="annotation"
+                        >Georg II. (1727-1760), König von Großbritannien, Kurfürst von
+                        Hannover.</note> et Leurs Hautes Puissances, les <rs ref="#p49">Etats
+                        Generaux</rs>, d´une part, et Son Altesse Serenissime <rs ref="#pp0224"
+                        >l´Electeur de Baviere</rs><note n="2" type="annotation">Maximilian III.
+                        Joseph (1745-1777), Kurfürst von Bayern.</note> de l´autre part, en vertu
+                    duquel et moyennant les subsides y stipulés, <rs ref="#pp0224">Son Altesse
+                        Serenissime et Electorale</rs> cede à la solde des <rs ref="#p49">Etats
+                        Generaux</rs> pour le terme de quatre années un corps d´infanterie, avec son
+                    etat major, artillerie etc. pour etre employé pendant ce tems au service des
+                    puissances maritimes.<lb/><lb/>Notoire soit à tous ceux, auxquels il
+                    appartiendra, comme <rs ref="#pp0224">Son Altesse Serenissime Electorale de
+                        Baviere</rs> embrasse avec une veritable satisfaction, l´occasion, qui se
+                    presente de faire connoitre à <rs ref="#pp0220">Sa Majesté Britannique</rs>,
+                    Electeur d´Hanovre, et à Leurs Hautes Puissances, les Seigneurs <rs ref="#p49"
+                        >Etats Generaux des Provinces Unis</rs>, la haute consideration que Son <rs
+                        ref="#pp0224">Altesse Serenissime Electorale</rs> leurs a toujours portée,
+                    et qu´elle souhaite d´entretenir avec Sa Majesté et Leurs Hautes Puissances une
+                    parfaite amitié, qui ait pour but de parvenir au retablissement de la
+                    tranquillité publique, et à la conservation du systeme de l´Empire, auquel Son
+                        <rs ref="#pp0224">Altesse Serenissime Electorale</rs> doit prendre tant de
+                    part, pour quel effet il a eté trouvé utile de ceder à la solde de Leurs Hautes
+                    Puissances, les <rs ref="#p49">Etats Generaux</rs>, un nombre de troupes
+                    auxiliaires bavaroises, qui puissent contribuer à une fin si louable, et desirée
+                    egalement des puissances maritimes: A ces causes les Ministres sousignez,
+                    duement authorisés, à sçavoir, de la part du tres Haut Serenissime et tres
+                    Puissant Prince, Sa Majeste <rs ref="#pp0220">George II., Roy de la Grande
+                        Bretagne</rs>, Electeur d´Hanovre etc. etc. etc. Le <rs ref="#pp0225">Sieur
+                        Onslow Burrish</rs><note n="3" type="annotation">Onslow Burrish (gest.
+                        1758), englischer Diplomat und Ökonom.</note>, son ministre à plusieurs
+                    princes et cercles de l´Empire, et son ministre plenipotentiaire à son <rs
+                        ref="#pp0224">Altesse Serenissime Electeur de Baviere</rs>, et de la part de
+                    Leurs Hautes Puissances, les <rs ref="#p49">Seigneurs Etats Generaux des
+                        Provinces Unies</rs>, Le Sieur <rs ref="#pp0226">Tiaard Baron van
+                        Aylva</rs><note n="4" type="annotation">Tjaard van Aylva (1712-1757),
+                        niederländischer Gesandter.</note>, grietman de Baarderadeel en Frise,
+                    deputé de la province de Frise à l´assemblée de Leurs Hautes Puissances, et leur
+                    ministre plenipotentiaire à <rs ref="#pp0224">Son Altesse Serenissime l´Electeur
+                        de Baviere</rs>, d une part ; Et de Son <rs ref="#pp0224">Altesse
+                        Serenissime Electorale de Baviere</rs> de l´autre part, le Sieur <rs
+                        ref="#pp0227">Jean George Comte de Konigsfeld</rs><note n="5"
+                        type="annotation">Johann Georg von Konigsfeld. Keine weiteren Angaben
+                        ermittelt.</note>, grand chambellan, le Sieur <rs ref="#pp0228">Maximilien
+                        Francois Comte de Rheinstein et de Tattenbach</rs><note n="6"
+                        type="annotation">Max Graf von Rheinstein und Tattenbach. Keine weiteren
+                        Angaben ermittelt.</note>, grand ecuier, le Sieur <rs ref="#pp0229">Joseph
+                        Francois Comte de Sinsheim</rs><note n="7" type="annotation"><rs
+                            ref="#pp0229">Joseph Franz Graf von Sinzheim</rs>. Keine weiteren
+                        Angaben ermittelt.</note>, et le Sieur Francois André Baron de
+                        Bra&lt;i&gt;dlohn<note n="8" type="annotation">Franz Andreas Braidlohn,
+                        Staatsrat. Keine weiteren Angaben ermittelt.</note>, vice chancelier du
+                    conseil d´etat, lesquels ministres cy-dessus nommés, et munis de part et d´autre
+                    des facultés et pleins pouvoirs necessaires, après plusieurs conferences, sont
+                    convenus des articles et conditions suivantes.<lb/><lb/>Article 1.<lb/>Son <rs
+                        ref="#pp0224">Altesse Serenissisme Electorale de Baviere</rs> cede à la
+                    solde de Leurs Hautes Puissances, les Seigneurs <rs ref="#p49">Etats Generaux
+                        des Provinces Unies</rs>, pendant le terme de quatre années consecutives,
+                    six battaillons de ses troupes avec l´artillerie de campagne proportionnée.
+                    Chaque battaillon sera composé d´une compagnie de grenadiers et de huit
+                    compagnies fuziliers, de sorte, qu´avec le Primo Plan<note n="9" type="crit_app"
+                        >Durch Unterstreichung hervorgehoben."</note> il sera fort de sept cents
+                    nonante &lt;.&gt;n hommes, y compris le grand et petit etat major des regiments,
+                    specifiés plus amplement dans la liste annexe, sub Littera A. Le dit corps se
+                    mettra en marche quatre semaines après la signature du present traité, et usera
+                    de la dernier diligence pour se joindre à l´armee confederée aux Pais-Bas, ou
+                    pour arriver à l´endroit de sa destination, selon les ordres, qui seront donnez
+                    à leur general commandant à cet effet. Il sera commandé par un general bavarois
+                    et l´etat major de tout le corps, specifié sub Littera B et toutes ces troupes
+                    seront fixées hors des vieux regiments, et livrées bien pourvues des montures,
+                    armes du même calibre et equipages de Campagne. <lb/><lb/>Article 2.<lb/>Pour
+                    rendre ce corps mobile, Leurs Hautes Puissances, les Seigneurs <rs ref="#p49"
+                        >Etats Generaux des Provinces Unies</rs> s´obligent à payer sous le titre de
+                    denier d´enrollement vingt cinq ecus par tête (l´ecu evalué à cinquante sols
+                    argent courant d´Hollande) pour chaque simple soldat en rang et file, les
+                    tambours et fiffres y compris; comme aussi pour vingt neuf hommes d´artillerie;
+                    lequel payement se fera à la &lt;Haye&gt; en argent comptant, à sçavoir la
+                    moitié immediatement après la signature du present traité, à la personne
+                    authorisée à la recevoir de la part de Son <rs ref="#pp0224">Altesse Serenissime
+                        Electorale</rs>, et l´autre moitié lorsque le corps des troupes bavaroises
+                    sera arrivé dans la Republique, ou à l´endroit de sa destination, à condition
+                    toutefois, qu´on retiendra vingt cinq ecus pour chaque homme, qui manquera au
+                    dit corps le jour qu´il passera la montre en presence du commissaire préposé à
+                    cet effet par le conseil d´etat des Provinces Unies, lesquels vingt cinq ecus
+                    cependant seront payés aux officiers aussitôt, qu´ils produiront au commissaire
+                    susdit les hommes, qui auront manqués au nombre complet le jour de la
+                    revue.<lb/><lb/>Article 3.<lb/>Le corps de troupes bavaroises apres la revue
+                    pretera serment de fidelité à Leurs Hautes Puissances, les Seigneurs <rs
+                        ref="#p49">Etats Generaux des Provinces Unies</rs>, toutefois sans prejudice
+                    au serment preté à Son <rs ref="#pp0224">Altesse Serenissime Electorale</rs>,
+                    laquelle se reserve expressement le droit de remplir et de nommer aux charges
+                    d´officiers et autres qui viendront à vaquer. Dès que ce corps aura eté recû a
+                    Donawert par le commissaire de la Republique, Leurs Hautes Puissances seront
+                    chargées de pourvoir à son entretien, tant pour la marche à l´endroit de sa
+                    destination, que pour son retour, au cas, qu´il vienne à etre renvoyé, sans que
+                    Son <rs ref="#pp0224">Altesse Serenissime Electorale de Baviere</rs> soit tenue
+                    d´y contribuer en aucune maniere, ni en campagne, ni en marche, ni dans les
+                    quartiers d´hyver, les troupes bavarois devant etre traitées à ces egards et
+                    payées sur le meme pied, que la Republique en use avec ses propres troupes
+                    nationales. Leurs Hautes Puissances se chargent de pourvoir aux lettres
+                    requisitoriales pour la marche et le retour des dites troupes.<lb/><lb/>Article
+                    4.<lb/>Le corps des troupes bavaroises restera aux ordres et sous la
+                    jurisdiction du general, que Son <rs ref="#pp0224">Altesse Serenissime
+                        Electorale</rs> y aura etabli, tant en campagne que dans les quartiers
+                    d´hyver, à condition toutefois, qu´il sera obligé de se regler suivant les
+                    ordres du general, qui commandera en chef les troupes de la Republique. Lequel
+                    aura toujours plein pouvoir de punir sur le champ et dans le terme de vingt
+                    quatre heures, les fautes commises contre la defense generale, mais apres les
+                    vingt quatre heures, les delinquants seront livrés suivant l´ancienne coutume à
+                    la justice de la generalité bavaroise. Ledit corps demeurera uni en campagne
+                    comme en quartier d´hyver, autant que la raison de guerre pourra le permettre,
+                    dont le general commandant en chef les troupes des Etats Generaux sera le
+                    &lt;i&gt;uge. Il campera à l´armee suivant le rang, que Son <rs ref="#pp0224"
+                        >Altesse Serenissime Electorale</rs> tient dans l´Empire, et il sera traité
+                    à l´armee, en quartier d´hyver et dans les garnisons, à l´egard de tous les
+                    services militaires, indistinetement comme les propres troupes de la Republique
+                    sans partialité quelconque. Il servira conjointement avec les autres troupes de
+                    Leurs Hautes Puissances, les <rs ref="#p49">Etats Generaux des Provinces
+                        Unies</rs>, dans la proportion usitée du nombre des battaillons, ce qui sera
+                    reglé par les majors de brigade electoraux et autres majors de brigade de
+                    l´armee, suivant les tabelles, qui en seront faites, et les officiers bavarois
+                    seront laissés auprès de leur corps, autant que le rang et l´ancienneté pourront
+                    le permettre, en egard aux dates de Leurs patentes.<lb/><lb/>Article
+                    5.<lb/>Lorsque des generaux de même caractere, que ceux qui serviront aupres du
+                    corps des troupes bavaroises, seront appellé au conseil de guerre, les generaux
+                    bavarois y avont invités pareillement, et lorsqu´il sera question de se mettre
+                    au marche, le general commandant en chef le corps bavarois en sera averti en
+                    même tems, que les autres generaux.<lb/><lb/>Article 6.<lb/>Pendant les quatres
+                    années completes, à compter du jour, que les dites troupes seront recues à
+                    Donauwert par le commissaire de la Republique, elles seront laissées à la solde
+                    de Leurs Hautes Puissances pour etre employées là et de façon, que le service du
+                    puissances maritimes pourra demander.<lb/><lb/>Article 7.<lb/>Par contre, Sa
+                    Majesté le <rs ref="#pp0220">Roy de la Grande Bretagne</rs> et Leurs Hautes
+                    Puissances, les Seigneurs <rs ref="#p49">Etats Generaux des Provinces
+                    Unies</rs>, s´engagent de faire payer à Son <rs ref="#pp0224">Altesse
+                        Serenissime Electorale</rs> la &lt;somme&gt;<note n="10" type="crit_app"
+                        >Unklare Stelle durch Fleck.</note> annuelle de cent cinquante mille ecus de
+                    banque; c´est à dire Sa Majesté Britannique les trois quarts de la dite somme à
+                    Londres et Leurs Hautes Puissances un quart à la Haye, comme un subside payabale
+                    de trois en trois mois, sans la moindre diminuation, lequel subside commencera
+                    du jour specifié dans l´article predecent.<lb/><lb/>Article 8.<lb/>Au cas, que
+                    la Republique, avant l´expiration du terme, dont on est convenu, n´eut plus
+                    besoin des troupes bavaroises, et trouv&lt;at&gt; à propos de les renvoyer,
+                    Leurs Hautes Puissaces seront tenues d´en avertir Son <rs ref="#pp0224">Altesse
+                        Serenissime Electorale</rs> trois mois d´avance, et d´en payer la solde
+                    jusques à ce, que les dites troupes seront revenues aux frontiers de Baviere, et
+                    remises au commissaire de Son <rs ref="#pp0224">Altesse Serenissime
+                        Electorale</rs>, qui devra se trouver pret à les recevoir; moyennant aussi,
+                    qu´elles marchent du jour de leur renvoi par la route la plus courte, sans faire
+                    des sejours plus longs, que ceux, que l´usage de guerre authorise. Et comme, dès
+                    la signature du present traité, Son <rs ref="#pp0224">Altesse Serenissime
+                        Electorale</rs> s´oblige à mettre les troupes bavaroises en etat de marcher
+                    dans l´espace de quatre semaines, et même que la premiere division , composée de
+                    deux bataillons, partira vingt jours apres la signature du present traité, il
+                    est entendu, qu´au cas, que la paix vint à se faire avant le jour, dont en est
+                    convenu, pour la marche des dites troupes, et que Leurs Hautes Puissances, pour
+                    cette raison, ne jugeassent pas necessaire de les faire venir aux Pais-Bas, la
+                    Republique neantmoins sera tenue de payer l´entretien de trois mois et
+                    pareillement le dernier d´enrollement, conformement au deuxieme article du
+                    present traité, de meme, qu´Elle s´est engagée à donner trois mois d´avance
+                    connaissance à Son <rs ref="#pp0224">Altesse Serenissime Electorale</rs> du
+                    retour des dites troupes, au cas qu´avant l´expiration des quatre années pour
+                    lesquelles le present traité se fait, Leurs Hautes Puissances jugeassent à
+                    propos de les renvoyer: Son <rs ref="#pp0224">Altesse Serenissime
+                        Electorale</rs> promet reciproquement de les conserver telles durant le tems
+                    des dites quatre années, pour pouvoir se remettre en marche à la premiere
+                    requisition des <rs ref="#p49">Etats Generaux des Provinces
+                    Unies</rs>.<lb/><lb/>Article 9.<lb/>Dans ce cas, c´est à dire depuis le retour
+                    du corps bavarois à la solde de Son <rs ref="#pp0224">Altesse Serenissime
+                        Electorale</rs>, jusques au terme expiré de quatre années, les subsides de
+                    cent cinquante mille ecus de banque seront augmentés par une somme de cent mille
+                    ecus de banque, de sorte, que les subsuides monteront alors à deux cents
+                    cinquante mille ecus de banque, lesquels seront toujours &lt;pen&gt;etuellement
+                    payées sans la moindre diminution, et de la même façon et dans les mêmes termes
+                    comme on en est convenu ici desous à l´article sept.<lb/><lb/>Article 10.<lb/>En
+                    conformite de ce, que Son <rs ref="#pp0224">Altesse Serenissime Eletorale de
+                        Baviere</rs> s´est engagé avec <rs ref="#pp0019">Sa Majesté Imperiale Reine
+                        d´Hongrie et de Bohème</rs><note n="11" type="annotation">Maria Theresia
+                        (1740-1780), Erzherzogin von Österreich, Königin von Ungarn und Böhmen.
+                        Römisch-deutsche Kaiserin (1745-1765).</note>, par le traité du 17 de juin
+                    de la presente année, et renouvelle ce-jourd´hui, d´aller de concert et de
+                    communiquer avec Sa dite Majesté Imperiale en ce qui regarde les affaires de
+                    l´Empire et la conservation de son système, et que particulierement dans la même
+                    vue, Son <rs ref="#pp0224">Altesse Serenissime Electorale</rs> veut seconder les
+                    intentions de <rs ref="#pp0005">Sa Majeste Imperiale</rs> sur le deuxieme decret
+                    de commission Imperiale touchant la sureté publique, avec ses voix à la diete
+                    generale de l´Empire. Elle reitere ici les mêmes assurances à Sa Majesté
+                    Britannique et à Leurs Hautes Puissances, et promet de les executer
+                    fidellement.<lb/><lb/>Article 11.<lb/>Les recrues annuelles seront faites sur le
+                    même pied , qui se pratique à l´egard des propres troupes de Leurs Hautes
+                    Puissances, de sorte que de même que le corps bavarois doit etre payé sur le
+                    pied complet de l´observance pratiquée dans la Republique, les officiers
+                    pareillement seront tenus de lever les recrues à leur depens. A cet effet Son
+                    Altesse Serenissime Electorale se reserve expressement, qu´il soit permi aux
+                    chefs des corps d´ envoyer en tems d´hyver les ordonnances necessaires pour
+                    faire les recrues requises en Baviere, et même dans l´Empire.<lb/><lb/>Article
+                    12.<lb/>Les pertes faites en campagne, en hommes ou en chevaux à l´occasion de
+                    quelque expedition militaire ou de quelque fouragement, seront bonifiés sur le
+                    même pied, que la Republique les bonifié à ses propres troupes
+                    nationales.<lb/><lb/>Article 13.<lb/>Les generaux bavarois, les officiers et
+                    soldats du dits corps, qui dans l´occasion pourroient être fait prisonniers de
+                    guerre, jouiront du cartel fait avec l´ennemi, et seront echangés contre
+                    d´autres prisonniers de guerre, ou bien ranconnés et rachettés aux depens de
+                    leurs Hautes Puissances. Par contre les prisonniers, que feront les troupes
+                    bavaroises seules ou accompagnées d´autres troupes, seront remis sans payement
+                    au general commandant les troupes de la Republique. <lb/><lb/>Article
+                    14.<lb/>L´Empire, dont Son <rs ref="#pp0224">Altesse Serenissime Electorale</rs>
+                    a l´honneur d´etre un membre des plus considerables, n´etant presentement en
+                    guerre avec aucune puissance, Son <rs ref="#pp0224">Altesse Serenissime
+                        Electorale</rs> proteste solemnellement de ne pas vouloir se separer de
+                    l´Empire en aucune façon, ni que ses troupes puissent être employées en aucune
+                    maniere contre <rs ref="#pp0005">Sa Majesté Imperiale</rs>, ni contre
+                    l´Empire.<lb/><lb/>Article 15.<lb/>Sous les deserteurs indistinetément, qui
+                    auront eté ci-devant au service de la Republique, ou de quelque autre puissance,
+                    et qui se trouveront au jour de la revue enrollés dans les bataillons bavarois,
+                    ne pourront etre reclamés pour cause de desertion. Par contre, les chefs des
+                    regimens bavarois ne pourront pareillement reclamer les deserteurs, qui auront
+                    eté au service de <rs ref="#pp0015">Sa Majesté Imperiale Charles VII.</rs><note
+                        n="12" type="annotation">Karl VII. (1726/42-1745), Kurfürst von Bayern und
+                        römisch-deutscher Kaiser.</note> de glorieuse memoire, ou de Son Altesse
+                    Serenissime Electorale aujourd´hui regnante.<lb/><lb/>Article 16.<lb/>Les
+                    officiers bavarois ne pourront engager aucune deserteur des troupes de la
+                    Republique, et les soldats bavarois qui deserteront de leurs corps, apres revue
+                    faite par le commissaire de la Republique, ne seront pas engagés sous aucune
+                    pretexte, que ce soit au service des <rs ref="#p49">Etats Generaux</rs>: et
+                    quand les magistrats des pais, dans lesquels le corps bavarois servira viendront
+                    à decouvrir quelques deserteurs cachés dans leur territoires ou jurisdictions,
+                    ils seront obligés de les livrer à leurs officiers, et cette stipulation sera
+                    pareillement applicable aux valets des officiers et à tous leurs qui seront au
+                    service du dit corps.<lb/><lb/>Article 17.<lb/>Leurs Hautes Puissances
+                    s´obligent d´admettre les troupes bavaroises dans leurs hopitaux, et de les
+                    faire soigner comme leurs propres troupes moyennant, qu´elles payent la
+                    contribution ordinaire, ou la solde sur le même pied, que la payent les troupes
+                    natioales. On permettra aux officiers bavarois de faire examiner par quelques
+                    uns d´entre eux la façon dont les malades, seront traités et soignés, et d´en
+                    faire rapport à leurs chefs. On permettra aussi au pretres de la religion
+                    catholique romaine de pouvoir visiter les malades et blessés de leur religion,
+                    qui se trouveront dans les hopitaux comme c´est la coutume.<lb/><lb/>Article
+                    18.<lb/>Au depart des troupes Son <rs ref="#pp0225">Altesse Serenissisme
+                        Electorale</rs> fera, donner à chaque soldat vingt quatre coups à tirer, et
+                    cinquante à l´artillerie, pour chaque piece de canon et pendant qu´elles
+                    resteront a la solde de Leurs Hautes Puissances, on leur distribuera pour leurs
+                    exercises, la même quantité de poudre, plomb et boulets de canon, qui se
+                    distribue aux troupes nationales; et à leur retour en rendra aux dites troupes
+                    la même quantité de munition dont elles etoient pourvues à leur
+                    depart.<lb/><lb/>Article 19.<lb/>Les vivandiers et les nommez marquetenters
+                    seront traités tant en campagne, que dans les garnisons de la même façon, et
+                    jouiront des mêmes immunités, que les vivandiers et les nommez marquetenters,
+                    qui se trouvent à la suite des troupes nationales de la Republique: Et Leurs
+                    Hautes Pusisances s´engagent d´accorder pour la monture, armes et autres
+                    requisites necessaires aux troupes, des passeports pour les exempter de payer
+                    les taxes à l´etat.<lb/><lb/>Article 20.<lb/>Leurs Hautes Puissances accorde le
+                    libre exercise de religion aux troupes bavaroises, tant en campagne qu´en
+                    garnison, de la même façon, qu´elles l´accordent à leurs propres sujets: et si
+                    les dites troupes se trouvent dans un endroit il n´y a point d´eglise de leur
+                    religion, en leur assignera une place convenable au service
+                    divin.<lb/><lb/>Article 21.<lb/>Les ratifications de ce traité seront echangées
+                    à Munich, six semaines après la signature ou plutôt si faire se peut.<lb/>En foy
+                    de quoy nous soussignez en vertu de nos plein pouvoirs respectifs ,dont nous
+                    avons duement fait l´echange, avons signé le present traité et avons apposer les
+                    cachets de nos armes.<lb/>Fait à Munich le vingt un juillet mille sept cent
+                    quarante six.<lb/><lb/><rs ref="#pp0225">Onslow Burrish</rs><lb/><rs
+                        ref="#pp0226">J. Van Aylva</rs><lb/><rs ref="#pp0227">Jean George Comte de
+                        Konigsfeld</rs><lb/><rs ref="#pp0228">Maximilian Comte de Rheinstein et
+                        Tattenpach</rs><lb/><rs ref="#pp0229">Joseph François Comte de
+                        Seinsheim</rs><lb/><rs ref="#pp0230">François André Baron de
+                    Braidlohn</rs></p>
+            </div>
+
+        </body>
+    </text>
+</tei:TEI>

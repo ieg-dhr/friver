@@ -1,0 +1,1065 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE tei SYSTEM "../resources/FriVer_DTD.dtd">
+
+<?xml-model href="../resources/FriVer.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns="http://www.tei-c.org/ns/1.0"
+    xml:id="pa000299-0105">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title level="s">European peace treaties of the pre-modern era in data / Europäische
+                    Friedensverträge der Vormoderne in Daten (FriVer+)</title>
+                <title when="1525-04-08" xml:id="t105" when-custom="1525 IV 8" level="a"
+                    ref="https://www.ieg-friedensvertraege.de/treaty/t-105-1-de.html"
+                    >Friedensvertrag von Krakau</title>
+            </titleStmt>
+            <editionStmt>
+                <edition> Digital edition according to <ref target="http://www.tei-c.org/">TEI
+                        P5</ref>
+                </edition>
+                <funder>
+                    <ref target="https://www.text-plus.org/">TEXT+</ref>
+                </funder>
+                <editor role="http://id.loc.gov/vocabulary/relators/edt"
+                    ref="https://orcid.org/0000-0002-8741-5916">
+                    <persName>Jaap Geraerts</persName>
+                    <note>The transformation and enrichment of the data is done by Jaap Geraerts
+                        (IEG Mainz). The other members of the FriVer+ team are Fabian Cremer, Ines
+                        Grund, and Thorsten Wübbena (all IEG Mainz).</note>
+                    <note> The original data has been created by the <ref
+                            target="https://www.ieg-friedensvertraege.de">team of scholars</ref> who
+                        were part of the Europäische Friedensverträge der Vormoderne project. This
+                        project was lead by Prof. Dr. Heinz Duchhardt and was based at the Leibniz
+                        Institute of European History in Mainz. </note>
+                </editor>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>
+                    <orgName ref="http://www.isni.org/0000000119314040">Leibniz-Institut für
+                        Europäische Geschichte Mainz</orgName>
+                </publisher>
+                <distributor>
+                    <orgName ref="http://www.isni.org/0000000110101946">Universitäts- und
+                        Landesbibliothek Darmstadt</orgName>
+                </distributor>
+                <idno type="ISIL">http://lobid.org/organisation/DE-17</idno>
+                <date type="issued" when="2023-12-23"/>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">
+                        <p xml:lang="en">This file is licensed under the terms of the Creative
+                            Commons License CC-BY 4.0 (Attribution 4.0 International)</p>
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <repository xml:id="r30">Warschau AGAD</repository>
+                <msDesc>
+                    <p>Transkriptionsgrundlage: AGADWarschau Perg. 185: Instrument, Krakau 1525 IV 8
+                        (Articuli concordiae et pacis inter serenissimum principem et dominum,
+                        dominum Sigismundum Dei gratia regem Poloniae et magnum ducem Litunaniae
+                        etc.etc. ac illustrem principem, dominum Albertum magistrum generalem
+                        ordinis sanctae Mariae Theutonicorum in Prussia, marchionem Brandeburgensem,
+                        Cracoviae initae et conclusae medio illustrium principum dominorum Gerogii
+                        marchonis Brandeburgensis etc. et Friderici ducis Legnicensis etc.; sowie
+                        zweiter Dorsalvermerk: Pacta Sigismundi regi Poloniae cum Alberto prius
+                        magistro post duce in Prussia 1525 &lt;vermutl. jüngeren Datums&gt;).<lb/>
+                        <lb/> Weitere Stücke:<lb/>
+                        <lb/> AGADWarschau Perg. 757: Ratifikation durch Sigismund I., Krakau 1525
+                        IV 9.<lb/> AGADWarschau Perg. ZDP Nr. 1063: Ratifikation durch Markgraf
+                        Albrecht von Brandenburg, Königsberg 1525 V 29.*<lb/>
+                        <lb/> Abschriften:<lb/>
+                        <lb/> A) AGADWarschau Perg ZDP Nr.184: Einwilligung der preußischen
+                        Bevollmächtigten, Krakau 1525 IV IX (zeitgenössische Kopie: AGADWarschau
+                        Metryka Kornonnej (MK) KP Bd.39, S.321-326).<lb/> B) AGADWarschau MK KK
+                        Bd.39, S.370-377 und KP Bd.39, S.321-326 (beides C): Belehnungsurkunde
+                        Sigismund I., Krakau 1525 IV 10.<lb/> C) AGADWarschau Perg. 181: Investitur
+                        und Vereidigung der Untertanen, Königsberg 1525 V 29.<lb/> D) AGADWarschau
+                        MK KP Bd. 39, S.816-817: Ratifikation der Investitur durch Sigismund I.,
+                        Danzig 1525 V 26.<lb/> E) AGADWarschau Libri Legationi 6, fol. 192-208; MK
+                        Bd.38, S.351-369 und Bd.39, S.351-369: zwei C.</p>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p> The data in this XML file, originally created by the project <ref
+                        target="https://www.ieg-friedensvertraege.de/vertraege">Europäische
+                        Friedensverträge der Vormoderne online</ref> has been transformed in
+                    accordance with <ref target="http://www.tei-c.org/">TEI P5</ref> as part of the
+                    project <ref
+                        target="https://www.ieg-mainz.de/en/research/research-projects/european-peace-treaties-of-the-pre-modern-era-in-data"
+                        >Europäische Friedensverträge der Vormoderne in Daten (FriVer+)</ref>
+                </p>
+            </projectDesc>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="la" xml:id="lan6">Latein</language>
+            </langUsage>
+        </profileDesc>
+    </teiHeader>
+    <standOff>
+        <listPerson>
+            <person role="signatory" xml:id="p33">
+                <persName ref="https://explore.gnd.network/gnd/1017688-3">
+                    <name>Deutscher Orden</name>
+                </persName>
+            </person>
+            <person role="signatory" xml:id="p91">
+                <persName ref="https://explore.gnd.network/gnd/4046496-9">
+                    <name>Polen</name>
+                </persName>
+            </person>
+            <person xml:id="pp0059">
+                <persName ref="https://explore.gnd.network/gnd/118716905">
+                    <name>Georg der Fromme</name>
+                </persName>
+            </person>
+            <person xml:id="pp0060">
+                <persName ref="https://explore.gnd.network/gnd/118535692">
+                    <name>Friedrich II. Herzog von Liegnitz </name>
+                </persName>
+            </person>
+            <person xml:id="pp0061">
+                <persName ref="https://explore.gnd.network/gnd/118797158">
+                    <name>Sigismund (I) der Alte </name>
+                </persName>
+            </person>
+            <person xml:id="pp0062">
+                <persName ref="https://explore.gnd.network/gnd/118637673">
+                    <name>Albrecht von Preußen</name>
+                </persName>
+            </person>
+            <person xml:id="pp0063">
+                <persName ref="https://explore.gnd.network/gnd/118990217">
+                    <name>Kasimir IV. Andreas</name>
+                </persName>
+            </person>
+            <person xml:id="pp0064">
+                <persName ref="https://explore.gnd.network/gnd/119392895">
+                    <name>Louis II of Hungary</name>
+                </persName>
+            </person>
+            <person xml:id="pp0065">
+                <persName ref="https://explore.gnd.network/gnd/118640437">
+                    <name>Pope Leo X</name>
+                </persName>
+            </person>
+            <person xml:id="pp0094">
+                <persName>
+                    <name>Johann Stalitius</name>
+                </persName>
+            </person>
+            <person xml:id="pp0095">
+                <persName ref="https://explore.gnd.network/gnd/102374090">
+                    <name>Kasimir von Brandenburg-Kulmbach</name>
+                </persName>
+            </person>
+            <person xml:id="pp0096">
+                <persName ref="https://www.wikidata.org/wiki/Q327976">
+                    <name>Johann of Brandenburg-Ansbach</name>
+                </persName>
+            </person>
+        </listPerson>
+        <listPlace>
+            <place xml:id="loc54">
+                <placeName ref="https://explore.gnd.network/gnd/4073760-3">Krakau</placeName>
+            </place>
+        </listPlace>
+        <facsimile>
+            <surface xml:id="FacsPnr1">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_462485a50831b"/>
+            </surface>
+            <surface xml:id="FacsPnr2">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_462485ba5f114"/>
+            </surface>
+            <surface xml:id="FacsPnr3">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_462485dad4316"/>
+            </surface>
+            <surface xml:id="FacsPnr4">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_462485ecc67c9"/>
+            </surface>
+            <surface xml:id="FacsPnr5">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_462485fc69aee"/>
+            </surface>
+            <surface xml:id="FacsPnr6">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_4624860b3cbbb"/>
+            </surface>
+            <surface xml:id="FacsPnr7">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_4624861e3abe5"/>
+            </surface>
+            <surface xml:id="FacsPnr8">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_4624863783eff"/>
+            </surface>
+            <surface xml:id="FacsPnr9">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_46248647c45c2"/>
+            </surface>
+            <surface xml:id="FacsPnr10">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_4624865dc6456"/>
+            </surface>
+            <surface xml:id="FacsPnr11">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_46248672dea4e"/>
+            </surface>
+            <surface xml:id="FacsPnr12">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_462486858a9fc"/>
+            </surface>
+            <surface xml:id="FacsPnr13">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_46248696146de"/>
+            </surface>
+            <surface xml:id="FacsPnr14">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_462486a79d1d1"/>
+            </surface>
+            <surface xml:id="FacsPnr15">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_462486be4cfdf"/>
+            </surface>
+        </facsimile>
+    </standOff>
+    <text>
+        <front>
+            <div type="Drucke">
+                <p>[Kollationierungsvorlagen:] Dogiel 4, S. 225-231. Dolezel, Die Staatsverträge des
+                    Herzogtums Preußen 1, S. 14-30 (weitere Stücke: 31-49). Joachim, Die Politik des
+                    letzten Hochmeisters in Preußen Albrecht von Brandenburg 3: 1521-1523, S.
+                    386-394. Baczko, Geschichte Preußens 4, S. 441-448. Volumina Legum 1, S. 429-439
+                    (2. Aufl.: Volumina Legum 1, S. 214-219). Balzer, Corpus iuris polonici, Sectio
+                    prima, 4/1, S. 141-159 (dt.; lat.). Acta Tomiciana 7, S. 227-234. [Weitere
+                    Drucke:] Przyłuski, Leges seu statuta regni Poloniae, S. 762-770. Januszowski,
+                    Statuta, prawa i konstitucie koronne Łacinskie y polskie, S. 913-919.
+                    Schütz-Chyträus, Historia rerum Prussicarum, Continuation, Bl. 493-497 (dt.),
+                    Goldast, Reichshandlung und ander des Heiligen Römischen Reichs Acten,
+                    Traktaten, kaiserliche, königliche und fürstliche Mandata, S. 175-180 (dt.).
+                    Lünig, Teutsches Reichsarchiv, pars spec. 3, S. 34-39 (dt.; Vertrag der Lande
+                    Preussen halben, so zwischen König Siegmunden in Pohlen und Marggraf Albrechten
+                    zu Brandenburg, Hochmeistern Deutschen Ordens Anno 1525 uf gerichtet, und durch
+                    Kayser Carolum V. aufgehoben und vernichtet worden. Augsburg XI 14 1530, mit dt.
+                    Textinserat). Vetulani, Władztwo polski w Prusiech zakonnych i Ksi¹¿êcych, S.
+                    77-89 (poln.). Dumont suppl. 2/2/1 (ohne Textabdruck). <lb/>[Regest: Joachim,
+                    Hubatsch, Regesta historico-diplomatica Ordinis S.Mariae Theutonicorum
+                    1198-1525, Pars 2, S. 451. Rönnefahrt, Konferenzen und Verträge, S.14-15].</p>
+            </div>
+            <div type="Inhalt">
+                <p>Anlaß des Vertrages: Kriegsunbill. Waffenstillstand von Thorn (1521) läuft ab.
+                    Mediation: König von Ungarn. </p>
+                <p>Art. 1 Beendigung des Kriegszustandes. <lb/>Art. 2 Rückgabe besetzter Gebiete.
+                    <lb/>Art. 3 Auslösung. <lb/>Art. 4 Restitutionen. <lb/>Art. 5 Amnestie.
+                    <lb/>Art. 6-7 Güter und Jurisdiktion der Kirche. <lb/>Art. 8 Restitution der
+                    bäuerlichen Untertanen. <lb/>Art. 9 Belehnung. <lb/>Art. 10 Lehnsgebiet.
+                    <lb/>Art. 11 Heimfall. <lb/>Art. 12 Erhaltung der Privilegien, die der
+                    Lehnshoheit nicht widersprechen. <lb/>Art. 13 Treuepflicht der Untertanen.
+                    <lb/>Art. 14 Sessionsrecht des Herzogs. <lb/>Art. 15 Alienation. Vorkaufsrecht
+                    des Königs. <lb/>Art. 16 Regelung der Heeresfolge. Schutz des Lehens. <lb/>Art.
+                    17-21 Regelung der Jurisdiktion. <lb/>Art. 22-24 Handel und Zölle. <lb/>Art- 25
+                    Standrecht . <lb/>Art. 26-27 Asyl- und Verfolgungsrecht. <lb/>Art. 28 Münzrecht
+                    . <lb/>Art. 29 Übergabe aller Privilegien. Möglichkeit der Erneuerung
+                    derjenigen, die dem Vertrag nicht zuwiderlaufen. <lb/>Art. 30 Beidseitige
+                    Vertragstreue. <lb/>Art. 31 Beistandspflicht, falls der Vertrag angefochten
+                    wird. <lb/>
+                </p>
+            </div>
+            <div type="Kommentar">
+                <lb/>
+                <p>Nach dem Waffenstillstand von Thorn bemühte sich Albrecht vergeblich um
+                    Reichssubsidien für eine Fortsetzung des Krieges. Ein 1523 vom Nürnberger
+                    Reichstag anberaumter Schiedstag kam nicht zustande (6. Januar 1625). Albrecht
+                    sandte daraufhin seine Unterhändler Markgraf Georg von Brandenburg und Herzog
+                    Friedrich von Liegnitz und Brieg zu Friedensverhandlungen nach Krakau. Sie
+                    schlugen im Namen Albrechts eine Säkularisation vor. Am 11. März 1525 zeigten
+                    die polnischen Senatoren Uneinigkeit über diesen Plan; vor allem die geistlichen
+                    Senatoren protestierten. Die Kronkanzler Krzysztof Szydlowiecki (1513/1518-1532)
+                    und Piotr Tomicki (gest.1535) befürworteten zusammen mit den oppositionellen
+                    Ständen das Konzept. Am 18. März nahm Sigismund den Vorschlag an. Bei der
+                    Schlußverhandlung in Krakau vom 2.-7. April war Albrecht persönlich anwesend.
+                    Albrecht unterzeichnete den Vertrag, Sigismund ratifizierte ihn am 9. April.
+                    <lb/>Im Frieden von Krakau wurden die Bestimmungen des Thorner Friedens (1466)
+                    gemildert. Der Vertrag wandelte den Ordensstaat in ein weltliches Herzogtum
+                    unter polnischer Lehenshoheit um. Nach dem Aussterben der ansbachischen
+                    Hohenzollernlinie sollte das Herzogtum an den polnischen König zurückfallen.
+                    Bereits im Laufe des Vertragstextes tritt die geistliche Titulatur Albrechts
+                    zurück und wurde durch den weltlichen Titel ersetzt, ohne daß ein einheitlicher
+                    Terminus gebraucht (dux Prussiae, dux ex Prussia, dux in Prussia) wurde.
+                    Sigismund akzeptierte die Etablierung der lutherischen Religion (Dolezel) in
+                    Ostpreußen; vor allem der polnische Klerus fand darin den Grund, den
+                    Friedensvertrag abzulehnen. Er erließ am 9. April 1525 eine Proklamation gegen
+                    die Lehren Luthers. Unstimmigkeiten zwischen Polen und Preußen gab es in der
+                    Folgezeit bei der Ausübung des Münzrechtes, der Wahrung der Jurisdiktionshoheit
+                    sowie der Beteiligung an der polnischen Königswahl (Dolezel). Der Vertrag von
+                    Krakau bildete die Basis der polnisch-brandenburgischen Beziehungen bis zu den
+                    Verträgen von Wehlau und Bromberg 1657, als Brandenburg die polnische
+                    Lehnshoheit ablegte. <lb/>Kaiser und Papst lehnten den Vertrag ab. Kaiser Karl V
+                    annullierte am 14. November 1530 zu Augsburg den Vertrag und verhängte 1532
+                    wegen der Säkularisierung des Ordenslandes die Reichsacht über Albrecht. </p>
+                <p> </p>
+            </div>
+            <div type="Kontext">
+                <p>19.Oktober 1466 <lb/>Zweiter Thorner Friede. Er beendet den seit 1454 tobenden
+                    Krieg zwischen dem Deutschen Orden und den preußischen Ständen. Der Orden muß
+                    Gebiete an Polen abgeben (darunter Kulmerland, Marienburg, Elbing). Der
+                    Hochmeister leistet dem polnischen König den Eid. <lb/>1511 <lb/>Wahl Albrechts
+                    zum Hochmeister; er verweigert den Eid auf den <lb/>Zweiten Thorner Frieden.
+                    Dies ist der Anlass für den Ausbruch des <lb/>1519-1521 <lb/>Reiterkrieges
+                    zwischen Polen und dem Deutschen Orden. Sigismund will die Unterwerfung
+                    erzwingen. <lb/>7. April 1521 <lb/>Waffenstillstand zu Thorn für vier Jahre
+                    unter kaiserlicher und päpstlicher Vermittlung. Die Frage des Eides soll durch
+                    ein Schiedsgericht geklärt werden. <lb/>November 1523 <lb/>Albrecht bei Luther
+                    in Wittenberg. Luther plädiert für eine Säkularisierung des Ordens. <lb/>8.
+                    April 1525 <lb/>Friede von Krakau. <lb/>9. April 1525 <lb/>Belehnungsurkunde
+                    Sigismunds I.. <lb/>10. April 1525 <lb/>Feierliche Belehnung Albrechts auf dem
+                    Krakauer Marktplatz. </p>
+                <p>
+                    <lb/>
+                </p>
+            </div>
+        </front>
+        <body>
+            <div type="Edition">
+                <p>Articuli concordiae et pacis, inter serenissimum principis et dominis, <rs
+                        ref="#pp0061">dominum Sigismundum</rs> Dei gratia regem poloniae et magnum
+                    ducem Lithuaniae etc. ac illustrem principem <rs ref="#pp0062">dominum
+                        Albertum</rs> magistrum generalem ordinis s[an]ctae Mariae Theutonicorum in
+                    Prussia, marchionem Brandenburgen[sis]., cracoviae initae et cconclusae, medio
+                    illustrum principium d[omin]os, Georg&lt;...&gt;<note type="crit_app">Wortende
+                        undeutlich.</note>, marchionis Brandeburgensis etc. et <rs ref="#pp0060"
+                        >Friderici</rs>, ducis Legnicensis etc.<note type="crit_app">Titel in
+                        Volumina Legum: Pax perpetua inter Sigismundum regem et regnum Poloniae et
+                        magistrum Prussiae ejusque ordinem cruciferorum, Cracoviae 1525 confecta.
+                        Dem Vertragstext ist die Ratifikationsformel Sigismunds vorangestellt. Titel
+                        in Dogiel: Pax perpetua inter Sigismundum I. regem et regnum Poloniae ac
+                        Albertum magistrum Prussiae, qua ordo hospitalis B. Mariae Virginis
+                        proscribitur et penitus aboletur. Albertus Prussiae partem titulo ducis
+                        obtinet et regis Poloniae imperio simul cum provincia subjicitur, eique
+                        primus locus in senatu constituitur. Datum Cracoviae die dominica palmarum
+                        anno 1525. Vorangestellt ist hier die Ratifikationsformel Sigismunds. Acta
+                        Tomiciana: Concordia et pax perpetua inter Sigismundum, regem Poloniae, et
+                        Albertum, marchionem Brandeburgensem, ducem creatum in Prussia, facta, per
+                        Georgium, marchionem Brandeburgensem, et per Fredericum, ducem Legnicensem,
+                        dominica palmarum IX aprilis; vorangestellt ist die Ratifikationsformel
+                        Sigismunds.</note></p>
+                <p>In nomine<note type="crit_app" n="1">Volumina Legum: [Einschub:] Domini
+                        et.</note> sanc<note type="crit_app" n="2">Schreibweise im Text durchgehend:
+                        -e statt -ae. Abweichungen i/j und ci/ti werden nicht notiert. </note>tae
+                        et<note type="crit_app" n="3">Volumina Legum: [Auslassung:] et.</note>
+                    individuae trinitatis amen. Nos <rs ref="#pp0058">Georgius<note
+                            type="annotation" n="4">Georg (1484-1543), Markgraf von
+                            Brandenburg-Ansbach, Bruder Albrechts von Brandenburg, Unterhändler es
+                            Vertrages.</note></rs>, Dei gratia marchio Brandeburgen[sis].<note
+                        type="crit_app" n="5">Volumina Legum: Brandenburgensis (auch im
+                        Folgenden).</note>, in Slesia Rathiborien[sis].<note type="crit_app" n="6"
+                        >Volumina Legum: Ratisborien. cta Tomiciana, Dogiel: Ratiboriensis.</note>,
+                        Jagendorff<note type="crit_app" n="7">Joachim: Jagerndorff. Volumina Legum:
+                        Jagersdorff. Acta Tomiciana: Jaghendorf.</note>, in Prussia, Stetinen[sis]
+                        <note type="crit_app" n="8">Acta Tomiciana: Stetinie.</note>. Pomeraniae,
+                        Cassubarum<note type="crit_app" n="9">Acta Tomiciana: Cassuborum.</note>,
+                        Sclavorum<note type="crit_app" n="10">Acta Tomiciana: Slavorum.</note> etc.
+                    dux, burgrabius Nurumbergen[sis]<note type="crit_app" n="11">Joachim:
+                        Norembergensis. Acta Tomiciana: Norimbergensis.Volumina Legum: Norinbergen.
+                        Dogiel: Nurembergensis.</note>. et princeps Rugiae. Et nos <rs ref="#pp0060"
+                            >Fridericus<note type="annotation" n="12">Friedrich II. (1480-1547),
+                            Herzog von Liegnitz und Brieg, Unterhändler des Vertrages.</note></rs>,
+                    eadem gratia<note type="crit_app" n="13">Volumina Legum: [Auslassung:]
+                        gratia.</note> dux Legnicen[sis]. et Brigen[sis]., ac<note type="crit_app"
+                        n="14">Acta Tomiciana: et.</note> capitaneus inferioris Slesiae<note
+                        type="crit_app" n="15">Volumina Legum, Dogiel: ac inferioris Silesiae
+                        capitaneus.</note>. Recognoscimus et significamus omnibus et singulis,
+                    praesentem concordiam seu contractum visuris, audituris sive lecturis: quia nos
+                    ex infracscriptis sequentibus racionibus, quae nos tanq[ua]m<note
+                        type="crit_app" n="16">Acta Tomiciana: uti.</note> christianos
+                        principes<note type="crit_app" n="17">Volumina Legum, Dogiel: Principes
+                        Christianos.</note> permoverunt, eandem sequentem concordiam et contractum
+                    inter serenissimum et excellent[issi]mum principem et dominum, d[ominu]m <rs
+                        ref="pp0061">Sigismundum, regem Poloniae<note type="crit_app" n="18"
+                            >Sigismund I. (1506-1548, der Alte), König von Polen.</note></rs>
+                        etc.<note type="crit_app" n="19">Acta Tomiciana, Volumina Legum, Dogiel:
+                        [Auslassung:] etc.</note> et suae maiestat[is]. heredes et successores,
+                    reges regni Poloniae ex una, et illustrissimum principem et d[omi]num, d[omi]num
+                        <rs ref="#pp0062">Albertum, marchionem Brandeburgensem<note type="crit_app"
+                            n="20">Albrecht (geb.1490-1568), Markgraf von Brandenburg, Hochmeister,
+                            Herzog in Preußen; Neffe Sigismunds I. von Polen.</note></rs>,
+                        Teutonici<note type="crit_app" n="21">Acta Tomiciana , Volumina Legum,
+                        Dogiel, Balzer: Theutonici.</note> ordinis generalem Prussiae
+                        magistrum<note>Dolezel: magistratum.</note> et<note type="crit_app" n="22"
+                        >Balzer: [Auslassung:] et.</note> eiusdem<note type="crit_app" n="23"
+                        >Volumina Legum, Dogiel: ejus.</note> ordinem militarem, te<note
+                        type="crit_app" n="24">Acta Tomiciana: [Einschub:] et.</note>rrigenas et
+                        civitatenses<note type="crit_app" n="25">Acta Tomiciana: [Einschub:]
+                        et.</note>, ex altera partibus<note type="crit_app" n="26">Acta Tomiciana:
+                        parte.</note>, concepimus<note>Dolezel: concepsimus.</note>, tractavimus et
+                    composuimus. Et in primis id praecipue ac potissimum considerantes omnes
+                    dissensiones, bella, contentiones et conflictus inter regiam maiestatem et
+                    d[omi]num magistrum<note type="crit_app" n="27">Dolezel: magistratum.</note>,
+                    eiusque terrarum incolas hinc ortas et emanatas esse, eo<note type="crit_app"
+                        n="28">Acta Tomiciana: [Auslassung:] eo.</note> quod non unus princeps
+                    herediatrius, omnium terrarum Prussiae gubernator, hucusque extitisset<note
+                        type="crit_app" n="29">Acta Tomiciana: exstitisset.</note>, dictaque Prussia
+                    diversorum procerum capitibus gubernata esset, unde terrarum ipsarum incolae
+                    perniciosis inter se<note type="crit_app" n="30">Volumina Legum, Dogiel:
+                        sese.</note> bellis et contencionibus digladiabantur et proelia
+                    com[m]ovebant, ex quibus magna effusio Christiani sanguinis damnaque et
+                    nocumenta incolis, orphanis et viduis plurima sunt illata; similiter
+                    considerantes, quod praefactus<note type="crit_app" n="31">Dogiel, Acta
+                        Tomiciana, Balzer: praefatus.</note> dominus magister, frater et avunculus
+                    ac sororius noster, retroactis temporibus, quando officio magisterii fungeretur,
+                    multifarias fatigas et labores hucusque subivit<note type="crit_app" n="32">Acta
+                        Tomiciana: subiit.</note> apud omnes status Christianorum principum,
+                    videlicet summos pontifices et caesarem maie[sta]tem, sacrum<note
+                        type="crit_app" n="33">Acta Tomiciana: sacrumque.</note> Romanum imperium et
+                    electores imperii, nec non apud nobilitatem Germaniae, eosdemque omnes saepius
+                    requirendo operam diligentem impendit, sperans eosdem invigilaturos, quo ip<note
+                        type="crit_app" n="34">Acta Tomiciana: [Einschub:] iste.</note>sae
+                    sediciones et<note type="crit_app" n="35">Acta Tomiciana: [Auslassung:]
+                        et.</note> controversiae, ac<note type="crit_app" n="36">Acta Tomiciana:
+                        et.</note> dissensiones secundum continentiam inscriptae<note
+                        type="crit_app" n="37">Volumina Legum, Dogiel: infrascriptae</note>
+                    perpetuae pacis per ser[enissi]mam maie[sta]tem fe[licis]<note type="crit_app"
+                        n="38">Joachim: foelicis.</note>. re[cordationis]. Kazimiri<note
+                        type="crit_app" n="39">Volumina Legum: Casimiri.</note>
+                    <rs ref="pp0063">regis<note type="crit_app" n="40">Kasimir IV. (1444-1492),
+                            polnischer König.</note></rs> ol<note type="crit_app" n="41">Acta
+                        Tomiciana: sermi. fel. mem. Casimiri regis mtem.</note>im Thoroniae<note
+                        type="crit_app" n="42">Textvariante: Volumina Legum: Throunij (auch unten).
+                        Dogiel: Thoruniae. Acta Tomiciana: Thorunii. (auch unten). Sachanmerkung:
+                        Zweiter Thorner Frieden 1466 X 19. Es wurde die Teilung des Landes auf der
+                        Basis des status quo ante verfügt. Der Deutsche Orden trat an Polen Kulm,
+                        Pomerellen, Michelau, Ermland, Marienburg, Stuhm und Elbing ab. Der
+                        Hochmeister wurde für das beim Orden verbliebene Land polnischer Fürst und
+                        leistete den persönlichen Eid auf den polnischen König.</note> confectae et
+                    iuxta compromissum in proximo quadrigennio<note type="crit_app" n="43">Dolezel:
+                        quadrigenio. Joachim, Volumina Legum, Dogiel, Acta Tomiciana:
+                        quadriennio.</note> per caesareae mai[esta]tis et regiae seren[itat]is <rs
+                        ref="#pp0064">Ungariae<note type="crit_app" n="44">Textvariante: Joachim:
+                            Hungariae (auch im Folgenden). Sachanmerkung: Ludwig II. (1516-1526),
+                            König von Ungarn.</note></rs> oratores in praesentia s[an]ct[issi]mi
+                    domini <rs ref="#pp0065">Leonis<note type="crit_app" n="45">Papst Leo X.
+                            (1513-1521).</note></rs> pap<note>Acta Tomiciana: Leonis X
+                    pape.</note>ae legati etc.<note type="crit_app" n="46">Acta Tomiciana:
+                        [Auslassung:] etc.</note> Thoroniae<note type="crit_app" n="47"
+                        >Waffenstillstand von Thorn 1521 IV 7, befristet bis 1525 IV 10, beendete
+                        den "Reiterkrieg" zwischen dem Hochmeister Albrecht von Brandenburg und dem
+                        polnischen König. Die Frage der Eidesleistung des Hochmeisters wurde an ein
+                        Schiedsgericht überwiesen. Kurz vor Ablauf des Waffenstillstandes wurde der
+                        Friede zu Krakau geschlossen.</note> factum, componerentur et
+                    concordarentur. Id tamen ex intervenientibus bellorum motibus et ceteris variis,
+                    admodum arduis negociis, quibus caesarea m[aies]tas et ser[enissi]mus d[omi]nus
+                    rex Hungariae hactenus implicti ac<note type="crit_app" n="48">Dogiel: atque.
+                        Acta Tomiciana: ad.</note> distracti fuerunt, huc usque impeditum
+                    indiscussum permansit. Nos tandem<note type="crit_app" n="49">Volumina Legum,
+                        Dogiel: tamen.</note> considerantes huiusmodi ordinatum<note type="crit_app"
+                        n="50">Dogiel: ordinationem.</note> optimum<note type="crit_app" n="51"
+                        >Volumina Legum: ordinationem optimam fuisse. Dogiel: optimam fuisse.</note>
+                    compromissum paucis diebus ad finem et terminum ultimum declinare, et<note
+                        type="crit_app" n="52">Volumina Legum: terminum ultimum deducere studuimus.
+                        Nam.</note> ubi<note type="crit_app" n="53">Dogiel: [statt declinare et
+                        ubi:] deducere studuimus. Nam ubi.</note> negocia indiscussa
+                        permanerent<note type="crit_app" n="54">Volumina Legum, Dogiel:
+                        permansissent.</note>, formidandum esse<note type="crit_app" n="55">Acta
+                        Tomiciana: fuisse.</note> regiam maie[sta]tem et regnum Poloniae et
+                    magistrum et terras Prussiae<note>Volumina Legum, Dogiel: formidandum fuit, ne
+                        Regia Majestas et Regnum Poloniae ac Magister cum Terris Prussiae. Acta
+                        Tomiciana: [Einschub nach Prussiae:] denuo.</note> iterum ad maiores armorum
+                    tumultus, proelia et contenciones ac humani sanguinis effusionem redituros<note
+                        type="crit_app" n="56">Dogiel, Volumina Legum: redirent.</note>, in damnum
+                    et iacturam totius Christianae reipublicae<note type="crit_app" n="57">Dogiel,
+                        Volumina Legum: Reipublicae Christianae.</note>. Ad praecavendum<note
+                        type="crit_app" n="58">Acta Tomiciana: precavende.</note> igitur huiusmodi
+                    mala et incommoda, pacisque<note type="crit_app" n="59">Acta Tomiciana:
+                        pacis.</note> studio intendentes, quo in futurum perpetua Christiana pax
+                    inter regiam m[aiesta]tem et eiusdem mai[esta]tis heredes, successores, regni
+                    Poloniae reges, et inter magistrum Prussiae et eiusdem terrarum incolas
+                        utrinque<note type="crit_app" n="60">Acta Tomiciana: utrumque.</note>
+                    intervenire ac disponi possit, considerantes etiam, quia et nunc r[everend]us
+                        <rs ref="pp0094">d[omi]nus Statilius</rs>, praepositus Vesprimen[sis].<note
+                        type="crit_app" n="61">Statilius, Probst von Veszprem, kaiserlicher
+                        Vermittler [keine weiteren Angaben ermittelt].</note>, serenissimi regis
+                    Hungariae domini, d[omi]ni nostri clement[issi]mi, tanq[ua]m dicti compromissi
+                    arbitri internunctius<note type="crit_app" n="62">Volumina Legum, Dogiel:
+                        internuntius. Acta Tomiciana: internuncius.</note> pacis et<note
+                        type="crit_app" n="63">Dogiel, Volumina Legum, Acta Tomiciana: ac.</note>
+                    missus orator ad sacram regiam m[aiesta]tem Poloniae ac magistrum Prussiae,
+                    fratrem et avunculum ac sororium nostrum, quo se ad concordiam et ipsum
+                    contractum per nos factum benevole<note type="crit_app" n="64">Acta Tomiciana:
+                        benivole.</note> submitterent et gratiose ac benigne eidem consentirent,
+                    rogavit et requisivit. Nos, tanquam mediatores, reconciliatores<note
+                        type="crit_app" n="65">Acta Tomiciana: et conciliatores.</note> pacis, ex
+                        susprascriptis<note type="crit_app" n="66">Dogiel: supra dictis.</note>
+                    causis et rationibus sequentes articulos, quo<note type="crit_app">Dogiel, Acta
+                        Tomiciana, Balzer: quos.</note> salubri viae concordiae intendentes,
+                    Christianos decentes<note type="crit_app">Volumina Legum: decentis.</note>
+                        et<note type="crit_app">Dogiel, Volumina Legum: [Auslassung:] et.</note>
+                    idoneos cognovimus, inter regiam<note type="crit_app" n="67">Volumina Legum:
+                        S.R. Dogiel: Sacram Maiestatem Regiam.</note> m[aiesta]tem et dominum
+                    magistrum, utriusque accedente consensu, fecimus et disposuimus, et prout infra
+                    continetur, ordinavimus et confecimus<note type="crit_app" n="68">Baczko:
+                        [Auslassung der gesamten Passage].</note>.</p>
+                <p>[Art.1]<note type="crit_app" n="69">Baczko: [Auslassung Art.1].</note><lb/>In
+                    primis, q[uo]d omnes dissensiones in his<note type="crit_app" n="70">Joachim:
+                        hiis (auch unten). Volumina Legum: ijs. Dogiel: iis.</note> bellis inter
+                    regiam m[aiesta]tem, d[omi]num magistrum, duces Masoviae<note type="crit_app"
+                        n="71">Dolezel, Dogiel: Mazoviae.</note>, episcpos Varmien[ses]. et
+                        Culmen[ses]<note type="crit_app" n="72">Balzer: Varmiensem et
+                        Culmensem.</note>. et ceteros omnes, eorumque subditos, exortae, per
+                    sequentem transactionem in universum sublatae sint et neutri partium in<note
+                        type="crit_app" n="73">Acta Tomiciana: [Auslassung:] in.</note> malo
+                    reminiscendo imputari debent.</p>
+                <p>[Art.2]<lb/>Item q[uo]d loca, castra et oppida cum omnibus attinentiis et
+                        pertinentiis<note type="crit_app" n="74">Baczko: [Auslassung:] et
+                        pertinentiis.</note>, in his bellis utrinque<note type="crit_app" n="75"
+                        >Volumina Legum: utrunque alias utrinque. Dogiel, Backo: utcunque alias
+                        untrinque [Einschub].</note> intercepta cum bombardis maioribus,
+                        quemadmodum<note type="crit_app" n="76">Acta Tomiciana: que ad modum.</note>
+                    in prima occupatione arcium et oppidorum inventa<note type="crit_app" n="77"
+                        >Dogiel, Volumina Legum, Baczko: inventae.</note> sunt, restitui, bombardae
+                    etiam uncales, quas Hokenbuchs<note type="crit_app" n="78">Acta Tomiciana:
+                        Hakenbüchs.</note> vocant, eo pacto, ut penes modernos officiales
+                    restanbant, similiter reddi debent. Si vero q[uicqu]am<note type="crit_app"
+                        n="79">Volumina Legum, Acta Tomiciana: quidquam.</note> bombardarum maiorum
+                    deesset, debent officiales per iuramenta interrogari, ut mediis eorum iuramentis
+                    dicant, quid illic invenerint<note type="crit_app" n="80">Baczko: [Auslassung
+                        von:] vocant [bis] quod.</note>. Quod autem bombardas in castro Holandt<note
+                        type="crit_app" n="81">Dogiel, Volumina Legum, Baczko: Hollando. Acta
+                        Tomiciana: Hollandt.</note> demolito inventas attinet, debent sine
+                        diminutione<note type="crit_app" n="82">Acta Tomiciana:
+                        denunciatione.</note> ad manus illustris domini<note type="crit_app" n="83"
+                        >Joachim: [Auslassung:] domini.</note> marchionis<note type="crit_app"
+                        n="84">Acta Tomiciana: [Auslassung:] marchionis.</note> Alberti
+                    restitui.</p>
+                <p>[Art.3]<note type="crit_app" n="85">Baczko: [Auslassung
+                    Art.3].</note><lb/>Praeterea debent omnes et singuli ex nobilitate, civibus et
+                    colonis omnis promissionis et juramenti, quibus praesentibus bellis aut
+                        citra<note type="crit_app" n="86">Dogiel, Volumina Legum: [Einschub:] alias
+                        circa.</note> haec tempora a suis ad alienos dominos se contulerunt et
+                    obligarunt, liberi et soluti esse et reputari.</p>
+                <p>[Art.4]<lb/>Ceterum q[uo]d ad neglecta servitia attinet, debet a regia<note
+                        type="crit_app" n="87">Volumina Legum: S.R.</note> maiestate e<note
+                        type="crit_app" n="88">Acta Tomiciana: [Einschub:] a.</note>t duce ex<note
+                        type="crit_app" n="89">Dogiel, Volumina Legum, Baczko: de.</note> Prussia
+                    illis, qui ea neglexerunt<note type="crit_app" n="90">Dogiel, Volumina Legum,
+                        Baczko: neglexerint.</note>, ex gratia condonari, et bona seu possessiones
+                    eorum reddi. Ceterum q[uo]d liberis<note type="crit_app" n="91">Dogiel, Volumina
+                        Legum, Baczko: liberos.</note> eor<note type="crit_app" n="92">Dogiel,
+                        Volumina Legum, Backzo: [Einschub:] attinet.</note>um, qui condemnati ob
+                    perpetratum facinus poenas dederunt, bona im[m]obilia utrinq[ue]<note
+                        type="crit_app" n="93">Acta Tomiciana: utrimque.</note>. reddantur, et
+                        patris<note type="crit_app" n="94">Dogiel, Volumina Legum, Baczko, Acta
+                        Tomiciana: patrum.</note> facinus honori puerorum nihil noceat<note>Baczko:
+                        [Auslassung nec bis praeiudicet.]</note>, nec apud quempiam in aliquo
+                    praeiudicet.</p>
+                <p>[Art.5]<note type="crit_app" n="95">Baczko: [Auslassung Art. 5].</note><lb/>Item
+                    debet regia mai[es]tas illis de Neumarct<note type="crit_app" n="96">Joachim:
+                        Neumarckt. Volumina Legum: Newmarckt. Acta Tomiciana, Dogiel:
+                        Neumarkt.</note>, similiter <rs ref="pp0062">marchio Albertus</rs><note
+                        type="crit_app" n="97">Dogiel: Albeetus.</note>
+                        Gilgenburgensibus<note>Dogiel, Volumina Legum: Gilczenburgen.</note> et
+                    Hoensteinensibus, nec non omnibus civitatibus, eccl[es]ias[ticis]. et
+                    saecularibus, nobilibus et plebeis, utriusq[ue] partis subditis, q[uod]<note
+                        n="98" type="crit_app">Dogiel, Volumina Legum: qui.</note>. ex timore
+                    defecerint, parcere et condonare, id nulla<note n="99" type="crit_app">Dogiel,
+                        Volumina Legum: [Auslassung:] id [statt dessen:] nullaque.</note>
+                    indignatione reminisci, nec cuiq[ua]m, ut hoc vindicet, permittere, sed ex
+                    clementi voluntate sub utriusq[ue]<note n="101" type="crit_app">Balzer:
+                        utrisque.</note>. hinc inde sigillis et litteris<note n="102"
+                        type="crit_app">Dogiel, Baczko, Volumina Legum, Acta Tomiciana: literis
+                        (auch im Folgenden).</note> sententiam ferre, q[uod]. hoc ipsis et liberis
+                        eorum<note n="103" type="crit_app">Acta Tomiciana: eorum liberis.</note> in
+                    nullam dehonestationem aut incom[m]odum vergere debeat<note n="104"
+                        type="crit_app">Acta Tomiciana: debet.</note>.</p>
+                <p>[Art.6]<note n="105" type="crit_app">Baczko: [Auslassung des gesamten
+                        Artikels].</note><lb/>Item, quod<note n="106" type="crit_app">Dogiel,
+                        Volumina Legum. Baczko: [Einschub:] ad.</note> ecclesiasticorum bona et
+                    iurisditionem attinet, debet dux Prussiae ad requisitionem ecclesiasticorum,
+                    unicuiq[ue]. justitiam<note n="107" type="crit_app">Acta Tomiciana:
+                        [Auslassung:] justitiam.</note>, ut<note n="108" type="crit_app">Acta
+                        Tomiciana: uti.</note> christianum, aequum et iustum est, administrare.
+                    Ceterum bona redditus<note n="109" type="crit_app">Dogiel, Volumina Legum:
+                        reditus.</note> et census, sub duce Prussiae siti, ep[iscop]atum
+                    Varmien[sem]., vel eosdem eccl[es]ia[sti]cos attinentes, debent vicissim ex omni
+                    parte restitui. Si vero dux vel nobiles sui curatos, vel alios in
+                    eccl[es]ia[sti]ca beneficia collocare vellet<note n="110" type="crit_app"
+                        >Dogiel, Volumina Legum, Acta Tomiciana: vellent.</note>, qui hominibus
+                    christianae providerent, eos episcopus iuxta antiquam consuetudin<note n="111"
+                        type="crit_app">Dogiel, Volumina Legum: [Einschub:] institutere ac.</note>em
+                    investire debet.</p>
+                <p>[Art.7]<lb/>Item si possent domini pontifices constanter docere, q[uod]
+                    eccl[es]ia[sti]ci, in terris d[omi]ni ducis com[m]orantes, secus q[uam]
+                        christiani<note n="112" type="crit_app">Acta Tomiciana: christiane.</note>,
+                        ac<note n="113" type="crit_app">Acta Tomiciana: et.</note> contra
+                    ordinationem et constitutionem universalis sanctae eccl[esi]ae Christianae<note
+                        n="114" type="crit_app">Acta Tomiciana: catholice.</note> se gererent<note
+                        n="115" type="crit_app">Acta Tomiciana: gerere.</note>, debet d[omi]nus dux
+                    una cum dominis episcopis iuvare, ut istiusmodi<note n="116" type="crit_app"
+                        >Dogiel, Volumina Legum, Baczko: [statt dessen:] tales.</note> debita
+                    castigatione emmendentur<note n="117" type="crit_app">Volumina Legum, Baczko,
+                        Acta Tomiciana, Balzer: emendentur.</note>.</p>
+                <p>[Art.8]<lb/>Item si quispiam civium aut rusticorum duos annos, ante proxime
+                    gestum bellum usq[ue]. adhuc<note n="118" type="crit_app">Dogiel, Volumina
+                        Legum, Baczko: huc.</note> domino suo se subduxisset et absq[ue]. eius<note
+                        n="119" type="crit_app">Dogiel, Volumina Legum, Baczko: absque voluntate
+                        eius.</note> voluntate aufugisset, repetiti debent dominis suis sine omni
+                    medio restitui, et exinde nulla partium alterutri suos detinere. Qui autem vi ab
+                    utraq[ue]. parte abacti sunt, hii<note n="120" type="crit_app">Dogiel, Volumina
+                        Legum, Baczko: ii. Acta Tomiciana: hii.</note> debent publicis<note n="121"
+                        type="crit_app">Acta Tomiciana: publici.</note> mandati litteris<note
+                        n="122" type="crit_app">Acta Tomiciana: literids.</note> ad d[omin]os suos
+                    dirigi seu remitti.</p>
+                <p>[Art.9]<lb/>Item debet<note n="123" type="crit_app">Acta Tomiciana: [Auslassung:]
+                        debet.</note> d[omin]us <rs ref="#pp0062">Albertus</rs> marchio<note n="124"
+                        type="crit_app">Acta Tomiciana: marchio Albertus [Auslassung:] regiae
+                        maieatati.</note> regiae maie[sta]ti et regno Poloniae iuramentum uti
+                    naturali et hereditario d[omi]no suo praestare, et se in posterum<note n="125"
+                        type="crit_app">Volumina Legum: imposterum.</note> erga illius<note n="126"
+                        type="crit_app">Dogiel, Volumina Legum, Baczko, Acta Tomiciana: [statt
+                        dessen:] eius.</note> regiam m[aiesta]tem in omnibus, sicuti<note n="127"
+                        type="crit_app">Dogiel, Acta Tomiciana: sicut.</note> principem vasallum
+                    erga dominum suum hereditarium de<note n="128" type="crit_app">Baczko:
+                        et.</note> iure decet, oboedientem exhibere. Debet praeterea marchio <rs
+                        ref="#pp0059">Georgius</rs> suo et fratrum suorum<note n="129"
+                        type="crit_app">Dogiel, Volumina Legum, Baczko, Acta Tomiciana:
+                        [Auslassung:] suorum.</note> nomine vexillum contingere. Debent similiter
+                        <rs ref="#pp0095">marchiones Kazimirus</rs><note n="130" type="crit_app"
+                        >Kasimir (1481-1527), Markgraf von Brandenburg-Kulmbach, Bruder Markgraf
+                        Albrechts.</note> et <rs ref="#pp0096">Ioannes</rs><note n="131"
+                        type="annotation">Johannes (1493-1526), Markgraf von Brandenburg-Ansbach,
+                        Bruder Markgraf Albrechts.</note> sigillis et litteris<note n="132"
+                        type="crit_app">Acta Tomiciana: literis.</note> suis intra annum huiusmodi
+                    contractum agnoscere et acceptare.</p>
+                <p>[Art.10] <lb/>Item debet regia maiestas ex adverso marchioni Alberto
+                    infrascriptas terras, civitates, castra et vicos, videlicet tria oppida et
+                    castrum Konigsperk<note n="133" type="crit_app">Königsberg. Volumina Legum:
+                        Konigsberg. Baczko, Acta Tomiciana: Konigsbergk.</note>, Lochstett<note
+                        n="134" type="crit_app">Lochstätt. Dogiel, Volumina Legum, Joachim, Baczko:
+                        Lochsteten. Acta Tomiciana: Lochstetten.</note>, Wargenn<note n="135"
+                        type="crit_app">Wargen. Dogiel, Volumina Legum, Baczko: Vargen. Acta
+                        Tomiciana: Wargen.</note>, Gÿermaw<note n="136" type="crit_app">Germau, auch
+                        Girmo. Joachim: Volumina Legum: Girmau. Dogiel, Baczko, Acta Tomiciana:
+                        Girmaw (hier bei den folgenden Ortsnamen geringfügige Abweichungen in der
+                        Schreibweise).</note>, Pubeten<note n="137" type="crit_app">Pobethen.
+                        Dogiel, Volumina Legum, Baczko, Acta Tomiciana: Pubetten.</note>, Rudaw<note
+                        n="138" type="crit_app">Rudau. Volumina Legum: Rudau.</note>, Schocken<note
+                        n="139" type="crit_app">Schaaken. Joachim: Scoken. Volumina Legum: Schaken.
+                        Dogiel, Baczko: Schokken. Acta Tomiciana: Sszoken.</note>, Kaÿmen<note
+                        n="140" type="crit_app">Caymen.</note>, Kremniten<note n="141"
+                        type="crit_app">Dogiel, Volumina Legum, Baczko, Acta Tomiciana:
+                        Kremitten.</note>, Waldaw<note n="142" type="crit_app">Waldau. Dogiel,
+                        Volumina Legum, Baczko: Valdaw.</note>, Tapia<note n="144" type="crit_app"
+                        >Tapiau. Dogiel, Volumina Legum, Baczko, Acta Tomiciana: Tapiaw.</note>,
+                        Thaplawken<note n="145" type="crit_app">Taplacken. Volumina Legum:
+                        Taplauken. Dogiel, Baczko: Tapelawken. Acta Tomiciana: Tawplaken. Balzer:
+                        Taplawken.</note>, Narbeten<note n="146" type="crit_app">Norkitten. Dogiel,
+                        Volumina Legum, Baczko, Acta Tomiciana: Narbetten.</note>, Insterburgk,
+                    Allenburgk, Wonstorw<note n="147" type="crit_app">Wohnsdorf. Acta Tomiciana:
+                        Wenstorff. Volumina Legum: Vensteraw. Baczko: Vensteraw. Dogiel:
+                        Vensterau.</note>, Gerdaw<note n="148" type="crit_app">Gerdauen. Volumina
+                        Legum, Acta Tomiciana: Gerdawen. Dogiel, Baczko: Gordauen.</note>,
+                    Angerburgk, Nordenburk<note n="149" type="crit_app">Dogiel, Baczko: Mordenburgk.
+                        Acta Tomiciana: Nordenburgk.</note>, Labiaw<note n="150" type="crit_app"
+                        >Labiau</note>, Lawkÿschken<note n="151" type="crit_app">Laukischken.
+                        Volumina Legum: Laukisken. Dogiel, Baczko: Lawkisten. Acta Tomiciana:
+                        Lawkisken.</note>, Tylszeet<note n="152" type="crit_app">Tilsit. Volumina
+                        Legum: Tilsit. Dogiel, Baczko: Tillseth. Acta Tomiciana: Tilsett.</note>,
+                        Ragnet<note n="153" type="crit_app">Ragnit.</note>, Rossziten<note n="154"
+                        type="crit_app">Volumina Legum: Resitten. Dogiel, Baczko: Rossiten. Acta
+                        Tomiciana: Robitten.</note>, Wÿndbergk<note n="155" type="crit_app"
+                        >Windenburg. Volumina Legum: Vintergk. Dogiel, Baczko: Vinthergk. Acta
+                        Tomiciana: Wintbergk.</note>, Memol<note n="156" type="crit_app">Memel.
+                        Volumina Legum: Mimmel. Dogiel, Baczko, Acta Tomiciana: Mymel.</note>,
+                        Brandeburgk<note n="157" type="crit_app">Dogiel, Baczko:
+                        Brandemburgk.</note>, Creuczburgk<note n="158" type="crit_app">Kreuzburg.
+                        Volumina Legum: Kreutzburgk. Dogiel, Baczko: Krewczburgk. Acta Tomiciana:
+                        Kreuczburgk.</note>, Fridlant<note n="159" type="crit_app">Friedland.
+                        Volumina Legum: Friedlandt. Dogiel, Baczko: Fredtlant. Acta Tomiciana:
+                        Freydland.</note>, Domenaw<note n="160" type="crit_app">Domnau. Dogiel,
+                        Baczko: Demenaw. Acta Tomiciana: Demanaw.</note>, Barthen<note n="161"
+                        type="crit_app">Barthen. Dolezel, Dogiel, Baczko, Balzer: Bartten. Volumina
+                        Legum: Barten.</note>, Leczen<note n="162" type="crit_app">Lötzen. Volumina
+                        Legum: Luzen. Dogiel, Baczko: Letzen.</note>, Balge, Heÿlgenbeil<note
+                        n="163">Heiligenbeil. Volumina Legum: Heiligenbeil. Dogiel, Baczko: Heilige
+                        Beyhell. Acta Tomiciana: Heiligebeyl."</note>, Zÿnthen<note n="164"
+                        type="crit_app">Zinthen. Volumina Legum: Zinten. Baczko: Zintten. Dogiel:
+                        Zintlen.</note>, Lanczberg<note n="165" type="crit_app">Landsberg. Volumina
+                        Legum: Landtbergk. Dogiel, Baczko: Lawdsbergk. Acta Tomiciana:
+                        Landsbergk.</note>, Preusch. Eÿlaw<note n="166" type="crit_app"
+                        >Preußisch-Eylau. Volumina Legum: Preuscheilaw. Dogiel, Baczko:
+                        Preuschewlaw.</note>, Bartenstein<note n="167" type="crit_app">Bartenstein.
+                        Baczko: Bartenskyn.</note>, Seesten<note n="168" type="crit_app"
+                        >Seehesten.Volumina Legum, Baczko: Sehesten. Dogiel: Schesten. Acta
+                        Tomiciana: Sszesten.</note>, Sensburgk<note n="169" type="crit_app"
+                        >Sensburg. Dogiel, Baczko, Acta Tomiciana: Saynsburgk.</note>, Reÿn<note
+                        n="170" type="crit_app">Rhein. Dogiel, Baczko: Rayna.</note>, Rastenburgk,
+                        Lÿcke<note n="171" type="crit_app">Lyck. Dogiel, Baczko, Acta Tomiciana:
+                        Lieck. Volumina Legum: Lick. Dolezel, Balzer: Lyeke.</note>,
+                        Iohannesburgk<note n="172" type="crit_app">Johannisburg. Volumina Legum:
+                        Joansburgk. Dogiel, Baczko, Acta Tomiciana: Jehansburgk.</note>,
+                        Hollandt<note n="173" type="crit_app">Preussisch Holland.</note>,
+                        Lÿbestadt<note n="174" type="crit_app">Liebstadt. Volumina Legum: Liebstat.
+                        Dogiel, Baczko, Acta Tomiciana: Liebstadt.</note>, Molhawsen<note n="175"
+                        type="crit_app">Mühlhausen. Volumina Legum: Muhhalusen. Dogiel, Baczko:
+                        Mulhausen. Acta Tomiciana: Mühlhawzen.</note>, Morungen<note n="176"
+                        type="crit_app">Mohrungen. Volumina Legum: Moring. Dogiel, Baczko: Mormige.
+                        Acta Tomiciana: Morunge.</note>, Passenheÿm<note n="177" type="crit_app"
+                        >Passenheim. Volumina Legum: Passencheim.</note>, Orttelsburgk<note n="178"
+                        type="crit_app">Ortelsburg. Dogiel, Baczko, Acta Tomiciana:
+                        Ortelsburgk.</note>, Osterrode, Hogenstein<note n="179" type="crit_app"
+                        >Hohenstein. Dogiel, Baczko: Hogenstayn.</note>, Neÿdenburgk<note n="180"
+                        type="crit_app">Neidenburg.</note>, Szoldaw<note n="181" type="crit_app"
+                        >Soldau. Dogiel, Volumina Legum, Baczko, Acta Tomiciana: Soldaw. Acta
+                        Tomiciana: [Auslassung:] Osterrode [bis] Neydenburgk.</note>,
+                        Ilgenburgk<note n="182" type="crit_app">Gilgenburg. Volumina Legum:
+                        Gilgenburg. Acta Tomiciana: Ilgienburgk. Acta Tomiciana: [Einschub:]
+                        Osterode, Hogiensteyn, Neydemburgk</note>, Schippenbeÿll<note n="183"
+                        type="crit_app">Schipenbeil. Dogiel, Baczko, Volumina Legum: Schippenbeil.
+                        Acta Tomiciana: Sszypenbeiheil.</note>, Deutscheÿlaw<note n="184"
+                        type="crit_app">Deutsch Eilau. Dogiel, Baczko: Tewachstheylaw. Acta
+                        Tomiciana: Tewststheylaw.</note>, Preuschmargt<note n="185" type="crit_app"
+                        >Preussisch Markt. Volumina Legum: Preuschmarckt. Dogiel, Baczko:
+                        Prewschmargk. Acta Tomiciana: Preuschenmargk.</note>, Libemol<note n="186"
+                        type="crit_app">Liebemühl. Volumina Legum: Lubmuhl. Dogiel, Baczko: Lubemul.
+                        Acta Tomiciana: Libemül.</note>, Salfedlt<note n="187" type="crit_app"
+                        >Saalfeld. Dogiel, Baczko: Salffelt.</note>, Resenburgk<note n="188"
+                        type="crit_app">Riesenburg. Volumina Legum: Riesenburgk. Dogiel, Baczko:
+                        Risemburgk. Acta Tomiciana: Rysemburgk.</note>, Marienwerder,
+                        Tyrenborgk<note n="189" type="crit_app">Thierenberg. Volumina Legum:
+                        Tirenbergk. Dogiel, Baczko: Tirembergk. Acta Tomiciana: Tyrenbergk.</note>,
+                        Labetaw<note n="190" type="crit_app">Laptau. Volumina Legum: Labsaw. Dogiel,
+                        Baczko, Acta Tomiciana: Labtaw.</note>, Schombergk<note n="191"
+                        type="crit_app">Schönberg. Dogiel, Volumina Legum, Baczko: Schonbergk. Acta
+                        Tomiciana: Szonberg.</note>, Bewunden<note n="192" type="crit_app">Powunden.
+                        Volumina Legum: Bowundum. Baczko: Bouanden. Dogiel: Bouunden. Acta
+                        Tomiciana: Bowunden.</note>, Georgenburgk<note n="193" type="crit_app"
+                        >Georgenburg. Dogiel, Volumina Legum, Baczko, Acta Tomiciana:
+                        Jorgenburgk.</note>, Rossenburgk<note n="194" type="crit_app">Rosenberg.
+                        Dogiel, Baczko: Resenburgk. Acta Tomiciana: Rembergk.</note>, Gardensee<note
+                        n="195" type="crit_app">Garnsee. Volumina Legum: Gordensee. Dogiel, Baczko:
+                        Gordensche. Acta Tomiciana: Gordensthe.</note>, Newhaws<note n="196"
+                        type="crit_app">Neuhausen.</note>, Freÿenstadt<note n="197" type="crit_app"
+                        >Freistadt.</note>, Zalaw<note n="198" type="crit_app">Saalau. Dogiel,
+                        Volumina Legum, Baczko, Acta Tomiciana: Solaw.</note>, Fischhawzen<note
+                        n="199" type="crit_app">Volumina Legum: Fischausen. Dogiel, Baczko:
+                        Vischhausen. Acta Tomiciana: Wisshausen. Balzer: Fischhawsen.</note>,
+                        Bÿschoffswerden<note n="200" type="crit_app">Bischofswerder. Volumina Legum:
+                        Bischoffwerder. Dogiel, Baczko: Bischovwerder. Acta Tomiciana:
+                        Bishoffverder.</note>, Medenaw, tanq[uam]. duci in Prussia in legitimum<note
+                        n="201" type="crit_app">Joachim: legittimum (auch unten).</note> et
+                    hereditarium feudum conferre et eiuscemodi<note n="201a" type="crit_app">Dogiel,
+                        Volumina Legum, Baczko: ejusmodi.</note> infeudationis litteras ab uno
+                    fratre ad alium et eorum heredes, tanq[uam]. super indiviso feudo, iuxta tenorem
+                    transactionis conficere.</p>
+                <p>[Art.11]<lb/>Item si quando memorati quatuor<note n="202" type="crit_app"
+                        >Joachim: quattuor.</note> principes et marchiones, <rs ref="#pp0062"
+                        >Albertus</rs>, <rs ref="#pp0059">Georgius</rs>, <rs ref="#pp0095"
+                        >Kazimirus</rs>, <rs ref="#pp0096">Ioannes</rs><note n="203" type="crit_app"
+                        >Dogiel: Johannes.</note> et eorudem legitimi feudi heredes, omnes sine
+                    legitimis feudi heredibus decederent, tunc<note n="204" type="crit_app">Acta
+                        Tomiciana: tum.</note>, et non antea, debent suprascriptae terrae Prussiae
+                    ad regiam maiestatem et regnum Poloniae hereditariae redire et recidere. Si vero
+                    filiae superessent, hae<note n="205" type="crit_app">Balzer: heae.</note> debent
+                        ducali<note n="206" type="crit_app">Dogiel, Volumina Legum, Baczko:
+                        ducalis.</note> dotis pecunia a regia maiestate absolvi et provideri.</p>
+                <p>[Art.12]<lb/>Item debet regia maiestas <rs ref="#pp0062">marchionem
+                    Albertum</rs>, suos heredes et omnes incolas suprascriptarum terrarum<note
+                        n="207" type="crit_app">Acta Tomiciana: subscripte terre.</note> Prussiae in
+                        omnibus<note n="208" type="crit_app">Dogiel, Volumina Legum, Baczko:
+                        [Auslassung:] omnibus.</note> eorum privilegiis, huic transactioni et
+                    superioritati regiae<note n="209" type="crit_app">Dogiel, Volumina Legum: R.M.
+                        Baczko: Regiae Majestatis.</note> non repugnantibus, conservare, et
+                        alias<note n="210" type="crit_app">Volumina Legum: alios.</note> ab iniqua
+                    violentia defendere et manutenere.</p>
+                <p>[Art.13]<lb/>Item debent tam ordinis, q[uam] nobilitatis et civitatum
+                    praedictarum terrarum Prussiae mandatarii nunctii<note n="211" type="crit_app"
+                        >Dogiel, Baczko: nuntii. Acta Tomiciana: nuncii.</note> pro se,
+                        heredibus<note n="212" type="crit_app">Dogiel, Volumina Legum, Baczko:
+                        haeredibusque.</note> et successoribus suis consentire et inscribere, q[uo]d
+                    se ipsos, heredes<note n="213" type="crit_app">Dogiel, Volumina Legum, Baczko:
+                        haeredesque.</note> et successores suos, post obitum<note n="214"
+                        type="crit_app">Acta Tomiciana: abitum.</note> quatuor praedictorum
+                    principum et suorum legitimorum feudi heredum ad regiam maie[sta]tem et regnum
+                    Poloniae, ac ipsius heredes debita fidelitate et subiectione, ut<note n="215"
+                        type="crit_app">Dogiel, Acta Tomiciana l: uti.</note> ad eorum naturalem ac
+                    hereditarium dominum, et nullum alium tenere debeant et velint; ita<note n="216"
+                        type="crit_app">Acta Tomiciana: item.</note> deniq[ue]., q[uo]d regia
+                    maiestas suprascriptas terras Prussiae cum aliquo linguam Germanicam callente,
+                    et in eodem ducatu bene possessionato, qui omnia officia administret, procurare
+                    debeat. Et si ma[ies]tas regia<note n="217" type="crit_app">Acta Tomiciana:
+                        Mtas. Sua.</note> consiliarios suos deputaverit, q[uo]d nobilitas<note
+                        n="218" type="crit_app">Dogiel, Volumina Legum, Baczko, Acta Tomiciana:
+                        nobiles.</note> et civitates, ecclesia[stic]i et saeculares omnium ordinum
+                    terrarum Prussiae duci ex Prussia iuramentum praestare debeant, quod tunc ex
+                    singulis districtibus, duo ex nobilitate et<note n="219" type="crit_app">Dogiel,
+                        Volumina Legum, Baczko, Acta Tomiciana: ac.</note> civitatibus, nomine
+                    omnium aliorum<note n="220" type="crit_app">Dogiel, Volumina Legum, Baczko:
+                        aliorum omnium.</note>, quemadmodum hic praesentes se inscripserunt,
+                        litteris<note n="221" type="crit_app">Dogiel, Volumina Legum, Baczko:
+                        [Einschub:] quoque.</note> et sigillis suis huiusmodi concordiam
+                    recognoscere debebunt, et cum<note n="222" type="crit_app">Dogiel, Volumina
+                        Legum, Baczko, Acta Tomiciana: quum.</note> principi ex<note n="223"
+                        type="crit_app">Dogiel, Volumina Legum, Baczko: de.</note> Prussia
+                    iuramentum praestabunt, quod tunc medio huiusmodi<note n="224" type="crit_app"
+                        >Acta Tomiciana: [Auslassung:] huiusmodi.</note> eorum praestito
+                        iuramentum<note n="225" type="crit_app">Dogiel, Volumina Legum, Baczko, Acta
+                        Tomiciana: juramento.</note> etiam hanc concordiam se servaturos
+                    promittant.</p>
+                <p>[Art.14]<lb/>Item q[uod]. princeps ex<note n="226" type="crit_app">Dogiel,
+                        Volumina Legum, Baczko: de.</note> Prussia primum et proximum locum in
+                    consiliis, terrarum, comitiis et publicis conventibus apud regiam maie[sta]tem
+                    habere debet.</p>
+                <p>[Art.15]<lb/>Item quod princeps ex Prussia, heredes<note n="227" type="crit_app"
+                        >Dogiel, Volumina Legum, Baczko: haeredesque.</note> et successores,
+                        principes<note n="228" type="crit_app">Volumina Legum: principis.</note> ex
+                    principatu et terris Prussiae praedictis<note n="229" type="crit_app">Acta
+                        Tomiciana: predictis Prussie.</note> nihil vendant, verum si ad hoc ingruens
+                    urgeret necessitas, debebunt hoc regiae m[aiesta]ti, tanquam<note n="230"
+                        type="crit_app">Acta Tomiciana: [Auslassung.] tanquam.</note> domino suo
+                    hereditario, ante<note n="231" type="crit_app">Dogiel, Volumina Legum, Baczko:
+                        [Einschub:] unum.</note> annum prius denunctiare; q[uo]d si maie[s]tas sua
+                    emere nollet, extunc ipse princeps vendendi habeat potestatem, regalibus tamen
+                    m[aiesta]t[i]. regiae<note n="232" type="crit_app">Dogiel: regiae
+                        Majestati.</note> feudi<note n="233" type="crit_app">Dogiel, Baczko:
+                        feudis.</note> et obsequiorum iuribus salvis. Et praeterea, si dux in<note
+                        n="234" type="crit_app">Dogiel, Volumina Legum, Baczko: [statt dessen:]
+                        ipse.</note> Prussia<note n="235" type="crit_app">Dogiel, Volumina Legum,
+                        Baczko: Prussiae.</note> urgente necessitate premeretur, poterit arces et
+                        oppida<note n="236" type="crit_app">Joachim: opida.</note> sua vasallis suis
+                    locare et impignorare, ut eaedem terrae unitae et indiscissae, quem admodum nunc
+                    sunt, permaneant.</p>
+                <p>[Art.16]<lb/>Item q[uo]d ad obsequium attinet, ex quo terra Prussiae, in magnum
+                    detrimentum pervenit, promisit regia m[aies]tas marchioni <rs ref="#pp0062"
+                        >Alberto</rs> sex annorum libertatem se ex gratia daturam. Ubi autem regia
+                    m[aies]tas et regnum Poloniae, a quibus libet, cuiusvis dignitatis aut
+                    conditionis illi fuerint, occasione huius transactionis et concessionis feudi
+                    impugnaretur. Extunc dux in Prussia cum successoribus in propria persona,
+                        una<note n="237" type="crit_app">Acta Tomiciana: [Auslassung:] una.</note>
+                    cum omnibus suis subditis pro sum[m]is viribus regiam maie[sta]tem etiam intra
+                    hoc sex annorum libertatis spatium adiuvare, et illi consulere sit obligatus.
+                    Similiter regia m[aies]tas et regnum Poloniae erga ducem in Prussia et ipsius
+                    terras in hoc casu facere debebit. Si autem contingeret, q[uo]d regia m[aies]tas
+                    aut regnum Poloniae, extra hunc contractum, ab infidelibus, et alias urgeretur,
+                        et<note n="238" type="crit_app">Dogiel, Volumina Legum, Baczko: [Einschub:]
+                        Regia Majestas Poloniae.</note> in propria persona, cum omnibus suis
+                    subditis in castra proficisceretur, tunc dux in Prussia cum successoribus suis
+                    obligatus esse debet, regiam m[aiesta]tem cum centum instructis equis<note
+                        n="239" type="annotation">Acta Tomiciana: equitibus.</note> usque ad
+                    terminos terrarum Prussiae insequi<note n="240" type="crit_app">Acta Tomiciana:
+                        sequi.</note>. Si vero dux in Prussia a regia ma[iesta]te ultra fines
+                    transire requisitus fuerit, extunc huiusmodi<note n="241" type="crit_app">Acta
+                        Tomiciana: hujuscemodi.</note> centum equites, instar aliorum maie[stati]s
+                    suae equestrium militum regiis stipendiis militare debebunt. Casu autem, quo
+                    regia m[aies]tas urgenti<note n="242" type="crit_app">Dogiel, Volumina Legum,
+                        Baczko: urgente.</note> necessitate plures quam centum equites a duce in
+                    Prussia educi desideraret, quotquot centenarium numerum excesserint, a tempore
+                    exitus domiciliorum suorum regio stipendio, ut praemissum est, militabunt. Si
+                    vero in facultate ducis ex Prussia non esset<note n="243" type="crit_app"
+                        >Dogiel, Volumina Legum, Baczko: fuerint.</note> plures quam centum equites
+                    educendi, non debet propterea m[aies]tas regia ulterius ipsum<note n="244"
+                        type="crit_app">Dogiel, Volumina Legum, Baczko, Acta Tomiciana: [Auslassung]
+                        ipsum.</note> urgere.</p>
+                <p>[Art.17]<lb/>Item quod ad iurisditionem inter regiam mai[esta]tem et principem
+                    Prussiae attinet, ita observandum est: Si contingat, quod regia m[aies]tas
+                    principem, aut vicissim princeps ipse regiam maie[sta]tem in causis personas
+                    utriusque partis concernen[tibus]. convenire vellet, debet ma[ies]tas regia
+                    consiliarios suos Marienburgi aut Elbingi collocare, iuramentis<note n="245"
+                        type="crit_app">Dogiel, Volumina Legum, Baczko: juramentisque.</note>,
+                    quibus suae m[aiesta]ti obnoxii sunt, absolvere et rursum ad iuste<note n="246"
+                        type="crit_app">Acta Tomiciana: recte.</note> iudicandum obligare.
+                        Quicquid<note n="247" type="crit_app">Dogiel, Volumina Legum, Baczko: et
+                        quidquid.</note> tunc a praedictis consiliariis regiae maiestati et principi
+                    pronunctiatum et decretum fuerit, ratum esse debebit, et sine contradictione
+                    servari.</p>
+                <p>[Art.18]<lb/>Si vero quispiam de sorte seu conditione principis saecularis aut
+                    ecclesiastici status in Prussia supradictum principem ex<note n="248"
+                        type="crit_app">Dogiel, Volumina Legum, Baczko: de. Acta Tomiciana:
+                        principem Prussiae.</note> Prussia, super quavis re convenire praetenderet,
+                    debebit ma[ies]tas regia sex ex<note n="249" type="crit_app">Acta Tomiciana:
+                        e.</note> consiliariis suis<note n="250" type="crit_app">Volumina Legum:
+                        [Auslassung:] suis.</note>, et princeps in<note n="251" type="crit_app">Acta
+                        Tomiciana: ex.</note> Prussia totidem ex<note n="252" type="crit_app">Acta
+                        Tomiciana: e.</note> suis ad iudicium, ut praemittitur, obligare, et
+                    iuramentis astringere<note n="253" type="crit_app">Volumina Legum: adstringere.
+                        Acta Tomiciana: obstringere.</note>, et quicquid<note n="254"
+                        type="crit_app">Volumina Legum, Baczko, Acta Tomiciana: quidquid.</note>
+                    ipsi aequum esse decreverint et pronunctiaverint<note n="255" type="crit_app"
+                        >Baczko: pronunciaverint.</note>, ei utraq[ue]. pars acquiescere, et sine
+                    ulla tergiversatione id ratum habere debebit.</p>
+                <p>[Art.19]<lb/>Si autem aliquis, qui de sorte principum non fuerit, contra ducem in
+                    Prussia, quam piam<note n="256" type="crit_app">Volumina Legum: quempiam.</note>
+                    actionem instituere vellet, hoc coram vasallis principis facere debebit, quos
+                    princeps ipse collocare, et ad iudicium obligare tenebitur. Si quis autem
+                    occasione huiusmodi iudiciorum in casibus principis personam attingentibus, sibi
+                    iniuriam factam, aut se gravatum esse<note n="257" type="crit_app">Joachim: esse
+                        gravatum.</note> existimaret<note n="258" type="crit_app">Dogiel, Volumina
+                        Legum, Baczko: exstimaret esse.</note>, poterit ad consiliarios, quos regia
+                    m[aies]tas et dux in Prussia, quotannis ad festum sancti Francisci cum<note
+                        n="259" type="crit_app">Acta Tomiciana: quum.</note> id necessitas exegerit,
+                        Marienburgum<note n="260" type="crit_app">Volumina Legum:
+                        Marieburgum.</note> mittere debebunt, provocare, qui super ea re<note
+                        n="261" type="crit_app">Acta Tomiciana: [Auslassung:] re.</note> cognoscendi
+                    potestatem habere debent<note n="262" type="crit_app">Acta Tomiciana:
+                        habebunt.</note>. Quod si ibi cognitum fuerit, appellationem provocantis
+                    frivolam et illicitam esse, debebit pars illa<note n="263" type="crit_app"
+                        >Dogiel, Volumina Legum, Baczko: illa pars.</note> iudicio decem marcas
+                        prutenicales<note n="264" type="crit_app">Dogiel, Volumina Legum, Baczko,
+                        Acta Tomiciana: pruthenicales.</note> pendere, et parti adversae ad
+                    refundendum expensas litis, et ad parendum priori sententiae obligata esse.</p>
+                <p>[Art. 20]<lb/>Ubi vero actiones emergerent, incolas terrarum Prussiae et
+                        earundem<note n="265" type="crit_app">Dogiel, Volumina Legum, Baczko, Acta
+                        Tomiciana: eorundem.</note> possessiones utrinque<note n="266"
+                        type="crit_app">Acta Tomiciana: utriusque.</note> contingentes, unusquisque
+                    in eo iudicio, ubi bona seu possessiones sitae fuerint, aut reus domicilium
+                    habuerit, conveniri, et ad extranea iudicia trahi non debet.</p>
+                <p>[Art. 21]<lb/>Item neutrius partis subditi, nec etiam eorum bona, ex quo in
+                    locis, ad quae spectant, iustitia obtineri possit, in alienis judiciis
+                        arestari<note n="267" type="crit_app">Dogiel, Joachim, Baczko:
+                        arrestari.</note> aut detineri debent.</p>
+                <p>[Art. 22]<lb/>Item q[uo]d deinceps omnes incolae terrarum Prussiae utrinq[ue].
+                    reciproca vicissitudine in terra et mari sine impedimento, negociaciones
+                    exercere, veteribus stratis proficisci et curribus transire, nec non in
+                    privilegiis suis hoc casu permitti debebunt<note n="268" type="crit_app">Dogiel,
+                        Volumina Legum, Baczko, Acta Tomiciana: debent.</note>. Ceterum fora in
+                    villis, contra fas et antiquam consuetudinem instituta, deinceps ubiq[ue].
+                    aboleri, et in civitates, ad quas spectant, reponi debebunt.</p>
+                <p>[Art. 23]<lb/>Item q[uo]d profundnum Balgense<note n="269" type="crit_app"
+                        >Dogiel, Baczko, Acta Tomiciana: Balgen.</note> ad mare recens, Haeb<note
+                        n="270" type="crit_app">Habe, Frisches Haff. Acta Tomiciana: Haw.</note>,
+                        et<note n="271" type="crit_app">Acta Tomiciana: [Einschub:] alia.</note>
+                    ubicunq[ue]. alias<note n="272" type="crit_app">Acta Tomiciana: [Auslassung:]
+                        alia.</note> profunda, id est ostia maris fuerint, caput Vislae<note n="273"
+                        type="crit_app">Weichsel. Joachim: Wisslae.</note> et omnia flumina omnibus
+                    Prussiae incolis<note n="274" type="crit_app">Acta Tomiciana: incolis
+                        Prussie.</note>, ut in ipsis navigare et trajicere<note n="275"
+                        type="crit_app">Balzer, Dolezel: traicere.</note> possint, libera sint. Et
+                    peregrini mercatores nec in Konigsberg, nec Braunsberg<note n="276"
+                        type="crit_app">Volumina Legum: Brunsberg. Dogiel, Baczko:
+                        Brunsbergk.</note>, Elbingum, Gedanum<note n="277" type="crit_app">Acta
+                        Tomiciana: Gdanum.</note>, aut in ullam aliam civitatem proficisci cogantur,
+                    sed debent libere, non coacte<note n="278" type="crit_app">Dogiel, Volumina
+                        Legum, Baczko, Acta Tomiciana: coacti.</note>, prout ipsis placuerit,
+                    velificari et navigare, attamen sine antiquorum theloneorum<note n="279"
+                        type="crit_app">Dogiel, Volumina Legum, Dolezel, Baczko: teloneorum [auch im
+                        Folgenden].</note> et privilegiorum detrimento.</p>
+                <p>[Art. 24]<lb/>Item nulla thelonea, depositiones, vel alia gravamina in terris
+                    Prussiae contra antiquam consuetudinem et privilegia ab ulla partium instituti
+                    debent, sed vetera thelonea permanere. Si autem ab alterutra partium a tempore
+                    transactionis regis<note n="280" type="crit_app">Joachim: regis
+                        [Auslassung].</note>
+                    <rs ref="#pp0063">Cazimiri</rs><note n="281" type="annotation">Zweiter Frieden
+                        von Thorn 1466 X 19 (vergleiche oben).</note> thelonea essent instituta, ea
+                    quoque hinc inde abrogari debent. Si vero successu temporis contingeret, quod
+                    regia maiestas, et similiter dux in Prussia, ad requisitionem utriusq[ue]<note
+                        n="282" type="crit_app">Volumina Legum: uterque.</note>. subditorum suorum,
+                        alicubi<note n="283" type="crit_app">Acta Tomiciana: aliquubi.</note> nova
+                    thelonea, aut emporia ad utilitatem terrarum ipsorum<note n="284"
+                        type="crit_app">Dogiel, Baczko: [statt ipsorum:] Prussiae. Acta Tomiciana:
+                        ipsarum.</note> instituere destinarent, tunc debet m[aies]tas regia ducem in
+                        Prussia<note n="285" type="crit_app">Dogiel, Volumina Legum, Baczko: ducem
+                        Prussiae.</note> in locum opportunum vocare<note n="286" type="crit_app"
+                        >Dogiel, Volumina Legum, Baczko: vocare in locum opportunum.</note> et ambae
+                    partes super ea re concordandi et transigendi potestatem habere. Si etiam
+                    aurigae vel nautae huiusmodi thelonea praeterirent, non debent eis bona adimi,
+                    sed tantum naves, currus et equi<note n="287" type="crit_app">Dogiel, Volumina
+                        Legum, Baczko: currusque auferri.</note> auferri.</p>
+                <p>[Art. 25]<lb/>Ceterum q[uo]d ad bona naufragantium attinet, debet<note n="288"
+                        type="crit_app">Dogiel, Volumina Legum, Baczko: debebit.</note> id cum
+                        eisdem<note n="289" type="crit_app">Dogiel, Baczko: iisdem.</note> secundum
+                    veterem introductam consuetudinem, ex quo idem in Selandia<note n="290"
+                        type="crit_app">Volumina Legum: Seelandia. Dogiel, Baczko: Zelandia.</note>,
+                        Holandia<note n="291" type="crit_app">Volumina Legum: Hollandia.</note> et
+                    Brabantia consuetum est, etiam observari, ita tamen, q[uo]d a nautis nihil plus
+                    extorqueatur.</p>
+                <p>[Art. 26]<lb/>Item debet utraq[ue]. partium adversus alteram nunc et deinceps
+                    publicarum, stratarum praedones, fures et alios terris perniciem invehentes, ad
+                    receptandum et promovendum abstinere. Sed qui unius partis professus hostis
+                        est<note n="292" type="crit_app">Dogiel, Volumina Legum, Baczko:
+                    sit.</note>, debet etiam ab altera parte pro eius diffidato hoste et
+                    damnificatore censeri.</p>
+                <p>[Art. 27]<lb/>Item quaevis partium potestatem habere debet hostes et noxios suos
+                        in<note n="293" type="crit_app">Dogiel, Volumina Legum, Baczko: bonis
+                        [Einschub].</note> alterius partis terras<note n="294" type="crit_app"
+                        >Dogiel, Baczko: [Auslassung.] terras.</note> persequi; et in quibus
+                    judiciis apprehendentur, in illis sisti, et iuxta ipsorum demerita iustificari
+                    debent.</p>
+                <p>[Art. 28]<lb/>Item quod<note n="295" type="crit_app">Dogiel, Volumina Legum,
+                        Baczko, Acta Tomiciana: [Auslassung:] quod.</note> dux in Prussia, et
+                    praeterea Elbingen[ses]., Gdanen[ses]<note n="296" type="annotation"
+                        >Danzig.</note>. et Thoronen[ses]<note n="297" type="crit_app">Dogiel,
+                        Baczko, Acta Tomiciana: Thorunenses.</note>. omnem monetam cudere
+                    abstineant, ita, q[uo]d regia m[aies]tas intra hinc et festum Penthecostes<note
+                        n="297a" type="crit_app">Dogiel, Volumina Legum, Dolezel, Joachim, Baczko,
+                        Balzer, Acta Tomiciana: Pentecostes.</note> seuqentis anni diem statuat
+                        se<note n="298" type="crit_app">Acta Tomiciana: de.</note> ratione monetae
+                        huiusmodi<note n="299" type="crit_app">Dogiel, Volumina Legum, Baczko, Acta
+                        Tomiciana: hujusmodi monetae.</note> clare concordandi.</p>
+                <p>[Art. 29]<lb/>Item q[uo]d dux Prussiae omnibus privilegiis et iuribus, huic
+                    contractui repugnantibus, seu ea sint a pontificibus maximis, imperatoribus,
+                    principibus vel regibus Poloniae, profecta, nunc et in perpetuum renunciare et
+                    ea in manus regiae maie[stati]s consignare debet. Si autem quidpiam<note n="300"
+                        type="crit_app">Joachim: quippiam. Volumina Legum: quidquam. Dogiel, Baczko:
+                        quicquam. Acta Tomiciana: quippiam.</note> in huiusmodi<note n="301"
+                        type="crit_app">Dogiel, Volumina Legum, Baczko: ejusmodi.</note> privilegiis
+                    contineretur, quod huic transactioni non repugnaret, sed duci ex<note n="302"
+                        type="crit_app">Dogiel, Volumina Legum, Baczko: [Auslassung:] ex. Acta
+                        Tomiciana: duci Prussie.</note> Prussia et terris occasione finium et
+                    aliorum iurium et privilegiorum necessarium esset, debebit, m[aies]tas regia
+                    eiusdem tenoris sub litteris et sigillo<note n="303" type="crit_app">Acta
+                        Tomiciana: tenoris literas sub sigillo.</note> maie[stati]s suae ea denuo
+                    concedere.</p>
+                <p>[Art. 30]<note n="304" type="crit_app">Baczko: [Artikel fehlt].</note><lb/>Item
+                    q[uo]d regnum Poloniae et terrae Prussiae pro se et eorum successoribus
+                    sufficienter se inscribere debent, q[uo]d hanc institutam transactionem in
+                        omnibus<note n="305" type="crit_app">Dogiel, Volumina Legum, Acta Tomiciana:
+                        suis [Einschub].</note> partibus, punctis et articulis fideliter, perpetuo
+                    et irrevocabiliter servare, nec<note n="306" type="crit_app">Acta Tomiciana:
+                        [Einschub:] ei.</note> unquam contravenire aut agere debeant aut velint. Hoc
+                    puncto singulariter adiuncto, si casus mortis principium, quos Deus pro<note
+                        n="307" type="crit_app">Dolezel, Balzer: pro [Auslassung].</note> sua
+                        voluntate<note n="308" type="crit_app">Dogiel, Volumina Legum: suo
+                        arbitrio.</note> conservet, se offerret, q[uo]d terrae Prussiae maie[sta]ti
+                    regiae et regno Poloniae, et nulli alteri adhaerere debent.</p>
+                <p>[Art. 31]<note n="309" type="crit_app">Baczko: [Artikel
+                    fehlt].</note><lb/>Postremo si quisquam, cuiuscumque<note n="310"
+                        type="crit_app">Dogiel, Volumina Legum: cujusquam. Acta Tomiciana:
+                        cuiiscunque.</note> dignitatis aut conditionis existeret, hunc<note n="311"
+                        type="crit_app">Dogiel, Volumina Legum: huncque.</note> contractum impugnare
+                    vellet, debent tres marchiones, quos haec concordia pariter contingit<note
+                        n="312" type="crit_app">Dogiel, Volumina Legum, Acta Tomiciana:
+                        attingit.</note>, una cum duce ex<note n="313" type="crit_app">Dogiel,
+                        Volumina Legum: de. Acta Tomiciana: in.</note> Prussia<note n="314"
+                        type="crit_app">Acta Tomiciana: [Einschub:] et.</note> cum omnibus, quos ad
+                    hoc permovere poterint<note n="315" type="crit_app">Dogiel, Volumina Legum, Acta
+                        Tomiciana: poterunt.</note>, regiam maie[sta]tem iuvare et super hoc
+                    respondere.</p>
+                <p>Huic suprascriptae christianae concordiae et unitati regia ma[ies]tas Poloniae et
+                    dux Prussiae, in omnibus articulis, clausulis, conditionibus, punctis superius
+                        contentis<note n="316" type="crit_app">Dogiel, Volumina Legum:
+                        expressis.</note>, regiam ac ducalem dignitatem christianamque bonam fidem,
+                    perpetuo et fideliter interponen[tes]., inviolabiliter pro se et
+                        successivae<note n="317" type="crit_app">Dogiel: successurae.</note>
+                    posteritatis eorum heredibus, successores, reges Poloniae et duces Prussiae,
+                    ratam et firmam habere et observare polliciti sunt et<note n="318"
+                        type="crit_app">Dogiel, Acta Tomiciana: ac.</note> promiserunt. Pro maiori
+                    praefatorum fide et securitate regia m[aies]tas, similiter dux Prussiae,
+                    huiusmodi pactum, concordiam et unionem manu eorum propria subscripserunt, et
+                    sigilla ipsorum n[os]tris adhaerentia subappendi fecerunt; ac<note n="319"
+                        type="crit_app">Dogiel, Volumina Legum: et.</note> huiusmodi contractus
+                    binae litterae concordationis sive<note n="320" type="crit_app">Dogiel, Volumina
+                        Legum, Acta Tomiciana: seu.</note> unionis sub eodem verborum tenore
+                    confectae, cui libet parti unae presentatae sunt<note n="321" type="crit_app"
+                        >Baczko: [Absatz fehlt].</note>.<lb/>Dat[um]. et act[um]<note n="322"
+                        type="crit_app">Acta Tomiciana: act. et. dat.</note>. Cracoviae, sabato<note
+                        n="323" type="crit_app">Dolezel, Balzer: sabbato. Volumina Legum: sabbatho
+                        in vigilia. Dogiel, Baczko: sabbato in vigilia.</note> vigiliae Palmarum,
+                    quae fuit octava mensis Aprilis, anno Domini millesimo<note n="324"
+                        type="crit_app">Volumina Legum, Baczko: 1525.</note> quingentesimo vigesimo
+                        quinto<note n="325" type="crit_app">Acta Tomiciana: [Auslassung der
+                        Jahreszahl]. Dogiel, Volumina Legum, Acta Tomiciana: es folgt
+                        Ratifikationsformel Sigismunds.</note>.</p>
+                <p><rs ref="pp0061">Sigismundus</rs> Rex subscripsit<lb/><rs ref="#pp0059"
+                        >Georgius</rs> Marchio Brandembe&lt;v&gt;rgensis, qvy suppra manu proppria
+                        &lt;subscripsit&gt;<note n="326" type="crit_app">Kürzel unleserlich;
+                        möglicherweise: subscripsit.</note><lb/><rs ref="#pp0060">Fridrich Herczog
+                        czu Lignicz</rs> manu propria &lt;...&gt;<note n="327" type="crit_app"
+                        >Kürzel unleserlich; möglicherweise: subscripsit.</note><lb/><rs
+                        ref="#pp0062">Albrecht Marggraff zu Brandeburgk und Hertzog zu Preussen</rs>
+                    etc. manu propria &lt;...&gt;<note n="328" type="crit_app">Kürzel unleserlich;
+                        möglicherweise. subscripsit.</note><lb/></p>
+            </div>
+        </body>
+    </text>
+</tei:TEI>

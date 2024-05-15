@@ -1,0 +1,414 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE tei SYSTEM "../resources/FriVer_DTD.dtd">
+
+<?xml-model href="../resources/FriVer.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns="http://www.tei-c.org/ns/1.0"
+    xml:id="pa000299-0122">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title level="s">European peace treaties of the pre-modern era in data / Europäische
+                    Friedensverträge der Vormoderne in Daten (FriVer+)</title>
+                <title when="1719-08-04" xml:id="t122" when-custom="1719 VIII 4" level="a"
+                    ref="https://www.ieg-friedensvertraege.de/treaty/t-122-1-de.html">Bündnisvertrag
+                    von Berlin</title>
+            </titleStmt>
+            <editionStmt>
+                <edition> Digital edition according to <ref target="http://www.tei-c.org/">TEI
+                        P5</ref>
+                </edition>
+                <funder>
+                    <ref target="https://www.text-plus.org/">TEXT+</ref>
+                </funder>
+                <editor role="http://id.loc.gov/vocabulary/relators/edt"
+                    ref="https://orcid.org/0000-0002-8741-5916">
+                    <persName>Jaap Geraerts</persName>
+                    <note>The transformation and enrichment of the data is done by Jaap Geraerts
+                        (IEG Mainz). The other members of the FriVer+ team are Fabian Cremer, Ines
+                        Grund, and Thorsten Wübbena (all IEG Mainz).</note>
+                    <note> The original data has been created by the <ref
+                            target="https://www.ieg-friedensvertraege.de">team of scholars</ref> who
+                        were part of the Europäische Friedensverträge der Vormoderne project. This
+                        project was lead by Prof. Dr. Heinz Duchhardt and was based at the Leibniz
+                        Institute of European History in Mainz. </note>
+                </editor>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>
+                    <orgName ref="http://www.isni.org/0000000119314040">Leibniz-Institut für
+                        Europäische Geschichte Mainz</orgName>
+                </publisher>
+                <distributor>
+                    <orgName ref="http://www.isni.org/0000000110101946">Universitäts- und
+                        Landesbibliothek Darmstadt</orgName>
+                </distributor>
+                <idno type="ISIL">http://lobid.org/organisation/DE-17</idno>
+                <date type="issued" when="2023-12-23"/>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">
+                        <p xml:lang="en">This file is licensed under the terms of the Creative
+                            Commons License CC-BY 4.0 (Attribution 4.0 International)</p>
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <repository xml:id="r10">Hannover StA/LA <note>Arcinsys Niedersachsen, Hannover NLA, Findbuch:<lb/>
+                        <ref
+                            target="http://www.arcinsys.niedersachsen.de/arcinsys/detailAction?detailid=v3436621"
+                            >http://www.arcinsys.niedersachsen.de/arcinsys/detailAction?detailid=v3436621</ref></note>
+                </repository>
+                <msDesc>
+                    <p>Unterhändlerinstrumente: NHSAHannover: Hannover 10, 46 Preußen Nr. 278
+                        (Hauptvertrag mit 9 Art. und 2 Separat- und Geheimart., frz., 6 fol. (bzw.
+                        je 2 fol.), Papier, je 2 US, je 2 LS). GSABerlin: [kein Nachweis]. </p>
+                    <p>&nbsp; </p>
+                    <p>Ratifikationen: NHSAHannover: Hannover 10, Nr. 278. Das Ratifikationsdatum
+                        Preußens 1719 IX 15 bei Loewe, Preussische Staatsverträge, S. 211."
+                        Ratifikation Preußen Berlin 1719 IX 9.* Ratifikation Hannover Herrenhausen
+                        (1719 VIII 10/21) [kein Nachweis]. Schweden: [kein Nachweis]. </p>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p> The data in this XML file, originally created by the project <ref
+                        target="https://www.ieg-friedensvertraege.de/vertraege">Europäische
+                        Friedensverträge der Vormoderne online</ref> has been transformed in
+                    accordance with <ref target="http://www.tei-c.org/">TEI P5</ref> as part of the
+                    project <ref
+                        target="https://www.ieg-mainz.de/en/research/research-projects/european-peace-treaties-of-the-pre-modern-era-in-data"
+                        >Europäische Friedensverträge der Vormoderne in Daten (FriVer+)</ref>
+                </p>
+            </projectDesc>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="fr" xml:id="lan4">französisch</language>
+            </langUsage>
+        </profileDesc>
+    </teiHeader>
+    <standOff>
+        <listPerson>
+            <person role="signatory" xml:id="p51">
+                <persName ref="https://explore.gnd.network/gnd/4023349-2">
+                    <name>Hannover</name>
+                </persName>
+            </person>
+            <person role="signatory" xml:id="p93">
+                <persName ref="https://explore.gnd.network/gnd/4047194-9">
+                    <name>Preußen</name>
+                </persName>
+            </person>
+            <person xml:id="pp0204">
+                <persName ref="https://explore.gnd.network/gnd/118535978">
+                    <name>Friedrich Wilhelm I (Preußen)</name>
+                </persName>
+            </person>
+            <person xml:id="pp0205">
+                <persName ref="https://explore.gnd.network/gnd/1243999756">
+                    <name>Georg I. (Großbritannien)</name>
+                </persName>
+            </person>
+            <person xml:id="pp0182">
+                <persName ref="https://explore.gnd.network/gnd/118560123">
+                    <name>Karl XII. (Schweden)</name>
+                </persName>
+            </person>
+            <person xml:id="pp0194">
+                <persName ref="https://explore.gnd.network/gnd/118592955">
+                    <name>Peter I. (Russia)</name>
+                </persName>
+            </person>
+            <person xml:id="pp0004">
+                <persName ref="https://explore.gnd.network/gnd/118560107">
+                    <name>Charles VI, Holy Roman Emperor</name>
+                </persName>
+            </person>
+            <person xml:id="pp0181">
+                <persName ref="https://explore.gnd.network/gnd/118505084">
+                    <name>August II. (Polen)</name>
+                </persName>
+            </person>
+            <person xml:id="pp0211">
+                <persName ref="https://explore.gnd.network/gnd/116617640">
+                    <name>Friedrich Ernst von Cnyphausen</name>
+                </persName>
+            </person>
+        </listPerson>
+        <listPlace>
+            <place xml:id="loc24">
+                <placeName ref="https://explore.gnd.network/gnd/4005728-8">Berlin</placeName>
+            </place>
+        </listPlace>
+        <facsimile>
+            <surface xml:id="FacsPnr1">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_4486b648bea47"/>
+            </surface>
+            <surface xml:id="FacsPnr2">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_4486b680b4ff4"/>
+            </surface>
+            <surface xml:id="FacsPnr3">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_4486b6b7923ef"/>
+            </surface>
+            <surface xml:id="FacsPnr4">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_4486b75ee2b4a"/>
+            </surface>
+            <surface xml:id="FacsPnr5">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_4486b79534925"/>
+            </surface>
+            <surface xml:id="FacsPnr6">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_4486b7cb62e67"/>
+            </surface>
+            <surface xml:id="FacsPnr7">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_4486b7fb1e3c1"/>
+            </surface>
+        </facsimile>
+    </standOff>
+    <text>
+        <front>
+            <div type="Drucke">
+                <p>CTS 31, S. (45)47-51. Loewe, Preussische Staatsverträge, S. (210)211-215.</p>
+            </div>
+            <div type="Inhalt">
+                <p>Art. 1 Bestätigung und Erneuerung des Friedens 1715 IV 27 zwischen Preußen und
+                    Großbritannien.<lb/>Art. 2 Bestätigung der Garantie für die ehemaligen
+                    schwedischen Besitzungen in Deutschland. Erklärung, den Frieden mit Schweden zu
+                    wahren. <lb/>Art. 3 Bestimmungen über die Dörfer Holtorff, Kapern und
+                    Gummern.<lb/>Art. 4 Erklärung über die Befolgung des Art. 5 des Vertrages (1715
+                    IV 27).<lb/>Art. 5 Bestimmungen über künftige Friedensbemühungen.<lb/>Art. 6
+                    Voraussetzungen für einen Frieden mit Schweden.<lb/>Art. 7 Erklärung, keine
+                    Schritte zu unternehmen, die gegen Kaiser und Reich gerichtet sind.<lb/>Art. 8
+                    Friedensbemühungen, um einen allgemeinen Frieden im Norden zu erreichen.
+                    Verhandlungen mit den Alliierten und den neutralen Mächten.<lb/>Art. 9
+                    Ratifikation.</p>
+                <p>Separat- und Geheimartikel<lb/>Erklärung, keinerlei feindselige Schritte gegen
+                    Polen zu unternehmen. Unter Vermittlung von Großbritannien sollen
+                    Friedensverhandlungen aufgenommen werden.<lb/>Status des Separatartikels.</p>
+                <p>Separat- und Gemeinartikel<lb/>Erklärung über Geldzahlungen.</p>
+            </div>
+            <div type="Kommentar">
+                <p>Ein Kriegsziel Preußens und Hannovers bestand darin, Schweden aus dem Gebiet des
+                    Reiches hinauszudrängen, auf das es über die Besitzrechte an den Herzogtümern
+                    Bremen und Verden sowie an Teilen Pommerns seit 1648 zugriff. Bremen-Verden lag
+                    im Interessensgebiet Hannovers; Pommern im Machtbereich Preußens. Großbritannien
+                    hatte zunächst (1700) Schweden unterstützt. Zusammen mit den Niederlanden hatte
+                    es Preußen zunächst zur Neutralität im Krieg bewegt. 1710 erklärten der Kaiser
+                    und die Seemächte die norddeutschen Reichsgebiete zur neutralen Zone; dies
+                    konnte jedoch nicht verhindern, daß diese Gebiete (ab 1710) Kriegsschauplatz
+                    wurden. Durch den dänischen Einmarsch im Herzogtum Bremen 1712 wurde Hannover in
+                    den Krieg involviert, zumal es seinen Anspruch auf dieses Gebiet durch den
+                    Einmarsch in Verden manifestierte. Preußen stellte sich 1714 auf die Seite
+                    Hannovers und sicherte am 27. April 1715 Hannover in einem Bündnis- und
+                    Beistandspakt den Besitz Bremen-Verdens zu; dies gab den Ausschlag dafür, daß
+                    Dänemark am 2. Mai 1715 Bremen an Hannover abtrat. <lb/>Angesichts des sich
+                    abzeichnenden russischen Machtzuwachses bemühte sich Georg I. einen Frieden mit
+                    Schweden herbeizuführen. Dies wurde durch den Tod des schwedischen Königs Karl
+                    XII. (1718 XII 11) erleichtert. Vor einem Frieden mit Schweden war jedoch eine
+                    Einigung zwischen Hannover und Preußen nötig, um Preußen an der Seite Hannovers
+                    zu binden und einer (erneuten) russisch-preußischen Allianz zuvorzukommen. In
+                    parallelen Verhandlungen mit Schweden und Preußen versuchte Georg I., einen
+                    Frieden zu erreichen, ohne Preußen dabei weiter auf die Seite des Zaren zu
+                    treiben. Bedenken Friedrich Wilhelms verzögerten die Verhandlungen, so daß am
+                    11./22. Juli 1719 der Präliminarfrieden zwischen Hannover und Schweden
+                    unterzeichnet wurde, ohne daß die Einigung mit Preußen zustande gekommen wäre.
+                    Die Nachricht vom Abschluß des Friedens beschleunigte die Verhandlungen in
+                    Berlin, und am 14. August 1719 wurde der Vertrag zwischen Preußen und Hannover
+                    unterzeichnet. Um den Anschein zu erwecken, das Abkommen wäre vor der
+                    Kenntnisnahme des Friedens mit Schweden geschlossen worden, wurde der Vertrag
+                    auf den 4. August zurückdatiert.**<note n="a" type="crit_app">Loewe, Preussische
+                        Staatsverträge, S. 211.</note></p>
+            </div>
+            <div type="Kontext">
+                <p>1701-1714 Spanischer Erbfolgekrieg.<lb/>1700-1721 Großer Nordischer Krieg.
+                    Dänemark, Sachsen-Polen, Rußland und Brandenburg (in zeitlich wechselnden
+                    Bündniskonstellationen) versuchen, die schwedische Vorherrschaft im Ostseeraum
+                    zu brechen. Sachsen fällt in Livland ein, Dänemark richtet sich gegen Schleswig.
+                    <lb/>18. August 1700 Friede von Travendal zwischen Dänemark und Schweden.
+                    Dänemark scheidet aus dem Krieg aus und erkennt den Herzog von Holstein-Gottorf
+                    an. Der Krieg zwischen Sachsen-Polen und Rußland mit Schweden geht weiter
+                    (1701/02 Siege Karls XII. Besetzung Polens.) <lb/>24. September 1706 Friede von
+                    Altranstädt zwischen Sachsen-Polen und Schweden. August II. muß auf den
+                    polnischen Thron verzichten. <lb/>1. September 1707 Konvention von Altranstädt.
+                    Um einen weiteren Vormarsch Schwedens zu verhindern, garantiert der Kaiser die
+                    Rechte der Protestanten in Schlesien. Damit wird eine Verschmelzung mit dem
+                    Span. Erbfolgekrieg verhindert. <lb/>8. Juli 1709 Russischer Sieg bei Poltava.
+                    Der schwedische Rückzug beginnt.<lb/>12. Juni 1714 Preußisch-russisches Bündnis.
+                    Im November schließt sich Hannover an. <lb/>2. Mai 1715 Durch einen Vertrag mit
+                    Dänemark erwirbt Hannover Bremen und Verden. Hannover und Preußen treten in den
+                    Krieg gegen Schweden ein.<lb/>11. Dezember 1718 Tod Karl XII.<lb/>1719 - 1721
+                    Friedensverträge beenden den Nordischen Krieg. Die schwedische Hegemonie im
+                    Ostseeraum ist beendet. Dänemark und Preußen verzeichnen wichtige territoriale
+                    Gewinne. Rußland wird zur Großmacht im Baltikum. <lb/>11./22. Juli 1719
+                    Präliminarfriede zwischen Hannover und Schweden.<lb/>20. November 1719 Friede
+                    von Stockholm zwischen Schweden und Hannover. Hannover erhält Bremen und
+                    Verden<lb/>21. Januar 1721 Friede von Stockholm zwischen Schweden und Preußen.
+                    Preußen erhält Teile Pommerns<lb/>3. Juli 1721 Friede von Frederiksborg zwischen
+                    Schweden und Dänemark bringt territoriale Gewinne (Schleswig) für Dänemark.
+                    Schweden behält Vorpommern.<lb/>10. September 1721 Friede von Nystad zwischen
+                    Rußland und Schweden. Estland, Teile Kareliens, Ingermanland und Livland fallen
+                    an Rußland.</p>
+            </div>
+        </front>
+        <body>
+            <div type="Edition">
+                <p>Leurs <rs ref="#pp0204">Majestés Prussienne</rs><note n="1" type="annotation"
+                        >Friedrich Wilhelm I. (1688-1740), Kurfürst von Brandenburg, seit 1713 König
+                        in Preußen.</note> et <rs ref="#pp0205">Britannique</rs><note n="2"
+                        type="annotation">Georg Ludwig (1660-1727), Kurfürst von Hannover, seit 1714
+                        als Georg I. König von Großbritannien. Seit 5.1.1719 mit Österreich und
+                        Sachsen verbündet (vergleiche NHSAHannover Hannover 10, 27 Kaiser Nr. 168),
+                        schloss er am 11./22.7.1719 einen Präliminarfrieden (NHSAHannover Hannover
+                        10, 54 Schweden Nr. 387) und am 9./20.11.1719 in Stockholm den Frieden mit
+                        Schweden (NHSAHannover Hannover 10, 54 Schweden Nr. 387, 4-5), in dem er
+                        Bremen und Verden erhielt und die Vermittlerrolle für weitere
+                        Friedensschlüsse Schwedens übernahm.</note>
+                    <!-- obsolete link <ref
+                    target="likecms.php?site=friede/site%2Ehtm&nav=6&siteid=15&vertrag=6">
+                    ayant</ref>-->
+                    considéré que la mort du feu <rs ref="#pp0182">Roy de Suede</rs><note n="3"
+                        type="annotation">Karl XII. (1682-1718), schwedischer König ab 1697; ihm
+                        folgte seine Schwester Ulrike Eleonore (1688-1740, Regierungszeit
+                        1718-1720).</note> devoit naturellement faciliter le retablissement de la
+                    paix du Nord, et ayant toujours eu intention de contribuer à un ouvrage si
+                    salutaire, Elles ont cru devoir s´y appliquer avec un nouveau soin dans la
+                    conjoncture presente, qui leur fournit de nouveaux motifs pour se tenir
+                    etroitement unis<note n="3" type="crit_app">CTS; Loewe: unies.</note> et ayant
+                    jugé nécessaire de prendre des mesures ensemble pour l´accomplissement des
+                    obligations mutuelles où Leurs dites Majestés se trouvent engagées depuis le
+                    traité de 1715 au sujet des Provinces cy devant possedées par la Couronne de
+                    Suede en Allemagne. Elles sont convenues des articles suivants.<lb/>1.<lb/><rs
+                        ref="#pp0204">Sa Majesté Prussienne</rs> ayant conclu au mois d´Avril 1715
+                    un traité avec <rs ref="#pp0205">Sa Majesté Britannique en qualité d´Electeur de
+                        Brunsvic</rs> pour la conservation, le maintien et la garantie mutuelle des
+                    provinces cy devant possedées par la Couronne de Suede en Allemagne qui sont
+                    presentement dans la possession de Leurs Majestés et qui sont nommées dans les
+                    articles 2 et 3 du dit traité à savoir de la part du Roy de Prusse la ville de
+                    Stettin, le district entre l´Oder et la Pehne, et les Isles<note n="4"
+                        type="crit_app">Loewe: îles.</note> d´Usedom et de Wollin, et du coté du Roy
+                    de la Grande Bretagne les Duches de Bremen et Vehrden<note n="5" type="crit_app"
+                        >CTS; Loewe: Brême et Verden.</note>. Leurs Majestés ont jugé necessaire en
+                    premier lieu de renouveller et de confirmer le dit traité du mois d´Avril 1715
+                    comme en effet Elles le renouvellent et le confirment par le present traité pour
+                    Elles et pour leurs Heritiers et Successeurs aussy expressement que s´il y étoit
+                    inseré mot pour mot se promettant mutuellement les secours des trouppes
+                    stipulées dans le dit traité, le cas existant.<lb/>2.<lb/>Leurs Majestés
+                    renouvellent aussy specialement pour Elles et pour leurs Heritiers et
+                    Successeurs la Garantie stipulée par le traité de 1715 des susdites provinces,
+                    qui ont été cy devant possedées par la Couronne de Suede en Allemagne, et dont
+                    Leurs Majestés sont à cette heure en possession, et Elles s´engagent à prendre
+                    de concert toutes les mesures nécessaires pour procurer la paix avec la Couronne
+                    de Suede et pour obtenir d´Elle la cession des dites provinces.<lb/>3.<lb/><rs
+                        ref="#pp0204">Sa Majesté Prussienne</rs> s´engage à satisfaire à l´article
+                    5.e du traité de l´an 1715 et de donner les documents de la cession stipulée par
+                    le dit article en bonne et due forme, et de meme les ordres nécessaires à
+                    l´égard des trois villages Holtorff, Capern et Gummern<note n="6"
+                        type="annotation">Kapern, Holtorf, Gummern liegen an der Elbe bei
+                        Schnackenburg/Wittenberge.</note>, et cela auplus tard en même tems, qu´Elle
+                    donnera sa ratification du present traité.<lb/>4.<lb/>Les garanties stipulées cy
+                    dessus sortiront leur effet du jour, que <rs ref="#pp0204">Sa Majesté
+                        Prussienne</rs> aura satisfait au article 5 de l´an 1715 et qu´Elle aura
+                    delivré les documents et les ordres requis en bonne et due
+                    forme.<lb/>5.<lb/>Leurs Majestés promettent de porter Sa Majesté Suedoise à la
+                    paix, et à envoyer Ses Plenipotentiaires à Brunsvic, pour en traiter, et pour
+                    faciliter d´autant plus la conclusion de la paix dans ce lieu, les Roys de
+                    Prusse et de la Grande Bretagne feront d´un commun concert, tout leur possible
+                    pour convenir au paravant avec la Suede des preliminaires, sur les quelles la
+                    paix se doit faire.<lb/>6.<lb/>Leurs <rs ref="#pp0204">Majestés Prussienne</rs>
+                    et <rs ref="#pp0205">Britannique</rs> s´engagent expressement par le present
+                    traité, à ne pas faire de paix avec la Suede, sans que les cessions stipulées
+                    dans les articles 1 et 2 du present traité ayant eté accordées par la dite
+                    couronne à l´un et à l´autre.<lb/>7.<lb/>Leurs Majestés travailleront pour
+                    obtenir le consentement de <rs ref="#pp0004">l´Empereur</rs>, à l´egard des
+                    provinces cy-devant possedées, par la Couronne de Suede en Allemagne, Elles
+                    agiront de concert et se rendront mutuellement toute sorte de bons offices, pour
+                    obtenir ce consentement, et pour le faciliter d´autant plus, Sa Majesté
+                    Prussienne assure de n´avoir jamais pris avec le <rs ref="#pp0194"
+                        >Czar</rs><note n="7" type="annotation">Sachanmerkung: Peter I., genannt der
+                        Große (1672-1725), seit 1689 Zar. Textvariante: Loewe: Tsar.</note> des
+                    engagements contraires ou praejudicables aux Interets de l´Empereur ou de
+                    l´Empire, ni d´en vouloir jamais prendre de pareils.<lb/>8.<lb/>Comme il est
+                    tres nécessaire de retablir une paix generale dans le Nord, Leurs Majestés
+                    concerteront avec tous leurs Alliés et même avec les Puissances neutres, qui y
+                    voudroient concourir, de quelle maniere on y pourra parvenir, et Elles ne
+                    manqueront à rien de ce qui pourra contribuer à amener à une heureuse fin, un
+                    ouvrage si salutaire.<lb/>9.<lb/>L´echange des ratifications du present traité
+                    se fera à Hannovre dans quatre semaines, à compter du jour de la signature ou
+                    dans six semaines au plus tard.<lb/>En foy de ce qui est contenu cy-dessus, on a
+                    expedié deux exemplaires uniformes de ce traité, dont l´un a été signé et scellé
+                    par les Ministres de Sa Majesté prussienne et l´autre par les Ministres de Sa
+                    Maj[est]é Britannique autorisés pour cela, et ces deux exemplaires ont eté
+                    echangés apres l´un contre l´autre.<lb/>Fait à Berlin le 4 d´Aout 1719</p>
+                <p>LS, US Ilgen<note n="8" type="crit_app">CTS; Loewe geben als Unterhändlersignatur
+                        Jean Guillaume Heusch an (auch für u.g. Separatartikel) Heinrich Rüdiger von
+                        Ilgen (1654-1720), preußischer Geheimer Rat, seit 1711 Kabinettsminister des
+                        Auswärtigen Departments (Biographisches Wörterbuch zur deutschen Geschichte
+                        2, Sp. 1270-1271)." </note>
+                    <lb/>LS, US <rs ref="#pp0211">Cnyphausen</rs><note n="9" type="annotation"
+                        >Friedrich Ernst Freiherr von Inn- und Knyphausen (1678-1731), preußischer
+                        Gesandter und Staatsminister.</note>
+                </p>
+                <p/>
+                <p/>
+                <p/>
+                <p><lb/>Article separé et secret</p>
+                <p>Comme il paroit fort utile pour affermir une paix durable dans le Nord et assurer
+                    d´autant plus les frontieres de l´Empire, que le repos du Royaume de Pologne
+                    soit aussy etabli sur un pied solide, <rs ref="#pp0204">Sa Maj[esté].
+                        Prussienne</rs> declare et promet en vertu du présent article de ne pas
+                    vouloir troubler le <rs ref="#pp0181">Roy de Pologne</rs><note n="10"
+                        type="annotation">Kurfürst August von Sachsen (1694-1733), seit 1697 als
+                        König von Polen August II., genannt der Starke (auf Grund der Rivalität mit
+                        dem polnischen Gegenkönig Stanisław Leszczyński König mit Unterbrechungen
+                        bis 1733).</note> dans la paisible possession ny de Sa Couronne ny de ses
+                    Estats en Allemagne, ny d´estre ou de vouloir entrer dans aucunes mesures
+                    contraires à la liberté, aux constitutions et aux droits de la Republique de
+                    Pologne, moyennant que le dit <rs ref="#pp0181">Roy de Pologne</rs> laisse aussy
+                    le Roy de Prusse dans la paisible possession de ses droits et estats et
+                    particulièrement dans celle de la souveraineté, qu´il a incontestablement sur le
+                    Royaume de Prusse. Le <rs ref="#pp0204">Roy de Prusse</rs> declare aussy,
+                    qu´aprez que le Roy de Pologne se sera expliqué sur sa lettre de Fraustadt<note
+                        n="11" type="crit_app">Siehe Droysen, Friedrich Wilhelm I., Band 1, S.
+                        254.</note>, d´une manière juste et convenable à sa dite souveraineté<note
+                        n="12" type="crit_app">CTS; Loewe: souveraineté de Prusse.</note>, il
+                    entrera d´abord en negociation avec le dit <rs ref="#pp0181">Roy de Pologne</rs>
+                    sous la médiation de <rs ref="#pp0205">Sa Majesté Britannique</rs> et conviendra
+                    avec Luy d´une maniere juste et équitable pour le retablissement d´une bonne et
+                    parfaite intelligence entre les deux Cours. Sa Majesté Britannique en
+                    consideration de cette declaration promet de faire tout son possible aupres du
+                        <rs ref="#pp0181">Roy de la Republique de Pologne</rs><note n="13"
+                        type="crit_app">CTS; Loewe: Roi et la Republique.</note>, pour que <rs
+                        ref="#pp0204">Sa Majesté le Roy de Prusse</rs> soit reconnu dans cette
+                    qualité par la dite Republique, de mesme qu´il est de l´Empereur et des autres
+                    Couronnes de l´Europe.<lb/>Cet article separé et secret aura la mesme force, que
+                    s´il avoit eté inseré mot à mot dans le traité conclu et signé aujourd´huy. Il
+                    sera aussy ratifié de la mesme maniere, et les ratifications en seront échangées
+                    dans le mesme tems avec celles du traité principal.<lb/>En foy de quoy l´un des
+                    deux exemplaires uniformes expediés de cet article a été signé et scellé par les
+                    Ministres de Sa Majesté Prussienne, et l´autre par celuy de Sa Majesté
+                    Britannique, autorisés de part et d´autre pour cela et les deux exemplaires ont
+                    eté echangés apres l´un contre l´autre.</p>
+                <p>Fait à Berlin le 4 d´Aout 1719<lb/>LS, US Ilgen<lb/>LS, US Cnyphausen</p>
+                <p>Article separé et secret </p>
+                <p>Les deux Roys contractants conviendront ensemble dans le cours du traitté d´une
+                    somme d´argent qu´ils feront payer à la Suede pour faciliter la paix.<lb/>Cet
+                    article separé et secret aura la mesme force que s´il avoit eté inseré mot à mot
+                    dans le traitté conclu et signé aujourd´huy. Il sera aussy ratifié de la mesme
+                    manière et les ratifications en seront echangées dans le mesme temps avec celles
+                    du traitté principal.<lb/>En foy de quoy l´un des deux exemplaires uniformes
+                    expediés de cet Article a été signé et scellé par les Ministres de Sa Majesté
+                    Prussienne, et l´autre par celuy de Sa Majesté Britannique, autroisés de part et
+                    d´autre pour cela et les deux exemplaires ont eté echangés aprez l´un contre
+                    l´autre.<lb/>Fait à Berlin le 4 d´Aout 1719</p>
+                <p>LS; US Ilgen<lb/>LS, US <rs ref="#pp0211">Cnyphausen</rs></p>
+            </div>
+        </body>
+        <back>
+            <listBibl>
+                <bibl>Droysen, Friedrich Wilhelm I: König von Preußen. Chance, George I. and the
+                    Northern War. </bibl>
+            </listBibl>
+        </back>
+    </text>
+</tei:TEI>

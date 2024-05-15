@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE tei SYSTEM "../resources/FriVer_DTD.dtd">
+
+<?xml-model href="../resources/FriVer.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns="http://www.tei-c.org/ns/1.0" xml:id="pa000299-0504">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title level="s">European peace treaties of the pre-modern era in data / Europäische Friedensverträge der Vormoderne in Daten (FriVer+)</title>
+                <title when="1701-07-12" xml:id="t504" when-custom="1701 VII 12" level="a" ref="https://www.ieg-friedensvertraege.de/treaty/t-504-1-de.html">Hamburger Vergleich</title>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    Digital edition according to
+                    <ref target="http://www.tei-c.org/">TEI P5</ref>
+                </edition>
+                <funder>
+                    <ref target="https://www.text-plus.org/">TEXT+</ref>
+                </funder>
+                <editor role="http://id.loc.gov/vocabulary/relators/edt" ref="https://orcid.org/0000-0002-8741-5916">
+                    <persName>Jaap Geraerts</persName>
+                    <note>The transformation and enrichment of the data is done by Jaap Geraerts (IEG Mainz). The other members of the FriVer+ team are Fabian Cremer, Ines Grund, and Thorsten Wübbena (all IEG Mainz).</note>
+                    <note>
+                        The original data has been created by the
+                        <ref target="https://www.ieg-friedensvertraege.de">team of scholars</ref>
+                        who were part of the Europäische Friedensverträge der Vormoderne project. This project was lead by Prof. Dr. Heinz Duchhardt and was based at the Leibniz Institute of European History in Mainz.
+                    </note>
+                </editor>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>
+                    <orgName ref="http://www.isni.org/0000000119314040">Leibniz-Institut für Europäische Geschichte Mainz</orgName>
+                </publisher>
+                <distributor>
+                    <orgName ref="http://www.isni.org/0000000110101946">Universitäts- und Landesbibliothek Darmstadt</orgName>
+                </distributor>
+                <idno type="ISIL">http://lobid.org/organisation/DE-17</idno>
+                <date type="issued" when="2023-12-23"/>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">
+                        <p xml:lang="en">This file is licensed under the terms of the Creative Commons License CC-BY 4.0 (Attribution 4.0 International)</p>
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <repository xml:id="r24">Schleswig-Holstein LA
+                    <note>Landesarchiv Schleswig-Holstein, Abt. 7 Nr. 536 (Abschrift)<lb />
+                        Theatrum Europaeum, vol. 16, 174: <ref target="https://nbn-resolving.org/urn:nbn:de:bvb:384-uba000251-0#0199" >https://nbn-resolving.org/urn:nbn:de:bvb:384-uba000251-0#0199</ref></note>
+                </repository>
+                <msDesc><p>Landesarchiv Schleswig- Holstein:&nbsp; Abt. 7&nbsp; (Abschrift).
+                    <lb /> </p></msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>
+                    The data in this XML file, originally created by the project
+                    <ref target="https://www.ieg-friedensvertraege.de/vertraege">Europäische Friedensverträge der Vormoderne online</ref>
+                    has been transformed in accordance with
+                    <ref target="http://www.tei-c.org/">TEI P5</ref>
+                    as part of the project
+                    <ref target="https://www.ieg-mainz.de/en/research/research-projects/european-peace-treaties-of-the-pre-modern-era-in-data">Europäische Friedensverträge der Vormoderne in Daten (FriVer+)</ref>
+                </p>
+            </projectDesc>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="de" xml:id="lan2">deutsch</language>
+            </langUsage>
+        </profileDesc>
+    </teiHeader>
+    <standOff>
+        <listPerson>
+            <person role="signatory" xml:id="p32">
+                <persName ref="https://explore.gnd.network/gnd/4010877-6">
+                    <name>Dänemark</name>
+                </persName>
+            </person>
+            <person role="signatory" xml:id="p138">
+                <persName ref="https://explore.gnd.network/gnd/4514664-0">
+                    <name>Schleswig - Holstein - Gottorf</name>
+                </persName>
+            </person>
+        </listPerson>
+        <listPlace>
+            <place xml:id="loc35">
+                <placeName ref="https://explore.gnd.network/gnd/4023118-5">Hamburg</placeName>
+            </place>
+        </listPlace>
+        <facsimile>
+            <surface xml:id="FacsPnr1">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_449a79b667dfb"/>
+            </surface>
+            <surface xml:id="FacsPnr2">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_449a79e319cca"/>
+            </surface>
+            <surface xml:id="FacsPnr3">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_449a7a0d6a03f"/>
+            </surface>
+            <surface xml:id="FacsPnr4">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_449a7a3654b8c"/>
+            </surface>
+        </facsimile>
+    </standOff>
+    <text>
+        <front>
+            <div type="Inhalt"><p>Über die im Frieden von Traventhal 1700 VIII 18, Art. 9, vereinbarte Zahlung von 260.000 Rthlr. durch den dänischen König an den Herzog von Schleswig-Holstein-Gottorf sind neue Differenzen aufgetreten. Zu deren Beilegung ist folgender Vergleich geschlossen worden:
+                <lb />
+                <lb />1. Schleswig-Holstein-Gottorf restituiert den Herzögen von Schleswig-Holstein-Norburg das Gut Gottesgabe (auf Ærø) und verzichtet auf alle Ansprüche auf der Insel Ærø.
+                <lb />
+                <lb />2. Schleswig-Holstein-Gottorf verzichtet auf den Anspruch auf die Hälfte der gemeinschaftlichen Kontribution aus den Ämtern und Städten der herzoglichen Nebenlinien Sonderburg, Plön, Norburg und Glücksburg und behält daran nur die Eventualsuccession. Die Güter der herzoglichen Nebenlinien bleiben wie die anderen adligen Güter unter gemeinschaftlicher Jurisdiktion und Besteuerung. Im Gegenzug verzichtet der dänische König auf seinen Anspruch auf Kontribution von 103 Pflügen Land und von den Neulandgewinnen im Gottorfer Anteil. Künftig soll Neuland nur von dem Landesherrn besteuert werden, in dessen Anteil es liegt.
+                <lb />
+                <lb />3. Nach der Auszahlung der 260.000 Rthlr. sollen die von den schwedischen Besatzungstruppen in den dänischen Grafschaften Oldenburg und Delmenhorst eingetriebenen Kontributionen mit dem gottorfischen Kontributionsanteil verrechnet werden.
+                <lb />
+                <lb />4. Dänemark zahlt die 260.000 Rthlr. in voller Höhe an Schleswig-Holstein-Gottorf aus, obwohl Dänemark zur Begleichung gottorfischer Schulden bereits Obligationen angenommen hat. Bis zur Begleichung der gottorfischen Obligationen hält Dänemark einige Zahlungen an gottorfische Bedienstete zurück.
+                <lb />
+                <lb />5. Die dänischen Ansprüche wegen der Viehzölle von den gottorfischen Untertanen in Husum und Eiderstedt werden an einen Ausschuß zur Entscheidung binnen zweier Monate überwiesen.
+                <lb /></p></div>
+        </front>
+        <body>
+            <div type="Transliteration">
+                <pb facs="#FacsPnr1"/><p>Wir Friederich von Gottes Gnaden, Erbe Zu Norwegen,
+                <lb />Hertzog zu Schleßwig, Hollstein, Stormarn und der dithmarschen, Graff zu
+                <lb />oldenburg und dellmenhorst [etc.]
+                <lb />Demnach Zwischen Ihro königl[icher] M[ayestä]t zu denne[marck] Norwegen [etc.] und unseren
+                <lb />bevollmächtigten Ministern occasione der in dem Traventhal[ischen] frieden verschriebe-
+                <lb />nen 260.000 R[eichs]th[a]l[e]r nach folgender neben vergleich abgeredet und geschloßen worden,
+                <lb />welcher von wort zu wort allso lautet:
+                <lb />Zu wißen: Nachdem Ihro königl[iche] May[estä]tt zu Dennemarck Norwegen [etc.]
+                <lb />in dem 9ten Art[ikel] des zu Traventhal auffgerichteten Tractats versprochen, an
+                <lb />des herrn Hertzogen zu Schleßwig, Hollstein durchl[aucht] 260.000 R[eichs]th[a]l[e]r zahlen zu laßen,
+                <lb />Solche gelder auch zu diesen behueff in bestimmter zeit zu Hamburg parat ge-
+                <lb />standen, wegen der würcklichen auszahlung aber sich umb des willen einige diffi-
+                <lb />cultäten hervorgethan, weiln Ihro königl[iche] M[ayestä]t eine reciproque execution
+                <lb />berührten Tractats erfordert, und deshalben gewiße Gravamina anführen laßen,
+                <lb />allso seÿn solche durch gütliche vermittelung folgender maßen verglichen und abgethan worde[n].
+                <lb />
+                <lb />1.
+                <lb />Erstlich restituiren Ihr[o] durchl[aucht] denen Herren Hertzogen zu Norburg das
+                <lb />jüngsthin occupirte guth Gottes Gabe mit allen darauff vorgefundenen Mobi-
+                <lb />lien und Viehe, so nicht gestorben, oder zum nutzen des guthes angewandt,
+                <lb />evacuieren solches 14. tage nach vollenziehung dieses Recessus, begeben Sich auch
+                <lb />für Sich und dero Successoren alles anpruchs, welchen dieselbe sowohl
+                <lb />gegen Ihr[o] Königl[iche] M[ayestä]t alß das gesambte Hauß Plöen aus dem 2ten Articul
+                <lb />Altonaischen Tractats oder sonst auff berührtes guth Gottes Gabe haben möchten.
+                <lb />Nachdem auch ferner an seiten Ihro Königl[icher] M[ayestä]t aus den alten Erbtheilungen,
+                <lb />lehns-documenten und anderen fundamentis erwiesen worden, daß die gantze
+                <lb />
+                <pb facs="#FacsPnr2"/>Insul Arröe, einfolgig auch die darauff belegene Vier güther ein uhr altes Doma-
+                <lb />nial zum Hertzogthumb Schleßwig gehöriges Lehns-guth seÿ, und in den Erbtheilungen
+                <lb />der königl[ichen] portion zugeleget worden; So laßen es Ihro d[urc]hl[aucht] zu Schleßwig
+                <lb />Hollstein, Gottorff hiebeÿ bewenden, und wollen auff solche Insul für sich und dero
+                <lb />nachkom[m]en keinen fernern anspruch führen, ohne was die Succession betrifft.
+                <lb />
+                <lb />2.
+                <lb />Zweÿtens:Weiln in dem Traventhal[ischen] Tractat versehen, daß kein theil dem andern in
+                <lb />dem zugetheilten Landen, Ämbtern und Städten zu keiner zeit einige behinderung oder
+                <lb />Eintrag thun solle, So haben Ihro d[urc]hl[aucht] auch deshalben für sich und dero Successores
+                <lb />de præterito et in futurum sich allen anspruchs wegen des halbscheids der gemeinschafftl[ich]en
+                <lb />Contributionen, die in der Landes-matricul benandte Ämbter, Städte, und auff Arröe
+                <lb />befindliche vier güther betreffend, so den fürstl[ich] Sonderburgischen, Plönischen, Norburg[isch]en
+                <lb />und Glücksburgischen Haüsern zu gehörig, begeben, weiln solche aus dem königl[ich]en antheil
+                <lb />hergekom[m]en und abgegeben seÿn: Ihro d[urc]hl[aucht] behalten sich aber eventualiter den in
+                <lb />Gottes Händen stehenden auff diese Lande Ledigen anfall bevor, so weit sie als dan[n] dazu
+                <lb />berechtiget seÿn werden. Was aber alle übrige von denen Herren Hertzogen zu Son-
+                <lb />derburg, Norburg und Glücksburg, auch andern particulieren daselbst anitzo besitzende
+                <lb />und in der Landes-matricul sich befindende adeliche güther betrifft, So bleiben selbige
+                <lb />unter gemeinsahmer Jurisdiction und Collectation. Hingegen renunciiren Ihr[o] Königl[iche] M[ayestä]t
+                <lb />für sich und dero Successores in der regierung der prætension von 103. Pflügen aus dem
+                <lb />Peræquations-Recess de a[nn]o 1663. welche deroselben zu erhaltung einer durchgehenden
+                <lb />gleichheit in den Pflügen beÿgeleget, allso, daß jeder Herr die ihme darin zugelegte da-
+                <lb />mahls beseßene und angerechnete güther eintzig und allein, ohne des andern gegen-rede
+                <lb />collectire; Im gleichen renunciiren Ihro Königl[iche] M[ayestä]t allen prætensionen welche Sie ver-
+                <lb />möge des glückstädt[isch]en Recessus und sonst auff die vormahls durch waßerfluth überschwem-
+                <lb />mete, nachgehends aber von Jahren zu Jahren durch Legung neuer teiche wieder gewonnene
+                <lb />Ländereÿen des fürstl[ich] Gottorffischen antheils wegen, daß Sie ad Commune Catastrum
+                <lb />Provinciale hatten gebracht werden sollen, des halbscheids der Contribution machen können,
+                <lb />
+                <pb facs="#FacsPnr3"/>Gestallt dann von Ihro Königl[icher] M[ayestä]t und hochfürstl[icher] d[urc]hl[aucht] ferner beliebet, daß inhalts
+                <lb />Traventhal[isch]en Friedens nicht allein solche und andere bereits eingeteichte Ländereÿen, sondern
+                <lb />auch, welche noch eingeteichet werden können, es seÿ im Nordstrandt, Tunderischen, Eÿderstätti-
+                <lb />schen, breetstädtischen, dittmarschen oder sonsten, jedem herren allein und privative zu collecti-
+                <lb />ren zu stehen und verbleiben, ohne daß er gehalten, deswegen das geringste ad com[m]une Catastrum
+                <lb />zu bringen.
+                <lb />
+                <lb />3.
+                <lb />Alß auch Drittens in dem Traventhal[isch]en Tractat stipuliret, daß alles, was nach dem
+                <lb />14ten Augusti an Contributionen erhoben seÿn würde, bona fide restituiret werden solte,
+                <lb />So versprechen Ihro hochfürstl[iche] durchl[aucht] daß zugleich, und wann die auszahlung der
+                <lb />260.000 R[eichs]th[a]l[e]r beschiehet, auch die aus den graffschafften oldenburg und dellmenhorst durch
+                <lb />königl[ich] Schwedische Auxiliar-Troupen eingetriebene Contributions-gelder dero antheils
+                <lb />wieder gut gethan werden sollen.
+                <lb />
+                <lb />4.
+                <lb />Als auch vierdtens Ihro Königl[iche] M[ayestä]t verschiedene fürstl[ich] Gottorff[ische] Obligationes
+                <lb />ex causa onerosa in solutum et pro Satisfactione annehmen müßen, und deshalben vor-
+                <lb />hin verglichen gewesen, daß 60.000 R[eichs]th[a]l[e]r in deposito bleiben sollen; So wollen Ihro
+                <lb />Königl[iche] M[ayestä]t deshalben auch nachgeben, und die gantze Summa der 260.000 R[eichs]th[a]l[e]r so fort
+                <lb />nach Ratification gegenwertigen recesses auszahlen laßen: iedoch mit vorbehalt, daß
+                <lb />Sie wegen obgemel[te]r hochfürstl[iche]r obligationen Ihre jura salva et integra behalten, und
+                <lb />nicht gehalten seÿn wollen in zwischen und biß es wegen vorgedachter obligationen zur völli-
+                <lb />gen richtigkeit gesetzet, die an einige fürstl[ich]e Ministros und bediente vermöge des
+                <lb />Altona[isch]en vergleichs noch rückständige capitalien zu bezahlen.
+                <lb />
+                <lb />5.
+                <lb />Ob zwar auch im übrigen und fünftens Ihro königl[iche]r M[ayestä]t vermöge des glückstädtischen
+                <lb />a[nn]o 1667. auffgerichteten recessus die von den fürstl[ich]en unterthanen aus der Stadt und
+                <lb />Ambt Husum auch Eÿderstett restirende verzollung einer starcken anzahl viehes möchte er-
+                <lb />leget werden, und deshalben vor auszahlung der 260.000 R[eichs]th[a]l[e]r vergnügung geschehen, So ist
+                <lb />doch, zumahle annoch einige zeit erfordern würde, solche Sache zu völliger richtigkeit zu
+                <lb />
+                <pb facs="#FacsPnr4"/>setzen beÿderseits beliebet, daß sie ad gravamina verwiesen und daselbst inhalts vorbesagten Re-
+                <lb />cessus abgethan werde; damit aber iedoch diese und andere mehre, an beÿden theilen füh-
+                <lb />rende gravamina in keine weitere verzögerung gebracht, besondern zu ihrer völligen erledigung ehe-
+                <lb />stens gelangen mögen; Als ist königl[icher] und fürstl[iche]r seiten beliebet, sothane gesambte gra-
+                <lb />vamina und was dazu noch möchte gesetzet werden, so fort nach vollenzeihung dieses neben-ver-
+                <lb />gleichs ohne weitern auffschub durch beederseits hirzu Com[m]itirte gemächtigte Ministros und räthe
+                <lb />vornehmen, und innerhalb zweÿ Monathen à dato ratificationis gegenwärtigen Recessus völlig
+                <lb />erörtern und schließen zu laßen.
+                <lb />Zu wahrer Uhrkund deßen sind wegen dieses neben-vergleichs zweÿ gleich lautende Exem-
+                <lb />plaria, iedoch auff beederseits herren Principalen erfolgende ratification verfertiget, unter-
+                <lb />schrieben und besiegelt worden. So geschehen zu Hamburg den 12ten Julij 1701.
+                <lb />
+                <lb />Johann Hugo von Lente.&nbsp;&nbsp; &nbsp;Pincier von Königstein.&nbsp;&nbsp; &nbsp;JGBanier.
+                <lb />&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; L.S.&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; L.S.&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; L.S.
+                <lb />
+                <lb />Und wir dan denselben nach reiffer überlegung Unserer intention Conform befunden;
+                <lb />Als haben wir solchen neben-vergleich hirmit in der besten form rechtens in allen puncten
+                <lb />und Clausulen ratificiren wollen; vor Uns, Unsere Erben und nachkom[m]en an der regierung
+                <lb />Verprechend, daß darüber ieder zeit gehalten, und dem zu wieder niemahle, weder von Uns noch
+                <lb />denen Unsrigen etwas vorgenom[m]en oder prætendiret werden soll. Uhrkundlich Unsers fürstl[ichen]
+                <lb />Handzeichens und fürgedruckten Secrets. Geben in Unser Stadt Hamburg den 13ten Julij
+                <lb />1701.
+                <lb />
+                <lb />&nbsp;&nbsp; &nbsp;L.S.&nbsp;&nbsp; &nbsp;Friederich
+                <lb />
+                </p>
+            </div>
+        </body>
+    </text>
+</tei:TEI>

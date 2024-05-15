@@ -1,0 +1,1444 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE tei SYSTEM "../resources/FriVer_DTD.dtd">
+
+<?xml-model href="../resources/FriVer.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns="http://www.tei-c.org/ns/1.0" xml:id="pa000299-0254">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title level="s">European peace treaties of the pre-modern era in data / Europäische Friedensverträge der Vormoderne in Daten (FriVer+)</title>
+                <title when="1713-04-11" xml:id="t254" when-custom="1713 IV 11" level="a" ref="https://www.ieg-friedensvertraege.de/treaty/t-254-1-de.html">Friedensvertrag von Utrecht</title>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    Digital edition according to
+                    <ref target="http://www.tei-c.org/">TEI P5</ref>
+                </edition>
+                <funder>
+                    <ref target="https://www.text-plus.org/">TEXT+</ref>
+                </funder>
+                <editor role="http://id.loc.gov/vocabulary/relators/edt" ref="https://orcid.org/0000-0002-8741-5916">
+                    <persName>Jaap Geraerts</persName>
+                    <note>The transformation and enrichment of the data is done by Jaap Geraerts (IEG Mainz). The other members of the FriVer+ team are Fabian Cremer, Ines Grund, and Thorsten Wübbena (all IEG Mainz).</note>
+                    <note>
+                        The original data has been created by the
+                        <ref target="https://www.ieg-friedensvertraege.de">team of scholars</ref>
+                        who were part of the Europäische Friedensverträge der Vormoderne project. This project was lead by Prof. Dr. Heinz Duchhardt and was based at the Leibniz Institute of European History in Mainz.
+                    </note>
+                </editor>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>
+                    <orgName ref="http://www.isni.org/0000000119314040">Leibniz-Institut für Europäische Geschichte Mainz</orgName>
+                </publisher>
+                <distributor>
+                    <orgName ref="http://www.isni.org/0000000110101946">Universitäts- und Landesbibliothek Darmstadt</orgName>
+                </distributor>
+                <idno type="ISIL">http://lobid.org/organisation/DE-17</idno>
+                <date type="issued" when="2023-12-23"/>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">
+                        <p xml:lang="en">This file is licensed under the terms of the Creative Commons License CC-BY 4.0 (Attribution 4.0 International)</p>
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <repository xml:id="r22">Paris AAE
+                    <note>Den Haag NA, Findbuch:<lb />
+                        <ref target="http://www.gahetna.nl/collectie/archief/inventaris/index/eadid/1.01.02/inventarisnr/12597.107" >eadid/1.01.02/inventarisnr/12597.107</ref></note>
+                </repository>
+                <msDesc><p>NADH, archief van de Staten-Generaal, inv. nr. 12597.107. 
+                    <lb /> 
+                </p> 
+                    <p>AAE Paris: M.A.E. Traités Multilateraux 17130007. Traité de paix.-Utrecht. 
+                        <lb />
+                        <ref target="http://www.doc.diplomatie.gouv.fr/BASIS/choiseul/desktop/choiseul/DDW?M=78&amp;K=17130007&amp;W=PAYS+%3D+%27Multilat%E9raux%27+ORDER+BY+SOUSSERIE/Ascend" > </ref>
+                    </p> 
+                    <p><ref target="http://www.doc.diplomatie.gouv.fr/BASIS/choiseul/desktop/choiseul/DDW?M=78&amp;K=17130007&amp;W=PAYS+%3D+%27Multilat%E9raux%27+ORDER+BY+SOUSSERIE/Ascend" > 
+                        <lb /> </ref> 
+                    </p></msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>
+                    The data in this XML file, originally created by the project
+                    <ref target="https://www.ieg-friedensvertraege.de/vertraege">Europäische Friedensverträge der Vormoderne online</ref>
+                    has been transformed in accordance with
+                    <ref target="http://www.tei-c.org/">TEI P5</ref>
+                    as part of the project
+                    <ref target="https://www.ieg-mainz.de/en/research/research-projects/european-peace-treaties-of-the-pre-modern-era-in-data">Europäische Friedensverträge der Vormoderne in Daten (FriVer+)</ref>
+                </p>
+            </projectDesc>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="fr" xml:id="lan4">französisch</language>
+            </langUsage>
+        </profileDesc>
+    </teiHeader>
+    <standOff>
+        <listPerson>
+            <person role="signatory" xml:id="p37">
+                <persName ref="https://explore.gnd.network/gnd/4018145-5">
+                    <name>Frankreich</name>
+                </persName>
+            </person>
+            <person role="signatory" xml:id="p49">
+                <persName ref="https://explore.gnd.network/gnd/4101204-5">
+                    <name>Generalstaaten</name>
+                </persName>
+            </person>
+        </listPerson>
+        <listPlace>
+            <place xml:id="loc53">
+                <placeName ref="https://explore.gnd.network/gnd/4062222-8">Utrecht</placeName>
+            </place>
+        </listPlace>
+        <facsimile>
+            <surface xml:id="FacsPnr1">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_45deaf75666b7"/>
+            </surface>
+            <surface xml:id="FacsPnr2">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_45deaf8cd99b2"/>
+            </surface>
+            <surface xml:id="FacsPnr3">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_45deafad33861"/>
+            </surface>
+            <surface xml:id="FacsPnr4">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_45deafe4e042f"/>
+            </surface>
+            <surface xml:id="FacsPnr5">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_45deb0003e18a"/>
+            </surface>
+            <surface xml:id="FacsPnr6">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_45deb0358f0ad"/>
+            </surface>
+            <surface xml:id="FacsPnr7">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_45deb0ff45646"/>
+            </surface>
+            <surface xml:id="FacsPnr8">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_45deb11c4c2b6"/>
+            </surface>
+            <surface xml:id="FacsPnr9">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_45deb13994606"/>
+            </surface>
+            <surface xml:id="FacsPnr10">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_45deb1563885e"/>
+            </surface>
+            <surface xml:id="FacsPnr11">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_45deb1757cd26"/>
+            </surface>
+            <surface xml:id="FacsPnr12">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_45deb196ee09c"/>
+            </surface>
+            <surface xml:id="FacsPnr13">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_45deb1b36e0de"/>
+            </surface>
+            <surface xml:id="FacsPnr14">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_45deb1cf1909f"/>
+            </surface>
+            <surface xml:id="FacsPnr15">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_45deb1e937430"/>
+            </surface>
+            <surface xml:id="FacsPnr16">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_45deb20447cfb"/>
+            </surface>
+            <surface xml:id="FacsPnr17">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_45deb22214f8d"/>
+            </surface>
+            <surface xml:id="FacsPnr18">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_45deb23deac90"/>
+            </surface>
+            <surface xml:id="FacsPnr19">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_45deb56102bc3"/>
+            </surface>
+            <surface xml:id="FacsPnr20">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_45deb585e345b"/>
+            </surface>
+            <surface xml:id="FacsPnr21">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_45deb5d817fc6"/>
+            </surface>
+            <surface xml:id="FacsPnr22">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_45deb5f6c9a8f"/>
+            </surface>
+            <surface xml:id="FacsPnr23">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_45deb62444c23"/>
+            </surface>
+            <surface xml:id="FacsPnr24">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_4628d8337f201"/>
+            </surface>
+            <surface xml:id="FacsPnr25">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_45deb70184c58"/>
+            </surface>
+            <surface xml:id="FacsPnr26">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_45deb71e57cad"/>
+            </surface>
+            <surface xml:id="FacsPnr27">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_45deb73c57bba"/>
+            </surface>
+            <surface xml:id="FacsPnr28">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_45deb79008773"/>
+            </surface>
+            <surface xml:id="FacsPnr29">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_45deb7ae151a1"/>
+            </surface>
+            <surface xml:id="FacsPnr30">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_45deb7c995f40"/>
+            </surface>
+            <surface xml:id="FacsPnr31">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_45deb7e2806b6"/>
+            </surface>
+            <surface xml:id="FacsPnr32">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_45deb7ffa960a"/>
+            </surface>
+            <surface xml:id="FacsPnr33">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_45deb81d5d25a"/>
+            </surface>
+            <surface xml:id="FacsPnr34">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_45deb83f256a9"/>
+            </surface>
+            <surface xml:id="FacsPnr35">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_45deb85f7e384"/>
+            </surface>
+            <surface xml:id="FacsPnr36">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_45deb87faff60"/>
+            </surface>
+            <surface xml:id="FacsPnr37">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_45deb8aa65a87"/>
+            </surface>
+            <surface xml:id="FacsPnr38">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_45deb8cde67eb"/>
+            </surface>
+            <surface xml:id="FacsPnr39">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_45deb8ede8628"/>
+            </surface>
+            <surface xml:id="FacsPnr40">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_45deb90d4636b"/>
+            </surface>
+            <surface xml:id="FacsPnr41">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_45deb92ea3e61"/>
+            </surface>
+            <surface xml:id="FacsPnr42">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_45deb94e78de2"/>
+            </surface>
+            <surface xml:id="FacsPnr43">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_45deb97581955"/>
+            </surface>
+        </facsimile>
+    </standOff>
+    <text>
+        <front>
+            <div type="Inhalt"><p>
+                1.&nbsp;&nbsp; &nbsp;Friede, Einstellung aller Feindseligkeiten.
+                <lb />2.&nbsp;&nbsp; &nbsp;Generalamnestie für Kriegstaten.
+                <lb />3.&nbsp;&nbsp; &nbsp;Rückgabe der nach dem Friedensschluss genommenen Prisen; Fristenregelungen.
+                <lb />4.&nbsp;&nbsp; &nbsp;Freundschaft ohne Vergeltung der während des Krieges begangenen Taten.
+                <lb />5.&nbsp;&nbsp; &nbsp;Gegenseitige Hilfe; kein Vertragsabschluss mit Dritten zu Lasten des anderen.
+                <lb />6.&nbsp;&nbsp; &nbsp;Rückgabe der den Untertanen der Gegenseite geraubten Güter.
+                <lb />7.&nbsp;&nbsp; &nbsp;Übergabe der Spanischen Niederlande in den Grenze des Vertrags von Rijswijk an das Haus Habsburg, mit Ausname der Gebiete des Königs von Preußen; Demobilisierung der dortigen niederländischen Truppen; in Luxemburg oder Limburg wird ein Gebiet mit jährlichen Einnahmen von 30.000 Ecus zugunsten der Prinzessin Ursins reserviert.
+                <lb />8.&nbsp;&nbsp; &nbsp;An die Generalstaaten wird Stadt und Festung Luxemburg mit der Grafschaft Chiny, Grafschaft, Stadt und Schloss Namur, Charleroy und Nieuport zurückgegeben.
+                <lb />9.&nbsp;&nbsp; &nbsp;Der König von Frankreich sorgt für die Übertragung und Anerkennung aller Rechte des Kurfürsten von Bayern über die Spanischen Niederlande an die Habsburger; der Kurfürst behält Souveränität und Einnahmen über Fürstentum und Stadt Luxemburg, Stadt und Grafschaft Namur, Stadt Charleroy bis er wieder in seine alten Rechte im Reich mit Ausnahme der Oberpfalz eingesetzt ist, in den Rang eines Kurfürsten und in Besitz des Königreichs Sardinien; während dieser Zeit kann er in Luxemburg seine Truppen behalten; Festlegung der Truppenstärke. &nbsp;
+                <lb />10.&nbsp;&nbsp; &nbsp;Der König von Frankreich zieht seine Truppen aus Luxemburg, Namur und Charleroy zurück ebenso der Kurfürst von Bayern (mit Ausnahme derer im Fürstentum Luxemburg) und der Kurfürst von Köln, sein Bruder; die Gebiete werden von Truppen der Generalstaaten geschützt; Regelung des Truppenunterhalts.
+                <lb />11.&nbsp;&nbsp; &nbsp;Der König von Frankreich tritt seine Rechte an Menin mit Tournay außer St. Amant mit abhängigen Gebieten und Mortagne ohne abhängige Gebiete an die Generalstaaten ab; Mortagne darf nicht befestigt werden ; die Generalstaaten versprechen, diese Gebiete an das Haus Habsburg abzutreten.
+                <lb />12.&nbsp;&nbsp; &nbsp;Der König von Frankreich übergibt außerdem alle Rechte über Veurne, Veurne-Ambagt, Knokke, Loos, Diksmuide, Ypern mit abhängigen Gebieten an die Generalstaaten, die diese dem Haus Habsburg übergeben.
+                <lb />13.&nbsp;&nbsp; &nbsp;Freie Schifffahrt auf der Lis nach der Deule-Mündung, ohne Zoll- noch Steuererhebung.
+                <lb />14.&nbsp;&nbsp; &nbsp;Kein Gebiet der Spanischen Niederlanden bzw. der von Frankreich abgetretenen Gebiete darf jemals an Frankreich zurückgegeben werden.
+                <lb />15.&nbsp;&nbsp; &nbsp;Die Generalstaaten geben Lille, Orchies, Laleu, Bourg de la Gourgue, Aire, Bethune und St. Venant an Frankreich zurück; Modalitäten; der Prinz von Epinoy gelangt wieder in den Besitz der Ländereien von Cisoing und Roubaix und andere im Gebiet von Lille liegenden Gütern.
+                <lb />16.&nbsp;&nbsp; &nbsp;Rückgabe der Waffen und Befestigungsanlagen.
+                <lb />17.&nbsp;&nbsp; &nbsp;Truppenabzug.
+                <lb />18.&nbsp;&nbsp; &nbsp;Weiterzahlung von Hilfsleistungen und Subsidien bis zur Ratifikation des Vertrages.
+                <lb />19.&nbsp;&nbsp; &nbsp;Amnestie für Untertanen der Spanischen Niederlande und der einzutauschenden Gebiete für Kriegshandlungen.
+                <lb />20.&nbsp;&nbsp; &nbsp;Freie Handels- und Geschäftstätigkeit sowie Wohnsitzwahl für Untertanen der Spanischen Niederlande und zurückgegebenen Gebiete.
+                <lb />21.&nbsp;&nbsp; &nbsp;Wiedereinsetzung der Untertanen in ihre vor dem Krieg ausgeübten Rechte; Rückkehrrecht.
+                <lb />22.&nbsp;&nbsp; &nbsp;In den gemeinsam besessenen Provinzen der Niederlande wird die Rentenzahlung aufgeteilt; die Aufteilung legen zu bestimmende Kommisare fest.
+                <lb />23.&nbsp;&nbsp; &nbsp;Katholische Pründe bleiben erhalten.
+                <lb />24.&nbsp;&nbsp;&nbsp; Die Ausübung der protestantischen Religion wird analog zu den Vereinbarungen mit dem bayrischen Kurfürsten, Gouverneur der Spanischen Niederlande zu Zeiten Karls II. geregelt.
+                <lb />25.&nbsp;&nbsp; &nbsp;Alle Einwohner und Körperschaften der übergebenen Gebiete behalten ihre Privilegien.
+                <lb />26.&nbsp;&nbsp; &nbsp;Die Garnisonen in Huy und Liège bleiben dort auf Kosten der Generalstaaten; der König von Frankreich sorgt für die Zustimmung des Kölner Kurfürsten auch dazu, dass die Befestigungen in Bonn nach der Wiedereinsetzung des Kurfürsten geschliffen werden.
+                <lb />27.&nbsp;&nbsp; &nbsp;Freilassung der Kriegsgefangenen.
+                <lb />28.&nbsp;&nbsp; &nbsp;Abgabenerhebungen werden bis zum Austausch der Ratifikationen beibehalten, Schulden bis drei Monate danach bezahlt.
+                <lb />29.&nbsp;&nbsp; &nbsp;Verzichtserklärung auf in der Vergangenheit erhobene Ansprüche.
+                <lb />30.&nbsp;&nbsp; &nbsp;Der Rechtsweg steht allen offen.
+                <lb />31.&nbsp;&nbsp; &nbsp;Keine Vereinigung der französischen und spanischen Krone, wofür beide Vertragspartner sorgen.
+                <lb />32.&nbsp;&nbsp; &nbsp;Der französische König nimmt für seine Untertanen keinen anderen Handelsvorteile in Spanien oder Spanisch-Amerika in Anspruch als die, welche er zu Zeiten Karls II. besessen hat und die auch anderen Nationen gewährt werden; die Vertragspartner versprechen sich gegenseitig, dass ihre Untertanen den Reglemens dieser Zeit unterworfen bleiben.
+                <lb />33.&nbsp;&nbsp; &nbsp;Bezüglich der Religion wird der König von Frankreich mit dem Reich nichts anderes vereinbaren als in Westfalen vereinbart worden ist.
+                <lb />34.&nbsp;&nbsp; &nbsp;Rheinfels und St. Goar verbleiben beim Landgraf von Hessen-Kassel.
+                <lb />35.&nbsp;&nbsp; &nbsp;Vertragsverletzungen haben keinen Bruch zur Folge, sondern die Zuwiderhandlung wird ausgeglichen.
+                <lb />36.&nbsp;&nbsp; &nbsp;Bei Bruch Neunmonatsfrist für die Untertanen der Gegenseite ihre Effekten aus dem Lande des Vertragspartners abuziehen.
+                <lb />37.&nbsp;&nbsp; &nbsp;Miteinbeziehung Dritter in den Vertrag.
+                <lb />38.&nbsp;&nbsp; &nbsp;Publikation und Register.
+                <lb />39.&nbsp;&nbsp; &nbsp;Ratifikation.
+                <lb />
+                <lb />Separatartikel
+                <lb />
+                <lb />Die Bedingungen gelten nach der Übergabe auch für die Spanischen Niederlande und die abgetretenen Gebiete.
+                <lb />
+                <lb />Separatartikel
+                <lb />
+                <lb />Der König von Frankreich verwendet sich für einen Friedensschluss auch zwischen Spanien und den Generalstaaten.
+                <lb /></p></div>
+            <div type="Kommentar"><p>Bereits seit Amtsantritt des gesundheitlich und geistig schwächlichen Karls II. in Spanien erwartete man in Europa dessen Tod ohne Erben. Schon 1668 vereinbarte Frankreich mit Österreich in einem geheimen Vertrag die Aufteilung des spanischen Erbes. Allerdings bemühten sich die Seemächte aus Angst vor einer Gefährdung des europäischen Gleichgewichts, die Bildung einer Weltmacht durch den Fall des spanischen Reichs an Frankreich oder Österreich zu verhindern. Im ersten öffentlichen Teilungsvertrag von 1698 wurde deshalb das spanische Erbe zwischen Philipp von Anjou, Joseph Ferdinand von Bayern und Erzherzog Karl von Österreich geteilt. Als Joseph Ferdinand 1699 starb wurde in einem zweiten Vertrag das spanische Reich erneut aufgeteilt.
+                <lb />Allerdings setzte Karl II. in der Hoffnung, die Einheit des spanischen Reiches erhalten zu können, kurz vor seinem Tod Philipp von Anjou als Alleinerben ein. Die Proklamation des Dauphin als spanischen König durch Ludwig XIV. führte zunächst zwischen Österreich und Frankreich zum Krieg um das spanische Erbe. In der Folge ließ die französische Politik allerdings die Seemächte um politischen und wirtschaftlichen Einfluss fürchten, so dass sich eine Große Allianz zwischen den Seemächten, Österreich und den wichtigsten deutschen Fürsten bildete, die gegen ein Bündnis zwischen Frankreich, Spanien und dem Haus Wittelsbach (Portugal wechselte 1702 die Seiten) kämpfte.
+                <lb />Der Konflikt konnte erst beigelegt werden, als ein Machtwechsel in Großbritannien die Stimme der Friedensbefürworter stärkte, der Tod Kaiser Josephs von Österreich die Gefahr einer neuen habsburgischen Weltmacht unter dessen Nachfolger Karl VI. heraufbeschwor und Großbritannien sich über den Asiento de Negros Handelsvorteile in Spanisch-Amerika sicherte. In mehreren separaten Verträgen wurde am Friedenskongress zu Utrecht 1713/14 der Frieden wiederhergestellt und die europäischen Besitzungen Spaniens zwischen den österreichischen Habsburgern und den Bourbonen aufgeteilt.
+                <lb /></p></div>
+            <div type="Kontext"><p>1665
+                <lb />Thronbesteigung Karls II. von Spanien
+                <lb />19.1.1668
+                <lb />Geheimer Teilungsvertrag des spanischen Erbes zwischen Frankreich und Österreich
+                <lb />1693
+                <lb />Karl II. setzt Joseph Ferdinand von Bayern zu seinem Erben ein
+                <lb />11.10.1698
+                <lb />Erster Teilungsvertrag über das spanische Erbe zwischen Frankreich, Großbritannien und den Generalstaaten
+                <lb />Feb. 1699 &nbsp;
+                <lb />Joseph Ferdinand von Bayern stirbt
+                <lb />13./25.3.1700
+                <lb />Zweiter Teilungsvertrag
+                <lb />2.10.1700
+                <lb />Karl II. setzt Philipp von Anjou als Alleinerben ein
+                <lb />1.11.1700
+                <lb />Karl II. stirbt kinderlos
+                <lb />Ludwig XIV. proklamiert seinen Enkel Philipp von Anjou zum König von Spanien
+                <lb />Feb. 1701
+                <lb />Philipp von Anjou zieht in Madrid ein und wird von Großbritannien, den Vereinigten Provinzen, Savoyen, Portugal und den wichtigsten deutschen Fürsten anerkannt
+                <lb />Ludwig XIV. ersetzt die Garnisonen in den Niederlanden durch französische Truppen
+                <lb />April 1701
+                <lb />Kriegserklärung Österreichs an Frankreich &nbsp;
+                <lb />18.6.1701
+                <lb />Allianz zwischen Frankreich, Portugal und Spanien; Übergabe des Asiento de Negros an Frankreich
+                <lb />6.9.1701
+                <lb />Der entthronte englische König Jakob II. stirbt; Ludwig XIV. erkennt dessen Sohn als Jakob III. von England an.
+                <lb />7.9.1701
+                <lb />Bildung der Großen Allianz
+                <lb />1702
+                <lb />Kriegserklärung der Großen Allianz an Frankreich
+                <lb />März 1702
+                <lb />Tod Wilhelms von Oranien, Königin Anne besteigt den englischen Thron
+                <lb />Mai 1702
+                <lb />Eintritt Portugals in die Große Allianz
+                <lb />1703
+                <lb />die Große Allianz setzt Erzherzog Karl III. von Österreich als spanischen König ein
+                <lb />1713
+                <lb />Abschluss eines Asiento de Negros mit Großbritannien
+                <lb />1713/1714
+                <lb />Friedensverträge von Utrecht
+                <lb /></p></div>
+        </front>
+        <body>
+            <div type="Transliteration">
+                <pb facs="#FacsPnr1"/>
+                <pb facs="#FacsPnr2"/><p>Tractaet van Vreede tusschen Sijne 
+                    <lb />Majesteit van Vranckrijck, en haer 
+                    <lb />Ho:e Mo: met twee Separate Articulen 
+                    <lb />het eene raeckende de Vreede met Spagne 
+                    <lb />te sluijten, en het andere, rakende het 
+                    <lb />praesteren van de Conditien die de 
+                    <lb />Spaensche Nederlanden raecken, door 
+                    <lb />het Huys van Oostenrijck. en nogh een 
+                    <lb />Declaratoir dat de Spaensche Nederlan[-] 
+                    <lb />den niet sullen werden overgegeven voor 
+                    <lb />dat Sardaigne aen Beijeren sal komen 
+                    <lb />gesloten en geteerkent te Uytrecht 
+                    <lb />den 11 avril 
+                    <lb /> 
+                    <lb />1713 
+                    <lb /> 
+                </p>
+                <pb facs="#FacsPnr3"/><p>Exhibitum &lt;…&gt; 13 April 1713
+                <lb />
+                <lb />
+                <lb />Au nom de la tres Sainte
+                <lb />Trinité
+                <lb />A tous presens et à venir, soit notoire que
+                <lb />pendant le cours de la plus sanglante guerre dont
+                <lb />l’Europe ait esté affligée depuis longtems il a plus à
+                <lb />la Divine providence de preparer à la Chrestienté la fin
+                <lb />de ses maux en conservant un ardent desir de la paix
+                <lb />dans le cœur de tres aut, tres Excellent, et tres Puissant
+                <lb />Prince Louis XIV. par la grace de Dieu Roy tres Chrétien
+                <lb />de France et de Navarre, Sa Majesté tres Chrestienne
+                <lb />n’ayant d’ailleurs en vue que de la rendre solide et
+                <lb />perpetuelle par l’equité de ses conditions, et les Seigneurs
+                <lb />Estats Generaux des Provinces Unies des payes bas souhaitant
+                <lb />de concourir de bonne foy, et autant qu’il est en eux au
+                <lb />retablissement de la tranquillité publique et de rentrer
+                <lb />dans l’ancienne amitié et affection de Sa Majesté
+                <lb />tres Chrestienne ont consenti que la ville d’Utrecht fut
+                <lb />choisie pour y traiter de paix, et que pour y parvenir
+                <lb />Sa Majesté tres Chrestienne auroit nommé pour ses
+                <lb />Ambassadeurs Extraordinaires et Plenipotentiaires
+                <lb />le Sieur Nicolas Marquis d’Huxelles, Marechal de
+                <lb />France, Chevalier de ses ordres, et son Lieutnant General
+                <lb />
+                <pb facs="#FacsPnr4"/>au Gouvernement de Bourgogne, Et le Sieur Nicolas
+                <lb />Mesnager Chevalier de l’ordre de St. Michel; Et
+                <lb />Les Sieurs Etats Generaux les Sieurs Jacques de
+                <lb />Randwych Seigneur de Rossem &amp;c. Burggrave de
+                <lb />l’Empire et juge de la ville de Nimegue; Guillaume
+                <lb />Buys Conseiller pensionnaire de la ville d’Amsterdam;
+                <lb />Bruno Van der Dussen, ancien Bourguemaitre Senateur
+                <lb />et Conseiller pensionnaire de la ville de Gouda, assesseur
+                <lb />au Conseil des Heemrades de Schieland, Dychgraaf du
+                <lb />Crimpenerwaard; Corneille van Gheel, Seigneur de
+                <lb />Spanbrouch &amp;c. Bulhestein, Grand Baillif du Franc et
+                <lb />de la Ville de l’Ecluse, Sur intendant des fiefs relevans
+                <lb />du Bourg de Bruges du ressort de l’Estat; Fredric
+                <lb />Adrien Baron de Rheede Seigneur de Renswoude,
+                <lb />d’Einminkhuisen et Mourkerken, President de la Noblesse
+                <lb />de 1a province d’Utrecht; Sicco de Goslinga Grietman
+                <lb />de Franequeradeel, Curateur de l’Université de Franiquer
+                <lb />et Charles Ferdinand Comte de Inhuysen et de Kniphuisen
+                <lb />Seigneur de Wreedewold etc. Députez dans leur assemblée
+                <lb />de la part des Etats de Gueldre, de Hollande et Westfrise,
+                <lb />de Zelande, d’Utrecht, de Frise, de Groningue et Omelanden
+                <lb />lesquels après le cours d’une longue negociation dans laquelle
+                <lb />les Ambassadeurs Extraordinaires et Plenipotentiaires de la tres
+                <lb />haute, tres puissante et tres Excellente Princess La Reyne de
+                <lb />la Grande Bretagne n’ont point cessé d’employer leurs
+                <lb />
+                <pb facs="#FacsPnr5"/>Soins infatigables pour l’amener au point d’une
+                <lb />conclusion de la paix generale suivant le desir que
+                <lb />cette Princesse a toujours eu de procurer le retablissement
+                <lb />de la tranquillité de l’Europe, sont enfin parvenus a
+                <lb />convenir des conditions dont la teneur s’ensuit, Ce qu’ils
+                <lb />ont fait apres avoir imploré l’assistance Divine et
+                <lb />s’estre communique respectivement leurs pleinpouvoirs
+                <lb />dont les copies seront inserées de mot à mot à la
+                <lb />fin du present traité, et en avoir duement fait l’echange.
+                <lb />
+                <lb />1
+                <lb />Il y aura à l’avenir entre Sa Majesté tres Chretienne
+                <lb />et ses Successeurs Roys de France et de Navarre et ses
+                <lb />Royaumes, d’une part, et les Seigneurs Etats Generaux
+                <lb />des Provinces Unies des pays bas d’autre, une paix
+                <lb />bonne ferme, fidele et inviolable et cesseront ensuite
+                <lb />et seront delaissez tous actes d’hostilité de quelque
+                <lb />façon qu’ils soient entre led[it] Seigneur Roy et lesd[its]
+                <lb />Seigneurs Etats Generaux, tant par mer et autres eaux,
+                <lb />que par terre, en tous leurs Royaumes, pays, terres,
+                <lb />Provinces et Seigneuries, et pour tous leurs Sujets et
+                <lb />habitans de quelque qualité ou condition qu’ils soient
+                <lb />sans exception des lieux ou des personnes.
+                <lb />
+                <lb />2,,
+                <lb />Il y aura un oubly et une amnistie generale de
+                <lb />
+                <pb facs="#FacsPnr6"/>tout ce qui a esté commis de part et d’autre à l’occasion
+                <lb />de la derniere guerre, soit par ceux qui etant nez sujets
+                <lb />de la France, et engagez au service du Roy tres Chretien
+                <lb />par les Employs et biens qu’ils possedoient dans
+                <lb />l’entendue de la France sont entrés et demeurés au service
+                <lb />des Seigneurs Etats Generaux des provinces Unies, ou par
+                <lb />ceux qui etant nez Sujets desd[its] Seigneurs Etats Generaux
+                <lb />ou engagez a leur service par les employs et biens
+                <lb />qu’ils possedoient dans l’entendue des Provinces Unies
+                <lb />sont entrez ou demeurez au service de Sa Majesté tres
+                <lb />Chrestienne, et les susd[its] personnes de quelque qualité
+                <lb />et condition qu’elles soient, Sans nul excepter, pourront
+                <lb />rentrer, rentreront et seront effectivement laissez
+                <lb />et retablis en la possession et jouissance paisible de
+                <lb />tous leurs biens, honneurs, dignitez, privileges, franchises,
+                <lb />droits, excemptions, constitutions et libertez. Sans pouvoir
+                <lb />estre recherchez, troublez ni inquietez en general, ni en
+                <lb />particulier pour quelque cause ou pretexte que ce soit
+                <lb />pour raison de ce qui S’est passé depuis la naissance
+                <lb />de lad[ite] guerre et en consequence du present traité et
+                <lb />apres qu’il aura esté ratifié tant par Sa Majesté tres
+                <lb />Chretienne, que par les Seigneurs Etats Generaux leur
+                <lb />sera permis à tous et à chacun en particulier sans
+                <lb />avoir besoin de letters d’abolition et de pardon de
+                <lb />
+                </p>
+                <pb facs="#FacsPnr7"/><p>retourner en personne dans leurs maisons et dans 
+                    <lb />la joussance de leurs terres et de tous leurs autres biens 
+                    <lb />ou d’en disposer d’une telle maniere que bon leur semblera. 
+                </p>
+                <p>
+                    <lb />3,,
+                    <lb />Et si quelques prises se font de part et d’autre dans 
+                    <lb />la mer Ba1tique, ou celle du Nord, depuis Terneuse jusqu’
+                    <lb />au bout de la Manche dans l’espace de quatre semaines 
+                    <lb />ou du bout de lad[ite] Manche, jusqu’au Cap S[ain]t Vincent,
+                    <lb />dans l’espace de six semaines, et de la dans la Mer Medi-
+                    <lb />terranée et jusqu’a la ligne dans l’espace de dix semaines, 
+                    <lb />et audela de la Ligne et en tous les autres endroits du 
+                    <lb />monde dans l’espace de huit mois à compter du jour que 
+                    <lb />se fera la publication de la paix à Paris et à la Haye, 
+                    <lb />lesd[ites] prises et les domages qui se feront de part et d’autre 
+                    <lb />après le terme prefix seront portez en compte et tout 
+                    <lb />ce qui aura esté pris sera rendu avec compensation de 
+                    <lb />tous les dommages qui en seront provenus. 
+                    <lb />
+                    <lb />4,,
+                    <lb />Il y aura deplus entre led[it] Seigneur Roy, et lesd[its] 
+                    <lb />Seigneurs Etats Generaux, leurs sujets et habitants 
+                    <lb />reciproquement une sincere, ferme et perpetuelle 
+                    <lb />amitié et bonne correspondance tant par mer que par 
+                    <lb />terre en tout et par tout, tant dedans, que dehors de 
+                    <lb />l’Europe, sans se ressentir des offenses ou dommages 
+                    <lb />
+                    <lb /> 
+                </p>
+                <pb facs="#FacsPnr8"/><p>qu’ils ont receus tant par le passé que par l’occasion
+                <lb />desd[ites] guerres.
+                <lb />
+                <lb />5,,
+                <lb />Et en vertu de cette amitié et correspondance tant Sa
+                <lb />Majesté que les Seigneurs Etats Generaux procureront
+                <lb />et avanceront fidelement le bien et la prosperité l’un
+                <lb />de l’autre par tout support, aide, conseil, et assistances
+                <lb />reelles en toutes occasions et en tout tems, et ne consen-
+                <lb />tiront à l’avenir à aucuns traitez ou negociations qui
+                <lb />pourroient apporter du dommage à l’un ou à l’autre
+                <lb />mais les rompront et en donneront avis reciproquement
+                <lb />avec soin et sincerité aussytost qu’ils en auront connois-
+                <lb />sance.
+                <lb />
+                <lb />6,,
+                <lb />Ceux sur lequels quelques biens ont esté saisis et
+                <lb />confisquez à l’occasion de lad[ite] guerre leurs heritiers
+                <lb />ou ayant cause, de quelque condition ou Religion qu’ils
+                <lb />puissent estre, jouiront d’iceux biens, et en prendront
+                <lb />possession de leur autorité privée et en vertu du
+                <lb />present traité sans qu’il leur soit besoin d’avoir recours
+                <lb />à la Justice, nonobstant toutes incorporations au fisc,
+                <lb />engagemens dons en faits, sentences preparatoires ou
+                <lb />definitives données par defaut et contumace en l’absence
+                <lb />des parties et icelles non ouyes, traitez, accords et
+                <lb />
+                <pb facs="#FacsPnr9"/>transactions, quelques renonciations qui ayent esté mises
+                <lb />esd[ites] transactions pour excluir de partie desd[its] biens ceux
+                <lb />à qui ils doivent appartenir, et tous et chacuns biens et
+                <lb />droits qui conformement au present traité seront restituez
+                <lb />ou doivent estre restituer reciproquement au premier
+                <lb />proprietaire, leurs hoirs, ou ayant cause, pourront estre
+                <lb />vendus par lesd[its] proprietaires sans qu’il soit besoin
+                <lb />d’impetrer pour ce consentement particulier et ensuite
+                <lb />les proprietaires des rentes, qui de la part des fiscs seroient
+                <lb />constituez en lieu des biens vendus comme aussi des
+                <lb />rentes et actions etant à la charge des fiscs respecti-
+                <lb />vement, pourront disposer de la proprieté d’icelles par
+                <lb />vente ou autrement comme de leurs autres propres biens.
+                <lb />
+                <lb />7
+                <lb />En contemplation de cette paix Sa Majesté tres
+                <lb />Chretienne remettra et fera remettre aux Seigneurs
+                <lb />Etats Generaux en faveur de la Maison d’Autriche tout
+                <lb />ce que Sa Majesté tres Chretienne ou le Prince, ou les
+                <lb />Princes ses Alliez possedent encore des pays-bas commu-
+                <lb />nement appellez Espagnols, tels que feu le Roy
+                <lb />Catholique Charles 2.d les a possedez, ou du posseder
+                <lb />conformement au traité de Ryswick sans que Sa
+                <lb />Majesté tres Chrestienne, ni le Prince, ou les Princes
+                <lb />ses Alliez, s’en reservent aucuns droits, ou prétentions
+                <lb />
+                </p>
+                <pb facs="#FacsPnr10"/><p>directement ni indirectement, mais que la Maison 
+                    <lb />d’Autriche entrera en la possession desd[its] Pays-bas Espagnols 
+                    <lb />pour en jouir desormais et à toujours pleinement et 
+                    <lb />paisiblement selon l’ordre de Succession de lad[ite] Maison 
+                    <lb />aussy-tost que les Seigneurs Etats en seront convenus 
+                    <lb />avec Elle, de la maniere dont lesd[its] Paysbas Espagnols leur 
+                    <lb />serviront de barriere et de Seureté.
+                    <lb />Bien entendu que du haut quartier de Gueldre le Seigne[ur]<note n="1" type="crit_app">Nicht sichtbar.</note> &nbsp;
+                    <lb />Roy de Prusse retiendra tout ce qu’il y possede et occupe 
+                    <lb />actuellement, scavoir la ville de Gueldre avec tout ce qui 
+                    <lb />appartient et en depend, comme aussy spécialement les 
+                    <lb />villes, Bailliages et Seigneuries de<note n="2" type="crit_app">Nachträglich eingefügt.</note> Strahlen Wachtendock, 
+                    <lb />Middelaer, Walbeck, Aertsen, Afferden et de Weel, 
+                    <lb />de mesme que Racy et Kleinkevelaer avec toutes leurs 
+                    <lb />appartenances et dépendances. De plus il sera remis 
+                    <lb />à Sa Majesté le Roy de Prusse, l’ammanie de 
+                    <lb />Krieckenbeck avec tout ce qui y appartient et en depend 
+                    <lb />et le pays de Kessel. Pareillement avec toutes ses 
+                    <lb />appartenances et dependances et generalement tout ce 
+                    <lb />que contient lad[ite] ammanie et led[it] distric sans en rien 
+                    <lb />excepter, Si ce n’est Erklens avec ses appartenances et 
+                    <lb />dependances pour le tout appartenir à Sa Majesté 
+                    <lb />Prussiene, et aux Princes, ou Princesses ses heritiers ou 
+                    <lb />Successeurs avec tous les droits, prerogatives, revenus et
+                    <lb />
+                    <lb /> 
+                </p>
+                <pb facs="#FacsPnr11"/><p>avantages de quelque nom qu’ils puissent estre 
+                    <lb />appellez en la mesme qualité et de la mesme maniere 
+                    <lb />que la Maison d’Autriche et particulierement le feu 
+                    <lb />Roy d’Espagne les a possedez, toutesfois avec les charges 
+                    <lb />et hypotheques, et en consequence les Etats Generaux 
+                    <lb />retireront leurs troupes des endroits cydessus nommez, ou 
+                    <lb />il y en pourroit avoir et dechargeront du serment de 
+                    <lb />fidelité les officiers tant civils, que des Comptoirs des 
+                    <lb />peages et autres, au moment de l’evacuation qui se 
+                    <lb />fera aussytost après la ratification du present traité. 
+                    <lb />Il a esté encore convenu qu’il sera reservé dans le 
+                    <lb />Duché de Luxembourg, ou dans celuy de Limbourg une 
+                    <lb />terre de la valeur de trente mille ecus de revenu par 
+                    <lb />an qui sera erigée en Principauté en faveur de la 
+                    <lb />Princesse des Ursins et de ses heritiers. 
+                </p> 
+                <p> 
+                    <lb />8,, 
+                    <lb />En consequence de cela Sa Majesté tres Chretienne 
+                    <lb />remettra et fera remettre aux Seigneurs Etats Generaux 
+                    <lb />en faveur comme cydessus immediatement après la paix 
+                    <lb />et au plustard en quinze jours après l’échange des 
+                    <lb />ratifications, le Duché, ville et forteresse de Luxembourg 
+                    <lb />avec le comté de Chiny; le Comté ville et chateau de 
+                    <lb />Namur, comme aussy les villes de Charleroy et de 
+                    <lb />Nieuport avec toutes leurs appartenances, dependances, 
+                    <lb /> 
+                    <lb /> 
+                </p>
+                <pb facs="#FacsPnr12"/><p>annexes et enclavemets et tout ce qui outre cela pourr[oit]
+                <lb />encore appartenir auxd[its] Paysbas Espagnols definis com[me]
+                <lb />cy dessus, en l’estat auquel le tout se trouve à present
+                <lb />avec les fortifications sans en rien changer qui s’y
+                <lb />trouvent actuellement et avec tous les papiers, lettres
+                <lb />documents et archives qui concernent lesd[its] paysbas,
+                <lb />ou quelque partie d’iceux.
+                <lb />9,,
+                <lb />Et comme Sa Majesté Catholique a cedé et transport[é]
+                <lb />en pleine Souveraineté et proprieté sans aucune reserve
+                <lb />ni retour à Son Altesse Electorale de Bavière lesd[its]
+                <lb />paysbas Espagnols, Sa Majesté tres Chretienne prome[t]
+                <lb />et s’engage de faire donner un acte de Sad[ite] Altesse
+                <lb />Electorale dans la meilleure forme, par lequel, elle, tant
+                <lb />pour Elle mesme, que pour les Princes ses hoirs, et
+                <lb />Successeurs nez et à naistre, cede et transporte aux
+                <lb />Seigneurs Etats Generaux en faveur de la Maison d’Autriche
+                <lb />tout le droit que son Altesse Electorale peut avoir, ou
+                <lb />pretendre sur lesd[its] paysbas Espagnols soit en tout, ou
+                <lb />en partie, tant en vertu de la cession de Sa Majesté
+                <lb />Catholique, qu’en vertu de quelqu’autre acte, titre, ou
+                <lb />pretention que ce puisse estre, et par lequel acte Sad[ite]
+                <lb />Altesse Électorale reconnoisse la Maison d’Autriche
+                <lb />pour legitimes et Souverains Princes desd[its] Paysbas, sans
+                <lb />
+                <pb facs="#FacsPnr13"/>aucune restriction, ou reserve, et decharge et dispense
+                <lb />absolument tous et un chacun des Sujets desd[its] Paysbas
+                <lb />qui luy ont presté Serment de fidelité, ou fait hommage,
+                <lb />Lequel acte de cession de son Altesse Electorale sera
+                <lb />remis comme l’on en est convenu à la Reyne de la Grande
+                <lb />Bretagne le mesme jour que les ratifications du present
+                <lb />traité doivent estre echangées.
+                <lb />Bien entendu que l’Electeur de Baviere retiendra
+                <lb />la Souveraineté et les revenus du duché et ville de
+                <lb />Luxembourg, de la ville et comté de Namur, de la ville de
+                <lb />Charleroy, et de leurs dependances, appartenances
+                <lb />annexes et enclavements (sauf le payement des rentes
+                <lb />constituées et hypothequées sur lesd[its] revenus) jusqu’à
+                <lb />ce que Son Altesse Electorale ayt esté retablie dans
+                <lb />tous les Etats qu’Elle possedoit dans l’Empire avant
+                <lb />la guerre presente, à l’exception du haut Palatinat, et
+                <lb />qu’Elle aura esté mise dans le rang de neuvieme
+                <lb />Électeur, et en possession du Royaume de Sardaigne
+                <lb />et du titre de Roy comme aussy que Son Altesse
+                <lb />Electorale pendant le tems qu’Elle gardera la Souveraineté
+                <lb />des susd[its] pays, pourra tenir ses troupes dans les depen-
+                <lb />dances du Duché de Luxembourg, lesquelles troupes
+                <lb />n’excederont pas le nombre de sept mille hommes, et
+                <lb />qu’aucunes troupes des Seigneurs Etats Generaux ou de
+                <lb />
+                <pb facs="#FacsPnr14"/>leurs Alliez, excepté celles que lesd[its] Etats Generaux enverro[nt]
+                <lb />pour les garnisons des places de Luxembourg, Namur, et
+                <lb />Charleroy ne pourront passer, loger, ni sejourner dans
+                <lb />les dependances des pays, dont son Altesse Electorale
+                <lb />doit garder la Souveraineté comme il est dit cy dessus[;]
+                <lb />Il sera cependant permis aux Etats Generaux de faire
+                <lb />voyturer sans aucun empechement ni opposition
+                <lb />quelconque toutes sortes de munitions de bouche et
+                <lb />de guerre dans la ville de Luxembourg qu’ils trouveron[t]
+                <lb />necessaire. On est aussy convenu que l’Electeur de
+                <lb />Bavière conservera la Souveraineté et les revenus de
+                <lb />la ville et Duché de Luxembourg et de leurs dependanc[es,]
+                <lb />appartenances, annexes enclavemens jusqu’à ce qu’il
+                <lb />ait esté dedommagé de ses pretentions à l’egard du trait[é]
+                <lb />d’Ilmersheim, et l’on est convenu que ce dedommagement
+                <lb />sera reglé par les arbitres dont on conviendra et du
+                <lb />nombre des quels la Reyne de la Grande Bretagne a
+                <lb />consenti d’estre. Et ce reglement se fera par lesd[its]
+                <lb />arbitres le plutost qu’il sera possible. Sa Majesté
+                <lb />tres Chretienne fera sortir l’acte de cession de son
+                <lb />Altesse Electorale son plein et entier effect; et pour
+                <lb />encore plus de Seureté, Sa Majesté tres Chretienne
+                <lb />promet de faire en sorte, que Sa Majesté Catholique
+                <lb />approuvera autant que de besoin, lad[ite] cession de Son
+                <lb />
+                <pb facs="#FacsPnr15"/>Altesse Electorale dans son Traité tant avec Sa
+                <lb />Majesté Britannique qu’avec les Seigneurs Etats
+                <lb />Generaux.
+                <lb />
+                <lb />10,,
+                <lb />Cependant quoyque l’Electeur de Bavierre demeure
+                <lb />en possession de la Souveraineté et des revenus de la ville
+                <lb />et Duché de Luxembourg, de la ville et Comté de Namur,
+                <lb />de la ville de Charleroy et de leurs dependances comme
+                <lb />il est dit cy dessus, On est convenu que Sa Majesté
+                <lb />tres Chretienne retirera toutes ses troupes de la ville et
+                <lb />Duché de Luxembourg, de la ville et Comté de Namur,
+                <lb />de la ville de Charleroy et de toutes leurs dependances
+                <lb />immediatement après la paix et au plutard en quinze
+                <lb />jours après l’echange des ratifications du present traitté,
+                <lb />et qu’Elle fera ensorte que Sad[ite] Altesse Electorale
+                <lb />en retirera aussy en mesme tems toutes les siennes
+                <lb />(excepté des dépendances du Duché de Luxembourg) et
+                <lb />celles qu’il pourroit y avoir de l’Electeur de Cologne
+                <lb />son frere sans aucune exception, et que la ville, et
+                <lb />forteresse de Luxembourg, la ville et chateau de Namur,
+                <lb />comme aussy la ville de Charleroy, seront cependant
+                <lb />gardez par les troupes des Seigneurs Etats Généraux
+                <lb />lesquelles entreront immediatement après la paix et
+                <lb />au plutard en quinze jours après l’echange des ratifications[.]
+                <lb />
+                <pb facs="#FacsPnr16"/>On est convenu aussy que les troupes desd[its] Seigneurs
+                <lb />Etats y seront logées et traitées conformement au
+                <lb />reglement fait sur ce sujet apres la paix de Ryswi[ck]
+                <lb />avec Sad[ite] Altesse Electorale alors Gouverneur general
+                <lb />desd[its] pays-bas; Comme aussy que la ville et Duché de
+                <lb />Luxembourg, la ville et Comté de Namur et la ville de
+                <lb />Charleroy et leurs dependances contribueront leur quote
+                <lb />part d’un million de florins monnoye de Hollande qui doit
+                <lb />estre assigné par an auxd[its] Seigneurs Etats Generaux sur
+                <lb />les meilleurs et les plus clairs revenus desd[its] pays-bas
+                <lb />Espagnols pour l’entretien de leurs troupes et des fortifi-
+                <lb />cations des villes et places de leurs Barrières; Les Etats
+                <lb />Generaux de leur costé s’engagent et promettent que leurs
+                <lb />troupes ne troubleront en aucune maniere l’Electeur de
+                <lb />Baviere dans la possession de la Souveraineté et des
+                <lb />revenus desd[ites] villes et pays pour tout le tems qu’il on
+                <lb />doit jouir.
+                <lb />
+                <lb />11
+                <lb />Sa Majesté tres Chretienne cede aux Seigneurs
+                <lb />Etats Generaux tant pour elle meme que pour les Princes
+                <lb />ses hoirs et Successeurs nez et à naistre et ce en faveur de
+                <lb />la maison d’Autriche tout le droit qu’Elle a eu, ou pourroit
+                <lb />avoir sur la Ville de Menin avec toutes ses fortifications,
+                <lb />et avec sa Verge, sur la ville et Citadelle de Tournay avec
+                <lb />
+                </p>
+                <pb facs="#FacsPnr17"/><p>tout le Tournaisis sans se rien reserver de son droit 
+                    <lb />la dessus, ni sur aucune de ses dépendances, appartenances, 
+                    <lb />annexes ou enclavemens, mais cede absolument ces 
+                    <lb />villes et places avec touts leurs territoires, dependances, 
+                    <lb />appartenances, annexes, et enclavements, et avec tous 
+                    <lb />les mêmes droits en tout que Sa Majesté tres Chrétiene 
+                    <lb />les a possedées avant cette guerre, excepté que S[ain]t Amant 
+                    <lb />avec ses dependances et Mortagne sans dependances 
+                    <lb />reviendront et demeureront à Sa Majesté tres-Chretienne, 
+                    <lb />à condition neantmoins qu’il ne sera pas permis de faire 
+                    <lb />à Mortagne aucunes fortifications, ni ecluses de quelque 
+                    <lb />nature qu’elles puissent estre; On est aussy convenu que 
+                    <lb />Le Prince d’Epinoy rentrera en possession de la terre 
+                    <lb />d’Antoing en vertu du présent traité, à condition que 
+                    <lb />la Maison de Ligne pourra poursuivre ses droits, ou 
+                    <lb />pretentions sur lad[ite] terre devant les Juges compétants. 
+                    <lb />Les Seigneurs États Generaux promettent qu’ils rendront 
+                    <lb />les villes, places, territoires, dependances, appartenances 
+                    <lb />annexes et enclavement que Sa Majesté Tres 
+                    <lb />Chrestienne leur cede par cet article, à la Maison 
+                    <lb />d’Autriche, aussytost que les Seigneurs Etats en seront 
+                    <lb />convenus avec lad[ite] Maison, laquelle en jouira alors 
+                    <lb />irrevocablement et à toujours.
+                    <lb />
+                    <lb />12,
+                    <lb />Sa Majesté tres Chretienne tant pour Elle mesme
+                    <lb />
+                    <lb /> 
+                </p>
+                <pb facs="#FacsPnr18"/><p>que pour les Princes ses heritiers et Successeurs nez
+                <lb />et à naistre, cede aussy en faveur de la Maison d’Autriche
+                <lb />tout le droit qu’Elle a sur furnes, furner=ambagt, y
+                <lb />compris les huit paroisses et le fort de Knoque, les
+                <lb />villes de Loo et Dixmuiden avec leurs dependances,
+                <lb />Ypres avec Sa Châtellerie, (Rousselaer y compris) et
+                <lb />avec les autres dependances qui seront desormais poperingue,
+                <lb />Warneton, Commines, Warwich, ces trois dernieres places
+                <lb />pour autant qu’elles sont situées du costé de la Lys
+                <lb />vers Ypres, et ce qui depend des lieux cy dessus
+                <lb />exprimés, sans que Sa Majesté tres Chretienne se
+                <lb />reserve aucun droit sur lesd[ites] villes, places, forts et
+                <lb />pays, ni sur aucune de leurs appartenances, dépendances,
+                <lb />annexes ou enclavements.
+                <lb />Aussy fera Sa Majesté tres Chrétienne immedi-
+                <lb />atement après la paix, et au plutard en quinze jours
+                <lb />après l’echange des ratifications evacuer et remettre
+                <lb />aux Seigneurs Etats Generaux toutes lesd[ites] villes
+                <lb />places, forts, et pays avec toutes leurs appartenances,
+                <lb />dependances, annexes et enclavements Sans en rien
+                <lb />excepter le tout de la mesme maniere que Sa Majesté
+                <lb />tres Chretienne le possede maintenant avec les
+                <lb />fortifications comme elles sont sans y rien changer, et
+                <lb />avec tous les papiers, lettres, archives et documents qui
+                <lb />
+                </p>
+                <pb facs="#FacsPnr19"/><p>concernent lesd[ites] villes, places, forts, leurs dependances, 
+                    <lb />appartenances, enclavements, afin que lesd[its] Seigneurs 
+                    <lb />Etats puissent rendre toutes ces villes, places, forts 
+                    <lb />et pays avec toutes leurs appartenances, dependances 
+                    <lb />annexes, et enclavemens à la Maison d’Autriche, aussy-
+                    <lb />tost qu’ils en seront convenu avec Elle, laquelle en jouira 
+                    <lb />irrevocablement et à toujours. 
+                    <lb />
+                    <lb />13,,
+                    <lb />La Navigation de la Lis depuis l’embouchure de la 
+                    <lb />Deule en remontant, sera libre, et il ne s’y etablira 
+                    <lb />aucun peage, ni imposition. 
+                    <lb />
+                    <lb />14,,
+                    <lb />On est aussy convenu qu’aucune province, ville, 
+                    <lb />fort ou place desd[its] Pays-bas Espagnols, ni de ceux 
+                    <lb />qui sont cedez par Sa Majesté tres Chretienne soient 
+                    <lb />jamais cedez, transportez, ni donnez, ni puissent échoir 
+                    <lb />à la<note n="3" type="crit_app">Nachträglich eingefügt.</note> Couronne de France, ni à aucun Prince, ou Princesse 
+                    <lb />de la Maison ou ligne de France, soit en vertu de 
+                    <lb />quelque don, vente, echange, convention matrimoniale, 
+                    <lb />succession par testament, ou ab intestat, ou sous 
+                    <lb />quelqu’autre titre que ce puisse estre, ni estre mis de 
+                    <lb />quelque maniere que ce soit au pouvoir, ni sous l’auto-
+                    <lb />rité du Roy tres Chrestien, ni de quelque Prince ou Princesse
+                    <lb />
+                    <lb />
+                </p>
+                <pb facs="#FacsPnr20"/><p>de la maison, ou Ligne de France.
+                <lb />
+                <lb />15,,
+                <lb />Lesd[its] Seigneurs Etats Generaux remettront à Sa
+                <lb />Majesté tres Chrestienne la Ville et Citadelle de
+                <lb />Lille avec toute Sa Châtellenie sans aucune exception,
+                <lb />Orchies, Le pays de Laleu et le Bourg de la Gourgue,
+                <lb />Les villes et places d’Aire, Bethune et S[ain]t Venant avec
+                <lb />le fort françois, leurs bailliages, Gouvernances, appartenances,
+                <lb />dependances, enclavements, et annexes, Le tout ainsy
+                <lb />qu’il a esté possedé par le Boy Tres Chrestien avant [la]
+                <lb />presente guerre, lesquelles villes, places, et forts seront
+                <lb />évacuez immediatement après la paix, et au plutard en
+                <lb />quinze jours après l’echange des ratifications du present
+                <lb />traité, avec toutes les fortifications, dans l’estat ou elles
+                <lb />se trouvent à present, sans en rien changer, et avec
+                <lb />tous les papiers, lettres, documents, archives, et particu-
+                <lb />lierement avec ceux de la Chambre des Comptes de
+                <lb />Lille, et s’il y en avoit eu quelques uns de detournez
+                <lb />on les raportera de bonne foy; Bien entendu que lesd[its]
+                <lb />Seigneurs Etats Generaux ne seront point tenus à
+                <lb />aucun dedommagement pour ce dont le Roy tres
+                <lb />Chrestien pourroit deja estre en possession desd[its] pays
+                <lb />ni à faire reparer ce qui se trouvera avoir esté detruit
+                <lb />
+                </p>
+                <pb facs="#FacsPnr21"/><p>par la guerre. On est aussy convenu que le Prince 
+                    <lb />d’Epinoy rentrera en possession des terres de Cisoing et 
+                    <lb />de Roubaix, et autres biens situez dans lesd[its] pays de 
+                    <lb />Lille en<note n="4" type="crit_app">"Lille en" nachträglich eingefügt.</note>vertu du present traité, à condition que la Maison de 
+                    <lb />Ligne pourra poursuivre ses droits ou pretentions sur 
+                    <lb />lesd[ites] terres et biens devant les Juges competans. 
+                    <lb />
+                    <lb />16,,
+                    <lb />Quant à la restitution des canons, artillerie, boulets 
+                    <lb />armes et munitions de guerre de part et d’autre, on est 
+                    <lb />convenu que la ville et forteresse de Luxembourg, la ville 
+                    <lb />et Chateau de Namur, la ville de Charleroy et celle de 
+                    <lb />Nieuport, et generalement toutes les places, forts, et 
+                    <lb />postes possedez par Sa Majesté tres Chretienne, ou ses 
+                    <lb />Alliez, les Electeurs de Cologne et de Baviere seront 
+                    <lb />remis avec les canons, artillerie, boulets, armes et munitions 
+                    <lb />de guerre qui y estoient au tems du decès du feu Roy 
+                    <lb />Catholique Charles 2d suivant les inventaires qui en 
+                    <lb />seront fournis; Que la ville et citadelle de Lille, la Ville 
+                    <lb />d’Aire, avec le fort françois, Bethune et S[ain]t Venant 
+                    <lb />seront rendues avec les canons, artillerie, boulets, armes, 
+                    <lb />et munitions de guerre qui y ont esté au tems de la 
+                    <lb />prise suivant les inventaires qui en seront delivrez 
+                    <lb />de part et d’autre; Bien entendu, qu’à l’egard des
+                    <lb />
+                    <lb /> 
+                </p>
+                <pb facs="#FacsPnr22"/><p>pieces d’artillerie qui ayant esté endommagées pendant
+                <lb />les Sieges, ont esté transportées ailleurs pour les
+                <lb />refondre, les Seigneurs Etats Generaux les feront
+                <lb />remplacer par un parei1 nombre de mesme calibre[;]
+                <lb />Que la Ville d’Ypres sera remise avec cinquante
+                <lb />pièces de canon de fonte de toutes sortes de calibre
+                <lb />et avec la moitié des munitions de guerre qui s’y
+                <lb />trouvent presentement et finalement que la ville
+                <lb />de Furnes sera remise avec les canons, artillerie,
+                <lb />boulets, armes et munitions de guerre qui s’y sont
+                <lb />trouvez au commencement de l’année courante,
+                <lb />suivant les inventaires qui en seront delivrez de la
+                <lb />part de Sa Majesté tres Chretienne[.]
+                <lb />
+                <lb />
+                <lb />17,,
+                <lb />Les Troupes de part et d’autre se retireront aussitot
+                <lb />après l’echange des ratifications du présent traité,
+                <lb />sur les terres et pays de leurs propres Souverains
+                <lb />et dans les places et lieux qui leur doivent recipro-
+                <lb />quement demeurer et appartenir Suivant le present
+                <lb />traité, sans pouvoir rester, sous quelque prétexte
+                <lb />que ce soit dans le pays de l’autre Souverain, ni
+                <lb />dans les lieux qui luy doivent pareillement cyapres
+                <lb />demeurer ou appartenir, et il y aura aussytost après
+                <lb />la Signature de ce mesme traité cessation d’armes
+                <lb />
+                <pb facs="#FacsPnr23"/>et d’hostilitez, non pas seulement en tous endroits de
+                <lb />la domination de Sa Majesté tres Chrestienne et des
+                <lb />Seigneurs Etats tant par mer, et autres eaux que par
+                <lb />terre, comme il est dit cy dessus, mais aussy de part
+                <lb />et d’autre dans les pays bas entre les pays, sujets et
+                <lb />troupes de quelque puissance que ce soit.
+                <lb />
+                <lb />18,,
+                <lb />II a esté aussy accordé que la perception des aides,
+                <lb />subsides, et autres droits dont le Roy Tres Chrestien
+                <lb />et les Seigneurs Etats sont en possession sur tous
+                <lb />les pays qui viennent d’estre cedez de part et d’autre sera
+                <lb />continuée jusqu’au jour de l’echange des ratifications
+                <lb />et que ce qui en restera du, lors de lad[ite] echange des
+                <lb />ratifications, sera payé de bonne foy à celuy ou ceux
+                <lb />qui y auront droit comme aussy que dans le mesme
+                <lb />tems les proprietaires des Bois confisquez dans les
+                <lb />dependances des places qui doivent estre remises de
+                <lb />part et d’autre rentreront en la possession de leurs
+                <lb />biens, et de tous les Bois qui se trouveront sur le lieu:
+                <lb />Bien entendu que du jour de la Signature du present
+                <lb />traité, toutes les coupes de Bois cesseront de part et d’autre.
+                <lb />
+                <lb />19,,
+                <lb />Il y aura de part et d’autre un oubly et une
+                <lb />
+                <lb />
+                </p>
+                <pb facs="#FacsPnr24"/><p>amnistie perpetuelle de tous les torts, Injures et 
+                    <lb />offences qui auront esté commis de fait et de parole 
+                    <lb />ou en quelque maniere que ce soit pendant le cours de 
+                    <lb />la presente guerre par les Sujets des pays-bas Espagnols, 
+                    <lb />et des places et pays cedez ou restituez par Sa Majesté 
+                    <lb />tres Chretienne ou par les Seigneurs Etats Generaux 
+                    <lb />sans qu’ils puissent estre exposez a quelque recherche 
+                    <lb />que ce soit, et l’on est convenu que tout le contenu 
+                    <lb />en l’article second du present Traite [est rappelé]<note n="5" type="crit_app">Nachträglich eingefügt.</note> pour estre aussy 
+                    <lb />executé entre les Sujets de Sa Majesté tres Chretienne 
+                    <lb />et ceux desd[its] pays-bas Espagnols, et pays cédez, ou 
+                    <lb />restituez de la maniere qu’il le sera entre lesd[its] Sujets 
+                    <lb />de Sa Majesté Tres Chretienne et ceux des Seigneurs 
+                    <lb />Etats Generaux.
+                    <lb />
+                    <lb />20,,
+                    <lb />Par le moyen de cette paix, les Sujets de Sa Majesté 
+                    <lb />tres Chretienne et ceux desd[its] paysbas Espagnols et 
+                    <lb />des places cedées par Sad[ite] Majesté tres Chrestienne 
+                    <lb />pourront en gardant les loix, usages, et coûtumes 
+                    <lb />des pays, aller, venir, demeurer, trafiquer, retourner, 
+                    <lb />traiter, negocier ensemble comme bons Marchands, 
+                    <lb />mesme vendre, changer, aliener, ou autrement disposer 
+                    <lb />des biens, effets, meubles et immeubles, qu’ils ont, ou
+                    <lb />
+                    <lb /> 
+                </p>
+                <pb facs="#FacsPnr25"/><p>auront, situez respectivement de part et d’autre, et
+                <lb />chacun les y pourra achepter, sujet ou non sujet, sans
+                <lb />que pour cette vente, ou achapt, ils ayent besoin de part
+                <lb />ni d’autre de permission autre que le present traité;
+                <lb />Il sera aussy permis aux Sujets des places et pays cedez
+                <lb />ou restituez par le Roy tres Chrestien, et par les
+                <lb />Seigneurs Etats Generaux, comme aussy à tous les sujets
+                <lb />desd[its] pays-bas Espagnols de sortir desd[ites] places et
+                <lb />pays-bas Espagnols, pour aller demeurer ou bon leur
+                <lb />semblera dans l’espace d’un an, avec la faculté de
+                <lb />vendre à qui il leur plaira, ou de disposer autrement
+                <lb />de leurs effets, biens meubles et immeubles avant et
+                <lb />après leur sortie, sans qu’ils puissent en estre empechez
+                <lb />directement ou indirectement.
+                <lb />
+                <lb />21
+                <lb />Les mesmes Sujets de part et d’autre Ecclesiastiques et
+                <lb />Seculiers, corps, communautez, Universitez et Colleges
+                <lb />seront retablis, tant en la jouissance des honneurs, dignitez
+                <lb />et benefices dont ils estoient pourvus avant la guerre,
+                <lb />qu’en celle de tous et chacun leurs droits biens meubles
+                <lb />et immeubles, rentes saisies ou occupées à l’occasion de
+                <lb />la presente guerre ensemble leurs droits, actions et
+                <lb />successions, à eux survenus, meme depuis la guerre
+                <lb />
+                <pb facs="#FacsPnr26"/>commencée, sans toutesfois pouvoir rien demander
+                <lb />des fruits et revenus percûs et echus pendant le cours
+                <lb />de la presente guerre jusqu’au jour de la publication
+                <lb />du present traité lesquels retablissemens se feront
+                <lb />reciproquement; nonobstant toutes donation, concession,
+                <lb />déclaration, confiscations sentences données par contu-
+                <lb />mace, les parties non ouyes qui seront es et de nul
+                <lb />effet, avec un liberté entiere auxd[ites] parties de revenir
+                <lb />dans les pays d’ou Elles se sont retirées, pour et à cause
+                <lb />de la guerre, pour jouir de leurs biens, et rentes en
+                <lb />personne, ou par Procureur, conformement aux loix et
+                <lb />coustumes des pays et Etats. Dans lesquels retablissemens
+                <lb />sont aussy compris ceux, qui dans la derniere guerre, ou
+                <lb />à son occasion, auront suivi le party contraire; Neant-
+                <lb />moins les arrets et jugements rendus dans les Parle-
+                <lb />ments, conseils et autres Cours superieures ou inferieures
+                <lb />et auxquels il n’aura pas esté expressement derogé
+                <lb />par le present traité auront lieu et sortiront leur
+                <lb />plein et entier effet, et ceux qui en vertu desd[its] arrets
+                <lb />et jugements se trouveront en possession de terres,
+                <lb />Seigneuries et autres biens, y seront maintenus, sans
+                <lb />prejudice toutes fois aux parties qui se croiront
+                <lb />lezées par lesd[its] jugements et arrêts, de se pourvoir
+                <lb />
+                <pb facs="#FacsPnr27"/>par les voyes ordinaires et devant les Juges comptans.
+                <lb />
+                <lb />22,,
+                <lb />A l’egard des rentes affectées sur la generalité
+                <lb />de quelques Provinces des Paysbas dont une partie se
+                <lb />trouvera possedée par Sa Majesté Très Chrestienne,
+                <lb />et l’autre par lesd[its] Seigneurs Etats Generaux, ou par
+                <lb />la Maison d’Autriche à laquelle les Pays-bas Espagnols
+                <lb />doivent appartenir, Il a esté convenu et accordé que
+                <lb />chacun payera sa quote part et seront nommez des
+                <lb />Commissaires pour regler la portion qui se payera de
+                <lb />part et d’autre.
+                <lb />
+                <lb />23,,
+                <lb />Dans lesd[its] pays, villes et places cedez par le
+                <lb />present traité, les benefices acordez et legitimement
+                <lb />conferez a des personnes capables pendant le cours de
+                <lb />la presente guerre seront laissez à ceux qui les possedent
+                <lb />à present et generalement toutes choses qui concernent
+                <lb />la Religion Catholique Romaine et son exercice,
+                <lb />&lt;y&gt; seront laissées et conservées de la part desd[its] Seigneurs
+                <lb />&lt;Éta&gt;ts Generaux, et de la Maison d’Autriche à laquelle
+                <lb />les Pays-bas doivent appartenir, dans l’estat ou elles
+                <lb />sont, ou qu’elles etoient avant la presente guerre, cession,
+                <lb />ou evacuation, tant à l’egard des Magistrats, qui ne
+                <lb />
+                <pb facs="#FacsPnr28"/>pourront être que Catholiques Romains, comme
+                <lb />par le passé, qu’à l’egard des Evesques, Chapistres,
+                <lb />Monasteres, l’Ordre de Malte (pour les biens de cet
+                <lb />ordre situez dans les pays-bas Espagnols et dans les
+                <lb />pays cedez et restituez de part et d’autre par le
+                <lb />present traité) et autres, et generalement à l’egard
+                <lb />de tout le Clergé, qui seront tous maintenus et
+                <lb />restituez dans toutes leurs Eglises, libertez, franchises,
+                <lb />immunitez, droits, prerogatives et honneurs, ainsy
+                <lb />qu’ils l’ont esté sous les Souverains Catholiques Romains,
+                <lb />et que tous et un chacun dud[it] Clergé pourvus de quelques
+                <lb />biens Ecclesiastiques, Commanderies, Canonicats, personats,
+                <lb />provostez, et autres benefices quelconques y demeurent
+                <lb />sans en pouvoir estre depossedez et jouiront des biens
+                <lb />et revenus en provenants, et les pourront administrer
+                <lb />et percevoir comme auparavant; Comme aussy les
+                <lb />pensionnaires jouiront comme par le passé de leurs
+                <lb />pensions assignées sur les benefices, soit qu’elles
+                <lb />soient creées en cour de Rome, ou par les brevets
+                <lb />de leurs Majestez tres Chretienne et Catholique avant
+                <lb />le commencement de la presente guerre, sans qu’ils
+                <lb />en puissent estre frustrez pour quelque cause ou
+                <lb />pretexte que ce soit.
+                <lb />
+                <pb facs="#FacsPnr29"/>24,,
+                <lb />Quant à l’exercice de la Religion Protestante par
+                <lb />les troupes que les Etats Generaux auront dans les
+                <lb />places desd[its] paysbas Espagnols, et dans celles cedées
+                <lb />par le Roy Tres Chrestien, il s’y fera conformement
+                <lb />au reglement fait avec l’Electeur de Baviere Gouverneur
+                <lb />des Pays-bas Espagnols sous le regne du Roy Charles 2d.
+                <lb />
+                <lb />25,,
+                <lb />On est de plus convenu que les Communautez et
+                <lb />habitans de toutes les places, villes et pays que Sa
+                <lb />Majesté tres Chrestienne cede par le present traité
+                <lb />seront conservez et maintenus dans la libre jouissance
+                <lb />de tous leurs privileges, prerogatives, coustumes, exemptions,
+                <lb />droits, octroys communs et particuliers charges et
+                <lb />offices hereditaires avec les mêmes honneurs, rangs,
+                <lb />gages, emolumens et exemptions, ainsy qu’il en ont
+                <lb />jouy sous la domination de Sad[ite] Majesté tres Chretienne
+                <lb />et tout ce qui est porté dans le present article aura
+                <lb />aussy lieu pour les villes et places restituées à Sa
+                <lb />Majesté très Chretienne par les Seigneurs Etats
+                <lb />Generaux, pourvu qu’il ne s’y soit point fait d’innova-
+                <lb />tions dans le Gouvernement civil.
+                <lb />
+                <lb />26,,
+                <lb />On est convenu que les garnisons qui se trouvent
+                <lb />
+                <pb facs="#FacsPnr30"/>ou se trouveront cy-après de la part des Seigneurs
+                <lb />Etats dans la ville Château, et Forts de Huy, comme
+                <lb />aussy dans la citadelle de Liege y resteront aux
+                <lb />depens desd[its] Seigneurs Etats, et que Sa Majesté
+                <lb />fera en sorte que l’Electeur de Cologne, en qualité
+                <lb />d’Evesque et Prince de Liège y consente, Et Sad[ite]
+                <lb />Majesté fera aussy en sorte que toutes les fortifications
+                <lb />de la ville de Bonn soient rasées trois mois après
+                <lb />le retablissement dud[it] Electeur.
+                <lb />
+                <lb />27,,
+                <lb />Toùs prisonniers de guerre seront delivrez de part
+                <lb />et d’autre sans distinction ou reserve, et sans payer
+                <lb />aucune rançon, mais les dettes qu’ils ont contractées
+                <lb />ou faites de part et d’autre seront payées, celles des
+                <lb />François de par Sa Majesté très Chretienne et celles
+                <lb />de ceux de l’Etat de par les Seigneurs Etats, respecti-
+                <lb />vement dans le terme de trois mois après l’echange
+                <lb />desd[ites] ratifications; aquelle fin seront nommez, immedi-
+                <lb />atement apres cette echange, des Commissaires de
+                <lb />part et d’autre qui feront la liste de ces dettes, les
+                <lb />liquideront et feront donner caution valable pour
+                <lb />l’asseurance du payement qui sera du, et qu’il
+                <lb />se fera dans led[it] terme.
+                <lb />
+                <pb facs="#FacsPnr31"/>28,,
+                <lb />La levée des contributions demandées et accordées de
+                <lb />part et d’autre sera continuée pour tout ce qui restera
+                <lb />du jusques au jour de l’echange des ratifications du
+                <lb />présent traité, et les arrerages qui resteront dus lors
+                <lb />de l’echange des ratifications seront payées dans
+                <lb />l’espace de trois mois après le terme susd[it]; Et aucune
+                <lb />execution ne se pourra faire pour raison de ce,
+                <lb />pendant led[it] tems, contre les Chastellenies, Bailliages,
+                <lb />Communautez et autres redevables, pourvu qu’Elles
+                <lb />ayent donné bonne et valable caution resseante
+                <lb />dans une ville de la domination de Sa Majesté
+                <lb />tres Chrestienne, ou des Seigneurs Etats, à qui lesd[ites]
+                <lb />contributions seront dues. La mesme stipulation aura
+                <lb />lieu, à l’egard des contributions demandées de la part
+                <lb />de Sa Majesté tres Chretienne et accordées par les
+                <lb />pays-bas Espagnols.
+                <lb />
+                <lb />29,,
+                <lb />Pour affermir d’autant plus et faire subsister ce
+                <lb />traité, on est deplus convenu entre Sa Majesté et
+                <lb />les Seigneurs Etats Generaux; qu’etant satisfait à
+                <lb />ce traité, il se fera, comme se fait par celuy-cy une
+                <lb />renonciation tant generale que particuliere sur 
+                <pb facs="#FacsPnr32"/>toutes sortes de pretentions tant du tems passé,
+                <lb />que du present, quelles quelles puissent estre, que
+                <lb />l’un party pourroit intenter contre l’autre, pour
+                <lb />ôter à l’avenir toutes les occasions que l’on pourroit
+                <lb />susciter, et faire parvenir à de nouvelles dissentions.
+                <lb />30,,
+                <lb />Les voyes de la justice ordinaire seront ouvertes,
+                <lb />et le cours en sera libre reciproquement et les Sujets
+                <lb />de part et d’autre pourront faire valoir leurs droits,
+                <lb />actions et pretentions suivant les loix et les statuts
+                <lb />de chaque pays, et y obtenir les uns contre les autres
+                <lb />sans distinction toute la satisfaction qui leur pourra
+                <lb />legitimement appartenir; et s’il y a eu des lettres
+                <lb />de represailles accordées de part ou d’autre, soit devant
+                <lb />ou après la declaration de la derniére guerre, Elles
+                <lb />demeureront revoquées et anées sauf aux parties,
+                <lb />en faveur desquelles, elles auront esté accordées, à se
+                <lb />pourvoir par les voyes ordinaires de la justice.
+                <lb />
+                <lb />31,,
+                <lb />Puisque l’on convient qu’il est absolument neces-
+                <lb />saire d’empêcher que les Couronnes de France et
+                <lb />d’Espagne ne puissent jamais estre unies sur la
+                <lb />teste d’un mesme Roy, et de pourvoir par ce moyen
+                <lb />
+                </p>
+                <pb facs="#FacsPnr33"/><p>à la seureté et la liberté de l’Europe et que sur les 
+                    <lb />instances tres fortes de la Reyne de la Grande Bretagne 
+                    <lb />et du consentement, tant<note n="6" type="crit_app">Nachträglich eingefügt.</note> du Roy tres Chrestien que du Roy 
+                    <lb />Catholique, ont esté trouvé le moyens d’empecher 
+                    <lb />cette union pour toujours par des renonciations faites 
+                    <lb />dans les termes les plus forts et passées à Madrid 
+                    <lb />dans le mois de novembre dernier, de la maniere la plus 
+                    <lb />solemnelle et par la declaration des Cortes d’Espagne 
+                    <lb />ladessus. 
+                    <lb />Et puisque par lesd[ites] renonciations et declarations 
+                    <lb />qui doivent toujours avoir la force de loy pragmatique, 
+                    <lb />fondamentale et inviolable, il a esté arresté et pourvu, 
+                    <lb />que ni le Roy Catholique luy mesme, ni aucun de 
+                    <lb />ses descendans, puisse à l’avenir pretendre à la Couronne, 
+                    <lb />moins encore monter sur le trosne de France. 
+                    <lb />Et d’autant que par des renonciations reciproques 
+                    <lb />de la part de la France et par des constitutions sur 
+                    <lb />la succession hereditaire à la Couronne de France, 
+                    <lb />qui tendent au mesme but, les deux Couronnes de 
+                    <lb />France et d’Espagne sont tellement separées et 
+                    <lb />desunies l’une d’avec l’autre que (lesd[ites] renonciations, 
+                    <lb />transactions, et tout ce qui y a rapport demeurant 
+                    <lb />dans leur vigueur et etant observées de bonne foy) 
+                    <lb />lesd[ites] deux Couronnes ne pourront jamais estre unies;
+                    <lb />
+                    <lb />
+                </p>
+                <pb facs="#FacsPnr34"/><p>C’est pourquoy le Roy tres Chrestien et lesd[its] Seigneurs
+                <lb />Etats se promettent et s’engagent mutuellement et de
+                <lb />la maniere la plus forte, qu’il ne sera jamais rien
+                <lb />fait ni par Sa Majesté tres Chretienne, ses heritiers
+                <lb />et Successeurs, ni par lesd[its] Seigneurs Etats, ni permis,
+                <lb />ou souffert que d’autres fassent, que lesd[ites] renonciations,
+                <lb />transactions et tout ce qui y a rapport ne sortent
+                <lb />leur plain et entier effet; Mais au contraire Sa
+                <lb />Majesté tres Chretienne et les Seigneurs Etats prendront
+                <lb />toujours soin, et joindront leurs conseils et leurs
+                <lb />forces, afinque lesd[its] fondements du salut public
+                <lb />demeurent toujours inebrantables et soient observez
+                <lb />inviolablement.
+                <lb />
+                <lb />32,,
+                <lb />Le Roy tres Chrestien consent aussy et promet
+                <lb />qu’il ne pretendra, ni n’acceptera aucun autre avan-
+                <lb />tage, ni pour luy mesme, ni pour ses sujets, dans le
+                <lb />Commerce et la navigation soit en Espagne, ou dans
+                <lb />les Indes Espagnoles, que celuy dont on a joui pendant
+                <lb />le Regne du feu Roy Charles 2.d, ou qui seroit
+                <lb />pareillement accordé à toute autre Nation trafiquante.
+                <lb />Et qu’aussy longtems que les Roys d’Espagne
+                <lb />n’accordent pas d’autres avantages à toutes les nations
+                <lb />trafiquantes, le Commerce et la Navigation en
+                <lb />
+                <pb facs="#FacsPnr35"/>Espagne et dans les Indes Espagnoles se feront
+                <lb />precisement et en tout de la mesme maniere
+                <lb />qu’ils se faisoient sous le Regne et jusques à la
+                <lb />mort dud[it] Roy Catholique Charles 2d.
+                <lb />Sa Majesté Tres Chrestienne et lesd[its] Seigneurs
+                <lb />Etas se promettant reciproquement que leurs Sujets
+                <lb />seront assujetis comme toutes les autres nations
+                <lb />aux anciennes loix et reglemens faits par les Roys
+                <lb />predecesseurs de Sa Majesté Catholique au sujet
+                <lb />dud[it] commerce et de lad[ite] navigation.
+                <lb />
+                <lb />33,,
+                <lb />Les Seigneurs Etats Generaux considerant que pour
+                <lb />leur seureté il est necessaire que rien ne puisse
+                <lb />troubler la tranquillité de l’Empire, le Roy très
+                <lb />Chrestien consentira que dans le traitte à faire avec
+                <lb />l’Empire, tout ce qui regarde dans led[it] Empire l’estat
+                <lb />de Religion soit conforme à la teneur des traitez
+                <lb />de Westphalie, ensorte qu’il paroisse manifestement
+                <lb />que l’intention de Sa Majesté tres Chrestienne n’est
+                <lb />point et n’a point, esté qu’il y ait rien de changé
+                <lb />auxd[its] traitez tant à l’Ecclesiastique qu’au
+                <lb />temporel.
+                <lb />
+                <lb />34,,
+                <lb />Sa Majesté tres Chrestienne consent aussy que dans
+                <lb />
+                <pb facs="#FacsPnr36"/>le mesme traité avec l’Empire la forteresse de
+                <lb />Rhinfels et la ville de S[ain]t Goär avec tout ce qui en
+                <lb />depend demeurent au Landgrave de Hesse-Cassel et à
+                <lb />ses Successeurs, moyennant un equivalent raisonnable
+                <lb />à payer aux Princes de Hessen-Rhinfels; à condition
+                <lb />que la Religion Catholique Romaine, de la maniere
+                <lb />qu’elle s’y trouve etablie y soit exercée sans
+                <lb />aucune alteration ou innovation.
+                <lb />
+                <lb />35,,
+                <lb />Si par inadvertance ou autrement il Survenoit quelque
+                <lb />inobservation ou inconvenient au present traité de
+                <lb />la part de Sad[ite] Majesté ou desd[its] Seigneurs Etats
+                <lb />generaux et leurs Successeurs, cette paix et alliance ne
+                <lb />laissera pas de subsister en toute sa force sans que
+                <lb />pour cela on en vienne à la rupture de l’amitié et
+                <lb />de la bonne correspondance; Mais on reparera promp-
+                <lb />tement lesd[ites] contraventions et si elles procedent de
+                <lb />la faute de quelques particuliers sujets, ils en seront
+                <lb />seuls punis et châtiez.
+                <lb />
+                <lb />36,,
+                <lb />Et pour mieux asseurer à l’avenir le commerce et
+                <lb />l’amitié entre les Sujets dud[it] Seigneur Roy et ceux
+                <lb />desd[its] Seigneurs États Generaux des Provinces Unies
+                <lb />des Paysbas, il a esté accordé et convenu qu’arrivant
+                <lb />
+                <pb facs="#FacsPnr37"/>cy—après quelque interruption d’amitié ou rupture
+                <lb />entre la Couronne de France et lesd[its] Seigneurs Etats
+                <lb />desd[ites] Provinces- Unies (ce qu’à Dieu ne plaise) il
+                <lb />sera toujours donné neuf mois de tems après lad[ite]
+                <lb />rupture aux Sujets de part et d’autre pour se
+                <lb />retirer avec leurs effets et les transporter ou bon
+                <lb />leur semblera, ce qu’il leur sera permis de faire,
+                <lb />comme aussy de vendre ou transporter leurs biens
+                <lb />et meubles en toute liberté, sans qu’on leur puisse
+                <lb />donner aucun empechement, ni proceder pendant
+                <lb />led[it] tems de neuf mois à aucune saisie de leurs
+                <lb />effets, moins encore à l’arrest de leurs personnes.
+                <lb />
+                <lb />37,,
+                <lb />En ce present traité à Paix et d’alliance seront
+                <lb />compris de la part dud[it] Seigneur Roy très Chretien
+                <lb />tous ceux qui seront nommez avant l’echange des
+                <lb />ratifications et dans l’espace de six mois après qu’elles
+                <lb />auront esté echangées.
+                <lb />Et de la part des Seigneurs Etats Generaux, la Reyne
+                <lb />de la Grande Bretagne et tous leurs autres alliez, qui
+                <lb />dans le tems de Six Semaines à compter depuis
+                <lb />l’echange des ratifications declareront accepter la
+                <lb />paix, comme aussy les treize loüables Cantons des
+                <lb />Ligues Suisses et leurs Alliez et Confederez; et
+                <lb />
+                <pb facs="#FacsPnr38"/>particulierement en la meilleure forme et maniere
+                <lb />que faire se peut, les Republiques et Cantons Evan-
+                <lb />geliques, Zurig, Berne, Glaris, Basle, Schafhause, et
+                <lb />Appenzel, avec tous leurs Alliez et confederez, nomme-
+                <lb />ment la Republique de Geneve, la ville et Comté
+                <lb />de Neufchatel, les villes de S[ain]t Gall, Milhause, et
+                <lb />Bienne; Item les Ligues Grises et dependances;
+                <lb />les Villes de Bremen et d’Embden, et de plus tous
+                <lb />Roys, Princes et Etats, villes, personnes particulieres
+                <lb />a qui les Seigneurs Etats Generaux sur la requisition
+                <lb />qui leur en sera faite accorderont d’y estre compris.
+                <lb />
+                <lb />38,,
+                <lb />Et pour plus grande seureté ce traité de
+                <lb />paix et de tous les points et articles y contenus
+                <lb />sera led[it] present traité publié, verifié et enre-
+                <lb />gistré en la Cour du Parlement de Paris et de tous
+                <lb />autres Parlements du Royaume de France et
+                <lb />Chambre des Comptes dud[it] Paris comme aussi sembla-
+                <lb />blement led[it] traité sera publié verifié et enregistré
+                <lb />par les Seigneurs Etas Generaux dans les Cours et
+                <lb />autres places 1à ou l’on a accoustumé de faire les
+                <lb />publications, verifications et enregistrements.
+                <lb />
+                <pb facs="#FacsPnr39"/>39,,
+                <lb />Le present traité sera ratifié et approuvé par
+                <lb />le Seigneur Roy et les Seigneurs Etats Generaux,
+                <lb />et les lettres de ratification seront delivrées dans
+                <lb />le terme de trois semaines, ou plust si faire se peut,
+                <lb />à compter du jour de la signature.
+                <lb />
+                <lb />En foy de quoy, nous Ambassadeurs Extraordinaires
+                <lb />et Plenipotentiaires de Sad[ite] Majesté, et des Seigneurs
+                <lb />Etats Generaux, en vertu de nos Pouvoirs respectifs,
+                <lb />avons esd[its] noms signé ces presentes de nos seings
+                <lb />ordinaires et à icelles fait apposer les cachets de nos
+                <lb />armes. À Vtrecht le unzieme avril mil sept cent treize
+                <lb />
+                <lb />Huxelles&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;J[.]v[.] Randwyck
+                <lb />
+                <lb />Mesnager&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;Willem Buys.
+                <lb />
+                <lb />&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; B[.]v[.] Dussen
+                <lb />
+                <lb />&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; C. v. Gheel van
+                <lb />&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; Spanbroeck
+                <lb />
+                <lb />&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; F. A[.] Baron de Reede
+                <lb />&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; de Renswoude
+                <lb />
+                <lb />&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; S[.]v[.] Goslinga
+                <lb />
+                <lb />&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; Graef van Kniphuisen
+                <lb />
+                <pb facs="#FacsPnr40"/>Exhibitum &lt;…&gt; 13 April 1713
+                <lb />
+                <lb />
+                <lb />Article Separé
+                <lb />
+                <lb />Comme les Paysbas Espagnols, et les villes et
+                <lb />places cedées par le Roy tres Chrestien par
+                <lb />le traité conclu ce jourd’huy entre sa dite
+                <lb />Majesté et les Seigneurs Estats generaux
+                <lb />doivent appartenir à la Maison d’Austriche
+                <lb />executera toutes les conditions stipulées dans
+                <lb />led[it] traité par raport aux Paysbas
+                <lb />Espagnols et villes et places cedées par le
+                <lb />Roy tres Chrestien apres qu’elles en aura
+                <lb />esté mise en possession.
+                <lb />Cet article separé aura la mesme force
+                <lb />que s’il estoit inseré dans le traité et
+                <lb />
+                <pb facs="#FacsPnr41"/>sera ratifié en mesme temps que led[it] traité
+                <lb />En foy de quoy nous Ambassadeurs Ext[raordinai]res
+                <lb />et Plenipotentiaires du Roy tres Chrestien
+                <lb />et de Seigneurs Estats generaux avons signé
+                <lb />le present article, et y avons fait apposer les
+                <lb />cachets de nos armes à Vtrecht le onzieme
+                <lb />avril de mille sept cent treize
+                <lb />
+                <lb />Huxelles&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;J[.]v[.] Randwyck
+                <lb />
+                <lb />Mesnager&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;Willem Buys.
+                <lb />
+                <lb />&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp; B[.]v[.] Dussen
+                <lb />
+                <lb />&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp; C. v. Gheel van
+                <lb />&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp; Spanbroeck
+                <lb />
+                <lb />&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp; F. A. Baron de Reede
+                <lb />&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp; de Renswoude
+                <lb />
+                <lb />&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp; S[.]v[.] Goslinga
+                <lb />
+                <lb />&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp; Graef van Kniphuisen
+                <lb />
+                <pb facs="#FacsPnr42"/>Exhibitum d&lt;…&gt; 13 April 1713
+                <lb />
+                <lb />Article Separé
+                <lb />
+                <lb />Les Traités de Paix et de Commerce etant
+                <lb />conclus ce jourdhui ouzieme Avril, mil
+                <lb />sept Cent Treize entre Sa Majesté Tres Chretienne
+                <lb />et les Seigneurs Etats Generaux des Provinces
+                <lb />Unies, et sa Majesté voulant contribuer de plus
+                <lb />au retablissement de la Paix generale, particu-
+                <lb />lierement aussi de celle entre le Roy d’Espagne
+                <lb />et les Seigneurs Etats Generaux, promettent et
+                <lb />s’engagent, pour et au nom de Sa Majesté
+                <lb />Catholique que la Paix se fera aussi entre Elle et
+                <lb />les Seigneurs Etats Generaux, et que par la Traité
+                <lb />de cette paix, tous les avantages et utilités de
+                <lb />Commerce et de Navigation, et autres portez par
+                <lb />le Traité de Munster leur seront accordez et
+                <lb />que l’extension s’on fera en forme de Traité
+                <lb />aussi tost que les Ambassadeurs Plenipotentiaires
+                <lb />du Roy d’Espagne seront arrivés dans cette Ville
+                <lb />d’Utrecht.
+                <lb />
+                <pb facs="#FacsPnr43"/>Cet Article separé aura la même force que led[it]
+                <lb />Traité de Paix et comme s’il y estoit inseré de mot
+                <lb />en mot et sera ratifié dans le même tems que
+                <lb />ce Traité.
+                <lb />En foy de quoy nous Ambassadeurs Extraordinaires
+                <lb />et Plenipotentiaires du Roy tres Chretien et des Seigneurs
+                <lb />Etats Generaux, avons signé le present article et y
+                <lb />avont fait apposer les cachets de nos Armes, à
+                <lb />Utrecht l’onzieme Avril mil Sept cent treize.
+                <lb />
+                <lb />Huxelles&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;J[.]v[.] Randwyck
+                <lb />
+                <lb />Mesnager&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;Willem Buys.
+                <lb />
+                <lb />&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp; B[.]v[.] Dussen
+                <lb />
+                <lb />&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp; C[.]v[.] Gheel van
+                <lb />&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp; Spanbroeck
+                <lb />
+                <lb />&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp; F[.]A[.] Baron de Reede
+                <lb />&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp; de Renswoude
+                <lb />
+                <lb />&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp; S[.]v[.] Goslinga
+                <lb />
+                <lb />&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp; Graef van Kniphuisen
+                <lb />
+                </p>
+            </div>
+        </body>
+        <back>
+            <listBibl>
+                <bibl xml:id="a103">
+                    <title level="a">Theatrum Europaeum (1713-04-11)</title>
+                    <title level="m">Theatrum Europaeum, Band 20 (1713–1715) Aus: Dokumentenarchiv der Universitätsbibliothek Augsburg (Drucke vor 1900 / Historische Geschichtswerke).</title>
+                    <biblScope>
+                        <graphic xml:id="A1Pnr1" url="https://www.ieg-friedensvertraege.de/dbimages/img_49e723b2d8e8c"/>
+                        <graphic xml:id="A1Pnr2" url="https://www.ieg-friedensvertraege.de/dbimages/img_49e723b90ad87"/>
+                        <graphic xml:id="A1Pnr3" url="https://www.ieg-friedensvertraege.de/dbimages/img_49e723be1f58a"/>
+                        <graphic xml:id="A1Pnr4" url="https://www.ieg-friedensvertraege.de/dbimages/img_49e723c38cb65"/>
+                        <graphic xml:id="A1Pnr5" url="https://www.ieg-friedensvertraege.de/dbimages/img_49e723cd698aa"/>
+                        <graphic xml:id="A1Pnr6" url="https://www.ieg-friedensvertraege.de/dbimages/img_49e723cd698aa"/>
+                        <graphic xml:id="A1Pnr7" url="https://www.ieg-friedensvertraege.de/dbimages/img_49e723d29674b"/>
+                        <graphic xml:id="A1Pnr8" url="https://www.ieg-friedensvertraege.de/dbimages/img_49e723d784de9"/>
+                        <graphic xml:id="A1Pnr9" url="https://www.ieg-friedensvertraege.de/dbimages/img_49e723dc80f4a"/>
+                        <graphic xml:id="A1Pnr10" url="https://www.ieg-friedensvertraege.de/dbimages/img_49e723e212988"/>
+                    </biblScope>
+                </bibl>
+                <bibl>FRANCIS, David, The first Peninsular War, 1702-1713, London &amp; Tonbridge 1975. </bibl>
+            </listBibl>
+        </back>
+    </text>
+</tei:TEI>

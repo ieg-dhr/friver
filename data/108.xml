@@ -1,0 +1,888 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE tei SYSTEM "../resources/FriVer_DTD.dtd">
+
+<?xml-model href="../resources/FriVer.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns="http://www.tei-c.org/ns/1.0"
+    xml:id="pa000299-0108">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title level="s">European peace treaties of the pre-modern era in data / Europäische
+                    Friedensverträge der Vormoderne in Daten (FriVer+)</title>
+                <title when="1635-09-12" xml:id="t108" when-custom="1635 IX 12" level="a"
+                    ref="https://www.ieg-friedensvertraege.de/treaty/t-108-1-de.html"
+                    >Waffenstillstand von Stuhmsdorf</title>
+            </titleStmt>
+            <editionStmt>
+                <edition> Digital edition according to <ref target="http://www.tei-c.org/">TEI
+                        P5</ref>
+                </edition>
+                <funder>
+                    <ref target="https://www.text-plus.org/">TEXT+</ref>
+                </funder>
+                <editor role="http://id.loc.gov/vocabulary/relators/edt"
+                    ref="https://orcid.org/0000-0002-8741-5916">
+                    <persName>Jaap Geraerts</persName>
+                    <note>The transformation and enrichment of the data is done by Jaap Geraerts
+                        (IEG Mainz). The other members of the FriVer+ team are Fabian Cremer, Ines
+                        Grund, and Thorsten Wübbena (all IEG Mainz).</note>
+                    <note> The original data has been created by the <ref
+                            target="https://www.ieg-friedensvertraege.de">team of scholars</ref> who
+                        were part of the Europäische Friedensverträge der Vormoderne project. This
+                        project was lead by Prof. Dr. Heinz Duchhardt and was based at the Leibniz
+                        Institute of European History in Mainz. </note>
+                </editor>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>
+                    <orgName ref="http://www.isni.org/0000000119314040">Leibniz-Institut für
+                        Europäische Geschichte Mainz</orgName>
+                </publisher>
+                <distributor>
+                    <orgName ref="http://www.isni.org/0000000110101946">Universitäts- und
+                        Landesbibliothek Darmstadt</orgName>
+                </distributor>
+                <idno type="ISIL">http://lobid.org/organisation/DE-17</idno>
+                <date type="issued" when="2023-12-23"/>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">
+                        <p xml:lang="en">This file is licensed under the terms of the Creative
+                            Commons License CC-BY 4.0 (Attribution 4.0 International)</p>
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <repository xml:id="r30">Warschau AGAD <note>Dankt Gott an allen Enden (Preußisches
+                        Alleluja) <lb/>von Johann Stobaeus <lb/>geringe Qualität <lb/>
+                        <!--in original html
+                        <ref target="likecms.php?part=link_logger&amp;internal=1&amp;link=media/public/musik/1_Dankt_Gott_an_allen_Enden_20_st_kompl.mp3">(MP3,&nbsp;405kb)</ref>&nbsp; 
+                       &nbsp;<ref target="likecms.php?part=link_logger&amp;internal=1&amp;link=media/public/musik/1_Dankt_Gott_an_allen_Enden_64_st_kompl..wma">(WMA, 1,2mb)</ref> 
+                        <lb />hohe Qualität 
+                        <lb /> 
+                        &nbsp;<ref target="likecms.php?part=link_logger&amp;internal=1&amp;link=media/public/musik/1_Dankt_Gott_an_allen_Enden_96_st_kompl.mp3">(MP3, 2mb)</ref>&nbsp; 
+                        &nbsp;<ref target="likecms.php?part=link_logger&amp;internal=1&amp;link=media/public/musik/1_Dankt_Gott_an_allen_Enden_96_st_kompl..wma">(WMA, 1,9mb)</ref> 
+                        <lb />©&nbsp;cpo 999 571-2/classic production osnabrück/www.cpo.de 
+                    </p> 
+                        <p align="right">
+                            <lb /> 
+                            -->
+                        <p>&nbsp; </p></note></repository>
+                <msDesc>
+                    <p>Graphik: AGADWarschau Urk.Perg. 5514: schwedische Ratifikation, dat.
+                        Stockholm 1635 X 31 (Pergament, anh. Siegel; Wasserschäden)
+                        [Kollationierungsexemplar].</p>
+                    <p>Transkriptiongrundlage: Schwedisches Reichsarchiv, Stockholm:
+                        Originaltraktater med främmande makter: Polen No. A. Stilleståndsfördrag,
+                        Dat. Stuhmsdorf 12 Sept. 1635 n.st.<lb/>
+                        <lb/> Ratifikationsformeln in:<lb/> A) AGAD Warschau Urk. Perg. 5514:
+                        Christina Dei gratia Svecorum, Gothorum Wandalorumque designata Regina et
+                        Princeps hereditaria, Magna Princeps Finlandiae etc. etc. etc. Significamus
+                        praesentibus literis Nostris, quorum interest universis et singulis. Dedisse
+                        nos commissarios nostros plena potestate ac mandatis instructos ad
+                        tractandum, interveniente mediatione Serenissimorum Galliae et Magnae
+                        Britanniae Regum aliorumque principium de pace aut induciis cum Serenissimo
+                        Principe ac Domino Vladislao IV., Rege Poloniae, Magno Duce Lithuaniae etc.
+                        etc. etc. consanguineo nostro et Republica Polona. Qui congressi cum
+                        Serenitatis eius et Reipublicae Polonae commissariis sequentia pacta, uti
+                        verbotenus infra sunt expressi et inserta, inierunt, statuerunt et
+                        concluserunt.<lb/> B) als C in GSA Berlin VI HA Nr. 605, Dumont: Wladislaus
+                        IV., Dei gratia Rex Poloniae, Magnus Dux Lithuaniae etc. etc. etc.
+                        significamus omnibus ac singulis, eis inprimis (Dumont : imprimis), quorum
+                        interest, dedisse Nos commissarios nostros plena potestate ac mandatis
+                        instructus (Dumont : mandato instructos) ad tractandum interveniente
+                        mediatione Serenissimorum Galliae et Magnae Britanniae Regum, aliorumque
+                        Principum de pace aut induciis, cum Serenissima Principe ac Domina
+                        Christina, Suecorum, Gothorum, Vandalorumque designata Regina, Magna
+                        Principe Finlandiae pp consanguinea nostra, et Regno Sueciae. Qui congressi
+                        cum Serenitatis ejus et Regni Sueciae commissariis, sequentia pacta, uti
+                        verbotenus infra sunt expressa et inserta, inierunt, statuerunt ac concluserunt.<lb/>
+                        <lb/> Weitere Stücke:<lb/>
+                        <lb/> GHSA Berlin VI HA Nr. 605: Kopie der Ratifikation Polens (1635 IX 15,
+                        in Castris Quidrinum),-13).<lb/> SHSA Dresden Loc 5207: Kopie der
+                        Ratifikation Polens;<lb/> SHSA Dresden Loc 8101: Kopie der Ratifikation
+                        Polens.</p>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p> The data in this XML file, originally created by the project <ref
+                        target="https://www.ieg-friedensvertraege.de/vertraege">Europäische
+                        Friedensverträge der Vormoderne online</ref> has been transformed in
+                    accordance with <ref target="http://www.tei-c.org/">TEI P5</ref> as part of the
+                    project <ref
+                        target="https://www.ieg-mainz.de/en/research/research-projects/european-peace-treaties-of-the-pre-modern-era-in-data"
+                        >Europäische Friedensverträge der Vormoderne in Daten (FriVer+)</ref>
+                </p>
+            </projectDesc>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="la" xml:id="lan6">Latein</language>
+            </langUsage>
+        </profileDesc>
+    </teiHeader>
+    <standOff>
+        <listPerson>
+            <person role="signatory" xml:id="p91">
+                <persName ref="https://explore.gnd.network/gnd/4046496-9">
+                    <name>Polen</name>
+                </persName>
+            </person>
+            <person role="signatory" xml:id="p99">
+                <persName ref="https://explore.gnd.network/gnd/4077258-5">
+                    <name>Schweden</name>
+                </persName>
+            </person>
+            <person xml:id="pp0101">
+                <persName ref="https://explore.gnd.network/gnd/118834657">
+                    <name>Władysław IV of Polen</name>
+                </persName>
+            </person>
+            <person xml:id="pp0075">
+                <persName ref="https://explore.gnd.network/gnd/123314097">
+                    <name>Jakub Zadzik</name>
+                </persName>
+            </person>
+            <person xml:id="pp0102">
+                <persName ref="https://explore.gnd.network/gnd/1243917660">
+                    <name>Rafał Leszczyński</name>
+                </persName>
+            </person>
+            <person xml:id="pp0078">
+                <persName ref="https://www.wikidata.org/wiki/Q442621">
+                    <name>Magnus Ernest Denhoff</name>
+                </persName>
+            </person>
+            <person xml:id="pp0103">
+                <persName>
+                    <name>Remigius de Otok Zalesky</name>
+                </persName>
+            </person>
+            <person xml:id="pp0104">
+                <persName ref="https://explore.gnd.network/gnd/117677337">
+                    <name>Johann Sigismund (Brandenburg)</name>
+                </persName>
+            </person>
+            <person xml:id="pp0105">
+                <persName ref="https://www.wikidata.org/wiki/Q501449">
+                    <name>Andreas von Kreytzen</name>
+                </persName>
+            </person>
+            <person xml:id="pp0106">
+                <persName>
+                    <name>Johann Georg von Sauken</name>
+                </persName>
+            </person>
+            <person xml:id="pp0086">
+                <persName ref="https://explore.gnd.network/gnd/104049502">
+                    <name>Achatius Axel de Göxholm</name>
+                </persName>
+            </person>
+            <person xml:id="pp0073">
+                <persName ref="https://explore.gnd.network/gnd/118720856">
+                    <name>Charles I of England</name>
+                </persName>
+            </person>
+            <person xml:id="pp0068">
+                <persName ref="https://explore.gnd.network/gnd/136469604">
+                    <name>Hermann von Wrangel</name>
+                </persName>
+            </person>
+            <person xml:id="pp0107">
+                <persName ref="https://explore.gnd.network/gnd/128555661">
+                    <name>Bernhard von Königseck</name>
+                </persName>
+            </person>
+            <person xml:id="pp0108">
+                <persName ref="https://explore.gnd.network/gnd/121370259">
+                    <name>Georg von Rauschken</name>
+                </persName>
+            </person>
+            <person xml:id="pp0109">
+                <persName>
+                    <name>Peter Bergman</name>
+                </persName>
+            </person>
+            <person xml:id="pp0110">
+                <persName ref="https://explore.gnd.network/gnd/137917570">
+                    <name>Per Brahe</name>
+                </persName>
+            </person>
+            <person xml:id="pp0111">
+                <persName ref="https://explore.gnd.network/gnd/117191949">
+                    <name>Johan Oxenstierna</name>
+                </persName>
+            </person>
+            <person xml:id="pp0112">
+                <persName>
+                    <name>Johannes Nicodemus</name>
+                </persName>
+            </person>
+            <person xml:id="pp0113">
+                <persName ref="https://explore.gnd.network/gnd/122824458">
+                    <name>Claude de Mesmes</name>
+                </persName>
+            </person>
+            <person xml:id="pp0114">
+                <persName>
+                    <name>Georg Douglas</name>
+                </persName>
+            </person>
+            <person xml:id="pp0115">
+                <persName ref="https://explore.gnd.network/gnd/137777922">
+                    <name>Rochus van den Honert</name>
+                </persName>
+            </person>
+            <person xml:id="pp0116">
+                <persName ref="https://explore.gnd.network/gnd/141936347">
+                    <name>Andries Bicker</name>
+                </persName>
+            </person>
+            <person xml:id="pp0117">
+                <persName ref="https://explore.gnd.network/gnd/1014037905">
+                    <name>Joachim van Andreae</name>
+                </persName>
+            </person>
+        </listPerson>
+        <listPlace>
+            <place xml:id="loc57">
+                <placeName ref="https://explore.gnd.network/gnd/4106339-9">Stuhmsdorf</placeName>
+            </place>
+        </listPlace>
+        <facsimile>
+            <surface xml:id="FacsPnr1">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_46248d2e623c2"/>
+            </surface>
+            <surface xml:id="FacsPnr2">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_46248d4316061"/>
+            </surface>
+            <surface xml:id="FacsPnr3">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_46248d6c2c67f"/>
+            </surface>
+            <surface xml:id="FacsPnr4">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_46248d89555d9"/>
+            </surface>
+            <surface xml:id="FacsPnr5">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_46248da1777fc"/>
+            </surface>
+            <surface xml:id="FacsPnr6">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_46248dbbe2ded"/>
+            </surface>
+            <surface xml:id="FacsPnr7">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_46248ddaf369a"/>
+            </surface>
+            <surface xml:id="FacsPnr8">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_46248e0aa33e5"/>
+            </surface>
+            <surface xml:id="FacsPnr9">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_46248e29291d9"/>
+            </surface>
+            <surface xml:id="FacsPnr10">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_46248e420cbf2"/>
+            </surface>
+            <surface xml:id="FacsPnr11">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_46248e6fa6f4c"/>
+            </surface>
+            <surface xml:id="FacsPnr12">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_46248ea0c8110"/>
+            </surface>
+            <surface xml:id="FacsPnr13">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_46248eba0d7f3"/>
+            </surface>
+            <surface xml:id="FacsPnr14">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_46248ed141363"/>
+            </surface>
+            <surface xml:id="FacsPnr15">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_46248ee80a7ba"/>
+            </surface>
+        </facsimile>
+    </standOff>
+    <text>
+        <front>
+            <div type="Drucke">
+                <p> SHSADresden Loc. 8101 (dt.; Formula der verfasseten Sturmbdorfischen
+                    Vereinigungsartickel; umfasst nur 22 Artikel). </p>
+                <p>Sverges Traktater V:2, S. 333-342. <lb/>
+                </p>
+                <p>Dumont VI/1, S.115*. </p>
+                <p>Chwalkowski, Jus publicum Regni Poloniae, S. 339. </p>
+                <p>Londorp, Acta Publica 4, Lib. III, Cap. XIII, S. 478 (dt.). </p>
+                <p>Wicquefort, Histoire des Provinces Unies 3, S. 674 (frz.). </p>
+                <p> Mercure français 21, S.83 (frz.). Theatrum Europaeum III, S. 564 (dt.),
+                        LINK:<ref
+                        target="http://digbib.bibliothek.uni-augsburg.de/3/pages/02_IV_13_2_0026_03_0623.html"
+                        >
+                        http://digbib.bibliothek.uni-augsburg.de/3/pages/02_IV_13_2_0026_03_0623.html</ref>
+                </p>
+            </div>
+
+            <div type="Inhalt">
+                <p>[Ratifikationsformel]<lb/>Bevollmächtigte. Waffenstillstand 1629. Vermittlung
+                    Frankreichs, Großbritanniens.<lb/>Art. I Waffenstillstand für 26 Jahre (bis 1661
+                    VI 1).<lb/>Art. II Amnestie. Schutz der vom Traktat berührten
+                    Provinzen.<lb/>Art. III Schweden gibt Eroberungen in Preußen (u.a. Pillau) an
+                    Polen zurück. <lb/>Art. IV Marienburg und Elbing (letzteres nach erfolgter
+                    polnischer Ratifikation) unter polnische Hoheit.<lb/>Art. V Restitution der
+                    Einnahmequellen.<lb/>Art. VI Livland schwedisch. Kurland unter polnischer
+                    Hoheit.<lb/>Art. VII Tradierte Rechte (einschl. Religionsausübung) werden im
+                    status quo ante gewahrt. <lb/>Art. VIII Amnestie.<lb/>Art. IX. Optionsrecht für
+                    Livland und Kurland.<lb/>Art. X Ausübung des Optionsrechtes.<lb/>Art XI. Bestand
+                    aller Rechtsakte.<lb/>Art. XII-XIII Eigentumsrechte.<lb/>Art. XIV
+                    Handelsrechte.<lb/>Art. XV Handel auf der Düna.<lb/>Art. XVI Rückführung
+                    Flüchtiger aus Livland. <lb/>Art. XVII Überführung des Fußvolkes aus
+                    Livland.<lb/>Art. XVIII Regulierung der Schäden und Rechtsverletzungen.<lb/>Art.
+                    XIX Schlichtung durch beidseitige Kommission. <lb/>Art. XX Polen verpflichtet
+                    sich, dass von den polnischen Provinzen kein Verstoß ausgehen wird. <lb/>Art.
+                    XXI Von preußischen Häfen wird kein Angriff auf Schweden ausgehen.<lb/>Art. XXII
+                    Territoriale Bestimmungen bleiben ungeachtet eines möglichen
+                    Friedensschlusses.<lb/>Art. XXIII Beitrittsmöglichkeit.<lb/>Art. XXIV
+                    Beidseitige Bekräftigung. Wille zur Ratifikation. Ausführung der territorialen
+                    Bestimmungen durch Kommission.<lb/>[Ratifikation] </p>
+            </div>
+            <div type="Kommentar">
+                <p>Kurz vor dem Ablauf des 1629 zu Altmark geschlossenen Waffenstillstandes kam
+                    unter der Vermittlung Frankreichs, Großbritanniens und der Niederlande dieser
+                    auf 26 Jahre befristete Waffenstillstand zustande. Schweden gab zwar seine
+                    Eroberungen im königlichen Preußen zurück, konnte aber Livland behalten. Es gab
+                    damit die Position auf, die es 1629 im Waffenstillstand von Altmark erreicht
+                    hatte, nicht zuletzt um seine Kräfte nicht außerhalb des Dreißigjährigen Krieges
+                    zu binden. Für Polen hatte der Waffenstillstand eine signifikante Bedeutung:
+                    König Władysław verzichtet auf seinen Anspruch auf die schwedische Krone.
+                    Altmark und Stuhmsdorf, beides "settlements of exhaustions" (Frost), konnten
+                    jedoch keine Stabilität herstellen. Im Sommer 1655 brach Karl X. Gustav mit
+                    seinem Einfall in polnisches Gebiet diesen Waffenstillstand und läutete damit
+                    den Ersten Nordischen Krieg ein. </p>
+            </div>
+            <div type="Kontext">
+                <p>Vergleiche auch Nordischer Krieg<lb/><lb/>1572 Mit dem Tod Sigismund II. August
+                    erlischt die Jagiellonendynastie im Mannesstamm. Polen wird
+                    Wahlmonarchie.<lb/>1587 Mit Sigismund III. (schwedischer Kronprinz) wird
+                    erstmals ein Wasa auf den polnischen Thron gewählt. (verh. mit Anna, der
+                    Schwester Ferdinand II., danach mit deren Schwester Konstanze von
+                    Habsburg).<lb/>1592 Nach dem Tod König Johann III. von Schweden wird Sigismund
+                    III. auch schwedischer König. <lb/>Februar 1600 Schweden schließt Sigismund III.
+                    und seine Nachkommen von der schwedischen Thronfolge aus. Herzog Karl von
+                    Södermanland wird zum König (Karl IX., ab 1604) berufen.<lb/>März 1600
+                    Bewaffnete Auseinandersetzung zwischen Polen und Schweden beginnt.<lb/>27.
+                    September 1605 Dreißjähriger Waffenstillstand. <lb/>Ab 1609 Polen greift
+                    militärisch in die &quot;Moskauer Wirren&quot; ein.<lb/>9. März 1617 Friede von
+                    Stolbovo zwischen Schweden und Russland. Danach beginnt der <lb/>1617 Krieg
+                    zwischen Polen und Schweden um Livland erneut.<lb/>1618 -1648 Dreißigjähriger
+                    Krieg. Polen bleibt offiziell neutral. <lb/>16. September 1619 Gustav II. Adolf
+                    erobert Riga und erreicht damit die schwedische Vorherrschaft über
+                    Livland<lb/>26. August 1625 Schweden erobert Dorpat.<lb/>7. Januar 1626
+                    Polnisch-litauische Niederlage in Kurland. Schweden besetzt
+                    die<lb/>kurländischen Häfen.<lb/>Juli 1626 Schweden besetzt die Küste des
+                    Königlichen und des Herzoglichen Preußen. In zähen Kämpfen (auch auf der Ostsee)
+                    kann Schweden jedoch keine Erfolge erringen.<lb/>Juni 1629 Schweden erleidet bei
+                    Marienwerder eine Niederlage.<lb/>26. September 1629 Waffenstillstand von
+                    Altmark (6 Jahre). Schweden behält die von ihm besetzten Küstenstädte (Ausnahme:
+                    Danzig). Der polnische König Sigismund III. erhält seine Ansprüche
+                    aufrecht.<lb/>30. April 1630 Tod König Sigismund III. ; sein ältester Sohn
+                    Wladyslaw IV. wird zum König gewählt. Er erhält seine Ansprüche auf den
+                    schwedischen Thron aufrecht. Die Auseinandersetzung geht
+                    weiter.<lb/>Januar/Februar 1635 Erste Waffenstillstandsverhandlungen in
+                    Pr.Holland.<lb/>Mai 1635 Waffenstillstandsverhandlungen werden fortgesetzt
+                    (Marienburg und Marienwerder).<lb/>12. September 1635 Waffenstillstand zu
+                    Stuhmsdorf (26 Jahre). Wladyslaw IV. verzichtet auf die Ansprüche auf den
+                    schwedischern Thron. Livland und Estland bleiben schwedisch.<lb/>1648
+                    Kosakenunruhen. <lb/>20. Mai 1648 Tod Wladyslaw IV.; Johann III. Kasimir wird
+                    polnischer König.<lb/>Sommer 1655 Karl X. Gustav fällt in Polen ein. Beginn des
+                    Nordischen Krieges; er endet am <lb/>3. Mai 1660 mit dem Frieden von Oliva. </p>
+            </div>
+
+        </front>
+        <body>
+
+            <div type="Edition">
+                <p>Nos<note n="1" type="crit_app">AGADWarschau: Umstellung der Reihenfolge in dem
+                        gesamten Abschnitt (Schweden, Brandenburg, Polen); notiert sind deswegen nur
+                        Textvarianten (nicht jedoch Kasusabweichungen).</note> serenissimi ac
+                    potentissimi principis ac domini, domini<note n="2" type="crit_app"
+                        >AGADWarschau: [Auslassung:] Domini.</note>
+                    <rs ref="#pp0101">Vladislai Quarti</rs><note n="3" type="annotation"
+                        >Textvariante: AGADWarschau, Dumont: IV. Władysław IV. (1632-1648), König
+                        von Polen.</note>, Dei gratia regis Poloniae, magni ducis Lithuaniae
+                    etc.etc.etc. atque inclytae reipublicae Polonae commissarji<note n="4"
+                        type="crit_app">AGADWarschau , Dumont: commissarii. (Abweichungen in der
+                        i/j-Schreibweise im folgenden nicht notiert.). </note>, <rs ref="#pp0075"
+                        >Jacobus Zadzikae</rs><note n="5" type="annotation">Textvariante:
+                        AGADWarschau: D[omi]no Jacobo Zadzick. Dumont: Zadeik. Sachanmerkung: Jakub
+                        Zadzik (1582-1643), Vizekanzler, Bischof.</note>, episcopus Culmensis et
+                    Pomesaniae, nominatus Cracoviensis<note n="6" type="crit_app">Sverges Traktater
+                        verwendet die Schreibweise –u-; dies wurde durch das gängige –v- im gesamten
+                        Text ersetzt. Vergleiche folgende Anmerkung.</note> dux Severensiis<note
+                        n="7" type="crit_app">AGADWarschau, Dumont: Severen[sis].</note>, generalis
+                    praepositus Miechoviensi, supremus regni<note n="8" type="crit_app"
+                        >AGADWarschau, Dumont: [Einschub:] Poloniae.</note> cancellarius; <rs
+                        ref="#0102">Raphael comes de Lesno</rs><note n="9" type="crit_app"
+                        >Textvariante: Dumont: Lezno. Sachanmerkung: Rafał Leszczyński (1579-1636),
+                        Wojewode von Bełz.</note>, palatinus Belzensis Rubieszoviensis etc.<note
+                        n="10" type="crit_app">AGADWarschau, Dumont: [Auslassung:] etc.</note>
+                    praefectus; <rs ref="#pp0078">Magnus Ernestus Donhoff</rs><note n="11"
+                        type="crit_app">Textvariante: AGADWarschau, Dumont: Dönhoff. Sachanmerkung:
+                        Magnus Ernest Denhoff (1589-1648), Wojewode von Pommern.</note>, castellanus
+                    Pernavien[sis]. Derpatensis, Oberpolien[sis] praefectus<note n="12"
+                        type="crit_app">AGADWarschau: Dönhoff, Herbipolensi etc. Praefecto [alles
+                        andere Auslassung].</note>; <rs ref="#pp0103"/>Remigius de Otok<note n="13"
+                        type="crit_app">AGADWarschau: Othok.</note> Zaleski<note n="14"
+                        type="crit_app">Textvariante: AGADWarschau: Zalesky. Dumont: Ottokzaleski.
+                        Sachanmerkung: Remigius de Otok Zalesky, keine weiteren Angaben
+                        ermittelt.</note>, referendarius regni; <rs ref="#pp0076">Iacobus a
+                        Sobieszyn Sobieski</rs><note n="15" type="crit_app">Textvariante:
+                        AGADWarschau, Dumont: Sobiesky.Sachanmerkung: Jakub Sobieski (1590-1646),
+                        Sejmmarschall, Burggraf von Krakau.</note>, incisor regni Crasnostaviensis
+                        Jaworoviensis<note n="16" type="crit_app">AGADWarschau: [Auslassung; statt
+                        dessen:] etc.</note> praefectus, notum testatumque facimus universis, quorum
+                    interest, quod cum induciae sexennales inter serenissimos ac potentissimos
+                    reges, ac regna Poloniae et Sveciae<note n="17" type="crit_app">AGADWarschau:
+                        Sueciae ac Poloniae. Sverges Traktater verwendet durchgehend die
+                        Schreibweise –Sve-, hier wurde die Variante –Sue- gewählt.</note>, eo<note
+                        n="18" type="crit_app">Dumont: quo.</note> inter alia fine anno 1629<note
+                        n="19" type="crit_app">Textvariante: Dumont: MDCXXIX. Sachanmerkung:
+                        Schweden und Preußen schlossen am 26. September 1629 zu Altmark einen
+                        sechsjährigen Waffenstillstand.</note> sancitae essent; ut interea vel de
+                    pace perpetua, vel induciis longioribus, interveniente mediatione serenissimorum
+                    ac potentissimorum Galliae et <rs ref="#pp0073">Angliae</rs><note n="20"
+                        type="annotation">Karl I. (1625-1649), König von Großbritannien.</note>
+                    regum, aliorumque principum, loco et tempore, de quibus per <rs ref="#pp0079"
+                        >serenissimum electorem Brandeburgicum</rs><note n="21" type="annotation"
+                        >Georg Wilhelm (1619-1640), Kurfürst von Brandenburg.</note> etc. etc. unum
+                    ex iisdem mediatoribus, inter partes conventum esset, ageretur. Inde postquam a
+                    sua serenitate per eiusdem legatos illustrissimum principem <rs ref="#pp0104"
+                        >Sigismundum marchionem Brandeburgicum</rs><note n="22" type="annotation"
+                        >Johann Sigismund (1608/1618-1620), Kurfürst von Brandenburg.</note> et<note
+                        n="23" type="crit_app">Dumont: [statt: et] etc.etc.</note> illustres ac
+                    magnificos, <rs ref="#0105"/>Andream a Kreytzen<note n="24" type="crit_app"
+                        >Textvariante: AGADWarschau: Kreyzen. Dumont: Kreutzen. Sachanmerkung:
+                        Andreas von Kreytzen (1579-1641), Landhofmeister.</note>, consiliarium
+                    ducalis Prussiae regentem et praefectum provincialem; <rs ref="#pp0106">Iohannem
+                        Georgium à Sauckoen</rs><note n="25" type="crit_app">Textvariante:
+                        AGADWarschau: Saucken. Dumont: Sauken. Sachanmerkung: Johann Georg von
+                        Sauken (1592-1638), Amtshauptmann.</note>, consiliarium regentem et
+                    cancellarium, <rs ref="#pp0107">Bernardum a Konigseck</rs><note n="26"
+                        type="crit_app">Textvariante: AGADWarschau: Bernhardum a Königseck. Dumont:
+                        Conigseck. Sachanmerkung: Bernhard von Königseck.Konnte nicht ermittelt
+                        werden.</note>, consiliarium provincialem; <rs ref="#pp0108">Georgium à
+                        Rausken</rs><note n="27" type="crit_app">Textvariante: AGADWarschau:
+                        Rauschken. Dumont: Rauscken. Sachanmerkung: Georg von Rauschken. Konnte
+                        nicht ermittelt werden.</note>, consiliarium iudicii aulici, et <rs
+                        ref="#pp0109">Petrum Bergmanum</rs><note n="28" type="crit_app"
+                        >Textvariante: AGADWarschau 5514: Bergmannum. Dumont: Borkmannum.
+                        Sachanmerkung: Peter Bergman (Lebensdaten unbekannt), brandenburgischer Rat
+                        und Resident in Danzig.</note>, consiliarium, invitati<note n="29"
+                        type="crit_app">AGADWarschau: in civitati. Dumont: in civitate.</note>
+                        Stumdorffium<note n="30" type="crit_app">AGADWarschau: Stumsdorffium.
+                        Dumont: Stumsdorfii.</note>, cum illustrissimis serenissimae reginae
+                    regnique Sveciae commissariis, domnio <rs ref="#pp0110">Petro Brahe</rs><note
+                        n="31" type="crit_app">Per Brahe (1520-1590), Politiker und
+                    Diplomat.</note>, comite in Visingsboryk<note n="32" type="crit_app"
+                        >AGADWarschau: Wisingsbork. Dumont: Visingsborg.</note>, libero barone in
+                    Ridboholm et Lindholmen<note n="33" type="crit_app">AGADWarschau, Dumont:
+                        Lindhom.</note>, regni Sveciae senatore, legifero Vesmaniae<note n="34"
+                        type="crit_app">AGADWarschau, Dumont: Westmanniae.</note>, Montanorum et
+                    Dale Carlorum; <rs ref="#pp0068">Hermano Vrangelio</rs><note n="35"
+                        type="crit_app">Textvariante: AGADWarschau, Dumont: Hermanno Wrangelio.
+                        Sachanmerkung: Hermann Wrangel (1587-1643), Feldmarschall.</note>, regni
+                    Sueciae senatore, et exercituum campimarschallo<note n="36" type="crit_app"
+                        >AGADWarschau: Campi Mareschallo.</note>, haereditario in Lerieholm
+                        etc.<note n="37" type="crit_app">AGADWarschau, Dumont: Lergeholm,
+                        Skokloster. [Auslassung etc.]</note>, equite aurato<note n="38"
+                        type="crit_app">AGADWarschau: [montanorum ... aurato:] unleserlich wegen
+                        Falz.</note>, <rs ref="#pp0086">Achacio<note n="39" type="crit_app"
+                            >AGADWarschau Urk.Perg. 5514, Dumont: Achatio.</note> Axelii</rs><note
+                        n="40" type="crit_app">Achatius Axel. Konnte nicht ermittelt werden.</note>,
+                    regni Sveciae senatore, et legifero Nericiae, haereditario in Goxholm&nbsp;<note
+                        n="41" type="crit_app">AGADWarschau: de Göxholm.</note> etc.<note n="42"
+                        type="crit_app">AGADWarschau: et [ein unleserliches Wort].</note>&nbsp;
+                        Iohanne&nbsp;<note n="43" type="crit_app">Dumont: [Einschub vor Iohanne:]
+                        et.</note>
+                    <rs ref="#pp0111">Oxenstierna</rs><note n="44" type="crit_app">Textvariante:
+                        Dumont: Oxenstierno. Sachanmerkung: Johan Oxenstierna (1612-1657),
+                        Reichsrat, Reichsmarschall.</note> Axelii, serenissimae reginae<note n="45"
+                        type="crit_app">AGADWarschau: Sac. Reginae [Einschub:] Majestatis.</note>
+                    consiliario secretiore, libero barone in Kimitho, Domino in Fyholm etc.<note
+                        n="46" type="crit_app">AGADWarschau: Fiholm et Tidoen. Dumont: Fyholmen et
+                        Tidoen.</note>, et <rs ref="#pp0112">Iohanne Nicodemi</rs><note n="47"
+                        type="crit_app">Johannes Nicodemus. Keine weiteren Angaben ermittelt.</note>
+                    serenissimae regniae<note n="48" type="crit_app">AGADWarschau: S.ae Reg.ae
+                        M.tis. Dumont: Serenissimae Reginae.</note> secretario, et ad exercitum
+                    Prussicum commissario generali convenissemus, ac interventu in primis
+                    serenissimi ac potentissimi principis, domini, domini. <rs ref="#pp0073"
+                        >Ludovici XIII.</rs><note n="49" type="annotation">Ludwig XIII. (1610-1643),
+                        König von Frankreich.</note>, Franciae et Navarrae regis christianissimi,
+                    per illustrissimum dominum <rs ref="#pp000113"/>Claudium de Mesmes<note n="50"
+                        type="crit_app">Claude de Mesmes (1595-1650), Comte d´Avaux,
+                        Diplomat.</note>, equitem auratum; dominum d´Auaux<note n="51"
+                        type="crit_app">Dumont: de Avaux.</note>, comitem consistorianum, et suae.
+                    regiae. maiestatis per septemtrionem<note n="52" type="crit_app">AGADWarschau:
+                        septentrionem.</note> extraordinarium legatum, ac serenissimi et
+                    potentissimi principis, domini, domini Caroli, Magnae Britanniae etc. regis,
+                    fidei defensoris, per illustrissimum d[omi]n[um] <rs ref="#0114">Georgium
+                        Douglassium</rs><note n="53" type="annotation">Georg Douglas (gest. 1636),
+                        schwedischer Reichsmarschall, englischer Legat.</note>, equitem auratum
+                        suae<note n="54" type="crit_app">AGADWarschau: [Einschub:] Regis. Dumont:
+                        S.R.</note> maiestatis legatum; nec non celsorum, ac praepotentium D.D.<note
+                        n="55" type="crit_app">Dumont: Dominorum.</note> ordinum Belgicorum, per
+                    illustres ac magnificos legatos, dominos<note n="56" type="crit_app"
+                        >AGADWarschau: Dominus.</note>
+                    <rs ref="#pp0115">Rochum<note n="57" type="crit_app">Dumont: Bochum.</note> van
+                        den Honaert</rs><note n="58" type="crit_app">Textvariante: Dumont: Honnart.
+                        Sachanmerkung: Rochus van den Honert (1572-1638), Ritter.</note>, primum in
+                    suprema Hollandiae, Zelandiae<note n="59" type="crit_app">AGADWarschau:
+                        zeelandiae. Dumont: Selandiae.</note>, Vestphrisiaeque<note n="60"
+                        type="crit_app">AGADWarschau, Dumont: Westfrisiaeque.</note> curia
+                    consiliarium; <rs ref="#pp0116">Andream Bicker</rs><note n="61" type="crit_app"
+                        >Textvariante: Dumont: Biker. Sachanmerkung: Andries Bicker (gest. 1652),
+                        Bürgermeister, Diplomat.</note>, consiliarium<note n="62" type="crit_app"
+                        >AGADWarschau, Dumont: consulem.</note> civitatis Amstelredamensis<note
+                        n="63" type="crit_app">Dumont: Amsterodamensis.</note>; et <rs ref="#pp0117"
+                        >Joachimum Andreae</rs><note n="64" type="annotation">Joachim Andrae. Keine
+                        weiteren Angaben ermittelt.</note> in suprema Frisiae curia consiliarium
+                    pacis tractatum auspicati essemus, ac diu multumque agitassemus, eo tandem
+                    divino numine favente, praedictisque illustrissimis legatis indefessam operam
+                    huic negotio<note n="65" type="crit_app">AGADWarschau: negocio.</note>
+                    impendentibus, rem deduximus, ut cum praememoratis serenissimae reginae
+                    regnique, Sveciae commissariis<note n="66" type="crit_app">AGADWarschau:
+                        [impendentibus ... commissariis:] unleserlich wegen Falz.</note>, de
+                    induciis ad modum sequentem convenerimus, statuerimus et concluserimus. <lb/>
+                    <lb/>1. <lb/>Sint induciae ex hoc die inter serenissimum principem dominum<note
+                        n="67" type="crit_app">Dumont: [Einschub:] ac.</note>, dominum <rs
+                        ref="#pp0101">Vladislaum Quartum</rs><note n="68" type="crit_app">Dumont:
+                        IV.</note> regem Poloniae, magnum ducem Lithuaniae etc. etc. etc. dominum
+                    nostrum clementissimum, suae sacrae<note n="69" type="crit_app">Dumont: Sacrae
+                        Suae.</note> regiae maiestatis successores, reges Poloniae, et magnos duces
+                    Lithuaniae, regnumque Poloniae, et magnum ducatum Lithuaniae, ex una<note n="70"
+                        type="crit_app">AGADWarschau, Dumont: una.</note> et inter serenissimam
+                        principem<note n="71" type="crit_app">Dumont: [Einschub:] ac.</note>
+                    dominam, dominam Christinam, Svecorum, Gothorum, Vandalorumque designatam
+                        reginam<note n="72" type="crit_app">Dumont: [Einschub:] et Principem
+                        Haereditariam.></note>, magnam principem Finlandiae etc. etc. etc. et suae
+                    maiestatis successores, reges Svecorum, regnumque Sveciae<note n="73"
+                        type="crit_app">AGADWarschau: [Ab Beginn Art.1 bis zu dieser Stelle:] Sint
+                        Induciae ex hic die inter Serenissimam Principem ac Dominam D[omi]nam
+                        Christinam, Suecorum, Gothorum Wandalorumque, designatam Reginam et
+                        Principem haereditariam Magnam Finlandiae etc. etc. etc. Dominam nostram
+                        Clementissimam Sa.[crae] Regiae M[ajestat]is Successores Reges Suecorum
+                        Regnumque Sueciae ex una parte. Et Serenissimum Principem ac Dominum
+                        D[omi]num <rs ref="#pp0101">Vladilavum IV</rs> Regem Poloniae, Magnum Ducem
+                        Lithuaniae etc. etc. etc. S[acrae] R[egiae] M[ajesta]tis Successores Reges
+                        Poloniae, Magnos Duces Lithuaniae Regnumque Poloniae et Magnum Ducatum
+                        Lithuaniae. </note> ex altera parte annis sequentibus viginti sex, à data
+                    praesentium computando, usque<note n="74" type="crit_app">AGADWarschau, Dumont:
+                        usque.</note> ad primam<note n="75" type="crit_app">AGADWarschau: 1. Dumont:
+                        primum.</note> julii, stylo veteri<note n="76" type="crit_app">AGADWarschau:
+                        styl. vet. Dumont: styl veteris.</note>, anni millesimi sexcentesimi
+                    sexagesimi primi. <lb/>
+                    <lb/>II <lb/>Sit omnium utrinque<note n="77" type="crit_app">AGADWarschau,
+                        Dumont: utrinque.</note> anteactorumque amnistia et imprimis<note n="78"
+                        type="crit_app">AGADWarschau inprimis.</note> sa[cra]. regia maiestas
+                        eiusque<note n="79" type="crit_app">Dumont: eiusdemque.</note> successores
+                    reges, regnumque Poloniae, et magnus ducatus Lithuaniae<note n="80"
+                        type="crit_app">AGADWarschau: Eiusque &lt;…&gt;[undeutlich] Reges, Regnumque
+                        Sueciae.</note>, abstineant durantibus induciis omni hostilitate
+                        adversus<note n="81" type="crit_app">Dumont: adversum.</note> reginam,
+                    regnumque Sveciae<note n="82" type="crit_app">AGADWarschau: Regem Regnumque
+                        Poloniae et Magnum Ducatum Lithuaniae.</note>, eisque mediate vel immediate
+                    subiectas provincias, castra, civitates ac territoria, neque quicquam per se,
+                    vel per alios moliantur, aut tentent, tentarive faciant, in horum detrimentum
+                    aut praeiudicium. Ad eundem modum serenissima regina, eiusque successores reges,
+                    regnumque Sveciae<note n="83" type="crit_app">AGADWarschau: Serenissimus Rex
+                        eiusque Successores Reges Regnumque Poloniae et Magnus Ducatus
+                        Lithuaniae.</note> abstineant durantibus inducijs, omni<note n="84"
+                        type="crit_app">AGADWarschau: omn&lt;e&gt;.</note> hostilitate adversus
+                    regem, regnumque Poloniae et magnum ducatum Lithuaniae<note n="85"
+                        type="crit_app">AGADWarschau: Regnumque Sueciae.</note>, eisque mediate vel
+                    immediate subiectas provincias, castra, civitates ac territoria, neque quicquam
+                    per se, vel per alios moliantur, aut tentent, tentarive faciant, in horum
+                    detrimentum, aut praeiudicium. <lb/>
+                    <lb/>III <lb/>Sacrae regiae maiestati ac reipublicae Polonae Serenissima regina,
+                    regnumque Sveciae reddat<note n="86" type="crit_app">AGADWarschau: Sacra Regia
+                        M[ajes]tas Regnumque Sueciae reddat Serenissimo Regi ac Reipublicae Polonae.
+                        Dumont: Sereniss. Regi ac reipublicae Polonae Serenissime Regina Sueciae.
+                    </note>, eam partem Prussiae<note n="87" type="crit_app">AGADWarschau: Prussiae
+                        partem.</note>, quam hactenus occupatam possidet; ita tamen, ut Pilavia<note
+                        n="88" type="crit_app">AGADWarschau, Dumont: Pillavia.</note> electori
+                        Brandeburgico<note n="89" type="crit_app">AGADWarschau:
+                        Brandenburgico.</note>, duci in Prussia<note n="90" type="crit_app">Dumont:
+                        Duci Prussiae.</note>, immediate restituatur possidenda, eodem jure, quod
+                    ante hoc bellum habuit. <lb/>
+                    <lb/>IV <lb/>In restituendis vero, locis hoc<note n="91" type="crit_app">Dumont:
+                        locis hic ordo.</note> obseruetur, ut exhibita commissariis Sveticis sacrae
+                    regiae maiestatis<note n="92" type="crit_app">Dumont: Suecicis Regis Poloniae.
+                        AGADWarschau: Sueticis Regis Poloniae.</note> ratificatione, necnon
+                    interposita cautione senatorum et commissariorum Polonicorum, lege comitiali ad
+                    latus regis à republica delegatorum, de tradenda primo quoque tempore
+                    reipublicae ratificatione, Marieburgum<note n="93" type="crit_app">AGADWarschau,
+                        Dumont: Mariaeburgum.</note> cum insula maiore, Stuma, Bronsberga<note
+                        n="94" type="crit_app">AGADWarschau, Dumont: Brunsberga.</note>, ac
+                        Tholkmitho<note n="95" type="crit_app">AGADWarschau: Tolkemito. Dumont:
+                        Tolkemitto.</note>, cum eorum territoriis, deductis praesidiis, reddantur in
+                    manus commissariorum serenissimi<note n="96" type="crit_app">AGADWarschau,
+                        Dumont: [Auslassung:] Serenissimi.</note> regis, ac regni Poloniae
+                        Hauptium<note n="97" type="crit_app">Dumont: Hofftium. AGADWarschau:
+                        Höttinga.</note> vero et Junckertreil<note n="98" type="crit_app"
+                        >AGADWarschau. Dumont: Junckerteil.</note>, praesentibus utriusque partis
+                        deputatis<note n="99" type="crit_app">AGADWarschau: [deputatis ...
+                        relictis:] wegen Falz nicht entzifferbar.</note> solo aequentur, suis cuique
+                    fundis et bonis relictis<note n="100" type="crit_app">AGADWarschau: [deputatis
+                        ... relictis:] wegen Falz nicht entzifferbar.</note>; et exercitus utrinque
+                    abducantur, intra id tempus, eoque modo ac ordine, quo inter generales utriusque
+                    partis convenerit. Elbingam vero cum pristino eius territorio, atque insula
+                    minore, ac munimentis ibi extructis, nec non Pilaviam<note n="101"
+                        type="crit_app">AGADWarschau, Dumont: Pillaviam.</note> cum ea parte
+                    Neringiae, quae eo spectat, retineat serenissima regina<note n="102"
+                        type="crit_app">AGADWarschau, Dumont: Sac. Regia M.tas.</note> regnumque
+                    Sueciae, donec ratificatio reipublicae Polonae subsecuta fuerit, qua tradita
+                    illa quoque loca intra dies quatuordecim<note n="103" type="crit_app">Dumont:
+                        intra quatuordecim dies.</note>, deductis sine damno incolarum praesidiis,
+                    restituat, hoc observato, ut fortalitia omnia Elbingae extructa relinquantur eo
+                    in statu, in quo nunc sunt, et eadem custodia, uti ante hoc bellum. <lb/>
+                    <lb/>V <lb/>Post restitutionem locorum omnium, vectigalia in eum mox reducantur
+                    statum, et in illud jus, in quo erant ante hoc bellum, servata in omnibus
+                    aequalitate, ubi antea fuit. <lb/>
+                    <lb/>VI <lb/>In Livonia utraque pars, uti praeteritis sexennalibus induciis
+                    possedit, ita hisce quoque possideat. <lb/>
+                    <lb/>VII <lb/>Sacra regia maiestas ac respublica Polona<note n="104"
+                        type="crit_app">AGADWarschau : Serenissimus Rex ac Resp[ublica] Polona.
+                        Dumont: Rex ac Respublica Polona.</note> receptas in fidem suam civitates ac
+                    territoria eorumque magistratus, communitates, cives, incolas et subditos
+                        universos<note n="105" type="crit_app">Dumont: [Einschub:] ac
+                        singulos.</note> omni meliori<note n="106" type="crit_app">AGADWarschau:
+                        [Nach Meliori:] zwei Worte wegen dunkler Flecken nicht lesbar.</note> modo
+                    indemnes praestet, ac eadem qua olim clementia et gratia prosequatur, foveat
+                        ac<note n="107" type="crit_app">AGADWarschau: et (auch im Folgenden).</note>
+                    tueatur, gaudeantque universi ac singuli possessionibus, iuribus, privilegiis
+                    consuetudinibusque suis tam generalibus ac communibus, quam specialibus, sine
+                    exceptione, quibus ante hoc bellum gavisi sunt; praesertim vero civitas
+                    Elbingensis in usu sigilli terrarum Prussiae, et consueto sessionis loco
+                    conservetur, postquam debitum suae regiae maiestate juramentum fidelitatis
+                    praestiterit. Salvo manente libero in locis restitutis uti ante<note n="108"
+                        type="crit_app">AGADWarschau, Dumont: uti antea.</note> viguit, evangelicae
+                    religionis exercitio<note n="109" type="crit_app">Dumont: [Auslassung:] salvo
+                        ... exercitio.</note>; manente quoque libero catholicae religionis
+                    exercitio, in templo praesertim parochiali veteris civitatis Elbingensis, uti
+                        ante<note n="110" type="crit_app">AGADWarschau: uti ante hoc.</note> bellum. <lb/>
+                    <lb/>VIII <lb/>Cunctae actiones adversus illos, qui partes serenissimorum regum,
+                    ac reginae Sveciae quocunque modo secuti sunt, aut secuti esse insimulantur,
+                    cuiuscunque sint status et ordinis, sive privati vixerint, vel officio publico
+                    functi ac servitiis serenissimae reginae regnique Sveciae regiae maiestatis<note
+                        n="111" type="crit_app">AGADWarschau: servitiis Sacrae Regiae M[ajesta]tis
+                        Regnique Sueciae. Dumont: servitiis regiae Majestatis Regnique
+                        Sueciae.</note> obstricti fuerint, vel instituendae, vel institutae
+                        cessent<note n="112" type="crit_app">Dumont: essent.</note>, et si quae
+                    intentatae sunt, tollantur omnique careant executione in perpetuum, nec quisquam
+                    de iis, quae belli induciarumve tempore, ex occasione ejusdem belli vel
+                    induciarum intercesserunt, cuiquam respondere teneatur. Et si quid in contrarium
+                    susceptum, factumve<note n="113" type="crit_app">AGADWarschau, Dumont:
+                        factumque."</note> est, aut rescriptum vel decretum aliquod in absentia
+                    partis obtentum, id omne sit irritum, nulliusque valoris. <lb/>
+                    <lb/>IX <lb/>Si cui, aut quibus non placuerit in restitutis civitatibus aut
+                    territoriis manere, sed potius mutato domicilio ad alios se conferre, liberum
+                    sit in spatio<note n="114" type="crit_app">AGADWarschau: spacio.</note> trium
+                    annorum, a data praesentium numerando, sua divendere, aliis elocare, aut pro suo
+                    libitu distrahere, sine ullo impedimento aut onere, sub quocunque praetextu
+                    imponendo, salvis antiquis civitatum iuribus et consuetudinibuset<note n="115"
+                        type="crit_app">AGADWarschau: [aliis ... consuetudinis:] Passage fehlt wegen
+                        Falz.</note>. <lb/>
+                    <lb/>X <lb/>Si qui exulum, qui extra Sveciam apud Polonos versantur, et partes
+                    serenissimorum regum Poloniae secuti sunt, in patriam redire, quacunque de causa
+                    voluerint, salvum quaerant<note n="116" type="crit_app">Dumont: querant.</note>
+                    conductum; quo impetrato fruantur beneficio legum et<note n="117"
+                        type="crit_app">AGADWarschau: &lt;de&gt;: unleserlich.</note> statutorum
+                    regni Sveciae. <lb/>
+                    <lb/>XI <lb/>Acta, iudicata ac decreta, cuiuscunque fuerint instantiae vel
+                    iudicii, inscriptiones, contractus, transactiones, aliaque<note n="118"
+                        type="crit_app">Dumont: aliave.</note> omnia (quae statui publico, uti is
+                    fuit ante bellum, non derogant, vel hisce pactis per expressum non sunt
+                    reservata) belli, vel induciarum tempore, sive magistratuum authoritate<note
+                        n="119" type="crit_app">Dumont: autoritate.</note> et iudicialiter, sive
+                    extra iudicialiter gesta, firmum robur obtineant, aeque, ac si priore rerum
+                    statu omnia acta fuissent, nec ulla unquam regiminis et magistratuum mutatio
+                    intervenisset. <lb/>
+                    <lb/>XII <lb/>In locis quocunque tempore iuxta pacta praesentia restituendis,
+                    relinquantur bona fide omnia mobilia ecclesiarum, quae in praesens reperiuntur,
+                    uti sunt vasa ac<note n="120" type="crit_app">Dumont: et.</note> vestes sacrae,
+                    campanae aliaque ad usum ecclesiasticum servientia; tum libri cancellariae,
+                    privilegia et acta publica. Si quae tamen temporum iniuria a milite sunt
+                    direpta, aut aliorum negligentia corrupta, ulterior in id inquisitio non
+                    instituatur, nec quisquam ad restitutionem teneatur. Tormenta item bellica et
+                    bombardae maiores, quae tempore occupationis inventae fuerunt<note n="121"
+                        type="crit_app">Dumont: fuerant.</note>, et adhuc in restituendis
+                    civitatibus vel locis sunt, relinquantur. <lb/>
+                    <lb/>XIII <lb/>De iis, quae durante bello iure fisci cuiquam adempta, et vel
+                    fisco illata, vel aliis donata sunt, ita convenit, ut immobilia, sive regia et
+                    rei publicae<note n="122" type="crit_app">AGADWarschau: Reipubl.; Dumont:
+                        Reipublica.</note>, sive etiam privatorum sint bona, quorum donationes
+                    utrinque factae sunt, si donatariis iam tradita sunt, antiquis possessoribus
+                    restituantur, si vero nondum tradita maneant penes dominos<note n="123"
+                        type="crit_app">AGADWarschau: [unleserlich].</note> cessantibus de caetero
+                    omnibus quaestionibus actionibusque ratione redituum, sive ex publicis,
+                        sive<note n="124" type="crit_app">AGADWarschau: [Einschub:] ex.</note>
+                    privatis bonis perceptorum. Mobilium etiam donationes et largitiones utrinque
+                    factae, si ante has inducias executioni non fuerint demandatae, irritae sint.
+                    Traditae vero possessoribus modernis relinquantur cessantibus quoque eorum
+                    nomine omnibus actionibus, irritisque obligationibus, quibus apochae
+                    authenticae, sive a regum locum-tenentibus, sive ab officialibus camerarum
+                    regiarum, sive etiam ab ipsis donatariis sine fraude datae dummodo de iisdem
+                    donationibus per authenticum instrumentum constet, solutionis factae opponi
+                    possunt. <lb/>
+                    <lb/>XIV <lb/>Commercia pristina inter utrumque regnum et provincias subjectas
+                    restituantur, et in veteri exercitio conserventur, redeantque omnia in eum
+                    statum, in quo ante hoc bellum fuerunt, ab omnibus novitatibus, oneribusque hoc
+                    bello inductis vindicata<note n="125" type="crit_app">AGADWarschau: [hoc ...
+                        vindicata:] Passage fehlt wegen Falz.</note>. <lb/>
+                    <lb/>XV <lb/>Defluitatio mercium ex magno ducatu Lithuaniae nulla ratione in
+                    flumine Duna impediatur, sitque ea in dicto flumine vectigalium ratio in
+                        posterum<note n="126" type="crit_app">AGADWarschau: &lt;i.posterum&gt;
+                        [unklar], Dumont: imposterum.</note>, quae fuit ante hoc bellum. <lb/>
+                    <lb/>XVI <lb/>Subditi fugitiui magni ducatus Lithuaniae et ducatus
+                        Curlandiae<note n="127" type="crit_app">AGADWarschau: Churlandiae (siehe
+                        unten).</note>, quicunque in Livonia reperti fuerint, suis dominis
+                    reddantur, quod vice versa de subditis fugitiuis ex Livonia<note n="128"
+                        type="crit_app">Dumont: Lithuania. AGADWarschau: Livonia.</note> in magno
+                    ducatu Lithuaniae, et ducatu Curlandiae fieri debet. <lb/>
+                    <lb/>XVII <lb/>Exercitus omnes, exceptis praesidiariis, tempore supra definito,
+                    ab utraque parte ex provincia deducantur, et quidem Sveticus per mare, si tamen
+                    equitatui intra assignati<note n="129" type="crit_app">Dumont:
+                        assignatum.</note> temporis spatium<note n="130" type="crit_app"
+                        >AGADWarschau: spacium.</note> traijciendo navium copia non suppetierit,
+                    liber illi, et innoxius transitus, quam brevissimo itinere per terram, in
+                    ditiones ipsorum, sine damno incolarum regno Poloniae mediate et immediate
+                    subiectorum, concedi debet. Quod itidem observetur<note n="131" type="crit_app"
+                        >AGADWarschau: [Nach oberservetur:] zwei Worte unleserlich.</note>, si
+                    aliqui pedites dicti exercitus Svetici dimissi fuerint, iustitia vero per
+                    praefectos indilata bona fide administretur damnum<note n="132" type="crit_app"
+                        >Dumont: damna.</note> et iniuriam passis. <lb/>
+                    <lb/>XVIII <lb/>Iniurias tam personales, quam reales, sub hasce inducias
+                    incidentes, una pars de altera non vindicabit, salva iurisdictione ordinaria
+                    cuiusque partis, sed iustitia ab officialibus et magistratibus competenter
+                    requiratur, eademque indilata administretur, severae paenae<note n="133"
+                        type="crit_app">Dumont: poenae.</note> in violatores pacis fide publica
+                    roboratae, exerceantur, nullaeque repressaliae aut aresta<note n="134"
+                        type="crit_app">AGADWarschau, Dumont: arresta.</note>, tam terra, quam mari,
+                    ratione cuiuscunque iniuriae, nisi iustitia pluribus vicibus legitime repetita
+                    non administretur, admittantur, et si quae ante hoc bellum, siue etiam durante
+                    bello concessa sunt, cassentur, ita tamen ut quibus concessae<note n="135"
+                        type="crit_app">AGADWarschau , Dumont: concessa.</note> sunt, iustitia
+                    administretur. <lb/>
+                    <lb/>XIX <lb/>Quod si quid gravius inciderit, quod violationem pactorum
+                    concernere videretur, dentur utrinque commissarii, qui loco aliquo ad fines
+                    Livoniae assignando<note n="136" type="crit_app">AGADWarschau:
+                        adsignando.</note>, conveniant, et controversias exortas sopiant,
+                    decidantque. <lb/>
+                    <lb/>XX <lb/>Pro maiore securitate et ne quidquam hisce pactis contrarium,
+                    durantibus induciis, a quoquam<note n="137" type="crit_app">Dumont:
+                        quopiam.</note> committatur, ordines regni Poloniae, et magni ducatus
+                    Lithuaniae promittant, et fide iubeant, serenissimum<note n="138"
+                        type="crit_app">AGADWarschau, Dumont: [Auslassung:] Serenissimum.</note>
+                    Regem Poloniae et eius fratres eorumque successores ac posteros, durantibus
+                    induciis ex regno Poloniae magno<note n="139" type="crit_app">Dumont:
+                        Magnoque.</note> ducatu Lithuaniae et omnibus eis<note n="140"
+                        type="crit_app">Dumont: ejus.</note> subiectis provinciis atque ditionibus
+                    nihil molituros, multo minus hostile, quidquam<note n="141" type="crit_app"
+                        >AGADWarschau, Dumont: quicquam.</note> tentaturos adversus serenissimam
+                        reginam<note n="142" type="crit_app">Dumont: Sueciae.</note> eius<note
+                        n="143" type="crit_app">AGADWarschau, Dumont: eiusque.</note> successores
+                    reges, regnumque Sveciae, eisque subiectas ditiones ac provincias, civitates,
+                    castra, munimenta ac territoria, et si quidquam<note n="144" type="crit_app"
+                        >AGADWarschau, Dumont: quicquam.</note> tentaverint, id impedire, ac
+                    praevenire teneantur. <lb/>
+                    <lb/>XXI <lb/>Sac[ra]. regia maiestas et eius successores<note n="145"
+                        type="crit_app">Dumont: [Auslassung:] et eius Successores.</note> ac
+                    respublica Polona, adversus serenissimam reginam<note n="146" type="crit_app"
+                        >AGADWarschau: [Sac[ra]... Reginam:] Passage fehlt wegen Falz.</note>,
+                    eiusque successores reges, regnumque Sveciae subiectasque ditiones ac provincias
+                        nullis<note n="147" type="crit_app">AGADWarschau: [unleserlich].</note>
+                    navibus, vel classe maritima utatur, vel<note n="148" type="crit_app"
+                        >AGADWarschau, Dumont: nec.</note> aliis quibuscunque auxilio submittat<note
+                        n="149" type="crit_app">Dumont: mittat.</note>, durantibus induciis; et dux
+                    in Prussia<note n="150" type="crit_app">Dumont: [Einschub:] elector.</note>, dux
+                    Curlandiae, et ex statibus Prussiae regalis<note n="151" type="crit_app"
+                        >AGADWarschau, Dumont: Regalis Prussiae.</note> civitates maiores caveant,
+                    se non permissuros hostile quidquam<note n="152" type="crit_app">AGADWarschau ,
+                        Dumont: quicquam.</note> ex portubus suis, reginae, regnoque Sveciae,
+                    subiectisque ditionibus ac provinciis illatum iri directe, vel indirecte. <lb/>
+                    <lb/>XXII <lb/>Durantibus ac currentibus hisce induciis agatur de pace perpetua
+                    loco ac tempore, interventuque<note n="153" type="crit_app">Dumont:
+                        interventu.</note> principum mediatorum, de quibus inter partes, cura ac
+                    diligentia illustrissimi ducis Curlandiae, convenerit. Ita tamen, ut si
+                    tractatus pacis perpetuae<note n="154" type="crit_app">AGADWarschau: [dunkler
+                        Fleck] per&lt;...&gt;. Dumont: [Auslassung:] perpetuae.</note> semel aut
+                    iterum non successerit, firmae nihilominus et inviolabiles maneant induciae,
+                    usque ad exitum hisce pactis praefinitum. <lb/>
+                    <lb/>XXIII <lb/>Si qui regum ac principum christianorum hisce pactis ex utraque
+                    parte includi voluerint, sit ipsis eius facultas, modo se ad ista intra quinque
+                    abhinc menses declaraverint. <lb/>
+                    <lb/>XXIV <lb/>Ut hisce pactis firmius insistatur, certoque constet bona fide ea
+                    servatum iri, hoc modo convenit, ut redditis utrinque procuratoriis dominorum
+                    commissariorum, pacta haec manu et sigillo eorundem roborentur, et invicem
+                    tradantur. Tum ut Serenissimus rex Poloniae, secundum praescriptam formulam<note
+                        n="155" type="crit_app">Dumont: formam.</note>, eadem quamtocius<note
+                        n="156" type="crit_app">AGADWarschau : quantocijus.Dumont :
+                        quantocyus.</note> confirmet, et antequam ullius loci fiat restitutio, suam
+                    confirmationem tradat. Deinde ut serenissima regina Sveciae<note n="157"
+                        type="crit_app">AGADWarschau: Sac. Reg. Majestas Sveciae.. Dumont: SacRa
+                        regia Majestas Sueciae.</note> solenni instrumento illa nomine suo, et regni
+                    Sueciae, per subscriptionem dominorum regni Sveciae administratorum, rata
+                    habeat; et respublica Polona eadem in comitiis, primo quoque tempore
+                    celebrandis, solenniter approbet et confecto instrumento ratificet. Quae quidem
+                    instrumenta solennia ad formulam<note n="158" type="crit_app">Dumont:
+                        formam.</note> praescriptam, nulla voce, aut syllaba mutata, per utriusque
+                    partis commissarios deputatos, quantocitius<note n="159" type="crit_app">Dumont:
+                        cyus.</note> poterit, ad limites terrritoriales inter Elbingam et
+                    Mariaeburgum, sine vulla<note n="160" type="crit_app">AGADWarschau, Dumont:
+                        [anstatt vulla:] omni.</note> mora et excusatione reddi utrinque ac recipi
+                    debebunt. Ad eundem modum Serenissimus elector Brandeburgicus, dux in
+                        Prussia<note n="161" type="crit_app">Dumont: [Einschub:] et.</note>, dux
+                    Curlandiae, et ex ordinibus regalis Prussiae civitates maiores, literas suas
+                    reversales, quibus securitati serenissimae reginae<note n="162" type="crit_app"
+                        >AGADWarschau: Sac[rae]. Reg[iae]. M[ajesa]tis.</note>, ac regni Sveciae
+                    cavebitur, ante restitutionem Elbingae et Pilauiae<note n="163" type="crit_app"
+                        >AGADWarscha, Dumont: Pillaviae.</note>, tradant. Actum Stumdorffij<note
+                        n="164" type="crit_app">Sachanmerkung: AGADWarschau, Dumont: Stumsdorffii.
+                        Sachanmerkung: Poln. Sztumska Wieś, südwestlich von Marienburg
+                        gelegen.</note> die duodecima<note n="165" type="crit_app">AGADWarschau:
+                        2/12. Dumont: XX.</note> mensis septembris stylo novo<note n="166"
+                        type="crit_app">AGADWarschau: [Auslassung:] stylo novo.</note> Anno
+                        salutis<note n="167" type="crit_app">Dumont: [Auslassung:] salutis.</note>
+                    millesimo sexcentesimo trigesimo Quinto. <lb/>
+                    <lb/><rs ref="#pp0075">Jacobus Zadzik</rs>, Episcopus Culm[ensis]. et
+                    Pomes[ensis]. Nom[inatus]. Crac[oviensis]. Reg[ni]. Polon[iae]. Cancell[arius].
+                        <lb/><rs ref="#0102">Raphael C. de Lesno</rs>, Palatinus Belsens[sis].
+                        <lb/><rs ref="#pp0078">M. Ernest Dönhoff</rs>, Castellanus Pernau[ensis].
+                        <lb/><rs ref="#0103">Remigius de Otok Zalesky</rs>, Refferendarius Regni
+                        <lb/><rs ref="#pp0076">Jacobus a Sobieszin</rs>, Incisor Regni
+                    Crasnostauiensis Jaworowiensis Praefectus <lb/><rs ref="#0113">C. de
+                    Mesmes</rs>, S:ae R:ae Maiestatis Christianissimae Legatus </p>
+            </div>
+        </body>
+        <back>
+            <listBibl>
+                <bibl xml:id="a12">
+                    <title level="a">Theatrum Europaeum (1635-09-12)</title>
+                    <title level="m">Theatrum Europaeum, Band 3 (1633-1638) Aus: Dokumentenarchiv
+                        der Universitätsbibliothek Augsburg (Drucke vor 1900 / Historische
+                        Geschichtswerke).</title>
+                    <biblScope>
+                        <graphic xml:id="A1Pnr1"
+                            url="https://www.ieg-friedensvertraege.de/dbimages/img_49e59d1c4c086"/>
+                        <graphic xml:id="A1Pnr2"
+                            url="https://www.ieg-friedensvertraege.de/dbimages/img_49e59d21f20a2"/>
+                        <graphic xml:id="A1Pnr3"
+                            url="https://www.ieg-friedensvertraege.de/dbimages/img_49e59d27ec2bd"/>
+                        <graphic xml:id="A1Pnr4"
+                            url="https://www.ieg-friedensvertraege.de/dbimages/img_49e59d2d7bdbe"/>
+                    </biblScope>
+                </bibl>
+                <bibl>Sundberg, Svenska freder och stillestånd, S. 241-24</bibl>
+                <bibl>Seitz / Rosengren, Sveriges freder och fördrag, S. 29f.</bibl>
+                <bibl>Frost, The Northern Wars. War, State and Society in Northeastern Europe,
+                    1558-1721.</bibl>
+            </listBibl>
+        </back>
+    </text>
+</tei:TEI>

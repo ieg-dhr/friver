@@ -1,0 +1,355 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE tei SYSTEM "../resources/FriVer_DTD.dtd">
+
+<?xml-model href="../resources/FriVer.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns="http://www.tei-c.org/ns/1.0"
+    xml:id="pa000299-0060">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title level="s">European peace treaties of the pre-modern era in data / Europäische
+                    Friedensverträge der Vormoderne in Daten (FriVer+)</title>
+                <title when="1634-11-01" xml:id="t60" when-custom="1634 XI 1" level="a"
+                    ref="https://www.ieg-friedensvertraege.de/treaty/t-60-1-de.html">Allianzvertrag
+                    von Paris</title>
+            </titleStmt>
+            <editionStmt>
+                <edition> Digital edition according to <ref target="http://www.tei-c.org/">TEI
+                        P5</ref>
+                </edition>
+                <funder>
+                    <ref target="https://www.text-plus.org/">TEXT+</ref>
+                </funder>
+                <editor role="http://id.loc.gov/vocabulary/relators/edt"
+                    ref="https://orcid.org/0000-0002-8741-5916">
+                    <persName>Jaap Geraerts</persName>
+                    <note>The transformation and enrichment of the data is done by Jaap Geraerts
+                        (IEG Mainz). The other members of the FriVer+ team are Fabian Cremer, Ines
+                        Grund, and Thorsten Wübbena (all IEG Mainz).</note>
+                    <note> The original data has been created by the <ref
+                            target="https://www.ieg-friedensvertraege.de">team of scholars</ref> who
+                        were part of the Europäische Friedensverträge der Vormoderne project. This
+                        project was lead by Prof. Dr. Heinz Duchhardt and was based at the Leibniz
+                        Institute of European History in Mainz. </note>
+                </editor>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>
+                    <orgName ref="http://www.isni.org/0000000119314040">Leibniz-Institut für
+                        Europäische Geschichte Mainz</orgName>
+                </publisher>
+                <distributor>
+                    <orgName ref="http://www.isni.org/0000000110101946">Universitäts- und
+                        Landesbibliothek Darmstadt</orgName>
+                </distributor>
+                <idno type="ISIL">http://lobid.org/organisation/DE-17</idno>
+                <date type="issued" when="2023-12-23"/>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">
+                        <p xml:lang="en">This file is licensed under the terms of the Creative
+                            Commons License CC-BY 4.0 (Attribution 4.0 International)</p>
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <repository xml:id="r22">Paris AAE <note>Trait&eacute;s et Accords de la France:<lb/>
+                        <ref
+                            target="http://www.diplomatie.gouv.fr/traites/affichetraite.do?accord=TRA16340003"
+                            >http://www.diplomatie.gouv.fr/traites/affichetraite.do?accord=TRA16340003</ref></note>
+                </repository>
+                <msDesc>
+                    <p>AAE Paris: M.A.E. Trait&#233;s. Multilateraux 16340003, Trait&#233; relatif
+                        aux secours &#224; fournir aux princes conf&#233;d&#233;r&#233;s pour
+                        conserver leurs privil&#232;ges et franchises (UI). <lb/>Ratifikationen der
+                        deutschen Prinzen, der deutschen konf&#246;derierten Staaten, Reichsadel und
+                        der St&#228;dte Stra&#223;burg und Worms, Worms 1634 XII 18, ebd. </p>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p> The data in this XML file, originally created by the project <ref
+                        target="https://www.ieg-friedensvertraege.de/vertraege">Europäische
+                        Friedensverträge der Vormoderne online</ref> has been transformed in
+                    accordance with <ref target="http://www.tei-c.org/">TEI P5</ref> as part of the
+                    project <ref
+                        target="https://www.ieg-mainz.de/en/research/research-projects/european-peace-treaties-of-the-pre-modern-era-in-data"
+                        >Europäische Friedensverträge der Vormoderne in Daten (FriVer+)</ref>
+                </p>
+            </projectDesc>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="fr" xml:id="lan4">französisch</language>
+            </langUsage>
+        </profileDesc>
+    </teiHeader>
+    <standOff>
+        <listPerson>
+            <person role="signatory" xml:id="p37">
+                <persName ref="https://explore.gnd.network/gnd/4018145-5">
+                    <name>Frankreich</name>
+                </persName>
+            </person>
+            <person role="signatory" xml:id="p135">
+                <persName ref="https://explore.gnd.network/gnd/4664745-4">
+                    <name>Konföderierte Reichsstände (Heilbronner Bund)</name>
+                </persName>
+            </person>
+            <person role="signatory" xml:id="p99">
+                <persName ref="https://explore.gnd.network/gnd/4077258-5">
+                    <name>Schweden</name>
+                </persName>
+            </person>
+        </listPerson>
+    </standOff>
+    <text>
+        <front>
+            <div type="Drucke">
+                <p> DUM VI/1, S. 79-80. </p>
+                <p>Sverges Traktater V:2, S. 246-252. <lb/>
+                </p>
+            </div>
+            <div type="Inhalt">
+                <p>Wiederherstellung des Friedens besonders in Deutschland und Unterst&#252;tzung
+                    der Konf&#246;derierten </p>
+                <p>I.&nbsp;Gemeinsamer Einsatz f&#252;r die Herstellung des Friedens in Deutschland
+                    <lb/>II.&nbsp;Wiedereinsetzung der F&#252;rsten in ihre Privilegien
+                    <lb/>III.&nbsp;Truppenst&#228;rke <lb/>IV.&nbsp;Unterhalt einer Armee diesseits
+                    des Rheines <lb/>V.&nbsp;Subsidien <lb/>VI.&nbsp;Keine Friedensschluss oder
+                    Waffenstillstand ohne gegenseitige Zustimmung <lb/>VII.&nbsp;Best&#228;tigung
+                    &#228;lterer Abkommen; freie Aus&#252;bung katholischer Religion
+                    <lb/>VIII.&nbsp;Truppenkommando <lb/>IX.&nbsp;Formierung eines Kriegsrates
+                    <lb/>X.&nbsp;Zwanzigj&#228;hrige Dauer gegenseitiger Garantien nach Abschluss
+                    eines Friedens <lb/>XI.&nbsp;&#220;bergabe des Elsass <lb/>XII.&nbsp;Bis zum
+                    Frieden beh&#228;lt der K&#246;nig Breissach <lb/>XIII.&nbsp;Einschluss der
+                    Subsidien in den Vertrag von Heilbronn <lb/>XIV.&nbsp;Kein Separatfrieden der
+                    s&#228;chsischen F&#252;rsten <lb/>XV.&nbsp;Aufnahme und Neutralit&#228;t der
+                    von der Gegenseite abfallenden F&#252;rsten <lb/>
+                </p>
+            </div>
+        </front>
+        <body>
+            <div type="Transliteration">
+                <pb facs="#FacsPnr1"/>
+                <p>Traitté conclu avec les <lb/>Princes [de la Confederacion]<note type="crit_app"
+                    n="1">
+                        Nachträglich eingefügt. </note>d'Allemagne et [la Suede]<note
+                        type="crit_app" n="2">Nachträglich eingefügt. </note>&nbsp;signé <lb/>de leurs
+                    deputez le 1. Nov. 1634. </p>
+                <p>La connoissance qu'ont tousiours eu les Princes et Estatz confederez <lb/>en
+                    Allemagne de la sincere affection qu'a Sa Ma[jes]te tres chrestienne d'assistir
+                    ses <lb/>alliez et voisins et specialment les d[its] Princes et Estats
+                    confederéz contre <lb/>ceux qui soubz divers pretextes voudroient opprimer leur
+                    liberté, les a conviéz <lb/>de deputer vers sad[ite] Ma[jes]té le S[ieu]r
+                    Jacques Leuffler S[ieu]r de Nedlingen Con[seill]er prive <lb/>de la Couronne de
+                    Suede et Vicechancelier d'Icelle en Allemagne comme <lb/>aussy Con[seill]er
+                    prive et Chancelier du Duc de Wirtemberg, et le S[ieu]r Philipes <lb/>Streuff
+                    S[ieu]r de Lauvenstein Con[seill]er prive du Comte palatin des deux ponts,
+                    <lb/>grand Bailly de Neufcastel, en qualite d'Ambassadeurs extraord[inai]res
+                    tant au nom <lb/>de la Couronne de Suede, que des d[its] Princes et Estats
+                    confederés pour luy rep[rese]nter <lb/>vivement combien Il importoit en l'estat
+                    present des affaires pour lestablissement <lb/>d'une bonne et seure paix dans
+                    l'Empire et mesme dans la Chrestiente maintenant <lb/>et a l'advenir que
+                    sad[ite] Ma[jes]te vint a se declarer ouvertement et apporter ses armes
+                    <lb/>contre ceux qui de longtemps et p[rese]ntement font connoistre qu'ils ne
+                    cesseront jamais <lb/>de troubler le repos public pour saccroiscre au preiudice
+                    de leurs voisins, si tous les <lb/>Princes qui ont interrest a maintenir la
+                    Justice et la tranquilité commune ne se <lb/>soignent ensemble pour arrester le
+                    cours de si dommageables desseins Ce que sad[ite] <lb/>Ma[jes]té ayant consideré
+                    et ne voulant obmettre chose aucune de ce quelle pourroit <lb/>contribuer de sa
+                    part pour l'affermissement d'une paix generale entre les Princes <lb/>chrestiens
+                    et specialement dans l'Allemagne, a fait entendre ausd[its] S[ieu]rs
+                    Ambass[adeu]rs <lb/>qu'au paravant de se resouldre en une affaire de telle
+                    consequence, elle desiroit de <lb/>scavoir d'eux lassistance qu'elle se pourroit
+                    promettre tant des d[its] Confederéz que <lb/>des autres Electeurs Princes et
+                    Estats de l'Empire au cas qu'elle entrast en rupture <lb/>ouverte pour leur
+                    suiect et avec eux contre leurs Ennemis. Surquoy lesd[ites] S[ieu]rs
+                    <lb/>Ambassade[eu]rs tant au nom de la Couronne de Suede que desd[its]
+                    Confederéz ont <lb/>convenu en vertu de leur plain pouvoir avec les deputéz de
+                    Sa Ma[jes]te sur cette affair <lb/>selon les articles suivans <lb/>1 <lb/>Sa
+                    Ma[jes]te le S[ieu]r Oxenstern grand Chancelier de la Couronne de Suede
+                    Intervenant <lb/>en ce Traicté au nom et avec plain pouvoir de lad[ite] Couronne
+                    et lesd[its] Confederéz <lb/>nayans autre dessein que le bien commun de l'Empire
+                    declarent et conviennent </p>
+                <p> </p>
+                <p> </p>
+                <p>
+                    <lb/>
+                </p>
+                <pb facs="#FacsPnr2"/>
+                <p>par ce present Traitté de s'employer sincerement et de tout leur pouvoir pour
+                    <lb/>aider a pacifier les presens troubles de l'Allemagne soubs de conditions
+                    seures et <lb/>raisonnables tant pour le present que pour l'advenir, et
+                    dapporter pour cet effect tous <lb/>les plus prompts et meilleurs moyens. Entre
+                    lesquelz l'experience faisant assez <lb/>cognoistre quil importe sur toutes
+                    choses de nepoint traitter de la paix qu'ayant les <lb/>armes a la main et de
+                    repousser par la force la violence des Ennemis de la commune <lb/>liberté. Sa
+                    Ma[jes]te led[it] S[ieu]r Oxenstern et les d[its] Confederéz convient les autres
+                    Electeurs <lb/>Princes et Estats de l'Empire de se joindre a un si necess[ai]re
+                    dessein pour leur <lb/>restablissement manutention et seureté. </p>
+                <p>2. <lb/>Et dautant que les Electeurs de Saxe et de Brandenbourg et autres Princes
+                    et <lb/>Estats de la haute et basse Saxe ont tesmoigné leur ardente affection
+                    pour <lb/>maintenir la liberté commune et restablir les Princes et Estatz de
+                    l'Empire <lb/>en leurs Immunitez, privileges, franchises selon les constitutions
+                    du S[ain]t Empire. <lb/>Sa Ma[jes]té led[it] S[ieu]r Chancelier et lesd[its]
+                    Confederez ayans la mesme volonté ont arreste <lb/>d'apporter tout ce qui
+                    dependra d'eux pour leur juste satisfaction et pour appuyer <lb/>leurs bonnes
+                    Intentions. </p>
+                <p>3. <lb/>Au cas que sa Ma[jes]té vienne a rompre contre les Ennemis communs selon
+                    les articles <lb/>portés en ce pre[sen]t Traitté elle sera obligéé dentretenir
+                    douze mil hommes de pied <lb/>Allemands ou d'autre nation Jusques à ce que la
+                    paix soit faicte en Allemagne, <lb/>lesquels presteront serment a Sa Ma[jes]té
+                    et aux Confederez, et seront employéz selon <lb/>quil sera [à jusgée]<note
+                        type="crit_app" n="3">Nachträglich eingefügt.</note> plus a propos pour le
+                    service de la cause commune par le Conseil de la <lb/>direction. </p>
+                <p>4 <lb/>Sa Ma[jes]te tiendra au deça du Rhin une arméé considerable pour s y en
+                    servir <lb/>offensivement et deffensivement selon les occurences contre les
+                    Ennemis <lb/>communs de Sa Ma[jes]té et des Confederéz. </p>
+                <p>5 <lb/>Sa Ma[jes]té soblige de faire delivrer promptement cinq cens mil livres
+                    pour </p>
+                <p>&nbsp; </p>
+                <p> </p>
+                <p> </p>
+                <p> </p>
+                <pb facs="#FacsPnr3"/>
+                <p>estre employés effectivement au payement de la Cavalerie et autres troupes des
+                    <lb/>confederéz a fin de leur donner moyen de repasser promptement le Rhin et
+                    agir <lb/>contre lennemy. </p>
+                <p>6 <lb/>Sa Ma[jes]té et les d[its] Confederés s'obligent par le p[rese]nt Traitté
+                    a ne point entrer du jour <lb/>de la signature d'iceluy en aucun Traitté de paix
+                    et ne rien conclurre sur ce suiect <lb/>que conjointement et d'un commun
+                    consentement pareillement Sa Ma[jes]té et lesd[its] <lb/>Confederéz sobligent en
+                    cas de guerre de ne faire aucune suspension d'armes ou <lb/>Treve dans l'empire
+                    et la Lorraine que conjointement et d'un commun consentiment <lb/>et neantmoins
+                    si la conjoncture des affaires oblige de faire une Treve de quinze <lb/>Jours ou
+                    trois sepmaines on le pourra faire de part et dautre mais elle ne pourra se
+                    <lb/>prolonger que d'un commun et expres consentement. </p>
+                <p>7 <lb/>Led[it] S[ieu]r Oxenstern au nom de la Couronne de Suede et les d[its]
+                    Confederéz confirman[t] <lb/>leur Traitté d'alliance declara[ti]ons et
+                    ratiffications Intervenues sur ce suiect <lb/>sobligent et promettent de
+                    restablir sans delay le libre exercice de la Religion <lb/>catholique dans
+                    toutes les eglises des lieux occupéz sur les catholiques depuis <lb/>cès
+                    derniers mouvements de l'an 1618 et de faire jouer librement de leurs biens les
+                    <lb/>personnes ecclesiastiques dans lesd[its] lieux et de ne les point molester
+                    ce qui s'entend <lb/>sans preiudice des justes et legitimes droits de l'une et
+                    de l'autre part. </p>
+                <p>8 <lb/>Il a esté arresté que les douze mil hommes de pied entretenus par sa
+                    Ma[jes]té au de la <lb/>du Rhin pour le bien de ses alliéz seront un Corps
+                    duquel sera general un Prince <lb/>d'entre lesd[its] Confederéz dont Il sera
+                    convenu, soubs lequel Sa Ma[jes]té nommera un <lb/>Lieutenant g[e]n[er]al tel
+                    quel le Jugera a propos, et quand[it] corps de douze mil hommes <lb/>lesd[its]
+                    Confederéz feront joindre d'autres troupes tant de Cavalerie que d'Infanterie
+                    <lb/>pour former un corps d'arméé suffisant pour s'opposer aux ennemis selon
+                    quil en <lb/>sera besoin. Celuy qui sera nommé par le Roy pour commander aud[it]
+                    Corps de <lb/>douze mil hommes en qualité de Lieutenant gèneral aura une voix
+                    esgale au <lb/>Conseil de guerre dans l'armée ou Il se trouvera au Prince qui en
+                    sera General. <lb/>Que si plusieurs corps d'armées soubs divers g[e]n[er]aux se
+                    soignent ensemble <lb/>
+                </p>
+                <pb facs="#FacsPnr4"/>
+                <p>led[it] Lieutenant general nommé par le Roy aura sa voix dans le conseil
+                    desd[its] <lb/>armées ainsy joinctes esgale a celuy qui aura le premier
+                    commandement dans <lb/>lesd[its] arméés. </p>
+                <p>9 <lb/>Il a esté convenu que dans le Conseil formé de la direction Sa Ma[jes]té y
+                    mettra <lb/>une personne de sa part avec pouvoir d'en substituer un autre en son
+                    absence <lb/>laquelle y aura voix et suffrage avec la mesme auctorité qu'ont
+                    ceux desquelz <lb/>led[it] Conseil formé est composé soubz le Directeur en tout
+                    ce qui concerne les <lb/>affaires de la guerre et de la paix et des Traittés qui
+                    se feront sur ce suject. </p>
+                <p>10 <lb/>Sa Ma[jes]té et les d[its] Confederés declarent par ce present Traitté
+                    que leur Intention est <lb/>d'apporter tous les moyens possibles tant par les
+                    armes que par toutes autres voyes <lb/>legitimes dessayer d'obtenir une bonne et
+                    seure paix soubs des conditions raisonnables, <lb/>et s'obligent de nouveau
+                    respectivement de demeurer garends les uns vers les autres <lb/>des choses qui
+                    auront esté accordéés par un Traitté de&nbsp; Paix, et de rompre tous ensemble
+                    <lb/>de toutes leurs forces contre ceux qui auront violé et enfraint aucuns<note
+                        type="crit_app" n="4">Nachträglich eingefügt.</note> des articles dont <lb/>on
+                    seroit convenu aud[it] Traitté, laquelle obligation de mutuelle garentie durera
+                    <lb/>l'espace de vingt ans apres la datte dud[it] Traitté de la paix generale,
+                    avec pouvoir <lb/>destendre et prolonger led[it] terme apres quil sera expiré. </p>
+                <p>11 <lb/>Au cas que Sa Ma[jes]té entre en rupture ouvert contre les ennemis
+                    communs qui <lb/>sont dans l'Empire ou ailleurs, lesd[its] confoederéz
+                    considerants les Incommoditéz <lb/>et perils de la guerre auxquels Sa Ma[jes]té
+                    expose sa personne et ses Estats en leur <lb/>faveur. Ils consentent des à
+                    p[rese]nt soubs la d[ite] condition de rupture de la part de <lb/>Sa Ma[jes]té
+                    pour luy tesmoigner le Confiance qu'ils ont en elle, et à cequ'elle ait plus
+                    <lb/>de lieu desloigner les ennemis communs de ses propres Estats, comme aussy
+                    <lb/>pour mieux assurer le pays d'Alsace contre leurs efforts, que led[it] pays
+                    D'alsace <lb/>au deça du Rhin soit mis en despost et en la protection de Sa
+                    Ma[jes]té avec les Places <lb/>et villes qui en dependent qu'ils ont prises sur
+                    leurs ennemis et specialement <lb/>Benfeld et Sulestat qui seront mises éz mains
+                    du Roy aussy tost que Sa Ma[jes]té <lb/>aura declaré estre en rupture comme
+                    aussy generalement tout ce qui depend <lb/>
+                </p>
+                <p> </p>
+                <pb facs="#FacsPnr5"/>
+                <p>d'Alsace au deça du Rhin les garnisons que Sa Ma[jes]té establira es [dits] lieux
+                    luy <lb/>presteront serment et aux Confederéz, lesquelz avec leurs vassaux et
+                    suiects <lb/>seront maintenus en leurs possessions legitimes, et ne sera rien
+                    entrepris au <lb/>preiudice de leur Jurisdiction et de tous leurs droicts, et
+                    pour ce qui est de la <lb/>despence quil conviendra faire a Sa Ma[jes]té pour
+                    l'entretien des d[its] gens de guerre necess[ai]res <lb/>a la conservation des
+                    d[its] lieux, Il a esté arresté quil en sera au plustost convenu
+                    <lb/>raisonnablement entre le S[ieu]r de Feuquieres Amb[assadeu]r
+                    extraord[inai]re du Roy et les Confederez. </p>
+                <p>12 <lb/>Lesd[its] Confederez consentent des a p[rese]nt que le Roy puisse avoir
+                    entre ses mains la ville <lb/>de Brissac et autres lieux circonvoisins sur le
+                    Rhin de dela vers Constance necess[ai]res <lb/>pour le passage des arméés s'il
+                    le juge convenable pour le bien des affaires, Sa Ma[jes]té <lb/>et les
+                    Confederés employans pour cet effect les forces qu'ilz auront conioinctés, et
+                    <lb/>dans lesd[its] Places qui se prendront a forces communes les garnisons que
+                    Sa Ma[jes]té y <lb/>mettra luy presteront le serment et aussy aux Confederés, et
+                    jusques a ce que le <lb/>Roy ait en sa puissance le passage de Brissac le pont
+                    de Strasbourg sera libre a sa <lb/>Ma[jes]té pour y faire passer et repasser les
+                    trouppes qu'elle jugera estre requises pour <lb/>le bien commun, la garde
+                    dud[it] Pont demeurant tousiours a ceux de lad[ite] ville. Le <lb/>Roy promet de
+                    bonne foy de retirer sa garnison de Brissac et autres lieux susd[it] <lb/>deça
+                    et dela le Rhin sans aucune restitution de frais pour en estre disposé selon
+                    <lb/>qu'il en sera convenu au Traitté de la paix generale qui sera fait
+                    conioinctement <lb/>et d'un mutuel consentement. Les Confoederez auront le
+                    passage libre selon quilz <lb/>en auront besoin aud[it] Brissac. </p>
+                <p>13 <lb/>Moyennant ce que dessus Sa Ma[jes]té sera deschargéé a l'advenir du
+                    million de <lb/>livres qu'elle estoit obligéé de payer annuellemènt a cause des
+                    frais de la guerre <lb/>quil luy conviendra faire, et pour l'entretienement des
+                    d[its] douze mil hommes <lb/>et au cas qu'elle vint a ne rompre pas, les cinq
+                    cent mil livres quelle doit donner <lb/>promptement ainsy quil est porté par
+                    l'article cinq[uièm]e du p[rese]nt Traitté seront <lb/>compris pour le terme de
+                    Novembre de la p[rese]nte anéé mil six cens trente quatre du <lb/>million porté
+                    par le Traité d'Ilbron. </p>
+                <p>14 <lb/>Sa Ma[jes]té au paravant que d'entrer en la susd[ite] Rupture a fait
+                    entendre ausd[its] <lb/>
+                </p>
+                <pb facs="#FacsPnr6"/>
+                <p>S[ieu]res Ambass[adeu]rs quelle veut estre assuréé par les voyes que lon choisira
+                    plus a <lb/>propos pour cet effect, que Mess[ieu]rs les Electeurs de Saxe et
+                    Brandebourg et autres <lb/>Princes et Estats de la haute et basse Saxe
+                    sobligeront de ne point entrer en <lb/>aucun Traitté de Treves ou de Paix avec
+                    les ennemis communs que conioinctement <lb/>avec sad[ite] Ma[jes]té et lesd[its]
+                    Confederéz et avec leur Intervention et consentement. <lb/>Comme aussy Sa
+                    Ma[jes]té et les d[its] Confederés sobligent et promèttent en ce cas ausd[its]
+                    <lb/>Electeurs Princes et Estats de la haute et basse Saxe de ne point entrer en
+                    aucun <lb/>Traitté de Treves ou de Paix avec les ennemis communs que
+                    conioinctement <lb/>avec eux et avec leur Intervention et consentement et que ce
+                    pendant ils <lb/>apparteront de bonne foy tout ce qui sera de leur pouvoir et
+                    qui sera jugé plus <lb/>propre par un commun advis pour parvenir a une prompte
+                    et seure paix soubz <lb/>des conditions raisonnables. </p>
+                <p>15 <lb/>Sa Ma[jes]té pourra recevoir en sa Protection les Electeurs Princes et
+                    estatz qui <lb/>voudront se retirer du party des ennemis communs, et les
+                    Confederéz les <lb/>recevront en neutralité soubz des conditions raisonnables
+                    proposées par sa Ma[jes]té <lb/>dont un conviendra de part et dautreés cas
+                    equelz il y escherra restitution de <lb/>Places ou lors qu'il sagira de quelques
+                    legitimes pretentions des Confoederéz a <lb/>condition quils ne commettent aucun
+                    acte dhostilité contre lesd[its] Confederéz et <lb/>quilz ne donnent aucun
+                    secours aux ennemis communs <lb/>fait a Paris le premier Jour de Novembre
+                    Milsixcens Trentequatre </p>
+                <p>J. Löffler d&lt;...&gt;<note type="crit_app" n="5">Unleserlich.</note>
+                    <lb/>Phil. Streüff de <lb/>Lawenstein <lb/>
+                </p>
+                <p> </p>
+            </div>
+        </body>
+    </text>
+</tei:TEI>

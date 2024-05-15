@@ -1,0 +1,496 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE tei SYSTEM "../resources/FriVer_DTD.dtd">
+
+<?xml-model href="../resources/FriVer.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns="http://www.tei-c.org/ns/1.0"
+    xml:id="pa000299-0062">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title level="s">European peace treaties of the pre-modern era in data / Europäische
+                    Friedensverträge der Vormoderne in Daten (FriVer+)</title>
+                <title when="1679-06-29" xml:id="t62" when-custom="1679 VI 29" level="a"
+                    ref="https://www.ieg-friedensvertraege.de/treaty/t-62-1-de.html">Friedensvertrag
+                    von Saint-Germain-en-Laye</title>
+            </titleStmt>
+            <editionStmt>
+                <edition> Digital edition according to <ref target="http://www.tei-c.org/">TEI
+                        P5</ref>
+                </edition>
+                <funder>
+                    <ref target="https://www.text-plus.org/">TEXT+</ref>
+                </funder>
+                <editor role="http://id.loc.gov/vocabulary/relators/edt"
+                    ref="https://orcid.org/0000-0002-8741-5916">
+                    <persName>Jaap Geraerts</persName>
+                    <note>The transformation and enrichment of the data is done by Jaap Geraerts
+                        (IEG Mainz). The other members of the FriVer+ team are Fabian Cremer, Ines
+                        Grund, and Thorsten Wübbena (all IEG Mainz).</note>
+                    <note> The original data has been created by the <ref
+                            target="https://www.ieg-friedensvertraege.de">team of scholars</ref> who
+                        were part of the Europäische Friedensverträge der Vormoderne project. This
+                        project was lead by Prof. Dr. Heinz Duchhardt and was based at the Leibniz
+                        Institute of European History in Mainz. </note>
+                </editor>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>
+                    <orgName ref="http://www.isni.org/0000000119314040">Leibniz-Institut für
+                        Europäische Geschichte Mainz</orgName>
+                </publisher>
+                <distributor>
+                    <orgName ref="http://www.isni.org/0000000110101946">Universitäts- und
+                        Landesbibliothek Darmstadt</orgName>
+                </distributor>
+                <idno type="ISIL">http://lobid.org/organisation/DE-17</idno>
+                <date type="issued" when="2023-12-23"/>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">
+                        <p xml:lang="en">This file is licensed under the terms of the Creative
+                            Commons License CC-BY 4.0 (Attribution 4.0 International)</p>
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <repository xml:id="r22">Paris AAE <note>Trait&eacute;s et Accords de la France:<lb/>
+                        <ref
+                            target="http://www.diplomatie.gouv.fr/traites/affichetraite.do?accord=TRA16790005"
+                            >http://www.diplomatie.gouv.fr/traites/affichetraite.do?accord=TRA16790005</ref></note>
+                </repository>
+                <msDesc>
+                    <p>AAE Paris: M.A.E. Traités. Multilateraux 16790005. Traité de paix avec le
+                        Brandebourg (Saint-Germain-en-Laye) 29 juin 1679. Brandebourg, France (UI).
+                        <lb/>Ratifikation durch Friedrich Wilhelm von Brandebourg, Potsdam, 1679 VI
+                        11, ebd. GSABerlin: VI HA Nr.818 (RAT); VI HA Nr. 344 (Druck) [Abb. können
+                        aus rechtlichen Gründen nicht gezeigt werden.] <lb/>
+                    </p>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p> The data in this XML file, originally created by the project <ref
+                        target="https://www.ieg-friedensvertraege.de/vertraege">Europäische
+                        Friedensverträge der Vormoderne online</ref> has been transformed in
+                    accordance with <ref target="http://www.tei-c.org/">TEI P5</ref> as part of the
+                    project <ref
+                        target="https://www.ieg-mainz.de/en/research/research-projects/european-peace-treaties-of-the-pre-modern-era-in-data"
+                        >Europäische Friedensverträge der Vormoderne in Daten (FriVer+)</ref>
+                </p>
+            </projectDesc>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="fr" xml:id="lan4">französisch</language>
+            </langUsage>
+        </profileDesc>
+    </teiHeader>
+    <standOff>
+        <listPerson>
+            <person role="signatory" xml:id="p27">
+                <persName ref="https://www.wikidata.org/wiki/Q157367">
+                    <name>Brandenburg - Preußen</name>
+                </persName>
+            </person>
+            <person role="signatory" xml:id="p37">
+                <persName ref="https://explore.gnd.network/gnd/4018145-5">
+                    <name>Frankreich</name>
+                </persName>
+            </person>
+        </listPerson>
+
+    </standOff>
+    <text>
+        <front>
+            <div type="Drucke">
+                <p> CTS XV, S. (179) 191-195 (f.). <lb/>DUM VII/I, S. 408-412 (f.) <ref
+                        target="http://gallica.bnf.fr/ark:/12148/bpt6k122965z.zoom.f429.langEN">Link
+                        zum Druck auf gallica.bnf.fr</ref>
+                    <lb/>VAS II, S. 117-134 (f.) <ref
+                        target="http://gallica.bnf.fr/ark:/12148/bpt6k960306.zoom.f120.langEN">Link
+                        zum Druck auf gallica.bnf.fr</ref>
+                </p>
+                <p>GSABerlin VI HA Nr. 344 (frz., dt.) </p>
+                <p> Moerner, S.408-412 </p>
+                <p>Pufendorf, De rebus gestis, S.1359 </p>
+                <p>Theatrum Pacis II, S.893 <lb/>
+                </p>
+            </div>
+            <div type="Inhalt">
+                <p>Nach dem Frieden von Nijmwegen konnte der Krieg im Norden noch nicht beendet
+                    werden, weshalb jetzt folgender Friede geschlossen wird: </p>
+                <p>I.&nbsp;Friede und Freundschaft <lb/>II.&nbsp;Amnestie <lb/>III.&nbsp;Beendigung
+                    der Kampfhandlungen <lb/>IV.&nbsp;Wiedereinsetzung des Westf&#228;lischen
+                    Friedens <lb/>V.&nbsp;Herausgabe der besetzten Gebiete an Schweden
+                    <lb/>VI.&nbsp;Neue Grenzziehung: <lb/>VII.&nbsp;Alles jenseits der Oder
+                    geh&#246;rt von nun an zu Brandenburg au&#223;er Dam und Golnow
+                    <lb/>VIII.&nbsp;F&#252;r Golnow bezahlt der K&#246;nig von Schweden 50.000 Ecus
+                    <lb/>IX.&nbsp;Verzicht Schwedens auf Hafengeb&#252;hren aus Pommern
+                    <lb/>X.&nbsp;Verzicht Schweden auf alle Rechte in den Gebieten jenseits der Oder
+                    au&#223;er in Dam und Golnow <lb/>XI.&nbsp;Rechte der Bewohner der abgetretenen
+                    Gebiete <lb/>XII.&nbsp;Die Ufer der Elbe verbleiben unter der
+                    Souver&#228;nit&#228;t Schwedens <lb/>XIII.&nbsp;R&#252;ckzug franz&#246;sischer
+                    Truppen aus den Gebieten des Kurf&#252;rsten <lb/>XIV.&nbsp;Truppenbesetzung der
+                    an die Schweden zu &#252;bergebenden St&#228;tten <lb/>XV.&nbsp;Bestimmungen
+                    &#252;ber die sich dort befindenden Kanonen und Munition
+                    <lb/>XVI.&nbsp;Beendigung des Krieges mit D&#228;nemark
+                    <lb/>XVII.&nbsp;Ratifizierung des Vertrags durch Schweden
+                    <lb/>XVIII.&nbsp;Ratifikationsformel </p>
+                <p>Separatartikel <lb/>Vermittlung des franz&#246;sischen K&#246;nigs wegen der
+                    Streitigkeiten im Reich </p>
+                <p>Weiterer Separatartikel <lb/>Subsidien des franz&#246;sischen K&#246;nigs an
+                    Brandenburg <lb/>
+                </p>
+            </div>
+        </front>
+        <body>
+            <div type="Transliteration">
+                <pb facs="#FacsPnr1"/>
+                <p>29. Juin 1679 <lb/>Traitté [signé del [...] Louis 14]<note type="crit_app" n="1">
+                        Nachträglich eingefügt. </note> avec M[onsieur] El[ecteur] <lb/>de
+                    Brandebourg a S[ain]t <lb/>Germain en Laye </p>
+                <p>Au nom de Dieu le Createur <lb/>et de la trez Sainte Trinité soit notoire <lb/>à
+                    tous, que comme le trez haut trez excellent et trez puissant <lb/>Prince Louis
+                    quatorze par la grace de Dieu Roy de France <lb/>et de Navarre, n'a rien
+                    souhaitté davantage que de voir la <lb/>tranquillité generalle restablie aprez
+                    les longues et sanglantes <lb/>divisions dont l'Europe a esté agitée, Sa
+                    Maj[es]té a veu avec peine <lb/>que les divers traittés qui ont esté signé à
+                    Nimegue, particulierem[en]t <lb/>avec l'Empereur et l'Empire n'aient pu
+                    esteindre le feu de la <lb/>guerre dans le Nort, et qu'Elle ait esté necessité
+                    de faire encore <lb/>agir ses armes contre l'Electeur de Brandebourg. Mais
+                    parcequ'- <lb/>au milieu mesme de ces derniers troubles, Elle a conservé
+                    beaucoup <lb/>d'estime pour ce Prince, et une disposition sincere a le recevoir
+                    dans <lb/>sa premiere Alliance, touttes les fois qu'il se mettroit en estat
+                    <lb/>d'y rentrer, Elle a receu avec beaucoup de plaisir les tesmoignages
+                    <lb/>qu'il luy a fait porter par le S[ieur] Meinders son Conseiller et Ministre
+                    <lb/>d'Estat, et son Envoyé extraord[inai]re vers Sa Maj[es]té du desir extreme
+                    <lb/>qu'il auroit de reprendre auprez d'Elle par la paix la mesme place
+                    <lb/>qu'il a eu cy devant dans le nombre de ses Alliéz, et de l'obliger <lb/>à
+                    luy rendre à l'advenir la mesme amitié, dont Elle luy a donné <lb/>autrefois
+                    tant de marques. Et comme sa Majesté n'a nul interest <lb/>à desmesler avec Son
+                    Altesse Electoralle de Brandebourg qui ne <lb/>luy soit commun avec le trez
+                    haut, trez excellent et trez puissant <lb/>Prince Charles par la grace de Dieu
+                    Roy de Suede, et que Sad[ite] <lb/>Altesse Electoralle luy a fait tesmoigner
+                    qu'elle estoit dans le <lb/>
+                    <lb/>
+                </p>
+                <p> </p>
+                <pb facs="#FacsPnr2"/>
+                <p>dessein de faire une sincere et solide paix avec led[it] Roy, Sa <lb/>Majesté a
+                    bien voulu, tant pour Elle que pour led[it] Roy de Suede <lb/>entrer dans la
+                    discussion du present traitté de paix; Et pour ce sujet <lb/>Elle a commis le
+                    S[ieu]r Arnauld Chevalier Seigneur de Pomponne <lb/>Conseiller en tous ses
+                    Conseils, et Secretaire d'Estat et des <lb/>commandemens de Sa Maj[es]té, pour
+                    traitter et negocier avec led[it] <lb/>S[ieu]r Meinders, lesquels aprez
+                    l'eschange de leurs pleinspouvoirs <lb/>dont les copies sont insereés cy aprez
+                    sont convenus des articles <lb/>suivans. </p>
+                <p>1. <lb/>Il y aura l'avenir une bonne, ferme, et durable paix et amitié <lb/>entre
+                    le Roy trez chrestien, le Roy de Suede, et l'Electeur de <lb/>Brandebourg, leurs
+                    Successeurs, Royaumes, pays, Estats et <lb/>Sujets, avec une entiere et
+                    reciproque liberté de commerce tant <lb/>par terre que par mer et autres eaux. </p>
+                <p>2. <lb/>Il y aura de mesme une amnistie et perpetuel oubly de cequi s'est
+                    <lb/>passé de part et d'autre à l'occasion de la guerre, mesme à <lb/>l'esgard
+                    des Sujets qui auroient suivi les differens partis. </p>
+                <p>3. <lb/>Touttes hostilitez cesseront entre les Parties dans le temps de <lb/>
+                </p>
+                <pb facs="#FacsPnr3"/>
+                <p>dix jours auplustard aprez la signature du present traitté, ou <lb/>plustost sy
+                    la notification en peut estre faitte aux Generaux <lb/>qui commandent les Armeés
+                    de part et d'autre, sans touttes fois <lb/>que lesd[ites] Armeés ayent a se
+                    retirer des pays qu'elles occupent, <lb/>et dans lesquels elles pourront vivre,
+                    et subsister jusques à <lb/>l'eschange des ratiffications du present traitté. </p>
+                <p>4. <lb/>Et comme les traittés de Westphalie doivent tousjours estre <lb/>regardes
+                    comme le fondement le plus solide et le plus asseuré <lb/>de la paix, et de la
+                    tranquillité de l'Empire, et que Sa Maj[es]té trez <lb/>Chrestienne s'est
+                    declareé dans tous les temps, mesme durant le <lb/>cours de la guerre, que son
+                    jntention estoit de les maintenir dans <lb/>toutte leur force, que le Roy de
+                    Suede s'est expliqué en la mesme <lb/>maniere, et que l'Electeur de Brandebourg
+                    tesmoigne estre <lb/>dans le mesme sentiment, jl est expressement stipulé par
+                    cet <lb/>article que les susd[its] traittés de Munster et d'Osnabruk conclus
+                    <lb/>en 1648 demeureront dans toutte leur force et Vigueur, et seront
+                    <lb/>censés repetés dans le present traitté, comme sy jls y estoient
+                    <lb/>inserés de mot à mot; a l'exception touttefois des changemens <lb/>qui
+                    pourroient y estre apportés par les articles suivans. </p>
+                <p>5. <lb/>L'Electeur de Brandebourg promet par le present traitté de <lb/>
+                </p>
+                <pb facs="#FacsPnr4"/>
+                <p>remettre entre les mains du Roy de Suede tout cequ'jl a occupé <lb/>par ses armes
+                    dans la Pomeranie, nommement les Villes de <lb/>Stralzund et de Stetin, et
+                    generalement tout cequ'jl possede presentemen[t] <lb/>des terres et Estats qui
+                    ont esté cedés dans l'Empire a la Couronn[e] <lb/>de Suede par les traittes de
+                    Westphalie sans en rien reserver <lb/>ny retenir. </p>
+                <p>6. <lb/>Mais parcequ'jl a esté jugé necessaire pour entretenir le bon
+                    <lb/>voisinage, et pour empescher à l'avenir les differens qui <lb/>naissent
+                    d'ordinaire entre les Princes par le trop grand <lb/>meslange de leurs terres et
+                    Estats de donner de nouvelles <lb/>limites à la Pomeranie qui appartient à la
+                    Couronne de <lb/>Suede, et à la Pomeranie, qui est sous la domination de S[on]
+                    A[ltesse] E[lectorale] <lb/>de Brandebourg; jl en a esté disposé en la maniere
+                    suivante. </p>
+                <p>7. <lb/>Touttes les terres possedeés par la Couronne de Suede au delà <lb/>de la
+                    riviere d'Oder, soit qu'elles luy eussent esté cedeés par <lb/>les traittes de
+                    Westphalie, soit qu'elles luy eussent esté adjugeés <lb/>par le Reces, ou
+                    traitté de Stetin de l'anneé 1653 appartiendront <lb/>doresnavant à l'Electeur
+                    de Brandebourg en toutte souveraineté <lb/>à l'exception seulement des Villes de
+                    Dam et de Golnow, et leurs dependances, qui ont esté specifficés nommement dans
+                    <lb/>
+                </p>
+                <pb facs="#FacsPnr5"/>
+                <p>lesd[its] traittés de Westphalie. </p>
+                <p>8. <lb/>Mais parceque lad[ite] Ville de Golnow et ses dependances se
+                    <lb/>trouvent comme enclaveés dans les terres qui doivent demeurer <lb/>à
+                    l'Electeur de Brandebourg par le present traitté, et qu'jl a <lb/>insisté
+                    qu'elle luy fust cedeé avec le reste du pays scitué audelà de l'Oder, Jl a esté
+                    convenu et accordé que lad[it]e Ville de <lb/>Golnow et ses dependances luy
+                    seront laisses en engagement <lb/>par le Roy et la Couronne de Suede pour le
+                    prix et somme de <lb/>cinquante mille escus paiables à la volonté du Roy de
+                    Suede, avec <lb/>condition expresse que touttes les fois que led[it] Roy de
+                    Suede luy <lb/>fera paier lad[ite] somme de cinquante mille escus, led[it]
+                    Electeur <lb/>sera tenu, et obligé de luy remettre lad[ite] Ville de Golnow et
+                    ses <lb/>dependances, Mais que dans tout le temps que durera led[it]
+                    <lb/>engagement, jl en jouira en la mesme maniere que de tout cequi <lb/>luy est
+                    cedé par le present traitté. </p>
+                <p>9. <lb/>Et comme par le susd[it] Recez, ou traitté de Stetin de l'anneé 1643
+                    <lb/>l'Electeur de Brandebourg fut obligé de partager avec le Roy et <lb/>la
+                    Couronne de Suede les droits de peages qui se levent dans le <lb/>port de
+                    Colberg et autres ports et havres de la Pomeranie au delà <lb/>de l'Oder, qui
+                    demeuroit sous la domination de S[on] A[ltesse] E[lectorale] de <lb/>
+                </p>
+                <pb facs="#FacsPnr6"/>
+                <p>Brandebourg, jl a esté accordé que le Roy et la Couronne de <lb/>Suede renoncent
+                    par le present traitté a tout droit de partage <lb/>des peages qu'jls pouvoient
+                    avoir en commun avec l'Electeur <lb/>de Brandebourg suivant le Recez ou traitté
+                    de Stetin dans <lb/>les ports ou havres de la partie de la Pomeranie qui est
+                    <lb/>demeureé suivant les traittes de Westphalie aud[it] Electeur </p>
+                <p>10. <lb/>En vertu des articles precedens le Roy de Suedef tant pour luy <lb/>que
+                    pour ses hoirs, successeurs, et ajans cause renonce, cede, <lb/>quitte, et
+                    transporte perpetuellement et à tousjours par le <lb/>present traitté de paix à
+                    l'Electeur de Brandebourg, ses <lb/>hoirs, Successeurs et ajans cause tous les
+                    droits, rentes, revenu[s,] <lb/>jurisdictions, et prerogatives de quelque nom et
+                    de quelque <lb/>nature qu'jls puissent estre, qu'jl a eu et qu'jl peut
+                    pretendre, <lb/>tant en vertu des traittes de Westphalie que par des
+                    conventions, <lb/>transactions, et cessions particulierement par le traitté, ou
+                    Recez <lb/>de Stetin de l'an 1643 sur les lieux, Villes, terres, forests, et
+                    <lb/>domaines scitués au delà de la riviere d'Oder, et partage des <lb/>droits
+                    de peages dans les ports et havres de la Pomeranie Electorale <lb/>à l'exception
+                    seulement de la Ville de Dam, et ses dependances <lb/>et de celle de Golnow et
+                    ses dependances, conformement toutte fois <lb/>à la disposition qui en a esté
+                    faitte par l'article 8.e de ce present <lb/>traitté, <lb/>sans reservation,
+                    exception, restriction ou retention quelconque <lb/>
+                </p>
+                <pb facs="#FacsPnr7"/>
+                <p>et ce non obstant touttes loix, contracts, conventions, transactions
+                    <lb/>cessions, et jnvestitures passeés et futures, coutumes, et constitutions
+                    <lb/>au contraire, auxquelles, et aux clauses derogatoires des
+                    <lb/>derogatoires, jl est expressement desrogé par le present traitté,
+                    <lb/>excluant à perpetuité touttes exceptions, sous quelques droits
+                    <lb/>tiltres, clauses ou pretextes qu'elles puissent estre fondeés. </p>
+                <p>11. <lb/>Consent aussy led[it] Roy de Suede que les hommes, Vassaux, et
+                    <lb/>sujets desd[its] lieux, Villes, et pays cedés par le present article
+                    <lb/>aud[it] Electeur de Brandebourg soient et demeurent quittes et <lb/>absous
+                    dés apresent et pour tousjours des foy et hommage <lb/>service et serment de
+                    fidelité qu'jls pourroient luy avoir <lb/>faits, Tous lesd[its] Sujets et
+                    Vassaux demeurans à l'avenir sous <lb/>la souveraineté de l'Electeur de
+                    Brandebourg, mais dans la <lb/>proprieté et possession de leurs biens tant de
+                    Ceux qui leur auroient <lb/>esté donnés, vendus ou alienés par les Roys et
+                    Couronne de <lb/>Suede avant la declaration de la presente guerre, que de ceux
+                    <lb/>qu'jls auroient acquis, ou qui leur appartiendroient de leur <lb/>propre,
+                    tant meubles qu'immeubles, rentes viageres, et à rachat <lb/>saisies et
+                    occupeés, tant à l'occasion de la guerre, que pour <lb/>avoir suivi le party
+                    contraire, ensemble de leurs droits, actions <lb/>et successions à Eux
+                    survenues, mesme depuis la guerre <lb/>commenceé; sans touttefois pouvoir rien
+                    demander ny pretendre <lb/>
+                </p>
+                <pb facs="#FacsPnr8"/>
+                <p>des fruits et revenus perceus et escheus dez le saisissement <lb/>desd[its] biens
+                    jusques au jour de l'eschange de la ratiffication <lb/>du Roy de Suede, ny
+                    semblablement des debres, effets, et meubles <lb/>qui auront esté confisqués
+                    avant led[it] jour à cause de la guerre <lb/>presente, Ensorte qu'aucun
+                    Creancier de telles debres ny aucun <lb/>depositaire, proprietaire et leurs
+                    heritiers, ou ajans cause <lb/>en puissent faire poursuitte, ny en pretendre
+                    restitution, recouvrement, ou equivalent. </p>
+                <p>12. <lb/>La riviere d'Oder suivant la disposition des traittes de Westphalie
+                    <lb/>demeurera tousjours en souveraineté au Roy et à la <lb/>Couronne de Suede,
+                    et jl ne sera pas libre aud[it] Electeur de <lb/>Brandebourg d'exiger aucune
+                    forteresse, ou de fortiffier <lb/>aucune place dans l'estendue du pays qui luy
+                    est cedé par <lb/>le present traitté. </p>
+                <p>13. <lb/>Aussy tost aprez que l'eschange de la ratiffication de Sa Maj[es]té
+                    <lb/>trez Chrestienne aura esté faitte avec celle de l'Elect[eur] de
+                    <lb/>Brandebourg, Sa Maj[est]é fera retirer son Armeé des Pays <lb/>et places
+                    des Duchés de Cleves, Principauté de Minden, <lb/>Comtés de Mark et Ravensberg,
+                    et de touttes autres terres <lb/>dud[it] Electeur, qu'elle auroit occupeés à
+                    l'exception toutte fois <lb/>
+                </p>
+                <pb facs="#FacsPnr9"/>
+                <p>d'un corps de mille Chevaux qu'Elle conservera dans led[it] <lb/>pays et des
+                    places de Wesel et Lipstat qu'Elle retiendra jusques <lb/>à l'entiere execution
+                    du present traitté avec le Roy de Suede, <lb/>aprez laquelle et lorsque led[it]
+                    Roy aura esté restabli dans les <lb/>pays et places qui luy doivent etre remis,
+                    Elle retirera entierement <lb/>ses trouppes des places et pais de l'Electeur de
+                    Brandebourg. Mais durant qu'Elles y demeureront les habitans des Villes de Wesel
+                    <lb/>et de Lipstat continueront à fournir aux garnisons les mesmes logemens
+                    <lb/>et Ustencilles portées par le traitté de Santen, et les habitans des
+                    <lb/>lieux, ou lesd[its] mille Chevaux seront logés leur fourniront les
+                    <lb/>mesmes Ustencilles et le fourage. </p>
+                <p>14. <lb/>Mais comme le Roy de Suede n'a point presentement de trouppes <lb/>dans
+                    l'Empire, et qu'jl ne pourroit peut etre y en faire passer dans <lb/>le temps
+                    porté pour l'eschange des ratiffications du present traitté, pour <lb/>reprendre
+                    en son nom la possession des places et pays, qui luy doivent <lb/>estre remis
+                    par l'Electeur de Brandebourg, jl a esté convenu et stipulé <lb/>qu'aussy tost
+                    aprez led[it] eschange entre le Roy de Suede et l'Electeur <lb/>de Brandebourg,
+                    led[it] Electeur retirera ses trouppes de tout le <lb/>plat-pays qui doit
+                    revenir par ce traitté au Roy de Suede, Mais <lb/>qu'jl laissera les garnisons
+                    necessaires dans les places qui luy <lb/>doivent estre remises, scavoir deux
+                    mille Hommes au plus dans Stralzund, et mil a douze cens hommes dans Stetin, et
+                    ainsy <lb/>à proportion dans les autres places lesquelles jl conservera contre
+                    <lb/>
+                </p>
+                <pb facs="#FacsPnr10"/>
+                <p>tous ceux dont elles pourroient estre attaqueés jusques a ceque <lb/>le Roy de
+                    Suede ait envoié des trouppes pour prendre possession desd[ites] places laquelle
+                    luy sera laisseé alors par celles de l'Electeur <lb/>qui se retireront dans ses
+                    Estats. </p>
+                <p>15. <lb/>Il sera loisible toutefois aud[it] Electeur de Brandebourg <lb/>de
+                    retirer auparavant desd[ites] places tout le Canon et les munitions <lb/>de
+                    guerre qu'jl y auroit fait conduire depuis qu'jl s'en est <lb/>rendu Maistre, y
+                    laissant touttefois l'artillerie et munitions de guerre qui ont appartenu à la
+                    Couronne de Suede, et qui <lb/>s'y trouveront le jour de la signature du present
+                    traitté de paix. </p>
+                <p>16. <lb/>Comme S[on] A[ltesse] E[lectorale] de Brandebourg a fait de grandes
+                    instances <lb/>à Sa Majesté trez Chrestienne de vouloir bien terminer en
+                    <lb/>mesme temps la guerre qu'Elle a avec le Roy de Dannemark <lb/>duquel
+                    sad[dite] A[ltesse] E[lectorale] seroit estroittement allieé, led[it] Roy de
+                    <lb/>Dannemark ajant desja fait connoistre le desir qu'jl a de <lb/>rentrer dans
+                    l'ancienne amitié et Alliance qu'jl a eu cy devant <lb/>avec la france, Sa
+                    Majesté trez Chrestienne declare qu'Elle <lb/>sera bienaise que cette paix se
+                    puisse faire au plustost à des <lb/>conditions justes et raisonnables pour le
+                    bien et le repos general <lb/>
+                </p>
+                <pb facs="#FacsPnr11"/>
+                <p>de la Chrestienté, pourveu qu'Elle se fasse en mesme temps avec <lb/>la Suede,
+                    sans laquelle le Roy ne se trouve pas en estat de <lb/>la conclure. Cependant
+                    led[it] Electeur s'oblige de ne donner <lb/>aucun secours directement, ou
+                    jndirectement, au Roy de <lb/>Dannemark, s'jl demeuroit encore en guerre contre
+                    la France et la Suede, et promet de rappeller ses trouppes s'jl en <lb/>avoit
+                    quelques unes dans le service dud[it] Roy de Dannemark. </p>
+                <p>17. <lb/>Sa Majesté trez Chrestienne s'oblige de procurer l'agrement du <lb/>Roy
+                    de Suede sur ce present traitté, et sur tout ce qui y est contenu, <lb/>et d'en
+                    obtenir la ratiffication dud[it] Roy [de Suede]<note type="crit_app" n="2">
+                        Nachträglich eingefügt. </note> en bonne et deue <lb/>forme dans le temps de
+                    trois mois à conpter du jour de la signature, ou plustost, sy faire se peut,
+                    Jusques à ceque cette ratiffication soit deslivreé entre les mains de S[on]
+                    A[ltesse] E[lectorale] Elle ne <lb/>sera point obligeé de rendre la Pomeranie
+                    Suedoise, de quoy <lb/>Sad[ite] Majesté trez Chrestienne demeure garante, de
+                    mesme <lb/>que de tout cequi a esté accordé à S[on] A[ltesse] E[lectorale] en
+                    vigueur du <lb/>present traitté. <lb/>
+                    <lb/>
+                </p>
+                <p> </p>
+                <pb facs="#FacsPnr12"/>
+                <p>mois ou plustost sy faire se peut, et celles du Roy de Suede <lb/>avec led[it]
+                    Electeur seront eschangeés dans le terme de trois mois <lb/>ou plustost sy faire
+                    se peut. </p>
+                <p>En foy de quoy Nous soussignes en vertu de nos pleinpouvoirs <lb/>respectifs
+                    avons signé ces presentes, et y fait apposer les cachets <lb/>de nos armes. Fait
+                    à S[ain]t Germain en Laye ce vingt neufiesme <lb/>jour de Juin mil six cens
+                    soixante et dix neuf. </p>
+                <p>Arnauld&nbsp;&nbsp;Fr. Meinders <lb/>
+                </p>
+                <pb facs="#FacsPnr13"/>
+                <p>Article Separé du Traité signé <lb/>de la part du Roy Louis 14. <lb/>avec
+                    l'El[ecteur] de Brandebourg </p>
+                <p>Articlé Separé. <lb/>Outre les Articles contenus au traitté conclu et <lb/>signé
+                    ce jourd'huy de la part de Sa Majesté Trez <lb/>Chrestienne, et S[on] A[ltesse]
+                    E[lectorale] de Brandebourg on est <lb/>encore convenu de ce qui suit. </p>
+                <p>Comme l'intention de Sa Majesté Trez-Chrestienne <lb/>est de faire cesser
+                    entierement tous les differends <lb/>qui pourroient donner lieu à de nouveaux
+                    sujets <lb/>de division et de guerre entre les Princes de <lb/>l'Empire, et que
+                    Sa Majesté Trez Chrestienne s'est <lb/>obligeé par le traitté signé à Zell le 5e
+                    fevrier <lb/>de la presente anneé avec les Princes de la Maison <lb/>de Brunsuik
+                    et Lunebourg de les assister dans <lb/>la garantie qu'ils ont à donner aux Ducs
+                    de <lb/>Mekelbourg, et Saxe Lauembourg, l'Evesque de <lb/>Lubek, les Comtes de
+                    Lippe, et de Suartzenbourg <lb/>et les Villes de Hambourg et de Lubek à l'esgard
+                    <lb/>des pretentions qu'a ou pourroit avoir contre lesd[its] <lb/>Princes et
+                    Estats l'Electeur de Brandebourg <lb/>sous pretexte de certaines assignations
+                    obtenues <lb/>pendant la guerre, Sa Maj[es]té, sans desroger <lb/>
+                </p>
+                <p>
+                    <pb facs="#FacsPnr14"/>à lad[ite] obligation, mais scachant que l'intention
+                    <lb/>de l'Electeur de Brandebourg est d'accommoder cette <lb/>affaire à
+                    l'amiable, emploira ses soins et ses <lb/>offices pour la terminer entre les
+                    parties par touttes <lb/>voies justes et raisonnables. Ce present article separé
+                    aura pareille, force et <lb/>vigueur, que s'il estoit inseré dans le Corps du
+                    <lb/>traitté principal passé ce jourd'huy et la <lb/>ratiffication en sera
+                    fournie en mesme temps <lb/>fait à S[ain]t Germain en Laye ce Vingtneuf[iem]e
+                    jour <lb/>de Juin mil six cens soixante et dixneuf. </p>
+                <p>Arnauld&nbsp;&nbsp;Fr. Meinders. <lb/>
+                </p>
+                <pb facs="#FacsPnr15"/>
+                <p>29 Juin 1679 à S[aint] Germain en Laye <lb/>Article Separé du Traité signé
+                    <lb/>de la part du Roy Louis 14. <lb/>avec l'El[ecteu]r de Brandebourg&nbsp;
+                    <lb/>pour subsider&nbsp;&nbsp; </p>
+                <p>Autre Article Separé <lb/>Pour donner une marque encore plus particuliere du
+                    desir <lb/>qu'a Sa Majesté de faciliter une paix qui doit contribuer <lb/>au
+                    restablissement d'un Roy Son Allié dans ses Estats <lb/>et faire connoistre a
+                    l'Electeur de Brandebourg le <lb/>plaisir avec lequel Elle le voit rentrer dans
+                    son <lb/>ancienne Alliance avec Elle, Sa Maj[est]é veut bien <lb/>par un pur
+                    effet des ses bonnes intentions pour le bien <lb/>de la paix promettre de faire
+                    paier aud[it] S[ieu]r Electeur <lb/>dans le terme de deux ans la Somme de trois
+                    Cens <lb/>mille escus pour le desdomager en quelque sorte des <lb/>frais et des
+                    despenses qu'il a faittes durant le cours <lb/>de cette guerre. Lesquels trois
+                    cens mille escus seront <lb/>paiés par termes esgaux de trois mois en trois mois
+                    <lb/>jusques à l'entier paiement de lad[ite] Somme à la fin <lb/>des d[its] deux
+                    Anneés, Et commencera le premier <lb/>paiement trois mois aprez l'eschange des
+                    ratiffications <lb/>fait à S[ain]t Germain en Laye ce vingt neuf[iem]e jour de
+                    juin <lb/>mil six cens soixante et dix neuf </p>
+                <p>Arnauld &nbsp;&nbsp;&nbsp;Fr. Meinders <lb/>
+                </p>
+            </div>
+        </body>
+        <back>
+            <listBibl>
+                <bibl xml:id="a225">
+                    <title level="a">Reichsarchiv (1679-06-29)</title>
+                    <title level="m">Reichsarchiv, Band 5 (1713), PSpec I-3, S.259-267 Aus:
+                        Dokumentenarchiv der Universitätsbibliothek Augsburg (Drucke vor 1900 /
+                        Historische Geschichtswerke).</title>
+                    <biblScope>
+                        <graphic xml:id="A1Pnr1"
+                            url="https://www.ieg-friedensvertraege.de/dbimages/img_4a967c52a29a1"/>
+                        <graphic xml:id="A1Pnr2"
+                            url="https://www.ieg-friedensvertraege.de/dbimages/img_4a967c5a5d408"/>
+                        <graphic xml:id="A1Pnr3"
+                            url="https://www.ieg-friedensvertraege.de/dbimages/img_4a967c69074b7"/>
+                        <graphic xml:id="A1Pnr4"
+                            url="https://www.ieg-friedensvertraege.de/dbimages/img_4a967c7149b05"/>
+                        <graphic xml:id="A1Pnr5"
+                            url="https://www.ieg-friedensvertraege.de/dbimages/img_4a967c84313fa"/>
+                        <graphic xml:id="A1Pnr6"
+                            url="https://www.ieg-friedensvertraege.de/dbimages/img_4a967c84313fa"/>
+                        <graphic xml:id="A1Pnr7"
+                            url="https://www.ieg-friedensvertraege.de/dbimages/img_4a967c8b8632d"/>
+                        <graphic xml:id="A1Pnr8"
+                            url="https://www.ieg-friedensvertraege.de/dbimages/img_4a967c98d44e0"/>
+                        <graphic xml:id="A1Pnr9"
+                            url="https://www.ieg-friedensvertraege.de/dbimages/img_4a967ca20b1ee"/>
+                    </biblScope>
+                </bibl>
+                <bibl xml:id="a50">
+                    <title level="a">Theatrum Europaeum (1679-06-29)</title>
+                    <title level="m">Theatrum Europaeum, Band 11 (1672-1679) Aus: Dokumentenarchiv
+                        der Universitätsbibliothek Augsburg (Drucke vor 1900 / Historische
+                        Geschichtswerke).</title>
+                    <biblScope>
+                        <graphic xml:id="A2Pnr1"
+                            url="https://www.ieg-friedensvertraege.de/dbimages/img_49e5e32b743f2"/>
+                        <graphic xml:id="A2Pnr2"
+                            url="https://www.ieg-friedensvertraege.de/dbimages/img_49e5e33159ded"/>
+                        <graphic xml:id="A2Pnr3"
+                            url="https://www.ieg-friedensvertraege.de/dbimages/img_49e5e336a608c"/>
+                    </biblScope>
+                </bibl>
+            </listBibl>
+        </back>
+    </text>
+</tei:TEI>

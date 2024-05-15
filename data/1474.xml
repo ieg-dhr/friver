@@ -1,0 +1,1720 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE tei SYSTEM "../resources/FriVer_DTD.dtd">
+
+<?xml-model href="../resources/FriVer.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns="http://www.tei-c.org/ns/1.0"
+    xml:id="pa000299-1474">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title level="s">European peace treaties of the pre-modern era in data / Europäische
+                    Friedensverträge der Vormoderne in Daten (FriVer+)</title>
+                <title when="1768-02-24" xml:id="t1474" when-custom="1768 II 24" level="a"
+                    ref="https://www.ieg-friedensvertraege.de/treaty/t-1474-1-de.html">Ewiger
+                    Friede</title>
+            </titleStmt>
+            <editionStmt>
+                <edition> Digital edition according to <ref target="http://www.tei-c.org/">TEI
+                        P5</ref>
+                </edition>
+                <funder>
+                    <ref target="https://www.text-plus.org/">TEXT+</ref>
+                </funder>
+                <editor role="http://id.loc.gov/vocabulary/relators/edt"
+                    ref="https://orcid.org/0000-0002-8741-5916">
+                    <persName>Jaap Geraerts</persName>
+                    <note>The transformation and enrichment of the data is done by Jaap Geraerts
+                        (IEG Mainz). The other members of the FriVer+ team are Fabian Cremer, Ines
+                        Grund, and Thorsten Wübbena (all IEG Mainz).</note>
+                    <note> The original data has been created by the <ref
+                            target="https://www.ieg-friedensvertraege.de">team of scholars</ref> who
+                        were part of the Europäische Friedensverträge der Vormoderne project. This
+                        project was lead by Prof. Dr. Heinz Duchhardt and was based at the Leibniz
+                        Institute of European History in Mainz. </note>
+                </editor>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>
+                    <orgName ref="http://www.isni.org/0000000119314040">Leibniz-Institut für
+                        Europäische Geschichte Mainz</orgName>
+                </publisher>
+                <distributor>
+                    <orgName ref="http://www.isni.org/0000000110101946">Universitäts- und
+                        Landesbibliothek Darmstadt</orgName>
+                </distributor>
+                <idno type="ISIL">http://lobid.org/organisation/DE-17</idno>
+                <date type="issued" when="2023-12-23"/>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">
+                        <p xml:lang="en">This file is licensed under the terms of the Creative
+                            Commons License CC-BY 4.0 (Attribution 4.0 International)</p>
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <repository xml:id="r30">Warschau AGAD</repository>
+                <msDesc>
+                    <p>AGAD Warschau Archiwum Akt Główne w Warszawie: AKW dz. Rosyjskie 23-3:
+                        Ratifikation des Vertrages (13 II / 24 II 1768) durch Russland, 1768 III 29<lb/>
+                        <lb/> Anmerkung:<lb/> Am gleichen Tag wurden zwei Separatartikel zur
+                        Stellung der Glaubensgemeinschaften (Dissidenten) und zu den polnischen
+                        Leges Cardinales unterzeichnet, die als Bestandteile dieses Vertrages
+                        deklariert wurden. Sie sind abgedruckt in: Parry, Clive: The consolidated
+                        Treaty Series (CTS), Bd. 44, S. 107-162 (lat., frz.); Christian Gottlieb von
+                        Friese: Beyträge zu der Reformationsgeschichte in Polen und Litthauen,
+                        Breslau 1786. II/II. S. 329-403 (1. Separatartikel lat./dt.; ebd. auch eine
+                        Zusammenstellung der Vergehen gegen die Dissidenten im 18. Jhdt. S. 323-329
+                        sowie der seit 1717 beklagten gesetzlichen Änderungen, S. 300). Martens,
+                        Georg F: Receuil des Traités, Göttingen 1817, Bd.1, S. 555-589 (lat.).</p>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p> The data in this XML file, originally created by the project <ref
+                        target="https://www.ieg-friedensvertraege.de/vertraege">Europäische
+                        Friedensverträge der Vormoderne online</ref> has been transformed in
+                    accordance with <ref target="http://www.tei-c.org/">TEI P5</ref> as part of the
+                    project <ref
+                        target="https://www.ieg-mainz.de/en/research/research-projects/european-peace-treaties-of-the-pre-modern-era-in-data"
+                        >Europäische Friedensverträge der Vormoderne in Daten (FriVer+)</ref>
+                </p>
+            </projectDesc>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="ru" xml:id="lan10">russisch</language>
+            </langUsage>
+        </profileDesc>
+    </teiHeader>
+    <standOff>
+        <listPerson>
+            <person role="signatory" xml:id="p91">
+                <persName ref="https://explore.gnd.network/gnd/4046496-9">
+                    <name>Polen</name>
+                </persName>
+            </person>
+            <person role="signatory" xml:id="p9">
+                <persName ref="https://explore.gnd.network/gnd/4076899-5">
+                    <name>Russland</name>
+                </persName>
+            </person>
+        </listPerson>
+        <listPlace>
+            <place xml:id="loc42">
+                <placeName ref="https://explore.gnd.network/gnd/4079048-4">Warschau</placeName>
+            </place>
+        </listPlace>
+        <facsimile>
+            <surface xml:id="FacsPnr1">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_46249bf675990"/>
+            </surface>
+            <surface xml:id="FacsPnr2">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_46249c03a85ae"/>
+            </surface>
+            <surface xml:id="FacsPnr3">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_46249c30515c3"/>
+            </surface>
+            <surface xml:id="FacsPnr4">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_46249c6135ed8"/>
+            </surface>
+            <surface xml:id="FacsPnr5">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_46249c6e31ff7"/>
+            </surface>
+            <surface xml:id="FacsPnr6">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_46249c7b0dd78"/>
+            </surface>
+            <surface xml:id="FacsPnr7">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_46249c86bca00"/>
+            </surface>
+            <surface xml:id="FacsPnr8">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_46249c9236d0b"/>
+            </surface>
+            <surface xml:id="FacsPnr9">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_46249c9d87d98"/>
+            </surface>
+            <surface xml:id="FacsPnr10">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_46249caac0774"/>
+            </surface>
+            <surface xml:id="FacsPnr11">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_46249cb661b80"/>
+            </surface>
+            <surface xml:id="FacsPnr12">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_46249cc255fa7"/>
+            </surface>
+            <surface xml:id="FacsPnr13">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_46249ccf04e67"/>
+            </surface>
+            <surface xml:id="FacsPnr14">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_46249cdaa5091"/>
+            </surface>
+            <surface xml:id="FacsPnr15">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_46249ce675298"/>
+            </surface>
+            <surface xml:id="FacsPnr16">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_46249cf3f1294"/>
+            </surface>
+            <surface xml:id="FacsPnr17">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_46249d0152ef0"/>
+            </surface>
+            <surface xml:id="FacsPnr18">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_46249d0eee2eb"/>
+            </surface>
+            <surface xml:id="FacsPnr19">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_46249d1a9f0f4"/>
+            </surface>
+            <surface xml:id="FacsPnr20">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_46249d264c07d"/>
+            </surface>
+            <surface xml:id="FacsPnr21">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_46249d3307a5e"/>
+            </surface>
+            <surface xml:id="FacsPnr22">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_46249d3f32986"/>
+            </surface>
+            <surface xml:id="FacsPnr23">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_46249d4b73067"/>
+            </surface>
+            <surface xml:id="FacsPnr24">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_46249d58904c6"/>
+            </surface>
+            <surface xml:id="FacsPnr25">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_46249d66ac97d"/>
+            </surface>
+            <surface xml:id="FacsPnr26">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_46249d767eaa6"/>
+            </surface>
+            <surface xml:id="FacsPnr27">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_46249d83970e5"/>
+            </surface>
+            <surface xml:id="FacsPnr28">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_46249d8f08750"/>
+            </surface>
+            <surface xml:id="FacsPnr29">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_46249d9b5c6b3"/>
+            </surface>
+            <surface xml:id="FacsPnr30">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_46249da74013b"/>
+            </surface>
+            <surface xml:id="FacsPnr31">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_46249db427a3b"/>
+            </surface>
+            <surface xml:id="FacsPnr32">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_46249dbea692c"/>
+            </surface>
+            <surface xml:id="FacsPnr33">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_46249dce9fb55"/>
+            </surface>
+            <surface xml:id="FacsPnr34">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_46249ddbde2f1"/>
+            </surface>
+            <surface xml:id="FacsPnr35">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_46249de8ce891"/>
+            </surface>
+        </facsimile>
+    </standOff>
+    <text>
+        <front>
+            <div type="Drucke">
+                <p> Parry, Clive: The consolidated Treaty Series (CTS). Bd. 44, S.83-162 (poln.,
+                    lat., frz., mit Nebenkonventionen). <lb/>
+                    <lb/>Wenck, Friedrich August: Codex iuris gentium recentissimi e tabulariorum
+                    exemplorumque fide dignorum monumentis compositus. Leipzig 1781-1795, III,
+                    S.651-673 (poln., lat.; Separatartikel) <lb/>
+                    <ref target="http://gallica.bnf.fr/ark:/12148/bpt6k396639.image.f657.langEN"
+                        >Link zum Druck auf gallica.bnf.fr &nbsp; </ref>
+                    <lb/>
+                    <lb/>Prawa Konstytucye y Przywileie Krolestwa Polskiego y Wielkiego Xięstwa
+                    Litewskiego I wszystkich prowicyi należących. Warszawa 1782, VII, S.562 – 569
+                    (poln., russ.). <lb/>
+                    <lb/>Mercure historique et politique, contenant l'état présent de l'Europe. La
+                    Haye 1686-1782, Bd.164, S.94 ff (frz.). <lb/>
+                    <lb/>Moser, J. J.: Versuch des neuesten Europäischen Völker-Rechts in Friedens-
+                    und Kriegs-Zeiten vornehmlich aus denen Staatshandlungen derer Europäischen
+                    Mächten, auch anderen Begebenheiten, so sich seit dem Tode Kayser Carls VI. im
+                    Jahr 1740 zugetragen haben. 10 Bde., Frankfurt am Mayn 1777-1780, VI, 270-277
+                    (frz.). <lb/>
+                    <lb/>Martens, Georg v.: Recueil des principaux traités d'alliance, de paix, de
+                    trève, de neutralité de commerce ... conclus par les puissances de l Europe
+                    depuis 1761 jusqu'à present. Göttingen 1817, Bd. 1, S.535-555 (lat., dt.). <lb/>
+                    <lb/>Angeberg, Comte de [Chodźko L.J.B.]: Receuil des Traités, Conventions et
+                    Actes Diplomatiques concernant la Pologne (1762-1862). Paris 1862,, S.30-42
+                    (frz.). </p>
+            </div>
+            <div type="Inhalt">
+                <p> Trotz des noch immer währenden Moskauer Friedens (1686) machen die jüngster
+                    politischen Spannungen einen neuen Vertrag nötig. Benennung der beiderseits
+                    Bevollmächtigten. Art. I &nbsp;&nbsp;&nbsp; Bestätigung des Moskauer Vertrags
+                    von 1686. Art. II &nbsp;&nbsp;&nbsp; Bestandsgarantie. Art. III &nbsp;&nbsp;
+                    Polen garantiert die Rechte der Dissidenten (als Kardinalrecht); es entspricht
+                    damit den Interventionen Russlands und anderer protestantischer Mächte (hier
+                    nicht aufgeführt, gemeint sind jedoch Preußen, Dänemark, Schweden,
+                    Großbritannien). Art. IV &nbsp;&nbsp;&nbsp; Festschreibung der polnischen
+                    Staats- und Regierungsform. Dies wird ergänzt durch durch Zusatzverträge über
+                    die Rechte der Dissidenten und über die Kardinalrechte (inkl. Liberum veto).
+                    Diese Zusatzverträge sollen als Bestandteil dieses Vertrages gelten und unter
+                    seiner Garantie stehen. Art. V &nbsp;&nbsp;&nbsp; Garantie Russlands. Art. VI
+                    &nbsp; &nbsp;&nbsp;Ewige Freundschaft mit Russland. Bereits bestehende Verträge
+                    mit anderen Mächten sind hiervon nicht berührt. Dies gilt ausdrücklich für die
+                    Friedensverträge von Oliva (1660) und Karlowitz (1699). Art. VII
+                    &nbsp;&nbsp;&nbsp;&nbsp; Gute Jusitz und Unverletzlichkeit der Grenzen.
+                    Grenzkommissionen. Art. VIII &nbsp;&nbsp;&nbsp; Förderung Handel und Verkehr.
+                    Verzicht auf steuerliche Belastungen. Art. IX &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    Ratifikation und Auswechslung.</p>
+            </div>
+            <div type="Kontext">
+                <p> 1762 VII 9 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Katharina II. (die Große) wird
+                    Zarin von Russland. 1764 IX 7 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Wahl
+                    Stanislau (Stanisław) August Poniatowskis auf den polnischen Königsthron mit
+                    Billigung Russlands und Preußens. Die Wahl beendete das seit dem Tod August III.
+                    (1763 X 5; Wettiner) bestehende Interregnum. Poniatowski, Günstling der Zarin,
+                    verfolgte Reformprojekte für den polnischen Staat. Die Umsetzung des
+                    Reformprogramms (Finanz-, Wirtschafts-, Steuerreform, Heerwesen, Einschränkung
+                    des liberum veto) stieß jedoch auf Widerstand in Polen selbst und vor allem auch
+                    bei den Nachbarmächten Russland und Preußen. Sie fanden in der Klage der
+                    Orthodoxen und Protestanten über Unterdrückung einen wirksamen Hebel für eine
+                    Einmischung in polnische Staatsangelegenheiten. Unter militärischer und
+                    finanzieller Ägide schloß sich am &nbsp; 1767 VI 23 &nbsp;&nbsp;&nbsp;&nbsp; die
+                    polnische Opposition, bestehend aus den religiösen „Dissidenten“ und den Reform-
+                    und Königsgegnern, zur „Konföderation von Radom“ (um Karol Radziwiłł) zusammen.
+                    Sie erzwangen auf einem Reichstag unter Androhung der Absetzung des Königs die
+                    Ausarbeitung eines Vertrages durch eine Kommission. Über Nikolai Repnin, den
+                    russischen Residenten in Warschau, nahm die Zarin durch die Verhaftung
+                    gegnerischer Politiker (darunter des Bischofs von Krakau) direkt Einfluß auf die
+                    Politik in Polen. &nbsp; 1768 II 24 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Der „ewige
+                    Vertrag“ zwischen Polen und Rußland wird unterzeichnet; der Sejm billigte ihn am
+                    &nbsp; 1768 III 5 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; in einer „stummen
+                    Sitzung“ (das heißt, den Abgeordneten wurden eine Debatte und eine mögliche
+                    gegenläufige Beschlussfassung untersagt). Gegen die Kooperation mit Rußland
+                    agierte ab &nbsp; 1768 II 29 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; die „Konföderation
+                    von Bar“, die – gestützt auf Frankreich – jedoch nicht nur mit Russland brechen,
+                    sondern auch Poniatowski absetzen wollte. Ein vierjähriger Bürgerkrieg folgte,
+                    der den Teilungsmächten Tür und Tor öffnete. &nbsp; &nbsp; </p>
+            </div>
+        </front>
+        <body>
+            <div type="Edition">
+                <p>Vgl. Andrea Schmidt-Rösler, Der "Ewige Friede" geschlossen zwischen Polen und
+                    Russland am 14. Februar 1768 zu Warschau. Edition und Übersetzung." LINK:&nbsp;
+                    <lb/>
+                </p>
+            </div>
+            <div type="Transkription">
+                <p>&nbsp; &nbsp; &nbsp; [Seite 1] </p>
+                <p>&nbsp; </p>
+                <p>На 18 листахъ. 1918 г. ноября 18. К. Вознесенский </p>
+                <p>&nbsp; </p>
+                <p>[Seite 2] </p>
+                <p>&nbsp; </p>
+                <p>1768. г.&nbsp;&nbsp; 13/24 февраля&nbsp;&nbsp; 29 марта <lb/>
+                    <lb/>Ратификация Трактата заключеннаго <lb/>между Российскою Империею и Польскою
+                    <lb/>Республикою чрезъ обоюдныхъ ихъ полно- <lb/>мочныхъ въ Варшаве&nbsp; въ
+                    Петрограде. <lb/>
+                    <lb/>Связка 8-я, N. 5-й. <lb/>
+                </p>
+                <p>
+                    <lb/> [ Seite 3] &nbsp; Tłómaczenie &nbsp; Za Bozką wspomagaiącą łaską My
+                    Katarzyna II Imperatorowa y Samo- władczyna całe Rossyiska, Moskiewska,
+                    Kijowska, Włodzimirska, Nowogrodzka, Caryca Kazanska, Caryca Astrachańska,
+                    Caryca Sibirska, Pani Psowska i Wielku Xiężna Smolenska, Xiężna Estlandska,
+                    Liflandska, Korelska, Twerska, Juroska, Permska, Wiatska, Bulgarska in innych
+                    Pani i Wielka Xiężna Nowogrodu, Nizowskiey ziemi, Czerniechowska, Rażanska,
+                    Rostoska Jarosłaska, Białoiezierska, Udorska, Obdorska, Kondyiska, i całey
+                    Pułnocney stronie rozkazuiąca, i Pani &nbsp; Iwerskiey ziemi, Kartalinskich i
+                    Georgianskich Carow y Kabardynskiey ziemi, Czerkaskich i Horskich Xiążąt i
+                    innych dziedzieczna Pani i territorialna Pani. Na samym wstąpieniu Naszym na
+                    Tron, kładąc My sobie za pryncypalny i swiątobliwy obowiązek, dotrzymać i
+                    wypełniać w całey istocie własciwie przez Nas z innemi Państwami na nowo
+                    przyimuiące się i dawniey przez Naszą Koronę z nimi przy- ięte Obowiązki i
+                    Traktaty, mamy zaiste i ukontentowanie widzieć, iż Europa cała oddaie Nam w tym
+                    pełną sprawiedliwość; Lecz &nbsp; kiedy w tym, czas i okoloczności przez
+                    naturalną skłonność do odmian wszystkich spraw ludzkich, rozciągneły nieznacznie
+                    rożne odmiany w Traktacie 1686. Roku na ktorego fundamencie przyiazń y dobra
+                    harmonia Panstwa Naszego z Jaśnieyszą Rzecząpospolitą Polską a osobliwie w
+                    punkcie Konfessyonistow Greco- Rossyiską wiarę w Ich Kraiach, więc dla
+                    konieczney obydwom stronom równie potrzebney po- prawy tych przez czas
+                    rozciągnionych odmian, niemniey zaś i dla własciwszey co do teraznieyszego,
+                    ustawy samych fundamentow wzaiemney przyiazni Soiuszu y dobrego Sąsiedztwa,
+                    zgodzilismy się wspólnie z Jego Królewską Moscią panuiącym Stanisławem Augustem
+                    i z Ja- śnieyszą Rzeczpospolitą Polskimi naznaczyć i zadeterminować dla tak
+                    ważney negocyacyi szcze- golnych pełnomocnikow, którzy za daną im na[.]o władzą
+                    i mocą postanowili w mierze zawarli i aktualnie podpisali w Warszawie na Dniu 13
+                    podług starego styli / 24. podług nowego stylu Lutego teraznieyszego 1768 .
+                    Roku, nowy Traktat wieczney przyiazni i gwarancyi następuiącego tenoru słowo od
+                    słowa zdwo&lt;rn&gt;a do niego referuiącemi się separatnemi Aktami. &nbsp;
+                    &nbsp; Tłomaczone dnia 17 Czerwca 1789 przez W[..]a. Manugiewicza Tłomacza
+                    [Koronnei – unklare Lesart] i Rzeczypospolitey do Języka Rossyiskiego &nbsp;
+                    &nbsp; [Seite 4] &nbsp; Tłómaczenie &nbsp; Po zrewidowaniu tego Traktatu,
+                    znalazłszy go razem I zobydwoma separatnemi Aktami (ktore wteraznieyszey Naszey
+                    ratyfikacyi powinny się inserować i rozumieć w całey ich obserności podobnie
+                    iakby obydwa tu dla tego umyślnie od słowa do słowa wniesione były, zupełnie
+                    korespon- duiącym zamiarom obydwoch kontraktuiących, przyieliśmy go za dobry
+                    utwierdzili i ratyfikowali, iako zaś przezto samo uroczyściu za dobry przyimiemy
+                    utwierdzamy i ratyfikuiemy, obiecuiąc &nbsp; Im- peratorskim Naszym słowem za
+                    Nas y następcow Naszego Tronu, wykonywać zawsze swiątobli- wie w całey istocie
+                    wszystkie postanowienia nowego Traktatu przyiazni y gwarancyi, na zapew- nie
+                    czego My tę ratyfikacyą własno-ręcznie podpisawszy rozkazaliśmy ztwierdzic
+                    Pieczęcią Naszego Państwa. Dan w St. Petersburgu 29. dnia &nbsp; Miesiąca od
+                    Narodzenia Chrystusowego 1768 . a Panowania Naszego Szostego Roku &nbsp;
+                    Katarzyna &nbsp; Hrabia N. Panin Xiąże Alexander Galiczyn &nbsp; Tłómaczona dnia
+                    17. Czerwca 1789 przez &nbsp; W.a Manugiewicza Tłomacza [unleserlich; Koronnei]
+                    &nbsp; i Rzeczypospolitey do Języka Rossyiskiego. &nbsp; &nbsp; [Seite 5] <lb/>
+                    БОЖИЕЮ ПОСПЕШЕСТВУЮЩЕЮ МИЛО- <lb/>СТИЮ, МЫ ЕКАТЕРИНА ВТОРАЯ, ИМПЕ- <lb/>РАТРИЦА
+                    И САМОДЕРЖИЦА ВСЕРОССИЙСКАЯ, <lb/>Московская, Киевская, Владимирская,
+                    Новгородская Царица <lb/>Казанская, Царица Астраханская, Царица Сибирская,
+                    <lb/>Государыня Псковская, и великая княгиня Смоленская, княгиня
+                    <lb/>Эстляндская, Лифляндская, Корельская, Тверская, Погорская, <lb/>Пермская,
+                    Вятская, Болгорская и иныхъ, Государыня и вели- <lb/>кая Княгиня Нова города
+                    низовския земли, Черниговская, Рязан- <lb/>ская, Ростовская, Ярославская,
+                    Бело-озерская, Удорская, Обдор- <lb/>ская, Кондийская, и всея Северные страны
+                    повелительница, и <lb/>Государыня Иверския земли, Карталинскихъ и Грузинскихъ
+                    царей, <lb/>и кабардинския земли, Черкаскихъ и Горскихъ князей, и иныхъ
+                    <lb/>наследная Государыня и Обладательница.&nbsp;&nbsp; При самомъ
+                    <lb/>вступлении нашемъ на Престолъ поставя МЫ себе глав- <lb/>нымъ и священнымъ
+                    долгомъ, содержать и исполнять во всей <lb/>точности собственно НАМИ съ другими
+                    державами вновь при- <lb/>нимаемыя и прежде короною НАШЕЮ съ ними принятых
+                    <lb/>обязательства и трактаты, имеемъ правда и удовольствие <lb/>видеть, что
+                    Европа вся отдаетъ НАМЪ въ томъ полную <lb/>справедливость; Но какъ, между темъ
+                    время и обстоятель- <lb/>ства по натуральному склонению къ переменамъ всехъ
+                    чело- <lb/>веческихъ делъ произвели нечувствительно разныя перемены <lb/>в
+                    трактате „1686“, года, на коемъ основаны дружба и доброе <lb/>&nbsp; </p>
+                <p> &nbsp; [ Seite 6] </p>
+                <p>&nbsp; </p>
+                <p>согласие Империи НАШЕЙ съ яснейшею Речью посполитою <lb/>Польскою, а особливо по
+                    пункту исповедниковъ Греко-Российской <lb/>веры въ Земляхъ Ея: то для нужнаго и
+                    обеимъ сторонамъ <lb/>равно полезнаго поправления сихъ времянемъ произведенныхъ
+                    <lb/>переменъ, не менше же и для свойственнейшаго настоящему <lb/>разположения
+                    самыхъ оснований взаимной дружбы, союза и <lb/>добраго соседства, согласились МЫ
+                    обще съ Его Величествомъ <lb/>Государствующимъ Королемъ, СТАНИСЛАВОМЪ АВГУСТОМЪ,
+                    <lb/>и съ Яснейшею Речью посполитою Польскими, назначить и <lb/>определить для
+                    толь важной негоциации особливыхъ Полномоч- <lb/>ныхъ, которыя по данной имъ на
+                    то власти и силе поста- <lb/>новили на мере, заключили и действительно подписали
+                    въ <lb/>Варшаве въ день третий_надесять по старому
+                    штилю&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; месяца февраля
+                    <lb/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    двадесять четвертый по новому штилю <lb/>сего тысяча седмб сотъ шестьдесятъ
+                    осмаго года, новой Трактатъ <lb/>вечной дружбы и Гарантии, следующаго слово отъ
+                    слова содержа- <lb/>ния, съ двумя къ оному относительными Сепаратными Актами. <lb/>
+                    <lb/>&nbsp; </p>
+                <p>&nbsp;</p>
+
+                <p>&nbsp;</p>
+
+                <p>&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ТРАКТАТЪ
+                    ВЕЧНЫЙ&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    Traktat Wieczysty МЕЖДУ ВСЕРОССИЙСКОЮ
+                    ИМПЕРИЕЮ&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Między Imperium
+                    całey Rossyi И РЕЧЬЮ ПОСПОЛИТОЮ
+                    ПОЛЬСКОЮ&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp; &nbsp; &nbsp;
+                    &nbsp;&nbsp; y Rzecząpospolitą Polską
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    ВО ИМЯ
+                    СВЯТЫЯ&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    w Imię Swiętey &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; И НЕРАЗДЕЛИМЫЯ
+                    ТРОИЦЫ.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    y nierozdzielney Troycy &nbsp; Хотя между Империею
+                    Всероссий-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    Lubo między Imperium całey скою и Яснейшею Речью
+                    посполитою&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Rossyi y
+                    Nayiasnieyszą Rzecząpospolitą &nbsp; [Seite 7] </p>
+                <p>&nbsp; Польскою щастливо пребываетъ
+                    по&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    Polską trwa szczęsliwie według Трактату 1686 года вечной
+                    миръ,&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    Traktatu Roku 1686 wieczny pokój , искренняя дружба, постоянное
+                    согласие&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; prawdziwa przyiazń, stała
+                    harmonia, и доброе соседство: однакожъ,
+                    какъ&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    y dobre sąsiedztwo; iednak gdy по обыкновеннымъ въ делахъ
+                    челове-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; z przyczyny
+                    zwykłych w sprawach ческихъ переменамъ последовали
+                    меж-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Ludzkich odmian wyniknęły
+                    między ду ими съ толь давнаго
+                    времяни&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    niemi od tyle czasow rożne przy- разные произшествии, кои по
+                    пере-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    padki, które z racyi odmienionych менившимся
+                    обстоятельствамъ&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    cyrkumstancyi nowey imże nay- требуютъ и новаго, онымъ
+                    свойствен-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    przyzwoitszey wzaiemnych obowią- нейшаго определения взаимныхъ
+                    обя-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; zków wyciągaią
+                    ustawy; Z tey зательствъ, то по сей главной
+                    при-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    więc przyczyny y drugich w tera- чине, и другимъ настоящаго
+                    времяни&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    zieysze czasy trafiaiących się, któ- случайнымъ, кои въ
+                    публикованныхъ&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    re tak w publikowanych Nayiasniey- Декларацияхъ ЕЯ ВЕЛИЧЕСТВА
+                    ВСЕ-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; szey Imperatorowy
+                    Jeym[ość]i ПРЕСВЕТЛЕЙШЕЙ ИМПЕРАТРИЦЫ ВСЕ-&nbsp; Całey Rossyi Deklaracyach,
+                    РОССИЙСКОЙ, и въ согласныхъ съ оными&nbsp; iako y w Aktach Skonfederowaney
+                    Актахъ Сконфедерованной Речи
+                    пос-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    Rzeczypospolitey Polskiey do Niech &nbsp;политой Польской, Свету съ
+                    доволь-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    się zgadzaiących dosyć iaśnie ною ясностию показаны,
+                    признали,&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    Całemu Swiatu są pokazane; ЕЯ ИМПЕРАТОРСКОЕ
+                    ВЕЛИЧЕСТВО&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Nayiasnieysza
+                    Imperatorowa Jey ВСЕРОССИЙСКАЯ съ одной стороны, а&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    mość Całey Rossyi z iedney, a Его величество Король Польской
+                    и&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    Nayiasnieyszy Król Jegomość Polski, y чины Речи посполитой
+                    обязанные&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    Stany Rzeczypospolitey Oboiga Narodów &nbsp; [Seite 8] <lb/> между собою узломъ
+                    Генеральной Кон-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;Polskiego y
+                    Litewskiego spoione mię- федерации обоихъ народовъ,
+                    Польскаго&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;dzy sobą węzłem Konfederacyi
+                    general- и Литовскаго, съ другой, за
+                    нужно&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    &nbsp;&nbsp; ney, z drugiey strony, uznali rzeczą и сходственно съ взаимными
+                    ихъ&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    &nbsp;bydz potrzebną y stosuiącą się do wza- Интерессами, постановить и
+                    опре-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    &nbsp;iemnych Ich interessów, postanowić y делить, способомъ новаго
+                    тракта-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    &nbsp;umocnić sposobem nowego Traktatu та, полезнейшия, времяни и
+                    об-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    &nbsp;naypo[ż]ytecznieysze czasom y cyrkum- стоятельствамъ больше
+                    приличе-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    &nbsp;stancyom bardziey służące, Rzeczy- ствующия, а Речи посполитой
+                    Поль-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    &nbsp;pospolitey zaś Polskiey względem ской, въ разсуждении
+                    безопасности&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    &nbsp;bespieczeństwa Jey Konstitucyi y wol- Конституции, вольности ея,
+                    нуж-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    &nbsp;nosci naypożytecznieysze umowy; нейшие Договоры; чего ради
+                    для&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    &nbsp;Więc dla uczynienia takowego Tra- постановления такого
+                    Трактата&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    &nbsp;ktatu z Obu Stron traktuiących są и назначены отъ обоихъ
+                    догова-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    &nbsp;actu wyznaczeni Plenipotentiarij, ривающихся сторонъ
+                    Полномочные,&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    &nbsp;a mianowicie z strony &nbsp; Nayiasniey- а имянно: съ стороны ЕЯ
+                    ИМПЕ-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    &nbsp;szey Imperatorowy Jeymosci РАТОРСКАГО ВЕЛИЧЕСТВА ВСЕРОССИЙ- Całey Rossyi
+                    Xiążę Mikołai СКОЙ, Князь Николай
+                    Репнинъ,&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    &nbsp;Repnin Woysk Jey Imperator- армии ЕЯ ВЕЛИЧЕСТВА
+                    Генералъ-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    &nbsp;skiey Mośći Generał Major; маиоръ, чрезвычайной и
+                    полномочной&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;Extraordynaryiny y
+                    Pełnomocny ЕЯ Посолъ при Его величестве
+                    Ко-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    &nbsp;Jey Poseł przy Nayiasnieyszym роле и яснейшей Речи
+                    посполитой&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    &nbsp;Krolu Jegomosci Polskim y Nayia- Польскихъ, и Кавалеръ
+                    орденовъ&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    snieyszey Rzeczypospolitey Polskiey, Orderow Белаго Орла и святыя
+                    Анны&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    &nbsp;Orła białego y Swiętey Anny Kawaler &nbsp; [Seite 9] &nbsp; а съ стороны
+                    Его величества
+                    Ко-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    &nbsp;z Strony zaś Nayiasnieyszego Króla роля и яснейшей Речи
+                    посполитой&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    &nbsp;Jegomosci y Nayiasnieyszey Rze- Польскихъ подъ президенциею
+                    князя&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    &nbsp;czypospolitey Polskiey sub Præsiden- Примаса Габриеля Яна Юноши
+                    По-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    &nbsp;tia Xiążęcia Prymasa Gabryela Ja- доскаго, изъ Сената, Изъ
+                    великой&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    &nbsp;na Junoszy Podoskiego, ex Senatu, Польши: Антонъ Островский
+                    Епископъ&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;z Wielkiey Polski: Antoni
+                    Ostrowski Куявский, Антонъ Антонъ Варнава Ябло-&nbsp;&nbsp; &nbsp;Biskup
+                    Kujawski, Antoni Barnaba новский Познанской, Игнатий
+                    Твар-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    &nbsp;Jabłonowski Poznanski, Ignacy Twar- довский Калишской, Иозефъ
+                    Подо-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    &nbsp;dowski Kaliski, Jozef Podoski Pło- ский Плоцкой, воеводы;
+                    Фадей&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    &nbsp;czki Woiewodowie; Tadeusz Lipski Липский Кастеланъ
+                    Ленчицкий.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    &nbsp;Kasztelan Łęczycki, z Małey Pol- Изъ малой Польши, изъ
+                    Сената:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    &nbsp;ski, ex Senatu: Andrzei Stanisław Андрей Станиславъ Костка
+                    Млод-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    &nbsp;Kostka Młodziejowsk Biskup Prze- зиовский Епископъ Премыслекий
+                    вели-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;myski, Kanclerz Wielki Koronny, кой
+                    Канцлеръ коронной, Салезий По-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    &nbsp;Salezy Potocki Kijowski, Ignacy Ce- тоцкий Киевской, Игнатий
+                    Цетнеръ&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    tner Bełzki , Stanisław Bernard Белской, Станиславъ Бернардъ
+                    Гозд-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;Gozdzki
+                    Podlaski, Woiewodowie; ский Подляшской, воеводы;
+                    Рохъ&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    Roch Jabłonowski Kasztelan Wi- яблоновский кастеланъ
+                    вислицкий.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    ślicki z Wielkiego Xięstwa Li- Изъ великаго княжества
+                    Литов-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    &nbsp;tewskiego, ex Senatu: Stefan скаго, изъ Сената: Стефанъ
+                    Гедро-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    Giedroyc Biskup Inflantski, Mi- ицъ Епископъ Инфляндский,
+                    Михайло&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;chał Ogiński Wieleński, Jozef
+                    Огинский виленской, Иозефъ
+                    Соло-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;Sołłhub
+                    Witebski, Woiewodo- губъ витебской, воеводы;
+                    Фадей&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    wie ; Tadeusz Burzynski &nbsp; &nbsp; [Seite 10] &nbsp; Буржинской Смоленской,
+                    Адамъ&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    Smoleński, Adam Brzostowski Бржостовский Полоцкой,
+                    кастеланы.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Połocki
+                    Kasztelanowie. Ex Mini- Изъ министерства: Князь
+                    Михайло&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    sterio: Xiążę Michał Czartoryski Чарторыский великой канцлеръ
+                    вели-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Kanclerz Wielki Wielkiego
+                    Xięstwa каго княжества Литовскаго,
+                    Янъ&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    Litewskiego, Jan Borch Podkan- Боркъ вицеканцлеръ коронной,
+                    Федоръ&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; clerzy Koronny, Teodor Wesel Pod- вессель
+                    великой Подскарбий Коронной,&nbsp;&nbsp;&nbsp;&nbsp; skarbi Wielki Koronny,
+                    Xiążę Jo- Князь Иозефъ Сангушко
+                    маршалъ&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    zef Sanguszko Marszalek Nadwor- надворной великаго княжества
+                    Ли-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ny
+                    Wielkiego Xięstwa Litewskiego товскаго. При князе Карле
+                    Рад-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    przy Xiążęciu Karolu Radziwille зивиле, Коронном, и
+                    Станиславе&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    Koronnym, y Stanisławie Brzosto- Бржостовскомъ Старосте
+                    Быстриц-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; wskim
+                    Staroscie Bystrzyckim Lite- комъ, Литовскомъ, обеихъ
+                    Генераль-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; wskim Obudowóch
+                    &nbsp; Generalnych Kon- ныхъ Конфедерацей маршалахъ,
+                    изъ&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;federacyi
+                    Marszałkach, Ex Eque- Рыцарскаго стана. Изъ
+                    великой&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    &nbsp;stri Ordine, z Wielkiey Polski: Wła- Польши: Владиславъ Гуровский
+                    вели-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; dysław Gurowski Pisarz Wielki
+                    Ko- кой писарь коронной, Карлъ
+                    Мал-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    ronny, Karol Malczewski Pułko- чевский полковникъ полку
+                    великой&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; wnik
+                    Regimentu Buławy Wielkiey булавы коронной, Послы
+                    воеводства&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Koronney, Posłowie z
+                    Woiewodztwa Познанскаго;Адамъ
+                    Понинский&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    Poznańskiego; Adam Poniński Ku- Кухмистръ коронной Посолъ
+                    воевод&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;chmistrz Koronney
+                    Poseł z Woiewó- ства калишскаго, Станиславъ
+                    Вес-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    dztwa Kaliskiego, Stanisław Wessel сель Староста Голюбский,
+                    войцехъ&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    &nbsp;Starosta Golubski, Woyciech Ostro- Островский Подсудья земли
+                    Ленчицкой,&nbsp; wski Podsędek Ziemski Łęczycki, &nbsp; [Seite 11] &nbsp; Послы
+                    воеводства
+                    Ленчицкаго:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Posłowie
+                    z Woiewództwa Łęczyckiego, Каспаръ Любомирский, Посолъ
+                    земли&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;Kasper Lubomirski, Poseł z Ziemi
+                    Черской, Федоръ Шидловский Хорун-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    &nbsp;Czerskiey, Teodor Szydłowski, жий варшавский посолъ той же
+                    зем-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;Chorąży
+                    Warszawski Poseł z teyże ли; Казимиръ Шидловский
+                    столь-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    &nbsp;Ziemi; Kazimierz Szydłowski Stol- никъ Празницкой посолъ земли
+                    Вис-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;nik Prasnyski, Poseł
+                    z Ziemi Wi- ской, Казимиръ Князь
+                    Понятовский&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;skiey;
+                    Kazimierz Xiążę Poniato- Подморжий коронной, посол
+                    земли&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;wski
+                    Podkomorzy Koronny, Poseł Закрочимской, Хризостомъ
+                    Краев-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;z
+                    Ziemi Zakroczymskiey; Chry- ский Инстигаторъ коронной,
+                    посолъ&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;zostom
+                    Kraiewski Instygator Ko- земли Рожанской, Валентий
+                    Соболев-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ronny Poseł z Ziemi
+                    Rożańskiey; ский Ловчий варшавский, посолъ
+                    земли&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Walenty Sobolewski Łowczy Warsza- Ливской,
+                    Станиславъ
+                    Радзиминский&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;wski
+                    Poseł z Ziemi Liwskiej, Stani- Подкоморжицъ цехановской
+                    посолъ,&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;sław
+                    Radzimiński Podkomorze Cie- земли Курской, Ксаверий
+                    Браницкий&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;chanowski,
+                    Poseł z Ziemi Nurskiey; Xa- Ловчий коронной, Станиславъ
+                    Гадом-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;wery Branicki Łowczy
+                    Koronny, Stani- ский подкоморжий Сохачевской,
+                    послы&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;sław Gadomski Podkomorzy Sochacze- той
+                    же земли; Антонъ
+                    Чапский&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;wski,
+                    Posłowie z teyże Ziemi; Antoni подкоморжий хелминский,
+                    Валерианъ&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Czapski Podkomorzy
+                    Chełmiński, Wa- Пивницкий Мечникъ земель
+                    прускихъ,&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;leryan Piwnicki Miecznik
+                    Ziem Pru- Послы воеводства
+                    Хелминскаго.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    skich Posłowie z Woiewództwa Chełmiń- Изъ Малой Польши: Францискъ
+                    ве-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;skiego;
+                    &nbsp; z Małey Polski, Franciszek Wie- лиопольский маркизъ
+                    Пинчевский,&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    lopolski Margrabia Pinczowski, Иозефъ велиопоьский
+                    Хоронжицъ&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Jozef
+                    Wielopolski Chorążyc &nbsp; [Seite 12] &nbsp; &nbsp; Коронной, послы воеводства
+                    Краков-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Koronny, Posłowie z
+                    Woiewodztwa Kra- скаго; Яцекъ малаховский
+                    референ-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    kowskiego; Jacek Małachowski Referen- дарь коронной, Илья Водзицкий
+                    ста-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; darz
+                    Koronny, Eliasz Wodzicki Staro- роста Стобницкий, Петръ
+                    Ожаровский&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; sta Stobnicki, Piotr
+                    Ożarowski войска короннаго Генералъ
+                    порутчикъ,&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; General Lieutenant Woyska
+                    Koronnego, Матвей Скорубка Подчаший
+                    дрогиц-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Maciey
+                    Skorupka Podczaszy Dro- кий, Послы воеводства
+                    Сендомирскаго,&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; hicki, Posłowie z Woiewództwa
+                    Sandomir- Антонъ Потоцкий староста
+                    Авовский&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; skiego; Antoni
+                    Potocki Starosta Lwowski, Посол земли Авовской, Игнатий
+                    бу-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    Poseł z teyże Ziemi; Ignacy Buko- ковский Его королевскаго
+                    величества&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; wski
+                    Adjutant Jego Królewskiey Адьютантъ посолъ Саноцкий,
+                    Антонъ&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Mosci Poseł Sanocki;
+                    Antoni Bła- Блажевский, Подстолий и Посолъ жида-&nbsp;&nbsp;&nbsp;&nbsp; żewski
+                    Podstoli y Poseł Zydaczewski; чевской, Марианъ Потоцкий
+                    посолъ&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Maryan
+                    Potocki Poseł z Ziemi Ha- земли Галицкой, Иозефъ
+                    Сосновский&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; lickiey,
+                    Jozef Sosnowski Pisarz писарь польской литовской
+                    посолъ&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    Polny Litewski Poseł z Ziemi Chełmskiey; земли Хелмской, Иозефъ
+                    Стемпнов-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    Jozef Stępkowski Obozny Polny Koron- ский обозной польной коронной,
+                    по-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ny, Poseł z
+                    &nbsp; Woiewództwa Lubelskiego солъ воеводства Люблинскаго,
+                    Ста-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    Stanisław Karwowski Podstoli Biel- ниславъ Карповский подстолий
+                    белской&nbsp;&nbsp;&nbsp;&nbsp; ski Starosta Augustowski Poseł z Zie- староста
+                    августовский, посолъ
+                    зем-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    mi Mielnickiey; Jozef Wilcze- ли Мелницкой, Иозефъ
+                    Вилчевский&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    wski Podkomorzy Wizki Poseł Подкоморжий висской посолъ
+                    земли&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; z Ziemi
+                    Bielskiey, Celestyn Cza- Белской, Целестинъ Чаплицъ
+                    подко-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; plic
+                    Podkomorzy Łucki; Jan моржий луцкой, Иванъ
+                    Непомуценъ&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Nepomucen
+                    Poniński Woiewo- &nbsp; &nbsp; [Seite 13] &nbsp; Понинской воеводичъ
+                    познанский,&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp; dzic
+                    Poznański, Posłowie z In- Послы Лифляндии коронной.
+                    Изъ&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    &nbsp; flant Koronnych, z Wielkiego великаго княжества
+                    литовскаго:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    &nbsp; Xięstwa Litewskiego: Michał Pac Михайло Пацъ Староста
+                    Зиоловский&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp; Starosta Ziołowski, Poseł
+                    z Woie- Посолъ воеводства виленскаго, Стани-&nbsp;&nbsp; &nbsp; wodztwa
+                    Wileńskiego; Stanisław славъ Князь Радзивилъ подкоморжий&nbsp;&nbsp;&nbsp;&nbsp;
+                    &nbsp; Xiążę Radziwiłł Podkomorzy Литовский, посолъ повяту
+                    Лидскаго,&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp; Litewski, Poseł z Powiatu
+                    Lidzkie- Марцианъ Яновичь Регентъ земской&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    &nbsp; go; Marcyan Janowicz Regent вилкомирской посолъ тогожъ
+                    повята,&nbsp;&nbsp;&nbsp;&nbsp; &nbsp; Ziemski Wilkomirski Poseł z tegoż Стефанъ
+                    Ромеръ хорунжий троцкой&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;
+                    Powiatu; Stefan Romer Chorąży Посолъ тогожъ воеводства,
+                    Антонъ&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp; Trocki Poseł z tegoż
+                    Woiewodztwa, Забелло Ловчий Литовский, Мартынъ&nbsp;&nbsp;&nbsp; &nbsp;Antoni
+                    Zabiełło Łowczy Litewski, Черневичъ судья Гродской
+                    ковенской,&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;Marcin Czerniewicz Sędzia Grodzki послы
+                    повята ковенскаго;
+                    Иванъ&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    &nbsp;Kowieński, Posłowie z tegoż Powiatu Ko- Пакошъ писарь гродский
+                    Смоленский,&nbsp;&nbsp;&nbsp; &nbsp;wieńskiego; Jan Pakosz Pisarz Grodzki Посолъ
+                    тогожъ воеводства, Казимиръ&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;Smoleński Poseł z
+                    tegoż Woiewództwa; Заблоцкий посолъ повяту
+                    Староду-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;Kazimierz
+                    Zabłocki Poseł z Powiatu Sta- бовскаго, Францискъ Гедроицъ
+                    подча-&nbsp;&nbsp;&nbsp; &nbsp;rodubowskiego; Franciszek Giedroyc Pod- ший
+                    волковиский посолъ тогожъ по-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;czaszy
+                    Wołkowyski, Poseł z tegoż Powia- вята, Петръ Богомолецъ писарь
+                    зем-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;tu; Piotr Bohomolec
+                    Pisarz Ziemski ский витебский, Михайло
+                    Шишко&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    Witebski, Michał Szyszko Cho- хорунжий Гусарский, послы воеводства&nbsp;&nbsp;
+                    rąży Hussarski, Posłowie z Woie- витебскаго; Михайло князь
+                    Радзи-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    wództwa Witebskiego; Michał Xiążę Ra- виль Крайчицъ литовской
+                    посолъ&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    dziwiłł Krayczyc Litewski, Poseł &nbsp; &nbsp; [Seite 14] &nbsp; воеводства
+                    Бржескаго Литовскаго,&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    &nbsp;&nbsp;&nbsp; z Woiewodztwa Brzeskiego Litewskiego; Михайло Доманский
+                    посолъ Повяту-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Michał Domański
+                    Poseł z Powiatu тинскаго; Николай
+                    Лопацинский&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    Pińskiego; Mikołai Łopaciński великой писарь великаго
+                    княжества&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Pisarz
+                    Wielki Wielkiego Xięstwa Литовскаго, Князь Адамъ
+                    Чарторы-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    Litewskiego, Xiążę Adam Czartory- ский Генералъ земель Подолскихъ,
+                    послы&nbsp;&nbsp; ski General Ziem Podolskich, Posłowie изъ Лифляндии Литовской;
+                    Антонъ&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; z
+                    Inflant Litewskich; Antoni Tyzen- Тизенгаузъ подскарбий надворной
+                    Ли-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; hauz Podskarbi Nadworny Litewski товской
+                    посолъ Лифляндской.
+                    Ко-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    Poseł z Inflant. Którzy to Plenipo- торые полномочные по
+                    пред`явлении&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; tentiarij po
+                    uczynioney kommuni- и размене своихъ въ исправной
+                    фор-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; kacyi y
+                    zamianie swoich w na- ме найденныхъ полныхъ мочий,
+                    усло-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; leżytey formie
+                    znalezionych Instru- вились, постановили и
+                    заключили&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    mentów Plenipotencyi zgodzili się, posta- следующие Артикулы
+                    Трактата&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    nowili y zawarli niżey opisane Artykuły Tra- вечной дружбы и Гарантии
+                    ЕЯ&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    ktatu wieczney przyiazni y Gwarancyi ИМПЕРАТОРСКАГО ВЕЛИЧЕСТВА ВСЕ- Jey
+                    Imperatorskiey Mosci Całey
+                    РОССИЙСКОЙ.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    Rossyi. &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; АРТИКУЛЪ
+                    I.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    Artykuł I. &nbsp; ЕЯ ИМПЕРАТОРСКОЕ
+                    ВЕЛИЧЕСТВО&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Nayiasnieysza Imperatorowa
+                    ВСЕРОССИЙСКАЯ, и Его величество&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    Jeymość Całey Rossyi y Nayiasniey- Король и Речь посполитая
+                    Польские&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; szy
+                    Król Jegomość y Rzeczpospolita подтверждаютъ
+                    наиторжественней-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    Polska potwierdzaią iak nayuroczystszym шимъ образомъ постоянной и
+                    веч-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    sposobem stały y wieczysty pokói, nie- ной Миръ, непрерывную
+                    искреннюю&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; przerwaną
+                    szczerą przyiazń , scisłe &nbsp; &nbsp; [Seite 15] &nbsp; дружбу, тесное
+                    согласие и
+                    доброе&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    porozumienie się y dobre Sąsiedztwo соседство между взаимными
+                    Госу-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    inter respectivos Status, possessy- дарствами, владениями и
+                    Землями,&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ami y
+                    własnosciami, według по точной силе Московскаго
+                    въ&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    formalnego opisu Traktatu Mo- 1686 году между обеими
+                    высокими&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    skiewskiego w Roku 1686 mię- договаривающимися сторонами
+                    заклю-&nbsp;&nbsp;&nbsp;&nbsp; dzy Obiema Nayiasnieyszemi Traktu- ченнаго
+                    Трактата, коего
+                    содержа-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    iącemi Stronami zawartego, które- ние, сила, важность и
+                    обязатель-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    go tenor, moc, ważność y obowiąkzi ствы возобновляются имянно
+                    и&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    reassumuią się per expressum et for- точно симъ новымъ
+                    Трактатомъ&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    maliter przez ten nowy Traktat we во всемъ ихъ пространстве,
+                    подобно&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; wszystkim ich
+                    okresleniu, iak gdy- какъ бы сей старой 1686: года
+                    Трак-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; by ten
+                    tu wspomniony dawny Roku татъ отъ слова до слова въ
+                    ны-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    1686 Traktat był w ninieyszy słowo нешней внесенъ
+                    былъ.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    w słowo inserowany. &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; АРТИКУЛЪ
+                    II.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    Artikuł II. &nbsp; Въ следствие сего
+                    постановления,&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    Z powodu tey umowy, y żeby wzaie- и дабы взаимную свою дружбу
+                    и&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    mną swą przyiazń y wzaiemne swe взаимныя свои выгоды
+                    утвердитьv&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    wygody ugruntować na nieodmien- на непременныхъ началахъ, то
+                    есть&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; nych
+                    fundamentach, to iest na ró- на равномъ Государственномъ и
+                    си-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; wnym Państw y systematicznym
+                    стематическомъ Интерессе
+                    обоихъ&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    interessie oboiga Nayiasnieyszych высокихъ содоговаривателей,
+                    согла-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; współ traktuiących Stron,
+                    zgodzili сились они Гарантировать
+                    другъ&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    się Oni gwarantować ieden drugie- другу целость и
+                    сохранность&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    mu całość y zachowanie aktualnych &nbsp; [Seite 16] &nbsp; нынешнихъ ихъ въ
+                    Европе владений,&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Ich w Europie possessyi, Ziem,
+                    Pro- Земель, Провинций и Границъ; какъ&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    wincyi, y granic, y w samey rzeczy они себе все то симъ
+                    артикуломъ&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    wszystko to sobie tym artykułem торжественнейше и свято
+                    взаимно&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; nayuroczysciey et
+                    sacrosancte wzaie- въ вечныя времяна и
+                    Гарантируютъ.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; mnie na wieczne czasy
+                    gwarantuią. &nbsp; &nbsp;&nbsp;&nbsp;&nbsp; АРТИКУЛЪ
+                    III.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    Artykuł III. &nbsp; Какъ Его Величество Король
+                    и&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    Gdy Nayiasnieyszy Król Jegomość яснейшая Речь посполитая
+                    польские&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; y Rzeczpospolita Polska
+                    zadosyć въ удовлетворение
+                    справедливости&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; czyniąc
+                    sprawiedliwosci y z osobli- и изъ особливаго уважения къ
+                    вы-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; wszego
+                    poważania ku wysokiey inter- сокому заступлению ЕЯ
+                    ВЕЛИ-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    cessyi Nayiasnieyszey Imperato- ЧЕСТВА ИМПЕРАТРИЦЫ ВСЕРОССИЙ- rowy Jeymosci
+                    Całey Rossyi y СКОЙ, и другихъ съ нею общее
+                    дело&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; innych Dworów, Które do skutku
+                    учинившихъ Дворовъ,
+                    согласились&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; razem z
+                    Nią wspólne przyprowadzi- уже и определили
+                    обязательней-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    ły dzieło, zgodzili się iuż y postano- шимъ образомъ уверить и въ
+                    чи-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    wili naywyraznieyszym sposobem сле Кардиналныхъ польскихъ
+                    зако-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ubespieczyć, y w
+                    liczbie Kardynalnych новъ обезпечить въ вечные
+                    времяна&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Polskich Praw ugruntować
+                    na wieczne особливымъ отъ нижеподписавшихся&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Czasy,
+                    sposobem osobnego przez niżey Полномочныхъ подписаннымъ
+                    Сепа-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; podpisanych Plenipotentów podpisa- ратнымъ
+                    Актомъ, вольное Испове-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;
+                    nego aktu, wolne wyznanie Wiary дание веры Греческой восточной
+                    не&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Greckiey Orientalney Nieunickiey, y
+                    соединенной и диссидентскихъ обоего&nbsp;&nbsp;&nbsp; Dissidentskich Obóiga
+                    Konfessyi Ewan- Евангелическаго исповедания,
+                    купно&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; gelickich, wraz z prawami y
+                    prerogatywami &nbsp; [Seite 17] &nbsp; съ правами и
+                    преимуществами&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    Swieckiemi y Duchownemi in favo- светскими и духовными, въ
+                    пользу&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; rem Wszystkich
+                    Obywatelów Rze- всехъ жителей Речи
+                    посполитой&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    czypospolitey Polskiey, et annexarum Польской и присоединенныхъ къ
+                    ней&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Provinciarum, Ktorzy wyżey wyrażo- Провинцей,
+                    которые вышепомяну-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    ne wyznaią Religie; Więc Obie тые веры исповедуютъ: то
+                    обе&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    Nayiasnieysze traktuiące Strony высокия договаривающиеся
+                    стороны&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; iednomyslnie potwierdzaią iak
+                    согласно подтверждаютъ
+                    торже-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    nayuroczystszym sposobem wszy- ственнейшимъ образомъ все
+                    то,&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    stko to, co tylko iest wyrażono w po- что ни изображено въ
+                    означенномъ&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; mienionym osobnym
+                    Akcie; A Сепаратномъ акте; по чему
+                    и&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    przeto y powinien tenże mieć tako- долженъ оной иметь такую же
+                    на&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; wąż na
+                    zawsze zupełną moc, wa- всегда полную силу, важность и
+                    обя-&nbsp;&nbsp;&nbsp;&nbsp; żność y obowiązek, iak gdyby- зательство, какъ бы
+                    во всемъ своем&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; we wszystkim swoim
+                    okresle- пространстве и слово отъ
+                    слова&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    niu y słowo w słowo w tera- въ настоящей Трактатъ
+                    вписанъ&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    znieyszy Traktat był wpisa-
+                    былъ.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    ny. &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; АРТИКУЛЪ
+                    IV.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    Artykuł IV. &nbsp; Форма правления Речи
+                    посполитой&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Forma rządu Rzeczypospolitey Pol-
+                    Польской и вольность вольныхъ ея&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    skiey, y wolność wolnych Jey Obywa- Гражданъ, требуютъ для переду
+                    точ-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; telów wyciągaią dla potomnych нейшаго и
+                    ничемъ никогда непоко-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; czasów
+                    wyraznieyszego y w niczym ni- лебимаго определения, дабы
+                    новые&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; gdy nieporuszonego
+                    postanowienia, случаи не могли вновь производить &nbsp; &nbsp; &nbsp; żeby nowe
+                    przypadki nie mogły na- &nbsp; &nbsp; [Seite 18] &nbsp; новыхъ переменъ, кои въ
+                    Республи-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; potym wprowadzać nowe odmiany,
+                    канскомъ правлении не долженствуют&nbsp;&nbsp; które w pospolitym Rządzie nie
+                    po- ни въ какое время разпространяться&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    winny nigdy sciągać się do samey до самой фундаментальной
+                    кон-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    fundamentalney Konstitucyi: Więc ституции: Чего ради въ
+                    следствие&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; stosuiąc
+                    się do Aktu Generalney Kon- Акта Генеральной
+                    Конфедерации&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    federacyi Oboiga Narodów Koronny обеихъ Народовъ Короны
+                    Польской&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Polskiej y Wielkiego Xięstwa Lite-
+                    и великаго Княжества Литовскаго,&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    wskiego, po uczynionym dokładnym по зреломъ и основательномъ
+                    раз-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; y fundamentalnym
+                    pomiarkowaniu смотрении всехъ къ сей
+                    важной&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    Wszystkich do tey ważney y delikatney и нежной материи
+                    принадлежащих&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; materyi sciągaiących się
+                    okolicznosci, подробностей, постановленъ намере&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    iest postanowiony w tey mierze y pod- и подписанъ взаимными
+                    Полномоч-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; pisany przez wzaiemnych Plenipo- ными
+                    Сепаратной Актъ,
+                    которой&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; tentów
+                    osobny Akt, który raz na za- единожды на всегда разделяетъ
+                    и&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; wsze oddziela y
+                    pokazuie wyraznie означиваетъ имянно предметы
+                    и&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; cele y
+                    częsci Rządu, tak pod imie- части правления, какъ подъ
+                    имянем&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; niem Kardynalnych Praw te, które
+                    Кардиналныхъ Законовъ, те,
+                    кои&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    nie mogą na potym nigdy bydz na- не могутъ впредь никогда
+                    нару-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    ruszone, iako y te, które pod deno- шаемы быть, такъ и те,
+                    кои&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    minacyą Materiarum Status powin- подъ званиемъ Статскихъ
+                    мате-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    ne na wolnych Seymach nie ograni- рий, долженствуютъ на
+                    вольныхъ&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; czonemu
+                    wolnemu głosowi nie od- Сеймахъ подлежать
+                    непременно&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    miennie podpadać. Ten osobny неограниченному вольному
+                    Голосу.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Akt będąc pod Gwarancyną tera-
+                    &nbsp; &nbsp; [Seite 19] &nbsp; Сей Сепаратной Актъ
+                    будучи&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    znieyszego Traktatu, powinien подъ Гарантиею настоящаго
+                    Трак-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; wraz ze wszystkim
+                    tym co iest na тата, долженъ купно со
+                    всемъ&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    teraznieyszym postanowiono Sey- темъ, что на нынешнемъ
+                    Сейме&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    mie, mieć wszelką tę moc, wa- определено, иметь всю ту же
+                    силу,&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; żność, y obowiązek,
+                    iak gdyby важность и обязательство, какъ
+                    бы&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; on ze wszystkim
+                    Seymowym оной со всеми Сеймическими опре-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    ustanowieniem we wszystkim делениями во всемъ ихъ
+                    простран-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ich okresleniu, y
+                    słowo w sło- стве и слово отъ слова въ
+                    тотъ&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    wo w ten Traktat był in- Трактатъ внесенъ
+                    былъ:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    serowany. &nbsp; &nbsp;
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    АРТИКУЛЪ
+                    V.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    Artykuł V &nbsp; А какъ яснейшая Речь
+                    посполи-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    A iako Nayiasnieysza Rzecz- тая Польская для вечной
+                    твердо-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    pospolita Polska dla wieczystey сти всему тому, что ею ныне
+                    въ&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    trwałośći wszystkiego tego, co ona teraz собственную пользу
+                    узаконено,&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    dla własnego pożytku ustanowiła, наиторжественнейшимъ
+                    образомъ&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; iak nayuroczysciey
+                    wzywała y teraz рекламировала, и теперь еще рекла-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    ieszcze wzywa wysoką Nayiasniey- мируетъ высокую ЕЯ ИМПЕРАТОР-&nbsp;&nbsp;&nbsp;
+                    szey Imperatorowy Jejmości СКАГО ВЕЛИЧЕСТВА
+                    ВСЕРОССИЙСКОЙ&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; na Konstitucyą, formę Rządu,
+                    Гарантию на Конституцию, Фор-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    wolność y Prawa swoie, Gwaran- му Правления, вольность и
+                    Зако-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; cyą: tak
+                    Nayiasnieysza Impe- ны свои: то ЕЯ ИМПЕРАТОРСКОЕ&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    ratorowa Jejmość zadosyć czy- ВЕЛИЧЕСТВО въ
+                    удовлетворение&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; niąc chęciom y zaufaniu
+                    Przyia- желаниямъ и дружеской доверенности cielskiemu Nayiasnieyszey Rze- &nbsp;
+                    [Seite 20] &nbsp; яснейшей Речи посполитой торже-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    czypospolitey, gwarantuie Jey- ственно Гарантируетъ ей
+                    симъ&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    uroczyscie mocą tego Traktatu na wie- Трактатомъ въ вечные
+                    времяна&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    czne czasy Jey Konstitucyą, formę Rzą- Конституцию, форму
+                    Правления,&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; du, wolność y Prawa z
+                    przyrzeczeniem вольность и законы ея,
+                    обещая&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    swiątobliwym y obowiązkiem za Sie- свято и обязуясь за Себя и
+                    преем-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; bie y Sukcessorów swoich
+                    na Tron никовъ своихъ на Престоле
+                    все-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Imperyi Całey
+                    Rossyi utrzymywać, российской Империи, удерживать, со- zachowywać y zasłaniać
+                    Nayia- хранять и защищать
+                    яснейшую&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    snieyszą Rzeczpospolitą Pol- Речь посполитую польскую въ
+                    не-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ską przy nienaruszoney Ich прикосновенной ихъ
+                    целости.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    całości. &nbsp;
+                    <lb/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    АРТИКУЛЪ
+                    VI.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    Artykuł VI &nbsp; Обе высокия
+                    договаривающияся&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Obie Nayiasnieysze
+                    Traktuiące стороны имея въ новомъ
+                    своемъ&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Strony maiąc ten iedyny cel no-
+                    соединении тотъ одинъ предметъ,&nbsp;&nbsp;&nbsp;&nbsp; wego swego związku, żeby
+                    wza- чтобъ взаимную между
+                    собою&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    iemną między sobą pomiarkować дружбу размерить по
+                    обстоятель-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; przyiazń według cyrkumstancyi
+                    ствамъ настоящаго времяни
+                    и&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    teraznieyszego czasu y wzaiemnych взаимныхъ ихъ Интерессовъ,
+                    тор-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Ich interessów przyznaią y utwier- жественно
+                    симъ артикуломъ при-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; dzaią uroczyscie tym
+                    artykułem, знаютъ и утверждаютъ, что
+                    все&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; że wszystkie obowiązki
+                    teraznicy- обязательствы настоящаго
+                    ихъ&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; szego Ich
+                    Traktatu, y wszstko, Трактата, и все что въ немъ
+                    ни&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; co tylko w nim
+                    iest postanowiono, постановлено, не долженствуютъ&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    nie powinno czynić naymnieyszego &nbsp; [Seite 21] &nbsp; чинить ни малейшаго
+                    предосужде-&nbsp;&nbsp; &nbsp; uszczerbku mocy y tenorowi innych ния силе и
+                    содержанию другихъ ихъ&nbsp; Ich Traktatów y obowiązków z in- Трактатовъ и
+                    обязательствъ
+                    съ&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; nemi
+                    Potencyami, a mianowicie протчими Державами, а
+                    имянно:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; względem Rzeczypospolitey Tra- въ
+                    разсуждении Речи посполитой&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ktatowi Pokoiu
+                    Karłowickiego Трактату Карловицкаго
+                    Мира,&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; między
+                    Nią y Portą Ottomań- заключенному между ею и Портою&nbsp;&nbsp;&nbsp; ską
+                    zawartemu, iako też Trakta- Оттоманскою; такожъ
+                    Трактату&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; towi Oliwskiemu y
+                    wszytkim Оливскому и всемъ другимъ, кои&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    innym, które ona zawarła она имеетъ съ иными
+                    державами.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; z innemi Potencyami. &nbsp;
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; АРТИКУЛЪ
+                    VII.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    Artykuł &nbsp; VII </p>
+                <p>&nbsp; Обе высокия договаривающияся сто-&nbsp;&nbsp;&nbsp; Obie Nayiasnieysze
+                    traktuiące роны, полагая натуральнымъ
+                    след-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Strony kładąc naturalną Konse-
+                    ствиемъ новыхъ своихъ обязательствъ&nbsp;&nbsp;&nbsp; kwencyą nowych swych
+                    przyia- дружбы, сохранение на
+                    взаимныхъ&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; zni obowiązków, utrzymania
+                    na Границахъ между обоюдными жите-&nbsp;&nbsp;&nbsp;&nbsp; wzaiemnych granicach
+                    między лями добраго порядка, справедливаго&nbsp;&nbsp;&nbsp; obu stronnemi
+                    Obywatelami do- суда и росправы, и
+                    непоколебимой&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; brego porządku,
+                    sprawiedliwego тишины, и желая по тому
+                    удалить&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Sądu y rozprawy y
+                    nienaruszoney все, что сему полезному намерению&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    spokoynosci, y chcąc zatym oddalić противно быть можетъ,
+                    обещаютъ&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; wszystko to, co temu
+                    zbawien nemu другъ другу и обязуются силою
+                    сего&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; przeciwno bydz może przed sięwzięciu,
+                    Артикула определить и
+                    устано-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    przyrzekaią sobie wzaiemnie y obo- вить немедленно Пограничные
+                    суды&nbsp;&nbsp;&nbsp;&nbsp; wiązuią się mocą tego Artykułu &nbsp; &nbsp; [Seite
+                    22] &nbsp; съ достаточною властию, кои
+                    бы&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ufundować y
+                    ustanowić nieodwło- всегда въ действии были,
+                    дабы&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    cznie Sądy Pograniczne z władzą zu- способомъ оныхъ скорая и
+                    без`при-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; pełną, któreby zawsze się odprawowa-
+                    страстная справедливость обоихъ&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    ły, ażeby tym sposobem prędka y nie Государствъ обиженнымъ
+                    поддан-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; parcyalna sprawiedliwość obóiga
+                    Państw нымъ чинена, и темъ на Границахъ&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    pokrzywdzonym Poddanym czyniona, a prze- доброй порядок и тишина
+                    всегда&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; to na Granicach
+                    dobry porządek y spokoy- сохраняемы быть
+                    могли.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    ność zawsze utrzymywane bydz mogły. &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    АРТИКУЛЪ
+                    VIII.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    Artikuł VIII &nbsp; Разпространение торговли
+                    между&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Ponieważ rozkrzewienie
+                    Commercij народами служа къ общей
+                    ихъ&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    między Narodami służy do wspólnego пользе, заслуживаетъ
+                    потому&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    Ich pożytku; więc y wyciąga osobliwsze- и особливое Правительствъ
+                    попече-&nbsp;&nbsp;&nbsp; go Zwierzchnosci względu y Pro- ние и покровительство;
+                    по чему&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    tekcyi; Zaczym Obie Nayiasniey- обе высокия
+                    договаривающияся&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    sze traktuiące Stronu pozwalaiąc стороны дозволяя взаимно
+                    одна&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; wzaiemnie
+                    iedna u drugiey wzaie- у другой обоюднымъ
+                    подданымъ&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; mnym Poddanym
+                    prowadzić wolne свободную торговлю и пребывание&nbsp;&nbsp;&nbsp;&nbsp; targi y
+                    bawić się w Państwach въ Земляхъ своихъ для
+                    купеческих&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; swoich dla Kupieckich
+                    interessów, промысловъ, обещаютъ
+                    другъ&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    przyrzekaią sobie wzaiemnie przyi- другу принимать ихъ
+                    благосклонно&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; mować ich łaskawie y trzymać
+                    pod и содержать под опекою
+                    каждой&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; opieką Praw
+                    Każdey Strony, a oso- стороны законовъ, а особливо
+                    не&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; bliwie nie uciemiężać
+                    ich zbytne- отягощать ихъ
+                    излишними&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    mi względem drugich podatkami &nbsp; [Seite 23] &nbsp; въ разсуждении другихъ
+                    налогами&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; y ciężarami, owszem ile
+                    można и тягостьми, но паче сколько
+                    мож-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; faworyzować ieszcze dla wię- но
+                    фаворизовать еще для вящшаго&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    kszego zachęcenia tak, ободрения, такъ какъ где
+                    другия&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    iak gdzie indziey inne дружественныя народы
+                    фавори-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    Przyiacielskie faworyzuią się
+                    зуются.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    Narody. &nbsp;
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    АРТИКУЛЪ
+                    IX.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    Artykuł IX &nbsp; Сей Трактатъ имеетъ отъ
+                    обеихъ&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Ten Traktat
+                    ma bydy przez высокихъ договаривающихся сторонъ&nbsp; Obie Nayiasnieysze traktu-
+                    обыкновеннымъ образомъ Ратифи-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; iące Strony
+                    zwyczaynym кованъ и Ратификации онаго
+                    раз-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; sposobem
+                    ratifikowany, y rati- менены быть здесь въ
+                    Варшаве&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    fikacye onego zamienione tu въ два месяца отъ
+                    подписания&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    w Warszawie w Dwa Miesiące à Трактата, а естьли можно
+                    бу-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    Die podpisania Traktatu, a ieże- детъ и прежде сего
+                    последняго&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    li będzie można y przed tym osta- уже
+                    срока.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    nim Terminem. &nbsp; Во уверение чего Мы,
+                    ЕЯ&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    In fidem quorum My Nayia- ИМПЕРАТОРСКАГО ВЕЛИЧЕСТВА&nbsp;&nbsp; snieyszey &nbsp;
+                    Imperatorowa Jey- ВСЕРОССИЙСКОЙ и Его Величества mośći Całey Rossyi y
+                    Nayiasniey- Короля и Яснейшей Речи
+                    поспо-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; szego Króla
+                    Jegomosci y Rze- литой Польскихъ,
+                    Полномочные,&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; czypospolitey
+                    Polskiey Plenipotenci изготовя на обоихъ
+                    националь-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    wygotowawszy w obóch nacyonal- ныхъ языкахъ два сего
+                    Тракта-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    nych ięzykach dwa tego Traktatu та слово отъ слова равноглясящие &nbsp;
+                    &nbsp;&nbsp; de verbe ad verbum similiter &nbsp; &nbsp; [Seite 24] Инструмента,
+                    собственноручно&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; sonantia
+                    Instrumenta, one оные подписали, и утвердили ихъ&nbsp;&nbsp;&nbsp; własnemi
+                    Rękoma podpisali, y Печатьми нашихъ
+                    гербовъ.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    Pieczęciami Herbów Naszych stwierdzili. Учинено въ Варшаве въ
+                    день&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    Działo się w Warszawie Dnia тринатцатой по старому
+                    штилю&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Trzynastego według Starego
+                    Kalendarza / дватцать четвертой по новому штилюDwudziestego Czwartego według
+                    nowego
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    Kalendarza месяца февраля тысяча
+                    седмь-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Miesiąca
+                    Lutego Roku Tysiącznego сотъ шестьдесятъ осмаго
+                    Года.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Siedemsetnego
+                    Sześćdziesiątego Osmego. &nbsp; &nbsp; Князь Николай
+                    Репнинъ.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    Kniaz Nikolai Repnin &nbsp;
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    Gabriel Jan Junosza Podo-
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    ski Prymas y pierwszy Xiążę
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    Kor[onny]. Pol[skie] y W[iekli] X[siążstwa] Lit[ewskiej] m.p. &nbsp;
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    Antoni Ostrowski Biskup
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    Kujawski y Pomorski mp &nbsp;
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    Antoni X[sią]żę z Prussów Jabłono-
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    wski Woiewoda Poznański mp &nbsp;
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    Ignacy Twardowski Wo-
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    iewoda Kaliski mp &nbsp;
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    Jozef Anto[ni] Junosza Podoski
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    Woiewoda Płocki mp &nbsp; [Seite 25] &nbsp;
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    Tadeusz z Lipego na Lipsku Lipski
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    Kasztelan Łęczycki mp &nbsp; &nbsp;
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    Andrzey Stan[isław]. Młodzieiowski
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    Biskup Przemyski Kanclerz
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    Wielki Koronny mp &nbsp; &nbsp;
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    Franciszek Salezy Potocki
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    Woiewoda General Ziem
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    Kijowskich &nbsp;
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    Ignacy z Czertwic Cetner
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    Woiewoda Bełzki mp &nbsp;
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    Stanisław Bernard Gozdzki
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    Woiewoda Generał Ziem
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    Podlaskich &nbsp; &nbsp;
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    Roch Michał Jabłonowski
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    Kasztelan Wislicki mp &nbsp;
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    Xion. Stefan Giedroyc
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    Biskup Inflantski mp &nbsp; &nbsp; [Seite 26] &nbsp;
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    Michał Ogiński Woiewoda
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    Wileński &nbsp; &nbsp;
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    Jozef Dowoyna Sołłohub
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    Woiewoda Witebski mp &nbsp; &nbsp;
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    Tadeusz z Burzyna Burzyński
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    Kasztelan Woiewodztwa
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    Smoleńskiego &nbsp; &nbsp;
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    Adam Brzostowski Kaszte-
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    lan Połocki Starosta Są-
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    dowy Wołkowyski &nbsp; &nbsp;
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    Michał X[ią]że Czartoryski
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    Kanclerz W[ielki] W[ielkiego] X[ięstwa] L[itewskiego] &nbsp;
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    Jan Borch Podkancle-
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    &nbsp; &nbsp;&nbsp; rzy Koronny mp. &nbsp;
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    Teodor Wessel Podskar-
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    bi W[ielki] Kor[onny] &nbsp; &nbsp; [Seite 27] &nbsp;
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Jozef X[ią]że Sanguszko Marsza-
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    łek Nadworny W[ielkiego] X[ięstwa] L[itewskiego] &nbsp; &nbsp;
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    Karol X[ią]że Radziwiłł Mar-
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    szałek Konfederacyi Ge-
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    neralney y Seymowy. &nbsp; &nbsp;
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    Stanisław Brzostowski St[aros]ta
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    Bystrzycki Marszałek G[eneral]ney
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    Konfederacyi W[ielkiego] X[ięstwa] L[itewskiego] &nbsp; &nbsp;
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    Władysław Gurowski &nbsp; Pisarz
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    Wielki Koronny, Poseł
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    W[oiewó]dztwa Poznańskiego. &nbsp; &nbsp;
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    Karol Malczewski Pułko-
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    wnik Regimentu B[uławy] W[ielkiey] K[oronney] Po-
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    seł W[oiewó]dztwa Poznańskiego. &nbsp;
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    Adam Łodzia Poniński,
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    Kuchmistrz W[iekiej] Kor[onney]., Poseł
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    W[oiewó]dztwa Kaliskiego mp &nbsp; &nbsp;
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    Stanisław Wessel Starosta
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    Golubski, Poseł W[oiewó]dztwa
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    Łęczyckiego. &nbsp; &nbsp; [Seite 28] &nbsp;
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    Woyciech Grzymała Ostrowski
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    Podsędek y Poseł W[oiewó]dztwa
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    Łęczyckiego mp &nbsp; &nbsp;
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    Kasper Lubomirski Poseł
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    W[oiewó]dztwa Mazowieckiego Zie-
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    mi Czerskiey. &nbsp; &nbsp;
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    Theodor P.na Szydłowie Szydło-
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    wski Chorąży Ziemi y Poseł War-
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    szawskiego W[oiewó]dztwa Mazowieckiego mp. &nbsp; &nbsp;
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    Kazimierz na Szydłowie Szydło-
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    wski Stolnik Powiatu Przasni-
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    skiego Poseł Xięstwa Mazo-
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    wieckiego Ziemi Wizkiey mp &nbsp; &nbsp;
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    Kazimierz X[ią]że Poniatowski
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    Podkomorzy Koro[nny] Poseł Zie-
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    mi Zakroczym[skiey] &nbsp; &nbsp;
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    Jan Chryzostom Kraiewski
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    Instygator Kor[onny]. Poseł Ziemi
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    Rożańskiey. &nbsp; &nbsp;
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    Walenty z Piętk Sobolewski
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    Łowczy Ziemi Warszawskiey, Po-
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    seł Ziemi Liwskiey. &nbsp; &nbsp; [Seite 29] &nbsp;
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    Stanisław Radzimiński Staro-
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    sta Janowski, Poseł Ziemi
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    Nurskiey &nbsp; &nbsp;
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    F. Xawery Branicki Łowczy
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    Wielki Koronny, Poseł Zie-
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    mi Sochaczewskiey &nbsp; &nbsp;
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    Stanisław Gadomski Pod-
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    komorzy y Poseł Ziemi
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    Sochaczewskiey &nbsp; &nbsp;
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    Antoni Czapski Podkomo-
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    rzy y Poseł Woiewództwa
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    Chełmińskiego. &nbsp; &nbsp;
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    Waleryan Piwnicki Miecznik
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    Ziem Pruskich, W[oiewó]dztwa
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    Chełmińskiego Poseł &nbsp;
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    Franciszek Wielopolski Poseł
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    W[oiewó]dztwa Krakowskiego &nbsp;&nbsp;
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    &nbsp; Jozef Wielopolski Poseł W[oiewó]dztwa
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    Krakowskiego &nbsp; &nbsp; [Seite 30] &nbsp;
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    Jacek Małachowski, Poseł W[oiewó]dztwa
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    Sandomirskiego &nbsp; &nbsp;
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    &nbsp; &nbsp;&nbsp; E[liasz] Wodzicki Poseł W[oiewó]dztwa
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    Sandomirskiego &nbsp;
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    Piotr Ozarowski Poseł W[oiewó]dztwa
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    Sandomirskiego &nbsp; &nbsp;
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    Maciey Skorupka Poseł
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    W[oiewó]dztwa Sandomir[skiego] &nbsp; &nbsp;
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    Antoni Potocki Starosta
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    Lwowski, Poseł Ziemi Lwo-
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    wskiey mp &nbsp; &nbsp;
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    Ignacy Bukowski, Poseł
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    Sanocki &nbsp; &nbsp;
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    Jozef Antoni z Błażowa Błażowski
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    Podstoli y Poseł Powiatu
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    Zydaczewskiego &nbsp; &nbsp; [Seite 31] &nbsp; &nbsp;
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    Maryan Potocki Delegat, y
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    &nbsp; &nbsp;&nbsp; Marszałek Ziemi Halickiey. &nbsp;
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    Jozef Sosnowski Pisarz Po-
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    ny W[ielkiego] X[ięstwa] L[itewskiego] Poseł Zie-
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    mi Chełm[skiej]. &nbsp; &nbsp;
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    Jozef Stempkowski Obożny
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    Polny Kor[onny] Poseł Woie-
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    wództwa Lubelskiego &nbsp;
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    Stanisław Karwowski Podsto-
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    li Ziemi Bielskiey z W[oiewó]dztwa
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    Podlaskiego z Ziemi Miel-
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    nickiey Poseł &nbsp; &nbsp;
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    Jozef Wilczewski Podkomo-
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    rzy Ziemi Wiskiey Poseł
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    z W[oiewó]dztwa Podlaskiego Zie-
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    mi Bielskiey &nbsp; &nbsp;
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    Celestyn z Szpanowa Cza-
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    plic Podkomorzy Łucki
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    Poseł z Inflant Koronnych. &nbsp; &nbsp;
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    Jan Łodzia Poniński Poseł
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    z Inflant Koronnych mp &nbsp; &nbsp; [Seite 33] &nbsp; &nbsp;
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    Michał Jan Pac Starosta
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    Ziołowski, Poseł W[oiewó]dztwa
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    Wilenskiego &nbsp; &nbsp;
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    Stanisław Xiąże Radziwiłł
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    Podkomorzy Wielki W[ielkiego] X[ięstwa] L[itewskiego]
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    Poseł Powiatu Lidzkiego. &nbsp;
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    Marcyan Janowicz Poseł
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    Powiatu Wilkomirskiego &nbsp; &nbsp;
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    Stefan Dominik Römer
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    Chorąży y Poseł W[oiewó]dztwa
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    Trockiego. &nbsp; &nbsp;
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    Antoni Zabieło Łowczy
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    Wielki W[ielkiego] X[ięstwa] L[itewskiego] Poseł
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    Powiatu Kowieńskiego. &nbsp;
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    Marcin Czerniewicz Ho-
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    rodniczy Sędzia Grodzki y
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    Poseł &nbsp; Kowieński. &nbsp;
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    Jan Pakosz Pisarz Grodzki
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    y Poseł W[oiewó]dztwa Smo-
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    leńskiego. &nbsp; &nbsp; [Seite 33] &nbsp;
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    Kazimierz Zabłocki &nbsp; Poseł
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    Powiatu Starodubowskiego. &nbsp;
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    Franciszek Giedroyc Podczaszy
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    y Poseł Wołkowyski obo-
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    zny Polny Litewski m.p. &nbsp; &nbsp;
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    Piotr Bohomolec Pisarz
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    Ziemski y Poseł W[oiewo]dztwa
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    Witebskiego. &nbsp; &nbsp;
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    Michał Szyszko Chorą-
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    ży Hussarski, Poseł W[oiewo]dztwa
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    Witebskiego. &nbsp; &nbsp;
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    Michał X[ią]że Raziwiłł Kray-
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    czyc W[ielkiego] X[ięstwa] L[itewskiego] Poseł W[oiewo]dztwa
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    Brzeskiego. &nbsp; &nbsp;
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    Michał Domański Poseł
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    z Powiatu Pińskiego. &nbsp; &nbsp;
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    Mikołay Łopaciński Pisarz W[iekiej] W[ielkiego] X[ięstwa] L[itewskiego] Poseł
+                    In- </p>
+                <p>&nbsp;
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    flantski. &nbsp; &nbsp; &nbsp; [Seite 34] &nbsp;
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    Adam Czartoryski Poseł
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    W[oiewo]dztwa Inflantskiego &nbsp; &nbsp;
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    Antoni Tyzenhauz Podskar-
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    bi Nadworny W[ielkiego] X[ięstwa] L[itewskiego]
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    Poseł Woiewodztwa&nbsp; Inflantskiego. </p>
+                <p>&nbsp;</p>
+
+                <p>По разсмотрении сего Трактата нашедъ оной купно <lb/>и съ обоими Сепаратными
+                    Актами /: которыя въ настоящей <lb/>Нашей Ратификации долженствуютъ включаться и
+                    разу- <lb/>меться во всемъ ихъ пространстве, подобно какъ бы <lb/>оба здесь для
+                    того нарочно отъ слова до слова внесены <lb/>были :/ совершенно соответствующимъ
+                    намерениямъ <lb/>обоихъ содотоваривателей, приняли МЫ оной за благо,
+                    <lb/>утвердили и Ратификовали, яко же симъ торже- <lb/>ственно за благо
+                    приемлемъ, утверждаемъ и Рати- <lb/>фикуемъ, обещая ИМПЕРАТОРСКИМЪ НАШИМЪ
+                    <lb/>Словомъ за НАСЪ и Преемниковъ Престола <lb/>НАШЕГО исполнять всегда свято
+                    во всей точ- <lb/>ности все постановления новаго Трактата <lb/>дружбы и
+                    Гарантии. Во уверение чего <lb/>МЫ сию Ратификацию собственно-ручно под-
+                    <lb/>писавъ, повелели утвердить Государственною <lb/>НАШЕЮ печатью. Дано въ
+                    Санкт-Петербурге <lb/>
+                </p>
+                <p>&nbsp;</p>
+
+                <p>[Seite 35]</p>
+
+                <p>&nbsp;въ двадесятъ девятый день марта месяца, отъ <lb/>Рождества Христова тысяча
+                    седмь сотъ шестьдесятъ <lb/>осмаго, а Государствования НАШЕГО шестаго <lb/>Года. <lb/>
+                    <lb/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    Екатерина <lb/>
+                    <lb/>
+                    <lb/>
+                    <lb/>
+                    <lb/>
+                    <lb/>
+                    <lb/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    Графъ
+                    <lb/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    Князь Александръ Голицынъ <lb/>
+                    <lb/> &nbsp; </p>
+            </div>
+
+            <div type="Transliteration">
+
+                <p>Tłómaczenie </p>
+                <p>&nbsp; </p>
+                <p>Za Bozką wspomagaiącą łaską My Katarzyna II Imperatorowa y Samo- </p>
+                <p>władczyna całe Rossyiska, Moskiewska, Kijowska, Włodzimirska, Nowogrodzka, Caryca </p>
+                <p>Kazanska, Caryca Astrachańska, Caryca Sibirska, Pani Psowska i Wielku Xiężna </p>
+                <p>Smolenska, Xiężna Estlandska, Liflandska, Korelska, Twerska, Juroska, P?erm?ska,
+                    Wiatska, </p>
+                <p>Bulgarska in innych Pani i Wielka Xiężna Nowogrodu, Nizowskiey ziemi,
+                    Czerniechowska, </p>
+                <p>Rażanska, Rostoska Jarosłaska, Białoiezierska, Udorska, Obdorska, Kondyiska, i
+                    całey </p>
+                <p>Pułnocney stronie rozkazuiąca, i Pani&nbsp; Iwerskiey ziemi, Kartalinskich i
+                    Georgianskich </p>
+                <p>Carow y Kabardynskiey ziemi, Czerkaskich i Horskich Xiążąt i innych dziedzieczna </p>
+                <p>Pani i territorialna Pani. Na samym wstąpieniu Naszym na Tron, kładąc My sobie </p>
+                <p>za pryncypalny i swiątobliwy obowiązek, dotrzymać i wypełniać w całey istocie
+                    własciwie przez </p>
+                <p>Nas z innemi Państwami na nowo przyimuiące się i dawniey przez Naszą Koronę z
+                    nimi przy- </p>
+                <p>ięte Obowiązki i Traktaty, mamy zaiste i ukontentowanie widzieć, iż Europa cała
+                    oddaie </p>
+                <p>Nam w tym pełną sprawiedliwość; Lecz&nbsp; kiedy w tym, czas i okoloczności przez
+                    naturalną </p>
+                <p>Sk[…]ność do odmian wszystkich spraw ludzkich, rozciągneły nieznacznie rożne
+                    odmiany </p>
+                <p>w Traktacie 1686. Roku na ktorego fundamencie przyiazń y dobra harmonia Panstwa </p>
+                <p>Naszego z Jaśnieyszą Rzecząpospolitą Polską a osobliwie w punkcie Konfessyonistow
+                    Greco- </p>
+                <p>Rossyiską wiarę w Ich Kraiach, więc dla konieczney obydwom stronom równie
+                    potrzebney po- </p>
+                <p>prawy tych przez czas rozciągnionych odmian, niemniey zaś i dla własciwszey co do
+                    teraznieyszego, </p>
+                <p>ustawy samych fundamentow wzaiemney przyiazni Soiuszu y dobrego Sąsiedztwa,
+                    zgodzilismy się </p>
+                <p>wspólnie z Jego Królewską Moscią panuiącym Stanisławem Augustem i z Ja- </p>
+                <p>śnieyszą Rzeczpospolitą Polskimi naznaczyć i zadeterminować dla tak ważney
+                    negocyacyi szcze- </p>
+                <p>golnych pełnomocnikow, którzy za daną im na[.]o władzą i mocą postanowili w
+                    mierze zawarli i </p>
+                <p>aktualnie podpisali w Warszawie na Dniu 13 podług starego styli / 24. podług
+                    nowego stylu Lutego teraznieyszego 1768 . Roku, </p>
+                <p>nowy Traktat wieczney przyiazni i gwarancyi następuiącego tenoru słowo od słowa
+                    zdworn[..] do niego </p>
+                <p>referuiącemi się separatnemi Aktami. </p>
+                <p>&nbsp; </p>
+                <p>&nbsp; </p>
+                <p>Tłomaczone dnia 17 Czerwca 1789 przez W[..]a. Manugiewicza </p>
+                <p>Tłomacza [Koronnei – unklare Lesart] i Rzeczypospolitey do Języka </p>
+                <p>Rossyiskiego </p>
+            </div>
+        </body>
+        <back>
+            <listBibl>
+                <bibl><lb/>
+                    <lb/>Bain, Robert Nisbet: Slavonic Europe: A Political History of Poland and
+                    Russia from 1447 to 1796, Michigan 1908 <lb/>
+                    <lb/>Cegielski, Tadeusz : Das Alte Reich und die erste Teilung Polens 1768 –
+                    1774, Wiesbaden – Warszawa 1988 (Veröffentlichungen des Instituts für
+                    Europäische Geschichte Mainz., Beiheft 17). <lb/>
+                    <lb/>Gierowski Józef / Michalski Jerzy / Wisner Henryk / Wójcik Zbigniew (Hg.):
+                    Historia dyplomacji polskiej, Warszawa 1982, Bd. II: 1572–1797 <lb/>
+                    <lb/>Kraushar, Alexander: Książe Repnin. Polska w pierwszym czteroletniu
+                    Panowania Stanisława Augusta,Warszawa 1900, Bd.I–II. <lb/>
+                    <lb/>Labuda, Gerard: Historia dyplomacji polskiej, Warszawa 1982, . Bd. III. <lb/>
+                    <lb/>Lewitter, Lucjan R.: Peter the Great and the Polish Dissidents, in:
+                    Slavonic and East European Review 33 (1954), S.75–101. <lb/>
+                    <lb/>Lewitter, Lucjan R.: Zur Vorgeschichte der Teilungen Polens (1679–1721),
+                    in: Österreichische Osthefte 32 (1990), S. 333–357. <lb/>
+                    <lb/>Lubomirski, Stanisław: Pod władzą księcia Repnina, Warszawa 1971. <lb/>
+                    <lb/>Lukowski, Jerzy: Guarantee or annexation: a note on Russian plans to
+                    acquire Polish territory prior to the First Partition, in: Bulletin of the
+                    Institute of Historical Research 56 (1983), S.60–65. <lb/>
+                    <lb/>Lukowski, Jerzy: Liberty´s folly: The Polish-Lithuanian Commonwealth in the
+                    Eighteenth Century 1697–1795, London 1991. <lb/>
+                    <lb/>Lukowski, Jerzy [George Tadeusz]: The Szlachta and the confederacy of Radom
+                    (1764–1767/68). A Study of the Polish Nobility, Rom 1977 (Antemurale XXI). <lb/>
+                    <lb/>Lukowski, Jerzy: The Partitions of Poland: 1772, 1793, 1795, London 1999. <lb/>
+                    <lb/>Lukowski, Jerzy: The Papacy, Poland, Russia and religious Reforms
+                    1764–1768, in: Journal of Ecclesiastical History 39 (1988), S.66–94. <lb/>
+                    <lb/>Lukowski, Jerzy: Towards Partition: Polish Magnates and Russian
+                    Intervention in Poland during&nbsp; the Early Reign of Stanislaw August
+                    Poniatowski, in: Historical Journal 28 (1985), S.557–574. <lb/>
+                    <lb/>Michalski, Jerzy: Problematyka aliansu polsko-rosyjskiego w czasach
+                    Stanisława Augusta. Lata 1764–1766, in: Przegląd Historyczny 51 (1960), S.
+                    52–73, 331–367, 465–482. <lb/>
+                    <lb/>Müller, Michael G.: Die Teilungen Polens, München 1984. <lb/>
+                    <lb/>Müller, Michael G.: Hegemonialpolitik und Imperiale Expansion: Die
+                    Teilungen Polens, in: Hübner, Eckhard / Kusber, Jan / Nitsche, Peter (Hg.):
+                    Russland zur Zeit Katharinas II., Köln 1998, S. 397–410. <lb/>
+                    <lb/>Rostworowski Emanuel: Ostatni Król Rzeczypospolitej, Warszawa 1966. <lb/>
+                    <lb/>Schmidt-Rösler, Andrea: Vor den Teilungen. Der "Ewige Friede" zwischen
+                    Polen und Russland. in: Duchhardt, Heinz/Peters, Martin (Hg.) ... LINK <lb/>
+                    <lb/>Stasiewski, Bernhard: Zur Kirchenpolitik der Nachbarstaaten Polen-Litauens
+                    in der zweiten Hälfte des 18. Jahrhunderts, in: Kaiser, Friedhelm Berthold /
+                    Stasiewski, Bernhard (Hg.): Die erste polnische Teilung 1772, Köln 1974,
+                    S.96–116. <lb/>
+                    <lb/>Zernack, Klaus: Negative Polenpolitik als Grundlage deutsch-russischer
+                    Diplomatie in der Mächtepolitik des 18. Jahrhunderts, in: Klaus Zernack:
+                    Preußen-Deutschland-Polen. Aufsätze zur Geschichte der deutsch-polnischen
+                    Beziehungen, Berlin 1991, S.225–242. <lb/>
+                    <lb/>Zielińska, Zofia: Katharina II. und Polen zu Beginn der Regierungszeit von
+                    Stanisław August: Politische Ziele und mentale Archetypen, in: Scharf, Claus
+                    (Hg.): Katharina II., Russland und Europa, Mainz 2001 (Veröffentlichungen des
+                    Instituts für Europäische Geschichte, Beiheft 45), S. 75–84. <lb/>
+                    <lb/>Zienkowska, Krystyna: Stanisław August Poniatowski, Wrocław 1998. <lb/>
+                    <lb/></bibl>
+            </listBibl>
+        </back>
+    </text>
+</tei:TEI>

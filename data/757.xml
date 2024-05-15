@@ -1,0 +1,395 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE tei SYSTEM "../resources/FriVer_DTD.dtd">
+
+<?xml-model href="../resources/FriVer.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns="http://www.tei-c.org/ns/1.0" xml:id="pa000299-0757">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title level="s">European peace treaties of the pre-modern era in data / Europäische Friedensverträge der Vormoderne in Daten (FriVer+)</title>
+                <title when="1733-11-15" xml:id="t757" when-custom="1733 XI 15" level="a" ref="https://www.ieg-friedensvertraege.de/treaty/t-757-1-de.html">Allianz- und Subsidienvertrag von Fontainebleau</title>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    Digital edition according to
+                    <ref target="http://www.tei-c.org/">TEI P5</ref>
+                </edition>
+                <funder>
+                    <ref target="https://www.text-plus.org/">TEXT+</ref>
+                </funder>
+                <editor role="http://id.loc.gov/vocabulary/relators/edt" ref="https://orcid.org/0000-0002-8741-5916">
+                    <persName>Jaap Geraerts</persName>
+                    <note>The transformation and enrichment of the data is done by Jaap Geraerts (IEG Mainz). The other members of the FriVer+ team are Fabian Cremer, Ines Grund, and Thorsten Wübbena (all IEG Mainz).</note>
+                    <note>
+                        The original data has been created by the
+                        <ref target="https://www.ieg-friedensvertraege.de">team of scholars</ref>
+                        who were part of the Europäische Friedensverträge der Vormoderne project. This project was lead by Prof. Dr. Heinz Duchhardt and was based at the Leibniz Institute of European History in Mainz.
+                    </note>
+                </editor>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>
+                    <orgName ref="http://www.isni.org/0000000119314040">Leibniz-Institut für Europäische Geschichte Mainz</orgName>
+                </publisher>
+                <distributor>
+                    <orgName ref="http://www.isni.org/0000000110101946">Universitäts- und Landesbibliothek Darmstadt</orgName>
+                </distributor>
+                <idno type="ISIL">http://lobid.org/organisation/DE-17</idno>
+                <date type="issued" when="2023-12-23"/>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">
+                        <p xml:lang="en">This file is licensed under the terms of the Creative Commons License CC-BY 4.0 (Attribution 4.0 International)</p>
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <repository xml:id="r20">Muenchen BayHStA</repository>
+                <msDesc><p>Bayerisches Hauptstaatsarchiv München: Kurbayern Urkunden 36346-36347: Ratifikation Frankreichs des Hauptvertrags und des Separatartikels, Versailles 1733 XII 31.&nbsp;</p></msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>
+                    The data in this XML file, originally created by the project
+                    <ref target="https://www.ieg-friedensvertraege.de/vertraege">Europäische Friedensverträge der Vormoderne online</ref>
+                    has been transformed in accordance with
+                    <ref target="http://www.tei-c.org/">TEI P5</ref>
+                    as part of the project
+                    <ref target="https://www.ieg-mainz.de/en/research/research-projects/european-peace-treaties-of-the-pre-modern-era-in-data">Europäische Friedensverträge der Vormoderne in Daten (FriVer+)</ref>
+                </p>
+            </projectDesc>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="fr" xml:id="lan4">französisch</language>
+            </langUsage>
+        </profileDesc>
+    </teiHeader>
+    <standOff>
+        <listPerson>
+            <person role="signatory" xml:id="p20">
+                <persName ref="https://explore.gnd.network/gnd/4005044-0">
+                    <name>Bayern</name>
+                </persName>
+            </person>
+            <person role="signatory" xml:id="p37">
+                <persName ref="https://explore.gnd.network/gnd/4018145-5">
+                    <name>Frankreich</name>
+                </persName>
+            </person>
+        </listPerson>
+        <listPlace>
+            <place xml:id="loc20">
+                <placeName ref="https://explore.gnd.network/gnd/4093055-5">Fontainebleau</placeName>
+            </place>
+        </listPlace>
+        <facsimile>
+            <surface xml:id="FacsPnr1">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_44aed77daa2f7"/>
+            </surface>
+            <surface xml:id="FacsPnr2">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_44aed7a5effae"/>
+            </surface>
+            <surface xml:id="FacsPnr3">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_44aed7cd7f2f0"/>
+            </surface>
+            <surface xml:id="FacsPnr4">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_44aed7ef98490"/>
+            </surface>
+            <surface xml:id="FacsPnr5">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_44aed81542e75"/>
+            </surface>
+            <surface xml:id="FacsPnr6">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_44aed8375b45f"/>
+            </surface>
+            <surface xml:id="FacsPnr7">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_44aed85d12959"/>
+            </surface>
+            <surface xml:id="FacsPnr8">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_44aed87f18a54"/>
+            </surface>
+            <surface xml:id="FacsPnr9">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_44aed8aa96b74"/>
+            </surface>
+            <surface xml:id="FacsPnr10">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_44aed8d3a127d"/>
+            </surface>
+            <surface xml:id="FacsPnr11">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_44aed8f9ab766"/>
+            </surface>
+            <surface xml:id="FacsPnr12">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_44aed92379154"/>
+            </surface>
+        </facsimile>
+    </standOff>
+    <text>
+        <front>
+            <div type="Drucke"><p>CTS, Bd. 34, S.131-139.</p></div>
+        </front>
+        <body>
+            <div type="Transliteration">
+                <pb facs="#FacsPnr1"/><p>[Seite 1]
+                    <lb />
+                    <lb />Louis par la grace de Dieu
+                    <lb />Roy de France et de Navarre, à tous ceux qui
+                    <lb />ces presentes letters verront Salut. Ayant vû et examine le Traité
+                    <lb />que nôtre tres cher et &lt;fial&gt;&nbsp; Chevalier Garde des Sceaux de France
+                    <lb />Ministre et Secretaire d´Etat et de nos commandemens et finances
+                    <lb />le Sieur Chauvelin nôtre Plenipotentiaire en vertu du pleinpourvoir
+                    <lb />que nous luy en avons donné, a conclu, arresté, et signé le quinze
+                    <lb />de Novembre dernier à Fontainebleau avec le Sieur Prince de
+                    <lb />Grimberghen Chambellan Conseiller d ´Etat Lieutenant general et
+                    <lb />Colonel du Régiment des gardes à pied de nôtre tres cher et tres
+                    <lb />amé frere l´Electeur de Baviere et son Plenipotentiaire,
+                    <lb />pareillement muni d´un pleinpouvoir du quel Traité la teneur
+                    <lb />s´en suit.
+                    <lb />
+                    <lb />Sa Majesté ayant fait connoitre au Serenissime Electeur
+                    <lb />de Baviere combien la situation presente des affaires generales
+                    <lb />exigeoit qu'il y e&lt;ut&gt; une etroite union entre tous les Princes
+                    <lb />amateurs du bonheur de l'Europe, et qu'ils agissent d'un parfait
+                    <lb />concert sur tout ce qui pouvoit y etre relatif, et Son Altesse Electorale
+                    <lb />de Baviere voulant montrer à sa Majesté qu'elle est dans les
+                    <lb />memes principes et qu´Elle est digne des sentimens d'estime
+                    <lb />et d'affection que sa dite Majesté a toujours eus pour Elle,
+                    <lb />Sa dite Altesse Electorale n'a point balancé à s'unir etroitement
+                    <lb />
+                    <lb />
+                </p>
+                <pb facs="#FacsPnr2"/><p> [Seite 2] 
+                    <lb /> 
+                    <lb />avec un Prince qui par sa qualité de garant des Traitez de 
+                    <lb />Westphalie est particulierement interessé au bonheur de l'Empire 
+                    <lb />et à la defense des droits et privileges du Corps Germanique. 
+                    <lb />Ainsi Sa Majesté et le Serenissime Electeur de Baviere ont 
+                    <lb />donné leurs pouvoirs respectifs, sçavoir Sa Majesté au Sieur 
+                    <lb />Germain Louis Chauvelin garde des Sceaux de France, 
+                    <lb />Ministre et secretaire d'Etat, et Son Altesse Electorale au Sieur 
+                    <lb />Prince de Grimberghen son chambellan, Conseiller d'Etat, 
+                    <lb />Lieutenant general et Colonel de son Regiment des gardes 
+                    <lb />à pied lesquels sont convenus des articles qui suivent 
+                    <lb /> 
+                    <lb />Article p[remier] 
+                    <lb /> 
+                    <lb />Il y aura entre Sa Majesté et Son Altesse Electorale de 
+                    <lb />Baviere et leurs allies respectivement une amitié, union et 
+                    <lb />bonne intelligence parfaite, en sorte que pour quelque cause que ce 
+                    <lb />soit, cette amitié ne puisse estre troublée, ni alterée, s'obligeant 
+                    <lb />mutuellement à travailler à l'utilité, à la grandeur, et aux 
+                    <lb />avantages reciproques, et d'empecher le mal et le prejudice que 
+                    <lb />chacune des parties confederées pourroit souffrir de quelque 
+                    <lb />part que ce soit au prejudice des Traités de Westphalie et 
+                    <lb />autres qui ont establi la paix avec l'Empire. 
+                </p> 
+                <p>&nbsp; 
+                </p> 
+                <p>Article 2. 
+                    <lb /> 
+                    <lb />En consequence il´y aura une intelligence etroite entre 
+                    <lb />Sa Majesté et Son Altesse Electorale dans toutes les affaires 
+                    <lb /> 
+                    <lb /> 
+                </p>
+                <pb facs="#FacsPnr3"/><p>[Seite 3]
+                <lb />
+                <lb />qui pourront concerner leurs interests leur dignité et leur gloire,
+                <lb />se portant de bonne foy a ce qui peut convenir aux interests et
+                <lb />avantages veritables de l'un et de l'autre sans ester detournez
+                <lb />par aucune autre consideration.
+                <lb />
+                <lb />
+                <lb />Article 3.
+                <lb />
+                <lb />Son Altesse Electorale promet de travailler de tout son
+                <lb />pouvoir soit dans les assemblées generales ou particulieres de
+                <lb />l´Empire, soit dans les differents Etats d'Allemagne, à faire
+                <lb />reussir les intentions de Sa Majesté conformement aux
+                <lb />constitutions de l'Empire, en sorte que non seulement sa dite
+                <lb />Altesse ne favorisera aucune resolution qui pourroit estre contraire
+                <lb />aux interets de Sa Majesté ou de ses Alliez, mais que meme
+                <lb />elle s'opposera de tout son pouvoir à tout ce qui pourroit y estre
+                <lb />proposé qui tendroit à faire prendre à l'Empire des resolutions
+                <lb />prejudiciables à Sa Majesté ou à ses Alliez. Reciproquement
+                <lb />Sa Majesté s'engage à render à Son Altesse Electorale tous les
+                <lb />services qui dependront d'Elle soit dans ces mesmes assemblées
+                <lb />generales ou particulieres soit dans les Cours et autres lieux de
+                <lb />l´Empire ou Sa dite Majesté aura des Ministres, si cependant
+                <lb />malgré tous leurs soins la paix venoit a se rompre entre Sa
+                <lb />Majesté et l´Empire à l´occasion des affaires qui regarderoient
+                <lb />le Corps Germanique son Altesse Electorale en ce cas s'oblige
+                <lb />
+                </p>
+                <pb facs="#FacsPnr4"/><p>[Seite 4] 
+                    <lb /> 
+                    <lb />à&nbsp; ne fournrir que le simple contingent de Troupes aux quelles 
+                    <lb />il est oblige comme Electeur et Prince du dit Empire. 
+                    <lb /> 
+                    <lb /> 
+                    <lb />Article&nbsp; 4. 
+                    <lb /> 
+                    <lb />Son Altesse Electorale ayant cru de son devoir comme 
+                    <lb />membre fidele et zelé du Corps Germanique de refuser de 
+                    <lb />garantir la pragmatique sanction par les raisons amplement 
+                    <lb />deduites et protocolées dans l'acte de protestation fait à la Diete 
+                    <lb />de Ratisbonne, lorsque cette affaire y fut portée en deliberation, 
+                    <lb />Elle declare qu'elle persiste et persistera dans les mesmes 
+                    <lb />principes que son honneur et sa conscience luy &lt;..&gt; dictés; et sa 
+                    <lb />Majesté promet de sa part de garantir tous les Etats de son 
+                    <lb />Altesse Electorale de Baviere, et s'engage que si en haine 
+                    <lb />de cette protestation, ou de la presente allianc sa dite Altesse 
+                    <lb />Electorale et Ses Etats venoit à estre troublée, inquiettée ou 
+                    <lb />attaquée par qui que ce soit, Elle la protegera et soutiendra 
+                </p> 
+                <p>de toutes ses forces s'il est necessaire en sorte que sa dite 
+                    <lb />Altesse Electorale et ses Etats ne puisse estre exposée à aucun 
+                    <lb />danger ou prejudice. 
+                    <lb /> 
+                    <lb /> 
+                    <lb />Article 5. 
+                    <lb /> 
+                    <lb />Le present Traité sera ratiffié dans le terme de six 
+                    <lb />semaines ou plutost si faire se peut, et demeurera secret autant 
+                    <lb />que sa Majesté et son Altesse Electorale de concert le jugeront 
+                    <lb />a propos, et Elles conviendront pareillement des Puissances 
+                    <lb /> 
+                    <lb /> 
+                </p>
+                <pb facs="#FacsPnr5"/><p>[Seite 5] 
+                    <lb /> 
+                    <lb />qui devront estre invitées à y acceder. 
+                    <lb />En foy de quoy nous Plenipotentiaires du Roy et de Son 
+                    <lb />Altesse Electorale de Baviere, et en vertu de nos pleinpouvoirs 
+                    <lb />avons signé le present Traitè et y avons fait apposer le 
+                    <lb />cachet de nos armes. Fait à Fontainebleau le quinzieme 
+                    <lb />Novembre 1733. 
+                    <lb /> 
+                    <lb />Chauvelin.&nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; .Le Prince de Grimberghen, 
+                    <lb /> 
+                </p> 
+                <p> 
+                    <lb />Nous ayant agreable le susdit Traité en tous et chacun les 
+                    <lb />points et articles qui y sont contenus, avons iceluy accepté, 
+                    <lb />approuvé, ratifié et confirmé, et par ces presentes signées de nôtre 
+                    <lb />main, acceptons, approuvons, ratifions et confirmons, et le tout 
+                    <lb />promettons en foy et parole de Roy garder et observer inviolablement 
+                    <lb />en quelque sorte et maniere que ce soit. En temoin de quoy nous 
+                    <lb />avons fait metre nôtre scel a &lt;ces&gt; dites presentes. Donné à 
+                    <lb />Versailles le trente un[iem]e jour de decembre l´an de grace mil sept 
+                    <lb />cent trente trios et de nôtre Regne le dixneufieme. 
+                    <lb /> 
+                    <lb />Louis 
+                    <lb /> 
+                    <lb />Par le Roy 
+                    <lb /> 
+                    <lb />&lt;….&gt; 
+                    <lb /> 
+                    <lb /> 
+                </p>
+                <pb facs="#FacsPnr6"/><p>[Seite 6]
+                <lb />[Vollmachten]
+                <lb />
+                <lb />
+                <pb facs="#FacsPnr7"/>[Seite 7]
+                <lb />
+                <lb />
+                <pb facs="#FacsPnr8"/>[Seite 8]
+                <lb />
+                <lb />
+                <lb />
+                <pb facs="#FacsPnr9"/><lb />[Seite 9]
+                <lb />
+                <pb facs="#FacsPnr10"/>[Seite 10]
+                <lb />
+                <lb />Louis par la grace de Dieu
+                <lb />Roy de France et de Navarre à tous ceux qui ces
+                <lb />presentes letters verront Salut. Ayant vu et examine les articles
+                <lb />separés et secrets que nôtre tres cher et fial chevalier garde des
+                <lb />sceaux de France Ministre et Secretaire d´Etat et de nos com[m]andemens
+                <lb />et finances le Sieur Chauvelin nôtre Plenipotentiaire en vertu
+                <lb />du pleinpouvoir que nous luy en avons donné, a conclu, arreste et
+                <lb />signé le quinze de Novembre dernier à Fontainebleau avec le Sieur
+                <lb />Prince de Grimberghen Chambellan Conseiller d´Etat Lieutenant
+                <lb />General et Colonel du Regiment des gardes à pied de nôtre tres cher
+                <lb />et tres ame frere l´Electeur de Baviere et son Plenipotentiaire.
+                <lb />pareillement muni d´un pleinpouvoir desquels articles separés et
+                <lb />secrets la teneur s´ensuit.
+                <lb />
+                <lb />
+                <lb />Articles Separés et Secrets
+                <lb />
+                <lb />Artucle premier
+                <lb />
+                <lb />Comme les soins et efforts de Son Altesse Electorale pour
+                <lb />l 'execution du present Traité seroient inutiles si Elle n'avoit pas des
+                <lb />forces proportionnées au besoin, Sa Majesté promet de faire payer
+                <lb />à Son Altesse Electorale annuellement de quartier en quartier à
+                <lb />commencer du jour de la signatiure du present Traité, la somme de
+                <lb />huit cent mille florins d´Allemagne payables à Francfort et à
+                <lb />Augsbourg, moyennant laquelle somme Son Altesse Electorale aura
+                <lb />incessamment et entretiendra sur pied au meilleur etat qu'il se pourra,
+                <lb />&nbsp;un corps tant de Troupes reglées que de malice, qui ne pourra estre
+                <lb />
+                </p>
+                <pb facs="#FacsPnr11"/><p>[Seite 11] 
+                    <lb /> 
+                    <lb />moindre de vingt six mille hommes, tant Infanterie que Cavalerie pr&lt;et&gt; 
+                    <lb />à la deffense des Etats de Son Altesse Electorale, et à se porter partout ou 
+                    <lb />besoin sera, ainsy qu'il sera jugé necessaire entre Sa Majesté et sa dite 
+                    <lb />Altesse Electorale, comme aussy s'engage sa dite Altesse Electorale à 
+                    <lb />fournir ses arsenaux le plus abondamment qu'elle pourra et à se mettre 
+                    <lb />à&nbsp; tous egards, au meilleur etat de guerre. 
+                    <lb /> 
+                    <lb />Article&nbsp; 2 
+                    <lb /> 
+                    <lb />Et sera continué le dit subside de huit cent mille florins 
+                    <lb />d'Allemagne aussy longtems que le dit corps tant de Troupes reglées 
+                    <lb />que de malice, sera necessaire à la sureté de Son Altesse Electorale 
+                    <lb />ou au besoin de la presente alliance, surquoy l'on se concertera de 
+                    <lb />bonne foy, sa dite Altesse Electorale devant estre avertie trois mois 
+                    <lb />avant que ce besoin cesse. Est en outre reglé que dans le cas que 
+                    <lb />la sureté ou les avantages de l'une ou de l'autre des parties 
+                    <lb />exigeront que Son Altesse Electorale se declarat ouvertement 
+                    <lb />et entrat en campagne, il seroit pourvû à ce que Son Altesse 
+                    <lb />Electorale ni ses Etats n'en souffrent aucun prejudice, declarant 
+                    <lb />les contractans qu'au cas de guerre, ils ne quitteront les 
+                    <lb />armes que de concert. 
+                    <lb /> 
+                    <lb />En foy de quoy nous Plenipotentiaires du Roy et 
+                    <lb />de Son Altesse Electorale de Baviere et en vertu de 
+                    <lb />nos pleinpouvoirs avons signé les presens articles 
+                    <lb /> 
+                    <lb /> 
+                </p>
+                <pb facs="#FacsPnr12"/><p>[Seite 12]
+                <lb />
+                <lb />separés et secrets et y avons fait aposer les cachets de nos
+                <lb />armes. Fait à Fontainebleau le quinze Novembre 1733.
+                <lb />
+                <lb />
+                <lb />Chauvelin&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Le Prince de Grimberghen.
+                <lb />
+                <lb />Nous ayant agreable les susdits articles separés et
+                <lb />secrets en tous et chacun les points et articles qui y sont
+                <lb />contenus, avons iceluy accepté, approuvé ratifié et confirmé,
+                <lb />et par ces presentes signées de nôtre main, acceptons, approuvons
+                <lb />ratiffions et confirmons, et le tout prometteons en foy et
+                <lb />parole de Roy garder et observer inviolablement sans aller
+                <lb />ni venire au contraire directement ou indirectement, en quelque
+                <lb />sorte et maniere que ce soit. En temoin de quoy nous avons
+                <lb />fait mettre nôtre scel à ces dites presentes. Donné à Versailles
+                <lb />le trente uni[em]e jour de Decembre l´an de grace mil sept cent
+                <lb />trente trois et de notre Regne le dixneufieme.
+                <lb />
+                <lb />Louis
+                <lb />
+                <lb />Par le Roy
+                <lb />
+                <lb />&lt;…&gt; &nbsp;
+                <lb />
+                </p>
+            </div>
+        </body>
+    </text>
+</tei:TEI>

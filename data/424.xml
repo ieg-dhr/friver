@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE tei SYSTEM "../resources/FriVer_DTD.dtd">
+
+<?xml-model href="../resources/FriVer.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns="http://www.tei-c.org/ns/1.0" xml:id="pa000299-0424">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title level="s">European peace treaties of the pre-modern era in data / Europäische Friedensverträge der Vormoderne in Daten (FriVer+)</title>
+                <title when="1633-07-25" xml:id="t424" when-custom="1633 VII 25" level="a" ref="https://www.ieg-friedensvertraege.de/treaty/t-424-1-de.html">Vergleich zwischen Katharina von Brandenburg und Georg I. Rákóczi</title>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    Digital edition according to
+                    <ref target="http://www.tei-c.org/">TEI P5</ref>
+                </edition>
+                <funder>
+                    <ref target="https://www.text-plus.org/">TEXT+</ref>
+                </funder>
+                <editor role="http://id.loc.gov/vocabulary/relators/edt" ref="https://orcid.org/0000-0002-8741-5916">
+                    <persName>Jaap Geraerts</persName>
+                    <note>The transformation and enrichment of the data is done by Jaap Geraerts (IEG Mainz). The other members of the FriVer+ team are Fabian Cremer, Ines Grund, and Thorsten Wübbena (all IEG Mainz).</note>
+                    <note>
+                        The original data has been created by the
+                        <ref target="https://www.ieg-friedensvertraege.de">team of scholars</ref>
+                        who were part of the Europäische Friedensverträge der Vormoderne project. This project was lead by Prof. Dr. Heinz Duchhardt and was based at the Leibniz Institute of European History in Mainz.
+                    </note>
+                </editor>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>
+                    <orgName ref="http://www.isni.org/0000000119314040">Leibniz-Institut für Europäische Geschichte Mainz</orgName>
+                </publisher>
+                <distributor>
+                    <orgName ref="http://www.isni.org/0000000110101946">Universitäts- und Landesbibliothek Darmstadt</orgName>
+                </distributor>
+                <idno type="ISIL">http://lobid.org/organisation/DE-17</idno>
+                <date type="issued" when="2023-12-23"/>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">
+                        <p xml:lang="en">This file is licensed under the terms of the Creative Commons License CC-BY 4.0 (Attribution 4.0 International)</p>
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <repository xml:id="r4">Budapest MOL
+                    <note>Budapest MOL, Findbuch:<lb />
+                        <ref target="https://www.eleveltar.hu/digitalis-tartalom?source=mnlscope&amp;ref=mnlscope::2016050">https://www.eleveltar.hu/digitalis-tartalom?source=mnlscope&amp;ref=mnlscope::2016050</ref></note>
+                </repository>
+                <msDesc><p>MolBudapest Tractatus publici E 143 Fasz. 6 Nr. 24: Vergleich zwischen der Fürstinwitwe Katahrina von Brandenburg und dem Fürsten Georg I. Rákóczi, Eperjes 1633 VII 25 (zeitgleiche Abschrift).</p></msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>
+                    The data in this XML file, originally created by the project
+                    <ref target="https://www.ieg-friedensvertraege.de/vertraege">Europäische Friedensverträge der Vormoderne online</ref>
+                    has been transformed in accordance with
+                    <ref target="http://www.tei-c.org/">TEI P5</ref>
+                    as part of the project
+                    <ref target="https://www.ieg-mainz.de/en/research/research-projects/european-peace-treaties-of-the-pre-modern-era-in-data">Europäische Friedensverträge der Vormoderne in Daten (FriVer+)</ref>
+                </p>
+            </projectDesc>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="la" xml:id="lan6">Latein</language>
+            </langUsage>
+        </profileDesc>
+    </teiHeader>
+    <standOff>
+        <listPerson>
+            <person role="signatory" xml:id="p27">
+                <persName ref="https://www.wikidata.org/wiki/Q157367">
+                    <name>Brandenburg - Preußen</name>
+                </persName>
+            </person>
+            <person role="signatory" xml:id="p109">
+                <persName ref="https://explore.gnd.network/gnd/4054835-1">
+                    <name>Siebenbürgen</name>
+                </persName>
+            </person>
+        </listPerson>
+        <listPlace>
+            <place xml:id="loc151">
+                <placeName ref="https://explore.gnd.network/gnd/4393577-1">Eperjes</placeName>
+            </place>
+        </listPlace>
+        <facsimile>
+            <surface xml:id="FacsPnr1">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_448d7969d0b93"/>
+            </surface>
+            <surface xml:id="FacsPnr2">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_448d7a782d5eb"/>
+            </surface>
+        </facsimile>
+    </standOff>
+    <text>
+        <front>
+            <div type="Drucke"><p>Roderich Gooss, Österreichische Staatsverträge. Fürstentum Siebenbürgen. Wien 1911, S. 682-684. Monumenta comitiali regni Transsilvaniae IV, S.338-339.</p></div>
+            <div type="Inhalt"><p>Bezug auf Art. des Vertrags von Eperjes.
+            </p>
+                <p>Art. 1 Restituierung der Güter aus Munkács. Entschädigungen dafür. Modalitäten.
+                </p>
+                <p>Art. 2&nbsp; Regelung Schuldfragen. Entschädigungen&nbsp; für Vinez.
+                    <lb />
+                </p>
+                <p>Art. 3&nbsp; Entschädigungen Fogaras, Munkácz (Ins. 90.000). Modlaitäten für Zahlung.
+                </p>
+                <p>Art. 4 Hétszeölö.
+                </p>
+                <p>Art. 5 
+                    <lb />
+                </p>
+                <p>&nbsp;
+                </p>
+                <p>&nbsp;
+                </p>
+                <p>
+                    <lb />
+                </p>
+                <p>&nbsp;
+                </p></div>
+        </front>
+        <body>
+            <div type="Transliteration">
+                <pb facs="#FacsPnr1"/><p>Formula
+                <lb />Transactionis Plenipotentiar[orum] Serenissimiae Principessae Branden-
+                <lb />burgicae cum Ablegatis Transylvanicis in latinum translate.
+                <lb />
+                <lb />Si quidem Domini Commissarÿ ex Parte Sacr[æ] Cæsar[eæ] Regiæque M[ajesta]tis ita declara-
+                <lb />runt octavum Ar[ticu]lum Diplomatis ut pro effectuatione sit illius
+                <lb />Ar[ticu]li quod Serenissima Principissa Brandenburgica cum Ill[ustrissi]mo Prin-
+                <lb />cipe Transsylvaniæ medio ablegator[um] eiusdem de contentatione sua con-
+                <lb />cluserit. Itaque ad sopiendas odiosas Controversias, et ut sciat
+                <lb />Serenissima quoque Principissa, pro certo habeat quid expectare, ut
+                <lb />Ill[ustrissi]mo quoque Princeps quid teneatur dare, Nos etc. velut
+                <lb />Deputati Serenissimæ Principissæ ad talem condescendimus Conclu-
+                <lb />sionem cum Ill[ustrissi]mi d[omi]ni Principis Ablegatis.
+                <lb />
+                <lb />1.Ut Princeps res omnes in Munkachio habitas restituat, statim post
+                <lb />Diplomatum permutation[em]. Et quia D[omi]nus Princeps p[rae]tendit Prin-
+                <lb />
+                <pb facs="#FacsPnr2"/>cipissa[m] &lt;ipsi&gt; 24 Scyphos Argenteos et quatuor<note
+                    n="1">[empty note in SQL-database, JG]</note>
+                <lb />Pelves promissæ, si promisit tenetur d[omi]no Principi relinquere
+                <lb />et volumus etia[m]. Sed Nos de eo Informationem milla[m] habemus. Si quas
+                <lb />res argenteas et aureas ac Clenodia Ill[ustrissi]mus Princeps in Transyl-
+                <lb />vania[m] auferri, curasset, de ÿs quoque contentet, vel in Specie
+                <lb />Suam Serenitatem, vel in valore, intra terminu[m] persolutionis de-
+                <lb />bitorum.
+                <lb />
+                <lb />2. De Debitis in Auro et parata pecunia apud Principem habitis, de quibus
+                <lb />Principissa Obligatorias habet, de ÿs contentet Principissa[m] D[omi]nus
+                <lb />Princeps. Domini Ablegati Principis difficultantes &lt;…&gt; Summam
+                <lb />pro Vinez Oppido persolvere, absolute resolverunt se quod Prin-
+                <lb />ceps pro eo nihil dabit, cum aut[em] eius relaxatio contra Volun-
+                <lb />tatem Principissæ&nbsp; nostra[m] quoque excedat auctorit[a]te[m], rectificent
+                <lb />istud mutuo Principissa cum Princip[em].
+                <lb />
+                <lb />3. Pro Fogarasio aut[em] dat Princeps Suæ Serenit[a]tis Septuaginta Millia, si qui-
+                <lb />dem Triginta Millia flor[enorum] alÿs inscripsit, ex Bonis eius Sua Serenitas,
+                <lb />prout Princeps p[rae]tendit. Pro Munkaczÿ proventibus aut[em], dat Prin-
+                <lb />ceps 20. Millia, et sic in Toto 90 Millia, de his aut[em] intra
+                <lb />Spacium duodecim Mensium velut plenariè Suam Serenit[a]tem conten-
+                <lb />tar&lt;e&gt;, sed Nos pro parte Suae Serenitatis decem Menses postulamus,
+                <lb />à die permutationis Diplomatum eo genere Monetæ, quod tempore
+                <lb />Depositionis curret in his Regni Hungar[iae] Superior[ibus] partibus, et in eo
+                <lb />valore. Locus autem Depositionis pecuniæ &lt;Lelesz&gt; erit, et certifi-
+                <lb />care faciat super eo Principissam Mense uno.
+                <lb />
+                <lb />4. Quod concernit Negocium Vineæ Hétszeölö, siquidem Nobis de eo a
+                <lb />Informatio venit à Principissa, instabimus apud Suam Sertenitatem
+                <lb />et det d[omi]no Principi vel Vinea[m] vel p[rae]tium prout defunctus Prin-
+                <lb />ceps ad se redemit.
+                <lb />
+                <lb />5. Denique inter res mobiles computamus et p[rae]tendinmus Nos à parte Principissae
+                <lb />pecora quoque, sed à parte Principis Domini Ablegati denegant, de-
+                <lb />clarantes se Pecora &lt;E&gt;odem non intellexisse. Postulata Nostra
+                <lb />de hac re ad resolution[em] usque Suæ Serenitatis in Suspenso tene-
+                <lb />bimus, cum et secundum DEUM et eius Justiciam Dominus Princeps
+                <lb />pluribus teneretur dominæ Principissæ etia[m] in florentiori eius
+                <lb />Status. Datum in Epperies die 26 Julÿ Anno 1633.
+                <lb />
+                </p>
+            </div>
+        </body>
+    </text>
+</tei:TEI>

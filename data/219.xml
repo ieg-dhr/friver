@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE tei SYSTEM "../resources/FriVer_DTD.dtd">
+
+<?xml-model href="../resources/FriVer.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns="http://www.tei-c.org/ns/1.0" xml:id="pa000299-0219">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title level="s">European peace treaties of the pre-modern era in data / Europäische Friedensverträge der Vormoderne in Daten (FriVer+)</title>
+                <title when="1666-07-21" xml:id="t219" when-custom="1666 VII 21" level="a" ref="https://www.ieg-friedensvertraege.de/treaty/t-219-1-de.html">Vertrag mit dem Ziel der Verlängerung des Ersten Rheinbundes von Fontainebleau</title>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    Digital edition according to
+                    <ref target="http://www.tei-c.org/">TEI P5</ref>
+                </edition>
+                <funder>
+                    <ref target="https://www.text-plus.org/">TEXT+</ref>
+                </funder>
+                <editor role="http://id.loc.gov/vocabulary/relators/edt" ref="https://orcid.org/0000-0002-8741-5916">
+                    <persName>Jaap Geraerts</persName>
+                    <note>The transformation and enrichment of the data is done by Jaap Geraerts (IEG Mainz). The other members of the FriVer+ team are Fabian Cremer, Ines Grund, and Thorsten Wübbena (all IEG Mainz).</note>
+                    <note>
+                        The original data has been created by the
+                        <ref target="https://www.ieg-friedensvertraege.de">team of scholars</ref>
+                        who were part of the Europäische Friedensverträge der Vormoderne project. This project was lead by Prof. Dr. Heinz Duchhardt and was based at the Leibniz Institute of European History in Mainz.
+                    </note>
+                </editor>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>
+                    <orgName ref="http://www.isni.org/0000000119314040">Leibniz-Institut für Europäische Geschichte Mainz</orgName>
+                </publisher>
+                <distributor>
+                    <orgName ref="http://www.isni.org/0000000110101946">Universitäts- und Landesbibliothek Darmstadt</orgName>
+                </distributor>
+                <idno type="ISIL">http://lobid.org/organisation/DE-17</idno>
+                <date type="issued" when="2023-12-23"/>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">
+                        <p xml:lang="en">This file is licensed under the terms of the Creative Commons License CC-BY 4.0 (Attribution 4.0 International)</p>
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <repository xml:id="r22">Paris AAE
+                    <note>Trait&eacute;s et Accords de la France:<lb />
+                        <ref target="http://www.diplomatie.gouv.fr/traites/affichetraite.do?accord=TRA16660004" >http://www.diplomatie.gouv.fr/traites/affichetraite.do?accord=TRA16660004</ref></note>
+                </repository>
+                <msDesc><p>AAE Paris: M.A.E. Traités. Multilateraux 16660004. Traité d'alliance avec le duché de Neubourg en vue d'une troisième prorogation de la "Ligue du Rhin".-Fontainebleau (UI). </p></msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>
+                    The data in this XML file, originally created by the project
+                    <ref target="https://www.ieg-friedensvertraege.de/vertraege">Europäische Friedensverträge der Vormoderne online</ref>
+                    has been transformed in accordance with
+                    <ref target="http://www.tei-c.org/">TEI P5</ref>
+                    as part of the project
+                    <ref target="https://www.ieg-mainz.de/en/research/research-projects/european-peace-treaties-of-the-pre-modern-era-in-data">Europäische Friedensverträge der Vormoderne in Daten (FriVer+)</ref>
+                </p>
+            </projectDesc>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="fr" xml:id="lan4">französisch</language>
+            </langUsage>
+        </profileDesc>
+    </teiHeader>
+    <standOff>
+        <listPerson>
+            <person role="signatory" xml:id="p37">
+                <persName ref="https://explore.gnd.network/gnd/4018145-5">
+                    <name>Frankreich</name>
+                </persName>
+            </person>
+            <person role="signatory" xml:id="p152">
+                <persName ref="https://explore.gnd.network/gnd/4045461-7">
+                    <name>Pfalz - Neuburg</name>
+                </persName>
+            </person>
+        </listPerson>
+        <listPlace>
+            <place xml:id="loc20">
+                <placeName ref="https://explore.gnd.network/gnd/4093055-5">Fontainebleau</placeName>
+            </place>
+        </listPlace>
+    </standOff>
+    <text>
+        <front>
+            <div type="Kommentar"><p>Zur Festigung des Pyrenäenfriedens vereinbarte man 1659 auch die Heirat zwischen Ludwig XIV. und der spanischen Infantin. Zwar wurde gegen Zahlungen aus der 
+                spanischen Staatskasse ein Verzicht der Infantin auf alle Erbansprüche vereinbart, doch die Zahlungen blieben aus und Ludwig XIV. beanspruchte nach dem Tod seines Schwiegervaters 
+                Philipp IV. unter Berufung auf das brabantische Erbrecht, das die Devolution, d.h. das Erbrecht der Kinder aus erster Ehe (auch Töchter) vor den Kindern aus weiteren Ehen vorsah, 
+                das Erbteil für seine Frau. Als Spanien die Forderungen ablehnte, bereitete er den Einmarsch in die Spanischen Niederlande vor. Um ein Eingreifen des Reiches zu verhindern, stützte 
+                Frankreich sich auf die Mitglieder des Rheinbundes und schloss mit ihnen bilaterale Abkommen, in denen diese sich verpflichteten, ihre Territorien für den Durchmarsch fremder Truppen zu sperren, 
+                keine Truppenerhebungen zu erlauben und im Reichstag auf die Neutralität des Reiches
+                zu dringen.</p></div>
+            <div type="Kontext"><p> 15.8.1658 Erster Rheinbund 
+                <lb /> 1659 
+                <lb />Pyrenäenfrieden zwischen Frankreich und Spanien. Zur Festigung des Friedens wird die Heirat zwischen Ludwig XIV. und der spanischen Infantin Maria-Theresia vereinbart 
+                <lb />9.6.1660 
+                <lb />Eheschließung 
+                <lb />17.9.1665 
+                <lb />Philipp IV stirbt, sein Nachfolger wird der körperlich und geistig schwächliche Karl II. 
+                <lb />23.4.1666 
+                <lb /> Vertrag zwischen Frankreich und Köln 
+                <lb />21.7.1666 
+                <lb />Vertrag zwischen Frankreich und Pfalz-Neuburg 
+                <lb />22.10.1666 
+                <lb />Vertrag mit dem Ziel der Verlängerung des Rheinbundes zwischen Frankreich und Köln 
+                <lb />28.2.1667 
+                <lb />Vertrag mit dem Ziel der Verlängerung des Rheinbundes zwischen Frankreich und Mainz 
+                <lb />4.5.1667 
+                <lb />Freundschafts- und Beistandvertrag zwischen Frankreich und Münster 
+                <lb />24.5.1667 
+                <lb />Einmarsch Frankreichs in die Spanischen Niederlande 
+            </p></div>
+        </front>
+        <back>
+            <listBibl>
+                <bibl>Hintereicher, Margarete, Der Rheinbund von 1658 und die französische Reichspolitik in einer internen Darstellung des Versailler Außenministeriums des 18. Jh. In: Francia 13 (1985), S. 247-270. </bibl>
+            </listBibl>
+        </back>
+    </text>
+</tei:TEI>

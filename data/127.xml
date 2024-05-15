@@ -1,0 +1,749 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE tei SYSTEM "../resources/FriVer_DTD.dtd">
+
+<?xml-model href="../resources/FriVer.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns="http://www.tei-c.org/ns/1.0"
+    xml:id="pa000299-0127">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title level="s">European peace treaties of the pre-modern era in data / Europäische
+                    Friedensverträge der Vormoderne in Daten (FriVer+)</title>
+                <title when="1745-12-25" xml:id="t127" when-custom="1745 XII 25" level="a"
+                    ref="https://www.ieg-friedensvertraege.de/treaty/t-127-1-de.html"
+                    >Friedensvertrag von Dresden</title>
+            </titleStmt>
+            <editionStmt>
+                <edition> Digital edition according to <ref target="http://www.tei-c.org/">TEI
+                        P5</ref>
+                </edition>
+                <funder>
+                    <ref target="https://www.text-plus.org/">TEXT+</ref>
+                </funder>
+                <editor role="http://id.loc.gov/vocabulary/relators/edt"
+                    ref="https://orcid.org/0000-0002-8741-5916">
+                    <persName>Jaap Geraerts</persName>
+                    <note>The transformation and enrichment of the data is done by Jaap Geraerts
+                        (IEG Mainz). The other members of the FriVer+ team are Fabian Cremer, Ines
+                        Grund, and Thorsten Wübbena (all IEG Mainz).</note>
+                    <note> The original data has been created by the <ref
+                            target="https://www.ieg-friedensvertraege.de">team of scholars</ref> who
+                        were part of the Europäische Friedensverträge der Vormoderne project. This
+                        project was lead by Prof. Dr. Heinz Duchhardt and was based at the Leibniz
+                        Institute of European History in Mainz. </note>
+                </editor>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>
+                    <orgName ref="http://www.isni.org/0000000119314040">Leibniz-Institut für
+                        Europäische Geschichte Mainz</orgName>
+                </publisher>
+                <distributor>
+                    <orgName ref="http://www.isni.org/0000000110101946">Universitäts- und
+                        Landesbibliothek Darmstadt</orgName>
+                </distributor>
+                <idno type="ISIL">http://lobid.org/organisation/DE-17</idno>
+                <date type="issued" when="2023-12-23"/>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">
+                        <p xml:lang="en">This file is licensed under the terms of the Creative
+                            Commons License CC-BY 4.0 (Attribution 4.0 International)</p>
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <repository xml:id="r7">Dresden SaechsHStA</repository>
+                <msDesc>
+                    <p>Graphiken: SHSADresden, OU 14828. <lb/>Unterhändlerinstrument: GSABerlin VI
+                        HA Nr. 726: Dresden 1745 XII 25 (Hauptvertrag mit 2 Geheimartikeln; frz.;
+                        Papier, Fol. 1-10; Hauptvertrag mit 2 US, 2 aufgedrückte LS der
+                        Bevollmächtigten Friedrich Gotthard von Bülow, Wilhelm August Graf von
+                        Stubenberg, 2 Geheimart. mit je 1 aufgedrücktem LS,). SHSADresden OU 14828:
+                        Dresden 1745 XII 25 (Hauptvertrag mit 2 Geheimart. s.o.; frz.; Papier, Fol.
+                        1-10; Geheimart. mit je 1 aufgedrücktem LS Henry Comte de Podewils).
+                        Ratifikation: GSABerlin VI HA Nr 727: Ratifikation Sachsen-Polen
+                        Prag/Dresden 1745 XII 27 / 1746 I 7. SHSADresden OU 14828: Ratifikation
+                        Preußen Dresden 1745 XII 26 (Ratifikation des Geheimart. Dresden 1745 XII
+                        27). </p>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p> The data in this XML file, originally created by the project <ref
+                        target="https://www.ieg-friedensvertraege.de/vertraege">Europäische
+                        Friedensverträge der Vormoderne online</ref> has been transformed in
+                    accordance with <ref target="http://www.tei-c.org/">TEI P5</ref> as part of the
+                    project <ref
+                        target="https://www.ieg-mainz.de/en/research/research-projects/european-peace-treaties-of-the-pre-modern-era-in-data"
+                        >Europäische Friedensverträge der Vormoderne in Daten (FriVer+)</ref>
+                </p>
+            </projectDesc>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="fr" xml:id="lan4">französisch</language>
+            </langUsage>
+        </profileDesc>
+    </teiHeader>
+    <standOff>
+        <listPerson>
+            <person role="signatory" xml:id="p93">
+                <persName ref="https://explore.gnd.network/gnd/4047194-9">
+                    <name>Preußen</name>
+                </persName>
+            </person>
+            <person role="signatory" xml:id="p92">
+                <persName ref="https://www.wikidata.org/wiki/Q824047">
+                    <name>Sachsen / Polen</name>
+                </persName>
+            </person>
+            <person xml:id="pp0081">
+                <persName ref="https://explore.gnd.network/gnd/118505092">
+                    <name>August III of Poland</name>
+                </persName>
+            </person>
+            <person xml:id="pp0016">
+                <persName ref="https://explore.gnd.network/gnd/118535749">
+                    <name>Frederick II of Prussia</name>
+                </persName>
+            </person>
+            <person xml:id="pp0015">
+                <persName ref="https://explore.gnd.network/gnd/118560115">
+                    <name>Charles VII, Holy Roman Emperor</name>
+                </persName>
+            </person>
+            <person xml:id="pp0004">
+                <persName ref="https://explore.gnd.network/gnd/118560107">
+                    <name>Charles VI, Holy Roman Emperor</name>
+                </persName>
+            </person>
+            <person xml:id="pp0019">
+                <persName ref="https://explore.gnd.network/gnd/118577867">
+                    <name>Maria Theresia</name>
+                </persName>
+            </person>
+            <person xml:id="p49">
+                <persName ref="https://explore.gnd.network/gnd/4101204-5">
+                    <name>Generalstaaten</name>
+                </persName>
+            </person>
+            <person xml:id="pp0217">
+                <persName ref="https://explore.gnd.network/gnd/141161728">
+                    <name>Friedrich Gotthard von Bülow</name>
+                </persName>
+            </person>
+            <person xml:id="pp0218">
+                <persName ref="https://explore.gnd.network/gnd/141160225">
+                    <name>Wilhelm August von Stubenberg</name>
+                </persName>
+            </person>
+            <person xml:id="pp0219">
+                <persName ref="https://explore.gnd.network/gnd/1055704973">
+                    <name>Heinrich von Podewils</name>
+                </persName>
+            </person>
+            <person xml:id="pp0220">
+                <persName ref="https://explore.gnd.network/gnd/118538543">
+                    <name>Georg II. (Großbritannien)</name>
+                </persName>
+            </person>
+            <person xml:id="pp0221">
+                <persName ref="https://explore.gnd.network/gnd/1158978138">
+                    <name>Elisabeth Petrowna</name>
+                </persName>
+            </person>
+            <person xml:id="pp0222">
+                <persName ref="https://explore.gnd.network/gnd/102576335">
+                    <name>Johann Christian Graf von Hennicke</name>
+                </persName>
+            </person>
+        </listPerson>
+        <listPlace>
+            <place xml:id="loc65">
+                <placeName ref="https://explore.gnd.network/gnd/4012995-0">Dresden</placeName>
+            </place>
+        </listPlace>
+        <facsimile>
+            <surface xml:id="FacsPnr1">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_449a57a6576e8"/>
+            </surface>
+            <surface xml:id="FacsPnr2">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_449a57d1ee668"/>
+            </surface>
+            <surface xml:id="FacsPnr3">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_449a5b070dd59"/>
+            </surface>
+            <surface xml:id="FacsPnr4">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_449a5b399a890"/>
+            </surface>
+            <surface xml:id="FacsPnr5">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_449a5b5fa2a53"/>
+            </surface>
+            <surface xml:id="FacsPnr6">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_449a5b89074d4"/>
+            </surface>
+            <surface xml:id="FacsPnr7">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_449a5bb121a53"/>
+            </surface>
+            <surface xml:id="FacsPnr8">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_449a5bd5ae608"/>
+            </surface>
+            <surface xml:id="FacsPnr9">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_449a5c0043d11"/>
+            </surface>
+            <surface xml:id="FacsPnr10">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_449a5c1e70987"/>
+            </surface>
+            <surface xml:id="FacsPnr11">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_449a5c385582f"/>
+            </surface>
+            <surface xml:id="FacsPnr12">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_449a5c5fc1e90"/>
+            </surface>
+            <surface xml:id="FacsPnr13">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_449a5c82e20db"/>
+            </surface>
+            <surface xml:id="FacsPnr14">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_449a5ca26af6e"/>
+            </surface>
+            <surface xml:id="FacsPnr15">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_449a5cc98caaf"/>
+            </surface>
+            <surface xml:id="FacsPnr16">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_449a5ce817cff"/>
+            </surface>
+        </facsimile>
+    </standOff>
+    <text>
+        <front>
+            <div type="Drucke">
+                <p>CTS 37, S. 417/419-427. Wenck, Codex 2, S. 207. Rousset de Missy, Receuil 19, S.
+                    423-432. Moser, Versuch des neuesten Europäischen Völkerrechts 10/2, S. 76.</p>
+            </div>
+            <div type="Inhalt">
+                <p>Art. 1 Über den Frieden und das künftige harmonische bilaterales Verhältnis der
+                    Vertragspartner.<lb/>Art. 2 Amnestie.<lb/>Art. 3 Beendigung der Feindseligkeiten
+                    und der militärischen Operationen. Zahlungen. Räumung Dresdens.<lb/>Art. 4
+                    Bestimmung über die Gefangenen.<lb/>Art. 5 Anerkennung des Vertrages von
+                    Hannover (1745 VIII 26).<lb/>Art. 6 Verzichtserklärung des Kurfürsten von
+                    Sachsen.<lb/>Art. 7 Abtretung der Stadt Fürstenberg und des Dorfes
+                    Schidlow.<lb/>Art. 8 Bestimmungen über die Religionsausübung.<lb/>Art. 9
+                    Garantie des Vertrags durch den König von Großbritannien.<lb/>Art. 10 Handels-
+                    und Verkehrsbestimmungen.<lb/>Art. 11 Steuerbestimmungen.<lb/>Art. 12
+                    Anerkennung des 11. Artikels des Vertrages von Hannover (1745 VIII 26) durch
+                    Sachsen-Polen.<lb/>Art. 13 Über den Einschluß der Zarin von Rußland, des Königs
+                    von England und der Vereinigten Niederlanden als Garantiemächte.<lb/>Art. 14
+                    Ratifikation.</p>
+                <p>Geheimartikel I Preußen sichert Sachsen-Polen Unterstützung in Verhandlungen mit
+                    Österreich zu.<lb/>Geheimartikel II Preußen unterstützt den Anspruch
+                    Sachsen-Polens auf Stadt und Kreis Erfurt. Sachsen-Polen verspricht Preußen
+                    dafür Gummern. </p>
+            </div>
+            <div type="Kommentar">
+                <p>Sachsen-Polen war von der sich zuspitzenden preußisch-österreichischen Rivalität
+                    des 18. Jahrhunderts schon allein auf Grund seiner geographischen Lage
+                    betroffen. Im Ersten Schlesischen Krieg 1740/42 hatte es zwischen den
+                    Kriegsparteien laviert. Der Erwerb Schlesiens durch Preußen veränderte jedoch
+                    die Haltung Sachsens zugunsten Österreichs; seit 1743 verfolgte Dresden eine
+                    antipreußische Politik. Angesichts der mächtigen preußischen Armee benötigte
+                    Maria Theresia militärische Unterstützung durch August III. Durch die
+                    Quadrupelallianz Österreichs, Großbritanniens, der Generalstaaten und
+                    Sachsen-Polens (1745 I 8) wurde dieser ins antipreußische Allianzsystem
+                    eingebunden. Sachsen sollte mit 30.000 Mann die Verteidigung Böhmens übernehmen
+                    und dafür territoriale Entschädigungen von Österreich enthalten
+                    (Geheimkonvention Österreich-Sachsen/Polen Leipzig 1745 V 18). So diplomatisch
+                    und militärisch gestärkt, konnte Maria Theresia Friedrich II. zunächst aus
+                    Böhmen und auch aus Schlesien zurückdrängen. <lb/>Friedrichs Position wurde
+                    weiter geschwächt, als Bayern und Österreich mit dem Frieden von Füssen den
+                    Erbfolgekrieg beendeten. Dennoch erreichten die preußischen Truppen 1745 eine
+                    Reihe militärisch-strategischer Erfolge. Großbritannien versuchte zu vermitteln
+                    und stellte Preußen im Vertrag von Hannover (1745 VIII 26) eine Garantie des
+                    territorialen Status quo in Schlesien in Aussicht. Auch Frankreich und Sachsen
+                    boten Vermittlungen an. Maria Theresia war jedoch nicht bereit, darauf
+                    einzugehen. <lb/>Am 23. November 1745 verhinderten preußische Truppen eine
+                    militärische Vereinigung österreichischer und sächsischer Verbände bei
+                    Hennersdorf und Kesselsdorf, wo die sächsische Armee vernichtend geschlagen
+                    wurde (1745 XII 15). Sachsen - ohnehin das &quot;schwächste Glied der in den
+                    Krieg verwickelten Mächtekette&quot;<note n="1" type="crit_app">Bein, Schlesien
+                        in der Habsburger Politik, S. 280-285.</note> kapitulierte (1745 XII 17).
+                    Für Österreich bestand nun keine Alternative mehr zum Frieden mit Preußen
+                    (Bein). Am 25. Dezember schloß Preußen zu Dresden in zwei getrennten Verträgen
+                    Frieden mit Sachsen-Polen (auf der Basis der Konvention von Hannover) und mit
+                    Österreich. <lb/></p>
+            </div>
+            <div type="Kontext">
+                <p>1740/41-1745/48 Österreichischer Erbfolgekrieg und zeitgleich Erster Schlesischer
+                    Krieg (1740/42). <lb/>Die Pragmatische Sanktion (1713 IV 19), die die weibliche
+                    Thronfolge Maria Theresias regelte, wird nach dem Tod Karls VI. in Frage
+                    gestellt. Thronanspruch erhebt Karl Albrecht von Bayern. Einmarsch Friedrichs
+                    II. von Preußen in Schlesien (1740 XII 16). Preußen verbündet sich mit
+                    Frankreich (1741 VI 4). Bayern und Sachsen greifen in den Krieg ein (Bündnisse
+                    mit Spanien, Neapel, Kurköln). Ausweitung des schlesischen Kriegs zum
+                    Erbfolgekrieg. Karl Albrecht - unterstützt von Sachsen und Frankreich - erobert
+                    Prag. <lb/>1742 Wahl Karl Albrechts zum Römischen Kaiser (Karl VII.). Der
+                    Vorfriede von Breslau (1742 VI 11) und der Berliner Friede (1742 VII 28)
+                    zwischen Preußen und Österreich beenden den 1. Schlesischen Krieg. Österreich
+                    muß Schlesien an Preußen abtreten. <lb/>Maria Theresia richtet sich nun -
+                    unterstützt von England (&quot;Pragmatische Armee&quot;) - gegen Bayern und
+                    Frankreich. Prag wird zurück erobert. Karl Albrecht wird aus Bayern
+                    vertrieben.<lb/>27. Juni 1743 Sieg bei Dettingen über Frankreich. Preußen
+                    schließt ein neues Bündnis mit Frankreich und marschiert in Böhmen ein.
+                    <lb/>1744-1745 Zweiter Schlesischer Krieg. <lb/>20. Januar 1745 Tod Karls VII.;
+                    Nachfolger: sein Sohn Maximilian III. Joseph <lb/>22. April 1745 Frieden von
+                    Füssen. Bayern erkennt die Pragmatische Sanktion an. <lb/>18. Oktober 1748
+                    Frieden von Aachen. Ende des Erbfolgekrieges, der u.a. in der Lombardei und in
+                    den österreichischen Niederlanden noch fortgesetzt wird.<lb/>4. Juni 1745 Sieg
+                    Friedrichs II. von Preußen über Österreich bei Hohenfriedberg.<lb/>12. Dezember
+                    1745 Friede von Dresden. </p>
+            </div>
+
+        </front>
+        <body>
+            <div type="Edition">
+                <p>Sa Majesté le <rs ref="#pp0081">Roi de Pologne Electeur de Saxe</rs><note n="2"
+                        type="annotation">August III. (1696-1763), seit 1733 Kurfürst (Friedrich
+                        August) von Sachsen und seit 1734 König von Polen.</note> , et Sa Majesté le
+                        <rs ref="#pp0016">Roi de Prusse</rs><note n="3" type="annotation"
+                        >Sachanmerkung: Friedrich II., genannt der Große (1712-1786), seit 1740
+                        preußischer König. Textvariante: SHSADresden OU 14828; Wenck ; Moser ;
+                        Rousset: Sa Majesté le Roi de Prusse, et Sa Majesté le Roi de Pologne,
+                        Electeur de Saxe (diese Reihenfolge wird im weiteren Text beibehalten).
+                    </note> étant animés du même désir sincère de rétablir entre Eux<note n="4"
+                        type="crit_app">Rousset: entr´eux</note> l´ancienne bonne harmonie et
+                    étroite intelligence, qui a subsisté autrefois<note n="5" type="crit_app">CTS;
+                        Wenck: autre fois; SHSADresden OU 14828: autresfois.</note> entre Leurs
+                    Maisons Royales<note n="6" type="crit_app">Rousset: Roiales (auch im
+                        folgenden)</note> et Electorales, Etats, Pais<note n="7" type="crit_app"
+                        >CTS: Pays (diese Schreibweise auch im Folgenden). Wenck; Moser: pays (auch
+                        im Folgenden).</note> et Sujets respectifs, et qui s´est trouvée
+                    malheureusement interrompue à l´occasion de la guerre entre feu <rs
+                        ref="#pp0015">l´Empereur Charles VII</rs><note n="8" type="crit_app">Karl
+                        VII. Albrecht (1697-1745), seit 1726 Kurfürst von Bayern und seit 1742 dt.
+                        Kaiser.</note> et la Maison d´Autriche<note n="9" type="annotation"
+                        >Österreichischer Erbfolgekrieg (1741-1745/1748). Vergleiche Browning, The
+                        War of the Austrian Succession).</note>, Leurs susdites Majestés pour
+                    parvenir à un but si salutaire ont trouvé à propos de donner Leurs pleinpouvoirs
+                    respectifs, à savoir<note n="10" type="crit_app">Moser: sçavoir.</note> Sa
+                        Majesté<note n="11" type="annotation">Moser: S. M. le Roi de Prusse les
+                        siens au Sr. Henri C. de Podewils, son Ministre d'Etat &amp; de Cabinet,
+                        Chev. De son Ordre Royal de l'Aigle-Noire, &amp; S. M. le Roi de Pologne les
+                        siens au Sr. Fréderic Gothard de Bulow, son Ministre de Conférence &amp;
+                        d'Etat, &amp; au Sr. Guillaume Auguste C. de Stubenberg, son
+                        Vice-Chancelier." </note> le <rs ref="#pp0081">Roi de Pologne</rs> les siens
+                    au Sr.<note n="12" type="crit_app">CTS: Fréderic</note>
+                    <rs ref="#pp0217">Frederic Gotthard de Bulow</rs><note n="13" type="crit_app"
+                        >Textvariante: SHSADresden OU 14828; Rousset: Fréderic Gothard de Bulow
+                        Sachanmerkung: Friedrich Gotthard von Bülow (1712-1776),
+                        Feldzeugmeister.</note>, son Ministre de Conference et d´Etat, et au Sr. <rs
+                        ref="#pp0218">Guillaume Auguste Comte de Stubenberg</rs><note n="14"
+                        type="crit_app">Wilhelm August Graf von Stubenberg (1709-1771),
+                        kursächsischer Geheimer Rat, Staats- und Kabinettsminister.</note>, Son
+                    Vice-Chancelier, et Sa Majesté le <rs ref="#pp0016">Roi de Prusse</rs> les siens
+                    au <rs ref="#pp0219">Sr. Henri Comte de Podewils</rs><note n="15"
+                        type="crit_app">Heinrich Graf von Podewils (1695-1760), seit 1720 in
+                        preußischen Diensten, u.a. als Gesandter, Kriegs- und Finanzrat, bestimmte
+                        bis 1756 die Außenpolitik; er war Verhandlungsleiter für die
+                        Friedensverträge von Breslau/Berlin 1742 und von Dresden 1745 (AdB 26, S.
+                        344-351). </note> , Son Ministre d´Etat et de Cabinet, Chevalier de Son
+                    ordre Royal de l´aigle noire<note n="16" type="crit_app">Wenck: à savoir Sa
+                        Majesté le Roi de Prusse les Siens au Sr. Henry Comte de Podewils, Son
+                        Ministre d'Etat et de Cabinet, Chevalier de Son Ordre Royal de l'Aigle
+                        Noire, et Sa Majesté le Roi de Pologne les Siens au Sr. Fréderic Gothard de
+                        Bülow, Son Ministre de Conférance et d'Etat, et au Sr. Guimmaume Auguste
+                        Comte de Stubenberg, Son Vice-Chancelier. </note>, lesquels Ministres, après
+                    avoir fait l´échange réciproque de leurs pleinpouvoirs respectifs, sont convenus
+                    et ont arrêté, conclu et signé les Articles suivants<note n="17" type="crit_app"
+                        >CTS; Rousset: suivans.</note> d´un traité de paix, de réconciliation et
+                        d´amitié.<lb/>Art.1<note n="18" type="crit_app">CTS; Wenck: römische Ziffern
+                        (auch im Folgenden).</note><lb/>Il y aura une paix solide, et une
+                    réconciliation et amitié sincère, et union étroite, et bon voisinage entre Sa
+                        <rs ref="#pp0081">Majesté le Roi de Pologne, Electeur de Saxe</rs><note
+                        n="19" type="crit_app">CTS: Rousset: [Einschub:] et.</note>, Ses Etats, Pais
+                    et Sujets d´un coté, et Sa Majesté le <rs ref="#pp0016">Roi de Prusse</rs>,
+                        et<note n="20" type="crit_app">CTS: [Auslassung:] et.</note> Ses<note n="21"
+                        type="crit_app">Rousset: les.</note> Etats, Pais et Sujets de l´autre<note
+                        n="22" type="crit_app">SHSADresden OU 14828; CTS; Rousset; Wenck: entre Sa
+                        Majesté le Roi de Prusse, Ses Etats, Pays et Sujets d' un côte, et Sa
+                        Majesté le Roi de Pologne, Electeur de Saxe, et Ses Etats, Pays et Sujets de
+                        l'autre. </note> , de sorte, que les deux Hautes Parties contractantes
+                    cultiveront entre Elles une bonne harmonie et parfaite intelligence en tâchant
+                    d´avancer leurs intérêts réciproques, et d´écarter tout ce qui pourroit les
+                    troubler, ou y donner la moindre atteinte.<lb/>Art. 2<lb/>Il y aura aussi<note
+                        n="23" type="crit_app">Moser: [Auslassung:] aussi.</note> entre Leurs
+                    susdites Majestés et Leurs Etats, Pais et Sujets respectifs une amnestie<note
+                        n="24" type="crit_app">CTS; Wenck; Moser; Rousset: Amnistie.</note> générale
+                    et un oubli éternel de tout ce qui s´est passé entre Elles, à l´occasion de la
+                    présente guerre, de quelque nature que cela puisse avoir été, et il n´en sera
+                    jamais plus fait mention, ni demandé de dédommagement de part et d´autre, sous
+                    quelque prétexte ou nom, que cela puisse être, mais toutes les pretensions<note
+                        n="25" type="crit_app">CTS; Wenck; Moser: prétensions ; Rousset:
+                        prétentions.</note> réciproques occasionnées par les deux derniéres guerres,
+                    après la mort de l´Empereur <rs ref="#pp0004">Charles VI</rs><note n="26"
+                        type="crit_app">Textvariante: Rousset: Charles VII. Sachanmerkung: Kaiser
+                        Karl VI (1685-1740).</note>, entre Leurs Majestés le <rs ref="#pp0081">Roi
+                        de Pologne</rs> Electeur de Saxe et le <rs ref="#pp0016">Roi de
+                        Prusse</rs><note n="27" type="annotation">Wenck; Moser: entre Leurs Majestés
+                        le Roi de Prusse et le Roi de Pologne, Electeur de Saxe.</note>, soit par
+                    l´entrée ou passage des trouppes<note n="28" type="crit_app">CTS; Moser;
+                        Rousset: Troupes (auch im Folgenden).</note> de part et d´autre dans les
+                    Etats réciproques, avant, ou pendant cette guerre, soit pour d´autres exactions,
+                    contributions, fourages, magazins, ou excès, et autres dommages, de quelque
+                    nature et quelque nom, qu´ils puissent être, demeureront entièrement éteintes,
+                    annulées et anéanties, de sorte qu´il n´en sera jamais plus fait
+                    mention.<lb/>Art. 3<lb/>Toutes les hostilités et opérations militaires de part
+                    et d´autre cesseront entierement, à compter du jour de la date du présent traité
+                    de paix, si elles n´ont pas déjà cessées, et quant<note n="29" type="crit_app"
+                        >SHSADresden OU 14828: quand.</note> aux contributions, les etats de Saxe,
+                    et la ville de Leipzic<note n="30" type="crit_app">SHSADresden OU 14828: Leipzig
+                        (auch unten). Rousset: Leipsic (auch unten).</note> , sous la garantie
+                    spéciale, et la plus prompte exécution de Sa Majesté le <rs ref="#pp0081">Roi de
+                        Pologne</rs>, Electeur de Saxe, s´engagent solemnellement<note n="31"
+                        type="crit_app">CTS; Wenck: solennellement (auch im Folgenden).</note> et
+                    fermement de payer<note n="32" type="crit_app">Moser; Rousset: [Einschub:]
+                        encore.</note> à Sa Majesté le Roi de Prusse, outre les contributions, ou
+                    telle autre somme, qu´ Elle a tirée déjà<note n="33" type="crit_app">Moser;
+                        Rousset: déjà tirée.</note>, sous quelque prétexte que cela puisse être,
+                    jusqu´au 22 de ce mois, des pais apartenants<note n="34" type="crit_app">CTS:
+                        Pays appartenants. SHSADresden OU 14828: appartenants. Wenck: appartenants.
+                        Moser; Rousset: appartenans.</note> à Sa Majesté le <rs ref="#pp0081">Roi de
+                        Pologne</rs>, Electeur de Saxe, encore<note n="35" type="crit_app">Moser;
+                        Rousset: [Auslassung:] encore.</note> la somme d´un million d´écus
+                    d´Allemagne, à raison de 24 gros l´écu, la quelle somme sera paiée<note n="36"
+                        type="crit_app">SHSADresden OU 14828: payée. CTS; Wenck; Moser ; Rousset:
+                        payée.</note> à Sa Majesté le Roi de Prusse toute<note n="37"
+                        type="crit_app">Moser; Rousset: tout.</note> à la fois<note n="38"
+                        type="crit_app">Moser: sois.</note> en argent comptant et en bons Ducats et
+                    Louis d´or, à la prochaine foire de pâques de Leipzic de l´année 1746 avec les
+                    intérêts de 5. pour cent, à compter depuis le 23. de ce mois, jusqu´au terme du
+                    payement, et Sa dite Majesté le <rs ref="#pp0081">Roi de Pologne</rs> s´engage
+                    et promet de tenir la main, comme garant<note n="39" type="crit_app">SHSADresden
+                        OU 14828: Guarant.</note> de ce payement pour qu´il se fasse dans le terme
+                    stipulé, sans le moindre rabais, liquidation, compensation ou exception de
+                    quelque nom, prétexte ou nature que cela puisse être, moyennant quoi Sa Majesté
+                    le <rs ref="#pp0016">Roi de Prusse</rs> a fait cesser, depuis le 22. de ce mois,
+                    toutes les contributions et demandes en argent, recrues<note n="40"
+                        type="crit_app">SHSADresden OU 14828: recrües. Moser, Rousset:
+                        recrûes.</note>, chevaux, chariots et valets, dans tout l´Electorat de Saxe,
+                    ses dépendances, et nommément la<note n="41" type="crit_app">Moser; Rousset:
+                        [Einschub:] dans.</note> Haute et Basse Lusace, le tout en conformité de
+                    l´acte d´assurance donné par le Conseil d´Etat de Sa Majesté le <rs
+                        ref="#pp0081">Roi de Pologne</rs>, Electeur de Saxe, daté de<note n="42"
+                        type="crit_app">Moser; Rousset: anstatt ''à'' ''de''.</note> Dresde le
+                        21<note n="43" type="crit_app">Wenck: 22me.</note> de ce mois, lequel acte
+                    sera restitué au dit Ministère après le payement fait<note n="44"
+                        type="crit_app">Moser; Rousset: [Auslassung:] fait.</note> de la susdite
+                    somme d´un million d´écus d´Allemagne. Mais si, contre toute attente, et par
+                    l´impossibilité, que les ordres de Sa Majesté le <rs ref="#pp0016">Roi de
+                        Prusse</rs>, quoique expédiés et partis déjà<note n="45" type="crit_app"
+                        >Moser; Rousset: ''dès'' anstatt ''déjà''</note> le 21 de ce mois, n´ayent
+                    pu parvenir assez à tems<note n="46" type="crit_app">CTS, Wenck, SHSADresden OU
+                        14828: temps.</note> en certains endroits éloignés, il devroit être
+                        arrivé<note n="47" type="crit_app">Moser; Rousset: "étoit arrivé" anstatt
+                        "devroit être arrivé".</note>, que par ignorance on eût contrevenu le 22 ou
+                    le 23 de ce mois aux susdits ordres, et demandé et pris par ci par la<note
+                        n="48" type="crit_app">CTS : par-là ; Wenck ; Rousset: là. Moser: par-ci
+                        par-là.</note> quelque argent, la disposition de ce qui est stipulé ci
+                        dessus<note n="49" type="crit_app">SHSADresden OU 14828: cy dessus. CTS:
+                        ci-dessus.</note>, n´en restera pas moins dans toute sa valeur, sans qu´on
+                    en puisse prendre le moindre prétexte de l´invalider.<lb/>Les armées de Sa
+                    Majesté le <rs ref="#pp0016">Roi de Prusse</rs> évacueront entièrement tous les
+                    Etats et Pais héréditaires, villes, places et forts, apartenants<note n="50"
+                        type="crit_app">CTS; SHSADresden OU 14828: appartenants. Wenck:
+                        appartenants. Moser; Rousset: appartenans.</note> à Sa Majesté le <rs
+                        ref="#pp0081">Roi de Pologne</rs>, Electeur de Saxe, dans l´état où elles se
+                    trouvoient, par rapport à leurs fortifications, defenses et enceintes,
+                    lors´quelles furent occupées<note n="51" type="crit_app">Moser; Rousset:
+                        [Auslassung:] "defenses et enceintes, lors'quelles furent occupées".</note>,
+                    en restituant<note n="52" type="crit_app">Handschriftliche Korrektur: en
+                        restituant de même les armes. [Streichung:] de même. SHSADresden OU 14828
+                        ist diese handschriftliche Korrektur nicht vorhanden.</note> les armes aux
+                        Bourgoisies<note n="53" type="crit_app">CTS; Rousset: Burgeoisies.</note> de
+                    ces places, exceptées celles, qu´on a trouvées de l´armée<note n="54"
+                        type="crit_app">Moser; Rousset: celles qui ont appartenu à l'Armée.</note>
+                    de Sa Majesté le <rs ref="#pp0016">Roi de Prusse</rs>, et qu´on a achetté<note
+                        n="55" type="crit_app">CTS; Wenck: acheté. Moser; Rousset: achetées.</note>
+                    des déserteurs des Trouppes Prussiennes, dans<note n="56" type="crit_app">Moser;
+                        Rousset: [Einschub:] et cela.</note> l´espace de quinze jours au plus tard,
+                    à compter de celui<note n="57" type="crit_app">Moser; Rousset: [Auslassung:] de
+                        celui.</note> de l´échange des ratifications du présent traité, et on
+                    commencera par évacuer la ville de Dresde, d´abord après l´échange des
+                        ratifications<note n="58" type="crit_app">SHSADresden OU 14828: de
+                        Ratification.</note>, et celle de Leipzic le huitième jour après, sans
+                    obliger les Vorspann<note n="59" type="crit_app">SHSADresden OU 14828; GSABerlin
+                        VI HA Nr.726 durch deutsche Buchstaben hervorgehoben.</note> , de<note
+                        n="60" type="crit_app">Moser; Rousset: [Einschub:] "obliger les chevaux et
+                        sujets de Saxe, dont on aura besoin pour le transport des équipages etc."
+                        anstatt "obliger les Vorspann".</note> passer les frontières, et sans
+                    demander des otages, ni autre chose, pendant leur séjour, marche et sortie, que
+                        le<note n="61" type="crit_app">Moser; Rousset: [Einschub:]
+                        simplement.</note> quartier, la nourriture<note n="62" type="crit_app"
+                        >SHSADresden OU 14828: nurriture.</note> et les fourages nécessaires, qui
+                    leur seront fournis gratis, par des commissaires qui<note n="63" type="crit_app"
+                        >Moser; Rousset: "à nommer" anstatt "qui meneront ces Truppes, et qui
+                        seront".</note> meneront ces trouppes, et<note n="64" type="crit_app">CTS;
+                        Wenck: des Commissaires, qui leur seront.</note> qui seront nommés par Sa
+                    Majesté le <rs ref="#pp0081">Roi de Pologne</rs>, Electeur de Saxe. En
+                    attendant, il sera permis à Sa Majesté le <rs ref="#pp0016">Roi de Prusse</rs>
+                    de laisser à ses dépens les malades et les blessés de Son armée, avec l´hôpital
+                    general et un détachement de Ses Trouppes pour leur garde et sûreté dans la
+                    ville de Meissen, jusqu´à ce qu´ils soient en état d´être transportés dans les
+                        pais<note n="65" type="crit_app">Moser; Rousset: ''Etats'' anstatt
+                        ''pais''.</note> de Sa Majesté le <rs ref="#pp0016">Roi de Prusse</rs><note
+                        n="66" type="crit_app">Moser; Rousset: [Einschub:] ''Prusse; ce qui se sera
+                        aussi''.</note> à Ses dépens.<lb/>Art. 4<lb/>Tous les prisonniers, officiers
+                    et soldats saxons, y compris les cadets et les milices du pais seront relâchés
+                    sans rançon et leurs armes rendues après la ratification du present traité,
+                    excepté ceux qui ont pris service<note n="67" type="crit_app">Moser; Rousset:
+                        ''parti'' anstatt ''service''.</note> dans les trouppes de Sa Majesté le <rs
+                        ref="#pp0016">Roi de Prusse</rs>, mais on rendra les miliciens, qui sont
+                    établis et possessionnés dans le pais.<lb/>Art. 5<lb/>Sa Majesté le <rs
+                        ref="#pp0081">Roi de Pologne</rs>, Electeur de Saxe s´engage pour Elle et
+                        Ses<note n="68" type="crit_app">Rousset: [Auslassung:] Ses.</note>
+                    Successeurs et Heritiers des deux sexes à perpétuité d´accéder et d´accepter
+                    purement et simplement la convention arrêtée à Hannovre<note n="69"
+                        type="crit_app">Moser; Rousset: Hanovre.</note> le 26 du mois d´août,
+                    nouveau stile, de cette année, entre Sa Majesté le <rs ref="#pp0016">Roi de
+                        Prusse</rs>, et Sa <rs ref="#pp0220">Majesté le Roi de la Grande
+                        Bretagne</rs><note n="70" type="annotation">Georg August (1683-1760),
+                        Kurfürst von Hannnover und seit 1727 als Georg II. König von
+                        Großbritannien.</note> pour le rétablissement de la paix en Allemagne<note
+                        n="71" type="crit_app">Im Vertrag von Hannover (1745 VIII 26) zwischen
+                        Preußen und Großbritannien sicherte Georg II. zu, Friedensvermittlungen auf
+                        der Basis des Vorfriedens von Breslau (1742 VI 11) zu übernehmen."
+                    </note>.<lb/>Art.6<lb/>Sa Majesté le <rs ref="#pp0081">Roi de Pologne</rs>,
+                    Electeur de Saxe s´engage et promet également de fournir dans l´espace de 3<note
+                        n="72" type="crit_app">CTS; Wenck: trois.</note> semaines, à compter de la
+                    date de ce present traité, de la part de Sa <rs ref="#pp0019">Majesté la
+                        Reine</rs><note n="73" type="annotation">Maria Theresia (1717-1780), seit
+                        1740 Königin.</note> Son Epouse, pour Elle et Ses Heritiers de l´un et de
+                    l´autre sexe, un acte solemnel<note n="74" type="crit_app">CTS; Wenck:
+                        solennel.</note> de cession des droits éventuels qu´ils pourroient vouloir
+                        pretendre<note n="75" type="crit_app">CTS: prendre (hier auch eine Korrektur
+                        in Anm.: ''Editores laudati habent: prétendre''). Moser; Rousset: prétendre
+                        (auch im Folgenden).</note> un jour, en vertu de la Sanction Pragmatique de
+                    la maison d´Autriche<note n="76" type="annotation">Pragmatische Sanktion (1713
+                        IV 19), Hausgesetz Karls VI., das die Unteilbarkeit der Habsburger Länder
+                        und die weibliche Erbfolge festlegte.</note>, et comme Heritiers éventuels
+                    de cette maison, après son extinction, à tous les Etats et Pais, cédés par la
+                    Cour de Vienne par le<note n="77" type="crit_app">Moser; Rousset: ''en vertu
+                        du'' anstatt ''par le''.</note> traité de Breslau de l´an 1742<note n="78"
+                        type="annotation">Der Vorfriede von Breslau (1742 VI 11) zwischen Preußen
+                        und Österreich beendete den 1. Schlesischen Krieg. Österreich tritt (bis auf
+                        einige Ausnahmen) Schlesien an Preußen ab. Dies wurde im Berliner Frieden
+                        (1742 VII 28) endgültig bestätigt." </note>, à Sa Majesté le <rs
+                        ref="#pp0016">Roi de Prusse</rs>, Ses Successeurs et Heritiers de l´un et de
+                    l´autre sexe à perpétuité<note n="79" type="crit_app">Rousset: [es folgt
+                        Auslassung bis:] dans.</note>, promettant de pus<note n="80" type="crit_app"
+                        >Wenck: plus.</note> de ne jamais inquiéter Sa Majesté le <rs ref="#pp0016"
+                        >Roi de Prusse</rs>, Ses Heritiers et Successeurs<note n="81"
+                        type="crit_app">Wenck; Moser: ses Successeurs et Héritiers.</note> de l´un
+                    et de l´autre sexe à perpétuité, dans la tranquille et paisible<note n="82"
+                        type="crit_app">Rousset: [Auslassung:] paisible.</note> possession des
+                    susdits Etats et Pais cédés par le traité de Breslau, sous quelque prétexte, nom
+                    ou titre, que cela puisse êt re, ni<note n="83" type="crit_app">Rousset:
+                        [Auslassung:] ni.</note> directement ni indirectement, comme aussi de donner
+                    toujours à Sa Majesté le <rs ref="#pp0016">Roi de Prusse</rs> et Ses<note n="84"
+                        type="crit_app">Rousset: [Einschub:] à.</note> Heritiers et Successeurs, les
+                    mêmes titres à l´égard de ces ctats, qui sont stipulés dans le susdit traité de
+                    Breslau.<lb/>Art. 7<lb/>Pour obvier à toutes les contestations et disputes, qui
+                    se sont souvant<note n="85" type="crit_app">CTS; Wenck, Rousset: souvent.</note>
+                    élevées entre Sa Majesté le <rs ref="#pp0081">Roi de Pologne</rs>, Electeur de
+                    Saxe, et Sa Majesté le Roi de Prusse<note n="86" type="crit_app">SHSADresden
+                        OU14828; Wenck; Moser, Rousset: Sa Majesté le <rs ref="#pp0016">Roi de
+                            Prusse</rs>, et Sa Majesté le <rs ref="#pp0081">Roi de Pologne</rs>,
+                        Electeur de Saxe.</note> à l´occasion du péage de Fürstemberg<note n="87"
+                        type="crit_app">CTS; Wenck; Moser: Fürstenberg. Rousset: Furstenberg. CTS;
+                        SHSADresden OU 14828: Fürstenberg (auch im Folgenden).</note> sur
+                        l´Oder<note n="88" type="annotation">Fürstenberg, an der Oder gelegen, bei
+                        Eisenhüttenstadt.</note>, et du Passage de Schidlow<note n="89"
+                        type="crit_app">Textvariante: CTS; Wenck; Moser; Rousset: Schidlo.
+                        Sachanmerkung: Schidlow, auch Schiedlow, gelegen an der Oder bei
+                        Schwiebus.</note>, Sa Majesté le <rs ref="#pp0081">Roi de Pologne</rs>,
+                    Electeur de Saxe céde pour Lui et Ses Heritiers et Successeurs à perpetuité à Sa
+                    Majesté le Roi de Prusse, Ses Heritiers et Successeurs à perpetuité contre un
+                    équivalent de quelques parceles de la Silesie<note n="90" type="crit_app">CTS;
+                        Wenck; Moser; Rousset: Silésie (auch im Folgenden).</note>, enclavées dans
+                    la Lusace, ou tel autre equivalent, an Land<note n="91" type="crit_app"
+                        >SHSADresden OU 14828: Landt undt Leuten. In beiden Urkunden ist diese
+                        Passage durch deutsche Schriftzeichen hervorgehoben.</note> und Leuten<note
+                        n="92" type="crit_app">Moser; Rousset: en Terres et sujets dont on pourra
+                        convenir.</note>, et les hautes Parties contractantes nommeront des
+                    commissaires pour régler l´affaire et achever ce troc, dans l´espace de six<note
+                        n="93" type="crit_app">CTS; Moser; Rousset: 6.</note> semaines à compter du
+                    jour de la signature du present traité, d´une manière, qu´aucune des Hautes
+                    Parties contractantes ne perde par ce troc, la ville et le<note n="94"
+                        type="crit_app">Rousset: [Auslassung:] le.</note> péage de Fürstemberg sur
+                    l´Oder, avec ses dépendances, et<note n="95" type="crit_app">Moser; Rousset:
+                        ainsi que.</note> le village de Schidlo, sauf les droits des<note n="96"
+                        type="crit_app">SHSADresden OU 14828: de.</note> particuliers et le Dominium
+                        utile<note n="97" type="crit_app">Moser; Rousset: [Ersetzt durch:] de
+                        possessions.</note>, qu´ils y pourroient avoir, de sorte que les deux<note
+                        n="98" type="crit_app">Moser ; Rousset: 2.</note> rives et bords de l´Oder
+                    de ce côté là apartiendront<note n="99" type="crit_app">CTS; SHSADresden OU
+                        14828; Wenck; Moser; Rousset: appartiendront.</note> désormais à Sa Majesté
+                    le <rs ref="#pp0016">Roi de Prusse</rs>, Ses<note n="100" type="crit_app">Moser;
+                        Rousset: [Einschub:] à.</note> Successeurs et heritiers à perpetuité, sans
+                    que Sa Majesté le <rs ref="#pp0081">Roi de Pologne</rs>, Electeur de Saxe
+                        et<note n="101" type="crit_app">"Rousset: [Auslassung:] et.</note> Ses
+                    Successeurs et heritiers y puissent jamais rien pretendre, ou vouloir<note
+                        n="102" type="crit_app">Rousset: [Auslassung:] vouloir.</note> établir un
+                    autre peage sur l´Oder, ou en incommoder, en quoi, que cela puisse être, le
+                    libre cours et<note n="103" type="crit_app">Rousset: et la.</note> navigation,
+                    sous quelque titre, nom et prétexte, que cela puisse être, tout comme
+                    l´équivalent an Land und Leuten<note n="104" type="crit_app">Moser; Rousset: en
+                        Terres et sujets. Hervorhebung in beiden Urkunden (s.o.).</note>, que Sa
+                    Majesté le Roi de Prusse cédera à Sa Majesté le <rs ref="#pp0081">Roi de
+                        Pologne</rs>, Electeur de Saxe, lui demeurera et à Ses successeurs à
+                    perpetuité, sans que Sa Majesté le Roi de Prusse, Ses Successeurs et Heritiers y
+                    puissent jamais rien prétendre, sous quelque titre, nom et prétexte, que cela
+                    puisse être.<lb/>Art. 8<lb/>La religion protestante sera maintenue et conservée
+                    dans tous les etats et provinces de l´Electorat de Saxe, y compris la Haute et
+                    Basse Lusace, aussi bien que dans tous les etats et provinces de Sa Majesté le
+                        <rs ref="#pp0016">Roi de Prusse</rs>, suivant la teneur de la Paix de
+                        Westphalie<note n="105" type="annotation">Friede von Münster und Osnabrück,
+                        der Westphälische Friede (1648 X 24).</note>, sans qu´on n´y pourra<note
+                        n="106" type="crit_app">Moser ; Rousset: puisse.</note> jamais faire la
+                    moindre innovation.<lb/>Art. 9<lb/>Le Cartel conclu l´an 1741 à Breslau entre
+                    Leurs Majestés le <rs ref="#pp0081">Roi de Pologne</rs>, Electeur de Saxe et le
+                        <rs ref="#pp0016">Roi de Prusse</rs><note n="107" type="crit_app"
+                        >SHSADresden OU14828; CTS; Wenck; Moser; Rousset: entre Leurs Majestés le
+                        Roi de Prusse et le Roi de Pologne, Electeur de Saxe.</note>, subsistera
+                    dans toute Sa vigueur, et sera religieusement observé de part et
+                    d´autre.<lb/>Art. 10<lb/>On redressera réciproquement et de bonne foi, tous les
+                    abus, qui se sont glissés dans le commerce, au préjudice des Pais, Etats et
+                    Sujets respectifs des deux<note n="108" type="crit_app">Moser; Rousset :
+                        2</note> Hautes Parties contractantes, soit en les abolissant entièrement de
+                    part et d´autre, soit en convenant<note n="109" type="crit_app">Moser; Rousset:
+                        ''en s' entendant là-dessus'' anstatt ''en convenant''.</note> amiablement,
+                    par une convention ultérieure.<lb/>Sa Majesté le <rs ref="#pp0016">Roi de
+                        Prusse</rs> accordera aussi le libre passage, sur les passeports de Sa
+                    Majesté le <rs ref="#pp0081">Roi de Pologne</rs>, Electeur de Saxe, et sur ceux
+                    de Sa Cour, par la Silesie en Pologne, tant pour tout ce que Sa Majesté fera
+                    venir de Pologne en Saxe, que pour ce qu´Elle y enverra, comme Fürsten Guth<note
+                        n="110" type="crit_app">In beiden Urkunden durch deutsche Schreibweise
+                        hervorgehoben. Moser; Rousset: ''lui appartenant'' anstatt ''Fürsten
+                        Guth''.</note>.<lb/>Art. 11<lb/>Tous les vassaux et sujets de Sa Majesté le
+                    Roi de Prusse, de même que ceux, qui sont dans<note n="111" type="crit_app"
+                        >Moser; Rousset: ''à'' anstatt ''dans''.</note> son service, soit militaire
+                    ou civil, qui<note n="112" type="crit_app">Moser; Rousset: ''lesquels'' anstatt
+                        ''qui''.</note> ont des Capitaux sur<note n="113" type="crit_app">Rousset:
+                        ''dans'' anstatt ''sur''.</note> ce qu´on appelle die Sachsische Ober Steuer
+                        Einnahme<note n="114" type="crit_app">CTS; Wenck: Sächsische. Rousset:
+                        Sächsische Ober-Steller-Einnahme. Hervorhebung in Urkunden durch deutsche
+                        Schreibweise. Moser; Rousset: Steüer (auch im Folgenden).</note> , seront
+                    fidèlement remboursés de leurs capitaux et intérêts aux termes êchus, suivant la
+                    teneur de leurs obligations<note n="115" type="crit_app">CTS; Wenck: leur
+                        obligation.</note> ou Steuer Scheine<note n="116" type="crit_app"
+                        >Hervorhebung in beiden Urkunden.</note>.<lb/>Art. 12<lb/>Sa Majesté le <rs
+                        ref="#pp0081">Roi de Pologne</rs>, Electeur de Saxe, agira par raport à la
+                    maison Electorale Palatine en conformité du 11e<note n="117" type="crit_app"
+                        >CTS; Wenck: XIme. Moser; Rousset: XI.</note> article de la Convention de
+                        Hannovre<note n="118" type="crit_app">Wenck; Moser; Rousset:
+                        d'Hanovre.</note> du 26 d´août de l´année presente<note n="119"
+                        type="crit_app">Druck in CTS 37, S. 411-416: ''S.M. Britannique, comme
+                        Electeur de Brunsvick-Lunebourg, et S.M. le <rs ref="#pp0081">Roi de
+                            Pologne</rs>, comme Electeur de Saxe, seront compris dans cette Paix, et
+                        toutes les Prétentions réciproques, occasionnées par la présente Guerre,
+                        entre S.M. le Roi de Prusse et S.M. le <rs ref="#pp0081">Roi de
+                        Pologne</rs>, Electeur de Saxe, seront annullées et anéanties. La Maison
+                        Electorale Palatine sera aussi comprise dans cette Paix, et sera remise dans
+                        la possession pleine et entière de ses Etats patrimoniaux. La Maison de
+                        Hesse-Cassel sera également comprise dans cette Paix''." </note>.<lb/>Art.
+                    13<lb/>Sa Majesté <rs ref="#pp0221">l´Impératrice de toutes les
+                        Russies</rs><note n="120" type="annotation">Elisabeth Petrowna (1709-1762),
+                        Zarin von Russland (1741-1761).</note>, Sa <rs ref="#pp0221">Majesté le Roi
+                        de la Grande Bretagne</rs>, et Leurs Hautes Puissances, les <rs ref="#p49"
+                        >Etats Generaux<note n="121" type="crit_app">CTS; Wenck; Moser; Rousset:
+                            Généraux.</note> des Provinces Unies</rs> des Pais-Bas<note n="122"
+                        type="crit_app">CTS; Wenck; Moser: Pays Bas.</note> seront invités par les
+                        deux<note n="123" type="crit_app">Moser: 2 ; Rousset : le 2.</note> hautes
+                    Parties contractantes, de vouloir bien garantir ce traité de Paix, de
+                    réconciliation et d´amitié, mais il ne subsistera pas moins dans toute sa
+                    vigueur, et dans tous ses points et articles, quand même ces garanties ne
+                    pourroient pas être obtenues.<lb/>Art. 14<lb/>Le present traité de Paix et de
+                    réconciliation, sera ratifié de part et d´autre, et les ratifications
+                        duement<note n="124" type="crit_app">Moser; Rousset: dûëment.</note>
+                    expédiées et échangées dans l´espace de 8. ou 10. jours, à compter de la date de
+                    la signature de ce Traité, ou plutôt si faire se peut.<lb/>En foi de quoi nous
+                    soussignés Ministres de Sa Majesté le <rs ref="#pp0081">Roi de Pologne</rs>,
+                    Electeur de Saxe, et de Sa Majesté le Roi de Prusse<note n="125" type="crit_app"
+                        >CTS; Wenck; Moser: Sa Majesté le Roi de Prusse et de Sa Majesté le Roi de
+                        Pologne, Electeur de Saxe.</note>, en vertu de nos pleinpouvoirs avons signé
+                    le present traité de Paix, de réconciliation et d´amitié, et y avons fait
+                    apposer les Cachets de nos Armes. Fait à Dresde, le 25. de Décembre 1745.</p>
+                <p>2 LS; 2 US <rs ref="#pp0216">Frederic Guillaume de Bülow</rs>, <rs ref="#pp0217"
+                        >Guillaume Auguste Comte de Stubenberg</rs><note n="126" type="annotation"
+                        >Wenck: (L.S.) Henry Comte de Podewils. (L.S.) Frederic Gothard de Bülow.
+                        (L.S.) Guillaume Auguste C. de Stubenberg. CTS: Henry Comte de Podewils,
+                        Frederic Gothard de Bülow, Guillaume Auguste C. de Stubenberg. SHSADresden
+                        OU 14828: 1 LS, 1 US Henry Comte de Podewils. Moser: [ausgelassen]."
+                    </note></p>
+                <p>Article Secret I<note n="127" type="crit_app">CTS, Wenck; Moser; Rousset: [nicht
+                        aufgeführt].</note></p>
+                <p>Sa Majesté le <rs ref="#pp0016">Roi de Prusse</rs>, souhaitant passionnement, de
+                    donner en toute occasion des preuves de Son amitié inviolable à Sa Majesté le
+                        <rs ref="#pp0081">Roi de Pologne</rs>, et à toute Sa Maison Royale et
+                    Electorale, Se donnera tous les mouvemens et toutes les peines possibles par Ses
+                    instances et bons offices auprès de la Cour de Vienne, dès que Sa dite Majesté
+                    sera reconciliée avec elle, pour la disposer de donner à Sa Majesté <rs
+                        ref="#pp0081">le Roi de Pologne</rs> toute la satisfaction, et
+                    indemnisation, qu´Elle peut justement prétendre pour des services rendus à la
+                    Maison d´Autriche, et pour les grands dommages, qu´Elle a soufferts par
+                    là.<lb/>Cet Article aura la même force et valeur, comme s´il étoit inseré de mot
+                    en mot dans le traité principal, signé à Dresde en date d´aujourd´hui.<lb/>En
+                    foy de quoi nous Ministres sousignés en vertu de nos Pleinpouvoirs, avons signé
+                    le present article Secret, et y avons fait apposer le Cachet de nos armes. Donné
+                    à Dresde le 25 Decembre 1745.<lb/>1 LS , 1 US <rs ref="#pp0222">Jean Chretien
+                        Comte de Hennicke</rs><note n="128" type="annotation">Sachanmerkung: Johann
+                        Christian Graf von Hennicke (1681-1752), kursächsischer Konferenzminister
+                        und Geheimer Rat (AdB 11, S. 772-773). Textvariante: SHSADresden OU 14828: 1
+                        LS, 1 US Henry Comte de Podewils." </note></p>
+                <p>Article Secret II<note n="129" type="crit_app">CTS; Moser; Rousset: [nicht
+                        aufgeführt].</note></p>
+                <p>Sa Majesté le Roi de Prusse, pour donner une marque authentique de Son desir
+                    sincere de procurer et avancer les interêts et le bien de Sa Majesté le Roi de
+                    Pologne Electeur de Saxe, et de Sa Maison Roiale et Electorale, promet de se
+                    donner toutes les peines imaginables, et d´emploier Ses bons offices, pour que
+                    la ville d´Erfort avec son district, sur laquelle la Maison Electorale de Saxe
+                    prétend avoir de justes prétensions, Lui soit cedée en toute proprieté, sans
+                    aucun équivalent et à perpetiuté, soit par une convention à faire avec
+                    l´Electeur de Mayence, soit à la paix generale soit d´une autre maniere
+                    convenable.<lb/>En échange et par reconnoissance Sa Majesté le <rs ref="#pp0081"
+                        >Roi de Pologne</rs> promet et s´engage, en cas, que par les soins et par
+                    les bons offices de Sa Majesté le Roi de Prusse, Sa dite Majesté puisse obtenir
+                    Son but sur cet article, et être mis en possession actuelle et tranquille de
+                    ladite ville d´Erfort et de son district, de ceder alors, et pas plûtôt, à Sa
+                    Majesté le <rs ref="#pp0016">Roi de Prusse</rs>, Ses Heritiers et Successeurs à
+                    perpetuité le baillage de Gommern<note n="130" type="annotation"
+                        >Gommern/Gummern, Ort an der Elbe bei Schnackenburg/Wittenberge.</note> et
+                    ses dependances, sans aucun équivalent.<lb/>Cet Article doit être tenû fort
+                    secret entre les deux Hautes Parties Contractantes, jusqu´à ce, qu´Elles
+                    trouvent à propos d´agir d´un parfait concert ensemble là-dessus.<lb/>Cet
+                    Article aura la même force et valeur, comme s´il étoit inseré de mot en mot dans
+                    le traité principal signé à Dresde en date d´aujourdhui.<lb/>En foy de quoi nous
+                    Ministres sousignés, en vertu de nos Pleinpouvoirs, avons signé le present
+                    Article Secret, et y avons fait apposer le Cachet de nos armes.<lb/>Donné à
+                    Dresde le 25 Decembre 1745.</p>
+                <p>1 LS 1 <rs ref="#pp0222">US Jean Chretien Comte de Hennicke</rs><note n="131"
+                        type="crit_app">SHSADresden OU 14828: 1 LS ,1 US Henry Comte de
+                        Podewils.</note></p>
+            </div>
+
+        </body>
+        <back>
+            <listBibl>
+                <bibl>Beiträge zur Geschichte des Zweiten Schlesischen Krieges, S. 37-124.</bibl>
+                <bibl>Becker, Der Dresdner Frieden und die Politik Brühls. Hoen (Bearb.), Die Kriege
+                    Friedrichs des Großen 1: Der 1. und 2. Schlesische Krieg. Bein, Schlesien in der
+                    Habsburger Politik. Bergerhausen, Friedensrecht und Toleranz: Zur Politik des
+                    preußischen Staates gegenüber der katholischen Kirche in Schlesien
+                    1740-1806.</bibl>
+                <bibl>Borkowsky, Die englische Friedensvermittlung im Jahre 1745. Der Zweite
+                    Schlesische Krieg 1744-45, hg. v. Großen Generalstabe, 1-3.</bibl>
+            </listBibl>
+        </back>
+    </text>
+</tei:TEI>

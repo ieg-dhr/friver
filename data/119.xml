@@ -1,0 +1,658 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE tei SYSTEM "../resources/FriVer_DTD.dtd">
+
+<?xml-model href="../resources/FriVer.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns="http://www.tei-c.org/ns/1.0"
+    xml:id="pa000299-0119">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title level="s">European peace treaties of the pre-modern era in data / Europäische
+                    Friedensverträge der Vormoderne in Daten (FriVer+)</title>
+                <title when="1715-04-27" xml:id="t119" when-custom="1715 IV 16_27 / 1715 V 30"
+                    level="a" ref="https://www.ieg-friedensvertraege.de/treaty/t-119-1-de.html"
+                    >Bündnisvertrag gegen Schweden</title>
+            </titleStmt>
+            <editionStmt>
+                <edition> Digital edition according to <ref target="http://www.tei-c.org/">TEI
+                        P5</ref>
+                </edition>
+                <funder>
+                    <ref target="https://www.text-plus.org/">TEXT+</ref>
+                </funder>
+                <editor role="http://id.loc.gov/vocabulary/relators/edt"
+                    ref="https://orcid.org/0000-0002-8741-5916">
+                    <persName>Jaap Geraerts</persName>
+                    <note>The transformation and enrichment of the data is done by Jaap Geraerts
+                        (IEG Mainz). The other members of the FriVer+ team are Fabian Cremer, Ines
+                        Grund, and Thorsten Wübbena (all IEG Mainz).</note>
+                    <note> The original data has been created by the <ref
+                            target="https://www.ieg-friedensvertraege.de">team of scholars</ref> who
+                        were part of the Europäische Friedensverträge der Vormoderne project. This
+                        project was lead by Prof. Dr. Heinz Duchhardt and was based at the Leibniz
+                        Institute of European History in Mainz. </note>
+                </editor>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>
+                    <orgName ref="http://www.isni.org/0000000119314040">Leibniz-Institut für
+                        Europäische Geschichte Mainz</orgName>
+                </publisher>
+                <distributor>
+                    <orgName ref="http://www.isni.org/0000000110101946">Universitäts- und
+                        Landesbibliothek Darmstadt</orgName>
+                </distributor>
+                <idno type="ISIL">http://lobid.org/organisation/DE-17</idno>
+                <date type="issued" when="2023-12-23"/>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">
+                        <p xml:lang="en">This file is licensed under the terms of the Creative
+                            Commons License CC-BY 4.0 (Attribution 4.0 International)</p>
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <repository xml:id="r10">Hannover StA/LA <note>Arcinsys Niedersachsen, Hannover NLA, Findbuch:<lb/>
+                        <ref
+                            target="http://www.arcinsys.niedersachsen.de/arcinsys/detailAction?detailid=v3436587"
+                            >http://www.arcinsys.niedersachsen.de/arcinsys/detailAction?detailid=v3436587</ref></note>
+                </repository>
+                <msDesc>
+                    <p>[Transkriptionsgrundlage, Grafik:] NHSAHan Hannover 10, 46 Preußen, Nr. 274:
+                        Feldlager bei Stettin, 1715 V 30 (Papier, 1 OS, 12 fol) (Vertragsausstellung
+                        durch Friedrich Wilhelm I.). <lb/>Anm.: Das zweite Instrument wurde von
+                        Georg I. am 16 / 27. April 1715 zu St. James ausgestellt. </p>
+                    <p> Als Vertragsdatum gilt 1715 IV 16/27 (Vgl. Loewe, S.90-91). <lb/>
+                    </p>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p> The data in this XML file, originally created by the project <ref
+                        target="https://www.ieg-friedensvertraege.de/vertraege">Europäische
+                        Friedensverträge der Vormoderne online</ref> has been transformed in
+                    accordance with <ref target="http://www.tei-c.org/">TEI P5</ref> as part of the
+                    project <ref
+                        target="https://www.ieg-mainz.de/en/research/research-projects/european-peace-treaties-of-the-pre-modern-era-in-data"
+                        >Europäische Friedensverträge der Vormoderne in Daten (FriVer+)</ref>
+                </p>
+            </projectDesc>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="de" xml:id="lan2">deutsch</language>
+            </langUsage>
+        </profileDesc>
+    </teiHeader>
+    <standOff>
+        <listPerson>
+            <person role="signatory" xml:id="p51">
+                <persName ref="https://explore.gnd.network/gnd/4023349-2">
+                    <name>Hannover</name>
+                </persName>
+            </person>
+            <person role="signatory" xml:id="p93">
+                <persName ref="https://explore.gnd.network/gnd/4047194-9">
+                    <name>Preußen</name>
+                </persName>
+            </person>
+            <person xml:id="pp0179">
+                <persName ref="https://explore.gnd.network/gnd/119546256">
+                    <name>Friedrich IV. (Dänemark und Norwegen)</name>
+                </persName>
+            </person>
+            <person xml:id="pp0181">
+                <persName ref="https://explore.gnd.network/gnd/118505084">
+                    <name>August II. (Polen)</name>
+                </persName>
+            </person>
+            <person xml:id="pp0194">
+                <persName ref="https://explore.gnd.network/gnd/118592955">
+                    <name>Peter I. (Russia)</name>
+                </persName>
+            </person>
+            <person>
+                <persName>
+                    <name></name>
+                </persName>
+            </person>
+            <person>
+                <persName>
+                    <name></name>
+                </persName>
+            </person>
+        </listPerson>
+        <listPlace>
+            <place xml:id="loc106">
+                <placeName>ohne Ort</placeName>
+            </place>
+        </listPlace>
+    </standOff>
+    <text>
+        <front>
+            <div type="Drucke">
+                <p>Loewe, Preussens Staatsverträge aus der Regierungszeit König Friedrich Wilhelms
+                    I. (basierend auf der hannoveraner Ausfertigung).</p>
+            </div>
+            <div type="Inhalt">
+                <p>Erreichung eines Friedens mit Schweden. Mangelnder Friedenswillen Schwedens. </p>
+                <p>Art. 1 Wiederherstellung des Friedens. Vertreibung Schwedens vom
+                    Reichsboden.<lb/>Art. 2 Aufteilung der bislang schwedischen Provinzen. Pommern
+                    bis zur Peene zu Preußen.<lb/>Art. 3 Bremen und Verden an Hannover. <lb/>Art. 4
+                    Zugehörigkeit Vorpommerns zwischen Peene und Ostsee soll in Absprache mit
+                    Dänemark geklärt werden.<lb/>Art. 5 Gebietsausgleich zwischen Preußen und
+                    Hannover.<lb/>Art. 6 Preußen erhält auf Verlangen 6000 Mann
+                    Unterstützung.<lb/>Art. 7 Hannover erhält auf Verlangen preußische Unterstützung
+                    von 8000 Mann.<lb/>Art. 8 Militärische Beistandspflicht.<lb/>Art. 9 Einsatz der
+                    Hilfstruppen.<lb/>Art. 10 Ausweitung des Bündnisses.<lb/>Art. 11 Gemeinsamer
+                    Kriegseinsatz.<lb/>Art. 12 Aufreibung der Schweden in Pommern. Abschneiden
+                    Schwedens von militärischer Hilfe aus dem Westen.<lb/>Art. 13 Unterstützung
+                    Sachsens im Falle eines schwedischen Angriffs.<lb/>Art. 14 Einbeziehung des
+                    Kaisers, Dänemarks, Sachsen-Polens.<lb/>Art. 15 Mitteilung an den
+                    Zaren.<lb/>Art. 16 Gottorf.</p>
+            </div>
+            <div type="Kommentar">
+                <p>Am 11. November 1714 hatten sich Preußen und Hannover in einer "Punktation" auf
+                    die Vertreibung Schwedens aus dem Reichsterritorium geeinigt. Dieser
+                    Übereinkunft sollte ein förmlicher Vertrag folgen, für den ein erster Entwurf am
+                    27. Dezember 1714 durch den hannoverschen Residenten Kriegsrat J. W. Heusch
+                    (geb. um 1652) in Berlin übergeben wurde. Die Unterzeichnung ließ auf sich
+                    warten, da Hannover zuvor mit Dänemark zu einer Übereinkunft über Bremen kommen
+                    wollte. Zudem war strittig, inwieweit Preußen zu einer Entschädigung Gottorfs
+                    herangezogen werden mußte und wie detailliert die Hannoveraner Militärhilfe in
+                    den Vertrag aufgenommen werden sollte. <lb/>Der gegen Schweden gerichtete
+                    Bündnisvertrag zwischen Hannover und Preußen beinhaltete eine Aufteilung der
+                    Provinzen. Hannover sollte bei siegreichem Kriegsende die Herzogtümer Bremen und
+                    Verden, Preußen Vorpommern mit Stettin bis zum Fluß Peene, die Städte Demmin,
+                    Anklam und Wolgast sowie die Inseln Usedom und Wollin. Damit war eine Absprache
+                    über die Zukunft der schwedischen Provinzen auf dem Reichsboden getroffen, die
+                    durch die Friedensverträge 1719/1720 bestätigt wurde. Bedeutung hatte das
+                    Abkommen, das neben territorialen Regelungen auch militärischen Beistand gegen
+                    Schweden festschrieb, für Hannover hinsichtlich der diplomatischen
+                    Komplikationen mit Dänemark über den Erwerb Bremens.</p>
+            </div>
+            <div type="Kontext">
+                <p>1700-1721 <lb/>Nordischer Krieg. Dänemark, Preußen, Rußland und Sachsen-Polen
+                    versuchen in zeitlich wechselnden Bündniskonstellationen, die schwedische
+                    Vorherrschaft im Ostseeraum zu brechen und Schweden aus den Reichsbesitzungen
+                    (Bremen-Verden, Pommern) zu drängen. <lb/>18. August 1700 <lb/>Friede von
+                    Travendahl zwischen Schweden und Dänemark. Dänemark scheidet aus dem Krieg aus.
+                    <lb/>1712 <lb/>Dänemark besetzt Bremen, Hannover Verden. <lb/>12. Juni 1714
+                    <lb/>Bündnis zwischen Rußland und Preußen; Hannover schließt sich an. <lb/>1715
+                    IV 16./27. bzw. 1715 V 30 <lb/>Vertrag zwischen Hannover und Preußen. <lb/>2.
+                    Mai 1715 <lb/>Vertrag zwischen Hannover und Dänemark über den Erwerb
+                    Bremen-Verdens durch Hannover. <lb/>15. Oktober 1715 <lb/>Übergabe Bremens an
+                    Hannover, das daraufhin Schweden den Krieg erklärt. <lb/>11./19. Juli 1719
+                    <lb/>Präliminarfrieden zwischen Schweden und Hannover. <lb/>20. November 1719
+                    <lb/>Friede von Stockholm zwischen Schweden und Hannover. Hannover erhält Bremen
+                    und Verden. <lb/>21. Januar 1721 <lb/>Friede von Stockholm zwischen Schweden und
+                    Preußen. <lb/>3. Juli 1719 <lb/>Friede von Fredriksborg zwischen Schweden und
+                    Dänemark. <lb/>10. September 1721 <lb/>Friede von Nystad zwischen Schweden und
+                    Rußland. </p>
+            </div>
+        </front>
+        <body>
+            <div type="Edition">
+                <p>Wir <rs ref="#pp0204">Friedrich Wilhelm</rs><note n="1" type="annotation">Friedrich Wilhelm I.
+                        (1713-1740), König in Preußen.</note> von Gottes Gnaden, König in Preußen,
+                    Marggraf zu Brandenburg, des Heyl[igen]. Röm[ischen]. Reichs Ertz-Cämmerer und
+                    Chur Fürst, souverainer Printz von Oranien, Neufchatel und Vallengin, zu
+                    Magdeburg, Cleve, Jülich, Berge, Stettin, Pommern, der Caßuben und Wenden, zu
+                    Mecklenburg, auch in Schlesien, zu Croßen Hertzog; Burggraff zu Nürnberg, Fürst
+                    zu Halberstadt, Minden, Camin, Venden, Schwerin, Ratzeburg und Moers; Graff zu
+                    Hohenzollern, Ruppin, der Marck, Ravensberg, Hohenstein, Tecklenburg, Schwerin,
+                    Bingen, Bühren und Lehrdam ; Marquis zu der &lt;...&gt;<note n="2"
+                        type="crit_app">Vehre, unklare Lesart.</note> und Vlißingen; Herr zu
+                    Aarenstein, der &lt;...&gt;<note n="3" type="crit_app">.nde, Wortanfang
+                        verblaßt.</note> Rostock, Stargard, Lauenburg, Büt&lt;ow&gt;, Arley undt
+                        Breda<note n="4" type="crit_app">Loewe: Von Gottes Gnaden Georg König von
+                        Großbritannien, Frankreich und Irland, Beschützer des Glaubens, Herzog zu
+                        Braunschweig und Lüneburg, des Heil. Röm. Reichs Erzschatzmeister und
+                        Churfürst p.</note>.</p>
+                <p>Demnach Wir mit des <rs ref="#0205">Königes in Groß-Britannien</rs> May[estä]t<note n="5"
+                        type="crit_app">Textvariante: Loewe: des Königes in Preußen Maj.
+                        Sachanmerkung: Georg I. (1698/1714-1727), Kurfürst (Georg Ludwig) von
+                        Hannover und König von Großbritannien.</note> in reiffe<note n="6"
+                        type="crit_app">Loewe: reife.</note> Erwägung genommen, wasgestalt des
+                    <rs ref="#0182">Königes von Schweden</rs><note n="7" type="annotation">Karl XII. (1697-1718), König
+                        von Schweden.</note> May[estä]t bisher alle von wohlgesinneten Puissancen
+                    Ihro angetragene Neutralitäts und Friedens Propositiones mit Verachtung,
+                    Indignation und Bedrohung von sich gewiesen, dadurch es geschehen, daß der
+                    Nordische Krieg auf den teutschen Boden und sonderlich in die ober und
+                    niedersächsische Creyse<note n="8" type="crit_app">Loewe: Kreise.</note> sich
+                    gezogen, und nicht allein die königl[ich]. schwedische in Teutschland belegene
+                    eigene Provintzien<note n="9" type="crit_app">Loewe: Provinzien.</note> in
+                    erbärmlichen Stand gesetzet, und der Verlust eines Theils derselben verursachet,
+                    sondern auch die benachbahrte Landen<note n="10" type="crit_app">Loewe:
+                        benachbarte Länder (auch im Folgenden).</note> und Unterthanen neutraler,
+                    unschuldiger und an dem Nordischen Kriege<note n="11" type="crit_app">Großer
+                        Nordischer Krieg 1700-1721.</note> keinen Theil habender Reichs Stände in
+                    unsäglichen Schaden und Elend gestürtzet worden, Seine <rs ref="#0182">Königl[iche]. May[estä]t
+                    von Schweden</rs> auch noch diese Stunde in Ihrer Entfernung von Friedens
+                        Gedancken<note n="12" type="crit_app">Loewe: Friedensgedanken.</note>
+                    beharren, den zu Vermittelung eines Friedens im Norden zu Braunschweig
+                    angestelleten Congress zu beschicken, und sich daselbst in Friedens Handlung
+                    einzulaßen, sich beständig weigern;<lb/>Im Gegentheil aber frey<note n="13"
+                        type="crit_app">Loewe: frei.</note> und öffentlich declariren, daß S[eine].
+                    May[estä]t mit dem Degen in der Hand, das Ihro abgenommene recuperiren, und an
+                    Ihren Feinden, und also nennenden falschen Freunden sich rächen
+                    wolten;<lb/>Solches aber sehr weit gehet und ein umb sich freßendes Krieges
+                        Feuer<note n="14" type="crit_app">Loewe: Kriegsfeuer.</note> desto gewißer
+                    daraus entstehen würde, weilen man an Königl[ich]. Schwedischer Seiten in
+                    solchen Verbündnüßen und Correspondentzen mit anderen in undt<note n="15"
+                        type="crit_app">Loewe: inn- und.</note> außerhalb Reichs begriffen ist,
+                    dadurch man durch anderer Reichs Stände Trouppen<note n="16" type="crit_app"
+                        >Loewe: Truppen (auch unten).</note> sich zu verstärken, ja gar mit der Cron
+                        Franckreich<note n="17" type="crit_app">Loewe: Frankreich (auch
+                        unten).</note> und deren Adhaerenten sich und seine Krieges Operationes<note
+                        n="18" type="crit_app">Loewe: Kriegsoperationen.</note> im Reich zu
+                        appu&lt;...&gt;ren<note n="19" type="crit_app">iji unklare Lesart; Loewe:
+                        appuyiren.</note> hoffet undt suchet. Deßen dem Reich fatale Suiten aus
+                    alter und frischer Erfahrung männiglichen vor Augen stehen und denen in Zeiten
+                    zu vorzukommen, nicht allein die Prudentz<note n="20" type="crit_app">Loewe:
+                        Prudenz.</note> und die schuldige Vorsorge für die Sicherheit und Ruhe eines
+                    jeden und zumahl der benachbahrten Reichs Stände Lande und Unterthanen
+                    erfordert, sondern auch solches Uns und des Königes von Groß-Britannien
+                        May[estä]t<note n="21" type="crit_app">Loewe: in Preußen May.</note> Unserer
+                    tragenden Crais<note n="22" type="crit_app">Loewe: Kreis (auch unten).</note>
+                    Directorial Ambter<note n="23" type="crit_app">Loewe: Ämter (auch unten).</note>
+                    halber vor anderen oblieget;<lb/>Als haben Wir beyderseits beschloßen, krafft
+                    itzt gedachter<note n="24" type="crit_app">Loewe: kraft jetztgedachter.</note>
+                    Creyß Directorial Ambter bey des <rs ref="#0182">Königes von Schweden
+                        May[estät]</rs>. noch einen
+                    Versuch zu thun, ob dieselbe durch nachdrückliche Vorstellungen und
+                    Declarationes sich endlich nunmehr<note n="25" type="crit_app">Loewe: nunmehr
+                        endlich.</note> möchten bewegen laßen wollen, den Weg der Güte und der
+                    Tractaten zu erwehlen<note n="26" type="crit_app">Loewe: erwählen.</note>, und
+                    vorgedachte beyde Creyße durch die Waffen fernerhin ohnberuhiget<note n="27"
+                        type="crit_app">Loewe: unberuhiget.</note> zu laßen;<lb/> Daferne<note
+                            n="28" type="crit_app">Loewe: Dafern.</note> aber des <rs
+                                ref="#0182">Königes von Schweden</rs>
+                    May[estä]t sothanen Verstellungen nicht sollten statt thun, sondern deren
+                    ungeachtet oder auch wohl deren unerwartet, der viae armorum insistiren und
+                    jemanden, er sey<note n="29" type="crit_app">Loewe: seie (sei auch im
+                        Folgenden).</note>, wer er wolle, angreiffen<note n="30" type="crit_app"
+                        >Loewe: angreifen.</note>, <lb/>So werden Seine May[estä]t Ihro selbst
+                    beyzumeßen haben, wann Sie sich dadurch unglücklich machen, und wird niemandt
+                    Uns und des <rs ref="#0205">Königes von Groß Britannien</rs><note n="31" type="crit_app">Loewe: in
+                        Preußen.</note> May[estä]t und andere des Reichs Wohlfahrt und Ruhestand zu
+                        Hertzen<note n="32" type="crit_app">Loewe: Herzen.</note> nehmende
+                    Puissancen und Reichs-Stände verdencken<note n="33" type="crit_app">Loewe:
+                        verdenken.</note> können, wann dieselbe alsdann zu Abkehrung eines extremi
+                    mali extrema remedia zur Hand zu nehmen sich genöthiget sehe; Immaßen dann, auf
+                    solchen Event, zwischen Uns und des <rs ref="#0205">Königs von Groß Britannien</rs><note n="34"
+                        type="crit_app">Loewe: in Preußen.</note> May[estä]t nach folgendes Foedus
+                    hiemit geschloßen seyn solle.</p>
+                <p>Artic. 1<lb/>Weilen nachdenen vorangeführten Umbständen<note n="35"
+                        type="crit_app">Loewe: Umständen.</note> die Sachen so bewand seyn, daß Wir
+                    und des Königes von Groß Britannien<note n="36" type="crit_app">Loewe: in
+                        Preußen.</note> May[estä]t nicht minder als andere Benachbahrte allerhand
+                    Zunötigungen, Violentien und Feindseeligkeiten<note n="37" type="crit_app"
+                        >Loewe: Feindseligkeiten.</note> von Seiten Schweden und deßen Adhaerenten
+                    besorgen müßen; So wollen Wir beyderseits zu deßen Abkehrung und die Ruhe des
+                    Reichs, und sonderlich der ober- undt niedersächsischen Creise erhalten zu
+                    helffen, daferne es nicht anders seyn kann, die von Gott Uns verliehene
+                        Kräffte<note n="38" type="crit_app">Loewe: Kräfte.</note> anwenden, und,
+                    wann es dann darüber einmahl<note n="39" type="crit_app">Loewe: einmal.</note>
+                    zu Ergreiffung <note n="40" type="crit_app">Loewe: Ergreifung.</note> der Waffen
+                    gekommen, und dieselbe den Success haben, daß Schweden darüber seine in
+                    Teutschland habende Provintzien verlieret, so soll es wegen dererselben gehalten
+                    werden wie folget:</p>
+                <p>Art. 2<lb/>Es soll alßdann von solchen schwedischen Landen in Teutschland
+                        Uns<note n="41" type="crit_app">Loewe: des Königes in Preußen Maj.</note> zu
+                    Theil werden, auch<note n="42" type="crit_app">Loewe: und.</note> erb- und
+                        eigenthumblich<note n="43" type="crit_app">Loewe: eigenthümlich.</note> Uns
+                    und Unseren Königl[ichen]. Hause<note n="44" type="crit_app">Loewe: Ihro und dem
+                        Königlichen Hause Preußen.</note> verbleiben, die Stadt Stettin mit dero
+                    District , und von dar<note n="45" type="crit_app">Loewe: von da an.</note> an
+                    das gantze<note n="46" type="crit_app">Loewe: ganze.</note> pommersche<note
+                        n="47" type="crit_app">Loewe: pommerische.</note> Territorium bis an den
+                    Pehne Strohm<note n="48" type="crit_app">Loewe: Peene Strom (auch
+                    unten).</note>, inclusive die Städte Demmin, Loitz<note n="49" type="crit_app"
+                        >Loewe: [Auslassung].</note>, Anclam<note n="50" type="crit_app">Loewe:
+                        Anklam.</note> und Wolgast, imgleichem die Insuln Wollin und Usedom mit
+                    aller Zubehör, et cum omni jure wie die Crohn<note n="51" type="crit_app">Loewe:
+                        Kron (auch unten).</note> Schweden solches alles beseßen und genoßen, oder
+                    vermöge des Westphälischen Friedens es besitzen oder genießen sollen.</p>
+                <p>Art. 3<lb/>Gleichergestalt sollen Ihro <rs ref="#0205">Königl[iche]. May[estä]t von Groß
+                    Britannien</rs> und dero Königlichem Hause<note n="52" type="crit_app">Loewe: Uns und
+                        Unserem Hause.</note> zufallen, auch<note n="53" type="crit_app">Loewe:
+                        und.</note> erb- und eigenthumblich<note n="54" type="crit_app">Loewe:
+                        eigenthümlich.</note> verbleiben, die Hertzogthümer<note n="55"
+                        type="crit_app">Loewe: Herzogthümer (auch unten).</note> Bremen und
+                        Vehrden<note n="56" type="crit_app">Loewe: Verden (auch unten).</note>, mit
+                    aller Ihrer Zubehör, et cum omni jure, wie die Cron Schweden dieselbe beseßen
+                    und genoßen, oder vermöge des Westphläischen Friedens besitzen und genießen
+                    sollen; Und wollen Wir<note n="57" type="crit_app">Loewe: des Königes in Preußen
+                        Maj.</note> beschaffen, daß ermeldte<note n="58" type="crit_app">Loewe:
+                        ernannte.</note> Herzogthümer Bremen und Vehrden von des Königes in
+                        Dennemarck<note n="59" type="crit_app">Loewe: von Dänemark (auch
+                            unten).</note> May[es]t[ä]t S[eine]r <rs ref="#0205">Königl[ichen]. May[estä]t von Groß
+                        Britannien</rs><note n="60" type="crit_app">Loewe: Uns.</note> fordersambst<note
+                        n="61" type="crit_app">Loewe: fordersamst.</note> cediret und nebst der
+                    Festung Stade, Ihro<note n="62" type="crit_app">Loewe: Uns.</note> völlig
+                    eingeräumet werden möge<note n="63" type="crit_app">Loewe: mögen.</note>.</p>
+                <p>Art. 4<lb/>Wie es wegen des übrigen Districts von Vor-Pommern von dem Pehne
+                    Strohm an bis an die Ost-See, wie auch mit Wismar und mit der Insul Rügen zu
+                    halten, deswegen wird man sich mit des Königes von Dennemarck May[es]t[ä]t
+                    vergleichen.</p>
+                <p>Art. 5<lb/>So bald Stralsund und die Insul Rügen werden erobert und den<note
+                        n="64" type="crit_app">Loewe: denen.</note> Schweden abgenommen, seyn,
+                    wollen Wir S[eine]r <rs ref="#0205">Königl[ichen]. May[estä]t von Groß
+                        Britannien</rs><note n="65"
+                        type="crit_app">Loewe: Se. Königl. Maj. in Preußen.</note> und dero
+                        Hause<note n="66" type="crit_app">Loewe: Uns und Unserem Hause.</note> erb-
+                    und eigenthumblich hiemit und krafft dieses cediret und überlaßen haben, das
+                    Dominium directum über alle in denen Chur- und Fürstlich braunschweig-
+                    lüneburgischen und zubehörigen<note n="67" type="crit_app">Loewe:
+                        zugehörigen.</note> Landen belegene von Uns relevirende<note n="68"
+                        type="crit_app">Loewe: churbrandenburgische.</note> Lehenschafften<note
+                        n="69" type="crit_app">Loewe: Lehnschaften.</note> und Lehnstücke ohne
+                        Unterpfandt<note n="70" type="crit_app">Loewe: Unterschied.</note> ob
+                    derselben von Unserm<note n="71" type="crit_app">Loewe: vom.</note>
+                    Fürstenthümern Minden und Halberstadt<note n="72" type="crit_app">Loewe:
+                        Fürstenthum Minden, Halberstadt.</note> oder anderen Uns angehörigen<note
+                        n="73" type="crit_app">Loewe: oder einer der anderen
+                        churbrandenburgischen.</note> Lande und Provintzien lehnrührig seyn;
+                    Imgleichen alle Kirchen undt Pfarr Patronaten, die uns<note n="74"
+                        type="crit_app">Loewe: des Königes in Preußen Maj.</note> von wegen einiger
+                        Unserer<note n="75" type="crit_app">Loewe: dero.</note> Lande und
+                    Provintzien in denen chur und fürstl[ich]. braunschweig-lüneburgischen und
+                    zugehörigen Landen bisher zugestanden, dann auch die superioritatem
+                    territorialem über die drey dem Hause Gartow zugehörige Dörffer<note n="76"
+                        type="crit_app">Loewe: Dörfer.</note> Holtorff<note n="77" type="crit_app"
+                        >Loewe: Holtorf.</note>, Capern und Gummern (inclusive den in Gummern
+                    befindlichen Adelichen Hoff<note n="78" type="crit_app">Loewe: Hof.</note>) und
+                    deren Pertinentien, nicht weniger über den Elb und Aland Strohm an selbigem
+                    Orten usque ad medietatem fluminis, wobey jedoch alle übrige Jura, es mögen
+                    dieselbe sonst unter die Regalia gerechnet werden oder nicht, vor wie nach dem
+                    Hause Gartow völlig reserviret bleiben, undt wollen Wir<note n="79"
+                        type="crit_app">Loewe: des Königes in Preußen Maj.</note> zu vorgesetzter
+                    Zeit über alles in diesem 5.ten Articul oben specificirtes bündige Erb-,
+                    Cessions und Traditionsbrieffe<note n="80" type="crit_app">Loewe:
+                        Traditionsbriefe.</note>, wie auch alle zu ob-specificirten an Ihro
+                    <rs ref="#0205">Königl[iche]. May[estä]t von Groß-Britannien</rs><note n="81" type="crit_app">Loewe:
+                        Uns.</note> cedirenden Sachen, Stücken und Juribus gehörige, in Unseren<note
+                        n="82" type="crit_app">Loewe: denen königlich preußischen.</note> Archivis
+                    befindliche Brieffschafften, Documenta und Uhrkunden Ihro<note n="83"
+                        type="crit_app">Loewe: Uns.</note> extradiren laßen;<lb/>Wobey aber
+                    ausdrücklich bedungen, auch von Ihro Königl[ichen]. May[estä]t von Groß
+                        Britannien<note n="84" type="crit_app">Loewe: Uns.</note> angenommenen und
+                    versprochen worden, daß, wann wieder<note n="85" type="crit_app">Loewe:
+                        wider.</note> beßeres Vermuthen bey künfftig<note n="86" type="crit_app"
+                        >Loewe: bei künftig.</note> erfolgendem Nordischen Frieden &lt;...&gt;<note
+                        n="87" type="crit_app">... unklar, möglicherweise: Wir. Loewe: Se. Königl.
+                        Maj. in Preußen.</note> vorermelte Stadt Stettin und Strich Landes nicht
+                    behalten könnten, sondern solches wieder zurückgeben müßten, alles was in diesem
+                    Articul von Uns an Ihro <rs ref="#0205">Königl[ichen]. May[estä]t. von Groß
+                        Britannien</rs><note
+                        n="88" type="crit_app">Loewe: von Sr. Königl. Maj. in Preußen Uns.</note>
+                    cediret worden, an Uns und Unser Königliches Haus<note n="89" type="crit_app"
+                        >Loewe: an Se. Königl. Maj. in Preußen und Dero Königlichem Hause.</note>
+                    alßdann auch wieder zurückfallen soll.</p>
+                <p>Art. 6<lb/> &lt;...&gt; haben Ihro <rs ref="#0205">Königl[iche]. May[estä]t von
+                    Groß Britannien</rs>
+                    sich gegen Uns verbunden und versprochen<note n="90" type="crit_app">Loewe:
+                    </note>, daß von dem Tage an, da die oben Articulo tertio et quinto
+                        d&lt;.&gt;<note n="91" type="crit_app">Loewe: Uns.</note> selben zu thuende
+                    Cessiones und Traditiones werden geschehen seyn, Sie, Ihre<note n="92"
+                        type="crit_app">Loewe: Wir, Unsre.</note> Erben und Nachkommen schuldig und
+                    gehalten seyn wollen und sollen, Uns und Unsere<note n="93" type="crit_app"
+                        >Loewe: des Königes in Preußen Maj. und dero.</note> Erben und Nachkommen,
+                    bey dem Besitz, Eigenthumb und Genuß deßen, was in obigem zweyten Articul
+                    specificiret ist, contra quoscunque kräfftigst mainteniren und garantien zu
+                    helffen, und zu dem Ende jedesmahl, wann es die Nothdurfft erfordern und Wir
+                    oder Unsere<note n="94" type="crit_app">Loewe: und Se. Maj. der König in Preußen
+                        und dero Obmitbeschriebene.</note> Obmitbeschriebene es begehren werden,
+                        Uns<note n="95" type="crit_app">Loewe: Ihnen.</note> mit 6<note n="96"
+                        type="crit_app">Loewe: sechstausend.</note> m Mann, worunter der vierte
+                    Theil zu Pferde an Reutern oder Dragonern innerhalb 6 Wochen à die requisitionis
+                        ohnfehlbahr<note n="97" type="crit_app">Loewe: unfehlbar (auch
+                        unten).</note> zu assistiren.</p>
+                <p>Art. 7<lb/>Dahingegen wollen auch Wir für Uns Unsern<note n="98" type="crit_app"
+                        >Loewe: des Königes in Preußen Maj. für Sich, dero.</note> Erben und
+                    Nachkommen von dem Tage oberwehneter<note n="99" type="crit_app">Loewe:
+                        oberwähneter.</note>, an Ihro <rs ref="#0205">Königl[ichen]. May[estä]t von Groß
+                        Britannien</rs><note n="100" type="crit_app">Loewe: Uns.</note> geschehene
+                    Cessionen und Traditionen an schuldig und gehalten seyn, dieselbe, Ihre<note
+                        n="101" type="crit_app">Loewe: Uns, Unsere.</note> Erben und Nachkommen bey
+                    dem Besitz, Eigenthum und Genuß der Hertzogthümer Bremen und Vehrden, sowie
+                    dieselbe oben Artic. tertio beschrieben, contra quoscunque krefftigst<note
+                        n="102" type="crit_app">Loewe: kräftigst.</note> mainteniren und garantiren
+                    zu helffen<note n="103" type="crit_app">Loewe: helfen.</note>, und zu dem Ende
+                    jedesmahl, wann es die Norhdurfft<note n="104" type="crit_app">Loewe:
+                        Noht.</note> erfordert<note n="105" type="crit_app">Loewe:
+                            erfordern.</note>, und Ihro <rs ref="#0205">Königl[iche]. May[estä]t von
+                                Groß Britannien</rs>, oder
+                        dero<note n="106" type="crit_app">Loewe: und Wir oder Unsere.</note>
+                    Mitbeschriebene es begehren werden, deroselben oder Ihnen<note n="107"
+                        type="crit_app">Loewe: Uns oder Ihnen.</note> mit 8 m.<note n="108"
+                        type="crit_app">Loewe: achttausend.</note> Mann, worunter der vierte Theil
+                    zu Pferde an Reutern oder Dragoneren, innerhalb 6 Wochen à die requisitionis
+                    ohnfehlbahr zu assistiren.</p>
+                <p>Art. 8<lb/>Daferne<note n="109" type="crit_app">Loewe: Dafern.</note> auch Wir in
+                        Unserem<note n="110" type="crit_app">Loewe: des Königes in Preußen Maj. in
+                        Dero.</note> auf der West Seite der Oder und in Westpfahlen<note n="111"
+                        type="crit_app">Loewe: Westfalen.</note> belegenen oder in Unseren<note
+                        n="112" type="crit_app">Loewe: Dero.</note> gelderischen Landen, und Ihro
+                    <rs ref="#0205">Königl[iche]. May[estä]t von Groß Britannien</rs> in dero jetzigen<note n="113"
+                        type="crit_app">Loewe: und Wir in Unseren itzigen.</note> teutschen Erb
+                    Landen, oder auch im Lauenburgischen entweder oder von Seiten Schweden selbst,
+                    oder zum Faveur<note n="114" type="crit_app">Loewe: zu favor.</note> von
+                    Schweden wegen dieses jetzo der nordischen Sachen selber machenden Concerts, von
+                    jemand anders, es sey ein Stand des Reichs, oder eine auswärtige Puissance, in
+                    specie auch von der Crohn Franckreich<note n="115" type="crit_app">Loewe:
+                        Frankreich.</note> solten<note n="116" type="crit_app">Loewe:
+                        sollten.</note> angegriffen oder sonst vergewaltiget werden,<lb/>So soll in
+                    solchen Casibus die oben Artic[ul]is 6.mo et<note n="117" type="crit_app">Loewe:
+                        6. und 7.</note> 7.mo determinirte respective Volck Hülff Schickung<note
+                        n="118" type="crit_app">Loewe: Volkshülfsschickung.</note> ebenmäßig
+                        stat<note n="119" type="crit_app">Loewe: statt.</note> haben und
+                        ohnfehlbahr<note n="120" type="crit_app">Loewe: unfehlbar.</note>
+                    geschehen.</p>
+                <p>Art. 9<lb/>Weil aber umb der stätigen<note n="121" type="crit_app">Loewe:
+                        stetigen.</note> Gefahr willen von oben her, wovon im nachfolgenden Articulo
+                    12 Meldung geschiehet, ohne S[eine]r <rs ref="#0205">Königlichen May[estä]t von
+                        Gros Britannien</rs>
+                    und übrigen<note n="122" type="crit_app">Loewe: ohn Unserer und übriger.</note>
+                    Compaciscenten größeste Unsicherheit dero<note n="123" type="crit_app">Loewe:
+                        Unsere.</note> Lande von Trouppen nicht entblößet werden können, so wollen
+                    Wir falß Wir<note n="124" type="crit_app">Loewe: so wollen des Königes in
+                        Preußen Maj,. falls Dieselbe.</note> in der Gegend des Oder-Strohms<note
+                        n="125" type="crit_app">Loewe: Oder-Strohms.</note> im Clevischen,
+                    Geldrischen, oder sonst ferne von dann in Königl[ich]. Groß-Britannischen
+                    teutschen Landen sollten es attaquiriret<note n="126" type="crit_app">Loewe:
+                        oder sonst ferne von Unseren Landen.</note> werden, wann Wir<note n="127"
+                        type="crit_app">Loewe: Sie.</note> als dann dennoch auch Trouppen in
+                        Unseren<note n="128" type="crit_app">Loewe: dero.</note> Landen, welche mit
+                        den<note n="129" type="crit_app">Loewe: denen.</note>
+                        Chur-Braunschweigischen<note n="130" type="crit_app">Loewe:
+                        Unserigen.</note> Grentzen<note n="131" type="crit_app">Loewe:
+                        grenzen.</note>, nötig<note n="132" type="crit_app">Loewe: nöthig.</note>
+                    erachten werden, die Königl[ich]. Groß-Britannische, Uns<note n="133"
+                        type="crit_app">Loewe: Unsere, Ihro.</note> alßdann schickende
+                    Hülffs-Trouppen, so viel immer seyn kann, in Unsern mit den Chur
+                        Braunschweigischen<note n="134" type="crit_app">Loewe: in Dero mit
+                        Unseren.</note> Landen benachbahrten Provintzien laßen und gebrauchen, und
+                    solche Königl[ich]. Groß Britannische<note n="135" type="crit_app">Loewe:
+                        Unsere.</note> Trouppen so wenig als möglich und die Raison de Guerre es
+                    einiger maßen zulaßen will, von dero<note n="136" type="crit_app">Loewe:
+                        Unseren.</note> Landen entfernen.</p>
+                <p>Art. 10<lb/>Weil dieses Foedus auf mehr Bundes Genoßen zu extendiren seyn wird,
+                    und es sich alß dann<note n="137" type="crit_app">Loewe: alsdann.</note>
+                    zutragen könte<note n="138" type="crit_app">Loewe: könnte.</note>, daß deren
+                    mehr als einer die Bundeshülffe auf einmahl requirirte, dem requirirten
+                    Bundes-Genoßen aber solchen falls zu schwer fallen würde, ex eodem foedere et ex
+                    eadem causa die Bundes Hülffe mehr als einem zu praestiren, so ist beliebet und
+                    verabredet, daß besagten Falls, die Bundes Hülffe demjenigen attaquirten
+                    Bundes-Genoßen allein zugeschicket werden soll, der sie am ersten
+                    requiriret;<lb/> Solte<note n="139" type="crit_app">Loewe: sollte.</note> sich
+                    aber zutragen, daß die Requisition umb die Bundes-Hülffe von mehr alß einem
+                    Bundes-Genoßen zugleich und zu einer Zeit geschehe<note n="140" type="crit_app"
+                        >Loewe: geschähe.</note>, so werden solche zween oder mehr, dergestalt
+                    zugleich requirirende unter sich auszumachen haben, wehm<note n="141"
+                        type="crit_app">Loewe: wem.</note> unter ihnen mit gemeinsahmen<note n="142"
+                        type="crit_app">Loewe: gemeinsamen.</note> Belieben die gantze<note n="143"
+                        type="crit_app">Loewe: ganze.</note> oder ob- und was für ein Theil der
+                    Bundes-Hülffe einem jeden solcher Requirenten zuzuschicken.</p>
+                <p>Art. 11<lb/>Wegen der allerseitigen Kriegesoperationen, soll fordersamst ein
+                    gemeinsahmes Concert gemachet werden, und wann es dann vermöge deßelben zu einer
+                        würcklichen<note n="144" type="crit_app">Loewe: wirklichen.</note>
+                    Conjunction von Trouppen kombt<note n="145" type="crit_app">Loewe:
+                    kommt.</note>, so soll es wegen des Commando und der Justitz über die
+                    Hülffs-Trouppen, wegen deren Verpflegung, wegen Fournirung der nöthigen
+                    Artillerie und Munition, wegen Zuziehung des Generals oder Officiers, der die
+                    Hülffs-Trouppen en Chef commandiret, zu denen wegen der vorzunehmenden
+                    Operationen zu haltenden Krieges-Consiliis, und wegen aller übrigen
+                    Particularien, so bey einer Conjunction von alliirten Trouppen vorkommen können,
+                    so gehalten werden, wie es in dergleichen Fällen gewöhnlich und sonderlich, wie
+                    es in Unserer und<note n="146" type="crit_app">Loewe: mit.</note> des <rs ref="#0205">Königes
+                    von Groß-Britannien May[estä]t</rs><note n="147" type="crit_app">Loewe: Königes in
+                        Preußen Maj.</note> habenden Defensiv-Alliantz<note n="148" type="crit_app"
+                        >Loewe: Allianz.</note> de a[nno]. 1692 reguliret<note n="149"
+                        type="crit_app">Loewe: regliret.</note> ist.</p>
+                <p>Art. 12<lb/>Weil vor allen Dingen auf zweyerley zu reflectiren nöthig seyn wird,
+                    als 1. die schwedischen Trouppen in Pommern zu observiren, und mit der Zeit
+                    gäntzlich aufzureiben; Inzwischen aber sie dergestalt in der Enge zu halten, daß
+                    sie der Nachbahrschafft<note n="150" type="crit_app">Loewe:
+                        Nachbarschaft.</note> keine Ungelegenheit machen können, und 2.do zu
+                    verhindern, daß von Hessen her, wo die meiste Gefahr deshalber ist, keinen
+                    Verstärkung oder Succurs für die schwedische Trouppen in Pommern kommen, oder
+                    von hessischer oder anderer und gar frantzösischer<note n="151" type="crit_app"
+                        >Loewe: französischer.</note> Seite Schweden in Pommern per diversionem
+                    nicht Hülff<note n="152" type="crit_app">Loewe: Kuft.</note> gemachet werden
+                    möge;<lb/>So wollen des <rs ref="#0205">Königs von Groß-Britannien May[estä]t</rs>, was besagten
+                    zweyten Punct<note n="153" type="crit_app">Loewe: zweiten Punkt.</note>
+                        anbetrifft<note n="154" type="crit_app">Loewe: betrifft.</note>, mit Ihren
+                    Trouppen sich<note n="155" type="crit_app">Loewe: Unseren Truppen Uns.</note>
+                    dagegen setzen, und dieselbe so bald es nöhtig, zu dem Ende in Ihrem<note
+                        n="156" type="crit_app">Loewe: Unserem.</note> Fürstenthumb Calenberg<note
+                        n="157" type="crit_app">Loewe: Fürstenthum Kalenberg.</note> und im Stift
+                    Hildesheim zusammenziehen; Sie<note n="158" type="crit_app">Loewe: Wir.</note>
+                    wollen daneben auch mit des Bischoffen<note n="159" type="crit_app">Loewe:
+                        Bischofen.</note> zu Münster und Paderborn L[ie]bden., mit dero sie<note
+                        n="159a" type="crit_app">Loewe: Wir.</note> in einem Foedus<note n="160"
+                        type="crit_app">Loewe: foedere</note> defensivo stehen, sich<note n="161"
+                        type="crit_app">Loewe: Uns zu.</note> vereinbahren<note n="162"
+                        type="crit_app">Loewe: vereinbaren.</note>, daß sie Ihro<note n="163"
+                        type="crit_app">Loewe: die Uns.</note> darunter mit einiger Anzahl von Ihren
+                    Trouppen zur Seite tretten<note n="164" type="crit_app">Loewe: treten.</note>
+                        mögen;<lb/>Weilen<note n="165" type="crit_app">Loewe: weil.</note> aber es
+                    damit besorglich allein nicht ausgemachet seyn dürffte<note n="166"
+                        type="crit_app">Loewe: dörfte.</note>, indem<note n="167" type="crit_app"
+                        >Loewe: indeme.</note> man nicht wißen kann, wie stark die von Hessen und
+                    dem Rhein herkommende Trouppen etwa seyn, und was vor eine Route dieselbe in
+                    iren Anmarch<note n="168" type="crit_app">Loewe: Anmarsch.</note> halten, auch
+                    ob se nicht in unterschiedene, von einander weit entfernete Routen sich
+                    vertheilen möchten, da man allenthalben irentwegen wird vigiliren und mit
+                    Trouppen zur Gegenwehr versehen seyn müßen; So wollen Wir mit denen in
+                        Unsern<note n="169" type="crit_app">Loewe: des Königes in Preußen Maj. mit
+                        dero in Ihren.</note> westphälischen Landen habenden<note n="170"
+                        type="crit_app">Loewe: liegenden.</note> Trouppen zu Abhaltung obmehr
+                        erwehnter<note n="171" type="crit_app">Loewe: erwähnter (auch unten).</note>
+                    schwedischer Succurs-Völcker<note n="172" type="crit_app">Loewe:
+                        Succursvölker.</note>, bedürffenden<note n="173" type="crit_app">Loewe:
+                        bedürfenden.</note> Falls ebenmäßig concurriren, auch solche Unsern<note
+                        n="174" type="crit_app">Loewe: Ihre.</note> Trouppen dergestalt parat
+                    halten, daß sie, wann es die Nothdurfft erfordert, sofort anrücken und zu jetzt
+                    erwehntem Zweck mit gebrauchet werden können. <lb/>Was aber obangeführten ersten
+                    Punct, nämlich die Anstalten und Operationes gegen die schwedische Trouppen in
+                    Pommern betrifft, so übernehmen Wir<note n="175" type="crit_app">Loewe: des
+                        Königes in Preußen Maj.</note> mit verhoffender Concurrentz<note n="176"
+                        type="crit_app">Loewe: Concurrenz.</note> der Nordischen Alliirten, dafür zu
+                    sorgen, und können zwar Ihro <rs ref="#0205">Königl[iche]. May[estä]t von
+                        Groß-Britannien</rs><note
+                        n="177" type="crit_app">Loewe: Wir.</note> dazu dermahlen nichts
+                        würckliches<note n="178" type="crit_app">Loewe: wirkliches.</note>
+                    beytragen, weil die vom Rhein her Schweden zu Hülffe erwartende Trouppen zu
+                    observiren, folglich dadurch des Königes in Preußen May[estä]t den Rücken in
+                    Pommern frey zu halten, S[eine]r <rs ref="#0205">Königl[ichen]. May[estä]t in
+                        Groß-Britannien</rs>
+                    und dero<note n="179" type="crit_app">Loewe: Uns und Unseren.</note> Trouppen
+                    besorglich Occupation genug<note n="180" type="crit_app">Loewe: gnug.</note>
+                    geben, und nicht gestatten wird, einige von dero<note n="181" type="crit_app"
+                        >Loewe: Unseren.</note> Trouppen über die Elbe marchiren<note n="182"
+                        type="crit_app">Loewe: marschiren.</note> zu laßen.<lb/>Solte<note n="183"
+                        type="crit_app">Loewe: sollte. [Auslassung:] aber.</note> aber jedoch,
+                        wieder<note n="184" type="crit_app">Loewe: wider.</note> alle dermahlige
+                        Apparentz<note n="185" type="crit_app">Loewe: dermalige Apparenz.</note>, es
+                    dahin kommen, daß die vom Rhein und Hessen<note n="186" type="crit_app">Loewe:
+                        [Einschub:] her.</note>, jetzo bevorstehende Gefahr gäntzlich<note n="187"
+                        type="crit_app">Loewe: gänzlich.</note> und dergestalt cessirete, daß man
+                    dafür allerdings sicher seyn könte<note n="188" type="crit_app">Loewe:
+                        könnte.</note>, so werden S[eine]r <rs ref="#0205">Königl[icher]. M[ajestä]t von
+                        Groß-Britannien</rs><note n="189" type="crit_app">Loewe: Wir Uns.</note> sich
+                    nicht entlegen, mit Uns<note n="190" type="crit_app">Loewe: mit des Königes in
+                        Preußen Maj.</note> zu den<note n="191" type="crit_app">Loewe: denen.</note>
+                    Operationen gegen Schweden dießseits<note n="192" type="crit_app">Loewe:
+                        jenseits.</note> der Elbe, nachdem alßdann die Umbstände es mit sich bringen
+                    und erfordern werden, zu concurriren.</p>
+                <p>Art. 13<lb/>Solte schwedischer Seiten, oder von einem Tertio zu faveur<note
+                        n="193" type="crit_app">Loewe: favor.</note> der<note n="194"
+                        type="crit_app">Loewe: von.</note> Schweden ein Einfall in die
+                    chur-sächsiche Lande intendiret werden, oder geschehen, so<note n="195"
+                        type="crit_app">Loewe: [Auslassung:] so.</note> wollen Wir mit des <rs ref="#0205">Königes
+                    von Groß-Britannien May[estä]t</rs><note n="196" type="crit_app">Loewe: mit des
+                        Königes in Preußen Maj.</note> zu deßen Verhinderung oder Redressirung
+                    gemeinsahme schläunige<note n="197" type="crit_app">Loewe: gemeinsame
+                        schleunige.</note> Mesures nehmen, und mit zusammengesetzten Kräfften<note
+                        n="198" type="crit_app">Loewe: Kräften.</note> das nötige<note n="199"
+                        type="crit_app">Loewe: Nöthige.</note> dagegen durch würckliche
+                    Hülffleistung beyderseits vorkehren. </p>
+                <p>Art. 14<lb/>Weil an man so wohl die kayserliche Assistentz wird nöthig haben, auf
+                    den Fall, da entweder ein Tertius im Reich, oder auch Franckreich zu faveur von
+                    Schweden, in die dieses Foedus betreffende Sache, sich solte durch einigee
+                    Hülffleistung mischen wollen, alß man der kayserlichen Approbation zu der wegen
+                    der schwedischen Provintzen in Teutsch-Landt<note n="200" type="crit_app">Loewe:
+                        Teutschland.</note> intendirenden Veränderung bedürffen<note n="201"
+                        type="crit_app">Loewe: bedürfen.</note> wird, so will man von Unserer und
+                    Königl[ich]. Groß-Britannischer<note n="202" type="crit_app">Loewe:
+                        preußischer.</note> Seite, sofort nach der Signatur dieses Foederis
+                    conjunctim nebst der <rs ref="#0179">Könige von Dennemarck</rs><note n="203" type="annotation"
+                        >Friedrik IV. (1699-1730), König von Dänemark. Loewe: des Königes von
+                        Dänemark.</note> und <rs ref="#0181">Pohlen May[estä]t[en]</rs><note n="204" type="annotation"
+                        >August II. (1694/1697-1733), Kurfürst von Sachsen und König von Polen.
+                        Loewe: des Königes von Polen Majestäten.</note>. mit des Kaysers May[estä]t
+                    darüber communiciren und gedachter kayserlichen Approbation, auch eventualen
+                    Assistentz sich zu versichern suchen.</p>
+                <p>Art. 19 [sic!]<lb/>Man will wenigen nicht allerseits sofort nach Signirung dieses
+                    Foederis, des <rs ref="#0194">Tzaaren<note n="205" type="crit_app">Loewe: Zars.</note>
+                        May[estä]t</rs><note n="206" type="annotation">Peter I., genannt "der Große"
+                        (1682/96-1725), Zar von Rußland.</note> von deßen Inhalt Nachricht geben
+                    laßen, und dero Mitgenehmhaltung darüber, auch eventualen Mithülffleistung, sich
+                    zu versichern bemühet seyn.</p>
+                <p>Art. 16<lb/>Im Fall dem fürstlichen Hause Gottorp<note n="207" type="crit_app"
+                        >Loewe: Gottorf.</note> an stat<note n="208" type="crit_app">Loewe:
+                        anstatt.</note> seines bisherigen Antheils vom Hertzogthum Schleswig etwas
+                    zuwendet werden müßte, alß dann soll solches auf den jetzigen<note n="209"
+                        type="crit_app">Loewe: itzigen</note> Congress zu Braunschweig<note n="210"
+                        type="annotation">Der Friedenskongreß zu Braunschweig tagte (mit
+                        Unterbrechungen) 1712 bis 1714. Teilnehmer waren der Kaiser, Hannover,
+                        Wolfenbüttel, Preußen, Hessen-Kassel und Münster. Ein Ziel war es,
+                        reichsfremde Streitkräfte aus dem Reich zu vertreiben bzw. fernzuhalten. Ab
+                        März 1714 befaßte man sich mit der Friedensvermittlung im Norden. Ein
+                        Ergebnis wurde nicht erreicht. </note> verwiesen werden. Zu Uhrkund<note
+                        n="211" type="crit_app">Loewe: Urkund dessen.</note> haben Wir dieses
+                    eigenhändig unterschrieben, und mit Unserm Insiegel bedrücken laßen; So
+                    geschehen und gegeben in Unsern Feld-Lager bey Stettin den 30.t. May 1715<note
+                        n="212" type="annotation">Loewe: Geben auf Unserem Palais zu St. James, den
+                        16./27. Aprilis des 1715. Jahres, Unseren Reiches im ersten. Georg R[ex].,
+                        Hattorf. Johann Philipp von Hattorff (gest. 1737), Premierminister."
+                    </note>.</p>
+                <p><rs ref="#0204">Friedrich Wilhelm I</rs> <lb/>
+                    <lb/><rs ref="#0206">Ilgen</rs><note n="213" type="annotation">Heinrich Rüdiger von Ilgen
+                        (1654-1720), preußischer Geheimer Rat, ab 1711 Kabinettsminister des
+                        auswärtigen Departements.</note><lb/></p>
+            </div>
+
+        </body>
+        <back>
+            <listBibl>
+                <bibl>Mediger, Mecklenburg, Rußland und England-Hannover.</bibl>
+            </listBibl>
+        </back>
+    </text>
+</tei:TEI>

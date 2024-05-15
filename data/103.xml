@@ -1,0 +1,1264 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE tei SYSTEM "../resources/FriVer_DTD.dtd">
+
+<?xml-model href="../resources/FriVer.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns="http://www.tei-c.org/ns/1.0"
+    xml:id="pa000299-0103">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title level="s">European peace treaties of the pre-modern era in data / Europäische
+                    Friedensverträge der Vormoderne in Daten (FriVer+)</title>
+                <title when="1491-11-07" xml:id="t103" when-custom="1491 XI 7" level="a"
+                    ref="https://www.ieg-friedensvertraege.de/treaty/t-103-1-de.html"
+                    >Friedensvertrag von Preßburg</title>
+            </titleStmt>
+            <editionStmt>
+                <edition> Digital edition according to <ref target="http://www.tei-c.org/">TEI
+                        P5</ref>
+                </edition>
+                <funder>
+                    <ref target="https://www.text-plus.org/">TEXT+</ref>
+                </funder>
+                <editor role="http://id.loc.gov/vocabulary/relators/edt"
+                    ref="https://orcid.org/0000-0002-8741-5916">
+                    <persName>Jaap Geraerts</persName>
+                    <note>The transformation and enrichment of the data is done by Jaap Geraerts
+                        (IEG Mainz). The other members of the FriVer+ team are Fabian Cremer, Ines
+                        Grund, and Thorsten Wübbena (all IEG Mainz).</note>
+                    <note> The original data has been created by the <ref
+                            target="https://www.ieg-friedensvertraege.de">team of scholars</ref> who
+                        were part of the Europäische Friedensverträge der Vormoderne project. This
+                        project was lead by Prof. Dr. Heinz Duchhardt and was based at the Leibniz
+                        Institute of European History in Mainz. </note>
+                </editor>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>
+                    <orgName ref="http://www.isni.org/0000000119314040">Leibniz-Institut für
+                        Europäische Geschichte Mainz</orgName>
+                </publisher>
+                <distributor>
+                    <orgName ref="http://www.isni.org/0000000110101946">Universitäts- und
+                        Landesbibliothek Darmstadt</orgName>
+                </distributor>
+                <idno type="ISIL">http://lobid.org/organisation/DE-17</idno>
+                <date type="issued" when="2023-12-23"/>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">
+                        <p xml:lang="en">This file is licensed under the terms of the Creative
+                            Commons License CC-BY 4.0 (Attribution 4.0 International)</p>
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <repository xml:id="r34">Wien HHStA </repository>
+                <msDesc>
+                    <p>HHStAWien AUR 1491 XI 7 (böhmisch-ungarisches Unterhändlerexemplar).
+                        Ratifikationen: HHStA Wien AUR 1491 XI 29 (ungarische Landherren, Buda 1491
+                        XI 29), HHStA Wien AUR 1491 XII 6 (König Wladislaw von Böhmen und Ungarn,
+                        Buda 1491 XII 6).</p>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p> The data in this XML file, originally created by the project <ref
+                        target="https://www.ieg-friedensvertraege.de/vertraege">Europäische
+                        Friedensverträge der Vormoderne online</ref> has been transformed in
+                    accordance with <ref target="http://www.tei-c.org/">TEI P5</ref> as part of the
+                    project <ref
+                        target="https://www.ieg-mainz.de/en/research/research-projects/european-peace-treaties-of-the-pre-modern-era-in-data"
+                        >Europäische Friedensverträge der Vormoderne in Daten (FriVer+)</ref>
+                </p>
+            </projectDesc>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="la" xml:id="lan6">Latein</language>
+            </langUsage>
+        </profileDesc>
+    </teiHeader>
+    <standOff>
+        <listPerson>
+            <person role="signatory" xml:id="p26">
+                <persName ref="https://explore.gnd.network/gnd/4075613-0">
+                    <name>Böhmen - Ungarn</name>
+                </persName>
+            </person>
+            <person role="signatory" xml:id="pp0002">
+                <persName ref="https://explore.gnd.network/gnd/118535773">
+                    <name>Frederick III, Holy Roman Emperor</name>
+                </persName>
+            </person>
+            <person xml:id="pp0032">
+                <persName ref="https://www.wikidata.org/wiki/Q632226">
+                    <name>Tobias von Boskowitz und Černahora</name>
+                </persName>
+            </person>
+            <person xml:id="pp0033">
+                <persName ref="https://explore.gnd.network/gnd/1165170825">
+                    <name>Matthäus (III.) von Spaur</name>
+                </persName>
+            </person>
+            <person xml:id="pp0034">
+                <persName ref="https://explore.gnd.network/gnd/100957420">
+                    <name>Bernhard Perger</name>
+                </persName>
+            </person>
+            <person xml:id="pp0035">
+                <persName ref="https://explore.gnd.network/gnd/136011357">
+                    <name>Johannes Fuchsmagen</name>
+                </persName>
+            </person>
+            <person xml:id="pp0036">
+                <persName ref="https://explore.gnd.network/gnd/119270277">
+                    <name>Eitel Friedrich II., Graf von Zollern</name>
+                </persName>
+            </person>
+            <person xml:id="pp0006">
+                <persName ref="https://explore.gnd.network/gnd/118579371">
+                    <name>Maximilian I, Holy Roman Emperor</name>
+                </persName>
+            </person>
+            <person xml:id="pp0037">
+                <persName ref="https://explore.gnd.network/gnd/139286098">
+                    <name>Bernhard Polheim</name>
+                </persName>
+            </person>
+            <person xml:id="pp0038">
+                <persName ref="https://explore.gnd.network/gnd/139902759">
+                    <name>Heinrich Prüschenk, Freiherr zu Stattenberg</name>
+                </persName>
+            </person>
+            <person xml:id="pp0039">
+                <persName>
+                    <name>Johannes Kiss-Horväth de Halapsich</name>
+                </persName>
+            </person>
+            <person xml:id="pp0040">
+                <persName ref="https://www.wikidata.org/wiki/Q89732236">
+                    <name>Georg von Rottal</name>
+                </persName>
+            </person>
+            <person xml:id="pp0041">
+                <persName ref="https://explore.gnd.network/gnd/118579029">
+                    <name>Matthias Corvinus</name>
+                </persName>
+            </person>
+            <person xml:id="pp0042">
+                <persName ref="https://explore.gnd.network/gnd/118634453">
+                    <name>Vladislaus II of Hungary</name>
+                </persName>
+            </person>
+            <person xml:id="pp0043">
+                <persName ref="https://explore.gnd.network/gnd/120578395">
+                    <name>Tamás Bakócz</name>
+                </persName>
+            </person>
+            <person xml:id="pp0044">
+                <persName ref="https://www.wikidata.org/wiki/Q687184">
+                    <name>Stephen V Báthory</name>
+                </persName>
+            </person>
+            <person xml:id="pp0045">
+                <persName>
+                    <name>Johann von Schellenberg</name>
+                </persName>
+            </person>
+            <person xml:id="pp0046">
+                <persName>
+                    <name>Ladislaus Ország de Gút</name>
+                </persName>
+            </person>
+            <person>
+                <persName xml:id="pp0047">
+                    <name>Beneš Krabitz von Weitmühl</name>
+                </persName>
+            </person>
+            <person>
+                <persName xml:id="pp0048">
+                    <name>Wilhelm Baumkircher</name>
+                </persName>
+            </person>
+            <person xml:id="pp0049">
+                <persName>
+                    <name>Johannes von Ruppow</name>
+                </persName>
+            </person>
+            <person ref="pp0050">
+                <persName>
+                    <name>Sigmund Schneidpeck</name>
+                </persName>
+            </person>
+            <person xml:id="pp0051">
+                <persName>
+                    <name>Johann Sokolosky</name>
+                </persName>
+            </person>
+            <person xml:id="pp0052">
+                <persName>
+                    <name>Jakob Szekely</name>
+                </persName>
+            </person>
+            <person xml:id="pp0053">
+                <persName ref="https://explore.gnd.network/gnd/137071124">
+                    <name>Johann Corvinus</name>
+                </persName>
+            </person>
+            <person ref="pp0054">
+                <persName ref="https://explore.gnd.network/gnd/12343792X">
+                    <name>Otto II. von Pfalz-Mosbach</name>
+                </persName>
+            </person>
+            <person xml:id="pp0055">
+                <persName>
+                    <name>Johannes Bornemisza</name>
+                </persName>
+            </person>
+            <person xml:id="pp0056">
+                <persName ref="https://explore.gnd.network/gnd/1032144408">
+                    <name>Johann Vitez</name>
+                </persName>
+            </person>
+            <person xml:id="pp0057">
+                <persName ref="http://d-nb.info/gnd/141725087">
+                    <name>Niklas von Liechtenstein auf Murau</name>
+                </persName>
+            </person>
+            <person xml:id="pp0058">
+                <persName ref="https://d-nb.info/gnd/136063624">
+                    <name>Ulrich Grafenecker</name>
+                </persName>
+            </person>
+            <person xml:id="pp0084">
+                <persName ref="https://www.wikidata.org/wiki/Q368260">
+                    <name>Emeric Zápolya</name>
+                </persName>
+            </person>
+            <person xml:id="pp0085">
+                <persName>
+                    <name>Nikolas Szekely</name>
+                </persName>
+            </person>
+            <person xml:id="pp0087">
+                <persName>
+                    <name>Stefanus Kishorvath</name>
+                </persName>
+            </person>
+            <person xml:id="pp0088">
+                <persName>
+                    <name>Georgius Kishorvath</name>
+                </persName>
+            </person>
+            <person xml:id="pp0089">
+                <persName>
+                    <name>Laurentius Baniffus</name>
+                </persName>
+            </person>
+            <person xml:id="pp0090">
+                <persName>
+                    <name>Johann Berizlo</name>
+                </persName>
+            </person>
+            <person xml:id="pp0091">
+                <persName>
+                    <name>Franciscus Berizlo</name>
+                </persName>
+            </person>
+            <person xml:id="pp0092">
+                <persName>
+                    <name>Johann Berizlo</name>
+                </persName>
+            </person>
+            <person xml:id="pp0321">
+                <persName>
+                    <name>Niklas Frangepan</name>
+                </persName>
+            </person>
+            <person xml:id="pp0093">
+                <persName>
+                    <name>Martin Berizlo</name>
+                </persName>
+            </person>
+        </listPerson>
+        <listPlace>
+            <place xml:id="loc52">
+                <placeName ref="https://explore.gnd.network/gnd/4076329-8">Preßburg</placeName>
+            </place>
+        </listPlace>
+    </standOff>
+    <text>
+        <front>
+            <div type="Drucke">
+                <p>Dumont III/2, S. 263.</p>
+            </div>
+            <div type="Inhalt">
+                <p>Präambel <lb/>Anerkennung des habsburgischen Erbrechts in Ungarn. </p>
+                <p>Wladislaw bleibt König von Ungarn. <lb/>Kaiser und König Maximilian dürfen sich
+                    Könige von Ungarn nennen. <lb/>Bestimmungen über erbländische Städte und
+                    Festungen in Österreich, Steiermark, Kärnten und Krain. <lb/>Bestimmungen über
+                    Besitzungen in Ungarn, u.a. Eisenstadt, Forchtenstein, Kobelsdorf, Hornstein.
+                    <lb/>Schutz- und Trutzbündnis zwischen den Königen. <lb/>Parteigänger
+                    Maximilians dürfen künftig sowohl Wladislaw als auch Maximilian dienstbar sein.
+                    <lb/>Reichsbeamte werden auf beide Könige vereidigt. <lb/>Erbrechtliche
+                    Bestimmungen. <lb/>Habsburger folgen Wladislaw, sofern dieser ohne männliche
+                    Nachkommen verstirbt. <lb/>Verpflichtungen des ungarischen Reichstags.
+                    <lb/>Bestimmungen über Verpflichtungen der Reichsbeamten, der Palatin, der
+                    Prälaten und Hauptleute der Grenzfestungen. <lb/>Bestimmungen über Erbfolge in
+                    Böhmen. <lb/>Bestimmungen über Kriegsentschädigungen. <lb/>Verzichtserklärung
+                    Wladislaws. </p>
+            </div>
+            <div type="Kommentar">
+                <p>Die Frage der habsburgischen Thronfolge in Ungarn stand zur Disposition, als
+                    König Matthias Corvinus von Ungarn am 6. April 1490 verstarb, ohne einen
+                    legitimen Erben zu hinterlassen. Schon 1456 hatte sich diese Frage nach dem
+                    Aussterben der Cillier gestellt. Kaiser Friedrich III. hatte sich gegen Matthias
+                    Corvinus zwar nicht durchsetzen können, durfte aber nach dem Ödenburger Frieden
+                    von 1463 weiter den Titel eines Königs von Ungarn führen. Er erhielt den
+                    Anspruch auf den ungarischen Thron, falls Matthias Corvinus ohne Erben
+                    versterben würde. Tatsächlich kandidierten 1490 allerdings neben dem römischen
+                    König und späteren Kaiser Maximilian I., dem Sohn des noch lebenden Friedrich
+                    III., weitere Bewerber um die Stephanskrone, darunter Johann Corvinus, der
+                    uneheliche Sohn von König Matthias, und König Wladislaw von Böhmen, der
+                    schließlich im Juli 1490 von den ungarischen Ständen gewählt wurde. Politisch
+                    und militärisch war die Situation damit allerdings nicht entschieden, denn
+                    Maximilian bestand trotz des Wahlrechts der ungarischen Stände auf seinem
+                    Erbrecht. Um seine Position zu festigen, heiratete Wladislaw die Königin-Witwe
+                    Beatrix. Maximilian gelangen zunächst militärische Erfolge: Kroatien stellte
+                    sich auf seine Seite, die Ungarn mußten die Besatzungen in Kärnten, Steiermark
+                    und Österreich aufgeben, und am 17. November 1490 nahm der römische König die
+                    ungarische Krönungsstadt Stuhlweißenburg ein, worauf eine berüchtigte Plünderung
+                    durch seine Söldner folgte. Dennoch konnte Maximilian sich in Ungarn nicht
+                    durchsetzen: politisch nicht, weil er mit seinem Beharren auf einem Erbrecht die
+                    Stände verprellte, militärisch nicht, weil er 1490 an zu vielen Schauplätzen
+                    zugleich engagiert war. In dem Vertrag von 1491 wurde ähnlich wie 1463
+                    verfahren: Der Erbfolgekrieg wurde beendet, Wladislaw als Herrscher anerkannt,
+                    Maximilian aber führte weiterhin den Titel eines Königs von Ungarn und das
+                    habsburgische Erbfolgerecht wurde anerkannt für den Fall, daß Wladislaw ohne
+                    Erben starb. Wladislaw verpflichtete sich, dies möglichst auch für Böhmen
+                    durchzusetzen. Die von Matthias Corvinus besetzten Orte wurden weitgehend
+                    restituiert. Die Erbfolgeregelung wurde 1515 weiter abgesichert durch Heirats-
+                    und Erbverträge, in denen die Verbindungen zwischen Wladislaws Sohn Ludwig (II.)
+                    und Maximilians Enkelin Maria sowie Wladislaws Tochter Anna und dem späteren
+                    Kaiser Ferdinand I. beschlossen wurden. Nach Wladislaws Tod 1516 folgte ihm
+                    zunächst Ludwig II. als König nach, als dieser 1526 in der Schlacht von Mohács
+                    fiel, trat dann aber Ferdinand die Herrschaft in Böhmen und Ungarn an, welche
+                    die Habsburger dort fast vierhundert Jahre innehaben sollten.</p>
+            </div>
+            <div type="Kontext">
+                <p>1446: Sieg der Ungarn über die Türken bei Belgrad.<lb/>1456: Matthias I. Corvinus
+                    (1440/3-1490) beerbt seinen Vater, den Reichsverweser János Hunyádis.<lb/> 1471:
+                    Vladislav II. (1456-1516) wird zum böhmischen König erhoben.<lb/>1478: Vertrag
+                    von Brünn: Einigung zwischen Vladislav II. und Matthias I. Corvinus.<lb/> 1485:
+                    Konflikte mit Kaiser Friedrich III. Eroberung Wiens durch die Ungarn. Wien wird
+                    Residenz von Matthias I. Corvinus (bis 1490).<lb/> 1490: Matthias Corvinus
+                    stirbt. Krieg um die ungarische Krone zwischen Vladislav II. und seinem Bruder
+                    Johann Albrecht (1459-1501).<lb/> Vladislav II. wird vom ungarischen Reichstag
+                    gewählt und gekrönt.<lb/>1491: Friede von Kaschau: Johann Albrecht verzichtet
+                    auf die ungarische Krone und wird polnischer König.<lb/></p>
+            </div>
+
+        </front>
+        <body>
+            <div type="Edition">
+                <p>Nos <rs ref="#pp0032">Thobias de Boskowitz de Tscherrahora</rs><note
+                        type="annotation" n="1">Dobesch von Boskovic, Herr von Cernahora, möhrischer
+                        Adeliger, der zunächst im Dienst des Matthias Corvinus stand. 1485, nach der
+                        Hinrichtung seines Bruders Jaroslaw, wechselte er auf die Seite Kaiser
+                        Friedrichs III. und wurde kaiserlicher Rat und niederÖsterreichischer
+                        Hauptmann.</note>, Sacre<note>Die hier und im folgenden häufige Verwendung
+                        von e für ae (lies hier: Sacrae) wurde entsprechend dem Textbefund
+                        beibehalten und wird nicht mehr kommentiert. Abkürzungen aber wurden nach
+                        der allgemein üblichen Schreibweise aufgelöst.</note> Imperialis <rs
+                        ref="#pp0002"><note type="annotation" n="2">Kaiser Friedrich III.
+                            (1415-1493), Reichsoberhaupt seit 1440, Kaiser
+                        1452.</note>Maiestatis</rs> Capitaneus Generalis, <rs ref="pp0033">Matheus
+                        de Spawr<note>Matthäus III. Spaur (vor 1465-1496), Erbmundschenk von
+                            Tirol.</note>
+                    </rs>, Sue Maiestatis Camerari[u]s ac Pincerna Hereditarius comitatus
+                    Tirolensis, <rs ref="#pp0034">Pernhardus Perger<note type="annotation" n="3"
+                            >Lic.decr. Bernhard Perger (Berger) (gest. 1501), kaiserlicher
+                            Kanzler.</note></rs>, Iuris Pontificii Licentiatus ac Cancellarie
+                    Australis Imperialis Prothonotarius, et <rs ref="#pp0035">Johannes
+                            Fuchsmagen<note type="annotation" n="4">Dr. Johannes Fuchsmagen (gest.
+                            1510), kaiserlicher Rat, der besonders in erbländischem Dienst
+                            Verwendung fand und Funktionen in der Koordination verschiedener
+                            habsburgischer Herrschaften wahrnahm.</note></rs>, doctor, Imperialis
+                    consiliarius pro serenissimo et invictissimo principe et domino, domino
+                    Friderico Romanorum Imperatore, semper Augusto, Hungarie, Dalmatie, Croatie etc.
+                    rege, Austrie, Stirie, Carinthie ac Carniole etc. duce et domino nostro
+                    gratiosissimo, nuntii et oratores specialiter deputati nosque <rs ref="#pp0036"
+                        >Ytelfridericus Comes de Zolarn<note type="annotation" n="5">Eitel Friedrich
+                            II., Graf von Zollern (um 1452-1512), Hauptmann von Hohenberg, stand in
+                            einem engen Verhältnis zu König Maximilian und übte in dessen Regierung
+                            und auf Reichstagen zahlreiche Funktionen aus. Unter anderem hatte er
+                            später leitende Funktionen im Reichskammergericht und im
+                            Reichshofrat.</note></rs>, <rs ref="#pp0006">Regis Romanorum
+                            Maiestatis<note type="crit_app" n="6">Maximilian (I.) (1459-1519),
+                            römischer Kg. seit 1486, Reichsoberhaupt seit 1493, Ks. ab
+                        1508.</note></rs> capitaneus in Hohenberg, <rs ref="#pp0037">Bernnhardus
+                        dominus de Polheim<note type="annotation" n="7">Dr.decr. Bernhard Polheim
+                            (gest. 1504), kaiserlicher Rat und Inhaber zahlreicher geistlicher
+                            Pfründe, 1500 Administrator von Wien.</note></rs>, decretorum doctor,
+                    Regius consiliarius, <rs ref="#pp0038">Heinricus Prüschink<note
+                            type="annotation" n="8">Heinrich Prüschenk, Freiherr zu Stattenberg,
+                            kaiserlicher Feldherr und Kämmerer König Maximilians.</note></rs>, liber
+                    dominus in Stetennberg, Regis camerarius, <rs ref="#pp0039">Johannes
+                            Kiskorvat<note n="8" type="annotation">Johannes (Jänos) Kiss-Horväth de
+                            Halapsich (Alapy).</note></rs> et <rs ref="#pp0040">Georgius
+                            Rottaler<note n="9" type="annotation">Georg von Rottal (um 1460-1526),
+                            aus der Steiermark gebürtiger Rat König Maximilians, der sich erste
+                            Verdienste in der niederländischen Regierung erworben hatte (Wiesflecker
+                            5, S. 272-275).</note></rs>, Regii consiliarii pro serenissimo ac
+                    gloriosissimo principe et domino, domino Maximiliano Romanorum Rege, semper
+                    Augusto, Hungarie, Dalmatie, Croatie similiter rege, archiduce Austrie, duce
+                    Burgundie, Britannie<note type="annotation" n="10">Maximilian hatte 1490 in
+                        Abwesenheit eine Ehe mit Herzogin Anne von der Bretagne geschlossen.
+                        Zwischenzeitlich aber war das Herzogtum von König Karl VIII. von Frankreich
+                        belagert worden. Als die erhoffte Unterstützung durch Maximilian eben wegen
+                        des in Preßburg verhandelten ungarischen Erbfolgekrieges ausblieb, schloß
+                        Herzogin Anne am 27. Oktober 1491 mit Karl VIII. einen Waffenstillstand.
+                        Einen Monat nach dem Preßburger Vertrag, am 6. Dezember 1491, heiratete Anne
+                        den französischen König (Wiesflecker 1, S. 325-333).</note>, Brabantie,
+                    Stirie, Carinthie, Carniole, Lucemburgie, Gel[d]rie etc., comite Flandrie et
+                    Tirolis etc., domino nostro gratiosissimo, similiter oratores et nuntii
+                    specialiter deputati. Recognoscimus et notu facimus tenore praesentium
+                    universis. Quod ad tollendas et prorsus extinguendas hostilitates, guerras,
+                    differentias et dissensiones inter prefatos Romanorum Imperatorem et Regem,
+                    eorum terras, principatus et dominia, subditos et incolas ex una et serenissimum
+                    quondam dominum <rs ref="#pp0041">Mathiam Hungarie regem et consequenter
+                        serenissimum principem et dominum <note type="annotation" n="11">Matthias I.
+                            (Hunyadi) Corvinus (1443-1490), 1458 König von Ungarn.</note></rs>,
+                    dominum <rs ref="Wladislaw"><note type="annotation" n="12">Wladislaw II.
+                            (1456-1516), Sohn König Kasimirs IV. von Polen, 1471 König von Böhmen,
+                            1490 König von Ungarn.</note></rs> Hungarie et Bohemie regem et inclitum
+                    regnum Hungarie, regna, principatus et dominia illi pertinentia, eorundemque
+                    subditos et incolas partibus ex altera, dudum tempore quondam domini regis
+                    Mathie exortas et occasione iuris, quod idem dominus Maximilianus rex ad regnum
+                    Hungarie vigore cuiusdam inscriptionis habere dinoscitur post eius mortem usque
+                    in hec tempora nostra continuatas suffulti plenaria et omnimoda auctoritate,
+                    facultate et potestate prefatorii Romanorum Imperatoris et Regis prout in
+                    litteris mandatorum nostrorum nobis de super datore clare contineri dinoscitur
+                    cum reverendissimo in Christo prelato et domino, <rs ref="#pp0043">domino Thoma
+                        episcopo Jaurien<note n="13" type="annotation">Thomas Bakócz von Erdod (um
+                            1442-1521), 1489-1494 Bischof von Raab (ungar. Gyar, lat. Jaurinum,
+                            Gereorenum u.ä.), 1500 Kardinal, hatte die Wahl Wladislaws zum König von
+                            Ungarn</note></rs> ac in Hungaria regio canncellario, tum et magnificis
+                    et nobilibus viris domino <rs ref="#pp0044">Steffano de Bathor<note
+                            type="annotation" n="14">Stefan (István) II. Báthory (gest. 1493),
+                            Woiwode von Siebenbürgen und königlicher Hofrichter.</note></rs>, Iudice
+                    Curie Regie et Waÿvoda Transsilvano. Domino <rs ref="#pp0045">Johanne de
+                            Schellenberg<note n="15" type="annotation">Johann (Jan) von
+                            Schellenberg, Kanzler des Königreichs Böhmen.</note></rs>, regni Bohemie
+                    cancellario, domino Ladislao Orzag de Guth<rs ref="#pp0046"><note n="16"
+                            type="annotation">Ladislaus Ország de Guth (geb. 1476) war ein Sohn des
+                            unter Matthias Corvinus einflußreichen ungarischen Staatsmannes Michael
+                            Ország de Guth (gest. 1484).</note></rs>, Agazonum [!].<note
+                        type="crit_app" n="17">Agazonum. Mittellatein agason: Marschall.</note>,
+                    altero Ladilsao de Rozgon<note type="annotation" n="18">Ladislaus de Rozgon.
+                        Konnte nicht ermittelt werden.</note>, Cubiculariorum Regiorum magistris.
+                    Domino <rs ref="#pp0047">Benessio Weitmulner<note type="annotation" n="19"
+                            >Benesch von Weitmühl (Woitmole), Burggraf von Karlstein und Oberster
+                            Münzmeister des Königreichs Böhmen, ein Gegner des Matthias Corvinus. Er
+                            unterstützte gegen diesen die Politik Kaiser Friedrichs III. sowie die
+                            Wahl Wladislaws zum König von Böhmen.</note></rs>, burggravio in
+                    Karlstein et magistro monetarum in Montibus Kuthnis<note type="crit_app" n="20"
+                        >Kuttenberg (tschech. Kutná Hora, lat. Mons Cuthna), böhmische Landtags- und
+                        königliche Residenzstadt und Sitz der Münze</note>. Domino <rs ref="#pp0049"
+                        >Johanne de Ruppow<note type="annotation" n="21">Johannes von Ruppow. Konnte
+                            nicht ermittelt werden.</note></rs>, magistro Curie Regni Bohemie, et
+                    domino Guilhelmo Pemkircher<rs ref="#pp0048"><note type="annotation" n="22"
+                            >Wilhelm Baumkircher, Freiherr von Schlaining (ungar. Szalónak, daneben
+                            Zalonok, Zalonak und viele andere ähnliche Schreibweisen; heute
+                            unterschieden in die Gemeinden Burg Schlaining, Alt-Schlaining und
+                            Schlaining im Burgenland), ein Gegner Friedrichs III., welcher 1471
+                            seinen zu der Zeit im kaiserlichen Dienst stehenden Vater Andreas hatte
+                            hinrichten lassen.</note></rs>, libero domino in Zalonokh pro
+                    serenissimo principe et domino, domino <rs ref="#pp0042">Wladislao Hungarie et
+                        Bohemie rege</rs> etc. et prefato regno nuntiis et oratoribus deputatis in
+                    unum convenientes et inter prefatos principes et eorum subditos pacis materiam
+                    diu longeque tractantes tandem post diuturnos et inexsthaustos labores, divina
+                    aspirante clementia de communi et unanimi consensu et concordia cum praefatis
+                    oratoribus pro quiete et tranquillitate dictorum principatuum et dominiorum tum
+                    et universe Christiane Religionis consolatione huiusmodi bella, guerras,
+                    dissensiones et differentias praesentium tenore sopivimus ac prorsus extinximus
+                    sub modo et forma articulorum et capitulorum infrascriptorum ad quos devenimus
+                    eosdemque in virtute praefatorum mandatorum nostrorum conclusimus in hunc qui
+                    sequitur modum. <lb/>
+                    <lb/>1<note type="crit_app" n="23">Numerierung hier und im folgenden am Rand
+                        hinzugefügt.</note> Primo convenimus quod serenissimus dominus <rs
+                        ref="#pp0042">Vladislaus rex</rs> deinceps pro vero et indubitato Hungariae
+                    rege maneat regnumque ipsum etiam in heredes suos masculos legittimos<note
+                        type="annotation" n="24">König Wladislaw hinterließ bei seinem Tod als Erben
+                        seinen einzigen Sohn Ludwig (II.) (1503-1526), der aber bereits 1526 in der
+                        Schlacht von Mohács fiel, womit die männliche Linie Wladislaws
+                        erlosch.</note> ex lumbis suis procreatos sub conditionibus infrascriptis
+                    transmittatur et devolvatur. Quod inter prefatos Romanorum Imperatorem et
+                    utrosque Reges, eorum Regna, Principatus, terras, dominia, Subditos, Incolas et
+                    habitatores eorundem hinc in antea firma atque perpetua sit et maneat pax, unio
+                    et concordia ac quicquid hactenus ab initio Belli huius a tempore prefati
+                    quondam Regis Mathie usque in hanc horam preda, captivitate, homicidio,
+                    exustione aut quacumque alia vi bellica inter hec dominia subditos, habitatores,
+                    stipend[i]arios et ministros commissum est. Id universaliter abolitum sit et
+                    perpetuo extinctum. Et Principes ipsi amicitia benevolentia et favore se mutuo
+                    complectantur, precipue vero Cesarea et Regia Romanorum Maiestates ipsum dominum
+                    Regem <rs ref="#pp0042">Wladislaum</rs> uti suarum Maiestatum consanguineum
+                    Regnique sui Hungarie statum apud Sanctissimum dominum nostrum Summum Pontificem
+                    Sedem Apostolicam. Principes Sacri Romani Imperii et alias ubi opus fuerit
+                    presertim in facto defensionis prefati Regni ab incursione et vastatione
+                    nepharie gentis Turcorum sincere promoveant et faveant eisdem. Vicissim quod
+                    ipse dominus Wladislaus Rex et Regnum praenominatis Romanorum Imperatori et Regi
+                    omni studio, consilio et favore adesse debeant, statum et dignitatem eorum pro
+                    posse suo adiuvando et ampliando. <lb/>
+                    <lb/>2 Item conclusum est quod omnia ablata in hoc bello preter bona mobilia que
+                    ut sit illico distrahuntur ad quorumque restitutionem nemo praesente<note
+                        type="annotation" n="25">praesente. Dumont: praesentis.</note> tenore
+                    cogatur principibus et ipsorum subditis, moderationibus et conditionibus
+                    sequentibus restituantur. Inprimis dominus <rs ref="#pp0042">Vladislaus Rex</rs>
+                    Universa castra, Civitates, Munitiones et alia loca cum suis pertinentiis in
+                    Austria, Stiria, Carinthia, Carniola et aliis dominiis hereditariis Cesaree
+                    Maiestatis que in sue Serenitatis et suorum subditorum manibus sunt et per
+                    quondam dominum Mathiam Regem vi armorum et in bello quod contra Imperialem et
+                    Regiam Romanorum Maiestates gessit, obtenta fuerunt aut alias quoquo modo in
+                    manus suas evenerunt cum omni iure si quod in illis habere potuit Romanorum
+                        Imperatori<note type="crit_app" n="26">Imperatori. Dumont:
+                        Imperatorum.</note> infra tempus modos et conditiones hic proxime descriptas
+                    praesente tenore reddere teneatur. Similiter et eidem Cesaree Maiestati omnia
+                    iura que idem dominus Mathias Rex in Castris que sua Maiestas Cesarea usque
+                    hodie in terris suis hereditariis recuperavit forma et modo melioribus ut fieri
+                    potuit cessisse intelligatur. <lb/>
+                    <lb/>3 Item conventum est quod ipse dominus <rs ref="#pp0042">Vladislaus
+                        Rex</rs> loca subscripta infra hinc et festum Sancte Lucie proxime venturum
+                    Romanorum Imperatori aut eius officialibus quos ad hoc Maiestas sua deputabit
+                    reddere teneatur, et providere quod in reddendo huiusmodi loca ipse Rex
+                    hominibus suis praecipiat et disponat ut pacifice sine spoliis oppidanorum aut
+                    asportatione bombardorum et aliarum machinarum bellicarum que in praesentiarium
+                    in ipsis locis sunt constitute et ad ea praecise pertinent, recedant, huiusmodi
+                    Machinis illic relictis. Et sunt hec loca que infra hinc et festum Sancte Lucie
+                    cedere debet Stuchsenstein, Starhenberg, Gutenstain, Lichtenwerd, Potendorff,
+                    Kornnewnburg, Smida, Laa, Egenburg, Cisterstorff, Schonnberg, Hahenpruk<note
+                        type="annotation" n="27">Stixenstein, Starhemberg, Gutenstein, Lichtenwerd,
+                        Pottendorf, Korneuburg, Schmida, Laa an der Thaya, Egenburg, Zistersdorf,
+                        Schönberg und Hohenbruck in Niederösterreich</note> et alia castra, loca et
+                    Munitiones que forte sunt in manibus domini Regis Vladislai aliis non obligata
+                    hoc tempore cedet. At Opidium Retz et Castrum Wolkerstorff<note
+                        type="annotation" n="28">Retz und Wolkersdorf in Niederösterreich.</note>
+                    dominus <rs ref="#pp0042">Rex Vladislaus</rs> assignare tenebitur Romanorum
+                    Imperatori infra hinc et festum Sancti Blasii proxime venturum infrascripta vero
+                    castra, opida et Munitiones cum sint aliis obligata et inscripta et tempore
+                    egeat ipse dominus <rs ref="#pp0042">Rex Vladislaus</rs> ut ea ex illorum
+                    manibus redimat, conventum est ut ea infra medium annum aut ad summum infra
+                    annum initium eius a festo Sancti Martini nunc Instanti computando vel citius ut
+                    fieri poterit ad manus Cesareas vel Romanorum Regias, si, quod absit, Cesar
+                    interea excederet ex humanis, consignare debebit, videlicet Kirchslag, Ebenfurt,
+                    Waltersdorff, Horn, Allenntsteig, Gmünd, Melperg, Groborn, Katenprunn,
+                    Potenberg, Chrewtznsteten, Kadaw, Schawnstain, Obern Ruspach, Kramperg,
+                    similiter et alia omnia et singula<note type="crit_app" n="29">singula. Dumont:
+                        si qu</note> castra et loca cum suis pertinentiis in prefatis Cesaree
+                    Maiestatis dominis hereditariis sita que aliis obligata esse possint et hic
+                    nominata non sint infra praefatum annum Cesaree Maiestati<note n="30"
+                        type="crit_app">dominis [...] Maiestati. Fehlt bei Dumont.</note> ipse
+                    dominus <rs ref="#pp0042">Vladislaus Rex</rs> assignare debebit. Ex parte autem
+                    Castri Schonnkirchen quoniam istud non vi armorum sed empt[i]onis titulo ad
+                    manus <rs ref="#pp0050">Sigismundi Snaitpekh<note type="annotation" n="31"
+                            >Sigmund Schneidpeck. Die Familie nannte sich fortan nach diesem
+                            Österreichischen Besitz Herren von Schönkirchen.</note></rs> a
+                        quodam<note type="crit_app" n="32">Dumont: quondam.</note> nomine
+                        Rewter<note type="annotation" n="33">Rewter. Konnte nicht ermittelt
+                        werden.</note> devenisse constat conclusum est quod idem castrum in manibus
+                    ipsius Snaitpekh maneat, salvo tamen quod<note n="34" type="crit_app">Dumont:
+                        qu�.</note> heredibus et aliis ius ad dictum castrum habere praetendentibus
+                    ad eorum Impetitionem coram Principe Patrie uti alius patrie incola stet iuri,
+                    quodque sententia mediante decretum fuerit exequi patiatur absque aliquo
+                    Impedimento Castrum vero Johenstain <rs ref="#pp0051">Johanni Sokolosky<note
+                            type="annotation" n="35">Johann Sokolosky. Konnte nicht ermittelt
+                            werden</note></rs> ad quem Iure hereditario pertinet restituatur. <lb/>
+                    <lb/>4 Item conventum est. Si aliqui quibus dicta Castra et Munitiones obligate
+                    sunt pro honesta et convenienti satisfactione, quam dominus Vladislaus Rex ipsis
+                    offeret, infra nominatum annum aut quandocumque<note type="crit_app" n="36"
+                        >Dumont: quencunque.</note> ab ipso domino <rs ref="#pp0042">Vladislao
+                        Rege</rs> in tali tempore anni requisiti fuerint cedere nollent, que<note
+                        type="crit_app" n="37">Dumont: quod.</note> tunc Cesar et Romanorum Rex
+                    armis, auxiliis et consiliis aut aliis viis et modis prout principes ipsi inter
+                    se convenerint, domino Vladislao Regi adesse tenebuntur, quo tanto com[m]odius
+                    huiusmodi rebelles ad traditionem ipsorum Castrorum que tenent, Caesareae
+                    Maiestati constringere possit quod ipse Rex Vladislaus tenentibus huiusmodi
+                    castra talem ponat modum que in hoc tempore quosque Cesaree Meiestati consignari
+                    debent, redditibus ad ipsa Castra pertinentibus sint contenti et vicinos non
+                    molestent neque perturbent<note n="38" type="crit_app">neque perturbent. Fehlt
+                        in Dumont.</note> neque Pacis huius violatores aut turbatores in ea Castra
+                    intromittant neque cum eis fedus ullum sub quocumque colore aut forma id fieri
+                    possit ineant, contravenientes ut Pacis violatores puniendo. <lb/>
+                    <lb/>6 [!]. Item conventum est. Quod infrascripta loca Ecclesiis<note
+                        type="crit_app" n="39">Ecclesiis aut. Fehlt in Dumont.</note> aut
+                    Ecclesiarum prelatis pertinentia per ipsum dominum <rs ref="#pp0042">Vladislaum
+                        Regem</rs> ad manus Cesareas sub eadem inscriptione et obligatione, sub qua
+                    ea tenuit <rs ref="#pp0041">Mathias Rex</rs> praefatus aut ad manus Regias, casu
+                    si interea Cesar vita fungeretur, consignari debent. Ita tamen ut cum ipsi
+                    prelati ad quos huiusmodi loca pertinent Cesareae Maiestati aut post suam
+                    Maiestatem Romanorum Regi satisfecerint: quod tunc sue Maiestates ea loca ipsis
+                    prelatis reddere et nullomodo ab ecclesiis alienare valeant. Sunt autem hec et
+                    nonnulla alia loca fere omnia apud manus <rs ref="#pp0052">Jacobi Zekel<note
+                            type="annotation" n="40">Jakob Szekely (Zékl, Z�kel).</note></rs>
+                    videlicet Petovia, Prischaetz vel alio nomine Kain, Liechtenwald<note
+                        type="annotation" n="41">Ptuj (deutsch Pettau, latein Poetovia),
+                        Pi&smallswithcaron;ece (deutsch Pischätz) und Sevnica (deutsch Lichtenwald)
+                        im heutigen Slowenien, im 15. Jahrhundert zur Herrschaft Salzburg
+                        gehörig.</note>, Reuthenstain et si qua sint alia hic non nominata eadem
+                    lege tradi debebunt. <lb/>
+                    <lb/>7 Item conventum est. Quod Cesarea et Regia Romanorum Maiestates ipsum <rs
+                        ref="#pp0052">Jacobum Zekel</rs> seriose et omni via meliori requirere
+                    debebunt, quod omnia et singula Castra, opida et munitiones que in terris
+                    hereditariis Cesareae Maiestatis quondam domini <rs ref="pp0041">Regis
+                        Mathie</rs> nomine tenuit et hodie quocumque nomine tenet, sive sint<note
+                        type="crit_app" n="42">sint. Dumont: sit</note> Ecclesiarum sive Cesareae
+                    Maiestatis sive aliorum sue Maiestati absque ulla dilatione restituat. Et ne is
+                    sese vel<note type="crit_app" n="43">Et ne is sese vel. Dumont: Et ne eis sese
+                        Rex.</note> per fidem prestitam vel alio modo ab ea traditione facienda
+                    excusare possit conventum est quod ipse dominus <rs ref="#pp0042">Vladislaus
+                        Rex</rs> similiter et illustris dominus dux <rs ref="#pp0053">Corvinus<note
+                            type="annotation" n="44">Johann Corvinus (1473-1504), Graf von Hunyad,
+                            Herzog von Liptau und Troppau, illegitimer Sohn des Matthias Corvinus,
+                            der sich in der Nachfolge um den ungarischen Thron nicht durchsetzen
+                            konnte, aber als einer der besitzreichsten ungarischen Magnaten
+                            weiterhin eine einflußreiche Rolle spielte.</note></rs>, quandoquidem
+                    Regnum cum eodem Duce concordavit, quod huiusmodi Castra Regno reddere debeat,
+                    eidem seriose scribant et admoneant ut huiusmodi Loca prefata Cesaree Maiestati
+                    ad eius requisitionem absque ulteriori mora cedat in effectu. Qui si post
+                    huiusmodi requisitionem<note type="crit_app" n="45">absque [...] requisitionem.
+                        Als Einschub am Rand nachträglich eingefügt.</note> adhuc cedere nollet,
+                    praetendens occasione<note type="crit_app" n="46">occasione. Dumont:
+                        occasionem</note> alicuius obligationis qua vel dominus <rs ref="#pp0042"
+                        >Rex Vladislaus</rs>, Regnum vel <rs ref="pp0041">Dux Corvinus</rs> sibi
+                    videatur esse obligatus, ad huiusmodi cessionem, donec sibi satisfiat,
+                        artari<note type="crit_app" n="47">arctare (mittellatein): begrenzen,
+                        belüstigen.</note> non debere, conclusum est quod in tali casu Romanorum
+                    Imperator vel Rex tres viros eligere. Similiter et dominus <rs ref="#pp0042"
+                        >Vladislaus Rex</rs> tres nominare. Qui sex in opido Hamburga [!]<note
+                        type="annotation" n="48">Eigentlich lateinisch Hamburgum. Im folgenden
+                        uneinheitlich gebraucht. Gemeint ist dabei wohl Petronell in
+                        NiederÖsterreich (lat. Hamburgum Austriae oder Celeia).</note> in termino
+                    duodecem ebdomadarum initium earum a tempore requisitionis dictorum Castrorum
+                    computando constitui, ubi et ipse Jacobus et aliquis cum sufficienti [!].
+                    mandato nomine domini <rs ref="#pp0042">Regis Vladislai</rs> et <rs ref="pp0041"
+                        >ducis Corvini</rs> coram illis comparere, qui more arbitrorum hinc inde
+                    quaslibet querelas<note type="crit_app" n="49">quaslibet querelas. Dumont:
+                        quilibet, &amp; querelas.</note>, differentias et actiones et responsiones
+                    utriusque partis sufficienter audire debebunt. Quibus auditis, studebunt partes
+                    amicabili compositione unire que<note type="crit_app" n="50">unire que. Dumont:
+                        unire. Quam.</note>si reperiri non possit, ex hinc inde deductis quid iuris
+                    sit cognoscent qui si sit<note type="crit_app" n="51">sit. Dumont: sic.</note>
+                    sententiando omnes, vel maior pars concordabunt, quod decretum est, illico
+                    exequutioni demandetur<note type="crit_app" n="52">demandetur. Dumont:
+                        demandent.</note> si vero sic sententiando sint pares quique pro parte sua
+                    sententiam dicentes, ex tunc acta iudicii una cum arbitrorum sententiis clausa
+                    et signata ad illustrem principem et dominum, dominum <rs ref="#pp0054"
+                            >Ottonem<note type="annotation" n="52">Otto II. (1435-1499), Pfalzgraf
+                            von Pfalz-Mosbach seit 1461.</note></rs> Ducem Bavarie tanquam
+                    superarbitrum, qui ab ambabus partibus ut se huic negotio intromittat,
+                    interpellari debebit, transmittent. Qui visis actis<note type="crit_app" n="53"
+                        >actis fehlt in Dumont.</note>unam ex illis Sententiis probare teneatur, et
+                    quamcumque suo laudo probandam duxerit, ea absque mora in exequutionem mitti
+                    debebit, ubi si dominus <rs ref="#pp0042">Rex Vladislaus</rs> vel dux Corvinus
+                    in aliqua pecunia solvenda sententiati fuerint neque in prompta pecunia
+                        adeo<note type="crit_app" n="54">adeo. Dumont: ii.</note> subito solvere
+                    habeant, debet ipse Jacobus Zaekel positis pignoribus sufficientibus, pro
+                    equitate et qualitate debiti contentari, totus autem ille iudicii seu arbitrii
+                    actus in termino duorum mensium postquam partes in Hamburga comparuerint finiri
+                    debebit, nisi ius ipsum longius tempus expostularet. At nichilomius teneatur <rs
+                        ref="#pp0052">Jacobus Zaekel</rs> prenominata Castra absque mora ad manus
+                    Cesareas consignare. Qui si super hec omnia adhuc rebellare, et hanc conditionem
+                    neque suscipere neque loca prefata Cesari cedere vellet, ex tunc ambo Reges et
+                    Cesar se mutuo iuvare debebunt, eundem ad obedientiam compellendo. Si tum idem
+                    Jacobus castra et loca praefata Cesari sine difficultate et dilatione postquam
+                    requisitus fuerit restituet. Conventum est. Quod ex tunc dominus <rs
+                        ref="#pp0042">Vladislaus Rex</rs> de eo sit contentus, et ei quietantiam
+                    absolutoriam de omnibus prestet si et in quantum nichil obligationis a sua
+                    Serenitate vel duce requiret. <lb/>
+                    <lb/>8 Item quantum pertinet ad castra et opida intra fines Regni Hungariae
+                    constituta, videlicet Ferream Civitatem, Vorchtenstein, Kobelsdorff, Hornstein,
+                    Rechnitz, Güns, Pernstain<note type="annotation" n="55">Eisenstadt,
+                        Forchtenstein, Kobelsdorf, Hornstein, Rechnitz, Güns und Bernstein im
+                        Burgenland.</note>, et alia loca que ante bellum quondam Regis Mathie
+                    fuerunt in manibus Sacre Imperialis Maiestatis, conventum est. Quod ea loca
+                    omnia preter Rechnitz cum suis pertinentiis antiquis, quod Imperialis Celsitudo
+                    de gratia speciali domino <rs ref="#pp0048">Guilhelmo Pemkircher</rs> iuxta sue
+                    Maiestatis litteras donavit, debeant apud suam Maiestatem remanere secundum vim
+                    et tenorem prioris inscriptionis et concordie tempore prefati <rs ref="#pp0041"
+                        >Regis Mathie</rs> cum Imperiali Maiestate facte, sed quoniam Ferrea Civitas
+                    et Vorchtenstein et Kobelstorff usque hodie in manibus dominus Regis Vladislai
+                    aut suorum subditorum habentur, conclusum est, quod ea loca cum suis
+                    pertinentiis idem dominus Rex Vladislaus ad manus Cesareas infra hinc et diem
+                    Sancte Gerdrudis proxime venturam, que est decimaseptima Martii anni nonagesimi
+                    secundi, consignare debebit, retentis tamen omnibus conditionibus circa ea Loca
+                    in priori tractatu notatis in suo vigore presertim in facto impositionis super
+                    homines illorum locorum ob generale passagium pro defensione Regni et iurium et
+                    exercitii iurisdictionis pertinentis ad ecclesiam Jauriensem<note
+                        type="annotation" n="56">Raab/Györ (s.o.).</note> aut alias ecclesias Regni.
+                    Et quidem non solum in locis prefatis sed et quibuscunque aliis locis regni, in
+                    quibus decime de iure ipse ecclesie Jauriensi vel aliis ecclesiis in Regno
+                    consistentibus percipi solent, ubi si quisquam locorum illorum capitaneus vel
+                    officialis aut alius subditus Imperialis Maiestatis in solutione decimarum aut
+                    aliorum iurium ecclesie rebellis, vel ea iura uti ius postulat non solvisse
+                    compertus fuerit, compelli debet per Cesaream Maiestatem ad satisfactionem
+                    integram, una cum expensarum solutione. Quocirca ut huiusmodi turbationes que
+                    pro tempore fieri possent, vitentur, dignabitur Sacra Imperialis Maiestas tales
+                    illic ponere Castellanos qui cum vicinis amicabiliter vivant, via facti nichil
+                    contra eos attentent et ecclesiis sua iura ut ab antiquo est introductum
+                    relinquant. <lb/>
+                    <lb/>9 Item quod ipse dominus <rs ref="#pp0042">Wladislaus Rex</rs> et Regnum
+                    litteras illas obligatorias pro centum milibus Florenorum datas quondam <rs
+                        ref="#pp0041">Mathie Regi</rs> in prima concordia Cesaree Maiestati reddere
+                    debeant, que si haberi<note type="crit_app" n="57">que si haberi. Dumont: quam
+                        si habere.</note> non possent obligabuntur dare sue Maiestati quietantiam
+                    sufficientem qua sua Maiestas, subditi et omnes status ducatuum et dominiorum
+                    sue Maiestatis sint assecurati. Et nichilominus littere huiusmodi praesentis
+                    tractatus vigore ipso facto intelligantur casse et extincte. <lb/>
+                    <lb/>10 Item ipse dominus <rs ref="#pp0042">Vladislaus Rex</rs> et universum
+                    Regnum veteres illas inscriptiones super successione factas ratificare,
+                    confirmare et renovare teneantur, ita videlicet quod si ipsum dominum <rs
+                        ref="#pp0042">Wladislaum Regem</rs> heredem masculum non contingat suscipere
+                    aut susceptum vita fungi nullo herede masculo per lineam rectam descendente post
+                    eum relicto, Regnum ipsum cum universis aliis Regnis, provinciis et dominiis ad
+                    Coronam Regni Hungarie spectantibus in ipsam Regiam Romanorum Maiestatem aut
+                    eius heredes per lineam rectam ex lumbis suis descendentes devolutum
+                    intelligatur ipso facto. <lb/>
+                    <lb/>11 Item quo Regia Romanorum Maiestas de huiusmodi successione magis
+                    assecuretur conclusum est quod dominus <rs ref="#pp0042">Vladislaus Rex</rs>
+                    huius rei ac aliorum negotiorum Regni gratia citius ut fieri potest dietam
+                    indicat, de cuius tempore dominos Consiliarios Cesaree aut Regie Maiestatum
+                    Wienne existentes avisabit tempestive, ad quam convocet prelatos, Barones,
+                    Civitates et alios status Regni potiores in maiori ut pro temporis huius
+                    brevitate fieri potest numero ubi et Romanorum Regis Oratores adesse debebunt
+                    qui prelati, Barones, Civitates et alii Status Regni illic comparendo hunc
+                    presentem tractatum sollenniter acceptabunt, ac<note type="crit_app" n="58"
+                        >acceptabunt, ac. Dumont: acceptabunt. At</note> omnes et singuli sese, pro
+                    se, heredibus et sucessoribus suis litteris patentibus inscribent in hanc
+                    sententiam. Si dominum <rs ref="#pp0042">Vladislaum Regem</rs> liberis masculis
+                    ex lumbis suis legittime procreatis non relictis, aut eisdem relictis et sine
+                    heredibus descendentibus mortuis, decedere contingat, quod in tali casu ipsum
+                    Maximilianum Romanorum Regem aut eo non existente aliquem ex filiis suis, aut
+                    his non existentibus eorum heredibus masculis per lineam rectam ex lumbis eorum
+                    descendentibus, quem eligendum duxerint, pro suo legitimo et indubitato Rege
+                    acceptabunt ad possessionem Regni absque omni difficultate venire permittent, in
+                    possessionem Regni inducent et illi uti Regi et domino suo debita obsequia
+                    prestabunt hancque sententiam publice et sollenniter in eadem congregatione
+                    Romanorum Regi in prefatorum Regis Romanorum<note type="crit_app" n="59">Regi in
+                        prefatorum Regis Romanorum. Fehlt in Dumont.</note>Oratorum presentia
+                    iurabunt. <lb/>
+                    <lb/>12 Item quoniam multi fortassis quorum interest aut interesse debebit, in
+                    hac congregatione non comparebunt, et ipsius negotii magnitudo expostulat ut hec
+                    presens concordia omnium auribus immittatur, conclusum est ut hac et aliarum
+                    Regni necessitatum gratia dominus <rs ref="#pp0042">Rex Wladislaus</rs> alteram
+                    dietam generalem ad festa Penthecostes proxime ventura vel circa in aliquo
+                    insigni loco seu Civitate Regni indicat, ubi similiter oratores Romanorum Regis
+                    adesse debebunt, in qua convocatis omnibus Incolis totius Regni et dominiorum
+                    illi pertinentium hunc tractatum et unionem uiversaliter publicari et ab
+                    universo populo Romanorum Regem aut suos heredes, casu quo ipse <rs
+                        ref="#pp0042">Vladislaus Rex</rs> sine legittima prole masculina superstite
+                    mortem obiret, in futurum Hungarie Regem acceptari faciat, et si qui illic
+                    comparentes in priori Congregatione visi non fuerint, illic praenominatum
+                    iuramentum publice, modo quo supra dictum est prestare et Litteras confitentes
+                    itidem quod generales ille littere in prima congregatione recognoverunt,
+                    roborare debebunt. <lb/>
+                    <lb/>13 Item conclusum est quod huiusmodi litterarum roboratio et iuramentum
+                    deinceps de persona in personam descendat, tamdiu quo usque talis casus de
+                    succedendo Romanorum Rege, aut sua prole verificetur. Ita quod quotienscumque
+                    aliquem Regni prelatum ad prelaturam suam de novo assumi cotingat quod is in
+                    assumptione sua praesentem tractatum de successione Romanorum Regis aut suorum
+                    heredum iuret velle observare et eum prosequi ut de iuramento in prima
+                    congregatione superius dictum est, insuper et litteras patentes, quibus et
+                    iuramentum huiusmodi se prestitisse et tractatum presentem servare velle, sese
+                    obligare tenebitur, alioquin nisi hec fecerit, ad huiusmodi prelaturam admitti
+                    non debet. <lb/>Pari modo <rs ref="#pp0084">Palatinus Regni</rs><note
+                        type="annotation" n="60">Emerich (Imrich) Zapolya, 1485 ungarischer
+                        Palatin.</note>, Banus Croatie, Wayvoda Transsilvanus<note type="annotation"
+                        n="61">Siehe oben.</note>, Comes Themesiensis<note type="annotation" n="62"
+                        >Eventuell Temesvar (deutsch Temeschburg, lat. Temena oder Temesvarinum) im
+                        heutigen Rumänien.</note>, Bani de Yaytza<note type="annotation" n="63"
+                        >Jajce in Bosnien (lat. Jaitza).</note>, Zewreniensis<note type="annotation"
+                        n="64">Orsova (lat. Zernensium colonia oder Statio Tsiernensis) im heutigen
+                        Rumänien.</note>, et Nandoralbensis, Castellani Castri Budensis<note
+                        type="annotation" n="65">Buda, heute Teil Budapests.</note>, Comes
+                        Posoniensis<note type="annotation" n="66">Preßburg (Bratislava, lat.
+                        Posonium).</note> et alii officiales, maiores et Castellani potiorum
+                    Castrorum Regni presertim eorum<note type="crit_app" n="67">presertim eorum.
+                        Fehlt bei Dumont.</note> que in finibus Regni sunt constituta,
+                    quotienscumque tales de novo ad sua officia assumi contingat, iurare Romanorum
+                    Regi et litteras dare modo quo supra de prelatis dictum est tenebuntur, neque
+                    alias huiusmodi<note type="crit_app" n="68">huiusmodi. Dumont: Homini.</note>
+                    eorum officiis preficiantur. <lb/>
+                    <lb/>14 Item conservatores sacre corone regni praesentes et futuri in ingressu
+                    officii sui iurabunt Romanorum Regi eam coronam si accidat dominum Wladislaum
+                    regem sine legitima prole decedere nulla post eum masculina relicta, modo quo
+                    supra dictum est, ad nullius manus dare sed pro coronatione ipsius Romanorum
+                    regis aut sui sanguinis ex se per lineam rectam descendentis fideliter
+                    conservare. Similiter et cum ipso castro Wissegrad soli Romanorum regi aut
+                    heredibus suis in tali prefato casu obedire velle, et de his litteras suas
+                    patentes roborabunt. <lb/>
+                    <lb/>15 Item si dominus Wladislaus rex excederet ex humanis herede masculo annis
+                    minore relicto conventum est quod hii [!].<note type="crit_app" n="69">hii.
+                        Dumont: hi.</note> qui heredem talem iuxta regni ordinationes et
+                    consuetudines sub tutela sua tenebunt, pari modo et de novo iurabunt cum tutelam
+                    huiusmodi suscipient praesentem tractatum quantum ad successionem manutenere et
+                    secundum illius tenorem vivere: heres insuper ipse cum ad legittimam etatem
+                    pervenerit tenebitur omnia hic in praesenti tractatu conclusa litteris et
+                    sigillis pro se et heredibus suis, eo modo quo dominus <rs ref="#pp0042"
+                        >Vladislaus rex</rs> fecit antequam regni gubernacula assumet<note
+                        type="crit_app" n="70">assumet. Dumont: assumeret.</note>, roborare et
+                    confirmare. Et is modus servandus erit de herede in heredem et tutoribus
+                    eorundem continuando quousque successio ipsa in sanguinem Romanorum regis si
+                    superextat devolvatur. <lb/>
+                    <lb/>16 Item conventum est quod littere roborande in praelatorum, officialium
+                    aut tutorum assumptione nova et alie littere omnes de quibus supra fit mentio,
+                    mox ut fuerint roborate, praesentari debeant in Hamburgam, reponendo eas ad
+                    iudicem et consulatum aut castellanum ibidem uti placitum sive ordinatum fuerit
+                    per Romanorum regem quorum opera ulterius ad manus Romanorum Regis
+                    transmittentur. <lb/>
+                    <lb/>17 Item conclusum est si dominus <rs ref="#pp0042">Wladislaus rex</rs> sic
+                    uti praemittitur sine heredibus masculis decedens filiam unam vel plures
+                    reliquerit, tenebitur rex Romanorum vel heredes eius qui tunc regno preficientur
+                    easdem pro consuetudine regni honeste dotare et maritare<note type="annotation"
+                        n="71">Wladislaws Ehe mit Anna von Foix (s.u.) entsprang neben dem
+                        Thronfolger Ludwig eine Tochter Anna. Sie heiratete Erzherzog Ferdinand
+                        (Kaiser Ferdinand I.), der Ludwig nach dessen Tod in Ungarn und Böhmen
+                        nachfolgte.</note>
+                    <lb/>
+                    <lb/>18 Item si dominus <rs ref="#pp0042">Vladislaus rex</rs> sic ut
+                    praemittitur sine heredibus masculis decederet uxore sua vidua relicta <note
+                        type="annotation" n="72">Sowohl Wladislaws Ehe mit Barbara von Brandenburg
+                        als auch die (heimlich geschlossene) Ehe mit Beatrix von Aragon, der Witwe
+                        des Matthias Corvinus, wurden geschieden. Seine dritte Gemahlin, Anna von
+                        Foix, die er 1502 ehelichte, starb bereits 1506.</note> tenebitur Romanorum
+                    rex dotem ipsi vidue iuxta regni consuetudinem debitam solvere ex integro idem
+                    conclusum intelligatur de heredibus succedentibus, heredibus Romanorum regis,
+                    quotienscumque viduas uxores post se superstites reliquerint. <lb/>
+                    <lb/>19 Item conclusum est quod Romanorum rex aut heredes sui, regnum
+                    suscepturi, pro eiusdem regni et incolarum suorum consolatione et comodiori
+                    contra hostes defensione in ipso regno saltem pro maiori parte temporis habitare
+                    dignentur. <lb/>
+                    <lb/>20 Item conventum est. Si regni Hungarie hereditas modo predicto in
+                    sanguinem cesareum devolvetur quod is qui iuxta capitula prefata a
+                        regnicolis<note type="annotation" n="73">regnicola (mittellatein):
+                        Bürger.</note> rex acceptabitur vel eligetur, pro Regni defensione et
+                    consolatione quam primum venire et accelerare debeat, qui similiter non armis ut
+                    hostis regnum intret sed in limitibus regni iuxta morem expectet, quousque per
+                    prelatos, barones et alios Regnicolas honorifice susceptus, sine dilatione
+                    introducatur. Qui et tunc iura et consuetudines regni antiquas et approbatas
+                    servare et Regnicolas omnes in suis iuribus, libertatibus et approbatis
+                    consuetudinibus conservare et confirmare promittet, quemadmodum et alii Reges
+                    predecessores sui promittere et confirmare consueverunt. <lb/>
+                    <lb/>21 Item Romanorum rex titulo regni Hungarie uti poterit, et ita a domino
+                        <rs ref="#pp0042">rege Vladislao</rs> et regnicolis appellabitur,
+                    quemadmodum Cesarea Maiestas eodem hactenus usa fuit et deinceps utetur.
+                    Vicissim quod Cesar et Romanorum rex et ipsorum subditi dominum Vladislaum regem
+                    Hungarie cum titulo solito regni Hungarie appellare et intitulare tenebuntur. <lb/>
+                    <lb/>22 Insuper pro solidiori perpetue huius unionis fundamento conventum est
+                    quod idem <rs ref="#pp0042">dominus Vladislaus</rs> rex circa regnicolas regni
+                    Bohemie laborare et omnem sibi possibilem dare debebit operam, et studium
+                    impendere, quo eosdem inclinet et in hanc sententiam trahat ut eo sine liberis
+                    masculis decedente hunc <rs ref="#pp0006">dominum Maximilianum</rs> regem aut
+                    heredes suos legitimos ex lumbis suis descendentes regem sibi preficiant, idque
+                    quantotius fieri potest incipere et omnes favores et studia sibi possibilia
+                    adhibere debebit ut ipse rex Romanorum et nemo alius in hoc Bohemie regno sibi
+                    in tali casu succedat. <lb/>
+                    <lb/>23 Item conventum est quod in recompensam aliqualem expensarum, factarum
+                    per Romanorum regem in hoc bello et requisitione iuris sui ipse dominus <rs
+                        ref="#pp0042">Vladislaus rex</rs> solvere debebit Romanorum regi centum
+                    milia florenorum Hungaricalium in auro iusti ponderis vel argento aut moneta
+                    currente in Austria, computando semper quatuor Renenses aut tantum monete sic
+                    currentis pro tribus florenis Hungaricalibus, in spatio duorum annorum, quorum
+                    initium computando sit a festo Sancti Martini nunc instanti. Ita tamen quod
+                    triginta milia teneatur solvere in termino primi dimidii anni, alia triginta
+                    milia in fine primi anni, relique vero sum[m]e medietatem in fine secundi anni
+                    dimidii et alteram medietatem in fine secundi anni. Et pro huiusmodi pecunia
+                    ipse dominus Vladislaus rex et regnum Romanorum regem assecurabunt litteris et
+                    sigillis in ea forma et obligatione, quod si aliquam ex illis sum[m]is solvere
+                    neglexerit quod ex tunc eius loco duplum, hoc est pro triginta sexaginta et pro
+                    viginti quadraginta milia solvere sit obligatus. Liceat insuper Romanorum Regi,
+                    negotiatores regni et eorum bona ubicumque ea invenire poterit, arrestare tamdiu
+                    quousque huiusmodi duplum solutum fuerit. Et occasione arrestationis huius non
+                    intelligatur praesens unio et pax esse violata. <lb/>
+                    <lb/>24 Item conventum est quod omnes iniurie, dissensiones, discordie et
+                    differentie quoquo modo occasione presentis belli et adhesionis Romanorum regi
+                    infrascriptarum personarum, videlicet reverendissimi domini <rs ref="#pp0056"
+                        >Johannis episcopi Vespriniensis<note type="annotation" n="74">Johannes
+                            (János) Vitéz (um 1408-1472), Bischof von Veszprém, Erzieher des
+                            Matthias Corvinus.</note></rs>, magnificorum et nobilium virorum
+                    dominorum Johannis comitis de Czetni, <rs ref="#pp0052">Jacobi</rs> et <rs
+                        ref="#pp0085">Nicolai Zekeli</rs>, <rs ref="#pp0039">Johannis
+                        Kishorvath</rs>, <rs ref="#pp0087">Steffani</rs> et <rs ref="#pp0088"
+                        >Georgii</rs> fratrum eius, <rs ref="pp0089">Laurentii Baniffi</rs>, <rs
+                        ref="#pp0090">Johannis Berizlo</rs> et <rs ref="#pp0091">Francisci filii
+                        eiusdem</rs> ac <rs ref="#pp0092">Johannis filii</rs> quondam <rs
+                        ref="#pp0093">Martini Berizlo</rs>, Ladislai Johannis et Steffani fratrum de
+                        Kanisa<note type="annotation" n="75">Kanizsai.</note>, Nicolai Zechii de
+                    Alsolindwa, Jacobi Banffi de Lindwa, Johannis et Steffani fratrum de Elderbach,
+                        <rs ref="#pp0321">Nicolai comitis de Francapan</rs><note>Ermittelt werden
+                        konnte nur der bereits 1431 verstorbene Niklas Frangepan, Graf von Modrusch,
+                        Veglia und Zengg (gest. 1431).</note>, Michaelis comitis filii Dwian,
+                    Nicolai Hagmas de Zengeroth, <rs ref="#pp0055">Johannes Wornemysza<note
+                            type="annotation" n="76">Johannes (Janus) Bornemisza, Vizeschatzmeister
+                            und später Erzieher des künftigen Königs Ludwig II.</note></rs>, Georgii
+                    de Stresewle<note type="crit_app" n="77">Dumont: Strescule</note>, Georgii de
+                    Welike, Petri Ampolitz Elezwayda, Nicolai Kalnnanitz<note type="crit_app" n="78"
+                        >Dumont: Kalmanytz.</note>, Petritz Mathie Clesitz, Petri Elez, Nicolai et
+                    Ladislai filiorum Frankonis quondam Bani de Tallotz, Johannis Wanffi [!].<note
+                        type="annotation" n="79">Vergleiche jeweils oben: Banffi oder
+                        Baniffi.</note> filii quondam &lt;Perkovis&gt;<note>Abkürzung: pkonis oder
+                        pkovis. Bei Dumont: Perconis. Eventuell gemeint ist Perkovic im heutigen
+                        Kroatien.</note> Bani, Bernaldi et Georgii filiorum quondam Francisci Banfi,
+                    et Johannis filii Nicolai de Tallotz, Ladislai Osthfii<note type="crit_app"
+                        n="80">Dumont: Ofchsi</note>, inter prelatos, barones, nobiles, opidanos et
+                    alios regni Hungarie et pertinentiarum incolas et eorum subditos exorte prorsus
+                    sint sublate et extincte. Quodque prefati et alii quicumque adherentes et
+                    confederati Romanorum regi hic suis nominibus non designati apud dominum
+                    Vladislaum regem eadem gratia et benevolentia uti ceteri incole regni tractentur
+                    cum abolitione<note type="crit_app" n="81">abolitione. Dumont: oblatione.</note>
+                    omnium praeteritorum quovis modo in hoc bello contra suam Serenitatem et regnum
+                    attentatorum et sublatione omnis indignationis omnino. Quibus et cuique eorum
+                    seorsum sua Serenitas litteras huiusmodi reconciliationis in forma honesta
+                    insuper et libertatem et facultatem ubicumque aut cuicumque principum qui non
+                    sit hostis sue Maiestatis aut regni aut hostibus adherens et presertim ad
+                    honorem Romanorum regis prestita tamen prius obedientiae et fidelitatis
+                    iuramento aliorum ipsi domino <rs ref="#pp0042">regi Vladislao</rs> extra regnum
+                    standi et serviendi prout ipsus libitum aut conveniens fuerit, libertatibus
+                    tamen regni et oneribus circa bona et redditibus supportandis semper salvis, ad
+                    eorum instantiam et petitionem clementer concedere et admittere debebit. <lb/>
+                    <lb/>25 Conclusum est insuper quod in spatio quatuor mensium initium eorum a
+                    praedicto Sancti Martini festo summendo praefati adherentes in omnia eorum bona
+                    immobilia et iura quae post mortem regis <rs ref="#pp0041">Mathie</rs> Romanorum
+                    regi adherentes perdiderunt restituantur. Si autem huiusmodi bona in quorundam
+                    baronum aut incolarum regni manibus teneantur que dominus <rs ref="#pp0042">rex
+                        Vladislaus</rs> non nisi armis ob eorum temeritatem ab eis eripere valeat. <lb/>
+                    <lb/>26 Conclusum est quod hoc casu sua Serenitate contra tales ipso facto armis
+                        praecedente<note type="crit_app" n="82">praecedente. Dumont:
+                        procedendo.</note> quicquid temporis ultra dictum spatium quadrimestre pro
+                    recuperatione eorundem locorum curret neque imputari neque huic tractatui obesse
+                    debebit. <lb/>
+                    <lb/>27 Ipsi insuper adherentes quibus castra sua in hoc bello non sunt adempta,
+                    tenebuntur in spatio octo ebdomadarum, initium earum a festo Sancti Martini iam
+                    dicto computando nisi a regno abessent ipsi <rs ref="#pp0042">domino
+                        Wladislao</rs> regi prestare iuramentum fidelitatis, quemadmodum moris et
+                    consuetudinis est in Regno hactenus observate. At absentium loco sufficiet quod
+                    huiusmodi iuramentum fratres eorum presentes usque ad eorum reditum interea
+                    prestare teneantur et prestent, ipsis autem supervenientibus huiusmodi
+                    iuramentum per se prestare tenebuntur, quicumque autem hec uti prescripta sunt
+                    sive presentes sive absentes facere neglexerint praesens tractatus ipsis minime
+                    suffragari debebit. Quibus vero castra vel alia bona sua hoc tempore belli sunt
+                    ablata illi tunc tandem iuramentum huiusmodi prestare tenebuntur cum eorum bona
+                    ipsis modo iam praescripto restituta fuerint. <lb/>
+                    <lb/>28 Preterea si qua theolonia vel alia bona sive hereditaria sive pignoratia
+                    nominati adherentes aliis occasione praesentis belli abstulissent vel
+                    occupassent, teneantur et isti post notificationem praesentis concordie ad
+                    restituendum ea illis quibus pertinent aut e quorum manibus abstulerunt, si
+                    tamen aliqua ex huiusmodi bonis receptis vel occupatis per adherentes rursus ex
+                    manibus eorum erepta essent: apud illos, quibus pertinent maneant, qui quidem
+                    adherentes si alias aliquid iuris ad huiusmodi bona habere pretendant, id iure
+                    mediante requirere debebunt quibus ad eorum instantiam ius expeditum
+                    administrari debebitur. <lb/>Simili modo et via uti iam de adherentibus regie
+                    Romanorum maiestati scriptum est agatur in reddendo castra et alia bona circa
+                    subditos Cesareae maiestatis si qui fortassis in hoc bello <rs ref="#pp0042"
+                        >domino Vladislao</rs> aut quondam <rs ref="#pp0041">Mathie regi</rs>
+                    adherere et ea gratia castra sua perdere potuissent superioribus articulis
+                    salvis et in suo robore permanentibus. Circa castra tamen reddenda domino de
+                    Liechtenstain de Muraw<rs ref="#pp0057"><note>Niklas von Liechtenstein auf Murau
+                            (1437- um 1500) stand zeitweilig auf der Seite des Matthias Corvinus.
+                            Als die Habsburger nach dessen Tod ihre Erblande zurückeroberten,
+                            besetzten sie Liechtensteins Güter und nahmen ihn gefangen.</note></rs>
+                    ita conventum est ut ea tandem Cesarea Maiestas teneatur eidem reddere cum fiet
+                    ultima restitutio castrorum praedictorum ad manus Cesareas. Ita quod simul et
+                    semel hinc Cesar domino de Liechtenstein<note type="crit_app" n="83">Cesar
+                        domino de Liechtenstein. Dumont: Cæsar, Dominum de Liechtenstein.</note>,
+                    illinc dominus rex Vladislaus castra restantia Cesari reddat quiquidem de
+                        Lichtenstein<note type="crit_app" n="84">reddat quiquidem de Lichtenstein.
+                        Dumont: reddat: quandoquidem Dominus de Liechtenstein.</note> cum hoc
+                    tempore captivus teneatur, communi articulo captivos concernente gaudere
+                    debebit. <lb/>
+                    <lb/>29 Item cum comites Croatie in hoc bello Romanorum regi adherentes
+                    conquerantur de bonis ipsis ablatis conclusum est quod omnia et singula eorum
+                    bona et iura que postquam Romanorum regi adheserunt perdiderunt: eis restitui
+                    debent in tempore quo supra de adherentibus dictum est. De his autem bonis que
+                    ante adhesionem aut tempore <rs ref="#pp0041">regis Mathie</rs> ipsis ablata
+                    sunt, ad eorum instantiam dominus <rs ref="#pp0042">rex Vladislaus</rs>
+                    expeditam iustitiam remotis superfluis dilationibus et exceptionibus magis ad
+                    differendum negotium quam ius promovendum proponi solitis iuxta morem et regni
+                    consuetudinem administrare et in propria persona pro huiusmodi iure reddendo
+                    sedere debebit. <lb/>Item de castris comitum de Zagoria ita conventum est quod
+                        <rs ref="#pp0052">Jacobus Zekel</rs> ea castra ad fideles manus domini
+                    Vladislai regis tanquam tertiam personam resignet et postea vocatis comitibus
+                    ipsis et domino duce Corvino cui ea castra per Mathiam regem perhibentur esse
+                    donata. Ipse dominus rex Vladislaus iuxta regni consuetudinem servatis servandis
+                    expeditam iustitiam ministret et cui &lt;...&gt;<note type="crit_app" n="85"
+                        >Abkürzung: ptm. Dumont: Parti.</note> praedictarum per huiusmodi sententiam
+                    ipsa castra obvenient illius manibus rex ipse ea tradere teneatur indilate<note
+                        type="crit_app" n="86">indilate (mittellatein): unverzüglich. Dumont:
+                        inviolate.</note>. <lb/>
+                    <lb/>30 Item in facto debiti et querelarum quas nobilis vir dominus <rs
+                        ref="#pp0032">Thobias de Tschernahora</rs> proposuit in hunc modum est
+                    conventum. Inprimis dominus rex Wladislaus tenebitur ipsi infra mensem, initium
+                    eius a festo Sancti Martini computando, villas illas in Moravia, sibi pro certa
+                    pecuniarum summa obligatas et per quondam Mathiam regem vi ablatas restituere
+                        ut<note type="crit_app" n="87">ut. Dumont: &amp;.</note> illis iuxta vim et
+                    tenorem litterarum obligationis libere uti possit. Duo insuper milia florenorum
+                    quondam Mathie regi prefato per ipsum dominum <rs ref="#pp0032">Thobiam</rs>
+                    mutuata si ipse dominus <rs ref="pp0032">Thobias</rs> per litteras vel alia
+                    evidentia documenta huiusmodi debitum probaverit, ipse <rs ref="#pp0042">rex
+                        Vladislaus</rs> infra annum, eius initium a sepedicto Sancti Martini festo
+                    computando, ipsi domino <rs ref="#pp0032">Thobie</rs> aut eo non existente
+                    heredibus suis restituere teneatur, de quam milibus florenorum scriptis ipsi
+                    domino <rs ref="#pp0032">Thobie</rs><note type="crit_app" n="88">aut [...]
+                        Thobie. Fehlt in Dumont.</note> per ipsum Mathiam regem super castro
+                    Schonnberg quandoquidem ex illis ipse dominus <rs ref="#pp0032">Thobias</rs>
+                    <rs ref="#pp0042">domino Vladislao</rs> regi tria millia de bona voluntate
+                    remisit conventum est ut reliqua duo milia dominus <rs ref="#pp0042">rex
+                        Vladislaus</rs> eidem in spatio duorum annorum initium eorum iterum a festo
+                    Sancti Martini iam instanti computando solvat. Quantum vero ad impensas factas
+                    in edificia in Spilberg pertinet conventum est quod de huiusmodi impensis
+                    dominus <rs ref="#pp0032">Thobias</rs> capitaneum Moravie edoceat quibus edoctis
+                    et ad Regiam Maiestatem per capitaneum deductis et constito ex ipsius capitanei
+                    relatione quid sua Serenitas pro huiusmodi impensa solvere debeat, id infra
+                    annum a tempore declarationis ipsius capitanei, ipsi domino <rs ref="#pp0032"
+                        >Thobie</rs> solvere tenebitur. <lb/>
+                    <lb/>31 Item in facto crediti nobilis viri domini <rs ref="#pp0048">Guilhelmi
+                        Pemkircher</rs> quod contra provinciales Stirie et Carinthie<note
+                        type="crit_app" n="89">et Carinthie. Fehlt in Dumont.</note> proponit,
+                    conventum est, Maiestas Imperialis demandabit praefatis provincialibus ut ei
+                    dictum creditum solvant, qui si se in eo mandato gravari querantur tanquam iam
+                    dudum ab eo sint absoluti constituere debebit Cesarea Maiestas praefatis
+                    provincialibus diem ad Gretz in festo Purificationis celebrandam ubi et ipse
+                    dominus <rs ref="#pp0048">Guilhelmus</rs>, factores suos, una cum aliquo domini
+                    regis Vladislai servitore habere debebit et facta ratione et computu<note
+                        type="crit_app" n="90">computu. Dumont: computo.</note> de
+                        &lt;praeceptis&gt;<note type="crit_app" n="91">Abkürzung: pceptis. Dumont:
+                        perceptis</note> ex dicto credito et constito quantum post huiusmodi
+                    computum solvendum eidem restet, istius summe dimidium in termino primi anni
+                    eius initium a conclusione computi faciendo et alterum dimidium in termino
+                    secundi anni inmediate sequentis praefati provinciales ipsi domino <rs
+                        ref="#pp0048">Guilhelmo</rs> solvere debebunt. Quod vero ad castrum Ketsch
+                    sive eius redditus et proventus spectat conventum est quod idem dominus
+                    Guilhelmus Cesaream Maiestatem de huiusmodi iure, litteris et sigillis ut
+                    praetendit munitis informet; quibus iuribus si Cesarea Maiestas excipiendo
+                    contradicat ex tunc illi sex in Hamburgum in facto <rs ref="#pp0052">Jacobi
+                        Zekel</rs> ut praefatum est venturi, an littere domini <rs ref="#pp0048"
+                        >Guilhelmi</rs> an Cesaree Maiestatis contra easdem exceptio praevaleat,
+                    decernant, qui si cognoscendo sint pares ex tunc dominus <rs ref="#pp0032"
+                        >Thobias de Tschernahora</rs> a nobis Cesareis et regiis oratoribus ut hoc
+                    om[n]is in se assumat interpellatus in praesentiarum uti superarbiter uni
+                    dictarum sententiarum accedere debebit, ex cuius cognitione si castrum praefatum
+                    aut eius redditus, ipsi domino <rs ref="#pp0048">Guilhelmo</rs> accedere
+                    debebunt, ex tunc in spatio dimidii anni eius initium a tempore huius decisionis
+                    computando, Cesarea Maiestas domino <rs ref="#pp0048">Guilhelmo</rs> castrum
+                    ipsum vel eius redditus restituere aut eis loco octo milia florenorum
+                    Hungaricalium auri solvere debebit: At si praefati sex occasione dicti <rs
+                        ref="#pp0052">Jacobi</rs> ut puta quia eius causa absque eorum conventu
+                    terminari poterit in Hamburgum non essent accessuri. Nihilominus praesentis
+                    cognitionis gratia illac venire debebunt. <lb/>
+                    <lb/>32 Item conventum est insuper quod dominus <rs ref="#pp0042">rex
+                        Vladislaus</rs> et regnicole hos qui se neutrales in hoc bello constituerunt
+                    ut Sopronienses<note type="annotation" n="92">Die Einwohner von Sopron (dt.
+                        Oedenburg).</note> et alii eque ut alios regni subditos gratia et
+                    benevolentia complectantur et occasione illius neutralitatis aut cuiusvis
+                    alterius cum Romanorum rege intelligentie nulla indignatione aut statuum suorum
+                    detrimento persequantur. <lb/>
+                    <lb/>33 Item quantum spectat ad castra ipsius Gyleys ita conventum est si coram
+                    praefatis sex in Hamburgum in facto <rs ref="#pp0052">Jacobi Zekel</rs>
+                    venturis, documentis apertis docebitur pro parte Cesareae Maiestatis, Cesaream
+                    Maiestatem eius castra ut homines rebellantes sue Maiestati obsedisse prius quam
+                    sue Maiestati de novo, quandoquidem post mortem Mathie regis se in subiectionem
+                    Cesaream dederit nomine domini regis Vladislai diffidaverit, exclusus sit a
+                    beneficio praesentis tractatus, si autem ostendetur quia ante huiusmodi
+                    obsessionem et post reconciliationem et agnitam naturalis domini sui
+                    superioritatem Cesari nomine regis Wladislai bellum indixerit, gaudeat beneficio
+                    tractatus praesentis, ita quod castra sua sic ablata eidem restituantur. <lb/>
+                    <lb/>34 Item ex quo castra et dominia omnia ipsius domini de Potendorff ad manus
+                    Cesareas venire debebunt iuxta prius conclusa ipse autem filiam unicam
+                    reliquerit superstitem conventum est quod sua Maiestas eidem bona sua
+                    hereditaria aut iure ei debita restituat et donec sit minor annis ei de tutore
+                    provideat. <lb/>
+                    <lb/>35 Item conventum est quod ex adverso Romanorum rex universa castra et
+                    munitiones hoc tempore belli per Suam Maiestatem in Hungaria, Croatia, Sclavonia
+                    et ceteris provinciis qualitercumque ad Hungariam pertinentibus per se aut alios
+                    expugnata, vel alias qualitercumque in deditionem recepta, infra hinc et festum
+                    Sanctae Lucie prescriptum, ita ut castrorum huiusmodi traditio hinc inde eodem
+                    tempore fiat. His quorum fuerint et de quorum manibus recepta sunt, reddere vel
+                    restitui facere teneatur, et presertim Sabariam, vulgariter Stain am Anger,
+                    Zengroth, Kemend, Marvan, Kew, Kostel et alia omnia que in suis aut suorum
+                    subditorum manibus habet et hic non sunt expressa suis nominibus. At castrum
+                    Tersat quod ut fertur est in manibus Cesareis conventum est ut in sue Maiestatis
+                    manibus cum suis pertinentiis quo ad vitam sue Maiestatis dumtaxat maneat, et
+                    sua Maiestate ex humanis sublata absque ulteriori cunctatione ad Regnum redire
+                    debeat, quod ut certius fiat tenebitur se dominus Maximilianus rex de tradendo
+                    huiusmodi castro post Cesaris mortem ipsi regno vel regi, si interea modo
+                    superius expresso regno non praeficietur, pro se et heredibus suis inscribere et
+                    obligare. <lb/>Item quantum ad castrum Zdentzbs<note>Dumont: Zdeucz.</note>
+                    attinet conventum est ut ex quo ad illud dominus Wayvoda Transsilvanus plenum
+                    ius habere se asserit: manibus suis per regiam Romanorum Maiestatem assignetur.
+                    Castrum vero Scharffenekh, tunc tandem manibus regiis aut illius cui pertinet
+                    assignetur quando <rs ref="#pp0042">dominus Vladislaus</rs> rex ultimam faciet
+                    Cesari castrorum praedictorum restitutionem, ita quod huiusmodi restitutio hinc
+                    inde eodem tempore fiat. <lb/>
+                    <lb/>36 Item conventum est quod dominus <rs ref="#pp0042">Vladislaus</rs> rex
+                    filiis quondam <rs ref="#pp0058">Udalrici Gravenekker<note>Grafenecker (gest.
+                            1487), kaiserlicher Söldnerführer.</note></rs> provideat de aliquo
+                    honesto tutore qui Castrum Scharffenneck e manibus Romanorum regis aut suorum
+                    subditorum suo tempore recipiat, et ad manus dictorum filiorum una cum aliis
+                    eorum bonis fideliter custodiat, et ipsis<note type="crit_app" n="93">et ipsis.
+                        Dumont: ipsas.</note> ad legitimam etatem pervenientibus castrum ipsum cum
+                    suis pertinentiis et aliis bonis reddat et rationem &lt;praeceptorum&gt;<note
+                        type="crit_app" n="94">praeceptorum. Abkürzung: pceptoru. Dumont:
+                        perceptorum.</note> et expositorum faciat. <lb/>
+                    <lb/>37 Item ex quo tres maiestates in hanc sententiam convenerunt quod hinc
+                    inde adherentium castra et dominia quibus ablata sunt restituantur, et fortassis
+                    aliqui ex his in regno Hungarie qui huiusmodi castra tenent, in eisdem reddendis
+                    sive restituendis sese difficiles exhibere aut prorsus inobedientes ostendere
+                    possent, conventum est quod tam Cesar et Romanorum rex, quam dominus <rs
+                        ref="#pp0042">Vladislaus</rs> rex et regnum Hungariae unanimi consilio et
+                    auxilio contra tales insurgere, et eos ad restitutionem huiusmodi castrorum his
+                    quibus ablata sunt non solum compellere, verum etiam contumatia eorum crescente
+                    et exigente omnia eorum bona confiscare et personas ipsas exterminare debebunt.
+                    Ita similiter de subditis Cesareae Maiestatis observari debere in hoc casu
+                    conventum est. Si tamen aliqui se ad huiusmodi castra sic obtenta ius habere
+                    pretendant, illud iuxta consuetudinem patrie iure non violentia requirere
+                    teneantur. <lb/>
+                    <lb/>38 Item conventum est quod neque Cesarea Maiestas neque Romanorum rex
+                    subditos corone regni Hungarie rebelles, inobedientes aut alias quoquo pacto cum
+                    domino <rs ref="#pp0042">rege Vladislao</rs> non bene sentientes in sui
+                    protectionem et defensionem aut castra et munitiones eorum quas<note
+                        type="crit_app" n="95">quas. Dumont: quos.</note> tali casu offerre<note
+                        type="crit_app" n="96">offerre. Dumont: auferre.</note> possent, recipiant
+                    aut quoquo quesito fuco auxilia et consilia oculta aut manifesta prestent, sed
+                    ad eos confugientes repellant et se neque de personis neque de bonis et castris
+                    eorum intromittant, idque cum subditis et baronibus eorum fieri disponant,
+                    contravenientes feriose puniendo[s]., itidem vicissim fiat de subditis Cesaree
+                    aut Regie Romanorum Maiestatum rebellantibus dolo et fraude remotis. <lb/>
+                    <lb/>39 Item omnes in bello isto captivi ab utraque parte quamprimum post festum
+                    Sancti Martini absque ulteriori detrimento liberi pronuncientur, et holde et
+                    alie exactiones iure belli permisse<note type="crit_app" n="97">permisse.
+                        Abkürzung: pmisse. Dumont: promisse.</note> insuper et captivorum taxationes
+                    usque in hanc diem Sancti Martini non solute deinceps non solvantur neque
+                    petantur, tum et earum solutionum gratia fideiussores a sua fideiussione liberi
+                    pronuntientur, non obstante quacumque pactione sub quacumque conditione inter
+                    partes hinc inde conclusa, etiam si expressis verbis beneficio praesentis
+                    relaxationis renuntiassent, omnibus nempe huiusmodi et aliis obligationibus non
+                    obstantibus quicquid usque ad praefatum festum Sancti Martini solutum non
+                    fuerit, deinceps non solvatur. <lb/>
+                    <lb/>40 Item mercatoribus liber sit omniquaque accessus et negotiatio tam in
+                    aquis quam in terris solutis tamen theoloniis et aliis pro eorum mercibus solvi
+                    consuetis. Sed quoniam quidam mercatores tempore restitutionis Albe Regalis ad
+                    manus <rs ref="#pp0042">domini Vladislai</rs> regis sese in mercibus et
+                    servitoribus eorum illic contra articulos in cessione loci praefati conclusos et
+                    quidam ex illis etiam contra salvum conductum Regium, vim et damnum passos
+                    conqueruntur. Conventum est ut eius querele discussio ad illos sex in Hamburgo
+                    convenire debentes, remittatur et in hac re eorum iudicio stetur. <lb/>
+                    <lb/>41 Item generaliter omnes confederati, omnes adherentes principes Sacri
+                    Romani Imperii et alii quacumque dignitate, titulo vel officio sint insigniti
+                    cum eorum servitoribus in hac pace et unione intelligantur esse inclusi. Omnes
+                    insuper vasalli occasione praesentis adhesionis et belli feuda sua petere
+                    negligentes, illud deinceps a domino cuius est feudum petant, quod quidem feudum
+                    ob tempus neglectum aut adhesionem ad dominum feudi non intelligatur devolutum. <lb/>
+                    <lb/>42 Item si quisquam subditus corone regni Hungarie actionem sive querelam
+                    habuerit vel habiturus sit contra subditum Cesaree aut Regie Romanorum
+                    Maiestatum conveniat eum coram officialibus Cesaris vel Regis Romanorum prout
+                    iuris est et patrie consuetudinis, similiter fiat ex adverso, si subditus
+                    Cesaree Maiestatis aut Romanorum Regis actionem vel querelam habeat vel
+                    habiturus sit contra subditum corone, et ut pro utraque parte vitentur ambages
+                    et expense capitanei a parte Cesaree Maiestatis aut a parte dominus <rs
+                        ref="#pp0042">regis Vladislai</rs> et regni in loco rei vel conventi
+                    querulantibus simpliciter et de plano iustitiam summarie quotiens opportunum
+                    fuerit ministrare debebunt. Qui si causam huiusmodi diffinire non possent eam
+                    remittent ad principem rei vel conventi, qui post remissionem in spatio unius
+                    mensis in quantum ius admittit causam huiusmodi iustitia mediante finire
+                    teneatur. <lb/>
+                    <lb/>43 Item si quisquam subditorum Cesaree Maiestatis aut Romanorum Regis
+                    contra subditum corone actionem habens non quesita aut expectata iustitia
+                    propria auctoritate aut vi armorum, illi contra quem huiusmodi actionem habet
+                    aut alteri regnicole quocumque quesito colore damnum inferre praesumserit, ex
+                    tunc hinc Cesar vel Rex. Illinc Hungarie rex per Cesarem vel Romanorum Regem
+                    requisitus contra huiusmodi subditum insurgere et eundem pro modo excessuum
+                    suorum, etiam usque ad exterminum et eiectionem a<note type="crit_app" n="98"
+                        >permisse. Abkürzung: pmisse. Dumont: promisse.</note> patria et bonorum
+                    confiscationem castigare tenebuntur, simili modo per omnia procedant circa
+                    subditum regni simili temeritate contra subditum Cesaree aut Regie Romanorum
+                    Maiestatum quicquam contra ius attentare conantem. <lb/>
+                    <lb/>44 Item conventum est quod Cesar et Romanorum Rex hanc pacem et unionem sub
+                    generalibus scripturis Sanctissimo Domino nostro et Collegio Cardinalium
+                    intiment Sanctitatem suam certiorem reddendo quod hunc dominum Vladislaum regem
+                    deinceps pro vero et indubitato Hungarie rege habeant et recognoscant
+                    obedientiam quam praestiterint<note type="crit_app" n="99">praestiterint.
+                        Dumont: praestiterit</note> acceptent et suam Serenitatem ut in principio
+                    huius tractatus scriptum est promovendo. <lb/>
+                    <lb/>45 Item conventum est si stipendiarii utriusque partis pro convenienti et
+                    honesta laborum satisfactione non contenti, fraternitates et uniones inter se
+                    facere et regna, principatus et dominia illius aut alterius principis vi aut
+                    armis invadere constituerent, ex tunc ambo reges et Cesar una cum suis subditis
+                    pari consensu contra tales insurgere et eos uti pacis violatores punire et
+                    eiicere teneantur. <lb/>
+                    <lb/>46 Item conclusum est quod <rs ref="#pp0002">Sacra Imperialis
+                    Maiestas</rs>, Romanorum Rex et dominus <rs ref="#pp0042">Vladislaus Rex</rs>
+                    hunc praesentem tractatum cum insertione articulorum de verbo ad verbum de novo
+                    roborent et confirment et huiusmodi roborationis et confirmationis littere,
+                    Cesaree et Regie Romanorum Maiestatum, una cum litteris concernentibus castrum
+                    Tersat. Similiter et domini Vladislai regis in Hamburgum ad diem Sancti Fabiani
+                    et Sebastiani proxime futurum portentur et illic hinc inde consignentur, ita
+                    quod huiusmodi litterarum assignatio hinc inde eodem die fiat. <lb/>
+                    <lb/>47 Item certis respectibus necessariis presertim pro solidiori praesentium
+                    articulorum firmatione et integritate amicitie eorum et manutentione regnorum,
+                    terrarum et dominiorum suorum tum et nova inter Reges ambos et Cesarem
+                    confederatione pro mutuis auxiliis contra quoscumque prestandis. Et aliis rebus
+                    ingruentibus conventum est quod post festum Penthecostes cum dominus <rs
+                        ref="#pp0042">Vladislaus Rex</rs> ab illa generali dieta de qua in articulis
+                    prescriptis absolutus fuerit Romanorum Imperator et Rex et sua Serenitas in
+                    aliquo loco de quo postea concordabunt, personaliter convenient et illic de
+                    omnibus que opus sunt concordabunt. <lb/>
+                    <lb/>48 Item conventum est finaliter quod deinceps nullius differentie aut
+                    dissensionis causa etiam inter principes ipsos, aut eorum Subditos quantumcumque
+                    potentes aut inferiores sive occasione iurisdictionis, aut contractus
+                    cuiuscumque, sive confinium aut metarum dominiorum, sive delecti subditorum,
+                    sive alia quacumque causa nulla excepta, exorte. Principes ipsi ad arma aut
+                    hostilitatem deveniant. Sed quotienscumque talis casus in futurum accidet. Si
+                    quidem is per capitaneos et officiales locorum determinari non possit, principes
+                    ipsi consiliarios suos utrinque in aliquo loco competenti convenire faciant, et
+                    illis plenam auctoritatem huiusmodi differentias sopiendi et prorsus tollendi
+                    concedant, et quicquid per huiusmodi consiliarios decretum fuerit, id ab utraque
+                    parte observari debebit. <lb/>
+                    <lb/>49 Postremo, quantum ad castrum Costel pertinet quod tanquam in praesenti
+                    bello hostiliter captum esset, inter alia ut domino <rs ref="#pp0042">regi
+                        Vladislao</rs> assignaretur in articulis praecedentibus connumeratur.
+                    Conventum est quod idem castrum in illius manibus qui hoc hodie tenet remaneat,
+                    servitiis omnibus et impositionibus generalibus ad colonos ut aliis regio<note
+                        type="crit_app" n="100">regio. Dumont: Regni</note> colonis fieri est
+                    consuetum, similiter et praestatione fidelitatis de eodem castro regi Hungarie
+                    uti ab antiquo introductum est, ac aliis iuribus si quod quisquam ad idem
+                    castrum habere praetendit semper salvis. <lb/>In quarum rerum robur fidem et
+                    testimonium has praesentes litteras scribi et sigillis nostris solitis communiri
+                    fecimus. Et pro maiori securitate omnium supradictorum manus nostras proprias
+                    hic infra subiunximus. Datum et actum Posonii die lune post festum Sancti
+                    Leonardi. Anno domini millesimoquadringentesimononagesimoprimo. </p>
+                <p><rs ref="pp0032">Thobias de Bozkowiz</rs> manu propria <lb/><rs ref="#pp0034"
+                        >Bernnardus Perger</rs> prothonotarius pro domino <rs ref="#pp0033">Matheo
+                        de Spawr</rs>, domino in Hoheneck, &lt;...&gt; ad eius petitionem et pro se
+                    ipso sufficienter manu proprie <lb/><rs ref="#pp0035">Johannes Fuxmagen</rs>,
+                    doctor, manu propria subsig. <lb/>Nos <rs ref="#pp0036">Ytellfridericus comes de
+                        Zollern</rs> suppscripta &lt;...&gt; <lb/>Ego <rs ref="#pp0037">Pernhardus
+                        dominus in Polheim</rs> &lt;...&gt; <lb/><rs ref="#pp0038">Henricus
+                        Prueschenk, Freiherr zu Stattenberg</rs>
+                    <lb/><rs ref="#pp0034">Bernnardus Perger</rs> pro domino <rs ref="#pp0039">Jo.
+                        Kishorvat</rs> &lt;...&gt; <lb/><rs ref="#pp0040">Georg Rottaler</rs> mein
+                    Handt </p>
+                <p>
+                    <lb/>Die Vorlage erstellte Frau Dr. A. Tischer (Marburg) </p>
+                <p> </p>
+            </div>
+        </body>
+        <back>
+            <listBibl>
+                <bibl>Wiesflecker, Kaiser Maximilian I., I: Jugend, burgundisches Erbe und Römisches
+                    Königtum bis zur Alleinherrschaft, S. 303-308. </bibl>
+            </listBibl>
+        </back>
+    </text>
+</tei:TEI>

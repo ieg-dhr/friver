@@ -1,0 +1,326 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE tei SYSTEM "../resources/FriVer_DTD.dtd">
+
+<?xml-model href="../resources/FriVer.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns="http://www.tei-c.org/ns/1.0"
+    xml:id="pa000299-0018">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title level="s">European peace treaties of the pre-modern era in data / Europäische
+                    Friedensverträge der Vormoderne in Daten (FriVer+)</title>
+                <title when="1674-04-22" xml:id="t18" when-custom="1674 IV 22" level="a"
+                    ref="https://www.ieg-friedensvertraege.de/treaty/t-18-1-de.html">Friedensvertrag
+                    von Köln</title>
+            </titleStmt>
+            <editionStmt>
+                <edition> Digital edition according to <ref target="http://www.tei-c.org/">TEI
+                        P5</ref>
+                </edition>
+                <funder>
+                    <ref target="https://www.text-plus.org/">TEXT+</ref>
+                </funder>
+                <editor role="http://id.loc.gov/vocabulary/relators/edt"
+                    ref="https://orcid.org/0000-0002-8741-5916">
+                    <persName>Jaap Geraerts</persName>
+                    <note>The transformation and enrichment of the data is done by Jaap Geraerts
+                        (IEG Mainz). The other members of the FriVer+ team are Fabian Cremer, Ines
+                        Grund, and Thorsten Wübbena (all IEG Mainz).</note>
+                    <note> The original data has been created by the <ref
+                            target="https://www.ieg-friedensvertraege.de">team of scholars</ref> who
+                        were part of the Europäische Friedensverträge der Vormoderne project. This
+                        project was lead by Prof. Dr. Heinz Duchhardt and was based at the Leibniz
+                        Institute of European History in Mainz. </note>
+                </editor>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>
+                    <orgName ref="http://www.isni.org/0000000119314040">Leibniz-Institut für
+                        Europäische Geschichte Mainz</orgName>
+                </publisher>
+                <distributor>
+                    <orgName ref="http://www.isni.org/0000000110101946">Universitäts- und
+                        Landesbibliothek Darmstadt</orgName>
+                </distributor>
+                <idno type="ISIL">http://lobid.org/organisation/DE-17</idno>
+                <date type="issued" when="2023-12-23"/>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">
+                        <p xml:lang="en">This file is licensed under the terms of the Creative
+                            Commons License CC-BY 4.0 (Attribution 4.0 International)</p>
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <repository xml:id="r21">Muenster StA/LA <note>Archivportal NRW, Findbuch:<lb/>
+                        <ref
+                            target="http://www.archive.nrw.de/LAV_NRW/jsp/findbuch.jsp?archivNr=1&amp;verzguid=Vz_7e5e5ced-c9e4-41c2-8fdc-dbf541c11f15"
+                            >http://www.archive.nrw.de/LAV_NRW/jsp/findbuch.jsp?archivNr=1&amp;verzguid=Vz_7e5e5ced-c9e4-41c2-8fdc-dbf541c11f15</ref></note>
+                </repository>
+                <msDesc>
+                    <p>Nordrhein-Westfälisches Staatsarchiv Münster Abt. 12 Nr 13 a [=Urkunden
+                        Nr.4640] 1674 IV 22 (Hauptvertrag). <lb/>
+                        <lb/>Weitere Stücke: Ratifikation des Kaisers 1674 V 20. Ratifikation
+                        Münster, Münster 1674 IV 25. <lb/>Nordrhein-Westfälisches Staatsarchiv
+                        Münster Urkunden 4641: Ratifikation der Generalstaaten ´s-Gravenhage1674 V
+                        4; ebd. Nr. 4642: Garantieerklärung des Kaisers, Laxenburg 1674 V 20.
+                        Sondervertrag des Kaisers mit dem Fürstbischof von Münster,&nbsp;Köln 1674
+                        IV 22 (Staatsarchiv Münster, Fürstentum Münster, Landesarchiv, Urkunde Nr.
+                        4639) <lb/>
+                    </p>
+                    <p>[Anm.:] Der in CTS abgedruckte Separatartikel (siehe "Drucke") fehlt im
+                        Staatsarchiv Münster. </p>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p> The data in this XML file, originally created by the project <ref
+                        target="https://www.ieg-friedensvertraege.de/vertraege">Europäische
+                        Friedensverträge der Vormoderne online</ref> has been transformed in
+                    accordance with <ref target="http://www.tei-c.org/">TEI P5</ref> as part of the
+                    project <ref
+                        target="https://www.ieg-mainz.de/en/research/research-projects/european-peace-treaties-of-the-pre-modern-era-in-data"
+                        >Europäische Friedensverträge der Vormoderne in Daten (FriVer+)</ref>
+                </p>
+            </projectDesc>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="la" xml:id="lan6">Latein</language>
+            </langUsage>
+        </profileDesc>
+    </teiHeader>
+    <standOff>
+        <listPerson>
+            <person role="signatory" xml:id="p49">
+                <persName ref="https://explore.gnd.network/gnd/4101204-5">
+                    <name>Generalstaaten</name>
+                </persName>
+            </person>
+            <person role="signatory" xml:id="p78">
+                <persName ref="https://explore.gnd.network/gnd/4040608-8">
+                    <name>Münster</name>
+                </persName>
+            </person>
+        </listPerson>
+        <listPlace>
+            <place xml:id="l12">
+                <placeName ref="https://explore.gnd.network/gnd/4031483-2">Köln</placeName>
+            </place>
+        </listPlace>
+    </standOff>
+    <text>
+        <front>
+            <div type="Drucke">
+                <p>Akten und Urkunden zur Außenpolitik Christoph Berhards von Galen (1650-1678)
+                    [=Quellen und Forschungen zum Absolutismus in Westfalen. Bd.1], Münster 1980,
+                    II, S.617-619. CTS XIII, S. 141-151. <lb/>Dumont VII/1, S. 259-261&nbsp; <ref
+                        target="http://gallica.bnf.fr/ark:/12148/bpt6k122965z.image.f280.langEN"
+                        >Link zum Druck auf gallica.bnf.fr </ref>
+                    <lb/>Acta publica &nbsp;X, S. 160-161 (dt.). <lb/>Teutsches Reichsarchiv pars
+                    specialis, continuatio II (3), S. 221ff. <lb/>
+                    <lb/>[Unklare Angaben nach CTS: Receuil des Traités entre les Etats-Généraux et
+                    divers Rois, Princes. Theatrum Europaeum IX, S. 685 (hier nicht gefunden)
+                    (dt.)]. <lb/>
+                </p>
+            </div>
+            <div type="Inhalt">
+                <p>Münster sieht zum Wohle des Reichs vom Bündnis mit Frankreich ab und geht einen
+                    Frieden mit den Generalstaaten ein. Vermittler. <lb/>Art. 1 Frieden. <lb/>Art. 2
+                    Amnestie und Vergessenheit für alles, was sich seit dem Frieden von Kleve 1666
+                    ereignet hat. Amnestieauschlüsse. Art. II Friede von Kleve. <lb/>Art. 3
+                    Restitutionen Münsters an die Generalstaaten. Rückgaben Kriegseroberungen unter
+                    Beachtung der Reichsverfassung und des Westphälischen Friedens. <lb/>Art. 4
+                    Münster und die Generalstaaten restituieren Kriegseroberungen. <lb/>Art. 5
+                    Bestätigung des Friedens von Kleve. <lb/>Art. 6 Einschlüsse in den Frieden.
+                    Amnestie. Grafschaft Bentheim. <lb/>Art. 7 Spanien soll um eine Garantie des
+                    Vertrages ersucht werden. <lb/>Art. 8 Ratifikation innerhalb 28 Tagen.
+                    Einstellung der Feinseligkeiten nach der Ratifikation Münsters. <lb/>Bestätigung
+                    der Kaiserlichen Delegierten. <lb/>Separatartikel <lb/>Ratifiaktion
+                    Generalstände <lb/>Ratifikation Münster <lb/></p>
+            </div>
+        </front>
+        <body>
+            <div type="Transliteration">
+                <pb facs="#FacsPnr1"/>
+                <p>In nomine Domini ac Sacrosanctæ&nbsp; et individuæ <lb/>Trinitatis. </p>
+                <p>Notum hisce sit cunctis, posteaquam bellum inter Chris&lt;tia&gt;<note n="1" type="crit_app">
+                        Unleserlich durch Textrand. </note> - <lb/>nissimum Galliarum Regem
+                    ejusq[ue] Confoederatos ex una, &lt;et&gt;<note n="2" type="crit_app">Unleserlich durch
+                        Textrand.</note>
+                    <lb/>Celsissimos et præpotentes foederati Belgij Ordines, &lt;eorumque&gt;<note
+                        n="3" type="crit_app">Unleserlich durch Textrand.</note>
+                    <lb/>confoederatos ex altera partibus nuper exortum, eo us&lt;que&gt;<note n="4"
+                         type="crit_app"> Unleserlich durch Textrand.</note>
+                    <lb/>excrevit , ut Sac[ram] Cæs[are]am M[ajesta]tem totumque Romanum
+                        Imp&lt;erium&gt;<note n="5" type="crit_app">Unleserlich durch Textrand.</note>
+                    <lb/>tandem involvat, et altissime memorata S[acra]. Cæs[area.] M[ajes]tas
+                        &lt;per&gt;<note n="6" type="crit_app">Unleserlich durch Textrand.</note>
+                    <lb/>&nbsp;Ministros suos Rev[eren]d[issi]mum et Cels[issi]mum D[omi]num
+                    Episcopum et Pr&lt;inci&gt;<note n="7" type="crit_app">Unleserlich durch Textrand.</note> -
+                    <lb/>pem Monasteriensem, qui uti Christianissimae Regiæ M&lt;ajestatis&gt;<note
+                        n="8" type="crit_app"> Unleserlich durch Textrand.</note>
+                    <lb/>Confoederatus, dicto bello contra unitum Belgium accesserat, <lb/>adhortari
+                    fecerit, ut a foedere Gallico recederet , et pro commu- <lb/>ni totius Imperij
+                    &amp; Reipublicæ bono, pacem cum altememo- <lb/>ratis D[omi]nis Ordinibus
+                    iniret; cui adhortationi dictus D[omi]nus Episcopus <lb/>locum dare, et in
+                    devotissimum respectum S[acræ]. Cæs[are] æ <lb/>M[ajesta]tis a foedere cum
+                    altememorato Rege Christianissimo antehac <lb/>inito, vi et potestate arbitrij
+                    sibi in ipso foedere reservati, <lb/>discedere eiq[ue] debite renunciare, nec
+                    non nuperis comi- <lb/>tiorum Ratisbonensium recessibus, pro guarantiâ oppressis
+                    <lb/>Imperij Statibus juxta ejusdem constitutiones præstandâ , per <lb/>omnia
+                    stare et se conformare, eumq[ue] in finem cum quota <lb/>debita concurrere;
+                    prout etiam cum dictis D[omi]nis Ordinibus <lb/>foederati Belgij, ad bonum
+                    publicum promovendum, pacem <lb/>inire paratus.&nbsp;&nbsp;Quod hinc ad
+                    interpositionem S[acræ]. Cæs[are] æ <lb/>&nbsp;Ma[esta]tis ministrorum, nimirum
+                    Ill[ustrissi]morum &amp; Excell[entissi]morum D[omi]norum <lb/>Francisci liberi
+                    Baronis de Lisola, Sac[ræ] Cæs[are]æ M[ajesta]tis consiliarij <lb/>Aulici, et
+                    Joannis Fischer, anterioris Austriæ consiliarij <lb/>Cameralis, ad generales
+                    pacis tractatus Legatorum et <lb/>Plenipotentiariorum, inter utriusq[ue] partis
+                    plenipotentia- <lb/>rios et ad hoc Deputatos, ex parte altememoratorum
+                    D[omi]norum <lb/>Ordinum Generalium Ill[ustrissi]mos et Ex[cellentissi]mos
+                    D[omi]no&lt;s&gt; Hieronimum a&nbsp; </p>
+                <pb facs="#FacsPnr2"/>
+                <p>Beverning, urbis Godanæ Exconsulem, quondam uniti <lb/>Belgij Consiliarium et
+                    quæstorem generalem, et Joannem <lb/>&nbsp;Isbrandts, 'toparch&lt;e&gt;m in
+                    Hochkercke et Senatorem Gronin- <lb/>ganum, in consessu D[omi]norum Ordinum
+                    Generalium Deputatos: <lb/>Ex parte vero prænominati D[omi]ni Episcopi,
+                    Rev[eren]d[issi]mum perillus- <lb/>trem et generosum, nec non Nobilem et
+                    Clarissimum D[omi]nos <lb/>Fridericum Baronem à Schmising, Ordinis S[anc]ti.
+                    Joannis <lb/>Hyerosolimitani Equitem et Commendatorem in Francforte <lb/>et
+                    Wernerum Zur Muhlen, Jurium Doctorem, Cels[itu]dinis suæ <lb/>consiliarios
+                    intimos et respective Vicecancellarium, in <lb/>sequentes pacis leges tandem
+                    conventum sit. </p>
+                <p>1. <lb/>Pax sit constans et perpetua inter antedictos Dominos <lb/>Ordines uniti
+                    Belgij et D[omi]num Episcopum et principem Mo- <lb/>nasteriensem, eaque sic
+                    colatur et servetur serio, ut <lb/>mutuis sibi invicem commodis studeant, et
+                    omnia humani- <lb/>tatis, bonæq[ue] Viciniæ officia, præstent, neq[ue]
+                    imposterum <lb/>una Pars contra alterius subditos arresta &amp; repressalias
+                    <lb/>decernet, ne&lt;.&gt;<note n="9" type="crit_app">Undeutlich, ne&lt;c&gt;, auch
+                        ne&lt;q&gt;[que] möglich.</note>&nbsp; executiones rerum judicatarum im-
+                    <lb/>pediet. </p>
+                <p>2. <lb/>Sit utrimq[ue] perpetua oblivio omnium eorum, quæ post <lb/>pacem
+                    Clivensem, et ab initio huius belli usq[ue] huc, quocunq[ue] <lb/>modo aut loco,
+                    ultro citroq[ue] hostiliter facta sunt, ita ut <lb/>nec illorum, nec
+                        ulli&lt;.&gt;<note n="10" type="crit_app">Undeutlich, ulli&lt;u&gt;s. </note>s alterius rei
+                    causa vel prætextu, ullus <lb/>posthac quicquam hostilitatis, inimicitiæ,
+                    molestiæ vel impe- <lb/>dimenti, tam quo ad personas, quam bona, per se vel per
+                    <lb/>alios, clam aut palam, directe vel indirecte, specie juris aut via facti
+                    <lb/>uspiam inferat vel inferri faciat aut <lb/>patiatur, sed omnes et singulæ
+                    hinc inde tam ante quam <lb/>in bello, verbis, scriptis aut factis illatæ
+                    injuriæ, <lb/>violentiæ, damna, expensæ absq[ue] omni personarum </p>
+                <p> </p>
+                <p>&nbsp; </p>
+                <pb facs="#FacsPnr3"/>
+                <p>rerumve respectu, ita penitus abolitæ sint, ut &lt;quidquid&gt;<note n="11"
+                         type="crit_app">Unleserlich durch Textrand.</note>
+                    <lb/>eo nomine alter adversus alterum præten&lt;dere posset&gt;<note n="12" type="crit_app">
+                        Unleserlich durch Textrand.</note>, <lb/>perpetua sit oblivione
+                    sepult&lt;a&gt;m. <lb/>Ad quorum tamen dil&lt;u&gt;cidationem conventum est,
+                    quod ab &lt;hac amnestia&gt;<note n="13" type="crit_app">Unleserlich durch Textrand.</note>
+                    <lb/>erunt excipiendi ij omnes, qui proditionis, aut læ&lt;sæ
+                        Majestatis&gt;<note n="14" type="crit_app">Unleserlich durch Textrand.</note>
+                    <lb/>rei arguentur, ita tamen, ut illi&lt;co&gt; via juris utrimq&lt;ue
+                        aperta&gt;<note n="15" type="crit_app">Unleserlich durch Textrand.</note>
+                    <lb/>et uxoribus liberisq[ue] et Hæredibus bona salva &lt;maneant&gt;<note
+                        n="16" type="crit_app"> Unleserlich durch Textrand.</note>, <lb/>iuxta tenorem Articuli
+                    Secundi Tractatus Clivensis. </p>
+                <p>3. <lb/>Posito hoc universalis et illimitatæ amnestiæ fundamento, <lb/>restituet
+                    D[omi]nus Episcopus statim et ilico post Ratificationem <lb/>D[omi]nis uniti
+                    Belgij Ordinibus omnia ea loca, ubicunq[ue] sita, <lb/>o prorsus reservato, quæ
+                    durante hoc bello occupavit, <lb/>et quæ ex ijsdem in ipsius potestate tempore
+                    huius conclu- <lb/>sionis invenientur, et quidem omnia in eo Statu, quo nunc
+                    <lb/>reperiuntur, et curabit, ne quidquam in ijs deterius, quam <lb/>nunc est,
+                    reddatur, nominatim oppida, arces et Castella&nbsp; de <lb/>Lingen, Lichtenfort
+                    &amp; Borckelo &lt;..&gt; <note n="17" type="crit_app">Unklares Zeichen, möglicherweise
+                        &lt;etc.&gt;.</note>, salvis tamen per omnia <lb/>iuribus et
+                    constitutionibus Imperij pacisq[ue] Weltphalicæ, ne <lb/>quid per hasce
+                    restitutiones ijs derogetur, aut in eorum <lb/>&nbsp;præiudicium innovetur. </p>
+                <p>4. <lb/>Restituet identidem omnibus Nobilibus, Vasallis et subditis
+                    <lb/>D[omin]orum Ordinum, cujuscunq[ue] nominis et conditionis, omnia <lb/>et
+                    singula eorum Territoria, Dominia, iurisdictiones, agros <lb/>et bona immobilia
+                    ubicunq[ue] sita, quæ durante hoc bello <lb/>occupavit aut occupari fecit, et
+                    nominatim evacuabit <lb/>milite suo castellum, oppidum et Dominium de Weerth, et
+                    <lb/>D[omi]no Georgio Friderico Comiti de Waldeck restituet, reservatis
+                    <lb/>tamen per expressum omnibus tam dicto D[omi]no Episcopo, ejusq[ue]&nbsp; </p>
+                <p>
+                    <pb facs="#FacsPnr4"/>successoribus et Ecclesiæ, quam D[omi]no Comiti
+                    competentibus juribus, <lb/>prætensionibus et actionibus coram competente iudice
+                    de- <lb/>cidendis; prout et curabunt D[omi]ni Ordines ut vice versa
+                    <lb/>Vasàllis et Subditis Monasteriensibus omnia eorundem <lb/>durante hoc bello
+                    occupata bona immobilia ubicunque <lb/>sita restituantur; Captivi quoq[ue] hinc
+                    inde, cuius <lb/>conditionis status aut professionis sint, libere demittentur
+                    <lb/>et relaxabuntur. </p>
+                <p>5. <lb/>Maneat Tractatus Clivensis 18. Aprilis stilo novo Anno <lb/>&nbsp;1666.to
+                    conclusus in plena vi et vigore in quantum præsenti <lb/>Tractatui atenus
+                    contradicit. </p>
+                <p>6. <lb/>Comprehendatur hac pace et amnystia domus et familia Comitum <lb/>de
+                    Benthem, ejusq[ue] Ministri , Vasalli et Subditi, et quæ <lb/>ipsi durante hoc
+                    bello ablata fuerunt, utrimq[ue] restituantur, <lb/>gaudeatq[ue] dictus
+                    D[omi]nus Comes absq[ue] ullo impedimento, uti <lb/>reliqui Imperij Status suis
+                    juribus et regalibus et sub <lb/>Cæs[are]æ M[ajesa]tis et Imperij protectione
+                    tranquille relinquatur, <lb/>et post horum tractatuum ratihabitionem
+                    allaborabunt <lb/>pars utraq[ue] Coram Cæs[are]a S[acra] M[ajesta]t&lt;e&gt; quo
+                    pax, securitas et <lb/>amor, praecipue conjugalis in ea familia restituantur
+                    <lb/>et stabiliantur, jurisdictione tamen Cæs[are]a semper salva <lb/>et
+                    reservata. </p>
+                <p>7. <lb/>Ad maiorem prædictorum cautelam et securitatem S[acra] <lb/>Cæs[area]a
+                    M[ajes]tas ac Ser[enissi]mus Hispaniarum Rex debite requirentur, <lb/>ut
+                    guarantiam huius Tractatus solemni et meliori forma <lb/>præstare velint. </p>
+                <pb facs="#FacsPnr5"/>
+                <p>8. <lb/>Huius Tractatus Ratihabitiones ex utraque parte paci&lt;scentium&gt;<note
+                        n="18" type="crit_app">Unleserlich durch Textrand.</note>
+                    <lb/>extradentur ad manus D[omin]orum Legatorum S[acr] æ &lt;Cæsareæ Majestatis
+                    et comm-&gt;<note n="19" type="crit_app">Unleserlich durch Textrand.</note>&nbsp; <lb/>utabuntur
+                    intra quindecim dies à die subscrip&lt;tionis huius&gt;<note n="20" type="crit_app">Unleserlich
+                        durch Textrand.</note>&nbsp; <lb/>instrumenti computandos et citius si fieri
+                    possit. &lt;Actus&gt;<note n="21" type="crit_app">Unleserlich durch Textrand.</note>
+                    <lb/>tamen hostilitatis cessabunt quam primum ratih&lt;abitio&gt;<note n="22" type="crit_app">
+                        Unleserlich durch Textrand.</note>
+                    <lb/>Cel[sissi]mi D[omi]ni Episcopi Monasteriensis Coloniam
+                        adven&lt;erit&gt;<note n="23" type="crit_app">Unleserlich durch Textrand.</note>
+                    <lb/>et ad manus dictorum D[omin]orum Legatorum Cæsareanorum <lb/>fuerit
+                    consignata.&nbsp;&nbsp;In cuius rei fidem duo eiusdem <lb/>tenoris instrumenta
+                    desuper confecta tam à D[omi]nis Legatis <lb/>Cæsareis, quam ab utriusq[ue]
+                    partis plenipotentiarijs et de- <lb/>putatis subscripta &amp; sigillata
+                    sunt.&nbsp; Actum Coloniæ <lb/>Agrippinæ die Vigesima secunda Aprilis Anno
+                    Millesimo <lb/>Sexcentesimo Septagesimo quarto </p>
+                <p>(LS) H. v. Beverning&lt;.&gt;<note n="24" type="crit_app">&lt;k&gt;, auch &lt;h&gt;
+                        möglich.</note>&nbsp;mp. <lb/>(LS) &lt;.&gt;<note n="25" type="crit_app">Unklar, vermutlich
+                        &lt;F k&gt;.</note>&nbsp;Schmisingh mp <lb/>(LS) J. Isbrandts
+                    <lb/>&nbsp;(LS) W. Zur Mühlen </p>
+                <p>
+                    <lb/>In supradictorum omnium fidem, infrascripti Domini <lb/>Mediatores hoc
+                    instrumentum subsignatione sua et sigillis communiverunt, <lb/>loco et die, quo
+                    sup[ra]. </p>
+                <p>(LS) F. De Lisola <lb/>(LS) Joannes Fischer <lb/></p>
+            </div>
+        </body>
+        <back>
+            <listBibl>
+                <bibl xml:id="a293">
+                    <title level="a">Reichsarchiv (1674-04-22)</title>
+                    <title level="m">Reichsarchiv, Band 7 (1711), PSpec Con I-III (3), S.223-228
+                        Aus: Dokumentenarchiv der Universitätsbibliothek Augsburg (Drucke vor 1900 /
+                        Historische Geschichtswerke).</title>
+                    <biblScope>
+                        <graphic xml:id="A1Pnr1"
+                            url="https://www.ieg-friedensvertraege.de/dbimages/img_4a9e3ed1e5807"/>
+                        <graphic xml:id="A1Pnr2"
+                            url="https://www.ieg-friedensvertraege.de/dbimages/img_4a9e3ed864964"/>
+                        <graphic xml:id="A1Pnr3"
+                            url="https://www.ieg-friedensvertraege.de/dbimages/img_4a9e3edf3b903"/>
+                        <graphic xml:id="A1Pnr4"
+                            url="https://www.ieg-friedensvertraege.de/dbimages/img_4a9e3ee67143c"/>
+                    </biblScope>
+                </bibl>
+                <bibl>Brand, Geschichte des Fürstbistums Münster, S. 194-213.&nbsp; Wilhelm Kohl,
+                    C.B.v. Galen. Politische Geschichte des Fürstbistums Münster 1650-1678. Münster
+                    1964. Wilhelm Kohl (Hg.), Westfälische Geschichte. Bd. 1. Düsseldorf 1983.&nbsp;
+                    <lb/></bibl>
+            </listBibl>
+        </back>
+    </text>
+</tei:TEI>

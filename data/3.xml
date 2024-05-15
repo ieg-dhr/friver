@@ -1,0 +1,870 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE tei SYSTEM "../resources/FriVer_DTD.dtd">
+
+<?xml-model href="../resources/FriVer.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<tei:TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0"
+    xml:id="pa000299-0003">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title level="s">European peace treaties of the pre-modern era in data / Europäische
+                    Friedensverträge der Vormoderne in Daten (FriVer+)</title>
+                <title when="1763-02-15" xml:id="t3" when-custom="1763 II 15" level="a"
+                    ref="https://www.ieg-friedensvertraege.de/treaty/t-3-1-de.html">Friedensvertrag
+                    von Hubertusburg</title>
+            </titleStmt>
+            <editionStmt>
+                <edition> Digital edition according to <ref target="http://www.tei-c.org/">TEI
+                        P5</ref>
+                </edition>
+                <funder>
+                    <ref target="https://www.text-plus.org/">TEXT+</ref>
+                </funder>
+                <editor role="http://id.loc.gov/vocabulary/relators/edt"
+                    ref="https://orcid.org/0000-0002-8741-5916">
+                    <persName>Jaap Geraerts</persName>
+                    <note>The transformation and enrichment of the data is done by Jaap Geraerts
+                        (IEG Mainz). The other members of the FriVer+ team are Fabian Cremer, Ines
+                        Grund, and Thorsten Wübbena (all IEG Mainz).</note>
+                    <note> The original data has been created by the <ref
+                            target="https://www.ieg-friedensvertraege.de">team of scholars</ref> who
+                        were part of the Europäische Friedensverträge der Vormoderne project. This
+                        project was lead by Prof. Dr. Heinz Duchhardt and was based at the Leibniz
+                        Institute of European History in Mainz. </note>
+                </editor>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>
+                    <orgName ref="http://www.isni.org/0000000119314040">Leibniz-Institut für
+                        Europäische Geschichte Mainz</orgName>
+                </publisher>
+                <distributor>
+                    <orgName ref="http://www.isni.org/0000000110101946">Universitäts- und
+                        Landesbibliothek Darmstadt</orgName>
+                </distributor>
+                <idno type="ISIL">http://lobid.org/organisation/DE-17</idno>
+                <date type="issued" when="2023-12-23"/>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">
+                        <p xml:lang="en">This file is licensed under the terms of the Creative
+                            Commons License CC-BY 4.0 (Attribution 4.0 International)</p>
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <repository xml:id="r30"> Warschau AGAD <note>Archiwum Główne Akt Dawnych Warschau,
+                        Zbiór dokumentów papierowych Nr. 1439. Findbuch:<lb/>
+                        <ref target="https://agad.gov.pl/?page_id=1599"
+                            >https://agad.gov.pl/?page_id=1599</ref></note>
+                </repository>
+                <msDesc>
+                    <p>Graphik: AGADWarschau, Zbiór Dokumentów Pergaminowych Nr. 1439.</p>
+
+                    <p>Unterhändlerinstrument:<lb/> GSABerlin VI HA Nr. 729: Hubertusburg 1763 II 15
+                        (fol. 1-10; Hauptvertrag: 11 Art. mit 3 Sep.art., Spezifikation,
+                        Zusatzvertrag (8 Art.); insges. 6 US, 6 aufgedrückte LS der Bevollmächtigten
+                        Ewald Friedrich von Hertzberg, Thomas Freiherr von Fritsch)<lb/>
+                        <lb/> SHSADresden 10001 Ältere Urkunden Nr.17945: Hubertusburg 1763 II 15
+                        (frz., 10 fol.,&nbsp; Hauptvertrag, 3 Sep.art., Specificatio, Zusatzvertrag,
+                        je 2 aufgedrückte LS)<lb/>
+                        <lb/> Ratifikation:<lb/> GSABerlin VI HA Nr. 730: Ratifikation des
+                        Hauptvertrages durch Sachsen-Polen Warschau 1763 II 22 (3 US, 3 OS August
+                        III., Papier, fol. 1-16, frz.; zusätzlich enthalten: 3 Ausfertigungen)<lb/>
+                        <lb/> GSABerlin VI HA Nr. 730: Ratifikation der Sep.art. durch Sachsen-Polen
+                        Warschau 1763 II 22<lb/>
+                        <lb/> SHSADresden 10001 Ältere Urkunden Nr.14948: Ratifikation Preußen
+                        Dahlen 1763 II 21</p>
+                    <p>Kopien und Konzepte:<lb/> GSABerlin: VI A Nr. 729: Entwurf (frz.) und dt.
+                        Ü.</p>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p> The data in this XML file, originally created by the project <ref
+                        target="https://www.ieg-friedensvertraege.de/vertraege">Europäische
+                        Friedensverträge der Vormoderne online</ref> has been transformed in
+                    accordance with <ref target="http://www.tei-c.org/">TEI P5</ref> as part of the
+                    project <ref
+                        target="https://www.ieg-mainz.de/en/research/research-projects/european-peace-treaties-of-the-pre-modern-era-in-data"
+                        >Europäische Friedensverträge der Vormoderne in Daten (FriVer+)</ref>
+                </p>
+            </projectDesc>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="fr" xml:id="lan4">französisch</language>
+            </langUsage>
+        </profileDesc>
+    </teiHeader>
+    <standOff>
+        <listPerson>
+            <person role="signatory" xml:id="p93">
+                <persName ref="https://explore.gnd.network/gnd/4047194-9">
+                    <name>Preußen</name>
+                </persName>
+            </person>
+            <person role="signatory" xml:id="p92">
+                <persName ref="https://www.wikidata.org/wiki/Q824047">
+                    <name>Sachsen / Polen</name>
+                </persName>
+            </person>
+            <person xml:id="pp0016">
+                <persName ref="https://explore.gnd.network/gnd/118535749">
+                    <name>Frederick II of Prussia</name>
+                </persName>
+            </person>
+            <person xml:id="pp0017">
+                <persName ref="https://explore.gnd.network/gnd/116754974">
+                    <name>Ewald Friedrich Graf von Hertzberg</name>
+                </persName>
+            </person>
+            <person xml:id="pp0018">
+                <persName ref="https://explore.gnd.network/gnd/104298111">
+                    <name>Thomas Freiherr von Fritsch</name>
+                </persName>
+            </person>
+            <person xml:id="pp0019">
+                <persName ref="https://explore.gnd.network/gnd/118577867">
+                    <name>Maria Theresia</name>
+                </persName>
+            </person>
+            <person xml:id="pp0081">
+                <persName ref="https://explore.gnd.network/gnd/118505092">
+                    <name>August III of Poland</name>
+                </persName>
+            </person>
+            <person xml:id="pp0082">
+                <persName ref="https://explore.gnd.network/gnd/118703226">
+                    <name>Friedrich Christian, Elector of Saxony</name>
+                </persName>
+            </person>
+        </listPerson>
+        <listPlace>
+            <place xml:id="loc4">
+                <placeName ref="https://explore.gnd.network/gnd/5119512-4">Hubertusburg</placeName>
+            </place>
+        </listPlace>
+        <facsimile>
+            <surface xml:id="FacsPnr1">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_4383352bcfbb7"/>
+            </surface>
+            <surface xml:id="FacsPnr2">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_43837066b4e08"/>
+            </surface>
+            <surface xml:id="FacsPnr3">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_4383717ec5f77"/>
+            </surface>
+            <surface xml:id="FacsPnr4">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_438371b790419"/>
+            </surface>
+            <surface xml:id="FacsPnr5">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_438371f4c3868"/>
+            </surface>
+            <surface xml:id="FacsPnr6">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_4388b3b629b78"/>
+            </surface>
+            <surface xml:id="FacsPnr7">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_4388b3f10edcb"/>
+            </surface>
+            <surface xml:id="FacsPnr8">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_4388b41dcad98"/>
+            </surface>
+            <surface xml:id="FacsPnr9">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_4388b450385d7"/>
+            </surface>
+            <surface xml:id="FacsPnr10">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_438b0dcac8688"/>
+            </surface>
+            <surface xml:id="FacsPnr11">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_438b0dfc840c7"/>
+            </surface>
+            <surface xml:id="FacsPnr12">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_438b0e2918a08"/>
+            </surface>
+            <surface xml:id="FacsPnr13">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_438b0ebe72f5c"/>
+            </surface>
+            <surface xml:id="FacsPnr14">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_438b0f03f1e98"/>
+            </surface>
+            <surface xml:id="FacsPnr15">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_438b0f32867dc"/>
+            </surface>
+            <surface xml:id="FacsPnr16">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_438b0f5f5a8b7"/>
+            </surface>
+            <surface xml:id="FacsPnr17">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_438b0f9055a98"/>
+            </surface>
+            <surface xml:id="FacsPnr18">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_438b0fc792b27"/>
+            </surface>
+            <surface xml:id="FacsPnr19">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_438b0ffb5cfca"/>
+            </surface>
+            <surface xml:id="FacsPnr20">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_438b102eaffe7"/>
+            </surface>
+            <surface xml:id="FacsPnr21">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_438b106124d58"/>
+            </surface>
+            <surface xml:id="FacsPnr22">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_438b10886e137"/>
+            </surface>
+            <surface xml:id="FacsPnr23">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_438b10bbe5b6c"/>
+            </surface>
+            <surface xml:id="FacsPnr24">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_438b10ef9a057"/>
+            </surface>
+            <surface xml:id="FacsPnr25">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_438b1124a63a8"/>
+            </surface>
+            <surface xml:id="FacsPnr26">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_438b115872f59"/>
+            </surface>
+            <surface xml:id="FacsPnr27">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_438b118b4be58"/>
+            </surface>
+            <surface xml:id="FacsPnr28">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_438b11c8d22c8"/>
+            </surface>
+            <surface xml:id="FacsPnr29">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_438b1249affe7"/>
+            </surface>
+            <surface xml:id="FacsPnr30">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_438b127d337b8"/>
+            </surface>
+            <surface xml:id="FacsPnr31">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_438b12b2e0d27"/>
+            </surface>
+            <surface xml:id="FacsPnr32">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_438b12e6bc33b"/>
+            </surface>
+            <surface xml:id="FacsPnr33">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_438b131b0edc9"/>
+            </surface>
+            <surface xml:id="FacsPnr34">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_438b134d7cb98"/>
+            </surface>
+            <surface xml:id="FacsPnr35">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_438b1381ed079"/>
+            </surface>
+            <surface xml:id="FacsPnr36">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_438b13ba53389"/>
+            </surface>
+            <surface xml:id="FacsPnr37">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_438b13ec8b5f6"/>
+            </surface>
+            <surface xml:id="FacsPnr38">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_438b1418310a7"/>
+            </surface>
+            <surface xml:id="FacsPnr39">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_438b145342219"/>
+            </surface>
+            <surface xml:id="FacsPnr40">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_438b14875f6d8"/>
+            </surface>
+            <surface xml:id="FacsPnr41">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_438b14bd07898"/>
+            </surface>
+        </facsimile>
+    </standOff>
+    <text>
+        <front>
+
+            <div type="Drucke">
+                <p>CTS 42, S. 361(363)-(378)386. Wenck, Codex 3, S. 380-395 (frz.). Faber, Neue
+                    Europ&#228;ische Staats-Cantzley 9, S. 417 (frz.). Hertzberg, Receuil des
+                    D&#233;ductions 1, S. 308 (frz.). Mercure Historique 154, S. 303 (frz.).
+                    Martens, Receuil des Principaux Trait&#233;s 1 (2. Auflage), S. 146 (frz.) (1.
+                    Auflage Band 1, S. 71). Ghillany, Diplomatisches Handbuch, S. 181 (frz.). Moser,
+                    Versuch des Neuesten Europ&#228;ischen V&#246;lker-Rechts in Friedens- und
+                    Kriegszeiten 10/2 S. 160 (frz.). Oertel, Reichstags Diarium, S. 679 und 697
+                    (dt.). Teutsche Kriegs-Cantzley 17, S. 773 und 789 (dt.). Seifart, Geschichte
+                    des seit 1756 in Deutschland gef&#252;hrten Krieges 6, S. 406 (dt.).</p>
+                <lb/>
+            </div>
+
+            <div type="Inhalt">
+                <p>Art. 1 Über den Frieden. Freundschaftsbezeugung. <lb/>Art. 2 Beendigung der
+                    Feindseligkeiten. Herstellung der Waffenruhe. <lb/>Art. 3 Räumung der
+                    sächsischen Gebiete.<lb/>Art. 4 Allgemeine Amnestie. <lb/>Art. 5 Erneuerung des
+                    Friedens von Dresden (1745 XII 15).<lb/>Art. 7 Bestimmung über
+                    Kontributionszahlungen.<lb/>Art. 6 Handelsbestimmungen.<lb/>Art. 8 Bestimmungen
+                    über die Abtretung der Orte Fürstenberg und Schidlow.
+                    Verzichtserklärung.<lb/>Art. 9 Regelungen über den freien Durchmarsch Sachsens
+                    durch schlesische Gebiete nach Polen.<lb/>Art. 10 Garantieerklärung der beiden
+                    signierenden Mächte.<lb/>Art. 11 Ratifikation.</p>
+                <p>Separatartikel 1: Zahlungsmodalitäten.<lb/>Separatartikel 2:
+                    Steuerfragen.<lb/>Separatartikel 3: Handelsbestimmungen.<lb/>Nebenkonvention:
+                    Bestimmungen über Modalitäten des Rückzugs der preußischen Truppen aus den
+                    besetzten sächsischen Gebieten.<lb/></p>
+            </div>
+            <div type="Kommentar">
+                <p>Mit dem Einmarsch in Sachsen am 29. August 1756 reagierte Friedrich II. auf
+                    Angriffspläne Rußlands und Österreichs <note type="annotation" n="1">Vergleiche
+                        die Debatte um den Charakter dieses "Präventivschlages". Überblick bei:
+                        Duchhardt, Absolutismus, S. 189-191. Ders., Pentarchie. Kunisch, Mirakel des
+                        Hauses Brandenburg."</note>. Nach der raschen Eroberung Sachsens forderte er
+                    August III. auf, sich mit seinem Heer Preußen zu unterstellen, was dieser
+                    zunächst ablehnte. Als sich jedoch die sächsische Position verschlechterte (ein
+                    österreichischer Entsatz scheiterte Anfang Oktober 1756), mußte Sachsen sich am
+                    16. Oktober dem preußischen König unterstellen. 1757 formierten sich die Gegner
+                    Preußens in einem Offensivpakt; das 130.000 Mann starke österreichische Heer
+                    konnte mit einer Unterstützung von 280.000 Soldaten rechnen. Dem standen 116.000
+                    Preußen gegenüber. Zudem verlor Großbritannien nach der Beendigung des Kampfes
+                    gegen Frankreich in Nordamerika zunehmend das Interesse an seinem preußischen
+                    Verbündeten. In dieser militärisch aussichtslosen Lage setzt der Tod der
+                    russischen Zarin Elisabeth am 5. Januar 1762 augenscheinlich eine Zäsur.<note
+                        type="annotation" n="2">Zum Diskurs über die Bedeutung dieses "Mirakels des
+                        Hauses Brandenburg" (Friedrich II.) vergleiche Duchhardt, Pentarchie,
+                        S.365-368. Kunisch, Mirakel des Hauses Brandenburg. Müller, Russland und der
+                        Siebenjährige Krieg, JbfGO (1980), S. 189-219."</note> Ihr Nachfolger Zar
+                    Peter III. beendete den Krieg mit Preußen und Schweden und schied aus dem Krieg
+                    aus. Am 1. Juli 1762 begann Friedrich eine Offensive in Schlesien und drängte
+                    Österreich nach Böhmen zurück. Am 29. Oktober 1762 besiegte das preußische Heer
+                    das Reichsheer bei Freiberg (in Sachsen) und brachte damit den &quot;sächsischen
+                    Feldzug&quot; zu Ende. Ende 1762 schlossen Österreich und Preußen einen
+                    Waffenstillstand, der von Sachsen vermittelt worden war. Auf dieser Basis
+                    begannen Friedensgespräche in Schloß Hubertusburg bei Grimma, die am 15. Februar
+                    1763 mit der Unterzeichnung von zwei Friedensverträgen (zwischen Preußen und
+                    Sachsen sowie zwischen Preußen und Österreich) endeten und die Rückkehr zum
+                    status quo ante bellum brachten. Während der Friede zwischen Preußen und
+                    Österreich im Zusammenhang mit der Geschichte und Analyse des Siebenjährigen
+                    Krieges auch in seinen Folgen in der Forschung diskutiert <note>Vergleiche
+                        Duchhardt, Am Vorabend der Moderne, S. 274-276. Unter
+                        diplomatiegeschichtlicher Perspektive siehe Bein, Schlesien in der
+                        Habsburger Politik, S. 323-378. ">wird</note>, bleibt der Friede zwischen
+                    Sachsen und Polen ebenso im Hintergrund wie der zwischen Preußen und Sachsen
+                    abgeschlossene Friede von Dresden (1745 XII 25).<lb/></p>
+            </div>
+            <div type="Kontext">
+                <p>1740/42-1745/48: Österreichischer Erbfolgekrieg und zeitgleich Erster
+                    Schlesischer Krieg (1740/42). Der Vorfriede von Breslau (1742 VI 11) und der
+                    Berliner Friede (1742 VII 28) zwischen Preußen und Österreich beenden den 1.
+                    Schlesischen Krieg. Österreich muß Schlesien an Preußen abtreten. <lb/>1744/45
+                    Zweiter Schlesischer Krieg. Der Friede von Dresden (1745 XII 12; Preußen -
+                    Österreich; Preußen - Sachsen) bestätigt im wesentlichen die Verträge von 1742.
+                    <lb/>1759-1762 See- und Kolonialkrieg zwischen Großbritannien und Frankreich in
+                    Indien und Nordamerika (ab 1761 unter Beteiligung Spaniens), beendet durch den
+                    Friede von Paris (Januar 1763).<lb/>1756 Siebenjähriger (Dritter Schlesischer)
+                    Krieg. Am 16. Januar 1756 verbünden sich Preußen und Großbritannien gegen
+                    Frankreich (Westminsterkonvention). Daraufhin geht Frankreich am 1. Mai 1756 ein
+                    Bündnis mit Österreich ein (&quot;renversement des alliances&quot;), dem sich
+                    1757 Rußland, Schweden und Sachsen anschließen. <lb/>29. August 1756 Friedrich
+                    II. von Preußen besetzt Sachsen (9.September Einnahme Dresdens) und richtet sich
+                    gegen Böhmen. Am 31. Januar 1757 tritt das Reich in den Krieg gegen Preußen ein.
+                    <lb/>12 August 1759 Preußische Niederlage bei Kunersdorf. <lb/>5. Mai 1762
+                    Thronwechsel in Rußland und Friede zwischen Friedrich II. von Preußen und Zar
+                    Peter III. Friede zwischen Preußen und Schweden (Hamburg 1762 V 22).
+                    <lb/>Preußische Siege bei Schweidnitz (1762 VII 21) und Freiberg (1762 X 29).
+                    Verständigung Großbritanniens und Frankreichs über die Beendigung des Krieges
+                    (1762 XI 3). Vermittlung Sachsens. <lb/>15. Februar 1763 Friede von Hubertusburg
+                    zwischen Preußen und Österreich sowie Preußen und Sachsen. Preußen bewahrt
+                    seinen territorialen Besitz (Schlesien) und manifestiert seinen Aufstieg zur
+                    Großmacht. </p>
+            </div>
+
+        </front>
+        <body>
+            <div type="Edition">
+                <p>Sa Majesté le <rs ref="#pp0016">Roi de Prusse </rs> et Sa Majesté le ;<rs
+                        ref="#pp0081">Roi de Pologne Electeur de Saxe</rs><note type="annotation"
+                        n="1"> Sachanmerkung: Friedrich August (1696-1763), seit 1733 Kurfürst von
+                        Sachsen, seit 1734 als August III. König von Polen. Textvariante:
+                        SHSADresden OU 14945: Sa Majesté le Roi de Pologne, Electeur de Saxe et Sa
+                        Majesté le Roi de Prusse (diese Reihenfolge auch im Folgenden)."</note>,
+                    animés du désir réciproque de mettre fin aux calamités de la guerre <note
+                        type="annotation" n="2">Siebenjähriger Krieg 1756-1763.</note>, et de
+                    rétablir l´union et la bonne intelligence entre eux, et le bon voisinage entre
+                    leurs Etats respectifs, ayant réfléchi sur les moiens <note type="crit_app"
+                        n="3"> CTS; Martens I (1817); Hertzberg; Moser; Wenck; Ghillany: moyens (Die
+                        Unterhändlerinstrumente gebrauchen durchgehend die ältere Schhreibweise ?i-
+                        statt ?y-).</note>les plus propres pour parvenir à un but si salutaire, et
+                        <rs ref="#pp0082">Son Altesse Royale, le Prince Royal de Pologne et
+                        Electoral Héréditaire de Saxe</rs> s´etant employé à concerter une assemblée
+                    de Plénipotentiaires, qui fût suivie d´une négociation, pour l´avancement de
+                    laquelle et pour écarter les retardemens, que l´éloignement auroit pu faire
+                    nâitre, <rs ref="#pp0081">Sa Majesté le Roi de Pologne, Electeur de Saxe</rs>,
+                    Lui a confié le soin d´y ménager ses intérêts, on est convenu de faire tenir au
+                    château de Hubertsbourg des Conférences de Paix. <lb/>En conséquence de quoi
+                    Leurs Majestés ont nommé et autorisé des Plénipotentiaires, savoir: <rs
+                        ref="#pp0016">Sa Majesté le Roi de Prusse</rs> le Sieur <rs ref="#pp0017"
+                        >Ewald Frédéric de Hertzberg</rs>
+                    <note type="annotation" n="4">Ewald Friedrich Graf von Hertzberg (1725-1795),
+                        zweiter Staats- und Kabinettsminister; Verfasser des ''Mémoire raisonné'',
+                        das den preußischen Einmarsch nach Sachsen 1756 rechtfertigte.</note>, Son
+                    Conseiller privé d´Ambassade, et <rs ref="#pp0081">Sa Majesté le Roi de Pologne,
+                        Electeur de Saxe</rs>, le Sieur <rs ref="#pp0018">Thomas Baron de
+                        Fritsch</rs>, son Conseiller privé, lesquels après s´être duement communiqué
+                    et avoir échangé leurs Pleinpouvoirs <note type="crit_app" n="5">Mercure; Moser:
+                        pleins-pouvoirs</note> en bonne forme, ont arrêté, conclu et signé les
+                    articles suivans d´un traité de Paix.</p>
+                <p> </p>
+                <p>Article I <lb/>Il y aura une Paix solide, une amitié sincère et un bon voisinage
+                    entre Sa Majesté le <rs ref="#pp0016">Roi de Prusse</rs> et Sa Majesté le <rs
+                        ref="#pp0081">Roi de Pologne, Electeur de Saxe</rs>, et leurs Héritiers,
+                    Etats, pays et sujets; en conséquence de quoi, il y aura une Amnestie générale
+                    et un oubli éternel de tout ce qui est arrivé entre les Hautes Parties
+                    Contractantes, à l´occasion de la présente guerre, de quelque nature, que cela
+                    puisse avoir été, et il ne sera point demandé de dédommagement de part et
+                    d´autre, sous quelque prétexte ou nom que ce puisse être, mais toutes les
+                    prétentions réciproques occasionées par cette guerre, demeureront entièrement
+                        <note type="crit_app" n="6">Ghillany: entièrent</note>éteintes, annullées et
+                    anéanties. <lb/>Les Hautes Parties Contractantes et Leurs Héritiers cultiveront
+                    à l´avenir entre Elles une bonne harmonie et parfaite intelligence, en tâchant
+                    d´avancer leurs interets reciproques, et d´écarter tout ce qui leur pourroit
+                    préjudicier, ou y donner la moindre atteinte. Sa Majesté le <rs ref="#pp0016"
+                        >Roi de Prusse</rs> promet en particulier, que dans les occasions, qui se
+                    présenteront de pouvoir procurer des convenances à Sa Majesté le <rs
+                        ref="#pp0081">Roi de Pologne</rs>, Electeur de Saxe, ou à Sa Maison, sans
+                    que ce soit aux dépens de Sa dite <rs ref="#pp0016">Majesté Prussienne</rs>,
+                    Elle y contribuera avec le plus grand zèle et se concertera à cet effet avec Sa
+                        <rs ref="#pp0081">Majesté Polonoise</rs> et avec Leurs amis communs. </p>
+                <p>Article II <lb/>Toutes les hostilités cesseront entièrement à compter du onze de
+                    Février inclusivement, et depuis le même jour Sa <rs ref="#pp0016">Majesté
+                        Prussienne</rs> fera cesser entièrement et pleinement toutes contributions
+                    ordinaires et extraordinaires, toutes livraisons des <note type="crit_app" n="7"
+                        >Hertzberg: de.</note> provisions de bouche, fourages, chevaux et autre
+                    bétail ou autres effets, toutes demandes de recrues, valets, travailleurs, et
+                    voitures, et généralement <note type="crit_app" n="8">Moser:
+                        généralemeet.</note> toutes sortes de prestations de quelque nature et
+                    dénomination qu´elles puissent être, et sous quelque titre ou prétexte qu´elles
+                    pourroient être demandées et exigées, comme aussi toute coupe de bois et autres
+                    endommagemens dans tout l´Electorat de Saxe, et toutes ses parties et
+                    dépendances y compris la Haute et Basse Lusace<note type="annotation" n="9">Die
+                        Oberlausitz (Gebiet um Görlitz und Bautzen) stand seit 1526 unter Habsburger
+                        Herrschaft und gehörte seit dem 17. Jahrhundert als österreichisches
+                        Mannlehen zu Sachsen. Die Niederlausitz (Gebiet um Cottbus) gehörte seit
+                        1526 als Nebenland Böhmens zu Österreich und wurde 1623/35 an Sachsen
+                        abgetreten.</note>. Si les ordres que Sa <rs ref="#pp0016">Majesté le Roi de
+                        Prusse</rs> a donnés <note type="crit_app" n="10">SHSADresden OU 14945; CTS;
+                        Hertzberg; Wenck: donné.</note>la dessus, ne fussent pas arrivés le dit jour
+                    en tous les endroits occupés par les trouppes <note type="crit_app" n="11">CTS;
+                        Martens I (1817); Mercure; Moser; Wenck; Ghillany: Troupes (auch im
+                        Folgenden).</note>de Sa <rs ref="#pp0016">Majesté Prussienne</rs>, et que
+                    par cette raison ou sous d´autre prétexte <note type="crit_app" n="12">CTS;
+                        Martens I (1817); Hertzberg; Wenck: d´autres pretextes. Ghillany: dautres
+                        prétextes.</note> il dût arriver, qu´on eût pris ou exigé encore quelque
+                    argent ou quelque autre prestation, de quelque nature ou prix, qu´elle pourroit
+                    être, des caisses ou des sujets de Sa <rs ref="#pp0081">Majesté Polonoise</rs>,
+                    ou qu´on eut causé d´autres dommages, Sa Majesté Prussienne fera restituer sans
+                    délai tout ce qui auroit été pris ou exigé, et bonifier tout dommage et perte.
+                    En conséquence de cette cessation générale de toute sorte de prestations, Sa <rs
+                        ref="#pp0016">Majesté Prussienne</rs> renonce également à tous les arrérages
+                    des contributions, livraisons et autres prestations antérieurement demandées et
+                    exigées, et declare, que toutes les prétensions y relatives seront et
+                    demeureront entièrement éteintes, annullées et anéanties, de sorte qu´il n´en
+                    sera jamais plus fait mention. </p>
+                <p>Article III <lb/>Sa Majesté le <rs ref="#pp0016">Roi de Prusse</rs> promet de
+                    commencer les dispositions nécessaires pour une prompte <note type="crit_app"
+                        n="13">SHSADresden OU 14945; Mercure; Moser: promte.</note> évacuation de la
+                    Saxe, dès que le présent traité sera signé et d´effectuer et achever
+                    l´évacuation, et la restitution de tous les etats et pais<note type="crit_app"
+                        n="14">CTS; Martens I (1817); Ghillany: Pays (auch im Folgenden)</note>,
+                    villes, places et forts de Sa Majesté Polonoise, et généralement de toutes
+                    parties <note type="crit_app" n="15">Martens I; Wenck: de toutes les
+                        parties."></note>et dependances des dits etats, que <rs ref="#pp0081">Sa
+                        Majesté Polonoise</rs> a possédées avant la présente guerre, dans l´espace
+                    de trois semaines, à compter du jour de l´échange des Ratifications, bien
+                    entendu, que les Trouppes de <rs ref="#pp0019">Sa Majesté l´Impératrice Reine de
+                            Hongrie<note type="crit_app" n="16">Mercure; Moser: d´Hongrie.</note> et
+                        de Bohéme</rs>évacuent <note type="crit_app" n="17">Mercure; Moser:
+                        évacueront.</note> toute la Saxe dans le même espace de tems. <lb/>Dès le
+                    onze de Février Sa Majesté le <rs ref="#pp0016">Roi de Prusse</rs> fera nourrir
+                    ses trouppes de ses propres magazins, sans qu´elles soient à charge au pais, et
+                    on procédera incessament <note type="crit_app" n="18">SHSADresden OU 14945; CTS;
+                        Hertzberg; Martens I; Mercure; Wenck: incessamment (auch im
+                        Folgenden).</note> au règlement des routes, que les dites trouppes prendront
+                    en quittant les etats de Sa Majesté le <rs ref="#pp0081">Roi de Pologne</rs>,
+                    dans lesquelles elles seront conduites et logées par des commissaires nommés
+                        <note type="crit_app" n="19">Ghillany: nommées.</note> par <rs ref="#pp0081"
+                        >Sa Majesté Polonoise</rs>, qui auront pareillement soin des Vorspann <note
+                        type="crit_app" n="20">Mercure; Moser: des Vorspann voitures dont. Vorspann
+                        ist ? wie auch alle anderen deutschen Wörter - in beiden
+                        Unterhändlerinstrumenten unterstrichen.</note> dont les trouppes auront
+                    besoin, pour leurs marches, et qui leur seront fournis gratuitement, à
+                    condition, que ces Vorspann ne soient pas obligés de passer les frontières de
+                    Saxe, que jusqu´au premier gite. </p>
+                <p>Article IV <lb/>Sa Majesté le <rs ref="#pp0016">Roi de Prusse</rs> renverra sans
+                    rançon et sans délai tous les généraux, officiers et soldats de Sa Majesté le
+                        <rs ref="#pp008``">Roi de Pologne</rs>, Electeur de Saxe, qui sont encore
+                    prisonniers de guerre, et les autres sujets de Sa dite <rs ref="#pp0081">Majesté
+                        Polonoise</rs>, qui ne voudront pas rester dans le service et dans les etats
+                    de Sa Majesté Prussienne, bien entendu, que chacun d´eux paye <note
+                        type="crit_app" n="21">SHSADresden OU 14945; Hertzberg: paie.</note>
+                    préalablement les dettes, qu´il aura contractées. <lb/>Sa dite <note
+                        type="crit_app" n="22">Ghillany: [Auslassung:] dite.</note> Majesté le <rs
+                        ref="#pp0016">Roi de Prusse</rs> rendra aussi toute l´artillerie apartenante
+                        <note type="crit_app" n="23">SHSADresden OU 14945; CTS; Hertzberg; Martens;
+                        Mercure; Moser; Wenck; Ghillany: appartenante (p-Doppelung auch im
+                        Folgenden).</note>à Sa Majesté le <rs ref="#pp0081">Roi de Pologne</rs>, qui
+                    se trouve encore en Saxe et qui est marquée aux armes de Sadite <rs
+                        ref="#pp0081">Majesté Polonoise</rs>. En particulier les villes de Leipzig,
+                    Torgau et Wittenberg seront restituées par rapport aux fortifications, dans le
+                    même État ou elles sont à présent, et avec l´artillerie, qui s´y trouve marquée
+                    aux armes de Sa <rs ref="#pp0081">Majesté Polonoise</rs>. <lb/>Sa <rs
+                        ref="#pp0016">Majesté Prussienne</rs> mettra aussi en liberté les otages et
+                    autres personnes, qui ont été arrêtées à l´occasion de la présente guerre; et
+                    fera rendre tous les papiers, qui apartiennent aux archives de Sa Majesté le <rs
+                        ref="#pp0081">Roi de Pologne</rs> Electeur de Saxe, ou aux autres bureaux du
+                    pais, et à l´avenir il n´en sera rien allégué ou inféré contre Sa Majesté le <rs
+                        ref="#pp0081">Roi de Pologne</rs>, ni contre Ses Héritiers et Etats. </p>
+                <p>Article V <lb/>Le traité de Paix conclu à Dresde.<lb/> le 25 Decembre 1745 <note
+                        type="annotation" n="24">Zusammen mit dem am gleichen Tag zwischen Preußen
+                        und Österreich geschlossenen Vertrag beendete der Friede von Dresden
+                        zwischen Preußen und Sachsen/Polen den Zweiten Schlesischen Krieg. Sachsen
+                        mußte Reparationen an Preußen zahlen, das dafür die besetzten sächsischen
+                        Gebiete räumte. Sachsen trat Schidlow, Fürstenberg und die dazugehörigen
+                        Oderzölle an Preußen ab und verzichtet auf alle Ansprüche auf Schlesien.
+                        Zudem sicherte es den protestantischen Einwohnern religiöse Freiheit auf der
+                        Basis des Westphälischen Friedens zu.</note> est expressément renouvellé et
+                    <lb/>confirmé dans la meilleure forme, et dans toute sa teneur, autant que le
+                    présent traité n´y déroge pas, et que les obligations y contenues sont de nature
+                    à pouvoir encore avoir lieu. </p>
+                <p>Article VI <lb/>Pour redresser reciproquement tous les abus, qui se sont glissés
+                    dans le commerce au préjudice des pais, etats et sujets respectifs des Hautes
+                    Parties Contractantes, il est convenu, que d´abord après la paix conclue on
+                    nommera de part et d´autre des commissaires, qui régleront les affaires de <note
+                        type="crit_app" n="25">Mercure; Moser: du.</note> commerce sur des principes
+                    équitables et reciproquement utiles. <lb/>Il sera aussi reciproquement
+                    administré bonne et prompte justice à ceux des sujets respectifs, qui auront des
+                    procès et des prétensions liquides dans les etats de l´une ou de l´autre partie,
+                    et quand il y en aura, qui auront changé ou voudront encore changer de domicile
+                    et le transférer de la domination de l´une sous celle de l´autre des Hautes
+                    Parties Contractantes, on ne leur fera point de difficulté à cet égard. </p>
+                <p>Article VII <lb/>Sa Majesté le <rs ref="#pp0016">Roi de Prusse</rs> consent
+                    d´accéder et fera accéder ses sujets créanciers de la Steuer de Saxe aux
+                    arrangemens qu´on prendra incessament par rapport aux intérêts à paier, et pour
+                    l´établissement d´un fond d´amortissement solide et durable, sans aucune
+                    préférence. <lb/>Sa Majesté le <rs ref="#pp0081">Roi de Pologne</rs>, Electeur
+                    de Saxe, assure et promet d´un autre côté, que conformement aux dits
+                    arrangemens, tous les sujets de Sa <rs ref="#pp0016">Majesté Prussienne</rs>,
+                    qui ont ou auront des capitaux dans la Steuer de Saxe, recevront leurs interêts
+                    exactement, et que les capitaux leur seront aussi remboursés en entier, sans la
+                    moindre réduction ni diminution, et dans un espace de tems raisonnable. </p>
+                <p>Article VIII <lb/>L´échange de la ville et du péage de Furstenberg <note
+                        type="annotation" n="26">Fürstenberg, an der Oder bei Eisenhüttenstadt
+                        gelegen.</note> et du village de Schidlo <note type="annotation" n="27"
+                        >Schidlo, auch Schiedlow/Schidlow, an der Oder bei Schwiebus gelegen.</note>
+                    contre un equivalent an Land und Leuten stipulé dans l´Article VII de la Paix de
+                    Dresde, ayant rencontré beaucoup de difficultés dans l´exécution, on est
+                    ultérieurement convenu, que pour le faciliter, la ville de Furstenberg avec ses
+                    dependances situées en deça de l´Oder, ne sera pas comprise dans ce troc, et
+                    restera à Sa <rs ref="#pp0081">Majesté Polonoise</rs>, mais que d´un autre coté
+                    Sa dite Majesté le <rs ref="#pp0081">Roi de Pologne</rs>, Electeur de Saxe,
+                    cédera à Sa <rs ref="#pp0016">Majesté Prussienne</rs> non seulement le péage de
+                    l´Oder, qu´Elle a perçu jusqu´ici à Furstenberg, et le village de Schidlo avec
+                    ses apartenances au delà de l´Oder, mais aussi généralement tout ce qu´Elle a
+                    possedé jusqu´ici des bords et rives de l´Oder, tant du côté de la Lusace, que
+                    de celui de la Marche, de sorte que la rivière de l´Oder fasse la limite
+                    territoriale, et que la supériorité des deux rives et bords de l´Oder et de tout
+                    ce qui est au de la <note type="crit_app" n="28">SHSADresden OU 14945;
+                        Hertzberg; Martens I (1817); Mercure; Moser; Wenck; Ghillany: delà.</note>
+                    de l´Oder, du coté de la Marche, apartienne désormais en entier et exclusivement
+                    à Sa Majesté le <rs ref="#pp0016">Roi de Prusse</rs>, Ses Successeurs et
+                    Heritiers à perpetuité. <lb/>Il est aussi convenu, que l´equivalent à donner à
+                    Sa <rs ref="#pp0081">Majesté Polonoise</rs> ne pourra être évalué qu´à
+                    proportion du revenu réel, qu´Elle a tiré jusqu´ici des possessions, qu´Elle
+                    cédera à Sa <rs ref="#pp0016">Majesté Prussienne</rs>, en conséquence de quoi Sa
+                        <rs ref="#pp0081">Majesté Polonoise</rs> se contentera d´un equivalent an
+                    Land und Leuten, dont le revenu réel seroit égal au revenu réel des possessions
+                    qu´Elle cédera à <rs ref="#pp0016">Sa Majesté Prussienne</rs>. Au reste dans
+                    tous les autres points relatifs à cet échange l´article VII la Paix de Dresde
+                    sera exactement observé et exécuté. </p>
+                <p>Article IX <lb/>Sa Majesté le <rs ref="#pp0016">Roi de Prusse</rs> accorde à Sa
+                    Majesté le <rs ref="#pp0081">Roi de Pologne</rs>, Electeur de Saxe, le libre
+                    passage en tout tems par la Silesie en Pologne, et renouvelle en particulier, ce
+                    qui a été stipulé là dessus dans l´article 10 du traité de paix conclu à Dresde
+                    en 1745. </p>
+                <p>Article X <lb/>Les Hautes Parties Contractantes se garantissent réciproquement
+                    l´observation et l´exécution du présent traité de paix, et tâcheront d´en
+                    obtenir la garantie des puissances, avec lesquelles Elles sont en amitié. </p>
+                <p>Article XI <lb/>Le présent traité de paix sera ratifié de part et d´autre, et les
+                    ratifications seront expédiées en bonne et due forme, et échangées dans l´espace
+                    de quinze jours, ou plûtôt si faire se peut à compter du jour de la signature.
+                    <lb/>En foi de quoi, les soussignés Plenipotentiaires de Sa Majesté le <rs
+                        ref="#pp0016">Roi de Prusse</rs> et de Sa Majesté le <rs ref="#pp0081">Roi
+                        de Pologne</rs>, Electeur de Saxe, en vertu de leurs Pleinpouvoirs, ont
+                    signé le présent traité de paix, et y ont fait apposer les cachets <note
+                        type="crit_app" n="29">Ghillany: chachets.</note>de leurs armes. <lb/>Fait
+                    au Chateau de Hubertsbourg le quinze Février mil sept cent soixante trois.
+                    <lb/>2 LS; Ewald Frederic de Hertzberg. Thomas Baron de Fritsch <note
+                        type="crit_app" n="30">SHSADresden OU 14945: 2 LS Thomas Baron de Fritsch,
+                        Ewald Frederic de Hertzberg.</note>. </p>
+                <p>
+                    <lb/>Article séparé I </p>
+                <p>On est convenu, que dans les arrérages ou autres prestations arriérées, qui
+                    devront <note type="crit_app" n="31">Ghillany: devrout</note> cesser du onze
+                    Février 1763, ne sera pas compris, ce qui est encore dû sur les lettres de
+                    change et autres engagemens par écrit, énoncés dans la specification ci-jointe,
+                    que Sa Majesté le <rs ref="#pp0016">Roi de Prusse</rs> se réserve expressément,
+                    et que Sa Majesté le <rs ref="#pp0081">Roi de Pologne</rs> promet de faire
+                    acquitter exactement, et selon la teneur des dites lettres de change et autres
+                    engagemens par écrit donnés là dessus, sans le moindre rabais ou défalcation et
+                    dans les monnoies y promises. </p>
+                <p>
+                    <lb/>Article séparé II </p>
+                <p>Pour ne laisser aucun doute sur la nature et la solidité des arrangemens à
+                    prendre sur les affaires de la Steuer dont il a été fait mention dans l´article
+                    7 du traité de paix, Sa Majesté le <rs ref="#pp0081">Roi de Pologne</rs>,
+                    Electeur de Saxe, déclare, qu´Elle prendra des arrangemens, pour qu´aucun des
+                    créanciers de la Steuer ne perde la moindre partie de son capital. <lb/>Qu´il
+                    est impossible de leur paier <note type="crit_app" n="32">Martens I; Wenck: de
+                        payer; Mecure; Moser; Ghillany: de leur payer; Hertzberg: de
+                    paier.</note>les intérêts arriérés, après que tous les revenus du pais ont été
+                    notoirement absorbés par les calamités de la guerre; <lb/>Que la même raison
+                    doit valoir pour l´année présente, après toutes les charges aux quelles le pais
+                    a déja été obligé de fournir. <lb/>Mais que pour le futur, Sa Majesté prendra
+                    incessament avec les etats de la Saxe, assemblés en diète, les arrangemens
+                    nécessaires, pour établir un fond prélevable sur les revenus les plus clairs du
+                    pais, lequel sera <lb/>1. <note type="crit_app" n="33">In SHSADresden OU 14945;
+                        Ghillany folgende Zählung: 1.mo, 2.do, 3.tio.</note> principalement emploié
+                        <note type="crit_app" n="34">Ghillany: employer.</note>pour paier exactement
+                    les intérêts, qui ne pourront pas être fixés au dessous de trois pour cent, tout
+                    comme <note type="crit_app" n="35">Mercure; Moser: de Trois pour Cent,
+                        comme.</note> ils ne pourront pas passer les dits trois pour cent; <lb/>2.
+                    que le reste fera le fond d´amortissement pour l´acquit successif des capitaux,
+                    qui augmentera à proportion de l´acquit des capitaux et de la diminution des
+                    intérêts, et dont la distribution se fera annuellement par le sort, sans aucune
+                    préférence, pour qui ou à quel titre, que ce soit; <lb/>3. que l´administration
+                    du dit fond total destiné au paiement des intérêts et au remboursement des
+                    capitaux, sera fixée en la susmentionnée diète prochaine des etats de Saxe, de
+                    façon que plénière sûreté s´y trouve, Sa Majesté le <rs ref="#pp0081">Roi de
+                        Pologne</rs>, Electeur de Saxe, promettant de donner là dessus toutes les
+                    assurances convenables. </p>
+                <p>
+                    <lb/>Article séparé III </p>
+                <p>Il a été convenu et arrêté, que les titres emploiés ou omis de part et d´autre, à
+                    l´occasion de la présente négociation, dans les Pleinpouvoirs et autres Actes ou
+                    partout ailleurs, ne pourront être cités ou tirés à conséquence, et qu´il ne
+                    pourra jamais en résulter aucun préjudice pour aucune des parties intéressées.
+                    <lb/>Les présens trois articles séparés auront la même force, que s´ils étoient
+                    mot à mot <note type="crit_app" n="36">In beiden Unterhändlerinstrumenten stand
+                        zunächst ''verbalement'', das unterstrichen und mit ''mot à mot''
+                        überschrieben wurde. CTS; Hertzberg; Martens I (1817); Mercure; Moser;
+                        Wenck: ''mot à mot''.</note>insérés dans le traité principal, et ils seront
+                    également <note type="crit_app" n="37">Ghillany: égalent.</note> ratifiés des
+                    deux Hautes Parties Contractantes. <lb/>En foi de quoi, les soussignés
+                    Plenipotentiaires de Sa Majesté le <rs ref="#pp0016">Roi de Prusse</rs> et de Sa
+                    Majesté le <rs ref="#pp0081">Roi de Pologne</rs>, Electeur de Saxe, ont signé
+                    ces présens articles séparés, et y ont fait apposer les cachets de leurs armes.
+                    <lb/>Fait au Chateau de Hubertsbourg, le quinze fevrier mil sept cent soixante
+                    trois. <lb/>2 LS Ewald Frederic de Hertzberg. Thomas Baron de Fritsch<note
+                        type="crit_app" n="38">SHSADresden OU 14945: 2 LS Thomas Baron de Fritsch,
+                        Ewald Frederic de Hertzberg.</note>. </p>
+                <p>[Es folgt eine Specificatio <note type="crit_app" n="39">Mercure; Moser:
+                        verkürzter frz. Text, kein Abdruck bei Hertzberg; Martens I (1817);
+                        Ghillany.</note> derer in dem ersten Articulo Separato reservirten
+                    Wechsel-Briefe und Engagemens]. </p>
+                <p> </p>
+                <p> </p>
+                <p> </p>
+                <p> </p>
+                <p> </p>
+                <p> </p>
+                <p> </p>
+                <p> </p>
+                <p>[Nebenkonvention] </p>
+                <p>[Text] </p>
+                <p>Convention die denen Königl. Preuß. Trouppen bestimte Evacuation derer Chur
+                    Sächsischen Lande betr. De dato Schloß Hubertusburg den 15. Februar a. 1763
+                        <note type="crit_app" n="40">In Mercure; Moser: frz. Textwiedergabe.
+                        [Auslassung bei:] Hertzberg; Martens I (1817).</note>
+                </p>
+                <p>Da in dem zwischen Seiner Königlichen Majestät in Preußen und Seiner Königlichen
+                    Majestät in Pohlen <note type="crit_app" n="41">SHSADresden OU 14945: Seiner
+                        Königlichen Majestät in Pohlen und Seiner Königlichen Majestät in
+                        Preußen.</note>unterm heutigen dato getroffenen Friedens-Schluß festgesetzet
+                    worden, daß von dem 11.ten <note type="crit_app" n="42">SHSADresden OU 14945:
+                        ellften. CTS; Wenck: Eilften.</note> Februarii inclusive an gerechnet, alle
+                    Krieges-Praestationes in Sachsen cessiren, und die Chur-Sächsischen Lande in
+                    Zeit von drey Wochen nach geschehener Auswechselung derer Ratificationen, von
+                    denen Königlich Preußischen Trouppen evacuiret werden sollen, beydes aber, wegen
+                    der dabey vorkommenden Umbstände<note type="crit_app" n="43">CTS; SHSADresden OU
+                        14945: Umstände.</note> einige Erläuterungen bedarf; So haben die
+                    unterzeichnete beyde Gevollmächtigte, folgende Neben-Convention verabredet und
+                    geschloßen: </p>
+                <p>1. <lb/>Werden Seine Königliche Majestät in Preußen von dem Sechzehnten Februarii
+                    a.c. an, dero sämtliche Trouppen aus dem Ertzgebürg[ischen] <note
+                        type="crit_app" n="44">CTS; Wenck; SHSADresden OU 14945:
+                        Erzgebürgischen.</note>. und Thüringschen Creyse <note type="crit_app"
+                        n="45">CTS; Wenck: Creise (auch im Folgenden).</note> zurückziehen und
+                    gedachte Creyse den zwanzigsten Februarii völlig evacuiren laßen. Die Stadt
+                    Leipzig soll den Ersten Martii geräumet werden, und Seine Königliche Majestät in
+                    Preußen werden hiernächst alles mögliche thun, daß sie die sämtliche
+                    Chur-Sächsische Lande in der in dem Friedens Tractat festgesetzten Zeit von drey
+                    Wochen, nach ausgewechselten Ratificationen von dero Trouppen evacuiren laßen.
+                    Wenn aber solches wider Vermuthen, wegen noch nicht offener Schiffarth, in
+                    solcher Zeit nicht völlig geschehen könnte und ein Theil der Königl. Preußischen
+                    Trouppen eine Zeit von acht bis höchstens zehen Tagen, noch länger in Sachsen
+                    stehen bleiben müßte, so soll dieses Königlich-Pohlnischer und Churfürstlich
+                    sächsischer Seits nicht als eine Contravention des Friedens angesehen werden,
+                    sondern es soll Seiner Königlichen Majestät in Preußen freystehen, solche
+                    Trouppen, die jedoch über zwantzig Bataillons nicht ausmachen werden, zwischen
+                    der Elbe und Mulda und in den nächsten Gegenden von Torgau und Wittenberg
+                    jenseits der Elbe, auf so lange stehen zu lassen. </p>
+                <p>2. <lb/>Verbleiben sämtliche in Sachsen gegenwärtig befindliche Magazine zu
+                    seiner Königlichen Majestät in Preußen Disposition, um theils die Armee so lange
+                    solche sich noch in Sachsen befindet, daraus zu verpflegen, theils auch die
+                    Vorräthe, nach dem es die Umstände erfordern, transportieren zu lassen. Wenn
+                    hiernächst auch die Armee aus Sachsen weg marchieret, so verbleiben die übrigen
+                    Magazin-Bestände zu Torgau, Pretsch und Wittenberg, dem ohngeachtet zu Seiner
+                    Königlichen Majestaet in Preußen Disposition, und stehet deroselben frey solche
+                    wegschaffen oder versilbern zu laßen, welches so bald als möglich geschehen
+                    wird; wie dann auch die nötige Magazin-Bediente bis dahin dabey <note
+                        type="crit_app" n="46">SHSADresden OU 14945; CTS: darbey; Wenck:
+                        darbei.</note>stehen bleiben. </p>
+                <p>3. <lb/>Behalten seine Königliche Majestaet in Preußen sich vor, daß die
+                    ohnumgänglich erforderliche Fuhren, um sowohl innerhalb der Chur-Sächsischen
+                    Lande, und weitestens zum ersten Nacht-Lager über der Gräntze, der Armee die
+                    Fourage aus denen Magazinen anzuzufahren, als auch allenfalls die
+                    Magazin-Bestände bis Torgau, Pretsch oder Wittenberg zu transportieren,
+                    ingleichen zum Holtz-Anfahren, die Kranckenfuhren und alle zum Marsch bis in das
+                    erste Nachtlager über die Gräntze ohnumgänglich erforderliche Vorspann und
+                    Ordonantz-Pferde <note type="crit_app" n="47">SHSADresden OU 14945; CTS; Wenck:
+                        Ordonnanz.</note>bis zur §1 bestimmten gäntzlichen Evacuation, vom Lande
+                    ohnweigerlich und ohnentgeldtlich gestellet werden; welches alles mit denen
+                    Königlich Pohlnischer und Churfürstlich Sächsischer Seits abzuordnenden Creyß,
+                    und Marsch-Commissarien zu reguliren. </p>
+                <p>4. <lb/>Wenn die Königlich Preußische Trouppen Sachsen evacuiren, so bleiben die
+                    Lazarethe zu Torgau und Wittenberg so lange, bis bey offenwerdender Schiffahrt
+                    die Krancken und alles was zum Lazareth gehöret, transportiret und weggeschaffet
+                    werden können, und behalten so lange freyes Obdach, Licht und Feuerung. Seiner
+                    Königliche Majestaet in Preußen stehet auch frey, bey denen Lazarethen und
+                    Magazinen, überhaupt ein Detachement von Dreyhundert Mann von Dero Trouppen zu
+                    laßen; der Transport derer Lazarethe geschiehet auf Ihro Königlichen Majestaet
+                    in Preußen alleinige Kosten. </p>
+                <p>5. <lb/>Der Armee, samt allem, was dazu gehöret, nebst Directorial- und
+                    Commissariats-Proviant, Beckerey und Fuhr-Wesens Bedienten, wird, so lange
+                    selbige vorbestimmter maßen noch in Sachsen bleiben, freyer Quartier-Stand, als
+                    Obdach, Feuer und Licht und auf dem Marsch Lager und Streu-Stroh ohnentgeldlich
+                    gestattet. </p>
+                <p>6. <lb/>Behalten Seine Königliche Majestaet in Preußen sich vor, daß von allem
+                    bis zu denen Terminis Evacutionis, der Armee zu ihrem Gebrauch zugeführet wird,
+                    oder dieselbe wegschicket, weder Zoll noch Geleithe oder Accise, noch Fehr- und
+                    Brücken Geld gefordert werde. </p>
+                <p>7. <lb/>Wegen des zum Behuf der Armee, Beckerey und Lazareths erforderlichen
+                    Holtzes, bleibt es überall bis zur Evacuation bey dem Innhalt der Convention vom
+                    22.t Decembris a[nni]. pr. </p>
+                <p>8. <lb/>In Ansehung der Müntz-Sorten soll es bis zu dem § 1 bestimmten
+                    Evacuations-Fristen auf dem bisherigen Fuß bleiben, und bis dahin von beyden
+                    Theilen, in beyderseitigen Landen, keine reduction vorgenommen werden.
+                    <lb/>Diese Neben-Convention soll eben die Krafft haben, als wenn solche dem
+                    Friedens-Tractat wörtlich einverleibet worden, auch zu solchem End von beyden
+                    hohen contrahierenden Theilen ratificiret werden. <lb/>Zu dessen Urkund haben
+                    beyderseits Gevollmächtigte <note type="crit_app" n="48">SHSADresden OU 14945:
+                        Bevollmächtigte.</note> selbige eigenhändig unterschrieben und besigelt. So
+                    geschehen Schloß Hubertsburg den Fünfzehenten Februarii Eintausend Sieben
+                    Hundert Drey und Sechzig. </p>
+                <p>2 LS, 2 US <rs ref="#pp0017">Ewald Friedrich von Hertzberg</rs>, <rs
+                        ref="#pp0018">Thomas Freiherr von Fritsch</rs><note type="crit_app" n="49"
+                        >SHSADresden OU 14945: Thomas Freiherr von Fritsch, Ewald Friedrich von
+                        Hertzberg.</note>
+                </p>
+                <p>
+                    <lb/>
+                </p>
+            </div>
+
+            <div type="Transliteration">
+                <p>
+                    <pb facs="#FacsPnr1"/>Sa Majest&#233; le Roi de Prusse et Sa Majest&#233; le Roi
+                    de Pologne Electeur de Saxe, anim&#233;s du d&#233;sir r&#233;ciproque de mettre
+                    fin aux calamit&#233;s de la guerre, et de r&#233;tablir l&#180;union et la
+                    bonne intelligence entre eux, et le bon voisinage entre leurs Etats respectifs,
+                    ayant r&#233;fl&#233;chi sur les moiens les plus propres pour parvenir &#224; un
+                    but si salutaire, et Son Altesse Royale, le Prince Royal de Pologne et Electoral
+                    H&#233;r&#233;ditaire de Saxe s&#180;etant employ&#233; &#224; concerter une
+                    assembl&#233;e de Pl&#233;nipotentiaires, qui f&#251;t suivie d&#180;une
+                    n&#233;gociation, pour l&#180;avancement de laquelle et pour &#233;carter les
+                    retardemens, que l&#180;&#233;loignement auroit pu faire n&#226;itre, Sa
+                    Majest&#233; le Roi de Pologne, Electeur de Saxe, Lui a confi&#233; le soin
+                    d&#180;y m&#233;nager ses int&#233;r&#234;ts, on est convenu de faire tenir au
+                    ch&#226;teau de Hubertsbourg des Conf&#233;rences de Paix. <lb/> En
+                    cons&#233;quence de quoi Leurs Majest&#233;s ont nomm&#233; et autoris&#233; des
+                    Pl&#233;nipotentiaires, savoir: Sa Majest&#233; le Roi de Prusse le Sieur Ewald
+                    Fr&#233;d&#233;ric de Hertzberg, Son Conseiller priv&#233; d&#180;Ambassade, et
+                    Sa Majest&#233; le Roi de Pologne, Electeur de Saxe, le Sieur Thomas Baron de
+                    Fritsch, son Conseiller priv&#233;, <pb facs="#FacsPnr2"/>lesquels apr&#232;s
+                    s&#180;&#234;tre duement communiqu&#233; et avoir &#233;chang&#233; leurs
+                    Pleinpouvoirs en bonne forme, ont arr&#234;t&#233;, conclu et sign&#233; les
+                    articles suivans d&#180;un trait&#233; de Paix. <lb/>
+                    <lb/> Article I <lb/> Il y aura une Paix solide, une amiti&#233; sinc&#232;re et
+                    un bon voisinage entre Sa Majest&#233; le Roi de Prusse et Sa Majest&#233; le
+                    Roi de Pologne, Electeur de Saxe, et leurs H&#233;ritiers, Etats, pays et
+                    sujets; en cons&#233;quence de quoi, il y aura une Amnestie g&#233;n&#233;rale
+                    et un oubli &#233;ternel de tout ce qui est arriv&#233; entre les Hautes Parties
+                    Contractantes, &#224; l&#180;occasion de la pr&#233;sente guerre, de quelque
+                    nature, que cela puisse avoir &#233;t&#233;, et il ne sera point demand&#233; de
+                    d&#233;dommagement de part et d&#180;autre, sous quelque pr&#233;texte ou nom
+                    que ce puisse &#234;tre, mais toutes les pr&#233;tentions r&#233;ciproques
+                    occasion&#233;es par cette guerre, demeureront enti&#232;rement &#233;teintes,
+                    an&#233;es et an&#233;anties. <lb/> Les Hautes Parties Contractantes et Leurs
+                    H&#233;ritiers cultiveront &#224; l&#180;avenir entre Elles une bonne harmonie
+                    et parfaite intelligence, en t&#226;chant d&#180;avancer leurs interets
+                    reciproques, et d&#180;&#233;carter tout ce qui leur pourroit pr&#233;judicier,
+                    ou y donner la moindre <lb/>
+                    <pb facs="#FacsPnr3"/>moindre atteinte. Sa Majest&#233; le Roi de Prusse promet
+                    en particulier, que dans les occasions, qui se pr&#233;senteront de pouvoir
+                    procurer des convenances &#224; Sa Majest&#233; le Roi de Pologne, Electeur de
+                    Saxe, ou &#224; Sa Maison, sans que ce soit aux d&#233;pens de Sa dite
+                    Majest&#233; Prussienne, Elle y contribuera avec le plus grand z&#232;le et se
+                    concertera &#224; cet effet avec Sa Majest&#233; Polonoise et avec Leurs amis
+                    communs. <lb/>
+                    <lb/> Article II <lb/> Toutes les hostilit&#233;s cesseront enti&#232;rement
+                    &#224; compter du onze de F&#233;vrier inclusivement, et depuis le m&#234;me
+                    jour Sa Majest&#233; Prussienne fera cesser enti&#232;rement et pleinement
+                    toutes contributions ordinaires et extraordinaires, toutes livraisons des
+                    provisions de bouche, fourages, chevaux et autre b&#233;tail ou autres effets,
+                    toutes demandes de recrues, valets, travailleurs, et voitures, et
+                    g&#233;n&#233;ralement toutes sortes de prestations de quelque nature et
+                    d&#233;nomination qu&#180;elles puissent &#234;tre, et sous quelque titre ou
+                    pr&#233;texte qu&#180;elles pourroient &#234;tre demand&#233;es et exig&#233;es,
+                    comme aussi toute coupe de bois et autres endommagemens dans tout
+                    l&#180;Electorat de Saxe, et toutes ses parties et d&#233;pendances y <lb/>
+                    <lb/>
+                    <pb facs="#FacsPnr4"/>compris la Haute et Basse Lusace. Si les ordres que Sa
+                    Majest&#233; le Roi de Prusse a donn&#233;s la dessus, ne fussent pas
+                    arriv&#233;s le dit jour en tous les endroits occup&#233;s par les trouppes de
+                    Sa Majest&#233; Prussienne, et que par cette raison ou sous d&#180;autre
+                    pr&#233;texte il d&#251;t arriver, qu&#180;on e&#251;t pris ou exig&#233; encore
+                    quelque argent ou quelque autre prestation, de quelque nature ou prix,
+                    qu&#180;elle pourroit &#234;tre, des caisses ou des sujets de Sa Majest&#233;
+                    Polonoise, ou qu&#180;on eut caus&#233; d&#180;autres dommages, Sa Majest&#233;
+                    Prussienne fera restituer sans d&#233;lai tout ce qui auroit &#233;t&#233; pris
+                    ou exig&#233;, et bonifier tout dommage et perte. En cons&#233;quence de cette
+                    cessation g&#233;n&#233;rale de toute sorte de prestations, Sa Majest&#233;
+                    Prussienne renonce &#233;galement &#224; tous les arr&#233;rages des
+                    contributions, livraisons et autres prestations ant&#233;rieurement
+                    demand&#233;es et exig&#233;es, et declare, que toutes les pr&#233;tensions y
+                    relatives seront et demeureront enti&#232;rement &#233;teintes, an&#233;es et
+                    an&#233;anties, de sorte qu&#180;il n&#180;en sera jamais plus fait mention. <lb/>
+                    <lb/>
+                    <pb facs="#FacsPnr5"/>Article III <lb/> Sa Majest&#233; le Roi de Prusse promet
+                    de commencer les dispositions n&#233;cessaires pour une prompte &#233;vacuation
+                    de la Saxe, d&#232;s que le pr&#233;sent trait&#233; sera sign&#233; et
+                    d&#180;effectuer et achever l&#180;&#233;vacuation, et la restitution de tous
+                    les etats et pais, villes, places et forts de Sa Majest&#233; Polonoise, et
+                    g&#233;n&#233;ralement de toutes parties et dependances des dits etats, que Sa
+                    Majest&#233; Polonoise a poss&#233;d&#233;es avant la pr&#233;sente guerre, dans
+                    l&#180;espace de trois semaines, &#224; compter du jour de l&#180;&#233;change
+                    des Ratifications, bien entendu, que les Trouppes de Sa Majest&#233;
+                    l&#180;Imp&#233;ratrice Reine de Hongrie et de Boh&#233;me &#233;vacuent toute
+                    la Saxe dans le m&#234;me espace de tems. <lb/> D&#232;s le onze de F&#233;vrier
+                    Sa Majest&#233; le Roi de Prusse fera nourrir ses trouppes de ses propres
+                    magazins, sans qu&#180;elles soient &#224; charge au pais, et on proc&#233;dera
+                    incessament au r&#232;glement des routes, que les dites trouppes prendront en
+                    quittant les etats de Sa Majest&#233; le Roi de Pologne, dans lesquelles elles
+                    seront conduites et log&#233;es par des commissaires nomm&#233;s par Sa
+                    Majest&#233; Polonoise, qui auront pareillement soin des Vorspann dont les
+                    trouppes auront besoin, pour leurs marches, et qui leur seront fournis
+                    gratuitement, &#224; condition, que ces Vorspann </p>
+            </div>
+        </body>
+    </text>
+</tei:TEI>

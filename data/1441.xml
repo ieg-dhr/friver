@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE tei SYSTEM "../resources/FriVer_DTD.dtd">
+
+<?xml-model href="../resources/FriVer.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns="http://www.tei-c.org/ns/1.0" xml:id="pa000299-1441">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title level="s">European peace treaties of the pre-modern era in data / Europäische Friedensverträge der Vormoderne in Daten (FriVer+)</title>
+                <title when="1474-03-31" xml:id="t1441" when-custom="1474 III 31" level="a" ref="https://www.ieg-friedensvertraege.de/treaty/t-1441-1-de.html">Bündnisvertrag zu Konstanz</title>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    Digital edition according to
+                    <ref target="http://www.tei-c.org/">TEI P5</ref>
+                </edition>
+                <funder>
+                    <ref target="https://www.text-plus.org/">TEXT+</ref>
+                </funder>
+                <editor role="http://id.loc.gov/vocabulary/relators/edt" ref="https://orcid.org/0000-0002-8741-5916">
+                    <persName>Jaap Geraerts</persName>
+                    <note>The transformation and enrichment of the data is done by Jaap Geraerts (IEG Mainz). The other members of the FriVer+ team are Fabian Cremer, Ines Grund, and Thorsten Wübbena (all IEG Mainz).</note>
+                    <note>
+                        The original data has been created by the
+                        <ref target="https://www.ieg-friedensvertraege.de">team of scholars</ref>
+                        who were part of the Europäische Friedensverträge der Vormoderne project. This project was lead by Prof. Dr. Heinz Duchhardt and was based at the Leibniz Institute of European History in Mainz.
+                    </note>
+                </editor>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>
+                    <orgName ref="http://www.isni.org/0000000119314040">Leibniz-Institut für Europäische Geschichte Mainz</orgName>
+                </publisher>
+                <distributor>
+                    <orgName ref="http://www.isni.org/0000000110101946">Universitäts- und Landesbibliothek Darmstadt</orgName>
+                </distributor>
+                <idno type="ISIL">http://lobid.org/organisation/DE-17</idno>
+                <date type="issued" when="2023-12-23"/>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">
+                        <p xml:lang="en">This file is licensed under the terms of the Creative Commons License CC-BY 4.0 (Attribution 4.0 International)</p>
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <repository xml:id="r31">Zuerich StA
+                    <note>Staatsarchiv Zürich, C I, Nr. 1399. Findbuch:<lb />
+                        <ref target="http://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=249887" >http://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=249887</ref><lb />
+                        <lb />
+                        Eidgenössische Abschiede 2, Seite 911. Digital:<lb />
+                        <ref target="https://digital.ub.uni-duesseldorf.de/content/pageview/207771">https://digital.ub.uni-duesseldorf.de/content/pageview/207771</ref></note></repository>
+                <msDesc><p>StAZH, C I Nr. 1399. (UI, O.)&nbsp;&nbsp; Basisdaten zum Dokument sowie Inhaltsangabe finden Sie im digit. Archivkatalog des StAZH&nbsp;&nbsp;&nbsp; <ref target="http://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=249713" > </ref><ref target="http://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=249887" >Link zum StAZH</ref></p></msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>
+                    The data in this XML file, originally created by the project
+                    <ref target="https://www.ieg-friedensvertraege.de/vertraege">Europäische Friedensverträge der Vormoderne online</ref>
+                    has been transformed in accordance with
+                    <ref target="http://www.tei-c.org/">TEI P5</ref>
+                    as part of the project
+                    <ref target="https://www.ieg-mainz.de/en/research/research-projects/european-peace-treaties-of-the-pre-modern-era-in-data">Europäische Friedensverträge der Vormoderne in Daten (FriVer+)</ref>
+                </p>
+            </projectDesc>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="de" xml:id="lan2">deutsch</language>
+            </langUsage>
+        </profileDesc>
+    </teiHeader>
+    <standOff>
+        <listPerson>
+            <person role="signatory" xml:id="p186">
+                <persName ref="https://explore.gnd.network/gnd/4080275-9">
+                    <name>Basel (Fürstentum)</name>
+                </persName>
+            </person>
+            <person role="signatory" xml:id="p235">
+                <persName ref="https://explore.gnd.network/gnd/1077172354">
+                    <name>Basel (Stadt)</name>
+                </persName>
+            </person>
+            <person role="signatory" xml:id="p157">
+                <persName ref="https://explore.gnd.network/gnd/4005762-8">
+                    <name>Bern</name>
+                </persName>
+            </person>
+            <person role="signatory" xml:id="p161">
+                <persName ref="https://explore.gnd.network/gnd/4010401-1">
+                    <name>Colmar</name>
+                </persName>
+            </person>
+            <person role="signatory" xml:id="p176">
+                <persName ref="https://explore.gnd.network/gnd/4021139-3">
+                    <name>Glarus</name>
+                </persName>
+            </person>
+            <person role="signatory" xml:id="p220">
+                <persName ref="https://explore.gnd.network/gnd/4036733-2">
+                    <name>Luzern</name>
+                </persName>
+            </person>
+            <person role="signatory" xml:id="p236">
+                <persName ref="https://explore.gnd.network/gnd/4052703-7">
+                    <name>Schlettstadt</name>
+                </persName>
+            </person>
+            <person role="signatory" xml:id="p179">
+                <persName ref="https://explore.gnd.network/gnd/4118544-4">
+                    <name>Schwyz</name>
+                </persName>
+            </person>
+            <person role="signatory" xml:id="p185">
+                <persName ref="https://explore.gnd.network/gnd/4055458-2">
+                    <name>Solothurn</name>
+                </persName>
+            </person>
+            <person role="signatory" xml:id="p234">
+                <persName ref="https://explore.gnd.network/gnd/4118847-0">
+                    <name>Straßburg (Hochstift)</name>
+                </persName>
+            </person>
+            <person role="signatory" xml:id="p174">
+                <persName ref="https://explore.gnd.network/gnd/4057878-1">
+                    <name>Straßburg (Stadt)</name>
+                </persName>
+            </person>
+            <person role="signatory" xml:id="p190">
+                <persName ref="https://explore.gnd.network/gnd/4062039-6">
+                    <name>Unterwalden Nidwalden</name>
+                </persName>
+            </person>
+            <person role="signatory" xml:id="p182">
+                <persName ref="https://explore.gnd.network/gnd/4078653-5">
+                    <name>Unterwalden Obwalden</name>
+                </persName>
+            </person>
+            <person role="signatory" xml:id="p181">
+                <persName ref="https://explore.gnd.network/gnd/4062129-7">
+                    <name>Uri</name>
+                </persName>
+            </person>
+            <person role="signatory" xml:id="p180">
+                <persName ref="https://explore.gnd.network/gnd/4068063-0">
+                    <name>Zug</name>
+                </persName>
+            </person>
+            <person role="signatory" xml:id="p156">
+                <persName ref="https://explore.gnd.network/gnd/4068038-1">
+                    <name>Zürich</name>
+                </persName>
+            </person>
+        </listPerson>
+        <listPlace>
+            <place xml:id="loc355">
+                <placeName ref="https://explore.gnd.network/gnd/4032215-4">Konstanz</placeName>
+            </place>
+        </listPlace>
+        <facsimile>
+            <surface xml:id="FacsPnr1">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_4627c097b160d"/>
+            </surface>
+        </facsimile>
+    </standOff>
+    <text>
+        <front>
+            <div type="Drucke"><p>EA, Bd. 2 (Beil.), S. 911 (Bündnisvertrag) u. 912 (Gegenbrief d. Eidgen.). &nbsp; &nbsp; <ref target="http://digital.ub.uni-duesseldorf.de/periodical/pageview/207743"> </ref><ref target="http://digital.ub.uni-duesseldorf.de/periodical/pageview/207771">Link zum Druck</ref> 
+                <lb /></p>
+            </div>
+         </front>
+        <body>
+            <div type="Transliteration">
+            <pb facs="#FacsPnr1"/><p>StAZH, C I, Nr. 1399
+            </p> 
+            <p>Von gotts gnaden Wir Rupreht Bischoff zu Straßburg Pfalzgrafe by Ryne […] und Lantgrafe zu Elsas Wir Johans Bischoff zu Basel Und wir die Meistere Burgermeister 
+                <lb /> 
+                <lb /> und Rete der Stette Straßburg, Basel, Colmer &nbsp;und Sletzstat tunt kunt menglichem mit 
+                <lb /> diesem briefe das wir dem almehtigen got und allem hym[m]elschen here zu lobe und 
+                <lb /> 
+                <lb /> dem heiligen Romischen Rich und ouch den tütschen landen und aller erberkeit zu eren nutz und from[m]en und umb ruwe und fridens wegen gemeinlich der lande und zu wider- 
+                <lb /> 
+                <lb /> stonde den ungetruwen louffen mit den fürsihtigen fürnemen Ersammen und wisen Stetten und Lendern gemeyner Eytgenosschafft Zürich Bern Lutzern Solottern Ure Swytz 
+                <lb /> 
+                <lb /> Underwalden, Zuge mit dem Ampt daselbs und Glaruß unseren lieben besundern und guten frunden eingetruwe und fruntlich vereynunge und verstendniße gemaht hanbent 
+                <lb /> 
+                <lb />die do weren bliben und beston sol die nehstkunpftigen Zehen Jore so nocheinander kom[m]en werdent und sie uns und von Inen dero einander Ingangen und die also mit gutem 
+                <lb /> 
+                <lb /> Rat und wolbe dohtenklich getruwelich zu halten und zu volfürend upfgenom[m]en hant wie das hiernach geschriben stat und also ist Das die vorgen[an]t unser lieben besundern 
+                <lb /> 
+                <lb /> und guten frunde Gemeyne Eytgenossen und die Iren und ir zugewanten und zugehorigen Und wir und die unsern und unser zugewanten und zugehorigen alle gemeynlich 
+                <lb /> 
+                <lb /> und sunderlich by Iren und unsern privilegien freiheiten gnäden Rehten, guten gewonheiten und altem harkom[m]en beliben und dero uns zu bedersit dohin als untzhar gutlich 
+                <lb /> 
+                <lb /> gebruchen sollent. Und obe aber yemant fromdes volckes oder ander wer die werent einen teil oder me so In diser eynu[n]ge und verstentniße begriffen sint widerreht und mit 
+                <lb /> 
+                <lb /> eigem gewalt trengen oder beschedigen und von sinen abgeschribenen alten herkom[m]en gewonheiten und friheiten und dem heiligen Rich underston ze bringen das wir andern 
+                <lb /> 
+                <lb />dem selben teil getruwelich beholffen und beroten wesen wollent Nochdem und uns ye beduncket notdurfftig sin getruwelich und ungeuerlich. Und wir bedersit In diser 
+                <lb /> 
+                <lb /> eynu[n]ge begriffen behaltent uns zuvor obe sich harnoch begebe oder mahte das notdurfftig und gut sin vorrede Jemant mer In diese eynu[n]ge zu nem[m]en Das wir das wol 
+                <lb /> 
+                <lb />tun sollent und mogent. Und diser getruwen und fruntlichen vereynu[n]ge und verstentniße das dero wie vorgeschriben stat erberlich und gestracks nochgangen und die 
+                <lb /> 
+                <lb /> getruwelich vollzogen und vollfurt werde one alle argelist und geverde. So habent des zu warem und vesten urkunde Wir Bischoff Rupreht und wir Bischoff Johans 
+                <lb /> 
+                <lb /> obgen[an]t unser Insigele Und wir die meistere Burgermeister und Rete der obgen[an]t Stette der selben unser Stette Insigel offenlich lossen hencken an disen brieff und zu glicher 
+                <lb /> 
+                <lb /> wise also einen von den obgen[an]t unsern lieben besundern und guten frunden Gemeynen Eytgenossen Stetten und Lendern ouch besigelt genom[m]en. Und die geben sint zu Costenz, 
+                <lb /> 
+                <lb />uff donnstag vor dem heiligen palmtage Als man zalte noch Cristi geburt Dusent Vierhundert Sübenzig und vier Jore.&nbsp;&nbsp;&nbsp;&nbsp; 
+            </p>
+            <p>&nbsp;
+            </p>
+            <p>
+                <lb />
+            </p>
+            <p>[bearb. von Peter Seelmann]&nbsp; 
+                <lb />
+            </p>
+            </div>
+        </body>
+    </text>
+</tei:TEI>

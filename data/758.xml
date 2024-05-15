@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE tei SYSTEM "../resources/FriVer_DTD.dtd">
+
+<?xml-model href="../resources/FriVer.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns="http://www.tei-c.org/ns/1.0" xml:id="pa000299-0758">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title level="s">European peace treaties of the pre-modern era in data / Europäische Friedensverträge der Vormoderne in Daten (FriVer+)</title>
+                <title when="1727-11-12" xml:id="t758" when-custom="1727 XI 12" level="a" ref="https://www.ieg-friedensvertraege.de/treaty/t-758-1-de.html">Separatartikel zum Allianzvertrag von Fontainebleau</title>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    Digital edition according to
+                    <ref target="http://www.tei-c.org/">TEI P5</ref>
+                </edition>
+                <funder>
+                    <ref target="https://www.text-plus.org/">TEXT+</ref>
+                </funder>
+                <editor role="http://id.loc.gov/vocabulary/relators/edt" ref="https://orcid.org/0000-0002-8741-5916">
+                    <persName>Jaap Geraerts</persName>
+                    <note>The transformation and enrichment of the data is done by Jaap Geraerts (IEG Mainz). The other members of the FriVer+ team are Fabian Cremer, Ines Grund, and Thorsten Wübbena (all IEG Mainz).</note>
+                    <note>
+                        The original data has been created by the
+                        <ref target="https://www.ieg-friedensvertraege.de">team of scholars</ref>
+                        who were part of the Europäische Friedensverträge der Vormoderne project. This project was lead by Prof. Dr. Heinz Duchhardt and was based at the Leibniz Institute of European History in Mainz.
+                    </note>
+                </editor>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>
+                    <orgName ref="http://www.isni.org/0000000119314040">Leibniz-Institut für Europäische Geschichte Mainz</orgName>
+                </publisher>
+                <distributor>
+                    <orgName ref="http://www.isni.org/0000000110101946">Universitäts- und Landesbibliothek Darmstadt</orgName>
+                </distributor>
+                <idno type="ISIL">http://lobid.org/organisation/DE-17</idno>
+                <date type="issued" when="2023-12-23"/>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">
+                        <p xml:lang="en">This file is licensed under the terms of the Creative Commons License CC-BY 4.0 (Attribution 4.0 International)</p>
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <repository xml:id="r20">Muenchen BayHStA</repository>
+                <msDesc><p>Bayerisches Hauptstaatsarchiv München: Kurbayern Urkunden 36348: Ratifikation Frankreichs, Fontainebleau 1727 XI 20 (Separatartikel).</p></msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>
+                    The data in this XML file, originally created by the project
+                    <ref target="https://www.ieg-friedensvertraege.de/vertraege">Europäische Friedensverträge der Vormoderne online</ref>
+                    has been transformed in accordance with
+                    <ref target="http://www.tei-c.org/">TEI P5</ref>
+                    as part of the project
+                    <ref target="https://www.ieg-mainz.de/en/research/research-projects/european-peace-treaties-of-the-pre-modern-era-in-data">Europäische Friedensverträge der Vormoderne in Daten (FriVer+)</ref>
+                </p>
+            </projectDesc>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="fr" xml:id="lan4">französisch</language>
+            </langUsage>
+        </profileDesc>
+    </teiHeader>
+    <standOff>
+        <listPerson>
+            <person role="signatory" xml:id="p20">
+                <persName ref="https://explore.gnd.network/gnd/4005044-0">
+                    <name>Bayern</name>
+                </persName>
+            </person>
+            <person role="signatory" xml:id="p37">
+                <persName ref="https://explore.gnd.network/gnd/4018145-5">
+                    <name>Frankreich</name>
+                </persName>
+            </person>
+        </listPerson>
+        <listPlace>
+            <place xml:id="loc20">
+                <placeName ref="https://explore.gnd.network/gnd/4093055-5">Fontainebleau</placeName>
+            </place>
+        </listPlace>
+        <facsimile>
+            <surface xml:id="FacsPnr1">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_44aedbd8d6002"/>
+            </surface>
+            <surface xml:id="FacsPnr2">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_44aedc3c7410d"/>
+            </surface>
+            <surface xml:id="FacsPnr3">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_44aedc632e837"/>
+            </surface>
+            <surface xml:id="FacsPnr4">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_44aedca552a1f"/>
+            </surface>
+        </facsimile>
+    </standOff>
+    <text>
+        <front>
+            <div type="Drucke"><p>CTS Bd. 33, S.39-49.</p></div>
+        </front>
+        <body>
+            <div type="Transliteration">
+                <pb facs="#FacsPnr1"/><p>[Seite 1]
+                <lb />
+                <lb />Louis par la grace de Dieu Roy de
+                <lb />France et de Navarre à tous ceux qui ces presentes lettres verront
+                <lb />salut. Comme notre tres cher et &lt;fial&gt;&nbsp; Chevalier Garde des sceaux
+                <lb />de France, Ministre et secretaire d´Etat et de nos commandements et
+                <lb />finances le S[ieur] Chauvelin en vertu des pleinspouvoirs que nous luy
+                <lb />en avions donné a&lt;v&gt;oit conclu, arresté, et signé le douze du present
+                <lb />Mois de Novembre à Fontainebleau avec le S[ieur] Comte d´Albert,
+                <lb />Chambellan et Con[seill]er d´Etat de notre tres cher et tres amé frere
+                <lb />l´Electeur de Baviere, Lieutenant general de ses Troupes, et Colonel
+                <lb />du Regiment de ses Gardes à pied, pareillement muny des pleinspouvoirs
+                <lb />de notre &lt;…&gt;&nbsp;&nbsp; les articles separées, dont la teneur s´ensuit.
+                <lb />
+                <lb />1.
+                <lb />
+                <lb />Comme l'Electeur de Baviere est encore engagé avec l'Empereur
+                <lb />par un Traité particulier, dont le terme n'exp&lt;irra&gt; qu'au p[remi]er Septembre 1728,
+                <lb />on est convenu que le present Traité d'alliance secrette ne commencera
+                <lb />à avoir lieu que du jour de l'expiration de celuy d'entre Son&nbsp; Altesse
+                <lb />Electorale et l'Empereur, Sa d[it]e Alt[esse] Elect[ora]le promettant specialement
+                <lb />par le present article de ne le point prolonger, et de remplir exactement
+                <lb />à tous égards l'article sept[iem]e du Traité signé cejourd´huy.
+                <lb />
+                <lb />2.
+                <lb />
+                <lb />Et comme rien ne &lt;scauroit&gt; etre plus avantageux pour le maintien de
+                <lb />la Religion, ny plus efficace pour le raffermissement de la Paix dans
+                <lb />
+                <pb facs="#FacsPnr2"/>[Seite 2]
+                <lb />
+                <lb />l'Empire, choses qui sont les deux principaux objets de ce Traité,
+                <lb />qu'une etroite union et puissante confederation entre les quatres
+                <lb />Electeurs de la meme Maison, Son Alt[e]sse Elec[tora]le de Baviere s'engage
+                <lb />a faire de son mieux, et à tout employer pour porter les Electeurs de
+                <lb />Cologne, de Treves, et Palatin, non seulement à maintenir le Traité
+                <lb />d'union qui subsiste desja entre eux mais encore à le
+                <lb />fortiffier par
+                <lb />une extension et addition d'articles et d'engagements reciproques qui
+                <lb />seront conformes au projet envoyé, ou aux autres idées, points et clauses
+                <lb />qui pourront être communiquées et suggerées par Sa Majesté; La quelle
+                <lb />promet de coté de vouloir favoriser, proteger et faciliter le suces
+                <lb />dud[it] Traité d'union par tout ce qui dependra d'elle; Et outre cela apres
+                <lb />que le d[it] T[rai]té sera conclu dans la forme cy dessus énoncée, et signé entre
+                <lb />les quatre Electeurs, de payer à Son Alt[e]sse Elec[tora]le de Baviere un Million
+                <lb />de livres de France. Scavoir cent cinquante mil livres dans 1e cours de
+                <lb />la premiere année, qui ne commencera à courir que du premier octobre
+                <lb />1728; Deux cent cinquante mille livres dans le cours de la seconde
+                <lb />année; Et trois cent cinquante mille livres dans le cours de chacune des deux
+                <lb />années suivantes, faisant en tout lad[ite] somme d'un Million de livres
+                <lb />de France, payable, ainsy que les subsides annuels de trois Mois
+                <lb />en trois Mois; Bien entendu que led[it] secours extraord[inai]re sera &lt;..&gt;
+                <lb />reellement et fidellement employé par sad[ite] Alt[es]se Elect[ora]le aux reparations
+                <lb />les plus pressées de ses Places et au retablissement de son Etat militaire
+                <lb />
+                <pb facs="#FacsPnr3"/>[Seite 3]
+                <lb />
+                <lb />En sorte que sad[ite] Alt[es]se Elect[ora]le soit en etat de donner à lad[ite] union et confederation
+                <lb />le po&lt;ids&gt;, et la consideration, et l'autiorité dans l'Empire qu´il convient qu'elle
+                <lb />y ait pour la fin proposée, et que l'Electeur puisse en meme temns se garantir
+                <lb />et mettre a l´abry du mal et des dommages qu'on voudroit lui faire en haine
+                <lb />de lad[ite] union, il survenoit une guerre dans laquelle Sad[ite] Alt[e]sse Elect[ora]le
+                <lb />fut entrainée, Sa Majesté s'engage et promet d'entrer dans les frais et depenses
+                <lb />extraordinaires que l'Electeur seroit obligé de faire pour icelle.
+                <lb />Cependant, si contre toute attente, et malgré la diligence et les soins de
+                <lb />son Alt[e]sse Elect[ora]le et le desir sincere qu'elle a de porter selon les intentions de
+                <lb />Sa Majesté les Electeurs de sa Maison à l'extension T[rai]té d'union, elle avoit
+                <lb />le malheurr de n'y pas reussir avant qu'elle ne fut&nbsp; degagée d'avec l'Empereur,
+                <lb />cela n'empechera pas que le present renouvellement de T[rai]té d'alliance secrette
+                <lb />avec Sa Majesté ne subsiste et ne sorte son plein effet au jour de l'expiration
+                <lb />dud[it] Traité de l´Electeur avec sa Majesté Imperiale.
+                <lb />Les susd[its] articles separés auront la meme force et vigueur que s'ils
+                <lb />etoient insere&lt;s&gt; de mot à mot dans le T[rai]té d'alliance secrette signé cejourd'huy.
+                <lb />En foy de quoy nous avons signé les susd[its] articles séparés, et y avons
+                <lb />fait apposer le cachet de nos armes. Fait à Fontainebleau le douz[ièm]e Novembre
+                <lb />mil sept cent vingt sept.
+                <lb />
+                <lb />Chauvelin&nbsp;&nbsp; &nbsp;Le Comte d'Albert.
+                <lb />
+                <lb />Nous ayant agreables les susd[its] articles separés en toutes et chacun
+                <lb />
+                </p>
+                <pb facs="#FacsPnr4"/><p>[Seite 4]
+                    <lb />
+                    <lb />les points et articles qui y sont contenus, avons iceux, tant pour nous
+                    <lb />que pour nos heritiers, successeurs, Royaumes, Pays, Etats, Seigneuries
+                    <lb />et sujets, accepté, aprouvé, ratiffié et confirmé, et par ces presentes
+                    <lb />signées de notre main acceptons, aprouvons, ratiffions et confirmons,
+                    <lb />et le tout promettons en foy et parole de Roy garder et observer inviolablement
+                    <lb />sans jamais aller ny &lt;…&gt; au contraire directement ou indirectement
+                    <lb />en quelque sorte et maniere que ce soit. En temoin se quoy
+                    <lb />nous avons fait mettre notre scel a ces presente. Donne à 
+                    <lb />Fontainebleau le vingt[ieme] jour de Novembre l´an de grace 
+                    <lb />Mil septembre cent vingt sept, et de notre regne le 13[iem]e.
+                </p>
+                <p>
+                    <lb />Louis
+                    <lb />
+                    <lb /> 
+                </p>
+            </div>
+        </body>
+    </text>
+</tei:TEI>

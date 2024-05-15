@@ -1,0 +1,357 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE tei SYSTEM "../resources/FriVer_DTD.dtd">
+
+<?xml-model href="../resources/FriVer.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns="http://www.tei-c.org/ns/1.0"
+    xml:id="pa000299-0016">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title level="s">European peace treaties of the pre-modern era in data / Europäische
+                    Friedensverträge der Vormoderne in Daten (FriVer+)</title>
+                <title when="1631-04-07" xml:id="t16" when-custom="1631 IV 3" level="a"
+                    ref="https://www.ieg-friedensvertraege.de/treaty/t-16-1-de.html">Friedensvertrag
+                    von Kaschau</title>
+            </titleStmt>
+            <editionStmt>
+                <edition> Digital edition according to <ref target="http://www.tei-c.org/">TEI
+                        P5</ref>
+                </edition>
+                <funder>
+                    <ref target="https://www.text-plus.org/">TEXT+</ref>
+                </funder>
+                <editor role="http://id.loc.gov/vocabulary/relators/edt"
+                    ref="https://orcid.org/0000-0002-8741-5916">
+                    <persName>Jaap Geraerts</persName>
+                    <note>The transformation and enrichment of the data is done by Jaap Geraerts
+                        (IEG Mainz). The other members of the FriVer+ team are Fabian Cremer, Ines
+                        Grund, and Thorsten Wübbena (all IEG Mainz).</note>
+                    <note> The original data has been created by the <ref
+                            target="https://www.ieg-friedensvertraege.de">team of scholars</ref> who
+                        were part of the Europäische Friedensverträge der Vormoderne project. This
+                        project was lead by Prof. Dr. Heinz Duchhardt and was based at the Leibniz
+                        Institute of European History in Mainz. </note>
+                </editor>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>
+                    <orgName ref="http://www.isni.org/0000000119314040">Leibniz-Institut für
+                        Europäische Geschichte Mainz</orgName>
+                </publisher>
+                <distributor>
+                    <orgName ref="http://www.isni.org/0000000110101946">Universitäts- und
+                        Landesbibliothek Darmstadt</orgName>
+                </distributor>
+                <idno type="ISIL">http://lobid.org/organisation/DE-17</idno>
+                <date type="issued" when="2023-12-23"/>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">
+                        <p xml:lang="en">This file is licensed under the terms of the Creative
+                            Commons License CC-BY 4.0 (Attribution 4.0 International)</p>
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <repository xml:id="r34">Wien HHStA</repository>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p> The data in this XML file, originally created by the project <ref
+                        target="https://www.ieg-friedensvertraege.de/vertraege">Europäische
+                        Friedensverträge der Vormoderne online</ref> has been transformed in
+                    accordance with <ref target="http://www.tei-c.org/">TEI P5</ref> as part of the
+                    project <ref
+                        target="https://www.ieg-mainz.de/en/research/research-projects/european-peace-treaties-of-the-pre-modern-era-in-data"
+                        >Europäische Friedensverträge der Vormoderne in Daten (FriVer+)</ref>
+                </p>
+            </projectDesc>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="la" xml:id="lan6">Latein</language>
+            </langUsage>
+        </profileDesc>
+    </teiHeader>
+    <standOff>
+        <listPerson>
+            <person role="signatory" xml:id="p12">
+                <persName ref="https://explore.gnd.network/gnd/4043271-3">
+                    <name>Oesterreich</name>
+                </persName>
+            </person>
+            <person role="signatory" xml:id="p109">
+                <persName ref="https://explore.gnd.network/gnd/4054835-1">
+                    <name>Siebenbürgen</name>
+                </persName>
+            </person>
+        </listPerson>
+        <listPlace>
+            <place xml:id="l10">
+                <placeName ref="https://explore.gnd.network/gnd/1028389-4">Kaschau</placeName>
+            </place>
+        </listPlace>
+        <facsimile>
+            <surface xml:id="FacsPnr1">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_442c4e0f6e4ef"/>
+            </surface>
+            <surface xml:id="FacsPnr2">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_442c4e660dd50"/>
+            </surface>
+            <surface xml:id="FacsPnr3">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_442c4ec59fb2b"/>
+            </surface>
+            <surface xml:id="FacsPnr4">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_4439beca9af72"/>
+            </surface>
+            <surface xml:id="FacsPnr5">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_4439c056d5804"/>
+            </surface>
+            <surface xml:id="FacsPnr6">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_442c50b9864f0"/>
+            </surface>
+            <surface xml:id="FacsPnr7">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_4439c11334753"/>
+            </surface>
+        </facsimile>
+    </standOff>
+    <text>
+        <body>
+            <div type="Transliteration">
+
+                <pb facs="#FacsPnr1"/>
+                <p>[Deckblatt:] </p>
+                <p>Groß-Wardein 7. April 1631 <lb/>Georg Rákóczys Grsf. v. Siebenbürgen Ratification
+                    des <lb/>Kaschauer Friedens mit Ks. Ferdinand II. <lb/>Dat. In Arce nostra
+                    Varad, die Septima Mensis Aprilis <lb/>A.A. Millesimo Sexcentesimo Trigesimo
+                    Primo </p>
+                <p>Orig. auf Papier mit aufgedrücktem Siegel <lb/>Ung. Arch. K.Hbb ad 20. </p>
+                <p>
+                    <pb facs="#FacsPnr2"/> [Titel:]</p>
+                <p>Tractatus Pacis <lb/>Anni 1631 Cum Principe <lb/>Georgio Rákoczy initus <lb/>7.
+                    Aprilis </p>
+                <pb facs="#FacsPnr3"/>
+                <p>No&lt;s&gt;<note n="1" type="crit_app">Ein Buchstabe unleserlich durch schwarzen
+                        Fleck.&nbsp;</note>&nbsp; Georgius <lb/>Ra&lt;k&gt;<note n="2" type="crit_app">Ein Buchstabe
+                        unleserlich durch schwarzen Fleck.&nbsp; </note> oci Dei Gratia
+                        <lb/>Pr&lt;i&gt;<note n="3" type="crit_app">Ein Buchstabe unleserlich durch schwarzen
+                        Fleck.</note> nceps Transyl- <lb/>vaniae Partium Re- <lb/>gni Hungariae
+                    Domi- <lb/>nus et siculorum Comes. </p>
+                <p>
+                    <lb/>Memoriæ commendamus tenore praesentium significantes quibus expedit
+                    universis. <lb/>Quod cum Nos certarum quarundam difficultatum inter
+                    Sacratiss[i].mam Cæsar[eam] Re- <lb/>giamque Ma[jes]t[a]t.em et Nos vigentium
+                    componendarum causa certos Legatos nostros <lb/>Plenipotentiarios nimirum
+                    S[pectabi]les et Mag[nificos] Stephanum Kovaczioczy de Kéört- <lb/>velyfaia
+                    Comitem Comitatus Thorden[sis] Sedisque Siculicalis Marus Capitaneum
+                    <lb/>Cancellarium et Consiliarium; Item Franciscum Miko de Hidueghe Sedium Si-
+                    <lb/>culicalium Czik Gyirgyo et Kaszon Capitaneum Supremum Cubilcularium, The-
+                    <lb/>saurarium et Consiliarium nostros; Prudentemque et Circumspectum Andream
+                    Gor- <lb/>gias Civem et Senatorem Civiatis nostræ Coronensis fidelis syncere
+                    nobis <lb/>dilectos ad Illustriss[imu].m D[omi]num Comitem Nicolaum Eszterhasi
+                    de Galantha, <lb/>perpetuum de Frakno, Regni Hungariæ Comitem Palatinum, Judicem
+                    Cu- <lb/>manorum, Equitem Aurei velleris, Comitatuumque Sopronien[sis],
+                    Zoljen[sis] et de Be- <lb/>regh Comitem, Sacratiss[i]mæ Cæsar[eæ] Regiæque
+                    Ma[jes]t[a]tis Intimum Consiliarium, Ca- <lb/>merarium, et per Regnum Hungariae
+                    Locumtenentem, ut pote, cum sufficienti plenipotentia, a dicta Ma[jes]t[a]te sua
+                    Cæsar[ea] ad sopiendos motus hos, in supe- <lb/>riores regni Hungariae partes
+                    expeditum, in Civitatem Cassouiensem dimitten- <lb/>dos voluerimus. Quorum
+                    quidem Legatorum nostrorum, post varios ultro citroque <lb/>tractatus
+                    institutos, demum et tollendos motus et novitates, medio præfati <lb/>Domini
+                    Comitis Palatini, cum Sacratiss[i]ma Regiaque Ma[jes]t[a]te. ad infrascri-
+                    <lb/>ptam pacis et concordiae unionem devenimus. Cuisquidem Articuli et
+                    conditio- </p>
+                <p> </p>
+                <lb/>
+                <lb/>
+                <p> </p>
+                <pb facs="#FacsPnr4"/>
+                <p>&nbsp;tiones sequuntur in hunc modum.&nbsp;&nbsp;Primo: Quo ad &lt;...&gt;<note
+                        n="4" type="crit_app">Passage durch Fleck unleserlich, wohl &lt;domini&gt;.&nbsp; </note>
+                    &nbsp; principis <lb/>personam, teneatur D[omi]nus Princeps, peracta hic
+                    pacificatione, h&lt;...&gt;<note n="5" type="crit_app">Passage durch Fleck unleserlich, wohl
+                        &lt;honorificam&gt;.&nbsp; </note> am lega- <lb/>tionem cum donis congruis
+                    in recognitionem obsequij, et ad han&lt;...&gt;<note n="6" type="crit_app">Passage durch Fleck
+                        unleserlich, wohl &lt;hanc pacificationem&gt;.&nbsp; </note> ationem
+                    <lb/>confirmandam, Viennam ad suam Ma[jes]t[a]tem expedire, eamque
+                        dece&lt;...&gt;<note n="7" type="crit_app">Passage durch Fleck unleserlich, wohl
+                        &lt;decenter&nbsp; complacare&gt;.&nbsp; </note> implacare. <lb/>Secundo:
+                    Do[mi]n[u]s Princeps fide Christiana mediante firmissime &lt;...&gt;<note n="8"
+                         type="crit_app">Passage durch Fleck unleserlich, wohl &lt;promittat&gt;.&nbsp; </note>
+                    ittat, quod <lb/>nunquam contra Ma[jes]t[a]tem suam Augustamque Domum
+                    Austriac&lt;am ac&gt;<note n="9" type="crit_app">Passage durch Fleck unleserlich.</note>&nbsp;
+                    Ditiones <lb/>suae Ma[jes]t[a]ti Successoribusque eius legitimis subiectas, arma
+                    vel hostilitatem <lb/>ullam, sub quovis quæsito colore ac prætextu, movebit;
+                    neque erga suam Ma[jes]t[a]tem <lb/>malè affectos juvabit, neque ullam cum ipsis
+                    correspondentiam habebit; Turcas <lb/>et Tartaros aliosque Regni æmulos, contra
+                    Regnum Hungariae, et alias <lb/>ditiones christianas, non concitabit neque
+                    evocabit, militemque proprium aut <lb/>extraneum in suæ Ma[jes]t[a]tis ditiones
+                    non introducet neque intromittet; con- <lb/>silia noxia contra suam
+                    Ma[jes]t[a]tem non agitabit, quin imo, noxias aliorum adturbandam pacem
+                    statumque tranquillum suggestiones et solicitationes, authoresque <lb/>illarum
+                    in signum synceræ erga bonum publicum affectionis, suæ Ma[jes]t[a]t[is]
+                    <lb/>manifestabit. Idem quoque a parte suæ Ma[jes]t[a]ti[s] fiat.
+                    &nbsp;&nbsp;Tertio <lb/>Si quidem D[omi]nus Princeps Patakini in posterum non
+                    habitabit, Praefectum et <lb/>officiales ibidem, Regni Hungariæ Nobiles
+                    possessionatos intertenebit. <lb/>Quarto. Præsidium suæ Ma[jes]t[a]tis Ungaricum
+                    in Arcem Onodiense[m], <lb/>idem D[omi]nus Princeps eo numero quo erunt sui
+                    præsidiarij, de facto re- <lb/>cipiat, et præsidium illud suæ Ma[jes]t[a]tis
+                    Domino Principi tanquam Arcis D[omi]no <lb/>instar Præsidiarioum suorum
+                    propriorum. Domini autem Principis præsidium, Suæ <lb/>Ma[jes]t[a]ti, secundum
+                    consuetudinem Juramenti præsidiariorum eiusdem Ma[jes]t[a]tis fidei vin-
+                    <lb/>culo sint obstricti. Capitaneus tamen præsidij suæ Ma[jes]t[a]tis non
+                    habebit conti- <lb/>nuam in Arce residentiam, sed dum et quandocunque
+                    necessitatem fore cogno- <lb/>verit, libere in Arcem introire, ibidem commorari
+                    et residere, et una cum reli- <lb/>quo præsidio Arcem defendere possit. Si
+                    quando autem ex filijis D[omi]ni Prin- <lb/>cipis aliqui in Hungariam sese ad
+                    residendum conferrent, tanquam unus <lb/>ex Magnatibus regni Hungariae, Arcemque
+                    ipsam in suam directionem reci- <lb/>perent, in suæ Ma[jes]t[a]tis fidelitate
+                    existendo, eo casu directio et possessio Ar- <lb/>cis in priorem statum et
+                    consuetudinem in qua hactenus extitit, reducatur. <lb/>Capitaneus autem et
+                    præsidium suæ Ma[jes]t[a]tis, in consuetos Donimi Principis <lb/>proventus se se
+                    non immisceant.&nbsp;&nbsp;Quinto: Magnates et Nobiles </p>
+                <p> </p>
+                <lb/>
+                <lb/>
+                <lb/>
+                <lb/>
+                <lb/>
+                <lb/>
+                <lb/>
+                <p> </p>
+                <pb facs="#FacsPnr5"/>
+                <p>&nbsp;biles &lt;Transsylv&gt;<note n="10" type="crit_app">Passage durch Fleck unleserlich.&nbsp;
+                    </note>ani, qui defacto in Ditione suæ Ma[jes]t[a]tis existunt, libere in Tran-
+                    <lb/>sylvani&lt;am ...&gt;<note n="11" type="crit_app">Passage durch Fleck unleserlich, wohl
+                        &lt;am redire&gt;.&nbsp; </note>&nbsp;possint, neque in personis vel bonis
+                    impediantur; Si qui vero ex <lb/>Nobili&lt;bus ...&gt;<note n="12" type="crit_app">Passage durch
+                        Fleck unleserlich, wohl &lt;ibus aut&gt;.&nbsp; </note>&nbsp;Magnatibus
+                    Transsylvanis, servitio suæ M[ajes]t[a]tis se se inpo- <lb/>sterum
+                        &lt;...&gt;ngere<note n="13" type="crit_app">Unklare Lesart, wohl
+                        &lt;obstringere&gt;.</note>&nbsp;voluerint, de jis in proxime affutura
+                    generali Diæta <lb/>Transsy&lt;lvani&gt;ae, Dominus Princeps proponet
+                    diligenter, et, si status et <lb/>Ordines Regni eiusmodi servitia libera
+                    permiserint. Dominus quoque Prin- <lb/>ceps deliberationem eorundem Statuum
+                    admittet. De coetero hâc quoque <lb/>in parte, priorum Diplomatum continentiæ
+                    observentur.&nbsp;&nbsp;Sexto: <lb/>&lt;N&gt;umquam inposterum conductitia
+                    Haydonum Cæsareæ Ditionis opera, quo- <lb/>cunque in casu et neccessitate, ipse
+                    D[omi]nus Princeps, vel suorum quispiam, <lb/>citra expressam suae
+                    Ma[jes]t[a]tis voluntatem, utatur. Idem quoque a par- <lb/>te suæ Ma[jes]t[a]tis
+                    fiet ratione Haydonum ditioni D[omi]ni Principis subjector[um]. <lb/>Septimo
+                    Proventus suæ Ma[jes]t[a]tis quoslibet et Regni contributiones <lb/>aliaque
+                    onera, quæ reliqui etiam Regni Hungariæ Magnates et Re- <lb/>gnicolæ supportant,
+                    ut bona quoque eiusdem D[omi]ni Principis supportent, <lb/>non
+                    contrariabitur.&nbsp;&nbsp;Octavo: Ut omnia puncta foederis cum
+                    <lb/>Transsylvaniæ regno antehac tempore Suæ [Majes]t[a]tis conclusa, et
+                    publicis <lb/>Regni Comitiis Transsylvanicis Juramenti Literis confirmata et suæ
+                    <lb/>Ma[jes]t[a]ti transmissa, sarta et tecta permaneant in omnibus suis punctis
+                    et <lb/>clausulis ac conditionibus.&nbsp;&nbsp;Nono: Cum hostibus suæ
+                    Ma[jes]t[a]tis <lb/>quibuscunque, um foedus amque correspondentiam habebit, nec
+                    quæsito <lb/>quovis sub colore et prætextu opem illis feret, quin imo si quos
+                    tales ad- <lb/>verteret, eos suæ Ma[jes]t[a]ti Cæsar[eæ] haud mora deferet. Idem
+                    quoque a parte <lb/>suæ Ma[jes]t[a]tis fiet.&nbsp;Decimo: Si quid Idem D[omi]nus
+                    Princeps <lb/>prætensi contra suam Ma[jes]t[a]tem habuerit, id non nisi per
+                    Legatos suos pri- <lb/>mum apud suam Ma[jes]t[a]tem prosequatur, Et ita negotium
+                    complanet. Idem <lb/>fiet ex parte quoque suæ
+                    Ma[jes]t[a]tis.&nbsp;&nbsp;Undecimo: Captivi omnes, <lb/>qui ab initio huius
+                    motus huc usque utrinque et ubicunque intercepti sunt, <lb/>gratis dimittantur.
+                    &nbsp;&nbsp;Duodecimio: Magnificos Dominos <lb/>Comitem Stephanum Betthlen
+                    Juniorem et Dauidem Zolyomi, ad condi- <lb/>tiones ipsis propositas, ita uti
+                    limitatæ ac in peculiari scripto com- </p>
+                <p> </p>
+
+                <lb/>
+                <lb/>
+                <lb/>
+                <lb/>
+                <p> </p>
+                <pb facs="#FacsPnr6"/>
+                <p>&nbsp;prehensæ, sigillisque et chirographi Mag[nificorum] D[omi]norum
+                        Sigismun&lt;...&gt;<note n="14" type="crit_app">Passage durch Fleck unleserlich, wohl
+                        &lt;Sigismundi Lonyai&gt;.&nbsp; </note>&nbsp; et <lb/>Francisci Miko,
+                    firmatæ sunt, acceptandas et præstandas, Dn&lt;... </p>
+                <p>&gt;<note n="15" type="crit_app">Passage durch Fleck unleserlich, wohl &lt;domino
+                        princeps&gt;.&nbsp;</note> nceps <lb/>ipsemt inducet. Similiter etiam
+                    Haydones ditioni Transsyl&lt;vanic&gt;<note n="16" type="crit_app">Passage durch Fleck
+                        unleserlich.&nbsp; </note> æ sub- <lb/>jectos inducet, ut nexus et
+                    confoederationes inter ipsos et H&lt;aydo&gt;nes Di- <lb/>tionis suae
+                    Ma[jes]t[a]tis et alios interessatos, remittant, relaxent &lt;et&gt; penitus
+                    <lb/>aboleant. Haydonis etiam Ditionis suæ Ma[jes]t[a]tis, una cum Domino Palat-
+                    <lb/>ino, inducet. Idem D[omi]nus Princeps ad acceptandas conditionis ipsis
+                    etiam <lb/>propositas sub sigillis et chirographis Mag[nificorum] Sigismundi
+                    Lonyai, <lb/>et Francisci Miko, scripta comprehensas.&nbsp;&nbsp;Decimo tertio:
+                    <lb/>Offert etiam D[omi]nus Princeps se se omni conatu interpositurum, ut
+                    Capitanei <lb/>et præsidiarii Arcis Munkacz, fidei vinculo suæ Ma[jes]t[a]ti
+                    obstringantur; pro- <lb/>ut id antea quoque usu roboratum fuit. Sin autem
+                    præstare hoc nollent, et Sua <lb/>Ma[jes]tas vel Dominis Palatinus contra illos,
+                    aliam sibi rationem ineundam <lb/>duceret, Dominus Princeps atenus impediet.
+                    &nbsp;&nbsp;Decimoquarto: <lb/>Inducet etiam D[omi]nus Princeps Mag[nifi]cum
+                    D[omi]num Comitem Stephanum Betthlen <lb/>Juniorem ut Capitaneus et præsidiarij
+                        &lt;..&gt;<note n="17" type="crit_app">Zwei unklare Zeichen, möglicherweise Schreibkorrektur
+                        &lt;os&gt;. </note>&nbsp; Arcis Eczied, suæ quoque Ma[jes]t[a]ti fidei
+                    <lb/>vinculo sint adstricti, iuxta Diploma pacificationis Posonienses.&nbsp;De-
+                    <lb/>cimo quinto: Quibus omnibus præmissis per Dominum Principem <lb/>acceptatis
+                    et confirmatis, differentiæ, contrarietates et violentiæ omnes <lb/>exindeque
+                    subsecuta qualiacunque in commoda et damna, quæ inter suam Ma[jes]t[a]tem
+                    <lb/>Cæsar[eam] eiusque subditos, et Dominum Principem Transsylvaniæ eiusque pa-
+                    <lb/>riter subditos, ab inito huiusce præsentis motus, in partibus Regni Hun-
+                    <lb/>gariæ superioribus hucusque exorta sunt, penitus sopiantur, oblivionique
+                    <lb/>perpetuæ, tam per suam Ma[jes]t[a]tem Cæsar[eam] quam etiam alios suos
+                    subditos, <lb/>trandantur.&nbsp;&nbsp;Decimo sexto: Sua Ma[jes]tas Cæsar[ea] pro
+                    in- <lb/>nata sua benignitate, Dominum Principem, in peculiarem suam protectione
+                    <lb/>recipit et assumit, neque Eundem hæredesque et posteritates ipsius
+                    utriusque sexus <lb/>universos bonaque eorundem et Coniugis suæ universa in
+                    Hungaria existentia <lb/>ratione præmissarum diffenentiarum et Damnorum, ulla
+                    unquam modo per se <lb/>vel per alios quoslibet, impediet et
+                    turbabit.&nbsp;&nbsp;Decimo septimo: <lb/>Adhæc sua Maiestas Eundem D[omi]num
+                    Principem in Principatu regni Trans- <lb/>sylaniae et partium Hungariae eidem
+                    annexarum, nec per se, nec per alios <lb/>quoscunque impediet et turbabit,
+                    impedirique patietur.&nbsp;&nbsp;De- </p>
+                <p> </p>
+                <lb/>
+                <lb/>
+                <lb/>
+                <p>
+                    <pb facs="#FacsPnr7"/> &nbsp;cimo &lt;octa&gt;vo<note n="18" type="crit_app">Passage durch Fleck
+                        unleserlich, &lt;octavo&gt;..&nbsp;</note> : Sua Maiestas Cæsar[ea] atque
+                    Regia Conf&lt;oe&gt;derationes suas, cum <lb/>Statib&lt;...&gt;<note n="19"
+                         type="crit_app">Passage durch Fleck unleserlich, wohl &lt;statibus et
+                        ordinibus&gt;.&nbsp;</note> inibus Regni Transsylvaniæ, et partium Hungariæ
+                    eidem an- <lb/>nexarum &lt;...&gt;<note n="20" type="crit_app">Passage durch Fleck unleserlich,
+                        wohl &lt;initas&gt;.&nbsp;</note>&nbsp; vigore huiusce transactionis
+                    renovat, benigneque eosdem Sta- <lb/>tus asse&lt;...&gt;<note n="21" type="crit_app">Passage
+                        durch Fleck unleserlich, wohl &lt;assecurat&gt;.&nbsp;</note>&nbsp;quod
+                    neque se ipsos, neque fines et terminos ipsorum antiquos, <lb/>per se
+                        v&lt;...&gt;<note n="22" type="crit_app">Passage durch Fleck unleserlich, &lt;vel per&gt;.
+                    </note>&nbsp; alios quoscunque quovismodo turbari et impediri permittet.
+                    <lb/>Decimo nono: Amnystia servitoribus Domini Principis omnibus <lb/>iuxta
+                    tenorem posterioris Amnystiæ Posoniensis concedetur. Nos <lb/>igitur quibus
+                    nihil charius potiusque, quam publicae quietis gentisque nostræ
+                    <lb/>tranquillitatis studium fuit, præscriptos universos Articulos, singulaque
+                    <lb/>&nbsp;in eisdem contenta, ex certa nostra scientia, animoque bene
+                    deliberato acceptamus, <lb/>approbamus, ratificamus et confirmamus. Assecurantes
+                    tam sæpe fatam <lb/>Sacratiss[i]mam Cæsar[eam] regiamque Ma[jes]t[a]tem, quam
+                    etiam dictum Dominum <lb/>Regni Hungariæ Comitem Palatinum, in verbo nostro
+                    Principali et bona <lb/>fide christiana, quod præscriptos universos Articulos,
+                    in omnibus suis <lb/>punctis et clausulis , tam Nos ipsi observabimus, quam
+                    etiam per alios <lb/>subditos nostros, cuiuscunque status et conditionis sint,
+                    observari faci- <lb/>emus. Ad quod observandum, etiam successores nostros
+                    legitimos Trans- <lb/>sylvaniae Principes, quos videlicet transactio ista
+                    concernere dignoscitur, <lb/>obligatos esse volumus. Harum nostrarum manus
+                    nostræ subscriptione <lb/>roboratarum vigore et testimonio literarum mediante.
+                    Datum in Arce <lb/>nostra Varad die Septima Mensis Aprilis Anno Domini Millesimo
+                    <lb/>Sexcentesimo Trigesimo Primo. </p>
+                <p>Georgius Rakoczy <lb/>m.p. </p>
+                <p>
+                    <lb/>Martinus Markosffalvi&nbsp;&nbsp; Secr[etarius] m.p. <lb/>
+                </p>
+                <p> </p>
+                <lb/>
+                <lb/>
+                <lb/>
+                <lb/>
+            </div>
+        </body>
+    </text>
+</tei:TEI>

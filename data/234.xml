@@ -1,0 +1,1104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE tei SYSTEM "../resources/FriVer_DTD.dtd">
+
+<?xml-model href="../resources/FriVer.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns="http://www.tei-c.org/ns/1.0" xml:id="pa000299-0234">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title level="s">European peace treaties of the pre-modern era in data / Europäische Friedensverträge der Vormoderne in Daten (FriVer+)</title>
+                <title when="1678-08-10" xml:id="t234" when-custom="1678 VIII 10" level="a" ref="https://www.ieg-friedensvertraege.de/treaty/t-234-1-de.html">Handels- und Schiffahrtsvertrag von Nijmegen</title>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    Digital edition according to
+                    <ref target="http://www.tei-c.org/">TEI P5</ref>
+                </edition>
+                <funder>
+                    <ref target="https://www.text-plus.org/">TEXT+</ref>
+                </funder>
+                <editor role="http://id.loc.gov/vocabulary/relators/edt" ref="https://orcid.org/0000-0002-8741-5916">
+                    <persName>Jaap Geraerts</persName>
+                    <note>The transformation and enrichment of the data is done by Jaap Geraerts (IEG Mainz). The other members of the FriVer+ team are Fabian Cremer, Ines Grund, and Thorsten Wübbena (all IEG Mainz).</note>
+                    <note>
+                        The original data has been created by the
+                        <ref target="https://www.ieg-friedensvertraege.de">team of scholars</ref>
+                        who were part of the Europäische Friedensverträge der Vormoderne project. This project was lead by Prof. Dr. Heinz Duchhardt and was based at the Leibniz Institute of European History in Mainz.
+                    </note>
+                </editor>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>
+                    <orgName ref="http://www.isni.org/0000000119314040">Leibniz-Institut für Europäische Geschichte Mainz</orgName>
+                </publisher>
+                <distributor>
+                    <orgName ref="http://www.isni.org/0000000110101946">Universitäts- und Landesbibliothek Darmstadt</orgName>
+                </distributor>
+                <idno type="ISIL">http://lobid.org/organisation/DE-17</idno>
+                <date type="issued" when="2023-12-23"/>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">
+                        <p xml:lang="en">This file is licensed under the terms of the Creative Commons License CC-BY 4.0 (Attribution 4.0 International)</p>
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <repository xml:id="r22">Paris AAE
+                    <note>Den Haag NA, Findbuch:<lb />
+                        <ref target="http://www.gahetna.nl/collectie/archief/inventaris/index/eadid/1.01.02/inventarisnr/12587.186" >eadid/1.01.02/inventarisnr/12587.186</ref></note>
+                </repository>
+                <msDesc><p>NADH, archief van de Staten-Genraal, inv. nr. 12587.186. 
+                    <lb /> 
+                </p> 
+                    <p> AAE Paris: M.A.E. Traités. Multilateraux 16780003. Traité de commerce et de navigation avec les Provinces-Unies.-Nimègue (UI). Siehe auch:&nbsp; 
+                    </p> 
+                    <p><ref target="http://www.doc.diplomatie.gouv.fr/BASIS/choiseul/desktop/choiseul/DDW?M=50&amp;K=16780003&amp;W=PAYS+%3D+%27Multilat%E9raux%27+ORDER+BY+SOUSSERIE/Ascend" >Link zur Vertragsseite 
+                        <lb /> </ref> 
+                    </p></msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>
+                    The data in this XML file, originally created by the project
+                    <ref target="https://www.ieg-friedensvertraege.de/vertraege">Europäische Friedensverträge der Vormoderne online</ref>
+                    has been transformed in accordance with
+                    <ref target="http://www.tei-c.org/">TEI P5</ref>
+                    as part of the project
+                    <ref target="https://www.ieg-mainz.de/en/research/research-projects/european-peace-treaties-of-the-pre-modern-era-in-data">Europäische Friedensverträge der Vormoderne in Daten (FriVer+)</ref>
+                </p>
+            </projectDesc>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="fr" xml:id="lan4">französisch</language>
+            </langUsage>
+        </profileDesc>
+    </teiHeader>
+    <standOff>
+        <listPerson>
+            <person role="signatory" xml:id="p37">
+                <persName ref="https://explore.gnd.network/gnd/4018145-5">
+                    <name>Frankreich</name>
+                </persName>
+            </person>
+            <person role="signatory" xml:id="p49">
+                <persName ref="https://explore.gnd.network/gnd/4101204-5">
+                    <name>Generalstaaten</name>
+                </persName>
+            </person>
+        </listPerson>
+        <listPlace>
+            <place xml:id="loc21">
+                <placeName ref="https://explore.gnd.network/gnd/4075410-8">Nijmegen</placeName>
+            </place>
+        </listPlace>
+        <facsimile>
+            <surface xml:id="FacsPnr1">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_45e6e49edbba1"/>
+            </surface>
+            <surface xml:id="FacsPnr2">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_45e6e5999017a"/>
+            </surface>
+            <surface xml:id="FacsPnr3">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_45e6e5b374b40"/>
+            </surface>
+            <surface xml:id="FacsPnr4">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_45e6e5d35565b"/>
+            </surface>
+            <surface xml:id="FacsPnr5">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_45e6e5eb9e98c"/>
+            </surface>
+            <surface xml:id="FacsPnr6">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_45e6e608ca7da"/>
+            </surface>
+            <surface xml:id="FacsPnr7">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_45e6e6233313d"/>
+            </surface>
+            <surface xml:id="FacsPnr8">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_45e6e63ea73d7"/>
+            </surface>
+            <surface xml:id="FacsPnr9">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_45e6e657840a4"/>
+            </surface>
+            <surface xml:id="FacsPnr10">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_45e6e6763fa06"/>
+            </surface>
+            <surface xml:id="FacsPnr11">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_45e6e68ebaa17"/>
+            </surface>
+            <surface xml:id="FacsPnr12">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_45e6e6adbb8d7"/>
+            </surface>
+            <surface xml:id="FacsPnr13">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_45e6e6c9d4e4c"/>
+            </surface>
+            <surface xml:id="FacsPnr14">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_45e6e6e7b1af3"/>
+            </surface>
+            <surface xml:id="FacsPnr15">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_45e6e7084ff89"/>
+            </surface>
+            <surface xml:id="FacsPnr16">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_45e6e723b3882"/>
+            </surface>
+            <surface xml:id="FacsPnr17">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_45e6e73b9e015"/>
+            </surface>
+            <surface xml:id="FacsPnr18">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_45e6e75be442c"/>
+            </surface>
+            <surface xml:id="FacsPnr19">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_45e6e77a76d4f"/>
+            </surface>
+            <surface xml:id="FacsPnr20">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_45e6e79415216"/>
+            </surface>
+            <surface xml:id="FacsPnr21">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_45e6e7ad47dde"/>
+            </surface>
+            <surface xml:id="FacsPnr22">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_45e6e7ce37351"/>
+            </surface>
+            <surface xml:id="FacsPnr23">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_45e6e7e8779d3"/>
+            </surface>
+            <surface xml:id="FacsPnr24">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_45e6e80722994"/>
+            </surface>
+            <surface xml:id="FacsPnr25">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_45e6e820a663a"/>
+            </surface>
+            <surface xml:id="FacsPnr26">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_45e6e84136071"/>
+            </surface>
+            <surface xml:id="FacsPnr27">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_45e6e85a35021"/>
+            </surface>
+            <surface xml:id="FacsPnr28">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_45e6e87eb0f7f"/>
+            </surface>
+            <surface xml:id="FacsPnr29">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_45e6e89731f95"/>
+            </surface>
+            <surface xml:id="FacsPnr30">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_45e6e8b17261a"/>
+            </surface>
+            <surface xml:id="FacsPnr31">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_45e6eb499a3f2"/>
+            </surface>
+            <surface xml:id="FacsPnr32">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_45e6eb660e8c7"/>
+            </surface>
+            <surface xml:id="FacsPnr33">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_45e6eb7e8f698"/>
+            </surface>
+            <surface xml:id="FacsPnr34">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_45e6eb97490e8"/>
+            </surface>
+            <surface xml:id="FacsPnr35">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_45e6ebc8da7a5"/>
+            </surface>
+            <surface xml:id="FacsPnr36">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_45e6ebb11928e"/>
+            </surface>
+            <surface xml:id="FacsPnr37">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_45e6ebe178c74"/>
+            </surface>
+            <surface xml:id="FacsPnr38">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_45e6ebfe902a5"/>
+            </surface>
+            <surface xml:id="FacsPnr39">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_45e6ec14d18e5"/>
+            </surface>
+            <surface xml:id="FacsPnr40">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_45e6ec35bdf7d"/>
+            </surface>
+            <surface xml:id="FacsPnr41">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_45e6ec5760291"/>
+            </surface>
+            <surface xml:id="FacsPnr42">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_45e6ec74219c6"/>
+            </surface>
+            <surface xml:id="FacsPnr43">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_45e6ec994d7e2"/>
+            </surface>
+            <surface xml:id="FacsPnr44">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_45e6ecb1f0894"/>
+            </surface>
+            <surface xml:id="FacsPnr45">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_45e6eccb0a065"/>
+            </surface>
+            <surface xml:id="FacsPnr46">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_45e6ece486012"/>
+            </surface>
+            <surface xml:id="FacsPnr47">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_45e6ecfb25494"/>
+            </surface>
+            <surface xml:id="FacsPnr48">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_45e6ed14be900"/>
+            </surface>
+        </facsimile>
+    </standOff>
+    <text>
+        <front>
+            <div type="Drucke"><p>DUM VII/1 S. 357-363
+                <ref target="http://gallica.bnf.fr/ark:/12148/bpt6k122965z.image.f378.langEN">Link zum Druck auf gallica.bnf.fr </ref>
+                <lb />VAS Vol. 2, S. 63-78
+                <ref target="http://gallica.bnf.fr/ark:/12148/bpt6k960306.zoom.f66.langEN"> Link zum
+                    Druck auf gallica.bnf.fr</ref> </p></div>
+            <div type="Inhalt"><p>Weil es kein besseres Mittel gibt um den Frieden vom heutigen Tag zu festigen als durch Handelsverkehr wird folgender Handels- und Schifffahrtsvertrag vereinbart:
+                <lb />
+                <lb />1.&nbsp;&nbsp; &nbsp;Handel und Schifffahrt wie vor dem Krieg
+                <lb />2.&nbsp;&nbsp; &nbsp;Keine Feindseligkeiten gegeneinander; keine Annahme von Kaperbriefen Dritter gegen den anderen
+                <lb />3.&nbsp;&nbsp; &nbsp;Fristenregelung für Prisennahme nach Friedensschluss
+                <lb />4.&nbsp;&nbsp; &nbsp;Nichtigkeit der Kaperbriefe; Verbot und Regelung der Ausgabe etwaigr neuer Kaperbriefe gegeneinander
+                <lb />5.&nbsp;&nbsp; &nbsp;Keine Haftung der Untertanen für öffentliche Schulden
+                <lb />6.&nbsp;&nbsp; &nbsp;Freundschaft und freier Handel zwischen den Untertanen
+                <lb />7.&nbsp;&nbsp; &nbsp;freier Handel und Verkehr in den Gebieten des anderen; Gleichstellung hinsichtlich der Zollzahlungen mit den Einheimischen
+                <lb />8.&nbsp;&nbsp; &nbsp;Nutzung der Häfen des anderen durch Kriegsschiffe
+                <lb />9.&nbsp;&nbsp; &nbsp;Nutzungsrecht der Häfen bei Prisennahme Dritter; keine Gewährung von Asyl für die Feinde des anderen
+                <lb />10.&nbsp;&nbsp; &nbsp;Ausnahme der Niederländer aus dem droit d’aubaine (Heimfallsrecht)
+                <lb />11.&nbsp;&nbsp; &nbsp;Keine Zoll- und Entladepflicht für Alliierte des Vertragspartners bei Nutzung der Häfen bei Unwetter
+                <lb />12.&nbsp;&nbsp; &nbsp;Unverletzlichkeit der Besatzungen
+                <lb />13.&nbsp;&nbsp; &nbsp;Freier Handelsverkehr auch mit den Feinden des anderen
+                <lb />14.&nbsp;&nbsp; &nbsp;Für alle Güter außer Schmuggelwaren
+                <lb />15.&nbsp;&nbsp; &nbsp;Als Schmuggelwaren werden Waffen und kriegswichtiges Material definiert
+                <lb />16.&nbsp;&nbsp; &nbsp;Dazu zählen keine Lebensmittel; deren Transport bleibt frei außer an belagerte Plätze
+                <lb />17.&nbsp;&nbsp; &nbsp;Als Nachweis über den Handel mit Feinden reicht die Präsentation der Papiere
+                <lb />18.&nbsp;&nbsp; &nbsp;An den Niederlanden passierende französische Schiffe können nicht zur Einfahrt in Häfen oder zum Abladen gezwungen werden außer unter Schmuggelverdacht
+                <lb />19.&nbsp;&nbsp; &nbsp;Unter Schmuggelverdacht müssen die Papiere gezeigt werden
+                <lb />20.&nbsp;&nbsp; &nbsp;Regelung der Begegnung auf hoher See oder in Reedereinen zwischen französischen Handelsschiffen und Niederländern
+                <lb />21.&nbsp;&nbsp; &nbsp;Konfiskation nur der Schmuggelwaren
+                <lb />22.&nbsp;&nbsp; &nbsp;Regelung des Umgangs mit Waren, die auf den Schiffen verfeindeter Staaten transportiert werden
+                <lb />23.&nbsp;&nbsp; &nbsp;Gleichberechtigung der Untertanen
+                <lb />24.&nbsp;&nbsp; &nbsp;An französische Kapitäne wird das Verbot ausgesprochen, Niederländer zu belästigen
+                <lb />25.&nbsp;&nbsp; &nbsp;Zur Durchsetzung dessen bürgen Kapitäne und Ausrüster mit 15.000 Livre Tournois
+                <lb />26.&nbsp;&nbsp; &nbsp;Verfahren bei Aufbringen niederländischer Schmuggler
+                <lb />27.&nbsp;&nbsp; &nbsp;Der französische König befiehlt, dass alle Prisenangelegenheiten korrekt abgewickelt werden
+                <lb />28.&nbsp;&nbsp; &nbsp;Revision beschlossener Urteile
+                <lb />29.&nbsp;&nbsp; &nbsp;Vorteilhaftes Prisengericht zugunsten der Schiffseigner oder –pächter
+                <lb />30.&nbsp;&nbsp; &nbsp;Freie Pacht oder Ankauf von Schiffen und Waffen
+                <lb />31.&nbsp;&nbsp; &nbsp;Regelung des Verkaufs verderblicher Waren in im Notfall angelaufenen Häfen
+                <lb />32.&nbsp;&nbsp; &nbsp;Kein Aufenthaltsrecht für Piraten; Verfolgung der Piraterie dritter
+                <lb />33.&nbsp;&nbsp; &nbsp;Freie Anwaltswahl und freie Sprachwahl der Buchführung
+                <lb />34.&nbsp;&nbsp; &nbsp;Bestimmung von Konsuln
+                <lb />35.&nbsp;&nbsp; &nbsp;Verbot der Prisennahme durch Dritte in Häfen der Vertragspartner
+                <lb />36.&nbsp;&nbsp; &nbsp;Verfahren bei Vertragsverletzung
+                <lb />37.&nbsp;&nbsp; &nbsp;Neunmonatige Rückzugsfrist bei erneutem Bruch
+                <lb />38.&nbsp;&nbsp; &nbsp;25jährige Gültigkeit
+                <lb /></p></div>
+        </front>
+        <body>
+            <div type="Transliteration">
+                <pb facs="#FacsPnr1"/>
+                <pb facs="#FacsPnr2"/><p> Exhibitum die 12. Aug. 1678. 
+                    <lb /> 
+                </p> 
+                <lb /> 
+                <p>Le Traicté de Paix qui a esté 
+                    <lb />conclu ce Jourd’hui entre Le Roy Tres Chrestien 
+                    <lb />et les Seigneurs Estats Generaux des 
+                    <lb />Provinces Unies, faisant cesser touts les 
+                    <lb />suiects de Mescontentement qui avoient alteré, 
+                    <lb />pendant quelque temps, l’affection que Sa Majesté 
+                    <lb />a tousjours euë pour leur bien et leur prosperité 
+                    <lb />suivant l’Exemple des Roix ses predecesseurs. 
+                    <lb />Et lesdits Seigneurs Estats Generaux rentrans 
+                    <lb />aussy dans la mesme passion qu’ils ont cydevant 
+                    <lb /> 
+                </p>
+                <pb facs="#FacsPnr3"/><p>Temoignée pour la grandeur de la France, et dans
+                <lb />les sentimens d’une sincere Recognoissance pour
+                <lb />les Obligations et les Avantages considerables
+                <lb />qu’ils en ont cydevant receus, il y a lieu de
+                <lb />croire que cette bonne intelligence entre Sa
+                <lb />Majesté, et lesdits Seigneurs Estats ne pourra
+                <lb />jamais estre troublée. Mais comme Sa Majes&lt;té&gt;
+                <lb />ne veut rien obmettre de ce qui la peut affermir,
+                <lb />Et que lesdits Estats Generaux ne souhaittans
+                <lb />pas moins de la perpetuer, ont estimé qu’il n’y en
+                <lb />avoit point de meilleur et de plus asseuré Moye&lt;n&gt;
+                <lb />que d’establir une libre et parfaite correspondence
+                <lb />entre les Sujets de part et d’autre; Et pour ce
+                <lb />effect regler leurs Int[e]rest particuliers au faict d&lt;u&gt;
+                <lb />Commerce, Navigation, et Marine, par des Loix et
+                <lb />Conventions les plus propres à prevenir tous les
+                <lb />Inconveniens qui pourroient affoiblir la bonne corres-
+                <lb />pondance Sadite Majesté satisfaisant au desir
+                <lb />desdits Estats auroit ordonné le Sieur
+                <lb />Comte d’Estrades Marechal de France
+                <lb />et Chevalier de ses Ordres; Le sieur
+                <lb />Colbert Marquis de Croissi, Conseiller
+                <lb />ordinaire en son Conseil d’Estat; et
+                <lb />
+                <lb />
+                <pb facs="#FacsPnr4"/>le Sieur de Mesmes Comte d[‘]Avaux
+                <lb />aussy Conseiller en ses Conseils,
+                <lb />ses Ambassadeurs Extraordinaires et plenipoten-
+                <lb />tiaires à l’Assemblée de Nimegue; Et lesdits
+                <lb />Seigneurs Estats Generaux le Sieur Hierosme
+                <lb />de Beverningk Seigneur de Teylingen
+                <lb />Curateur de 1’Université à Leyden
+                <lb />cydevant Conseiller et Thésorier
+                <lb />General des Provinces Unies;
+                <lb />Le Sieur Guillaume de Nassau
+                <lb />Seigneur d’Odyk, Cortgene, etc.
+                <lb />premier Noble et representant l’ordre
+                <lb />dela Noblesse dans les Estats, et au
+                <lb />Conseil de Zelande; Et le Sieur
+                <lb />Guillaume de Haren Grietman du
+                <lb />Bild; deputez en leur Assemblée
+                <lb />dela part des Estats d’Hollande,
+                <lb />Zelande et Frise, de conferer et convenir
+                <lb />en vertu de leurs pouvoirs respectivement produits
+                <lb />
+                </p>
+                <pb facs="#FacsPnr5"/><p> et dont Copie est cy des soubs transcrite, d’un Traité 
+                    <lb />de Commerce et Navigation, en la Maniere qui 
+                    <lb />s’ensuit 
+                    <lb /> 
+                </p>
+                <p>1. 
+                    <lb />Les Sujets de Sa Majesté et des Seigneurs Estats 
+                    <lb />Generaux des Provinces Unies du pays Bas, jouiron&lt;t&gt; 
+                    <lb />reciproquement dela mesme Liberté au faict du Commerce 
+                    <lb />et dela Navigation dont ils ont jouy de tout temps 
+                    <lb />devant cette guerre par tous les Royaumes, Estats 
+                    <lb />et Provinces de l’une et de l’autre part. 
+                    <lb />
+                    <lb />
+                    <lb />2. 
+                    <lb />Et ainsy n’exerceront plus à l’avenir aucunes sortes 
+                    <lb />d’hostilitez ny de violences les uns contre les 
+                    <lb />autres tant sur la Mer, que sur la Terre, ou dans 
+                    <lb />les Rivieres, Rades, et Eaux douces, sous quelque 
+                    <lb />nom et pretexte que ce soit; et aussy ne pourront 
+                    <lb />les Sujets de Sa Majesté prendre aucunes Com- 
+                    <lb />
+                </p>
+                <pb facs="#FacsPnr6"/><p>Commissions pour des Armements particuliers ou Lettres
+                <lb />de Represailles des Princes et Estats Ennemis
+                <lb />desdits Seigneurs Estats Generaux, et moins les troubler
+                <lb />ny endommager d’aucune sorte, en vertu de telles
+                <lb />Commissions ou Lettres de Represailles, ny mesme
+                <lb />aller en course avec elles, sous peine d’estre pour-
+                <lb />suivis et chastiez comme pirates. Ce qui sera
+                <lb />reciproquement observé par les Sujets des provinces
+                <lb />Unies a l’esgard des Sujets de sa Majesté; Et
+                <lb />seront à cette fin touttes et quantes fois que cela
+                <lb />sera requis de part et d’autre, dans les Terres
+                <lb />del’obeissance de Saditte Majesté, et dans les
+                <lb />Provinces Unies, publiées et renouvelleés
+                <lb />defences tres expresses et tres precisés de se servir
+                <lb />en aucune manniere de telles Commissions ou
+                <lb />Lettres de Repressailles sous la peine susmentionnée
+                <lb />qui sera executée severement contre les Contravenans,
+                <lb />outre la Restitution entiere aux quelles ils seront tenuz
+                <lb />envers ceux auxquels ilz auront causé aucun Dommage.
+                <lb />
+                <lb />3
+                <lb />Et pour obvier d’autant plus à tous Inconveniens qui
+                <lb />
+                <pb facs="#FacsPnr7"/>pourroient survenir par les prises faite par Inadvert&lt;ence&gt; &nbsp;
+                <lb />ou autrement, et principalement dans les Lieux esloig&lt;nez&gt; &nbsp;
+                <lb />il a esté convenu et accordé: si quelques prises se
+                <lb />font depart ou d’autre dans la Mer Baltique
+                <lb />ou dans celle du Nort, depuis Terneuse en
+                <lb />Norvegue jusques au Bout de la Manche dans
+                <lb />L’espace de quatre semaines; Ou du Bout dela
+                <lb />dite Manche jusques au Cap de S. Vincent
+                <lb />dans L’espace de six semaines; Et dela dans le
+                <lb />Mer Mediterranée, et jusques à la Ligne dans
+                <lb />l’espace de dix semaines; Et au dela dela Ligne
+                <lb />et en tous les autres Endroits du Monde dans
+                <lb />L’espace de huit Mois; À conter depuis la publica-
+                <lb />tion de la presente, lesdittes prises et les dommag&lt;es&gt; &nbsp;
+                <lb />qui se feront depart ou d’autre, apres les Termes
+                <lb />prefix, seront portez en conte, et tout ce qui aura es&lt;té&gt; &nbsp;
+                <lb />pris sera rendu avec compensation de tous les domm&lt;ages&gt; &nbsp;
+                <lb />qui en seront provenus.
+                <lb />
+                <lb />4
+                <lb />Touttes Lettres de Marque et de Represailles qui
+                <lb />
+                <pb facs="#FacsPnr8"/>pourroient avoir esté cydevant accordees pour quelque
+                <lb />cause que ce soit sont declarees es; Et
+                <lb />n’en pourra estre cy aprez données par l’un desd[its]
+                <lb />Alliez au prejudice des Sujets de l’autre; si ce n’est
+                <lb />seulement en cas de manifeste desny de Justice,
+                <lb />lequel ne pourra estre tenu pour verifié. Si la
+                <lb />Requeste de celuy qui demande les dittes Repressailles
+                <lb />n’est communiquée au Ministre qui se trouvera sur
+                <lb />les Lieux dela part de l’Estat contre les Sujets
+                <lb />duquel elles doivent estre données; Afin que dans le
+                <lb />terme de quatre Mois, ou plutost, s’il se peut
+                <lb />il puisse s’informer du contraire, ou procurer
+                <lb />l’accomplissement de Justice qui sera deu.
+                <lb />
+                <lb />5.
+                <lb />Ne pourront aussy les particuliers Sujets de Sa Majesté
+                <lb />ètre mis en action ou arrest en leurs personnes
+                <lb />et Biens, pour aucune chose que Sa Majesté
+                <lb />peut devoir ny les particuliers Sujets desdits Seigneurs Estats
+                <lb />Generaux pour les debtes publicques desdits Estats
+                <lb />
+                </p>
+                <pb facs="#FacsPnr9"/><p> 6 
+                    <lb />Les Sujets et habitants des pays de L’Obeissance 
+                    <lb />de sa Majesté, et desdits Seigneurs Estats Generaux 
+                    <lb />vivront, converseront, et frequenteront les uns avec les 
+                    <lb />autres en toutte bonne Amitié et Correspondence, 
+                    <lb />et jouiront entre Eux dela Liberté de Commerce 
+                    <lb />et Navigation dans l’Europe en touttes les 
+                    <lb />Limites des pays de l’un et de l’autre de touttes 
+                    <lb />sortes de Marchandises et Denrees dont le 
+                    <lb />Commerce, et le Transport, n’est défendu generalem&lt;ent&gt; &nbsp; 
+                    <lb />et universellement à tous tant Sujets qu’Estran&lt;gers&gt; &nbsp; 
+                    <lb />par les Loix et Ordonnances des Estats de l’un 
+                    <lb />et de l’autre. 
+                    <lb /> 
+                    <lb />7 
+                    <lb />Et pour cet Effect, les Sujets de Sa Majesté 
+                    <lb />et ceux desdits Seigneurs Estats Generaux 
+                    <lb />pourront franchement et librement frequenter 
+                    <lb />avec leurs Marchandises et Navires, les Pays, 
+                    <lb />Terres, Villes, Ports, places<note n="1" type="crit_app">Darüber eingefügt. </note> et Rivieres de l’un et de l’autre
+                    <lb />
+                    <lb /> 
+                </p>
+                <pb facs="#FacsPnr10"/><p>Estat, y porter et vendre à touttes personnes
+                <lb />indistinctement; Achetter, trafiquer et transporter
+                <lb />touttes sortes de Marchandises dont l’Entrée,
+                <lb />ou sortie, et transport ne sera defendu à tous
+                <lb />Sujets de Sa Majesté et desdits Seigneurs Estats
+                <lb />Generaux; Sans que cette Liberté reciproque puisse
+                <lb />estre defendue limitée ou restrainte par aucun
+                <lb />privilege, Octroy, ou aucune Concession particuliere;
+                <lb />Et sans qu’il soit permis à l’un ou à l’autre de
+                <lb />conceder ou de faire à leurs Sujets des Immunitez
+                <lb />Benefices, Dons, Gratuits, ou autres avantages
+                <lb />pardessuz ceux de l’autre ou à leur prejudice;
+                <lb />Et sans que lesdits Sujets depart et d’autre
+                <lb />soient tenus de payer plus grands, ou autres
+                <lb />Droits, Charges, Gabelles, ou Impositions
+                <lb />quelconques sur leurs personnes Biens
+                <lb />Denrées, Navires ou frets d’iceux, directement
+                <lb />ou indirectement, soubs quelque Nom, Titre, ou pretexte
+                <lb />que se puisse estre, que ceux qui seront
+                <lb />payez par les propres et naturels Sujets
+                <lb />de l’un et de l’autre.
+                <lb />
+                <pb facs="#FacsPnr11"/>8
+                <lb />Les Navires de Guerre de l’un et de l’autre trou&lt;veront&gt; &nbsp;
+                <lb />tousjours les Rades, Rivieres, Ports, et Havres
+                <lb />libres et ouverts pour entrer, sortir, et demeurer
+                <lb />à l’anchre tant qu’il leur sera necessaire;
+                <lb />sans pouvoir estre visitez; à la charge
+                <lb />neantmoins d’en user avec discretion, et de
+                <lb />ne donner aucun Sujet de jalousie, par un
+                <lb />trop long, et affecté sejour, ny autrement, aux
+                <lb />Gouverneurs desdittes places et ports, auxquels
+                <lb />les Capitaines desdits Navires feront sçavoir la
+                <lb />cause de leur Arrivée, et de leur séjour.
+                <lb />
+                <lb />9.
+                <lb />Les Navires de Guerre de Sa Majesté et desd[its]
+                <lb />Seigneurs Estats Generaux, et ceux de leurs Sujets
+                <lb />qui auront esté armez en Guerre pourront en
+                <lb />toutte liberté conduire les prises qu’ils auront
+                <lb />faittes sur leurs Ennemis ou bon leur
+                <lb />
+                <pb facs="#FacsPnr12"/>semblera, sans estre obligez à aucuns Droits
+                <lb />soit des Sieurs Amiraux ou de l’Admirauté
+                <lb />ou d’aucuns autres; Sans qu’aussy lesdits
+                <lb />Navires, ou lesdittes prises, entrants dans les
+                <lb />Havres ou portz de Sa Majesté ou desdits
+                <lb />Seigneurs Estats Generaux puissent estre
+                <lb />arrestées ou saisies, ny que les Officiers
+                <lb />des Lieux puissent prendre Connoissance
+                <lb />de la validité desdittes prises, lesquelles
+                <lb />pourront sortir et estre conduittes franchement
+                <lb />et en toute Liberté aux Lieux portez
+                <lb />par les Commissions dont les Capitaines
+                <lb />desdits Navires de Guerre seront obligez
+                <lb />de faire apparoir; Et au contraire ne sera
+                <lb />donné azile ny retraitte dans leurs Ports
+                <lb />ou havres à ceux qui auront fait des prises
+                <lb />sur les Sujets de Sa Majesté, ou desdits
+                <lb />Seigneurs Estats Generaux; Mais y
+                <lb />estants entréz par necessité de Tempeste
+                <lb />
+                <lb />
+                <pb facs="#FacsPnr13"/>ou peril de la Mer, on les fera sortir
+                <lb />le plustost que sera possible.
+                <lb />
+                <lb />10.
+                <lb />Les Sujets desdits Seigneurs Estats Generaux
+                <lb />ne seront point reputez aubains en France
+                <lb />Et ainsy seront exempts de la Loy d’Aubaine
+                <lb />et pourront disposer de leurs Biens par
+                <lb />Testament, Donation ou autrement; Et leurs
+                <lb />heritiers, Sujets desdits Estats demeurants
+                <lb />tant en France qu’ailleurs, recueillir leurs
+                <lb />Successions mesme ab Intestato; Encore
+                <lb />qu’ils n’ayent obtenu aucunes Lettres de
+                <lb />Naturalité, sans que l’effect de cette Concession
+                <lb />leur puisse estre contesté, ou empesché sous
+                <lb />pretexte de quelque droit ou prerogative
+                <lb />des Provinces, Villes ou personnes privées.
+                <lb />Pourront pareillement sans lesdittes Lettres
+                <lb />
+                <pb facs="#FacsPnr14"/>de Naturalité s’establir en toutte liberté les
+                <lb />Sujets desdits Seigneurs Estats en touttes les
+                <lb />Villes du Royaume pour y faire leur Commerce
+                <lb />et Traficq; Sans pourtant y pouvoir acquerir
+                <lb />aucuns Droits de Bourgeoisie, si ce n’est
+                <lb />qu’ilz eussent obtenu Lettres de Naturalité de
+                <lb />Sa Majesté en bonne forme; Et seront
+                <lb />generalement traictez ceux des Provinces
+                <lb />Unies en tout et par tout autant favorablement
+                <lb />que les Sujets propres et Naturels de Sa
+                <lb />Majesté; Et particulierement ne pourront
+                <lb />estre compris aux Taxes qui pourront estre
+                <lb />faites sur les Estrangers. Et sera tout
+                <lb />ce contenu au present Article observé
+                <lb />au regard des Sujets du Roy dans les
+                <lb />Pays de l’obeissance desdits Seigneurs Estats.
+                <lb />
+                <lb />11
+                <lb />Les Navires chargez de l’un des Alliez
+                <lb />
+                <pb facs="#FacsPnr15"/>passants devant les Costes de l’autre, et rela&lt;chant&gt; &nbsp;
+                <lb />dans les Rades ou Portz, par tempes&lt;te&gt;
+                <lb />ou autrement, ne seront contraints d’y decharger
+                <lb />ou debiter leurs Marchanidises ou parties
+                <lb />d’icelles, ny tenus d’y payer aucuns Droits
+                <lb />si non lors qu’ilz y dechargeront des
+                <lb />Marchandises volontairement et de leur &lt;gré.&gt;
+                <lb />
+                <lb />12
+                <lb />Les Maistres des Navires, leurs Pilotes,
+                <lb />Officiers, et Soldats, Matelots, et autres Gens
+                <lb />de Mer, les Navires mesmes, ni les Denrées
+                <lb />et Marchandises, dont ilz seront chargez
+                <lb />ne pourront estre saisis ni arrestez en vertu
+                <lb />d’aucun ordre general, ou particulier, de qui
+                <lb />que ce soit; ou pour quelque cause ou occasion
+                <lb />qu’il puisse estre, non pas mesme sous
+                <lb />pretexte de la Conservation et defense de l’Estat
+                <lb />
+                <pb facs="#FacsPnr16"/>Et generalement rien ne pourra estre pris aux
+                <lb />Sujets de part et d’autre, que du consentement
+                <lb />de Ceux à qui il appartiendra, Et en payant
+                <lb />les choses qu’on desirera d’eux. En quoy toute
+                <lb />fois n’est entendu de comprendre les saisies
+                <lb />et arrests faits par ordre et Authorité dela
+                <lb />Justice, et par les voyes ordinaires, et pour
+                <lb />loyales debtes, Contracts ou autres causes
+                <lb />legitimes, pour raison des quelles il sera
+                <lb />procedé par voye de droit, selon la forme
+                <lb />de la Justice.
+                <lb />
+                <lb />13.
+                <lb />Tous les Sujets et habitants de France, et des
+                <lb />Provinces Unies pourront en toutte seureté et
+                <lb />Liberté naviger avec leurs Vaisseaux, et
+                <lb />trafiquer avec leurs Marchandises, sans distinc-
+                <lb />tion de qui puissent estre le proprietaires d’icelles,
+                <lb />
+                <pb facs="#FacsPnr17"/>de leurs Ports, Royaumes et provinces, et aussy
+                <lb />des Ports, et Royaumes des autres Estats,
+                <lb />ou Princes, vers les Places de ceux qui sont
+                <lb />desia Ennemis declarez tant de la France que des
+                <lb />Provinces Unies, ou de l’un des deux, ou qui
+                <lb />pourroient les devenir; Comme aussy les mesmes
+                <lb />Sujets et Habitants pourront avec la mesme Seureté
+                <lb />et Liberté naviger avec leurs Vaisseaux et trafi-
+                <lb />quer avec leurs Marchandises, sans distinction
+                <lb />de qui puissent estre les proprietaires d’Icelles
+                <lb />des Lieux, Portz, et Rades de ceux qui
+                <lb />sont Ennemis de l’un et de l’autre desdites
+                <lb />parties, ou de l’un des deux en particulier,
+                <lb />sans contradiction, ou detourbier, de qui
+                <lb />que ce soit, non seulement à droitture
+                <lb />desdittes places Ennemies vers un lieu
+                <lb />neutre, mais aussy d’une place Ennemie à
+                <lb />l’autre soit qu’elles se trouvent situées
+                <lb />sous la Juridiction d’un mesme Souverain
+                <lb />soit qu’elles le soient sous des divers.
+                <lb />
+                <pb facs="#FacsPnr18"/>14
+                <lb />Ce transport et ce Traficq s’estendra à toutes sortes de
+                <lb />Marchandises, à l’exception, de celles de Contrebande.
+                <lb />
+                <lb />15
+                <lb />En ce genre de Marchandises de Contrebande, s’entend
+                <lb />seulement estre compris touttes sortes d’Armes à feu,
+                <lb />et autres assortimens d’icelles, comme Canons,
+                <lb />Mousquet, Mortiers, Petards, Bombes, Grenades,
+                <lb />Saucisses, Cercles poissez, Affuts, Fourchettes, Ban-
+                <lb />deliers, poudre Mescle, Salpetre, Balles, Piques,
+                <lb />Espees, Morions, Casquets, Currasses, Hallebardes,
+                <lb />Javelines, Chevaux, Selles de Çheval Fourreaux de
+                <lb />pistolets, Baudriers et autres assortissements
+                <lb />servants à l’usage de la Guerre.
+                <lb />
+                <lb />16
+                <lb />Ne seront compris dans ce genre de Marchandises de
+                <lb />
+                <pb facs="#FacsPnr19"/>Contrebande les Froments, Bleds, et autres Grains, Legu&lt;mes,&gt;
+                <lb />Huiles, Vins, Sel, ny generalement tout ce qui appart&lt;ient&gt; &nbsp;
+                <lb />à la nourriture et sustentation de la vie; Mais
+                <lb />demeureront libres comme autres Marchandises et
+                <lb />Denrees, non comprises en l’Article precedent;
+                <lb />Et en sera le Transport permis mesme aux Lieux
+                <lb />Ennemis desdits Seigneurs Estats, sauf aux Villes
+                <lb />et Places Assiegées, Blocquées, ou Investies.
+                <lb />
+                <lb />17
+                <lb />Pour l’Execution de ce que dessus il a esté accordé que
+                <lb />se fera en la maniere suivante: Que les Navires &lt;et&gt; &nbsp;
+                <lb />Barques avec les Marchandises des Sujets de sa M&lt;ajesté&gt;
+                <lb />estants entrez en quelque Havre desdits Seigneurs Est&lt;ats&gt;
+                <lb />et voulants dela passer à ceux desdits Ennemis seront
+                <lb />obligez seulement de montrer aux Officiers des
+                <lb />havres desdits Seigneurs Estats d’ou ils partiront,
+                <lb />leurs passeports, contenants la specification de la
+                <lb />
+                <pb facs="#FacsPnr20"/>charge de leurs Navires attestez, et marquez du
+                <lb />Scel et seing ordinaire, et recognus des Officiers
+                <lb />de l’Admirauté des Lieux d’ou ils seront premiere-
+                <lb />ment partis, avec la Declaration du Lieu où ils
+                <lb />seront destinez. Le tout en forme ordinaire et
+                <lb />accoutumée. Aprez laquelle Exhibition de leurs
+                <lb />Passeports en la forme susditte, ils ne pourront
+                <lb />estre inquietez ni recherchez, detenus ny retardez
+                <lb />en leurs Voyages sous quelque pretexte que ce soit.
+                <lb />
+                <lb />18
+                <lb />Il en sera usé de mesme à l’Esgard des Navires et
+                <lb />Barques Francoises qui iront dans quelques Rades
+                <lb />des Terres de l’Obeissance desdits Seigneurs Estats,
+                <lb />sans vouloir entrer dans les Havres; ou y entrans
+                <lb />sans touttes fois vouloir debarquer et rompre leurs
+                <lb />Charges; Lesquels ne pourront estre obligez de rendre
+                <lb />compte de leur Cargaizon, qu’au cas qu’il y eut
+                <lb />soubcon, qu’ilz portassent aux Ennemis desdits
+                <lb />
+                </p>
+                <pb facs="#FacsPnr21"/><p>Seigneurs Estats des Marchandises de Contrebande 
+                    <lb />comme il a esté dit cy dessus. 
+                    <lb />
+                    <lb />19
+                    <lb />Et audit cas de Soubcon apparent lesdits Sujets se&lt;ront&gt; &nbsp;
+                    <lb />obligez de montrer dans les portz leurs Passeports 
+                    <lb />en la forme cy dessus specifiée. 
+                    <lb />
+                    <lb />20
+                    <lb />Que s’ils estoient entrez dedans les Rades, ou étoie&lt;nt&gt; &nbsp;
+                    <lb />rencontrez [en pleine Mer]<note n="2" type="crit_app">Nachträglich darüber eingefügt. </note> par quelques Navires desdits Seigneurs Es&lt;tats&gt;
+                    <lb />ou d’Armateurs particuliers leurs Sujets lesdits 
+                    <lb />Navires des Provinces Unies, pour eviter tout deso&lt;rdre&gt;
+                    <lb />n’aprocheront pas plus prez des Francois que de la 
+                    <lb />portée du Canon; Et pourront envoyer leur petite 
+                    <lb />Barque ou Chaloupe au bord des Navires ou 
+                    <lb />Barques Francoises; Et faire entrer dedans deux ou 
+                    <lb />trois Hommes seulement, à qui seront montrez
+                    <lb />
+                    <lb /> 
+                </p>
+                <pb facs="#FacsPnr22"/><p>les passeportz et Lettres de Mer par le Maistre
+                <lb />ou patron des Navires François en la maniere cy
+                <lb />dessus specifiée: Selon le Formulaire desdittes
+                <lb />Lettres de Mer qui sera inseré à la fin de ce Traitté;
+                <lb />par lesquels passeports et Lettres de Mer il
+                <lb />puisse apparoir non seulement de sa Charge, mais
+                <lb />aussy du Lieu de la demeure, et Residence, tant
+                <lb />du Maistre et Patron, que du Navire mesme,
+                <lb />a fin que par ces deux moyens on puisse connoistre
+                <lb />s’ils portent des Marchandises de Contrebande;
+                <lb />Et qu’il apparoisse suffisamment, tant de la qualité
+                <lb />dudit Navire, que de son Maistre et Patron;
+                <lb />Auxquels passeports et Lettres de Mer se devra
+                <lb />donner entiere foy et Creance. Et afin que l’on
+                <lb />connoisse mieux la validité, et qu’elles ne puissent
+                <lb />en aucune maniere estre falsifiées et contre faittes
+                <lb />seront données de certaines marques et contre seings de sa
+                <lb />ditte Majesté, et desdits Seigneurs Estats Ceneraux.
+                <lb />
+                <lb />21.
+                <lb />Et au cas que dans lesdits Vaisseaux et Barques
+                <lb />
+                <pb facs="#FacsPnr23"/>Francoises destinées vers les havres des Ennemis
+                <lb />desdits Seigneurs Estats, se trouve par les moyens
+                <lb />susdits quelques Marchandises et Denrées de
+                <lb />celles quy sont cy dessus déclarées de Contrebande
+                <lb />et deffendues, elles seront dechargées, denoncées, et
+                <lb />confisquees par devant les Juges del’Amirauté
+                <lb />es provinces Unies ou autres Competants; Sans
+                <lb />que pour cela le Navire et Barque ou autres
+                <lb />Biens, Marchandises et Denrées libres et
+                <lb />permises retrouvées au mesme Navire puissent
+                <lb />estre en aucune facon saisies ny confisquées.
+                <lb />
+                <lb />22
+                <lb />Il a esté en outre accordé et convenu que tout ce quy
+                <lb />se trouvera chargé par les Sujets de Sa Majesté
+                <lb />en un Navire des Ennemis desdits Seigneurs Estats
+                <lb />bien que ce ne fut Marchandises de Contrebande
+                <lb />sera confisqué avec tout ce quy se trouvera audit
+                <lb />Navire sans Exception ny reserve; Mais d’ailleurs
+                <lb />
+                <pb facs="#FacsPnr24"/>aussy sera libre et affranchy tout ce quy sera et se
+                <lb />trouvera dans les Navires appartenants aux Sujets
+                <lb />du Roy Tres Chrestien; Encore que la charge
+                <lb />ou partie d’icelle fust aux Ennemis desdits Seigneurs
+                <lb />Estats, sauf les Marchandises de Contrebande;
+                <lb />Au regard des quelles on se reglera selon ce quy
+                <lb />a esté disposé aux Articles precedens. Et pour
+                <lb />éclaircissement plus particulier de cet Article
+                <lb />il est accordé et convenu de plus que les cas
+                <lb />arrivans que touttes les deux parties, ou bien
+                <lb />l’une d’icelles fussent engagées en Guerre, les biens
+                <lb />appartenans aux Sujets de l’autre partie et chargez
+                <lb />dans les Navires de ceux qui sont devenus Ennemis
+                <lb />de touttes les deux, ou de l’une des parties ne pourront
+                <lb />estre confisquez aucunement à Raison ou sous
+                <lb />pretexte de ce Embarquement dans le Navire
+                <lb />Ennemy; Et cela s’observera non seulement quand
+                <lb />lesdittes Denrées y auront este chargées devant la
+                <lb />Declaration de la Guerre; Mais mesme quand cela
+                <lb />sera faict aprez laditte Declaration, pourveu que c’ait
+                <lb />esté dans les Temps et les termes qui s’ensuivent
+                <lb />
+                <pb facs="#FacsPnr25"/>À scavoir si elles ont esté chargées dans la M&lt;er&gt;
+                <lb />Baltique ou dans celle du Nord, depuis Terneuse
+                <lb />en Norvegue jusques au Bout de la Manche
+                <lb />dans l’Espace de quatre semaines; Ou du Bout
+                <lb />de ladite Manche jusques au Cap de St. Vincent
+                <lb />dans l’Espace de six semaines; Et dela dans
+                <lb />la Mer Mediterranée et jusques à la Ligne
+                <lb />dans l’espace de dix semaines; Et au delà de la
+                <lb />Ligne, et en tous les autres endroits du Monde
+                <lb />dans l’Espace de huit Mois, à conter depuis
+                <lb />la publication de la presente; Tellement que les
+                <lb />Marchandises, et Biens des Sujets et habitans
+                <lb />chargez en ces Navires, Ennemis, ne pourront
+                <lb />estre confisquez aucunement durant les Termes
+                <lb />et dans les Estendues susnommez, à Raison
+                <lb />du Navire qui est Ennemy; Ains seront restituez
+                <lb />aux proprietaires sans aucun delay; Si ce n’est
+                <lb />qu’elles ayent esté chargées apres l’Expiration
+                <lb />desdits Termes. Et pourtant il ne sera
+                <lb />ement permis de transporter vers les portz Enne&lt;mis&gt;
+                <lb />telles Marchandises de Contrebande que l’on pour&lt;roit&gt;
+                <lb />
+                <pb facs="#FacsPnr26"/>trouver chargées en un tel Navire Ennemy quoy
+                <lb />qu’elles fussent rendues par la susditte Raison.
+                <lb />Et comme il a esté Reglé cy dessus qu’un Navire
+                <lb />libre affranchira les Denrées y chargées, il a esté
+                <lb />en outre accordé et convenu que cette Liberté
+                <lb />s’estendra aussy aux personnes qui se trouveront
+                <lb />en un Navire libre à tel effect que quoy qu’elles
+                <lb />fussent Ennemis de l’une et del’autre des parties
+                <lb />ou de l’une d’Icelles, pourtant se tronvans dans le
+                <lb />Navire libre n’en pourront estre tirées; Si ce n’est
+                <lb />qu’ilz fussent gens de Guerre, et effectivement
+                <lb />en service desdits Ennemis.
+                <lb />
+                <lb />23
+                <lb />Tous les Sujets et habitants desdittes Provinces
+                <lb />Unies, jouirront reciproquement des mesmes
+                <lb />droits, Libertez, Exemptions, en leurs Traficqs et
+                <lb />Commerce dans les Ports, Rades, Mers et Estats
+                <lb />de Sa ditte Majesté, ce qui vient d’estre dit
+                <lb />
+                <pb facs="#FacsPnr27"/>que les Sujets de Sa Majesté jouïront en ceux
+                <lb />desdits Seigneurs Estats et en haute Mer, se debva&lt;nt&gt;
+                <lb />entendre que l’Egalité sera reciproque en toutte
+                <lb />maniere de part et d’autre; Et mesmes en cas
+                <lb />que cy apréz lesdits Seigneurs Estats fussent
+                <lb />en Paix, Amitié et Neutralité avec aucuns Roy
+                <lb />Princes et Estats qui devinssent Ennemis
+                <lb />de Sa ditte Majesté; Chacun des deux Parties
+                <lb />debvant user reciproquement des mesmes conditio&lt;ns&gt;
+                <lb />et restrictions exprimées aux Articles du
+                <lb />present Traitté, qui regarde le Traficq et le
+                <lb />Commerce.
+                <lb />
+                <lb />24.
+                <lb />Et pour asseurer d’Avantage les Sujets desdits
+                <lb />Seigneurs Estats, qu’il ne leur sera faict aucune
+                <lb />violence par lesdits Vaisseaux de Guerre, sera fait
+                <lb />defences à touts Capitaines des Vaisseaux du Roy
+                <lb />et autres Sujets de Sa Majesté de ne les molester
+                <lb />
+                <lb />
+                <lb />
+                <pb facs="#FacsPnr28"/>ny endommager en aucune chose que ce soit sur
+                <lb />peine d’estre tenus en leurs personnes et Biens,
+                <lb />des Dommages et interests soufferts, et à souffrir
+                <lb />jusques à la deue restitution et reparation.
+                <lb />
+                <lb />25
+                <lb />Et pour cette cause seront d’oresnavant les Capitaines
+                <lb />et Armateurs obligez chacun d’eux, avant leur
+                <lb />partement, de bailler caution bonne et solvable,
+                <lb />par devant les Juges competants, de la Somme de
+                <lb />quinze mille Livres Tournois, pour repondre chacun
+                <lb />d’eux solidairement, des malversations qu’ils pourroient
+                <lb />commettre en leurs courses; Et pour les contraventions
+                <lb />de leurs Capitaines, et Officiers, au present Traitté et
+                <lb />aux Ordonnances et Edicts de Sa Majesté,
+                <lb />qui seront publiéz en vertu, et en conformité
+                <lb />de la disposition d’iceluy, à peine de descheance
+                <lb />et ité desdittes Commissions et Congez; Ce qui sera
+                <lb />pareillement practiqué par les Sujets desdits Seigneurs
+                <lb />Estats Generaux.
+                <lb />
+                <pb facs="#FacsPnr29"/>26
+                <lb />S’il arrivoit qu’aucun desdits Capitaines Francois
+                <lb />fit prise d’un Vaisseau chargé desdites Marchan-
+                <lb />dises de Contrebande, comme dit est, ne pourront les-
+                <lb />dits Capitaines faire ouvrir, ny rompre les Coffr&lt;es,&gt;
+                <lb />Mallets, Balles, Bougettes Tonneaux, et autres
+                <lb />Caisses, ou les transporter, vendre, ou eschanger, o&lt;u&gt;
+                <lb />autrement aliener, qu’elles n’ayent esté descendues
+                <lb />en Terre en la presence des Juges del’Amirau&lt;té;&gt;
+                <lb />Et apres Inventaire par eux fait desdittes Mar-
+                <lb />chandises trouvées dans lesdits Vaisseaux; Si ce
+                <lb />n’est que lesdittes Marchandises de Contrebande
+                <lb />ne faisant qu’une partie de la Charge, le Maistre
+                <lb />ou patron du Navire trouvast bon et aggreast
+                <lb />de livrer lesdittes Marchandises de Contrebande
+                <lb />audit Capitaine, et de poursuivre son Voyage,
+                <lb />auquel cas ledit Maistre ou patron ne pourra e-
+                <lb />ment estre empesché de poursuivre sa Route et le
+                <lb />dessein de son voyage.
+                <lb />
+                <lb />Sa Majesté
+                <lb />
+                <pb facs="#FacsPnr30"/>27.
+                <lb />Sa Majesté voulant que les Sujets desdits
+                <lb />Seigneurs Estats Generaux soient traittez dans
+                <lb />tout le Pays de son Obeissance aussy favorable-
+                <lb />ment que ses propres Sujets, donnera tous les
+                <lb />ordres necessaires pour faire que les Jugements
+                <lb />et Arrestz, qui seront rendus sur les
+                <lb />Prises qui auront esté faites à la Mer, soient
+                <lb />donnez avec toutte Justice et Equité par personnes
+                <lb />non suspectes ny interessées au fait dont sera
+                <lb />Question; Et donnera Sa Majesté des Ordres
+                <lb />précis et efficaces, afin que touts les Arrests
+                <lb />Jugemens et Ordres de Justice deja donnez et
+                <lb />à donner, soient promptement et deuement
+                <lb />executéz selon leurs formes.
+                <lb />
+                <lb />28
+                <lb />Et lors que les Ambassadeurs desdits Seigneurs
+                <lb />Estats Generaux, ou quelque autre de leurs
+                <lb />Ministres publicqs qui seront à la Cour de
+                <lb />
+                <pb facs="#FacsPnr31"/>Sa Majesté feront plainte desdits Jugemens
+                <lb />qui auront esté rendus, Sa Majesté fera
+                <lb />revoir lesdits Jugements en son Conseil, pour
+                <lb />examiner si les ordres et precautions contenues
+                <lb />au present Traitté, auront esté suivies, et ob-
+                <lb />servés; Et pour y faire pourvoir, selon la Raison
+                <lb />Cequi sera faict dans le temps de troix Mois
+                <lb />au plus; Et neantmoins avant le premier
+                <lb />Jugement ny aprez iceluy pendant la Revision,
+                <lb />les Biens et Effects, quy seront reclamez, ne
+                <lb />pourront estre vendus ny dechargez; Si ce n’est
+                <lb />du consentement des Parties interessées, pour
+                <lb />eviter le Deperissement desdittes Marchandises.
+                <lb />
+                <lb />29
+                <lb />Quand Proces sera meû en premiere et
+                <lb />seconde Instance contre ceux qui auront des prises
+                <lb />en Mer; Et les Interessez en icelles, et que les-
+                <lb />dits Interessez viendront obtenir un Jugement
+                <lb />ou Arrest favorable, ledit Jugement ou Arrest
+                <lb />
+                <pb facs="#FacsPnr32"/>aura son Execution soubs Caution; Non obstant
+                <lb />l’Appel d’iceluy qui aura faict la prise,
+                <lb />mais non au contraire; Et ce qui est dict
+                <lb />au present Article, et aux precedens, pour
+                <lb />faire rendre bonne et briefve Justice aux Sujets
+                <lb />des Provinces Unies, sur les prises faites
+                <lb />à la Mer, par les Sujets de Sa Majesté, sera
+                <lb />entendu et practiqué par les Seigneurs Estats
+                <lb />Generaux à l’Esgard des prises, faites par leurs
+                <lb />Sujets sur ceux de Sa Majesté.
+                <lb />
+                <lb />30.
+                <lb />Sa Majesté et les Seigneurs Estats Generaux
+                <lb />pourront en tout temps faire construire ou fretter
+                <lb />dans le Pays l’un de l’autre tel nombre de
+                <lb />Navires, soit pour la Guerre ou pour le Commerce,
+                <lb />que bon leur semblera; Comme aussy achetter
+                <lb />telle Quantité de Munitions de Guerre qu’ils
+                <lb />auront besoing; Et employeront leur Authorité
+                <lb />
+                <pb facs="#FacsPnr33"/>à ce que lesdits Marchez de Navires, et Achapts
+                <lb />de Munitions se fassent de bonne foy, et à
+                <lb />prix raisonnables; Sans que Sa Majesté
+                <lb />ny les Seigneurs Estats Generaux puissent
+                <lb />donner la mesme permission auxdits
+                <lb />Ennemis l’un de l’autre; En cas que lesdits
+                <lb />Ennemis fussent attaquans ou Agresseurs.
+                <lb />
+                <lb />31.
+                <lb />Arrivant que des Navires de Guerre, ou de
+                <lb />Marchands eschouent par Tempeste, ou autre
+                <lb />Accident aux Costes de l’un ou de l’autre Allié,
+                <lb />lesdits Navires, Apparaux, Biens, et Marchandises,
+                <lb />et ce qui sera sauvé, ou le provenant, si lesdittes choses
+                <lb />estans perissables, ont esté vendues; Le tout estant reclamé par
+                <lb />les proprietaires ou autres ayants charge et pouvoir
+                <lb />d’eux dans l’an et jour, sera restitué sans forme de
+                <lb />Procez, en payant seulement les fraiz raisonnables,
+                <lb />et ce qui sera reglé entre lesdits Alliez pour le
+                <lb />
+                <pb facs="#FacsPnr34"/>droit de Sauvement; Et en cas de Contravention
+                <lb />au present Article Sa Majesté et lesdits
+                <lb />Seigneurs Estats Generaux promettent employer
+                <lb />efficacement leur Authorité pour faire chastier avec
+                <lb />toute la Severité possible ceux de leurs Sujets
+                <lb />qui se trouveront coupables des inhumanitéz
+                <lb />qui ont esté quelques fois commises à leur grand
+                <lb />regret en des semblables rencontres.
+                <lb />
+                <lb />32
+                <lb />Sa Majesté et lesdits Seigneurs Estats Generaux
+                <lb />ne recevront, et ne souffriront que leurs Sujets
+                <lb />recoivent dans nul des pays de leur Obeissance
+                <lb />aucuns Pirates et Forbans quels qu’ils puissént
+                <lb />estre; Mais ils les feront poursuivre et punir, et
+                <lb />chasser de leurs portz; Et les Navires depredez comme
+                <lb />les Biens pris par lesdits Pirates et Forbans qui se
+                <lb />trouveront en estre, seront incontinent et sans forme de
+                <lb />procez restituez franchement aux proprietaires
+                <lb />qui les reclameront.
+                <lb />
+                <pb facs="#FacsPnr35"/>33.
+                <lb />Les habitants et Sujets de Coté et d’autre pourront
+                <lb />par tout dans les Terres de l’Obeissance dudit
+                <lb />Seigneur Roy et desdits Seigneurs Estats Generaux
+                <lb />se faire servir de tels Advocats, Procureurs,
+                <lb />Notaires, et Solliciteurs que bon leur semblera;
+                <lb />À quoy aussy ils seront commis par les Juges
+                <lb />ordinaires quand il sera besoin; Et que lesdits Juges
+                <lb />en seront requis. Et sera permis auxdits
+                <lb />Sujets et. Habitants de part et d’autre de tenir
+                <lb />dans les Lieux où ils feront leur demeure, les
+                <lb />Livres de leur Traficq et Correspondence en la
+                <lb />Langue que bon leur semblera; Sans que pour ce
+                <lb />sujet ils puissent estre inquietez ny recherchez.
+                <lb />
+                <lb />34
+                <lb />Ledit Seigneur Roy, comme aussy lesdits Seigneurs
+                <lb />Estats Generaux, pourront establir pour la
+                <lb />
+                <pb facs="#FacsPnr36"/>Commodité de leurs Sujets Traficans dans le
+                <lb />Royaume et Estats l’un de l’autre, des Consuls
+                <lb />de la Nation de leursdits Sujets, lesquels jouiront
+                <lb />des Droits, Libertez, et Franchises qui leur
+                <lb />appartiennent par leur Exercice et Employ.
+                <lb />Et l’establissement en sera faict aux Lieux
+                <lb />et Endroits, ou de commun consentement il
+                <lb />sera jugé necessaire.
+                <lb />
+                <lb />35.
+                <lb />Sa Majesté, et lesdits Seigneurs Estats Generaux
+                <lb />ne permettront point qu’aucun Vaisseau de Guerre
+                <lb />ny autre equipé pour la Commission, et pour le
+                <lb />service d’aucun Prince, Republique, ou Ville
+                <lb />que ce soit vienne fairé aucune prise dans les Portz,
+                <lb />Havres ou aucunes Rivieres quy leur
+                <lb />appartiennent, sur les Sujets de l’un ou de
+                <lb />l’autre. Et en cas que cela arrive Sadite
+                <lb />Majesté et lesdits Seigneurs Estats Generaux
+                <lb />
+                </p>
+                <pb facs="#FacsPnr37"/><p>employeront leur Authorité et leur force pour 
+                    <lb />en faire faire la Restitution ou Reparation 
+                    <lb />raisonnablement. 
+                    <lb />
+                </p>
+                <p>36.
+                    <lb />S’il survenoit par inadvertence ou autrement 
+                    <lb />quelques Inobservations ou Contraventions au present 
+                    <lb />Traitté dela part de sa ditte Majesté ou desdits 
+                    <lb />Seigneurs Estats Generaux, et leurs Successeurs, 
+                    <lb />il ne laissera pas de subsister en toutte sa 
+                    <lb />force; Sans que pour cela on en vienne à la 
+                    <lb />Rupture de la Confoederation, Amitié, et bonne 
+                    <lb />Correspondence: Mais on en reparera promptem&lt;ent&gt; 
+                    <lb />lesdittes Contraventions: et si elles procedent 
+                    <lb />de la faute de quelques particuliers Sujets 
+                    <lb />ils en seront seuls punis et chastiez. 
+                    <lb />
+                </p>
+                <p>37
+                    <lb />Et pour mieux asseurer à l’advenir le Commerce 
+                    <lb />et l’Amitié entre les Sujets dudit Seigneur 
+                    <lb />
+                    <lb /> 
+                </p>
+                <pb facs="#FacsPnr38"/><p> Roy et ceux desdits Seigneurs Estats Generaux 
+                    <lb />des Provinces Unies du Pays Bas, il 
+                    <lb />à esté accordé et convenu, Qu’arrivant cy aprez 
+                    <lb />quelque Interruption d’Amitié ou Rupture entre 
+                    <lb />la Couronne de Francé, et lesdits 
+                    <lb />Seigneurs Estats desdittes Provinces Unies 
+                    <lb />(ce qu’à Dieu ne plaise) il sera 
+                    <lb />tousjours donné neuf Mois de Temps apréz 
+                    <lb />laditte Rupture aux Sujets depart et d’autre 
+                    <lb />pour se retirer avec leurs effects, et les transporter 
+                    <lb />où bon leur semblera. Ce qu’il leur sera 
+                    <lb />permis de faire, comme aussy de vendre ou 
+                    <lb />transporter leurs Biens, et Meubles, en toutte 
+                    <lb />Liberté; Sans qu’on leur puisse donner aucun 
+                    <lb />Empesche[ment]<note n="3" type="crit_app">Nachträglich darüber eingefügt.</note>, ny proceder pendant ledit Temps de neuff 
+                    <lb />Mois à aucune saisie de leurs effects; Moins encore 
+                    <lb />l’arrest de leurs personnes. 
+                    <lb /> 
+                    <lb />38 
+                    <lb />Le present Traitté de Commerce, Navigation
+                    <lb />
+                    <lb /> 
+                </p>
+                <pb facs="#FacsPnr39"/><p>et Marine durera vingt cincq Ans
+                <lb />à commencer du jour de la Signature
+                <lb />et les Ratifications en seront données
+                <lb />en bonnte forme, et eschangées depart
+                <lb />et d’autre dans l’Espace de six semai-
+                <lb />nes à conter du Jour de la Signature
+                <lb />
+                <lb />
+                &lt;...&gt; Durch Falz verdeckt.
+                <lb />[Es folgen Passformulare, Vollmachten]
+                <lb />
+                </p>
+            </div>
+        </body>
+        <back>
+            <listBibl>
+                <bibl xml:id="a41">
+                    <title level="a">Theatrum Europaeum (1678-08-10)</title>
+                    <title level="m">Theatrum Europaeum, Band 11 (1672-1679) Aus: Dokumentenarchiv der Universitätsbibliothek Augsburg (Drucke vor 1900 / Historische Geschichtswerke).</title>
+                    <biblScope>
+                        <graphic xml:id="A1Pnr1" url="https://www.ieg-friedensvertraege.de/dbimages/img_49e5dc8282a92"/>
+                        <graphic xml:id="A1Pnr2" url="https://www.ieg-friedensvertraege.de/dbimages/img_49e5dc8880b2b"/>
+                        <graphic xml:id="A1Pnr3" url="https://www.ieg-friedensvertraege.de/dbimages/img_49e5dc901a255"/>
+                        <graphic xml:id="A1Pnr4" url="https://www.ieg-friedensvertraege.de/dbimages/img_49e5dc96088ee"/>
+                    </biblScope>
+                </bibl>
+            </listBibl>
+        </back>
+    </text>
+</tei:TEI>

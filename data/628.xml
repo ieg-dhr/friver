@@ -1,0 +1,616 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE tei SYSTEM "../resources/FriVer_DTD.dtd">
+
+<?xml-model href="../resources/FriVer.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns="http://www.tei-c.org/ns/1.0" xml:id="pa000299-0628">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title level="s">European peace treaties of the pre-modern era in data / Europäische Friedensverträge der Vormoderne in Daten (FriVer+)</title>
+                <title when="1606-06-23" xml:id="t628" when-custom="1606 VI 23" level="a" ref="https://www.ieg-friedensvertraege.de/treaty/t-628-1-de.html">Friede von Wien</title>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    Digital edition according to
+                    <ref target="http://www.tei-c.org/">TEI P5</ref>
+                </edition>
+                <funder>
+                    <ref target="https://www.text-plus.org/">TEXT+</ref>
+                </funder>
+                <editor role="http://id.loc.gov/vocabulary/relators/edt" ref="https://orcid.org/0000-0002-8741-5916">
+                    <persName>Jaap Geraerts</persName>
+                    <note>The transformation and enrichment of the data is done by Jaap Geraerts (IEG Mainz). The other members of the FriVer+ team are Fabian Cremer, Ines Grund, and Thorsten Wübbena (all IEG Mainz).</note>
+                    <note>
+                        The original data has been created by the
+                        <ref target="https://www.ieg-friedensvertraege.de">team of scholars</ref>
+                        who were part of the Europäische Friedensverträge der Vormoderne project. This project was lead by Prof. Dr. Heinz Duchhardt and was based at the Leibniz Institute of European History in Mainz.
+                    </note>
+                </editor>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>
+                    <orgName ref="http://www.isni.org/0000000119314040">Leibniz-Institut für Europäische Geschichte Mainz</orgName>
+                </publisher>
+                <distributor>
+                    <orgName ref="http://www.isni.org/0000000110101946">Universitäts- und Landesbibliothek Darmstadt</orgName>
+                </distributor>
+                <idno type="ISIL">http://lobid.org/organisation/DE-17</idno>
+                <date type="issued" when="2023-12-23"/>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">
+                        <p xml:lang="en">This file is licensed under the terms of the Creative Commons License CC-BY 4.0 (Attribution 4.0 International)</p>
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <repository xml:id="r4">Budapest MOL
+                    <note>Budapest MOL, Findbuch:<lb />
+                        <ref
+                            target="https://www.eleveltar.hu/digitalis-tartalom?source=mnlscope&amp;ref=mnlscope::2454"
+                            >https://www.eleveltar.hu/digitalis-tartalom?source=mnlscope&amp;ref=mnlscope::2454</ref></note>
+                </repository>
+                <msDesc><p>MolBudapest Ladula C Tractatus pacis N 39 Fasz. A Nr. 8.</p>
+                    <p>MolBudapest Tractatus Publici E 143 Fasc. 1 Nr. 4 (Abschrift).</p>
+                    <p>&nbsp;</p>
+                    <p>weitere St&uuml;cke:</p>
+                    <p>Ratifikation durch Kaiser Rudolf II., Prag 1606 VIII 6. Ratifikation durch den siebenb&uuml;rgischen F&uuml;rsten, Kaschau 1606 VIII 17. Approbation durch die ungarischen St&auml;nde, Wien 1606 IX 23. &nbsp;</p>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>
+                    The data in this XML file, originally created by the project
+                    <ref target="https://www.ieg-friedensvertraege.de/vertraege">Europäische Friedensverträge der Vormoderne online</ref>
+                    has been transformed in accordance with
+                    <ref target="http://www.tei-c.org/">TEI P5</ref>
+                    as part of the project
+                    <ref target="https://www.ieg-mainz.de/en/research/research-projects/european-peace-treaties-of-the-pre-modern-era-in-data">Europäische Friedensverträge der Vormoderne in Daten (FriVer+)</ref>
+                </p>
+            </projectDesc>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="la" xml:id="lan6">Latein</language>
+            </langUsage>
+        </profileDesc>
+    </teiHeader>
+    <standOff>
+        <listPerson>
+            <person role="signatory" xml:id="p12">
+                <persName ref="https://explore.gnd.network/gnd/4043271-3">
+                    <name>Oesterreich</name>
+                </persName>
+            </person>
+            <person role="signatory" xml:id="p109">
+                <persName ref="https://explore.gnd.network/gnd/4054835-1">
+                    <name>Siebenbürgen</name>
+                </persName>
+            </person>
+        </listPerson>
+        <listPlace>
+            <place xml:id="loc9">
+                <placeName ref="https://explore.gnd.network/gnd/4066009-6">Wien</placeName>
+            </place>
+        </listPlace>
+        <facsimile>
+            <surface xml:id="FacsPnr1">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_45c730515f5ed"/>
+            </surface>
+            <surface xml:id="FacsPnr2">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_45c7307422bfe"/>
+            </surface>
+            <surface xml:id="FacsPnr3">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_45c73096065b5"/>
+            </surface>
+            <surface xml:id="FacsPnr4">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_45c730b926823"/>
+            </surface>
+            <surface xml:id="FacsPnr5">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_45c730e13fd06"/>
+            </surface>
+            <surface xml:id="FacsPnr6">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_45c73106c19e1"/>
+            </surface>
+            <surface xml:id="FacsPnr7">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_45c73127d5143"/>
+            </surface>
+            <surface xml:id="FacsPnr8">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_45c7314928284"/>
+            </surface>
+            <surface xml:id="FacsPnr9">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_45c7317e4651b"/>
+            </surface>
+            <surface xml:id="FacsPnr10">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_45c731a2e4722"/>
+            </surface>
+            <surface xml:id="FacsPnr11">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_45c731cc3f521"/>
+            </surface>
+            <surface xml:id="FacsPnr12">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_45c731f1e5420"/>
+            </surface>
+            <surface xml:id="FacsPnr13">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_45c732184311b"/>
+            </surface>
+            <surface xml:id="FacsPnr14">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_45c733774547b"/>
+            </surface>
+        </facsimile>
+    </standOff>
+    <text>
+        <front>
+            <div type="Drucke"><p> Roderich Gooss,&nbsp; Österreichische Staatsverträge. Fürstentum Siebenbürgen. Wien 1911, S. 341-352. 
+                <lb />Dumont V/2, S. 68-73 
+                <ref target="http://gallica.bnf.fr/ark:/12148/bpt6k1229594.zoom.f70.langEN">Link zum Druck auf gallica.bnf.fr 
+                    <lb /></ref>Katona IX/28, S.545-563. 
+            </p></div>
+        </front>
+        <body>
+            <div type="Transliteration">
+                <pb facs="#FacsPnr1"/><p>Nos Matthias Dei Gratia
+                <lb />Archidux Austriæ Dux Burgundiæ, Styriæ, Carinthiæ, Carniolæ, de Wirtem-
+                <lb />bergæ, Comes Tyrolis et Habspurgi et Tyrolis. Memoriæ commendamus ten-
+                <lb />ore præsentium significantes quibus expedit universis. Quod cum Sacra Cæsarea
+                <lb />Regiaque Ma[jes]tas Dom[i]nus et frater noster observan[dissimus] ad singularem n[ost]ram intercessio-
+                <lb />nem benigne condescenderit, et ad sopiendos in Inclytu Regno Hungariæ exortus
+                <lb />motus et tumultus, Nobis totalem superinde Plenipotentiam concesserit prout etiam
+                <lb />mediantibus tunc tempus Sacræ Cæsareæ Regiæ Ma[jesta]tis intimis, et alijs Con-
+                <lb />siliarijs et Commissarijs tractatus habitus; Et denique etiam conclusio ab utriusque
+                <lb />partis Commissarijs eorum subscriptione et Sigilli impressione confirmata fuerit, quia
+                <lb />tamen ex parte Spectabilis et Mag[nifi]ci Do[mini] Stephani Bochkaÿ de Kys Maria, et sibi&nbsp; ad-
+                <lb />hærentium Hungarorum superinde nonæ adhuc difficultates remansisse vide-
+                <lb />bantur, ob quas revidendas denuo Mag[nifi]cus Stephanis Illieshazy de Illieshaza, Co- mes Comitatuum Thrinchinien[sis] et Lipchovien[sis], cum alijs sibi adiunctis Nobilibus, Tho-
+                    <lb />ma Vezt <note n="1" type="crit_app">&lt;unleserlicher Einschub&gt;. </note>, de eadem&nbsp; Vÿzkeleth, Andrea Osztrosÿth de Giletincz, et Paulo Aponÿ
+                <lb />de Nag Apon, huc ad nos cum sufficientibus Plenipotentijs instructus Wiennam venerit.
+                <lb />Ideò Nos ex prædicta Plenipotentia nobis concessa in bonum Reipublicæ Christianæ, et pa-
+                <lb />cis publicum, ac Regni conservationem, ne proprijs ac intestinis dissidijs conflagraret, Vicina etiam
+                <lb />Regna et Provinciæ&nbsp; a continuis incursionibus tandem liberari et una cum Regno Hun-
+                <lb />gariæ respirare possint, benigne assensimus et annuimus, ut difficultates illæ, quæ ex priori
+                <lb />tractatu remansisse videbantur, denuo reassumerentur, tractarentur, et finaliter su-
+                <lb />perinde concluderentur, pro ut etiam per Illust[res] Spectab[iles] et Mag[nificos] Paulum Sixtum Trau-
+                <lb />czonium, Comitem in Falkenstein, Liberum Baronem in Sprechen- et Schrowenstein, Do-
+                <lb />minum in Kaÿa et Lâa, hæreditarium Marschalcum Comi[t]atus Tyrolensis, Carolum Domi-
+                <lb />num à Liechtenstein de Nickluspurgh, in Tchernahor, et Biskupicz, Marchionatus
+                <lb />Moraviæ Generalem Capitaneum. Ernestum à Molard, Liberum Baronem in Reunegg et
+                <lb />Drosendorff, Archiducatus Austriæ inferioris Regiminis Locumtenentem. Sigefriedum Christophorum Preiner, Liberum Baronem in Stubingh, Fladnicz et Rabenstein,
+                <lb />Inferioris Austriæ Cameræ Præsidentem. Thomam Erdeodÿ de Monoirokerek, Comitem
+                <lb />
+                </p>
+                <pb facs="#FacsPnr2"/><p>[Seite 2] 
+                    <lb /> 
+                    <lb />perpetuum Montis Claudij, Comitatus Warasdiensis Comitem Tavernicorum Georgium 
+                    <lb />Thurzo de Betlehemffalwa, Comitem Liberum et perpetuum de Arwa, atque Comitatus 
+                    <lb />Arvensis supremum Comitem Dapiferorum Sigismundum Forgach de Ghymes, Comitem 
+                    <lb />Comitatus Neugradien[sis] Pincernarum Regalium in Hungaria Magistros, et Ulricum 
+                    <lb />à Krenbergh in Neuwaldegg Sacræ Cæsareæ Ma[jesta]tis intimos, et alios Consi- 
+                    <lb />liarios et Camerarios etiam nostros Commissarios, adhunc tractatum adhibitos, in hunc 
+                    <lb />qui sequitur modum utrinque concordatum fuit. 
+                    <lb /> 
+                    <lb />Ad primum Articulum. Quantum itaque ad Religionis negotium attinet, non obstantibus prioribus pro tempore Constitutionibus publicis, sed neque Articulo 
+                    <lb />postremo Anni Domini Millesimi Sexcentesimi quarti, (cum is extra Die- 
+                    <lb />tam et sine Regnicolarum assensu adiectus fuerit et propterea etiam tollitur) 
+                    <lb />Deliberatum est, ut iuxta Sacræ Cæsareæ Regiæque Ma[jesta]tis priorem resolutionem 
+                    <lb />ad quam se Regnicolæ referunt in sua Replicatione, nimirum. Quod omnes 
+                    <lb />et singulos Status et Ordines intra ambitum Regni Hungariæ solum existents 
+                    <lb />tam Magnates, Nobiles, quam liberas Civitates et Oppida Privilegiata immediate 
+                    <lb />ad Coronam spectantia; Item in Confinijs quoque Regni Hungariæ Milites Hunga- 
+                    <lb />ros in sua Religione et confessione &lt;n&gt;usquam et nequaquam turbabit, nec per alios 
+                    <lb />turbari et impediri sinet. Verum omnibus prædictis Statibus et Ordinibus, li- 
+                    <lb />ber Religionis ipsorum usus et exercitium permittetur, &lt;ab&gt;sque tamen præiuditio Ca- 
+                    <lb />tholicæ Romanæ Religionis, Et ut Clerus, Templa ac&nbsp; &lt;...&gt;<note
+                        n="2" type="crit_app">Ein undeutliches Wort.</note>Eclesiæ Catholicorum 
+                    <lb />Romanorum intacta et libera permaneant, atque ea, quæ hoc disturbiorum tempore 
+                    <lb />utrinque occupata fuere, rursum eisdem restituantur. 
+                    <lb />&nbsp; 
+                    <lb />Ad secundum Articulum. Manet prioris tractatus conclusio, ut simul 
+                    <lb />cum Hungaris et Turca pax et reconciliatio fiat. 
+                    <lb /> 
+                    <lb />Ad tertium Articulum. Palatinus eligatur cum sua dignit[a]te more antiquitus 
+                    <lb />consueto in proxima primitus celebranda Diæta. Quia verò sua Cæsarea ac 
+                    <lb />Regia Ma[jes]tas ob varias Reipublicæ Christianæ necessitates in Hungaria aut vicinis 
+                    <lb />locis residere nequit, neque opus sit propter quas suis causas Regnicolis ad remotiores 
+                </p> 
+                <p> 
+                    <lb /> 
+                </p> 
+                <lb />
+                <pb facs="#FacsPnr3"/><p>[Seite 3]
+                <lb />
+                <lb />Suæ Ma[jesta]tis residentias venire gravesque sumptus propterea facere; ubi
+                <lb />neque Consiliarij Hungari semper Suæ Ma[jesta]ti ad latus præsentes esse pos-
+                <lb />sunt. Ideo statutum et conclusum est, Quod Sua Serenitas, secundum Pleni-
+                <lb />potentiam sibi per suam Ma[jesta]tem, non ita pridem propterea omnimode concessa[m]
+                <lb />in negotijis Regni Hungariæ per Palatinum et Consiliarios Hungaros, non
+                <lb />secus, ac si sua Cæsarea Regiaque Ma[jes]tas personaliter præsens adesset,
+                <lb />audiendi, proponendi, iudicandi, concludendi, agendi et disponendi in omnibus
+                <lb />ijs, quæ ad conservadum Regnum Hungariæ eiusdemque Regnicolarum quie-
+                <lb />tem et utilitatem videbuntur esse necessaria plenariam potestatem et faculta-
+                <lb />tem habeat.
+                <lb />Et Personalis præsentiam modernus in suo loco relinquatur: ita tamen ut dein-
+                <lb />ceps iuxta Statuta Regni eligatur.
+                <lb />
+                <lb />Ad quartum. Supplicant adhuc Regnicolæ Suæ Ma[jesta]ti, ut Coronam in
+                <lb />Regnum Hungariæ Posonium post tempora pacatiora more aliorum Re-
+                <lb />gnorum solito, reducat.
+                <lb />
+                <lb />Ad quintum. De Thesaurario Manet quoque iste Articulus, secundum
+                <lb />primi tractatus conclusionem. Quod Thesaurarius iste, sive hic
+                <lb />Perceptor proventuum Regiorum, sine Præfectus aut quovis alio no[m]ine
+                <lb />appelletur, cum alijs sibi adiunctis, in am partem gubernationis
+                <lb />Regni sese immisceant, sed Regios duntaxat et Coronæ proventus curet.
+                <lb />Quinimo ut deinceps nativi Hungari semper et Seculares eligantur,
+                <lb />conclusum est. Sicut etiam ad contributiones publicas Regnicolæ ad
+                <lb />modum antea consuetum Perceptores seu Dicatores quos velunt habere
+                <lb />et eligere poterunt.
+                <lb />Quod ambos Reverendos Episcopos Agriensem nempe et Waradiensem
+                <lb />concernit, Isti interim a Regno abstinebunt, donec eorum causa decisa,
+                <lb />vel alias composita fuerit. 
+                <pb facs="#FacsPnr4"/>[Seite 4]
+                <lb />&nbsp;
+                <lb />Ad sextum. Maneat iste quoque Articulus antea conclusus. Ne Sacræ Cæsareæ
+                <lb />Regiæque Ma[jesta]tis authoritati et potestati quippiam derogetur, in eios arbitrio relin-
+                <lb />quitur Episcopos quos voluerit eligere, ne tamen in Consilium alij, quam qui Episcopa-
+                <lb />les suas Ecc[les]ias, vel alia Jura possessionaria Episcopalia habuerint admittan-
+                <lb />tur. Et inter hos quidem, ut eorum, qui ex Nobili prosapia oriundi habiles sunt, condigna ratio præ cæteris, sicut ante ita imposterum observetur. Sua Cæsarea
+                <lb />ac Regia Ma[jes]tas benigne curabit.
+                <lb />Quæ vero de Episcopis Comitibus Comitatuum in particulari recensentur, et utrum
+                <lb />huiusmodi personæ Ecclesiasticæ seculares habere possint dignitates, id in fu-
+                <lb />tura Diæta Rex et Regnicolæ concludent.
+                <lb />Præposituræ tamen et Abbatiæ maneant in suo statu et fundatione.
+                <lb />Et quia cum appendice in hoc Articulo Oppidorum Modrensium, Sancti Georgij et
+                <lb />Bezin, mentio fit, utrum nimirum ipsi inter Prælatos, Magnates, Nobiles, Sta-
+                <lb />tus et Ordines assidere, votaque sua habere possint, pro ulteriori deliberatione
+                <lb />et resolutione Suæ Ma[jesta]tis, ac Statuum et ordinum Regni ad proxime futuram Diætam horum quoque totum negotium reijcitur.
+                <lb />Bona vero Communitatibus Sacra Cæsarea Regiaque Ma[jes]tas iuxta statuta pub-
+                <lb />lica Ferdinandi Regis Anno Millesimo Quingentesimo et quadragesimo se-
+                <lb />cundo non conferet.
+                <lb />
+                <lb />Ad septimum. Etiam iste Articulus confirmatur iuxta prioris tractatus
+                <lb />conclusionem. Quod maneant Sedes Spirituales, si qui tamen in ijsdem
+                <lb />aliqui abusus inolevissent, possunt illi, in proxime futura Diæta coram Sua
+                <lb />Ma[jesta]te, et Statibus Regni proponi, limitari et emendari. Ubi similiter querelas
+                <lb />de Decimis, earumque abusibus Rex et Regnicolæ componant.
+                <lb />
+                <lb />Ad octavum. Hungari non consentiunt, quod Jesuitæ in Regno Hungariæ Jura stabilia et possessionaria habeant et possideant. Sua tamen Ma[jes]tas Juribus suis Regijs inhæret.
+                <lb />&nbsp;
+                <pb facs="#FacsPnr5"/>[Seite 5]
+                <lb />
+                <lb />Quo ad clausulas Donationalium, fiant Donationes, iuxta Decreta Regni et
+                <lb />more antiquitus solitio.
+                <lb />
+                <lb />Ad Nonum et Decimum. Sacra Cæsarea Regiaque Ma[jes]tas, Hungariam
+                <lb />et partes ei annexas, Sclavoniam v[ideli]cet Croatiam et Dalmatiam per Hungaros
+                <lb />nativos, et nationes ei subiectas et annexas possidebit: item tam maiora quam
+                <lb />minora officia Regni etiam externa, et Confiniorum Præfecturas, ex Consilio
+                <lb />Hungarico, Hungaris, et nationibus ei annexis idoneis o interposito re-
+                <lb />ligionis discrimine conferet. Si tamen Suæ Cæsareæ ac Regiæ Ma[jesta]ti
+                <lb />ita videbitur, potent in partibus danubianis, duorum Confiniorum Præfec-
+                <lb />turas pro arbitrio suo externis benemeritis ex Vicinis provincijs Suæ
+                <lb />Ma[jesta]tis conferre.
+                <lb />
+                <lb />Ad Undecium. Articulus hic de Palatino in tertio iam conclusus est, hoc addito quod querulantes iniurias suas Juris ordine prosequantur, et
+                <lb />nemo nisi legitime citatus, iurisque ordine convictus, puniatur. Nec hoc præter-
+                <lb />misso, quod Decreta Regni, quæ per hæc disturbia, et varias Regni constitutio-
+                <lb />nes multis in locis antiquis legibus Regni contrariantur, in Diæta proxime
+                <lb />futura emendentur, juxta Constitutiones Armorum Millesimi Quingent[esimi]
+                <lb />quinquagesimi 1553 et 1563.
+                <lb />
+                <lb />Ad Duodecimum. 1. Stephani Illieshazy et Uxoris suæ causa componetur et con-
+                <lb />tentabuntur.
+                <lb />2. Negotium Hæredum Dobonis per Sophiam Prinÿ, tanquam primariam hæred-
+                <lb />em cum Sua Ma[jesta]te concordatum est.
+                <lb />3. Georgius Homonnaÿ, vigore Constitutionis publice fuit condemnatus, quod
+                <lb />tamen Camera intempestivam sententiæ executionem fecerit, id suæ Ma[jesta]ti
+                <lb />imputari non potest; imposterum tamen omnes sententiæ debito modo juxta
+                <lb />Decreta Regni executioni demandabuntur.
+                <lb />4. Arces Zoliom et Dobroniva juxta inscriptionem Sacræ Cæsar[eæ] Regiæque M[ajesta]tis
+                <lb />reddantur Francisco Dersffÿ et Nicolai similiter Dersffy Uxori et hæredib[us]
+                <lb />
+                </p>
+                <pb facs="#FacsPnr6"/><p>[Seite 6]
+                    <lb />
+                    <lb />vel summa Inscriptionis eis deponatur.
+                    <lb />5. A Dionysio Banffy Generalis Belioiosa, quatuordecim Millia Tallerorum 
+                    <lb />accepit. Illum igitur Sua Ma[jes]tas vel bonis aut pecunijs contentatura est.
+                    <lb />6. Bona Palocziana, si quidem successores sponte pecunijs illa a Sua Ma[jesta]te
+                    <lb />redemerunt, a eget rectificatione, volenti enim non fit iniuria.
+                    <lb />7. Possessionum Rechiæ et Bohonicz, et bona Dereghniana, in proxime futura 
+                    <lb />Diæta coram Judicibus Regni Ordinarijs, iure extraordinario revideantur.
+                    <lb />8. Bona Kallo hæredibus suis iam antea Ma[jes]tas sua&nbsp; cessit ac restituit.
+                    <lb />9. Bona Pelenÿ, Melegh et C&lt;ha&gt;pÿ, iure revideantur in Diæta, per Judices Reg-
+                    <lb />ni ordinarios, extraordinarie.
+                    <lb />10. Franciscum Magochÿ, et Valentinum Homonnaÿ, Ma[jes]tas sua ab impetitione 
+                    <lb />Juris Castri Regecz, liber&lt;os&gt; pronunciare dignetur si quidem et alioquin cum 
+                    <lb />Franciso Maghÿ, hærede masculino, iam illi concordarunt.
+                    <lb />11. Civitas Cassoviensis, bona ab antiquis Regibus eis collata, libere modo anti-
+                    <lb />quo teneat et possid[eat].&nbsp; templum &lt;corum&gt; ab eis quovis tempore non
+                    <lb />adimatur, neque Cap[itu]lum Agriense
+                    <lb />ibi interteneatur &lt;…&gt;. <note n="3" type="crit_app">Aufgeklebter
+                        Zettel, enthaltend: templum &lt;corum&gt; ab eis quovis tempore non <lb />
+                        adimatur, neque Cap[itu]lum Agriense <lb /> ibi interteneatur &lt;…&gt;.</note> .
+                    <lb />12. Bona Thelegdiana iure &lt;….&gt;<note n="4" type="crit_app">Anm. : Verdeckt durch Zettel (vgl. Anm. 3).</note>&nbsp; 
+                    <lb />ordinarie.
+                    <lb />13. Thomam Nadasdÿ Sacra Cæsar[ea] Regiaque Ma[jes]tas ratione Matrimonij, nec 
+                    <lb />ratione bonorum iure non impediet.
+                    <lb />14. Similiter Sigismundus Rakoczy et familia Balassy, ratione arcis Mako-
+                    <lb />vicza, non impedientur a Sua M[ajesta]te Cæsarea atque Regia..
+                    <lb />15. Vidua Casparis Banffy per Christophorum et Georgium Banffy omnibus 
+                    <lb />spoliata in integrum restituatur.
+                    <lb />16. Ita etiam Sigismundus Balassa, qui contra æquitatem, et ipsum Jus naturæ 
+                    <lb />sororem Matris suæ Carnalem, et fratrem quoque suum carnalem captiva-
+                    <lb />vit, omnibusque bonis tam mobilibus quam immobilibus privavit, illis om[ni]a 
+                    <lb />sua bona ablata, tam mobilia, quam immobilia statim restituat. Quod nisi 
+                    <lb />fecerit, citetur per spoliatos actores, in proxime futuram dietam et 
+                </p>
+                <pb facs="#FacsPnr7"/><p>[Seite 7]
+                <lb />
+                <lb />Judices Regni Ordinarÿ, defacto extraordinarie, causam hanc, assumant, revide-
+                <lb />ant, et iuxta Decreta Regni d&lt;ij&gt;udicent.
+                <lb />
+                <lb />Ad decimum tertium. Cum impossibile esse videatur huiusmodi bona ablata
+                <lb />et deprædata mobilia, in hoc disturbiorum tempore rehabere. In bonum itaque
+                <lb />pacis publicæ, damna hinc inde accepta, oblivioni traduntur.
+                <lb />
+                <lb />Ad decimum quartum. Donationes per Dominum Bochkaÿ editæ, cum non-
+                <lb />æ ex sinistra quorundam informatione, cum apertissimo Regni damno, aliæ
+                <lb />vero diversis modis sint emanatæ. Ideo necessario requiritur, pro bono publico et
+                <lb />conservatione pacis et amicitiæ mutuæ in Regno Hungariæ, ut Regnicolæ communi
+                <lb />voto in proxime futura Diæta Donationes illas revideant, et quæ merito mane-
+                <lb />re iudicabuntur, maneant in suo vigore.
+                <lb />Inscriptiones autem et bona illa, quæ vel per Domi[nu]m Bochkaÿ, vel Stephanum
+                <lb />Illieshazÿ impignorata sunt, maneant in suo vigore, donec Regnicolæ, in publica
+                <lb />Diæta illa eliberabunt, illosque qui pecuniam dederunt .
+                <lb />A modo autem æ amplius inscriptiones fiant, sub quovis titulo aut præ-
+                <lb />textu.
+                <lb />Nobilitationes per Dominum Bochkaium factæ maneant in suo vigore: ita tamen,
+                <lb />ut in publica Diæta literæ superinde producantur, ut sciatur eorum Nobilitas, ne
+                <lb />quid contra leges in eo peccetur.
+                <lb />Quoniam vero in proximo conventu Cassoviæ peracto a Regnicolis ipsi Do[mi]no
+                <lb />Bochkaÿ adhærentibus conclusum erat, quod ij qui se ad festum Divi Jacobi
+                <lb />proxime affuturum, eidem et alijs sibi adhærentibus, non adiunxerint, universa
+                <lb />eorum bona, et iura possessionaria amittant. Conclusum itaque est hanc Consti-
+                <lb />tutionem omnino silere et invigorosam nunc esse debere.
+                <lb />
+                <lb />Ad&nbsp; decimum quintum. Hic Articulus similiter iuxta prioris tractatus
+                <lb />Conclusionem confirmatur, nimirum quod bona et arces extraneis inscripta
+                <lb />per Hungraros restituta eis pecunia ipsorum, cum consensu Suæ Ma[jesta]tis re-
+                <lb />redimere liceat.
+                <lb />
+                </p>
+                <pb facs="#FacsPnr8"/><p>[Seite 8]
+                    <lb />
+                    <lb />Privilegia autem liberarum Civitatum, in quorum usu fuerunt, conserventur. Et
+                    <lb />imposterum illis Privilegijs tam Hungari quam Germani et Bohemi Inhabitato-
+                    <lb />res indifferenter et æquali iure, gaudeant fruantur, et utantur.
+                    <lb />Querelæ vero contra illos, in publica proxime futura Diæta audiantur, et per 
+                    <lb />Regnicolas, vel Judices Regni iudicentur.
+                    <lb />
+                    <lb />Quod personam Domini Bochkaÿ eiusque
+                    <lb />contentationem concernit.
+                    <lb />
+                    <lb />Ad Transÿlvaniam cum partibus Hungariæ, quas&nbsp; Sigismundus Bathorÿ habuit, 
+                    <lb />etiam Arx Thokaÿ ei cum omnibus suis pertinentijs nunc existentibus, una cum 
+                    <lb />duobus et integris Comitatibus Wgochia et Beregh, tam intra, quam extra Tybiscum 
+                    <lb />habitis, similiter cum antiquis suis metis et pertinentijs et fortalicium Zatthmar 
+                    <lb />cum eodem Comit[a]tu conceditur. 
+                    <lb />
+                    <lb />Quo autem illa Oppida Kerezthur et Tarczal, cum sint impignorata Sigismundo 
+                    <lb />Rakoczÿ et Sebastiano Theökeölÿ, assentit sua Sacra Cæsarea Regiaque Ma[jes]tas 
+                    <lb />ut illa per Dom[in]um Bochkay redimantur, et ad Castrum Tokaÿ more antiquo te-
+                    <lb />neantur et possideantur.
+                    <lb />Decimæ vero Agrien[ses] ultra Tÿbiscum, et aliæ omnes similiter ultra Tÿbiscum maneant 
+                    <lb />ipsi Do[mino] Bochkaÿ intra Tÿbiscum autem ad rationem Suæ M[ajestati] Cæsar[eæ] ac Regiæ colligantur.
+                    <lb />Atque hæc quidem Do[mino] Bochkaio iure hæreditario habenda conceduntur; Si tamen in 
+                    <lb />linea eius masculina ex proprijs lumbis, et thoro legitimo procreati ac descendentes non 
+                    <lb />essent&nbsp; extunc eo facto omnia illi – tunc denuo concessa -<note n="5"
+                        type="crit_app">Einschub am Rand: tunc denuo concessa.</note> concessa in legitimum Regem Hungariæ, et per conse-
+                    <lb />quens ad Coronam Regni devolvantur; ita quod us Consanguineorum suorum, vel 
+                    <lb />Affinium, eorumque hæredum aliquid Juris aut Jurisdictionis neque ad Principatum, neque 
+                    <lb />ad Ditiones et Comitatus ipsi Do[mino] Bochkaÿ concessas, ulla unquam tempore sint præ-
+                    <lb />tensuri. Quod si vero filiam relinqueret, filia Jure quartalitio iuxta Regni Consti-
+                    <lb />tutione&lt;m&gt; contenta esse debeat, aut acquiescere in eo, quo Sua Ma[jes]tas cum ipso Do[mino]
+                    <lb />Bochkaÿ convenerit.
+                    <lb />Oppidum Lÿszka cum pertineat ex antiqua consuetudine ad Præpositura[m] Scepusien[sem]
+                    <lb />conceditur quidem et illud ipsi Do[mi]no Bochkaÿ, quousque Sua Ma[jes]tas cum eodem aliter 
+                </p>
+                <pb facs="#FacsPnr9"/><p>[Seite 9]
+                <lb />
+                <lb />conveniet et concordabit.
+                <lb />Gubernatio Cassoviæ, et reliquarum partium Regni Hungariæ Superiorum Confini-
+                <lb />orum per Hungaros fiat, prout in Articulo Generali conclusum est.
+                <lb />De Capituli vero Agriensis intertentione, Sua Cæsarea Regiaque Ma[jes]tas et Regni-
+                <lb />colæ in futura Regni Diæta de securo et opportuno loco providebunt si Cassoviæ
+                <lb />non poterit esse.
+                <lb />Ratione Tituli conceditur ei is, quem Sigismundus Bathorÿ habuit, ut nimiru[m]
+                <lb />se Principem Imperij Transylvaniæ, Siculorum Comitem, et partium Regni
+                <lb />Hungariæ Dominum nominare possit.
+                <lb />Insignia similiter Transylvaniæ gerat, quæ Sigismundus Bathorÿ habuit præter
+                <lb />gentilitia et alia eius adventitia.
+                <lb />Introductio autem in provincias et partes sibi a Sua Ma[jesta]te concessas fiat per Com-
+                <lb />missarios Suæ Ma[jesta]tis quamprimum omnia ab ipso Do[mino] Bochkaÿ, et sibi adhæren-
+                <lb />tibus fuerint ratificata. Ubi etiam relaxatio fiet iuramenti Transÿlvanorum ra-
+                <lb />tione fidlelitatis Suæ Ma[jesta]ti præstiti. Pollicetur tamen idem Do[mino] Bochkaÿ, se
+                <lb />curam habiturum ut ipsi in viam rectam et antiquam deducantur.
+                <lb />Sicut etiam Nuntios a Comit[a]tibus illis, qui ad Hungariam pertinent ad Diætas
+                <lb />Generales in Hungaria celebrandas mittet et expediet.
+                <lb />Conclusum&nbsp; quoque&nbsp; est, Quod Domini Magnates et Nobiles, ab utraque parte tam
+                <lb />a Suæ Majestatits, quam ipsius Domini Bochkaÿ omnia bona et iura sua pos-
+                <lb />sessionaria tam in, quam ext&lt;r&gt;a Tybiscum libere possideant, eaque suis prio-
+                <lb />ribus Dominis et possessoribus restituantur. Similiter etiam et Civi-
+                <lb />tas Zakolczen[si] alia item Castra, Sassin, Holich, Berench et quævis alia &lt;ad&gt;
+                <lb />Hungariam pertinen[tia] prioribus possessoribus remittantur et quilibet coram
+                <lb />legitimis Comitatum Comitibus, et Judicibus Nobilium iura sua prosequi pos-
+                <lb />sit et valeat. Simililer etiam in Octavis.
+                <lb />
+                <lb />Item quod si qui Malefactores, Officiales et Factores Suæ Majestatis, vel
+                <lb />aliquorum Regnicolarum damna vel maleficia perpetrantes, in Transÿlva-
+                <lb />niam vel partes sibi adiunctas transfugerint extunc tales tam ad requi-
+                <lb />
+                <pb facs="#FacsPnr10"/>[Seite 10]
+                <lb />
+                <lb />sitionem Suæ Ma[jesta]tis quam Regnicolarum querelas ibidem quamprimu[m]
+                <lb />Jure sistantur atque hic de damnis illatis, iuxta Decreta Regni puniantur. Idem
+                <lb />etiam ex parte Sacræ Cæsareæ Regiæque Ma[jesta]tis fiet.
+                <lb />
+                <lb />Statutum etiam est, quod statim conclusa et confirmata
+                <lb />conclusione huius pacis
+                <lb />omnia executioni demandentur, et ut supranominati Castra, Fortalicia, Ci-
+                <lb />vitates, Oppida Pagi, Possessiones, ac aliæ quævis Ditiones exceptis illis, quæ
+                <lb />vigore præsentis Reconciliationis Domino Bochkaÿ
+                <lb />conceduntur, in manus eius-
+                <lb />dem Suæ Ma[jesta]tis Regnicolarum, priorumque Dominorum et possessorum omnia
+                <lb />cedantur et resignentur. Demptis Donationibus et bonis impignoratis, de quibus
+                <lb />in Articulo 14 Regnicolarum superius conclusum est.
+                <lb />
+                <lb />Quod vero fideles Suæ Ma[jesta]tis nempe Balthasarem Kornis, Pancratium Senniey
+                <lb />et alios omnes Transÿlvanos concernit, qui ob fidelitatem et iuramentum suum
+                <lb />Sacræ Cæsareæ Regiæque Ma[jesta]ti præstitum in Transylvania bona sua amise-
+                <lb />runt cum &lt;...&gt; merito apud omnes hoc facto suo laudem potius, quam poenam ali-
+                <lb />quam mereantur, ipsisque Domino Bochkay adhærentibus sua omnino restitu-
+                <lb />antur, et oblivio omnium præteritorum fiat. Sua Ser[eni]tas adhuc benigne insistit
+                <lb />et requirit, ut hi quoque fideles Suæ Majestatis, idem Jus sentiant et experian-
+                <lb />tur et ut illis bona ipsorum restituantur, atque ea per ipsos aut per alios possidere
+                <lb />aut vero illis eadem pretio competenti divendere ac alienare liceat.
+                <lb />
+                <lb />Ultra hæc vero Dominus Bochkaÿ Coronam a Vezirio sibi donatam in derogamen
+                <lb />Regis et Regni Hungariae et Corunæ eiusdem antiquæ, se non accepisse asserit.
+                <lb />
+                <lb />Denique etiam Conclusum est, quod debita quæ Sacræ Cæsareæ Regiæque Ma[jesta]tis
+                <lb />Commissarij, ad necessitas Suæ Ma[jesta]tis a Transÿlvanis levassent, Sua Cæsarea
+                <lb />Regiaque Ma[jes]tas curet persolvi vel ex quæstu illorum ex Tricesimis successive de-
+                <lb />falcari permittet.
+                <lb />
+                <lb />Quibus omnibus ita tractatis et compositis superest, ut omnes qui Domino
+                <lb />Bochkay adhæserunt, fide, quam illi dederunt, renunciata rursus in gratia[m]
+                <lb />et fidelitatem Suæ Sacræ Cæsareæ Regiæque Ma[jesta]tis tanquam legitimi ipsorum
+                <lb />Regis redeant et recipiantur, et a modo imposterum ipsi et Successores
+                <lb />
+                <pb facs="#FacsPnr11"/>[Seite 11]
+                <lb />
+                <lb />illorum o unquam tempore a fidelit[a]te Sacræ Cæsareæ Regiæque Ma[jesta]tis
+                <lb />eiusdemque successorum legitimorum Regum Hungariæ salvis Juribus
+                <lb />et libertatibus Regni permanentibus desciscant.
+                <lb />
+                <lb />Quod ut commodius fiat perpetuaque firmitate roboretur, atque ipsi Hungari
+                <lb />Do[mi]no Bochkaÿ adhæerentes assecurato, quieto et tranquillo superinde sint
+                <lb />animo, nos ex Plenipotentia nobis a Sacra Cæsar[ea] Regiaque Ma[jesta]te conces-
+                <lb />sa, omnibus et singulis, qui hoc modo Suæ Sacræ Cæsareæ ac Regiæ
+                <lb />Ma[jesta]ti reconciliati fuerint oblivionem omnium eorum, quæ a decimo quin-
+                <lb />to die Octobris Anno Millesimo Sexcentesimo quarto, usque modo
+                <lb />hinc inde gesta commissaque fuerunt, benigne concedimus, ita quod o-
+                <lb />mnes cædes, rapinæ, spolia, Castrorum interceptiones Civitatum Oppi-
+                <lb />dorum poss[ess]ionum et Villarum occupationes, generaliter vero universæ
+                <lb />violentiæ sub hoc tempore factæ et patratæ, i &lt;...&gt;m cuiusvis sta-
+                <lb />tus et conditionibus, ordinis et præeminentiæ deinceps superius exceptis
+                <lb />imputentur, sed de plano et simplici obliterentur et o unquam tempore
+                <lb />quovis exquisito modo et colore, neque Ma[jes]tas sua Cæsarea ac Regia, aut succes-
+                <lb />sores sui legitimi Reges Hungariæ nec ipsi damnificati Regnicolæ ad invi-
+                <lb />cem palam vel occulte in vel extra Juditium, per se aut per alios possint
+                <lb />propterea vel impediri vel aliqualiter aggravari.
+                <lb />Quinimo hi omnes universis super suis factis intra præfatum tempus commissis
+                <lb />a quibus Actoribus, Causidicis,&nbsp; litigantibus, tam in, quam extra Juditium
+                <lb />liberi penitusque absoluti sint et habeantur, &lt;nec&gt; eos quivis Judex Ordinarius
+                <lb />iudicare valeat aut præsumat quovismodo præterquam
+                <lb />Servitores Suæ
+                <lb />Ma[jesta]tis Cæsareæ aliorumque Dominorum et Nobilium ad dandas Rationes
+                <lb />obligatorum qui hinc excepti ad dandas Rationes omnino adstringantur.
+                <lb />Quod si tamen compertum fuerit eiusmodi proventus, tam Suæ Ma[jesta]tis Cæs[areæ]
+                <lb />ac&nbsp; Regiæ, quam Regnicolarum armis aut violenter ab illis ablatos fuisse,
+                <lb />in eo casu ad talium proventuum restitutionem non teneantur.
+                <lb />Si qui etiam ex prædictis Domino Bochkaÿ adhærentibus Hungaris quævis
+                <lb />Castra, Fortalitia aut munitiones sponte vel invite, manibus Hungarorum
+                <lb />tradidissent, aut assumpto sibi exterorum Turcarum et Tartarorum auxi-
+                <lb />
+                <pb facs="#FacsPnr12"/>[Seite 12]
+                <lb />
+                <lb />lio Sacræ Cæsar[eæ] Regiaeque Ma[jesta]ti aut Hungaris vel etiam Vicinis provintijis
+                <lb />damna intulissent nec non liberas Civitates Fodinas, Oppida, Villas possessi-
+                <lb />ones, taxas, Census vel proventus quovis nominis vocabulo nuncupatos per-
+                <lb />cepissent et pro se usurpassent sint sicut supradicti absoluti, ita tamen
+                <lb />ut de cætero ab omnibus huiusmodi abstineatur.
+                <lb />Ad cuius uberiorem effectum consequendum denique conclusum est, quod om[ne]s
+                <lb />Hungari, qui Do[mi]no Bochkaÿ adhæserunt post horum omnium hic factam
+                <lb />conclusionem et confirmationem ipsius iuramento nexui, ac vinculo quam-
+                <lb />primum et cum effectu renuncient, ab eo recedent et liberentur. Ipse vero
+                <lb />Dominus Bochkaÿ, o unquam tempore eos sibi obnexios habeat, quinimo
+                <lb />eosdem etiam ab eodem iuramento sibi præstito, eo facto liberos faciat et pronunci&lt;a&gt;t.
+                <lb />Ut vero hæc omnia maiori robore firmentur, omnisque scrupulus diffidentiæ ex cordibus Do[minus]
+                <lb />Bochkay adhæren[tium], radicitus evellatur, atque hic tractatus et reconciliatio stabilior sit
+                <lb />Sacr[a] Cæsa[erea] Regiaque Ma[jesta]tus diplomate suo superinde confecto et emanato firmiter promit-
+                <lb />tet et penes eandem Regnum quoque Bohemiæ, Archiducatus Austriæ, Marchionatus
+                <lb />Moraviæ, Ducatus Silesiæ et Ser[enissi]mus Archidux Ferdinandus, cum Ducatu Styriæ &lt;re&gt;
+                <lb />assecurabunt.
+                <lb />Quod sua Sacra Cæsar[ea] Regiaque Ma[jes]tas, hanc reconciliationem cum Hungaris factam invio-
+                <lb />labiliter in o[m]ni sui parte observabit et Vicina quoque Regna et Provinciæ, nihil quod vicinitatis
+                <lb />Jus possit lædere, attentabunt. Sicut etiam vicissim Regni Hun[gari]æ Regnicolæ et ad illud per-
+                <lb />tinentes provintiæ et Comit[a]tus Suæ Sac[ræ] Cæsareæ Ma[jesta]ti, et successoribus eiusdem &nbsp;
+                <lb />legitimis Regibus Hungariæ ad perpetuam fidem, fidelit[a]tem et observantia[m] sese obliga-
+                <lb />bunt per publicas Regni Constitutiones, quod salvis semper Juribus et libert[a]tibus Regni per-
+                <lb />manentibus, nunquam defectionem, rebellionem, insurrectionem, publicæ pacis perturba-
+                <lb />tionem Vicinarum pro¬vintiarum invasionem, depopulationem, internam et externam con-
+                <lb />spirationem Turcarum et Tartarorum, ac aliorum hostium quorumcunque in Regnum Hun[gariæ]
+                <lb />et vicinas Provintias introductionem, privata Conventicula contra Suam Cæsar[eam] Re-
+                <lb />giamque Ma[jesta]tem contra bonum Regni, in æeternum molientur, vel quovis exquisito colo-
+                <lb />re et prætextu attentabunt. Quinimo quod secundum antiqua pacta et fœdera bonam vicinit[a]tem, et mutuum amorem tam Hungari quam Vicinæ provintiæ mutuo colant, et
+                <lb />ultro citroque commercium Christianorum liberum omnibus relinquent.
+                <lb />Sicut etiam Vicissim et reciproce Hungari Vicinis Provintij de conservanda bona vicin-
+                <lb />itate, et quæ ad ea[m] necessaria esse videbuntur, suas quoque literas peculiares assigna-
+                <lb />bunt 
+                </p>
+                <pb facs="#FacsPnr13"/><p>[Seite 13] 
+                    <lb /> 
+                    <lb />Et si cum Turca pax honesta concludi non posset, ipsique Turcæ conditionibus inhærerent et 
+                    <lb />talia proponerent, quæ Regno Hungariæ vicinisque provintijs damnosa periculosa 
+                    <lb />et pernitiosa essent, quod ex&lt;tunc&gt; coniunctis viribus, cum Milite Sacr[æ] Cæs[areæ] Regiæque 
+                    <lb />Ma[jesta]tis contra eum, ut com[m]unem Christiani nominis et patriæ hostem, secundum De- 
+                    <lb />creta et Constitutiones Regni pari alacrit[a]te et promptitudine absque ulla tergiversa- 
+                    <lb />tione ad contestandam eorum fidelit[a]tem procedent. 
+                    <lb />Quod si vero secus fieret, contrarium facientes eo ipso Notam perpetuæ infidelitatis incurrent. Acta et conclusa s&lt;i&gt;nt hæc Viennæ Austriæ Vigesima tertia die 
+                    <lb />mensis Junij Anno Domini Millesimo Sexcentesimo Sexto. 
+                    <lb /> 
+                </p> 
+                <p>Matthias 
+                    <lb /> 
+                    <lb />Paulus Sixt&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp; 
+                    <lb />Trauthson , Gr[af] und F[rei]h[err] 
+                    <lb /> 
+                    <lb />Carolus à Lichtenstein mp 
+                    <lb /> 
+                    <lb />St[epha]nus Iliezhazi mp 
+                    <lb /> 
+                    <lb />Ernestus a Molart 
+                    <lb /> 
+                    <lb />S. Breiner mp&nbsp; 
+                </p> 
+                <p>Thomas Vizkeley mp 
+                    <lb /> 
+                    <lb />Tho[mas] Erdeodÿ Comes 
+                    <lb />p[er]petuus Montis Claudij mp 
+                    <lb /> 
+                    <lb />Georgius Thurzo Comes 
+                    <lb />p[er]petuus de Arva mp 
+                    <lb /> 
+                    <lb />Andreas Ostrosith mp 
+                    <lb /> 
+                    <lb />Sigismundus Forgacz de Gimes mp 
+                    <lb /> 
+                    <lb />W. a Krenberg mp 
+                    <lb /> 
+                    <lb />Paulus Apponÿ mp 
+                    <lb /> 
+                    <lb /> 
+                </p>
+            </div>
+        </body>
+        <back>
+            <listBibl>
+                <bibl>Géza Lencz, Der Austand Bocskays und der Wiener Frieden. Debreczen 1917.</bibl>
+                <bibl>Meinolf Arens,&nbsp; Habsburg und Siebenbürgen 1600-1605. Gewaltsame Eingliederungsversuche eines ostmitteleuropäischen Fürstentums in einen frühabsolutistischen Reichsverband (= Studia Transylvanica; Bd. 27), Köln / Weimar / Wien 2001.</bibl>
+                <bibl>János Barta, Manfred Jatzklau, Klára Papp (Hg.), "Einigkeit und Frieden sollen auf Seiten jeder Partei sein." Die Friedensschlüsse von Wien und Zsitvatorok. Debrecen 2007&nbsp;</bibl>
+            </listBibl>
+        </back>
+    </text>
+</tei:TEI>

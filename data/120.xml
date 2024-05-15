@@ -1,0 +1,924 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE tei SYSTEM "../resources/FriVer_DTD.dtd">
+
+<?xml-model href="../resources/FriVer.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns="http://www.tei-c.org/ns/1.0"
+    xml:id="pa000299-0120">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title level="s">European peace treaties of the pre-modern era in data / Europäische
+                    Friedensverträge der Vormoderne in Daten (FriVer+)</title>
+                <title when="1715-05-02" xml:id="t120" when-custom="1715 V 2" level="a"
+                    ref="https://www.ieg-friedensvertraege.de/treaty/t-120-1-de.html">Allianzvertrag
+                    von Berlin</title>
+            </titleStmt>
+            <editionStmt>
+                <edition> Digital edition according to <ref target="http://www.tei-c.org/">TEI
+                        P5</ref>
+                </edition>
+                <funder>
+                    <ref target="https://www.text-plus.org/">TEXT+</ref>
+                </funder>
+                <editor role="http://id.loc.gov/vocabulary/relators/edt"
+                    ref="https://orcid.org/0000-0002-8741-5916">
+                    <persName>Jaap Geraerts</persName>
+                    <note>The transformation and enrichment of the data is done by Jaap Geraerts
+                        (IEG Mainz). The other members of the FriVer+ team are Fabian Cremer, Ines
+                        Grund, and Thorsten Wübbena (all IEG Mainz).</note>
+                    <note> The original data has been created by the <ref
+                            target="https://www.ieg-friedensvertraege.de">team of scholars</ref> who
+                        were part of the Europäische Friedensverträge der Vormoderne project. This
+                        project was lead by Prof. Dr. Heinz Duchhardt and was based at the Leibniz
+                        Institute of European History in Mainz. </note>
+                </editor>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>
+                    <orgName ref="http://www.isni.org/0000000119314040">Leibniz-Institut für
+                        Europäische Geschichte Mainz</orgName>
+                </publisher>
+                <distributor>
+                    <orgName ref="http://www.isni.org/0000000110101946">Universitäts- und
+                        Landesbibliothek Darmstadt</orgName>
+                </distributor>
+                <idno type="ISIL">http://lobid.org/organisation/DE-17</idno>
+                <date type="issued" when="2023-12-23"/>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">
+                        <p xml:lang="en">This file is licensed under the terms of the Creative
+                            Commons License CC-BY 4.0 (Attribution 4.0 International)</p>
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <repository xml:id="r10">Hannover StA/LA <note>Arcinsys Niedersachsen, Hannover NLA, Findbuch:<lb/>
+                        <ref
+                            target="http://www.arcinsys.niedersachsen.de/arcinsys/detailAction?detailid=v3042497"
+                            >http://www.arcinsys.niedersachsen.de/arcinsys/detailAction?detailid=v3042497</ref></note>
+                </repository>
+                <msDesc>
+                    <p>Transkriptionsgrundlage: NHSA Hannover Cal. Br. 24 Nr. 1424: beide
+                        Unterhändlerinstrumente, Berlin 1715 V 2 (Bündniß zwischen den Königen von
+                        Groß-Britannien und Dänemark gegen Schweden), eines unterzeichnet von Heusch
+                        (Abschrift, zit.: [A.]), das andere von Dewitz (zit.:[B])</p>
+
+                    <p>Weitere Stücke:<lb/>
+                        <lb/> Ratifikationen:<lb/> NHSA Hannover, Hannover 10 Dänemark Nr. 52/1:
+                        Ratifikation Georgs I., St. James 1715 V 2 (Gegenzeichnung Hattorf).<lb/>
+                        NHSA Hannover, Hannover 10, Dänemark Nr. 52/2: Ratifikation Dänemarks,
+                        Hauptquartier zu Mecklenburg 1715 VI 26 (Ausfertigung mit OS und US,
+                        Gegenzeichnung Wibe).</p>
+
+                    <p>NHSA Hannover, Cal. Br. 11 E I Nr. 126 (Konzept der Ratifikation
+                        Hannovers).<lb/> NHSA Hannover, Cal. Br. 14 Nr. 129.<lb/> NHSA Hannover,
+                        Hannover 92 Nr. 2193 (Abschluss der Bündnisverträge mit Dänemark und Preußen
+                        im Nordischen Krieg 1714-1716)</p>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p> The data in this XML file, originally created by the project <ref
+                        target="https://www.ieg-friedensvertraege.de/vertraege">Europäische
+                        Friedensverträge der Vormoderne online</ref> has been transformed in
+                    accordance with <ref target="http://www.tei-c.org/">TEI P5</ref> as part of the
+                    project <ref
+                        target="https://www.ieg-mainz.de/en/research/research-projects/european-peace-treaties-of-the-pre-modern-era-in-data"
+                        >Europäische Friedensverträge der Vormoderne in Daten (FriVer+)</ref>
+                </p>
+            </projectDesc>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="de" xml:id="lan2">deutsch</language>
+            </langUsage>
+        </profileDesc>
+    </teiHeader>
+    <standOff>
+        <listPerson>
+            <person role="signatory" xml:id="p32">
+                <persName ref="https://explore.gnd.network/gnd/4010877-6">
+                    <name>Dänemark</name>
+                </persName>
+            </person>
+            <person role="signatory" xml:id="p51">
+                <persName ref="https://explore.gnd.network/gnd/4023349-2">
+                    <name>Hannover</name>
+                </persName>
+            </person>
+            <person xml:id="pp0205">
+                <persName ref="https://explore.gnd.network/gnd/1243999756">
+                    <name>Georg I. (Großbritannien)</name>
+                </persName>
+            </person>
+            <person xml:id="pp0182">
+                <persName ref="https://explore.gnd.network/gnd/118560123">
+                    <name>Karl XII. (Schweden)</name>
+                </persName>
+            </person>
+            <person xml:id="pp0179">
+                <persName ref="https://explore.gnd.network/gnd/119546256">
+                    <name>Friedrich IV. (Dänemark und Norwegen)</name>
+                </persName>
+            </person>
+            <person xml:id="pp0204">
+                <persName ref="https://explore.gnd.network/gnd/118535978">
+                    <name>Friedrich Wilhelm I (Preußen)</name>
+                </persName>
+            </person>
+            <person xml:id="pp0181">
+                <persName ref="https://explore.gnd.network/gnd/118505084">
+                    <name>August II. (Polen)</name>
+                </persName>
+            </person>
+            <person xml:id="pp0194">
+                <persName ref="https://explore.gnd.network/gnd/118592955">
+                    <name>Peter I. (Russia)</name>
+                </persName>
+            </person>
+            <person xml:id="pp0207">
+                <persName ref="https://explore.gnd.network/gnd/117270598">
+                    <name>Magnus Stenbock</name>
+                </persName>
+            </person>
+            <person xml:id="pp0208">
+                <persName>
+                    <name>Johann Wilhelm Heusch</name>
+                </persName>
+            </person>
+        </listPerson>
+        <listPlace>
+            <place xml:id="loc24">
+                <placeName ref="https://explore.gnd.network/gnd/4005728-8">Berlin</placeName>
+            </place>
+        </listPlace>
+        <facsimile>
+            <surface xml:id="FacsPnr1">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_449a893b7a6db"/>
+            </surface>
+            <surface xml:id="FacsPnr2">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_449a8961722f0"/>
+            </surface>
+            <surface xml:id="FacsPnr3">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_449a89955bfe4"/>
+            </surface>
+            <surface xml:id="FacsPnr4">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_449a89bede882"/>
+            </surface>
+            <surface xml:id="FacsPnr5">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_449a89eb4c98c"/>
+            </surface>
+            <surface xml:id="FacsPnr6">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_449a8a162856a"/>
+            </surface>
+            <surface xml:id="FacsPnr7">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_449a8a399cf11"/>
+            </surface>
+            <surface xml:id="FacsPnr8">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_449a8a59cec58"/>
+            </surface>
+            <surface xml:id="FacsPnr9">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_449a8a7c6ccee"/>
+            </surface>
+            <surface xml:id="FacsPnr10">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_449a8aa87dba1"/>
+            </surface>
+            <surface xml:id="FacsPnr11">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_449a8b0d3562d"/>
+            </surface>
+            <surface xml:id="FacsPnr12">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_449a8b32a2977"/>
+            </surface>
+            <surface xml:id="FacsPnr13">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_449a8b58e21cf"/>
+            </surface>
+            <surface xml:id="FacsPnr14">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_449a8b80db422"/>
+            </surface>
+            <surface xml:id="FacsPnr15">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_449a8bac35969"/>
+            </surface>
+            <surface xml:id="FacsPnr16">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_449a8bd706d54"/>
+            </surface>
+            <surface xml:id="FacsPnr17">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_449a91cece79c"/>
+            </surface>
+            <surface xml:id="FacsPnr18">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_449a91fe30b66"/>
+            </surface>
+            <surface xml:id="FacsPnr19">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_449a922ac2463"/>
+            </surface>
+            <surface xml:id="FacsPnr20">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_449a9259c0493"/>
+            </surface>
+            <surface xml:id="FacsPnr21">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_449a929319da0"/>
+            </surface>
+            <surface xml:id="FacsPnr22">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_449a92bfdc3c0"/>
+            </surface>
+            <surface xml:id="FacsPnr23">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_449a92efdce4e"/>
+            </surface>
+            <surface xml:id="FacsPnr24">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_449a93216a04b"/>
+            </surface>
+            <surface xml:id="FacsPnr25">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_449a935330c06"/>
+            </surface>
+            <surface xml:id="FacsPnr26">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_449a938d619de"/>
+            </surface>
+            <surface xml:id="FacsPnr27">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_449a93b6073dd"/>
+            </surface>
+        </facsimile>
+    </standOff>
+    <text>
+        <front>
+            <div type="Drucke">
+                <p>[Kollationierungsvorlage:] Drögereit, Quellen zur Geschichte Kurhannovers 1,
+                    Hildesheim 1949, S.16-24. <lb/>[Weitere Drucke:] Pratje, Altes und Neues aus den
+                    Herzogthümern Bremen und Verden. 1774, 7, S. 4, 16-17 [Auszüge]. Ghillany,
+                    Diplomatisches Handbuch. Sammlung der wichtigsten europäischen Friedensschlüsse,
+                    Kongressakten und sonstigen Staatsurkunden vom Westphälischen Frieden bis auf
+                    die neueste Zeit. 1855, 2, S.114-116 [Auszüge].</p>
+            </div>
+            <div type="Inhalt">
+                <p>Bedrohung durch Schweden. Fehlender Friedenswillen Schwedens. Offensiv- und
+                    Defensivbündnis mit Dänemark-Norwegen. <lb/>Art. 1 Wahrung des Friedens im Ober-
+                    und Niedersächsischen Kreis.<lb/>Art. 2 Bremen-Verden geht mit allen Rechten an
+                    Hannover.<lb/>Art. 3 Dänemark übergibt Bremen (mit Stade und allem Besitz)
+                    innerhalb 14 Tagen an Hannover. Hannoversche Kriegserklärung an
+                    Schweden.<lb/>Art. 4 Dänemark verteidigt im Notfall Bremen-Verden mit 8000
+                    Mann.<lb/>Art. 5 Geldhilfe Dänemarks, falls Hannover von Schweden oder einem von
+                    dessen Verbündeten, namentlich Frankreich, angegriffen wird.<lb/>Art. 6 Hannover
+                    erklärt nach der Übergabe den Krieg gegen Schweden.<lb/>Art. 7 Finanzielle
+                    Entschädigung für Dänemark.<lb/>Art. 8 Falls bis zum 1.Mai 1716 noch kein
+                    Friedenschluß erfolgt ist, wird Hannover weitere Zahlungen leisten.<lb/>Art. 9
+                    Hannover bemüht sich in Großbritannien um engl. Subsidien für Dänemark.<lb/>Art.
+                    10 Hilfstruppen, Bemühung um preußische Unterstützung.<lb/>Art. 11 Schleswig und
+                    Holstein. Garantie des dänischen Besitzes.<lb/>Art. 12 Satisfaktion
+                    Holstein-Gottorps durch den Braunschweiger Kongreß.<lb/>Art. 13 Hannover
+                    garantiert Dänemark den Besitz Pommerns nördlich der Peene.<lb/>Art. 14 Wismar
+                    wird freie Reichsstadt.<lb/>Art. 15 Hannover garantiert Preußen den Besitz
+                    Pommerns südlich der Peene.<lb/>Art. 16 Trennung Holsteins von der Krone
+                    Schwedens. Braunschweiger Kongreß.<lb/>Art. 17 Hannover engagiert sich nicht
+                    militärisch in Pommern. Hilfe Preußens.<lb/>Art. 18 Hilfsleistungen für künftige
+                    Bündnispartner.<lb/>Art. 19 Kriegskonzilium.<lb/>Art. 20 Fall eines schwedischen
+                    Angriff auf Sachsen.<lb/>Art. 21 Kontaktaufnahme mit dem Kaiser wg.
+                    Bremen-Verden.<lb/>Art. 22 Information Russlands.<lb/>Art. 23 Verbot
+                    Separatfrieden. <lb/>Austausch der Ratifikationen innerhalb fünf Wochen.
+                    Gültigkeit des Vertrages erst, wenn auch Dänemark und Preußen sowie Hannover und
+                    Preußens eine Einigung erzielt haben (geschehen am 24. Mai bzw. im April 1715).
+                </p>
+            </div>
+            <div type="Kommentar">
+                <p>Für Hannover bot der Nordische Krieg, sein Territorium an der Seite der
+                    antischwedischen Allianz bis an die Elbe- und Wesermündung auszudehnen. Dieses
+                    Gebiet, die seit dem Westphälischen Frieden 1648 schwedischen weltlichen
+                    Herzogtümer Bremen und Verden, lag jedoch auch im Interessensgebiet Dänemarks,
+                    das 1712 Bremen besetzte. Hannover antwortete mit der Besetzung Verdens, da es
+                    weder den dänischen Machtzuwachs, noch die Abtrennung vom Meer hinnehmen wollte
+                    und zudem seinen Anspruch für spätere Friedensverhandlungen manifestieren
+                    musste. In langwierigen Verhandlungen versuchte Hannover, Dänemark zu einem
+                    Verzicht auf Bremen-Verden zu bewegen. Auch Gespräche auf dem Braunschweiger
+                    Friedenskongreß im Januar und März-Juni 1714 brachten kein Ergebnis. Zudem stand
+                    die hannoversche Weigerung, militärisch in Pommern einzugreifen und Dänemark in
+                    der Frage der Satisfaktion Holstein-Gottoprs entgegen zukommen, einer Einigung
+                    im Wege. Erst als Georg Ludwig englischer König geworden war und eine Großmacht
+                    mit einer starken Flotte hinter sich hatte, kam Bewegung in die Verhandlungen.
+                    Als Preußen schließlich am 17. April 1715 Hannover den Besitz Bremen-Verdens
+                    zusicherte, konnte sich Dänemark dem diplomatischen Druck innerhalb der
+                    antischwedischen Koalition nicht mehr versagen. <lb/>Unstimmigkeiten in
+                    Finanzfragen waren der Grund dafür, dass die Räumung durch Dänemark auf sich
+                    warten ließ. Fredrik IV. ratifizierte den Vertrag erst am 26. Juni 1715.
+                    Hannover seinerseits stellte sein Engagement im Krieg und seine finanziellen
+                    Verpflichtungen hinsichtlich Pommerns zurück. Am 16. Juli 1715 unterzeichnete
+                    Georg I. auf Drängen Dänemarks einen Revers*, um die Satisfaktion für das Haus
+                    Holstein-Gottorp durch erhöhte Zahlungen Hannovers zu regeln. Am 17. Juli 1715
+                    wurde daraufhin der am 2. Mai geschlossene Vertrag ausgetauscht. Nach weiteren
+                    Zugeständnissen Hannovers in den Restantenforderungen räumte Dänemark am 15.
+                    Oktober die besetzten Gebiete. Am gleichen Tag erklärte Hannover Schweden den
+                    Krieg.</p>
+            </div>
+            <div type="Kontext">
+                <p>1700-1721 Nordischer Krieg. Dänemark, Preußen, Russland und Sachsen-Polen
+                    versuchen in zeitlich wechselnden Bündniskonstellationen, die schwedische
+                    Vorherrschaft im Ostseeraum zu brechen und Schweden aus den Reichsbesitzungen
+                    (Bremen-Verden, Pommern) zu verdrängen.<lb/>18. August 1700 Friede von
+                    Travendahl zwischen Dänemark und Schweden. Dänemark scheidet aus dem Krieg
+                    aus.<lb/>1712 Dänemark besetzt das Erzstift und Herzogtum Bremen. Hannover
+                    okkupiert Verden.<lb/>12. Juni 1714 Bündnis zwischen Preußen und Russland.
+                    Hannover schließt sich an.<lb/>27. April 1715 Preußen sichert Hannover den
+                    Erwerb Bremen-Verdens zu.<lb/>2. Mai 1715 Vertrag Hannovers und Dänemark über
+                    den Erwerb Bremen-Verdens durch Hannover. <lb/>16. Juli 1715 Zusatzrevers
+                    Hannovers.<lb/>15. Oktober 1715 Übergabe Bremens. Hannover erklärt Schweden den
+                    Krieg.<lb/>11./22. Juli 1719 Präliminarfriede von Stockholm zwischen Hannover
+                    und Schweden. Hannover erhält Bremen und Verden.<lb/>9./20. November <lb/>1719
+                    Friede von Stockholm zwischen Hannover und Schweden. Der Besitz Bremen-Verdens
+                    für Hannover wird bestätigt.<lb/>3. Juli 1721 Friedensvertrag von Fredriksborg
+                    zwischen Schweden und Dänemark; er bringt territoriale Gewinne (Schleswig) für
+                    Dänemark. Schweden behält Vorpommern.</p>
+            </div>
+
+        </front>
+        <body>
+            <div type="Edition">
+                <p>Wir <rs ref="#pp0205">Georg Ludewig von Gottes Gnaden König von Groß-Britannien,
+                        Franckreich und Irland</rs>, Beschützer des Glaubens, Hertzog<note n="1"
+                        type="crit_app">Drögereit: Herzog (Drögereit verwendet modernisierte
+                        orthographische Varianten (t/th, l/ll, y/i, usw.); auf eine Notierung wird
+                        verzichtet.</note> zu Braunschweig und Lüneburg, des Heyl[igen].
+                    Röm[ischen]. Reichs Ertz-Schatzmeister und Chur-Fürst<note n="2" type="crit_app"
+                        >Textvariante: NHSAHannover Cal. Br.24 Nr. 1424 [B]: Wir Friederich der
+                        Vierte von Gottes Gnaden König zu Dennemarck Norwegen, der Wenden und
+                        Gothen, Hertzog zu Schleßwig, Holstein, Stormarn, und der Dithmarschen,
+                        Graff zu Oldenburg undt Delmenhorst. Sachanmerkung: Georg I. (1714-1727),
+                        englischer König und Kurfürst von Hannover (als Georg Ludwig I. seit 1698).
+                    </note>, <lb/><lb/>Urkunden<note n="3" type="crit_app">NHSAHannover Cal. Br.24
+                        Nr. 1424 [B]: Uhrkunden.</note> und<note n="4" type="crit_app">NHSAHannover
+                        Cal. Br.24 Nr. 1424 [B]: undt (auch im Folgenden).</note> bekennen hiermit:
+                    Demnach des <rs ref="#pp0182">Königs von Schweden May[estä]t</rs><note n="5"
+                        type="annotation">Karl XII. (1697-1718), schwedischer König.</note> bißher
+                    alle von wohlgesinneten Puissancen Ihro angetragene Neuträlität<note n="6"
+                        type="crit_app">NHSAHannover Cal. Br.24 Nr. 1424 [B]: neutralitet.</note>
+                    und Friedens Proportiones mit Verachtung, Indignation und Bedrohung von sich
+                    gewiesen, dadurch der Nordische Krieg auf<note n="7" type="crit_app"
+                        >NHSAHannover Cal. Br.24 Nr. 1424 [B]: auff.</note> den Teutschen Boden, und
+                    sonderlich in die Ober- und Niedersächsische Creyße<note n="8" type="crit_app"
+                        >NHSAHannover Cal. Br.24 Nr. 1424 [B]: Crayse (auch unten).</note> sich
+                    gezogen und verschiedener unschuldiger, an dem Nordischen Kriege keinen Theil
+                    habender Reichs Stände, Länder und Unterthanen in äußersten Schaden und
+                    Verderben gestürtzet worden, S[eine]. <rs ref="#pp0182">Königl[iche]. M[ajestä]t
+                        von Schweden</rs> auch noch diese Stunde in Ihrer Entfernung von
+                    Friedensgedanken beharren, den zu Vermittelung eines Friedens in Norden zu
+                    Braunschweig angestelleten Congress<note n="9" type="crit_app">Textvariante:
+                        NHSAHannover Cal. Br.24 Nr. 1424 [B]: Congres. Sachanmerkung: Der Kongreß
+                        tagte (mit Unterbrechungen) von 1712 bis 1714. Vertreten waren der Kaiser,
+                        Hannover, Wolfenbüttel, Preußen, Hessen-Kassel und Münster. Ein Ziel war es,
+                        reichsfremde Streitkräfte (evtl. durch eine Reichsarmee) vom Territorium des
+                        Reiches zu vertreiben. 1714 gewann eine Friedensvermittlung im Norden an
+                        Priorität. Diesem Anliegen diente die Sitzungsperiode ab März 1714, an der
+                        auch Vertreter Dänemarks, Sachsen-Polens, Gottorps, Mecklenburg-Schwerins
+                        (und Russlands) sowie Schwedens als Beobachter teilnahmen. Ein Ergebnis
+                        wurde jedoch nicht erzielt. Vergleiche Schnath, Geschichte Hannovers
+                        1674-1714, S. 690-696. </note> zu beschicken und sich daselbst in
+                    Friedenshandlung einzulassen<note n="10" type="crit_app">NHSAHannover Cal. Br.24
+                        Nr. 1424 [B]: ein zu lassen (abweichungen ss/ß im Folgenden nicht mehr
+                        notiert).</note> beständig<note n="11" type="crit_app">NHSAHannover Cal.
+                        Br.24 Nr. 1424 [B]: [Einschub vor beständig:] sich.</note>, wegern<note
+                        n="12" type="crit_app">Dögereit: weigern.</note>, im Gegenteil aber frey und
+                    öffentlich declariren, daß S[eine]. May[estä]t, den Degen in der Hand, das Ihro
+                    Abgenommene recuperiren und an Ihren Feinden und also nennenden falschen
+                    Freunden sich rächen wollen; solches aber sehr weit gehen und ein umb sich
+                    fressendes Kriegesfeuer desto gewisser daraus entstehen würde, weilen mann
+                    Königl[icher]. schwedischer Seiten deßwegen in Verbündnißen<note n="13"
+                        type="crit_app">NHSAHannover Cal. Br.24 Nr. 1424 [B]: Verbündnüßen.</note>
+                    und Correspondenz<note n="14" type="crit_app">NHSAHannover Cal. Br.24 Nr. 1424
+                        [B]: undt Correspondence.</note> mit andern in- und außerhalb Reichs
+                    begriffen ist, durch anderer Reichsstände Trouppen sich zu verstärcken, ja gar
+                    mit der Crohn Franckreich und deren Adhaerenten sich und seine
+                    Kriegesoperationen im Reiche zu unterstützen hoffet und suchet, dessen dem Reich
+                    fatale Suiten aus alter und frischer Erfahrung männiglichen vor Augen stehen,
+                    und denen in Zeiten zuvor zukommen, die Prudence und schuldige Vorsorge für die
+                    Sicherheit und Ruhe eines jeden, und zumahl der benachbarten Stände, Lande und
+                    Untertanen erfordert. Als findet mann nunmehro alle Hoffnung erloschen zu seyn,
+                    daß des Königs von Schweden May[estä]t zu disponiren seyn werden, den Weg der
+                    Güte und der Tractaten zu erwehlen, und das Reich, insonderheit aber vorbenandte
+                    beyde Creyße durch die Waffen fernerhin unberuhiget zu lassen. Wann also des <rs
+                        ref="#pp0182">Königs von Schweden</rs> May[estä]t der viae armorum nach wie
+                    vor unbeweglich insistiren und jemand im Reiche, er sey, wer er wolle,
+                    anzugreiffen suchen werden, so wird weder unß<note n="15" type="crit_app"
+                        >NHSAHannover Cal. Br.24 Nr. 1424 [B]: Seiner May[estä]t in Groß
+                        Britannien.</note>, noch sonst jemanden des Reichs Wohlfahrth und
+                        Ruhestand<note n="16" type="crit_app">NHSAHannover Cal. Br.24 Nr. 1424 [B]:
+                        Ruhestandt.</note> zu Hertzen nehmenden Puissancen und Reichs Ständen mit
+                    Recht verdacht werden können, wann dieselbe bey so gestelten<note n="17"
+                        type="crit_app">NHSAHannover Cal. Br.24 Nr. 1424 [B]: gestalten.</note>
+                    Sachen die Nohtdurft dagegen nach Erforderung der Umbstände vorkehren und
+                    endlich zur Ablehnung eines extremi mali, extrema remedia anzuwenden sich
+                    genöhtiget sehen. Immaßen dann zu solchem Ende, und weilen ab Königl[ich].
+                    schwedischer Seiten selbst durch seine unfriedsame<note n="18" type="crit_app"
+                        >NHSAHannover Cal. Br.24 Nr. 1424 [B]: unfriedsahme.</note> fernere Procedur
+                    es dahin veranlaßet, zwischen Unß und des Königes von Dennemarck Norwegen<note
+                        n="19" type="crit_app">NHSAHannover Cal. Br.24 Nr. 1424 [B]: Groß
+                        Britannien.</note>
+                    <rs ref="#pp0179">May[estä]t</rs><note n="20" type="annotation">Fredrik IV.
+                        (1699-1730), König von Dänemark-Norwegen.</note> nachfolgendes Foedus off-
+                    et defensivum<note n="21" type="annotation">Latinisiert: Offensiv- und
+                        Defensivbündnis.</note> hiemit geschlossen worden.<lb/><lb/>1.<lb/>Weilen
+                    nach denen vorangeführten Umbständen<note n="22" type="crit_app">NHSAHannover
+                        Cal. Br.24 Nr. 1424 [B]: Umständen (auch im Folgenden).</note> die Sachen so
+                    bewand seind<note n="23" type="crit_app">NHSAHannover Cal. Br.24 Nr. 1424 [B]:
+                        seyn.</note>, daß Wir<note n="24" type="crit_app">NHSAHannover Cal. Br.24
+                        Nr. 1424 [B]: Ihro Königl[iche] May[estä]t von Groß Britannien.</note> und
+                    andere Benachbahrte nicht minder als das Königes von Dennemarck<note n="25"
+                        type="crit_app">Drögereit: Dänemark (auch im Folgenden).</note> Norwegen
+                        May[estät]<note n="26" type="crit_app">NHSAHannover Cal. Br.24 Nr. 1424 [B]:
+                        wir.</note>. allerhand Zunöhtigungen, Violentien und Feindseligkeiten von
+                    Seiten Schweden und dessen Adhaerenten besorgen müssen, so wollen wir
+                    beyderseits zu dessen Abkehrung und die Ruhe des Reichs und sonderlich der Ober-
+                    und Niedersächsischen Creyße erhalten zu helffen, die von Gott Unß verliehene
+                    Kräffte nun mehro conjunctim anwenden, und Unß miteinander darüber in diesem
+                    Foedere binden, welches Foedus auch auf<note n="27" type="crit_app">NHSAHannover
+                        Cal. Br.24 Nr. 1424 [B]: auff.</note> den Fall, wann Schweden den Ernst
+                        verspührend<note n="28" type="crit_app">NHSAHannover Cal. Br.24 Nr. 1424
+                        [B]: verspürend.</note>, sich zu Friedens Gedancken herauß lassen wolte,
+                    nach geschehener<note n="29" type="crit_app">NHSAHannover Cal. Br.24 Nr. 1424
+                        [B]: geschener.</note> Signatur dieses Tractats in seinem Valeur und Käfften
+                    bleibet und soll es selbigem zu folge, wegen der in Teutschland gelegenen
+                    schwedischen Provincien<note n="30" type="crit_app">NHSAHannover Cal. Br.24 Nr.
+                        1424 [B]: Provintzen</note> gehalten werden wie
+                    nachstehet.<lb/><lb/>2.<lb/>Es sollen alßdann von solchen schwedischen Landen
+                        Uns<note n="31" type="crit_app">NHSAHannover Cal. Br.24 Nr. 1424 [B]: Ihro
+                        Königl[ichen] May[estä]t zu Groß Britannien.</note> zu theil<note n="32"
+                        type="crit_app">NHSAHannover Cal. Br.24 Nr. 1424 [A]: zu theil [Einschub
+                        über der Zeile].</note> und &lt;Unß&gt;<note n="33" type="crit_app"
+                        >NHSAHannover Cal. Br.24 Nr. 1424 [A]: [Einschub über der Zeile, unklare
+                        Lesart]. NHSAHannover Cal. Br.24 Nr. 1424 [B]: [Auslassung].</note>
+                        Unsren<note n="34" type="crit_app">NHSAHannover Cal. Br.24 Nr. 1424 [B]:
+                        undt dero. Drögereit: und Uns und Unsern.</note> Erben und Nachkommen an der
+                    Chur in perpetuum erb- und eigenthümblich überlassen werden, die Hertzogthümer
+                    Brehmen und Vehrden<note n="35" type="crit_app">Drögereit: Bremen und Verden
+                        (auch im Folgenden).</note> mit aller ihrer Zubehör et cum omni jure, wie
+                    die Crohn Schweden dieselbe besessen und genossen, oder sie vermöge des
+                    Westfählischen Friedens<note n="36" type="annotation">Westfälischer Frieden,
+                        Osnabrücker Instrument Art. X, § 7.</note> besitzen und genießen
+                    sollen.<lb/><lb/>3.<lb/>Zu dessen Eventualen, desto mehrern Sicherheit
+                    geschiehet die Cedirung solcher beyder Hertzogthümer und deren Articulo 2.do
+                    erwehnter Zubehörungen von des Königes zu Dennemarck Norwegen May[estä]t<note
+                        n="37" type="crit_app">NHSAHannover Cal. Br.24 Nr. 1424 [B]: Unß S[eine]r
+                        Königl[iche] May[estä]t in Groß-Britannien undt dero Erben und
+                        Nachkommen.</note> Unß und Unsern Erben und Nachkommen hiemit und in Krafft
+                    dieses Foederis würcklich und in optima juris forma, Seine M[ajestät].<note
+                        n="38" type="crit_app">NHSAHannover Cal. Br.24 Nr. 1424 [B]: Wir.</note>
+                    wollen auch die würckliche Tradition und Außlieferung<note n="39"
+                        type="crit_app">NHSAHannover Cal. Br.24 Nr. 1424 [B]: Außliefferung</note>
+                    alles dessen, was sie vom Hertzogthum Brehmen jetzo<note n="40" type="crit_app"
+                        >NHSAHannover Cal. Br.24 Nr. 1424 [B]: itzo.</note> in Besitz haben, nichts
+                    davon ausgenommen, auch insonderheit Stade mit seinen Fortificationen, Archivis
+                    und Registraturen, imgleichen mit der Artillerie und deren Attirail (außgenommen
+                    einiger Canons und Mortiers, so man<note n="41" type="crit_app">NHSAHannover
+                        Cal. Br.24 Nr. 1424 [B]: mann.</note> gleich nach Eroberung sothaner Festung
+                    darauß genommen, und zu der Defence<note n="42" type="crit_app">NHSAHannover
+                        Cal. Br.24 Nr. 1424 [B]: defense.</note> des Ohrts superflus gewesen), auch
+                    denen Krieges Munitionen und Arsenal<note n="43" type="crit_app">NHSAHannover
+                        Cal. Br.24 Nr. 1424 [B]: Arsenalen.</note>, welche bey der Königl[ich].
+                    dähnischen Occupation darinn<note n="44" type="crit_app">NHSAHannover Cal. Br.24
+                        Nr. 1424 [B]: darinn.</note> gefunden worden, Unß<note n="45"
+                        type="crit_app">NHSAHannover Cal. Br.24 Nr. 1424 [B]: an S[eine]
+                        Königl[iche] May[estä]t.</note> unfehlbahr<note n="46" type="crit_app"
+                        >NHSAHannover Cal. Br.24 Nr. 1424 [B]: unfehlbahrlich.</note> thun lassen
+                    vierzehen Tage nachdem die zu Hannover zur Regierung heimgelassene
+                        Geheimbte<note n="47" type="crit_app">NHSAHannover Cal. Br.24 Nr. 1424 [B]:
+                        Geheimte.</note> Räthe<note n="48" type="crit_app">NHSAHannover Cal. Br.24
+                        Nr. 1424 [B]: Rähte.</note> es schrifftlich verlangen, und die Regierung und
+                    Commandanten zu Stade, desfalß requiriren werden, jedoch daß zu gleicher Zeit
+                    bey diesem actu traditionis die würckliche Declaration des Krieges<note n="49"
+                        type="crit_app">NHSAHannover Cal. Br.24 Nr. 1424 [B]: Kriegs.</note> gegen
+                    Schweden abseiten Unserer<note n="50" type="crit_app">NHSAHannover Cal. Br.24
+                        Nr. 1424 [B]: S[einer] Königl[ichen] May[estä]t in Groß Britannien.</note>,
+                    wie auch die Bezahlung der in Art[iculo]. 7.mo hiernechst stipulirender<note
+                        n="51" type="crit_app">NHSAHannover Cal. Br.24 Nr. 1424 [B]:
+                        stipulirende.</note> Geldsumme durch gültige, acceptirte Wechsel geschehen
+                    solle.<lb/><lb/>4.<lb/>Versprechen des <rs ref="#pp0179">Königes zu Dennemarck
+                        und Norwegen</rs> Mayestät für sich, dero<note n="52" type="crit_app"
+                        >NHSAHannover Cal. Br.24 Nr. 1424 [B]: Versprechen wir für Unß, unsere
+                        Erben.</note> Erben und Nachkommen und obligiren sich<note n="53"
+                        type="crit_app">NHSAHannover Cal. Br.24 Nr. 1424 [B]: Unß.</note> hiemit,
+                    daß sie Unß, Unsere<note n="54" type="crit_app">NHSAHannover Cal. Br.24 Nr. 1424
+                        [B]: daß wir S[eine] Königl[iche] May[estä]t in Groß Britannien dero.</note>
+                    Erben und Nachkommen bey dem Besitz, Eigenthumb<note n="55" type="crit_app"
+                        >NHSAHannover Cal. Br.24 Nr. 1424 [B]: Eigenthum.</note> und Genuß der
+                    Hertzogthümer Brehmen und Vehrde sambt deren oberwehnten Zubehörungen contra
+                    quoscunque kräfftigst mainteniren und garantiren helffen, und zu dem Ende
+                    jedesmahl, wann es die Noht erfordern, oder es von Unß oder Unsern<note n="56"
+                        type="crit_app">NHSAHannover Cal. Br.24 Nr. 1424 [B]: von S[einer]
+                        May[estä]t in Groß Britannien oder.</note> Obmitbeschriebenen an die Crohn
+                    Dennemarck begehret werden wird, Unß<note n="57" type="crit_app">NHSAHannover
+                        Cal. Br.24 Nr. 1424 [B]: der Groß Britannischen May[estä]t.</note> oder
+                    ihnen mit acht thausend<note n="58" type="crit_app">NHSAHannover Cal. Br.24 Nr.
+                        1424 [B]: tausend (auch unten).</note> Mann, worunter drey thausend Mann zu
+                    Pferde an Reutern oder Dragonern innerhalb sechs Wochen à die requisitionis
+                        unfehlbar<note n="59" type="crit_app">NHSAHannover Cal. Br.24 Nr. 1424 [B]:
+                        unfehlbahr.</note> assistiren wollen.<lb/><lb/>5.<lb/>Dafern auch Wir in
+                        Unsern<note n="60" type="crit_app">NHSAHannover Cal. Br.24 Nr. 1424 [B]:
+                        Dafern auch S[eine] Königl[iche] May[estä]t in Groß Britannien in
+                        dero.</note> übrigen teutschen Landen entweder von Schweden selbst oder zu
+                    Favor von Schweden<note n="61" type="crit_app">NHSAHannover Cal. Br.24 Nr. 1424
+                        [B]: oder [bis] Schweden [Einschub zwischen den Zeilen].</note> von jemand
+                    anders, es sey ein Stand des Reichs oder eine außwärtige Puissance, in specie
+                    auch von der Crohn Franckreich, wehrendes jetzigen<note n="62" type="crit_app"
+                        >NHSAHannover Cal. Br.24 Nr. 1424 [B]: itzigen.</note> Nordischen Krieges
+                    solten angegriffen oder sonst vergewaltiget werden, so soll dagegen die in
+                    nechst vorhergehendem 4.to Articulo<note n="63" type="crit_app">NHSAHannover
+                        Cal. Br.24 Nr. 1424 [B]: 4. Articul.</note> stipulirte Volckshülffe<note
+                        n="64" type="crit_app">NHSAHannover Cal. Br.24 Nr. 1424 [B], Drögereit:
+                        Volckhülf(f)e.</note> ebenmäßig statt haben, und von des <rs ref="#pp0179"
+                        >Königs zu Dennemarck Norwegen</rs> May[estä]t. Unß<note n="65"
+                        type="crit_app">NHSAHannover Cal. Br.24 Nr. 1424 [B]: undt von Unß S[einer]
+                        Groß-Britannischen May[estä]t.</note> geleistet
+                    werden.<lb/><lb/>6.<lb/>Dahingegen obligiren Wir Unß<note n="66" type="crit_app"
+                        >NHSAHannover Cal. Br.24 Nr. 1424 [B]: obligiren sich S[eine] König[liche]
+                            <rs ref="#pp0205">May[estä]t in Groß-Britannien</rs>.</note> hiemit und
+                    versprechen, daß Wir<note n="67" type="crit_app">NHSAHannover Cal. Br.24 Nr.
+                        1424 [B]: sie.</note> von dem Tage an da Unß<note n="68" type="crit_app"
+                        >NHSAHannover Cal. Br.24 Nr. 1424 [B]: deroselben.</note> die Tradition des
+                    Brehmischen nach Inhalt obigen Art. 3.tii würcklich geschiehet, in den Krieg
+                        wieder<note n="69" type="crit_app">Drögereit: wider.</note> Schweden durch
+                    würckliche Ruptur tretten<note n="70" type="crit_app">NHSAHannover Cal. Br.24
+                        Nr. 1424 [B], Drögereit: treten.</note>, und solches alß dann verbis et
+                    factis öffentlich declariren und erweisen wollen.<lb/><lb/>7.<lb/>Geloben und
+                    versprechen Wir<note n="71" type="crit_app">NHSAHannover Cal. Br.24 Nr. 1424
+                        [B]: S[eine] Königl[iche] May[estä]t in Groß-Britannien.</note> hiemit, wann
+                    nach Inhalt des obigen Art. 3.tii die Einräumung von Stade und dem
+                        Hertzogthumb<note n="72" type="crit_app">NHSAHannover Cal. Br.24 Nr. 1424
+                        [B]: Hertzogthum.</note> Brehmen<note n="73" type="crit_app">NHSAHannover
+                        Cal. Br.24 Nr. 1424 [B]: Bremen.</note> geschiehet, zu gleicher Zeit an
+                    S[eine]. <rs ref="#pp0179">K[öni]gl[iche]. M[ajestä]t. zu Dennemarck
+                        Norwegen</rs><note n="74" type="crit_app">NHSAHannover Cal. Br.24 Nr. 1424
+                        [B]: Unß.</note> durch gültige in Hamburg acceptirte Wechsel auf<note n="75"
+                        type="crit_app">NHSAHannover Cal. Br.24 Nr. 1424 [B]: auff.</note> einmahl
+                    die Summa von drey mahl hundert thausend Thaler an gedoppelten Marck Stücken
+                    oder zwey Dritteln nach dem Leipziger Müntzfuß de An. 1690 gegen S[eine].
+                    May[estä]t. oder dero<note n="76" type="crit_app">NHSAHannover Cal. Br.24 Nr.
+                        1424 [B]: gegen Unsere oder Unsers.</note> dazu<note n="77" type="crit_app"
+                        >NHSAHannover Cal. Br.24 Nr. 1424 [B]: dazu zu.</note> Bevollmächtigenden
+                    Quitung außzahlen zu lassen, und sollen die von dem Hertzogthumb Brehmen an
+                    S[eine]. <rs ref="#pp0179">Königl[iche]. May[estä]t zu Dennemarck
+                        Norwegen</rs><note n="78" type="crit_app">NHSAHannover Cal. Br.24 Nr. 1424
+                        [B]: an Unß.</note> noch nicht bezahlte Contributions Gelder und biß an den
+                    Tag der Tradition fällige Restanten auf den Fuß, wie selbige würcklich
+                    außgeschrieben seyn, S[eine].<note n="79" type="crit_app">Drögereit: [Einschub:]
+                        Königliche.</note> May[estä]t.<note n="80" type="crit_app">NHSAHannover Cal.
+                        Br.24 Nr. 1424 [B]: Unß.</note> allerdings verbleiben und biß zu dem Tage
+                    der Tradition richtig ausgezahlet werden.<lb/><lb/>8.<lb/>Wann den 1. May Anno
+                    1716 der Krieg mit Schweden annoch wehret und des Königs zu Dennemarck
+                        May[estät].<note n="81" type="crit_app">NHSAHannover Cal. Br.24 Nr. 1424
+                        [B]: undt wir.</note>, alßdann Stralsund und Rügen noch nicht im Besitz
+                    haben, auch Wir<note n="82" type="crit_app">NHSAHannover Cal. Br.24 Nr. 1424
+                        [B]: S[eine] Groß-Britannische May[estä]t.</note> alßdann auß Unseren<note
+                        n="83" type="crit_app">NHSAHannover Cal. Br.24 Nr. 1424 [B]: dero.</note>
+                    teutschen Landen gegen Schweden oder dessen Alliirte nicht absonderliche Krieges
+                    Operationes führen müssen, so wollen Wir<note n="84" type="crit_app"
+                        >NHSAHannover Cal. Br.24 Nr. 1424 [B]: S[eine] König[liche] May[estä]t in
+                        Groß-Britannien.</note> von solchem Termino des 1. May 1716 an zu rechnen
+                    quartaliter auf ein Jahr, dafern der Krieg mit Schweden so lange wehret,
+                        andrenfalls<note n="85" type="crit_app">NHSAHannover Cal. Br.24 Nr. 1424
+                        [B]: andern falß. Drögereit: andernfalls.</note> aber pro rata temporis biß
+                    innerhalb selbigen Jahres der Friede mit Schweden wird geschlossen seyn, an des
+                        <rs ref="#pp0179">Königs zu Dennemarck Norwegen May[estät]</rs>. oder
+                        dero<note n="86" type="crit_app">NHSAHannover Cal. Br.24 Nr. 1424 [B]: an
+                        unß oder unsere.</note> dazu Bevollmächtigende gegen S[eine]. M[ajestä]t.
+                    oder dero<note n="87" type="crit_app">NHSAHannover Cal. Br.24 Nr. 1424 [B]:
+                        gegen Unsere oder Unsers.</note> Bevollmächtigten Quitung an der in
+                    vorhergehendem Art. 7.mo bedeuteten Müntzwehrung und Sorten zu Hamburg zahlen
+                    laßen die Summe von fünffzig thausend Thaler.<lb/><lb/>9.<lb/>Wollen wir
+                        Unß<note n="88" type="crit_app">NHSAHannover Cal. Br.24 Nr. 1424 [B]: Wollen
+                        S[eine] Königl[iche] May[estät] in Groß-Britannien sich.</note> bestens
+                    bemühen, daß bey der jetzigen<note n="89" type="crit_app">NHSAHannover Cal.
+                        Br.24 Nr. 1424 [B]: itzigen.</note> Session des Groß Britannischen
+                    Parlaments dasjenige, was die Crohn Dennemarck an die Crohn Groß Britannien
+                    vermöge des Tractats de Anno 1701<note n="90" type="crit_app">Wahrscheinlich:
+                        Allianzvertrag von Kopenhagen (1701 VI 15) zwischen Friedrich IV., König von
+                        Dänemark, und Wilhelm III., König von Großbritannien sowie den Vereinigten
+                        Niederlanden. Umfang: 16 Artikel, 10 Geheimartikel. </note> von sich an
+                    Subsidien und wegen der im letzten Kriege gegen Franckreich in Groß
+                    Britannischem Sold gestandenen königlich dänischen<note n="91" type="crit_app"
+                        >NHSAHannover Cal. Br.24 Nr. 1424 [B]: dähnischen.</note> Trouppen
+                    restirenden Arrerages noch zu fordern haben, nicht alleine nachgesehen und
+                    liquidiret, sondern auch zu dessen Abtragung in diesem Jahr, und zwar in zween
+                    Terminen Anstalt gemachet werden möge<note n="92" type="crit_app">NHSAHannover
+                        Cal. Br.24 Nr. 1424 [B]: Abtragung sondernsahmst Anstalt gemachet werden
+                        möge.</note>.<lb/><lb/>10.<lb/>Wann des <rs ref="#pp0179">Königes zu
+                        Dennemarck Norwegen May[estät]</rs>.<note n="93" type="crit_app"
+                        >NHSAHannover Cal. Br.24 Nr. 1424 [B]: Wann Wir.</note> währendes
+                        jetzigen<note n="94" type="crit_app">NHSAHannover Cal. Br.24 Nr. 1424 [B]:
+                        itzigen.</note> Nordischen Krieges entweder in dero teutschen Reichs Landen,
+                    oder auch in dero<note n="95" type="crit_app">NHSAHannover Cal. Br.24 Nr. 1424
+                        [B]: entweder in Unsern teutschen Reichslanden oder auch in Unserm
+                        Königreich Dennemarck.</note> Königreich Dennemarck solten attaquiret
+                    werden, es geschehe, vom wem es wolle, so wollen Wir S[einer]. May[estät].<note
+                        n="96" type="crit_app">NHSAHannover Cal. Br.24 Nr. 1424 [B]: [Einschub:] in
+                        Groß-Britannien Unß.</note> dagegen innerhalb 6 Wochen à die requisitionis
+                    mit sechs thausend Mann, worunter 2000<note n="97" type="crit_app">NHSAHannover
+                        Cal. Br.24 Nr. 1424 [B]: zweytausend.</note> zu Pferde an Reutern oder
+                    Dragonern, unfehlbahr assistiren, mit dem Unterscheide, daß wann die Attaquirung
+                    im Oldenburgischen, Holsteinischen<note n="98" type="crit_app">NHSAHannover Cal.
+                        Br.24 Nr. 1424 [B]: Hollsteinischen.</note>, Schleßwigischen oder auch in
+                    Jütland geschiehet, Unsere<note n="99" type="crit_app">NHSAHannover Cal. Br.24
+                        Nr. 1424 [B]: S[eine] May[estä]t des Königs in Groß Britannien.</note>
+                    Auxiliar Trouppen nebst denen Königl[ich]. dänischen<note n="100"
+                        type="crit_app">NHSAHannover Cal. Br.24 Nr. 1424 [B]: Unseren.</note>, womit
+                    sie sich alßdann werden zu conjungiren haben, zwar wann es die Nohtdurft
+                    absolute erfordert, biß in Jütland folgen, sonst aber gedachte Unsere<note
+                        n="101" type="crit_app">NHSAHannover Cal. Br.24 Nr. 1424 [B]:
+                        Groß-Britannische.</note> Trouppen, so viel möglich, bey denen nechsten
+                    Ohrten bey der Elbe gebrauchet werden sollen. Wann aber die dähnische<note
+                        n="102" type="crit_app">NHSAHannover Cal. Br.24 Nr. 1424 [B]: aber
+                        Unsere.</note> Insulen<note n="103" type="crit_app">NHSAHannover Cal. Br.24
+                        Nr. 1424 [B]: Insuln.</note> attaquiret werden, alßdann sollen Unsern<note
+                        n="104" type="crit_app">Drögereit: Unsere. NHSAHannover Cal. Br.24 Nr. 1424
+                        [B]: sollen vorgedachte Groß-Britannische.</note> vermöge dieses
+                        Foederis<note n="105" type="crit_app">Latinisiert: Bündnis (siehe
+                        oben)</note> zu schickende Hülffs Völcker allein zu Deckung der
+                    Hertzogthümer Schleßwig und Holstein, oder auch wann es nöhtig der Graffschaft
+                    Oldenburg gebrauchet werden. Sonsten aber soll einer dem anderen vermöge dieses
+                    Foederis nach Erforderung der Umbstände<note n="106" type="crit_app"
+                        >NHSAHannover Cal. Br.24 Nr. 1424 [B]: Umstände.</note> mit aller Macht und
+                    auß allen Kräfften<note n="107" type="crit_app">NHSAHannover Cal. Br.24 Nr. 1424
+                        [B]: [Einschub:] mutuellement.</note> beystehen und verpflichtet seyn, auch
+                    gesuchet werden, des <rs ref="#pp0204">Königs in Preußen</rs> May[estät]<note
+                        n="108" type="annotation">Friedrich Wilhelm I. (1713-1740), König in
+                        Preußen.</note>. mit in dieses<note n="109" type="crit_app">NHSAHannover
+                        Cal. Br.24 Nr. 1424 [B]: diesem.</note> Engagement zu
+                    ziehen.<lb/><lb/>11.<lb/>Weil des <rs ref="#pp0179">Königs zu Dennemarck
+                        Norwegen</rs> May[estät]<note n="110" type="crit_app">NHSAHannover Cal.
+                        Br.24 Nr. 1424 [B]:Weil Wir.</note>. das fürstliche Haus Holstein Gottorff
+                    der Satisfaction und indemnisations praetension deswegen, daß die schwed[ische].
+                    Armee unter dem Feld Marschall <rs ref="#pp0207">Grafen<note n="111"
+                            type="crit_app">NHSAHannover Cal. Br.24 Nr. 1424 [B]: Graffen.</note>
+                        von Steinbock</rs><note n="112" type="annotation">Magnus Stenbock
+                        (1664-1717), schwedischer Feldmarschall.</note> mit Veranlaß- und
+                    Bewilligung sothanen fürstl[ichen]. Hauses in die Hertzogthümer Schleßwig und
+                    Holstein eingedrungen, auch endlich dem Grafen von Steinbock von selbigem
+                    fürstl[ichen]. Hause gar durch einen förmlichen mit ihm gemachten Tractat die
+                    Festung Tönningen eingeräumet, dadurch aber denen könig[lich]. dänischen
+                        Landen<note n="113" type="crit_app">NHSAHannover Cal. Br.24 Nr. 1424 [B]:
+                        aber Unseren Landen.</note> ein über auß großer Schade zugefüget worden,
+                    nicht erlassen wollen<note n="114" type="crit_app">NHSAHannover Cal. Br.24 Nr.
+                        1424 [B]: wolle.</note>, sondern darauf<note n="115" type="crit_app"
+                        >NHSAHannover Cal. Br.24 Nr. 1424 [B]: darauff.</note> absolute bestehen,
+                    daß S[eine]. May[estät].<note n="116" type="crit_app">NHSAHannover Cal. Br.24
+                        Nr. 1424 [B]: wir.</note> dafür den fürstlichen Antheil des
+                        Hertzogthumbs<note n="117" type="crit_app">NHSAHannover Cal. Br.24 Nr. 1424
+                        [B]: Herzogtums.</note> Schleßwig behalten wollen, so versprechen Wir<note
+                        n="118" type="crit_app">NHSAHannover Cal. Br.24 Nr. 1424 [B]: S[eine]
+                        May[estä]t in Groß-Britannien.</note> hiemit und obligiren Unß, für
+                        Unsere<note n="119" type="crit_app">NHSAHannover Cal. Br.24 Nr. 1424 [B]:
+                        sich für dero.</note> Erben und Nachkommen, daß Wir des Königs zu Dennemarck
+                    Norwegen May[estät]., dero<note n="120" type="crit_app">NHSAHannover Cal. Br.24
+                        Nr. 1424 [B]: dass sie Unß, Unsere.</note> Erben und Nachkkommen bey dem
+                    Besitz, Genuß und Eigenthumb<note n="121" type="crit_app">NHSAHannover Cal.
+                        Br.24 Nr. 1424 [B]: Eigenthum.</note> sothanen fürstlichen Antheils vom
+                    Herzogthumb Schleßwig contra quoscunque kräfftigst mainteniren und garantiren
+                    helffen, und zu dem Ende jedesmahl, wann es die Noht erfordern, und von
+                    Königl[ich]. dänischer Seiten an Unß oder Unsere<note n="122" type="crit_app"
+                        >NHSAHannover Cal. Br.24 Nr. 1424 [B]: von Unser Seiten an S[eine]
+                        Königl[iche] May[estä]t in Groß-Britannien oder dero.</note>
+                    obmitbeschriebene begehret werden wird, innerhalb 6 Wochen à die requisitionis
+                    die in nechst vorhergehendem 10.ten Articul determinirte Hülffleistung
+                    unfehlbahr leisten wollen und sollen, auch übrigens nach Erforderung der
+                    Umbstände mit aller Macht und auß allen Kräfften beystehen.<lb/><lb/>12.<lb/>Waß
+                    aber dem fürstlichen Hause Holstein Gottorff an statt seines bißerigen Antheils
+                    vom Hertzogthumb Schleßwig etwa anderweit zu zuwenden, das soll auf<note n="123"
+                        type="crit_app">NHSAHannover Cal. Br.24 Nr. 1424 [B]: auff.</note> den
+                        jetzigen<note n="124" type="crit_app">NHSAHannover Cal. Br.24 Nr. 1424 [B]:
+                        itzigen.</note> Convent zu Braunschweig verwiesen
+                    werden.<lb/><lb/>13.<lb/>Wollen Wir und des <rs ref="#pp0179">Königs zu
+                        Dennemarck Norwegen</rs> Mayestät<note n="125" type="crit_app">NHSAHannover
+                        Cal. Br.24 Nr. 1424 [B]: undt des Königs in Groß-Britannien
+                        May[estä]t.</note> nebst des Königs in<note n="126" type="crit_app"
+                        >Drögereit: von.</note> Preußen Majestät die Krieges
+                        Operatione&lt;.&gt;<note n="127" type="crit_app">NHSAHannover Cal. Br.24 Nr.
+                        1424 [A]: ein unklares Zeichen. NHSAHannover Cal. Br.24 Nr. 1424 [B]:
+                        operationen. Drögereit: Operationes.</note> , so bald es die Saison zu
+                        lässet<note n="128" type="crit_app">NHSAHannover Cal. Br.24 Nr. 1424 [B]: zu
+                        lässt.</note>, dahin einrichten, die Insul Rügen und den Theil von Vor<note
+                        n="129" type="crit_app">NHSAHannover Cal. Br.24 Nr. 1424 [B]: [Auslassung:]
+                        Vor.</note> Pommern von dem Peene Fluß<note n="130" type="crit_app"
+                        >NHSAHannover Cal. Br.24 Nr. 1424 [B]: Penefluß.</note> bis an
+                        Stralsund<note n="131" type="crit_app">NHSAHannover Cal. Br.24 Nr. 1424 [B]:
+                        Stralsundt.</note>, imgleichen Wismar auß schwedischen Händen zu bringen,
+                    welche Insul und pommerische<note n="132" type="crit_app">NHSAHannover Cal.
+                        Br.24 Nr. 1424 [B]: pommersche.</note> Länder so dann die Crohn Dennemarck
+                    erb- und eigenthümlich behalten solle, und Wir<note n="133" type="crit_app"
+                        >NHSAHannover Cal. Br.24 Nr. 1424 [B]: S[eine] May[estä]t in
+                        Groß-Britannien.</note> sie dabey auf eben die Weise, wie in denen nechst
+                    vorhergehenden beyden Articulen<note n="134" type="crit_app">NHSAHannover Cal.
+                        Br.24 Nr. 1424 [B], Drögereit: articuln.</note> festgestellet worden,
+                    mainteniren und garantiren helffen wollen.<lb/><lb/>14.<lb/>Wismar aber soll zu
+                    einer freyen Reichs Stadt gemachet<note n="135" type="crit_app">NHSAHannover
+                        Cal. Br.24 Nr. 1424 [B]: gemacht.</note>, die allda<note n="136"
+                        type="crit_app">NHSAHannover Cal. Br.24 Nr. 1424 [B]: alda.</note>
+                    befindliche Fortification gäntzlich geschleiffet, und selbiger Reichs Statt<note
+                        n="137" type="crit_app">Drögereit: Reichsstadt.</note> so dann<note n="138"
+                        type="crit_app">NHSAHannover Cal. Br.24 Nr. 1424 [B]: dan.</note> das Ambt
+                    oder die Insul Poel, so viel derselben davon zu gehöret, jedoch salvis juribus
+                    der Stadt Lübeck, verbleiben. Das Ambt Neukloster aber dem fürstlichen Hause
+                    Mecklenburg, fals selbiges bey diesem Nordischen Kriege neutral verbleiben wird,
+                    zu dessen Satisfaction und der Mecklenburg[ischen]. Stände Gutthuung vor bereits
+                    gelieferte Fourage an die Königliche dänische Armee wiedergegeben, und der
+                    Warnemünder Zoll gäntzlich und in perpetuum aboliret
+                    werden.<lb/><lb/>15.<lb/>Wie es wegen des übrigen Districts von Vor Pommern von
+                    Stetin biß an den Peenefluß<note n="139" type="crit_app">NHSAHannover Cal. Br.24
+                        Nr. 1424 [B]: Penefluß.</note> inclusive die Städte Demmin und Anclam, im
+                    gleichen die Insuln Wollin und Usedom gehalten werden solle, deßwegen wird mann
+                    sich mit des Königs von Preußen Majestät vergleichen.<lb/><lb/>16.<lb/>Wann
+                    jemand auß dem fürstlichen Haue Holstein Gottorff der Crohn Schweden, es sey
+                    über kurtz oder lang, kommen solte, so soll dessen Antheil an denen
+                    holsteinischen Landen auff den nechsten Agnaten fallen und nie verstattet
+                    werden, daß ein König von Schweden etwas in Holstein besitze, welches zu
+                    verhindern - casu eveniente - wann es nöthig, Wir mit der Crohn Dennemarck<note
+                        n="140" type="crit_app">NHSAHannover Cal. Br.24 Nr. 1424 [B]: S[einer]
+                        Königl[ichen] May[estä]t in Groß Britannien.</note> alle Unsere Kräfften
+                    zusammen setzen wollen, und wie mann mit des Königes<note n="141"
+                        type="crit_app">NHSAHannover Cal. Br.24 Nr. 1424 [B]: Königs.</note> in
+                    Preußen May[estä]t ein gleiches pactiren wird, alßo will mann sich auch bey dem
+                        jetzigen<note n="142" type="crit_app">NHSAHannover Cal. Br.24 Nr. 1424 [B]:
+                        itzigen.</note> Congress zu Braunschweig gemeinsahmlich bemühen, mit
+                        andern<note n="143" type="crit_app">NHSAHannover Cal. Br.24 Nr. 1424 [B]:
+                        anderen.</note> Puissancen des halber sich bündig zu vereinigen, und die
+                    Nohtdurfft zu concertiren<note n="144" type="crit_app">NHSAHannover Cal. Br.24
+                        Nr. 1424 [A]: Mit... concertiren. [doppelt geschriebene Passage, einmal
+                        durchgestrichen].</note>.<lb/><lb/>17.<lb/>Wollen Wir<note n="145"
+                        type="crit_app">NHSAHannover Cal. Br.24 Nr. 1424 [B]: Wollen S[eine]
+                        Königl[iche] May[estä]t in Groß-Britannien.</note> nach aller Möglichkeit
+                    verhindern, daß auß dem Hessischen oder sonst auß Ober Teutschland der Crohn
+                    Schweden von niemanden, wer der auch seye, einiger Succurs zukommen möge, und
+                    weil Unsere<note n="146" type="crit_app">NHSAHannover Cal. Br.24 Nr. 1424 [B]:
+                        weilen dero.</note> sämbtliche Trouppen dazu stets bey der Hand seyn müssen,
+                    und genugsahm damit occupiret seyn werden, so wollen auß Consideration dessen,
+                    und daß dadurch des <rs ref="#pp0179">Königs zu Dennemarck Norwegen
+                        Majestät</rs><note n="147" type="crit_app">NHSAHannover Cal. Br.24 Nr. 1424
+                        [B]: dadurch unß.</note>, die sonst in einer beschwehrlichen<note n="148"
+                        type="crit_app">NHSAHannover Cal. Br.24 Nr. 1424 [B]: beschwerlichen.</note>
+                    Situation zwischen der schwedischen starken Armatur in Pommern und zwischen
+                    denen von oben Schweden zum Succurs kommenden Trouppen sich<note n="149"
+                        type="crit_app">NHSAHannover Cal. Br.24 Nr. 1424 [B]: Unß.</note> befinden
+                    würden, der Rücken frey gehalten werden wird, Seine May[estät]<note n="150"
+                        type="crit_app">NHSAHannover Cal. Br.24 Nr. 1424 [B]: Seiner
+                        Groß-Britannischen May[estä]t.</note>. Unß<note n="151" type="crit_app"
+                        >NHSAHannover Cal. Br.24 Nr. 1424 [B]: [Auslassung:] Unß.</note> keine Volck
+                    Hülffe zu denen Kriegs-Operationen in Pommern<note n="152" type="crit_app"
+                        >NHSAHannover Cal. Br.24 Nr. 1424 [B]: [Einschub:] vors erste.</note>
+                    anmuthen, sondern vielmehr im Fall der Noht nebst des Königs in Preußen Majestät
+                    zu Abhaltung gedachter, von oben zu erwarthender<note n="153" type="crit_app"
+                        >NHSAHannover Cal. Br.24 Nr. 1424 [B]: erwartender.</note> Trouppen Unß<note
+                        n="154" type="crit_app">NHSAHannover Cal. Br.24 Nr. 1424 [B]:
+                        deroselben.</note> zu Hülffe kommen.<lb/>Solte jedoch wieder alle dermahlige
+                        Apparenz<note n="155" type="crit_app">NHSAHannover Cal. Br.24 Nr. 1424 [B]:
+                        apparentz.</note> es dahin gedeyen, daß die vom Rhein<note n="156"
+                        type="crit_app">NHSAHannover Cal. Br.24 Nr. 1424 [B]: Rein.</note> und
+                    Hessen her jetzo<note n="157" type="crit_app">NHSAHannover Cal. Br.24 Nr. 1424
+                        [B]: itz.</note> bevorstehende Gefahr gäntzlich und dergestalt
+                        cessirete<note n="158" type="crit_app">NHSAHannover Cal. Br.24 Nr. 1424 [B]:
+                        cessirte.</note>, daß man dafür allerdings sicher seyn könte, so werden wir
+                        Unß<note n="159" type="crit_app">NHSAHannover Cal. Br.24 Nr. 1424 [B]:
+                        werden S[eine] König[liche] May[estä]t in Groß-Britannien sich.</note> nicht
+                    entlegen, auch zu denen Kriegs Operationen gegen Schweden jenseits der Elbe,
+                    nachdem alßdann die Umbstände<note n="160" type="crit_app">NHSAHannover Cal.
+                        Br.24 Nr. 1424 [B]:Umstände.</note> es mit sich bringen und erfordern
+                    werden, zu concurriren.<lb/><lb/>18.<lb/>Weil dieses Foedus auf<note n="161"
+                        type="crit_app">NHSAHannover Cal. Br.24 Nr. 1424 [B]: auff.</note> mehr
+                    Bundesgenossen zu extendiren seyn wird, und es sich alß dann zutragen könte, daß
+                    deren mehr als einer die Bundes Hülffe auf<note n="162" type="crit_app"
+                        >NHSAHannover Cal. Br.24 Nr. 1424 [B]: auff.</note> einmahl requirirete, dem
+                    requirireten Bundesgenossen aber alß dann<note n="163" type="crit_app"
+                        >NHSAHannover Cal. Br.24 Nr. 1424 [B]: als dan.</note> zu schwehr<note
+                        n="164" type="crit_app">NHSAHannover Cal. Br.24 Nr. 1424 [B]: schwer.</note>
+                    fallen würde, ex eodem foedere et ex eadem causa die Bundes Hülffe mehr alß
+                    einem zu praestiren, so ist beliebet und verabredet, daß besagten Fals die
+                    Bundes Hülffe demjenigen attaquireten<note n="165" type="crit_app">NHSAHannover
+                        Cal. Br.24 Nr. 1424 [B]: attaquirten.</note> Bundesgenossenen allein
+                    zugeschicket werden solle, der sie am ersten requiriret. Solte sich aber
+                    zutragen, daß die Requisition umb die Bundes Hülffe von mehr alß einem
+                    Bundesgenossenen zugleich und zu einer Zeit geschähe, so werden solche zween
+                    oder mehr dergestalt zugleich Requirirende unter sich außzumachen haben, wem
+                    unter ihnen mit gemeinsahmem Belieben die gantze, oder ob und was für ein Theil
+                    der Bundes Hülffe einem jeden solcher Requirenten
+                    zuzuschicken.<lb/><lb/>19.<lb/>Wegen der allerseitigen Krieges Operationen soll
+                        fordersambst<note n="166" type="crit_app">NHSAHannover Cal. Br.24 Nr. 1424
+                        [B]: fordersamst.</note> ein gemeinsahmes Concert gemachet werden, und wann
+                    es dann vermöge deßselben zu einer würcklichen Conjunction von Trouppen
+                        kommet<note n="167" type="crit_app">NHSAHannover Cal. Br.24 Nr. 1424 [B]:
+                        komt.</note>, so soll ein wegen des Commando und der Justitz über die Hülffs
+                    Trouppen, wegen deren Verpflegung, wegen Fournirung der nöhtigen Artillerie und
+                    Munition, wegen Zuziehung des Generals oder Officiers, der die Hülffs Trouppen
+                    en Chef commandiret, zu denen wegen der vorzunehmenden Operationen zu haltenden
+                        Kriegs<note n="168" type="crit_app">NHSAHannover Cal. Br.24 Nr. 1424 [B]:
+                        [Auslassung:] Kriegs.</note> Consiliis, und wegen aller übriger
+                    Particularien, so bey einer Conjunction von Trouppen vorfallen können, es so
+                    gehalten werden, wie es in dergleichen Fällen gewöhnlich, und<note n="169"
+                        type="crit_app">NHSAHannover Cal. Br.24 Nr. 1424 [B]: [Auslassung:] wie ...
+                        und.</note> wie es in der zwischen Unß und des Königs in Dennemarck
+                        Norwegen<note n="170" type="crit_app">NHSAHannover Cal. Br.24 Nr. 1424 [B]:
+                        in Groß-Britannien.</note> May[estä]t annoch subsistirenden
+                        Defensiv-Allianz<note n="171" type="crit_app">NHSAHannover Cal. Br.24 Nr.
+                        1424 [B]: alliantz.</note> de Anno 1710<note n="172" type="crit_app"
+                        >Textvariante: NHSAHannover Cal. Br.24 Nr. 1424 [B]: [Einschub:] undt wie es
+                        in der gleichen fällen gewöhnlich ist. Sachanmerkung: Freundschafts- und
+                        Defensivallianz, Schloß Jägersburg, 1710 V 25, zwischen Dänemark und
+                        Hannover (UI in Hauptstaatsarchiv Hannover Cal. Br. 24 Nr. 1396). Weitere
+                        Defensivallianz zwischen Friedrich IV., Kg. v. Dänemark und Georg Ludwig,
+                        Kf. v. Hannover: Hannover, 1710 VII 14." </note> regliret
+                    ist.<lb/><lb/>20.<lb/>Solte schwedischer Seithen oder von einem Tertio in Favor
+                    von Schweden ein Einfall in die Chur Sächsische Lande intendiret werden, oder
+                    geschehen, wollen Wir mit des Königes von Dennemarck<note n="173"
+                        type="crit_app">NHSAHannover Cal. Br.24 Nr. 1424 [B]: in
+                        Groß-Britannien.</note> Majestät zu dessen Verhinder- und Redressirung
+                    gemeinsahme, schleunige mesures nehmen, und mit zusammengesetzten Kräfften das
+                    nöhtige, dagegen durch würckliche Hülffleistung beyderseits vorkehren, jedoch
+                    daß ab Seiten des Königes<note n="174" type="crit_app">NHSAHannover Cal. Br.24
+                        Nr. 1424 [B]: Königs.</note> in <rs ref="#pp0181">Pohlen
+                        May[estä]t</rs><note n="175" type="annotation">August II. (1697-1733), König
+                        von Polen (1697-1733), Kurfürst von Sachsen.</note> ratione der königlichen
+                    dähnischen und churhannöverschen Landen ein solches reciproquement stipuliret
+                    und vestgestellet<note n="176" type="crit_app">NHSAHannover Cal. Br.24 Nr. 1424
+                        [B]: festgestellet.</note> werde.<lb/><lb/>21.<lb/> Weil<note n="177"
+                        type="crit_app">NHSAHannover Cal. Br.24 Nr. 1424 [B]: Weilen.</note> man
+                        sowohl<note n="178" type="crit_app">NHSAHannover Cal. Br.24 Nr. 1424 [B]:
+                        NHSAHannover Cal. Br.24 Nr. 1424 [B]: wohl.</note> die Kayserliche
+                        Assistenz<note n="179" type="crit_app">NHSAHannover Cal. Br.24 Nr. 1424 [B]:
+                        assistence.</note> wird nöhtig haben auf<note n="180" type="crit_app"
+                        >NHSAHannover Cal. Br.24 Nr. 1424 [B]: auff.</note> den Fall, da entweder
+                    ein Tertius im Reich oder auch Franckreich zu Favor von Schweden in die dieses
+                    Foedus betreffende Sachen sich solte durch einige Hülffleistung mischen wollen,
+                    alß man der Kayserl[ichen]. Approbation zu der wegen der schwedischen Provincien
+                    in Teutschland intendirenden Veränderung bedürffen wird, so will man<note
+                        n="181" type="crit_app">NHSAHannover Cal. Br.24 Nr. 1424 [B]: mann.</note>
+                    von Unserer und Königlich dähnischer<note n="182" type="crit_app">NHSAHannover
+                        Cal. Br.24 Nr. 1424 [B]: Groß-Britannischer.</note> Seiten so forth nach der
+                    Signatur dieses foederis conjunctim nebst des Königs in Preußen May[estä]t mit
+                    des Kaysers May[estä]t darüber communiciren, und gedachter<note n="183"
+                        type="crit_app">NHSAHannover Cal. Br.24 Nr. 1424 [B]: gedachte.</note>
+                    Kayserlicher Approbation auch eventualen Assistenz<note n="184" type="crit_app"
+                        >NHSAHannover Cal. Br.24 Nr. 1424 [B]: Assistentz.</note> sich zu versichern
+                    suchen.<lb/><lb/>22.<lb/>Mann will weniger nicht allerseits soforth<note n="185"
+                        type="crit_app">NHSAHannover Cal. Br.24 Nr. 1424 [B]: so fort.</note> nach
+                    Signirung dieses Foederis des <rs ref="#pp0194">Tzaars</rs><note n="186"
+                        type="crit_app">NHSAHannover Cal. Br.24 Nr. 1424 [B]: Czaars.</note>
+                        May[estä]t<note n="187" type="annotation">Peter I. (1682/96-1725),
+                        Zar.</note> von dessen Inhalt Nachricht geben lassen, und dero
+                    Mitgenehmhaltung darüber, auch eventualen Mithülffleistung sich zu versichern
+                    bemühet seyn.<lb/><lb/>23.<lb/>Kein Theil soll ohne des andern wissen und
+                    mitbelieben in einige separate Handlung von<note n="188" type="crit_app"
+                        >NHSAHannover Cal. Br.24 Nr. 1424 [B]: vom.</note> Frieden oder Stillstand
+                    der Waffen mit Schweden sich einlassen, viel weniger dieselbe schließen; und
+                    verspricht man<note n="189" type="crit_app">NHSAHannover Cal. Br.24 Nr. 1424
+                        [B]: mann.</note> reciproce sich hiemit bündig und unwiederrufflich, daß
+                        man<note n="190" type="crit_app">NHSAHannover Cal. Br.24 Nr. 1424 [B]:
+                        mann.</note> keinen Frieden mit Schweden machen wolle, biß man<note n="191"
+                        type="crit_app">NHSAHannover Cal. Br.24 Nr. 1424 [B]: mann.</note> sich
+                    beyderseits in ruhiger und sicherer Possession der einem jeden Theil vermöge
+                    dieses foederis destinireten<note n="192" type="crit_app">NHSAHannover Cal.
+                        Br.24 Nr. 1424 [B]:destinirten.</note> schwedischen und respective
+                    schleßwigischen Landen befinden wird, inmaßen<note n="193" type="crit_app"
+                        >NHSAHannover Cal. Br.24 Nr. 1424 [B]: immaßen.</note> die einander vermöge
+                    obiger 4.,5.,10., 11. und 13. Articulen<note n="194" type="crit_app"
+                        >NHSAHannover Cal. Br.24 Nr. 1424 [A]: Vermöge... Articulen: einschub
+                        zwischen den Zeilen.</note> zu leistende Garantien auch nach dem<note
+                        n="195" type="crit_app">NHSAHannover Cal. Br.24 Nr. 1424 [B]: den.</note>
+                    Frieden mit Schweden in perpetuum continuiren und gültig bleiben
+                    sollen.<lb/>Alles bey Königlichen Wort und Glauben, ohne Gefährde<note n="196"
+                        type="crit_app">NHSAHannover Cal. Br.24 Nr. 1424 [B]: Gefehrde.</note>.
+                    <lb/>Krafft habender Vollmacht habe ich dieses zum Beweiß, daß es <rs
+                        ref="#pp0205">S[eine]r Königl[ichen]. <lb/>May[estä]t von Groß
+                        Britannien</rs><note n="197" type="crit_app">NHSAHannover Cal. Br.24 Nr.
+                        1424 [B]: in Dennemarck Norwegen.</note> Intention völlig gemäß seye<note
+                        n="198" type="crit_app">NHSAHannover Cal. Br.24 Nr. 1424 [B]: sey.</note>,
+                    unterschrieben, und verspreche<note n="199" type="crit_app">NHSAHannover Cal.
+                        Br.24 Nr. 1424 [B]: versprochen.</note>, ein gleichlautendes, von S[eine]r
+                    K[öni]gl[ichen]. May[estä]t vollzogenes Original davon innerhalb fünff Wochen
+                    beyzubringen und allhie außzuwechseln. Datum Berlin, den 2. Mai
+                    1715.<lb/><lb/>(LS) <rs ref="#pp0208">Johann Wilhelm Heusch</rs><note n="200"
+                        type="crit_app">Textvariante: NHSAHannover Cal. Br.24 Nr. 1424 [B]: (LS) von
+                        Dewitz. Friedrich Wilhem von Dewitz (1688-1736), Generalleutnant.
+                        Sachanmerkung: Johann Wilhelm Heusch (geb. um 1652), Kriegsrat [keine
+                        weiteren Angaben ermittelt]. </note></p>
+                <p><lb/>Obstehender Recess ist dergestalt Königl[ich]. Groß Britannischer<note
+                        n="201" type="crit_app">NHSAHannover Cal. Br.24 Nr. 1424 [B]:
+                        dähnischer.</note> und K[öni]gl[ich]. Dänischer<note n="202" type="crit_app"
+                        >NHSAHannover Cal. Br.24 Nr. 1424 [B]: Groß-Britannischer.</note> Seite
+                    heuth dato adjustieret worden, jedoch unter der Condition und Bedingung, daß
+                    weder die Originalia davon ausgestellet, noch auch solcher Recess so wenig eines
+                    als andern Theils von einiger Verbindlichkeit seyn solle, ehe und bevor die von
+                    beyder Könige von <rs ref="#pp0205">Groß Britannien</rs><note n="203"
+                        type="crit_app">NHSAHannover Cal. Br.24 Nr. 1424 [B]: Dennemarck
+                        Norwegen.</note> und <rs ref="#pp0179">Dennemarck Norwegen</rs><note n="204"
+                        type="crit_app">NHSAHannover Cal. Br.24 Nr. 1424 [B]:
+                        Groß-Britannien.</note> May[estä]ten mit der Crohn Preußen obhandner<note
+                        n="205" type="crit_app">Drögereit: obhandene.</note> Tractaten
+                        ebenmäßig<note n="206" type="crit_app">NHSAHannover Cal. Br.24 Nr. 1424 [B]:
+                        ebenfalß.</note> ihre Richtigkeit erlanget. Berlin, den 2. Mai
+                        1715.<lb/><lb/><rs ref="#pp0208">Johann Wilhelm Heusch</rs><note n="207"
+                        type="crit_app">NHSAHannover Cal. Br.24 Nr. 1424 [B]: von Dewitz.</note>
+                </p>
+            </div>
+
+        </body>
+        <back>
+            <listBibl>
+                <bibl>Krüger, Der Erwerb Bremen-Verdens durch Hannover. Chance, Georg I. and the
+                    Northern War. </bibl>
+            </listBibl>
+        </back>
+
+    </text>
+</tei:TEI>

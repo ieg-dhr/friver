@@ -1,0 +1,275 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE tei SYSTEM "../resources/FriVer_DTD.dtd">
+
+<?xml-model href="../resources/FriVer.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns="http://www.tei-c.org/ns/1.0"
+    xml:id="pa000299-1478">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title level="s">European peace treaties of the pre-modern era in data / Europäische
+                    Friedensverträge der Vormoderne in Daten (FriVer+)</title>
+                <title when="1712-11-18" xml:id="t1478" when-custom="1712 XI 18" level="a"
+                    ref="https://www.ieg-friedensvertraege.de/treaty/t-1478-1-de.html">Vergleich von
+                    Altona</title>
+            </titleStmt>
+            <editionStmt>
+                <edition> Digital edition according to <ref target="http://www.tei-c.org/">TEI
+                        P5</ref>
+                </edition>
+                <funder>
+                    <ref target="https://www.text-plus.org/">TEXT+</ref>
+                </funder>
+                <editor role="http://id.loc.gov/vocabulary/relators/edt"
+                    ref="https://orcid.org/0000-0002-8741-5916">
+                    <persName>Jaap Geraerts</persName>
+                    <note>The transformation and enrichment of the data is done by Jaap Geraerts
+                        (IEG Mainz). The other members of the FriVer+ team are Fabian Cremer, Ines
+                        Grund, and Thorsten Wübbena (all IEG Mainz).</note>
+                    <note> The original data has been created by the <ref
+                            target="https://www.ieg-friedensvertraege.de">team of scholars</ref> who
+                        were part of the Europäische Friedensverträge der Vormoderne project. This
+                        project was lead by Prof. Dr. Heinz Duchhardt and was based at the Leibniz
+                        Institute of European History in Mainz. </note>
+                </editor>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>
+                    <orgName ref="http://www.isni.org/0000000119314040">Leibniz-Institut für
+                        Europäische Geschichte Mainz</orgName>
+                </publisher>
+                <distributor>
+                    <orgName ref="http://www.isni.org/0000000110101946">Universitäts- und
+                        Landesbibliothek Darmstadt</orgName>
+                </distributor>
+                <idno type="ISIL">http://lobid.org/organisation/DE-17</idno>
+                <date type="issued" when="2023-12-23"/>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">
+                        <p xml:lang="en">This file is licensed under the terms of the Creative
+                            Commons License CC-BY 4.0 (Attribution 4.0 International)</p>
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <repository xml:id="r13">Kopenhagen RA</repository>
+                <msDesc>
+                    <p>Dänisches Reichsarchiv, Kopenhagen: Kongehusets og Rigets arkiv: Forholdet
+                        til udlandet (Traktater), E 2 Tyskland: Hamburg nr. 2</p>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p> The data in this XML file, originally created by the project <ref
+                        target="https://www.ieg-friedensvertraege.de/vertraege">Europäische
+                        Friedensverträge der Vormoderne online</ref> has been transformed in
+                    accordance with <ref target="http://www.tei-c.org/">TEI P5</ref> as part of the
+                    project <ref
+                        target="https://www.ieg-mainz.de/en/research/research-projects/european-peace-treaties-of-the-pre-modern-era-in-data"
+                        >Europäische Friedensverträge der Vormoderne in Daten (FriVer+)</ref>
+                </p>
+            </projectDesc>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="de" xml:id="lan2">deutsch</language>
+            </langUsage>
+        </profileDesc>
+    </teiHeader>
+    <standOff>
+        <listPerson>
+            <person role="signatory" xml:id="p32">
+                <persName ref="https://explore.gnd.network/gnd/4010877-6">
+                    <name>Dänemark</name>
+                </persName>
+            </person>
+            <person role="signatory" xml:id="p57">
+                <persName ref="https://explore.gnd.network/gnd/4023118-5">
+                    <name>Hamburg</name>
+                </persName>
+            </person>
+        </listPerson>
+        <listPlace>
+            <place xml:id="loc193">
+                <placeName ref="https://explore.gnd.network/gnd/4085080-8">Altona</placeName>
+            </place>
+        </listPlace>
+        <facsimile>
+            <surface xml:id="FacsPnr1">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_4624d4cf3ee0d"/>
+            </surface>
+            <surface xml:id="FacsPnr2">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_4624d4db276d2"/>
+            </surface>
+            <surface xml:id="FacsPnr3">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_4624d4e6312db"/>
+            </surface>
+            <surface xml:id="FacsPnr4">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_4624d4f0a4667"/>
+            </surface>
+        </facsimile>
+    </standOff>
+    <text>
+        <front>
+            <div type="Drucke">
+                <p>DUM VIII/1 S. 314 <ref
+                        target="http://gallica.bnf.fr/ark:/12148/bpt6k122969g.image.f329.langEN.pagination"
+                        >Link zum Druck auf gallica.bnf.fr</ref></p>
+            </div>
+            <div type="Inhalt">
+                <p>Nach der Arrestierung von hamburgischen Schiffen in Norwegen haben Dänemark und
+                    Hamburg Verhandlungen zur Beilegung ihrer Streitigkeiten aufgenommen. Da Hamburg
+                    zunächst nicht bereit war, auf die dänische Geldforderung einzugehen, haben
+                    dänische Truppen auf hamburgischen Ländereien Quartier genommen. Erst dann haben
+                    sich beide Seiten auf folgende Punkte geeinigt: <lb/>
+                    <lb/>Art. I. Hamburg verspricht, als Genugtuung insgesamt 260.000 Rthlr.,
+                    verzinsbar zu 4%, an Dänemark zu zahlen, gegen Quittung des dänischen
+                    General-Kriegskommissars. <lb/>
+                    <lb/>Art. II. Zusätzlich zahlt Hamburg für die Fristversäumnis vom 28. Oktober
+                    bis zum 5. November 1712 insgesamt 16.000 Rthlr., ebenfalls verzinsbar zu 4%. <lb/>
+                    <lb/>Art. III. Der Hamburger Rat verspricht, seine unparteiische Gerichtsbarkeit
+                    auch gegenüber dänischen Untertanen auszuüben. <lb/>
+                    <lb/>Art. IV. Hamburg schickt bis zum Jahresende 1712 zwei Gesandte nach
+                    Kopenhagen. <lb/>
+                    <lb/>Art. V Dänemark verspricht, nach Auszahlung und Quittierung der
+                    vereinbarten Summe die dänischen Truppen aus den hamburgischen Ländereien
+                    abziehen zu lassen. <lb/>
+                    <lb/>Art. VI. Dänemark gibt die in Norwegen arrestierten Schiffe ohne weitere
+                    Geldforderungen frei. <lb/>
+                    <lb/>Art. VII. Dänemark widerruft alle weiteren Befehle zur Aufbringung
+                    hamburgischer Schiffe. <lb/></p>
+            </div>
+        </front>
+        <body>
+            <div type="Transliteration">
+                <pb facs="#FacsPnr1"/><p> Zu wissen, daß, nachdem zwischen dem AllerDurch- 
+                    <lb />lauchtigsten Großmächtigsten Könige und 
+                    <lb />Herrn, Herrn Friderich dem Vierten, Könige 
+                    <lb />zu dennemarck-Norwegen der Wenden und Gohten, Hertzogen 
+                    <lb />zu Schleßwig-Hollstein Stormarn und der dithmarschen, Grafen 
+                    <lb />zu Oldenburg und delmenhorst [etc.] und der Stadt Hamburg ver- 
+                    <lb />schiedene Irrungen entstanden, wodurch Ihro Königl[iche] 
+                    <lb />Majest[ä]t zu der Ungnade bewogen worden, daß Sie einige 
+                    <lb />Hamburgische Schiffe und Gühter in Norwegen arrestiren, 
+                    <lb />und weitere ordres ergehen laßen, alle der Stadt Hamburg 
+                    <lb />Schiffe und effecten, wo sie in der See angetroffen würden, noch 
+                    <lb />künfftig auffzubringen, die Stadt üm dem besorgten fernern 
+                    <lb />Abbruch ihres Commercii, und anderen befürchteten fatalen 
+                    <lb />suiten zeitig vorzukehren, hertzlich gewünschet, Ihro Königl[icher] 
+                    <lb />Majest[ä]t Gnade wieder zu erlangen, und in der Gühte aus 
+                    <lb />der Sachen zu kommen, Aller-höchstgedachte Königl[iche] Majest[ä]t 
+                    <lb />auch dazu nicht ungeneigt gewesen, sondern dero Geheim- 
+                    <lb />ten Raht und Land-drost der herrschaft Pinneberg, h[errn] 
+                    <lb />Claus Hartwig von Perckentin, auf hohen Pritze 
+                    <lb />und boltze, Rittern, so dann dero Etats-Justitz Cantzel- 
+                    <lb />leÿ und regierungs-Raht in den hertzogthümern Bremen 
+                    <lb />und Vehrden, auch Residenten im Niedersächsischen Craÿ- 
+                    <lb />se, h[errn] Hans Statio Hagedorn, und dann dem Ge- 
+                    <lb />neral Krieges-Commissario und Cammer-Junckern, 
+                    <lb />h[errn] Hans Caspar von Platen vollenkommene Macht 
+                    <lb />und Gewalt beÿgeleget, Sich mit den E[inem] E[hrbarn] Rahte der 
+                    <lb />Stadt ernannten dreÿ Deputirten Nahmentlich h[errn] 
+                    <lb />Garlieb Sillem L[icentia]to Syndico, h[errn] Matthæo Schlü- 
+                    <lb />tern D[octo]re und h[errn] Hans Jacob Faber Rahtmannen 
+                    <lb />zusammen zu thun, und einen Vergleich zu treffen, weil 
+                    <lb />man aber dazu, nach verschiedenen conferentien, nicht 
+                    <lb />gelangen können, in dahin die Stadt zu dem geforderten 
+                </p>
+                <pb facs="#FacsPnr2"/><p>satisfactions-quanto, der verschiedenen, auff einige
+                <lb />tage verstatteten dilationen ungeachtet, sich nicht ver-
+                <lb />langter maßen erklähret, darauff einige königl[iche] Re-
+                <lb />gimenter in der Stadt eigene und gemeinschafftliche län-
+                <lb />dereÿen gerücket, und daselbst quartier genommen,
+                <lb />so haben endlich bemeldte herren Commissarii, nach re-
+                <lb />assumirten Tractaten und gepflogenen unterschiedlichen
+                <lb />conferentien, mit den h[erren] Deputirten der Stadt
+                <lb />Sich über folgende puncta vereinbahret.
+                <lb />
+                <lb />I.
+                <lb />Verspricht die Stadt Hamburg Ihro Königl[icher] Majest[ä]t, wegen der
+                <lb />gefoderten satisfaction vor das vorgangene zweÿ
+                <lb />mahl hundert und dreitzig Tausend R[eichs]th[a]l[er]
+                <lb />an guten dänischen Cronen, oder an Courant-Geld, mit
+                <lb />4 pro Cent verabredeter Lagie zuzukehren, und an
+                <lb />den h[errn] General Kriegs-Commissair von Platen
+                <lb />zu bezahlen, auch deßen Quitung darüber zu Sich zu
+                <lb />nehmen.
+                <lb />
+                <lb />II.
+                <lb />Erklähret Sich die Stadt für jeden Tag, nach der erlo-
+                <lb />schenen letzteren dilation vom 28 Octobr[is] angerech-
+                <lb />net biß zum 5ten Novembr[is] da man wegen des
+                <lb />Satisfactions-quanti einig geworden, begehrter.
+                <lb />maßen, 2000 r[eichs]th[a]l[er], folglich für die 8 Tage Sechs-
+                <lb />zehen Tausend R[eichs]th[a]l[er] an guten dänischen Cronen
+                <lb />oder Courant, mit der Lagie von 4 pro Cento eben-
+                <lb />fals abzutragen, und dem h[errn] General Kriegs-
+                <lb />Commissarium auch dieser zahlung wegen zu ver-
+                <lb />gnügen.
+                <lb />
+                <lb />III.
+                <lb />Und da E[in] E[hrbahrer] Raht allen und jeden prompte und 
+                <pb facs="#FacsPnr3"/>unpartheÿische justice zu administriren schuldig, al-
+                <lb />so verspricht Er Selbige auch den Königl[ichen] Untertha-
+                <lb />nen insonderheit wiederfahren zu laßen.
+                <lb />
+                <lb />IV.
+                <lb />Umb ferner Sich umb die Königl[iche] unschätzbahrste Pro-
+                <lb />pension und hülde destomehr zu bewerben, und desto
+                <lb />völliger zu erlangen, anbeÿ alle künfftige Ungnade
+                <lb />von der Stadt abzukehren, hingegen die Königl[iche] Gna-
+                <lb />de für hiesiges Commercium zu erbitten verpflich-
+                <lb />tet Sich die Stadt, noch vor ablauff dieses Jahres
+                <lb />zwenne Deputirte nach Copenhagen abzufertigen.
+                <lb />
+                <lb />V.
+                <lb />dahingegen Ihro Königl[iche] Majest[ä]t Sich allergnä-
+                <lb />digst erklähren, nebst wiederherstellung dero Gna-
+                <lb />de, dero im hamburgischen Gebieth liegende Trou-
+                <lb />pen, so bald die Stadt des h[errn] General Krieges-Com-
+                <lb />missarii von Platen quitungen, über die Ihm
+                <lb />gethane Vergnügung, wegen der gesambten Sum-
+                <lb />me der zweÿmahl hundert Sechs und Viertzig
+                <lb />Tausend R[eichs]th[a]l[e]r an Cronen oder Courant mit 4
+                <lb />pro Cent Lagio, produciren wird, abführen, und
+                <lb />das hamburgische und Gemeinschafftliche territo-
+                <lb />rium von allen Völckern befreÿen, auch künfftighin
+                <lb />nicht wieder bequartieren zu laßen.
+                <lb />
+                <lb />VI.
+                <lb />Imgleichen wollen Ihro Königl[iche] Majest[ä]t die in Nor-
+                <lb />wegen angehaltene und aufgebrachte Schiffe mit ih-
+                <lb />rer ladung und Equipage, unverzüglich, ohne einiges
+                <lb />Entgeld, es habe Nahmen, wie es wolle relaxiren,
+                <lb />zu solchem Ende dero ordres abgeben, und den
+                <lb />Befehl ertheilen, daß denenselben, ohne einigen Ver-
+                <lb />zug, gelebet werde. 
+                <pb facs="#FacsPnr4"/>VII.
+                <lb />die abgelaßene befehle zur Aufbringung mehrer
+                <lb />hamburgischen Schiffe wieder aufheben und fals
+                <lb />etwan die ordre bereits exequiret worden, al-
+                <lb />les aufgebrachte forth wieder loßgeben, und der Stadt
+                <lb />Commercio alle Königl[iche] Gnade und beförderung
+                <lb />wiederfahren laßen.
+                <lb />Zu festerhaltung dieses Vergleichs haben die königl[ichen] Com-
+                <lb />missarii und der Stadt deputirte solchen unter-
+                <lb />schrieben, und mit Ihren Signeten bedrucket, auch
+                <lb />ist hinc inde stipuliret worden, daß innerhalb
+                <lb />8 tagen die ratificationes darüber ausgewech-
+                <lb />selt werden sollen. Geschehen Altonah den 18 Nov. 1712.
+                <lb />
+                <lb />C H V Perckentin&nbsp;&nbsp;&nbsp;&nbsp; H s hagedorn&nbsp;&nbsp;&nbsp;&nbsp; H C: Platen
+                <lb />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [3 Lacksiegel über Heftschnur]
+                <lb />
+                <lb />G Sillem L[icentia]tus&nbsp;&nbsp;&nbsp;&nbsp; M Schlüter D[octo]r&nbsp;&nbsp;&nbsp;&nbsp; Hans Jacob Faber.
+                <lb />&nbsp;&nbsp;&nbsp;&nbsp; Syndicus
+                <lb />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [3 Lacksiegel]
+                <lb />
+                </p>
+            </div>
+        </body>
+    </text>
+</tei:TEI>

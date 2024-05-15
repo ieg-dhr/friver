@@ -1,0 +1,521 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE tei SYSTEM "../resources/FriVer_DTD.dtd">
+
+<?xml-model href="../resources/FriVer.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns="http://www.tei-c.org/ns/1.0"
+    xml:id="pa000299-0048">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title level="s">European peace treaties of the pre-modern era in data / Europäische
+                    Friedensverträge der Vormoderne in Daten (FriVer+)</title>
+                <title when="1679-03-29" xml:id="t48" when-custom="1679 III 19_29" level="a"
+                    ref="https://www.ieg-friedensvertraege.de/treaty/t-48-1-de.html">Friedensvertrag
+                    von Nijmegen</title>
+            </titleStmt>
+            <editionStmt>
+                <edition> Digital edition according to <ref target="http://www.tei-c.org/">TEI
+                        P5</ref>
+                </edition>
+                <funder>
+                    <ref target="https://www.text-plus.org/">TEXT+</ref>
+                </funder>
+                <editor role="http://id.loc.gov/vocabulary/relators/edt"
+                    ref="https://orcid.org/0000-0002-8741-5916">
+                    <persName>Jaap Geraerts</persName>
+                    <note>The transformation and enrichment of the data is done by Jaap Geraerts
+                        (IEG Mainz). The other members of the FriVer+ team are Fabian Cremer, Ines
+                        Grund, and Thorsten Wübbena (all IEG Mainz).</note>
+                    <note> The original data has been created by the <ref
+                            target="https://www.ieg-friedensvertraege.de">team of scholars</ref> who
+                        were part of the Europäische Friedensverträge der Vormoderne project. This
+                        project was lead by Prof. Dr. Heinz Duchhardt and was based at the Leibniz
+                        Institute of European History in Mainz. </note>
+                </editor>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>
+                    <orgName ref="http://www.isni.org/0000000119314040">Leibniz-Institut für
+                        Europäische Geschichte Mainz</orgName>
+                </publisher>
+                <distributor>
+                    <orgName ref="http://www.isni.org/0000000110101946">Universitäts- und
+                        Landesbibliothek Darmstadt</orgName>
+                </distributor>
+                <idno type="ISIL">http://lobid.org/organisation/DE-17</idno>
+                <date type="issued" when="2023-12-23"/>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">
+                        <p xml:lang="en">This file is licensed under the terms of the Creative
+                            Commons License CC-BY 4.0 (Attribution 4.0 International)</p>
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <repository xml:id="r26">Stockholm RA <note/>
+                </repository>
+                <msDesc>
+                    <p>[Transkriptionsgrundlage:]&nbsp; Schwedisches Reichsarchiv, Stockholm:
+                        Originaltraktater med främmande makter: Tyskland, XIV. Biskopsstiftet
+                        Münster No. 1 A-B. Fredsfördrag. 19/29 Mars 1679 (A: Unterhändlerinstrument
+                        mit Abschriften der Vollmachten, B: Sekretartikel). <lb/>
+                        <lb/>Nordrhein-Westfälisches Staatsarchiv Münster, Fürstentum Münster, Abt.
+                        12 Nr. 36 a: Ratifikation Schwedens Liungby, 1679 IV 12 (Abschrift auf
+                        Pergament). Ebd. Nr. 36b: Geheimartikel Nijmegen 1679 III 29 (Abschrift auf
+                        Pergament).&nbsp; <lb/>
+                        <lb/>Weitere Stücke: Reichsarchiv Stockholm: XIV Biskopsstiftet Münster Nr.
+                        1, G-H. Ratifikation Münster, Sassenberg 1679 V 18. Reichsarchiv Stockholm:
+                        XIV Biskopsstiftet Münster Nr. 1, E: Ratifikation Schwedens, Ljungby 1679 IV
+                        12. </p>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p> The data in this XML file, originally created by the project <ref
+                        target="https://www.ieg-friedensvertraege.de/vertraege">Europäische
+                        Friedensverträge der Vormoderne online</ref> has been transformed in
+                    accordance with <ref target="http://www.tei-c.org/">TEI P5</ref> as part of the
+                    project <ref
+                        target="https://www.ieg-mainz.de/en/research/research-projects/european-peace-treaties-of-the-pre-modern-era-in-data"
+                        >Europäische Friedensverträge der Vormoderne in Daten (FriVer+)</ref>
+                </p>
+            </projectDesc>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="la" xml:id="lan6">Latein</language>
+            </langUsage>
+        </profileDesc>
+    </teiHeader>
+    <standOff>
+        <listPerson>
+            <person role="signatory" xml:id="p78">
+                <persName ref="https://explore.gnd.network/gnd/4040608-8">
+                    <name>Münster</name>
+                </persName>
+            </person>
+            <person role="signatory" xml:id="p99">
+                <persName ref="https://explore.gnd.network/gnd/4077258-5">
+                    <name>Schweden</name>
+                </persName>
+            </person>
+        </listPerson>
+        <listPlace>
+            <place xml:id="l21">
+                <placeName ref="https://explore.gnd.network/gnd/4075410-8">Nijmegen</placeName>
+            </place>
+        </listPlace>
+        <facsimile>
+            <surface xml:id="FacsPnr1">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_43bc1d601d828"/>
+            </surface>
+            <surface xml:id="FacsPnr2">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_43bc1db9bc337"/>
+            </surface>
+            <surface xml:id="FacsPnr3">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_43bc1dfc77d78"/>
+            </surface>
+            <surface xml:id="FacsPnr4">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_43bc1e5507898"/>
+            </surface>
+            <surface xml:id="FacsPnr5">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_43bc1ea4cad98"/>
+            </surface>
+            <surface xml:id="FacsPnr6">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_43c29cfb3c497"/>
+            </surface>
+            <surface xml:id="FacsPnr7">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_43c29d578d16b"/>
+            </surface>
+            <surface xml:id="FacsPnr8">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_43c29e56b00d6"/>
+            </surface>
+            <surface xml:id="FacsPnr9">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_43c29e91b81d8"/>
+            </surface>
+            <surface xml:id="FacsPnr10">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_43c29eea317c2"/>
+            </surface>
+            <surface xml:id="FacsPnr11">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_43c29f1ad7a5a"/>
+            </surface>
+            <surface xml:id="FacsPnr12">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_43c29f47593d7"/>
+            </surface>
+            <surface xml:id="FacsPnr13">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_43c2a00ba052f"/>
+            </surface>
+            <surface xml:id="FacsPnr14">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_43c2a0e5a1c11"/>
+            </surface>
+        </facsimile>
+    </standOff>
+    <text>
+        <front>
+            <div type="Drucke">
+                <p>CTS XV, S. 119-129. <lb/>DUM VII/I, S. 401-403 <ref
+                        target="http://gallica.bnf.fr/ark:/12148/bpt6k122965z.pleinepage.f424.langEN"
+                        >Link zum Druck auf gallica.bnf.fr </ref>
+                    <lb/>Actes et Mémoires de la Négociation de la Paix de Nimégue IV, S. 389-394.
+                    <lb/>Lünig, Teutsches Reichs-Archiv, pars specialis, continuatio I (3) (15), S.
+                    234ff. <lb/>Londorp, Acta publica X, S. 702 (dt.). <lb/>Theatrum Europaeum XI,
+                    S. 1289-1290 (dt.). Theatrum Pacis II, S. 881-892 (lat.,frz., dt.). <lb/></p>
+            </div>
+            <div type="Inhalt">
+                <p>Art. 1 Friede zwischen Schweden und Fürstbistum Münster. Einstellung
+                    Feindseligkeiten. Künftige Freundschaft. <lb/>Art. 2 Amnestie. <lb/>Art. 3
+                    Bekräftigung des Friedens von Osnabrück (1648). <lb/>Art. 4 Münster restituiert
+                    alle Eroberungen in Bremen und Verden an Schweden. Modalitäten. <lb/>Art. 5
+                    Einklang mit weiteren Friedensschlüssen. <lb/>Art. 6 Schwedische Entschädigung
+                    an Münster. Modalitäten. Pfand Wildeshausen. <lb/>Art. 7 Bezug zu Frieden
+                    zwischen Kaiser und Schweden. Gültigkeit. Ratifikation.&nbsp; <lb/>&nbsp;
+                    <lb/>Geheimartikel <lb/>Beitritt Dänemarks.</p>
+            </div>
+        </front>
+        <body>
+            <div type="Transliteration">
+                <pb facs="#FacsPnr1"/>
+                <p>In nomine Sanctissim&#230; et <lb/>Individu&#230; Trinitatis </p>
+                <p>Notum sit omnibus et singulis, quorum <lb/>interest, aut quomodolibet interesse
+                    potest. <lb/>Quandoquidem Serenissimus et Potentissimus <lb/>Princeps et
+                    Dominus, Dominus Carolus <lb/>Suecorum, Gothorum, Vandalorumq[ue] Rex,
+                    <lb/>Magnus Princeps Finlandi&#230;, Dux Scani&#230;, <lb/>Esthoniae,
+                    Livoni&#230;, Careli&#230; , Brem&#230;, Verd&#230;, <lb/>Stettini
+                    Pomerani&#230;, Cassubi&#230; et Vandali&#230;, <lb/>Princeps Rugi&#230;,
+                    Dominus Ingri&#230; et Wisma- <lb/>ri&#230;, nec non Comes Palatinus Rheni,
+                    <lb/>Bavariae, Juliaci, Clivi&#230;, et Montium Dux, nihil magis <lb/>in votis
+                    habeat, quam ut pax qu&#230; cum Sacra <lb/>C&#230;sarea Majestate et Imperio
+                    Neomagi die <lb/>vigesima sexta Januarij / quinta Februarij Anni currentis
+                    sancita est, etiam <lb/>ad residuas et in dict&#230; pacis Articulo quinto Nomi-
+                    <lb/>natas partes Extendi possit, Imprimis vero <lb/>ut omes in Imperio motus,
+                    Eorumque Occasiones <lb/>quantocyus et penitus tollantur, et Reverendis-
+                    <lb/>simus et Celsissimus Princeps Dominus Fer- <lb/>dinandus Episcopus
+                    Monasteriensis et Pader- <lb/>bornensis, Burggravius Strombergensis, Sacri </p>
+                <p>
+                    <pb facs="#FacsPnr2"/>Romani Imperij Princeps, Comes in Pyrmont <lb/>et Dominus
+                    in Borckelo, a sua etiam parte <lb/>testatum velit, qua promptitudine feratur
+                    <lb/>ad Conformandum Se, Suaq[ue] Consilia cum Imperij <lb/>Capite; totoq[ue]
+                    Corpore, adeoq[ue] ad dissidia illa sopi- <lb/>enda, qu&#230; inter Sacram
+                    Regiam Majestatem <lb/>Sueci&#230;, et su&#230; Celsitudinis pr&#230;decessorem
+                    quondam <lb/>Reverendissimum et Celsissimum Principem, Dominum
+                    <lb/>Christophorum Bernardum, Episcopum Monasteriensem, <lb/>Administratorem
+                    Corbejensem, Burgravium Stromber- <lb/>gensem, Sacri Romani Imperij Principem et
+                    Dominum <lb/>in Borckelo, occasione nuperorum motuum exorta <lb/>fuerunt; factum
+                    proinde esse Divin&#226; annuente <lb/>grati&#226;, et Laudabili Serenissimi et
+                    potentissimi <lb/>Principis et Domini, Domini Caroli Secundi Magn&#230;
+                    <lb/>Britanni&#230; Regis Mediatione adlaborante, ut Consti- <lb/>tuti a parte
+                    Sacr&#230; Regi&#230; Majestatis Sueci&#230;, Legati <lb/>Extraordinarij et
+                    plenipotentiarij Illustrissimi et <lb/>Excellentissimi Domini Dominus Benedictus
+                    Oxen- <lb/>stierna, Comes in Korsholm et Wasa, Liber Baro in
+                    <lb/>M&#246;hrb&#255; et Lindholm, Dominus in Kapuria et Kattila,
+                    <lb/>Sacr&#230; Regi&#230; Majesatis Regnique Sueci&#230; Senator <lb/>ac
+                    pr&#230;ses in summo, quod Wismariae est, Tribunali, <lb/>ut et Supremus
+                    Legiffer Ingri&#230; et Kexholmi&#230;; Et <lb/>Dominus Johannes Paulin
+                    Oliwekrans Dominus in <lb/>Ulffhall et Hofmanstorp, Sacr&#230; Regi&#230;
+                    Majestatis <pb facs="#FacsPnr3"/>Sueci&#230; Consiliarius Cancellari&#230;,
+                    Secretarius Status <lb/>et Judex Ordinarius Territorij Widboensis, a parte
+                    <lb/>vero Reverendissimi et Celsissimi Episcopi et Principis <lb/>Monasteriensis
+                    et Paderbornensis Ablegatus <lb/>Extraordinarius et Minister plenipotentiarius
+                    <lb/>Dominus Wernerus Zur Muhlen, &lt;...&gt;<note type="crit_app" n="1">Unklare
+                        Abk&#252;rzung. </note>tus Celsitu- <lb/>dinis Su&#230; Consiliarius Intimus
+                    et Vice Cancellarius <lb/>Neomagi ad Colloquia Pacis convenerint, ibiq[ue]
+                    <lb/>Commutatis reciproce plenipotentiarum Tabulis <lb/>in mutuas pacis et
+                    amiciti&#230; Leges Consenserint <lb/>tenore sequenti </p>
+                <p>1. <lb/>Sit pax Christiana et perpetua, since- <lb/>raque amicitia inter Sacram
+                    Regiam Majesta- <lb/>tem, Ejusq[ue] H&#230;redes et Successores Reges,
+                    Regnumq[ue] <lb/>Sueci&#230; ab un&#226;, et Suam Celsitudinem et Episcopa-
+                    <lb/>tum Monasteriensem et Paderbornensem, Ejusque <lb/>Successores ab altera
+                    parte, ita ut statim cessent <lb/>omnes cujuscunque generis Hostilitatum Actus
+                    <lb/>ubivis locorum, inter omnes et singulos utriusque <lb/>partis subditos et
+                    Incolas, Cujuscunque fuerint <lb/>Conditionis, adeoque Altera pars Alteri nihil
+                    <lb/>posthac inimiciti&#230; aut Damni, clam aut palam, <lb/>directe vel
+                    indirecte per Suos vel per Alios inferat <lb/>vel inferri faciat, sed utrinque
+                    potius honori et <lb/>Commodis mutuis studeant et omnia amiciti&#230;
+                    bon&#230;q[ue] </p>
+
+                <lb/>
+                <pb facs="#FacsPnr4"/>
+                <p>vicini&#230; officia pr&#230;stent. </p>
+                <p>2. <lb/>Sit utrinque perpetua oblivio et Amnestia omni- <lb/>um Eorum, qu&#230;
+                    quocunque loco, modove ab una vel <lb/>Altera parte hactenus hostiliter facta
+                    sunt, ita ut <lb/>nec Eorum vel ullius alterius rei Caus&#226; vel pr&#230;textu
+                    <lb/>Alter Alteri quidquam posthac hostilitatis, aut moles- <lb/>ti&#230;,
+                    specie juris aut via facti, inferat vel inferri faciat <lb/>aut patiatur, sed
+                    omnes et singul&#230; hinc inde, tam <lb/>ante bellum quam in bello, verbis,
+                    scriptis aut factis <lb/>illata Injuri&#230;, violenti&#230;, hostlilitates,
+                    pr&#230;judicia, <lb/>Damna, Expens&#230;, absque omni personarum rerumve
+                    <lb/>respectu, ita penitus abolit&#230; sint, ut quicquid eo <lb/>nomine una
+                    pars adversus Alteram pr&#230;tendere possit, <lb/>perpetu&#226; sit oblivione
+                    sepultum. Gaudeantque <lb/>&nbsp;pariter hac eadem amnestia, Eiusque beneficio,
+                    et <lb/>Effectu, omnes et singuli utriusq[ue] partis Vasalli, ac <lb/>Subditi,
+                    ita ut Nemini nox&#230; damnove sit aut pr&#230;iu- <lb/>dicio, has vel Illas
+                    partes s&lt;ec&gt;<note type="crit_app" n="2">Undeutliche
+                    Schreibweise.</note>utum esse, quominus <lb/>pristino, in quo ante bellum
+                    immediate fuit, statui, <lb/>quo ad honores et bona plene restituatur. </p>
+                <p>3. <lb/>Recipitur utrinque Pax Westphalica Osnabrugis <lb/>die decima-quarta /
+                    vigesima quarta Octobris, Anni Millesimi Sexcentesimi <lb/>quadragesimi octavi
+                    sancita, pro vi firma basi et omnimoda <lb/>norm&#226; hujus pacificationis, ita
+                    ut in omnibus suis </p>
+                <pb facs="#FacsPnr5"/>
+                <p>Articulis plenum et pristinum Vigorem obtineat <lb/>et utrique parti exinde
+                    obligatio incumbat omnia <lb/>ea conferendi et pr&#230;standi, qu&#230; ad
+                    dict&#230; pacis <lb/>Conservationem et integritatem facere possint. </p>
+                <p>4. <lb/>Qu&#230;vis loca munita vel non munita, atque <lb/>adeo omne id quod
+                    tempore horum Motuum in <lb/>Ducatibus Bremensi et Verdensi, et terris vigore
+                    <lb/>Instrumenti pacis Westphalic&#230; ad Sacram <lb/>Regiam Majestatem
+                    Regnumque Sueci&#230; pertinen- <lb/>tibus, Armis Monasteriensibus occupatum
+                    fuit, <lb/>ijsdemq[ue] adhuc tenetur, Sacr&#230; Regi&#230; Majestati
+                    <lb/>Regnoque Sueci&#230; omni meliori, quo fieri potest, <lb/>modo restituatur,
+                    ita ut Munitionum pr&#230;sentium <lb/>la fiat demolitio, vel deterioratio, sed
+                    in statu <lb/>pr&#230;senti cum omnibus Tormentis bellicis ad Regiam
+                    <lb/>Majestatem Sueci&#230; antehac pertinentibus, et in <lb/>ijsdem
+                    munitionibus nunc Existentibus, C&#230;teroque <lb/>apparatu Militari
+                    relinquantur integr&#230;, un&#224; cum <lb/>quibuscunque Archivis et Literarijs
+                    Documentis <lb/>ad Ducatum Bremensem et Verdensem, vel Eorunde[m] <lb/>Civitates
+                    et Incolas spectantibus, fiatque horum <lb/>Locorum Evacuatio, et traditio eo
+                    tempore, quo post <lb/>ratificatum hunc Tractatum Sacra Regia Majestas <lb/>eam
+                    sibi faciendam postulaverit; Maneatque <lb/>Dominus Episcopus interea in
+                    possessione, Eamque <lb/>
+                </p>
+                <pb facs="#FacsPnr6"/>
+                <p>Contra quosvis defendet; ita tamen ut nihil hostile <lb/>&#224; suis patrari, nec
+                    Urbibus, Agris, S&#255;lvisque quidquam <lb/>detrimenti inferri sinat;
+                    Ver&#249;m erga Incolas quosvis <lb/>Se ita moderate gerat, Eosque Novis et
+                    inusitatis <lb/>Exactionibus non gravet, Alijs tamen Obventionibus <lb/>et
+                    Emolumentis tam Ordinarijs quam Extraordinarijs <lb/>sine Contradictione et
+                    Impedimento gaudeat et frua- <lb/>tur; nec ulla eorum, qu&#230; hactenus Exacta
+                    sunt, vel <lb/>usque ad deoccupationem, supradicto modo obvenient,
+                    <lb/>repetitio locum habeat. </p>
+                <p>5. <lb/>Cum Partes hic paciscentes Constituerint hanc <lb/>Suam pacificationem,
+                    paci cum C&#230;sare et Imperio <lb/>conclus&#230;, in omnibus Conformem
+                    reddere; Ideo <lb/>speciatim hic inter se utrinque recipiunt obligati-
+                    <lb/>onem, omnium Eorum, qu&#230; Articulo quarto dict&#230; <lb/>pacis de
+                    mutuis hostibus non iuvandis expressa <lb/>sunt, non secus ac si totus Articulus
+                    de verbo ad <lb/>verbum hic repetitus esset. Et proinde Dominus <lb/>Episcopus
+                    statim bona fide revocabit, Sibique reddi <lb/>curabit omnes et singulos
+                    Officiales et Milites <lb/>Equestres et Pedestres, quos Su&#230; Celsitudinis
+                    Pr&#230;de- <lb/>cessor Regi Dani&#230; concessit. </p>
+                <p>6. <lb/>Ut autem Dominus Episcopus Eorum, qu&#230; Vigore <lb/>huius Tractatus
+                    pr&#230;standa in Se recipit, nec non <lb/>Impensarum in Munitionibus tam
+                    reparatis, quam </p>
+                <pb facs="#FacsPnr7"/>
+                <p>Sumptuose extructis, nunc autem restituendis <lb/>factarum, aliquam habeat
+                    Compensationem <lb/>Sua Regia Majestas Celsitudini Su&#230;, aut Eius
+                    <lb/>Successori Centum Millia Thalerorum Imperialium <lb/>de banco Hamburgi
+                    numerari Curabit. In Cuius <lb/>solutionis Majorem securitatem Eidem et
+                    Episcopatui <lb/>Monasteriensi in firmam hpothecam relinquit <lb/>et constituit
+                    Pr&#230;fecturam Wildshausen, ab omni <lb/>onere aeris alieni liberam, cum omni
+                    Jure superiori- <lb/>tatis et Territoriali, omnibusque appertinentijs, et
+                    <lb/>dependentijs, ac reditibus quibuscunque ad dictam <lb/>Pr&#230;fecturam
+                    pertinentibus, plane pro ut a Regibus <lb/>Regnoque Sueci&#230; possessa fuit,
+                    aut vi pacis West- <lb/>phalic&#230; possidere potuit; ita ut Dominus Episcopus
+                    <lb/>Monasteriensis, Eiusq[ue] in Episcopatu Successores <lb/>dict&#226;
+                    h&#255;pothec&#226; omni meliori modo, jureque <lb/>antichreseos sine ulla
+                    reductione aut onere red- <lb/>dendarum rationum, liber&#233; absq[ue] ulla
+                    turbatione <lb/>et Impedimento, uti frui possint, usque ad Eiusdem
+                    <lb/>hypothec&#230; reluitionem, summ&#226; pr&#230;dict&#226; Centum
+                    <lb/>Millium Thalerorum Imperialium faciendam. </p>
+                <p>7. <lb/>Hi pacis articuli Instrumento pacis C&#230;sareo <lb/>Suecico Comprehensi
+                    intelligantur, non secus <lb/>ac si specifice eidem inserti essent, et
+                    ratihabeantur <lb/>a Sua Regia Majestate ab un&#226;, et Reverendissimo </p>
+                <pb facs="#FacsPnr8"/>
+                <p>Domino Episcopo, ut et Capitulo Monasteriensi <lb/>Cathedrali ab altera parte,
+                    intra octo septimana- <lb/>rum spatium, vel citius si fieri possit. In quorum
+                    <lb/>omnium fidem et majus robur hanc Conventionem <lb/>tam Sacr&#230;
+                    Regi&#230; Majestatis Sueci&#230; Legati Extra- <lb/>ordinarij et
+                    Plenipotentiarij, qu&#224;m Su&#230; Celsitudinis <lb/>Ablegatus Extraordinarius
+                    et Minister Plenipoten- <lb/>tiarius Nominum subscriptionibus sigillisque
+                    <lb/>propriis munierunt. <lb/>Actum Noviomagi <lb/>&nbsp;die decima nona/
+                    vigesima&nbsp; nona martij, A.o Millesimo Sexcentesimo <lb/>Septuagesimo nono. </p>
+                <p>Benedictus Oxenstierna <lb/>Johan Paulin Olivek&lt;rans&gt;<note type="crit_app"
+                        n="3">Verdeckt durch Siegel.</note>
+                    <lb/>W. Zur M&#252;hlen </p>
+                <p>&nbsp; </p>
+                <p>Nos Carolus Dei Gratia Suecorum Gothorum <lb/>Wandalorumq[ue] Rex, Magnus
+                    Princeps Finlandi&#230;, <lb/>Dux Scani&#230;, Esthoni&#230;, Livoni&#230;,
+                    Careli&#230;, Brehm&#230; Vehrd&#230;, <lb/>Stetini Pomerani&#230;,
+                    Cassubi&#230; et Wandali&#230;, Princeps Rugi&#230;, <lb/>Dominus Ingri&#230; et
+                    Vismari&#230;, Nec non Comes Palatinus </p>
+                <pb facs="#FacsPnr9"/>
+                <p>Rheni, Bavari&#230;, Juliaci, Clivi&#230; et Montium Dux,&nbsp; Notum
+                    <lb/>Testatumq[ue] facimus Omnibus et singulis quorum interest, aut
+                    <lb/>quomodolibet interesse poterit. Quod cum occasione belli hujus <lb/>quod
+                    iam flagrat, motus etiam Nos inter et quondam Reveren- <lb/>dissimum ac
+                    Illustrissimum Principem, Dominum Christophorum <lb/>Bernardum Episcopum
+                    Monasteriensem Administratorem <lb/>Corbejensem, Burgravium Strombergensem,
+                    Sacri Romani Imperij <lb/>Principem et Dominum in Borckelo, oborti, &#224; morte
+                    Eius, Nos <lb/>inter et Reverendissimum ac Illustrissimum Principem Dominum
+                    <lb/>Ferdinandum Episcopum Monasteriensem et Paderbornen- <lb/>sem Burgravium
+                    Strombergensem, Sacri Romani Imperij Princi- <lb/>pem, Comes in P&#255;rmont, et
+                    Dominum in Borckelo, adhuc conti- <lb/>nuentur, Nosque non solum nihil in
+                    optatis magis habeamus, <lb/>quam ut pax, cujus spes l&#230;ta, laudabili Cura
+                    et Mediatione <lb/>Serenissimi ac Potentissimi Magnae Britanniae Regis affulgere
+                    <lb/>coepit, Orbi Christiano quantocyus restituatur sed e&lt;t&gt; ut dicti
+                    <lb/>quoq[ue] armorum motus feliciter componi possint, quicquid <lb/>in Nobis
+                    est lubenter Conferre velimus; Nos idcirco Nostris <lb/>ad pacis Tractatus
+                    Neomagi institutis Legatis Extraordinarijs <lb/>ac Plenipotentiarijs, Nostro
+                    Regniq[ue] Nostri Senatori ac Pr&#230;sidi <lb/>in summo, quod Wismari&#230; est
+                    Tribunali, ut et supremo Legiferi <lb/>Ingri&#230; et Kexholmi&#230;, Illustri,
+                    Nobis sincere fideli Domino Bene- <lb/>dicto Oxenstierna, Comiti in Korsholm et
+                    Wasa, Libero Baroni <lb/>&nbsp;in Mohrb&#255; et Lindholm, Domino in Kapuria et
+                    Kattila, sicut <lb/>et Nostro Consiliario Cancellari&#230;, Secretario status et
+                    Judici <lb/>Ordinario territorij Widboensis, Generoso ac Nobili, Nobis sin-
+                    <lb/>cere fideli Johanni Paulini Oli&lt;w&gt;ekrans<note n="4">Auch
+                        "Oli&lt;ev&gt;ekrans" m&#246;glich.</note>, Domino in Ulffhall <lb/>et
+                    Hoffmanstorp, specialiter in Mandatis dare voluerimus, ut etiam <lb/>pacis
+                    Colloquia sive direct&#233; sive interven&lt;i&gt;ente opera respective
+                    <lb/>hinc inde receptorum Mediatorum instituant, cum pr&#230;nominati
+                    <lb/>Principis sufficienti mandato ad armorum motus ac Contro- <lb/>versias, Nos
+                    inter sive separatim sive Coniunctim cum Foederatis <lb/>Eius per bonam et
+                    firmam pacem Componendas munitis. </p>
+                <pb facs="#FacsPnr10"/>
+                <p>Damus itaq[ue] plenam et absolutam potestatem cum omni auc- <lb/>toritate et
+                    Mandato ad id Necessario supradictis Legatis Nostris <lb/>Extraordinarijs et
+                    Plenipotentiarijs sive Duobus conjunctim sive <lb/>uni Eorum soli, altero
+                    absente, vel aliter Impedito, Pacis Tractatum <lb/>Contraversiarumq[ue]
+                    Compositionem pro Nobis, Nostroq[ue] Nomine <lb/>ineundi, Concludendi, et
+                    signandi inter Nos et pr&#230;dictum Principem. <lb/>omnia quoq[ue] instrumenta,
+                    qu&#230; in eum finem requiri possint <lb/>Conficiendi, Expediendi, Extradendi,
+                    adeoq[ue] in universum agendi, <lb/>promittendi, stipulandi, Concludendi et
+                    signandi, acta, declarati- <lb/>ones, pacta, Conventa Commutandi, aliaq[ue]
+                    omnia qu&#230; ad dictum <lb/>pacis Negocium pertineant faciendi, &#230;qu&#233;
+                    liber&#233; et ampl&#233;, ac <lb/>Ipsi pr&#230;sentes id faceremus vel facere
+                    possemus, quantumvis <lb/>mandato adhuc specialiori et expressiori, quam quod
+                    hisce <lb/>pr&#230;sentibus Continetur opus esse visum fuerit. Promittimus
+                    <lb/>pr&#230;terea et Declaramus fide et verbo Nostro Regio, Nos acceptum
+                    <lb/>et gratum, firmum quoq[ue] et ratum habituros, qu&#230;cunq[ue] per
+                    <lb/>dictos Nostros Legatos Extraordinarios et Plenipotentiarios <lb/>sive binos
+                    Conjunctim, sive unum Eorum solum, altero absente <lb/>vel aliter Impedito,
+                    Acta, Conclusa, Signata, Extradita et Commu- <lb/>tata fuerint, Nos
+                    obstringentes hisce pr&#230;sentibus ad Expedi- <lb/>endum Ratificationum
+                    Nostrarum Diplomata in decenti <lb/>et solenni forma, intraq[ue] tempus pro ut
+                    Convenerit, in quorum <lb/>omnium fidem pr&#230;sentes manu Nostra subscriptas,
+                    Sigillo <lb/>Nostro Regio Communiri jussimus. Dedimus in Castris <lb/>Nostris ad
+                    Liungb&#255; die 3. decembris A[nn]o 1678. </p>
+                <p>Carolus </p>
+                <p>
+                    <lb/>Nos Ferdinandus Dei et Apostolic&#230; Sedis Gratia <lb/>Epsicopus
+                    Monasteriensis et Paderbornensis, Burgravius <lb/>Strombergensis, Sacri Romani
+                    Imperij Princeps Comes P&#255;rmon <lb/>montanus et Dominus in Borckelo. Notum
+                    Testatumq[ue] </p>
+                <pb facs="#FacsPnr11"/>
+                <p>facimus quod cum nihil ardentius Ex&lt;.&gt;<note type="crit_app" n="5">Ein
+                        unklares Zeichen. </note>temus, quam ut <lb/>pr&#230;sens bellum quo
+                    Christianus Orbis affligitur, in &#230;quam et <lb/>honestam pacem
+                    quantoc&#255;us Converti queat, atque pr&#230;terea grato <lb/>acceperimus animo
+                    Serenissimi et Potentissimi Magn&#230; Britanni&#230; <lb/>Regis laudabili Cura
+                    et Mediatione eo proventum esse, ut partium <lb/>hinc inde Consensu Tractatus et
+                    Colloquia pacis Neomagi institue- <lb/>rentur; Ideo quicquid in Nobis est ad
+                    Comparandam tranquillitatem <lb/>Orbi Christiano lubenter Conferre Volentes,
+                    Confisi prudenti&#226;, Experi- <lb/>entia et fide Honorabilis et Clarissimi
+                    Consiliarij Nostri Intimi et <lb/>Vice-Cancellary sincere Nobis dilecti et
+                    fidelis Werneri Zur Muhlen <lb/>Jurium &lt;D&gt;oetoris, Eum Nominavimus,
+                    Elegimus et Constituimus <lb/>Nostrum plenipotentiarium ad dictos Conventus et
+                    Tractatus pacis <lb/>Neomagi habendos, reservando Nobis libertatem, Illum
+                    postmodum <lb/>pro lubitu principe legationis Charactere insigniedi, Cui proinde
+                    <lb/>Committimus et specialiter Mandamus ut se ad dictam urbem Conferat
+                    <lb/>ibiq[ue] pacis colloquia sive Direct&#233; sive interveniente oper&#226;
+                    respective <lb/>hinc inde receptorum Mediatorum instituat cum Serenissimi et
+                    <lb/>Potentissimi Principis Domini Caroli, Suecorum, Gothorum, Vandalo-
+                    <lb/>rumq[ue] Regis, Magni Principis Finlandi&#230;, Ducis Scani&#230;,
+                    Esthoni&#230; <lb/>Livoni&#230;, Careli&#230;, Brem&#230;, Verd&#230;, Stettini
+                    Pomerani&#230;, Cassubi&#230; <lb/>et Wandali&#230;, Principis Rugi&#230;,
+                    Domini Ingri&#230; et Wismari&#230;, <lb/>Comitis Palatini Rheni, Ducis
+                    Bavari&#230;, Eiusq[ue] Confoederatorum <lb/>Legatis, Deputatis et Commissarijs
+                    sufficieti Mandato ad pr&#230;sens <lb/>bellum terminandum, Controversiasq[ue]
+                    qu&#230; eo spectant, per bonam <lb/>et firmam pacem componendas, munitis. Damus
+                    quoq[ue] plenam <lb/>et absolutam potestatem cum omni auctoritate et Mandato ad
+                    id <lb/>Necessarijs supradicto plenipotentiario Nostro, pacis Tractatum <lb/>pro
+                    Nobis, nostroq[ue] nomine, ineundi, concludendi, et signandi <lb/>inter Nos et
+                    pr&#230;dictum Serenissimum et Potentissimum Regem <lb/>Eiusque Foederatos,
+                    omnia quoq[ue] Instrumenta qu&#230; in eum finem <lb/>requiri possint,
+                    Conficiendi, Expediendi, Extradendi, adeoque in universum <lb/>agendi,
+                    promittendi, stipulandi, concludendi et signandi, Acta, <lb/>Declarationes,
+                    pacta, Conventa commutandi, aliq[ue] omnia <lb/>quae ad dictum pacis Negotium
+                    pertineant faciendi, &#230;que, libere et </p>
+                <p>
+                    <pb facs="#FacsPnr12"/>Ampl&#233; ac Ipsi pr&#230;sentes id faceremus vel facere
+                    possemus <lb/>quantumvis mandato adhuc specialiori et Expressiori, quam
+                    <lb/>quod hisce pr&#230;sentibus continetur, opus esse visum fuerit.
+                    <lb/>Promittimus pr&#230;terea et Declaramus fide et verbo Principis <lb/>Nos
+                    acceptum et gratum, firmum et ratum habituros, qu&#230;- <lb/>cunq[ue] per
+                    dictum plenipotentiarium Nostrum, Acta, Conclusa, <lb/>signata extradita et
+                    commutata fuerint. Nos obstringentes <lb/>hisce pr&#230;sentibus ad Expediendum
+                    Ratificationum Nostrarum <lb/>Diplomata in decenti et solenni forma, intraq[ue]
+                    tempus pro <lb/>ut Convenit. In Cuius rei fidem maiorem hasce Manu Nostra
+                    <lb/>subscripsimus et sigillo Nostro Communiri jussimus. <lb/>Dabantur in Arce
+                    Nostra Neuhusana die decimo Mensis <lb/>Novembris anno supra Millesimum
+                    sexcentesimum <lb/>septuagesimi octavo. <lb/>Ferdinandus <pb facs="#FacsPnr13"
+                    />Articulus Secretus </p>
+                <p>Sacr&#230; Regi&#230; Majestatis Sueci&#230; Legati <lb/>Extraordinarij et
+                    plenipotentiarij, ut et Su&lt;&#230;&gt; <lb/>Celsitudinis Domini Episcopi
+                    Monasteriensis <lb/>et Paderbornensis Ablegatus Extraordinarius <lb/>et Minister
+                    Plenipotentiarius, pr&#230;ter pacis Conven- <lb/>tionem hodie coclusam ulterius
+                    Convenerunt &lt;de&gt; <lb/>Articulo Secreto pro ut sequitur. Cum articulo
+                    <lb/>quinto pacis hodie inter Sacram Regiam Majesta- <lb/>tem Sueci&#230;, et
+                    Reverendissimum ac Celsissimum <lb/>Principem, Episcopum Monasteriensem
+                    Conclus&#230; <lb/>statutum sit de efficaci revocatione officialium <lb/>et
+                    Militum Monasteriensium &#232; Dania, accidere aute[m] <lb/>possit, ut Rex
+                    Dani&lt;a&gt; non obstante quo vis, vel <lb/>maxime serio, qui ad id efficiendum
+                    adhibere poterit, <lb/>Conatu Copias dimittere recuset, sicq[ue] impossibilem
+                    <lb/>reddat pr&#230;stationem eorum, qu&lt;&#230;&gt; Dominus Episcopus
+                    <lb/>supradicto Articulo in se recepit, Ideo Conventum <lb/>est in eum Casum,
+                    quo dict&#230; Copi&#230; vel in totum <lb/>vel ex parte, statim a ratihabito
+                    hoc Tractatu <lb/>effective reddit&#230; non fuerint, quod pr&#230;fectura
+                    <lb/>Wildeshausen non minus quidem quam si Militum <lb/>revocatio effectum
+                    sortita fuisset, pro summa centum <lb/>Millium Thalerorum Imperialium, donec ea
+                    soluta <lb/>fuerit, obligata maneat, Dominus Episcopus autem <lb/>ut
+                    pr&#230;iudicium eo Damnum ex &#230;quissim&lt;&#230;&gt; Conditionis
+                    <lb/>defectu emergens avertat et resar&lt;....&gt;<note type="crit_app" n="6">
+                        Wortende unlesbar wegen Siegeldurchdruck. </note>&nbsp;atque porro <lb/>se
+                    Ipsum Contra injuriam et Co&lt;...&gt;m<note type="crit_app" n="7">Unlesbar
+                        wegen Siegeldurchdruck.&nbsp; </note>tueatur. </p>
+                <p>
+                    <pb facs="#FacsPnr14"/>Suaque vindicet, spondet et recipit, se quanto citius
+                    <lb/>fieri poterit, arma in Comitatus Oldenburgensem <lb/>et Delmenhorstiensem
+                    illaturum, ibiq[ue] pro ratione <lb/>belli acturum Donec Rex Dania justissimis
+                    <lb/>postulatis satisfecerit. Cum autem Domino <lb/>Episcopo in possessione
+                    dictorum Comitatuum <lb/>Existente. Interesse Domini Ducis Holsati&#230; Gottor-
+                    <lb/>piensis vel quo ad ipsos Comitatus, vel quo ad <lb/>Agrum Stadt
+                    Budiadingensem et Telonium Elflitense <lb/>sine dubio aliqua ratione Commode
+                    promoveri possit <lb/>Ideo spondet Dominus Episcopus se causa Eiusdem <lb/>non
+                    defuturum, verum pro renata, uti de hac planius <lb/>Conveniri poterit, omni
+                    studio procuraturum, ut <lb/>dicto Domino Duci propterea satisfiat. Et vicissim
+                    <lb/>Sua Regia Majestas Suecia promittit Su&#230; Celsitu- <lb/>dini efficacem
+                    de super guarantiam, spondetq[ue] Se <lb/>am cum Rege Dani&#230; pacem vel
+                    Conventionem <lb/>inituram, nisi pr&#230;vi&#226; Communicatione Cum Domino
+                    <lb/>Episcopo, Condignaq[ue] satisfactione pro eodem obtenta. <lb/>Hic Articulus
+                    Secretus eandem vim, eundemq[ue] vigorem <lb/>habebit ac si Tractatui principali
+                    insertus esset. <lb/>Actum Neomagi die decima nona / vigesima nona Martij
+                    <lb/>A[nn]o Millesimo Sexcentsimo Septuagesimo nono. </p>
+                <p>Benedictus Oxenstierna&nbsp;Johan Paulin Oliwekran&lt;s&gt; <lb/>W. zur
+                    M&#252;hlen&lt;s&gt; <lb/>
+                </p>
+            </div>
+        </body>
+        <back>
+            <listBibl>
+                <bibl xml:id="a379">
+                    <title level="a">Reichsarchiv (1679-03-29)</title>
+                    <title level="m">Reichsarchiv, Band 7 (1711), PSpec Con I-III (3), S.234-238
+                        Aus: Dokumentenarchiv der Universitätsbibliothek Augsburg (Drucke vor 1900 /
+                        Historische Geschichtswerke). </title>
+                    <biblScope>
+                        <graphic xml:id="A1Pnr1"
+                            url="https://www.ieg-friedensvertraege.de/dbimages/img_4ab25784976ff"/>
+                        <graphic xml:id="A1Pnr2"
+                            url="https://www.ieg-friedensvertraege.de/dbimages/img_4ab2578ee6864"/>
+                        <graphic xml:id="A1Pnr3"
+                            url="https://www.ieg-friedensvertraege.de/dbimages/img_4ab25795d4ef8"/>
+                        <graphic xml:id="A1Pnr4"
+                            url="https://www.ieg-friedensvertraege.de/dbimages/img_4ab2579da418a"/>
+                    </biblScope>
+                </bibl>
+                <bibl>Sundberg, Svenska freder och stillestånd, S. 293. Seitz / Rosengren, Sveriges
+                    freder och fördrag, S. 61.</bibl>
+            </listBibl>
+        </back>
+    </text>
+</tei:TEI>

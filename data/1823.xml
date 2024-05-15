@@ -1,0 +1,379 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE tei SYSTEM "../resources/FriVer_DTD.dtd">
+
+<?xml-model href="../resources/FriVer.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns="http://www.tei-c.org/ns/1.0"
+    xml:id="pa000299-1823">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title level="s">European peace treaties of the pre-modern era in data / Europäische
+                    Friedensverträge der Vormoderne in Daten (FriVer+)</title>
+                <title when="1525-08-11" xml:id="t1823" when-custom="1525 VIII 11" level="a"
+                    ref="https://www.ieg-friedensvertraege.de/treaty/t-1823-1-de.html"
+                    >Waffenstillstand von Toledo</title>
+            </titleStmt>
+            <editionStmt>
+                <edition> Digital edition according to <ref target="http://www.tei-c.org/">TEI
+                        P5</ref>
+                </edition>
+                <funder>
+                    <ref target="https://www.text-plus.org/">TEXT+</ref>
+                </funder>
+                <editor role="http://id.loc.gov/vocabulary/relators/edt"
+                    ref="https://orcid.org/0000-0002-8741-5916">
+                    <persName>Jaap Geraerts</persName>
+                    <note>The transformation and enrichment of the data is done by Jaap Geraerts
+                        (IEG Mainz). The other members of the FriVer+ team are Fabian Cremer, Ines
+                        Grund, and Thorsten Wübbena (all IEG Mainz).</note>
+                    <note> The original data has been created by the <ref
+                            target="https://www.ieg-friedensvertraege.de">team of scholars</ref> who
+                        were part of the Europäische Friedensverträge der Vormoderne project. This
+                        project was lead by Prof. Dr. Heinz Duchhardt and was based at the Leibniz
+                        Institute of European History in Mainz. </note>
+                </editor>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>
+                    <orgName ref="http://www.isni.org/0000000119314040">Leibniz-Institut für
+                        Europäische Geschichte Mainz</orgName>
+                </publisher>
+                <distributor>
+                    <orgName ref="http://www.isni.org/0000000110101946">Universitäts- und
+                        Landesbibliothek Darmstadt</orgName>
+                </distributor>
+                <idno type="ISIL">http://lobid.org/organisation/DE-17</idno>
+                <date type="issued" when="2023-12-23"/>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">
+                        <p xml:lang="en">This file is licensed under the terms of the Creative
+                            Commons License CC-BY 4.0 (Attribution 4.0 International)</p>
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <repository xml:id="r22">Paris AAE <note>Trait&eacute;s et Accords de la France:<lb/>
+                        <ref
+                            target="http://www.diplomatie.gouv.fr/traites/affichetraite.do?accord=TRA15250001"
+                            >http://www.diplomatie.gouv.fr/traites/affichetraite.do?accord=TRA15250001</ref></note>
+                </repository>
+                <msDesc>
+                    <p>AAE Paris Traités Multilatéraux 15250001. Convention pour l'établissement
+                        d'une trêve.- Tolède, 11 août 1525 (UI). Ratifikation: Ratifikation Louise
+                        von Savoyen AAE Paris Traités Multilatéraux 15250001 (Tournon 1525 IX 7).<lb/>
+                        <lb/> Weitere Stücke:<lb/>
+                        <lb/> HHStA Wien Belgien PA 64, Konv. 5, fol. 190r-192v (Kopie,
+                        kollationiert nach dem Unterhändlerexemplar, datiert 1525 IX 9). AAE Paris
+                        Traités Multilatéraux 15250001 (3 Kopien).</p>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p> The data in this XML file, originally created by the project <ref
+                        target="https://www.ieg-friedensvertraege.de/vertraege">Europäische
+                        Friedensverträge der Vormoderne online</ref> has been transformed in
+                    accordance with <ref target="http://www.tei-c.org/">TEI P5</ref> as part of the
+                    project <ref
+                        target="https://www.ieg-mainz.de/en/research/research-projects/european-peace-treaties-of-the-pre-modern-era-in-data"
+                        >Europäische Friedensverträge der Vormoderne in Daten (FriVer+)</ref>
+                </p>
+            </projectDesc>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="fr" xml:id="lan4">französisch</language>
+            </langUsage>
+        </profileDesc>
+    </teiHeader>
+    <standOff>
+        <listPerson>
+            <person role="signatory" xml:id="p37">
+                <persName ref="https://explore.gnd.network/gnd/4018145-5">
+                    <name>Frankreich</name>
+                </persName>
+            </person>
+            <person role="signatory" xml:id="pp0008">
+                <persName ref="https://explore.gnd.network/gnd/118560093">
+                    <name>Charles V, Holy Roman Emperor</name>
+                </persName>
+            </person>
+            <person xml:id="pp0080">
+                <persName ref="https://explore.gnd.network/gnd/120732394">
+                    <name>François de Tournon</name>
+                </persName>
+            </person>
+            <person xml:id="pp0011">
+                <persName ref="https://explore.gnd.network/gnd/118532502">
+                    <name>Ferdinand I, Holy Roman Emperor</name>
+                </persName>
+            </person>
+            <person xml:id="pp0305">
+                <persName ref="https://explore.gnd.network/gnd/1114085987">
+                    <name>Philippe Chabot</name>
+                </persName>
+            </person>
+            <person xml:id="pp0306">
+                <persName ref="https://explore.gnd.network/gnd/118534947">
+                    <name>Franz I. (Frankreich)</name>
+                </persName>
+            </person>
+            <person xml:id="pp0307">
+                <persName ref="https://explore.gnd.network/gnd/121233782">
+                    <name>Luise von Savoyen</name>
+                </persName>
+            </person>
+            <person xml:id="pp0308">
+                <persName ref="https://explore.gnd.network/gnd/121673391">
+                    <name>Heinrich III., Graf von Nassau</name>
+                </persName>
+            </person>
+            <person xml:id="pp0309">
+                <persName ref="https://explore.gnd.network/gnd/118639188">
+                    <name>Mercurino de Gattinara</name>
+                </persName>
+            </person>
+            <person xml:id="pp0310">
+                <persName ref="https://explore.gnd.network/gnd/132274701">
+                    <name>Laurent de Gorrevod</name>
+                </persName>
+            </person>
+            <person xml:id="pp0311">
+                <persName ref="https://explore.gnd.network/gnd/132278146">
+                    <name>Adrien de Croy</name>
+                </persName>
+            </person>
+            <person xml:id="pp0312">
+                <persName ref="https://explore.gnd.network/gnd/1146812191">
+                    <name>Richard Sampson</name>
+                </persName>
+            </person>
+            <person xml:id="pp0313">
+                <persName ref="https://explore.gnd.network/gnd/118548204">
+                    <name>Heinrich VIII. (England)</name>
+                </persName>
+            </person>
+            <person xml:id="pp0314">
+                <persName ref="https://explore.gnd.network/gnd/118730983">
+                    <name>Margaret of Austria</name>
+                </persName>
+            </person>
+            <person xml:id="pp0315">
+                <persName ref="https://explore.gnd.network/gnd/118577719">
+                    <name>Margarete von Angoulême</name>
+                </persName>
+            </person>
+            <person xml:id="pp0316">
+                <persName ref="https://explore.gnd.network/gnd/119193833">
+                    <name>Karl von Bourbon</name>
+                </persName>
+            </person>
+            <person xml:id="pp0317">
+                <persName ref="https://explore.gnd.network/gnd/1157843352">
+                    <name>Georges de Selve</name>
+                </persName>
+            </person>
+        </listPerson>
+        <listPlace>
+            <place xml:id="loc55">
+                <placeName ref="https://explore.gnd.network/gnd/4078343-1">Toledo</placeName>
+            </place>
+        </listPlace>
+    </standOff>
+    <text>
+        <front>
+            <div type="Drucke">
+                <p>DUM IV/1, S. 435-436; LEO II, S. 169.</p>
+            </div>
+            <div type="Inhalt">
+                <p>Vorstellung der Vertragspartner und deren Stellvertreter <lb/>Bestimmungen über
+                    Anfang und Ende des Waffenstillstandes <lb/>Vereinbarung bezüglich der Rechte
+                    von Margarete von Angoulême (1492-1549) für die Zeit des Waffenstillstandes
+                    <lb/>Vereinbarung bezüglich der Rechte von Karl von Bourbon (1490-1527) für die
+                    Zeit des Waffenstillstandes <lb/>Rechte der Botschafter und Bevollächtigten
+                    während des Waffenstillstandes <lb/>Rechte der Untertanen während des
+                    Waffenstillstandes <lb/>Vereinbarung über die Ratifikation</p>
+            </div>
+            <div type="Kommentar">
+                <p>Die Ausgangslage für Franz I. von Frankreich verschlechterte sich seit 1521
+                    zunehmend, als erst König Heinrich VIII. von England, dann auch der Papst auf
+                    die Seite des Kaisers wechselten. Karl erhielt einen zusätzlichen
+                    innerfranzösischen Verbündeten im Connétable von Frankreich, Karl von Bourbon,
+                    dessen durch Heirat ererbte Güter der König als an die Krone heimgefallen
+                    betrachtete. Als eine vom Kaiser unterstützte Verschwörung enttarnt wurde, floh
+                    Karl von Bourbon ins gegnerische Lager, wo er fortan als Feldherr diente. Am 24.
+                    Februar 1525 kam es zu der für den König von Frankreich desaströsen Schlacht von
+                    Pavia, die zur Gefangennahme Franz' I. führte. Seit dem 20. Juli befand sich
+                    Franz in Madrid. Der Waffenstillstand von Toledo bereitete den Frieden von
+                    Madrid vor, in dem Frankreich gegen die Freilassung des Königs zu gravierenden
+                    Zugeständnissen gezwungen wurde.</p>
+            </div>
+            <div type="Kontext">
+                <p>1521 &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; Vertrag von Brügge (25. August):
+                    England sagt dem Kaiser Unterstützung gegen &nbsp;&nbsp;&nbsp;
+                    &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;
+                    &nbsp;&nbsp;&nbsp; Frankreich zu. <lb/>1521/22 &nbsp;&nbsp; Habsburgische
+                    Erbteilung. <lb/>1521 &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; Krieg zwischen Karl
+                    V. und dem französischen König Franz I. (bis 1526). <lb/>1524/25 &nbsp;&nbsp;
+                    Bauernkriege in mehreren deutschen Staaten. <lb/>1525 &nbsp;&nbsp;&nbsp;
+                    &nbsp;&nbsp;&nbsp; In der Schlacht von Pavia (24. Februar) siegt Karl V. über
+                    Franz I., der &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;
+                    &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;
+                    &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; gefangengenommen wird. <lb/>1526
+                    &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; Im Frieden von Madrid (14. Januar) wird
+                    Franz I. wieder freigelassen. Frankreich &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;
+                    &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; verzichtet auf
+                    Ansprüche in Italien und Burgund. <lb/>&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;
+                    &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; In der Liga von Cognac (22. Mai) verbündet
+                    sich Franz I. mit dem Papst, Mailand, &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;
+                    &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; Florenz, Venedig, Genua
+                    und England gegen Habsburg. <lb/>&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;
+                    &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; Ausbruch des zweiten
+                    französisch-habsburgischen Krieges (1526-1529).</p>
+            </div>
+        </front>
+        <body>
+            <div type="Edition">
+                <p>Nous <rs ref="#0080">Francois de Tournon</rs><note type="annotation">François de
+                        Tournon (1489-1562), Erzbf. u.a. von Embrun, Kardinal 1530, einflussreicher
+                        Berater und Diplomat Franz. I."</note>, arcevesque d' Ambrun, Jehan de
+                        Selva<note type="crit_app" n="1">Textvariante: Dumont: Jean de Selve.
+                        Sachanmerkung: Konnte nicht ermittelt werden.</note>, chevallier, sieur de
+                        Cromyeres<note n="2" type="crit_app">Dumont: Gromier. Leonard:
+                        Cromieres.</note>, premier<note n="3" type="crit_app">Dumont: [Auslassung:]
+                        premier.</note> president en la court de parlement à Paris, et <rs
+                        ref="#0305">Philippe Chabot</rs><note n="4" type="annotation">Philippe
+                        Chabot (c. 1480-1543), seigneur de Brion, war als Militär bei Pavia zusammen
+                        mit Franz I. in Gefangenschaft geraten. 1526 wurde er Admiral von
+                        Frankreich.</note>, baron de Bryon, maire de Bordeaux et chevallier de
+                    l'ordre de tres hault<note n="5" type="crit_app">Dumont, Leonard: tres-haut
+                        (auch im Folgenden).</note>, tres exellant et tres puissant prince <rs
+                        ref="#0306">Francois</rs><note n="6" type="annotation">Franz I. (1494-1547),
+                        Kg. von Frankreich seit 1515.</note>, par la grace de dieu tres crestien Roy
+                    de France, duc de Millan, seigneur de Gennes etc., ambassadeurs de tres haulte
+                    et tres puissante princesse <rs ref="#0307">Luyse</rs><note n="7"
+                        type="crit_app">Textvariante: Dumont, Leonard: Louise. Sachanmerkung: Luise
+                        von Savoyen (1476-1531), Witwe Karls, Gf. von Angoulême (1459-1496), war
+                        Regentin während der Abwesenheit ihres Sohnes Franz I. aus
+                        Frankreich.</note>, mere dudit seigneur, duchesse d' Angoulmois<note n="8"
+                        type="crit_app">Dumont, Leonard: Angoumois.</note> et d' Anjou etc.<note
+                        n="9" type="crit_app">Leonard: [Auslassung:] etc.</note>, Regente en France,
+                    avons pour et au nom du Roy notredit seigneur et de madite Dame sa mere traicté,
+                    accordé et conclud, traitons, accordons et concluons par ces presents avec hault
+                    et puissant seigneur <rs ref="#0308">Henry, comte de Nassau</rs><note n="10"
+                        type="annotation">Heinrich III., Graf von Nassau (1483-1538),
+                        niederländischer Edelmann, Militär und Diplomat Karls V., seit 1515
+                        Statthalter für Holland, Seeland und Westfriesland.</note>, marquis de
+                        Zonctte<note n="11" type="crit_app">Dumont, Leonard: Santen.</note> etc.,
+                    grand et premier chambellan, et nobles seigneurs <rs ref="#0309">Mercurin comte
+                        de Gatynara</rs><note n="12" type="annotation">Mercurino de Gattinara
+                        (1456-1543), burgundischer Kanzler.</note>, de Vallence etc., grand
+                    chancellier, <rs ref="#0310">Laurens de Gorrevod</rs><note n="13"
+                        type="crit_app">Textvariante: Dumont, Leonard: Gourvod. Sachanmerkung:
+                        Laurent de Gorrevod. Keine weiteren Angaben ermittelt.</note>, comte de
+                    Pontdevaux, mareschal de Bourgogne, grand maistre d' ostel<note n="14"
+                        type="crit_app">Dumont, Leonard: Maître d' Hôtel.</note>, <rs ref="#0311"
+                        >Adrien de Croy</rs>, baron de Reux etc., second Chambellan, depputez de
+                    tres hault, tres exellant et tres puissant prince <rs ref="#pp0008">Charles
+                        Cinquieme</rs><note n="15" type="annotation">Karl V. (1500-1558), Kg. von
+                        Spanien seit 1516, Reichsoberhaupt. seit 1519, Ks. 1530, 1556
+                        abgedankt.</note> par la dyvine clemence esleu<note n="16" type="crit_app"
+                        >Dumont, Leonard: &amp;c. [Auslassung:] esleu.</note> empereur des Romains
+                    tousjours auguste, Roy catholique des Espagnes etc,. et Reverend pere en dieu
+                    maistre Cubert, par miseration dyvine evesque de Londres, garde du privé scel,
+                    et maistre<note n="17" type="crit_app">Dumont, Leonard: Messire.</note>
+                    <rs ref="#pp0312">Richard Sanson</rs><note n="18" type="crit_app">HHStA Wien
+                        Belgien PA 64, Konv. 5, fol. 190r-192v: Sampson.</note>, doyen de la
+                    chapelle, ambassadeurs de tres hault et tres puissant prince <rs ref="#pp0313"
+                        >Henry Huitiesme</rs>, par la grace de dieu Roy d' Angleterre, deffenseur de
+                    la foy etc., une bonne, seure et loyalle tresve et abstinence de guerre, tant
+                    par mer,<note n="19" type="crit_app">Dumont, Leonard: [Einschub:] &amp;.</note>
+                    eux douces que par terre entre lesdits princes pour tous leurs royaumes, pays,
+                    terres, seigneuries, vassaux et subjetz en la forme qui s'ensuyt. <lb/>A ssavoir
+                    que ladite tresve et abstinence de guerre comencera dès le jour de la
+                    publication d' icelle, laquelle publication sera faicte de la partie desdits
+                    trois princes, chacun en ses frontieres, tant de France, d' Espagne, Itallie, d'
+                    Angleterre, que pays de Flandre, dedans ung mois qui escherra le xi jour de
+                    septembre prochainement venant, ledit jour incluz, et durera ladite abstinence
+                    jusques au premier jour<note n="20" type="crit_app">Dumont, Leonard:
+                        [Auslassung:] jour.</note> de Janvier aussi prochainement venant, ledit jour
+                    aussi inclus. En laquelle abstinence sont <note n="21" type="crit_app">Dumont,
+                        Leonard: [Einschub:] aussi.</note>compris tres hault et tres puissant prince
+                        <rs ref="#pp0011">Fernand</rs>, par la grace de dieu archiduc d'
+                        Austrie<note n="22" type="crit_app">Dumont, Leonard: Autriche.</note>,
+                    Infante des Espagnes, duc de Stire, de Carinte, de Carniole, de Wirtemberg etc.,
+                    conte de Tirol, de Ferrete etc., Et tres haulte et puissante princesse Dame <rs
+                        ref="#pp0314">Marguerite d' Austrie</rs>, contesse de Bourgongne etc.,
+                    douariere de Savoy, pour leurs pays, seigneuries et subjetz. <lb/>Pendant
+                    laquelle tresve et abstinence madame la <rs ref="#pp0315">duchesse d'
+                        Alencon</rs><note n="23" type="annotation">Margarete von Angoulême
+                        (1492-1549), verheiratet in erster Ehe mit Karl IV. von Alençon (1489-1525),
+                        seit 1527 mit Heinrich II., Kg. von Navarra (1503-1555).</note>, seur dudit
+                    Roy tres chrestien, pourra librement et sans empeschement quelconque se
+                    transporter ès Royaumes d' Espagne par<note n="24" type="crit_app">Veraltete
+                        Präposition, gebildet aus de und vers; heute nur noch: vers.</note> devers
+                    ledit seigneur Empereur, selon la forme du saufconduyt qui sur ce a esté expedié
+                    par sa majesté. <lb/>Aussi pendant ladicte tresve et abstinence pourra monsieur
+                        <rs ref="#pp0316">Charles</rs><note n="25" type="crit_app">Karl von Bourbon
+                        (1490-1527), Konnetabel von Frankreich, aber seit 1523 im Dienst Karls V.
+                        Sein Tod als Oberbefehlshaber über das habsburgische Heer bei der Belagerung
+                        Roms löste 1527 das Sacco di Roma aus.</note>, duc de Bourbonnois et d'
+                    Auvergne, librement, seurement et sans empeschement quelconque passer par mer
+                    avec telle armée et compagnie que bon luy semblera pour s' en venir d' Ytalye en
+                    Espagne devers ledit seigneur empereur, lesquels Roy tres chretien et dame
+                    Regente sa mere bailleront, si desja baillé n'est, bon et seur saufconduyt audit
+                    sieur de Bourbon pour sondit passage avec toute sa compagnie. Et pour ce<note
+                        n="26" type="crit_app">Dumont, Leonard: pource.</note> qu' il y a doubte si
+                        jà<note n="27" type="crit_app">jà: veraltet für: déjà.</note> ledit
+                    saufconduyt est baillé ou non en tous advenemens<note n="28" type="crit_app"
+                        >Dumont: éyenemens. Leonard: évenements.</note> sera envoyé et delivré
+                    iceluy saufconduyt en la ville de Perpignan ès mains du cappitaine de l'
+                    Empereur illec<note n="29" type="crit_app">Illec: Vergleiche lat. illic.</note>
+                    en dedans ung mois prochainement venant. <lb/>Pourront aussi pendant ladite
+                    tresve et abstinence passer librement les ambassadeurs avec leur train, les
+                    messagers, courriers et postes d'une part et d'autre par les royaulmes et
+                    seigneuries desdits trois princes sans empeschement ou desturbier quelconque et
+                    dès maintenant et dès ce present jourd'uy pourront seurement et sans aucun
+                    empeschement passer par France les messagers et courriers qui porteront la
+                    coppie des presentes pour faire ladite publication. <lb/>Et pareillement
+                    pourront les subjects de l' un ou de l' autre party librement pescher et naviger
+                    par la mer de sorte que toute pescherie soit libre et franche entre les subjectz
+                    d' une part et d' autre. Tout ainsi comme l' on fouloit faire<note n="30"
+                        type="crit_app">Faire: Eventuell fallait.</note> avant la guerre et au temps
+                    de paix. <lb/>Desquelles choses cy dessus escriptes nous, arcevesque d' Ambrun,
+                    premier president, et sieur de Bryon, ambassadeurs dessusdits, nous faisans
+                        faire<note n="31" type="crit_app">HHStA Wien Belgien PA 64, Konv. 5, fol.
+                        190r-192v: fors. Dumont, Leonard: faisons forts.</note> pour le Roy notredit
+                    seigneur et madite dame sa mere, promettons<note n="32" type="crit_app">Dumont,
+                        Leonard: promettant.</note> par noz foi et sermens que nous baillerons à
+                    l'empereur et ausdits ambassadeurs d' Angleterre en la court dudit Empereur
+                    dedans deux mois prochainement<note n="33" type="crit_app">Dumont, Leonard:
+                        prochain.</note> venans les<note n="34" type="crit_app">Dumont, Leonard:
+                        lettres.</note> patentes et ratiffications de ladicte dame Regente en France
+                    expediés en forme deue et lors leur ferons apparoit suffisament du pouvoir et
+                    regence de madite dame et de la reception et veriffication qui en a esté faicte
+                    par la court de Parlement à Paris, moyennant que lesdits depputez de l' empereur
+                    et ambassadeurs d' Angleterre nous bailleront audit jour Ratiffications de
+                    leursdits seigneurs et maistres. Et en tesmoing de ce nous avons signé ce
+                    present traicté de nos soings<note n="35" type="crit_app">Es folgt
+                        durchgestrichen: &lt;sellé du sorte de noz mains&gt;.</note> en la ville de
+                    Tollede, le xieme jour d'Aoust l'an mil cinq cens vingt cinq. <lb/><rs
+                        ref="#0080">Fran[cois] de Tour[non]</rs>, Ar[cevesque] d' Ambrun <lb/><rs
+                        ref="#0317">Jehan de Selve</rs>, premier President <lb/><rs ref="#0305"
+                        >Philipe Chabot</rs><note n="36" type="crit_app">Dumont, Leonard: Et au
+                        dessous; Collationé à l' Original, Lalemand.</note>
+                    <lb/>
+                    <lb/>
+                    <lb/>Die Vorlage wurde von Dr. Anuschka Tischer (Marburg) vorbereitet.</p>
+            </div>
+        </body>
+        <back>
+            <listBibl>
+                <bibl>Lutz, Kaiser Karl V. Duhamel, La captivité de François I. Tournon,
+                    Correspondance du Cardinal Tournon.</bibl>
+            </listBibl>
+        </back>
+    </text>
+</tei:TEI>

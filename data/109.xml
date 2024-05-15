@@ -1,0 +1,2159 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE tei SYSTEM "../resources/FriVer_DTD.dtd">
+
+<?xml-model href="../resources/FriVer.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns="http://www.tei-c.org/ns/1.0"
+    xml:id="pa000299-0109">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title level="s">European peace treaties of the pre-modern era in data / Europäische
+                    Friedensverträge der Vormoderne in Daten (FriVer+)</title>
+                <title when="1653-05-04" xml:id="t109" when-custom="1653 V 4" level="a"
+                    ref="https://www.ieg-friedensvertraege.de/treaty/t-109-1-de.html">Grenzrezess
+                    von Stettin</title>
+            </titleStmt>
+            <editionStmt>
+                <edition> Digital edition according to <ref target="http://www.tei-c.org/">TEI
+                        P5</ref>
+                </edition>
+                <funder>
+                    <ref target="https://www.text-plus.org/">TEXT+</ref>
+                </funder>
+                <editor role="http://id.loc.gov/vocabulary/relators/edt"
+                    ref="https://orcid.org/0000-0002-8741-5916">
+                    <persName>Jaap Geraerts</persName>
+                    <note type="crit_app">The transformation and enrichment of the data is done by
+                        Jaap Geraerts (IEG Mainz). The other members of the FriVer+ team are Fabian
+                        Cremer, Ines Grund, and Thorsten Wübbena (all IEG Mainz).</note>
+                    <note type="crit_app"> The original data has been created by the <ref
+                            target="https://www.ieg-friedensvertraege.de">team of scholars</ref> who
+                        were part of the Europäische Friedensverträge der Vormoderne project. This
+                        project was lead by Prof. Dr. Heinz Duchhardt and was based at the Leibniz
+                        Institute of European History in Mainz. </note>
+                </editor>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>
+                    <orgName ref="http://www.isni.org/0000000119314040">Leibniz-Institut für
+                        Europäische Geschichte Mainz</orgName>
+                </publisher>
+                <distributor>
+                    <orgName ref="http://www.isni.org/0000000110101946">Universitäts- und
+                        Landesbibliothek Darmstadt</orgName>
+                </distributor>
+                <idno type="ISIL">http://lobid.org/organisation/DE-17</idno>
+                <date type="issued" when="2023-12-23"/>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">
+                        <p xml:lang="en">This file is licensed under the terms of the Creative
+                            Commons License CC-BY 4.0 (Attribution 4.0 International)</p>
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <repository xml:id="r3">Berlin GStAPK <note type="crit_app">Geheimes Staatsarchiv
+                        Preußischer Kulturbesitz Berlin, Registratur-/Altsignatur: VI. HA, Nr. 771
+                        (M) = Bestellsignatur: I. HA GR, Rep. 11 Staatsvertraege, Nr. 817. Findbuch:<lb/>
+                        <ref
+                            target="http://archivdatenbank.gsta.spk-berlin.de/midosasearch-gsta/MidosaSEARCH/i_ha_gr_rep_11_stv/index.htm?kid=GStA_i_ha_gr_rep_11_stv_56&amp;uid=GStA_i_ha_gr_rep_11_stv_I_HA_GR_Rep_11_Staatsvertraege_Nr_817"
+                            >http://archivdatenbank.gsta.spk-berlin.de ...</ref></note>
+                </repository>
+                <msDesc>
+                    <p>[Transkriptionsgrundlage:] GSABerlin VI HA Nr.771: Ratifikation Schwedens,
+                        Stockholm 1653 V 14* (Vertrag mit 41 Art; 1 US 1 Siegel Christine von
+                        Schweden, Prunkausfertigung, blauer Samt, Siegel fehlt, Pergament; 23 fol.,
+                        lat.)** <lb/>Ratifikation Brandenburgs, Cölln a.d. Spree 1653 V 20 [z. Zt.
+                        noch nicht nachgewiesen]. </p>
+                    <p>[Abb. können aus rechtlichen Gründen nicht gezeigt werden.] <lb/>
+                    </p>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p> The data in this XML file, originally created by the project <ref
+                        target="https://www.ieg-friedensvertraege.de/vertraege">Europäische
+                        Friedensverträge der Vormoderne online</ref> has been transformed in
+                    accordance with <ref target="http://www.tei-c.org/">TEI P5</ref> as part of the
+                    project <ref
+                        target="https://www.ieg-mainz.de/en/research/research-projects/european-peace-treaties-of-the-pre-modern-era-in-data"
+                        >Europäische Friedensverträge der Vormoderne in Daten (FriVer+)</ref>
+                </p>
+            </projectDesc>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="la" xml:id="lan6">Latein</language>
+            </langUsage>
+        </profileDesc>
+    </teiHeader>
+    <standOff>
+        <listPerson>
+            <person role="signatory" xml:id="p27">
+                <persName ref="https://www.wikidata.org/wiki/Q157367">
+                    <name>Brandenburg - Preußen</name>
+                </persName>
+            </person>
+            <person role="signatory" xml:id="p99">
+                <persName ref="https://explore.gnd.network/gnd/4077258-5">
+                    <name>Schweden</name>
+                </persName>
+            </person>
+            <person xml:id="pp0118">
+                <persName ref="https://explore.gnd.network/gnd/118520652">
+                    <name>Christina of Sweden</name>
+                </persName>
+            </person>
+            <person xml:id="pp0119">
+                <persName ref="https://explore.gnd.network/gnd/189438886">
+                    <name>Friedrich Wilhelm (Brandenburg)</name>
+                </persName>
+            </person>
+            <person xml:id="pp0120">
+                <persName ref="https://explore.gnd.network/gnd/1069585637">
+                    <name>Arvid Forbus</name>
+                </persName>
+            </person>
+            <person xml:id="pp0121">
+                <persName ref="https://explore.gnd.network/gnd/129892599">
+                    <name>Johan Nicodemi Lilljeström</name>
+                </persName>
+            </person>
+            <person xml:id="pp0122">
+                <persName>
+                    <name>Heinich von Schwallenberg</name>
+                </persName>
+            </person>
+            <person xml:id="pp0123">
+                <persName>
+                    <name>Johannes Georg von Borne</name>
+                </persName>
+            </person>
+            <person xml:id="pp0124">
+                <persName>
+                    <name>Johannes Friedrich von Buch</name>
+                </persName>
+            </person>
+            <person xml:id="pp0125">
+                <persName>
+                    <name>Franz von Pahlen</name>
+                </persName>
+            </person>
+            <person xml:id="pp0126">
+                <persName ref="https://explore.gnd.network/gnd/138075018">
+                    <name>Friedrich Runge</name>
+                </persName>
+            </person>
+            <person xml:id="pp0127">
+                <persName ref="https://explore.gnd.network/gnd/102307229">
+                    <name>Johann Friedrich (Pommern)</name>
+                </persName>
+            </person>
+            <person xml:id="pp0128">
+                <persName ref="https://explore.gnd.network/gnd/10235913X">
+                    <name>Bogislaw XIII (Pommern)</name>
+                </persName>
+            </person>
+            <person xml:id="pp0129">
+                <persName ref="https://explore.gnd.network/gnd/100123937">
+                    <name>Ernst Ludwig (Pommern)</name>
+                </persName>
+            </person>
+            <person xml:id="pp0130">
+                <persName ref="https://explore.gnd.network/gnd/102324204">
+                    <name>Barnim X (Pommern)</name>
+                </persName>
+            </person>
+            <person xml:id="pp0131">
+                <persName ref="https://explore.gnd.network/gnd/137808453">
+                    <name>Casimir VII (Pommern)</name>
+                </persName>
+            </person>
+            <person xml:id="pp0132">
+                <persName ref="https://explore.gnd.network/gnd/100014704">
+                    <name>Adolf Friedrich I. von Mecklenburg-Schwerin</name>
+                </persName>
+            </person>
+            <person xml:id="pp0133">
+                <persName ref="https://explore.gnd.network/gnd/102120153">
+                    <name>Bogislaw XIV (Pommern)</name>
+                </persName>
+            </person>
+            <person xml:id="pp0134">
+                <persName>
+                    <name>Erasmus Kossowen</name>
+                </persName>
+            </person>
+            <person xml:id="pp0135">
+                <persName>
+                    <name>Georg von Zitzewitz</name>
+                </persName>
+            </person>
+        </listPerson>
+        <listPlace>
+            <place xml:id="loc58">
+                <placeName ref="https://explore.gnd.network/gnd/4057392-8">Stettin</placeName>
+            </place>
+        </listPlace>
+    </standOff>
+    <text>
+        <front>
+            <div type="Drucke">
+                <p>[Kollationierungsvorlagen:] CTS 3, S. (1)3-50. Dumont 6/2, S.
+                    247-259.<lb/>[Weitere Drucke:] Diar. Europ. continuat 7, S. 513. Londorp 8, S.
+                    851. Lünig, Reichsarchiv pars spec. III, S. 142. Dähnert, Pommersche und
+                    rügische Landesurkunden 1, S. 95.<lb/>[Regest:] Moerner, S.166-174.<lb/></p>
+            </div>
+            <div type="Inhalt">
+                <p>Ratifikationsformel Schwedens<lb/>Grenzfestsetzung in Pommern in Folge Art.10 des
+                    Westphälischen Friedens. Kommissarien seit 1650 IV 2 in Stettin.</p>
+                <p>[Art. 1-23 Gebiet und Grenzfestlegung]</p>
+                <p>Art.1 Besitzverhältnisse in Vorpommern (Schweden).<lb/>Art.2 Besitzverhältnisse
+                    in Hinterpommern (Brandenburg).<lb/>Art.3-21 Grenzziehungsdetails mit
+                    Zugehörigkeit der Orte und Ausübung der Rechte. Festlegung der Abtretungen.
+                    Namentliche Auflistung der Orte.<lb/>Art. 22 Brandenburg gibt Kamin an Schweden
+                    ab.<lb/>Art. 23 Detailbeschreibung der Grenze.<lb/>Art. 24 Domkapitel von Kamin.
+                    Gemeinsame Rechte Brandenburgs und Schwedens.<lb/>Art. 25 Fortbestand des
+                    Domkapitels. Deputierte für Streitigkeiten. Festlegungen für die Ausübung der
+                    Jurisdiktionsrechte.<lb/>Art. 26 Aufhebung der Rechte aus den pommerschen
+                    Erbteilungsverträgen.<lb/>Art. 27 Schwedisches Reservat der Eventualsukzession
+                    in Hinterpommern. <lb/>Art. 28 Administration Hinterpommern und Kamin.<lb/>Art.
+                    29 Schwedische Expektanz auf die Neumark, Sternberg, Vierraden,
+                    Löckenitz.<lb/>Art. 30 Schweden gibt die halben Seezölle in Hinterpommern
+                    ab.<lb/>Art. 31 Freiheit Handel und Verkehr zwischen Vor- und
+                    Hinterpommern.<lb/>Art. 32 Bestand der Rechtsnormen.<lb/>Art. 33 Teilung der
+                    Landesschulden.<lb/>Art. 34 Festlegung des Teilungsverhältnisses.<lb/>Art. 35
+                    Kammerschulden<lb/>Art. 36 Beiträge zu Reichs- und Kreissteuern.<lb/>Art. 37
+                    Bestattung des letzten Herzogs von Pommern Bogislaw XIV.<lb/>Art. 38
+                    Aktenübergabe.<lb/>Art. 39 Schlichtung Geldansprüche aus Stockholmer
+                    Waffenstillstand 1640(1641).<lb/>Art. 40 Beilegung offener Grenzfragen binnen 2
+                    Jahren.<lb/>Art. 41 Übergabe.</p>
+                <p>Vollmachten Schwedens.<lb/>Vollmachten Brandenburgs.<lb/>Ratifikationsformel
+                    Schwedens.</p>
+                <p/>
+            </div>
+            <div type="Kommentar">
+                <p>Artikel 10 des Friedens von Osnabrück hatte eine Teilung Pommerns zwischen
+                    Schweden (Vorpommern) und Brandenburg (Hinterpommern) festgelegt. Der
+                    Grenzverlauf wurde nicht exakt definiert, sondern sollte  vor allem zwischen
+                    dem östlichen Ufer der Oder und der Ostsee - in Verhandlungen zwischen Schweden
+                    und Brandenburg festgelegt werden. <lb/>Nach dem Westphälischen Frieden mußte
+                    Hinterpommern von den Schweden geräumt werden. Brandenburg bestand auf einer
+                    sofortigen Räumung und Grenzfestlegung. Schweden hingegen wollte das Gebiet erst
+                    übergeben, wenn das Assoziationsdiplom des Brandenburger Kurfürsten ausgeliefert
+                    und die Grenze durch eine Kommission vor Ort festgelegt worden war. Brandenburg
+                    bestand zudem auf einigen Rechten , die die Stettiner Herzöge im Herzogtum
+                    Wolgast ausgeübt hatten. Anfang 1649 hielt sich der Geheime Rat Ewald von Kleist
+                    im Auftrag Kurfürst Friedrich Wilhelms in Stockholm auf, um über die strittigen
+                    Fragen zu beraten. Am 26. Juni 1650 legte der Friedens-Executions-Hauptrezeß
+                    (Nürnberg) die Einzelheiten der Friedensvertragsausführung fest und beschied,
+                    daß die Abtretung Hinterpommerns erst nach Klärung der Grenzfrage vollzogen
+                    werden sollte. <lb/>Im März 1650 nahm eine Kommission zur Grenzregulierung ihre
+                    Arbeit auf. Schweden legte am 17. Mai 1650 ein Konzept vor. Eine Einigung war
+                    jedoch vorerst nicht zu erzielen, da Schweden Brandenburg den Zugang zur Ostsee
+                    verweigern wollte, Brandenburg hingegen auf einem Schiffsweg (Gollnow/Ihna) in
+                    das Haff bestand, da dies auch für den Handel Stargards von besonderer Bedeutung
+                    war. Am 23. März 1651 lenkte Schweden in einem neuen Grenzplan teilweise ein,
+                    auf Golnow und Cammin jedoch mußte Brandenburg schließlich verzichten. Am 24.
+                    November 1651 wurde die Grenze vor Ort gezogen. Dissenz in Finanz- und
+                    Zollfragen zögerte jedoch einen Vertragsabschluß weiter hinaus. <lb/>Am 4. Mai
+                    1653 wurde schließlich in Stettin der Vertrag unterzeichnet , und am 1. Juni
+                    1653 begann die Einräumung Hinterpommerns. <lb/>Der Vertrag definierte die
+                    Grenze zwischen Schwedisch-Pommern und Hinterpommern sowie die Restitution des
+                    letzteren. Den Details der Grenzziehung folgen Bestimmungen hinsichtlich der
+                    staats- und privatrechtlichen Verhältnisse des geteilten Landstrichs. Anknüpfend
+                    an die Regelungen von 1648 wurde eine territoriale Zweiteilung festgelegt.
+                    Schweden erhielt Vorpommern mit Stettin, Stralsund und Rügen; Hinterpommern mit
+                    Cammin ging an Brandenburg. Das Camminer Domkapitel verblieb gemeinsam bei
+                    Schweden und Brandenburg, das Bistum Cammin hingegen unterstand allein dem
+                    Kurfürsten. Die Vertragspartner entsagten allen Rechten aus den Pommerschen
+                    Erbteilungsverträgen (1569), Schweden erhielt jedoch das Recht der
+                    Eventualsukzession und -huldigung sowie der Simultaninvestitur beim Aussterben
+                    der männlichen brandenburgischen Linie. Entgegen den Regelungen von 1648 gestand
+                    Schweden die halben Seezölle Hinterpommerns Brandenburg zu. <lb/></p>
+            </div>
+            <div type="Kontext">
+                <p>1478 <lb/>Vereinigung der pommerschen Landesteile. Pommern wird
+                    reichsunmittelbar. <lb/>16. August 1529 <lb/>Der Grimnitzer Vertrag regelt den
+                    Erbfall an Brandenburg bei Aussterben des Pommerschen Geschlechtes der Greifen.
+                    Reichsunmittelbarkeit Pommerns. <lb/>1532 <lb/>Pommern zerfällt in die
+                    Teilherzogtümer Pommern-Stettin und Pommern-Wolgast (bis 1625). <lb/>1569
+                    <lb/>Pommersche Erbteilung. Im Erbvertrag von Jasenitz teilten die vier Söhne
+                    Philipps I. die Herrschaft unter sich auf (Stettin, Wolgast, Barth und
+                    Rügenwalde). <lb/>1606 <lb/>Tod Bogislaw XIII. von Pommern; die Herrschaft wird
+                    zunächst unter seine vier Söhne aufgeteilt. Als einziger Überlebender regiert
+                    Bogislaw XIV. ab 1625 als letzter seines Geschlechtes (Greifen) Pommern alleine
+                    und ungeteilt. <lb/>1618-1648 <lb/>Dreißigjähriger Krieg. Pommern vertritt
+                    zunächst eine Neutralitätspolitik, muß aber 1627 kaiserliche und ab 1630
+                    schwedische Truppen ins Land lassen. Schweden erobert Teile Pommerns (darunter
+                    auch Stettin). <lb/>25. August 1630 <lb/>Stettiner Allianz zwischen Bogislaw und
+                    Schweden. Pommern wird de facto außenpolitisch und militärisch abhängig von
+                    Schweden. Die Verpflichtungen gegenüber Kaiser und Reich bleiben jedoch
+                    bestehen. <lb/>10. März 1637 <lb/>Tod des letzten Pommernherzogs Bogislaw XIV.
+                    Erbanspruch Brandenburgs. Schweden akzeptiert den Erbfall an Brandenburg nicht
+                    und richtet eine Besatzungsregiment ein. <lb/>24. Oktober 1648
+                    <lb/>Westphälischer Frieden. Über Pommern wird in Osnabrück verhandelt. Von
+                    Oktober 1645 bis Mai 1647 ist Pommern mit 2 Gesandten auf dem Friedenskongress
+                    vertreten, die jedoch bei Schweden und Brandenburg akkreditiert sind.
+                    Hinterpommern und das Bistum Cammin fallen an Brandenburg, Vorpommern (mit den
+                    Häfen Stettin, Stralsund und der Insel Rügen) an Schweden, bleibt jedoch Teil
+                    des Römischen Reiches. Schweden erhält diese als Reichslehen. Schweden ist damit
+                    Reichsstand mit Sitz und Stimme auf den Reichstagen. Die pommerschen
+                    Landesordnungen werden garantiert. Dies bleibt bis zum Ende des Heiligen
+                    Römischen Reichs die Rechtsgrundlage der schwedischen Herrschaft in Vorpommern.
+                    <lb/>5. Mai 1653 <lb/>Stettiner Grenzrezeß. <lb/>29. Juni 1679 <lb/>Friede von
+                    St. Germaine en Laye (Nimwegen). Vorpommern bleibt bei Schweden. Schweden tritt
+                    die Gebiete jenseits der Oder an Brandenburg ab. <lb/>21. Januar 1720
+                    <lb/>Friede von Stockholm: Schweden tritt große Teile Vorpommerns an Preußen ab.
+                    Schwedisch bleibt der nördliche Teil mit Stralsund, Greifswald und Rügen. </p>
+            </div>
+        </front>
+        <body>
+            <div type="Edition">
+                <p>Nos <rs ref="#pp0118"></rs>Christina<note n="1" type="annotation">Kristina (1644-1654), Königin von
+                        Schweden.</note>, Dei gratia, Suecorum, Gothorum, Vandalorumque regina,
+                    magna princeps Finlandiae, dux Esthoniae, Careliae, Bremae, Verdae, Stetini,
+                    Pomeraniae, Cassubiae et Vandaliae, princeps Rugiae, domina Ingriae et Wismariae
+                    etc. Notm testatumque facimus universis ac singulis, quorum interest, aut
+                    quomodo libet interesse potest. Postquam compositis Osnabrugis ac monasterii
+                    Westphalorum die 14/24 octobris anno MDCXLVII belli motibus, reductaque per Dei
+                    omnipotentis clementiam universali pace, minutiora non nulla ducatum Pomeraniae
+                    concernentia, in instrumento&nbsp;<note type="crit_app" n="2">Dumont, CTS: Inst.
+                        (auch im Folgenden).</note> pacis ad specialem tractatum inter nos,
+                    regnumque nostrum ex una et celsissimum principem, cognatum et amicum nostrum
+                    charissimum, dominum <rs ref="#pp0119">Fridericum Wilhelmum</rs><note n="3" type="annotation">Friedrich
+                        Wilhelm (1640-1688), Kurfürst von Brandenburg.</note>, marchionem
+                        Brandenburgensem<note n="4" type="crit_app">Im gesamten Text: uneinheiltiche
+                        Schreibweise Brandeburg / Brandenburg.</note>, sacri Romani Imperii
+                    archi-camerarium et principem electorem, Magdeburgi, Prussiae, Juliae, Cliviae,
+                    Montium, Stetini, Pomeraniae, Casubioru<note n="5" type="crit_app">Dumont, CTS:
+                        Cassubiorum.</note>, Vandalorumque, nec non in Silesia, Crosnae et Carnoviae
+                    ducem, burggravium Noribergae, principem Halberstadii et Mindae, comitem
+                    Marchiae et Ravensburgi, dominum in Ravenstein etc., ex altera parte, pro
+                    exactiori eorum compositione in loco facienda remissa sint. Nosque à parte
+                    nostra id negotii certis ministris ac commissariis nostris vigore plenipotentiae
+                    nostrae dederimus; ii cum suae dilectionis commissariis plenipotentibus Stetini
+                    congressi, post exantlatos varios labores, dicta minutiora in hanc, quae
+                    sequitur, conventionem redegerunt: <lb/>
+                    <lb/>Notum testatumque sit universis ac singulis, quorum interest, aut quomodo
+                    libet interesse potest; cum post sancitam Anno MDCXLVIII Osnabrugis ac
+                    monasterii Westphalorum universalem&nbsp;<note n="6" type="crit_app">Dumont,
+                        CTS: Auslassung: Universalem.</note> pacem, ejusque conditas et ab omnibus
+                    interessatis adprobatas tabulas, minutiora non nulla, exactiorem limitum
+                    definitionem, ac in adjacente terra ab initio territrorii regii usque in mare
+                    Balthicum orientalis latitudinis determinationem ac descriptionem inter
+                    serenissimam ac potentissimam principem ac dominam, dominam Christinam,
+                    Suecorum, Gothorum, Vandalorumque reginam, magnam principem Finlandiae, ducem
+                    Esthoniae, Careliae, Brehmae, Verdae, Stetini, Pomeraniae,Cassubiae et
+                    Vandaliae, principem Rugiae, dominam Ingriae et Wismariae<note n="7"
+                        type="crit_app">Dumont, CTS: statt der Titulatur: etc. (ut supra).</note>,
+                    regnumque Sueciae ab una; et serenissimum principem ac dominum,
+                        d[ominum]&nbsp;<note n="8" type="crit_app">Dumont, CTS: Auslassung.</note>
+                    <rs ref="#pp0119">Fridericum Wilhelmum</rs>, marchionem Brandenburgensem, sacri Romani Imperii
+                    archi-camerarium et principem electorem<note n="9" type="crit_app">Dumont, CTS:
+                        Einschub: Brandenburgicum etc. (ut supra). Auslassung der Titulatur.</note>,
+                    Magdeburgi, Prussiae, Juliae, Cliviae, Montium, Stetini, Pomerainae,
+                    Cassubiorum, Vandalorumque, nec non in Silesia, Crosnae et Carnoviae ducem,
+                    burgravium Noribergae, principem Halberstadii et Mindae, comitem Marchae ac
+                    Ravensburgi, dominum in Ravenstein, ab altera parte; aliasque res huic connexas,
+                    vel alioquin controversas concernentia, indecisa remanserint, quorum amicabilis
+                    compositio ad specialem tractatum inter utriusque partis commissarios deputandos
+                    in ipsa Pomerania instituendum, vigore articuli XI instrumenti pacis remissa
+                    est. Sacraquae&nbsp; <note type="crit_app" n="10">Dumont, CTS: Sacra.</note> sua
+                    regia majestas nobis, respective excubiarum pedestris militiae praefecto
+                    supremo, ac vice-gubernatori Pomeraniae; vice praesidi collegii regiminis
+                    ibidem, ac regni secretario status, nec non consiliariis suis secretioribus
+                    <rs ref="#pp0120">Arssuido Forbesio</rs><note n="11">Dumont, CTS: Arfuido Forbesio. Arvid Forbus
+                        (1598-1665), General, Geheimer Staatsrat.</note>, baroni in Kumogardt<note
+                        n="12" type="crit_app">Dumont, CTS: Cumogard.</note>, nec non in Artsuöö et
+                        Jackarbii;<note type="crit_app" n="13">Dumont, CTS: Archivo et
+                        Jacarbii.</note> <rs ref="#pp0121"></rs>Johanni Nicodemi Lilienströhm<note n="14" type="crit_app"
+                        >Dumont, CTS: Lillienstrom. Johan Nicodemi Lilljeström (1597-1657),
+                        Diplomat, Staatsminister.</note>&nbsp; in Eka, Boo et Sandershagen; ac
+                    <rs ref="#pp0122">Henrico a Schwallenberg</rs><note n="15">Dumont, CTS: Sualenberg. Heinich von
+                        S(ch)wallenberg (nicht ermittelt).</note>&nbsp; in Hoykendorff,
+                    haereditariis; sua veri&nbsp;<note type="crit_app" n="16">Dumont, CTS:
+                        vero.</note> serenitas electoralis nobis respective cancellariis
+                    Neo-Marchiae, ac ulterioris Pomeraniae, nec non consiliariis suis secretioribus
+                    ac provincialibus <rs ref="#pp0123">Johanni Georgio a Borne</rs>&nbsp;<note type="crit_app" n="17"
+                        >Dumont, CTS: Born. Johannes Georg von Borne (nicht ermittelt).</note> in
+                    Dolgen, Borne et Bernöwichen<note n="18">Dumont, CTS: Bernourichen.</note>,
+                    <rs ref="#pp0124">Johanni Friderico a Buch</rs><note n="19" type="crit_app">Johannes Friedrich von Buch
+                        (nicht ermittelt).</note>, in Stolpe, Greiffenberg&nbsp;<note
+                        type="crit_app" n="20">Dumont, CTS: Geffenberg.</note> et Krieven<note
+                            n="21">Dumont, CTS: Grievem.</note>, <rs ref="#pp0125">Francisco a Pahlen</rs><note n="22">Dumont,
+                        CTS: Dalen. Franz von Pahlen (nicht ermittelt).</note>&nbsp; in Clebow,
+                        Brunnichen<note n="23">Dumont, CTS: Bruniken.</note>&nbsp;&nbsp;et
+                        Falckenberg<note n="24" type="crit_app">Dumont, CTS: Falkenberg.</note>,
+                    haereditariis, nec non <rs ref="#pp0126">Friderico Rungio</rs><note n="25" type="annotation">Friedrich
+                        Runge (gest. 1655), Staatsminister; er vertrat die Interessen Pommerns
+                        1645-1647 in Osnabrück.</note>&nbsp;&nbsp;J.U.D. vel uti suis
+                        commissariis<note n="26" type="crit_app">Dumont, CTS: commissaries
+                        suis.</note>&nbsp; plenipotentibus in mandatis dederint, ut facta primum
+                    super loco ac tempore caeterisque praeparatoriis inceptandi tractatus,
+                    conventione articulos isthuc remissos prae manibus sumeremus, eorumque<note
+                        n="27" type="crit_app">Dumont, CTS: eorum.</note>&nbsp;&nbsp;complanationem
+                    ac plenam<note n="28" type="crit_app">Dumont, CTS: debitam.</note>&nbsp;
+                    declarationem, debito adhibito studio, ad effectum perduceremus. <lb/>Nos
+                    proinde die 2 april anni MDCL Stetini congressi, plenipotentias mutuo exhibitas
+                    in eam imprimis formam redigendas necessarium duximus, ne tractatui subsecuturo
+                    hinc remora aliqua objici posset, quo facto, dictis que plenipotentiis (quarum
+                    apographa ad calcem hujus instrumenti de verbo ad verbum adjecta sunt) rite
+                    inter nos commutatis, rem ipsam, invocato nominis Divini auxilio, adgressi, ac
+                    continuato tractatu prosecuti, super exactiore limitum, caeterorumque minutiorum
+                    definitione, praesertim constituenda latitudine orientali ex ulteriori Pomerania
+                    sacrae regiae majestati regnoque Sueciae ex instrumento pacis<note n="29"
+                        type="crit_app">Dumont, CTS: et Inst. Pac. (abgekürzt auch im
+                        Folgendem).</note>&nbsp;&nbsp;competente, caeterisque infra nominandis, ad
+                    ratificationen utrinque principalium nostrorum, in hunc qui sequitur modum,
+                    hosque articulos inter nos convenimus, consensimusque. <lb/>
+                    <lb/>I <lb/>Ac primum quidem et si praedicto pacis instrumento clare ac
+                        &lt;perspiecue&gt;<note type="crit_app" n="30">Unleserlich,
+                    blass.</note>&nbsp; provisum sit, totam Pomeraniam citeriorim, vulgo Vorpommern
+                    dictam, una cum insula Rugia<note n="31" type="crit_app">Rügen.</note>, iis
+                    finibus contentas, quibus sub ultimis Pomeraniae ducibus descriptae et ab iis
+                    possessae fuerant<note n="32" type="crit_app">Dumont, CTS: fuerunt.</note>, cum
+                    omnibus ac singulis ecclesiasticis ac secularibus bonis, iuribus ac privilegiis,
+                    caeterisque in art. 10 § hunc ducatum<note n="33" type="crit_app">Dumont, CTS:
+                        Einschub: etc.</note>, dicti instrumenti pacis specificatis, ab Imperatori
+                    ac Imperio Romano sacrae regiae<note n="34" type="crit_app">Dumont, CTS:
+                        Regae.</note>&nbsp; maj[esta].ti ejusque successoribus ac regno Sueciae
+                    cessas esse; ne qua tamen earum particula sub dubitationis nebula
+                        imposterum<note n="35" type="crit_app">Dumont, CTS: in
+                    posterum.</note>&nbsp; delitescere queat, dicimus ac declaramus, omnia ea ac
+                    singula, quae vigore transactionis seu divisionis haereditariae inter <rs ref="#pp0127">Johannem
+                        Fridericum</rs><note n="36" type="annotation">Johann Friedrich (gest. 1600),
+                        1567-1569 Mitregent in Pommern-Wolgast, 1569-1600 Herzog von
+                        Pommern-Stettin.</note>, <rs ref="#pp0128">Bogislaum</rs><note n="37" type="annotation">Bogilsaw
+                        XIII. (1544-1606), 1567-1569 Mitregent von Pommern-Wolgast, 1603-1606 Herzog
+                        von Pommern-Stettin.</note>, <rs ref="#pp0129">Ernestum Ludovicum</rs><note n="38" type="crit_app"
+                        >Ernst Ludwig (1545 -1592), 1567-1569 Mitregent und 1569-1592 alleiniger
+                            Herzog von Pommern-Wolgast.</note>,&nbsp; <rs ref="#pp0130">Barnimum juniorem</rs><note n="39"
+                        type="annotation">Barnim X. (1600-1603), Herzog von
+                                Pommern-Stettin.</note>&nbsp; et <rs ref="#pp0131">Casimirium</rs><note n="40" type="annotation"
+                        >Casimir VII. (1557-1605), Bischof von Cammin.</note>, duces quondam
+                    Pomeraniae laudatae memoriae, anno MDLXIX inita, ad citeriorem Pomeraniam ac
+                    Rugiae pincipatum, tam quoad capitulum Camminense<note n="41" type="crit_app"
+                        >Dumont, CTS: Caminense (auch unten).</note>, quam caeteras ditiones,
+                    terras, bona, ac jura pertinuisse dignoscuntur, quaeque in secutis temporibus à
+                    <rs ref="#pp0132">ducibus Megapolensibus</rs><note n="42" type="annotation">Mecklenburg. Adolf
+                        Friedrich I. von Mecklenburg-Schwerin (1592-1658).</note>&nbsp; ac episcopis
+                    Schwerinensibus, nec non comitibus Hohensteinensibus ac dominis Vierradae, vel
+                    quibuscunque aliis, emptionis, permutationis aliove legitimo titulo acquisita,
+                    citeriori Pomeraniae vel etiam ulteriori, in partibus regiis adjecta et<note
+                        n="42a">Dumont, CTS: Auslassung: et.</note>&nbsp; ab ultimo duce <rs ref="#pp0133">Bogislao
+                            XIV.</rs><note type="crit_app" n="43">Bogislaw XIV. (1606/1625-1637), Herzog von
+                        Pommern.</note>&nbsp; possessa sunt, in specie vero feudum hohen
+                        Selchow<note n="44" type="crit_app">Hohenselchow. Dumont, CTS:
+                        Hohenschlow.</note>&nbsp; cum pertinentiis, ea etiam omnia ac singula, non
+                    secus ac si de verbo ad verbum hic inserta forent, ad sacram regiam majestatem
+                    ejusque successores reges, regnumque Sueciae pleno jure ac in solidum (salvo
+                    jure privatorum) pertinere debere; nisi in quantum unius alteriusve rei vel
+                    restrictis, vel extensio vel denique permutatio, specialibus hisce pactis
+                    invenitur. <lb/>
+                    <lb/>II <lb/>Quae vero ex ulteriori Pomerania regina ac regno Sueciae per
+                    instrumentum pacis cessa sunt, ea omnia ac singula, sicuti instrumento dicto
+                    specifice inserto ac genuino intellectui satis obvia reperiuntur, nec
+                    dubitationem ullam admittunt; ita praeter caetera tam de toto lacu recenti, seu
+                    mari interno (vulgo dem Frischen Haffe<note n="45" type="crit_app">Dumont, CTS:
+                        Haff.</note>) ejusque sinubus omnibus, in specie Camminensi lacu, seu dem
+                    Camminischen Boddem<note n="46" type="crit_app">Dumont, CTS: Boden.</note>,
+                    omnibusque in dicto mari sitis insulis, inter quas etiam insula Gristow<note
+                        n="47" type="crit_app">Dumont, CTS: Gristaw.</note>&nbsp;&nbsp;ac paludibus
+                    et sylvis caeduis (vulgo Brüche<note n="48" type="crit_app">Dumont, CTS:
+                        Bruche.</note>) portubus, stationibus, littoribus, ripis, jure piscandi,
+                    caeterisque nullo prorsus excluso<note n="49" type="crit_app">Dumont, CTS:
+                        exsoluto.</note>, nec non flumine Odera ejusque ramis, quocunque vocentur
+                    nomine insulisque ac paludibus, nec non sylvis pascuis ac pratis inibi sitis cum
+                    omni eorum jure, a finibus Neo Marchiae supra pagum Fiddechow<note n="50"
+                        type="crit_app">Dumont, CTS: Fiddechaw.</note>, continuo et non
+                        interrupto<note n="51" type="crit_app">Dumont, CTS: Auslassung: non.
+                        Intercepto.</note> &nbsp; ab utraque Oderae parte ductu, usque in Mare
+                    Balthicum, quae tribus Ostiis, Pene<note n="52" type="crit_app">Dumont, CTS:
+                        Peine.</note>, Schwine<note n="53" type="crit_app">Dumont, CTS:
+                        Suine.</note> &nbsp; ac Diwenow<note n="54" type="crit_app">Dumont, CTS:
+                        Diwenaw.</note> &nbsp; panditur, quam de praefecturum Stetinensis ac
+                    Wollinensis, nec non ecclesia marianae ac pedagogii Stetinensis juribus ac
+                    reditibus, non attento an veteres vel novae, ac<note n="55" type="crit_app"
+                        >Dumont, CTS: an.</note> &nbsp; citra vel ultra Oderam et lacum recentem
+                    sitae sint, in specie vero praedio Brusenfelde<note n="56">Dumont, CTS: Praedia
+                        Brusenveldae.</note> &nbsp; cum suis pagis, ac caeteris pertinentiis,
+                    intelligenda veniunt, adeo ut haec omnia ad sacram regiam maj[esta].tem
+                    regnumque Sueciae (singulorum proprietate salva) indubitato pertineant, eorum
+                    vero nihil serenissimo electori reservatum ac respective cessum sit, praeter
+                    sequentia; nempe primum, reditus non nullos ad partem capituli Camminensis
+                    electoralem, ubicunque ii vigore matriculae capituli siti fuerint (salvo
+                    reginae, regibus<note n="57" type="crit_app">Dumont, CTS: Auslassung:
+                        regibus.</note>&nbsp; ac regno Sueciae iure territoriali ) spectantes;
+                    deinde ius territoriale in bona non nulla supra dictae ecclesiae marianae in
+                    territorio electorali sita, de quibus infra specialius; tertio praedia Suckow ac
+                        Sultzhorst<note n="58" type="crit_app">Dumont, CTS: Sukan ac
+                        Sulzhorst.</note>&nbsp;&nbsp;cum pertinentiis, antehac in augmentum
+                        dotalitii<note n="59" type="crit_app">Dumont, CTS: Abweichung ab hier bis
+                        Ende Art.II: viduarum Treptoviensum iterum reducta; denique reditus
+                        nonnullos praefecturae Wollinensis ex praefectura Treptoviensi, Capituli
+                        Caminensi ac districtu Gryphenbergensi juxta matriculam Wollinensem, isthuc
+                        spectantes, quos ex speciali favore S.R.M. Ser. Electori
+                    remittit.</note>&nbsp; viduarum ducalium praefectura Wollinensi adjecta, nunc
+                    vero sub praefecturam Treptoviensem iterum reducta. Denique reditus non nullos
+                    praefecturae Wollinensis, ex praefectura Treptowiensi, capitulo Camminensi, ac
+                    districtu Gryphenbergensi juxta matriculam Wollinensem istud spectantes, quos ex
+                    speciali favore sacra regia maj[es].tas seren[issi].mo electori remittit. <lb/>
+                    <lb/>III <lb/>Ea autem, quae hisce modo dictis accessere ac serenissimae
+                    reginae, ejusque successoribus ac regno Sueciae per praesentem tractatum ac
+                    declarationem intuitu desideratae ac legitimae latitudinis orientalis attributa
+                    sunt, cum varia sint, ac ex pluribus membris (facto inito a suprema parte, qua
+                    territorium regium in terra continente, ab aquis justo remotum spatio,
+                    electorali jungitur usque ad extremum ejusdem haud procul maris Balthici Ostio
+                        Diwenow<note n="60" type="crit_app">Dumont, CTS: Diwerau.</note>) constent,
+                    multisque difficultatibus ac controversiis involuta fuerint, singulatim ac eo
+                    ferme quo complanata sunt ordine, in sequentibus articulis describenda veniunt,
+                    ut ex eorum complexu ductus limitum inter utrumque tam regium quam electorale
+                    territorium definitus<note n="61" type="crit_app">Dumont, CTS:
+                    definitur.</note>, explicatius oculis subjici, ac<note n="62" type="crit_app"
+                        >Dumont, CTS: a.</note>&nbsp; reliqua porro<note n="63" type="crit_app"
+                        >Dumont, CTS: Auslassung: porro.</note>&nbsp; commodius subnecti
+                        possint<note n="64" type="crit_app">Dumont, CTS: posit.</note>. <lb/>
+                    <lb/>IV <lb/>Initium ergo territorio regii in terra continente (praesupposito eo
+                    initio, quod secundum Oderae vel eius ramorum, quocunque indigitentur vocabulo,
+                    fluenta, nec non quovis alio, quod ex partibus citerioris Pomeraniae ultra
+                    Oderam sitis, ad Neo Marchiae fines usque, quoquo<note n="65" type="crit_app"
+                        >Dumont, CTS: quaque.</note>&nbsp; versum se porrigit) post multam
+                    disceptationem tandem ad pagi<note n="66" type="crit_app">Dumont, CTS:
+                        pagum.</note>&nbsp;&nbsp;Wendisch Mellen dicti, limites, quo usque ii in
+                    suis genuinis metis ac terminis se extendunt, ac limites agrorum Rosenfeldensium
+                    propre fluviolum Thue&nbsp; Borinense<note n="67" type="crit_app">Dumont, CTS:
+                        Einschub: supra.</note>&nbsp; molendinum, contingunt, definitum ac
+                    constitutum est, idque ita, ut id<note n="68" type="crit_app">Dumont, CTS:
+                        Auslassung: id.</note>&nbsp; ipsum initium cum dictis limitibus juribusque
+                    omnibus penes sacram regiam maj[esta].tem, ejusque successores ac regnum sueciae
+                    permaneat, indeque reliquus ductus arcessatur<note n="69" type="crit_app"
+                        >Dumont, CTS: accersatur.</note>. <lb/>
+                    <lb/>V <lb/>Hinc progredientibus deorsum, difficultas non nulla exinde objecta
+                    est, quod ratione pagorum Bartikow<note n="70" type="crit_app">Dumont, CTS:
+                        Bartikau (auch unten).</note>&nbsp;&nbsp; ac Wirow<note n="71"
+                        type="crit_app">Dumont, CTS: Auslassung: ac Wirow.</note>, ad praefecturam
+                    Colbacensem, quo ad iurisdictionem ac reditus, non minus ac Wendisch Mellen
+                    spectantium ( etsi servitia rustica, vulgo Frohndienste, ex dispositione ducum
+                    Pomeraniae ad praedium Brusenfeldense, census annuus vero una cum jurisdictione
+                    ad praefecturam Colbacensem pertineat) nec non aliorum mox nominandorum intra
+                    ductum suae mj[esta].tis redigendorum, dissensus extiterit; Ea tamen ita sublata
+                    ac composita est, ut praedicti pagi Bartikow&nbsp;ac Wirow<note n="72"
+                        type="crit_app">Dumont, CTS: Wizaw.</note> non minus quam Wendisch Mellen,
+                    nec non pagi Brünneken, Clütz&nbsp;ac Höykendorff<note n="73" type="crit_app"
+                        >Dumont, CTS: Brunneken, Clulz ac Hoykendorff.</note> &nbsp; in dicta
+                    praefectura Colbacensi siti<note n="74" type="crit_app">Dumont, CTS:
+                        sibi.</note>, cum suis terminis, juribus, reditibus<note n="75"
+                        type="crit_app">Dumont, CTS: Auslassung: reditibus.</note>, aliisque
+                    pertinentiis omnibus, in quocunque<note n="76" type="crit_app">Dumont, CTS:
+                        quocunque.</note> &nbsp;&nbsp;incidant territorium, seren[issi].ma regina
+                        <note n="77" type="crit_app">Dumont, CTS: Serenissimae Reginae.</note>&nbsp;
+                    regnoque Sueciae (proprietate tamen privatis, si qua alicujus est, salva
+                    relicta) tegendis ab hac parte&nbsp; cesserint<note n="78" type="crit_app"
+                        >Dumont, CTS: Einschub: ripis.</note>&nbsp; ac transcripti sint, uti a deo
+                    hujus articuli vigore cedunt ac transcribuntur. <lb/>
+                    <lb/>VI <lb/>Super pago autem Woltin acrior disquisito fuit, quem intuitu lacuum
+                    ac paludum, quibus veluti naturalibus terminis cingitur, a vicino Gryphenhagen,
+                    si territorio absque imminutione securitatis non nulla ejusce fortalitii, haud
+                    facile avelli posse regiis commissariis videbatur; Id tamen ita sopitum est, ut
+                    praedictus pagus Woltin cum suis limitibus ac terminis electoralem partem
+                    sequatur; hac tamen expressa lege, cum sacra regia maj[es].tas Sueciae eundem
+                    pagum, una cum praedio Witstock, consiliario ac commissario suo <rs ref="#pp0122">Henrico a
+                        Schwallenberg</rs><note n="79" type="crit_app">Dumont, CTS: Sualenberg (auch
+                        unten).</note>, loco hypothecae pro undecim milibus ducentis dalerorum<note
+                        n="80" type="crit_app">Dumont, CTS: Thalerorum (auch unten).</note>
+                    &nbsp;&nbsp;imperalium possidendum tradiderit, quod serenissimus elector
+                    ipsi<note n="81" type="crit_app">Dumont, CTS: ipso.</note> &nbsp; <rs ref="#pp0122">Heinrico à
+                    Schwallenberg</rs>, ejusque haeredibus summam octo millium<note n="82"
+                        type="crit_app">Dumont, CTS: 8000.</note>&nbsp; dalerorum imperialium, data
+                    obligatione sua exsolvere in se receperit, nec ante factam eorum solutionem, vel
+                    praedio, vel pago, ullisve eorum pertinentiis, dictus a Schwallenberg, cedere
+                    teneatur, ac loco usurarum annuos reditus exinde percipiendi jus interim habeat,
+                    ac retineat. Quatuor tamen annorum spatium a festo Paschatos<note n="83">Dumont,
+                        CTS: Paschatis.</note> &nbsp;&nbsp;elapsi anni 1652, incipiendo constitutum
+                    est, intra quoas reluitio<note n="84" type="crit_app">Dumont, CTS:
+                        solutio.</note> &nbsp;&nbsp;fieri debeat, ac tum facta exsolutione pagus
+                    Woltin non minus quam ipsum praedium Witstock ser[enissi].mo electori absque
+                    diminutione ac deterio ratione vigore electoralis obligationis, tradetur ac
+                    relaxabitur. <lb/>
+                    <lb/>VII <lb/>Quicquid vero pagorum, praediorum, aliorumve bonorum Colbacensis
+                    et Piricensis praefecturarum ultra supra dicta invenitur, id totum cum suis
+                    juribus ac pertinentiis electorali parti<note n="85" type="crit_app">Dumont,
+                        CTS: parte.</note> &nbsp; cedat; cum temperamento tamen ac limitationibus
+                    sequentibus. <lb/>
+                    <lb/>VIII <lb/>Nempe primum, ut ecclesiae vel capitulo mariano, ac paedagogio
+                    Stetinensi, serenissimae reginae ac regno Sueciae per instrumentum pacis in
+                    solidum cessis, jura ac bona sua omnia, tam intra quam extra limites dictarum
+                    praefecturarum sita cum reditibus, servitiis, aliisque suis pertinentii,
+                    quocunque veniant nomine, salva et integra permaneant ac relinquantur, absque
+                    ulla diminutione. Uti adeo sua ser[eni] .tas electoralis in dictum capitulum
+                    marianum et paedagogicum ejusque jura ac bona, vel ratione jure patronatus, ac
+                    collationis praebendarum, uti et constitutionis capitularium seu provisorum,
+                    ministrorum praedicantium, professorum, vel quorum cunque aliorum ecclesiae ac
+                    paedagogii officialium, vel ratione jurisdictionis in prima instantia, vel alia
+                    ulla ratione (praeterea quae hisce pactis articulo sequenti specialiter conventa
+                    sunt) nihil praetendit, vel sibi ac successoribus suis vendicat, sed omnia ista
+                    seren[issi].mae reginae regibus ac regno Sueciae salva, integra et illibata
+                    relinquit. <lb/>
+                    <lb/>IX <lb/>Convenit autem, ut jus territoriale cum suis effectibus, nempe
+                    sequela (der folge) collectis (Landsteuern<note n="86" type="crit_app">Dumont,
+                        CTS: Lands-Steuren.</note>) et observantia constitutionum provinvialium
+                        (Landordnungen<note n="87" type="crit_app">Dumont, CTS:
+                        Lands-Ordnungen.</note>) in ecclesiasticis et politicis, sua seren[i]tas
+                    electoralis obtineat in iis pagis, qui in suum territorium ulterioris Pomeraniae
+                    cadunt; ut sunt in Colbacensi praefectura Isinger, Repnov<note n="88"
+                        type="crit_app">Dumont, CTS: Repenau.</note>, Alten- et<note n="89"
+                        type="crit_app">Dumont, CTS: und.</note>&nbsp; Neuen-Grapow<note n="90"
+                        type="crit_app">Dumont, CTS: Grapau.</note>, in Piricensi Brietzig<note
+                        n="91" type="crit_app">Dumont, CTS: Briezig.</note>&nbsp;&nbsp;(ibidem
+                        tamen<note n="92" type="crit_app">Dumont, CTS: tantum.</note>
+                    &nbsp;&nbsp;libero Sculteto oder Frey Schultzen<note n="93" type="crit_app"
+                        >Dumont, CTS: Schultze.</note> &nbsp;&nbsp;ad ser[enissi].mum dominum
+                    electorem et duobus mansis ad vice dominatum Camminensem, nec non quatuor mansis
+                    ad praefecturam Piricensem spectantibus, exceptis) et Rakitten; in Stargardensi
+                    vero Districtu Barnims, Colnow<note n="94" type="crit_app">Dumont, CTS:
+                        Conau.</note> &nbsp; et Saro; huicque juri territoriali, quoad specificatos
+                    effectus, et non ultra dicti pagi subsint. Idque ita, ut sereni[ssi].mo electori
+                    soli tam executio, quam cognitio circa dictos effectus competat; subditis tamen,
+                    si ultra modum in iis gravati fuerint, ut ea quae ecclesiae praestare tenentur,
+                    eam ob causam exsolvere nequeant, querelas suas ad capitulares, vel d[omi]n[u]m.
+                    gubernatorem ac consiliarios regentes s[acr].ae. reg[i].ae majestatis deferre,
+                    ac per eos remedium a sua seren[ita].te electorali decenti modo exposcere, vel
+                    etiam in eventum, si causae gravitas id requirat, deputandos ab utraque parte
+                    commissarios ad causae cognitionem exigere ac impetrare ipsis integrum sit. In
+                    causis vero appellationum ab instantia capitularium, si quae extiterint,
+                    iudicium commissoriale seu mixtum adhibitis utrinque certis deputatis formari
+                    placuit. <lb/>
+                    <lb/>X <lb/>Etsi vero plures pagi in territori electorali siti<note n="95"
+                        type="crit_app">Dumont, CTS: Auslassung: siti.</note> &nbsp; reperiantur, ut
+                    sunt Schwockow<note n="96" type="crit_app">Dumont, CTS: Swokow.</note> &nbsp; ac
+                    Prilup, in Colbacensi praefectura, nec non Schellin, in Stargardensi districtu,
+                    in quibus dicta ecclesia mariana reditus ac jura non nulla habet; Cum tamen<note
+                        n="97" type="crit_app">Dumont, CTS: enim.</note> &nbsp; ex duobus ante
+                    nominatis Repenow et Alten-Grapow<note n="98" type="crit_app">Dumont, CTS:
+                        Repenau et Alten-Garpau.</note> &nbsp; suae seren[ita].ti electorali,
+                    ratione praedii Hoffdammensis ad praefecturam Colbacensem spectantis, certa
+                    servitia rustica, ecclesiae vero jus patronatus cum reditibus pecunariis ac
+                    frumentariis in solidum, nec non jus praedii in Alten-Grapow constituendi, ex
+                    concessione ill[ustrissi].morum Pomeraniae ducum, uti<note n="99"
+                        type="crit_app">Dumont, CTS: Auslassung: uti.</note> &nbsp; et jurisdictio
+                    pro parte in Isinger competant<note n="100" type="crit_app">Dumont, CTS:
+                        competat.</note>, vitandae quantum fieri potuit, communionis (quae mater
+                    discordiarum esse solet) causa, utrique parti visum fuit, in hisce permutationem
+                    sequenti ratione instituere. <lb/>
+                    <lb/>XI <lb/>Nempe cedit sua ser[eni].tas electoralis ecclesiae marianae
+                    Stetinensi una cum integris pagis Alten Grapow et Repenow, eorumque omnibus
+                        ad<note n="101" type="crit_app">Dumont, CTS: Auslassung: ad.</note> &nbsp;
+                    pertinentiis (solo jure territoriali excepto) praedicta servitia omnia, a decem
+                    rusticis in Alten Grapow, nec non a totidem in Repenow, duobusque<note n="102"
+                        type="crit_app">Dumont, CTS: duobus.</note> &nbsp;&nbsp;Cossatis (ut
+                    vocantur) sibi ad<note n="103" type="crit_app">Dumont, CTS: in.</note> &nbsp;
+                    praedium Hoffdammense, ex praescripto matriculae ecclesiasticae et veteri
+                    observantia debita, una cum libero Sculteto (dem Freyschultzen) ibidem quorum
+                    omnium pretium facta pro praesenti statu computatione, ad summam sexcentorum
+                    triginta octo florenorum annuorum, valoris ulterioris Pommeraniae, exurgit<note
+                        n="104" type="crit_app">Dumont, CTS: exsurgit.</note>. Praeterea relinquit
+                    eidem jus ac potestam liberam in utroque pago praedia (vulgo Vorwercke) nec non
+                    ovilia (Schäffereyen<note n="105" type="crit_app">Dumont, CTS:
+                        Schaffereyen.</note>) pro numero pecorum, quae proprio pabulo per hyemem,
+                    nec non pabulatione agraria in utroque campo per aestatem, sustentari possunt,
+                    constituendi. <lb/>
+                    <lb/>XII <lb/>In horum compensationem sacra sua reg[ia]. maj[es].tas vicissim
+                    ser[enita].ti suae<note n="106" type="crit_app">Dumont, CTS: Suae
+                        Serenitate.</note> &nbsp;&nbsp;electorali nomine ecclesiae primo cedit
+                    integrum pagum Isinger<note n="107" type="crit_app">Dumont, CTS:
+                        Issinger.</note>, cum omni jure quod in eum ecclesiae hactenus competierat,
+                    in specie jus patronatus, cum jure molendini<note n="108" type="crit_app"
+                        >Dumont, CTS: molendi.</note> &nbsp; construendi<note n="109"
+                        type="crit_app">Dumont, CTS: constituendi.</note>, ac jurisdictionis<note
+                        n="110">Dumont, CTS: juris.</note> &nbsp;&nbsp;dimidiam, nec non
+                    jurisdictionis superioris (vulgo Straßen gerichte<note n="111" type="crit_app"
+                        >Dumont, CTS: Gericht.</note>) partes duas, porro redituum agrariorum
+                    quinquaginta quaturo florenos, 21 solidos, nec non caeteros<note n="112"
+                        type="crit_app">Dumont, CTS: Auslassung: caeteros.</note>
+                    &nbsp;&nbsp;reditus omnes, quocunque veniant, nomine, prouti in designatione ex
+                    matricula ecclesiastice excerpta, ac commissariis electoralibus in authentica
+                    forma extradita, particuliarius expressi inveniuntur, una cum reliqua pagi
+                    parte, quam ab haeredibus <rs ref="#pp0134">Erasmi Kussowen</rs><note n="113" type="crit_app">Dumont,
+                        CTS: Cassowen. Erasmus Kossowen (nicht ermittelt).</note> &nbsp;
+                        emtionis<note n="114" type="crit_app">Dumont, CTS: emptionis.</note>
+                    &nbsp;&nbsp;titulo ad se transtulit ecclesia mariana. Ita ut pagus iste sicuti
+                    caeteri subditi Electorales, posthac ser[issi].mo electori pleno iure, tam quoad
+                    jus territoriale, quam jurisdictionem subsint<note n="115" type="crit_app"
+                        >Dumont, CTS: subsit.</note>. Deinde in pago Schellin duos rusticos cum suis
+                    servitiis, agrorum mansis, ac reditibus quocunque indigitentur nomine, una cum
+                    jerisdictione ecclesiae hactenus competente. Tertio, reditus agrarios<note
+                        n="116" type="crit_app">Dumont, CTS: agrarii.</note> &nbsp;&nbsp;ex tredecim
+                    mansis in pago Schwockow. Quarto, a Sculteto in Prilup, quinque florinos, quibus
+                    ratione precarii (vulgo Beede) ecclesiae annuatim obstrictus fuit. Ita tamen ut
+                    ecclesia liberum maneat, hactenus debitam ac residuam summam ab ejus haeredibus
+                    reposcere. Denique tres latas sigilinis annuas ecclesiae ex molendinis
+                    Stargardensibus debitus. Quorum omnium pretium, facta itidem<note n="117"
+                        type="crit_app">Dumont, CTS: iterum.</note> &nbsp; pro praesenti rerum statu
+                    computatione, priorem summam adaequat. <lb/>
+                    <lb/>XIII <lb/>Haec praedicta omnia ac singula prouti<note n="118"
+                        type="crit_app">Dumont, CTS: prout.</note> &nbsp; in duobus hisce articulis
+                    specificata sunt, utraque pars alteri reciproce in solidum, et absque ullo
+                    ullius juris vel praetensionis in ea reservato, excepto jure territoriali supra
+                        art.<note type="crit_app" n="119">Dumont, CTS: in articulo.</note> &nbsp; 9
+                    descripto, cedit, inque se hisce recipit eorum nomine adversus quemcunque
+                    judicialiter vel extrajudicialiter evictionem mutuam praestituram. Inprimis<note
+                        n="120" type="crit_app">Dumont, CTS: imprimis.</note> &nbsp; vero ecclesia
+                    praefecturae Colbacensi extradere obligata sit, omnia literaria documenta in
+                    originali, vel in quantum haberi possunt, ratione servitiorum et redituum in
+                    Isinger, Schwockow et Schellin, nec non Prilup, ratione quinque florenorum,
+                    intuitu precarii (vulgo Beede) ecclesiae debitorum, uti et redituum e
+                    Stargardensibus molendinis, ac emptionis partis Isingeranae a Kussoviis. <lb/>
+                    <lb/>XIV <lb/>Id tamen expresse cautum est, ut sicuti incolae pagi Repenow
+                    molendi causa ad molendinum in Isinger situm se conferre soliti sunt, ita is mos
+                    in posterum quoque observetur ac retineatur. Convenit itidem, ut sicuti ecclesia
+                        Repenoviensis<note n="121" type="crit_app">Dumont, CTS: Ripenoviesis (auch
+                        im Folgenden).</note>, veluti filia ad matrem ecclesiam <note
+                        type="crit_app" n="122">Dumont, CTS: Isingerianam.</note>Isingeranam&nbsp;
+                    huc usque habita fuit, ita usque ad futuram ecclesiarum visitationem, in eodem
+                    statu permaneat; tum vero si animadversum fuerit Repenoviensem ecclesiam absque
+                        insigni<note n="123" type="crit_app">Dumont, CTS: insigui.</note> &nbsp;
+                    decremento salarii pastoris in Isinger, quod aliunde suppleri<note n="124"
+                        type="crit_app">Dumont, CTS: supleri.</note>&nbsp; queat, ab ecclesia
+                    insingerana separari et avelli posse, dicta Repenoviensis ecclesia, uti filia
+                    matri Alten Grapow accedet. Sua quoque ser[eni].tas electoralis ecclesiae
+                    marianae tres vel quatuor colonos, qui propriis fundis carent (Ledige Bauer
+                    Knechte), e praefectura Colbacensi, vel alia sibi subjecta, pagis Repenow et
+                    Alten Grapow haereditario inferedos, in favorem ejusdem gratis dimittere
+                        promissit<note n="125" type="crit_app">Dumont, CTS: promisit.</note>.
+                    Denique sua ser[eni].tas electoralis in favorem ecclesiae se<note n="126"
+                        type="crit_app">Dumont, CTS: Auslassung.</note> &nbsp; declarat, in
+                    praedictis pagis, caeterisque ecclesiae bonis, in suo territorio sitis,
+                    quocunque vocentur nomine (exceptis supra in solidum cessis) sese vel ipsam, vel
+                    per officiales suos citra venationes et aucupia ea moderatione usuram, ne
+                    subditi vel bona ecclesiae ullum damnum, vel aliud gravamen exinde sentiant. <lb/>
+                    <lb/>XV <lb/>Agitatum deinde fuit de reditibus quibusdam immediate ad cameram
+                    ducalem Stetinensem ex<note n="127" type="crit_app">Dumont, CTS: et.</note>
+                    &nbsp;&nbsp;pagis non nullis praefecturarum<note n="128" type="crit_app">Dumont,
+                        CTS: praefecturam.</note> &nbsp;&nbsp; Colbatz<note n="129" type="crit_app"
+                        >Dumont, CTS: Colbaz ac Piriz.</note> ac Piritz, nec non districtus
+                        Stargardensis<note n="130" type="crit_app">Dumont, CTS: Stargardenses</note>
+                    &nbsp; spectantibus, nempe ex pagis Großen <note type="crit_app" n="131">Dumont,
+                        CTS: Riszau.</note>Rischow, Horst, Quadenschonenfelde<note n="132"
+                        type="crit_app">Dumont, CTS: Quaden Schonenfeld.</note>, Dobber Pfuhl,
+                    Cortenhagen, Sintzelow<note n="133" type="crit_app">Dumont, CTS:
+                        Sintzelar.</note>, Stroosdorff<note n="134" type="crit_app">Dumont, CTS:
+                        Stroszdorf.</note>, Damnitz, Wartenberg, Falckenbeg, Großen
+                        Schönenfeldt<note n="135">Dumont, CTS: Schonenfeld.</note>, Werben, Prilup,
+                    Sabes, Babbin, Neumarck, Belitz, Beyersdorff, Vorin, Lettenim<note n="136"
+                        type="crit_app">Dumont, CTS: Letenin.</note>, Wobermin<note n="137"
+                        type="crit_app">Dumont, CTS: Woberin.</note>, Garden, Woltersdorf<note
+                        n="138" type="crit_app">Dumont, CTS: Woltersdorff.</note>, Mülenbeck<note
+                        n="139" type="crit_app">Dumont, CTS: Muhlenbeck.</note>&nbsp;&nbsp;et
+                    Woltin, praeterea ex tribus pagis Johannitarum Ordinis<note n="140"
+                        type="crit_app">Dumont, CTS: Ordinis Johannitici.</note> &nbsp;&nbsp;in
+                    ulteriori Pomerania, Stiewelow<note n="141" type="crit_app">Dumont, CTS:
+                        Strebelau.</note>, Wittichow et Collin, quos reditus ut pote ad aulam
+                    Stetinensem, usum reparationis arcis, aliosve ibidem deputatos, camerae
+                    Stetinensi reservatos voluit sacra regia maj[es].tas postquam vero haec<note
+                        n="142" type="crit_app">Dumont, CTS: hae.</note>&nbsp;&nbsp;et aliae
+                    controversiae cessione urbis Camminensis tandem diremptae sunt (ut ex
+                    sequentibus patet) hi reditus a sacra regia maj[esta].te serenissimo electori
+                    cessi sunt, eorumque specificatio extradita est. Reditus vero camerales ex pagis
+                    Wendisch Mellen, Bartikow ac Wirow<note n="143" type="crit_app">Dumont, CTS:
+                        Bartikau und Wirau.</note>, una cum pagis ipsis regno Sueciae supra<note
+                        n="144" type="crit_app">Dumont, CTS: Auslassung: supra.</note>
+                    &nbsp;&nbsp;art. 5 cessis, sacrae regiae maj[esta].ti relicti sunt. <lb/>
+                    <lb/>XVI <lb/>Quicquid etiam redituum immediate ad cameram ducalem Stetinensem,
+                    intuitu reparationis arcis spectantium, ex pago ecclesiae marianae in
+                        Piricensin<note n="145" type="crit_app">Dumont, CTS: Pricensi.</note>
+                    &nbsp;&nbsp;praefectura sito, Brietzig dicto exsolvitur<note n="146"
+                        type="crit_app">Dumont, CTS: solvitur.</note> &nbsp;&nbsp;(quod summam
+                    trecentorum quadraginta octo<note n="147" type="crit_app">Dumont, CTS:
+                        348.</note> &nbsp; florenorum ac 22 solidorum Lubecensium aequat ) id
+                    seren[issi]mo electori cessum est; Qui in favorem ac emolumentum ecclesiae, nec
+                    non ispsius seren[ita].tis suae electoralis assecurationem, rite percipiendorum
+                    redituum annuorum sibi competentium, sese hoc modo declarat, ut quamvis vigore
+                    matriculae incolae dicti pagi ducibus Pomeraniae ulterioris<note n="148"
+                        type="crit_app">Dumont, CTS: ulterioribus.</note> &nbsp;&nbsp;ad servitia
+                    realia et operas ab antiquo obstricti fuerint, tamen sicuti multis retro annis
+                    ex dispositione eorundem ducum nullae angariae vel servitia realia, sed pro
+                    iisdem certa pecuniae summa praestita sit, ita etiam imposterum<note n="149"
+                        type="crit_app">Dumont, CTS: in posterum.</note> &nbsp; ab iisdem nulla
+                    servitia realia, sed eorum nomine supra expressam summan, et non ultra exigere
+                    velit, hac tamen conditione, ut vicissim capitulares ecclesiae marianae ejus
+                    modi reditus quotannis, dimidiam partem in festo Paschatos, et alteram in festo
+                    Bartholomaei sine mora et tergiversatione camerae electorali ulterioris
+                    Pomeraniae inferant. Reditus vero dicti generis ex pagis Alten Grapow ac Repnow,
+                    cum exigui<note n="150" type="crit_app">Dumont, CTS: annexi.</note>
+                    &nbsp;&nbsp;sint, ecclesiae marianae in totum remissi sunt. <lb/>
+                    <lb/>XVII <lb/>Praedicti vero reditus ex pago Brietzig non alio intuitu quam
+                    reciprocae cessionis portionis Marchiacae in feudo Fiddichow, a sacra regia
+                    maj[esta].te cessi sunt. In eorum enim compensationem ser[enissi].mus elector
+                    totum ac integrum jus ac dominium directum quod sibi in praedictum feudum
+                    Fiddichow ejusque pertinentias Marchiacae ditionis hactenus competierat, sacrae
+                    regiae maj[esta].ti regnibusque<note n="151" type="crit_app">Dumont, CTS:
+                        Regibus.</note> &nbsp; ac regno Sueciae cedit. Salva tamen vasallorum
+                    proprietate, qui sacram regiam maj[esta].tem ratione partis illius bonorum
+                    feudalium dehinc pro domino directo agnoscere et quae a vasallis praestari
+                    solent, praestare obligati sint. <lb/>
+                    <lb/>XVIII <lb/>Porro non levis fuit dissensio super sylvis, quarum adjectione
+                    Dammensi fortalitio suum circumjectum territorium, ad justam latitudinem
+                    protensum, rite constare posset. Ea vero ita composita est, ut quicquid sylvarum
+                    locorumque ultra Dammense territorium ab Australi<note n="151a" type="crit_app"
+                        >Dumont, CTS: rusticali.</note> &nbsp; parte, facto à Zegenohrt<note n="152"
+                        type="crit_app">Dumont, CTS: Zegenroth.</note> &nbsp; initio, per confinia
+                    Cleboviensia ac Clützensia<note n="153" type="crit_app">Dumont, CTS:
+                        Cluzensia.</note>, ac inde per saltum Fagineum, vulgo die Buchheide
+                    nominatim vero ejus metas (den Langen Siep<note n="153">Dumont, CTS:
+                        sieb.</note>, den Bütterbergk<note n="154" type="crit_app">Dumont, CTS:
+                        Butterberg.</note>, die Goltbeke<note n="155" type="crit_app">Dumont, CTS:
+                        Goldbecke.</note>, den Langenberg, den Wildehardenkamp, den Cölpinischen
+                    Wegk, die Gelle<note n="156" type="crit_app">Dumont, CTS: Gelse.</note>, die
+                    Kleebecke ) ac pontem<note n="157" type="crit_app">Dumont, CTS: pontu.</note>
+                    &nbsp; Bucholtzensem<note n="158" type="crit_app">Dumont, CTS:
+                        Bucholzensem.</note> &nbsp; protenditur, ac porro continuato tractu
+                    Golnoviensi primum viae inhaerendo, ac paludem Liebesheer à sinistris
+                    relinquendo, inter Lieten ac Sylvam Selchow<note n="159" type="crit_app">Dumont,
+                        CTS: Felchaw.</note> &nbsp; particulas<note n="160" type="crit_app">Dumont,
+                        CTS: Einschub: per.</note> &nbsp; saltus Friedrichswaldensis<note n="161"
+                        type="crit_app">Dumont, CTS: Fridrichswaldensis (auch im Folgenden).</note>,
+                    recta pergendo ad colles den Neuen Baltz et Heringsberg, nec non die Wolfskuhle,
+                        usque<note n="162" type="crit_app">Dumont, CTS: neque.</note> &nbsp; ad viam
+                    superiorem Golnoviensem (vulgo den Golnowischen Oberwegk) porrigitur, id totum
+                    quatenus intra ductum istum concluditur, ac Dammensem urbem et aquas prospectat,
+                    ad sacram regiam maj[esta].tem regnumque Sueciae pertinere debeat; quicquid vero
+                    sylvarum locorumque extra eum ductum Colbacensem ac Friedrichswaldensem
+                    praefecturam respicit<note n="163" type="crit_app">Dumont, CTS: recipit.</note>,
+                    seren[issi]mo electori relictum sit, uti haec omnia in separato articulo finium
+                    infra pluribus ac particularius describuntur. Pontis vero Buchholtzensis
+                    medietas septentrionalis ad sacram regiam maj[esta].tem, Australis vero ad
+                    ser[enissi].mum electorem pertinebit, utriusque impensis<note n="164"
+                        type="crit_app">Dumont, CTS: expensis.</note> &nbsp;&nbsp;pro rata extrueda
+                    ac conservanda. <lb/>
+                    <lb/>XIX <lb/>Praedictae vero superiori Golnoviensi viae<note n="165"
+                        type="crit_app">Dumont, CTS: Auslassung: viae.</note> &nbsp; porro
+                    insistendo, et ad extremum Friedrichswaldensis saltus angulum, qua antiquos
+                    Golnovia terminos circa metam (Golnower Mahlbaum<note n="166" type="crit_app"
+                        >Dumont, CTS: Golguer Mahlbaum.</note> &nbsp; dictam) ultra Damense
+                    territorium, ac propre sylvam paedagogianam contingit, pergendo, veteribus ac
+                    genuinis terminis Golnoviensibus et dispositione instrumenti pacis, et quicquid
+                    iis per hanc conventionem adjectum est (includendo etiam pagum Marsdorff, in
+                    quem sua ser[eni].tas eectoralis vel servitiorum vel ulla alia<note n="167"
+                        type="crit_app">Dumont, CTS: Auslassung: alia.</note> &nbsp;&nbsp;quacunque
+                    ratione inposterum nihil omnino praetendet) plane inhaerendum fuit, uti adeo ii
+                    termini, prout infra art. 23 descripti inveniuntur, cum toto Golnoviensi
+                    territorio ac urbe, sacrae regiae maj[esta].ti regnoque Sueciae reservantur. <lb/>
+                    <lb/>XX <lb/>Inde super saltu Stepenitzensi<note n="168" type="crit_app">Dumont,
+                        CTS: Stepenizensi (auch im Folgenden).</note> &nbsp; (vulgo der Stepenitzer
+                    Heyde) ita conventum est, ut sicuti sylvae istae Stepenitzenses sive majores
+                    sive minores vocentur, una cum utroque pago Stepenitz ad praefeturam Stetinensem
+                    ac Wollinensem, regno Sueciae cum omnibus pertinentiis cessas<note n="169"
+                        type="crit_app">Dumont, CTS: cessam.</note> &nbsp; ab antiquo spectarunt,
+                    ita in posterum quoque eodem<note n="170" type="crit_app">Dumont, CTS:
+                        Auslassung: spectarunt, ita in posterum quoque eodem.</note> &nbsp;
+                    spectare, ac penes sacram regiam maj[esta].tem regnumque Sueciae permanere
+                    debeant, sine ulla ulteriori contradictione. <lb/>
+                    <lb/>XXI <lb/>Placuit vero latitudinis debitae secundum reliquam orientalis
+                    littoris partem, ad lacum<note n="171" type="crit_app">Dumont, CTS:
+                        latem.</note> &nbsp;&nbsp;recentem sitam, investigandae ac definiendae causa
+                    (postquam res in acrem disceptationem hic quoque erupisset) permutationis
+                    remedio uti. Etsi enim absque eo<note n="172" type="crit_app">Dumont, CTS:
+                        Auslassung: absque eo.</note> &nbsp; sacra regia maj[es].tas ex instrumento
+                    pacis latitudinem justam sibi deberi existimabat, maturandi tamen negotii causa
+                    utrique parti huc amicabiliter condescendere visum fuit, ut sequentes pagi, ac
+                    bona feudalia ad citeriorem Pomeraniam juxta divisonem haereditariam de anno
+                        MDLXIX<note n="173" type="crit_app">Dumont, CTS: a.o. 1596 (vgl.
+                        oben).</note> &nbsp; pertinentia et ad Plönum<note n="174" type="crit_app"
+                        >Dumont, CTS: Plonum.</note> &nbsp; fluvium territorio ulterioris Pomeraniae
+                    circumcinta a sacra regia maj[esta].te Seren[issi].mo Electori cessa sint, nempe
+                        Dobberpfuhl<note n="175">Dumont, CTS: Dobber Pful.</note>, Lükken
+                        Latzcke<note n="176" type="crit_app">Dumont, CTS: Lutcken Catzke.</note>,
+                    Loßin, Woitsick, in Klücken<note n="177" type="crit_app">Dumont:
+                    Klucken.</note>, quinque et Klocksin unus mansus agri, cum collectis (den
+                    Steuern) ex pago Plöntzig<note n="178" type="crit_app">Dumont, CTS:
+                        Ploitzig.</note>, uti adeo hisce ceduntur, ac ulterioris Pomeraniae parti
+                    electorali transcribuntur. Vicissim ac in horum compensationem seren[issi].mus
+                    elector sacrae regiae maj[esta].ti ac regno Sueciae cedit pagos ac bona
+                    feudalia, Zebbin<note n="179" type="crit_app">Dumont, CTS: Jebbin.</note>,
+                    Paulsdorff, Jakow<note n="180" type="crit_app">Dumont, CTS: Jassou.</note>,
+                        Sagar<note n="181" type="crit_app">Dumont, CTS: Sagaw.</note>,
+                        Schönnichow<note n="182" type="crit_app">Dumont: Schonichau. CTS:
+                        Sconichau.</note>, Lützken und Großen Weichow<note n="183" type="crit_app"
+                        >Dumont, CTS: Weickau.</note>, Drammin, Ribbertow<note n="184"
+                        type="crit_app">Dumont, CTS: Robertau.</note>, Dußin<note n="185"
+                        type="crit_app">Dumont, CTS: Duszin.</note>, Patzke<note n="186"
+                        type="crit_app">Dumont, CTS: Platzke.</note>, et si qui plures pagi ac bona
+                    intra ductum regium conclusi inveniuntur, eaque parti regiae transcribit. Salvo
+                    tamen utrinque iure privatorum. <lb/>
+                    <lb/>XXII <lb/>Reliquam denique latitudinis partem usque ad ostium Dievenow<note
+                        n="187" type="crit_app">Dumont, CTS: Diepenau.</note> &nbsp;&nbsp;quod
+                    concernit, ejus determinationem cum exorta de urbe Cammino controversia diu
+                    multumque exercuissset atque distulisset, quod nempe sac[ra]. r[egi].a.
+                    maj[esta].s urbem eam, ut pote in ipsa ripa sitam<note n="188" type="crit_app"
+                        >Dumont, CTS: utpote in ipsa Pomerania sua sitam, sibi.</note>
+                    &nbsp;&nbsp;ex vero pactorum Osnabrugensium intellectu, absque alia speciali
+                    conventione deberi, existimaret, ser[enissi].mus vero elector in pactis
+                    expressam non inveniri asseveraret, tandem negotio allevando et ad exitum
+                    perducendo, huc condescendere visum fuit suae serenitati electorali, ut sacrae
+                    regiae maj[esta].ti regnoque Sueciae dictam urbem Camminum cum suo territorio,
+                    proprietatibus ac bonis juribusque omnibus cesserit, prout hisce quoque in
+                    solidum cedit, cum hac tamen expressa determinatione, ut ratione pagorum Mokratz
+                    et Geureke<note n="189" type="crit_app">Dumont, CTS: Mokraz et Geurecke.</note>,
+                    quos ad se emptionis titulo nuper transtulit Camminensis urbs, quique
+                    territorium electorale, ejusque jura imposterum<note n="190" type="crit_app"
+                        >Dumont, CTS: inposterum.</note> &nbsp; sequi tenentur, suae ser[enita].ti
+                    electorali liberum relinquatur, post factam traditionem reliquae ulterioris
+                    Pomeraniae et episcopatus Camminensis, dictae urbi ad petitionem suam hanc
+                    gratiam facere, ut dictos pagos prouti<note n="191" type="crit_app">Dumont, CTS:
+                        prout.</note> &nbsp;&nbsp;eos acquisivit, ita quoque una cum caeteris suis
+                    bonis, certis conditionibus, in nullum tamen praejudicium sacrae regiae
+                    maj[esta].tis ac regni Sueciae vergentibus, perpetuo retineat ac possideat.
+                    Reliqua vero bona ac jura omnia, quocunque veniant nomine, sive intra sive extra
+                    ductum finium in sequenti art[iculo]. specifice descriptum, sita inveniantur,
+                    territorium regium ac superioritatem sacrae regiae maj[esta].tis non minus, ac
+                        ipsa<note n="192" type="crit_app">Dumont, CTS: Einschub: si.</note> &nbsp;
+                    urbs Camminum agnoscere debeant. Cujus cessionis intuitu sacra regia maj[es]tas
+                    serenissimo electori vicissim circa reliquum ductum in omnibus iis, de quibus
+                    praecedentes articuli disponunt, gratificata est. In specie vero sacra regia
+                    maj[es].tas hisce cedit suae ser[enita].ti electorali ius conferendae
+                    praepositurae Colbergensis, quae vigore pactorum haereditariorum hactenus
+                    ducibus citerioris Pomeraniae competierat. <lb/>
+                    <lb/>XXIII <lb/>Et<note n="193" type="crit_app">Dumont, CTS: ex.</note> &nbsp;
+                    hisce ergo<note n="194" type="crit_app">Dumont, CTS: vero.</note>
+                    &nbsp;&nbsp;junctis, is exsurgit limitum ductus, qui sequitur, quique à Regiis
+                    nec non electoralibus commissariis decimo tertio et seqq. diebus, mensis
+                    novembris anno 1651 peragrando consignatus ac definitus est. Nempe initium
+                    territorii regii (ut supradictum ) praebet pagus Wendisch Mellen, cujus antiquum
+                    territorium regio ductui inclusum, quo usque illud antiquis suis et genuinis
+                    limitibus se extendit, publicos fines determinat. Ubi autem modo dicti
+                    Wendisch-Mellensis territorii extremum, agris Rosenfeldensibus conterminum supra
+                    molendinum Borinense, contingit fluviolum<note n="195" type="crit_app">Dumont,
+                        CTS: fluvium.</note>, die Thue dictum, inde descendeno, nominatum
+                        fluviolum<note n="196" type="crit_app">Dumont, CTS: fluvium.</note>
+                    &nbsp;&nbsp;inter Borinense et Wendisch-Mellense territorium limites facit usque
+                    ad Borinense molendinum. Porro hoc, nec non alterum, die Bergmühle<note n="197"
+                        type="crit_app">Dumont, CTS: Bergmuhle.</note>, praetereundo, ac utroque
+                    electorali territorio<note n="198" type="crit_app">Dumont, CTS: territorio
+                        electorali.</note> &nbsp;&nbsp;cesso (salvis tamen pertinentiis et juribus,
+                    quae utrumque hoc molendinum transfluentium die Thue, in agris
+                    Wendisch-Mellensibus antiquitus habuit et etiamnum possidet ) dictum fluentum
+                    limites inter Wendisch-Mellenses et Quadenschönenfeldenses campos designat,
+                    usque ad confinium, ubi trans fluvium die Thue, in ipsa fere ripa Wirowienses et
+                    Quadenschönfeldenses campi coeunt, quod confinium lapidibus alias, nec non
+                    novella pinu, mediocriter procera (quae et incisura<note n="199" type="crit_app"
+                        >Dumont, CTS: in mensura.</note> &nbsp; notata est) insignitum, defixo
+                    insuper palo, qui primus est, notatum invenitur; Hinc producentur termini per
+                    antiquum sulcum limitaneum, inter Wirovienses et Quadenschönfeldenses campos
+                    decurrentes, qui lapidibus limitaneis, antiquitus ibi positis, notati
+                    conspiciuntur, quibus et palus additus, adusque illud spatium, quod contingit
+                    viam, quae Greiffenhaga Borinum ducit, ubi etiam postis erectus. Porro limes,
+                    viam modo nominatam transverso ductu secando, ascendit in collem seu montem, in
+                    quo etiam lapides, ut et crispa pinus inveniuntur, quibus superadditus est
+                    palus. Ex hoc colle limes in proxime subjectam vallem descendit, antiquis saxis
+                    et novo insito palo notabilem. Inde ductus lacum Woltinensem versus, ad paludem
+                    dirigitur, ubi palus positus, a quo porro deducuntur fines recta ad lacum
+                    Woltinensem, der große Woltin dictum, cujus orae<note n="200" type="crit_app"
+                        >Dumont, CTS: ore.</note> &nbsp;&nbsp;Wirowiense solum continuo inhaeret,
+                    ita quidem, ut territorium Wirowiense et agri huc pertinentes ad ripam aquae
+                    protendantur, sequendo parvum aggerem, qui ex campo Wirowiensi in paludem
+                    decurrit, ubi Woltinense et Wirowiense territoria conjunguntur; ita ut
+                    Wirowiense ductui regio, lacus vero electorali includatur; Estque in hoc
+                    confinio et postis erectus, ubi inter duas betulas novella pinus extat. Ab hoc
+                    palo termini porriguntur per paludem seu alnetum (Ellern Bruch) in betulam satis
+                    magnam, palustrisque hic locus a jam dicto palo ad betulam usque ita
+                        excissus<note n="201" type="crit_app">Dumont, CTS: excisus.</note>
+                    &nbsp;&nbsp;arbustisque purgatus est, ut libero prospectui ab uno poste ad
+                    alterum locus sit, erectusque adhuc palus est in illa linea, quae ultimo dictum
+                    postem et betulam interjacet. Una itaque hujus paludis pars ad Woltinenses
+                    pertinet, altera vero ad Wirowienses. Locus autem, ubi hic palus ad dictam
+                    betulam desinit, poste insuper, juxta betulam posito, signatus est. <lb/>Hinc
+                    antiquis Wirowiensium et Woltinensium agrorum terminis, Greifenhagium versus,
+                    insistendo per excrescentes in sulco limitaneo pinus, novem<note n="202"
+                        type="crit_app">Dumont, CTS: novi.</note>&nbsp;&nbsp;erecti sunt pali;
+                    Sublatis interim e medio quae ductui<note n="203" type="crit_app">Dumont, CTS:
+                        ductus.</note> &nbsp;&nbsp;obstabant, pinis, usque ad veterem limitem magnis
+                    aliquot lapidibus notatum. Parvus inde<note n="204" type="crit_app">Dumont, CTS:
+                        deinde.</note> &nbsp;&nbsp; succedit<note n="205" type="crit_app">Dumont,
+                        CTS: successit.</note> &nbsp;&nbsp;collis, in cujus pede horsum illud<note
+                        n="206" type="crit_app">Dumont, CTS: Auslassung: horsum illud.</note>
+                    &nbsp;&nbsp;extat confinium, ubi Greifhenhagense, Woltinense, nec non Wirowiense
+                    territoria se invicem contingunt, qui locus, etsi veteri lapidum cumulo
+                    insignis, querneo tamen poste insuper notatus est. Ab hoc confinio antiqui
+                    limites inter Greiffenhagenses et Woltinenses agros decurrentes, publicos fines
+                    constituunt, hoc modo descriptos. A querneo jam nominato poste, ad quercum
+                        securi<note n="207" type="crit_app">Dumont, CTS: secure.</note> &nbsp;
+                    incisam. Inde in palum terra de fixum, cui tres lapides adjacent. Sequitur
+                    truncus depressus, à quercu residuus, quo silex continetur. Duae quercus, quarum
+                    una lapides aliquot involvit. Palus querneus in colle leviter assurgente. Postis
+                    querneus cui etiam pinus adstat, recta per<note n="208" type="crit_app">Dumont,
+                        CTS: ad.</note> &nbsp;&nbsp;cavitatem viae, utrinque parvos colles
+                        habentem<note n="209" type="crit_app">Dumont, CTS: habente.</note>: in
+                    quorum uno, Woltinum spectante, proxime ad convallem novella quercus incisura
+                    notata, in altero vero Greiffenhagium versus, crispa pinus, inveniuntur. Hinc in
+                    colle duae quercus novellae, nec non magna betula caesura notatae. Iterum palus
+                    in terram defixus, ad betulam magnitudine insignem. Inde per Vallem, in montem
+                    assurgendo, in quo duae quercus satis procerae, ex una radice prodeuntes
+                    conspiciuntur, quae itidem ascia notatae. Quercus in quam lapides conjecti.
+                    Lapis in valle. Quercus ascia notata in monte. Adhuc quercus caesuram passa
+                    prope viam, quae a Greiffenhagio Woltinum fert. Tres annosae quercus in parvo
+                    colle. Tres novellae quercus, inter vias Greiffenhagenses<note n="210"
+                        type="crit_app">Dumont, CTS: Greiffenhag.</note>, quae Woltinum<note n="211"
+                        type="crit_app">Dumont, CTS: Woltin.</note> &nbsp;&nbsp; ducunt<note n="212"
+                        type="crit_app">Dumont, CTS: dicunt.</note>. Quercus incisa ad semitam
+                    Greiffenhagensem. Hinc sequuntur quatuor novellae quercus, ascia signatae.
+                    Extenditur deinde ductus per monticulos et valles non nullas ad acumen monticuli
+                    der Steckeberg<note n="213" type="crit_app">Dumont, CTS: Seckel-Berg.</note>
+                    &nbsp; dicti, ubi scoriae lapideae, ac fragmenta laterum conspiciuntur, additus
+                    insuper palus ex quercu. Post per vallem, novellis<note n="214" type="crit_app"
+                        >Dumont, CTS: nonnullis.</note> &nbsp;&nbsp;betulis consitam, transeundo
+                    parvum collem, ad quercum frondibus et ramis densam monticulo insistentem.
+                    Sequitur depressa et crispa quercus in ima valle. Dein trans montem oblongum,
+                    aggesto tumulo, et querneo pale signatum. Quatour parvae quercus, ascia notatae.
+                    Parva&nbsp; quercus, cui effossa terra circumjecta, et palus additus. Tres
+                    quercus novellae ascia incisae. Postis querneus<note n="215" type="crit_app"
+                        >Dumont, CTS: querceus.</note>, cui tumulus ex fragmentis lateritiis<note
+                        n="216" type="crit_app">Dumont, CTS: lateris.</note> &nbsp;&nbsp;aggestus
+                    adjacet. Tres populi nigrae. In parvo colle palus querneus, cum depresso trunco,
+                    qui antiquitus limitem hic designat. Duae incisura notatae quercus. Hinc paludem
+                    (den Paddenpfuhl<note n="217" type="crit_app">Dumont, CTS: Paddrapful.</note>
+                    &nbsp;&nbsp;dictam) in agro Woltinensi a dextris sitam, transeundo, ad betulam
+                    magnam, monti insistentem, ubi et postis erectus, <lb/>Lapides limitanei antiqui
+                    in monte, quibus palus additus. Quercus in valle incisa, cujus etiam cortex
+                    lapidem involvit<note n="218" type="crit_app">Dumont, CTS: involvitur.</note>.
+                        Votus<note n="219" type="crit_app">Dumont, CTS: vetus.</note>
+                    &nbsp;&nbsp;lapidum cumulus, ubi et postis immissus. <lb/>Limitanei lapides
+                    antiquitus congesti in colle<note n="220" type="crit_app">Dumont, CTS:
+                        Auslassung: Limitanei lapides antiquitus congesti in colle.</note>. In
+                    planicie quatuor novellae quercus securi incissae. Vetus et depressa pinus ad
+                    quam palus erectus. Huc agri Damerovienses, in territorio Greiphenhagensi<note
+                        n="221" type="crit_app">Dumont, CTS: in Greifenhagensi.</note> &nbsp; siti
+                    pertingunt. Parvus collis, cui quercus insistit<note n="222" type="crit_app"
+                        >Dumont, CTS: incisa.</note> &nbsp;&nbsp;et palus additus. Querneus palus et
+                    lapides. Sequitur proxime Greiffenhagense, Woltinense et Brunekense<note n="223"
+                        type="crit_app">Dumont, CTS: Brünnekense (auch unten).</note>
+                    &nbsp;&nbsp;confinium, quod ad lapidibus et palo notatum invenitur.
+                    <lb/>Quercus, ad quam a jam dicto confinio, Woltinenses et Brunnekenses agri
+                    decurrunt, ubi mediocris planities<note n="224" type="crit_app">Dumont, CTS:
+                        planicies.</note>. Veteribus hisce limitibus, a dextris quidem
+                    Woltinensibus, a sinistris vero Brunnekensibus relictis insistendo, porro hi
+                    limites observentur. Lapis altitudine notabilis, aliis aliquot lapidibus
+                    circumdatus. Hinc per planiciem, ubi palus erectus et lapides jacent. Inde
+                    fluviolum, vel rivum versus, ductus dirigitur ad betulas nonnullas, ubi fossa
+                    incipit, quae hicce<note n="225" type="crit_app">Dumont, CTS: hisce.</note>
+                    &nbsp;&nbsp;locorum terminum facit, usque ad dictum rivum ex lacu, &lt;<note
+                        type="crit_app" n="226">Undeutliche Schreibweise: S, auch möglich G; Dumont,
+                        CTS: Geland.</note>.&gt;elandt, descendentem juxta cujus ripam postis
+                    immissus: Hic Woltinense definit territorium, incipitque trans rivum
+                    Cleboviense. Ab hoc loco dictus rivus inter Clebovienses et Brünnekenses agros
+                    (quorum illud electoralibus, hoc vero regiis cedit partibus) decurrens, terminos
+                    constituit (ita tamen ut proprietas agrorum et camporum, quos incolae et rustici
+                    Brünnekenses in fundo Cleboviensi, trans rivum possident, ut ante, ita et
+                    inposterum salva ipsis permaneat, nec ab usu fructu eorum unquam impediantur,
+                        uti<note n="227" type="crit_app">Dumont, CTS: ut.</note>&nbsp; et vicissim
+                    electorali pago et praedio Cleboviensi sua pascua et prata, ultra
+                        Wendtfeldt<note n="228" type="crit_app">Dumont, CTS: Weinfeld.</note>
+                    &nbsp;&nbsp;sita, tam quo ad proprietatem, quam usumfructum, salva et integra
+                    maneant, iisque incolae quiete et sine impedimento fruantur<note n="229"
+                        type="crit_app">Dumont, CTS: fruentur.</note> &nbsp; (ad molendium
+                    Cleboviense, quo ductui<note n="230" type="crit_app">Dumont, CTS: ductu.</note>
+                    &nbsp; electorali incluso, limes porro protenditur ad fluvioli anfractum versus
+                    confinium den &lt;.&gt;egenort<note n="231" type="crit_app">Undeutliche
+                        Schreibweise: S oder G. Dumont, CTS: Gegenort.</note> &nbsp;&nbsp;sese
+                    inclinantem, ubi palus defixus. Inde per lineam rectam ad confinium den
+                        &lt;.&gt;egenort<note n="232" type="crit_app">Undeutliche Schreibweise: S
+                        oder G. Dumont, CTS: Gegenort.</note>, ubi Klutzense<note n="234"
+                        type="crit_app">Dumont, CTS: Cluzense (auch unten).</note> &nbsp;&nbsp;et
+                    Cleboviense solum se invicem contingunt, ubi itidem palus erectus. Ab hoc
+                    confinio sequitur ductus veteres limites, qui fuere antiquitus inter Sylvam
+                    Klutzensem (dem Klutzischen Haberholtz<note n="235" type="crit_app">Dumont, CTS:
+                        Raberholtz.</note>) a sinistris, et Cleboviensem a dextris, in quo ductu duo
+                    adhuc pali usque ad viam Cleboviensem erecti sunt. <lb/>Transgreditur porro
+                    limes viam modo dictam, qua a pago Klütz<note n="236" type="crit_app">Dumont,
+                        CTS: Klutz.</note>, iter Clebovium patet, observando veteres limites, inter
+                    Klütz et Clebow<note n="237" type="crit_app">Dumont, CTS: Clebaw.</note>, in quo
+                    ductu usque ad proximam viam (den Holtzwegk<note n="238" type="crit_app">Dumont,
+                        CTS: Holtzweg.</note>) qua a pago Klütz, Binovium fert, adhuc septem postes
+                    erecti sunt. Ducti praeterea limites trans nominatam viam den Holtzwegk, ad
+                    cujus alterum latus propre viam publicam Dammensem (dem Dammischen Landtweg)
+                    statim palus positus. Sequitur hinc limitum ductus caesuram (den Scholm) in
+                    saltu fagineo (der Buchheiden) ubique factam, misso a dextris, quod ad
+                    Cleboviense praedium pertinet, querceto, usque ad paludem (das Lange Siep<note
+                        n="239" type="crit_app">Dumont, CTS: Sieb.</note>), quae latitudinis non
+                    nihil, stricta<note n="240" type="crit_app">Dumont, CTS: stricte.</note>
+                    &nbsp;&nbsp;in longum porrigitur, in cujus margine denuo palus querneus est
+                    positus. Iuxta hanc paludem (das Lange Siep) viae inhaerendo ductus porro ad
+                    imum montis (des Butterbergs) assurgit, ubi hujus paludis, des Langen Sieps<note
+                        n="241" type="crit_app">Dumont, CTS: des lange Siegs.</note>
+                    &nbsp;&nbsp;origo ac initum. Superat deinde limes transverso ductu montem, den
+                    Butterberg dictum, in cujus jugo palus erectus, cui magna quercus, incisa cruce
+                    notabilis adstat, quo in loco quercetum Cleboviense, saltusque ad Colbacensem
+                    Praefecturam pertinens disterminantur. Descendens de monte (dem Butterberge)
+                    ductus Binovicensem<note n="242" type="crit_app">Dumont, CTS:
+                        Dinoviensem.</note> &nbsp;&nbsp;insistit semitam, par planicies, die raumen
+                        &lt;.&gt;lage<note n="243" type="crit_app">Undeutliche Schreibweise: P, K.
+                        Dumont, CTS: Flacht.</note>, sese extendentem, ad avulsum<note n="244"
+                        type="crit_app">Dumont, CTS: falsum.</note> &nbsp;&nbsp;stipitem seu truncum
+                    querneum, cui palus additus. Semitae huic Binoviensi, quae ad rivulum (die
+                        Goltbecke<note n="245" type="crit_app">Dumont, CTS: Golbbecke.</note>)
+                    ducit, paululum inhaerendo, eamque transgrediendo, ad montem, ubi palus
+                    immissus. Tollitur postea limes in montem, cujus summitas itidem palum accepit,
+                    rursusque demittitur in vallem, quam rivulus die Goltbecke<note n="246"
+                        type="crit_app">Dumont, CTS: Golbdecke.</note>&nbsp;&nbsp;(qui hic terra
+                    absorbetur) interfluit; quo superato, in margine ipsius, inter duas fagos
+                    incisas, statim palus erectus. <lb/>Ab hoc palo limes, dictam vallem secundo,
+                    per acclive in longum montem (den Langen Bergk<note n="247" type="crit_app"
+                        >Dumont, CTS: Berg.</note>) crescit, cujus jugi principium querneo poste
+                    insignitum, ubi etiam latum a caesa quercu truncum, ut et adjectas aliquot
+                    quercus invenire licet. Dorsum longi hujus montis premendo (utroque latere
+                    caesuris notato) ad finem ejus, ubi scilicet viae Colowiensi jungitur, fines
+                    protracti, estque huic loco palus ex quercu inditus. Ab hoc palo termini in viam
+                    Colowiensem diriguntur, eique ascendendo dextrorsum, versus pagum Colow
+                    inhaerent, ad campum Wildehardensem, qui a dextris situs, ubi viam attingit,
+                    palo signatus. Porro viam hanc insistendo, usque ad campum Colowiensem, quousque
+                    dicta haec via Colowiensis limitem designat, quae et utrinque caesuri notata.
+                    Excendendo ex hac via Colowiensi limes sinistrorsum flectitur, versus paludem
+                    (die Beddestede) relictis a dextris campis Colowiensibus, ubi palus immissus.
+                    Positis adhuc duobus palis<note n="248" type="crit_app">Dumont, CTS:
+                        postibus.</note>, et utroque latere incisionibus asciarum notato, in parvam
+                    viam (vulgo den kleinen weg) directi limites, quae in paludem fert (die
+                    Beddestede) eamque premendo, duo pali adhuc erecti. Adhuc postis erectus in
+                    valle, atque sic ultra, die Beddestede,ubi parva extat palus. Ascendit inde
+                    montem ductus, paloque in cacumine ejus posito, in viam Cölpinensem<note n="249"
+                        type="crit_app">Dumont, CTS: Colbicensem.</note>&nbsp;&nbsp;ab agris
+                    Colowiensibus dextrorsum decurrentem dirigitur. Erectis dein duobus palis, viam
+                    hanc Colpinensem continuo insistendo, quatuor interim pali adhuc additi sunt.
+                    Adhuc palus in valle. Hinc, relicta a sinistris Colpinensi via, limitibusque
+                    dextrorsum, versus locum die Helle<note n="250" type="crit_app">Dumont, CTS:
+                        Holle.</note>, dictum, intensis, statim sylva caedua Buchholtzensium<note
+                        n="251" type="crit_app">Dumont, CTS: Buchholzensium.</note>, das
+                    Buchholtzische Cavellholtz (jure tamen Buchholtzensibus in hac competente salvo)
+                    occurrit. Interfluit hanc sylvam parvus rivulus, speciali nomine carens, qui
+                    hicce locorum pro termino est. Ideoque incisio arborum, ut supervacanea, omissa.
+                    Sequitur itaque limes continuo decurrentem hunc rivulum, auf die Helle, per
+                    paludosum pratum, itidem die Helle, dictum, in cujus extremitate dictus rivulus
+                    alium subit, qui conjuncti rivuli, infra locum die Helle, seu jam dictum pratum,
+                    die Kleebecke vocatur; Estque hic locus, in quo ambo hi rivuli confluunt, palo
+                    insignitus. Porro hic rivulus die Kleebecke limites eo usque ostendit, ubi ad
+                    ejus ripam nemus et arbores desinunt. Positus est et hic postis. A<note n="252"
+                        type="crit_app">Dumont, CTS: et.</note> &nbsp;&nbsp;jam dicto poste, propre
+                    rivulum die Kleebecke, defixo termini sinistrorum, per agros Buchholzenses (die
+                        Lampenhuffen<note n="253" type="crit_app">Dumont, CTS: Lampen-Hufen.</note>
+                    &nbsp; dictos) perque incisum et recens submotum virgultum, recta in montem
+                    surgunt, propre pinetum, ubi denuo palus erectus. Decurrunt hi porro juxta
+                    dictum pinetum a sinistris situm<note n="254" type="crit_app">Dumont, CTS:
+                        sitam.</note>, ad aliquot in hac linea positos palos. Indeque ad cavam
+                    Ilicem, bene magnam, die Küster<note n="255" type="crit_app">Dumont, CTS:
+                        Kuster.</note> &nbsp; Eiche dictam. Ab hac porro recta in rivulum die
+                    Kleebecke rursum e terra prorumpentem (ubi etiam postis erectus), qui porro
+                    limites ducit, versus paludem, den Tuchmantel<note n="256" type="crit_app"
+                        >Dumont, CTS: Kuckmanter.</note> &nbsp; dictam, eamque a sinistris, et<note
+                        n="257" type="crit_app">Dumont, CTS: ut.</note> &nbsp;&nbsp; den
+                        Upstall<note n="258">Dumont, CTS: et Upstall.</note> &nbsp; a dextris
+                    relinquendo ad erectum palum, ubi per paludem linea vel ductus prodit. Hinc
+                        recte<note n="259" type="crit_app">Dumont, CTS: rectae.</note>
+                    &nbsp;&nbsp;insistendo lineae, per agros Buchholtzenses, novellis pinubus non
+                    nihil impeditos, termini, viam rgiam Piricensem (dem Pyritzischen Landtweg)
+                    secando, Stargardensi<note n="260" type="crit_app">Dumont, CTS:
+                        Stargardensem.</note>&nbsp; (dem Stargardischen Landtweg) inferuntur<note
+                        n="261" type="crit_app">Dumont, CTS: ingrediuntur.</note>, ubi ab erecto
+                    poste Stargardensis haec via publicos limites (die Landtgrenze<note n="262"
+                        type="crit_app">Dumont, CTS: Land-Grantz.</note>) ad pontem usque
+                    Buchholtzensem protendit, (proprietate tamen et jure Buchholtzensium) salvis.
+                    Pons hic Buchholtzensis, qui super fluvium die Plöne<note n="263"
+                        type="crit_app">Dumont, CTS: Plocke.</note> &nbsp;&nbsp; sternitur<note
+                        n="264" type="crit_app">Dumont, CTS: sternit etc.</note>, ita limites
+                    constituit, ut dimidium ejus, et illud quidem, quod domum salutarii (das
+                        Heidhaus<note n="265" type="crit_app">Dumont, CTS:
+                    Heydhausz.</note>&nbsp;&nbsp;spectat), sacrae regiae maj[esta].ti Sueciae,
+                    alterum vero versus Buchholtz ser[enita].ti electorali addictum<note n="266"
+                        type="crit_app">Dumont, CTS: additum.</note> &nbsp;&nbsp;sit; factaque
+                    dimensione, integer hic pons longitudine centum viginti pedum invenuts, medioque
+                    jugo signatus est, ut ita unicuique parti ejus medietas, quae est pedum
+                        sexagita<note n="267" type="crit_app">Dumont, CTS: quae 60. pedium.</note>,
+                    cedat, propriis sumptibus exstruenda et conservanda. Ab hoc ponte ductus recta
+                    viam, quae Golnoviam fert, ingreditur, ita ut domus (das Heidhaus) a sinistris,
+                    partibus regiis, vetus autem munimentum (die alte Redoute) electoralibus cedat.
+                    Hic propre viam<note n="268">Dumont, CTS: jam.</note> &nbsp;&nbsp;a dextris
+                    statim palus defixus. Iterum palus in bivio erectus, ubi ex dicta via regia
+                    Golnoviensi alia oritur, qua nachdem Teeroten<note n="269" type="crit_app"
+                        >Dumont, CTS: Theerosen.</note> &nbsp;&nbsp;ducit. Prorogantur itaque
+                    termini secundum<note n="270" type="crit_app">Dumont, CTS: Auslassung:
+                        secundum.</note>&nbsp;&nbsp;Golnoviensem hanc viam, relicta a sinistris
+                    palude, Liebesheer voacata, cui palus adjectus. Iterum palus a sinistris
+                    impactus, propre compitum (dem Creutzwege) quo vom Teerote<note n="271"
+                        type="crit_app">Dumont, CTS: Theer Ofen.</note> &nbsp;&nbsp;iter patet ad
+                    molendinum, den Hammer. Adhuc palus positus. Flectitur postea limes ex via
+                    Golnoviensi sinistrorsum in saltum Friedrichswaldensem, quem aditum alta pinu
+                        incisione<note n="272" type="crit_app">Dumont, CTS: incisive.</note>
+                    &nbsp;&nbsp;signata ut et impacto palo notatum invenies. Sequuntur tres pali
+                    utroque interim latere incissionibus notato. Adhuc palus inter den Lieten, und
+                    den Tiergarten. Palus juxta quercum incissam, apud quam exigua via, quae ad
+                    particulam saltus die &lt;Felchow&gt;<note type="crit_app" n="273">Dumont, CTS:
+                        Feichau.</note>&nbsp;&nbsp;vergit, huic paululum insistendo. Dein palus ad
+                    quercum. Adhuc duo pali erecti inter den Lieten a dextris, quod electorali, et
+                    der &lt;Felchow&gt;<note type="crit_app" n="274">Dumont, CTS: Chaw.</note> a
+                    sinistris, quod regiae parti cedit. Palus in colle a dextris habendo den Neuen
+                    Baltz, quod est pinetum, novellis arboribus plenum. Duo pali hinc palus in
+                    monticulo, quem adhuc sequitur palus: submotis ubique, quae ductui obstanbant
+                    arbustis, facta etiam in utroque latere caesura. Post haec limites penetrant ad
+                    Collem den Heringsbergk<note n="275" type="crit_app">Dumont, CTS:
+                        Herings-berg.</note>&nbsp;&nbsp;dictum, juxta quem palus serectus. Hic
+                    collis scinditur via vom Teroten<note n="276" type="crit_app">Dumont, CTS:
+                        Teerosen.</note>&nbsp;&nbsp;descendente, dicta der Kloster- seu
+                        Beckerwegk<note n="277" type="crit_app">Dumont, CTS: Beckerweg.</note>, quae
+                    ex hoc colle sinistrorsum scilicet decurrendo, limitem ostendit, et propterea
+                    incisionibus et caesuris utrinque notata. Interim impactus palus juxta tramitem
+                    Beinfurtensem et alter ad viam Dammensem (dammischen Hotzwegk) nec non tertius
+                    prope viam Friederichswaldensem, quae caeteras vias scindit. Missa a dextris hac
+                    via (Kloster-oder Beckerwegk) limes porro, sinistrorum flectendo, conterminam
+                    ingreditur, viam (den kleinen Creutzwegk) qui locus palo insignitus. Huic viae
+                    (dem kleinen Creutzwegk) ulterius inhaerendo, relinquitur a dextris (die
+                        Wolfskuhle<note n="278" type="crit_app">Dumont, CTS: Wolffs-Kuhle (auch
+                        unten).</note>) propre viam transversam Hintzendorffensem<note n="279"
+                        type="crit_app">Dumont, CTS: Hinzkendorffensem.</note>, ubi etiam palus
+                    immissus. A dicto loco der Wolfskuhle porro insistendo viae dem kleinen
+                    Creutzwege, limites, factis in utroque latere caesuris et incisionibus
+                    diversisque palis querneis successive positis, signati sunt, usque ad viam
+                    superiorem Golnoviensem, dem Golnouschen<note n="280" type="crit_app">Dumont,
+                        CTS: Golnowischen.</note>&nbsp;&nbsp;Oberwegk, estque spacium<note n="281"
+                        type="crit_app">Dumont, CTS: spatium.</note>&nbsp;&nbsp;illud, quo der
+                    kleine Creutzwegk, viam hanc superiorem subit, poste notatum. Inhaeret ab hoc
+                    loco limes continuo viae huic<note n="282" type="crit_app">Dumont, CTS: huic
+                        viae.</note> &nbsp;&nbsp;regiae Golnoviam, versus a dextris scilicet partem
+                    electoralem Friedrichswaldensis saltus, a sinistris vero Dammensem sylvam
+                    habendo. Transeundo a sinistris Dammense et sylvae paedagogianae confinium,
+                    usque ad arborem limitaneam<note n="283" type="crit_app">Dumont, CTS:
+                        limitaneum.</note>&nbsp;&nbsp;(Golnouer Mahlbaum<note n="284"
+                        type="crit_app">Dumont, CTS: Golnauer.</note>) a dextris, ubi
+                    Friedrichswaldensis et Golnoviensis saltus sibi invicem junguntur. Arbor haec
+                    limitanea, procera est pinus, incisa cruce, qua Friedrichswaldensem spectat<note
+                        n="285" type="crit_app">Dumont, CTS: spectabant.</note>&nbsp;&nbsp;saltum,
+                    qua Golnoviensem vero, duabus inversis, dorsoque junctis semi lunulis <note
+                        type="crit_app" n="286">Dumont, CTS: lunaribus.</note>, rubrica pictis,
+                    notata: Inveniunturque haec signa ab hoc loco usque ad fluvium Ihna<note n="287"
+                        type="crit_app">Dumont, CTS: Ihne.</note>, in omnibus caesuris expressa.
+                    Apud arborem hanc limitaneam palus insuper impactus: Incipitque hic mons der
+                        Stallbergk<note n="288" type="crit_app">Dumont, CTS: Stollberg.</note>,
+                    cujus jugum<note n="289" type="crit_app">Dumont, CTS: jugus.</note>
+                    &nbsp;&nbsp;continuo tractu veteres suppediat metas. Currunt itaque termini a
+                    jam dicto palo et arbore limitanea in spacium<note n="290" type="crit_app"
+                        >Dumont, CTS: spatium.</note>&nbsp;&nbsp;quodammodo datum, ubi inter duas
+                    annosas et in suprascriptum modum signatas pinus, postis demissus est. Hic
+                    superata transverso ductu via (den Beckerwegk) relictaque incisa et signata
+                    pinu. Duo adhuc pali infossi. Inde ad veterem palum, cui novus additus, in eo
+                    scilicet spacio<note n="291" type="crit_app">Dumont, CTS: spatio.</note>, ubi
+                    ericetum (ein Ort mit Heidekraut bewachsen), der Oldebrandt<note n="292"
+                        type="crit_app">Dumont, CTS: Oldebrandt.</note>&nbsp; vocatum. Producuntur
+                    dehinc termini in parvum collem, ubi terrae cumulus limitem constituit,
+                    procedendo per vallem<note n="293" type="crit_app">Dumont, CTS: procendoque
+                        vallem.</note>, ibique haud procul a saltu palus positus. Ab hoc palo
+                    termini in antiquas vertuntur incisiones (den<note n="294" type="crit_app"
+                        >Dumont, CTS: der.</note>&nbsp; alten Schalm), quae in hoc ductu ubique
+                    extant, iisque insistunt, usque ad viam, qua Golnouia Friedrichswaldiam itur:
+                    hanc transgrediendo statim palus in altero ejus lateri erectus, veniuntque porro
+                    observandae dictae veteres incisiones, usque ad locum die Mordtkuhle<note
+                        n="295" type="crit_app">Dumont, CTS: Mordkuhle (auch unten).</note>, qui est
+                    fovea in colle continens pinum satis proceram, securi notatam, ut et quercum,
+                    quibus et palus super additus. Ex hac fovea (die Mortkuhle) limes per pascua non
+                    nulla et paludes devolvitur in fluvium die Ihna, qui hic proxime praeterfluit,
+                    eoque superato in pratum vel paludes ultra Ihnam sitas, den Hamhorst<note
+                        n="296" type="crit_app">Dumont, CTS: Ramhorst.</note>, ubi Stargardenses et
+                    Golnovienses saltus coeunt. Inde fines seu termini publici (die
+                        Landgrentzen<note n="297" type="crit_app">Dumont, CTS: Landgrantzen.</note>)
+                    sequuntur veteres limites, Stargardensium<note n="298" type="crit_app">Dumont,
+                        CTS: Stargard.</note>&nbsp;&nbsp;et Golnoviensium territoriis antiquitus
+                    intercedentes, usque ad viam Stargardensem, ubi vetus ex terra cumulus sed
+                    acervus, musco plane obductus, ut et procera pinus securi notata conspicitur.
+                    Hinc sinistrorum, viae inhaerendum usque ad rivum die Wittebecke <note
+                        type="crit_app" n="299">Dumont, CTS: Wiltebecke.</note>. Dehinc<note n="300"
+                        >Dumont, CTS: deinc.</note>&nbsp;&nbsp;publicis hisce limitibus includitur
+                    Golnoviense, nec non huic conterminum Marsdorffense territorium, quousque hujus
+                    pagi ut et dictae urbis genuini et antiqui fines extenduntur, ita quidem, ut
+                    utrumque regio ductui accenseatur: usque ad triplex illud confinium (drey
+                        Ortsmahl<note n="301" type="crit_app">Dumont, CTS: Ortmuhle.</note>), in quo
+                    Golnoviensium, Flemingorum<note n="302" type="crit_app">Dumont, CTS:
+                        Flemmingorum (auch unten).</note>&nbsp;&nbsp;et Stepenitzensis<note n="302a"
+                        type="crit_app">Dumont, CTS: Stepenizensis (auch
+                    unten).</note>&nbsp;&nbsp;saltus se invicem contingunt. Hic in aggestae terrae
+                    cumulo novellae aliquot pinus surgunt, quibus etiam palus querneus adjectus, uti
+                    nec longe hinc descendentes inter Golnoviensium et Flemingorum saltus terminos
+                    erecto poste notatos invenies. A dicto<note n="303" type="crit_app">Dumont, CTS:
+                        adjecto.</note>&nbsp;&nbsp;confinio limites porro incipienti banno ferino
+                    (vel Wildtbahe<note n="304" type="crit_app">Dumont, CTS: Wildbahn (auch
+                        unten).</note>) quod inter Stepenizensem et Flemingorum saltum decurrit,
+                    statim incumbunt, Stepenizensem a sinistris, Flemingorum a dextris reliquendo.
+                    Suntque huic banno ferino<note n="305" type="crit_app">Dumont, CTS: Auslassung:
+                        ferino.</note>&nbsp;&nbsp;(vel Wiltbahe) diversi pali appositi, ut et
+                    arbores proxime adstantes, asciarum caesura notatae. Percurrit inde ductus
+                    profundam paludem, ex eaque alterum attingit<note n="306" type="crit_app"
+                        >Dumont, CTS: contingit.</note>&nbsp;&nbsp;confinium triplex (das andere
+                    drey Orthmahl) ubi ad saltum Stepenizensem Flemingorum desinit, der Köller<note
+                        n="307" type="crit_app">Dumont, CTS: Koller.</note>, vero incipit. Hic
+                    itidem grumus, seu effossa terra conspicitur, cui postis insuper quernus<note
+                        n="308" type="crit_app">Dumont, CTS: querceus.</note>&nbsp;&nbsp;inditus.
+                    Hinc limites veteri insistunt sulco terminali, quousque Stepenitzensis saltus
+                    porrigitur, suisque ab antiquo habentibus terminis exacte includitur. Estque hic
+                    ductus à sinistris, incissionibus et caesuris ubique notatus, usque ad
+                        Zarran<note n="309" type="crit_app">Dumont, CTS: Jarran.</note>. Inde rivulo
+                    deorsum versus inhaerendo ad usque den Mülenteich<note n="309">Dumont, CTS:
+                        Muhlen Teich (auch unten).</note>&nbsp;&nbsp;unde dextrorsum, qua
+                    Zastroviensium saltus den Mülen Teich contingit; flectendo et inibi campo ad
+                        Hohenbrügge<note n="310" type="crit_app">Dumont, CTS: Hohen Brucke.</note>,
+                    caeterasque regias partes una cum ipso molendino spectante a sinistirs relicto
+                    ad viam publicam Wollinensem, ibique sitam arborem dem Mahlbaum, porro a
+                    sinistris praetereundo, ac regio ductui includendo den Stride<note n="311"
+                        type="crit_app">Dumont, CTS: Stries.</note>&nbsp;&nbsp;Ort, ad tiliam curvam
+                    (die alte krumme Linde) quae juxta cavitatem viae in monticulo constit. Ad hanc
+                    tiliam Sarnoviense territorium incipit. A curva hac tilia (der krummen Linde)
+                    inhaerendum limitibus inter pagos Sarnow<note n="312" type="crit_app">Dumont,
+                        CTS: Sornau.</note>&nbsp;&nbsp;et Rinow<note n="313" type="crit_app">Dumont,
+                        CTS: Risnou.</note>&nbsp;&nbsp;ab antiquo constitutis, nempe per medium
+                    lacum, (die lange Sehe<note n="314" type="crit_app">Dumont, CTS: See.</note>)
+                    usque ad fines pagorum Lancken ac Iassow<note n="315" type="crit_app">Dumont,
+                        CTS: Jaszaw.</note>, juxta eandem Wollinensem viam, ex qua porro inter
+                    Schinnichowienses ac Risnovienses terminos ascenditur in rivum subtus molendinum
+                    Risnoviense, ita ut Risnow una cum<note n="316" type="crit_app">Dumont, CTS:
+                        Risnowra.</note>&nbsp;&nbsp;molendino, electorali, caetera vero modo dicta
+                    regio ductui includantur. Insistendo porro hisce terminis usque ad illud
+                        spacium<note n="317" type="crit_app">Dumont, CTS: spatium.</note>, ubi
+                    extremum territorii Risnoviensis terinatur fluento, quod hinc in lacum
+                        Martentinensem<note n="318" type="crit_app">Dumont, CTS: Martinensem (auch
+                        unten).</note>&nbsp;&nbsp;descendit. Progreditur porro limes a jam dicto
+                    loco trans pagi<note n="319" type="crit_app">Dumont, CTS:
+                    pagum.</note>&nbsp;&nbsp;kleinen Weikow<note n="320" type="crit_app">Dumont,
+                        CTS: Weikau.</note>&nbsp;&nbsp;ad regium territorium pertinentis fines, per
+                    medium lacus Martentinenses et Pazekensis, penetrando ad rivulum, qui ex hoc
+                    lacu paludem<note n="321" type="crit_app">Dumont, CTS: paludem
+                    lacu.</note>&nbsp;&nbsp;(das Roerbrock<note n="322" type="crit_app">Dumont, CTS:
+                        Rohrbrook.</note>) perfluit, cui ulterius insistendum usque ad illum locum,
+                    ubi hic rivulus Scharchoviensem terram primum alluit. Decurritur inde inter
+                        Bussentinensium<note n="323" type="crit_app">Dumont, CTS:
+                    Bustensium.</note>&nbsp;&nbsp;et Scharchoviensium territoria (quorum illud
+                    electorali, hoc vero regio ductui cedit) per pascuum (Viehetrifft) pagis hisce
+                    commune, ad pontem in campis Scharchoviensibus situm, quem sex perticis
+                        Bussentinum<note n="324" type="crit_app">Dumont, CTS:
+                    Buventinum.</note>&nbsp;&nbsp;versus metiendis, limes praeterit, sequiturque
+                    porro veteres terminos, usque ad territorium Jassoviense, quod una cum pago
+                        Jassow<note n="325" type="crit_app">Dumont, CTS:
+                    Jassau.</note>&nbsp;&nbsp;electoralis ditionis permanet. Inter Iassoviense et
+                    Scharchoviense territoria ulterius extenduntur limites per paludes in longum
+                        porrectas<note n="326" type="crit_app">Dumont, CTS: porrecti.</note>, ad
+                    Milchoviense territorium quod regio ductui innexum, a Jassoviensi totum
+                    includitur, usque ad confinium, ubi Milchoviense, Scharchoviense et Camminensis
+                    urbis territoria conjunguntur, a quo porro limes insistit veteribus metis ac
+                    terminis, prout in Camminense territorium (urbe Cammino inclusa) exacte
+                    circumdant: ubi tamen conventum est (licet duo pagi Tribbeziow<note n="327"
+                        type="crit_app">Dumont, CTS: Tribbezow.</note>&nbsp;&nbsp;et Grambow, in
+                    quorum unoquoque civitas Camminensis praedium (Vorwerck) et aliquot rusticos, ut
+                    et einen Kotzendorff in Marquarts Mühle<note n="328" type="crit_app">Dumont,
+                        CTS: Muhle.</note>&nbsp;&nbsp;possidet, extra ductum regium cadunt, ut
+                    nihilominus jus territoriale in dictos duos pagos et den Kotzendorff in
+                    Marquarts Mühle, quatenus civitas Camminensis in ea jus habet, ad sacram regiam
+                    maj[esta].tem et coronam Sueciae pertinere, dictaque civitatis loca a
+                    jurisdictione serenitatis<note n="329" type="crit_app">Dumont, CTS:
+                        Sereniss.</note>&nbsp;&nbsp;electoralis Brandeburgicae plane exempta esse
+                    debeant (pergendo usque ad Graboviense territorium regio ductui inclusum, quod
+                    antiquis suis et genuinis limitibus publicos constituit terminos, usque ad
+                        Tritzoviense<note n="330" type="crit_app">Dumont, CTS:
+                    Trizoviense.</note>&nbsp;&nbsp;territorium regiae ditioni adscriptum. Huic denuo
+                    inhaerendo ad territorium, Raddakense itidem regiae parti inclusum, quod
+                    antiquis exactisque quibus gaudet, limitibus, publicos hic exhibet fines, iisque
+                    inter hoc et Newlüchtentinense<note n="331" type="crit_app">Dumont, CTS: Neu
+                        Lichtenbergense.</note>&nbsp;&nbsp;territorium, (quod ductui electorali
+                    cedit) in mare falsum usque porretis, hoc ipso extremum territorii regii<note
+                        n="332" type="crit_app">Dumont, CTS: Auslassung:
+                    regii.</note>&nbsp;&nbsp;constituit.</p>
+                <p>XXIV <lb/>Caeterum etsi urbs Camminensis cum suo territorio, sacrae regiae
+                    maj[esta].ti ac regno Sueciae, ut supra dictum, a sua serenitate electorali
+                    cessa sit, capitulum tamen Camminense ex dispositione instrumenti pacis ac pacta
+                    haereditariae unionis ducum Pomeraniae<note n="333" type="annotation">Unter
+                        Bogislaw X. wurde das durch Erbteilungen gespaltene Territorium 1478 wieder
+                        zusammengeführt und als Reichslehen genommen. Dies wurde 1529 im Grimnitzer
+                        Vertrag von Brandenburg anerkannt. Im Erbvertrag von Jasenitz teilten die
+                        vier Söhne Philipps I. 1569 die Herrschaft unter sich auf (Stettin, Wolgast,
+                        Barth und Rügenwalde). Unter Bogislaw XIV. wurde Pommern 1625 noch einmal
+                        vereinigt.</note>, nec non vigore praesentis transactionis utrinque commune
+                    remanet. Consistit autem ea communio in sequentibus, nempe in iure patronatus,
+                    privilegiorum capituli confirmatione, visitatione ecclesiae cathedralis, ac
+                    rationum reddendarum examine, revisione ac reformatione statutorum capituli,
+                    collectarum participatione (vulgo Steuren) ex bonis communibus, servitiis
+                    equestribus (der Roßdienste), in quibus utraque pars ex aequo participat, nisi
+                        quod<note n="334" type="crit_app">Dumont, CTS:
+                    qui.</note>&nbsp;&nbsp;insuper servitia equestria ratione pagorum Fritzkow<note
+                        n="335" type="crit_app">Dumont, CTS: Fritzne.</note>&nbsp;&nbsp;et Raddack,
+                    sacrae regiae maj[esta].ti cessorum ab episcopatu Camminensi, quo antehac
+                    spectarunt, ad sacram regiam majestatem regnumque Sueciae translata sint; ac
+                    denique in homagii praestatione, ratione eorum, quae a capitulo utrinque patrono
+                    conjunctim debentur ac praestantur; salvis servitiis personalibus, ex speciali
+                    obligatione ab unoquoque praelatorum, suo collatori debitis. Ratione tamen
+                    participationis collectarum hunc in modum specialiter conventum es. Cum
+                    collectae ex bonis praepositurae ad ulteriorem Pomeraniam solam, vi unionis ad
+                    pacti haereditarii ab antiquo spectent, bona vero non nulla dictae
+                    praepositurae, nempe Kuckelow<note n="336" type="crit_app">Dumont, CTS:
+                        Kukelow.</note>, Dusdin<note n="337" type="crit_app">Dumont, CTS:
+                        Dustin.</note>, Lancken, et Gauglitz per hanc transactionem territorio regio
+                    nunc incorporata sint, ut collectae ex illis<note n="338" type="crit_app"
+                        >Dumont, CTS: iis</note>&nbsp;&nbsp;bonis juxta normam matriculae
+                    provincialis citeriorem Pomeraniam imposterum<note n="339" type="crit_app"
+                        >Dumont, CTS: in posterum.</note>&nbsp;&nbsp;sequantur, ex bonis vero
+                    communibus juxta eandem normam electorali parti loco aequivalentis collectae ex
+                    pagis Ransberg, Luchtentin<note n="340" type="crit_app">Dumont, CTS:
+                        Luchteirin.</note>, Horst, Lensin, Schlewin<note n="341" type="crit_app"
+                        >Dumont, CTS: Slesvin.</note>, Revahl<note n="342" type="crit_app">Dumont,
+                        CTS: Rewahe.</note>, Nimichow<note n="343" type="crit_app">Dumont, CTS:
+                        Nimichau.</note>&nbsp;&nbsp;et Necklas vicissim cedant. Praedicta vero
+                    communio ad episcopatum Camminensem soli electori cessum extendi non<note
+                        n="344" type="crit_app">Dumont, CTS: Auslassung:
+                    non.</note>&nbsp;&nbsp;debet. </p>
+                <p>XXV <lb/>Quamvis autem a sarca Caesarea maj[esta].te ac Imperio vigore art. 10 §
+                    quicquid etc, nec non art. 11 instr[umentum]. pacis § tenatur idem Dominus
+                    Elector, utrique<note n="345" type="crit_app">Dumont, CTS:
+                    utrinque.</note>&nbsp;&nbsp;patrono post decessum modernorum canonicorum et
+                    capitularium potestas capitulum Camminense extinguendi, reditusque ejus
+                        mensae<note n="346" type="crit_app">Dumont, CTS: mensae
+                    ejus.</note>&nbsp;&nbsp;ducali applicandi concessa sit. Tamen sacra regia
+                    maj[es].tas nec non serenitas sua<note n="347" type="crit_app">Dumont, CTS:
+                        Auslassung: sua.</note>&nbsp;&nbsp;electoralis, salvo acquisito jure, ex
+                    singulari gratia ac favori (hac tamen expressa lege et conditione, ut capitulum
+                    se se erga patronos vicissim gratum gerat, nec gravi aliqua ingratitudine a toto
+                    collegio collegialiter commissa semetipsum hac regia et electorali gratia et
+                    favore speciali indignum reddat) consentiunt, ut dictum capitulum ratione
+                    administrationis in priori statu, nempe ut ratione status, dignitatis formae,
+                    modi caeterorumque (sola facultate episcopum<note n="348" type="crit_app"
+                        >Dumont, CTS: episcopi.</note>&nbsp;&nbsp;eligendi exclusa), quae per
+                    fundationem, privilegia ac conventiones<note n="349" type="crit_app">Dumont,
+                        CTS: Auslassung: ac conventiones.</note>&nbsp;&nbsp;acquisivit, juxta normam
+                    statuorum et pactorum haereditariorum plane idem, nec non utrique parti commune
+                        permaneat<note n="350" type="crit_app">Dumont, CTS: maneat.</note>, sique in
+                    futurum defectus non nulli exstiterint, ut ii per utrinque deputatos
+                    commissarios facta intra trium mensium spatium reciproca intimatione
+                    componantur; ac si praeter spem ex communione hac inter sacram regiam
+                    majes[ta].tem ac serenissimum electorem lites exortae fuerint, ut eae vel
+                    amicabiliter arbitris seu mediatoribus, pari numero ex statibus provincialibus,
+                    secundum dispositionem unionis haereditariae ducum Pomeraniae ad id delectis,
+                    vel via iuris mature tollantur. <lb/>Jurisdictionem, vero civilem ac
+                    ecclesiasticam, nec non jura ordinis ac legis dioecesanae<note n="351"
+                        type="crit_app">Dumont, CTS: dioecesaniae.</note>&nbsp;&nbsp;super capitulum
+                    ejusque ministerium ecclesiasticum, quod concernit, et si ex dispositione
+                    pactorum unionis haereditariae ista omnia ad solum ulterioris Pomeraniae ducem
+                    olim spectarunt; cum tamen per transactionem hanc limitaneam (cujus intuitu
+                    exigua pars terrarum ac bonorum olim ad ulteriorem Pomeraniam, pertinentium,
+                    atque ita quoque capituli, utriusque territorii facta est<note n="352"
+                        type="crit_app">Dumont, CTS: est facta.</note>) res in alium statum deducta
+                    sit, ad praecavendas in futurum dissensiones super jurisdictione in
+                    ecclesiasticis, politicis et appellationibus, in sequentem modum transactum est;
+                    nempe primo, ut jurisdictio ecclesiastica una cum caeteris juribus
+                    episcopalibus, sicuti<note n="353" type="crit_app">Dumont, CTS:
+                    sicut.</note>&nbsp; ex transactione Passaviensi, et eam subsecuta pace
+                    religiosa, excluso capitulo, ad solos Ppincipes devoluta est, ita
+                        imposterum<note n="354" type="crit_app">Dumont, CTS: in posterum (auch
+                        unten).</note>&nbsp;&nbsp;quoque ad sacram regiam maj[esta].tem ac
+                    seren[issi].mum electorem solos ex aequo pertineat, ex more prioribus ducibus
+                    usitato, ac praescripto ordinantiae ecclesiasticae, per utriusque partis
+                    consistoria etiam in capituli bonis exercenda et administranda. Secundo, ut
+                    capitulum primam instantiam, quam vigore fundationis, privilegiorum et veterum
+                    consuetudinum in secularibus in omnes sibi subjectos ad antiquo habuit,
+                    imposterum quoque retineat. Quo ad praelatos vero et nobiles, inter causas
+                    distinguendum est, an illae beneficia ecclesiastica, quae ex capitulo dependent,
+                    an vero alias res, ut pote contractus, fractam pacem publicam, maleficia,
+                    honorem ac famam, vitam vel bona feudalia concernant. Hoc posteriori causa
+                    praelati ac nobiles non coram capitulo, sed dicasterio primam instantiam
+                    obtineant, ac tum quisque sui magistratus ordinarii, ac domini feudi forum
+                    ratione territorii agnoscere teneatur<note n="355" type="crit_app">Dumont, CTS:
+                        teneantur.</note>. Si vero praelatus bona habeat in alterius domini
+                    territorio sita, ejus forum ratione illorum bonorum sequatur. Tertio, cum vero
+                    praelatis non nullis, ut pote praeposito, decano, scholastico, ac thesaurario in
+                    suos pagos et subditos peculiaris instantia ac iurisdictio ex gratia sui
+                    collatoris competat, aequum visum fuit, non attento territorio, appellationes,
+                    si quae extiterint, ad cujusque<note n="356" type="crit_app">Dumont, CTS:
+                        hujusque.</note>&nbsp;&nbsp;praelati patronum ac collatorum devolvi. Quarto,
+                    si praelati ac nobiles, ratione causarum in quibus primam capituli instantiam
+                    agnoscere tenentur, gravatos se senserint, ita ut appellare cogantur,
+                    convenientissimum fuerit, actorem in personalibus rei, in beneficialibus
+                    collatoris, in realibus vero<note n="357" type="crit_app">Dumont, CTS:
+                        Auslassung: vero.</note>&nbsp;&nbsp;forum rei sitae, in prosequendo jure suo
+                    sequi, ita ut in illis, si reus vel regius vel electoralis praelatus sit,
+                    appellatio ad iudicium regium vel electorale in istis ad dicasterium collatoris,
+                    in his vero ad dominum territorii, in quo res sita est, dirigatur. Quod et
+                    quinto, ratione iurisdictionis super ipsum capitulum, quo<note n="358"
+                        type="crit_app">Dumont, CTS: quod.</note> ad&nbsp;&nbsp;curias praelatorum
+                    in secunda instantia attendi placuit. Si vero ipsum capitulum seu collegium
+                    residentiam ejusque ministros ac mandatarios ex gestis nomine capituli vel
+                    actione personali, vel reali, vel ex contractu, vel delicto, a privato conveniri
+                    contigerit, visum fuit in actione reali vel personali ad certam rem instituta,
+                    eam coram domino territorii, ubi res sita est, institui. In actione vero mere
+                    personali iudicium utrique parti commune per utrinque delegatos exerceri. Si
+                    autem causa concernat contractum, vel delictum, vel in ipsa sede capituli
+                    communi, vel in curiis praelatorum inter privatos initum vel commissum, priori
+                    casu praeventio tanquam in re communi habebit locum, posteriori vero locus
+                    contractus vel delicti arrendendus erit, ita, si contractus vel delictum in
+                    curia regii, provocatio ad regium, si vero in curia praelati, electoralis
+                        celebratus<note n="359" type="crit_app">Dumont, CTS:
+                    celebratum.</note>&nbsp;&nbsp;vel perpetratum sit, ad electorale dicasterium
+                    dirigatur. Sexto, placuit iurisdictionem ecclesiasticam ut et ea, quae pertinent
+                    ad iura ordinis, et legis dioecesanae (extra ecclesiam cathedralem) juxta
+                    distinctionem territoriorum dividi, ita ut omnes ecclesia pastores ac ministri
+                    ecclesiarum, nec non res ecclesiasticae in iis locis, quae in territorio regio
+                    sitae sunt, regium consistorium ac superintendentem, ac vice versa, omnes
+                    ecclesiae ministris<note n="360" type="crit_app">Dumont, CTS:
+                    ministry.</note>&nbsp;&nbsp;ac res ecclesiasticae, in iis locis, quae
+                    electoralis territorii sunt, electorale consistorium ac superintendentem solum
+                    modo agnoscere teneantur, atque synodi seu dioeceses juxta eam divisionem
+                    formandae veniant. Septimo pariter in caeteris quoque respectu praelatourm ac
+                    nobilium supra non exceptis, quo ad civilia ac criminalia in secunda instantia
+                    distinctio territoriorum observari, ac persona rei attendi debet, ita ut ad ejus
+                    principis forum sub quo domicilium reus habet, appellandum sit. Octavo, ne quid
+                    autem praejudicii vel confusionis circa distinctionem praelatorum in
+                    executionibus cuiquam parti oboriatur, convenit, omnes executiones (exceptis in
+                    quibus res extra capituli territorium sita est, ubi ordinario dicasteriorum
+                    exequendi modo standum) ad capitulum remitti ut per ejus executorem, nomine
+                    tamen principis, a quo sententia lata est, effectui mandentur. </p>
+                <p>XXVI<note n="361" type="crit_app">Dumont, CTS: keine Zählung.</note>
+                    <lb/>Porro et si pacto veteris haereditariae divisionis utrique tam citerioris
+                    quam ulterioris Pomeraniae duci, ut pote fratribus, cognatis ac propinquis, ex
+                    lege haereditaria sibi succedentibus, praeter jura capituli, etiam alia multa
+                    fuerint communia, ea tamen communio in alium longe statum nunc deducta est.
+                    Amore enim ac studio concordiae firmandae, ser[nissi].mus quidem elector jam
+                    ante per Osnabrugensia pacis universalis pacta, nunc vero utraque pars junctim
+                    per hanc transactionem omnibus ac singulis quocunque nomine ac titulo veniant,
+                        juribus<note n="362" type="crit_app">Dumont, CTS:
+                    juribusque.</note>&nbsp;&nbsp;communibus respective in citeriori vel
+                        ulteriori<note n="363" type="crit_app">Dumont, CTS: Auslassung: vel
+                        ulteriori.</note>&nbsp;&nbsp;Pomerania, locisque annexis, sacrae regiae
+                    maj[esta].ti cessit, nec non episcopatu Camminensi ducibus Pomeraniae hactenus,
+                    sive ex pactis haereditariis, sive alias, ultro citroque competentibus, expresse
+                    ac si nominatim hic enumerata essent, renunciat reciproce, et quidem sua
+                    ser[eni].tas electoralis simpliciter, nulla plane communione ullius rei vel
+                    juris in loca regno Sueciae cessa, sibi vel posteris suis reservata, regia vero
+                    maj[es].tas cum temperamento ac reservato communionis in capitulo Camminensi,
+                    nec non eventualis homagii et successionis in ulteriorem Pomeraniam et
+                    episcopatum Camminensem, de quibus articuli partim antecedentes partim sequentes
+                    plenius disponunt<note n="364" type="crit_app">Dumont, CTS: Auslassung: nec non
+                        ... disponunt.</note>. </p>
+                <p>
+                    <lb/>XXVII <lb/>Reservata ergo<note n="365" type="crit_app">Dumont, CTS:
+                        Auslassung: ergo.</note>&nbsp;&nbsp;est sacrae regiae maj[esta].ti ac regno
+                    sueciae praeter dimidiam capituli Caminensis partem, supra exceptam ac
+                    descriptam, in casum deficientis lineae masculae<note n="366" type="crit_app"
+                        >Dumont, CTS: masculinae.</note>&nbsp;&nbsp;domus Brandenburgicae simultanea
+                    investitura in ulteriorem Pomeraniam et episcopatum Camminensem huicque
+                        connexum<note n="367" type="crit_app">Dumont, CTS:
+                    annexum.</note>&nbsp;&nbsp;eorundem ordinum eventuale homagium sacrae regiae
+                    maj[esta].ti ac succesoribus regnoque Sueciae praestandum. Circa illius vero
+                    exceptionem cum more solito procedi debeat, sequens ordo observandus erit, ut
+                    scilicet ser[enissi].mo electori Brandenburgico post conventionem amicabilem
+                    super omnibus minutiis per instrumentum pacis remissis, plenarie factam, in
+                    termino jam ante definiendo, ducatus ulterioris Pomeraniae, nec non episcopatus
+                    Camminensis cum omnibus juribus secularibus et ecclesiasticis, tam quo ad
+                    dominium utile, quam directum, pleno iure ex disposititone dicti instrumenti
+                    restituatur. Quo facto ser[eni].tas sua electoralis post adeptam plenam ducatus
+                    et episcopatus praedicti possessionem, peractasque ultimi Pomeranorum ducis
+                    familiae jam<note n="368" type="crit_app">Dumont, CTS: Auslassung:
+                    jam.</note>&nbsp;&nbsp;extinctae exequias, absque ulla interposita mora certum
+                    provincialis homagii terminum constituat, illumque tribus ante mensibus sacrae
+                    regiae maj[esta].ti literis quidem eidem inscriptis, ad regimen tamen ejusdem
+                    Pomeranicum transmissis denunciet, et ad modum olim inter ser[enissi].mos
+                    electores Brandenburgicos et duces Pomeraniae usitatum, praesentibus regiis
+                    commissariis, datisque ordinibus ac statibus ulterioris Pomeraniae ac
+                    episcopatus Camminensis (inclusis etiam bonis Johannitici Ordinis in dicta
+                    ulteriori Pomerania) acceptisque ab iisdem mutuis reversalibus juxta formulam
+                    hactenus observatam, circumstantiis tamen praesentibus accommodatam, homagium ab
+                    iis recipiat. Quod etiam imposterum existente mortalitatis casu, quem Deus
+                    diutissime avertat, a successore defuncti electoris, quo ad notificationem
+                    termini et adjunctionem<note n="369" type="crit_app">Dumont, CTS: Einschub:
+                        regiorum.</note>&nbsp;&nbsp;commissariorum&nbsp; regiorum<note n="370"
+                        type="crit_app">Dumont, CTS: Auslassung: regiorum.</note>&nbsp;&nbsp;de casu
+                    ad casum perpetuo observandum est<note n="371" type="crit_app">Dumont, CTS:
+                        Auslassung: est.</note>. Ita tamen, ut prius pacta hac de re confecta
+                    utrinque ante homagii praestationem renoventur et successoribus statibusque una
+                    cum reversalium literis de verbo ad verbum renovatis extradantur. Inde obtento
+                    ab Imperatore termino investiturae renovandae, is similiter quatuor ante
+                    mensibus sacrae regiae majestati Sueciae<note n="371" type="crit_app">Dumont,
+                        CTS: Auslassung: Sueciae.</note>&nbsp;&nbsp;ad modum supra dictum a sua
+                    ser[enita].te electorali significandus est, quo sacra regia maj[es].tas<note
+                        n="372" type="crit_app">Dumont, CTS: Einschub: Sueciae.</note>&nbsp; suos ad
+                    solitas circa recipiendam simultaneam investituram per contactum vexilli
+                    solennitates peragendas mature satis ad aulam Caesaream ablegare, simultaneamque
+                    investituram super ducatu ulterioris Pomeraniae, episcopatusque Camminensi
+                    solito more recipere possit, prouti haec et quae porro huc spectant, peculiari
+                    conventione inter sacram regiam maj[esta].tem et ser[enissi]mum dominum
+                    electorem pluribus determinata ac definta sunt. Caeterum, et si sacra regia
+                    maj[es].tas circa investituram Caesaream<note n="373" type="crit_app">Dumont,
+                        CTS: Auslassung: Caesaream.</note>&nbsp;&nbsp;hac quoque vice a
+                    ser[enissi].mo electore recipiendam eundem ordinem servari oportere censuerit;
+                    Postquam tamen sua ser[eni].tas electoralis investituram jam ante ab Imperatore,
+                    praestito homagio, sibi collatam, ac nihil nisi adplicationem<note n="374"
+                        type="crit_app">Dumont, CTS: applicationem.</note>&nbsp;&nbsp;ejusce<note
+                        n="375" type="crit_app">Dumont, CTS: ejusque.</note>&nbsp;&nbsp;ad partes
+                    ulterioris Pomeraniae et episcopatum Camminensem per instrumentum pacis et hunc
+                    tractatum sibi restituendas<note n="376" type="crit_app">Dumont, CTS:
+                        Auslassung: et hunc tractatum sibi restituendas.</note>&nbsp;&nbsp;(exclusa
+                    reliqua Pomerania<note n="377" type="crit_app">Dumont, CTS:
+                    Pomeraniae.</note>&nbsp;&nbsp;sacrae regiae maj[esta].ti cessa) speciali
+                    diplomate, absque reiteratione homagii expressam desiderari, hocque totum absque
+                    ullo sacrae suae regiae maj[esta].tis ejusque successorum ac regni Sueciae
+                    praejudicio (ut pote quibus nihilo fecius investiturae Caesareae nec non
+                    eventualis ordinum ulterioris Pomeraniae ac in secularem statum redacti
+                    episcopatus Camminensis, homagii receptio etiam pro praesenti reservata sit)
+                    fieri posse asseverasset<note n="378" type="crit_app">Dumont, CTS:
+                        adservasset.</note>, adductisque rationibus demonstrasset, sacra regia
+                    maj[es].tas studio concordiae stabiliendae non ultra insistendum, sed sibi
+                    acquiescendum existimavit, cum hac tamen expressa lege ac reservatione, ut sibi
+                    integrum sit (prout et convenit) investituram eventualem in ulteriorim
+                    Pomeraniam et episcopatum Camminensem ab Imperatore, uti et homagium simultaneum
+                    ab ordinibus dictae ulterioris Pomerania et episcopatus Camminensis non minus
+                    hac vice ac pro praesenti, quam successoribus suis, ac eegno Sueciae in posterum
+                    recipere, ac reversalibus ordinum sibi firmare, observando circa homagii
+                    receptionem, nunc et imposterum ea, quae supra determinata inveniuntur. </p>
+                <p>XVIII <lb/>Ne vero ob<note n="379" type="crit_app">Dumont, CTS:
+                    per.</note>&nbsp;&nbsp;simultaneam investituram respectu administrationis
+                    ducatus ulterioris Pomeraniae et episcopatus Camminensis, ulla difficultas
+                    inposterum oriatur; conventum est, ut quemadmodum ser[enissi].mus dominus
+                    elector in se recepit<note n="380" type="crit_app">Dumont, CTS:
+                    recipit.</note>&nbsp;&nbsp;administrationem ducatus et episcopatus, tam quo ad
+                    bona quam jura, non aliter, quam ad normam privilegiorum ac recessuum
+                    provincialium, nec non constitutionem imperalium se exerciturum<note n="381"
+                        type="crit_app">Dumont, CTS: seu exercituum.</note>. Ita sacra regia
+                    maj[es].tas sese vicissim<note n="382" type="crit_app">Dumont, CTS:
+                        invicem.</note>&nbsp;&nbsp;declarat, nolle se ser[enissi].mo domino electori
+                    in iuribus suis per ulteriorem Pomeraniam et episcopatum Camminensem jam
+                    extinctum, et in feudum seculare conversum exercendis, ante existentem casum,
+                    ulla ratione modum praefinire aut<note n="383" type="crit_app">Dumont, CTS:
+                        Auslassung: modum praefinire aut.</note>&nbsp;&nbsp;impedire. </p>
+                <p>XXIX <lb/>Caeterum, cum sacrae regiae maj[esta].ti regnoque Sueciae, per
+                    instrumentum pacis non modo Pomerania et Rugia, cum ibi specificatis locis ex
+                    ulteriori Pomerania, ac simultanea investitura in reliquam ejusce<note n="384"
+                        type="crit_app">Dumont, CTS: ejus.</note>&nbsp; partem, sed etiam omnia
+                    antecessorum ducum Pomeraniae iura ac expectantiae, atque ita quoque expectantia
+                    et simultanea in Neo-Marchiam et districtum Sternbergensem ultra Oderam, nec non
+                    in Castra Vierraden ac Läkenitz, eorumque adpertinentia bon cis Marchiacos fines
+                    in Pomerania sita, concessa et collata<note n="385" type="crit_app">Dumont, CTS:
+                        Auslassung: ducum Pomeraniae iura ac expectantiae, atque ita quoque
+                        expectantia et simultanea Investitura in Neo-Marchiam et districtum
+                        Sternbergensem ultra Oderam, nec non in Castra Vierraden ac Läkenitz,
+                        eorumque adpertinentia bon cis Marchiacos fines in Pomerania sita, concessa
+                        et collata. Statt dessen: ducum Pomeraniae secundum tenorem instrumenti
+                        pacis concessa.</note>&nbsp;&nbsp;sint, in eam quidem concessionem et
+                    expectatiam sub sacrae Caesareae maj[esta].tis ratificatione serenissimus
+                    dominus elector Brandenburgicus ejusque successores, nec non agnati omnes ac
+                    tota familia (quorum consensum specialem s[ereni]tas sua electoralis
+                    procuraturam in se recepit<note n="386" type="crit_app">Dumont, CTS:
+                        recipit.</note>) hisce denuo consentiunt, idque cum declaratione sequenti,
+                    nempe, si contingat (quod Deus avertat) ser[enissi].mum electorem
+                    Brandenburgicum ejusque totam domum et familiam electoralem absque prole mascula
+                    deficere, quod eo casu sacra regia maj[es].tes reges, regnumque Sueciae in hasce
+                    ditiones succedere, earumque vacuam possessionem, praevia supra dicta Caesarea
+                    ratificatione et confirmatione regia omnium iurium, libertatum et<note n="387"
+                        type="crit_app">Dumont, CTS: Auslassung: libertatum
+                    et.</note>&nbsp;&nbsp;privilegiorum, ad quam sacra regia maj[es].tas sese
+                    statibus et ordinibus dictorum locorum literis suis reversalibus obstrinxit,
+                        auctoritate<note n="388" type="crit_app">Dumont, CTS:
+                    autoritate.</note>&nbsp;&nbsp;propria nemine ultra requisito, arripere<note
+                        n="389" type="crit_app">Dumont, CTS: Auslassung: arripere.</note>. Interea
+                    autem casu emanente simultanea investitura gaudere debeant; adjunctis electori
+                    ejusque successoribus quotiescunque homagium provinciale, vulgo Landeshuldigung,
+                    ab ordinibus dictarum ditionum receperint, commissarii et consiliis suis, quibus
+                    nomine reginae, regum, regnique Sueciae, eventuale homagium praestabitur<note
+                        n="390" type="crit_app">Dumont, CTS: praestabit.</note>, et reversales
+                    ordinum receptis regiis reversalibus, juxta formulas usitatas singulis vicibus
+                    extradentur. Prout haec et quae porro huc spectant, particulari conventione
+                    inter sacram regiam ma[jesta].tem et ser[enissi].mum dominum electorem pluribus
+                    definita ac determinata sunt. Quod tamen ita intelligendum est, ut cum ordines
+                    dicti moderno electori jam ante instrumentum pacis confectum, vel haec pacta
+                        sancita<note n="391" type="crit_app">Dumont, CTS: hoc pacto
+                    sancito.</note>&nbsp;&nbsp;fidelitatis juramentum praestiterint, atque hac vice
+                    res simultanee geri nequiverit, ut nihilominus dicti ordines post haec pacta
+                    ratificata intra bimestre spatium reversalibus suis caveant, se inposterum
+                    quotiescunque casus evenerit, id ipsum ac caetera omnia, ad quae ex hoc articulo
+                    ac praedicta speciali conventione ratione simultaneae investiturae obligantur,
+                    inviolabiliter praestituros. Interim vero sacrae regiae maj[esta].ti ac regno
+                    Sueciae uti eventuales subditos simultaneo nexu devinctos permansuros<note
+                        n="392" type="crit_app">Dumont, CTS: Auslassung: Interim vero sacrae regiae
+                        maj.ti ac regno Sueciae uti eventuales subditos simultaneo nexu devinctos
+                        permansuros.</note>. </p>
+                <p>XXX <lb/>Cum item reginae regibusque ac regno Sueciae a sacra Caesarea majestate
+                    atque Imperio moderna vectigalia ad littora portusque Pomeraniae ac
+                        Megapoleos<note n="393" type="crit_app">Dumont, CTS: Auslassung: ac
+                        Megapoleos.</note>&nbsp;&nbsp;juro perpetuo concessa sint, ac eam
+                    concessionem, ut pote in satisfactionem regiam factam, ex vi vocum generalium ac
+                    indeterminatarum instrumenti pacis, ad littora portusque tam ulterioris quam
+                    citerioris Pomeraniae extensam voluisset, sacra regia maj[es].tas serenissimus
+                    vero elector ad loca regno Sueciae non eventualiter sed de praesenti cessa,
+                    exclusis (donec casus aperturae extiterit) portubus<note n="394" type="crit_app"
+                        >Dumont, CTS: protubusque.</note>&nbsp;&nbsp;reliquae Pomeraniae sibi
+                    cessae, restringi debere existimasset, eaque res acri animorum concertatione diu
+                    multumque disceptata esset, tandem Dei auxilio amicabili transactione res ita
+                    composita est, ut sacra regia maj[es].tas augendae firmandaeque amicitiae ac
+                    bonae vicinitatis<note n="394a" type="crit_app">Dumont, CTS: civitatis.</note>,
+                    nec non contestandi adfectus<note n="395" type="crit_app">Dumont, CTS:
+                        affectus.</note>&nbsp;&nbsp;sui causa erga suam ser[enita].tem electoralem
+                    propinquo sanguinis nexu sibi junctam, pluresque alios ob respectus serenissimum
+                    dominum electorem in perceptionem pro parte dimidia omnium vectigalium in
+                    portubus ulterioris Pomeraniae electoralis exigendorum (exceptis vectigalibus
+                    antiquis, quorum plena ac indivisa perceptio ssae Ser[enita].ti electorali
+                    vigore instrumenti pacis ex jure territoriali debita<note n="396"
+                        type="crit_app">Dumont, CTS: Auslassung:
+                    debita.</note>&nbsp;&nbsp;permanebit), nec non emolumentorum in iisdem portubus
+                    ex confiscatione circa ea resultantium, ex favore admiserit, uti adeo hisce
+                    admittit. Eam vero admissionem certis conditionibus, super quibus peculari
+                    conventione transactum est, determinari passa est. </p>
+                <p>XXXI <lb/>Commerciorum autem libertati etsi art. IX et art. X vers de caetero
+                    ordinibus, instrumenti pacis universalis civitatibus Pomeraniae Anseaticis, quo
+                    ad libertatem ncvigationis et Commerciorum cum exteris regibus ac rebus publicis
+                    provisum sit, utrinque tamen et revisum fuit, ea quae Pomeranicas ac Marchiacas
+                    ditiones in particulari officiunt, hoc articulo per specialem adplicationem<note
+                        n="397" type="crit_app">Dumont, CTS:
+                    applicationem.</note>&nbsp;&nbsp;exprimere, ac extra dubitationis aleam
+                    collocare. Libera ergo imprimis ac minime impedita sint commercia ac negationes
+                    inter utramque Pomeraniam citeriorem ac ulteriorem earumque<note n="398"
+                        type="crit_app">Dumont, CTS: eorumque.</note>&nbsp;&nbsp;subditos omnes ac
+                    singulos, mari, fluminibus ac terra ad eum plane modum, quo superioribuis
+                    ducibus viguerunt<note n="399" type="crit_app">Dumont, CTS:
+                    floruerunt.</note>&nbsp;&nbsp;ac in observantia fuerunt, nec ullis interdictis
+                    vel quacunque alia ratione mutua ac reciproca mercium cujuscunque sunt generis
+                    ac nominis, importatio, exportatio<note n="400" type="crit_app">Dumont, CTS:
+                        Auslassung: exportatio.</note>&nbsp; ac distractio antehac usitata
+                    prohibeatur, impediatur, vel novis oneribus gravetur. Salvo tamen utrique<note
+                        n="401" type="crit_app">Dumont, CTS: utrinque.</note>&nbsp;&nbsp;tam sacrae
+                    regiae maj[esta].ti ac regno Sueciae, quam ser[enissi].mo electori ducibus
+                    Pomeraniae ab antiquo competenti jure occludendi portus ac provinciam, ex tante
+                        casu<note n="402" type="crit_app">Dumont, CTS: usu.</note>&nbsp; gravis
+                    annonae caritatis, salvisque<note n="403" type="crit_app">Dumont, CTS:
+                        salvis.</note>&nbsp;&nbsp;urbis ac loci cujusque privilegiis, prouti ante
+                    bellum et hucusque in usu et observantia fuerunt<note n="404" type="crit_app"
+                        >Dumont, CTS: fuerint.</note>, nec non salvis ac competenti foro relicits,
+                    vel ad amicabilem transactionem remissis, si quae inter urbes non nullas, vel
+                    alios adhuc indecisae manent litis pendentiis. Liberum praeterea sit utriusque
+                    Pomeraniae subditis ac incolis credita sua, si quae invicem praetendunt,
+                    quocunque loco ac tempore reposcere atque exigere, nec liceat debitoribus<note
+                        n="405" type="crit_app">Dumont, CTS: creditoribus.</note>&nbsp;&nbsp;sub
+                    praetextu separationis ditionum solutioni debitae se eximere, quin iustitia in
+                    omnibus tam superioribus quam inferioribus instantiis unicuique jus suum
+                        docenti<note n="406" type="crit_app">Dumont, CTS:
+                    docendi.</note>&nbsp;&nbsp;absque mora et indilate administretur, nec<note
+                        n="407" type="crit_app">Dumont, CTS: ut.</note>&nbsp;&nbsp;praeter ius vel
+                    fas ullus<note n="408" type="crit_app">Dumont, CTS:
+                    nullus.</note>&nbsp;&nbsp;gravetur. Idem etiam circa haereditatum obventiones,
+                        donationes<note n="409" type="crit_app">Dumont, CTS: dominations.</note>,
+                    contractus aliosve modos, quoscunque reciproce observetur, et si qui<note
+                        n="410" type="crit_app">Dumont, CTS: quae.</note>&nbsp;&nbsp;emigraverint,
+                    ne ultra solitam summam onerentur; Salva immunitate officialium regiorum ac
+                    electoralium, nec non aliarum personarum privilegiatarum. Denique jura,
+                    libertates, immunitates, privilegia, bona aliaque, quae unius partis subditi ac
+                    incolae quicunque in alterius partis ditionibus, urbibus, ac territoriis a
+                    ducibus Pomeraniae prioribus, vel aliis quovis legitimo titulo acquisiverunt,
+                    quiete huc usque possederunt, et indubitatis documentis etiamnum specifice
+                    demonstrare poterunt, ea (salva si alicubi forte reperiatur, litis pendentia)
+                    omnibus ac singulis sive communitatibus sive privatis, non obstante separatione
+                    utriusque regiminis, integra et inviolata permaneant ac reliquantur. Libera
+                    deinde ac minime impedita sint commercia inter Pomeraniam utramque et marchiam
+                    Brandenburgicam terra ac fluminibus, praesertim per Oderam ac Wartham, inque
+                    eorum praejudicium tempore belli inducta augmenta theloneorum<note n="411"
+                        type="crit_app">Dumont, CTS: teloniorum (auch unten).</note>&nbsp;&nbsp;ex
+                    praescripto instrumenti pacis e vestigio tollantur, et thelonea in antiquum
+                    statum deducantur. Controversiam vero, quae ratione juris depositorii cum
+                    caeteris eodem pertinentibus inter urbes Stetinum ac Francofurtum a multis retro
+                    annis agitata fuit, quod attinet<note n="412" type="crit_app">Dumont, CTS:
+                        Auslassung: quod attinet.</note>, optatum quidem fuit, eam amicabili hoc
+                    tractatu aequis rationibus consopiri potuisse, cum autem varia obstacula
+                    transactioni pro praesenti obstiterint, totam eam causam ad specialem
+                    commissionem a sacra regia maj[esta].te ac ser[enissi].mo electore intra spatium
+                    unius anni a dato rati habiti hujus tractatus adornandam utrinque remittere
+                    placuit. Interea vero sua ser[eni].tas electoralis sese hisce per expressum
+                    declarat, quod edictum prohibitorum anno 1572<note n="413" type="crit_app"
+                        >Prohibitionsedikt 1572.</note>&nbsp; a ser[enissi].mo electore Johanne
+                        Georgio<note n="414" type="annotation">Johann Georg (1571-1598), Kurfürst
+                        von Brandenburg.</note>&nbsp; publicatum, quo omne commerciorum ac
+                    negationis exercitium terra et fluminibus ex marchiacis ditionibus Stetinum
+                    versus vetatur, prouti insecutis temporibus obliteratum atque in desuetudinem
+                    perductum est, ita imposterum per haec pacta et hanc sanctionem penitus
+                    abolitum, cassatum atque annullatum esse debeat, nec ullis unquam temporibus in
+                    futurum reducatur. Salva tamen atque integra utrinque nempe inter Stetinum ac
+                    Francofurtum vertente tota causa salvoque<note n="415" type="crit_app">Dumont,
+                        CTS: salvo.</note>&nbsp;&nbsp;utriusque partis jure in iudicium deducto, vel
+                    porro deducendo, per amicabilem compositionem (uti dictum) vel si id praeter
+                    spem fieri nequit, ordinaria iuris via determinando. </p>
+                <p>XXXII <lb/>Caeterum, cum<note n="416" type="crit_app">Dumont, CTS: Einschub: eum
+                        in finem.</note>&nbsp; ad firmamentum perpetuo duraturae amicitiae et
+                    dissida imposterum praecavenda haud parum faciat, si ex litigiis forensibus<note
+                        n="417" type="crit_app">Dumont, CTS: Auslassung: imposterum praecavenda haud
+                        parum faciat, si ex litigiis forensibus.</note>&nbsp;&nbsp;in dicasterio
+                    Stetinensi vel etiam in consilio status anteactis hisce<note n="418"
+                        type="crit_app">Dumont, CTS: his.</note>&nbsp;&nbsp;temporibus inter partes
+                    agitatis ac decisis, quam<note n="419" type="crit_app">Dumont, CTS: quum
+                        ad.</note>&nbsp;&nbsp;minimum reliquum sit, quod futuris temporibus in
+                    disceptationem denuo trahi possit, convenit, ut omnia acta, iudicata ac decreta,
+                    quae toto belli tempore ac durante regimine sacrae regiae maj[esta].tis Sueciae,
+                    in partibus ser[enissi].mo electori cessis, in utroque jam dicto collegio
+                    praevia causarum cognitione definita ac decisa sunt, plenum robur in perpetuum
+                    obtineant, nec ullo praetextu a ser[enita].te sua electorali, vel ejus
+                    successoribus rescindi aut in dubium vocari debeant, exceptis tamen causis bona,
+                    reditus, regalia, caeteraque jura domanialia, in quantum iis, quo ad eum statum
+                    in quo temporibus posteriorum ducum Pomeraniae fuerunt, derogatum est,
+                    concernentibus, ut pote quae vigore art. 28 in dicto suo statu permanere debent,
+                    salva inposterum dispositione ser[enissi].mi electoris, quatenus ea ex
+                    praescripto dicti articuli ipsi competit<note n="420" type="crit_app">Dumont,
+                        CTS: Auslassung: reditus... ipsi competit.</note>. <lb/>Si vero litis
+                    pendentiae aliquae post factam restitutionem adhuc remanserint, eae cum actis in
+                    eo statu electorali regimini extradantur, et circa continuationem processus
+                    relinquantur, in quo tempore restitutionis inventae fuerunt. Pariter omnia
+                    decreta, mandata ac gesta collegii<note n="421" type="crit_app">Dumont, CTS:
+                        consilii.</note>&nbsp;&nbsp;status, quae publicum statum, in partibus
+                    ser[enissi].mo electori cessis concernunt, quatenus cum legibus,
+                    constitutionibus ac observantiis provincialibus ac Imperii concordant, in suo
+                    vigore permaneant, nec ulla ratione abrogentur aut rescindantur. </p>
+                <p>XXXIII <lb/>Praeterea cum ob multas rationes publicas utramque tam regiam quam
+                    electoralem partem afficientes, inprimis vero competentem distributionem
+                    debitorum aerario provinciali, nec non camerae ducali in inhaerentium, uti et
+                    onerum imperialium ac circularium, utile visum fuerit, matriculam provincialem
+                    ulterioris Pomeraniae (vulgo die Landt Matricul) ad justam aequitatem ac
+                    rationem reducere, ea quidem cura a dominis commissariis ministrorum regiorum
+                    atque electoralium non nullis, nec non<note n="422" type="crit_app">Dumont, CTS:
+                        est.</note>&nbsp;&nbsp;deputatis ordinum commissa ac<note n="423"
+                        type="crit_app">Dumont, CTS: aut.</note>&nbsp;&nbsp;subdelegata est<note
+                        n="424" type="crit_app">Dumont, CTS: Auslassung: est.</note>, qui matriculam
+                    eam (quatenus<note n="425" type="crit_app">Dumont, CTS:
+                    quamquam.</note>&nbsp;&nbsp;solum corpus ulterioris Pomeraniae, excluso
+                    episcopatu Camminensi concernit) debito adhibito studio, ab erroribus ac
+                    confusionibus, quibus hactenus scatebat, in quantum hoc rerum statu fieri
+                    potuit, vindicarunt, inque consonantiam redegerunt, cui post factam relationem a
+                    commissariiis adprobatae<note n="426" type="crit_app">Dumont, CTS:
+                        approbata.</note>, circa dictam distributionem debitorum provincialium ac
+                        cameralium<note n="427" type="crit_app">Dumont, CTS: Auslassung: ac
+                        cameralium.</note>, aliorumque erogandorum pro praesenti stare placuit;
+                    liberum tamen sit imposterum cuilibet parti in suo territorio, si quid residui
+                    erroris post factam visitationem ac inspectionem particularem locorum omnium
+                    instituendam, ad huc deprehensum fuerit; eandem pro rata numeri mansorum
+                    caeterorumque iis adnexorum<note n="428" type="crit_app">Dumont, CTS:
+                        annexorum.</note>&nbsp; corrigere ac praesenti tempori statuique adaptandam
+                    in melius emendare. </p>
+                <p>XXXIV <lb/>Ejusce<note n="429" type="crit_app">Dumont, CTS:
+                    qua.</note>&nbsp;&nbsp;ergo ex matriculae praescripto, facta liquidatione ex
+                    debitis provincialibus ad summam quinquies centenum octuagies<note n="430"
+                        type="crit_app">Dumont, CTS: octogies.</note>&nbsp;&nbsp;semel millium, nec
+                    non quadringentorum sexaginta sex<note n="431" type="crit_app">Dumont, CTS: 466
+                        (Ziffern auch im Folgenden).</note>&nbsp;&nbsp;florinorum<note n="432"
+                        type="crit_app">Dumont, CTS:
+                        florenorum.</note>&nbsp;&nbsp;adscendentibus<note n="433" type="crit_app"
+                        >Dumont, CTS: ascendentibus.</note>&nbsp;&nbsp;centies et quinquies milles,
+                    nec non centum et sex<note n="434" type="crit_app">Dumont, CTS:
+                    106.</note>&nbsp;&nbsp;floreni regiae, a reliquo ulterioris Pomeraniae corpore
+                        decendenti<note n="435" type="crit_app">Dumont, CTS: decenti.</note>.
+                    Electorali vero parti quadringenties septuagies sexies mille, ut et recenti<note
+                        n="436" type="crit_app">Dumont, CTS: Auslassung:
+                        recenti.</note>&nbsp;&nbsp;sexaginta<note n="437" type="crit_app">Dumont,
+                        CTS: 360.</note>&nbsp;&nbsp;floreni exsolvendi incumbunt. Quo autem de
+                    solutione creditores eo certiores reddantur, tam sacra<note n="438"
+                        type="crit_app">Dumont, CTS: serenissima.</note>&nbsp;&nbsp;regia
+                    maj[est]as, quam ser[enissi].mus elector, quilibet in suo territorio (facta
+                    prius divisione debitorum provincialium, eorundemque pro rata ad alterutram
+                    partem remissione) quatuor vel ad summum sex a facta traditione mensibus, de
+                    modo terminisque solutionis, caeterisque eodem facientibus, cum ordinibus
+                    provincialibus suis tractationem suscipiet. Interim statibus et ordinibus
+                        de<note n="439" type="crit_app">Dumont, CTS: et.</note>&nbsp;&nbsp;mutua
+                    evictione, si forte fidejussor ex parte vel regia vel electorali, ob debitum
+                    alterutri parti in praesenti divisione assignatum, a creditore eligeretur, atque
+                    judiciali decreto ad solutionem compelleretur, sibi invicem stipulantibus, quo
+                    casu quilibet princeps in suo territorio, tam ratione fidejussionis, quam mutuae
+                    evictionis, cuilibet parti ius et iustitiam omni meliore modo administrabit,
+                    prout haec omnia speciali recessu a praedictis subdelegatis confecto<note
+                        n="440" type="crit_app">Dumont, CTS: confecta.</note>, et in omibus [!] suis
+                    articulis postea a commissariis ratificatio<note n="441" type="crit_app">Dumont,
+                        CTS: ratificata.</note>, plenius<note n="442" type="crit_app">Dumont, CTS:
+                        pleniusque.</note>&nbsp;&nbsp;determinata sunt<note n="443" type="crit_app"
+                        >Dumont, CTS: Auslassung: sunt.</note>. </p>
+                <p>XXXV <lb/>Debita vero cameralia quod concenit, eorum quidem liquidatio ob varia
+                    impedimenta ante restitutionem fieri non potuit. Convenit autem, ut quatuor post
+                    mensibus deputati utrinque in certo loco conveniant, qui civitatis creditoribus
+                    examinatisque cujuslibet<note n="444" type="crit_app">Dumont, CTS: statt:
+                        examinatisque cujuslibet: et cujusque.</note>&nbsp;&nbsp;juribus, actum
+                    liquidationis expediant, et huic negotio finem imponant. Interea vero
+                    ser[enissi].mus elector debita liquida in quantum de jure, pro rata agnoscere
+                    non detrectat, omnibusque<note n="445" type="crit_app">Dumont, CTS:
+                        omnibus.</note>&nbsp;&nbsp;iis creditoribus, qui obligationes ducales coram
+                    commissariis in actu liquidationis justificatas in manibus habent, earumque
+                    intuitu certus hypothecas nacti sunt, et in quieta possessione ac perceptione
+                    hactenus fuerant<note n="446" type="crit_app">Dumont, CTS: fuerunt.</note>,
+                    usque ad generalem liquidationem ac plenam solutionem hypothecas suas earumque
+                    usum fructum juxta tenorem cujusque obligationis relinquit. Quod pariter in
+                    regia parte ulterioris Pomeraniae observandum venit. </p>
+                <p>XXXVI <lb/>Si quoque contingat a statibus Imperii in comitiis publicis vel
+                    circulo superioris Saxoniae in dictis circularibus subsidia per conventionem
+                    laudari, matricula Imperii sese<note n="447" type="crit_app">Dumont, CTS:
+                        se.</note>&nbsp;&nbsp;matriculae provinciali, ratione partium regiarum et
+                    electoralium in Pomerania accomodabit, ac inde ex aequatio<note n="448"
+                        type="crit_app">Dumont, CTS: aequo.</note>&nbsp;&nbsp;arcessenda; salva
+                    tamen et non immutanda matricula Imperii<note n="449" type="crit_app">Dumont,
+                        CTS: Imperii matricula.</note>, quoad antiquam quotam ab episcopatu
+                    Camminensi praestari solitam; quam totam ser[enissi].mus dominus elector se<note
+                        n="450" type="crit_app">Dumont, CTS: in.</note>&nbsp;&nbsp;recipit<note
+                        n="451" type="crit_app">Dumont, CTS: recepit.</note>, nec ulla ejus pars in
+                    sacram regiam maj[esta].tem et regnum Sueciae, eique cessas partes uterioris
+                    [!]Pomeraniae devolvetur. </p>
+                <p>XXXVII <lb/>Cumque post restitutionem ulterioris Pomeraniae et episcopatus
+                    Camminensis homagii receptioni ordinum, ibidem<note n="452" type="crit_app"
+                        >Dumont, CTS: ibi.</note>&nbsp;&nbsp;sepulturam ultimi ducis Bogislai
+                        XIV<note n="453" type="annotation">Bogislaw XIV., der letzte Herzog aus dem
+                        Geschlecht der Greifen, starb ohne männlichen Erben am 10. März 1637. 1654
+                        wurde seine Leiche in die Stettiner Fürstengruft
+                    umgebettet.</note>.&nbsp;&nbsp;beatae recordationis praemitti mos ac jus<note
+                        n="454" type="crit_app">Dumont, CTS: jus ac mos.</note>&nbsp;&nbsp;postulet,
+                    impensae funebres utrique parti pro modo praesentis ducatus, tam citerioris,
+                    quam ulterioris Pomeraniae divisionis et hujus respectu locorum annexorum itidem
+                    ex norma matriculae provincialis pro rata incumbent, quibus praestandis sese
+                        minime<note n="455" type="crit_app">Dumont, CTS: minime
+                        sese.</note>&nbsp;&nbsp;defuturas<note n="456" type="crit_app">Dumont, CTS:
+                        defuturis.</note>, in se recipiunt. Termino vero sepulturae peragendae, cum
+                    utriusque consensu definito, super solennitatibus ac ceremoniis ejusdem
+                    conveniendum. Exequiis autem ducalibus rite peractis, terminus homagii
+                    recipiendi absque ulla interposita mora juxta tenorem art. XXVII. a sua
+                    ser[enita].te electorali constituendus, ac sacrae regiae maj[esta].ti regnoque
+                    Sueciae denunciandus. </p>
+                <p>XXXVIII <lb/>Dum etiam ex dispositione instrumenti pacis acta et regesta<note
+                        n="457" type="crit_app">Dumont, CTS: res gestae.</note>, caeteraque
+                    documenta literaria originalia, loca restituenda concernentia, communia vero, et
+                    utramque nempe tam citeriorem quam ulteriorem Pomeraniam afficientia, in
+                    authentica et probante forma, quae in archivo et chartophylaciis aulae
+                    Stettinensis vel alibi, intra vel extra Pomeraniam reperiuntur, restitui
+                    oporteat. Ideo acta archivalia, iudicialia, consistorialia et oeconomica,
+                    caeteraque literaria documenta ad electoralem partem spectantia, ubicunque
+                    reperiuntur in originali, reliqua vero in copia (postquam in antecessum ab actis
+                    regiis per certos utrinque deputatos rite ab invicem separata fuerint)
+                    ser[enissi].mo electori simul cum restitutione ulterioris Pomeraniae et
+                    episcopatus Camminesis bona fide extradantur. Cum vero experientia teste,
+                    communia brevi temporis spacio<note n="458" type="crit_app">Dumont, CTS:
+                        spatio.</note>&nbsp;&nbsp;describi, nequeant convenit, ut etiam post
+                    traditionem, quae descripta non sunt, ad describendum sine contradictione
+                    quocunque tempore communicentur. Idem etiam sacrae regiae maj[esta].ti jussit in
+                    describendis actis loca restituenda concernentibus, ut eorum copias ob spem
+                    successionis in ulteriorem Pomeraniam, quocunque tempore regimini Suecico
+                    conficiendi admissio ad acta extradita, et facultas libera sit. </p>
+                <p>XXXIX <lb/>Quae vero ratione residuae summae ex occasione armistitii inter sacram
+                    regiam maj[esta].tem et serenissimum electorem Stockholmiae anno MDCXL<note
+                        n="459" type="crit_app">Dumont, CTS: 1640. Waffenstillstand von Stockholm
+                        zwischen Brandeburg und Schweden 24. Juli 1641.</note>&nbsp; initi, e<note
+                        n="460" type="crit_app">Dumont, CTS: et.</note>&nbsp;&nbsp;marchiacis
+                    ditionibus a sacra regia maj[esta].te praetensa, controversia hactenus agitata
+                    fuit, ea cum tota atque integra causa ad specialem commissionem intra annum a
+                    dato ratihabiti hujus tractatus a partibus adornandam remissa est, amicabiliter
+                    terminanda. </p>
+                <p>XL <lb/>Nec<note n="461" type="crit_app">Dumont, CTS:
+                    non.</note>&nbsp;&nbsp;minus convenit, ut veteres controversiae limitaneae inter
+                    Pomeraniam et Marchiam, ubicumque eae sitae sunt, intra biennium a dicto dato
+                    amicabiliter, vel per oidinariam Iuris viam componantur. </p>
+                <p>XLI <lb/>His<note n="462" type="crit_app">Dumont, CTS:
+                        hisce.</note>&nbsp;&nbsp;omnibus<note n="463" type="crit_app">Dumont, CTS:
+                        Einschub: ita.</note>&nbsp;&nbsp;conventis ac respective effectui datis,
+                    sacra sua regia maj[es].tas ser[enissi].mo electori Pomeraniam ulteriorem ac
+                    episcopatum Camminensem cum suis metis ac terminis, nec non adpertinentiis,
+                    bonis ac juribus secularibus et ecclesiasticis omnibus, quibus in nstrumento
+                    pacis, et hoc recessu desripti inveniuntur. In specie vero tormenta bellica ad
+                    urbem Colbergam spectantia ac tempore belli non<note n="464" type="crit_app"
+                        >Dumont, CTS: Auslassung: non.</note>&nbsp;&nbsp;abducta (in abductorum
+                    tamen locum ex favore tria tormenta majora (vulgo Halbe Carthaussen<note n="465"
+                        type="crit_app">Dumont, CTS: Carthaunen.</note>) et duo minora (Einpfundige)
+                    ibidem nunc praesentia de suo urbi<note n="466" type="crit_app">Dumont, CTS:
+                        Auslassung: urbi.</note>&nbsp;&nbsp;donat ac relinquit (pleno jure, tam quod
+                    ad dominium utile, quam directum restitui faciat, salvo<note n="467"
+                        type="crit_app">Dumont, CTS: Einschub: tamen.</note>&nbsp; suo ac regni
+                    Sueciae jre eventualis sccessionis per omnia, sub hac tamen expressa lege ac
+                    cutione, ut dploma cessionis partium rgiarum eectorale, ad eam formam, super qua
+                    inter commissarios regios et electorales convenit, reductum<note n="468"
+                        type="crit_app">Dumont, CTS: redactum.</note>, et a ser[enissi].mo domino
+                    electore in charta pergamena subscriptum ac subsignatum, nec non ratificatio
+                    electoralis hujusce recessus ac compositionis in originali, itidem in charta
+                    pergamena a sua ser[enita].te electorali subscripta ac subsignata simul cum
+                    reciproca extraditione ratificationis regiae dicti recessus ac conventionis in
+                    charta pergamena a sacra regia maj[esta]te subscriptae ac subsignatae<note
+                        n="469" type="crit_app">V</note>, ac restitutione supra dicti ducatus
+                    ulterioris Pomeraniae et episcopatus Camminensis in manus dominorum
+                    commissariorum regiorum tradatur ac consignetur. In cujus rei fidem huic
+                    conventioni manu nostra subscripsimus ac sigilla nostra adpendi fecimus. Datum
+                    Stetini die quarta majj anno millesimo sxcentesimo qinquagesimo tertio. </p>
+                <p>_ _ _<note n="470" type="crit_app">Dumont, CTS: Unterschriften der Unterhändler:
+                        Arfuidus Forbus. Johan-Nicod. Lillienströhm. H. von Schwallenberg. Johannes
+                        Georgius a Borne. Johann Friedrich von Buch. Fransz von Pahle. Friedrich
+                        Rung Dr.</note>
+                </p>
+                <p>&nbsp; </p>
+                <p>_<note n="471" type="crit_app">Dumont, CTS: Procuratorium Suecicum.</note> Nos
+                    Christina, Dei gratia Suecorum, Gothorum, Vandalorumque designata regina et
+                    princeps haereditaria, magna princeps Finlandiae, dux Esthoniae et Careliae,
+                        Ingriae<note n="472" type="crit_app">Dumont, CTS:
+                    Ingriaeque</note>&nbsp;&nbsp;domina etc. Notum testatumque facimus universis et
+                    singulis, quorum interest; Cum post conclusa universalis pacis pacta per
+                    Germaniam, minutiora non nulla ducatum Pomeraniae concernentia in ipso pacis
+                    instrumento ad particularem conventionem ac tractatuum inter nos regnumque
+                    nostrum ex una, ac celsissimum principem, cognatum et amitinum nostrum
+                    charissimum dominum <rs ref="#pp0119">Friedericum Wilhelmum</rs>, marchionem Brandenburgensem, S.
+                    Romani Imperii archi camerarium et principem electorem Magdeburgi, Prussiae,
+                    Juliae, Cliviae, Montium, Stetini, Pomeraniae, Cassubiorum, Vandalorumque, nec
+                    non in Silesia Crosnae et Carnoviae ducem, burgravium<note n="473"
+                        type="crit_app">Dumont, CTS: burggravium.</note>&nbsp;&nbsp;Noribergensem,
+                    principem Halberstadii et Mindae, comitem Marchae et Ravensburgi<note n="474"
+                        type="crit_app">Dumont, CTS: Ravensbergi.</note>, dominum in Ravenstein etc,
+                    ex altera parte, remissa sint; Nosque ista negotia nullibi melius, commodiusque,
+                    quam in ipsa Pomerania, ab<note n="475" type="crit_app">Dumont, CTS:
+                    ob.</note>&nbsp;&nbsp;actorum archivalium, ad quae subinde recurrendum est,
+                    praesentiam locorumque ipsorum, caeterorumque controversorum oportunam<note
+                        n="476" type="crit_app">Dumont, CTS:
+                    opportunam.</note>&nbsp;&nbsp;inspectionem, expediri et complanari posse
+                    arbitremur. Itaque in mandatis dedimus, sicuti et vigore harum patentium
+                    literarum in mandatis damus nobis sincere fidelibus ac dilectis, magnificis,
+                    generosis et nobilibus respective generali excubiarum praefecto ac vice
+                    gubernatori Pomeraniae, et vice praesidi in collegio nostro status ibidem, nec
+                    non consiliariis nostris <rs ref="#pp0120">Arvido Forbeso</rs> in Artsio et Jackarbii<note n="477"
+                        type="crit_app">Dumont, CTS: Artsiö et J ockarby.</note>, <rs ref="#pp0121">Johanni Nicodemi
+                            Lilienströhm</rs> in Eka et Sandershagen, ac <rs ref="#pp0122">Henrico a
+                                Schwalenberg</rs> in Söderby
+                    haereditariis, ut cum suae dilectionis electoralis commissariis loco, super quo
+                    non minus, quam super tempore jam ante conventum est, porro congrediantur,
+                    relictas controversias minutiores, praesertim super limitum determinatione,
+                    caeterisque quocunque titulo et nomine occurrant, complanent ac conscipiant<note
+                        n="478" type="crit_app">Dumont, CTS: consopiant.</note>, instrumentumque
+                    desuper conficiant. Quicquid igitur praedicti commissarii nostri, non obstante
+                    unius alteriusve absentia in hisce negotiis egerint, statuerint ac concluserint,
+                    id nos vigore harum omni meliori modo gratum, ratumque habiturae sumus. In cujus
+                    rei majorem fidem praesentes manu nostra subscriptas, sigillo nostro regio
+                    muniri fecimus. Dabantur in regia nostra Stockholmensi die vigesima julii anno
+                    supra millesimum excentesimum quinquagesimo. </p>
+                <p>Christina </p>
+                <p>
+                    <lb/>_ _ _&nbsp;<note type="crit_app" n="479">Dumont, CTS: Einschub Titel:
+                        Procuratorium Electorale.</note>&nbsp; <lb/>Nos <rs ref="#pp0119">Fridericus
+                            Wilhelmus</rs>, Dei
+                    gratia, marchio Brandenburgensis, Sacri Romani Imperii archi camerarius et
+                    princeps elector, Magdeburgi, Prussiae, Juliae, Cliviae, Montium, Stetini
+                    Pomeraniae, Cassubiorum Vandalorumque, nec non in Silesia Crosnae et Carnoviae
+                    Dux, Burgravius Noribergensis<note n="480" type="crit_app">Dumont, CTS:
+                        bn(sic!)rggravius Norinbergenisi.</note>, princeps Halberstadii et Mindae,
+                    comes Marcae et Ravensbergi, dominus in Ravenstein etc.. Vigore praesentium
+                    omnibus et singulis, quorum interest, notum testatumque facimus. Posteaquam in
+                    generalibus Monasterii et Osnabrugae habitis pacis tractatibus conventum, nec
+                    non in ea de causa confecto et publice edito pacis instrumento, articluo decimo,
+                    § primo, totam Pomeraniam, citeriorem etc., perspicue provisum sit, quod super
+                    iis, quae juxta tenorem modo allegati § ibidem decidi haud potuerunt, inter
+                    serenissimae et potentissimae principis ac dominae, dominae Christinae,
+                    Suecorum, Gothorum Vandalorumque designatae reginae et principis haereditariae,
+                    magnae principis Finlandiae, ducis Esthoniae et Careliae, Ingriaeque dominae,
+                    dominae cognatae et amitinae nostrae colendissimae et nostros quoque
+                    commissarios, amicabiles tractatus iniri et conventio conciliari debeat, et
+                    exinde jam eo deventium sit, quod modo laudata regia dig[nitas]. et dil[ectio].
+                    suos satis et plenarie instructos ob obeundam hanc commissionem ablegaverit.
+                    Proinde et nos ut pote ad talem amicam et placidam, tam limitum, quam reliquorum
+                    (quae adhuc inter regiam dig[nitatem]. et dil[ectionem]. et nos indecisa et
+                    Pomeraniae ducatum concernentia supersunt) punctorum, determinationem et
+                    conventionem jam dudum propensissimi, ne quicquam<note n="481" type="crit_app"
+                        >Dumont, CTS: quidquam.</note>, quod ad promovendum et perficiendum adeo
+                    utile et salutare opus conducere valeat, a nobis desiderari possit, generosis,
+                    nobilibus et spectabilibus nobis sincere dilectis et fidelibus, nostris
+                    respective cancellario Cüstrinensi, intimis consiliariis, provincialibus
+                    deputatis et consiliariis in Pomerania, <rs ref="#pp0123">Johanni Georgio de
+                        Born</rs>, <rs ref="#pp0124">Johanni
+                            Friderico a Buch</rs>, <rs ref="#pp0135">Georgio de Zitzewitz</rs>, <rs
+                                ref="#pp0125">Francisco de Pahlen</rs>, et <rs ref="#pp0126">Friderico
+                    Rungen</rs>, i[us]. utriusque doctori plenariam potestatem contulimus et vigore
+                    praesentium in optima et praestantissima juris forma, eam potestatem conferimus
+                    et concediums, ut eo in loco, de quo cum regiis commissariis amice convenire
+                    poterunt, comparere cum jam dictis commissariis, quos regia sua dig[nitas]. et
+                    dil[ectio]. cum sufficienti mandato instructos ad hos miserit, eos tractatus de
+                    finium seu limitum, aliorumque adhuc indecisorum, Pomeranicas ditiones
+                    concernentium punctorum et secundum tenorem nostrae ipsis praescriptae
+                    instructionis certa definitione, nostro nomine inire et ad finem perducere,
+                    amicabiliter transigere et concludere, et ea omnia agere ac perficere possint et
+                    debeant, quaecunque ad corroborandum, quod in saepius laudato instrumento pacis,
+                    tam in Reg[iae]. suae dig[nitatis]. et dil[ection]is. quam nostrum met
+                    emolumentum clare dispositum et comprehensum est, nec non ad stablilimentum
+                    perpetuo duraturae correspondentiae, amicitiae et vicinitatis inter regiam suam
+                    dig[nitatem]. et dil[ectionem]. et coronam Sueciae ex una, et nos, nostrumque
+                    electoralem statum, ditiones et subditos, ab altera parte, utilia et proficua
+                    esse poterunt. Quicquid igitur supra nominatinNostri consiliarii et commissarii,
+                    vel conjunctim omnes, vel uno aut altero morbo aliisve accidentibus praepeditis
+                    et absentibus, tres ex eorum numero, ceu major et potior pars, cum regiis
+                    Suecicis commissariis fecerint, transegerint et concluserint, id omne nos semper
+                    adeo firmiter et infalibiliter<note n="482" type="crit_app">Dumont, CTS:
+                        infallibiliter.</note>, ac si ipsimet coram his tactatibus interfuissemus et
+                    praesentes rem omnem transegissemus atque conclusissemus, servaturos, electorali
+                    verbo et fide pollicemur. In cujus rei fidem praesens hocce mandatum propriae
+                    manus subscriptione subsignavimus et secretioris sigillia apensione<note n="483"
+                        type="crit_app">Dumont, CTS: appensione.</note>&nbsp;&nbsp;corroborari
+                    fecimus. Quod dabatur in arce nostra lectorali Coloniae ad Spream die XVII
+                    aprilis anno MDCL. </p>
+                <p><rs ref="#pp0119">Fridericus Wilhelmus Elector</rs> </p>
+                <p>
+                    <lb/><rs ref="#pp0120">Arsividus Forbus</rs> <lb/><rs ref="#pp0121">Johannes
+                        Nicodemi <lb/>Lillieströhm</rs> <rs ref="#pp0122">Heinricus a
+                            Schwallenberg</rs> <lb/><rs ref="#pp0123">Johann Georg a Borne</rs>
+                    <lb/><rs ref="#pp0124">Johan Friedrich von Buch</rs>
+                    <lb/><rs ref="#pp0125">Frantz von Pahlen</rs> <lb/><rs ref="#pp0126">Fridericus
+                        Rung</rs> </p>
+                <p>&nbsp; </p>
+                <p>_ _ _&nbsp;<note type="crit_app" n="484">Dumont, CTS: Ratificatio Regia (Abdruck
+                        abweichender Text).</note>&nbsp; <lb/>Nos itaque Christina, Dei gratia
+                    Suecorum, Gothorum, Vandalorumque regina, magna princeps Finlandiae, dux
+                    Esthoniae, Careliae, Brehmae<note n="485" type="crit_app">Dumont, CTS:
+                        Bremae.</note>, Verdae, Stetini, Pomeraniae, Cassubiae et Vandaliae,
+                    princeps Rugiae, domina<note n="485" type="crit_app">Dumont, CTS:
+                        dominaque.</note>&nbsp;&nbsp;Ingriae et Wismariae, promittimus ac in nos
+                    recipimus, nomine nostro successorum nostrorum regnique nostri, singula et
+                    universa capita, conventioni suprascriptae inserta et comprehensa, bona et regia
+                    fide adprobari, laudari et ratihaberi<note n="486" type="crit_app">Dumont, CTS:
+                        adprobare, laudare et ratihabere.</note>, sicuti ea hisce adprobamus,
+                    laudamus et ratihabemus, nec passuras a nostratibus aut aliis, ullo modo
+                    violari. In quorum majorem fidem ac certitudinem, huic nostrae ratificationi
+                    manu nostra subscripsimus ac sigillum nostrum adpendi jussimus. Datum
+                    Stockholmiae die decima quarta<note n="487" type="crit_app">Dumont, CTS:
+                        14.</note>&nbsp;&nbsp;mensis majj, anno millesimo sexcentesimi quinquagesimo
+                        tertio<note n="488" type="crit_app">Dumont, CTS: 1653.</note>. </p>
+                <p>Christina <lb/>
+                </p>
+            </div>
+        </body>
+        <back>
+            <listBibl>
+                <bibl xml:id="a213">
+                    <title level="a">Reichsarchiv (1653-05-04)</title>
+                    <title level="m">Reichsarchiv, Band 5 (1713), PSpec I-3, S.142-157 Aus:
+                        Dokumentenarchiv der Universitätsbibliothek Augsburg (Drucke vor 1900 /
+                        Historische Geschichtswerke).</title>
+                    <biblScope>
+                        <graphic xml:id="A1Pnr1"
+                            url="https://www.ieg-friedensvertraege.de/dbimages/img_4a9650a1c2ade"/>
+                        <graphic xml:id="A1Pnr2"
+                            url="https://www.ieg-friedensvertraege.de/dbimages/img_4a9650b129567"/>
+                        <graphic xml:id="A1Pnr3"
+                            url="https://www.ieg-friedensvertraege.de/dbimages/img_4a9650bd79661"/>
+                        <graphic xml:id="A1Pnr4"
+                            url="https://www.ieg-friedensvertraege.de/dbimages/img_4a9650c9e3d39"/>
+                        <graphic xml:id="A1Pnr5"
+                            url="https://www.ieg-friedensvertraege.de/dbimages/img_4a9650e6e6b72"/>
+                        <graphic xml:id="A1Pnr6"
+                            url="https://www.ieg-friedensvertraege.de/dbimages/img_4a9650e6e6b72"/>
+                        <graphic xml:id="A1Pnr7"
+                            url="https://www.ieg-friedensvertraege.de/dbimages/img_4a9650f0487ff"/>
+                        <graphic xml:id="A1Pnr8"
+                            url="https://www.ieg-friedensvertraege.de/dbimages/img_4a9650fbd809e"/>
+                        <graphic xml:id="A1Pnr9"
+                            url="https://www.ieg-friedensvertraege.de/dbimages/img_4a9651053eb46"/>
+                        <graphic xml:id="A1Pnr10"
+                            url="https://www.ieg-friedensvertraege.de/dbimages/img_4a965110e3ba6"/>
+                        <graphic xml:id="A1Pnr11"
+                            url="https://www.ieg-friedensvertraege.de/dbimages/img_4a96511cc37c0"/>
+                        <graphic xml:id="A1Pnr12"
+                            url="https://www.ieg-friedensvertraege.de/dbimages/img_4a965125dbe2c"/>
+                        <graphic xml:id="A1Pnr13"
+                            url="https://www.ieg-friedensvertraege.de/dbimages/img_4a9651334d4a0"/>
+                        <graphic xml:id="A1Pnr14"
+                            url="https://www.ieg-friedensvertraege.de/dbimages/img_4a96514009e39"/>
+                        <graphic xml:id="A1Pnr15"
+                            url="https://www.ieg-friedensvertraege.de/dbimages/img_4a965149bf83f"/>
+                    </biblScope>
+                </bibl>
+                <bibl>Langer, Dimensionen der Pommernfrage in der zweiten Hälfte des Dreißigjährigen
+                    Krieges. in: Pommern. Geschichte, Kultur, Wissenschaft. 3. Kolloquium zu
+                    pommerschen Geschichte, S.169-186. Bär, Die Politik Pommerns während des
+                    dreißigjährigen Krieges. Branig, Geschichte Pommerns, 2: Von 1648 bis zum Ende
+                    des 18. Jahrhunderts, S. 1-6.<lb/></bibl>
+            </listBibl>
+        </back>
+    </text>
+</tei:TEI>

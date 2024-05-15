@@ -1,0 +1,435 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE tei SYSTEM "../resources/FriVer_DTD.dtd">
+
+<?xml-model href="../resources/FriVer.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns="http://www.tei-c.org/ns/1.0" xml:id="pa000299-1475">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title level="s">European peace treaties of the pre-modern era in data / Europäische Friedensverträge der Vormoderne in Daten (FriVer+)</title>
+                <title when="1589-03-09" xml:id="t1475" when-custom="1589 III 9" level="a" ref="https://www.ieg-friedensvertraege.de/treaty/t-1475-1-de.html">Pazifikationstraktat von Beuthen und Bendzin</title>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    Digital edition according to
+                    <ref target="http://www.tei-c.org/">TEI P5</ref>
+                </edition>
+                <funder>
+                    <ref target="https://www.text-plus.org/">TEXT+</ref>
+                </funder>
+                <editor role="http://id.loc.gov/vocabulary/relators/edt" ref="https://orcid.org/0000-0002-8741-5916">
+                    <persName>Jaap Geraerts</persName>
+                    <note>The transformation and enrichment of the data is done by Jaap Geraerts (IEG Mainz). The other members of the FriVer+ team are Fabian Cremer, Ines Grund, and Thorsten Wübbena (all IEG Mainz).</note>
+                    <note>
+                        The original data has been created by the
+                        <ref target="https://www.ieg-friedensvertraege.de">team of scholars</ref>
+                        who were part of the Europäische Friedensverträge der Vormoderne project. This project was lead by Prof. Dr. Heinz Duchhardt and was based at the Leibniz Institute of European History in Mainz.
+                    </note>
+                </editor>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>
+                    <orgName ref="http://www.isni.org/0000000119314040">Leibniz-Institut für Europäische Geschichte Mainz</orgName>
+                </publisher>
+                <distributor>
+                    <orgName ref="http://www.isni.org/0000000110101946">Universitäts- und Landesbibliothek Darmstadt</orgName>
+                </distributor>
+                <idno type="ISIL">http://lobid.org/organisation/DE-17</idno>
+                <date type="issued" when="2023-12-23"/>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">
+                        <p xml:lang="en">This file is licensed under the terms of the Creative Commons License CC-BY 4.0 (Attribution 4.0 International)</p>
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <repository xml:id="r30">Warschau AGAD</repository>
+                <msDesc><p>AGADWarschau: Zbiór Dokumentów Pergaminowych nr. 5532 (Hauptvertrag).</p></msDesc>
+             </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>
+                    The data in this XML file, originally created by the project
+                    <ref target="https://www.ieg-friedensvertraege.de/vertraege">Europäische Friedensverträge der Vormoderne online</ref>
+                    has been transformed in accordance with
+                    <ref target="http://www.tei-c.org/">TEI P5</ref>
+                    as part of the project
+                    <ref target="https://www.ieg-mainz.de/en/research/research-projects/european-peace-treaties-of-the-pre-modern-era-in-data">Europäische Friedensverträge der Vormoderne in Daten (FriVer+)</ref>
+                </p>
+            </projectDesc>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="la" xml:id="lan6">Latein</language>
+            </langUsage>
+        </profileDesc>
+    </teiHeader>
+    <standOff>
+        <listPerson>
+            <person role="signatory" xml:id="p12">
+                <persName ref="https://explore.gnd.network/gnd/4043271-3">
+                    <name>Oesterreich</name>
+                </persName>
+            </person>
+            <person role="signatory" xml:id="p91">
+                <persName ref="https://explore.gnd.network/gnd/4046496-9">
+                    <name>Polen</name>
+                </persName>
+            </person>
+        </listPerson>
+        <listPlace>
+            <place xml:id="loc367">
+                <placeName ref="https://explore.gnd.network/gnd/4088232-9">Beuthen</placeName>
+            </place>
+        </listPlace>
+        <facsimile>
+            <surface xml:id="FacsPnr1">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_4624a6d4c19ce"/>
+            </surface>
+            <surface xml:id="FacsPnr2">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_4624a6e0ac1bb"/>
+            </surface>
+            <surface xml:id="FacsPnr3">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_4624a6ec40aa6"/>
+            </surface>
+            <surface xml:id="FacsPnr4">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_4624a6f6e6a99"/>
+            </surface>
+            <surface xml:id="FacsPnr5">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_4624a70086f14"/>
+            </surface>
+            <surface xml:id="FacsPnr6">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_4624a70aa532b"/>
+            </surface>
+            <surface xml:id="FacsPnr7">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_4624a715ee6ba"/>
+            </surface>
+            <surface xml:id="FacsPnr8">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_4624a72066a8f"/>
+            </surface>
+            <surface xml:id="FacsPnr9">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_4624a72987d8d"/>
+            </surface>
+        </facsimile>
+    </standOff>
+    <text>
+        <front>
+            <div type="Drucke"><p>Dogiel, I, S.231-236</p></div>
+            <div type="Inhalt"><p>Ende der Zwietracht und der Auseinandersetzungen.
+                <lb />Maximilian verzichtet auf den polnischen Thron und verspricht, niemals Gebrauch von der Wahl zu machen. Dies gilt auch, wenn der Thron durch den Tod des jetzigen Königs vakant werden sollte.
+                <lb />Gegenseitige Freundschaft und gegenseitiges Wohlwollen zwischen dem Kaiser und dem polnischen König.
+                <lb />Die bestehenden Verträge zum Wohl ihrer Länder werden eingehalten.
+                <lb />Keine Auseinandersetzung mit Waffen oder Gewalt.
+                <lb />
+            </p></div>
+            <div type="Kontext"><p>
+                1587
+                <lb />Doppelwahl in Polen: nach dem Tod des polnischen Königs Stephan Báthorys wird Erzherzog Maximilian III., der jüngere Bruder Kaiser Rudolph II. und Hochmeister des Deutschen Ordens, von einem kleinen Teil der Polen zum König erwählt. Gleichzeitig wird der Sohn des schwedischen Königs und einer polnischen jagellonischen Prinzessin Sigismund Wasa durch einen polnischen Magnaten Jan Zamojskij als König durchgesetzt und von ihm militärisch unterstützt.
+                </p>
+                <p>
+                1588
+                <lb />in der Schlacht von Byczyna (Pitschen) werden Maximilian und seine Anhänger von Zamojskij besiegt und der Erzherzog wird gefangen genommen.
+                </p>
+                <p>
+                1589
+                </p>
+                <p>
+                <lb />im Vertrag von Beuthen und Bendzin verzichtet Maximilian endgültig auf den polnischen Thron.
+                </p> </div>
+        </front>
+        <body>
+            <div type="Transliteration">
+                <pb facs="#FacsPnr1"/>
+                <pb facs="#FacsPnr2"/><p> Nos infrascripti,
+                    <lb />nomine Sacratissimi atq[ue] Invictissimi Romanorum Imperatoris, Rudolphi Secundi, necnon Ungariae, Bohe- 
+                    <lb />miaeq[ue] Regis, Archiducis Austriae. etc. etc. Domini nostri clementissimi, Universaeq[ue] Serenissimae Domus Austriacae, 
+                    <lb />Regnorumq[ue] Caesarae Ma[ies]t[a]tis, Ungariae, Bohemiae, caeterorumq[ue] deputati Comissarij, Guilhelmus Ursinus a Rosenn- 
+                    <lb />bergh, Domus Rosenbergicae gubernator et ques aurei velleris, Sacrae Caesarae Ma[ies]t[a]tis intimus Consiliarius et suprae- 
+                    <lb />mus Regni Bohemiae Burggravius, Petrus Episcopus Jaurien[sis], Regni Ungariae Cancellarius, Christophorus Poppel 
+                    <lb />Baro in Lobkowitz et Tachaw, Sacrae Caesarae Ma[ies]t[a]tis Camerarius, et supraemus Regni Bohemiae Camerae Praefectus. 
+                    <lb />Richardus Strein, Baro in Schwartzenaw et Tirnstein, Stanislaus Episcopus Olomucen[sis], Princeps Regalis Capellae 
+                    <lb />Bohemiae Comes, Seifridus a Promnitz, Baro in Ples, Sorau et Tribel, Nicolaus Isthwannffij de Kisazonnffalwa, 
+                    <lb />officij Palatinatus Regni Ungariae Locumtenens, Capitaneus Sopronien[sis], Joannes Kobentzl, Baro in Prosseck ordinis 
+                    <lb />Teutonici Commendator ex una parte, ex altera vero Nos Serenissimi Principis et Domini, domini Sigismundi tertii 
+                    <lb />Regis Poloniae Magni Ducis Litwaniae, Russiae, Prussiae, Masowiae, Samogitiae, Liwoniae, etc. etc. necnon commemorati 
+                    <lb />Regni, Magni Ducatus Litwaniae, caeterorumq[ue] ditionum eius nomine itidem deputati Comissarij Hyeronimus Co- 
+                    <lb />mes in Rozdrazow et Bombsdorff dei gratia Episcopus Wladislawien[sis] et Pomeraniae, Janusius Dux Ozthroghiae 
+                    <lb />et Palatinus Woliniae, Stanislaus Gozthontzkij de Lezenicze Palatinus Rawensis, Capitaneus Radomiensis. Christo- 
+                    <lb />phorus Zienowitz Palatinus Brzestianensis ac Czieczierien[sis] et Pereposien[sis] Capitaneus, Andreas Opalnizkij De 
+                    <lb />Bnin, Regni Poloniae supremus Marschaleus, et Maioris Poloniae Generalis, et Lezaisczen[sis], Srzemensisq[ue] Capita- 
+                    <lb />neus. Joannes Zamoijskij de Zamosczie Regni Poloniae supremus Cancellarius, ac Exercituum generalis, et 
+                    <lb />Belzen[sis], Mariaeburgen[sis], Derpaten[sis], Knijszijnen[sis], Grodecen[sis], Miedzijerecen[sis], Janorowien[sis]q[ue] Capitaneus. Significa- 
+                    <lb />mus pr[aese]ntibus hisce huius et futuri temporis universis et singulis. Eum Sanctissimo Domino nostro Syxto 
+                    <lb />V. Summo Pontifice, pastoralis muneris memore atq[ue] ingenitae piaetatis, charitatisq[ue] studio, in universae christia- 
+                    <lb />nae Reip[ublicae] bonum ac quietem propensissimo, maiorumq[ue] suorum ac decessorum Summorum Pontificum, exemp- 
+                    <lb />lis permoto, per Legatum suum de latere. Ill[ustrissimu]m et R[everndissim]um Do[minum] Hypolitum S[acrae] R[omanae] E[cclesiae] Praesbiterum Car- 
+                    <lb />dinalem Aldobrandinum et summum Poenitentiarium, enixe et summa diligentia id eurante deq[ue] amicitia &nbsp; 
+                    <lb />et pace diligent[issi]mo. Principes n[ost]ros appellante ad controversias et dissensiones, quae inter Principes nostros, ditionesq[ue] 
+                    <lb />eor[um] nuper exortae fuerant, componendas, plena et omnium rerum libera cum facultate, utrinq[ue] Legati essemus 
+                    <lb />nos pro facultate a Principibus nostris, Ordinibusq[ue] Regnor[um] et dominior[um] eorum, cum generaliter tum specialiter 
+                    <lb />et nominatim, in eam rem nobis data, commemorates controversias omnes et quascunq[ue] omnino tandem transe- 
+                    <lb />gisse, composuisse et sustulisse. Etsi enim quemadmodum in omnibus controversijs accidere solet, non deessent, 
+                    <lb />quae in utramq[ue] partem diu ancipites dubiosq[ue] nos tenerent: Cum tamen et incommoda dissensionum, quae eae 
+                    <lb />privatim singulis, tum publice Regnis nationibusque universis, importare solent, et pacis commode diligentius 
+                    <lb />
+                </p>
+                <pb facs="#FacsPnr3"/><p>nobiscum expendissemus, accesisset vero eodem S[anctissimi] D[omini] N[ostri] authoritas, Legati autem ipsius de laterae Ill[ustrissi]mi et
+                <lb />R[evernd]is[si]mi domini Cardinalis Aldobrandini summum atq[ue] indefessum in concordia hac procuranda studium cum
+                <lb />summa prudentia et aequitate coniunctum ijs quae supra demonstratae sunt causis adducti, de omnibus tam
+                <lb />controversijs, dissensionibusq[ue], quam causis earum hisce quae sequuntur conditionibus composuimus, transe-
+                <lb />gimusque. Inprimis cum quemadmodum supra ostensum est, ut in pace omnia florent: ita nonmodo um
+                <lb />malum tantum esse possit, quod a bello absit, sed ne autor quidem, ut alior[um] bonorum ita etiam pacis Deus,
+                <lb />non nisi in pace pie recteq[ue] coli possit, cum ob publicam Reip[ublicae] chri[sti]anae salutem, tum inprimis nominis divi-
+                <lb />ni gloriam convenit. Statutumq[ue] inter nos est: Ut non solum superioris temporis offensiones suspitionesq[ue]
+                <lb />et causae offensionum omnes inter Principes nostros, ditionesq[ue] et homines eor[um] universos et singulos, in perpetuu
+                <lb />abolitae et sublatae sint: Verum firma etiam syncera et constans pax atq[ue] amicitia, perpetuis temporibus inpos-
+                <lb />terum eosdem colatur observeturq[ue]. Cuius quidem rei eo iustiores causas Principes n[ost]ros habere arbi-
+                <lb />trati sumus: quod non solum ditiones et populi utriusq[ue], multis ijsq[ue] antiquissimis foederum cognationis et
+                <lb />aliar[um] necessitudinum uniculis, astricti semper inter se fuerint: sed Principes etiam ipsi, ut quorum utrinq[ue],
+                <lb />genus e Jagellonum stirpe promanet, propinqua sanguinis coniunctione deuincti inter se sint: ut non mi-
+                <lb />nor ni mutuo amore pietatis, quam in Rep[ublica] Christiana communis salutis, ratio habenda illis sit: cum huius-
+                <lb />modi necessitudo ea sit, ut nonsolum superiores offensiones omnes abolere debeat, verum sine vituperatione,
+                <lb />am offensionem inter tam coniunctos Principes admittere possit. Condonabunt igitur utrinq[ue], tam
+                <lb />Caesarea minirum Mai[es]tas Serenissimaq[ue] domus Austriaca, quam Ser[enissi]mus Poloniae Rex, quae superiore anno,
+                <lb />inter ipsos et ditiones eor[um] quomodocunq[ue] intercesserunt, primum publicae universae christianitatis tranquilli-
+                <lb />tati, deinde non minus mutuae etiam necessitudini ac sanguinis coniunctioni maxime autem S[anctissimi] D[omini] N[ostri]
+                <lb />Summi Pontificis authoritati. Cum autem omnis hac superioris temporis dissensio ex nominatione iuribus
+                <lb />et institutis Regni Poloniae, minus consentanea Ser[enissi]mi Principis et Do[minus] domini Maximiliani dei gratia &nbsp;
+                <lb />Archiducis Austriae, Ducis Burgundiae. etc. in proximis Comitijs electionis Warsoviae habitis a quibus-
+                <lb />dam interposita promanarit: cum ijs quae supra commemoratae sunt, tum alijs causis, ad Reip[publicae] chri[sti]anae
+                <lb />universae salutem et tranquillitatem pertinentibus, convenit conclusumq[ue] inter nos est, ut quo et praeterita
+                <lb />dissensio et futurae causa materiaq[ue] omnis tollatur, commemorato titulo et iure, quod quocunq[ue] modo per
+                <lb />venisse ad se inde arbitratus fuit idem Serenissimus Archidux Maximilianus cum alias commemorates ob
+                <lb />causas, tum ob communis Reip[ublicae] chri[sti]anae, ut ostensum est quietem et incolumitatem, abstineat, et nunquam
+                <lb />inposterum utatur. Praeter eum vero Caesarea Mai[es]tas etiam caeteriq[ue] Ser[enissi]mi Archiduces, am unquam
+                <lb />controversiam, vel hac vel quacunq[ue] alia causa, colore seu praetextu, vel Ser[enissi]mo Principi ac Do[mi]no do[mi]no Si-
+                <lb />gismundo tertio, pr[aese]nti Regi Poloniae, vel etiamsi quod Deus auertat morte eius Regnum vacare con-
+                <lb />tingeret eidem Regno, eundem Ser[enissimu]m Archiducem Maximilianum vel quemcunq[ue] alium quocunq[ue]
+                <lb />
+                <pb facs="#FacsPnr4"/>tempore, per se vel per alios relaturum aut suscitaturum, neq[ue] id facienti consilium transitum seu fa-
+                <lb />vorem quemcunq[ue] ni eam rem se praebituros, praestiturosq[ue] spondeant ac promittant. Neq[ue] vero in ullam eiusdem
+                <lb />Ser[enissi]mi Archiducis iniuriam vel contumeliam accipi, aut quisquam interpraetari id debebit. Quemadmodum enim
+                <lb />et ea familia Ser[eni]t[a]tem suam ortam, et ea ipsam etiam virtute esse, Ordines Regni Poloniae libenter agnoscunt,
+                <lb />ut quocunq[ue] amplissimo Regno dignam eam iudicent neq[ue] generis dignitate, et virtutis laude ulli secundam
+                <lb />eam habeant: ita vicissim Ser[eni]t[a]tem quiq[ue] suam pro prudentia sua cogitare non dubitant, primum Regna
+                <lb />nonsolum ex dignit[a]te cuiusq[ue], sed inprimis etiam divina voluntate deferri: ideoq[ue] magis hanc quam iudi-
+                <lb />cia hominum sibi defuisse: deinde eo aequiore etiam annis id laturam, quod ad illum delatum Regnum
+                <lb />videat, qui et Ser[eni]t[a]tem suam tam propinqua sanguinis coniunctione attingat: ex familia autem Jagellonica,
+                <lb />optime de Regno Poloniae merita, qui summa cum laude Regno huic praefuerint, nonsolum avos ac proavos
+                <lb />sed nuper etiam avunculum D[ominum] Sigismundum Augustum Regem habuerit. Quam ob causam etsi libera
+                <lb />Nobilitatis suffragia, i successioni astricta sint: quod nihilominus ex familia Jagellonica electus Rex
+                <lb />sit, pro sua cum eadem familia necessitudine, tanto aequius feret: neq[ue] de pristina amicitia quae inter Sere-
+                <lb />nissimam Domum Austriacam et Regnum Poloniae, Magnum Ducatum Litwaniae, caeterasq[ue] ditiones
+                <lb />eis coniunctas: Ordinesq[ue] et homines earum semper fuit, quicquam vel Ser[enissi]mo eius vel Serenissima Domus
+                <lb />ipsius ob id remittet: maxime vero, si quod diutissime Deus sustinere velit Regnum iter[um] ‹...›care contin-
+                <lb />gat, in libertate electionis, commemoratos Ordines omodo impediet, neq[ue] vel armis ac vi vel largitio-
+                <lb />nibus seu factionibus, quicquam contra eandem libertatem faciet aut suscipiet dolo ac fraude omni
+                <lb />remotis. De Liubowlia deinde hunc in modum convenit. Inprimis ut Castrum id, eum oppidis
+                <lb />villisq[ue] ad id pertinentibus quemadmodum in iussu Caesareae Ma[ies]t[a]tis ac praeter voluntatem eius occupa-
+                <lb />tum est, ita in pristinum usum et possessionem Regni Poloniae, quemadmodum a tot seculis quiete
+                <lb />ac sine ulla controversia id in ea possessione atq[ue] usu fuit, iterum tradatur consigneturq[ue]: suppellex
+                <lb />item reliquumq[ue] instrumentum omne, maxime autem tormenta tam minora quam maiora omnia, quae in Castro
+                <lb />eo cum occuparetur extiterunt, bona fide restituantur, unaq[ue] cum ipso Castro tradantur. Ad possessionem
+                <lb />autem eam accipiendam, utriusq[ue] partis consensu dies vigesimus primus mensis Julij praefinitus et acceptus
+                <lb />est. Ad quem Regia Mai[es]tas Poloniae qui eam postulant et accipiant homines suos mittet, ij vero qui in arce
+                <lb />erunt sine ulla mora quemadmodum supra convenit, cum omni suppelectile et instrumento quod ante in eo
+                <lb />fuit vacuam possessionem eius tradere debebunt. Cumq[ue] ut nonsolum dissensiones et controversiae omnes
+                <lb />sopiantur verum pristina etiam amicitia atq[ue] benevolentia utrinq[ue] restituatur, actum inter nos fuerit ut
+                <lb />pacta et foedera, quae ab aliquot seculis utrisq[ue] Regnis et ditionibus intercesserunt ea forma quae ex
+                <lb />utriusq[ue] ne[utr]um consilio et sententia scripto comprehensa iam est ab utrisq[ue] Principibus et eorundem
+                <lb />Ordinibus, iterum renoventur confirmenturq[ue] placuit convenitq[ue]. Quibus quidem rebus cum pristina
+                <lb />
+                <pb facs="#FacsPnr5"/>amicitia atq[ue] benevolentia integre conciliate restituta ac redintegrata utrinq[ue] esse debeat, promittimus pro eo
+                <lb />spondemusque: nos quidem suprascripti Caes[areae]: Ma[jes]t[a]tis et Universae Ser[enissi]mae domus Austriacae Commissarij, cum comme-
+                <lb />morato Caesareae Ma[ies]t[a]tis, caeterorumq[ue] Serenissimior[um] Austriacor[um] Principum omnium tum maxime Ser[enissi]mi Maxi-
+                <lb />miliani Archiducis nomine, am superiorum dissensionum offensionem, Ma[ies]t[a]tem Serenitatesq[ue] suas retentu-
+                <lb />ras, eandem o unquam tempore renovaturas, constantem autem posthac et sinceram cum Regia Ma[ies]t[a]te
+                <lb />Poloniae, Ordinibusq[ue] amicitiam et benevolentiam conservaturas: neq[ue] vi aut armis vel per se vel per sub-
+                <lb />missas personas quocunq[ue] tempore vel quacunq[ue] ex causa colore seu praetextu Regnum Poloniae Mag-
+                <lb />num Ducatum Litwaniae, Russiam, Prussiam, Masoviam, Samogitiam, Livoniam, caeterasq[ue] ditiones
+                <lb />vel arces, oppida, villas, homines[q]ue Ser[enissi]mi Poloniae Regis aut propinquorum sociorum vel adherentium ipsius
+                <lb />infestaturas: vim aut iniuriam ullam illaturas: factiones aut partes ullas contra easdem et in ijsdem fotu-
+                <lb />ras alturas[q]ue: ab ijsdem proscriptos aut exules recepturas habituras[q]ue: neq[ue] alijs id facientibus ullum consi-
+                <lb />lium, auxilium, transitum, aut quemcunq[ue] deniq[ue] favorem accomodaturas: verum omnia quae Transac-
+                <lb />tione hac pactis perpetuis ac foedere comprehenduntur diligent[issim]e observaturas. Similiter vero nos Ser[enissi]mi
+                <lb />Poloniae Regis suprascripti Commisarij, eiusdem Ma[ies]t[a]tis suae, Ordinumq[ue] eius nomine, vicissim recipimus,
+                <lb />Promittimus, spondemusq[ue], o unquam tempore eorum quae ante quocunq[ue] modo intercesserunt, offensio-
+                <lb />nem Ser[enissi]mum Poloniae Regem aut Ordines retenturos, eandem per quamcunq[ue] occasionem renovaturos sed
+                <lb />constantem posthac et sinceram cum Caesarea Ma[ies]t[a]te, universaq[ue] Ser[enissi]ma domo Austriaca, in eaq[ue]
+                <lb />Ser[enissi]mo etiam Archiduce Maximiliano Regnisq[ue] ditionibus et Ordinibus eorundem amicitiam et
+                <lb />benevolentiam conservaturos neq[ue] ipsam Ma[ies]t[a]tem suam Ordinesq[ue] seu homines eius, quoscunq[ue] vi
+                <lb />aut armis, vel per se vel per submissas personas, quocunq[ue] tempore, vel quacunq[ue] ex causa, colore
+                <lb />seu praetextu, Regna Ungariae vel Bohemiae, Austriam, Moraviam, Silesiam, quaecunq[ue] alia comme-
+                <lb />moratorum Serenissimorum Principum dominia ditiones, arces, oppida, villas vel homines aut propinquor[um]
+                <lb />sociorum vel adherentium ipsorum infestaturos, vim aut iniuriam ullam ijsdem allaturos, factiones seu
+                <lb />partes ullas contra eosdem et in ijsdem foturos alturos[q]ue ab ijsdem proscriptos aut exules recepturos,
+                <lb />habituros[q]ue, neq[ue] alijs id facientibus ullum consilium, auxilium, transitum, aut quemcunq[ue] deniq[ue] fa-
+                <lb />vorem accomodaturos: sed omnia quae Transactione hac pactis perpetuis ac foedere compraehenduntur dili-
+                <lb />gentissime observaturos. Quo firmiora vero omnia haec sint, convenit transactumq[ue] inter nos est, ut Serenissi-
+                <lb />mus Poloniae Rex Legatum suum ad Caes[aream]: Ma[ies]t[a]tem, caeterosq[ue] Ser[enissi]mos Archiduces intra diem vigesimum mensis
+                <lb />Aprilis in Aulam Caes[areae]: Ma[ies]t[a]tis prior mittat. Qui quidem imprimis ut Caes[area]: Mai[es]tas offensiones omnes, quae
+                <lb />superiori anno inter Caes[aream]: Ma[ies]t[a]tem suam eiusq[ue] inclytam Domum Austriacam et inclytum Poloniae Regnum
+                <lb />quomodocunq[ue] utrinq[ue] intercesserunt, publicae tranquilitati et paci, tum S[anctissimi] D[omini] N[ostri] authoritati condonet
+                <lb />rogabit. Serenissimiq[ue] Regis sui nomine paratam Ma[ies]t[a]tem suam Regiam esse offeret quae in Transactione
+                <lb />
+                <pb facs="#FacsPnr6"/>continentur, conveneruntq[ue] singular confirmare et praestare. Caesarea Ma[ies]tas in eisdem S[anctissimi] D[omini] N[ostri] gratiam e[tc]
+                <lb />publicae christianitatis salutis causa paci huiusmodi et petitioni annuet: deinde vero ipsa quoq[ue] intra diem de-
+                <lb />cimum quintum mensis Maij similiter Legatum suum ad Serenissimum Poloniae Regem mittet: per quem
+                <lb />gratam sibi Legationem eius fuisse, et quae ex Oratore eius intellexerit, reliqua ostendet: Et si quae suae Ma[ies]t[a]ti
+                <lb />Caesareae in benevolentiae atq[ue] amicitiae testimonium videbuntur alia. Eodem deinde Legato pr[aese]nte primum Ser[enissi]mus
+                <lb />Rex Poloniae sequenti forma iuramentum praestabit. EGO Sigismundus iii. Dei gra[tia] Rex Poloniae Mag-
+                <lb />nus Dux Litwaniae etc. etc. Iuro, spondeo, promittoq[ue] coram Deo, per haec Sancta eius Evangelia, quod omnia ea
+                <lb />quae S[anctissimi] D[omini] N[ostri] Legatiq[ue] eius de latere, R[everend]i[ssi]mi Cardinalis Aldobrandini interventu inter Commissarios meos ex una,
+                <lb />et Caes[areae] Ma[ies]t[a]tis, Universaeq[ue] Ser[enissi]mae domus Austriacae, parte ex alterae Bithonniae et Bendzinij congregatos convenerunt,
+                <lb />in omnibus eorum punctis et clausulis, firmiter inviolabiliterq[ue] observabo, ijsq[ue] satisfaciam: pro eoq[ue] cum Caes[area]
+                <lb />Ma[ies]t[a]te, Ser[enissi]mis fratribus et patruis eius, Universaq[ue] Serenissima domo Austriaca, Regnis, ditionibus et hominibus
+                <lb />eorundem iuxta eandem Transactionem, pacta perpetua ac foedus, pacem, amicitiamq[ue] perpetuo constanterq[ue]
+                <lb />colam, Sic me DEUS adiuvet, et haec Sancta dei Evangelia. Secundum Regiam deinde Ma[ies]t[a]tem eius, Ordines
+                <lb />Regni Poloniae, Magni Ducatus Litwaniae, Russiae, Prussiae, Masowiae etc. seu Omnium Ordinum nomine, proceres
+                <lb />ad hoc in Comitijs nominate, et sufficiente in eam rem mandato instructi, sequentibus itidem verbis iurabunt.
+                <lb />Nos N. N. Iuramus, spondemusq[ue] coram Deo, omnium Regni N. Ordinum nomine, quod omnia ea, quae
+                <lb />inter Sac[rae] Caes[areae] Ma[ies]t[a]tis caeterorumq[ue] Seren[issi]morum Principum Austriacor[um] etc. etc. Commissarios ex una, et Serenissimi
+                <lb />Principis et D[ominus] D[omi]ni Sigismundi III. Regis Poloniae, Magni Ducis Litwaniae, Russiae, Prussiae. etc. parte
+                <lb />ex altera, Ordinumq[ue] Regnorum et dominor[um] utriusq[ue] partis Bithonniae et Bendzinij congregatos convenerunt
+                <lb />firmiter inviolabiliterq[ue] observabimus, Ordinesq[ue] universi in perpetuum observabunt, Ser[enissi]mis Principibus
+                <lb />nostris ut observant, authores semper erimus neq[ue] ut aliter fiat, assensum, consilium, aut auxilium ne[utru]m
+                <lb />unquam praestabimus, sed eandem Transactionem et pacta, omnibus viribus tuebimur, Ordinesq[ue] Universi
+                <lb />perpetuis temporibus tuebuntur. Sic nos Deus adiuvet, et haec Sancta eius Evangelia. Quae cum ad eum
+                <lb />modum perfecta fuerint, mittet deinde intra diem decimum quintum mensis Junij ad Ceasaream Ma[ies]t[a]tem
+                <lb />caeterosq[ue] Ser[enissi]mos Archiduces in aula Ma[ies]t[a]tis suae, aut per se aut per Legatos suos existen[tes], alterum Legatum suu[m]
+                <lb />Serenissimus Poloniae Rex. Qui imprimis Transactionem hanc tum iuramenta tam eiusdem Ser[enissi]mi Regis quam
+                <lb />Ordinum supra commemoratorum, ab ipso Ser[enissi]mo Rege Poloniae Ordinibusq[ue] Regni Poloniae, Magni Ducatus
+                <lb />Litwaniae, Russiae, Prussiae, Masowiae etc. subscripta, sigillisq[ue] eorundem munita, Caesareae Ma[ies]t[a]ti tradet: utq[ue]
+                <lb />Transactionem hanc ipsa quoq[ue] et caeteri Ser[enissi]mi Archiduces, patrui et fratres Ma[ies]t[a]tis suae similiter confirment,
+                <lb />confirmatamq[ue] subscriptionibus et sigillis cum suis tum Ordinum, seu omnium Ordinum nomine praecipuorum
+                <lb />procerum edant: Iuramentum autem in eandem cum Caesarea Mai[es]tas tum Ordines Regnorum ditionumq[ue] eius
+                <lb />similiter praestent: Iuramentaq[ue] eadem Caesareum, à Caesarea Ma[ies]t[a]te et Ordinibus: Ordinum autem ab
+                <lb />
+                <pb facs="#FacsPnr7"/>ipsis proceribus subscripta et signata sibi tradantur, postulabit. Qua Legatione exposita Caesarea Mai[es]tas eodem
+                <lb />Legato pr[aese]nte in haec itidem verba iuramentum praestabit. Rudolphus Secundus dei gratia Electus Romano-
+                <lb />rum Imperator, Semper Augustus etc etc. Iuro, spondeoq[ue] ac promitto coram Deo, per haec Sancta eius Evangelia,
+                <lb />quod omnia ea, quae S[anctissimi] D[omini] N[ostri] etc. et Legati eius de latere R[everend]is[si]mi Cardinalis Aldobrandini interventu, inter Commi-
+                <lb />ssarios meos, caeterorumq[ue] Serenissimiorum Principum, patruorum ac fratrum meorum ex una, et Serenissimi Prin-
+                    <lb />cipis Domini D[omi]ni<note n="1" type="crit_app">Nachträglich eingefügt.</note> Sigismundi iii. Regis Poloniae, Magni Ducis Litwaniae etc. parte ex altera, Bithonniae et Bendzinij
+                <lb />congregatos convenerunt, in omnibus eorum punctis et clausulis firmiter inviolabiliterq[ue] observabo, ijsq[ue] satisfaciam,
+                <lb />pacem et amicitiam cum eodem Serenissimo Principe Regnoq[ue] Poloniae, Magno Ducatu Litwaniae caeterisq[ue] con-
+                <lb />iunctis Provincijs et ditionibus, iuxta eandem Transactionem pacta perpetua ac foedus perpetuo constanterq[ue]
+                <lb />colam. Sic me Deus adiuvet et haec Sancta eius Evangelia. Eodem deinde modo Regnorum etiam, ditionumq[ue]
+                <lb />Caesar[eae] Ma[ies]t[a]tis Ungariae, Bohemiae, Austriae, Moraviae, Silesiae etc. Ordines seu omnium Ordinum nomine Proceres
+                <lb />ad id nominati, et sufficiente in eam rem mandato instructi, ijsdem verbis et forma, quae supra Polonicis Ordini-
+                <lb />bus praescripta est, eodem itidem Legato pr[aese]nte iuramentum praestabunt: Iuramentaq[ue] et Transactio haec ita
+                <lb />quemadmodum supra ostensum est, à Caesarea Ma[ies]t[a]te Serenissimis Archiducibus patruis et fratribus Caesar[eae]
+                <lb />Ma[ies]t[a]tis, Ordinibusq[ue] Regnor[um] et ditionum Caesareae Ma[ies]t[a]tis subscripta et confirmata, memorato Regiae Ma[ies]t[a]tis Polo-
+                <lb />niae Oratori tradentur. Idem vero Legatus pactorum quoq[ue] secundum eam formulam quae ex communi consilio
+                <lb />ac Sententia scripto a nobis compraehensa est, Confirmationem simul a Caesarea Ma[ies]t[a]te petet, et cum eiusdem Cae-
+                <lb />saerae Ma[ies]t[a]tis relinquet. Vicissim vero debebit Ser[enissi]mus Princeps et D[ominus] do[minus] Maximilianus Archi-
+                <lb />dux Austriae. etc. etc. Rhodlo quo in loco nunc est, ad diem decimum sextum mensis Julij movere, ac quam hono-
+                <lb />rificentissime Biczijnum vel si ita Serenit[a]ti suae videbitur Bithoniam, cura Serenissimae Regiae Poloniae Ma[ies]t[a]tis
+                <lb />ad diem vigesimum octavum mensis Julij deduci: quemadmodum quidem nos eiusdem Ma[ies]t[a]tis suae supra-
+                <lb />scripti Commissarij id ita futurum cum Ma[ies]t[a]tis suae, Ordinumq[ue] tum n[ost]ro nomine promittimus. Priusquam
+                <lb />etiam Ser[enissi]mus Archidux Maximilianus e Regno proficiscatur, Serenissimus Poloniae Rex ipse eum inviset
+                <lb />mutuamq[ue] benevolentiam ita ei declarabit, ut eam superioris temporis iniuria interruptam magis fuisse, quam
+                <lb />vel tum etiam illi defuisse, vel imposterum defuturam ostendat quamq[ue] maximam poterit dignitatis eius
+                <lb />rationem libenter habebit. Quamprimum vero ultra fines Regni Poloniae in Caesarae Ma[ies]t[a]tis ditionis fines
+                <lb />Ser[enissi]mis sua pervenerit, imprimis: quod nunc quidem Caesarea Ma[ies]tas, utriusq[ue] autem nomine nos Caesareae M[aies]t[a]tis
+                <lb />Commissarij spondemus, promittimusq[ue]: ips&lt;..&gt;quoq[ue] Transactionem hanc, in omnibus suis capitibus et articulis
+                <lb />itidem confirmabit, confirmatamq[ue] et sua atq[ue] aliquot Procerum Germanicor[um] quos tum secum habuerit
+                <lb />
+                <lb /> 
+                <pb facs="#FacsPnr8"/>Subscriptionibus et sigillis munitam, ijs qui nomine Serenissimi Poloniae Regis cum comitabuntur, instrumen-
+                <lb />tumq[ue] illius ab eo postulabunt tradet. Deinde vero Iuramentum corporale sequentibus verbis praestabit.
+                <lb />Idemq[ue] similiter a se et aliquot Proceribus nationis germanicae qui tum circa eum fuerint, signatum
+                <lb />subscriptumq[ue] dabit. Maximilianus dei gratia Archidux Austriae, Dux Burgundiae. etc. etc.Iuro, spon-
+                <lb />deoq[ue] per haec Sancta dei Evangelia, quod omnia ea quae S[anctissimi] D[omini] N[ostri] etc. et Legati eius de latere, R[everend]is[si]mi Cardi-
+                <lb />nalis Aldobrandini interventu, inter Sacrae Caesareae Ma[ies]t[a]tis, Domini et fratris mei obser&lt;…&gt; caeterorumq[ue] Sere-
+                <lb />nissimiorum Principum Austriacor[um] Commissarios ex una, et Serenissimi Principis D[omini] Sigismundi tertij, Polo-
+                <lb />niae Regis, Magni Litwaniae Ducis etc. etc. parte ex altera, Bithonniae et Bendzinij congregatos, convenerunt
+                <lb />in omnibus eorum punctis et clausulis firmiter inviolabiliter[que] observabo, pacem et amicitiam cum eodem Ser[enissi]mo
+                <lb />Rege Poloniae, Magno Duce Litwaniae etc. Regnoq[ue], Magno Ducatu Litwaniae, et caeteris ditionibus eius perpetuo
+                <lb />constanterq[ue] colam, neq[ue] quicquam quod contra eiusdem Ser[enissi]mi Regis ditionum hominum[q]ue eius salutem aut
+                <lb />quietem sit suscipiam admittam[q]ue: neq[ue] vim aliquam inferam, aut aliquo modo publice vel occulte molestabo,
+                <lb />sed fraterno honore, amore et benevolentia, omnibus in locis, perq[ue] omnem occasionem eundem Ser[enissi]mum Regem pro-
+                <lb />sequar: Sic me DEUS adiuvet et haec Sancta eius Evangelia. Quo iuramento praestito, tandem iis etiam quos
+                <lb />ex natione Polonica Iuramento, fide aut quocunq[ue] modo obligatos antea Ser[enissi]ma sua habuit fidem eam, iusiuran-
+                <lb />dum omnemq[ue] &lt;...&gt; obligatione remittet, planeq[ue] liberos ijs pronunciabit. Reservamus postremo ab hac
+                <lb />Transactione nos quidem Caesareae Ma[ies]t[a]tis etc. Commissarij pro Sac[ra] Caes[area] Ma[ies]t[a]te, Domino n[ost]ro clement[issi]mo universaq[ue]
+                <lb />Serenissima domo Austriaca, S[anctissimi] D[omini] N[ostri] Papam Sanctamq[ue] sedem Apostolicam, necnon sacrum Romanum Impe-
+                <lb />rium, cui pro ea fide quam illi inreiurando obstrinxit Caesarea Mai[es]tas, si quis illud iniuria afficere vellet deesse
+                <lb />non posset. Praeterea vero Ser[enissi]mum ac Potent[issimum] Principem et D[omi]num do[mini] Philipum Regem Hispaniar[um] Catholi-
+                <lb />cum etc. etc. Magnum Moscorum Principem, ita tamen ne propter hanc exceptionem vel contra Serenissimum
+                <lb />Regem, Regnumq[ue] Poloniae, Magnum Ducatum Litwaniae etc. vel contra Ser[enissi]mum Suetiae Regem Caesarea Mai[es]tas,
+                    <lb />aut caeteri Serenissimi<note n="2" type="crit_app">Nachträglich eingefügt.</note> Archiduces ullum auxilium Moscis dare, et hanc Transactionem turbare debeant aut possint. Ad
+                <lb />extremum etiam Iur&lt;..&gt;arum Principem per pr[aese]ntes et futurasquoq[que], si quae interesserint inducias, ita ut isthec Trans-
+                <lb />actio Caes[aream] Ma[ies]t[a]tem contra illam ligare non possit nec debeat. Vicissim vero nos Ser[enissi]mi Poloniae Regis Commissarij
+                <lb />eiusdem Ser[enissi]mi Regis Regni, Magni Ducatus Litwaniae, caeterarumq[ue] ditionum eius nomine praefatum S[anctissimi] D[omini] N[ostri]
+                <lb />Papam sanctamq[ue] sedem Apostolicam, tum Ser[enissi]mum parentem
+                    Ser[enissi]mi<note n="3" type="crit_app">Nachträglich eingefügt.</note> Regis nostri Regem Suetiae, Illustrem Sigismun-
+                <lb />dum Principem Transsylvaniae necnon pacem quae eidem Ser[enissi]mo Regi n[ost]ro cum Turcarum Principe intercedit,
+                <lb />aut inposterum iuxta pristinam D[omini] Sigismundi Aug[usti] avunculi eius formulam intercedit diserte excipimus
+                <lb />reservamusq[ue]. Quae omnia et singula in omnibus suis punctis, articulis et clausulis sanctae inviolabiliterque
+                <lb />oservatum, expletumq[ue] iri. Nos suprascripti utriusq[ue] partis Commissarij, cum Principum nostrorum, Ordinumq[ue]
+                <lb />
+                <lb />
+                </p> 
+                <pb facs="#FacsPnr9"/><p> ipsorum tum nostro nomine iam ex hoc ipso tempore sub fide, honore et iuramentis, sancte promittimus, 
+                    <lb />spondemusq[ue]. Maioris autem firmitudinis et fidei causa, imprimis ut Sanct[issi]mi etiam D[omi]ni n[ost]ri de latere 
+                    <lb />Legatus Illustrissimus et R[everendi]s[si]mus in Christo pater et Dominus D[omi]nus Cardinalis Aldobrandinus: ut cuius pru- 
+                    <lb />dentia, studio atq[ue] opera maxime haec res confecta fuit, eandem Transactionem hanc subscriberet, sigilloq[ue] 
+                    <lb />suo muniret, communiter ab Ill[ustrissi]ma do[mi]ne sua impetravimus, tum vero duo eiusdem exempla conficienda cura- 
+                    <lb />vimus, singulaq[ue] exempla ab omnibus nobis communiter subscripta sigillisq[ue] omnium n[ost]rum munita, singulae par- 
+                    <lb />tes accepimus. Datum Bithonnij et Bendzienij nona die mensis Martij Anno domini Millesimo quingen- 
+                    <lb />tesimo octogesimo nono. 
+                    <lb /> 
+                    <lb /> 
+                    <lb />Hip. tituli S[anct]I Pancratii presbiter Car[dina]lis Aldob[randinis] &lt;...&gt; 
+                    <lb />maior panit&lt;..&gt; et S[erenissi]mi I. n. s.teq[ue] &lt;...&gt; ap[os]t[ol]ico Legatus delatere 
+                    <lb /> 
+                    <lb />Guilelmus Ursinus de Rosenbergh&nbsp;&nbsp; &nbsp;Hieronimus Com[es] a Rozdrazew Ep[iscop]us &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; Wladis[la-] 
+                    <lb />&nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp; wien et Pomeran 
+                    <lb />Petrus Ep[i]s[copus] Jaurien&lt;..&gt;&nbsp;&nbsp; &nbsp;Janusius Dux in Ostroog Pal[atinus] Wol[iniae] m[anu] p[ropria] 
+                    <lb />Christophorus iunior Baro à Lobkovitz&nbsp;&nbsp; &nbsp;Stani Gostomskij de Lyrsenitze 
+                    <lb />Richard Strein Baro in Schwarzenau&nbsp;&nbsp; &nbsp;Palati[nu]s Raw[ensis] Capita[neus] &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; Radomie[nsis] 
+                    <lb />Stanislaus Ep[i]s[copus] Olomucen[sis] m.p &nbsp;&nbsp; &nbsp;Christopherus Zenowicz Palatinus 
+                    <lb />Nicolaus Isthuansfi&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;Brestensis Magni Ducatus Lituanae: manu propria 
+                    <lb />manu p[ropria]&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; Andreas Opalnizkij sup[remus] Reg[ni] Pol[oniae] 
+                    <lb />Seifridus A Promnitz &nbsp;&nbsp; &nbsp;Marsalius ma[nu] p[ropria] 
+                    <lb />Baro in Pless.&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; Joan[nes] Zamoiski Regni Pol[oniae] Cancell[arius] et 
+                    <lb />&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; gnatis cap[itaneus] 
+                </p>
+                <p>&nbsp;
+                </p>
+                <p>Die Vorlage erstellte Frau Michaela Bodnarova.
+                    <lb />
+                </p>
+            </div>
+        </body>
+        <back>
+            <listBibl>
+                <bibl>Górnicki, Lukasz: Unterredung von der Wahl, Freyheit, Gesetzen und Sitten der Pohlen: zur Zeit der Wahl Sigismund des Dritten verfertiget / Lucas Gornicki. Und ohnlängst nach verb. alten pohlnischen Schreibart aufs neue hrsg. durch I. Z. R. K. Nunmehro aber ... ins Dt. übers. und mit vielen nützlichen Anm., auch dem Leben des Auctoris vers. von Christian Gottlieb Friesen. -2., verb., mit vielen neuen Anm., auch dem Leben des weltberühmten Johann Zamoyski verm. Aufl.
+                    <lb />Breslau und Leipzig: Korn, 1762.
+                    <lb />
+                    <lb />Tygielski, Wojciech: Politics of patronage in Renaissance Poland : chancellor Jan Zamoyski, his supporters and the political map of Poland, 1572 - 1605 / Wojciech Tygielski. -Wyd. 1
+                    <lb />Warszawa: Wydawn. Uniwersytetu Warszawskiego, 1990. - 153 S.
+                    <lb />(Fasciculi historici ; 15)
+                    <lb />
+                    <lb />Hartmann, Stefan:
+                    <lb />Die preußische Gesandtschaft nach Warschau im Frühjahr 1589.
+                    <lb />In: Zeitschrift für Ostforschung ; 41(1992)1. - S. 68-94
+                    <lb />
+                    <lb />Noflatscher, Heinz:
+                    <lb />Glaube, Reich und Dynastie : Maximilian, der Deutschmeister, 1558-1618
+                    <lb />&nbsp;&nbsp; Marburg : Elwert, 1987. - VIII, 408 S : Ill.
+                    <lb />
+                    <lb />Hirn, Josef:
+                    <lb />Erzherzog Maximilian, der Deutschmeister : Regent von Tirol / Hrsg. u. mit einem Nachw. versehen von Heinrich Noflatscher.
+                    <lb />Bozen : Athesia,
+                    <lb />Bd. 2,1. Nachdruck Innsbruck 1936 / 1981. - XIII, 354 S. -
+                    <lb />Bd. 2,2. 1981. - S. 360-628.
+                    <lb /></bibl>
+            </listBibl>
+        </back>
+    </text>
+</tei:TEI>

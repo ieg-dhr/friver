@@ -1,0 +1,898 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE tei SYSTEM "../resources/FriVer_DTD.dtd">
+
+<?xml-model href="../resources/FriVer.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns="http://www.tei-c.org/ns/1.0" xml:id="pa000299-0246">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title level="s">European peace treaties of the pre-modern era in data / Europäische Friedensverträge der Vormoderne in Daten (FriVer+)</title>
+                <title when="1700-03-03" xml:id="t246" when-custom="1700 III 3 und 1700 III 25" level="a" ref="https://www.ieg-friedensvertraege.de/treaty/t-246-1-de.html">Neuer Teilungsvertrag über das spanische Erbe von London und Den Haag</title>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    Digital edition according to
+                    <ref target="http://www.tei-c.org/">TEI P5</ref>
+                </edition>
+                <funder>
+                    <ref target="https://www.text-plus.org/">TEXT+</ref>
+                </funder>
+                <editor role="http://id.loc.gov/vocabulary/relators/edt" ref="https://orcid.org/0000-0002-8741-5916">
+                    <persName>Jaap Geraerts</persName>
+                    <note>The transformation and enrichment of the data is done by Jaap Geraerts (IEG Mainz). The other members of the FriVer+ team are Fabian Cremer, Ines Grund, and Thorsten Wübbena (all IEG Mainz).</note>
+                    <note>
+                        The original data has been created by the
+                        <ref target="https://www.ieg-friedensvertraege.de">team of scholars</ref>
+                        who were part of the Europäische Friedensverträge der Vormoderne project. This project was lead by Prof. Dr. Heinz Duchhardt and was based at the Leibniz Institute of European History in Mainz.
+                    </note>
+                </editor>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>
+                    <orgName ref="http://www.isni.org/0000000119314040">Leibniz-Institut für Europäische Geschichte Mainz</orgName>
+                </publisher>
+                <distributor>
+                    <orgName ref="http://www.isni.org/0000000110101946">Universitäts- und Landesbibliothek Darmstadt</orgName>
+                </distributor>
+                <idno type="ISIL">http://lobid.org/organisation/DE-17</idno>
+                <date type="issued" when="2023-12-23"/>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">
+                        <p xml:lang="en">This file is licensed under the terms of the Creative Commons License CC-BY 4.0 (Attribution 4.0 International)</p>
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <repository xml:id="r22">Paris AAE
+                    <note>Trait&eacute;s et Accords de la France:<lb />
+                        <ref target="http://www.diplomatie.gouv.fr/traites/affichetraite.do?accord=TRA17000001" >http://www.diplomatie.gouv.fr/traites/affichetraite.do?accord=TRA17000001</ref></note>
+                </repository>
+                <msDesc><p>AAE Paris: M.A.E. Traités. Multilateraux 17000001. Nouveau traité pour le partage de la succession d'Espagne.-Londres/La Haye (UI).&nbsp; </p></msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>
+                    The data in this XML file, originally created by the project
+                    <ref target="https://www.ieg-friedensvertraege.de/vertraege">Europäische Friedensverträge der Vormoderne online</ref>
+                    has been transformed in accordance with
+                    <ref target="http://www.tei-c.org/">TEI P5</ref>
+                    as part of the project
+                    <ref target="https://www.ieg-mainz.de/en/research/research-projects/european-peace-treaties-of-the-pre-modern-era-in-data">Europäische Friedensverträge der Vormoderne in Daten (FriVer+)</ref>
+                </p>
+            </projectDesc>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="fr" xml:id="lan4">französisch</language>
+            </langUsage>
+        </profileDesc>
+    </teiHeader>
+    <standOff>
+        <listPerson>
+            <person role="signatory" xml:id="p37">
+                <persName ref="https://explore.gnd.network/gnd/4018145-5">
+                    <name>Frankreich</name>
+                </persName>
+            </person>
+            <person role="signatory" xml:id="p49">
+                <persName ref="https://explore.gnd.network/gnd/4101204-5">
+                    <name>Generalstaaten</name>
+                </persName>
+            </person>
+            <person role="signatory" xml:id="p42">
+                <persName ref="https://explore.gnd.network/gnd/4022153-2">
+                    <name>Großbritannien</name>
+                </persName>
+            </person>
+        </listPerson>
+        <listPlace>
+            <place xml:id="loc109">
+                <placeName ref="https://explore.gnd.network/gnd/4074335-4">London</placeName>
+            </place>
+        </listPlace>
+    </standOff>
+    <text>
+        <front>
+            <div type="Drucke"><p>CTS Vol. 22, S. (471), 473-482.</p></div>
+            <div type="Inhalt"><p>1. Bestätigung des Friedens von Rijswijk.
+                <lb />2. Ziel ist die Friedenswahrung nach dem Tod des spanischen Königs ohne Erben.
+                <lb />3. Im Voraus werden die nötigen Maßnahmen getroffen.
+                <lb />4. Der Dauphin erhält: Die Königreiche Neapel und Sizilien, die von Spanien abhängige Toskanaküste, Stadt und Herzogtum Final, Guipuzcoa, für davon abhängige Gebiete bilden die Pyrenäen die Grenze.
+                <lb />Darüber hinaus die Fürstentümer Lothringen und Bar, so wie sie Herzog Karl IV. besitzt, der im Gegenzug das Herzogtum Mailand bekommt. Die Grafschaft Bitche geht an den Prinzen von Vaudemont. Dafür verzichten Dauphin und französischer König auf alle weiteren Asprüche.
+                <lb />5. Städte, Plätze und Häfen im Erbteil des Dauphin werden ohne Zerstörung erhalten.
+                <lb />6. Alle übrigen Gebiete der spanischen Krone gehen an Erzherzog Karl, zweiten Sohn des Kaisers. Dafür verzichten der Kaiser, der Römische König und der Erzherzog nach Erlangung seiner Volljährigkeit auf alle weiteren Ansprüche.
+                <lb />7. Einladung an Kaiser zum Vertragsbeitritt. Bei Nicht-Beitritt wird von Vertragspartnern ein geeigneter Prinz für den spanischen Erbteil gesucht. Falls sich Erzherzog Karl ohne Vertragsunterzeichnung des Erbteiles bemächtigen will, werden ihn die Vertragszeichner daran hindern.
+                <lb />8. Ohne allgemeine Zustimmung darf der Erzherzog zu Lebzeiten des Katholischen Königs weder Spanien noch Mailand betreten.
+                <lb />9. Falls der Erzherzog ohne Nachkommen stirbt, bestimmt der Kaiser aus seinen Kindern einen Nachfolger. Falls er stirbt ohne eine Entscheidung getroffen zu haben, trifft diese Entscheidung der Römische König. Die Wiedervereinigung beider Erbteile sowie die Übergabe des Erbteils an den Römischen König oder an Dauphin bleibt ausgeschlossen.
+                <lb />10. Die Vertragszeichner verpflichten sich, das spanische Erbe nach dem Tod des spanischen Königs unverletzt zu lassen. Die oben bezeichneten Prinzen können sich ihrer Anteile bemächtigen und werden darin von den Vertragszeichnern unterstützt.
+                <lb />11. Gegenseitiger Beistand bei Angriffen aufgrund dieses Vertrages.
+                <lb />12. Beitrittseinladung an alle Könige, Prinzen und Staaten.
+                <lb />13. Die beitretenden Könige, Prinzen und Staaten garantieren auch, dass keiner der bedachten Prinzen im Nachhinein die Verteilung ändert.
+                <lb />14. Falls sich ein Prinz gegen die Inbesitznahme zur Wehr setzt, sorgen die Vertragszeichner für die Umsetzung des Vertrags.
+                <lb />15. Registratur des Vertrags.
+                <lb />16. Ratifikation.
+                <lb />
+                <lb />Separatartikel
+                <lb />[1.] Wenn der spanische König die Festungen und Anlagen im Erbteil des Dauphin zerstören will, verhindern dies die Vertragspartner.
+                <lb />2. Die Provinzverwaltungen im Erbteil des Dauphin bleiben im Amt bzw. in den Händen geborener Spanier.
+                <lb />3. Vorlage einer Verzichtserklärung durch den Kaiser.
+                <lb />
+                <lb />Geheimartikel
+                <lb />Der Herzog von Lothringen soll zur Zustimmung bewegt werden.
+                <lb />Falls er diese verweigert, wählen der britische König und die Generalstaaten eine der zwei folgenden Möglichkeiten:
+                <lb />Der bayrische Kurfürst erhält das Herzogtum Mailand, statt dessen wird Manare dem Dauphin zugeschlagen oder Stadt und Herzogtum Luxemburg und die Grafschaft Chiny
+                <lb />oder
+                <lb />Mailand geht an den Herzog von Savoyen und die Grafschaft Flier, das Barcelonette-Tal und das Herzogtum Savoyen dafür an Dauphin.
+                <lb />Nähere Ausführungen zu Artikel 7.
+                <lb />Nähere Ausführungen zu Artikel 8.
+                <lb />
+            </p></div>
+            <div type="Kommentar"><p>Bereits seit Amtsantritt des gesundheitlich und geistig schwächlichen Karls II. in Spanien erwartete man in Europa dessen Tod ohne Erben. Schon 1668 vereinbarte Frankreich deshalb mit Österreich in einem geheimen Vertrag die Aufteilung des spanischen Erbes. Allerdings bemühten sich die Seemächte aus Angst vor einer Gefährdung des europäischen Gleichgewichts, die Bildung einer Weltmacht durch den Fall des spanischen Reichs an Frankreich oder Österreich zu verhindern. Im ersten öffentlichen Teilungsvertrag von 1698 wurde deshalb das spanische Erbe zwischen Philipp von Anjou, Joseph Ferdinand von Bayern und Erzherzog Karl von Österreich geteilt. Als Joseph Ferdinand 1699 starb wurde in einem zweiten Vertrag das spanische Reich erneut aufgeteilt.
+                <lb />Dennoch konnte in der Folge ein Krieg um die Spanische Erbfolge nicht vermieden werden (siehe auch Friedensverträge von Utrecht 1713/14).
+                <lb />&nbsp;
+            </p></div>
+            <div type="Kontext"><p>1665
+                <lb />Thronbesteigung Karls II. von Spanien;
+                <lb />19.1.1668
+                <lb />Teilungsvertrag des spanischen Erbes zwischen Frankreich und Österreich
+                <lb />1693
+                <lb />Karl II. setzt Joseph Ferdinand von Bayern zu seinem Erben ein
+                <lb />11.10.1698
+                <lb />Erster Teilungsvertrag über das spanische Erbe zwischen Frankreich, Großbritannien und den Vereinigten Provinzen
+                <lb />Feb. 1699 &nbsp;
+                <lb />Joseph Ferdinand von Bayern stirbt
+                <lb />13./25.3.1700
+                <lb />Zweiter Teilungsvertrag
+                <lb /></p></div>
+        </front>
+        <body>
+            <div type="Transliteration">
+                <pb facs="#FacsPnr1"/><p>Traitté de partage signé 
+                    <lb />le troisiemme Mars 1700
+                    <lb />à Londres 
+                    <lb />et à la haye le 
+                    <lb />25 &lt;...&gt;<note n="1" type="crit_app">Unleserlich.</note> de la france 
+                    <lb />&lt;... ...&gt;<note n="2" type="crit_app">Unleserlich.</note> la
+                    <lb />Hollande
+                    <lb />
+                    <lb />Traitté entre Le Roy Tres 
+                    <lb />chrestien Le Roy de la grande Bretagne et les 
+                    <lb />seigneurs Etats Generaux des provinces unies des 
+                    <lb />pay bas
+                    <lb />
+                    <lb />Soit notoire à touts qui ces presentes
+                    <lb />veront que le Serenissime et tres puissant Prince Louis 
+                    <lb />quatorze par la grace de Dieu Roy tres chretien &amp;c. 
+                    <lb />Et le Serenissime et tres puissant prince Guillaume trois 
+                    <lb />aussy par la grace de Dieu Roy de la grande Bretagne 
+                    <lb />&amp;c., et les Seigneurs Etats generaux des provinces unies 
+                    <lb />des pays bas n'ayant rien plus à coeur que 
+                    <lb />de fortifier par de nouvelles liaisons la bonne intelligence 
+                    <lb />retablie entre Sa Majesté tres chretienne, Sa Majesté de 
+                    <lb />la grande Bretagne et les dits Seigneurs Etats Generaux par le dernier traitté conclu à Ryswick, et de prevenir 
+                    <lb />par des mesures prises à temps les evenements qui pouroient 
+                    <lb />exciter de nouvelles guerres dans l'Europe, ont donné pour cet 
+                    <lb />effet leurs pleins pouvoirs pour convenir d'un nouveau traitté 
+                </p>
+                <pb facs="#FacsPnr2"/><p>savoir sadite Majesté tres chretienne au Sieur Camille
+                <lb />d'Hostung Comte de Tallard Lieutenant general des armees du Roy
+                <lb />et de sa province de Dauphiné Ambassadeur Extraordinaire
+                <lb />de France en Angleterre et au Sieur Gabriel Comte de Briord
+                <lb />Marquis de Senosan conseiller du Roy en tous ses conseils et son Ambassadeur
+                <lb />Ext[raordinai]re aupres des dits Seigneurs Etats Gen[erau]x des provinces unies des pays bas.
+                <lb />Sadite Majesté Britannique au Sieur Guillaume comte de Portland
+                <lb />Vicomte de Cirencester, Baron de Woodstock chevalier de l'ordre de la
+                <lb />jarretiere et conseiller du Roy en son conseil privé et au Sieur Edward
+                <lb />Comte de Jersey, Vicomte Villiers, Baron de Hoo Chevalier Mareschal
+                <lb />D'Angleterre premier secretaire d'Etat et conseiller du Roy en son
+                <lb />conseil privé.
+                <lb />Et les Seigneurs Etats Generaux aux Sieurs Jean van Essen
+                <lb />Bourguemaistre et Senateur de la ville de Zuiphen, Curateur
+                <lb />de l'université à Harderwyck, Frederick Baron de Rheede
+                <lb />Seigneur de Lier, S[ain]t Antoine, Terlee &amp;c. de l'ordre de la
+                <lb />noblesse de Hollande et Westfrise, Antoine Heinsius Conseiller
+                <lb />pensionnaire, Garde du grand Sceau et Surjntendant des fiefs de
+                <lb />la mesme province, Guillaume de Nassau Seigneur D'odyck
+                <lb />Cartgiene &amp;c. premier noble et representant la noblesse
+                <lb />
+                <pb facs="#FacsPnr3"/>dans l'assemblée des Etats et des deputés conseillers de Zeelande,
+                <lb />Everhard de Weede Seigneur de Dveede, Dyckvelt, Rateles &amp;c.
+                <lb />Seigneur Foncier de la ville d'oudewater, Doyen et Ecolatre du
+                <lb />Chapitre Imperial de S[ain]te Marie à Utrecht, Dyckgrave de la
+                <lb />Riviere du Rhin dans la province d'Utrecht, et president des
+                <lb />Etats de la mesme province, Guillaume van Haren Grietman du
+                <lb />Bilt, deputé de la noblesse aux Etats de Frise et curateur de
+                <lb />l'université de franequer, Arnold Lemker Bourguemaistre
+                <lb />de la Ville de Deventer, et Jean van Heeck, Senateur de la Ville
+                <lb />de Groninguen, touts deputés dans l'assemblée des dits Seigneurs
+                <lb />Etats Generaux de la part des Etats de Gueldre de Hollande
+                <lb />et Westfrise, de Zeelande, Utrecht, de Frise, D'Owerissel et de
+                <lb />Groningue et Ommelandes, lesquels en vertu des dits pouvoirs
+                <lb />sont convenus des articles suivants.
+                <lb />
+                <lb />Article premier
+                <lb />
+                <lb />La paix retablie par le traitté de Ryswick entre
+                <lb />
+                <pb facs="#FacsPnr4"/>Sa Majesté tres chretienne et Sa Majesté Britannique
+                <lb />et les Seigneurs Etats generaux des provinces unies des
+                <lb />pays bas, leurs herittiers et Successeurs, leurs Royaumes
+                <lb />Etats et Sujets sera ferme et constante et leurs majestés et
+                <lb />les dits Seigneurs Etats Generaux fairont reciproquement
+                <lb />tout ce qui poura contribuer à l'avantage et à l'utilité
+                <lb />de l'un et l'autre.
+                <lb />
+                <lb />Article second
+                <lb />
+                <lb />Comme le principal objet que Sa dite Majesté
+                <lb />tres chretienne et Sa dite Majesté de la Grande
+                <lb />Bretagne et les dits Seigneurs Etats Generaux se proposent,
+                <lb />est celuy de maintenir la tranquilité generalc de
+                <lb />l'Europe, ils nous pu voir sans douleur que l'etat de la
+                <lb />santé du Roy d'Espagne soit depuis quelque temps devenu
+                <lb />si languissant, qu'il y a tout à craindre pour la vie de ce
+                <lb />
+                <pb facs="#FacsPnr5"/>Prince, quoiqu'ils ne puissent tourner leur penseé du costé
+                <lb />de cet evenement sans affliction par l'amitié sincere, et
+                <lb />veritable qu'ils ont pour luy, ils ont cependant estimé qu'il
+                <lb />estoit d'autant plus necessaire de le prevoir, que Sa Majesté
+                <lb />Catolique n'ayant point d'enfans, l'ouverture de sa succession
+                <lb />exciteroit infailliblement une nouvelle guerre, si Le Roy
+                <lb />tres chretien soutenoit ses pretentions, celles de Monseigneur
+                <lb />le Dauphin, ou de ses descendans sur toute la succession d'Espagne
+                <lb />et que l'Empereur voulut aussy faire valoir ses pretentions
+                <lb />celles du Roy des Romains, de l'Archiduc son second fils
+                <lb />ou de ses autres Enfans masles ou femesles sur lad[it]e Succession.
+                <lb />
+                <lb />Article 3
+                <lb />
+                <lb />Et comme les deux Seigneurs Rois et les Seigneurs
+                <lb />Etats Generaux desirent sur toutes choses la conservation
+                <lb />du repos public, et d'eviter une nouvelle guerre dans l'Europe
+                <lb />par un accommodement des disputes, et des differens qui
+                <lb />pouroient resulter au sujet de la dite Succession, ou par
+                <lb />
+                <pb facs="#FacsPnr6"/>l'ombrage de trop d'Etats reunis sous un mesme Prince, ils
+                <lb />ont trouve bon de prendre par avance des mesures necessaires
+                <lb />pour prevenir les malheurs que le triste evenement de la
+                <lb />mort du Roy Catolique sans Enfans pouroit produire.
+                <lb />
+                <lb />Article 4
+                <lb />
+                <lb />Ainsy a esté accordé et convenu que si le susdit
+                <lb />cas arrivoit, Le Roy tres chretien, tant en son propre nom
+                <lb />qu'en celuy de Monseigneur le Dauphin, ses enfans
+                <lb />masles ou femesles, herittiers et successeurs nés, et à naistre
+                <lb />comme aussy mondit seigneur le Dauphin pour soy mesme
+                <lb />ses enfans masles ou femesles herittiers ou Successeurs nés
+                <lb />et à naistre, se tiendront satisfaits comme ils se tiennent
+                <lb />satisfaits par le presente, que mondit seigneur le
+                <lb />Dauphin ait pour son partage en toute proprieté, possession
+                <lb />pleniere et extinction de toutes ses pretentions sur la
+                <lb />succession d'Espagne pour en jouir luy ses herittiers, successeurs
+                <lb />Descendans masles ou femesles nés et à naistre à perpetuité,
+                <lb />
+                <pb facs="#FacsPnr7"/>sans pouvoir estre jamais troublé sous quelque pretexte
+                <lb />que ce soit de droits ou de pretentions directement ou
+                <lb />indirectement, mesme par cession appel revolte ou autre
+                <lb />voye, de la part de l'Empereur, du Roy des Romains, du serenissime Archiduc Charles son second fils, des
+                <lb />Archiduchesses, de ses autres Enfans masles ou femesles, et
+                <lb />descendans, ses herittiers et successeurs nés et à naistre, Les
+                <lb />Royaumes de Naples et de Sicile en la maniere
+                <lb />que les Espagnols les possedent presentement, les places
+                <lb />dependantes de la monarchie d'Espagne, scituées sur la
+                <lb />coste de Toscane, ou isles adjacentes, comprises sous le
+                <lb />nom de Sancto Stephano, Porto hercolé, Orbitello, Telamone
+                <lb />Portolongon, Piombin en la maniere aussy que les
+                <lb />Espagnols les tiennent presentement; La Ville et le marquisat
+                <lb />de Final en la maniere pareillement que les Espagnols
+                <lb />les tiennent, la Province de Guipuscoa, nommement les
+                <lb />villes de Fontarabie et de S[ainc]t. Sebastien scitueés dans cette
+                <lb />Province, et specialement le port du Passage qui y est
+                <lb />
+                <pb facs="#FacsPnr8"/>compris, avec cette restriction seulement que s'il y a quelques
+                <lb />lieux dependans de la dite Province qui se trouvent scitues
+                <lb />au dela des Pyrenées ou autres montagnes de Navare
+                <lb />d'alava ou de Biscaye du costé de l'Espagne, ils resteront
+                <lb />à l'Espagne; et s'il y a quelques lieux pareillement dependans
+                <lb />des provinces soumises à l'Espagne qui soient en deça des
+                <lb />Pyrenees, ou autres montagnes de Navarre, d'alava ou de
+                <lb />Biscaye, du costé de la Province de Guipuscoa, ils resteront
+                <lb />à la France, et les trajets des dites montagnes, et les dites
+                <lb />montagnes qui se trouveront entre la dite province de
+                <lb />Guipuscoa, Navarre Alava et de Biscaye à qui qu'elles
+                <lb />appartiennent, seront partageés entre la France et
+                <lb />l'Espagne, ensorte qu'il restera autant des dites montagnes
+                <lb />et trajets à la France de son costé qu'il en restera à l'Espagne
+                <lb />du sien; le tout avec les fortifications, munitions de guerre
+                <lb />poudres, boulets Canons, Galeres chiourmes qui se trouveront
+                <lb />apartenir au Roy d'Espagne lors de son deceds sans enfans
+                <lb />et estre attachés aux Royaumes places, isles et provinces
+                <lb />
+                <pb facs="#FacsPnr9"/>qui doivent composer le partage de Monseigneur Le
+                <lb />Dauphin, bien entendu que les galeres, chiourmes et autres
+                <lb />effets appartenants au Roy d'Espagne par le Royaume
+                <lb />d'Espagne et autres Etats qui tombent dans le partage du
+                <lb />Serenissime Archiduc luy resteront, celles qui appartiennent
+                <lb />aux Royaumes de Naples et de Sicile devant revenir à
+                <lb />Monseigneur le Dauphin ainsy qu'il a esté dit cy dessus.
+                <lb />Deplus les Etats de M[onseigneur] le Duc de Lorraine, a scavoir
+                <lb />les duches de Lorraine et de Barr, ainsy que le Duc Charles
+                <lb />quatriesme du nom les possedoit, et tels qu'ils ont este rendus
+                <lb />par le traitté de Ryswick, seront cedés et transportes à
+                <lb />Monseigneur le Dauphin ses enfans et herittiers et successeurs
+                <lb />masles ou femesles nés et à naistre en toute proprieté et
+                <lb />possession pleniere à la place du Duché de Milan qui sera
+                <lb />cedé et transporté en eschange au dit duc de Lorraine,
+                <lb />ses enfans masles ou femesles, herittiers descendans successeurs
+                <lb />nés et à naistre en toute proprieté et possession pleniere
+                <lb />(lequel ne refusera pas un party si advantageux.) bien
+                <lb />
+                <pb facs="#FacsPnr10"/>entendu que le Comté de Biftch appartienta à M[onseigneur] Le Prince
+                <lb />de Vaudemont lequel rentrera dans la possession des terres
+                <lb />dont il a jouy cy devant qui lui ont esté ou deües estre
+                <lb />rendues en execution du traitté de Ryswick, moyennant
+                <lb />lesquels Royaumes, isles, Provinces, et places led[i]t Roy tres chretien
+                <lb />tant en son propre nom qu[']en celuy de Monseigneur
+                <lb />Le Dauphin, ses enfans masles ou femesles herittiers et
+                <lb />successeurs nés et à naistre, comme aussy mondit Seigneur
+                <lb />Le Dauphin pour soy mesme, ses enfans masles ou femesles
+                <lb />herittiers et successeurs nes et à naistre (lequel a aussy
+                <lb />donné son plein pouvoir pour cet effet au Sieur Comte de
+                <lb />Tallard et au Sieur Comte de Briord) promettent et s'engagent
+                <lb />de renoncer lors de l'ouverture de la dite succession d'Espagne
+                <lb />comme en ce cas ils renoncent des a present par celle
+                <lb />cy à touts les droits et pretentions sur la dite couronne
+                <lb />d'Espagne et sur touts les autres Royaumes, isles Etats
+                <lb />pay et places qui en dependent presentement, à l'exception
+                <lb />de ce qui est enoncé cy dessus pour son partage, et de
+                <lb />
+                <pb facs="#FacsPnr11"/>tout cela ils fairont expedier des actes solemnels dans
+                <lb />laplus forte et la meilleure forme qu'il se poura qui seront
+                <lb />delivrés au temps de l'eschange des ratiffications de ce
+                <lb />present traitté au Roy de la grande Bretagne et
+                <lb />aux Seigneurs Etats Generaux.
+                <lb />
+                <lb />Article 5
+                <lb />
+                <lb />Toutes les villes places et ports scitués dans
+                <lb />les Royaumes et provinces qui doivent composer le
+                <lb />partage dudit Seigneur Dauphin seront conservés sans
+                <lb />estre demolis.
+                <lb />
+                <lb />Article 6.
+                <lb />
+                <lb />Ladite Couronne d'Espagne et les autres
+                <lb />Royaumes, isles etats pays et places que le Roy Catolique
+                <lb />possede presentement tant de hors que dehors de dans l'Europe,
+                <lb />seront donnés et assignés au Serenissime Archiduc Charles
+                <lb />second fils de l'Empereur (à l'exception de ce qui a esté
+                <lb />
+                <pb facs="#FacsPnr12"/>enoncé dans l'article quatre qui doit composer le partage
+                <lb />de Monseigneur le Dauphin, et du duché de Milan en
+                <lb />conformité du dit Article quatre) en toute proprieté et
+                <lb />possession pleniere en partage et extinction de toutes ses
+                <lb />pretentions sur la dite succession d'Espagne, pour en jouir luy
+                <lb />ses herittiers et successeurs nés et à naistre a perpetuite
+                <lb />sans pouvoir estre jamais troublé sous quelque pretexte
+                <lb />que ce soit de droits ou de pretentions, directement ou
+                <lb />indirectement mesme par cession appel revolté ou autre
+                <lb />voye de la part du Roy tres chretien, de mondit Seigneur
+                <lb />Le Dauphin ou de ses enfans masles ou femesles, ses
+                <lb />herittiers et successeurs nés et à naistre. Moyennant
+                <lb />laquelle Couronne d'Espagne et autres Royaumes, isles
+                <lb />etats pays et places qui en dependent, l'Empereur tant
+                <lb />en son propre nom qu'en celuy du Roy des Romains, du
+                <lb />Serenissime Archiduc Charles son second fils, des archidu-
+                <lb />chesses ses filles, ses Enfans, leurs Enfans, masles ou femesles
+                <lb />herittiers descendans ou successeurs nés ou à naistre, comme
+                <lb />
+                <pb facs="#FacsPnr13"/>aussy le Roy des Romains pour luy, et le Serenissime
+                <lb />Archiduc Charles des qu'il sera majeur pour lui mesme
+                <lb />leurs Enfans herittiers et successeurs masles ou femesles nés
+                <lb />et à naistre se tiendront satisfaits que le dit Serenissime
+                <lb />Archiduc Charles ait en extinction de toutes leurs pretentions
+                <lb />sur la succession d'Espagne ladite Cession faite cy dessus
+                <lb />et le dit Empereur tant en son propre nom qu'en celuy
+                <lb />du Roy des Romains, du Serenissime Archiduc Charles
+                <lb />son second fils, des Archiduchesses ses filles, ses Enfans
+                <lb />masles ou femesles et les leurs, leurs herittiers et successeurs
+                <lb />comme aussy le dit Roy des Romains en son propre nom
+                <lb />renonceront lors qu'ils entreront en ce present traitté, et
+                <lb />qu'ils le ratifieront, et le Serenissime Archiduc Charles
+                <lb />des qu'il sera majeur à touts autres droits et pretentions
+                <lb />sur les Royaumes, isles, Etats, pays et places qui
+                <lb />composent les partages et les portions assignés cy dessus
+                <lb />à Monseigneur le Dauphin, de celuy qui aura le duché
+                <lb />de Milan par eschange de ce qui sera donné à mondit
+                <lb />
+                <pb facs="#FacsPnr14"/>Seigneur le Dauphin, et que de tout cela, ils fairont
+                <lb />expedier des actes solemnels dans la plus forte et La
+                <lb />meilleure forme qu'il se pourra, scavoir L'Empereur, et
+                <lb />le Roy des Romains quand ils ratifieront ce present
+                <lb />traitté et le Serenissime Archiduc des qu'il sera majeur
+                <lb />lesqu'els seront delivres à Sa Majeste Britannique et
+                <lb />aux Seigneurs Etats Generaux.
+                <lb />
+                <lb />Article 7.
+                <lb />
+                <lb />Inmediatement apres l'eschange des ratiffications
+                <lb />de ce present traitté, il sera communiqué à l'Empereur
+                <lb />lequ'el sera invité d'y entrer, mais si trois mois apres
+                <lb />à compter du jour de ladite communication et de la
+                <lb />dite invitation ou le jour que Sa Majesté Catolique
+                <lb />viendroit à mourir, si c'etoit avant ledit terme de
+                <lb />trois mois, Sa Majesté imperiale et le Roy des Romains
+                <lb />refusoient d'y entrer, et de convenir du partage assigné
+                <lb />au Serenissime Archiduc, les deux Seigneurs Rois ou
+                <lb />
+                </p>
+                <pb facs="#FacsPnr15"/><p> leurs successeurs et les Seigneurs Etats Generaux conviendront 
+                    <lb />d'un Prince auquel ledit partage sera donné et en cas 
+                    <lb />que nonobstant la presente convention ledit Serenissime 
+                    <lb />Archiduc voulut prendre possession ou de la portion 
+                    <lb />qui luy sera escheüe, avant qu’il eut accepté le present 
+                    <lb />traitté, ou de celle qui serait assignée à Monseigneur 
+                    <lb />le Dauphin, ou à celuy qui aura le Duché de Milan 
+                    <lb />par eschange comme il est dit cy dessus, les dits 
+                    <lb />deux Seigneurs Rois et les Seigneurs Etats Generaux 
+                    <lb />en vertu de cette convention, l'empecheront de toutes 
+                    <lb />leurs forces. 
+                    <lb /> 
+                    <lb />Article 8. 
+                    <lb /> 
+                    <lb />Le Serenissime Archiduc ne poura 
+                    <lb />passer en Espagne ny dans le duché de Milan du 
+                    <lb />vivant de Sa Majesté Catolique, que d'un commun 
+                    <lb />consentement et point autrement. 
+                </p>
+                <p>Art.9.
+                    <lb />
+                </p>
+                <pb facs="#FacsPnr16"/><p>Article 9.
+                <lb />
+                <lb />Si le Serenissime Archiduc vient à mourir sans
+                <lb />enfans soit avant ou apres la mort du Roy Catolique
+                <lb />le partage qui luy est assigné cy dessus par l'article six
+                <lb />de ce traitté passera à tel enfant de l'Empereur masle
+                <lb />ou femesle, hors le Roy des Romains, ou tel enfant masle
+                <lb />ou femesle du Roy des Romains que Sa Majesté jmperiale
+                <lb />trouvera bon de designer, et en cas que Sadite Majesté jmp[eria]le
+                <lb />vint à deceder sans avoir fait la susdite designation,
+                <lb />elle poura estre faite par le Roy des Romains,
+                <lb />mais le tout à condition que le dit partage ne poura
+                <lb />jamais estre reuny, ny demeurer en la personne de
+                <lb />celuy qui sera Empereur ou Roy des Romains
+                <lb />ou qui sera devenu l'ûn ou l'autre, soit par Succession
+                <lb />testament, contrat de mariage, donation, eschange
+                <lb />cession, appel, revolte, ou autre voye; et de
+                <lb />mesme le dit partage du Serenissime Archiduc ne
+                <lb />poura jamais revenir ny demeurer en la personne d'un
+                <lb />
+                <pb facs="#FacsPnr17"/>Prince qui sera Roy de France ou Dauphin, ou qui sera
+                <lb />devenu l'un ou l'autre, soit par succession testament, contrat
+                <lb />de mariage, donation, eschange, cession appel, revolte
+                <lb />ou autre voye.
+                <lb />
+                <lb />Article 10
+                <lb />
+                <lb />Le Roy d'Espagne venant à mourir sans
+                <lb />Enfans, et aussy le susdit cas arrivant, les deux Seigneurs
+                <lb />Rois et les Seigneurs Etats Generaux s'obligent de laisser
+                <lb />toute la succession dans l[']etat comme alors elle se
+                <lb />trouvera, sans s'en saisir en tout ou en partie, directement
+                <lb />ou jndirectement, mais chaque Prince poura d'abord se
+                <lb />mettre en possession de ce qui luy est assigné pour son
+                <lb />partage des qu'il aura satisfait de sa part aux articles
+                <lb />quatre et six precedens celuy cy, et s'il y trouve de la
+                <lb />difficulté, les deux Seigneurs Rois et les Seigneurs Etats
+                <lb />Generaux fairont touts leurs devoirs possibles, a fin que
+                <lb />chacun soit mis en possession de sa portion selon cette
+                <lb />
+                <pb facs="#FacsPnr18"/>convention, et qu'elle puisse avoir son entier effet, s'engagean[t]
+                <lb />à donner par terre et par mer le secours et assistances
+                <lb />d'hommes et de vaisseaux necessaires pour contraindre
+                <lb />par la force ceux qui s'oposeront a la d[it]e execution.
+                <lb />
+                <lb />Article 11
+                <lb />
+                <lb />Si les dits Seigneurs Rois ou les Seigneurs
+                <lb />Etats Generaux, ou quelqu'un d'eux sont attaqués de qui que
+                <lb />ce soit à cause de cette convention ou de l'execution qu'on
+                <lb />en faira, on s[']assistera mutuellement l'un l'autre avec
+                <lb />toutes ses forces, et on se rendra garant de la ponctuelle
+                <lb />execution de la dite convention, et des renonciations faites
+                <lb />en consequence.
+                <lb />
+                <lb />Article 12
+                <lb />
+                <lb />Seront admis dans le present traitté touts Rois, Princes
+                <lb />et Etats qui voudront y entrer et il sera permis aux
+                <lb />dits deux Seigneurs Rois et aux Seigneurs Etats Generaux
+                <lb />
+                <pb facs="#FacsPnr19"/>et à chacun d'eux en particulier de requerir et inviter touts
+                <lb />ceux qu'ils trouveront bon de requerir et inviter d'entrer dans
+                <lb />ce present traitté, et d'estre semblablement garants de
+                <lb />l'execution de ce traitté et de la validité des renonciations
+                <lb />qui y sont contenues.
+                <lb />
+                <lb />Article 13
+                <lb />
+                <lb />Et pour asseurer encore d[‘]avantage le repos de
+                <lb />l'Europe, lesdits Rois, Princes et Etats, seront non
+                <lb />seulement invités d'estre garants de la dite execution du
+                <lb />present traitté et de la validité des dites renonciations
+                <lb />comme cy dessus, mais si quelqu'un des Princes en faveur
+                <lb />desquels les partages sont faits, vouloit dans la suite
+                <lb />troubler l'ordre etably par ce traitté, faire de nouvelles
+                <lb />entreprises y contraires, et ainsy s'agrandir aux depens
+                <lb />les uns des autres sous quelque pretexte que ce soit, la
+                <lb />mesme garantie du traitté sera censeé devoir s'etendre
+                <lb />aussy en ce cas, ensorte que les Rois Princes et Etats
+                <lb />
+                <pb facs="#FacsPnr20"/>qui la promettent seront tenus d'employer leurs forces pour
+                <lb />s[']oposer aux dites entreprises; et pour maintenir toutes
+                <lb />choses dans l[']etat convenu par les dits articles.
+                <lb />
+                <lb />Article 14
+                <lb />
+                <lb />Que si quelque Prince que ce soit s'opose à la prise de
+                <lb />possession des partages convenus, lesdits deux Seigneurs Rois
+                <lb />et les Seigneurs Etats Generaux seront obligés de
+                <lb />s'entr[']ayder l'un l'autre contre cette oposition, et de
+                <lb />l'empescher avec toutes leurs forces, et l[']on conviendra
+                <lb />d'abord apres la signature du present traitté de la
+                <lb />proportion que chacun doit contribuer tant par mer que
+                <lb />par terre.
+                <lb />
+                <lb />Article 15.
+                <lb />
+                <lb />Le present traitté et touts les actes faits en consequence
+                <lb />ou qui y ont raport, et nommement les actes solemnels
+                <lb />que Sa Majesté tres chretienne et Monseigneur Le Dauphin
+                <lb />
+                </p>
+                <pb facs="#FacsPnr21"/><p>sont obligés de donner en vertu de l'article quatre cy dessus, 
+                    <lb />seront enregistrés au parlement de Paris suivant leur forme 
+                    <lb />et teneur et l'usage ordinaire pour avoir lieu aux conditions 
+                    <lb />qui y sont portées, des que l'Empereur sera entré dans le 
+                    <lb />present traitté, ou au bout des trois mois qui luy sont donnés 
+                    <lb />pour cet effet, s'il n[']y entre pas plustost; et pareillement 
+                    <lb />Sa Majesté imperiale sera tenüe quand elle entrera dans le 
+                    <lb />present traitté, de le faire aprouver et enregistrer avec touts 
+                    <lb />les actes solemnels que Sa Majesté imperiale, Le Roy des 
+                    <lb />Romains et le Serenissime Archiduc seront obligés de donner 
+                    <lb />en vertu de l'article six cy dessus en son conseil d'Etat ou 
+                    <lb />ailleurs suivant les formes les plus autentiques du pays.
+                    <lb />
+                    <lb />Article 16
+                    <lb />
+                    <lb />Les ratiffications des deux Seigneurs Rois et des 
+                    <lb />Seigneurs Etats Generaux seront toutes trois eschangeés en 
+                    <lb />mesme temps à Londres dans l'espace de trois semaines à compter 
+                    <lb />du jour que lesdits seigneurs Etats Generaux auront signé et 
+                    <lb />plustost si faire se peut. Fait et signé à Londres le troisieme Mars
+                    nouveau style Milseptcent /vingt et uniesme de fevrier vieux style Mil six cent
+                    nonante et neuf<note n="3" type="crit_app">Die beiden Jahreszahlen sind über einem Bruchstrich geschrieben. Der Seitenumbruch erfolgt nach troisieme/vingt et. </note> 
+                </p>
+                <pb facs="#FacsPnr22"/><p>par nous plenipotentiaires de France et D'Angleterre et
+                <lb />a la Haye le vingt cinquiesme du dit mois de mars mil sept Cent
+                <lb />par nous plenipotentiaires de France et des Seigneurs Etats Generaux,
+                <lb />Les deux Seigneurs Rois et les dits Seigneurs Etats Generaux estant
+                <lb />convenus que la Signature de ce present traitté se fairoit de la
+                <lb />sorte. En foy de quoy nous avons signé le dit present traitté de
+                <lb />nostre main et fait aposer le Cachet de nos armes.
+                <lb />
+                <lb />Tallard &nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;Portland &nbsp;&nbsp; &nbsp;J. van Essen
+                <lb />Briord &nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;Jersey &nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;F.B. de Reede
+                <lb />A.&nbsp; Heinsius
+                            W.&nbsp; de Nassau
+                            <lb />De Weede.
+                            <lb />W. Harren
+                            <lb />A.&nbsp;&nbsp; &nbsp;Lemkes
+                            <lb />van Heeck
+                            <lb />
+                </p>
+                <pb facs="#FacsPnr23"/><p>3e Mars 1700 à Londres 
+                    <lb />25e Mars 1700 à la Haye 
+                    <lb />Sur le partage de M[onsei]g[neu]r le 
+                    <lb />Dauphin et les Renonciations 
+                    <lb />de l'Empereur
+                    <lb />signé entre la 
+                    <lb />France, L'Ang[leter]re et
+                    <lb />la Hollande
+                    <lb />
+                    <lb />Article Separé
+                    <lb />
+                    <lb />Sa Majesté tres Chretienne, Sa 
+                    <lb />Majesté Britannique et les Seigneurs Etats Generaux, sont convenus 
+                    <lb />premierement que si le Roy d'Espagne ne veut point entrer dans ce traitté 
+                    <lb />et que non obstant il voulut faire demolir les villes places et ports scitués 
+                    <lb />dans les Royaumes et provinces qui doivent composer le partage de 
+                    <lb />Monseigneur le Dauphin ou du Duché de Milan et dependances desdits 
+                    <lb />Royaumes et Provinces, les deux Seigneurs Rois et les Seigneurs Etats 
+                    <lb />Generaux s'y oposeront par toutes sortes de moyens. 
+                    <lb />
+                    <lb />Secondement que les dits Seigneurs Rois, et les Seigneurs 
+                    <lb />Etats Generaux, employeront leurs offices aupres de ladite Majesté 
+                    <lb />Catolique pour empescher que les gouvernements des Provinces qui
+                    <lb />doivent composer le partage de Monseigneur Le Dauphin, ne sortent 
+                    <lb />des mains entre lesqu'els ils sont, et s'il se fait quelque changement 
+                    <lb />ils employeront aussy leurs bons offices pour que les dits gouvernemens 
+                    <lb />&lt;soint&gt;<note n="4" type="crit_app">Unsichere Lesart.</note> donnés à des Espagnols naturels. 
+                    <lb />
+                    <lb />Et troisiesmem[en]t Sa Majesté Britannique et les Seigneurs 
+                    <lb />Etats Generaux s'engagent de garder comme en depart les actes 
+                    <lb />solemnels du Roy tres chretien et de Monseigneur Le Dauphin
+                </p>
+                <pb facs="#FacsPnr24"/><p>qui leur doivent estre remis entre les mains en conformité de
+                <lb />l'article quatre du present traitté signé à Londres le troisieme mars nouveau
+                    style Milseptcent /vingt et uniesme de fevrier vieux style Mil six cent nonante
+                    neuf<note n="5" type="crit_app">Die beiden Jahreszahlen sind über einem Bruchstrich geschrieben. Der Zeilenumbruch erfolgt nach troisieme de mars /vingt et uniesme de.</note> et à la haye le 25e dudit mois de mars 1700
+                <lb />et d'en donner une declaration en meme temps que les dits actes
+                <lb />seront remis entre leurs mains, et que l'Empereur ny le Roy des Romains
+                <lb />ne feront point receûs dans le susdit traitté qu'ils n'ayent pareille-
+                <lb />ment remis les actes solemnels qu'ils sont tenus de remettre en
+                <lb />conformité de l'article six du susdit traitté, qui seront dans les
+                <lb />mesmes termes ou equivalents à la satisfaction et à la seureté des
+                <lb />parties interessées semblables au modele suivante cy dessous inseré.
+                <lb />
+                <lb />Acte de la renonciation qui doit estre faite par
+                <lb />l'Empereur en cas du decèds de Sa Majesté Catolique sans enfans
+                <lb />pour estre remis aux parties interessées suivant le traitté passé à Londres
+                    <lb />le 3e mars nouveau style 1700 /21 de fevrier vieux 1699<note n="6" type="crit_app">Die beiden Jahreszahlen sind über einem Bruchstrich geschrieben.</note> et à la Haye le 25e dudit mois de mars 1700
+                <lb />dans les propres termes enoncés cy dessous ou equivalents, ou les
+                <lb />parties interessées avec Sa Majesté imperiale trouvent leur Seureté,
+                <lb />apres lequel acte de delivré, L'Archiduc ou ses tuteurs en son nom
+                <lb />pouront entrer en possession de son partage.
+                <lb />
+                <lb />Leopold.
+                <lb />
+                <lb />
+                </p>
+                <pb facs="#FacsPnr25"/><p>Leopold par la grace de Dieu eleu Empereur 
+                    <lb />des Romains &amp;c. à touts ceux qui ces presentes veront 
+                    <lb />scavoir faisons, qu'ayant veu et examiné le traitté fait entre
+                    <lb />le Roy tres chretien. Le Roy de la grande Bretagne et les Seigneurs 
+                    <lb />Etats Generaux des provinces unies des pays bas à Londres le 3e. de mars
+                    1700 nouveau style /21e. de fevrier 1699 vieux style<note n="7" type="crit_app">Die beiden Jahreszahlen sind über einem Bruchstrich geschrieben. Der Zeilenumbruch erfolgt nach mars/fevrier.</note> &nbsp;
+                    <lb />et à la Haye le vingt cinquiesme dudit mois de mars mils sept Cent 
+                    <lb />pour regler la Succession de la Couronne d'Espagne en cas que 
+                    <lb />Sa Majesté Catolique vint à mourir sans enfans, et premier les 
+                    <lb />suites facheuses q'un tel cas pouvoir faire naistre, s'il ny estoit 
+                    <lb />pourveu à temps dont la teneur s'ensuit
+                    <lb />
+                    <lb />Icy doit estre inseré le traitté 
+                    <lb />
+                    <lb />Et le dit cas à scavoir le deceds du Roy d'Espagne sans enfans 
+                    <lb />venant à arriver nous declarons tant en nostre propre nom 
+                    <lb />qu'en celuy du Roy des Romains nostre fils aisné, que de 
+                    <lb />L'Archiduc Charles nostre second fils, des Archiduchesses nos filles 
+                    <lb />et nos autres enfans et descendans masles ou femesles, herittiers et 
+                    <lb />successeurs nés et à naistre d'avoir agreé aprouvé et ratiffié 
+                    <lb />comme nous agreons aprouvons et ratiffions par la presente 
+                    <lb />ledit traitté selon la forme et teneur, et de nous obliger et engager 
+                    <lb />comme nous nous obligeons et engageons par le present acte à
+                    <lb />
+                    <lb />
+                </p>
+                <pb facs="#FacsPnr26"/><p>observer, et à faire observer le dit traitté aux mesmes conditions
+                <lb />obligations et garanties qui y sont portées et qui auront les
+                <lb />mesmes forces que si elles estoient de nouveau icy repetées et
+                <lb />specialement les articles quatre, six, huit, et neuf dudit traitté
+                <lb />par lesquels a este fait un partage de ladite succession de la
+                <lb />couronne d'Espagne en faveur du Dauphin de France et de l'Archi-
+                <lb />duc Charles nostre second fils, à condition que par nous en seroit
+                <lb />expedié des actes solemnels d'aquit et de renonciation dans la plus forte
+                <lb />et la meilleure forme qui se pouroit et delivrer au temps que nous
+                <lb />entrerons dans le traitté susdit, et n'ayant rien de plus à coeur que de
+                <lb />satisfaire audit traitté et prevenir toutes sortes de disputes qui pouroient
+                <lb />survenir au sujet de ladite succession de la couronne d'Espagne, nous
+                <lb />avons declare, comme nous declarons par la presente tant en
+                <lb />nostre propre nom qu'au nom du Roy des Romains nostre fils aimé
+                <lb />que de l'Archiduc Charles nostre second fils, des Archiduchesses
+                <lb />nos filles, et de nos autres enfans et descendans masles ou femesles
+                <lb />herittiers et successeurs nés et à naistre que nous nous tenons satis-
+                <lb />faits du partage assigné audit Archiduc Charles nostre second fils
+                <lb />par le sixieme article du dit traitté, en extinction de touts nos
+                <lb />droits actions et pretentions sur le partage assigné au Dauphin de
+                <lb />
+                <lb />
+                </p>
+                <pb facs="#FacsPnr27"/><p>France par l'article quatre dudit traitté sans aucune<note
+                    n="8" type="crit_app">Nachträglich eingefügt.</note> exception ny reserve 
+                    <lb />et sans que nous le dit Roy des Romains, le dit Archiduc, et nos 
+                    <lb />autres enfans y puissions pretendre d[']avantage, et qu'en suite 
+                    <lb />moyenant les Royaumes Etats isles et provinces assignés audit 
+                    <lb />Archiduc nostre second fils par l'article six dudit traitté, nous 
+                    <lb />declarons de ceder et transporter, comme nous cedons et transportons 
+                    <lb />par la presente tant en nostre propre nom qu'en celuy du Roy des 
+                    <lb />Romains, l'Archiduc Charles, les Archiduchesses nos filles, et nos 
+                    <lb />autres enfans masles ou femesles herittiers et successeurs nés et à 
+                    <lb />naistre audit Dauphin de France, ses enfans, et descendans masles ou 
+                    <lb />femesles herittiers et successeurs nés et à naistre, conformement audit 
+                    <lb />traitté touts nos autres droits actions et pretentions que nous ou nos 
+                    <lb />enfans masles ou femesles herittiers et successeurs nés et à naistre 
+                    <lb />avons ou pretendons avoir sur la dite succession de la Couronne 
+                    <lb />d'Espagne sans aucune exception ny reserve, et consentons et accordons 
+                    <lb />en consequence que le dit Dauphin jouisse de son partage en toute 
+                    <lb />proprieté et possession pleniere pour luy ses enfans et descendans 
+                    <lb />masles ou femesles herittiers et successeurs nés et à naistre à 
+                    <lb />perpetuité sans pouvoir estre jamais troublé par nous ou nos 
+                    <lb />Enfans et descendans masles ou femesles, nous herittiers et Successeurs
+                </p>
+                <pb facs="#FacsPnr28"/><p>nés et à naistre sous quelque pretexte que ce soit de droits ou 
+                    <lb />pretentions directement ou indirectement, mesme par cession 
+                    <lb />appel revolte ou autre voye, et en outre nous declarons tant 
+                    <lb />en nostre propre nom qu'en celuy du Roy des Romains, de 
+                    <lb />l'Archiduc Charles, des Archiduchesses nos filles, et de nos autres 
+                    <lb />enfans et descendans masles ou femesles, herittiers et successeurs 
+                    <lb />nés et à naistre de renoncer moyennant le dit partage 
+                    <lb />contenu dans l'article six du dit traitté, comme nous renonçons 
+                    <lb />par la presente à touts les doits actions et pretentions qui 
+                    <lb />nous appartiennent ou que nous pretendons sur la dite succession 
+                    <lb />de la Couronne d'Espagne et sur les autres Royaumes, isles 
+                    <lb />Etats pays et places qui en dependent et qui par le dit traitté sont 
+                    <lb />&lt;...&gt;<note n="9" type="crit_app">Tintenfleck.</note> et assignés au Dauphin de France
+                    <lb />Enfin nous promettons en nostre propre nom qu'en 
+                    <lb />celuy du Roy des Romains de l'Archiduc Charles, des 
+                    <lb />Archiduchesses nos filles, et de nos autres enfans et descendans 
+                    <lb />masles ou femesles, herittiers et successeurs nés et à naistre que 
+                    <lb />nous laisserons avoir sans aucun empechement audit Dauphin, 
+                    <lb />ses enfans et descendans masles ou femesles, leurs
+                </p>
+                <pb facs="#FacsPnr29"/><p>herittiers et successeurs nés et à naistre tout l'effet et la jouissance
+                <lb />du dit traitté En foy de quoy &amp;e.
+                <lb />Cet article aura la mesme force que s'il estoit inseré mot à mot dans
+                <lb />le traitté auquel il a raport et sera enregistré au parlement de Paris
+                <lb />immediatement apres la mort de Sa Majesté Catolique sans enfans;
+                <lb />Fait et signé à Londres par nous plenipotentiaires de France et D'Angleterre
+                    <lb />le troisiesme de mars mil Sept cent nouveau style et<note n="10" type="crit_app">Nachträglich eingefügt.</note> le vingt et unième de
+                <lb />fevrier mil six cent nonante neuf vieux style, et à la Haye par nous
+                <lb />plenipotentiaires de France et des Seigneurs Etats Generaux vingt cinquies[m]e
+                <lb />du dit mois de mars Mil Sept Cent.
+                <lb />
+                <lb />Tallard &nbsp;&nbsp; &nbsp;Portland &nbsp;&nbsp; &nbsp;J. van Essen
+                <lb />
+                <lb />Briord &nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;Jersey &nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;F.B. de Reede
+                <lb />A.&nbsp; Heinsius
+                                <lb />W. de Nassau
+                                <lb />De Weede
+                                <lb />W. Harren
+                                <lb />A.&nbsp; v. Lemkes
+                                <lb />van Heeck
+                                <lb />
+                <lb />
+                </p>
+                <pb facs="#FacsPnr30"/><p>3e Mars 1700 à Londres 
+                    <lb />25e Mars 1700 à la Haye 
+                    <lb />Sur la Lorraine 
+                    <lb />et le Duché de Milan 
+                    <lb /> 
+                    <lb />signé entre la 
+                    <lb />France l'Ang[leter]re 
+                    <lb />et la Hollande 
+                    <lb /> 
+                    <lb />Article Secret 
+                    <lb />Sa Majesté tres Chretienne 
+                    <lb />Sa Majesté Britannique et les Seigneurs Etats Generaux 
+                    <lb />ayant desiré prevenir la guerre que pouroit produire la 
+                    <lb />mort de Sa Majesté Catolique sans enfans, sont convenus d'un 
+                    <lb />traitté au Sujet de Sa Succession qui a este signe a Londres le 3. de mars
+                    nouveau style 1700 / 25 de fevrier vieux style 1699<note n="11" type="crit_app">Die beiden Jahreszahlen sind über einem Bruchstrich geschrieben. Der Zeilenumbruch erfolgt nach mars/fevrier.</note> et à la Haye le 25e du dit mois de mars 1700, et comme il est 
+                    <lb />dit dans l'article quatre du dit traitté que les Duchés de Loraine 
+                    <lb />et de Barr seront cedes à Monseigneur Le Dauphin par 
+                    <lb />eschange du Duché de Milan qui serait remis à M[onsieur] Le Duc 
+                    <lb />de Loraine, et que les deux Seigneurs Rois et les Seigneurs 
+                    <lb />Etats Generaux estiment que rien n'est plus convenable pour 
+                    <lb />le but qu'on se propose, ils employront toutes leurs offices soit 
+                    <lb />conjointement soit separement pour engager le dit Duc de 
+                    <lb />Loraine à y consentir, 
+                    <lb />Mais comme il est necessaire de determiner qu'el seroit 
+                    <lb />le Prince à qui le Duché de Milan seroit remis, et ce qui 
+                    <lb />seroit donné à Monseigneur le Dauphin pour son dedomagement 
+                </p> 
+                <pb facs="#FacsPnr31"/><p>à la place des Duchés de Loraine et de Barr si contre toute 
+                    <lb />aparence M[onsieur] Le Duc de Loraine ne vouloit pas donner son 
+                    <lb />consentement à cet eschange, non obstant les dits offices et 
+                    <lb />devoirs continuels et reiterés durant la vie du Roy d'Espagne 
+                    <lb />ou jusques au temps convenu cy dessous apres Sa mort; Les 
+                    <lb />deux Seigneurs Rois et les Seigneurs Etats Generaux cy dessus
+                    <lb />nommés sont convenus qu'en ce cas Sa Majesté Britannique, et 
+                    <lb />les Seigneurs Etats Generaux choisiront une des deux<note n="12" type="crit_app">Nachträglich eingefügt.</note> alternatives 
+                    <lb />suivantes au bout du dit temps apres la mort de Sa Maj[es]té Catolique
+                    <lb />
+                    <lb />Scavoir de remettre le dit Duché de Milan entre les 
+                    <lb />mains de M.&lt;L.&gt;<note n="13" type="crit_app">Unsichere Lesart, "E".</note> Electeur de Baviere pour en joüir luy ses enfans 
+                    <lb />masles ou femesles, herittiers successeurs et descendans masles ou femesles nés et à naistre à perpetuité en toute proprieté et 
+                    <lb />possession pleniere en joignant en eschange la Manare au
+                    <lb />partage de Monseigneur le Dauphin, pour en jouir luy ses 
+                    <lb />enfans masles ou femesles, herittiers ou successeurs, descendans masles 
+                    <lb />ou femesles nés et à naistre en toute proprieté et possession 
+                    <lb />pleniere, ou au lieu de La Manare la ville et le Duché de
+                </p>
+                <pb facs="#FacsPnr32"/><p>Luxembourg et le Comte de Chiny
+                    <lb />Ou bien remettre le dit Duché de Milan a M[onsieur] Le Duc de Savoye 
+                    <lb />pour en jouir luy ses enfans masles ou femesles herittiers 
+                    <lb />successeurs et descendans masles ou femesles nés et à naistre à perpetuité en toute proprieté et possession pleniere en joignant 
+                    <lb />en eschange au partage de Monseigneur le Dauphin, la ville 
+                    <lb />et le comté de Flier, la vallée de Barcelonnette et le Duché de 
+                    <lb />Savoye pour en jouir à perpetuité en toute proprieté et possession 
+                    <lb />pleniere luy ses enfans, herittiers successeurs et descendans 
+                    <lb />masles ou femesles nés et à naistre. 
+                    <lb />
+                    <lb />Deplus les deux Rois et les Seigneurs Etats 
+                    <lb />Generaux sont convenus par cet article secret que quoiqu'il 
+                    <lb />soit dit par l'article sept du dit traitté signé à Londres le 3. de mars
+                    nouveau style 1700 / 25 de fevrier vieux style 1699<note n="14" type="crit_app">Die beiden Jahreszahlen sind über einem Bruchstrich geschrieben. Der Zeilenumbruch erfolgt nach mars/fevrier.</note> et à la Haye 25e dudit mois de mars 1700, que l[']on conviendra 
+                    <lb />d'un Prince auqu'el le dit partage du Serenissime Archiduc 
+                    <lb />sera donné, en cas que l'Empereur et le Roy des Romains 
+                    <lb />ne veuillent pas souscrire audit traitté apres le terme de trois 
+                    <lb />mois expiré, a compter du jour que la ratiffication luy en
+                    <lb />
+                    <lb /> 
+                <pb facs="#FacsPnr33"/>sera faite neantmoins L. Empereur sera receu à souscrire
+                <lb />audit traitté deux mois durant à compter du jour que la mort
+                <lb />de Sa Majesté Catolique aura esté signiffieé de la part de
+                <lb />Sa Majesté tres chretienne à Sa Majesté Britannique et aux
+                <lb />Seigneurs Etats Generaux, mais en cas que Sa Majeste imperiale
+                <lb />refust d'y entrer dans le temps cy dessus marqué, les deux
+                <lb />Seigneurs Rois ou leurs successeurs et les Seigneurs Etats Generaux
+                <lb />conviendront au bout du temps cy dessus marqué d'un Prince
+                <lb />auqu'el le dit partage sera donné, et le surplus de ce qui est
+                <lb />dans le dit article sept à quoy il n'est point derogé parcequi est
+                <lb />dit cy dessus, sera executé ponctuellement.
+                <lb />
+                <lb />On est convenu deplus que si le Serenissime
+                <lb />Archiduc passoit en Espagne ou dans le duché de Milan,
+                <lb />quoiqu'il soit dit dans l'article huit du traitté auqu'el ce
+                <lb />present article secret à raport, qu'il ny peut passer avant la
+                <lb />mort de Sa Majesté Catolique que d'un commun consentement
+                <lb />des deux Seigneurs Rois et des Seigneurs Etats Generaux, Sa
+                <lb />Majesté Britannique et les Seigneurs Etats Generaux s'engagent
+                <lb />
+                <pb facs="#FacsPnr34"/>s'engagent de faire touts les devoirs et touts les efforts possibles
+                <lb />mesme d'en venir jusques aux voyes de fait s[']il est necessaire,
+                <lb />Enfin de prendre toutes les mesures convenables de concert
+                <lb />avec Sa Majesté tres chretienne pour obliger Sa Majesté Catolique
+                <lb />et les Espagnols à le renvoyer hors de l'Espagne ou du Duché
+                <lb />de Milan sans aucun retardement.
+                <lb />Cet article aura la mesme force que s[']il estoit inseré
+                <lb />mot à mot dans le traitté auquel il a raport et sera enregistré
+                <lb />au parlement de Paris immediatement apres la mort de Sa Majesté
+                <lb />Catolique sans enfans. Fait et signé à Londres par nous plenipotentiaires de
+                <lb />France et d'Angleterre le troisieme de mars mil sept cent nouveau style et le vingt et
+                <lb />uniesme de fevrier mil six cent nonante neuf vieux style et à la Haye par nous Pleni-
+                <lb />potentiaires de France et des Seigneurs Etats Generaux le 25. dudit mois de mars mil
+                <lb />sept cent.
+                <lb />
+                <lb />Tallard &nbsp;&nbsp; &nbsp;Portland &nbsp;&nbsp; &nbsp;J. van Essen
+                <lb />
+                <lb />Briord &nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;Jersey &nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;F. B. de Reede
+                <lb />
+                A.&nbsp;&nbsp; &nbsp;Heinsius
+                                <lb />W. de Nassau
+                                <lb />De Weede
+                                <lb />
+                </p>
+            </div>
+        </body>
+        <back>
+            <listBibl>
+                <bibl xml:id="a271">
+                    <title level="a">Reichsarchiv (1700-03-03)</title>
+                    <title level="m">Reichsarchiv, Band 7 (1711), PSpec Con I-I (1a), S.70-74 Aus: Dokumentenarchiv der Universitätsbibliothek Augsburg (Drucke vor 1900 / Historische Geschichtswerke).         </title>
+                    <biblScope>
+                        <graphic xml:id="A1Pnr1" url="https://www.ieg-friedensvertraege.de/dbimages/img_4a9d28591483a"/>
+                        <graphic xml:id="A1Pnr2" url="https://www.ieg-friedensvertraege.de/dbimages/img_4a9d286334ba5"/>
+                        <graphic xml:id="A1Pnr3" url="https://www.ieg-friedensvertraege.de/dbimages/img_4a9d286d33bcf"/>
+                        <graphic xml:id="A1Pnr4" url="https://www.ieg-friedensvertraege.de/dbimages/img_4a9d2874cffa5"/>
+                    </biblScope>
+                </bibl>
+            </listBibl>
+        </back>
+    </text>
+</tei:TEI>

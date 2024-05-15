@@ -1,0 +1,487 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE tei SYSTEM "../resources/FriVer_DTD.dtd">
+
+<?xml-model href="../resources/FriVer.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns="http://www.tei-c.org/ns/1.0"
+    xml:id="pa000299-0163">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title level="s">European peace treaties of the pre-modern era in data / Europäische
+                    Friedensverträge der Vormoderne in Daten (FriVer+)</title>
+                <title when="1695-03-18" xml:id="t163" when-custom="1695 III 18" level="a"
+                    ref="https://www.ieg-friedensvertraege.de/treaty/t-163-1-de.html">Vertrag von
+                    Den Haag</title>
+            </titleStmt>
+            <editionStmt>
+                <edition> Digital edition according to <ref target="http://www.tei-c.org/">TEI
+                        P5</ref>
+                </edition>
+                <funder>
+                    <ref target="https://www.text-plus.org/">TEXT+</ref>
+                </funder>
+                <editor role="http://id.loc.gov/vocabulary/relators/edt"
+                    ref="https://orcid.org/0000-0002-8741-5916">
+                    <persName>Jaap Geraerts</persName>
+                    <note>The transformation and enrichment of the data is done by Jaap Geraerts
+                        (IEG Mainz). The other members of the FriVer+ team are Fabian Cremer, Ines
+                        Grund, and Thorsten Wübbena (all IEG Mainz).</note>
+                    <note> The original data has been created by the <ref
+                            target="https://www.ieg-friedensvertraege.de">team of scholars</ref> who
+                        were part of the Europäische Friedensverträge der Vormoderne project. This
+                        project was lead by Prof. Dr. Heinz Duchhardt and was based at the Leibniz
+                        Institute of European History in Mainz. </note>
+                </editor>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>
+                    <orgName ref="http://www.isni.org/0000000119314040">Leibniz-Institut für
+                        Europäische Geschichte Mainz</orgName>
+                </publisher>
+                <distributor>
+                    <orgName ref="http://www.isni.org/0000000110101946">Universitäts- und
+                        Landesbibliothek Darmstadt</orgName>
+                </distributor>
+                <idno type="ISIL">http://lobid.org/organisation/DE-17</idno>
+                <date type="issued" when="2023-12-23"/>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">
+                        <p xml:lang="en">This file is licensed under the terms of the Creative
+                            Commons License CC-BY 4.0 (Attribution 4.0 International)</p>
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <repository xml:id="r21">Muenster StA/LA</repository>
+                <msDesc>
+                    <p>Nordrhein-Westfälisches Staatsarchiv Münster: Fürstentum Münster Abt. 12, Nr.
+                        50: Haag, 1695 III 28. </p>
+                    <p>weitere Stücke:&nbsp; </p>
+                    <p>Bayerisches Hauptstaatsarchiv München Bayern Urkunden 1086/1-2: Beitritt
+                        Bayerns, Den Haag 1691 IV 12. <lb/>
+                        <lb/>
+                    </p>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p> The data in this XML file, originally created by the project <ref
+                        target="https://www.ieg-friedensvertraege.de/vertraege">Europäische
+                        Friedensverträge der Vormoderne online</ref> has been transformed in
+                    accordance with <ref target="http://www.tei-c.org/">TEI P5</ref> as part of the
+                    project <ref
+                        target="https://www.ieg-mainz.de/en/research/research-projects/european-peace-treaties-of-the-pre-modern-era-in-data"
+                        >Europäische Friedensverträge der Vormoderne in Daten (FriVer+)</ref>
+                </p>
+            </projectDesc>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="la" xml:id="lan6">Latein</language>
+            </langUsage>
+        </profileDesc>
+    </teiHeader>
+    <standOff>
+        <listPerson>
+            <person role="signatory" xml:id="p49">
+                <persName ref="https://explore.gnd.network/gnd/4101204-5">
+                    <name>Generalstaaten</name>
+                </persName>
+            </person>
+            <person role="signatory" xml:id="p42">
+                <persName ref="https://explore.gnd.network/gnd/4022153-2">
+                    <name>Großbritannien</name>
+                </persName>
+            </person>
+            <person role="signatory" xml:id="pp0001">
+                <persName ref="https://explore.gnd.network/gnd/118571869">
+                    <name>Leopold I, Holy Roman Emperor</name>
+                </persName>
+            </person>
+            <person role="signatory" xml:id="p78">
+                <persName ref="https://explore.gnd.network/gnd/4040608-8">
+                    <name>Münster</name>
+                </persName>
+            </person>
+        </listPerson>
+        <listPlace>
+            <place xml:id="loc13">
+                <placeName ref="https://explore.gnd.network/gnd/4011446-6">Den Haag</placeName>
+            </place>
+        </listPlace>
+        <facsimile>
+            <surface xml:id="FacsPnr1">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_43cd85b45e3b2"/>
+            </surface>
+            <surface xml:id="FacsPnr2">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_43cd85f601f3a"/>
+            </surface>
+            <surface xml:id="FacsPnr3">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_43cd862944a7e"/>
+            </surface>
+            <surface xml:id="FacsPnr4">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_43cd880c15ec8"/>
+            </surface>
+            <surface xml:id="FacsPnr5">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_43cd883a09b86"/>
+            </surface>
+            <surface xml:id="FacsPnr6">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_43cd8875a8652"/>
+            </surface>
+            <surface xml:id="FacsPnr7">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_43cd88c7b111c"/>
+            </surface>
+            <surface xml:id="FacsPnr8">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_43cd88fb725b9"/>
+            </surface>
+            <surface xml:id="FacsPnr9">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_43cd8940c3096"/>
+            </surface>
+            <surface xml:id="FacsPnr10">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_43cd897cf1dff"/>
+            </surface>
+            <surface xml:id="FacsPnr11">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_43cd89b2296a3"/>
+            </surface>
+            <surface xml:id="FacsPnr12">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_43cd89eaa9331"/>
+            </surface>
+            <surface xml:id="FacsPnr13">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_43cd8a2b9574c"/>
+            </surface>
+            <surface xml:id="FacsPnr14">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_43cd8a5d53285"/>
+            </surface>
+        </facsimile>
+    </standOff>
+    <text>
+        <front>
+            <div type="Inhalt">
+                <p>Beitritt Münsters <lb/>[Vertrag 1689 V 12: <lb/>Art. 1 Freundschaft <lb/>Art. 2
+                    Defensiv- und Offensivbündnis gegen Frankreich und seine Verbündeten. <lb/>Art.
+                    3 Optionen für Neutralität, Friedensverhandlungen. <lb/>Art. 4 Wahrung und
+                    Schutz Westfälischer Friede, Pyrenäenfriede. <lb/>Art. 5 Konsens- und
+                    Informationspflicht bei Friedens- oder Waffenstillstandsverhandlungen. <lb/>Art.
+                    6 Defensivpakt über Friedensschluß hinaus. <lb/>Art. 7 Beistandverpflichtung,
+                    falls Frankreich gegen Frieden verstößt. <lb/>Art. 8 Gegenseitige Verteidigung
+                    der Rechte gegenüber Frankreich. <lb/>Art. 9 Schlichtung interner Differenzen.
+                    <lb/>Art. 10 Beitrittsaufforderungen. <lb/>Art. 11 Ratifikation.] <lb/>
+                    <lb/>[Art. 1] Aufnahme Münsters. <lb/>Art. 2 Vertragsverpflichtungen
+                    Großbritanniens, Generalstaaten. <lb/>Art. 3 Truppenstärke im Frieden. <lb/>Art.
+                    4 Verpflichtungen im Krieg gegen Frankreich. Militärische Details. <lb/>Art. 5
+                    Truppenstationierung. <lb/>Art. 6 Gemeinsames Bestreben gegen Frankreich für
+                    Frieden. <lb/>Art. 7 Wahrung der Interessen der Verbündeten und des Reichs durch
+                    Münster. <lb/>Art. 8 Schutz Münsters durch die Generalstaaten. <lb/>Art. 9
+                    Eigener Truppeneinsatz Münsters im Angriffsfall. <lb/>Art. 10 Beistand
+                    (militärisch, finanziell). <lb/>Art. 11 Gemeinsamer Schutz eines erreichten
+                    Friedens <lb/>Art. 12 Ratifikation. <lb/></p>
+            </div>
+        </front>
+        <body>
+            <div type="Transliteration">
+                <pb facs="#FacsPnr1"/>
+                <pb facs="#FacsPnr2"/>
+                <p> Tractatus sive Conventio, inita inter <lb/>Sac[ra]m Cæs[area]m Maj[esta]tem,
+                    Suam Regiam Maj[esta]tem <lb/>Magna Britannia et Celsos et Præpotentes
+                    <lb/>Dominos ordines Generals Uniti Belgij <lb/>ab una, et Reverendissimum et
+                    Celsissimum <lb/>Dominum Episcopum et Principem Mona- <lb/>steriensem ab altera
+                    parte. <lb/>
+                    <lb/>Primo reverendissimus et Celsissimus Dominus <lb/>Episcopus et Princeps
+                    Monasteriensis, delarat <lb/>se accedere, quemadmodum hoc ipso accedit Foedere
+                    <lb/>Duodecimo die May anno millesimo sexcetesimo <lb/>octuagesimo nono concluso
+                    inter Suam Cæsaream <lb/>Majestatem et Celsos et præpotentes D[ominos] or-
+                    <lb/>dines Generales, quod Foedus hic verbotenus <lb/>insertum sequitur. <lb/>
+                    <lb/>Notum testatumque sit, quod tametsi foedus <lb/>illud, quod paucis ab hinc
+                    annis Sacram <lb/>Cæsaream Maj[esta]tem inter, et Celsos ac Præ- <lb/>potentes
+                    D[ominos] Ordines Generales foederati <lb/>Belgij Hagu Comitum in mutuam defen-
+                    <lb/>sionem sanciturum est<note n="1" type="crit_app">Wohl nachträgliche
+                        Einfügung zwischen den Zeilen. </note> in Suo ad huc dum vigore
+                    <lb/>permaneat, nihilominus tam Sac[r]a Cæs[are]a <lb/>Maj[es]tas, quam dicti
+                    D[ominos] Ordines Generales <lb/>perpendentes communis periculi post novissi-
+                    <lb/>mam invasionem Gallicam Reipublicæ </p>
+                <pb facs="#FacsPnr3"/>
+                <p> Christianæ impendentis magnitudinem, ac lubri- <lb/>cam Gallorum in observandis
+                    tractatibus fidem, <lb/>necessarium judicaverint, prædicti foederis leges
+                    <lb/>veteremque conjunctionem artioribus firmoribus <lb/>vinculis roborare et de
+                    efficacioribus simul tum <lb/>reducendæ, quam &lt;con&gt;<note n="2"
+                        type="crit_app">Korrektur über dem Wort, urspr. &lt;ob&gt;. </note>servandæ
+                    pacis et securitatis <lb/>publicæ medijs rationes inire, eaque propter per
+                    <lb/>utrimque ad id constitutos Plenipotentiarios, à <lb/>parte quidem S[acr]æ
+                    Cæs[are] æ Maj[esta]tis per ejusdem <lb/>Consiliarios Status intimus D[ominum]
+                    Leopoldum <lb/>Guilielmum Comitem in Konigsegg, Sac[r]i <lb/>Romani Imperij Pro
+                    Cancellarium, aurei <lb/>Velleris Equitem et D[ominum] Theodorum Althetum
+                    <lb/>Heinricum Comitem â Stratman, Cancellari- <lb/>um Aulicum et à parte
+                    Celsorum ac <lb/>Præpotentium D[ominos] Ordinum Generalium <lb/>per [Dominum]
+                    Jacobum Hop, Civitatis Amstelo- <lb/>damensis Consiliarium et Sÿndicum, nec non
+                    <lb/>in Consessu Eorundem [Dominorum] Ordinum Generalium <lb/>nomine Hollandiæ
+                    et Westfrisæ deputatum <lb/>commutatis hinc inde Plenipotentiarium <lb/>tabulis
+                    conventum sit tenore sequenti. <lb/>
+                    <lb/>1.mo <lb/>Sit maneatque semper inter Sac[r]am Cæs[are]am Maj[esta]tem
+                    <lb/>et Do[minos] Ordines Generales Foederati Belgij <lb/>constans, perpetua, et
+                    inviolabilis amicitia et <lb/>correspondenia, teneaturque alter alterius
+                    <lb/>commoda sedulo<note n="3" type="crit_app">Einschub zwischen den
+                        Zeilen.</note> promovere dana vero et incommoda </p>
+                <pb facs="#FacsPnr4"/>
+                <p> pro posse avertere. <lb/>
+                    <lb/>2.o <lb/>Et cum Rex Gallia, tam Sac[r]am Cæs[are]am Maj[esta]tem <lb/>quam
+                    D[ominos] Ordines Generales uniti Belgij <lb/>absque legitima causâ seu prætextu
+                    gravissimo <lb/>juxta ac iniquissimo bello nuperrimé adortus sit, <lb/>Sit eo
+                    durante inter partes contrahentes non <lb/>tantum defensivum sed et offensivum
+                    foedus, vi <lb/>cujus ambæ omnibus viribus contra prædictum <lb/>Gallia Regem
+                    terra marique Ejusdemque foederatos, <lb/>que quidem ad exhortationes eum in
+                    finem inter- <lb/>ponendas sese ab Eodem se jungere noluerint; <lb/>hostiliter
+                    agant deque operationibus bellicis in <lb/>communis hostis perniciem, sive
+                    conjunctim, sive separatim<note n="4" type="crit_app">Einschub zwischen den
+                        Zeilen. </note>
+                    <lb/>utilius instituendis consilia identidem commu- <lb/>nicent. <lb/>
+                    <lb/>3.o <lb/>Neutri partium fas sit, ab hoc contra Galliam <lb/>bello recedere,
+                    aut cum illa illiusve adhærentibus <lb/>ullam conventionem aut tractatum de pace
+                    <lb/>vel armisticio sub quocunque demum prætextu <lb/>se orsim instituere, nisi
+                    volente et concurrente <lb/>alterâ parte. <lb/>
+                    <lb/>4.o <lb/>atenus vero pax ineatur priusquam pax <lb/>Westphalica
+                    Osnabrugensis et Monasteriensis, <lb/>nec non Pyrenæa communibus viribus,
+                    juvante <lb/>Deo vindicata, et omnia juxta earundem tenorem <lb/>
+                    <lb/>
+                </p>
+                <pb facs="#FacsPnr5"/>
+                <p> in Ecclesiasticis et politicis in pristinum Statum <lb/>restituta sint. <lb/>
+                    <lb/>5.o <lb/>Institutis autem communi consensu pacis aut <lb/>armisticij
+                    tractatibus, communicabuntur hinc <lb/>inde bona fide ea, quæ agentur, nec una
+                    pars <lb/>sine alterius consensu et satisfactione quicquam <lb/>concludet. <lb/>
+                    <lb/>6.o <lb/>Postquam præsens bellum communi consensu <lb/>finitum, et pax
+                    conclusa fuerit, maneat inter <lb/>Sac[r]am Cæs[are]am Maj[esta]tem et Ejusdem
+                    hæredes &lt;.. <lb/>........&gt;<note n="5" type="crit_app">Gestrichene Passage,
+                        z.T nicht mehr lesbar, wohl: eujsdem haeredes. </note>&nbsp; et successores,
+                    nec non D[ominos] Ordines <lb/>Generales foederati Belgij contra sæpius
+                    <lb/>memoratam&nbsp; Coronam Galliæ, et ejusdem adhaerentes<note n="6"
+                        type="crit_app">Ergänzung über der Zeile. </note>
+                    <lb/>foedus pertuum defensivum, vi cujus partes <lb/>contrahentes omnem operam
+                    dabunt, ut pax <lb/>ineunda constanter perpetuoque duret. <lb/>
+                    <lb/>7.o <lb/>Quod si vero contingeret ut Corona Galliæ <lb/>iterum unam
+                    alteramve partem contrahentem <lb/>aut utramque contra eandem pacem impeteret
+                    <lb/>quocunque id tempore fiat, tenebuntur hæ sibi <lb/>vicissim&nbsp; eodem,
+                    quæ nunc modo, terrâ marique <lb/>omnibus viribus fideliter assistere et
+                    quamcunque <lb/>hostilitatem et violentiam propulsare, neque eo <lb/>desistere,
+                    donec omnia in pristinum statum, juxta <lb/>prædictæ pacis normam redintegrata
+                    sint, et <lb/>
+                    <lb/>
+                </p>
+                <pb facs="#FacsPnr6"/>
+                <p>parte læsæ satisfact&lt;a&gt;m fuerit. <lb/>
+                    <lb/>8.o <lb/>Porró tam Sac[r]a Cæs[are]a Maj[es]tas omnia jura D[ominum]
+                    <lb/>Ordinum Generalium, quam hi vicissim jura <lb/>Sac[r]æ Cæs[are]æ
+                    Maj[esta]tis contra Coronam Galliæ et <lb/>ejusdem adhærentes omni tempore
+                    omnibusque <lb/>medijs et viribus tueantur et defendant, neque etiam <lb/>sibi
+                    invicem in ijs ullum præjudicium afferant. <lb/>
+                    <lb/>9.o <lb/>Si quæ inter ipsos contrahentes ratione quorundam
+                    <lb/>limitaneorum Dominiorum controversiæ sint, aut <lb/>in futurum exoriantur,
+                    eæ per amicabilem <lb/>commissionem aut Deputandos ab utraque parte
+                    <lb/>Ministros, omni via facti penitus exclusa ami- <lb/>cabiliter discutiantur
+                    componantur, neque in ijs <lb/>interea temporis quicquam innovetur. <lb/>
+                    <lb/>10. <lb/>Ad præsentis foedris Societatem invitentur ex <lb/>parte Sac[r]æ
+                    Cæs[are] æ Maj[esta]tis Corona Hispaniæ, <lb/>et a D[ominos] Ordinibus
+                    Generalibus Foederati Belgij <lb/>Corona Angliæ, et admittantur ad illud pariter
+                    <lb/>omnes utriusque partis foederati, quibus eidem <lb/>accedere visum fuerit.
+                    Includitur etiam huic <lb/>foederi Serenissimus Lotharingiæ Dux, conferentque
+                    <lb/>Confoederati omnem operam consiliaret vires, ut <lb/>et ipse in Suos avitos
+                    Ducatus Ditiones <lb/>Status et jura plenarié restituatur. <pb facs="#FacsPnr7"
+                    />11. <lb/>Ratihabebitur hoc foedus ad utraque parte intra <lb/>Spatium quatuor
+                    Septimanarum vel citius si <lb/>fieri potest. <lb/>
+                    <lb/>In quorum omnium certitudinem ac majus fidei <lb/>et Sinceritatis robur
+                    bina ejusdem tenoris instru- <lb/>menta de super confecta, et a contrahentium
+                    <lb/>Plenipotentiarijs subscripta signataque reciprocé <lb/>commutata sunt.
+                    <lb/>Actum Viennæ 12.ma May 16&lt;8&gt;9 <lb/>
+                    <lb/>Leopoldus Guillielmus Comes in Konigsegg <lb/>T.A. Henr. Comes de Stratman
+                    <lb/>I. Hop. <lb/>
+                    <lb/>
+                    <lb/>pro inde promittunt et spondent S[acr]a Cæsarea <lb/>Maj[es]tas, Sua Regia
+                    Maj[es]tas&nbsp; Magnæ Britanniæ, <lb/>et Domini Ordines Generales, se quæcunque
+                    <lb/>in eodem foedere stipulata et promissa sunt, <lb/>Domino Episcopo et
+                    Principi Monasteriensi <lb/>præstituros, atque se omnia et singula, quæ <lb/>in
+                    hoc foedere et cunctis ejus Articulis conti- <lb/>nentur, sine ulla exceptione
+                    observaturos, <lb/>et adimpleturos, atque observari et ad impleri
+                    <lb/>curaturos, haut secus ac si specialiter de super <lb/>cum Domino Episcopo
+                    contraxisset. <pb facs="#FacsPnr8"/> 2. <lb/>Vicissim promittit et spondet Sua
+                    Celsitudo <lb/>Se etiam reciproce S[acr] æ Cæs[are] æ Maj[esta]ti, Sac[r] æ
+                    <lb/>Reg[i] æ Maj[esta]ti Magnæ Britanniæ, et Dominos <lb/>Ordinibus Generalibus
+                    quæcunque in supra scripto <lb/>foeder&lt;..&gt;<note n="7" type="crit_app">Zwei
+                        Zeichen unleserlich. </note>stipulata et promissa sunt, præstiturum,
+                    <lb/>atque se omnia et singula, quæ in eodem foedere <lb/>et singulis ejus
+                    Articulis comprehenduntur, sine <lb/>ulla exceptione, inviolabiliter
+                    observaturum et <lb/>adimpleturum, et observari et adimpleri cura- <lb/>turum,
+                    haud secus ac si specialiter cum iisdem <lb/>de super contraxisset. <lb/>
+                    <lb/>3. <lb/>Ita tamen ut post finem præsentis belli, domi- <lb/>nus Episcopus
+                    obstrictus non sit, durante pace <lb/>in stipendiis habere plures Copias, quam
+                    ipse <lb/>sibi conveniens esse duxerit, nisi aliter inter <lb/>partes
+                    contrahentes pacisci contigerit. <lb/>
+                    <lb/>4. <lb/>Porro cum Rev[erendissi]mo et Cels[issi]mo Domino Episcopo <lb/>et
+                    Principe Monasteriensi nihil magis cordi sit, <lb/>quam ut secundum normam
+                    præscripti foederis, <lb/>bellum contra Regem Galliæ ejusque foederatos
+                    <lb/>omnibus viribus gerat, spondet ac promittit, præter <lb/>et supra numerum
+                    militum juxta matriculam <lb/>Imperii, tam pro se, quam pro statibus Imperii,
+                    sibi <lb/>a Sac[r]a Cæs[are]a Ma[esta]te assignandis, debitam, qui mime-
+                    <lb/>rus comprehensis iis, qui Confluentiæ in præsidio <lb/>sunt, ascendit ad
+                    tria millia trecentos milites <pb facs="#FacsPnr9"/>(pro quibus assignationes a
+                    Sa[cræ] Cæs[are]æ Maj[esta]ti <lb/>extradentur, eodem modo ac annis proximè
+                    <lb/>elapsis factum est, quam primum supradictus <lb/>miles versus castra
+                    Foederatorum moverit ) <lb/>citissimè, et si fieri poterit, ineinde mense
+                    <lb/>majo sub proprio Generale, versus Rhenum <lb/>missurum quatuor millia
+                    militum, scilicet <lb/>mille equites et tria millia peditum, hoc modo
+                    <lb/>numerandos, primo una Legio Insultariorum, <lb/>sive Dragonum, divisa in
+                    octo turmas, quæ <lb/>constat annumeratis præfectis, sive officialibus, <lb/>sex
+                    centis et quatuor capiti&lt;.&gt;<note n="8" type="crit_app">Fleck.</note>bus,
+                    &lt;.2°&gt; una Legio <lb/>equitum, divisa in Sex turmas, cujus summa <lb/>est
+                    trecentorum nonaginta sex capitum, et <lb/>3° quatuor legiones peditum, singulæ
+                    septin- <lb/>gentorum quinquaginta, atque ita omnibus <lb/>computatis, præter
+                    eos, qui confluentiæ rema- <lb/>nebunt in campum educet, sex mille trecentos
+                    <lb/>sexdecim milites juditos pro more tormentis <lb/>campest&lt;u&gt;bus,
+                    munitionibus, cæteroque apparatu <lb/>necessario, qui in exercitu requiritur,
+                    inter quæ <lb/>tamen intelligenda non sunt tormenta majora <lb/>munitiones et
+                    intrumenta obsidioni faciendæ <lb/>necessaria, has autem copias Sua celsitudo
+                    durantes <lb/>bello suis impensis habere et alere tenebitur, easque <lb/>itidem
+                    contra communem hostem militare faciet, <lb/>sub tali S[acr] æ Cæsa[re] æ
+                    Maj[esta]tis Duce Supremo et loco <lb/>ad tractum Rheni superiorem, medium, sive
+                    inferiorem </p>
+                <pb facs="#FacsPnr10"/>
+                <p> citra et trans Rhenum, prout Sua Cæs[asre]a Maj[es]tas, Sua Regia
+                    <lb/>Maj[es]tas et D[ominos] Ordines Generales, pro renata et ratione belli,
+                    <lb/>necessarium duxerint, iis etiam non nisi finita bellica <lb/>expeditione
+                    illius anni vulgo campagna, et cum Sac[r] æ Cæs[are] æ <lb/>Maj[esta]tis Ducis
+                    scitu, inde discedere vel se ab exercitu separate <lb/>licebit, coetarum etiam
+                    Dominus princeps Episcopus præfa- <lb/>tum numerum militum suis impensis debitè
+                    perfectum tenebit <lb/>et essum defectum supplebit. <lb/>
+                    <lb/>5. <lb/>Quod si Sua Regia Maj[es]tas Magnæ Britanniæ ac Celsi <lb/>et
+                    Præpotentes Domini Ordines Generales, annuente et <lb/>consentiente Sac[r]æ
+                    Cæs[are]æ Maj[esta]te, quantum attinet cum numerum <lb/>militum, qui uti
+                    superius dictum vigore matriculæ imperii <lb/>datur `e re communi esse
+                    judicaverunt, præfatum militem <lb/>sine totum tum portione Imperio debita, sive
+                    pro parte quatuor <lb/>millium militum Mosam<note n="9" type="crit_app">Zwei
+                        Worte, Einschub zwischen den Zeilen. </note> trajicere,vel in belgium
+                    ditionis Hispaniæ venire, <lb/>Dominus Episcopus præfatas copias
+                        illu&lt;.&gt;<note n="10" type="crit_app">Ein undeutliches Zeichen.</note>
+                    transire faciet, ita <lb/>tamen ut de impensis, quæ ibidem Majores erunt, quam
+                    si <lb/>ad Rhenum copiæ manerent, pro ratione temporis, quo ibi <lb/>moraturæ
+                    sunt, ex æquo et bono transigetur. <lb/>
+                    <lb/>6. <lb/>Et quoniam Dominus Episcopus et Princeps Monasteriesis <lb/>hac
+                    concludendo inter cætera etiam præcipuè sibi cordi <lb/>habuerit ut communes
+                    confoederatos magis ac Magio de <lb/>sincera et an&lt;…&gt;<note n="11"
+                        type="crit_app">Unklar.</note> sua voluntate eos contra Regem Galliæ <lb/>in
+                    hoc bello non solum armis juvandis, sed insuper cum <lb/>iis conferendi
+                    quæcunque gerendo præsenti bello ad ipsi scendæ <lb/>bonæ, firmæ et securæ paci,
+                    et amovendis quibus cunque </p>
+                <pb facs="#FacsPnr11"/>
+                <p> impedimentis et obstaculis in contrarium conducere poterunt, <lb/>certiores
+                    reddere, propterea promittit expresse et se <lb/>obstingit, se cum mille Regum,
+                    principum vel potestatem <lb/>Foedus vel contractum quocunque nomine facturum,
+                    qui <lb/>directe vel indirecte in detrimentum causa Foederatorum <lb/>communis
+                        &lt;…&gt;<note n="12" type="crit_app">Unklare Lesart, möglich
+                        Vergore.</note>, vel eorum commodis contrarius esse queat <lb/>et speciatim
+                    se o modo obligaturum, nec quicquam tenta- <lb/>turum separatim vel conjunctim
+                    cum aliis, nec cui<note n="13" type="crit_app">Streichung: quo.</note>quam
+                    <lb/>consilio vel opera ad futuram ad faciendam, durantes præ- <lb/>sento bello,
+                    pacem nisi præsens et consenti&lt;senti&gt;bus<note n="14" type="crit_app"
+                        >&lt;senti&gt; Einschub über dem Wort.</note> Sacra Cæs[are]a
+                    <lb/>Majestate, Sua Regia Majestate Magnæ Britanniæ et <lb/>D[ominos] ordinibus
+                    Generalibus multo minus se societati <lb/>vel parti, ut vocant, tertiæ adhæsurum
+                    vel alios in&lt;ea&gt; <lb/>facienda, adjutarum, vel quicquam aliud incapturum,
+                    <lb/>quod consiliis aut rationibus Confoederatorum sive degerendo <lb/>amplius
+                    bello, sive de facienda bona, firma et secura pace, <lb/>impedimento sit, vel
+                    adversetur, sed &lt;e&gt; contra se sedulo <lb/>auxilium laturum et eos pro
+                    viribus suis, tam ubi de <lb/>persequendis bello hostibus, quam ubi de
+                    restabilienda pace <lb/>agetur, adjuturum. <lb/>
+                    <lb/>7. <lb/>Similiter, ac eodem intuitu promittit etiam Dominus <lb/>Episcopus,
+                    se res Foederatorum et speciatim Imperii, <lb/>pendentes hoc bello, o modo
+                    turbaturum, non arma mo- <lb/>turum, non hostiliter vel via facti instaturum
+                    quem- <lb/>quam quisquis ille fuerit, aut ob quascunque controversias, <lb/>et
+                    specitim si altemem[ora]ti Compaciscentes ei, præter <lb/>spem, persuadere
+                    nequeat, ut officia sua conferat, quo&nbsp; </p>
+                <pb facs="#FacsPnr12"/>
+                <p> in &lt;.. &gt;<note type="crit_app" n="15">Unklar, möglich Abkürzung für
+                        nostro.</note> Electoratu omnino aquiescatur in omnem <lb/>eventum se in hac
+                    causa directé vel indirecté nihil <lb/>hostiliter vel armis acturum, sed e
+                    contrario intel- <lb/>ligent tale quid ab aliis meditari vel tentandum
+                    <lb/>esse, eis non modo non opem laturum, verum multo <lb/>magis eos
+                    dehortaturam, et strenué operam navaturum, <lb/>quo omnes bono publica contraria
+                    collisiones avertuntur <lb/>de propterea se satisfactionem a Sacra Cæs[are]a
+                    Maj[esta]te <lb/>Principibus Imperii promissam expectaturam. <lb/>
+                    <lb/>8. <lb/>Hac spe fretus ut Altemem[oratorum] Dominorum Foederato- <lb/>rum
+                    officiis omni tempore prospiciatur, ne sua <lb/>Celsitudo vicissim a quoquam aut
+                    sub quocunque <lb/>prætextu hostiliter vel armis aggrediatur. <lb/>
+                    <lb/>9. <lb/>Quod si tamen, præter spem, et opinionem conti- <lb/>gerit ditiones
+                    suæ Celsitudinis re ipsa hostiliter <lb/>et armis aggressum iri a quocunque, sub
+                    quolibet <lb/>prætextu et quo tempore illud fuerit, reservat <lb/>ipsa sibi
+                    facultatem, copias suas, sive omnes <lb/>sive aliquas, pro ut necessitas
+                    postulaverit, tali <lb/>in casu domam revocandi. <lb/>
+                    <lb/>10. <lb/>Ut autem reverendissimus et Celsissimus Domi- <lb/>nus Episcopus
+                    et Princeps Monasteriensis ferendo <lb/>dicto auxilio et exequendæ Suæ bonis
+                    intentioni red- <lb/>datur aptior, Sua Regia Maj[es]tas Magnæ Britanni <lb/>et
+                    Celsi et præpotentes D[ominos] Ordines Generales </p>
+                <pb facs="#FacsPnr13"/>
+                <p> promittant et spondent se durante hoc bello et <lb/>usque ad pacem conclusam et
+                    rati habitam hic <lb/>Hagæ Comitis vel Amstelodami Domino Episcopo
+                    <lb/>numeraturos et&nbsp; soluturos singulis mensibus, <lb/>quorum duodecim in
+                    anno sunt, summam viginti <lb/>millium Thalerorum Imperialium monetæ
+                    <lb/>Hollandiæ currentis, ita ut primus mensis solutio- <lb/>nis incipiat a
+                    quindecimo hujus mensis martii <lb/>stilo novo tempore vero ratificationis hujus
+                    Conven- <lb/>ionis, in defalcationem summæ promissæ ilico <lb/>solvatur, quantum
+                    duobus mensibus debitur, scilicet <lb/>quadraginta mille Thaleri Imperiales et
+                    usque ad <lb/>quindecimam mensis Maji, sub hac conditione quod, <lb/>durante
+                    bello, dictæ copiæ contra communem hostem, <lb/>uti supra conventum est,
+                    realiter militabunt. <lb/>
+                    <lb/>11. <lb/>Pace conclusa, vel etiam ante Pacem conclusam, <lb/>partes
+                    contrahentes consilia conferent<note n="16" type="crit_app">Einschub zwischen
+                        den Zeilen.</note>, quibus modus pax tuenda <lb/>et conservanda atque<note
+                        n="17" type="crit_app">Einschub zwischen den Zeilen.</note> cujusque
+                    securitati et commodis <lb/>maxime prospiciendum erit. <lb/>
+                    <lb/>12. <lb/>Instrumenta ratificationis hujus conventionis intra <lb/>spatium
+                    quatuor septimanarum , vel citius si fieri <lb/>queat, commutabuntur. <lb/>
+                    <lb/>Ita actum et conclusum inter infrascriptos Plenipotenti- <lb/>arios et
+                    Deputatos Sac[r]æ Cæs[are]æ Regiæ Maj[esta]tis Magnæ <lb/>Britanniæ et D[ominum]
+                    Ordinum Generalium Uniti Belgij <lb/>
+                    <lb/>
+                </p>
+                <pb facs="#FacsPnr14"/>
+                <p>ab una et Reverendissimi et Celsissimi Domini <lb/>Episcopi et Principis
+                    Monasteriensis ab altera parte. <lb/>Hagæ Comitis Die Decimo octavo mensis
+                    Martii Anno <lb/>Millesimo sexcentesimo nonagesimo quinto. <lb/>
+                    <lb/>Dominicus Andreas Comes a Kaunitz <lb/>
+                    <lb/>
+                    <lb/>Carolus Vicecomes de Dursley <lb/>
+                    <lb/>&lt;D van Eck&gt; <lb/>
+                    <lb/>A. von &lt;Schwa&gt;rtz <lb/>
+                    <lb/>Henricus Comes de Stratman <lb/>
+                    <lb/>Baro de Wassenaer <lb/>
+                    <lb/>Konradus Korff <lb/>
+                    <lb/>A. Heinsius <lb/>
+                    <lb/>N. de &lt;Nassau&gt; <lb/>
+                    <lb/>F. vander Doers <lb/>
+                    <lb/>&lt; ..mmia&gt; <lb/>
+                    <lb/>C.&lt;.&gt;Bentheim <lb/>
+                    <lb/>Henr. Bothenius <lb/></p>
+            </div>
+        </body>
+        <back>
+            <listBibl>
+                <bibl xml:id="a281">
+                    <title level="a">Reichsarchiv (1695-03-18)</title>
+                    <title level="m">Reichsarchiv, Band 6 (1711), PSpec Con I-I, S.528-532 Aus:
+                        Dokumentenarchiv der Universitätsbibliothek Augsburg (Drucke vor 1900 /
+                        Historische Geschichtswerke).</title>
+                    <biblScope>
+                        <graphic xml:id="A1Pnr1"
+                            url="https://www.ieg-friedensvertraege.de/dbimages/img_4a9d9b764f155"/>
+                        <graphic xml:id="A1Pnr2"
+                            url="https://www.ieg-friedensvertraege.de/dbimages/img_4a9d9b7e454f0"/>
+                        <graphic xml:id="A1Pnr3"
+                            url="https://www.ieg-friedensvertraege.de/dbimages/img_4a9d9b846a695"/>
+                        <graphic xml:id="A1Pnr4"
+                            url="https://www.ieg-friedensvertraege.de/dbimages/img_4a9d9b8aabd59"/>
+                    </biblScope>
+                </bibl>
+            </listBibl>
+        </back>
+    </text>
+</tei:TEI>

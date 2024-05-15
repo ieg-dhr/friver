@@ -1,0 +1,290 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE tei SYSTEM "../resources/FriVer_DTD.dtd">
+
+<?xml-model href="../resources/FriVer.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns="http://www.tei-c.org/ns/1.0" xml:id="pa000299-0732">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title level="s">European peace treaties of the pre-modern era in data / Europäische Friedensverträge der Vormoderne in Daten (FriVer+)</title>
+                <title when="1665-12-17" xml:id="t732" when-custom="1665 XII 17" level="a" ref="https://www.ieg-friedensvertraege.de/treaty/t-732-1-de.html">Friedensvertrag von Madrid</title>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    Digital edition according to
+                    <ref target="http://www.tei-c.org/">TEI P5</ref>
+                </edition>
+                <funder>
+                    <ref target="https://www.text-plus.org/">TEXT+</ref>
+                </funder>
+                <editor role="http://id.loc.gov/vocabulary/relators/edt" ref="https://orcid.org/0000-0002-8741-5916">
+                    <persName>Jaap Geraerts</persName>
+                    <note>The transformation and enrichment of the data is done by Jaap Geraerts (IEG Mainz). The other members of the FriVer+ team are Fabian Cremer, Ines Grund, and Thorsten Wübbena (all IEG Mainz).</note>
+                    <note>
+                        The original data has been created by the
+                        <ref target="https://www.ieg-friedensvertraege.de">team of scholars</ref>
+                        who were part of the Europäische Friedensverträge der Vormoderne project. This project was lead by Prof. Dr. Heinz Duchhardt and was based at the Leibniz Institute of European History in Mainz.
+                    </note>
+                </editor>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>
+                    <orgName ref="http://www.isni.org/0000000119314040">Leibniz-Institut für Europäische Geschichte Mainz</orgName>
+                </publisher>
+                <distributor>
+                    <orgName ref="http://www.isni.org/0000000110101946">Universitäts- und Landesbibliothek Darmstadt</orgName>
+                </distributor>
+                <idno type="ISIL">http://lobid.org/organisation/DE-17</idno>
+                <date type="issued" when="2023-12-23"/>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">
+                        <p xml:lang="en">This file is licensed under the terms of the Creative Commons License CC-BY 4.0 (Attribution 4.0 International)</p>
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <repository xml:id="r17">Madrid AHN
+                    <note>Archivo Histórico Nacional Madrid, ESTADO,2797,Exp.20. Digital:<lb />
+                        <ref target="http://pares.mcu.es/ParesBusquedas20/catalogo/show/4923583" >http://pares.mcu.es/ParesBusquedas20/catalogo/show/4923583</ref></note>
+                </repository>
+                <msDesc><p>Spanien, Ministerio de Cultura, AHN Madrid: Estado Legajo 2797-1-20 (UI).</p></msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>
+                    The data in this XML file, originally created by the project
+                    <ref target="https://www.ieg-friedensvertraege.de/vertraege">Europäische Friedensverträge der Vormoderne online</ref>
+                    has been transformed in accordance with
+                    <ref target="http://www.tei-c.org/">TEI P5</ref>
+                    as part of the project
+                    <ref target="https://www.ieg-mainz.de/en/research/research-projects/european-peace-treaties-of-the-pre-modern-era-in-data">Europäische Friedensverträge der Vormoderne in Daten (FriVer+)</ref>
+                </p>
+            </projectDesc>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="es" xml:id="lan13">spanisch</language>
+            </langUsage>
+        </profileDesc>
+    </teiHeader>
+    <standOff>
+        <listPerson>
+            <person role="signatory" xml:id="p42">
+                <persName ref="https://explore.gnd.network/gnd/4022153-2">
+                    <name>Großbritannien</name>
+                </persName>
+            </person>
+            <person role="signatory" xml:id="p34">
+                <persName ref="https://explore.gnd.network/gnd/4055964-6">
+                    <name>Spanien</name>
+                </persName>
+            </person>
+        </listPerson>
+        <listPlace>
+            <place xml:id="loc87">
+                <placeName ref="https://explore.gnd.network/gnd/4036862-2">Madrid</placeName>
+            </place>
+        </listPlace>
+        <facsimile>
+            <surface xml:id="FacsPnr1">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_44aba899cc528"/>
+            </surface>
+            <surface xml:id="FacsPnr2">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_44aba8ec7600a"/>
+            </surface>
+            <surface xml:id="FacsPnr3">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_44aba92078778"/>
+            </surface>
+            <surface xml:id="FacsPnr4">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_44aba94825b22"/>
+            </surface>
+            <surface xml:id="FacsPnr5">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_44aba96febece"/>
+            </surface>
+            <surface xml:id="FacsPnr6">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_44aba9a053fbb"/>
+            </surface>
+            <surface xml:id="FacsPnr7">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_44aba9ce10db5"/>
+            </surface>
+            <surface xml:id="FacsPnr8">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_44aba9f7edb6a"/>
+            </surface>
+            <surface xml:id="FacsPnr9">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_44abaa203ea26"/>
+            </surface>
+            <surface xml:id="FacsPnr10">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_44abaa4505d99"/>
+            </surface>
+            <surface xml:id="FacsPnr11">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_44abaa7693138"/>
+            </surface>
+            <surface xml:id="FacsPnr12">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_44abaa97e16de"/>
+            </surface>
+            <surface xml:id="FacsPnr13">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_44abaabf38bbe"/>
+            </surface>
+            <surface xml:id="FacsPnr14">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_44abaae15dcbe"/>
+            </surface>
+            <surface xml:id="FacsPnr15">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_44abab020d7b8"/>
+            </surface>
+            <surface xml:id="FacsPnr16">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_44abab222a904"/>
+            </surface>
+            <surface xml:id="FacsPnr17">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_44abab40d0e7e"/>
+            </surface>
+            <surface xml:id="FacsPnr18">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_44abab60bfd9e"/>
+            </surface>
+            <surface xml:id="FacsPnr19">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_44abab8314a81"/>
+            </surface>
+            <surface xml:id="FacsPnr20">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_44ababa0432e2"/>
+            </surface>
+            <surface xml:id="FacsPnr21">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_44ababc215fad"/>
+            </surface>
+            <surface xml:id="FacsPnr22">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_44ababe89fb57"/>
+            </surface>
+            <surface xml:id="FacsPnr23">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_44abac07ee22d"/>
+            </surface>
+            <surface xml:id="FacsPnr24">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_44abac25a1987"/>
+            </surface>
+            <surface xml:id="FacsPnr25">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_44abac4700721"/>
+            </surface>
+            <surface xml:id="FacsPnr26">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_44abac6684d1d"/>
+            </surface>
+            <surface xml:id="FacsPnr27">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_44abac8896d7a"/>
+            </surface>
+            <surface xml:id="FacsPnr28">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_44abacaa0ce1f"/>
+            </surface>
+            <surface xml:id="FacsPnr29">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_44abacc9c8ab1"/>
+            </surface>
+            <surface xml:id="FacsPnr30">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_44abaceae3842"/>
+            </surface>
+            <surface xml:id="FacsPnr31">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_44abad0db126d"/>
+            </surface>
+            <surface xml:id="FacsPnr32">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_44abad2e5bf4d"/>
+            </surface>
+            <surface xml:id="FacsPnr33">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_44abad4ec66af"/>
+            </surface>
+            <surface xml:id="FacsPnr34">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_44abad72427c9"/>
+            </surface>
+            <surface xml:id="FacsPnr35">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_44abad982ec4b"/>
+            </surface>
+            <surface xml:id="FacsPnr36">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_44abadbbb8da4"/>
+            </surface>
+            <surface xml:id="FacsPnr37">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_44abaddd8f11f"/>
+            </surface>
+            <surface xml:id="FacsPnr38">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_44abadfd2e319"/>
+            </surface>
+            <surface xml:id="FacsPnr39">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_44abae1bbbe19"/>
+            </surface>
+            <surface xml:id="FacsPnr40">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_44abae3917b4f"/>
+            </surface>
+            <surface xml:id="FacsPnr41">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_44abae58da924"/>
+            </surface>
+            <surface xml:id="FacsPnr42">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_44abae772351d"/>
+            </surface>
+            <surface xml:id="FacsPnr43">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_44abae999cd79"/>
+            </surface>
+            <surface xml:id="FacsPnr44">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_44abaeb9d86fc"/>
+            </surface>
+            <surface xml:id="FacsPnr45">
+                <graphic url="https://www.ieg-friedensvertraege.de/dbimages/img_44abaee2eb2ce"/>
+            </surface>
+        </facsimile>
+    </standOff>
+    <text>
+        <front>
+            <div type="Inhalt"><p>1. Enthaltung von allen Kriegshandlungen und Feindseligkeiten
+                <lb />2. Freier Zutritt für britische Waren nach Spanien, Zollhöhe
+                <lb />3. Zollregelungen
+                <lb />4. Zertifizierungspflicht für Waren
+                <lb />5. Zollzahlungen nur für abgeladene Waren
+                <lb />6. Freier Hafenzutritt im Notfall
+                <lb />7. Modalitäten der Begegnung auf hoher See
+                <lb />8. Regelungen für die Revision der Schiffe
+                <lb />9. Kein Zwang zur Annahme von Kupfergeld
+                <lb />10. Keine Beschlagnahme der Schiffe des anderen
+                <lb />11. Heuerstreitigkeiten werden von Konsuln geschlichtet
+                <lb />12. Freier Waffengebrauch für die Kaufleute, Faktoren und Seeleute bei Hin- und Rückfahrt gemäß den Landesgesetzen
+                <lb />13. Friedhöfe für Engländer in Spanien
+                <lb />14. Erbschaftsregelungen für fremde Kaufleute
+                <lb />15. Rückgabe konfiszierter Güter
+                <lb />16. Konfiskation bei Ausfuhr verbotener Güter
+                <lb />17. Freizügigkeit und Sicherheit der Wohnungen auf Gebieten des anderen
+                <lb />18. Vertretung durch Anwälte, freie Sprachwahl für Bücher
+                <lb />19. Ernennung von Konsuln
+                <lb />20. Gültigkeit früherer Privilegien
+                <lb />21. Meistbegünstigungsklausel, besonders für den Handel mit ostindischen Waren
+                <lb />22. Keine Maßnahmen gegen verbotene Güter im Nachhinein
+                <lb />23. Der Artikel gegen die Aufständischen Provinzen im Vertrag von 1630 wird nicht mehr gegen die Niederlanden angewandt, sondern gegen Provinzen, die sich in Zukunft erheben
+                <lb />24. Freier Handel mit befreundeten Staaten
+                <lb />25. Keine Belästigung zur See bei später auftretenden Feindseligkeiten zwischen Vertrags- und Handelspartner
+                <lb />26. Konfiszierung nur von Schmuggelwaren
+                <lb />27. Verbot von Waffenhandel und Truppentransport
+                <lb />28. Handel mit Lebensmittel auch in feindliche Gebiete, ausgenommen belagerte oder eingeschlossenen Orte.
+                <lb />29. Konfiskation der in feindlichen Schiffen gehandelten Waren
+                <lb />30. Freier Transport der Waren verfeindeter Staaten auf eigenen Schiffen
+                <lb />31. Gültigkeit des Vertrags auch bei Verletzungen, Wiedergutmachung
+                <lb />32. Dieser Vertrag dient der Erläuterung des Vertrags von 1630, außer in den Punkten, in welchen etwas anderes als 1630 vereinbart worden ist
+                <lb />33. Einhaltung
+                <lb />34. Annahme und Ratifikation
+                <lb /></p></div>
+            <div type="Kommentar"><p>Spanien hatte nach Ende des englischen Bürgerkriegs sowohl das Commonwealth als auch Oliver Cromwell sehr rasch anerkannt. Dennoch zielte Oliver Cromwells Western Design auf eine Konfrontation mit Spanien ab und so schloss er einen Vertrag mit dem von Spanien abgefallenen Portugal und griff Ende 1654 die westindischen Besitzungen Spaniens an. Obwohl die Feindseligkeiten nach dem Tod Cromwells eingestellt wurden, störte vor allem Englands Unterstützung für Portugal, das von Spanien als rebellische Provinz angesehen wurde, die Beziehungen. Auch Charles II. setzte nach der Restauration der Monarchie die Portugal-freundliche Politik fort und verband sich 1661 sogar mit der portugiesischen Krone in einem Heiratsvertrag. Darüber hinaus sah Spanien die Besetzung Jamaikas und Dünkirchens, das&nbsp; noch dazu 1662 von Großbritannien an Frankreich verkauft wurde, und die Übergabe des von Spanien reklamierten Tangers von Portugal an Großbritannien als permanenten Friedensbruch an. Dennoch begannen 1663 Friedensverhandlungen, da Spanien ohne erneuerten Friedensvertrag sowohl um die Besitzungen in Amerika als auch ein antispanischen Bündnis zwischen England und Frankreich fürchtete. England drängte auf eine Verbesserung der Handelsbeziehungen, weil die Spanier mit dem Argument, der letzte Friedensvertrag von 1630 verbiete die Unterstützung und den Handel mit den Rebellen des Vertragspartners, englischen Kaufleuten, die ihren Spanienhandel immer mit dem Portugalgeschäft verbanden, extreme Schwierigkeiten bereiteten.
+                <lb />In dem hier gezeigten Vertrag wurde der Friedens- und Handelsvertrag von 1630 wieder eingesetzt. Außerdem passte man einige Paragraphen an die veränderten politischen Bedingungen in Europa an. Begleitet wurde der Vertrag durch einen (hier nicht gezeigten) von England ausgehandelten Waffenstillstand zwischen Portugal und Spanien. England verpflichtete sich in diesen Geheimartikeln für die portugiesische Ratifizierung des Waffenstillstands zu sorgen. Allerdings verweigerte der portugiesische König seine Unterschrift. In der Folge ratifizierten weder England noch Spanien den Vertrag. Erst zwei Jahre später konnte unter englischer Vermittlung ein Waffenstillstand mit Portugal geschlossen werden ebenso wie endlich ein gültiger Friedens- und Handelsvertrag zwischen Spanien und Großbritannien abgeschlossen wurde.
+                <lb /></p></div>
+            <div type="Kontext"><p>1642-1649
+                <lb />Englischer Bürgerkrieg
+                <lb />1653
+                <lb />Oliver Cromwell wird Lordprotektor
+                <lb />1654
+                <lb />Portugiesisch-enlischer Handels- und Friedensvertrag
+                <lb />Erfolgloser Angriff Großbritanniens auf Santo Domingo
+                <lb />1655
+                <lb />Einnahme Jamaikas durch Großbritannien
+                <lb />1659
+                <lb />Eroberung Dünkirchens
+                <lb />1660
+                <lb />Restauration und Thronbesteigung durch Charles II.; Einstellung der Kampfhandlungen
+                <lb />1661
+                <lb />portugiesisch-englischer Heiratsvertrag
+                <lb />1662
+                <lb />Verkauf Dünkirchens an Frankreich
+                <lb />17.12.1665
+                <lb />Friedensvertrag von Madrid (nicht ratifiziert)&nbsp; </p></div>
+        </front>
+    </text>
+</tei:TEI>

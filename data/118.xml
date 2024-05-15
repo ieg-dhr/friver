@@ -1,0 +1,386 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE tei SYSTEM "../resources/FriVer_DTD.dtd">
+
+<?xml-model href="../resources/FriVer.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns="http://www.tei-c.org/ns/1.0"
+    xml:id="pa000299-0118">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title level="s">European peace treaties of the pre-modern era in data / Europäische
+                    Friedensverträge der Vormoderne in Daten (FriVer+)</title>
+                <title when="1713-03-04" xml:id="t118" when-custom="1713 III 4" level="a"
+                    ref="https://www.ieg-friedensvertraege.de/treaty/t-118-1-de.html">Friedensplan
+                    von Husum</title>
+            </titleStmt>
+            <editionStmt>
+                <edition> Digital edition according to <ref target="http://www.tei-c.org/">TEI
+                        P5</ref>
+                </edition>
+                <funder>
+                    <ref target="https://www.text-plus.org/">TEXT+</ref>
+                </funder>
+                <editor role="http://id.loc.gov/vocabulary/relators/edt"
+                    ref="https://orcid.org/0000-0002-8741-5916">
+                    <persName>Jaap Geraerts</persName>
+                    <note>The transformation and enrichment of the data is done by Jaap Geraerts
+                        (IEG Mainz). The other members of the FriVer+ team are Fabian Cremer, Ines
+                        Grund, and Thorsten Wübbena (all IEG Mainz).</note>
+                    <note> The original data has been created by the <ref
+                            target="https://www.ieg-friedensvertraege.de">team of scholars</ref> who
+                        were part of the Europäische Friedensverträge der Vormoderne project. This
+                        project was lead by Prof. Dr. Heinz Duchhardt and was based at the Leibniz
+                        Institute of European History in Mainz. </note>
+                </editor>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>
+                    <orgName ref="http://www.isni.org/0000000119314040">Leibniz-Institut für
+                        Europäische Geschichte Mainz</orgName>
+                </publisher>
+                <distributor>
+                    <orgName ref="http://www.isni.org/0000000110101946">Universitäts- und
+                        Landesbibliothek Darmstadt</orgName>
+                </distributor>
+                <idno type="ISIL">http://lobid.org/organisation/DE-17</idno>
+                <date type="issued" when="2023-12-23"/>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">
+                        <p xml:lang="en">This file is licensed under the terms of the Creative
+                            Commons License CC-BY 4.0 (Attribution 4.0 International)</p>
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <repository xml:id="r7">Dresden SaechsHStA</repository>
+                <msDesc>
+                    <p>SHSADresden OU 14404 c: Plan général dont on est convenu entre les puissances
+                        alliées du Nord contre la Suède pour la paix (Instrument mit US und LS
+                        Dänemarks).* </p>
+                    <p>&nbsp; </p>
+                    <p>weitere Stücke: </p>
+                    <p>Ebd. 14404 d-e: militärische Festlegungen.&nbsp; </p>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p> The data in this XML file, originally created by the project <ref
+                        target="https://www.ieg-friedensvertraege.de/vertraege">Europäische
+                        Friedensverträge der Vormoderne online</ref> has been transformed in
+                    accordance with <ref target="http://www.tei-c.org/">TEI P5</ref> as part of the
+                    project <ref
+                        target="https://www.ieg-mainz.de/en/research/research-projects/european-peace-treaties-of-the-pre-modern-era-in-data"
+                        >Europäische Friedensverträge der Vormoderne in Daten (FriVer+)</ref>
+                </p>
+            </projectDesc>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="fr" xml:id="lan4">französisch</language>
+            </langUsage>
+        </profileDesc>
+    </teiHeader>
+    <standOff>
+        <listPerson>
+            <person role="signatory" xml:id="p32">
+                <persName ref="https://explore.gnd.network/gnd/4010877-6">
+                    <name>Dänemark</name>
+                </persName>
+            </person>
+            <person xml:id="pp0181">
+                <persName>
+                    <name>August II. (Polen)</name>
+                </persName>
+            </person>
+            <person xml:id="pp0182">
+                <persName>
+                    <name>Karl XII. (Schweden)</name>
+                </persName>
+            </person>
+            <person xml:id="pp0194">
+                <persName ref="https://explore.gnd.network/gnd/118592955">
+                    <name>Peter I. (Russia)</name>
+                </persName>
+            </person>
+            <person xml:id="pp0179">
+                <persName ref="https://explore.gnd.network/gnd/119546256">
+                    <name>Friedrich IV. (Dänemark und Norwegen)</name>
+                </persName>
+            </person>
+            <person xml:id="pp0004">
+                <persName ref="https://explore.gnd.network/gnd/118560107">
+                    <name>Charles VI, Holy Roman Emperor</name>
+                </persName>
+            </person>
+            <person xml:id="pp0172">
+                <persName ref="https://explore.gnd.network/gnd/118535730">
+                    <name>Friedrich I. (Preußen)</name>
+                </persName>
+            </person>
+            <person xml:id="pp0020">
+                <persName ref="https://explore.gnd.network/gnd/118538535">
+                    <name>George I of Great Britain</name>
+                </persName>
+            </person>
+            <person xml:id="pp0201">
+                <persName ref="https://explore.gnd.network/gnd/118649450">
+                    <name>Anne (Großbritannien)</name>
+                </persName>
+            </person>
+            <person xml:id="pp0138">
+                <persName ref="https://explore.gnd.network/gnd/118816829">
+                    <name>Louis XIV of France</name>
+                </persName>
+            </person>
+            <person xml:id="pp0202">
+                <persName ref="https://www.wikidata.org/wiki/Q1772360">
+                    <name>Ditlev von Wibe</name>
+                </persName>
+            </person>
+            <person xml:id="pp0203">
+                <persName ref="https://explore.gnd.network/gnd/1021137464">
+                    <name>Jobst von Scholten</name>
+                </persName>
+            </person>
+        </listPerson>
+        <listPlace>
+            <place xml:id="loc63">
+                <placeName ref="https://explore.gnd.network/gnd/4026249-2">Husum</placeName>
+            </place>
+        </listPlace>
+    </standOff>
+    <text>
+        <front>
+            <div type="Inhalt">
+                <p>Friedensplan der drei Nordischen Alliierten .<lb/>Art. 1 Festlegung der
+                    Bestimmungen des Friedensprojektes.<lb/>1. August II. behält den polnischen
+                    Thron.<lb/>2. Zar behält Kriegsgewinn. Freiheit des Handels.<lb/>3. Dänemark
+                    erhält Bremen-Verden, Gottorf Schleswig Holstein.<lb/>4. Das Reich entscheidet
+                    über die Zukunft Pommerns.<lb/>5. Andere Staaten sollen in die
+                    Friedensbemühungen einbezogen werden. <lb/>Art. 2 Friedenssondierungen durch die
+                    Gesandten der drei Höfe. Konsultationen.<lb/>Art. 3 Bestimmungen für Rußland
+                    (Titel, Ostsee und Livland, Verhältnis zu Polen). <lb/>Art. 4 Sondierungen beim
+                    Kaiser, in Preußen und Hannover.<lb/>Art. 5 Holland.<lb/>Art. 6 Verhältnis Polen
+                    - Rußland.<lb/>Art. 7 Großbritannien. <lb/>Art. 8 Frankreich.<lb/>Art. 9
+                    Absprache über militärisches Vorgehen in einem gesonderten Abkommen.<lb/>Art. 10
+                    Festlegungen sind Grundlage jeglicher Friedensgespräche.</p>
+            </div>
+            <div type="Kommentar">
+                <p>Dänemark legte mit diesem Papier seine eigenen Friedenskonzepte und diejenigen
+                    seiner Verbündeten des Jahres 1713 vor. Der dänische Plan, Bremen und Verden zu
+                    erwerben, mußte schon 1714 aufgegeben werden. Weitgehenden Bestand hatten
+                    hingegen die Pläne, die für Polen und Rußland in dem Friedensprojekt enthalten
+                    waren.</p>
+            </div>
+            <div type="Kontext">
+                <p>1700-1721 Nordischer Krieg. Dänemark, Preußen, Russland und Sachsen-Polen
+                    versuchen in zeitlich wechselnden Bündniskonstellationen, die schwedische
+                    Vorherrschaft im Ostseeraum zu brechen und Schweden aus den Reichsbesitzungen
+                    (Bremen-Verden, Pommern) zu verdrängen.<lb/>18. August 1700 Friede von
+                    Travendahl zwischen Dänemark und Schweden. Dänemark scheidet vorläufig aus dem
+                    Krieg aus.<lb/>Mai 1713 Schwedische Niederlage gegen eine dänisch-russische
+                    Armee bei Tönning.<lb/>1712 Dänemark besetzt das Erzstift und Herzogtum Bremen.
+                    Hannover okkupiert Verden.<lb/>2. Mai 1715 Vertrag Hannovers und Dänemark über
+                    den Erwerb Bremen-Verdens durch Hannover. <lb/>1719 - 1721 Friedensverträge
+                    beenden den Nordischen Krieg (20. November 1719 Schweden - Hannover, 21. Januar
+                    1720 Schweden - Preußen)<lb/>3. Juli 1721 Friedensvertrag von Fredriksborg
+                    zwischen Schweden und Dänemark; er bringt territoriale Gewinne (Schleswig) für
+                    Dänemark. Schweden behält Vorpommern.<lb/>10. September 1721 Friedensvertrag von
+                    Nystad zwischen Schweden und Rußland. Rußland erhält Livland, Estland,
+                    Ingermanland und Teile Kareliens.</p>
+            </div>
+        </front>
+        <body>
+            <div type="Edition">
+                <p>Plan général dont on est convenu entre les puissances alliées du Nord.
+                    <lb/><lb/>Les trois puissances du Nord, alliées contre la Suede<note n="1"
+                        type="annotation">Großer Nordischer Krieg 1700-1721. Die Liga wurde gebildet
+                        aus Dänemark, Sachsen-Polen und Rußland.</note>, convaincu, qu´il importe
+                    beaucoup au bien de leurs affaires de faire regner entre elles une bonne
+                    intelligence et parfaite union, et considerant, qu´il n´y a pas de plus leur
+                    moyen pour cela, que de faire un plan de la maniere, dont elles se voulant
+                    conduire, tant entre elles, que par rapport aux autres puissances, sont convenus
+                    d´en faire un, et pour cet effet elles sont convenues et
+                    conviennent:<lb/><lb/>1.<lb/> De marquer beaucoup de moderation dans la guerre,
+                    afin de mettre par là, le <rs ref="#pp0182">Roy de Suede</rs><note n="2"
+                        type="annotation">Karl XII. (1697-1718), König von Schweden.</note> dans le
+                    tort. Et comme leurs Majestés comprennent bien, qu´ils ne sçavoient mieux
+                    persuader les autres puissances, qu´elles ont un désir sincere de parvenir à une
+                    paix solide et raisonnable, que de faire connoître à peu près les conditions,
+                    sous lesquelles elles consentiront à la paix, elles sont convenus d´un plan
+                    general pour la paix à faire, le quel elles seront insinuer aux puissances
+                    etrangeres conformement au project suivant.<lb/><lb/>Project pour la paix à
+                    faire dans le Nord<lb/>1. Que le <rs ref="#pp0181">Roy de Pologne</rs><note
+                        n="3" type="annotation">August II. (1694/97-1733), Kurfürst von Sachsen und
+                        König von Polen (mit Unterbrechungen). Er wurde während des Krieges durch
+                        den Frieden von Altranstädt 1706 von Schweden zur Abdankung gezwungen. An
+                        seine Stelle trat Stanisław Leszczyński, der mit Polen auf Seiten Schwedens
+                        kämpfte.</note> soit paisible possesseur de sa couronne et qu´il reste sur
+                    son throne sans aucune contrediction.<lb/>Que le Roy et la Republique demeure
+                    maître de la Livonie<lb/>2. Que le <rs ref="#pp0194">Czar</rs><note n="4"
+                        type="annotation">Peter I. (1682/89-1725), Zar von Rußland.</note> ait ce,
+                    qui a appartenu autrefois à la Russie et l´Esthonie et tout ce qu´il a pris dans
+                    cette guerre (outre ce que dessus, suivant le traitté fait avec le Roy de
+                    Pologne) sous cette condition, que les Anglais et les Hollandois y
+                        &lt;…&gt;<note n="5" type="crit_app">Undeutliche Schreibweise,
+                        möglicherweise: jouiront.</note> de la liberté du commerce.<lb/>3. Que le
+                        <rs ref="#pp0179">Roy de Dannemarc</rs><note n="6" type="annotation">Fredrik
+                        IV. (1699-1730), König von Dänemark.</note> tro&lt;..&gt;er &lt;.&gt;<note
+                        n="7" type="crit_app">Unklare Lesart.</note> le pays de Brehme et de
+                        Vehrde<note n="8" type="annotation">Die Herzogtümer Bremen und Verden waren
+                        seit 1648 schwedischer Reichsbesitz. Sowohl Hannover als auch Dänemark
+                        beanspruchten sie während des Nordischen Krieges für sich. 1712 besetzte
+                        Dänemark Bremen und Hannover Verden. 1714 erwarb Hannover die beiden
+                        Herzogtümer.</note>, contre les Duchez de &lt;Slesvig&gt;<note n="9"
+                        type="crit_app">Unklare Lesart.</note> Holstein, appartenants à la maison de
+                    Gottorff.<lb/>4. Que la Pomeranie soit à la disposition de l´Empire, qui pourra
+                    disposer de cette province, comme il le jugera à propos.<lb/>5. Sur un pareil
+                    plan on peut engager quelques puissances, de se mesler de nos affaires et de
+                    s´employer pour procurer une paix raisonable dans le Nord, on pourra, lorsque la
+                    negotiation sera enta&lt;mée&gt;<note n="10" type="crit_app">Unklare
+                        Lesart.</note>, entrer dans le detail des conditions de la paix, les quelles
+                    pourront être plus ou moins avantageuses, suivant que les entreprises des alliés
+                    du Nord auront reussi.<lb/><lb/>2.<lb/>Leurs Majestés sont aussy convenues, de
+                    donner a tous leurs ministres, qu´elles ont aux cours etrangeres, des ordres
+                    d´agir de concert entre eux dans tout ce qui regarder &lt;...&gt;<note n="11"
+                        type="crit_app">Wortende unklar.</note> les affaires de la Ligue, de
+                    convenir sur les relations, qu´ils seront en cour, touchant les dites affaires,
+                    et comme il se pourra trouver quelques points, sur lesquels les ministres des
+                    trois alliés ne seront pas de mesme sentiment, comme cela arrive quelquefois,
+                    même entre des ministres d´une même puissance, alors ceux, dont les sentiments
+                    diffe&lt;ront&gt; des autres, feront un rapport exact à leur cour de cette
+                    difference et des raisons, qu´ils ont, d´être d´un avis different des autres,
+                    afin que les puissances alliées puissent convenir entre elles et donner des
+                    ordres à leurs ministres suivant, qu´elles seront convenues. Et quand aux
+                    affaires particulieres de chacune de ces puissances, les ministres des trois
+                    auront ordre de s´assister les uns les autres dans les dites affaires en sorte,
+                    que chaque ministre de chacune de ces puissances &lt;semblé&gt; l´être de toutes
+                    trois.<lb/><lb/>3.<lb/>Comme l´on appris, que quelques puissances ont conclu de
+                    l´embrage de la trop grande puissance de Czar et qu´elles souprennent Sa
+                    Maj[est]té czarienne, d´avoir des desseins trop vastes et des veues trop
+                    ambitieuses, ce que se reduit à ces trois articles 1. premierement, que le <rs
+                        ref="pp0194">Czar</rs> veut prendre le titre d´Empereur 2. qu´il veut se
+                    rendre trop formidable dans la mer baltique 3. qu´il a dessein de se rendre un
+                    jour maître de la Pologne, leurs Majestés sont convenues de donner des ordres à
+                    leurs ministres, de s´appliquer à &lt;querir&gt; les cours on ils sont de ces
+                    &lt;soupçons&gt;.<lb/>1. Quant au premier article, le Czar n´a jamais pris a
+                    titre dans aucune piece qui soit emanée de la chancellerie.<lb/>2. Quand au
+                    second point, l´article du project de paix à faire, on il est fait mention de la
+                    Livonie, servira a dissiper ces &lt;soupçons&gt;, et les ministres du Roy de
+                    Pologne et du Czar seront connoitre par leurs maitres seront tres disposés à
+                    convenir pour le commerce avec l´Angleterre et la Hollande et que le Czar
+                    consent, que le Roy de Pologne recoive l´hommage de la Livonie, on y envoye des
+                    trouppes polonoises, bien entendu pourtant, que Sa Majesté czarienne y laissera
+                    ses garnisons et que la dite province reste sous son obeissance jusqu´à ce que
+                    la paix soit faite avec la Suede, suivant que la raison de guerre le
+                    demande.<lb/>3. Quand au troisieme article, qui donne même de l´ombrage aux
+                    &lt;Turcs&gt; et que l´on a poussé si loin, que de s´imaginer, que le Roy de
+                    Pologne, s´entendoit avec le Czar, pour opprimer la Pologne, à quoy les
+                    trouppes, que ces deux monarques ont &lt;eues&gt; dans le Royaume ont donné
+                    lieu, les ministres de leurs Maj[es]tés representeront, que Sa Maj[es]té
+                    czarienne n´a jamais eu d´autres trouppes en Pologne, que pour en chasser son
+                    ennemy, et que le Roy de Pologne n´y en a jamais eu, que du consentement et même
+                    à la requisition de la Republique, que presentement, que les ennemys ne sont
+                    plus en Pologne, ni le Roy de Pologne, ni le Czar n´y ont plus de trouppes, qui
+                    puissent donner ombrage. Cet article doit être insinué avec soin à la Cour de
+                    Vienne, afin qu´elle s´employe à dissiper les soupcons et ombrages, que les
+                    &lt;T&gt;urcs ont concu, contre Sa Maj[es]té czarienne.<lb/><lb/>4.<lb/>Comme il
+                    est de l´interêt de la ligue de faire entrer d´autres puissances dans leurs
+                    interets, leurs Maj[es]tés son [sic!] convenues de prendre des mesures pour y
+                    faire entrer <rs ref="#pp0004">l´Empereur</rs><note n="12" type="annotation"
+                        >Karl VI. (1711-1740), römisch-deutscher Kaiser.</note> et l´Empire, à quoy
+                    servira beaucoup la paix, qui le traite presentement, la quelle sera tres
+                    desavantageuse à l´Empereur et à l´Empire. Et comme il est vrai semblable, que
+                    la Cour de Vienne regardera cette paix, comme ne pouvant pas être de durée, les
+                    ministres de leurs Maj[es]tés auront ordre de propter de ces conjonctures, pour
+                    faire comprendre à la Cour de Vienne l´interest, qu´elle a de s´unir etroitement
+                    avec la Ligue du Nord. Pour cet effet les dits ministres feront envisager à
+                    cette Cour les suites facheuses, qu´elle a à attendre de cette paix, la grande
+                    puissance de la France et la liaison, que cette Couronne a avec la Suede, et
+                    quel interêt a l´Empereur aussy bien que leurs Maj[es]tés d´abaiser la Suede.
+                    Les ministres de leurs Majestés auront ordre aussy, de facher de porter la Cour
+                    de Vienne à satisfaire aux engagements, qu´elle a pris dans la lique sacrée
+                    contre les Turcs et ils representeront à cette cour, que si l´une de ces
+                    puissances a du dessus sur celles de la ligue, l´Empereur doit attendre à avoir
+                    le mesme sort .<lb/>Après ces insinuations les ministres de leurs Maj[es]tés
+                    feront connoitre à la Cour de Vienne, que les puissances de la Ligue sont tres
+                    disposées à prendre des engagemets avec l´Empereur et de convenir avec luy des
+                    mesures, qu´il sera convenable de prendre pour le present et l´avenir. Par
+                    rapport aux autres princes de l´Empire, il ne s´agira que de gagner la Cour de
+                    Prusse de d´Hannovre.<lb/>Pour la <rs ref="#pp0172">Cour de Prusse</rs><note
+                        n="13" type="annotation">Friedrich I. (1701-1713), Friedrich Wilhelm I.
+                        (1713-1740), (beide) preußische Könige.</note>, comme elle est toujours
+                    dependante de quelque autre et qu´on ne peut pas compter de n´en faire
+                    immediatement avec elle, leurs Majestés sont convenues, qu´il faudra se servir
+                    du parti, pour le quel la Cour de Prusse se determinera, pour mettre la dite
+                    Cour dans les interêts de la Ligue.<lb/>Pour la <rs ref="#pp0020">Cour
+                        d´Hannovre</rs><note n="14" type="crit_app">Georg Ludwig (1698-1727),
+                        Kurfürst von Hannover, ab 1714 als Georg I. englischer König.</note>, comme
+                    elle est uniquement attachée à la Cour de Vienne, dont elle suit absolument les
+                    maximes, leurs Maj[es]tés sont convenues, qu´on pourra se servir utilement de la
+                    Cour d´Hannovre, pour mettre la Cour de Vienne dans les dispositions, qu´elles
+                    souhaitent, car il est certain, que l´on reussit souvent mieux dans une
+                    negotiation, quand on se sert d´un troisième, que quand on negotie
+                    immediatement.<lb/>Et comme la Cour d´Hannovre a des veues de ce coté cy, par
+                    rapport au pays de Brehme, dont on pourroit &lt;f&gt;ort bien le servir pour
+                    engager cette Cour dans les interêts de la Ligue, les ministres de leurs
+                    Majestés czarienne et polonoise auront ordre de seconder ceux de sa Majesté
+                    danoise dans cette negotiation. Outre cela, les ministres de leurs maj[es]tés
+                    auront ordre de representer à la cour d´Hannovre, qu´en s´unissant à la Ligue du
+                    Nord, cette Cour aura par là un puissant appuy pour la soutenir en cas de
+                    besoin, dans ses pretensions à la <rs ref="#pp0201">Couronne
+                        d´Angleterre</rs><note n="15" type="annotation">Anna Stuart (1702-1714),
+                        englische Königin.</note>.<lb/><lb/>5.<lb/>Comme les Hollandois n´ont
+                        &lt;.uere&gt;<note n="16" type="crit_app">Unklare Lesart: guere oder
+                        quere.</note> plus de raison d´être contents de la presente guerre, que
+                    l´Empereur; Leurs Maj[es]tés sont convenues, d´ordonner à leurs ministres de
+                    faire aux Hollandois à &lt;peu&gt; près les mesmes insinuations, qu´a la Cour de
+                    Vienne.<lb/><lb/>6.<lb/>Comme on ne se flatte pas, de gagner absolument
+                    l´Angleterre, ni de la detacher entierement de la Suede, on est convenu de
+                    tacher de la rendre au moins indifferente et on est tombé d´accord, que le Roy
+                    de Pologne et le Czar le pourroient faire.<lb/>Le Roy de Pologne par l´interest,
+                    que elle prend au Prince royal, et le Czar par l´interest, qu´elle prend au
+                    commerce de Russie. Et comme on ne doute pas, que les insinuations du plan,
+                    d´une paix moderée et l´hommage, que le Roy de Pologne prendra en Livonie ne
+                    calment un peu les esprits en Angleterre, on est convenu outre cela, que tant le
+                    ministre du Czar, que ceux des deux autres puissances de la ligue, feront des
+                    insinuations fortes, touchant les avantages, que l´Angleterre peut retirer du
+                    commerce de Russie, mais outre cela ils insinueront sous mains et extra
+                    negotium, aux amis, qu´ils se seront faits en Angleterre le danger, que le
+                    commerce des Anglois court en Russie, si l´on ne mesnage pas la Ligue du Nord et
+                    que l´on continue à marquer une si grande partialité en faveur de la Suede, et
+                    ils insinueront en mesme tems, que d´autres puissances pourroient profiter de
+                    cela, pour mettre leur commerce sur un meilleur pied. Il seroit même bon, que
+                    ceux, à qui pareilles insinuations seront faites, fussent interessés eux mêmes
+                    dans le dit commerce. Mais les ministres de leurs Majestés seront cette
+                    insinuation, comme d´eux mesmes et non comme s´ils avoient ordre de la faire et
+                    seulement comme d´amy à amy et comme reflechissant sur ce, qui pourroit
+                    arriver.<lb/><lb/>7.<lb/>Comme tout cecy tend à mettre l´Angleterre, dans les
+                    interêts de la Ligue, il ne faut cependant pas rebuter les Whigs, les deux
+                    parties estants egalement interesses, dans le commerce de
+                    Russie.<lb/><lb/>8.<lb/>On est convenu aussy, qu´il falloit mesnager <rs
+                        ref="#pp0138">la France</rs><note n="17" type="annotation">Ludwig XIV.
+                        (1643/61-1715), König von Frankreich.</note> pour empecher, si se peut,
+                    qu´au moins elle n´agisse pas contre la Ligue, si elle ne veut n´en faire en sa
+                    faveur. Personne ne pourra trouver mauvais ces mesnagements, après l´exemple,
+                    que tout le monde vient de donner des êgards, qu´on a pour la
+                    France.<lb/><lb/>9.<lb/>Pour les operations de guerre, leurs Majestés, leurs
+                    Maj[es]tés [sic!] feront un project à part.<lb/><lb/>10.<lb/>Leurs Maj[es]tés
+                    sont convenus, que tout, ce que dessus, serviroit de base et de fondement, à
+                    toutes leurs negotiations, dans toutes les cours et qu´on ne changeroit rien à
+                    ce plan, à moins, qu´il ne survienne de telles conjonctures, que l´on ne
+                    sçauroit prevoir, au quel cas on se communiquera les uns aux autres tout ce, qui
+                    arrivera, afin de prendre ensemble d´autres mesures, suivant, qu´il sera trouvé
+                    à propos. <lb/>Fait à Husum ce 4 de Mars l´an 1713<lb/><lb/>LS <rs ref="#pp0202"
+                        >Wibe</rs><note n="18" type="annotation">Ditlev von Wibe (gest. 1731),
+                        dänischer Minister.</note>
+                    <lb/>LS <rs ref="#pp0203">&lt;Jobst von Sch&gt;olten</rs><note n="19"
+                        type="annotation">Vermutlich Jobst von Scholten (1648-1721), dänischer
+                        General.</note></p>
+            </div>
+        </body>
+    </text>
+</tei:TEI>
