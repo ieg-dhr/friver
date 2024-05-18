@@ -73,6 +73,12 @@
       constructor() {
         this.config = config
       }
+
+      onMounted() {
+        window.setTimeout(() => {
+          this.emit('open-offcanvas')
+        }, 200)
+      }
     }
   </script>
 </start-page>
