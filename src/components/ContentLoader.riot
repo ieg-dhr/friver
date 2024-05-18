@@ -1,0 +1,32 @@
+<content-loader>
+  <target />
+
+  <script>
+    import * as riot from 'riot'
+    import ContentRenderer from './ContentRenderer.riot'
+
+    export default class {
+      onMounted() {
+        this.doMount()
+      }
+
+      onBeforeUpdate() {
+        this.doUnmount()
+      }
+
+      onUpdated() {
+        this.doMount()
+      }
+
+      doUnmount() {
+        this.state.cmp.unmount(true)
+      }
+
+      doMount() {
+        const mounter = riot.component(ContentRenderer)
+        const target = this.root.querySelector('target')
+        this.state.cmp = mounter(target, {doc: this.props.doc})
+      }
+    }
+  </script>
+</content-loader>

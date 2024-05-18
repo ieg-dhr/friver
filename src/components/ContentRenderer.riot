@@ -1,0 +1,288 @@
+<content-renderer>
+  <template if={state.imageUrls.length > 0}>
+    <div class="glide my-4 mb-5">
+      <div class="glide__track" data-glide-el="track">
+        <ul class="glide__slides">
+          <li
+            each={url in state.imageUrls}
+            key={url}
+            class="glide__slide zoomist-container"
+          >
+            <div class="zoomist-wrapper">
+              <div class="zoomist-image">
+                <img
+                  src={url}
+                  class="d-block mw-100"
+                  onload={event => imageLoaded(event)}
+                />
+              </div>
+            </div>
+          </li>
+        </ul>
+      </div>
+
+      <a
+        class="prev px-3 {isFirst() && 'invisible'}"
+        onclick={event => prev(event)}
+      >
+        <svg is="icon" type="chevrons-left" />
+      </a>
+      <a
+        class="next px-3 {isLast() && 'invisible'}"
+        onclick={event => next(event)}
+      >
+        <svg is="icon" type="chevrons-right" />
+      </a>
+    </div>
+  </template>
+
+  <template if={state.doc}>
+    <div class="left">
+      <div class="xml" data-id="target" />
+    </div>
+  </template>
+
+  <template if={state.viewerUrl}>
+    <div class="ratio ratio-4x3">
+      <a class="new-tab" href={state.viewerUrl} target="_blank">
+        <svg is="icon" type="external-link" />
+      </a>
+
+      <svg is="icon" type="book-open" class="text-primary" />
+      <iframe class="d-none d-lg-block" src={toHttps(state.viewerUrl)} />
+    </div>
+  </template>
+
+  <div class="d-none">
+    <div data-id="note-widget">
+      <div data-id="content"></div>
+    </div>
+
+    <a data-id="note-id">
+      <sub data-id="content"></sub>
+    </a>
+  </div>
+
+  <script>
+    import {util} from '@wendig/lib'
+    import Renderer from '@ieg/qtei/src/lib/Renderer.js'
+    // import {} from '@ieg/qtei/src/lib/processors.js'
+    import Glide from '@glidejs/glide'
+    import Zoomist from 'zoomist'
+
+    import Icon from './Icon.riot'
+
+    const notify = (left, selector) => {
+      return (data) => {
+        const root = data.doc.childNodes[2]
+        const selected = root.querySelector(selector)
+        if (!selected) return
+
+        const notes = selected.querySelectorAll('note')
+
+        let widgets = []
+
+        for (const note of notes) {
+          const id = note.getAttribute('n')
+
+          let html = `
+            <span class="note-widget"><!--
+           --><a><sup class="id">${id}</sup></a>
+              <div class="bar"></div>
+              <div data-id="content" class="content"></div>
+            </span>
+          `
+          const widget = util.createElement(html)
+          const content = widget.querySelector("[data-id='content']")
+          note.replaceWith(widget)
+
+          const idTag = util.createElement(`<strong>${id}: </strong>`)
+          content.append(idTag, note)
+
+          widgets.push(widget)
+        }
+
+        window.setTimeout(async () => {
+          let previous = null
+
+          for (const widget of widgets) {
+            const bar = widget.querySelector('.bar')
+            bar.style.left = `${widget.offsetLeft}px`
+
+            if (previous) {
+              const a = previous.querySelector("[data-id='content']")
+              const b = widget.querySelector("[data-id='content']")
+
+              if (previous && util.nodesAreOverlappingY(a, b)) {
+                const brs = util.createElement('<br /><br />')
+                a.append(...brs, ...util.removeContents(b))
+                await util.requestAnimationFrame()
+
+                continue
+              }
+            }
+
+            previous = widget
+          }
+        }, 300)
+      }
+    }
+    
+
+    const renderTo = (target, title, selector) => {
+      return (data) => {
+        const h2 = util.createElement(`<h2 class="mt-7 mb-5">${title}</h2>`)
+        const content = data.doc.childNodes[2].querySelector(selector)
+
+        if (content) {
+          target.append(h2, content)
+        }
+
+      }
+    }
+
+    export default class {
+      static components = {Icon}
+      
+      onBeforeMount(props, state) {
+        state['style'] = props.doc.meta['styles'][0]
+        state['imageUrls'] = []
+
+        this.transliterationBM()
+        this.editionBM()
+        this.facsimileBM()
+        this.imageBM()
+        this.printBM()
+      }
+
+      transliterationBM() {
+        if (this.state['style'] != 'transliteration') return
+
+        this.state['doc'] = this.props.doc
+      }
+
+      editionBM() {
+        if (this.state['style'] != 'edition') return
+
+        this.state['doc'] = this.props.doc
+      }
+
+      facsimileBM() {
+        if (this.state['style'] != 'facsimile') return
+
+        const elements = this.props.doc.doc.
+          querySelectorAll('*|standOff *|facsimile *|graphic')
+        this.state['imageUrls'] = [...elements].map(e => e.getAttribute('url'))
+      }
+
+      imageBM() {
+        if (this.state['style'] != 'image') return
+
+        const elements = this.props.doc.doc.
+          querySelectorAll('*|listBibl *|graphic')
+        this.state['imageUrls'] = [...elements].map(e => e.getAttribute('url'))
+      }
+
+      printBM() {
+        if (this.state['style'] != 'print') return
+
+        window.doc = this.props.doc.doc
+        this.state['viewerUrl'] = this.props.doc.doc.
+          querySelector("*|div[type='Drucke'] *|ref").getAttribute('target')
+      }
+
+      onMounted(props, state) {
+        const left = this.root.querySelector(".left")
+        const target = this.root.querySelector("[data-id='target']")
+
+        if (state['style'] == 'edition' || state['style'] == 'transliteration') {
+          const renderer = new Renderer([
+            notify(left, "*|div[type='Edition']"),
+            notify(left, "*|div[type='Transliteration']"),
+            renderTo(target, this.t('edition'), "*|div[type='Edition']"),
+            renderTo(target, this.t('transliteration'), "*|div[type='Transliteration']")
+          ])
+
+          renderer.render(props.doc)
+        }
+
+        if (state['style'] === 'facsimile') {
+          this.glide()
+        }
+
+        if (state['style'] === 'image') {
+          this.glide()
+        }
+      }
+
+      glide() {
+        const element = this.root.querySelector('.glide')
+        const opts = {
+          type: 'slider',
+          rewind: false,
+          dragThreshold: false,
+          peek: {before: 0, after: '250px'},
+          gap: '60px',
+          perView: 1,
+          breakpoints: {
+            1280: {
+              peek: {before: 0, after: '200px'},
+              gap: '40px'
+            },
+            768: {
+              peek: {before: 0, after: '50px'},
+              gap: '20px'
+            }
+          }
+        }
+        this.state.glide = new Glide(element, opts)
+        this.state.glide.mount()
+        this.state.glide.go(`=0`)
+      }
+
+      imageLoaded(event) {
+        const slide = util.parents(event.target, '.zoomist-container')
+
+        slide.fvZoomist = new Zoomist(slide, {
+          slider: true,
+          zoomRatio: 0.5
+        })
+      }
+
+      toHttps(url) {
+        return url.replace(/^http:/, 'https:')
+      }
+
+      isFirst() {
+        const glide = this.state.glide
+        if (!glide) return true
+
+        return glide.index == 0
+      }
+
+      isLast() {
+        const total = this.state.imageUrls.length
+        if (total == 1) return true
+
+        const glide = this.state.glide
+        if (!glide) return false
+
+        return glide.index == total - 1
+      }
+
+      prev(event) {
+        event.preventDefault()
+
+        this.state.glide.go('<')
+        this.update()
+      }
+
+      next(event) {
+        event.preventDefault()
+
+        this.state.glide.go('>')
+        this.update()
+      }
+    }
+  </script>
+</content-renderer>

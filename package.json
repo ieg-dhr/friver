@@ -1,0 +1,45 @@
+{
+  "type": "module",
+  "license": "AGPL-3.0-only",
+  "devDependencies": {
+    "@babel/core": "^7.24.0",
+    "@dotenv-run/rollup": "^1.3.4",
+    "@glidejs/glide": "^3.6.0",
+    "@ieg/qtei": "git+https://github.com/ieg-dhr/QTEI",
+    "@popperjs/core": "^2.11.8",
+    "@riotjs/cli": "^9.0.5",
+    "@riotjs/compiler": "^9.0.7",
+    "@rollup/plugin-commonjs": "^25.0.7",
+    "@rollup/plugin-node-resolve": "^15.2.3",
+    "@rollup/plugin-terser": "^0.4.4",
+    "@wendig/lib": "git+https://git.wendig.io/git/js-lib.git",
+    "@xmldom/xmldom": "^0.8.10",
+    "bootstrap": "^5.3.3",
+    "browser-sync": "^3.0.2",
+    "concurrently": "7.6.0",
+    "d3": "^7.9.0",
+    "dotenv": "^16.4.5",
+    "ejs": "^3.1.9",
+    "fast-xml-parser": "^4.3.5",
+    "glob": "^10.3.10",
+    "jsdom": "^24.0.0",
+    "live-server": "^1.2.2",
+    "local-web-server": "^5.3.1",
+    "riot": "^9.1.4",
+    "rollup": "^4.12.0",
+    "rollup-plugin-riot": "^9.0.2",
+    "sass": "^1.71.1",
+    "string-width": "v4",
+    "zoomist": "^2.0.11"
+  },
+  "scripts": {
+    "dev": "bin/build.sh dev",
+    "build": "bin/build.sh build",
+    "import": "bundle exec bin/import"
+  },
+  "version": "0.0.0",
+  "packageManager": "yarn@4.1.1",
+  "dependencies": {
+    "yarn": "^1.22.22"
+  }
+}

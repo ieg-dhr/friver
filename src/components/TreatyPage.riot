@@ -1,0 +1,115 @@
+<treaty-page>
+  <div is="header" />
+
+  <favorites />
+
+  <div class="page-content">
+    <div class="container has-offcanvas">
+      <h1 if={state.doc}>
+        <style-icons doc={state.doc} />
+
+        {state.doc.meta['title']}
+      </h1>
+
+      <div if={state.doc} class="metadata row">
+        <div class="col-12 col-md-4 col-lg-3">
+          <template if={state.doc.meta['id']}>
+            <div class="label">ID</div>
+            <div class="value">{state.doc.meta['id']}</div>
+          </template>
+
+          <template if={state.doc.meta['language']}>
+            <div class="label">{t('language')}</div>
+            <div class="value">{state.doc.meta['language']}</div>
+          </template>
+
+          <template if={state.doc.meta['dateLabel']}>
+            <div class="label">{t('date')}</div>
+            <div class="value">{state.doc.meta['dateLabel']}</div>
+          </template>
+        </div>
+
+        <div class="col-12 col-md-4 col-lg-3">
+          <div class="label">{t('signatories')}</div>
+          <div class="value">
+            <filter-list
+              items={state.doc.meta['signatories']}
+              type="signatory"
+            />
+          </div>
+        </div>
+
+        <div class="col-12 col-md-4 col-lg-3">
+          <div class="label">{t('locations')}</div>
+          <div class="value">
+            <filter-list
+              items={state.doc.meta['places']}
+              type="location"
+            />
+          </div>
+        </div>
+
+        <div class="col-12 col-lg-3">
+          <div class="text-lg-end">
+            <div class="label">{t('source')}</div>
+            <div class="value">
+              <a href={state.doc.github()} target="_blank">anzeigen</a> |
+              <a href={state.doc.url()} target="_blank" download>herunterladen</a>
+              <br />
+              <a
+                href={state.doc.meta['legacyUrl']}
+                target="_blank"
+              >ehemaliger Datensatz</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <content-loader
+        if={state.doc}
+        doc={state.doc}
+      />
+    </div>
+  </div>
+
+  <div is="footer" />
+
+  <script>
+    import search from '../lib/Search.instance'
+    import Header from './Header.riot'
+    import Footer from './Footer.riot'
+    import Offcanvas from './Offcanvas.riot'
+    import FilterList from './FilterList.riot'
+    import StyleIcons from './StyleIcons.riot'
+    import ContentLoader from './ContentLoader.riot'
+    import Favorites from './Favorites.riot'
+
+    export default class {
+      static components = {
+        Header,
+        Footer,
+        Offcanvas,
+        FilterList,
+        StyleIcons,
+        ContentLoader,
+        Favorites
+      }
+
+      onMounted() {
+        this.fetch()
+      }
+
+      reload(props) {
+        this.update(props)
+        this.fetch()
+      }
+
+      fetch() {
+        const id = this.state['id'] || this.props['id']
+        search.treaty({id}).then(data => {
+          this.update({doc: data})
+        })
+      }
+    }
+  </script>
+</treaty-page>

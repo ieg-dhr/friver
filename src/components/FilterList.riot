@@ -1,0 +1,26 @@
+<filter-list>
+  <ul class="list-unstyled">
+    <li each={item in props.items} class="d-flex">
+      <a href={item.gnd} target="_blank" class="flex-grow-1">{item.name}</a>&nbsp;<!--
+   --><a class="ms-3" onclick={event => toFilter(item, event)}><!--
+     --><svg is="icon" type="arrow-right" />
+      </a>
+    </li>
+  </ul>
+
+  <script>
+    import Icon from './Icon.riot'
+    import {addMultiParam} from '../lib/util'
+
+    export default class {
+      static components = {Icon}
+
+      toFilter(item, event) {
+        event.preventDefault()
+
+        addMultiParam(this.props.type, item.name)
+        this.emit('open-offcanvas')
+      }
+    }
+  </script>
+</filter-list>

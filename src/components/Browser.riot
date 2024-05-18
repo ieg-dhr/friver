@@ -1,0 +1,36 @@
+<browser>
+  <select if={props.results} onchange={event => load(event)} class="form-control">
+    <option
+      each={record in props.results.records}
+      value={record.id()}
+    >
+      {record.date()}: {record.title()} ({record.id()})
+    </option>
+  </ul>
+
+  <script>
+    export default class {
+      onBeforeUpdate(props, state) {
+        state.lookup = {}
+
+        for (const r of props.results.records) {
+          state.lookup[r.id()] = r
+        }
+      }
+
+      onUpdated() {
+        this.load()
+      }
+
+      load(event = null) {
+        if (event) event.preventDefault()
+
+        const select = this.root.querySelector('select')
+        const id = select.value
+        const record = this.state.lookup[id]
+
+        this.bus.emit('load-doc', record)
+      }
+    }
+  </script>
+</browser>

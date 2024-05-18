@@ -1,0 +1,32 @@
+<style-icons class="d-flex">
+  <div
+    each={icon in icons()}
+    class="icon d-flex justify-content-center align-items-center rounded"
+  >
+    <svg is="icon" type={icon} />
+  </div>
+
+  <script>
+    import Icon from './Icon.riot'
+
+    export default class {
+      static components = {Icon}
+
+      icons() {
+        const mapping = {
+          transliteration: 'file-text',
+          edition: 'file-text',
+          print: 'book-open',
+          facsimile: 'image',
+          image: 'image'
+        }
+
+        return (
+          this.props.doc.meta['styles'].
+          map(s => mapping[s] || s).
+          unique()
+        )
+      }
+    }
+  </script>
+</style-icons>

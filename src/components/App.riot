@@ -1,0 +1,59 @@
+<app>
+  <offcanvas if={currentPage() != 'super-page'} />
+
+  <target />
+
+  <script>
+    import {default as config} from '../../.env.js'
+
+    import * as riot from 'riot'
+    import {Url} from '@wendig/lib'
+
+    import router from '../lib/Router.instance'
+
+    import NotFound from '../components/NotFound.riot'
+    import SuperPage from '../components/SuperPage.riot'
+    import StartPage from '../components/StartPage.riot'
+    import TreatyPage from '../components/TreatyPage.riot'
+    import Offcanvas from '../components/Offcanvas.riot'
+    import ImprintPage from '../components/ImprintPage.riot'
+
+    export default class {
+      static components = {Offcanvas}
+
+      onBeforeMount() {
+        this.router = router
+      }
+
+      onMounted(props, state) {
+        router.configure({
+          prefix: config['FV_STATIC_PREFIX'],
+          root: this.root,
+          target: this.root.querySelector('target'),
+          404: NotFound,
+          routes: [
+            {pattern: /^$/, component: SuperPage},
+            {pattern: /^\/friverplus$/, component: StartPage},
+            {
+              pattern: /^\/friverplus\/treaties\/(?<id>[0-9]+)$/,
+              component: TreatyPage
+            },
+            {pattern: /^\/friverplus\/imprint$/, component: ImprintPage},
+          ]
+        })
+
+        this.on('route:mounted', () => {
+          this.update()
+        })
+
+        router.route()
+      }
+
+      currentPage() {
+        if (!this.router.component) return null
+
+        return this.router.component.name
+      }
+    }
+  </script>  
+</app>

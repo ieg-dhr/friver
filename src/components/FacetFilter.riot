@@ -1,0 +1,9 @@
+<facet-filter>
+  <input
+    class="form-control my-3 px-0"
+    type="text"
+    placeholder="Begriffe filtern …"
+    onkeyup={event => props.onDelayedInput({'facet-terms': event.target.value})}
+    value={props.criteria['facet-terms']}
+  />
+</facet-filter>

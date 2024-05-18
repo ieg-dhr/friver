@@ -1,0 +1,66 @@
+import {default as config} from '../../.env.js'
+import {bus, Url} from '@wendig/lib'
+
+const navigateTo = (url) => {
+  window.history.pushState(null, '', url)
+  bus.emit('url-changed')
+
+  window.setTimeout(() => {
+    window.scrollTo({top: 0, behavior: 'smooth'})
+  }, 200)
+}
+
+const toAbsoluteUrl = (pathOrUrl) => {
+  return (new URL(pathOrUrl, document.location)).href
+}
+
+const toTreaty = (treaty) => {
+  let url = Url.current()
+  url.setPath(`${config['FV_STATIC_ROOT']}/treaties/${treaty.meta['id']}`)
+
+  navigateTo(url.resource())
+}
+
+const addMultiParam = (param, value) => {
+  let url = Url.current()
+  let existing = url.params()[param]
+
+  if (value === null) return
+
+  if (existing) {
+    existing = decodeURIComponent(existing)
+    const values = existing.split('|')
+    if (values.indexOf(value) !== -1) return
+
+    url.updateParams({[param]: [...values, value].join('|')})
+  } else {
+    url.updateParams({[param]: value})
+  }
+
+  navigateTo(url.resource())
+}
+
+const removeMultiParam = (param, value) => {
+  let url = Url.current()
+  const existing = decodeURIComponent(url.params()[param])
+
+  if (!existing) return
+
+  let values = existing.split('|')
+  const index = values.indexOf(value)
+  if (index === -1) return
+
+  values.splice(index, 1)
+  url.updateParams({
+    [param]: values.length > 0 ? encodeURIComponent(values.join('|')) : null
+  })
+  navigateTo(url.resource())
+}
+
+export {
+  navigateTo,
+  toAbsoluteUrl,
+  toTreaty,
+  addMultiParam,
+  removeMultiParam
+}
