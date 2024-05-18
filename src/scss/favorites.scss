@@ -1,0 +1,139 @@
+favorites {
+  transition:
+    width 0.2s;
+
+  display: block;
+  background-color: $white;
+  z-index: 10;
+  border: 1px solid $primary;
+  width: 100px;
+  margin-left: auto;
+  margin-top: 2rem;
+  margin-bottom: -1rem;
+
+  border-bottom-left-radius: 10px;
+  border-top-left-radius: 10px;
+
+  font-size: 12px;
+  line-height: 1.1em;
+
+  & > * {
+    display: none;
+  }
+
+  & > a {
+    display: block;
+    padding: 0.75rem;
+    text-align: left;
+  }
+
+  svg[is='icon'][type='star'] {
+    color: $primary;
+    fill: $primary;
+
+    width: 18px;
+    height: 18px;
+  }
+
+  .content {
+    display: block;
+    opacity: 0;
+    max-height: 0;
+    overflow-y: hidden;
+    transition: max-height 0.2s;
+  }
+
+  style-icons {
+    .icon {
+      opacity: 0.3;
+      width: 20px;
+      height: 20px;
+      background-color: $black;
+      margin: 3px;
+
+      svg {
+        width: 14px;
+        height: 14px;
+        stroke-width: 2;
+        color: $white;
+      }
+    }
+  }
+
+  &.expanded {
+    width: 280px;
+    margin-right: 48px;
+
+    & > * {
+      display: initial;
+    }
+
+    & > a {
+      display: block;
+      padding-top: 0;
+      text-align: center;
+    }
+
+    .content {
+      display: block;
+      opacity: 1;
+      overflow-y: scroll;
+      max-height: 300px;
+      padding: 14px;
+
+      table {
+        margin-top: -8px;
+        margin-bottom: 0;
+
+        td {
+          padding: 8px;
+        }
+      }
+    }
+  }
+}
+
+@include media-breakpoint-up('md') {
+  favorites {
+    position: absolute;
+    right: 100px;
+    width: 280px;
+    margin: 0;
+
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-top-left-radius: 0px;
+    border-top-width: 0;
+
+    & > a {
+      text-align: center;
+    }
+
+    &.expanded {
+      right: 100px;
+      width: 280px;
+      margin: 0;
+
+      .content {
+        max-height: 400px;
+      }
+    }
+  }
+}
+
+@include media-breakpoint-up('lg') {
+  favorites {
+    right: 200px;
+
+    &.expanded {
+      right: 200px;
+    }
+
+    &.with-offcanvas {
+      display: fixed;
+      top: 0;
+      right: 650px;
+      z-index: 1200;
+    }
+  }
+}

@@ -1,0 +1,199 @@
+#!/usr/bin/env ruby
+
+require 'nokogiri'
+require 'roo'
+require 'kramdown'
+require 'json'
+require 'pry'
+
+class FvImporter
+  def run
+    transcriptions
+    translations
+  end
+
+  def transcriptions
+    data = {}
+    text = []
+
+    Dir['data/Transcriptions/*.xml'].each do |path|
+      parts = path.split('/')
+      file = parts.last
+      id = file.split('.').first.to_i
+      xml = File.read(path)
+      doc = Nokogiri::XML(xml)
+
+      title = doc.xpath('//tei:titleStmt')
+      edition = doc.xpath('//tei:editionStmt')
+      publication = doc.xpath('//tei:publicationStmt')
+
+      # binding.pry
+
+      data[id] = {
+        id: id,
+        collection: title.xpath("tei:title[@level = 's']").text,
+        date: title.xpath("tei:title[@level = 'a']/@when").to_s,
+        dateLabel: title.xpath("tei:title[@level = 'a']/@when-custom").to_s,
+        legacyUrl: title.xpath("tei:title[@level = 'a']/@ref").to_s,
+        language: doc.xpath('//tei:profileDesc/tei:langUsage').inner_text,
+        title: title.xpath("tei:title[@level = 'a']").inner_text,
+        # 'title.xml': title.xpath("tei:title[@level = 'a']").inner_html,
+
+        # edition: edition.xpath('tei:edition').inner_text,
+        # 'edition.xml': edition.xpath('tei:edition').inner_html,
+
+        # funder: edition.xpath('tei:funder').inner_text,
+        # 'funder.xml': edition.xpath('tei:funder').inner_html,
+
+        # editor: edition.xpath('tei:editor').inner_text,
+        # 'editor.xml': edition.xpath('tei:editor').inner_html,
+
+        # publisher: publication.xpath('tei:publisher').inner_text,
+        # 'publisher.xml': publication.xpath('tei:publisher').inner_html,
+
+        # distributor: publication.xpath('tei:distributor').inner_text,
+        # 'distributor.xml': publication.xpath('tei:distributor').inner_html,
+
+        # licenseId: publication.xpath('tei:availability/tei:licence/@target').to_s,
+        # license: publication.xpath('tei:availability/tei:licence').inner_text,
+        # 'license.xml': publication.xpath('tei:availability/tei:licence').inner_html,
+
+        source: doc.xpath('//tei:sourceDesc/tei:msDesc').inner_text,
+        # 'source.xml': doc.xpath('//tei:sourceDesc').inner_html,
+
+        signatories: doc.xpath("//tei:listPerson/tei:person[@role = 'signatory']").map{ |p|
+          {
+            name: p.inner_text.strip,
+            # projectId: p['xml:id'],
+            gnd: p.xpath('tei:persName/@ref').to_s
+          }
+        },
+
+        places: doc.xpath('//tei:listPlace/tei:place').map{ |p|
+          {
+            name: p.inner_text.strip,
+            # projectId: p['xml:id'],
+            gnd: p.xpath('tei:placeName/@ref').to_s
+          }
+        },
+
+        styles: styles_for(doc)
+      }
+
+      text << doc.xpath("//tei:text//tei:div[@type = 'Transliteration']").inner_text
+
+      clean(data[id])
+    end
+
+    File.open 'src/data.json', 'w+' do |f|
+      f.puts JSON.pretty_generate(data)
+    end
+
+    filters = []
+
+    text = text.
+      select{|t| !t.nil? && t && t != ''}.
+      join(' ').
+      gsub("'", ' ').
+      # gsub(/[.;,-_"\(\)\[\]]/, '').
+      gsub(/\s+/, ' ').
+      split(' ').
+      select{|w| w.size > 6}.
+      select{|w| !filters.include?(w)}.
+      join(' ')
+
+    frequencies = {}
+    text.split(' ').each do |w|
+      frequencies[w] ||= 0
+      frequencies[w] += 1
+    end
+
+    File.open 'src/frequencies.json', 'w+' do |f|
+      f.puts JSON.pretty_generate(frequencies)
+    end
+
+    File.open 'src/data.txt', 'w+' do |f|
+      f.puts text
+    end
+  end
+
+  def styles_for(doc)
+    result = []
+
+    nodes = doc.xpath("//tei:text//tei:div[@type = 'Edition']")
+    if nodes.size > 0
+      result << 'edition'
+    end
+
+    nodes = doc.xpath("//tei:text//tei:div[@type = 'Transliteration']")
+    if nodes.size > 0
+      result << 'transliteration'
+    end
+
+    nodes = doc.xpath("//tei:standOff/tei:facsimile/tei:surface")
+    if nodes.size > 0
+      result << 'facsimile'
+    end
+
+    nodes = doc.xpath("//tei:text//tei:listBibl/tei:bibl/tei:biblScope/tei:graphic")
+    if nodes.size > 0
+      result << 'image'
+    end
+
+    nodes = doc.xpath("//tei:text//tei:div[@type = 'Drucke']//tei:ref")
+    if nodes.size > 0
+      result << 'print'
+    end
+
+    result
+  end
+
+  def translations
+    data = {'de' => {}}
+
+    file = 'src/translations.xlsx'
+    puts "using translations from #{file}"
+
+    xlsx = Roo::Spreadsheet.open(file)
+
+    each_row xlsx, skip: 0 do |row|
+      id = row.delete('id')
+      row['de'].gsub!(/ -/, ' &#8209;') if row['de'].is_a?(String)
+      data['de'][id] = row['de']
+    end
+
+    File.open 'src/translations.json', 'w' do |f|
+      f.write JSON.pretty_generate(data)
+    end
+  end
+
+
+  protected
+
+    def each_row(xlsx, sheet_name: nil, skip: 1, &block)
+      sheet = (sheet_name ? xlsx.sheet_for(sheet_name) : xlsx.sheet(0))
+      headers = sheet.row(skip + 1)
+
+      ((skip + 2)..sheet.last_row).each do |i|
+        row = headers.zip(sheet.row(i)).to_h.compact
+
+        yield row
+      end
+    end
+
+    def clean(str)
+      case str
+      when Array then str.map!{|s| clean(s)}
+      when Hash then str.transform_values!{|s| clean(s)}
+      when String
+        str.
+          gsub(/\n/, '').
+          gsub(/[ \t]+/, ' ').
+          strip
+      else
+        str
+      end
+    end
+end
+
+FvImporter.new.run

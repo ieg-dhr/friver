@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="de-DE">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <% for (const font of fonts) { %>
+    <link
+      rel="preload"
+      href="<%= font %>"
+      as="font"
+      crossorigin
+    />
+  <% } %>
+
+  <link
+    rel="icon"
+    href="<%= process.env['FV_STATIC_URL'] %>/assets/favicon.png"
+  />
+
+  <link
+    rel="stylesheet"
+    type="text/css"
+    href="<%= process.env['FV_STATIC_URL'] %>/app.css"
+  />
+
+  <title></title>
+</head>
+<body data-bs-theme="light">
+  <div is="app"></div>
+
+  <script src="<%= process.env['FV_STATIC_URL'] %>/app.js"></script>
+</body>
+</html>

@@ -1,0 +1,78 @@
+<start-page>
+  <div is="header" />
+
+  <favorites />
+
+  <div class="page-content">
+    <div class="container has-offcanvas">
+      <div class="left">
+        <h1 class="my-5 pe-5 pt-md-5">
+          <raw html={t('friverplus_short_title')} />
+        </h1>
+
+        <p class="mb-5">
+          <raw html={t('friverplus_description')} />
+        </p>
+
+        <div class="metadata mb-5">
+          <div>
+            <raw html={t('meta_what')} />
+          </div>
+
+          <div>
+            <span class="fw-medium">{cap(t('funded_by'))}</span>
+            <raw html={t('meta_funded_by')} />
+          </div>
+
+          <div>
+            <span class="fw-medium">{cap(t('editor'))}</span>
+            <raw html={t('meta_editor')} />
+          </div>
+
+          <div>
+            <span class="fw-medium">{cap(t('publisher'))}</span>
+            <raw html={t('meta_publisher')} />
+          </div>
+
+          <div>
+            <span class="fw-medium">{cap(t('distributor'))}</span>
+            <raw html={t('meta_distributor')} />
+          </div>
+
+          <div>
+            <span class="fw-medium">{cap(t('issued_on'))}</span>
+            <raw html={t('meta_issued_on')} />
+          </div>
+
+          <div>
+            <span class="fw-medium">{cap(t('license'))}</span>
+            <raw html={t('meta_license')} />
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <img
+      class="europe-map"
+      src="{config['FV_STATIC_URL']}/assets/europe-map.svg"
+    />
+  </div>
+
+  <div is="footer" />
+
+  <script>
+    import {default as config} from '../../.env.js'
+    import Header from './Header.riot'
+    import Footer from './Footer.riot'
+    import Raw from './Raw.riot'
+    import Favorites from './Favorites.riot'
+
+    export default class {
+      static components = {Header, Footer, Raw, Favorites}
+
+      constructor() {
+        this.config = config
+      }
+    }
+  </script>
+</start-page>
