@@ -41,7 +41,7 @@ git clone https://github.com/ieg-dhr/friver-plus data
 
 The data repository comes as a set of XML files. Run the import task to extract
 the metadata information required for the search feature. This process needs to
-be run only once:
+be run only once (and whenever the translations.xlsx file was changed):
 
 ```
 yarn run import
@@ -60,14 +60,15 @@ hit `ctrl-c`.
 ## Deployment
 
 To build the app for production, install the requirements as listed above and
-then run
+change `bin/production.sh` to match your deployment. Then run it:
 
 ```
-yarn run build
+bin/build-production.sh
 ```
 
 This builds a production-ready version to the `public` directory. Copy its
-contents to your webserver. Make sure to follow the symlinks:
+contents to your webserver. The directory contains symlinks, make sure to
+replace those with their respective targets.
 
 
 
