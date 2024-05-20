@@ -202,6 +202,13 @@ navigation {
 
 @include media-breakpoint-up('md') {
   [is='super-page'] {
+    .logo {
+      position: absolute;
+      width: 60px;
+      top: 30px;
+      right: 30px;
+    }
+  
     .btn-lg {
       width: 100%;
     }
@@ -218,9 +225,10 @@ navigation {
     .europe-map {
       position: static;
       opacity: 0.75;
-      top: 120px;
-      width: 30vw;
-      max-width: 280px;
+      // top: 400px;
+      margin-top: 100px;
+      width: 25vw;
+      max-width: 200px;
       right: auto;
     }
 
@@ -244,6 +252,14 @@ navigation {
 
 @include media-breakpoint-up('lg') {
   [is='super-page'] {
+    .logo {
+      right: calc(50% + 30px);
+    }
+
+    h1 {
+      font-size: 40px;
+    }
+    
     .btn-lg {
       width: 200px;
     }
