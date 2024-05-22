@@ -461,7 +461,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@ieg/qtei@git+https://github.com/ieg-dhr/QTEI":
+"@ieg/qtei@git+https://github.com/ieg-dhr/QTEI#6a6911080ba8c53f09c3f64598590532b8138ff2":
   version: 0.7.0
   resolution: "@ieg/qtei@https://github.com/ieg-dhr/QTEI.git#commit=6a6911080ba8c53f09c3f64598590532b8138ff2"
   dependencies:
@@ -5590,7 +5590,7 @@ __metadata:
     "@babel/core": "npm:^7.24.0"
     "@dotenv-run/rollup": "npm:^1.3.4"
     "@glidejs/glide": "npm:^3.6.0"
-    "@ieg/qtei": "git+https://github.com/ieg-dhr/QTEI"
+    "@ieg/qtei": "git+https://github.com/ieg-dhr/QTEI#6a6911080ba8c53f09c3f64598590532b8138ff2"
     "@popperjs/core": "npm:^2.11.8"
     "@riotjs/cli": "npm:^9.0.5"
     "@riotjs/compiler": "npm:^9.0.7"
