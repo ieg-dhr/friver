@@ -1,11 +1,18 @@
-<footer class="bg-black d-flex align-items-center justify-content-end">
+<footer class="bg-black d-flex align-items-center justify-content-between">
+  <img class="logo d-block" src="{config['FV_STATIC_URL']}/assets/logo.inverted.svg" />
+
   <navigation />
 
   <script>
+    import {default as config} from '../../.env.js'
     import Navigation from './Navigation.riot'
 
     export default class {
       static components = {Navigation}
+
+      onBeforeMount() {
+        this.config = config
+      }
     }
   </script>
 </footer>

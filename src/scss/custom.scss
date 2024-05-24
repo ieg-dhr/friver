@@ -208,7 +208,7 @@ navigation {
       top: 30px;
       right: 30px;
     }
-  
+
     .btn-lg {
       width: 100%;
     }
@@ -259,7 +259,7 @@ navigation {
     h1 {
       font-size: 40px;
     }
-    
+
     .btn-lg {
       width: 200px;
     }
@@ -307,6 +307,11 @@ navigation {
   margin-top: 10vw;
   padding-right: calc(30px + var(--offcanvas-initial-width));
 
+  .logo {
+    width: 30px;
+    margin-left: 30px;
+  }
+
   navigation {
     color: $white;
 
@@ -336,6 +341,11 @@ navigation {
     height: 120px;
     padding-right: calc(40px + var(--offcanvas-initial-width));
     font-size: 1.2rem;
+
+    .logo {
+      width: 50px;
+      margin-left: 30px;
+    }
   }
 }
 
@@ -357,6 +367,11 @@ navigation {
   [is='footer'] {
     height: 200px;
     padding-right: calc(85px + var(--offcanvas-initial-width));
+
+    .logo {
+      width: 70px;
+      margin-left: 50px;
+    }
   }
 }
 
