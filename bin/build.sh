@@ -33,10 +33,3 @@ function fv-build {
 
 fv-$CMD
 
-# cp node_modules/bootstrap-icons/bootstrap-icons.svg public/
-# cp -a assets/ public/
-
-
-  # "ws --port=4000 --hostname=127.0.0.1 --directory=./public --spa /index.html --spa.asset-test-fs"
-  # 'live-server --host=127.0.0.1 --port=4000 --no-browser ./public'
-  # 'chokidar "data/**/*" --initial -c "rm -rf public/data && cp -a data public/data"' \
