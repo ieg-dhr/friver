@@ -25,7 +25,10 @@
       doMount() {
         const mounter = riot.component(ContentRenderer)
         const target = this.root.querySelector('target')
-        this.state.cmp = mounter(target, {doc: this.props.doc})
+        this.state.cmp = mounter(target, {
+          doc: this.props.doc,
+          style: this.props.style || this.props.doc.meta['styles'][0]
+        })
       }
     }
   </script>

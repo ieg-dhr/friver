@@ -127,7 +127,6 @@
         }, 300)
       }
     }
-    
 
     const renderTo = (target, title, selector) => {
       return (data) => {
@@ -143,9 +142,9 @@
 
     export default class {
       static components = {Icon}
-      
+
       onBeforeMount(props, state) {
-        state['style'] = props.doc.meta['styles'][0]
+        state['style'] = props.style
         state['imageUrls'] = []
 
         this.transliterationBM()

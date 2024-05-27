@@ -1,9 +1,11 @@
 <style-icons class="d-flex">
   <div
-    each={icon in icons()}
-    class="icon d-flex justify-content-center align-items-center rounded"
+    each={style in styles()}
+    class="icon d-flex justify-content-center align-items-center rounded {active(style)}"
   >
-    <svg is="icon" type={icon} />
+    <a onclick={event => onClick(style, event)}>
+      <svg is="icon" type={iconFor(style)} />
+    </a>
   </div>
 
   <script>
@@ -12,7 +14,26 @@
     export default class {
       static components = {Icon}
 
-      icons() {
+      onBeforeMount(props, state) {
+        state['style'] = props.doc.meta['styles'][0]
+      }
+
+      onClick(style, event) {
+        event.preventDefault()
+
+        const h = this.props.onSelect
+        if (!h) return
+
+        this.state['style'] = style
+        this.update()
+        h(style)
+      }
+
+      styles() {
+        return this.props.doc.meta['styles']
+      }
+
+      iconFor(style) {
         const mapping = {
           transliteration: 'file-text',
           edition: 'file-text',
@@ -21,11 +42,11 @@
           image: 'image'
         }
 
-        return (
-          this.props.doc.meta['styles'].
-          map(s => mapping[s] || s).
-          unique()
-        )
+        return mapping[style]
+      }
+
+      active(style) {
+        return this.state['style'] === style ? 'active' : ''
       }
     }
   </script>

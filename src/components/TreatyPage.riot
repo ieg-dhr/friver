@@ -6,7 +6,10 @@
   <div class="page-content">
     <div class="container has-offcanvas">
       <h1 if={state.doc}>
-        <style-icons doc={state.doc} />
+        <style-icons
+          doc={state.doc}
+          on-select={style => loadStyle(style)}
+        />
 
         {state.doc.meta['title']}
       </h1>
@@ -68,6 +71,7 @@
       <content-loader
         if={state.doc}
         doc={state.doc}
+        style={state.style}
       />
     </div>
   </div>
@@ -102,6 +106,10 @@
       reload(props) {
         this.update(props)
         this.fetch()
+      }
+
+      loadStyle(style) {
+        this.update({style: style})
       }
 
       fetch() {

@@ -44,6 +44,11 @@ svg[is='icon'] {
 }
 
 style-icons {
+  a {
+    display: inline-block;
+    line-height: 0;
+  }
+
   .icon {
     opacity: 0.3;
     width: 20px;
@@ -59,7 +64,7 @@ style-icons {
     }
   }
 
-  .icon:first-child {
+  .icon.active {
     opacity: 0.6;
   }
 }
