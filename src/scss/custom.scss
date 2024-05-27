@@ -382,6 +382,8 @@ navigation {
 
 offcanvas {
   .offcanvas {
+    --bs-offcanvas-transition: transform 0.3s linear;
+
     &.offcanvas-end {
       --bs-offcanvas-width: 320px;
       visibility: visible;
@@ -430,7 +432,7 @@ offcanvas {
 
   .offcanvas-backdrop {
     &.show {
-      opacity: 1;
+      opacity: 0.9;
     }
   }
 
