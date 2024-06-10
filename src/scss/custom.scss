@@ -415,6 +415,13 @@ offcanvas {
     display: none;
   }
 
+  .reset {
+    margin-top: 0;
+    position: absolute;
+    top: 16px;
+    right: 16px;
+  }
+
   table.table {
     td {
       &.title {

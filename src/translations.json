@@ -33,6 +33,7 @@
     "transliteration": "Transkription",
     "languages": "Sprachen",
     "show_all": "alle anzeigen",
-    "active_filters": "aktive Filter"
+    "active_filters": "aktive Filter",
+    "reset_all_filters": "alle Filter zurücksetzen"
   }
 }

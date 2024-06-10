@@ -911,13 +911,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@wendig/lib@git+https://git.wendig.io/git/js-lib.git":
+"@wendig/lib@git+https://git.wendig.io/git/js-lib.git#b737782200b90bcf8d328570e7927cb9d5ad7147":
   version: 1.1.0
-  resolution: "@wendig/lib@https://git.wendig.io/git/js-lib.git#commit=451a610ce71362e3b18e527e97ed043904c14e88"
+  resolution: "@wendig/lib@https://git.wendig.io/git/js-lib.git#commit=b737782200b90bcf8d328570e7927cb9d5ad7147"
   dependencies:
     base-64: "npm:^1.0.0"
     utf8: "npm:^3.0.0"
-  checksum: 10c0/8c58ef24845e7869a6671d44976f7467b30595f55026ba7ad1e6466194701ca403812d3b3fbcdc092e8f5b305b5d092e3ca146e2a451b45679dfba15aa73041a
+  checksum: 10c0/34efac4e378b605060d07cd7bc6f47765ccd2f08be1595719a75d25d51366aa243ae1251db3eb4183516fe13e00dd95dbc9e4424bde4851ead4d10ea419a7faa
   languageName: node
   linkType: hard
 
@@ -5597,7 +5597,7 @@ __metadata:
     "@rollup/plugin-commonjs": "npm:^25.0.7"
     "@rollup/plugin-node-resolve": "npm:^15.2.3"
     "@rollup/plugin-terser": "npm:^0.4.4"
-    "@wendig/lib": "git+https://git.wendig.io/git/js-lib.git"
+    "@wendig/lib": "git+https://git.wendig.io/git/js-lib.git#b737782200b90bcf8d328570e7927cb9d5ad7147"
     "@xmldom/xmldom": "npm:^0.8.10"
     bootstrap: "npm:^5.3.3"
     browser-sync: "npm:^3.0.2"

@@ -10,6 +10,13 @@
       />
 
       <div class="open-only mt-5">
+        <div if={anyCriteria()} class="reset text-end">
+          <a
+            href="#"
+            onclick={event => reset(event)}
+          >{t('reset_all_filters')}</a>
+        </div>
+
         <div
           is="range-control"
           if={state.data}
@@ -155,6 +162,16 @@
 
       criteria() {
         return this.urlSearch.opts.getParams()
+      }
+
+      anyCriteria() {
+        return Object.keys(this.criteria()).length > 0
+      }
+
+      reset(event) {
+        event.preventDefault()
+
+        this.urlSearch.onReset()
       }
 
       onTreatyClick(treaty, event) {

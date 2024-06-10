@@ -12,7 +12,7 @@
     "@rollup/plugin-commonjs": "^25.0.7",
     "@rollup/plugin-node-resolve": "^15.2.3",
     "@rollup/plugin-terser": "^0.4.4",
-    "@wendig/lib": "git+https://git.wendig.io/git/js-lib.git",
+    "@wendig/lib": "git+https://git.wendig.io/git/js-lib.git#b737782200b90bcf8d328570e7927cb9d5ad7147",
     "@xmldom/xmldom": "^0.8.10",
     "bootstrap": "^5.3.3",
     "browser-sync": "^3.0.2",
