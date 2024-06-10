@@ -603,7 +603,12 @@ offcanvas {
 
       & > .content {
         position: absolute;
+        max-height: calc(100% - 220px);
+        overflow-y: scroll;
         left: calc(100% + 75px);
+        // top: auto;
+        // bottom: 100px;
+        // margin-bottom: 100px;
         transform: translateY(max(-50%, -2em));
         width: 200px;
         border-left: 1px solid $primary;
@@ -697,7 +702,7 @@ offcanvas {
 
     .xml {
       .note-widget {
-        display: inline;
+        display: inline-block;
       }
     }
   }

@@ -83,7 +83,7 @@
         let widgets = []
 
         for (const note of notes) {
-          const id = note.getAttribute('n')
+          const id = note.getAttribute('n') || '*'
 
           let html = `
             <span class="note-widget"><!--
@@ -94,10 +94,15 @@
           `
           const widget = util.createElement(html)
           const content = widget.querySelector("[data-id='content']")
+          const a = widget.querySelector('a')
           note.replaceWith(widget)
 
           const idTag = util.createElement(`<strong>${id}: </strong>`)
           content.append(idTag, note)
+
+          a.addEventListener('click', event => {
+            note.scrollIntoView()
+          })
 
           widgets.push(widget)
         }

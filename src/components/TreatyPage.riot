@@ -109,7 +109,9 @@
       }
 
       loadStyle(style) {
-        this.update({style: style})
+        this.state['style'] = style
+        this.fetch()
+        // this.update({style: style})
       }
 
       fetch() {
