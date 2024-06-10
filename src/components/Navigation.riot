@@ -1,6 +1,10 @@
 <navigation class={props.class}>
   <small>
     <a
+      href="{config['FV_STATIC_URL']}"
+    >{t('back_to_super_page')}</a>
+    |
+    <a
       href="{config['FV_STATIC_URL']}/imprint"
     >{t('imprint')} / {t('privacy')}</a>
   </small>
