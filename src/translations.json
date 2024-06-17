@@ -35,6 +35,7 @@
     "show_all": "alle anzeigen",
     "active_filters": "aktive Filter",
     "reset_all_filters": "alle Filter zurücksetzen",
-    "back_to_super_page": "zurück zur Startseite"
+    "back_to_super_page": "zurück zur Startseite",
+    "search_in_title": "Suche im Titel"
   }
 }
