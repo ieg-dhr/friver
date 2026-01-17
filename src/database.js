@@ -131,9 +131,12 @@ const matchesTerms = (record, terms) => {
   if (!terms) return true
   if (!record['title']) return false
 
-  const regex = new RegExp(terms, 'i')
+  for (const t of terms.split(/\s+/)) {
+    const regex = new RegExp(t, 'i')
+    if (record['title'].match(regex)) return true
+  }
 
-  return !!record['title'].match(regex)
+  return false
 }
 
 const matchesIds = (record, ids) => {
