@@ -1,5 +1,17 @@
 <content-renderer>
   <template if={state.imageUrls.length > 0}>
+    <div class="glide-control">
+      Go to image
+      <select onchange={event => toSlide(event.target.value)} class="form-control w-auto d-inline-block mx-1">
+        <option
+          each={(url, i) in state.imageUrls}
+          value={i}
+          selected={isCurrentSlide(i)}
+        >{i + 1}</option>
+      </select>
+      of {state.imageUrls.length}
+    </div>
+
     <div class="glide my-4 mb-5">
       <div class="glide__track" data-glide-el="track">
         <ul class="glide__slides">
@@ -25,13 +37,13 @@
         class="prev px-3 {isFirst() && 'invisible'}"
         onclick={event => prev(event)}
       >
-        <svg is="icon" type="chevrons-left" />
+        <svg is="icon" type="chevrons-left"></svg>
       </a>
       <a
         class="next px-3 {isLast() && 'invisible'}"
         onclick={event => next(event)}
       >
-        <svg is="icon" type="chevrons-right" />
+        <svg is="icon" type="chevrons-right"></svg>
       </a>
     </div>
   </template>
@@ -45,10 +57,10 @@
   <template if={state.viewerUrl}>
     <div class="ratio ratio-4x3">
       <a class="new-tab" href={state.viewerUrl} target="_blank">
-        <svg is="icon" type="external-link" />
+        <svg is="icon" type="external-link"></svg>
       </a>
 
-      <svg is="icon" type="book-open" class="text-primary" />
+      <svg is="icon" type="book-open" class="text-primary"></svg>
       <iframe class="d-none d-lg-block" src={toHttps(state.viewerUrl)} />
     </div>
   </template>
@@ -101,7 +113,24 @@
           content.append(idTag, note)
 
           a.addEventListener('click', event => {
-            note.scrollIntoView()
+            a.scrollIntoView({behavior: 'instant', container: 'nearest'})
+            // window.a = a
+            // window.note = note
+            // a.scrollIntoView({behavior: 'instant', container: 'nearest'})
+
+            // let top =  note.getBoundingClientRect().y
+            // console.log(top)
+
+            // if (top != 0) {
+            //   const parent = note.parentElement
+            //   parent.scrollBy({behavior: 'instant', top})
+            //   // window.setTimeout(() => {
+            //   top = note.getBoundingClientRect().y
+            //   //   parent.scrollBy({behavior: 'instant', top})
+            //   console.log(top)
+            //   // }, 500)
+            // }
+            // // note.scrollIntoView({behavior: 'instant', container: 'all'})
           })
 
           widgets.push(widget)
@@ -244,6 +273,11 @@
         this.state.glide.go(`=0`)
       }
 
+      toSlide(index) {
+        this.state.glide.go(`=${index}`)
+        this.update()
+      }
+
       imageLoaded(event) {
         const slide = util.parents(event.target, '.zoomist-container')
 
@@ -255,6 +289,19 @@
 
       toHttps(url) {
         return url.replace(/^http:/, 'https:')
+      }
+
+      isCurrentSlide(index) {
+        const current = this.currentSlide()
+
+        return index == current
+      }
+
+      currentSlide() {
+        const glide = this.state.glide
+        if (!glide) return null
+
+        return glide.index
       }
 
       isFirst() {
