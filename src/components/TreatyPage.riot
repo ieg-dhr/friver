@@ -117,6 +117,7 @@
       fetch() {
         const id = this.state['id'] || this.props['id']
         search.treaty({id}).then(data => {
+          console.log(data)
           this.update({doc: data})
         })
       }

@@ -1,7 +1,7 @@
 <content-renderer>
   <template if={state.imageUrls.length > 0}>
     <div class="glide-control">
-      Go to image
+      {cap(t('go_to_image'))}
       <select onchange={event => toSlide(event.target.value)} class="form-control w-auto d-inline-block mx-1">
         <option
           each={(url, i) in state.imageUrls}
@@ -9,7 +9,7 @@
           selected={isCurrentSlide(i)}
         >{i + 1}</option>
       </select>
-      of {state.imageUrls.length}
+      {t('of')} {state.imageUrls.length}
     </div>
 
     <div class="glide my-4 mb-5">

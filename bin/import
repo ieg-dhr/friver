@@ -82,10 +82,13 @@ class FvImporter
 
       text << doc.xpath("//tei:text//tei:div[@type = 'Transliteration']").inner_text
 
-      clean(data[id])
+      data[id] = clean(data[id])
     end
 
     File.open 'src/data.json', 'w+' do |f|
+      data.each do |k, v|
+        binding.pry if v.has_key?(:language) && v[:language] == nil
+      end
       f.puts JSON.pretty_generate(data)
     end
 
@@ -183,13 +186,16 @@ class FvImporter
 
     def clean(str)
       case str
-      when Array then str.map!{|s| clean(s)}
-      when Hash then str.transform_values!{|s| clean(s)}
+      when Array then str.map{|s| clean(s)}
+      when Hash
+        str.transform_values{|s| clean(s)}.compact
       when String
-        str.
+        result = str.
           gsub(/\n/, '').
           gsub(/[ \t]+/, ' ').
           strip
+
+        result == 'null' ? nil : result
       else
         str
       end
