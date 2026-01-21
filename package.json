@@ -3,7 +3,6 @@
   "license": "AGPL-3.0-only",
   "devDependencies": {
     "@babel/core": "^7.24.0",
-    "@dotenv-run/rollup": "^1.3.4",
     "@glidejs/glide": "^3.6.0",
     "@ieg/qtei": "git+https://github.com/ieg-dhr/QTEI#6a6911080ba8c53f09c3f64598590532b8138ff2",
     "@popperjs/core": "^2.11.8",
