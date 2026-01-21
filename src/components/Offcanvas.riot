@@ -3,11 +3,12 @@
 >
   <div class="offcanvas offcanvas-end">
     <div class="offcanvas-body">
-      <svg
-        is="icon"
-        type="search"
-        onclick={event => toggle(event)}
-      />
+      <a href="#" onclick={event => toggle(event)} class="text-body">
+        <svg
+          is="icon"
+          type="search"
+        ></svg>
+      </a>
 
       <div class="open-only mt-5">
         <div if={anyCriteria()} class="reset text-end">
@@ -61,7 +62,7 @@
               <tbody>
                 <tr each={treaty in state.data.records}>
                   <td class="ps-0">
-                    <watchlist-toggle doc={treaty} />
+                    <watchlist-toggle doc={treaty}></watchlist-toggle>
                   </td>
                   <td class="title">
                     <a
@@ -73,7 +74,7 @@
                     </a>
                   </td>
                   <td class="me-0 pe-0 text-right">
-                    <style-icons doc={treaty} />
+                    <style-icons doc={treaty}></style-icons>
                   </td>
                 </tr>
               </tbody>

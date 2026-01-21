@@ -181,11 +181,17 @@
       }
 
       svgWidth() {
-        return this.root.querySelector('.graph').getBoundingClientRect().width
+        const element = this.root.querySelector('.graph')
+        if (!element) return 0
+
+        return element.getBoundingClientRect().width
       }
 
       svgHeight() {
-        return this.root.querySelector('.graph').getBoundingClientRect().height
+        const element = this.root.querySelector('.graph')
+        if (!element) return 0
+
+        return element.getBoundingClientRect().height
       }
     }
   </script>
