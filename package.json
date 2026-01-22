@@ -29,7 +29,7 @@
     "rollup-plugin-riot": "^10.0.0",
     "sass": "^1.71.1",
     "string-width": "v4",
-    "zoomist": "^2.0.11"
+    "zoomist": "^2.2.0"
   },
   "scripts": {
     "dev": "bin/build.sh dev",

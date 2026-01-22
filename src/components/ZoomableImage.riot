@@ -1,0 +1,38 @@
+<zoomable-image class="zoomist-container">
+  <div class="zoomist-wrapper d-flex justify-content-center">
+    <div class="zoomist-image h-100">
+      <img
+        src={props.src}
+        class="d-block mw-100 mh-100"
+        onload={event => imageLoaded(event)}
+      />
+    </div>
+  </div>
+
+  <script>
+    import Zoomist from 'zoomist'
+
+    export default class {
+      onBeforeMount() {
+        this.on('zoomable-image-update', event => {
+          const z = this.state.zoomist
+
+          if (z) z.reset()
+        })
+      }
+
+      imageLoaded(event) {
+        const z = this.state.zoomist
+
+        if (z) {
+          z.reset()
+        } else {
+          this.state.zoomist = new Zoomist(this.root, {
+            slider: true,
+            zoomRatio: 0.5
+          })
+        }
+      }
+    }
+  </script>
+</zoomable-image>

@@ -1,50 +1,50 @@
 <content-renderer>
   <template if={state.imageUrls.length > 0}>
-    <div class="glide-control">
-      {cap(t('go_to_image'))}
-      <select onchange={event => toSlide(event.target.value)} class="form-control w-auto d-inline-block mx-1">
-        <option
-          each={(url, i) in state.imageUrls}
-          value={i}
-          selected={isCurrentSlide(i)}
-        >{i + 1}</option>
-      </select>
-      {t('of')} {state.imageUrls.length}
-    </div>
+    <div is="fullscreen-images" urls={state.imageUrls} />
 
-    <div class="glide my-4 mb-5">
-      <div class="glide__track" data-glide-el="track">
-        <ul class="glide__slides">
-          <li
-            each={url in state.imageUrls}
-            key={url}
-            class="glide__slide zoomist-container"
-          >
-            <div class="zoomist-wrapper">
-              <div class="zoomist-image">
-                <img
-                  src={url}
-                  class="d-block mw-100"
-                  onload={event => imageLoaded(event)}
-                />
-              </div>
-            </div>
-          </li>
-        </ul>
+    <div class="media">
+      <div class="glide-control">
+        {cap(t('go_to_image'))}
+        <select onchange={event => toSlide(event.target.value)} class="form-control w-auto d-inline-block mx-1">
+          <option
+            each={(url, i) in state.imageUrls}
+            value={i}
+            selected={isCurrentSlide(i)}
+          >{i + 1}</option>
+        </select>
+        {t('of')} {state.imageUrls.length}
+
+        <a href="#" onclick={event => fullscreen(event)} class="ms-5">
+          <svg is="icon" type="maximize-2"></svg>
+        </a>
       </div>
 
-      <a
-        class="prev px-3 {isFirst() && 'invisible'}"
-        onclick={event => prev(event)}
-      >
-        <svg is="icon" type="chevrons-left"></svg>
-      </a>
-      <a
-        class="next px-3 {isLast() && 'invisible'}"
-        onclick={event => next(event)}
-      >
-        <svg is="icon" type="chevrons-right"></svg>
-      </a>
+      <div class="glide my-4 mb-5">
+        <div class="glide__track" data-glide-el="track">
+          <ul class="glide__slides">
+            <li
+              each={url in state.imageUrls}
+              key={url}
+              class="glide__slide"
+            >
+              <div is="zoomable-image" src={url} />
+            </li>
+          </ul>
+        </div>
+
+        <a
+          class="prev px-3 {isFirst() && 'invisible'}"
+          onclick={event => prev(event)}
+        >
+          <svg is="icon" type="chevrons-left"></svg>
+        </a>
+        <a
+          class="next px-3 {isLast() && 'invisible'}"
+          onclick={event => next(event)}
+        >
+          <svg is="icon" type="chevrons-right"></svg>
+        </a>
+      </div>
     </div>
   </template>
 
@@ -80,9 +80,10 @@
     import Renderer from '@ieg/qtei/src/lib/Renderer.js'
     // import {} from '@ieg/qtei/src/lib/processors.js'
     import Glide from '@glidejs/glide'
-    import Zoomist from 'zoomist'
 
     import Icon from './Icon.riot'
+    import FullscreenImages from './FullscreenImages.riot'
+    import ZoomableImage from './ZoomableImage.riot'
 
     const notify = (left, selector) => {
       return (data) => {
@@ -175,11 +176,12 @@
     }
 
     export default class {
-      static components = {Icon}
+      static components = {Icon, FullscreenImages, ZoomableImage}
 
       onBeforeMount(props, state) {
         state['style'] = props.style
         state['imageUrls'] = []
+        state['fsIndex'] = 0
 
         this.transliterationBM()
         this.editionBM()
@@ -278,15 +280,6 @@
         this.update()
       }
 
-      imageLoaded(event) {
-        const slide = util.parents(event.target, '.zoomist-container')
-
-        slide.fvZoomist = new Zoomist(slide, {
-          slider: true,
-          zoomRatio: 0.5
-        })
-      }
-
       toHttps(url) {
         return url.replace(/^http:/, 'https:')
       }
@@ -333,6 +326,11 @@
 
         this.state.glide.go('>')
         this.update()
+      }
+
+      fullscreen(event) {
+        event.preventDefault()
+        this.bus.emit('fullscreen-images')
       }
     }
   </script>

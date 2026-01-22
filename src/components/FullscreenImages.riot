@@ -1,0 +1,99 @@
+<fullscreen-images
+  class="{isActive() ? 'active' : ''}"
+  onfullscreenchange={event => onFullscreenChange(event)}
+>
+  <a
+    class="prev px-3 {isFirst()}"
+    onclick={event => prev(event)}
+  >
+    <svg is="icon" type="chevrons-left"></svg>
+  </a>
+  <div
+    if={isActive()}
+    is="zoomable-image"
+    src={currentUrl()}
+  />
+  <a
+    class="next px-3 {isLast()}"
+    onclick={event => next(event)}
+  >
+    <svg is="icon" type="chevrons-right"></svg>
+  </a>
+
+  <a
+    class="deactivate px-3"
+    onclick={event => deactivate(event)}
+  >
+    <svg is="icon" type="minimize-2"></svg>
+  </a>
+
+  <script>
+    import Icon from './Icon.riot'
+    import ZoomableImage from './ZoomableImage.riot'
+
+    export default class {
+      static components ={Icon, ZoomableImage}
+
+      onBeforeMount(props, state) {
+        state['current'] = 0
+      }
+
+      onMounted(props, state) {
+        this.on('fullscreen-images', event => this.activate())
+      }
+
+      currentUrl() {
+        const urls = this.props['urls']
+        const index = this.state['current']
+
+        return urls[index]
+      }
+
+      prev(event) {
+        this.update({
+          current: Math.max(0, this.state['current'] - 1)
+        })
+      }
+
+      next(event) {
+        this.update({
+          current: Math.min(this.props['urls'].length - 1, this.state['current'] + 1)
+        })
+      }
+
+      isFirst() {
+        return this.state['current'] === 0
+      }
+
+      isLast() {
+        return this.state['current'] === this.props['urls'].length - 1
+      }
+
+      isActive() {
+        return document.fullscreen
+      }
+
+      activate() {
+        this.root.requestFullscreen().then(() => {
+          this.update()
+
+          setTimeout(() => {
+            this.emit('zoomable-image-update')
+          }, 0)
+        })
+      }
+
+      deactivate(event) {
+        if (event) event.preventDefault()
+
+        document.exitFullscreen()
+      }
+
+      onFullscreenChange(event) {
+        if (event) event.preventDefault()
+
+        this.update()
+      }
+    }
+  </script>
+</fullscreen-images>

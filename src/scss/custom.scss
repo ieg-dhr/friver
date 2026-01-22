@@ -69,6 +69,42 @@ style-icons {
   }
 }
 
+[is='zoomable-image'] {
+  display: block;
+
+  .zoomist-wrapper {
+    cursor: zoom-in;
+  }
+}
+
+[is='fullscreen-images'] {
+  display: none;
+
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  z-index: 10001;
+  background-color: $fv-light;
+  justify-content: center;
+  align-items: center;
+
+  [is='zoomable-image'] {
+    height: 100%;
+  }
+
+  &.active {
+    display: flex;
+  }
+
+  a.deactivate {
+    position: absolute;
+    top: 30px;
+    right: 20px;
+  }
+}
+
 watchlist-toggle {
   svg.active {
     fill: $primary;
@@ -632,10 +668,6 @@ offcanvas {
       position: absolute;
       top: 0;
       right: -50px;
-    }
-
-    .zoomist-wrapper {
-      cursor: zoom-in;
     }
   }
 
