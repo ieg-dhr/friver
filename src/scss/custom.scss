@@ -786,6 +786,18 @@ offcanvas {
     display: flex;
     justify-content: space-between;
     font-size: 16px;
+
+    .inputs {
+      input {
+        max-width: 40px;
+        appearance: textfield;
+        text-decoration: underline;
+        text-decoration-color: $fv-highlight-2;
+        text-underline-offset: 10px;
+
+        border-bottom-width: 0;
+      }
+    }
   }
 }
 
