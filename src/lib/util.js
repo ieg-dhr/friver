@@ -1,5 +1,6 @@
+import {default as st} from 'strftime'
 import {default as config} from '../../.env.js'
-import {bus, Url} from '@wendig/lib'
+import {bus, Url, i18n} from '@wendig/lib'
 
 const navigateTo = (url) => {
   window.history.pushState(null, '', url)
@@ -57,10 +58,25 @@ const removeMultiParam = (param, value) => {
   navigateTo(url.resource())
 }
 
+const strftime = (datetime, format = '%Y-%m-%d %H:%M:%S') => {
+  console.log(datetime)
+  if (!datetime || !format) return null
+  
+  let value = datetime
+  if (!(value instanceof Date)) value = new Date(value)
+
+  console.log(typeof value)
+  const id = {en: 'en_US', de: 'de_DE', fr: 'fr_FR', it: 'it_IT'}[i18n.locale]
+  const localizer = st.localizeByIdentifier(id)
+
+  return localizer(format, value)
+}
+
 export {
   navigateTo,
   toAbsoluteUrl,
   toTreaty,
   addMultiParam,
-  removeMultiParam
+  removeMultiParam,
+  strftime
 }

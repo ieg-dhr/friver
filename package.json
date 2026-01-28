@@ -28,6 +28,7 @@
     "rollup": "^4.55.2",
     "rollup-plugin-riot": "^10.0.0",
     "sass": "^1.71.1",
+    "strftime": "^0.10.3",
     "string-width": "v4",
     "zoomist": "^2.2.0"
   },

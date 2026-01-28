@@ -33,7 +33,6 @@ class FvImporter
         id: id,
         collection: title.xpath("tei:title[@level = 's']").text,
         date: title.xpath("tei:title[@level = 'a']/@when").to_s,
-        dateLabel: title.xpath("tei:title[@level = 'a']/@when-custom").to_s,
         legacyUrl: title.xpath("tei:title[@level = 'a']/@ref").to_s,
         language: doc.xpath('//tei:profileDesc/tei:langUsage').inner_text,
         title: title.xpath("tei:title[@level = 'a']").inner_text,

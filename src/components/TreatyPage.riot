@@ -26,9 +26,9 @@
             <div class="value">{state.doc.meta['language']}</div>
           </template>
 
-          <template if={state.doc.meta['dateLabel']}>
+          <template if={state.doc.hasDate()}>
             <div class="label">{t('date')}</div>
-            <div class="value">{state.doc.meta['dateLabel']}</div>
+            <div class="value">{state.doc.dateLabel()}</div>
           </template>
         </div>
 
@@ -117,7 +117,6 @@
       fetch() {
         const id = this.state['id'] || this.props['id']
         search.treaty({id}).then(data => {
-          console.log(data)
           this.update({doc: data})
         })
       }

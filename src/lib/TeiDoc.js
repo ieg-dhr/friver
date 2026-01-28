@@ -1,6 +1,7 @@
 import {default as QteiTeiDoc} from '@ieg/qtei/src/lib/TeiDoc.js'
 import entities from '../entities.js'
 import {default as config} from '../../.env.js'
+import {strftime} from './util'
 
 const preprocess = (xml) => {
   let result = xml
@@ -54,11 +55,34 @@ export default class TeiDoc extends QteiTeiDoc {
     return this.meta['date']
   }
 
+  dateLabel() {
+    let date = this.date()
+    if (!date) return null
+
+    let parsed = new Date(date)
+    parsed = new Date(parsed.toISOString())
+
+    const isFull = !!date.match(/^\d{4}-\d{2}-\d{2}$/)
+    if (isFull) return strftime(parsed, '%D')
+
+    const hasMonth = !!date.match(/^\d{4}-\d{2}$/)
+    if (hasMonth) return strftime(parsed, '%B %Y')
+
+    const isYear = !!date.match(/^\d{4}$/)
+    if (isYear) return strftime(parsed, '%Y')
+    
+    return null
+  }
+
   github() {
     return `https://github.com/ieg-dhr/friver-plus/blob/main/Transcriptions/${this.id()}.xml`
   }
 
   url() {
     return `${config['FV_STATIC_URL']}/data/${this.id()}.xml`
+  }
+
+  hasDate() {
+    return !!this.date()
   }
 }
