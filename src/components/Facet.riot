@@ -8,7 +8,7 @@
     <li each={bucket in buckets()} class="d-flex">
       <div class="value flex-grow-1">
         <a href="#" onclick={event => onFacetClicked(bucket.value, event)}>
-          {bucket.value}
+          {label(bucket.value)}
         </a>
       </div>
       <div class="count ms-4">{bucket.count}</div>
@@ -21,8 +21,8 @@
     onclick={event => onToggle(event)}
     class="d-block text-end text-decoration-none fs-7"
   >
-    <svg if={state.expanded} is="icon" type="chevron-up" />
-    <svg if={!state.expanded} is="icon" type="chevron-down" />
+    <svg if={state.expanded} is="icon" type="chevron-up"></svg>
+    <svg if={!state.expanded} is="icon" type="chevron-down"></svg>
   </a>
 
   <script>
@@ -71,6 +71,13 @@
           this.state.buckets :
           this.state.buckets.slice(0, 5)
         )
+      }
+
+      label(value) {
+        const labels = this.props.labelData
+        if (!labels) return value
+
+        return labels[value] || value
       }
     }
   </script>

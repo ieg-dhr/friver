@@ -59,13 +59,11 @@ const removeMultiParam = (param, value) => {
 }
 
 const strftime = (datetime, format = '%Y-%m-%d %H:%M:%S') => {
-  console.log(datetime)
   if (!datetime || !format) return null
   
   let value = datetime
   if (!(value instanceof Date)) value = new Date(value)
 
-  console.log(typeof value)
   const id = {en: 'en_US', de: 'de_DE', fr: 'fr_FR', it: 'it_IT'}[i18n.locale]
   const localizer = st.localizeByIdentifier(id)
 

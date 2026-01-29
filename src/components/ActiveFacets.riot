@@ -7,7 +7,7 @@
         onclick={event => removeMultiParam(item.param, item.value)}
         href="#"
       >
-        {item.value}
+        {label(item.param, item.value)}
       </a>
     </li>
   </ul>
@@ -34,6 +34,16 @@
         }
 
         return results
+      }
+
+      label(param, value) {
+        let labels = this.props.labelData
+        if (!labels) return value
+
+        labels = labels[param]
+        if (!labels) return value
+
+        return labels[value] || value
       }
     }
   </script>

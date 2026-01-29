@@ -11,7 +11,7 @@
           on-select={style => loadStyle(style)}
         />
 
-        {state.doc.meta['title']}
+        {state.doc.title()}
       </h1>
 
       <div if={state.doc} class="metadata row">

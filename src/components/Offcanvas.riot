@@ -69,7 +69,7 @@
                       onclick={event => onTreatyClick(treaty, event)}
                       class="text-black text-decoration-none"
                     >
-                      <span class="fw-bolder">{treaty.meta['dateLabel'] + ' '}</span>
+                      <span class="fw-bolder">{treaty.dateLabel() + ' '}</span>
                       | {treaty.meta['title']}
                     </a>
                   </td>
@@ -89,8 +89,9 @@
             />
 
             <active-facets
-              params={['language', 'signatory', 'location']}
+              params={['language', 'signatory', 'location', 'archive_id']}
               criteria={criteria()}
+              label-data={{archive_id: state['archives']}}
               class="mb-4"
             />
 
@@ -115,6 +116,15 @@
               param="location"
               buckets={state.data.buckets['location']}
               criteria={criteria()}
+              class="mb-4"
+            />
+
+            <facet
+              title={t('archives')}
+              param="archive_id"
+              buckets={state.data.buckets['archive']}
+              criteria={criteria()}
+              label-data={state['archives']}
               class="mb-4"
             />
           </div>
@@ -159,6 +169,10 @@
 
         this.urlSearch = new UrlSearchNG(this)
         this.urlSearch.setup()
+
+        search.archives().then(data => {
+          this.update({archives: data})
+        })
       }
 
       criteria() {

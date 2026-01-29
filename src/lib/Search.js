@@ -23,4 +23,10 @@ export default class Search extends WendigSearch {
       return TeiDoc.parse(data.xml, data.meta)
     })
   }
+
+  archives() {
+    return this.postMessage({action: 'archives'}).then(data => {
+      return data
+    })
+  }
 }

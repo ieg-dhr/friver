@@ -59,6 +59,8 @@ class FvImporter
 
         source: doc.xpath('//tei:sourceDesc/tei:msDesc').inner_text,
         # 'source.xml': doc.xpath('//tei:sourceDesc').inner_html,
+        archive_id: doc.xpath('//tei:sourceDesc/tei:repository/@xml:id').to_s,
+        archive: doc.xpath('//tei:sourceDesc/tei:repository').inner_text,
 
         signatories: doc.xpath("//tei:listPerson/tei:person[@role = 'signatory']").map{ |p|
           {

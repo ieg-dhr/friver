@@ -6,17 +6,25 @@ import TeiDoc from './lib/TeiDoc'
 
 // init
 
-let storage = {}
+let storage = {
+  docs: [],
+  archives: []
+}
 let database = new Database()
 onmessage = database.handler
 
 fetch(config['FV_STATIC_URL'] + '/data.json').then(r => r.json()).then(data => {
-  storage = data
+  storage['docs'] = data
+  storage['archives'] = extractArchives(data)
 
   database.loaded()
 })
 
 // actions
+
+database.action('archives', data => {
+  return storage['archives']
+})
 
 database.action('treaties', data => {
   const criteria = sanitizeCriteria(data.criteria)
@@ -26,10 +34,11 @@ database.action('treaties', data => {
     location: [],
     signatory: [],
     language: [],
-    year: []
+    year: [],
+    archive: []
   }
 
-  let records = Object.values(storage).filter(record => {
+  let records = Object.values(storage['docs']).filter(record => {
     const year = parseInt(record['date'].split('-')[0])
 
     if (!matchesTerms(record, criteria['terms'])) return false
@@ -37,6 +46,7 @@ database.action('treaties', data => {
     if (!matchesLanguage(record, criteria['language'])) return false
     if (!matchesSignatory(record, criteria['signatory'])) return false
     if (!matchesLocation(record, criteria['location'])) return false
+    if (!matchesArchive(record, criteria['archive_ids'])) return false
 
     aggregate(buckets, 'year', year)
 
@@ -45,6 +55,7 @@ database.action('treaties', data => {
     aggregate(buckets, 'language', record['language'])
     aggregate(buckets, 'signatory', record['signatories'].map(e => e['name']))
     aggregate(buckets, 'location', record['places'].map(e => e['name']))
+    aggregate(buckets, 'archive', record['archive_id'])
 
     return true
   })
@@ -73,6 +84,7 @@ database.action('treaties', data => {
   buckets['language'] = util.sortBy(buckets['language'], d => d.count).reverse()
   buckets['signatory'] = util.sortBy(buckets['signatory'], d => d.count).reverse()
   buckets['location'] = util.sortBy(buckets['location'], d => d.count).reverse()
+  buckets['archive'] = util.sortBy(buckets['archive'], d => d.count).reverse()
   buckets['year'] = util.sortBy(buckets['year'], d => d.value)
 
   // re-bin years
@@ -104,7 +116,7 @@ database.action('treaty', data => {
   const url = `${config['FV_STATIC_URL']}/data/${id}.xml`
   const promise = new Promise((resolve, reject) => {
     fetch(url).then(r => r.text()).then(xml => {
-      resolve({meta: storage[id], xml})
+      resolve({meta: storage['docs'][id], xml})
     })
   })
 
@@ -173,6 +185,14 @@ const matchesSignatory = (record, signatory) => {
   return false
 }
 
+const matchesArchive = (record, archiveIds) => {
+  if (!archiveIds) return true
+
+  const ids = archiveIds.split(',')
+  return ids.indexOf(record['archive_id']) > -1
+}
+
+
 const matchesLocation = (record, location) => {
   if (!location) return true
 
@@ -212,4 +232,14 @@ const sanitizeCriteria = (input) => {
   criteria['locale'] = criteria['locale'] || 'en'
 
   return criteria
+}
+
+const extractArchives = (data) => {
+  let results = {}
+
+  for (const d of Object.values(data)) {
+    results[d['archive_id']] = d['archive']
+  }
+
+  return results
 }
