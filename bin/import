@@ -1,5 +1,6 @@
 #!/usr/bin/env ruby
 
+require 'csv'
 require 'nokogiri'
 require 'roo'
 require 'kramdown'
@@ -10,6 +11,7 @@ class FvImporter
   def run
     transcriptions
     translations
+    archives(write: true)
   end
 
   def transcriptions
@@ -59,8 +61,6 @@ class FvImporter
 
         source: doc.xpath('//tei:sourceDesc/tei:msDesc').inner_text,
         # 'source.xml': doc.xpath('//tei:sourceDesc').inner_html,
-        archive_id: doc.xpath('//tei:sourceDesc/tei:repository/@xml:id').to_s,
-        archive: doc.xpath('//tei:sourceDesc/tei:repository').inner_text,
 
         signatories: doc.xpath("//tei:listPerson/tei:person[@role = 'signatory']").map{ |p|
           {
@@ -82,6 +82,19 @@ class FvImporter
       }
 
       text << doc.xpath("//tei:text//tei:div[@type = 'Transliteration']").inner_text
+
+      archive_id = doc.xpath('//tei:sourceDesc/tei:repository/@xml:id').to_s
+      if archive_id && archive_id != ''
+        archive = archives[archive_id]
+        
+        if archive
+          data[id]['archive_id'] = archive_id
+          label = clean(doc.xpath('//tei:sourceDesc/tei:repository').inner_text)
+          if label && label != ''
+            archive['label'] ||= label
+          end
+        end
+      end
 
       data[id] = clean(data[id])
     end
@@ -200,6 +213,22 @@ class FvImporter
       else
         str
       end
+    end
+
+    def archives(write: false)
+      unless @archives
+        @archives = CSV.
+          read('data/ieg_treaty_archives_id_names_list.csv', headers: true).
+          map{|r| {'id' => r['xml-id'], 'short' => r['archive-label']}}.
+          to_h{|h| [h['id'], h]}
+      end
+
+      if write
+        str = JSON.pretty_generate(@archives)
+        File.write "src/archives.json", str
+      end
+
+      @archives
     end
 end
 

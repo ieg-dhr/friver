@@ -100,7 +100,7 @@
               <active-facets
                 params={['language', 'signatory', 'location', 'archive_id']}
                 criteria={criteria()}
-                label-data={{archive_id: state['archives']}}
+                label-data={{archive_id: archiveLabelData()}}
                 class="mb-4"
               />
 
@@ -133,7 +133,7 @@
                 param="archive_id"
                 buckets={state.data.buckets['archive']}
                 criteria={criteria()}
-                label-data={state['archives']}
+                label-data={archiveLabelData()}
                 class="mb-4"
               />
             </div>
@@ -233,6 +233,7 @@
 
       expand() {
         this.state['open'] = true
+        this.update()
         this.state.offcanvas.show()
         this.emit('offcanvas-opened')
       }
@@ -258,6 +259,17 @@
         console.log('x')
 
         this.update({extended: !this.state['extended']})
+      }
+
+      archiveLabelData() {
+        let result = {}
+        if (!this.state['archives']) return result
+
+        for (const a of Object.values(this.state['archives'])) {
+          result[a['id']] = a['short']
+        }
+
+        return result
       }
 
       classes() {

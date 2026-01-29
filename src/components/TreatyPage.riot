@@ -64,6 +64,19 @@
                 target="_blank"
               >ehemaliger Datensatz</a>
             </div>
+
+            <template if={state.doc.hasArchive()}>
+              <div class="label">{t('archive')}</div>
+              <div class="value">
+                <a href="#" onclick={event => toggleArchive()}>
+                  {state.doc.archive('short')}
+                </a>
+
+                <div if={state['archiveExpanded']}>
+                  <raw html={state.doc.archive('label')} />
+                </div>
+              </div>
+            </template>
           </div>
         </div>
       </div>
@@ -87,6 +100,7 @@
     import StyleIcons from './StyleIcons.riot'
     import ContentLoader from './ContentLoader.riot'
     import Favorites from './Favorites.riot'
+    import Raw from './Raw.riot'
 
     export default class {
       static components = {
@@ -96,11 +110,16 @@
         FilterList,
         StyleIcons,
         ContentLoader,
-        Favorites
+        Favorites,
+        Raw
       }
 
       onMounted() {
         this.fetch()
+      }
+
+      toggleArchive() {
+        this.update({archiveExpanded: !this.state.archiveExpanded})
       }
 
       reload(props) {

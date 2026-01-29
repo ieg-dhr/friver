@@ -2,6 +2,8 @@ import {default as QteiTeiDoc} from '@ieg/qtei/src/lib/TeiDoc.js'
 import entities from '../entities.js'
 import {default as config} from '../../.env.js'
 import {strftime} from './util'
+import * as linkify from 'linkifyjs'
+import linkifyHtml from 'linkify-html'
 
 const preprocess = (xml) => {
   let result = xml
@@ -72,6 +74,20 @@ export default class TeiDoc extends QteiTeiDoc {
     if (isYear) return strftime(parsed, '%Y')
     
     return null
+  }
+
+  hasArchive() {
+    return !!this.meta['archive']
+  }
+
+  archive(format = 'short') {
+    const record = this.meta['archive']
+    if (!record) return null
+
+    let result = record[format]
+    if (format === 'label') result = linkifyHtml(result)
+
+    return result
   }
 
   github() {

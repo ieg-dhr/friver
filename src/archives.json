@@ -1,0 +1,176 @@
+{
+  "r2": {
+    "id": "r2",
+    "short": "Bamberg StA",
+    "label": "Bamberg StA Staatsarchiv Bamberg, Rep. A 85 Lade 339 Nr. 1073 = StaBa, Fränkischer Kreis, Kreisarchiv Nr. 583. Findbuch: https://www.gda.bayern.de/findmitteldb/Archivalie/1251145/"
+  },
+  "r3": {
+    "id": "r3",
+    "short": "Berlin GStAPK",
+    "label": "Berlin GStAPK Geheimes Staatsarchiv Preußischer Kulturbesitz Berlin, Registratur-/Altsignatur: VI. HA, Nr. 771 (M) = Bestellsignatur: I. HA GR, Rep. 11 Staatsvertraege, Nr. 817. Findbuch: http://archivdatenbank.gsta.spk-berlin.de ..."
+  },
+  "r4": {
+    "id": "r4",
+    "short": "Budapest MOL",
+    "label": "Budapest MOL Budapest MOL, Findbuch: https://www.eleveltar.hu/digitalis-tartalom?source=mnlscope&ref=mnlscope::1984384"
+  },
+  "r5": {
+    "id": "r5",
+    "short": "Darmstadt HessStA",
+    "label": "Darmstadt HessStA Hessisches Staatsarchiv Darmstadt, A 6 Nr. 7. Digital: https://arcinsys.hessen.de/arcinsys/detailAction?detailid=v3638788"
+  },
+  "r6": {
+    "id": "r6",
+    "short": "Den Haag NA",
+    "label": "Den Haag NA Den Haag NA, Findbuch: eadid/1.01.02/inventarisnr/12586.23"
+  },
+  "r7": {
+    "id": "r7",
+    "short": "Dresden SaechsHStA",
+    "label": "Dresden SaechsHStA"
+  },
+  "r8": {
+    "id": "r8",
+    "short": "Genf AEG",
+    "label": "Genf AEG Archives d'Etat de Genve / Base de donnes Adhmar, Digitalisat: https://ge.ch/arvaegconsult/ws/consaeg/public/fiche/imageMenu?display=1&cote=P.H.%20964&image=PH/99632&pages=4"
+  },
+  "r9": {
+    "id": "r9",
+    "short": "Graubuenden StA",
+    "label": "Graubuenden StA Staatsarchiv Graubünden, A I/01 Nr. 200. Findbuch: https://staatsarchiv-findsystem.gr.ch/home/#/content/37caa21b53264c28bf8fad2996ac41a2"
+  },
+  "r10": {
+    "id": "r10",
+    "short": "Hannover StA/LA",
+    "label": "Hannover StA/LA Arcinsys Niedersachsen, Hannover NLA, Findbuch: http://www.arcinsys.niedersachsen.de/arcinsys/detailAction?detailid=v3436587"
+  },
+  "r11": {
+    "id": "r11",
+    "short": "Karlsruhe LA"
+  },
+  "r12": {
+    "id": "r12",
+    "short": "Kew NA",
+    "label": "Kew NA The National Archives Kew, SP 108/35/Part2 (dänische Ratifikation 1670 VIII 11). Findbuch: http://discovery.nationalarchives.gov.uk/results/r?_ep=SP%20108%2F35%2FPart2"
+  },
+  "r13": {
+    "id": "r13",
+    "short": "Kopenhagen RA",
+    "label": "Kopenhagen RA"
+  },
+  "r14": {
+    "id": "r14",
+    "short": "Lissabon ANTT",
+    "label": "Lissabon ANTT Arquivo Nacional Torre do Tombo Lissabon, Gavetas, Gav. 18, mç. 7, n.º 25. Findbuch: http://digitarq.arquivos.pt/details?id=4186049"
+  },
+  "r15": {
+    "id": "r15",
+    "short": "Luebeck StadtA",
+    "label": "Luebeck StadtA Archiv der Hansestadt Lübeck, ASA Externa, Danica 0074. Findbuch: https://www.stadtarchiv-luebeck.findbuch.net/php/rech_print.php?ve_id=1022580"
+  },
+  "r16": {
+    "id": "r16",
+    "short": "Luzern StA",
+    "label": "Luzern StA Luzern StA, Findbuch: https://query-staatsarchiv.lu.ch/detail.aspx?ID=1212702"
+  },
+  "r17": {
+    "id": "r17",
+    "short": "Madrid AHN",
+    "label": "Madrid AHN Archivo Histórico Nacional Madrid, ESTADO,2797,Exp.36. Digital: http://pares.mcu.es/ParesBusquedas20/catalogo/show/4931515"
+  },
+  "r18": {
+    "id": "r18",
+    "short": "Mailand StA",
+    "label": "Mailand StA Mailand StA: http://www.asmilano.it/AriannaWeb/main.htm#833577_archivio Mikrofilmaufnahmen der Reproduktionsabteilung des Archivio di Stato di Milano, Veröffentlichung mit freundlicher Genehmigung der Archivleitung."
+  },
+  "r19": {
+    "id": "r19",
+    "short": "Moskau RGADA",
+    "label": "Moskau RGADA"
+  },
+  "r20": {
+    "id": "r20",
+    "short": "Muenchen BayHStA",
+    "label": "Muenchen BayHStA"
+  },
+  "r21": {
+    "id": "r21",
+    "short": "Muenster StA/LA",
+    "label": "Muenster StA/LA Traits et Accords de la France: http://www.diplomatie.gouv.fr/traites/affichetraite.do?accord=TRA16790014"
+  },
+  "r22": {
+    "id": "r22",
+    "short": "Paris AAE",
+    "label": "Paris AAE Traits et Accords de la France: http://www.diplomatie.gouv.fr/traites/affichetraite.do?accord=TRA16330001"
+  },
+  "r23": {
+    "id": "r23",
+    "short": "Paris NA",
+    "label": "Paris NA Archives nationales de France, K 1308 (37) [Kopie fehldatiert]. Findbuch: https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_001343/d_1_4_2"
+  },
+  "r24": {
+    "id": "r24",
+    "short": "Schleswig-Holstein LA",
+    "label": "Schleswig-Holstein LA Landesarchiv Schleswig-Holstein, Abt. 7 Nr. 462 Reichsarchiv: vol. 10, I, 63-66: https://nbn-resolving.org/urn:nbn:de:bvb:384-uba000274-6#0063 Edition: Danmark-Norges Traktater 3, 547-558: https://www.sa.dk/ao-soegesider/da/billedviser?epid=17287984#214834,40568826"
+  },
+  "r25": {
+    "id": "r25",
+    "short": "Simancas AG",
+    "label": "Simancas AG"
+  },
+  "r26": {
+    "id": "r26",
+    "short": "Stockholm RA",
+    "label": "Stockholm RA Stockholm, Riksarkivet, Digitalisat: https://sok.riksarkivet.se/bildvisning/R0000105_00001"
+  },
+  "r27": {
+    "id": "r27",
+    "short": "Turin StA",
+    "label": "Turin StA"
+  },
+  "r28": {
+    "id": "r28",
+    "short": "Vatikan ASV",
+    "label": "Vatikan ASV"
+  },
+  "r29": {
+    "id": "r29",
+    "short": "Venedig StA",
+    "label": "Venedig StA Der Friede kommt durch einen Schiedsspruch von Leonello d'Este zustande. Die Mikrofilmaufnahmen der hier gezeigten digitalen Grafiken verfertigte die Reproduktionsabteilung des Archivio di Stato di Venezia. Ihre Veröffentlichung geschieht mit freundlicher Genehmigung der Archivleitung. Die Reproduktion ist verboten."
+  },
+  "r30": {
+    "id": "r30",
+    "short": "Warschau AGAD",
+    "label": "Warschau AGAD"
+  },
+  "r31": {
+    "id": "r31",
+    "short": "Zuerich StA",
+    "label": "Zuerich StA Staatsarchiv Zürich, C I, Nr. 1399. Findbuch: http://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=249887 Eidgenössische Abschiede 2, Seite 911. Digital: https://digital.ub.uni-duesseldorf.de/content/pageview/207771"
+  },
+  "r32": {
+    "id": "r32",
+    "short": "Wolfenbuettel StA/LA",
+    "label": "Wolfenbuettel StA/LA Unterhändlerinstrumente: Niedersächsisches Landesarchiv Wolfenbüttel, Findbuch: http://www.arcinsys.niedersachsen.de/arcinsys/detailAction?detailid=v6981335 http://www.arcinsys.niedersachsen.de/arcinsys/detailAction?detailid=v6981337 http://www.arcinsys.niedersachsen.de/arcinsys/detailAction?detailid=v6981341"
+  },
+  "r33": {
+    "id": "r33",
+    "short": "Wuerzburg StA",
+    "label": "Wuerzburg StA Staatsarchiv Würzburg: Würzburg Urkunden 35/54 Siehe auch Ausfertigung für Frankreich: Traités et accords de la France, Traité № 17730006"
+  },
+  "r34": {
+    "id": "r34",
+    "short": "Wien HHStA",
+    "label": "Wien HHStA"
+  },
+  "r35": {
+    "id": "r35",
+    "short": "Genua StA",
+    "label": "Genua StA"
+  },
+  "r36": {
+    "id": "r36",
+    "short": "Sevilla AGI",
+    "label": "Sevilla AGI Archivo General de Indias Sevilla, ES.41091.AGI//PATRONATO,1,N.6,R.2. Digital: http://pares.mcu.es/ParesBusquedas20/catalogo/show/121027"
+  }
+}

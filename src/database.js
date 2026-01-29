@@ -13,12 +13,24 @@ let storage = {
 let database = new Database()
 onmessage = database.handler
 
-fetch(config['FV_STATIC_URL'] + '/data.json').then(r => r.json()).then(data => {
-  storage['docs'] = data
-  storage['archives'] = extractArchives(data)
+let promises = []
 
+promises.push(
+  fetch(config['FV_STATIC_URL'] + '/data.json').then(r => r.json()).then(data => {
+    storage['docs'] = data
+  })
+)
+
+promises.push(
+  fetch(config['FV_STATIC_URL'] + '/archives.json').then(r => r.json()).then(data => {
+    storage['archives'] = data
+  })
+)
+
+Promise.all(promises).then(() => {
   database.loaded()
 })
+
 
 // actions
 
@@ -59,6 +71,7 @@ database.action('treaties', data => {
 
     return true
   })
+
 
   // sort results
 
@@ -105,6 +118,15 @@ database.action('treaties', data => {
   buckets['year'] = tmp
 
   const response = paginate(records, criteria, {buckets})
+
+
+  // add archives
+  for (const r of response['records']) {
+    const id = r['archive_id']
+    if (!id) continue
+
+    r['archive'] = storage['archives'][id]
+  }
 
   return response
 })
@@ -232,14 +254,4 @@ const sanitizeCriteria = (input) => {
   criteria['locale'] = criteria['locale'] || 'en'
 
   return criteria
-}
-
-const extractArchives = (data) => {
-  let results = {}
-
-  for (const d of Object.values(data)) {
-    results[d['archive_id']] = d['archive']
-  }
-
-  return results
 }
