@@ -470,7 +470,6 @@ offcanvas {
   style-icons {
     flex-direction: column;
     position: relative;
-    right: -7px;
   }
 
   .offcanvas-backdrop {
@@ -526,6 +525,36 @@ offcanvas {
     svg[is='icon'][type='search'] {
       width: 24px;
       height: 24px;
+    }
+
+    &.open.extended {
+      .offcanvas {
+        z-index: 2000;
+
+        &.offcanvas-end {
+          --bs-offcanvas-width: 1024px;
+        }
+      }
+
+      [is='range-control'] {
+        width: 500px;
+        margin: 0 auto;
+        margin-bottom: 2em;
+      }
+
+      table {
+        td {
+          padding: 0.25rem 0.5rem;
+        }
+      }
+
+      .results {
+        width: calc(100% - 300px);
+      }
+
+      .filters {
+        width: 300px;
+      }
     }
   }
 }

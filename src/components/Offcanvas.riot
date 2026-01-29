@@ -1,6 +1,4 @@
-<offcanvas
-  class="{state['open'] && 'open'}"
->
+<offcanvas class={classes()}>
   <div class="offcanvas offcanvas-end">
     <div class="offcanvas-body">
       <a href="#" onclick={event => toggle(event)} class="text-body">
@@ -8,6 +6,16 @@
           is="icon"
           type="search"
         ></svg>
+      </a>
+
+      <a
+        if={state['open']}
+        href="#"
+        onclick={event => this.onExtend(event)}
+        class="d-inline-block ms-2 text-body"
+      >
+        <svg if={!state['extended']} is="icon" type="maximize-2"></svg>
+        <svg if={state['extended']} is="icon" type="minimize-2"></svg>
       </a>
 
       <div class="open-only mt-5">
@@ -30,103 +38,105 @@
           on-inputs-changed={onInput}
         />
 
-        <div class="row">
-          <div class="col-12 col-md-7">
-            <input
-              class="form-control mt-3 mb-4 px-0 w-100"
-              type="text"
-              placeholder="{t('search_in_title')} …"
-              onkeyup={event => onDelayedInput({terms: event.target.value})}
-              value={criteria()['terms']}
-            />
+        <div class="expander">
+          <div class="row">
+            <div class="col-12 col-md-7 results">
+              <input
+                class="form-control mt-3 mb-4 px-0 w-100"
+                type="text"
+                placeholder="{t('search_in_title')} …"
+                onkeyup={event => onDelayedInput({terms: event.target.value})}
+                value={criteria()['terms']}
+              />
 
-            <div class="d-flex justify-content-between">
-              <div if={state.data} class="mb-4 text-end">
-                {state.data.total} Einträge
+              <div class="d-flex justify-content-between">
+                <div if={state.data} class="mb-4 text-end">
+                  {state.data.total} Einträge
+                </div>
+
+                <div
+                  if={state.data}
+                  is="pagination"
+                  page={state.data.page}
+                  total={state.data.total}
+                  per-page={24}
+                  page-to={onInput}
+                />
               </div>
 
-              <div
+              <table
                 if={state.data}
-                is="pagination"
-                page={state.data.page}
-                total={state.data.total}
-                per-page={12}
-                page-to={onInput}
-              />
+                class="table table-borderless table-responsive mt-3"
+              >
+                <tbody>
+                  <tr each={treaty in state.data.records}>
+                    <td class="ps-0">
+                      <watchlist-toggle doc={treaty}></watchlist-toggle>
+                    </td>
+                    <td class="title">
+                      <a
+                        onclick={event => onTreatyClick(treaty, event)}
+                        class="text-black text-decoration-none"
+                      >
+                        <span class="fw-bolder">{treaty.dateLabel() + ' '}</span>
+                        | {treaty.meta['title']}
+                      </a>
+                    </td>
+                    <td class="me-0 pe-0">
+                      <style-icons doc={treaty} class="align-items-end"></style-icons>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
             </div>
 
-            <table
-              if={state.data}
-              class="table table-borderless table-responsive mt-3"
-            >
-              <tbody>
-                <tr each={treaty in state.data.records}>
-                  <td class="ps-0">
-                    <watchlist-toggle doc={treaty}></watchlist-toggle>
-                  </td>
-                  <td class="title">
-                    <a
-                      onclick={event => onTreatyClick(treaty, event)}
-                      class="text-black text-decoration-none"
-                    >
-                      <span class="fw-bolder">{treaty.dateLabel() + ' '}</span>
-                      | {treaty.meta['title']}
-                    </a>
-                  </td>
-                  <td class="me-0 pe-0 text-right">
-                    <style-icons doc={treaty}></style-icons>
-                  </td>
-                </tr>
-              </tbody>
-            </table>
-          </div>
+            <div if={state.data} class="d-none d-md-block col-5 filters">
+              <facet-filter
+                criteria={criteria()}
+                on-delayed-input={onDelayedInput}
+                class="mb-4"
+              />
 
-          <div if={state.data} class="d-none d-md-block col-5">
-            <facet-filter
-              criteria={criteria()}
-              on-delayed-input={onDelayedInput}
-              class="mb-4"
-            />
+              <active-facets
+                params={['language', 'signatory', 'location', 'archive_id']}
+                criteria={criteria()}
+                label-data={{archive_id: state['archives']}}
+                class="mb-4"
+              />
 
-            <active-facets
-              params={['language', 'signatory', 'location', 'archive_id']}
-              criteria={criteria()}
-              label-data={{archive_id: state['archives']}}
-              class="mb-4"
-            />
+              <facet
+                title={t('languages')}
+                param="language"
+                buckets={state.data.buckets['language']}
+                criteria={criteria()}
+                class="mb-4"
+              />
 
-            <facet
-              title={t('languages')}
-              param="language"
-              buckets={state.data.buckets['language']}
-              criteria={criteria()}
-              class="mb-4"
-            />
+              <facet
+                title={t('signatories')}
+                param="signatory"
+                buckets={state.data.buckets['signatory']}
+                criteria={criteria()}
+                class="mb-4"
+              />
 
-            <facet
-              title={t('signatories')}
-              param="signatory"
-              buckets={state.data.buckets['signatory']}
-              criteria={criteria()}
-              class="mb-4"
-            />
+              <facet
+                title={t('locations')}
+                param="location"
+                buckets={state.data.buckets['location']}
+                criteria={criteria()}
+                class="mb-4"
+              />
 
-            <facet
-              title={t('locations')}
-              param="location"
-              buckets={state.data.buckets['location']}
-              criteria={criteria()}
-              class="mb-4"
-            />
-
-            <facet
-              title={t('archives')}
-              param="archive_id"
-              buckets={state.data.buckets['archive']}
-              criteria={criteria()}
-              label-data={state['archives']}
-              class="mb-4"
-            />
+              <facet
+                title={t('archives')}
+                param="archive_id"
+                buckets={state.data.buckets['archive']}
+                criteria={criteria()}
+                label-data={state['archives']}
+                class="mb-4"
+              />
+            </div>
           </div>
         </div>
       </div>
@@ -215,7 +225,7 @@
       }
 
       onSearch() {
-        const criteria = {...this.criteria(), perPage: 12}
+        const criteria = {...this.criteria(), perPage: 24}
         search.treaties(criteria).then(data => {
           this.update({data})
         })
@@ -241,6 +251,22 @@
         }
 
         this.update()
+      }
+
+      onExtend(event) {
+        event.preventDefault()
+        console.log('x')
+
+        this.update({extended: !this.state['extended']})
+      }
+
+      classes() {
+        const cs = []
+
+        if (this.state['open']) cs.push('open')
+        if (this.state['extended']) cs.push('extended')
+
+        return cs.join(' ')
       }
     }
   </script>

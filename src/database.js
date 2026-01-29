@@ -46,7 +46,7 @@ database.action('treaties', data => {
     if (!matchesLanguage(record, criteria['language'])) return false
     if (!matchesSignatory(record, criteria['signatory'])) return false
     if (!matchesLocation(record, criteria['location'])) return false
-    if (!matchesArchive(record, criteria['archive_ids'])) return false
+    if (!matchesArchive(record, criteria['archive_id'])) return false
 
     aggregate(buckets, 'year', year)
 

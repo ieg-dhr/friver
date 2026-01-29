@@ -13,7 +13,7 @@
               onclick={event => onTreatyClick(treaty, event)}
               class="text-black text-decoration-none"
             >
-              <span class="fw-bolder">{treaty.meta['dateLabel'] + ' '}</span>
+              <span class="fw-bolder">{treaty.dateLabel() + ' '}</span>
               | {treaty.meta['title']}
             </a>
           </td>
