@@ -28,6 +28,8 @@ promises.push(
 )
 
 Promise.all(promises).then(() => {
+  addArchive(Object.values(storage['docs']))
+
   database.loaded()
 })
 
@@ -67,7 +69,7 @@ database.action('treaties', data => {
     aggregate(buckets, 'language', record['language'])
     aggregate(buckets, 'signatory', record['signatories'].map(e => e['name']))
     aggregate(buckets, 'location', record['places'].map(e => e['name']))
-    aggregate(buckets, 'archive', record['archive_id'])
+    aggregate(buckets, 'archive', record['archiveId'])
 
     return true
   })
@@ -118,15 +120,6 @@ database.action('treaties', data => {
   buckets['year'] = tmp
 
   const response = paginate(records, criteria, {buckets})
-
-
-  // add archives
-  for (const r of response['records']) {
-    const id = r['archive_id']
-    if (!id) continue
-
-    r['archive'] = storage['archives'][id]
-  }
 
   return response
 })
@@ -211,7 +204,7 @@ const matchesArchive = (record, archiveIds) => {
   if (!archiveIds) return true
 
   const ids = archiveIds.split(',')
-  return ids.indexOf(record['archive_id']) > -1
+  return ids.indexOf(record['archiveId']) > -1
 }
 
 
@@ -226,6 +219,17 @@ const matchesLocation = (record, location) => {
   }
 
   return false
+}
+
+const addArchive = (record) => {
+  const records = (Array.isArray(record) ? record : [record])
+
+  for (const r of records) {
+    const id = r['archiveId']
+    if (!id) continue
+
+    r['archive'] = storage['archives'][id]
+  }
 }
 
 const paginate = (records, criteria, other = {}) => {

@@ -22,8 +22,6 @@
     "fast-xml-parser": "^4.3.5",
     "glob": "^10.3.10",
     "jsdom": "^24.0.0",
-    "linkify-html": "^4.3.2",
-    "linkifyjs": "^4.3.2",
     "live-server": "^1.2.2",
     "local-web-server": "^5.3.1",
     "riot": "^10.1.2",

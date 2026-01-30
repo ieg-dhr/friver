@@ -88,10 +88,14 @@ class FvImporter
         archive = archives[archive_id]
         
         if archive
-          data[id]['archive_id'] = archive_id
-          label = clean(doc.xpath('//tei:sourceDesc/tei:repository').inner_text)
+          data[id]['archiveId'] = archive_id
+          label = clean([
+            doc.xpath('//tei:sourceDesc/tei:repository/tei:note').inner_html,
+            doc.xpath('//tei:sourceDesc/tei:msDesc').inner_html
+          ].join("\n"))
+
           if label && label != ''
-            archive['label'] ||= label
+            data[id]['archiveLabel'] = to_html(label)
           end
         end
       end
@@ -229,6 +233,18 @@ class FvImporter
       end
 
       @archives
+    end
+
+    def to_html(xml)
+      xml = Nokogiri::XML::DocumentFragment.parse(xml)
+      xml.xpath('.//lb').each do |lb|
+        lb.replace('<br />')
+      end
+      xml.xpath('.//ref').each do |ref|
+        ref.replace("<a href=\"#{ref['target']}\">#{ref.text}</a>")
+      end
+
+      xml.inner_html
     end
 end
 
