@@ -30,6 +30,7 @@ class FvImporter
       publication = doc.xpath('//tei:publicationStmt')
 
       # binding.pry
+      # binding.pry if id == 36
 
       data[id] = {
         id: id,
@@ -38,6 +39,8 @@ class FvImporter
         legacyUrl: title.xpath("tei:title[@level = 'a']/@ref").to_s,
         language: doc.xpath('//tei:profileDesc/tei:langUsage').inner_text,
         title: title.xpath("tei:title[@level = 'a']").inner_text,
+        abstract: to_html(clean(doc.xpath("//tei:front/tei:div[@type='Inhalt']").inner_html)),
+        prints: to_html(clean(doc.xpath("//tei:front/tei:div[@type='Drucke']").inner_html)),
         # 'title.xml': title.xpath("tei:title[@level = 'a']").inner_html,
 
         # edition: edition.xpath('tei:edition').inner_text,
@@ -213,7 +216,10 @@ class FvImporter
           gsub(/[ \t]+/, ' ').
           strip
 
-        result == 'null' ? nil : result
+        return nil if result == 'null'
+        return nil if result == ''
+        
+        result
       else
         str
       end

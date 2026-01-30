@@ -74,6 +74,22 @@ export default class TeiDoc extends QteiTeiDoc {
     return null
   }
 
+  hasPrints() {
+    return !!this.meta['prints']
+  }
+
+  prints() {
+    return this.meta['prints']
+  }
+
+  hasAbstract() {
+    return !!this.meta['abstract']
+  }
+
+  abstract() {
+    return this.meta['abstract']
+  }
+
   hasArchive() {
     return !!this.meta['archive']
   }

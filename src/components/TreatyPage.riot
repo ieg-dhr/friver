@@ -79,6 +79,20 @@
             </template>
           </div>
         </div>
+
+        <div if={state.doc.hasAbstract()} class="col-12 mt-2">
+          <div class="label">{t('abstract')}</div>
+          <div class="value">
+            <raw html={state.doc.abstract()} />
+          </div>
+        </div>
+
+        <div if={state.doc.hasPrints()} class="col-12 mt-2">
+          <div class="label">{t('prints')}</div>
+          <div class="value">
+            <raw html={state.doc.prints()} />
+          </div>
+        </div>
       </div>
 
       <content-loader
