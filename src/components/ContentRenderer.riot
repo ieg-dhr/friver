@@ -17,6 +17,15 @@
         <a href="#" onclick={event => fullscreen(event)} class="ms-5">
           <svg is="icon" type="maximize-2"></svg>
         </a>
+
+        <a
+          href={currentImageUrl()}
+          class="ms-5"
+          title={t('download_this_image')}
+          download
+        >
+          <svg is="icon" type="download"></svg>
+        </a>
       </div>
 
       <div class="glide my-4 mb-5">
@@ -345,6 +354,13 @@
       fullscreen(event) {
         event.preventDefault()
         this.bus.emit('fullscreen-images')
+      }
+
+      currentImageUrl() {
+        const glide = this.state.glide
+        const index = (glide ? glide.index : 0)
+
+        return this.state['imageUrls'][index]
       }
     }
   </script>
