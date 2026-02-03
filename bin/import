@@ -146,27 +146,29 @@ class FvImporter
 
     nodes = doc.xpath("//tei:text//tei:div[@type = 'Edition']")
     if nodes.size > 0
-      result << 'edition'
+      result << {'id' => 'edition', 'type' => 'edition'}
     end
 
     nodes = doc.xpath("//tei:text//tei:div[@type = 'Transliteration']")
     if nodes.size > 0
-      result << 'transliteration'
+      result << {'id' => 'transliteration', 'type' => 'transliteration'}
     end
 
     nodes = doc.xpath("//tei:standOff/tei:facsimile/tei:surface")
     if nodes.size > 0
-      result << 'facsimile'
+      result << {'id' => 'facsimile', 'type' => 'facsimile'}
     end
 
-    nodes = doc.xpath("//tei:text//tei:listBibl/tei:bibl/tei:biblScope/tei:graphic")
-    if nodes.size > 0
-      result << 'image'
+    doc.xpath("//tei:text//tei:listBibl/tei:bibl").each.with_index do |bibl, i|
+      nodes = bibl.xpath("tei:biblScope/tei:graphic")
+      if nodes.size > 0
+        result << {'id' => "bibl-#{i}", 'type' => 'bibl', 'index' => i}
+      end
     end
 
     nodes = doc.xpath("//tei:text//tei:div[@type = 'Drucke']//tei:ref")
     if nodes.size > 0
-      result << 'print'
+      result << {'id' => 'print', 'type' => 'print'}
     end
 
     result

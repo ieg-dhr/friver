@@ -45,6 +45,8 @@
           <svg is="icon" type="chevrons-right"></svg>
         </a>
       </div>
+
+      <div class="caption"><raw html={state['caption']} /></div>
     </div>
   </template>
 
@@ -81,8 +83,9 @@
     // import {} from '@ieg/qtei/src/lib/processors.js'
     import Glide from '@glidejs/glide'
 
-    import Icon from './Icon.riot'
     import FullscreenImages from './FullscreenImages.riot'
+    import Icon from './Icon.riot'
+    import Raw from './Raw.riot'
     import ZoomableImage from './ZoomableImage.riot'
 
     const notify = (left, selector) => {
@@ -176,7 +179,7 @@
     }
 
     export default class {
-      static components = {Icon, FullscreenImages, ZoomableImage}
+      static components = {FullscreenImages, Icon, Raw, ZoomableImage}
 
       onBeforeMount(props, state) {
         state['style'] = props.style
@@ -186,40 +189,43 @@
         this.transliterationBM()
         this.editionBM()
         this.facsimileBM()
-        this.imageBM()
+        this.biblBM()
         this.printBM()
       }
 
       transliterationBM() {
-        if (this.state['style'] != 'transliteration') return
+        if (this.state['style']['type'] != 'transliteration') return
 
         this.state['doc'] = this.props.doc
       }
 
       editionBM() {
-        if (this.state['style'] != 'edition') return
+        if (this.state['style']['type'] != 'edition') return
 
         this.state['doc'] = this.props.doc
       }
 
       facsimileBM() {
-        if (this.state['style'] != 'facsimile') return
+        if (this.state['style']['type'] != 'facsimile') return
 
         const elements = this.props.doc.doc.
           querySelectorAll('*|standOff *|facsimile *|graphic')
         this.state['imageUrls'] = [...elements].map(e => e.getAttribute('url'))
       }
 
-      imageBM() {
-        if (this.state['style'] != 'image') return
+      biblBM() {
+        if (this.state['style']['type'] != 'bibl') return
 
-        const elements = this.props.doc.doc.
-          querySelectorAll('*|listBibl *|graphic')
+        const bibls =  this.props.doc.doc.querySelectorAll('*|listBibl > *|bibl')
+        const bibl = bibls[this.state['style']['index']]
+
+        const elements = bibl.querySelectorAll('*|graphic')
         this.state['imageUrls'] = [...elements].map(e => e.getAttribute('url'))
+        this.state['caption'] = bibl.querySelector("*|title[level='m']").innerHTML
       }
 
       printBM() {
-        if (this.state['style'] != 'print') return
+        if (this.state['style']['type'] != 'print') return
 
         window.doc = this.props.doc.doc
         this.state['viewerUrl'] = this.props.doc.doc.

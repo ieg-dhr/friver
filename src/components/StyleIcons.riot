@@ -4,7 +4,7 @@
     class="icon d-flex justify-content-center align-items-center rounded {active(style)}"
   >
     <a onclick={event => onClick(style, event)}>
-      <svg is="icon" type={iconFor(style)} />
+      <svg is="icon" type={iconFor(style)}></svg>
     </a>
   </div>
 
@@ -39,14 +39,14 @@
           edition: 'file-text',
           print: 'book-open',
           facsimile: 'image',
-          image: 'image'
+          bibl: 'book-open'
         }
 
-        return mapping[style]
+        return mapping[style['type']]
       }
 
       active(style) {
-        return this.state['style'] === style ? 'active' : ''
+        return this.state['style']['id'] === style['id'] ? 'active' : ''
       }
     }
   </script>
