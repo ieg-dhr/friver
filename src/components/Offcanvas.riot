@@ -3,8 +3,14 @@
     <div class="offcanvas-body">
       <a href="#" onclick={event => toggle(event)} class="text-body">
         <svg
+          if={!state['open']}
           is="icon"
           type="search"
+        ></svg>
+        <svg
+          if={state['open']}
+          is="icon"
+          type="x"
         ></svg>
       </a>
 

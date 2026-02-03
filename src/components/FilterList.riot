@@ -1,9 +1,12 @@
 <filter-list>
   <ul class="list-unstyled">
     <li each={item in props.items} class="d-flex">
-      <a href={item.gnd} target="_blank" class="flex-grow-1">{item.name}</a>&nbsp;<!--
-   --><a class="ms-3" onclick={event => toFilter(item, event)}><!--
-     --><svg is="icon" type="arrow-right" />
+      <a
+        onclick={event => toFilter(item, event)}
+        class="flex-grow-1"
+      >{item.name}</a>&nbsp;<!--
+   --><a href={item.gnd} target="_blank" class="ms-3"><!--
+     --><svg is="icon" type="arrow-right"></svg>
       </a>
     </li>
   </ul>
