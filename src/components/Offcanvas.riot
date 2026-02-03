@@ -72,7 +72,7 @@
 
               <table
                 if={state.data}
-                class="table table-borderless table-responsive mt-3"
+                class="table table-borderless table-responsive mt-2"
               >
                 <tbody>
                   <tr each={treaty in state.data.records}>
@@ -88,9 +88,6 @@
                         | {treaty.meta['title']}
                       </a>
                     </td>
-                    <td class="me-0 pe-0">
-                      <style-icons doc={treaty} class="align-items-end"></style-icons>
-                    </td>
                   </tr>
                 </tbody>
               </table>
@@ -104,9 +101,17 @@
               />
 
               <active-facets
-                params={['language', 'signatory', 'location', 'archive_id']}
+                params={['style', 'language', 'signatory', 'location', 'archive_id']}
                 criteria={criteria()}
                 label-data={{archive_id: archiveLabelData()}}
+                class="mb-4"
+              />
+
+              <facet
+                title={t('styles')}
+                param="style"
+                buckets={state.data.buckets['style']}
+                criteria={criteria()}
                 class="mb-4"
               />
 

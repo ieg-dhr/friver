@@ -45,6 +45,7 @@ database.action('treaties', data => {
   const sort = criteria['sort'] || 'date'
 
   let buckets = {
+    style: [],
     location: [],
     signatory: [],
     language: [],
@@ -57,6 +58,7 @@ database.action('treaties', data => {
 
     if (!matchesTerms(record, criteria['terms'])) return false
     if (!matchesIds(record, criteria['ids'])) return false
+    if (!matchesTypes(record, criteria['style'])) return false
     if (!matchesLanguage(record, criteria['language'])) return false
     if (!matchesSignatory(record, criteria['signatory'])) return false
     if (!matchesLocation(record, criteria['location'])) return false
@@ -66,6 +68,9 @@ database.action('treaties', data => {
 
     if (!matchesDateRange(record, criteria['from'], criteria['to'])) return false
 
+    for (const s of record['styles']) {
+      aggregate(buckets, 'style', s['type'])
+    }
     aggregate(buckets, 'language', record['language'])
     aggregate(buckets, 'signatory', record['signatories'].map(e => e['name']))
     aggregate(buckets, 'location', record['places'].map(e => e['name']))
@@ -96,6 +101,7 @@ database.action('treaties', data => {
     buckets[k] = docs
   }
 
+  buckets['style'] = util.sortBy(buckets['style'], d => d.count).reverse()
   buckets['language'] = util.sortBy(buckets['language'], d => d.count).reverse()
   buckets['signatory'] = util.sortBy(buckets['signatory'], d => d.count).reverse()
   buckets['location'] = util.sortBy(buckets['location'], d => d.count).reverse()
@@ -170,6 +176,15 @@ const matchesIds = (record, ids) => {
   if (!ids) return true
 
   return ids.includes(record['id'])
+}
+
+const matchesTypes = (record, style) => {
+  if (!style) return true
+
+  const styles = new Set(style.split('|'))
+  const rTypes = new Set(record['styles'].map(s => s['type']))
+
+  return styles.isSubsetOf(rTypes)
 }
 
 const matchesDateRange = (record, from, to) => {
