@@ -46,7 +46,10 @@
         </a>
       </div>
 
-      <div class="caption"><raw html={state['caption']} /></div>
+      <div
+        if={state['caption']}
+        class="caption"
+      ><raw html={state['caption']} /></div>
     </div>
   </template>
 
@@ -211,6 +214,7 @@
         const elements = this.props.doc.doc.
           querySelectorAll('*|standOff *|facsimile *|graphic')
         this.state['imageUrls'] = [...elements].map(e => e.getAttribute('url'))
+        this.state['caption'] = this.t('facsimile')
       }
 
       biblBM() {
@@ -236,7 +240,7 @@
         const left = this.root.querySelector(".left")
         const target = this.root.querySelector("[data-id='target']")
 
-        if (state['style'] == 'edition' || state['style'] == 'transliteration') {
+        if (state['style']['type'] == 'edition' || state['style']['type'] == 'transliteration') {
           const renderer = new Renderer([
             notify(left, "*|div[type='Edition']"),
             notify(left, "*|div[type='Transliteration']"),
@@ -247,11 +251,15 @@
           renderer.render(props.doc)
         }
 
-        if (state['style'] === 'facsimile') {
+        if (state['style']['type'] === 'facsimile') {
           this.glide()
         }
 
-        if (state['style'] === 'image') {
+        if (state['style']['type'] === 'image') {
+          this.glide()
+        }
+
+        if (state['style']['type'] === 'bibl') {
           this.glide()
         }
       }
