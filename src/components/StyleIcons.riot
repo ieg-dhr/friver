@@ -16,21 +16,24 @@
     export default class {
       onBeforeMount(props, state) {
         state['style'] = props.doc.meta['styles'][0]
-        state['popovers'] = []
       }
 
       onMounted() {
         this.setupPopovers()
       }
 
+      onUpdated() {
+        this.setupPopovers()
+      }
+
       setupPopovers() {
         const elements = this.root.querySelectorAll('[data-bs-toggle="popover"]')
         for (const e of elements) {
-          this.state['popovers'].push(new Popover(e, {
+          Popover.getOrCreateInstance(e, {
             placement: 'left',
             offset: [0, 16],
             trigger: 'hover'
-          }))
+          })
         }
       }
 
