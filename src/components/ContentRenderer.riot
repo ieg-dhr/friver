@@ -1,65 +1,9 @@
 <content-renderer>
-  <template if={state.imageUrls.length > 0}>
-    <div is="fullscreen-images" urls={state.imageUrls} />
-
-    <div class="media">
-      <div class="glide-control">
-        {cap(t('go_to_image'))}
-        <select onchange={event => toSlide(event.target.value)} class="form-control w-auto d-inline-block mx-1">
-          <option
-            each={(url, i) in state.imageUrls}
-            value={i}
-            selected={isCurrentSlide(i)}
-          >{i + 1}</option>
-        </select>
-        {t('of')} {state.imageUrls.length}
-
-        <a href="#" onclick={event => fullscreen(event)} class="ms-5">
-          <svg is="icon" type="maximize-2"></svg>
-        </a>
-
-        <a
-          href={currentImageUrl()}
-          class="ms-5"
-          title={t('download_this_image')}
-          download
-        >
-          <svg is="icon" type="download"></svg>
-        </a>
-      </div>
-
-      <div class="glide my-4 mb-5">
-        <div class="glide__track" data-glide-el="track">
-          <ul class="glide__slides">
-            <li
-              each={url in state.imageUrls}
-              key={url}
-              class="glide__slide"
-            >
-              <div is="zoomable-image" src={url} />
-            </li>
-          </ul>
-        </div>
-
-        <a
-          class="prev px-3 {isFirst() && 'invisible'}"
-          onclick={event => prev(event)}
-        >
-          <svg is="icon" type="chevrons-left"></svg>
-        </a>
-        <a
-          class="next px-3 {isLast() && 'invisible'}"
-          onclick={event => next(event)}
-        >
-          <svg is="icon" type="chevrons-right"></svg>
-        </a>
-      </div>
-
-      <div
-        if={state['caption']}
-        class="caption"
-      ><raw html={state['caption']} /></div>
-    </div>
+  <template if={hasCarousel()}>
+    <image-carousel
+      image-urls={state.imageUrls}
+      caption={state['caption']}
+    />
   </template>
 
   <template if={state.doc}>
@@ -93,10 +37,6 @@
     import {util} from '@wendig/lib'
     import Renderer from '@ieg/qtei/src/lib/Renderer.js'
     // import {} from '@ieg/qtei/src/lib/processors.js'
-    import Glide from '@glidejs/glide'
-
-    import FullscreenImages from './FullscreenImages.riot'
-    import ZoomableImage from './ZoomableImage.riot'
 
     const notify = (left, selector) => {
       return (data) => {
@@ -189,8 +129,6 @@
     }
 
     export default class {
-      static components = {FullscreenImages, ZoomableImage}
-
       onBeforeMount(props, state) {
         state['style'] = props.style
         state['imageUrls'] = []
@@ -199,8 +137,6 @@
         this.transliterationBM()
         this.editionBM()
         this.facsimileBM()
-        this.biblBM()
-        this.printBM()
       }
 
       transliterationBM() {
@@ -224,25 +160,6 @@
         this.state['caption'] = this.t('facsimile')
       }
 
-      biblBM() {
-        if (this.state['style']['type'] != 'bibl') return
-
-        const bibls =  this.props.doc.doc.querySelectorAll('*|listBibl > *|bibl')
-        const bibl = bibls[this.state['style']['index']]
-
-        const elements = bibl.querySelectorAll('*|graphic')
-        this.state['imageUrls'] = [...elements].map(e => e.getAttribute('url'))
-        this.state['caption'] = bibl.querySelector("*|title[level='m']").innerHTML
-      }
-
-      printBM() {
-        if (this.state['style']['type'] != 'print') return
-
-        window.doc = this.props.doc.doc
-        this.state['viewerUrl'] = this.props.doc.doc.
-          querySelector("*|div[type='Drucke'] *|ref").getAttribute('target')
-      }
-
       onMounted(props, state) {
         const left = this.root.querySelector(".left")
         const target = this.root.querySelector("[data-id='target']")
@@ -257,108 +174,16 @@
 
           renderer.render(props.doc)
         }
-
-        if (state['style']['type'] === 'facsimile') {
-          this.glide()
-        }
-
-        if (state['style']['type'] === 'image') {
-          this.glide()
-        }
-
-        if (state['style']['type'] === 'bibl') {
-          this.glide()
-        }
       }
 
-      glide() {
-        const element = this.root.querySelector('.glide')
-        const opts = {
-          type: 'slider',
-          rewind: false,
-          dragThreshold: false,
-          peek: {before: 0, after: '250px'},
-          gap: '60px',
-          perView: 1,
-          breakpoints: {
-            1280: {
-              peek: {before: 0, after: '200px'},
-              gap: '40px'
-            },
-            768: {
-              peek: {before: 0, after: '50px'},
-              gap: '20px'
-            }
-          }
-        }
-        this.state.glide = new Glide(element, opts)
-        this.state.glide.mount()
-        this.state.glide.go(`=0`)
-      }
+      hasCarousel() {
+        const type = this.state['style']['type']
 
-      toSlide(index) {
-        this.state.glide.go(`=${index}`)
-        this.update()
+        return ['facsimile', 'image'].includes(type)
       }
 
       toHttps(url) {
         return url.replace(/^http:/, 'https:')
-      }
-
-      isCurrentSlide(index) {
-        const current = this.currentSlide()
-
-        return index === current
-      }
-
-      currentSlide() {
-        const glide = this.state.glide
-        if (!glide) return null
-
-        return glide.index
-      }
-
-      isFirst() {
-        const glide = this.state.glide
-        if (!glide) return true
-
-        return glide.index == 0
-      }
-
-      isLast() {
-        const total = this.state.imageUrls.length
-        if (total == 1) return true
-
-        const glide = this.state.glide
-        if (!glide) return false
-
-        return glide.index == total - 1
-      }
-
-      prev(event) {
-        event.preventDefault()
-
-        this.state.glide.go('<')
-        this.update()
-      }
-
-      next(event) {
-        event.preventDefault()
-
-        this.state.glide.go('>')
-        this.update()
-      }
-
-      fullscreen(event) {
-        event.preventDefault()
-        this.bus.emit('fullscreen-images')
-      }
-
-      currentImageUrl() {
-        const glide = this.state.glide
-        const index = (glide ? glide.index : 0)
-
-        return this.state['imageUrls'][index]
       }
     }
   </script>

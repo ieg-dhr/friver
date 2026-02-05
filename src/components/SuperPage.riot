@@ -55,11 +55,8 @@
 
   <script>
     import {default as config} from '../../.env.js'
-    import Navigation from './Navigation.riot'
 
     export default class {
-      static components = {Navigation}
-
       onBeforeMount() {
         this.config = config
       }

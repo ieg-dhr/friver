@@ -36,13 +36,9 @@
   <script>
     import watchlist from '../lib/Watchlist.instance'
     import search from '../lib/Search.instance'
-    import WatchlistToggle from './WatchlistToggle.riot'
-    import StyleIcons from './StyleIcons.riot'
     import {toTreaty} from '../lib/util'
 
     export default class {
-      static components = {WatchlistToggle, StyleIcons}
-
       onBeforeMount() {
         this.on('watchlist-changed', event => this.fetch())
         this.on('offcanvas-opened', event => this.update({offcanvas: true}))

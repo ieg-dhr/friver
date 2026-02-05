@@ -64,40 +64,14 @@
                 target="_blank"
               >ehemaliger Datensatz</a>
             </div>
-
-            <template if={state.doc.hasArchive()}>
-              <div class="label">{t('archive')}</div>
-              <div class="value">
-                <a href="#" onclick={event => toggleArchive()}>
-                  {state.doc.archive('short')}
-                </a>
-
-                <div if={state['archiveExpanded']}>
-                  <raw html={state.doc.archive('label')} />
-                </div>
-              </div>
-            </template>
-          </div>
-        </div>
-
-        <div if={state.doc.hasAbstract()} class="col-12 mt-2">
-          <div class="label">{t('abstract')}</div>
-          <div class="value">
-            <raw html={state.doc.abstract()} />
-          </div>
-        </div>
-
-        <div if={state.doc.hasPrints()} class="col-12 mt-2">
-          <div class="label">{t('prints')}</div>
-          <div class="value">
-            <raw html={state.doc.prints()} />
           </div>
         </div>
       </div>
 
-      <aspect-renderer
+      <secondary-content
         if={state.doc}
         doc={state.doc}
+        class="mb-4"
       />
 
       <content-loader
@@ -112,33 +86,10 @@
 
   <script>
     import search from '../lib/Search.instance'
-    import Header from './Header.riot'
-    import Footer from './Footer.riot'
-    import Offcanvas from './Offcanvas.riot'
-    import FilterList from './FilterList.riot'
-    import StyleIcons from './StyleIcons.riot'
-    import ContentLoader from './ContentLoader.riot'
-    import Favorites from './Favorites.riot'
-    import Raw from './Raw.riot'
 
     export default class {
-      static components = {
-        Header,
-        Footer,
-        Offcanvas,
-        FilterList,
-        StyleIcons,
-        ContentLoader,
-        Favorites,
-        Raw
-      }
-
       onMounted() {
         this.fetch()
-      }
-
-      toggleArchive() {
-        this.update({archiveExpanded: !this.state.archiveExpanded})
       }
 
       reload(props) {
@@ -149,6 +100,11 @@
       loadStyle(style) {
         this.state['style'] = style
         this.fetch()
+
+        window.setTimeout(() => {
+          const content = this.tags['content-loader'][0].root
+          content.scrollIntoView({behavior: 'smooth', container: 'nearest'})
+        }, 300)
         // this.update({style: style})
       }
 

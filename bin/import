@@ -39,8 +39,7 @@ class FvImporter
         legacyUrl: title.xpath("tei:title[@level = 'a']/@ref").to_s,
         language: doc.xpath('//tei:profileDesc/tei:langUsage').inner_text,
         title: title.xpath("tei:title[@level = 'a']").inner_text,
-        abstract: to_html(clean(doc.xpath("//tei:front/tei:div[@type='Inhalt']").inner_html)),
-        prints: to_html(clean(doc.xpath("//tei:front/tei:div[@type='Drucke']").inner_html)),
+        aspects: [],
         # 'title.xml': title.xpath("tei:title[@level = 'a']").inner_html,
 
         # edition: edition.xpath('tei:edition').inner_text,
@@ -86,22 +85,61 @@ class FvImporter
 
       text << doc.xpath("//tei:text//tei:div[@type = 'Transliteration']").inner_text
 
+      # secondary content: abstract
+      abstract = to_html(clean(doc.xpath("//tei:front/tei:div[@type='Inhalt']").inner_html))
+      if abstract && abstract != ''
+        data[id][:aspects] << {
+          'type' => 'abstract',
+          'data' => abstract
+        }
+      end
+
+      # secondary content: prints
+      prints = to_html(clean(doc.xpath("//tei:front/tei:div[@type='Drucke']").inner_html))
+      if prints && prints != ''
+        data[id][:aspects] << {
+          'type' => 'prints',
+          'data' => prints
+        }
+      end
+
+      # secondary content: archive
       archive_id = doc.xpath('//tei:sourceDesc/tei:repository/@xml:id').to_s
       if archive_id && archive_id != ''
         archive = archives[archive_id]
         
         if archive
-          data[id]['archiveId'] = archive_id
+          aspect = {
+            'type' => 'archives',
+            'data' => {
+              'id' => archive_id
+            }
+          }
+
           label = clean([
             doc.xpath('//tei:sourceDesc/tei:repository/tei:note').inner_html,
             doc.xpath('//tei:sourceDesc/tei:msDesc').inner_html
           ].join("\n"))
 
           if label && label != ''
-            data[id]['archiveLabel'] = to_html(label)
+            aspect['data']['label'] = to_html(label)
           end
+
+          data[id][:aspects] << aspect
         end
       end
+
+      # secondary content: biblio
+      biblio = nil
+      doc.xpath("//tei:text//tei:listBibl/tei:bibl").each do |bibl|
+        biblio ||= {'type' => 'biblio', 'data' => []}
+        
+        biblio['data'] << {
+          'label' => to_html(clean(bibl.text)),
+          'images' => bibl.xpath("tei:biblScope/tei:graphic").map{|g| g['url']}
+        }
+      end
+      data[id][:aspects] << biblio if biblio
 
       data[id] = clean(data[id])
     end
@@ -157,18 +195,6 @@ class FvImporter
     nodes = doc.xpath("//tei:standOff/tei:facsimile/tei:surface")
     if nodes.size > 0
       result << {'id' => 'facsimile', 'type' => 'facsimile'}
-    end
-
-    doc.xpath("//tei:text//tei:listBibl/tei:bibl").each.with_index do |bibl, i|
-      nodes = bibl.xpath("tei:biblScope/tei:graphic")
-      if nodes.size > 0
-        result << {'id' => "bibl-#{i}", 'type' => 'bibl', 'index' => i}
-      end
-    end
-
-    nodes = doc.xpath("//tei:text//tei:div[@type = 'Drucke']//tei:ref")
-    if nodes.size > 0
-      result << {'id' => 'print', 'type' => 'print'}
     end
 
     result
@@ -255,43 +281,43 @@ class FvImporter
         label = ref.text
 
         domains = [
-          'digital.ub.uni-duesseldorf.de',
-          'gallica.bnf.fr',
-          'diplomatie.gouv.fr',
-          'archivinformationssystem.at',
-          'gahetna.nl',
-          'siv.archives-nationales.culture.gouv.fr',
-          'digitarq.arquivos.pt',
-          'mcu.es',
-          'archive.nrw.de',
-          'rgada.info',
-          'gda.bayern.de',
-          'digbib.bibliothek.uni-augsburg.de',
-          'archiv.sachsen.de',
-          'sok.riksarkivet.se',
-          'archiviodistatotorino.it',
-          'jacobite.ca',
-          'eleveltar.hu',
-          'archivdatenbank.gsta.spk-berlin.de',
-          'sa.dk',
-          'archivi.beniculturali.it',
-          'digital.ub.uni-duesseldorf.de',
-          'arcinsys.hessen.de',
-          'bib-bvb.de',
-          'francearchives.fr',
           'agad.gov.pl',
-          'yale.edu',
-          'discovery.nationalarchives.gov.uk',
-          'query-staatsarchiv.lu.ch',
-          'suche.staatsarchiv.djiktzh.ch',
-          'stadtarchiv-luebeck.findbuch.net',
-          'staatsarchiv-findsystem.gr.ch',
-          'ge.ch',
+          'archiv.sachsen.de',
+          'archivdatenbank.gsta.spk-berlin.de',
+          'archive.nrw.de',
+          'archivi.beniculturali.it',
+          'archivinformationssystem.at',
+          'archiviodistatotorino.it',
+          'arcinsys.hessen.de',
           'asmilano.it',
-          'hrono.ru',
+          'bib-bvb.de',
           'books.google.de',
+          'digbib.bibliothek.uni-augsburg.de',
+          'digital.ub.uni-duesseldorf.de',
+          'digital.ub.uni-duesseldorf.de',
+          'digitarq.arquivos.pt',
+          'diplomatie.gouv.fr',
+          'discovery.nationalarchives.gov.uk',
+          'eleveltar.hu',
+          'francearchives.fr',
+          'gahetna.nl',
+          'gallica.bnf.fr',
+          'gda.bayern.de',
+          'ge.ch',
+          'hrono.ru',
+          'jacobite.ca',
+          'mcu.es',
+          'pax-westphalica.de',
+          'query-staatsarchiv.lu.ch',
           'questia.com',
-          'pax-westphalica.de'
+          'rgada.info',
+          'sa.dk',
+          'siv.archives-nationales.culture.gouv.fr',
+          'sok.riksarkivet.se',
+          'staatsarchiv-findsystem.gr.ch',
+          'stadtarchiv-luebeck.findbuch.net',
+          'suche.staatsarchiv.djiktzh.ch',
+          'yale.edu',
         ]
 
         domains.each do |domain|

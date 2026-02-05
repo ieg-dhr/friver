@@ -159,29 +159,10 @@
 
     import {default as config} from '../../.env.js'
     import * as bootstrap from 'bootstrap'
-    import Icon from './Icon.riot'
     import search from '../lib/Search.instance'
-    import StyleIcons from './StyleIcons.riot'
-    import WatchlistToggle from './WatchlistToggle.riot'
     import {navigateTo, toTreaty} from '../lib/util'
-    import RangeControl from './RangeControl.riot'
-    import Facet from './Facet.riot'
-    import FacetFilter from './FacetFilter.riot'
-    import ActiveFacets from './ActiveFacets.riot'
-    import Pagination from './Pagination.riot'
 
     export default class {
-      static components = {
-        Icon,
-        StyleIcons,
-        WatchlistToggle,
-        RangeControl,
-        Facet,
-        FacetFilter,
-        ActiveFacets,
-        Pagination
-      }
-
       onBeforeMount(props, state) {
         this.config = config
 

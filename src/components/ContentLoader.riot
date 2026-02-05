@@ -29,10 +29,6 @@
           doc: this.props.doc,
           style: this.props.style || this.props.doc.meta['styles'][0]
         })
-
-        window.setTimeout(() => {
-          this.root.scrollIntoView({behavior: 'smooth', container: 'nearest'})
-        }, 200)
       }
     }
   </script>

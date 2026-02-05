@@ -1,0 +1,121 @@
+<secondary-content class={classes()} onclick={event => open(event)}>
+  <div class="header">
+    <div class="d-flex">
+      <div class="buttons">
+        <template each={(aspect, i) in props.doc.meta.aspects}>
+          <a onclick={event => toContent(i)} class="d-block d-md-inline">
+            {t(aspect['type'])}
+          </a>
+          <span if={i != props.doc.meta.aspects.length - 1} class="d-none d-md-inline mx-1"> | </span>
+        </template>
+      </div>
+
+      <div class="d-none line flex-grow-1" />
+
+      <svg if={!state['open']} is="icon" type="chevrons-down" class="ms-auto mt-1"></svg>
+
+      <a
+        if={state['open']}
+        onclick={event => close(event)}
+        class="text-body ms-auto mt-1"
+      >
+        <svg if={state['open']} is="icon" type="chevrons-up"></svg>
+      </a>
+    </div>
+  </div>
+
+  <div class="collapse">
+    <div class="spacer mb-1">
+
+    <div class="content-pane {state['showContent'] ? '' : 'd-none'}">
+      <template if={current()['type'] == 'abstract'}>
+        <raw html={current()['data']} />
+      </template>
+
+      <template if={current()['type'] == 'prints'}>
+        <raw html={current()['data']} />
+      </template>
+
+      <template if={current()['type'] == 'archives'}>
+        <raw html={current()['data']['label'] || current()['data']['id']} />
+      </template>
+
+      <template if={current()['type'] == 'biblio'}>
+        <template each={aspect in current()['data']}>
+          <raw if={aspect['images'].length == 0} html={aspect['label']} />
+
+          <image-carousel
+            if={aspect['images'].length > 0}
+            image-urls={aspect['images']}
+            caption={aspect['label']}
+            class="mb-6"
+          />
+        </template>
+      </template>
+    </div>
+  </div>
+
+  <script>
+    import {Collapse} from 'bootstrap'
+
+    export default class {
+      onBeforeMount(props, state) {
+        state['open'] = false
+        state['showContent'] = true
+        state['current'] = 0
+      }
+
+      onMounted(props, state) {
+        const element = this.root.querySelector('.collapse')
+        state['collapse'] = new Collapse(element, {toggle: false})
+      }
+
+      aspects() {
+        return this.props.doc.meta.aspects
+      }
+
+      toContent(index) {
+        if (this.state['open']) {
+          this.update({current: index})
+        } else {
+          // The click is also triggered by clicking the top element of this
+          // component. This is intended but we need to wait for the opening
+          // transition to run through.
+          this.update({showContent: false})
+          window.setTimeout(() => {
+            this.update({current: index, showContent: true})
+          }, 210)
+        }
+      }
+
+      current() {
+        return this.aspects()[this.state['current']]
+      }
+
+      open(event) {
+        if (this.state['open']) return
+
+        event.preventDefault()
+        this.state['collapse'].show()
+        this.update({open: true})
+      }
+
+      close() {
+        event.preventDefault()
+        event.stopPropagation()
+
+        this.state['collapse'].hide()
+        this.update({open: false})
+      }
+
+      classes() {
+        let results = [this.props.class]
+
+        if (this.aspects().length == 0) results.push('d-none')
+        if (this.state['open']) results.push('open')
+
+        return results.join(' ')
+      }
+    }
+  </script>
+</secondary-content>

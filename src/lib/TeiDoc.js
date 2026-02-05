@@ -74,36 +74,6 @@ export default class TeiDoc extends QteiTeiDoc {
     return null
   }
 
-  hasPrints() {
-    return !!this.meta['prints']
-  }
-
-  prints() {
-    return this.meta['prints']
-  }
-
-  hasAbstract() {
-    return !!this.meta['abstract']
-  }
-
-  abstract() {
-    return this.meta['abstract']
-  }
-
-  hasArchive() {
-    return !!this.meta['archive']
-  }
-
-  archive(format = 'short') {
-    const record = this.meta['archive']
-    if (!record) return null
-
-    let result = record[format]
-    if (format === 'label') result = this.meta['archiveLabel']
-
-    return result
-  }
-
   github() {
     return `https://github.com/ieg-dhr/friver-plus/blob/main/Transcriptions/${this.id()}.xml`
   }

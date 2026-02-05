@@ -2,47 +2,46 @@
   class="{isActive() ? 'active' : ''}"
   onfullscreenchange={event => onFullscreenChange(event)}
 >
-  <a
-    class="prev px-3 {isFirst()}"
-    onclick={event => prev(event)}
-  >
-    <svg is="icon" type="chevrons-left"></svg>
-  </a>
-  <div
-    if={isActive()}
-    is="zoomable-image"
-    src={currentUrl()}
-  />
-  <a
-    class="next px-3 {isLast()}"
-    onclick={event => next(event)}
-  >
-    <svg is="icon" type="chevrons-right"></svg>
-  </a>
+  <template if={isActive()}>
+    <a
+      class="prev px-3 {isFirst()}"
+      onclick={event => prev(event)}
+    >
+      <svg is="icon" type="chevrons-left"></svg>
+    </a>
+    <div
+      if={isActive()}
+      is="zoomable-image"
+      src={currentUrl()}
+    />
+    <a
+      class="next px-3 {isLast()}"
+      onclick={event => next(event)}
+    >
+      <svg is="icon" type="chevrons-right"></svg>
+    </a>
 
-  <a
-    class="deactivate px-3"
-    onclick={event => deactivate(event)}
-  >
-    <svg is="icon" type="minimize-2"></svg>
-  </a>
+    <a
+      class="deactivate px-3"
+      onclick={event => deactivate(event)}
+    >
+      <svg is="icon" type="minimize-2"></svg>
+    </a>
+  </template>
 
   <script>
-    import ZoomableImage from './ZoomableImage.riot'
-
     export default class {
-      static components = {ZoomableImage}
-
       onBeforeMount(props, state) {
         state['current'] = 0
+        state['urls'] = []
       }
 
       onMounted(props, state) {
-        this.on('fullscreen-images', event => this.activate())
+        this.on('fullscreen-images', event => this.activate(event))
       }
 
       currentUrl() {
-        const urls = this.props['urls']
+        const urls = this.state['urls']
         const index = this.state['current']
 
         return urls[index]
@@ -56,7 +55,7 @@
 
       next(event) {
         this.update({
-          current: Math.min(this.props['urls'].length - 1, this.state['current'] + 1)
+          current: Math.min(this.state['urls'].length - 1, this.state['current'] + 1)
         })
       }
 
@@ -65,14 +64,18 @@
       }
 
       isLast() {
-        return this.state['current'] === this.props['urls'].length - 1
+        return this.state['current'] === this.state['urls'].length - 1
       }
 
       isActive() {
         return document.fullscreen
       }
 
-      activate() {
+      activate(event) {
+        const urls = event.data['urls']
+        this.state['urls'] = urls
+        this.state['current'] = 0
+
         this.root.requestFullscreen().then(() => {
           this.update()
 
