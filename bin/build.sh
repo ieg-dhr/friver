@@ -7,6 +7,7 @@ source ./.env
 eval "$CURENV"
 
 ROOT=$( cd -- "$( dirname -- "${BASH_SOURCE[0]}" )" &> /dev/null && pwd )
+BIN_DIR="${ROOT}/../node_modules/.bin"
 
 rm -rf public
 mkdir public
@@ -22,15 +23,14 @@ function fv-dev {
   ln -sfnr node_modules public/
 
   concurrently \
-    'rollup -c -w --no-watch.clearScreen' \
-    'sass -c -w --update -I ./node_modules --source-map src/app.scss public/app.css' \
-    "browser-sync start --server --serveStatic=./public --host=127.0.0.1 --port=4000 --browser=false --watch=true --single --no-notify"
+    "$BIN_DIR/rollup -c -w --no-watch.clearScreen" \
+    "$BIN_DIR/sass -c -w --update -I ./node_modules --source-map src/app.scss public/app.css" \
+    "$BIN_DIR/browser-sync start --server --serveStatic=./public --host=127.0.0.1 --port=4000 --browser=false --watch=true --single --no-notify"
 }
 
 function fv-build {
-  rollup -c
-  sass -c -I node_modules src/app.scss public/app.css
+  $BIN_DIR/rollup -c
+  $BIN_DIR/sass -c -I node_modules src/app.scss public/app.css
 }
 
 fv-$CMD
-
