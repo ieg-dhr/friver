@@ -249,7 +249,58 @@ class FvImporter
         lb.replace('<br />')
       end
       xml.xpath('.//ref').each do |ref|
-        ref.replace("<a href=\"#{ref['target']}\">#{ref.text}</a>")
+        href = ref['target']
+        next unless href
+
+        label = ref.text
+
+        domains = [
+          'digital.ub.uni-duesseldorf.de',
+          'gallica.bnf.fr',
+          'diplomatie.gouv.fr',
+          'archivinformationssystem.at',
+          'gahetna.nl',
+          'siv.archives-nationales.culture.gouv.fr',
+          'digitarq.arquivos.pt',
+          'mcu.es',
+          'archive.nrw.de',
+          'rgada.info',
+          'gda.bayern.de',
+          'digbib.bibliothek.uni-augsburg.de',
+          'archiv.sachsen.de',
+          'sok.riksarkivet.se',
+          'archiviodistatotorino.it',
+          'jacobite.ca',
+          'eleveltar.hu',
+          'archivdatenbank.gsta.spk-berlin.de',
+          'sa.dk',
+          'archivi.beniculturali.it',
+          'digital.ub.uni-duesseldorf.de',
+          'arcinsys.hessen.de',
+          'bib-bvb.de',
+          'francearchives.fr',
+          'agad.gov.pl',
+          'yale.edu',
+          'discovery.nationalarchives.gov.uk',
+          'query-staatsarchiv.lu.ch',
+          'suche.staatsarchiv.djiktzh.ch',
+          'stadtarchiv-luebeck.findbuch.net',
+          'staatsarchiv-findsystem.gr.ch',
+          'ge.ch',
+          'asmilano.it',
+          'hrono.ru',
+          'books.google.de',
+          'questia.com',
+          'pax-westphalica.de'
+        ]
+
+        domains.each do |domain|
+          if href.match?(domain)
+            label += "<svg is=\"icon\" type=\"book-open\" class=\"ms-1\"></svg>"
+          end
+        end
+
+        ref.replace("<a href=\"#{href}\">#{label}</a>")
       end
 
       xml.inner_html

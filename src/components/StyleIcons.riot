@@ -9,11 +9,7 @@
   </div>
 
   <script>
-    import Icon from './Icon.riot'
-
     export default class {
-      static components = {Icon}
-
       onBeforeMount(props, state) {
         state['style'] = props.doc.meta['styles'][0]
       }

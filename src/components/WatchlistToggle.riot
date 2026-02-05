@@ -3,15 +3,12 @@
     class="mr-2"
     onclick={event => toggle(event)}
     title={isOn() ? t('remove_from_favorites') : t('add_to_favorites')}
-  ><svg is="icon" type="star" class="text-primary {isOn() && 'active'}" /></a>
+  ><svg is="icon" type="star" class="text-primary {isOn() && 'active'}"></svg></a>
 
   <script>
     import watchlist from '../lib/Watchlist.instance'
-    import Icon from './Icon.riot'
 
     export default class {
-      static components = {Icon}
-
       onBeforeMount() {
         this.on('watchlist-changed', event => this.update())
       }

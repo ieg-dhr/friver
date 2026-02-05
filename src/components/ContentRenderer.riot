@@ -96,8 +96,6 @@
     import Glide from '@glidejs/glide'
 
     import FullscreenImages from './FullscreenImages.riot'
-    import Icon from './Icon.riot'
-    import Raw from './Raw.riot'
     import ZoomableImage from './ZoomableImage.riot'
 
     const notify = (left, selector) => {
@@ -191,7 +189,7 @@
     }
 
     export default class {
-      static components = {FullscreenImages, Icon, Raw, ZoomableImage}
+      static components = {FullscreenImages, ZoomableImage}
 
       onBeforeMount(props, state) {
         state['style'] = props.style

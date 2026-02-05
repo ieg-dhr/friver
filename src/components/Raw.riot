@@ -1,8 +1,12 @@
 <raw>
   <script>
+    import {riot} from '../lib/riot'
+
     export default class {
       setInnerHTML() {
         this.root.innerHTML = this.props.html
+
+        this.mountSubComponents()
       }
 
       onMounted() {
@@ -11,6 +15,12 @@
       
       onUpdated() {
         this.setInnerHTML()
+      }
+
+      mountSubComponents() {
+        for (const e of this.root.querySelectorAll('[is]')) {
+          riot.mount(e)
+        }
       }
     }
   </script>

@@ -28,11 +28,10 @@
   </a>
 
   <script>
-    import Icon from './Icon.riot'
     import ZoomableImage from './ZoomableImage.riot'
 
     export default class {
-      static components ={Icon, ZoomableImage}
+      static components = {ZoomableImage}
 
       onBeforeMount(props, state) {
         state['current'] = 0

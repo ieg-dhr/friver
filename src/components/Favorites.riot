@@ -30,7 +30,7 @@
   </div>
 
   <a onclick={event => toggle(event)}>
-    <svg is="icon" type="star" class="active" />
+    <svg is="icon" type="star" class="active"></svg>
   </a>
 
   <script>
@@ -38,11 +38,10 @@
     import search from '../lib/Search.instance'
     import WatchlistToggle from './WatchlistToggle.riot'
     import StyleIcons from './StyleIcons.riot'
-    import Icon from './Icon.riot'
     import {toTreaty} from '../lib/util'
 
     export default class {
-      static components = {WatchlistToggle, StyleIcons, Icon}
+      static components = {WatchlistToggle, StyleIcons}
 
       onBeforeMount() {
         this.on('watchlist-changed', event => this.fetch())
