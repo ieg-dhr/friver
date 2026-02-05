@@ -101,9 +101,9 @@
               />
 
               <active-facets
-                params={['style', 'language', 'signatory', 'location', 'archive_id']}
+                params={['style', 'language', 'signatory', 'location']}
                 criteria={criteria()}
-                label-data={{archive_id: archiveLabelData()}}
+                label-data={{style: styleLabelData()}}
                 class="mb-4"
               />
 
@@ -112,6 +112,7 @@
                 param="style"
                 buckets={state.data.buckets['style']}
                 criteria={criteria()}
+                label-data={styleLabelData()}
                 class="mb-4"
               />
 
@@ -136,15 +137,6 @@
                 param="location"
                 buckets={state.data.buckets['location']}
                 criteria={criteria()}
-                class="mb-4"
-              />
-
-              <facet
-                title={t('archives')}
-                param="archive_id"
-                buckets={state.data.buckets['archive']}
-                criteria={criteria()}
-                label-data={archiveLabelData()}
                 class="mb-4"
               />
             </div>
@@ -253,15 +245,12 @@
         this.update({extended: !this.state['extended']})
       }
 
-      archiveLabelData() {
-        let result = {}
-        if (!this.state['archives']) return result
-
-        for (const a of Object.values(this.state['archives'])) {
-          result[a['id']] = a['short']
+      styleLabelData() {
+        return {
+          facsimile: this.t('facsimile'),
+          edition: this.t('edition'),
+          transliteration: this.t('transliteration')
         }
-
-        return result
       }
 
       classes() {
