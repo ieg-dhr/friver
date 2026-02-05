@@ -2,6 +2,8 @@
   <div
     each={style in styles()}
     class="icon d-flex justify-content-center align-items-center rounded {active(style)}"
+    data-bs-toggle="popover"
+    data-bs-content={t(style['type'])}
   >
     <a onclick={event => onClick(style, event)}>
       <svg is="icon" type={iconFor(style)}></svg>
@@ -9,9 +11,27 @@
   </div>
 
   <script>
+    import {Popover} from 'bootstrap'
+
     export default class {
       onBeforeMount(props, state) {
         state['style'] = props.doc.meta['styles'][0]
+        state['popovers'] = []
+      }
+
+      onMounted() {
+        this.setupPopovers()
+      }
+
+      setupPopovers() {
+        const elements = this.root.querySelectorAll('[data-bs-toggle="popover"]')
+        for (const e of elements) {
+          this.state['popovers'].push(new Popover(e, {
+            placement: 'left',
+            offset: [0, 16],
+            trigger: 'hover'
+          }))
+        }
       }
 
       onClick(style, event) {
