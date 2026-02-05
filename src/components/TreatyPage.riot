@@ -21,10 +21,8 @@
             <div class="value">{state.doc.meta['id']}</div>
           </template>
 
-          <template if={state.doc.meta['language']}>
-            <div class="label">{t('language')}</div>
-            <div class="value">{state.doc.meta['language']}</div>
-          </template>
+          <div class="label">{t('language')}</div>
+          <div class="value">{state.doc.languageList()}</div>
 
           <template if={state.doc.hasDate()}>
             <div class="label">{t('date')}</div>

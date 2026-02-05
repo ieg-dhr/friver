@@ -55,6 +55,10 @@ export default class TeiDoc extends QteiTeiDoc {
     return this.meta['date']
   }
 
+  languageList() {
+    return this.meta['languages'].join(', ')
+  }
+
   dateLabel() {
     let date = this.date()
     if (!date) return null

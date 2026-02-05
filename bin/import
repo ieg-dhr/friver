@@ -37,7 +37,7 @@ class FvImporter
         collection: title.xpath("tei:title[@level = 's']").text,
         date: title.xpath("tei:title[@level = 'a']/@when").to_s,
         legacyUrl: title.xpath("tei:title[@level = 'a']/@ref").to_s,
-        language: doc.xpath('//tei:profileDesc/tei:langUsage').inner_text,
+        languages: doc.xpath('//tei:profileDesc/tei:langUsage/tei:language').map{|e| e.inner_text},
         title: title.xpath("tei:title[@level = 'a']").inner_text,
         aspects: [],
         # 'title.xml': title.xpath("tei:title[@level = 'a']").inner_html,
@@ -133,7 +133,7 @@ class FvImporter
       biblio = nil
       doc.xpath("//tei:text//tei:listBibl/tei:bibl").each do |bibl|
         biblio ||= {'type' => 'biblio', 'data' => []}
-        
+
         biblio['data'] << {
           'label' => to_html(clean(bibl.text)),
           'images' => bibl.xpath("tei:biblScope/tei:graphic").map{|g| g['url']}
@@ -146,7 +146,7 @@ class FvImporter
 
     File.open 'src/data.json', 'w+' do |f|
       data.each do |k, v|
-        binding.pry if v.has_key?(:language) && v[:language] == nil
+        binding.pry if v[:languages].empty?
       end
       f.puts JSON.pretty_generate(data)
     end
