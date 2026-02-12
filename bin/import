@@ -256,7 +256,7 @@ class FvImporter
     def archives(write: false)
       unless @archives
         @archives = CSV.
-          read('data/ieg_treaty_archives_id_names_list.csv', headers: true).
+          read('data/archive_short_names.csv', headers: true).
           map{|r| {'id' => r['xml-id'], 'short' => r['archive-label']}}.
           to_h{|h| [h['id'], h]}
       end

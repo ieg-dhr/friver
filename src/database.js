@@ -58,7 +58,7 @@ database.action('treaties', data => {
 
     if (!matchesTerms(record, criteria['terms'])) return false
     if (!matchesIds(record, criteria['ids'])) return false
-    if (!matchesTypes(record, criteria['style'])) return false
+    if (!matchesTypes(record, criteria['qstyle'])) return false
     if (!matchesLanguage(record, criteria['language'])) return false
     if (!matchesSignatory(record, criteria['signatory'])) return false
     if (!matchesLocation(record, criteria['location'])) return false

@@ -101,15 +101,15 @@
               />
 
               <active-facets
-                params={['style', 'language', 'signatory', 'location']}
+                params={['qstyle', 'language', 'signatory', 'location']}
                 criteria={criteria()}
-                label-data={{style: styleLabelData()}}
+                label-data={{qstyle: styleLabelData()}}
                 class="mb-4"
               />
 
               <facet
                 title={t('styles')}
-                param="style"
+                param="qstyle"
                 buckets={state.data.buckets['style']}
                 criteria={criteria()}
                 label-data={styleLabelData()}
