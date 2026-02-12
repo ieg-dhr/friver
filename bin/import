@@ -1,17 +1,21 @@
 #!/usr/bin/env ruby
 
 require 'csv'
-require 'nokogiri'
-require 'roo'
-require 'kramdown'
+require 'fileutils'
 require 'json'
+require 'kramdown'
+require 'net/http'
+require 'nokogiri'
 require 'pry'
+require 'roo'
+require 'uri'
 
 class FvImporter
   def run
     transcriptions
     translations
     archives(write: true)
+    #download_images
   end
 
   def transcriptions
@@ -179,27 +183,6 @@ class FvImporter
     end
   end
 
-  def styles_for(doc)
-    result = []
-
-    nodes = doc.xpath("//tei:text//tei:div[@type = 'Edition']")
-    if nodes.size > 0
-      result << {'id' => 'edition', 'type' => 'edition'}
-    end
-
-    nodes = doc.xpath("//tei:text//tei:div[@type = 'Transliteration']")
-    if nodes.size > 0
-      result << {'id' => 'transliteration', 'type' => 'transliteration'}
-    end
-
-    nodes = doc.xpath("//tei:standOff/tei:facsimile/tei:surface")
-    if nodes.size > 0
-      result << {'id' => 'facsimile', 'type' => 'facsimile'}
-    end
-
-    result
-  end
-
   def translations
     data = {'de' => {}}
 
@@ -219,8 +202,95 @@ class FvImporter
     end
   end
 
+  def archives(write: false)
+    unless @archives
+      @archives = CSV.
+        read('data/archive_short_names.csv', headers: true).
+        map{|r| {'id' => r['xml-id'], 'short' => r['archive-label']}}.
+        to_h{|h| [h['id'], h]}
+    end
+
+    if write
+      str = JSON.pretty_generate(@archives)
+      File.write "src/archives.json", str
+    end
+
+    @archives
+  end
+
+  def download_images
+    urls = {}
+
+    Dir['data/Transcriptions/*.xml'].each do |path|
+      xml = File.read(path)
+      doc = Nokogiri::XML(xml)
+
+      new_urls = ['standOff', 'facsimile', 'graphic'].
+        map{|t| doc.xpath(("//tei:#{t}")).to_a }.
+        flatten.
+        map{|e| e['url']}.
+        compact.
+        to_h{|u| [u, true]}
+
+      urls.merge!(new_urls)
+    end
+
+    target = 'data/dbimages'
+    FileUtils.mkdir_p target
+
+    total = urls.keys.count
+    sessions = {}
+    urls.keys.each.with_index do |url, i|
+      puts "downloading images (#{i + 1}/#{total}) \r"
+
+      uri = URI(url)
+
+      # check exists
+      file = File.basename(uri.path)
+      path = "#{target}/#{file}"
+      next if File.exist?(path) && File.size(path) > 0
+
+      sessions[uri.hostname] ||= http_session_for(uri)
+      response = sessions[uri.hostname].get(uri.path)
+      binding.pry unless response.is_a?(Net::HTTPOK)
+
+      image_data = response.body
+      
+      File.write("#{target}/#{file}", image_data)
+    end
+    puts
+  end
+
 
   protected
+
+    def http_session_for(uri)
+      s = Net::HTTP.new(uri.hostname, uri.port)
+      s.use_ssl = (uri.port == 443)
+
+      s
+    end
+
+    def styles_for(doc)
+      result = []
+
+      nodes = doc.xpath("//tei:text//tei:div[@type = 'Edition']")
+      if nodes.size > 0
+        result << {'id' => 'edition', 'type' => 'edition'}
+      end
+
+      nodes = doc.xpath("//tei:text//tei:div[@type = 'Transliteration']")
+      if nodes.size > 0
+        result << {'id' => 'transliteration', 'type' => 'transliteration'}
+      end
+
+      nodes = doc.xpath("//tei:standOff/tei:facsimile/tei:surface")
+      if nodes.size > 0
+        result << {'id' => 'facsimile', 'type' => 'facsimile'}
+      end
+
+      result
+    end
 
     def each_row(xlsx, sheet_name: nil, skip: 1, &block)
       sheet = (sheet_name ? xlsx.sheet_for(sheet_name) : xlsx.sheet(0))
@@ -251,22 +321,6 @@ class FvImporter
       else
         str
       end
-    end
-
-    def archives(write: false)
-      unless @archives
-        @archives = CSV.
-          read('data/archive_short_names.csv', headers: true).
-          map{|r| {'id' => r['xml-id'], 'short' => r['archive-label']}}.
-          to_h{|h| [h['id'], h]}
-      end
-
-      if write
-        str = JSON.pretty_generate(@archives)
-        File.write "src/archives.json", str
-      end
-
-      @archives
     end
 
     def to_html(xml)
