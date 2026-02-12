@@ -8,6 +8,17 @@ riot.install(RiotPlugins.parent)
 riot.install(RiotPlugins.setTitle)
 riot.install(BusRiotPlugin)
 
+riot.install(cmp => {
+  const {onBeforeMount, onBeforeUnmount} = cmp
+
+  cmp.onBeforeMount = (props, state) => {
+    onBeforeMount.apply(cmp, [props, state])
+
+    cmp.bus.on('update-all', event => cmp.update())
+  }
+})
+
+
 export {
     riot
 }
