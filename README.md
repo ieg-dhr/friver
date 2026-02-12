@@ -30,7 +30,7 @@ install all required libraries:
 ```bash
 cd ~/Desktop/ieg-fv
 bundle install
-yarn install
+npm install
 ```
 
 Also, clone the data repository with
@@ -44,13 +44,13 @@ the metadata information required for the search feature. This process needs to
 be run only once (and whenever the translations.xlsx file was changed):
 
 ```
-yarn run import
+npm run import
 ```
 
 Now run the app with
 
 ```
-yarn run dev
+npm run dev
 ```
 
 ... then open a browser and go to http://localhost:4000. The app build rebuild

@@ -180,7 +180,20 @@
       reset(event) {
         event.preventDefault()
 
-        this.urlSearch.onReset()
+        const us = this.urlSearch
+
+        this.state.criteria = {}
+        this.update()
+
+        const newUrl = Url.current()
+        const oldUrl = newUrl.url()
+        newUrl.setParams({})
+
+        // ensure the same history isn't pushed more than once
+        if (oldUrl !== newUrl.url()) {
+          window.history.pushState(null, '', newUrl.resource())
+          bus.emit('url-changed')
+        }
       }
 
       onTreatyClick(treaty, event) {
