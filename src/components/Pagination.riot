@@ -7,7 +7,7 @@
     >
       <svg is="icon" type="chevron-left"></svg>
     </a>
-    <span class="indicator">Seite {this.props.page}/{totalPages()}</span>
+    <span class="indicator">{t('page')} {this.props.page}/{totalPages()}</span>
     <a
       onclick={event => pageTo(page() + 1, event)}
       href="#"

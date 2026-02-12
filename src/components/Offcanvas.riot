@@ -29,7 +29,7 @@
           <a
             href="#"
             onclick={event => reset(event)}
-          >{t('reset_all_filters')}</a>
+          >{cap(t('reset_all_filters'))}</a>
         </div>
 
         <div
@@ -57,7 +57,7 @@
 
               <div class="d-flex justify-content-between">
                 <div if={state.data} class="mb-4 text-end">
-                  {state.data.total} Einträge
+                  {state.data.total} {cap(t('entries'))}
                 </div>
 
                 <div
@@ -108,7 +108,7 @@
               />
 
               <facet
-                title={t('styles')}
+                title={cap(t('styles'))}
                 param="qstyle"
                 buckets={state.data.buckets['style']}
                 criteria={criteria()}
@@ -117,7 +117,7 @@
               />
 
               <facet
-                title={t('languages')}
+                title={cap(t('languages'))}
                 param="language"
                 buckets={state.data.buckets['language']}
                 criteria={criteria()}
@@ -125,7 +125,7 @@
               />
 
               <facet
-                title={t('signatories')}
+                title={cap(t('signatories'))}
                 param="signatory"
                 buckets={state.data.buckets['signatory']}
                 criteria={criteria()}
@@ -133,7 +133,7 @@
               />
 
               <facet
-                title={t('locations')}
+                title={cap(t('locations'))}
                 param="location"
                 buckets={state.data.buckets['location']}
                 criteria={criteria()}

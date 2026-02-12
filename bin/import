@@ -184,7 +184,7 @@ class FvImporter
   end
 
   def translations
-    data = {'de' => {}}
+    data = {'de' => {}, 'en' => {}}
 
     file = 'src/translations.xlsx'
     puts "using translations from #{file}"
@@ -193,8 +193,13 @@ class FvImporter
 
     each_row xlsx, skip: 0 do |row|
       id = row.delete('id')
-      row['de'].gsub!(/ -/, ' &#8209;') if row['de'].is_a?(String)
-      data['de'][id] = row['de']
+
+      data.keys.each do |locale|
+        t = row[locale]
+        t.gsub!(/ -/, ' &#8209;') if t.is_a?(String)
+
+        data[locale][id] = t
+      end
     end
 
     File.open 'src/translations.json', 'w' do |f|

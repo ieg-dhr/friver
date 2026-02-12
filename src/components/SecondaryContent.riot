@@ -4,7 +4,7 @@
       <div class="buttons">
         <template each={(aspect, i) in props.doc.meta.aspects}>
           <a onclick={event => toContent(i)} class="d-block d-md-inline">
-            {t(aspect['type'])}
+            {cap(t(aspect['type']))}
           </a>
           <span if={i != props.doc.meta.aspects.length - 1} class="d-none d-md-inline mx-1"> | </span>
         </template>

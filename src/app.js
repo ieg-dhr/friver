@@ -52,7 +52,7 @@ riot.register('zoomable-image', ZoomableImage)
 Url.setForceFragment(false)
 
 i18n.fetch(`${config.FV_STATIC_URL}/translations.json`).then(data => {
-  i18n.setLocale('de')
+  i18n.setLocale(navigator.language.split('-')[0])
   riot.mount('[is]')
 
   console.log('app mounted')

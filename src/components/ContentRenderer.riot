@@ -112,19 +112,15 @@
 
             previous = widget
           }
+
+          // do we have to move the footnotes to the bottom of the page?
+          // await util.requestAnimationFrame()
+          // const sideBar = selected.querySelector('div.content')
+
+          // if (sideBar.scrollHeight > sideBar.clientHeight) {
+          //   console.log('scrolling')
+          // }
         }, 300)
-      }
-    }
-
-    const renderTo = (target, title, selector) => {
-      return (data) => {
-        const h2 = util.createElement(`<h2 class="mt-7 mb-5">${title}</h2>`)
-        const content = data.doc.childNodes[2].querySelector(selector)
-
-        if (content) {
-          target.append(h2, content)
-        }
-
       }
     }
 
@@ -168,8 +164,8 @@
           const renderer = new Renderer([
             notify(left, "*|div[type='Edition']"),
             notify(left, "*|div[type='Transliteration']"),
-            renderTo(target, this.t('edition'), "*|div[type='Edition']"),
-            renderTo(target, this.t('transliteration'), "*|div[type='Transliteration']")
+            this.renderTo(target, this.t('edition'), "*|div[type='Edition']"),
+            this.renderTo(target, this.t('transliteration'), "*|div[type='Transliteration']")
           ])
 
           renderer.render(props.doc)
@@ -184,6 +180,20 @@
 
       toHttps(url) {
         return url.replace(/^http:/, 'https:')
+      }
+
+      renderTo(target, title, selector) {
+        const translation = this.cap(this.t(title))
+
+        return (data) => {
+          const h2 = util.createElement(`<h2 class="mt-7 mb-5">${translation}</h2>`)
+          const content = data.doc.childNodes[2].querySelector(selector)
+
+          if (content) {
+            target.append(h2, content)
+          }
+
+        }
       }
     }
   </script>

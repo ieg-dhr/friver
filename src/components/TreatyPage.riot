@@ -21,17 +21,17 @@
             <div class="value">{state.doc.meta['id']}</div>
           </template>
 
-          <div class="label">{t('language')}</div>
+          <div class="label">{cap(t('language'))}</div>
           <div class="value">{state.doc.languageList()}</div>
 
           <template if={state.doc.hasDate()}>
-            <div class="label">{t('date')}</div>
+            <div class="label">{cap(t('date'))}</div>
             <div class="value">{state.doc.dateLabel()}</div>
           </template>
         </div>
 
         <div class="col-12 col-md-4 col-lg-3">
-          <div class="label">{t('signatories')}</div>
+          <div class="label">{cap(t('signatories'))}</div>
           <div class="value">
             <filter-list
               items={state.doc.meta['signatories']}
@@ -41,7 +41,7 @@
         </div>
 
         <div class="col-12 col-md-4 col-lg-3">
-          <div class="label">{t('locations')}</div>
+          <div class="label">{cap(t('locations'))}</div>
           <div class="value">
             <filter-list
               items={state.doc.meta['places']}
@@ -52,15 +52,15 @@
 
         <div class="col-12 col-lg-3">
           <div class="text-lg-end">
-            <div class="label">{t('source')}</div>
+            <div class="label">{cap(t('source'))}</div>
             <div class="value">
-              <a href={state.doc.github()} target="_blank">anzeigen</a> |
-              <a href={state.doc.url()} target="_blank" download>herunterladen</a>
+              <a href={state.doc.github()} target="_blank">{t('show')}</a> |
+              <a href={state.doc.url()} target="_blank" download>{t('download')}</a>
               <br />
               <a
                 href={state.doc.meta['legacyUrl']}
                 target="_blank"
-              >ehemaliger Datensatz</a>
+              >{cap(t('legacy_record'))}</a>
             </div>
           </div>
         </div>
