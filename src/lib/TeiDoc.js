@@ -1,3 +1,4 @@
+import {i18n} from '@wendig/lib'
 import {default as QteiTeiDoc} from '@ieg/qtei/src/lib/TeiDoc.js'
 import entities from '../entities.js'
 import {default as config} from '../../.env.js'
@@ -51,6 +52,10 @@ export default class TeiDoc extends QteiTeiDoc {
     return this.meta['title']
   }
 
+  hasDate() {
+    return !!this.date()
+  }
+
   date() {
     return this.meta['date']
   }
@@ -67,7 +72,15 @@ export default class TeiDoc extends QteiTeiDoc {
     parsed = new Date(parsed.toISOString())
 
     const isFull = !!date.match(/^\d{4}-\d{2}-\d{2}$/)
-    if (isFull) return strftime(parsed, '%D')
+    if (isFull) {
+      const format = (
+        i18n.locale === 'de' ?
+        '%-d.%-m.%Y' :
+        '%-m/%-d/%Y'
+      )
+
+      return strftime(parsed, format)
+    }
 
     const hasMonth = !!date.match(/^\d{4}-\d{2}$/)
     if (hasMonth) return strftime(parsed, '%B %Y')
@@ -84,9 +97,5 @@ export default class TeiDoc extends QteiTeiDoc {
 
   url() {
     return `${config['FV_STATIC_URL']}/data/${this.id()}.xml`
-  }
-
-  hasDate() {
-    return !!this.date()
   }
 }
