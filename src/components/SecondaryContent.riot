@@ -46,7 +46,7 @@
 
           <image-carousel
             if={aspect['images'].length > 0}
-            image-urls={aspect['images']}
+            image-urls={imageUrlToRelative(aspect['images'])}
             caption={aspect['label']}
             class="mb-6"
           />
@@ -57,12 +57,15 @@
 
   <script>
     import {Collapse} from 'bootstrap'
+    import {imageUrlToRelative} from '../lib/util'
 
     export default class {
       onBeforeMount(props, state) {
         state['open'] = false
         state['showContent'] = true
         state['current'] = 0
+
+        this.imageUrlToRelative = imageUrlToRelative
       }
 
       onMounted(props, state) {

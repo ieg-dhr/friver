@@ -36,6 +36,7 @@
   <script>
     import {util} from '@wendig/lib'
     import Renderer from '@ieg/qtei/src/lib/Renderer.js'
+    import {imageUrlToRelative} from '../lib/util'
     // import {} from '@ieg/qtei/src/lib/processors.js'
 
     const notify = (left, selector) => {
@@ -68,23 +69,6 @@
 
           a.addEventListener('click', event => {
             a.scrollIntoView({behavior: 'instant', container: 'nearest'})
-            // window.a = a
-            // window.note = note
-            // a.scrollIntoView({behavior: 'instant', container: 'nearest'})
-
-            // let top =  note.getBoundingClientRect().y
-            // console.log(top)
-
-            // if (top != 0) {
-            //   const parent = note.parentElement
-            //   parent.scrollBy({behavior: 'instant', top})
-            //   // window.setTimeout(() => {
-            //   top = note.getBoundingClientRect().y
-            //   //   parent.scrollBy({behavior: 'instant', top})
-            //   console.log(top)
-            //   // }, 500)
-            // }
-            // // note.scrollIntoView({behavior: 'instant', container: 'all'})
           })
 
           widgets.push(widget)
@@ -152,7 +136,10 @@
 
         const elements = this.props.doc.doc.
           querySelectorAll('*|standOff *|facsimile *|graphic')
-        this.state['imageUrls'] = [...elements].map(e => e.getAttribute('url'))
+        const urls = imageUrlToRelative(
+          [...elements].map(e => e.getAttribute('url'))
+        )
+        this.state['imageUrls'] = urls
         this.state['caption'] = this.t('facsimile')
       }
 

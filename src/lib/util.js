@@ -70,7 +70,14 @@ const strftime = (datetime, format = '%Y-%m-%d %H:%M:%S') => {
   return localizer(format, value)
 }
 
+const imageUrlToRelative = (url) => {
+  if (Array.isArray(url)) return url.map(u => imageUrlToRelative(u))
+
+  return url.replace(/^https:\/\/www\.ieg-friedensvertraege\.de/, '')
+}
+
 export {
+  imageUrlToRelative,
   navigateTo,
   toAbsoluteUrl,
   toTreaty,

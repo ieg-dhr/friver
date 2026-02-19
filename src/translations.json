@@ -49,7 +49,9 @@
     "biblio": "Literatur",
     "legacy_record": "ehemaliger Datensatz",
     "show": "anzeigen",
-    "download": "herunterladen"
+    "download": "herunterladen",
+    "entries": "Einträge",
+    "page": "Seite"
   },
   "en": {
     "super_title": null,
@@ -101,6 +103,8 @@
     "biblio": "bibliography",
     "legacy_record": "legacy record",
     "show": "show",
-    "download": "download"
+    "download": "download",
+    "entries": "entries",
+    "page": "page"
   }
 }

@@ -15,7 +15,7 @@ class FvImporter
     transcriptions
     translations
     archives(write: true)
-    #download_images
+    download_images
   end
 
   def transcriptions

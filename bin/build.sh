@@ -13,6 +13,7 @@ rm -rf public
 mkdir public
 
 ln -sfnr data/Transcriptions public/data
+ln -sfnr data/dbimages/ public/
 ln -sfnr 'data/DTD and schema' public/resources
 ln -sfnr src/data.json public/data.json
 ln -sfnr src/translations.json public/translations.json
