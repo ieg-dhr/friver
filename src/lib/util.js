@@ -71,6 +71,8 @@ const strftime = (datetime, format = '%Y-%m-%d %H:%M:%S') => {
 }
 
 const imageUrlToRelative = (url) => {
+  if (config['FV_USE_LOCAL_IMAGES'] !== 'true') return url
+
   if (Array.isArray(url)) return url.map(u => imageUrlToRelative(u))
 
   return url.replace(/^https:\/\/www\.ieg-friedensvertraege\.de/, '')

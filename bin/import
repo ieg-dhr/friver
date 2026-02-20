@@ -1,6 +1,7 @@
 #!/usr/bin/env ruby
 
 require 'csv'
+require 'dotenv/load'
 require 'fileutils'
 require 'json'
 require 'kramdown'
@@ -8,6 +9,7 @@ require 'net/http'
 require 'nokogiri'
 require 'pry'
 require 'roo'
+require 'ruby-progressbar'
 require 'uri'
 
 class FvImporter
@@ -15,7 +17,8 @@ class FvImporter
     transcriptions
     translations
     archives(write: true)
-    download_images
+
+    download_images if ENV['FV_USE_LOCAL_IMAGES']
   end
 
   def transcriptions
@@ -243,17 +246,18 @@ class FvImporter
     target = 'data/dbimages'
     FileUtils.mkdir_p target
 
-    total = urls.keys.count
+    pg = progress(title: 'downloading images', total: urls.keys.size)
     sessions = {}
     urls.keys.each.with_index do |url, i|
-      puts "downloading images (#{i + 1}/#{total}) \r"
-
       uri = URI(url)
 
       # check exists
       file = File.basename(uri.path)
       path = "#{target}/#{file}"
-      next if File.exist?(path) && File.size(path) > 0
+      if File.exist?(path) && File.size(path) > 0
+        pg.total -= 1
+        next
+      end
 
       sessions[uri.hostname] ||= http_session_for(uri)
       response = sessions[uri.hostname].get(uri.path)
@@ -262,6 +266,7 @@ class FvImporter
       image_data = response.body
       
       File.write("#{target}/#{file}", image_data)
+      pg.increment
     end
     puts
   end
@@ -389,6 +394,12 @@ class FvImporter
       end
 
       xml.inner_html
+    end
+
+    def progress(opts)
+      opts[:format] ||= '%t | %B | %c/%C | %a%% | %P |%E'
+
+      ProgressBar.create(opts)
     end
 end
 
