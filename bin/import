@@ -18,7 +18,7 @@ class FvImporter
     translations
     archives(write: true)
 
-    download_images if ENV['FV_USE_LOCAL_IMAGES']
+    download_images if ENV['FV_USE_LOCAL_IMAGES'] == 'true'
   end
 
   def transcriptions

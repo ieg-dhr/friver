@@ -34,19 +34,13 @@
   </div>
 
   <script>
-    import {util} from '@wendig/lib'
+    import {util, i18n} from '@wendig/lib'
     import Renderer from '@ieg/qtei/src/lib/Renderer.js'
     import {imageUrlToRelative} from '../lib/util'
     // import {} from '@ieg/qtei/src/lib/processors.js'
 
     const notify = (left, selector) => {
-      return (data) => {
-        const root = data.doc.childNodes[2]
-        const selected = root.querySelector(selector)
-        if (!selected) return
-
-        const notes = selected.querySelectorAll('note')
-
+      const sideBarNotes = (notes) => {
         let widgets = []
 
         for (const note of notes) {
@@ -74,6 +68,8 @@
           widgets.push(widget)
         }
 
+        // push each side note into the previous one if it overlaps with the
+        // previous one
         window.setTimeout(async () => {
           let previous = null
 
@@ -105,6 +101,69 @@
           //   console.log('scrolling')
           // }
         }, 300)
+      }
+
+      const footNotes = (selected, notes) => {
+        const target = util.createElement(`
+          <div class="footnotes">
+            <h3>${util.capitalize(i18n.translate('footnotes'))}
+          </div>
+        `)
+
+        for (const original of notes) {
+          const id = original.getAttribute('n') || '*'
+
+          const note = util.createElement(`
+            <div class="foot-note">
+              <a class="backlink" name="note-${id}" href="#note-ref-${id}">${id}</a>
+              <span data-id="content" class="content"></span>
+            </span>
+          `)
+
+          const ref = util.createElement(`
+            <a
+              href="#note-${id}"
+              class="ref"
+              name="note-ref-${id}"
+            ><!--
+           --><sup class="id">${id}</sup><!--
+         --></a>
+          `)
+
+          const content = note.querySelector("[data-id='content']")
+          const backlink = note.querySelector('.backlink')
+          
+          backlink.addEventListener('click', event => {
+            ref.scrollIntoView({behavior: 'smooth', container: 'nearest'})
+          })
+          ref.addEventListener('click', event => {
+            backlink.scrollIntoView({behavior: 'smooth', container: 'nearest'})
+          })
+
+
+          original.replaceWith(ref)
+          content.append(original)
+          target.append(note)
+
+
+          target.append(note)
+        }
+
+        selected.append(target)
+      }
+
+      return (data) => {
+        const root = data.doc.childNodes[2]
+        const selected = root.querySelector(selector)
+        if (!selected) return
+
+        const notes = selected.querySelectorAll('note')
+
+        if (notes.length > 50) {
+          footNotes(selected, notes)
+        } else {
+          sideBarNotes(notes)
+        }
       }
     }
 

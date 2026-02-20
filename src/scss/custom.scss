@@ -684,6 +684,25 @@ offcanvas {
         background-color: $white;
       }
     }
+
+    a.ref {
+      color: $fv-highlight;
+      text-decoration: none;
+    }
+
+    .footnotes {
+      margin-top: 5em;
+
+      .foot-note {
+        margin-top: 2em;
+
+        .backlink {
+          color: $fv-highlight;
+          text-decoration: none;
+          margin-right: 0.5em;
+        }
+      }
+    }
   }
 
   .ratio {
