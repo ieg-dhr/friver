@@ -10,7 +10,7 @@
       </p>
     </div>
 
-    <img class="europe-map" src="{config['FV_STATIC_URL']}/assets/europe-map.svg" />
+    <img class="europe-map" src="/assets/europe-map.svg" />
 
     <navigation class="mt-5 d-none d-md-block" />
   </div>
@@ -19,32 +19,26 @@
     <div class="row align-items-md-center justify-content-lg-around h-100">
       <div class="col-12 col-md-3 offset-md-1 col-lg-12 offset-lg-0 text-center">
         <a
-          class="btn btn-primary btn-lg text-start fw-semibold"
-          href="{config['FV_STATIC_ROOT']}"
+          class="btn btn-primary btn-lg text-start fw-semibold text-center"
+          href="/start?flavor=search"
         >
-          {cap(t('super_friverplus_button'))}
-          <div class="fs-6">
-            <small><raw html={t('friverplus_years')} /></small>
-          </div>
+          {cap(t('to_search'))}
         </a>
       </div>
 
       <div class="d-none d-md-block col-md-4 col-lg-12 px-5 text-center">
         <img
-          src="{config['FV_STATIC_URL']}/assets/wordcloud.svg"
+          src="/assets/wordcloud.svg"
           class="dove"
         />
       </div>
 
       <div class="col-12 col-md-3 col-lg-12 offset-lg-0 text-center mt-5 mt-md-0">
         <a
-          class="btn btn-primary btn-lg text-start fw-semibold"
-          href="{config['FV_LEGACY_URL']}/Startseite------_site.index..html_dir._nav.2_likecms.html"
+          class="btn btn-primary btn-lg text-start fw-semibold text-center"
+          href="/start?flavor=about"
         >
-          {cap(t('super_legacy_button'))}
-          <div class="fs-6">
-            <small><raw html={t('legacy_years')} /></small>
-          </div>
+          {cap(t('about'))}
         </a>
       </div>
     </div>

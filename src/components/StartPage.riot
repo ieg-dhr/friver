@@ -14,6 +14,13 @@
           <raw html={t('friverplus_description')} />
         </p>
 
+        <a
+          class="btn btn-primary border btn-lg text-start fw-semibold text-center mb-5 me-3"
+          href="/page/documentation"
+        >
+          {cap(t('to_docs'))}
+        </a>
+
         <div class="metadata mb-5">
           <div>
             <raw html={t('meta_what')} />
@@ -68,10 +75,12 @@
         this.config = config
       }
 
-      onMounted() {
-        window.setTimeout(() => {
+      onMounted(props, state) {
+        const flavor = state['flavor'] || props['flavor']
+
+        if (flavor == 'search') {
           this.emit('open-offcanvas')
-        }, 2000)
+        }
       }
     }
   </script>

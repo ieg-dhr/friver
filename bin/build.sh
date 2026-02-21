@@ -19,6 +19,7 @@ ln -sfnr src/data.json public/data.json
 ln -sfnr src/translations.json public/translations.json
 ln -sfnr src/archives.json public/archives.json
 ln -sfnr assets public/
+ln -sfnr pages public/
 
 function fv-dev {
   ln -sfnr node_modules public/

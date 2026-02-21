@@ -15,10 +15,10 @@
     import DevLanguageSwitch from '../lib/DevLanguageSwitch'
 
     import NotFound from '../components/NotFound.riot'
-    import SuperPage from '../components/SuperPage.riot'
+    import SimplePage from '../components/SimplePage.riot'
     import StartPage from '../components/StartPage.riot'
+    import SuperPage from '../components/SuperPage.riot'
     import TreatyPage from '../components/TreatyPage.riot'
-    import ImprintPage from '../components/ImprintPage.riot'
 
     export default class {
       onBeforeMount() {
@@ -33,12 +33,12 @@
           404: NotFound,
           routes: [
             {pattern: /^$/, component: SuperPage},
-            {pattern: /^\/friverplus$/, component: StartPage},
+            {pattern: /^\/start$/, component: StartPage},
             {
-              pattern: /^\/friverplus\/treaties\/(?<id>[0-9]+)$/,
+              pattern: /^\/treaties\/(?<id>[0-9]+)$/,
               component: TreatyPage
             },
-            {pattern: /^\/friverplus\/imprint$/, component: ImprintPage},
+            {pattern: /^\/page\/(?<pageId>[a-zA-Z0-9_\-]+)$/, component: SimplePage}
           ]
         })
 

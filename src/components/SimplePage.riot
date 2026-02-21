@@ -1,0 +1,55 @@
+<simple-page>
+  <div is="header" />
+
+  <favorites />
+
+  <div class="page-content mt-5">
+    <div class="container has-offcanvas">
+      <div class="left" data-id="target" />
+    </div>
+  </div>
+
+  <div is="footer" />
+
+  <script>
+    import {i18n} from '@wendig/lib'
+    import {marked} from 'marked'
+
+    export default class {
+      onBeforeMount(props, state) {
+        state['pageId'] = props['pageId']
+      }
+
+      onMounted(props, state) {
+        state['target'] = this.root.querySelector("[data-id='target']")
+
+        this.fetch()
+      }
+
+      onUpdated() {
+        this.fetch()
+      }
+
+      async fetch() {
+        const md = (
+          await this.fetchPage(this.state['pageId']) ||
+          await this.fetchPage('not-found')
+        )
+
+        const html = marked.parse(md)
+        this.state['target'].innerHTML = html
+      }
+
+      async fetchPage(id) {
+        const url = `/pages/${id}.${i18n.locale}.md`
+
+        const response = await fetch(url)
+        if (response.status === 404) return null
+
+        const md = await response.text()
+
+        return md
+      }
+    }
+  </script>
+</simple-page>

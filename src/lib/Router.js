@@ -17,7 +17,7 @@ export default class Router {
 
     this.configure(opts)
 
-    this.onLinkClicked = this.onLinkClicked.bind(this)
+    // this.onLinkClicked = this.onLinkClicked.bind(this)
 
     window.addEventListener('popstate', event => this.route())
     bus.on('url-changed', event => this.route())
@@ -26,9 +26,9 @@ export default class Router {
   configure(opts = {}) {
     Object.assign(this.opts, opts)
 
-    if (opts['root']) {
-      this.opts['root'].addEventListener('click', this.onLinkClicked)
-    }
+    // if (opts['root']) {
+    //   this.opts['root'].addEventListener('click', this.onLinkClicked)
+    // }
   }
 
   route() {
@@ -77,25 +77,24 @@ export default class Router {
     return false
   }
 
-  onLinkClicked(event) {
-    // event.preventDefault()
+  // onLinkClicked(event) {
+  //   // event.preventDefault()
 
-    let link = event.target
-    while (link) {
-      const href = link.getAttribute('href')
+  //   let link = event.target
+  //   while (link) {
+  //     const href = link.getAttribute('href')
 
+  //     if (href) {
+  //       if (this.canRoute(href)) {
+  //         event.preventDefault()
 
-      if (href) {
-        if (this.canRoute(href)) {
-          event.preventDefault()
+  //         this.navigateTo(href)
+  //       }
+  //     }
 
-          this.navigateTo(href)
-        }
-      }
-
-      link = link.parentElement
-    }
-  }
+  //     link = link.parentElement
+  //   }
+  // }
 
   pathFor(url) {
     return url.path().
@@ -103,17 +102,17 @@ export default class Router {
       replace(/\/$/, '')
   }
 
-  navigateTo(pathOrUrl, params = {}) {
-    const abs = toAbsoluteUrl(pathOrUrl)
-    let parsed = Url.parse(abs)
-    parsed.updateParams(params)
+  // navigateTo(pathOrUrl, params = {}) {
+  //   const abs = toAbsoluteUrl(pathOrUrl)
+  //   let parsed = Url.parse(abs)
+  //   parsed.updateParams(params)
 
-    // ensure the same history isn't pushed more than once
-    const current = Url.current()
-    if (parsed.path() !== current.path()) {
-      navigateTo(parsed.path())
-    }
-  }
+  //   // ensure the same history isn't pushed more than once
+  //   const current = Url.current()
+  //   if (parsed.path() !== current.path()) {
+  //     navigateTo(parsed.path())
+  //   }
+  // }
 
   unmount() {
     if (this.component) {

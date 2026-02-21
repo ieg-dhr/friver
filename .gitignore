@@ -1,5 +1,4 @@
-/data/
 /.env.js
-/.yarn/
+/data/
 /node_modules/
 /public/

@@ -164,6 +164,7 @@ watchlist-toggle {
 
   .container {
     .left {
+      position: relative;
       max-width: 70%;
     }
   }
@@ -172,8 +173,8 @@ watchlist-toggle {
     font-size: $h1-font-size;
 
     &.btn-lg {
-      height: 80px;
-      padding-top: 10px;
+      height: 70px;
+      padding-top: 15px;
       padding-left: 20px;
 
       div.fs-6 {
@@ -596,6 +597,12 @@ offcanvas {
         display: block;
       }
     }
+  }
+
+  .btn {
+    height: auto;
+    font-size: 18px;
+    padding-bottom: 15px;
   }
 }
 
