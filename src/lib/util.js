@@ -75,7 +75,8 @@ const imageUrlToRelative = (url) => {
 
   if (Array.isArray(url)) return url.map(u => imageUrlToRelative(u))
 
-  return url.replace(/^https:\/\/www\.ieg-friedensvertraege\.de/, '')
+  const rel = url.replace(/^https:\/\/www\.ieg-friedensvertraege\.de/, '')
+  return rel + '.jpg'
 }
 
 export {

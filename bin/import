@@ -252,7 +252,17 @@ class FvImporter
       uri = URI(url)
 
       # check exists
-      file = File.basename(uri.path)
+      file_ne = File.basename(uri.path)
+      file = "#{file_ne}.jpg"
+
+      # check if extensionless file is already available
+      path = "#{target}/#{file_ne}"
+      if File.exist?(path) && File.size(path) > 0
+        FileUtils.mv path, "#{target}/#{file}"
+        pg.total -= 1
+        next
+      end
+
       path = "#{target}/#{file}"
       if File.exist?(path) && File.size(path) > 0
         pg.total -= 1
