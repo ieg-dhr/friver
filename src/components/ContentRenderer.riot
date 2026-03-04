@@ -134,9 +134,13 @@
           const backlink = note.querySelector('.backlink')
           
           backlink.addEventListener('click', event => {
+            event.preventDefault()
+
             ref.scrollIntoView({behavior: 'smooth', container: 'nearest'})
           })
           ref.addEventListener('click', event => {
+            event.preventDefault()
+            
             backlink.scrollIntoView({behavior: 'smooth', container: 'nearest'})
           })
 
