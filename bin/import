@@ -269,14 +269,18 @@ class FvImporter
         next
       end
 
-      sessions[uri.hostname] ||= http_session_for(uri)
-      response = sessions[uri.hostname].get(uri.path)
-      binding.pry unless response.is_a?(Net::HTTPOK)
-
-      image_data = response.body
-      
-      File.write("#{target}/#{file}", image_data)
       pg.increment
+
+      begin
+        sessions[uri.hostname] ||= http_session_for(uri)
+        response = sessions[uri.hostname].get(uri.path)
+        binding.pry unless response.is_a?(Net::HTTPOK)
+
+        image_data = response.body
+        File.write("#{target}/#{file}", image_data)
+      rescue Net::OpenTimeout => e
+        next
+      end
     end
     puts
   end
