@@ -249,6 +249,7 @@ class FvImporter
     pg = progress(title: 'downloading images', total: urls.keys.size)
     sessions = {}
     urls.keys.each.with_index do |url, i|
+      next if url == ''
       uri = URI(url)
 
       # check exists

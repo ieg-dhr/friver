@@ -1,6 +1,18 @@
 <header class="bg-black text-white d-flex align-items-center">
   <div class="brand">
-    <raw html={t('super_title')} />&nbsp;
-    <span class="text-muted">in Daten</span>
+    <a href={href()}>
+      <raw html={t('super_title')} />&nbsp;
+      <span class="text-muted">in Daten</span>
+    </a>
   </div>
+
+  <script>
+    import {default as config} from '../../.env.js'
+
+    export default class {
+      href() {
+        return `${config['FV_STATIC_URL']}/start?flavor=about`
+      }
+    }
+  </script>
 </header>
