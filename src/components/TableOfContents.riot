@@ -1,0 +1,35 @@
+<table-of-contents class={props.class}>
+  <div class="header">{cap(t('toc'))}</a>
+  <ul class="list-unstyled">
+    <li each={ref in state['refs']}>
+      <a href="#{ref['href']}">{ref['label']}</a>
+    </li>
+  </ul>
+
+  <script>
+    export default class {
+      onBeforeMount(props, state) {
+        this.on('refresh-toc', event => this.refresh(event))
+      }
+
+      refresh() {
+        const doc = document.querySelector('.page-content')
+        const h2s = doc.querySelectorAll('h2')
+
+        this.state['refs'] = []
+
+        for (const h2 of h2s) {
+          const label = h2.textContent
+          const href = label.replaceAll(/\s+/g, '_').toLowerCase()
+
+          h2.setAttribute('id', href)
+          this.state['refs'].push({label, href})
+        }
+
+        console.log(this.state)
+
+        this.update()
+      }
+    }
+  </script>
+</table-of-contents>

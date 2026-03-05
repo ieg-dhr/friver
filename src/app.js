@@ -23,6 +23,7 @@ import RangeControl from './components/RangeControl.riot'
 import Raw from './components/Raw.riot'
 import SecondaryContent from './components/SecondaryContent.riot'
 import StyleIcons from './components/StyleIcons.riot'
+import TableOfContents from './components/TableOfContents.riot'
 import WatchlistToggle from './components/WatchlistToggle.riot'
 import ZoomableImage from './components/ZoomableImage.riot'
 
@@ -45,6 +46,7 @@ riot.register('range-control', RangeControl)
 riot.register('raw', Raw)
 riot.register('secondary-content', SecondaryContent)
 riot.register('style-icons', StyleIcons)
+riot.register('table-of-contents', TableOfContents)
 riot.register('watchlist-toggle', WatchlistToggle)
 riot.register('zoomable-image', ZoomableImage)
 

@@ -5,7 +5,13 @@
 
   <div class="page-content mt-5">
     <div class="container has-offcanvas">
-      <div class="left" data-id="target" />
+      <div class="d-lg-flex">
+        <div class="order-lg-2 ms-4">
+          <div is="table-of-contents" />
+        </div>
+
+        <div data-id="target" class="left order-lg-1" />
+      </div>
     </div>
   </div>
 
@@ -38,6 +44,8 @@
 
         const html = marked.parse(md)
         this.state['target'].innerHTML = html
+
+        this.emit('refresh-toc')
       }
 
       async fetchPage(id) {

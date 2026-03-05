@@ -53,7 +53,8 @@
     "footnotes": "Fußnoten",
     "to_search": "zur Suche",
     "about": "Über das Projekt",
-    "to_docs": "zur Projektdokumentation"
+    "to_docs": "zur Projektdokumentation",
+    "toc": "Inhalt"
   },
   "en": {
     "super_title": null,
@@ -109,6 +110,7 @@
     "footnotes": "footnotes",
     "to_search": "Search",
     "about": "about this project",
-    "to_docs": "Documentation"
+    "to_docs": "Documentation",
+    "toc": "table of contents"
   }
 }
