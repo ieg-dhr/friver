@@ -210,12 +210,14 @@
         const left = this.root.querySelector(".left")
         const target = this.root.querySelector("[data-id='target']")
 
+        // console.log(this.state['style']['type'], 'x', this.t('transliteration'))
+
         if (state['style']['type'] == 'edition' || state['style']['type'] == 'transliteration') {
           const renderer = new Renderer([
             notify(left, "*|div[type='Edition']"),
             notify(left, "*|div[type='Transliteration']"),
-            this.renderTo(target, this.t('edition'), "*|div[type='Edition']"),
-            this.renderTo(target, this.t('transliteration'), "*|div[type='Transliteration']")
+            this.renderTo(target, 'edition', "*|div[type='Edition']"),
+            this.renderTo(target, 'transliteration', "*|div[type='Transliteration']")
           ])
 
           renderer.render(props.doc)
