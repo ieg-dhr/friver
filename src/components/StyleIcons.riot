@@ -23,16 +23,22 @@
       }
 
       onUpdated() {
+        if (!this.props['doc']) return
+
         this.setupPopovers()
       }
 
       setupPopovers() {
         const elements = this.root.querySelectorAll('[data-bs-toggle="popover"]')
         for (const e of elements) {
-          Popover.getOrCreateInstance(e, {
+          const instance = Popover.getInstance(e)
+          if (instance) instance.dispose()
+
+          new Popover(e, {
             placement: 'left',
             offset: [0, 16],
-            trigger: 'hover'
+            trigger: 'hover',
+            content: e.getAttribute('data-bs-content')
           })
         }
       }
