@@ -209,10 +209,10 @@ const matchesSignatory = (record, signatory) => {
 
   const values = signatory.split('|')
   for (const v of values) {
-    if (signatories.indexOf(v) != -1) return true
+    if (signatories.indexOf(v) === -1) return false
   }
 
-  return false
+  return true
 }
 
 const matchesArchive = (record, archiveIds) => {
