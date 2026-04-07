@@ -1,4 +1,4 @@
-# ortstermine-petrify
+# friedensvertraege-petrify
 
 This is the source code repository for the [Europäische Friedensverträge der
 Vormoderne online](ieg-friedensvertraege.de/friverplus) project at the
@@ -11,13 +11,13 @@ tested the process on Arch Linux.
 
 Install requirments:
 
-* git >= v2.41.0 (for Windows, download and install the
+* git >= v2.53.0 (for Windows, download and install the
   [most recent version](https://git-scm.com/download/win), use all defaults,
   when asked, select your preferred editor and also choose "Use Git from Git
   Bash only")
 * ruby >= v3.2.0 (for Windows, we recommend following the
   [ruby install documentation provided by the jekyll project](https://jekyllrb.com/docs/installation/windows/))
-* nodejs >= v20.0.0 (for Windows, download and install the
+* nodejs >= v24.12.0 (for Windows, download and install the
   [most recent LTS version](https://nodejs.org/en/download), use all defaults,
   when asked, opt-in to install the "necessary tools" and choose to installing
   Python and the Windows Power Shell)
@@ -33,10 +33,11 @@ bundle install
 npm install
 ```
 
-Also, clone the data repository with
+Also, clone the data repository and copy the project's images
 
 ```
 git clone https://github.com/ieg-dhr/friver-plus data
+cp -a /path/to/images/ /data/dbimages/
 ```
 
 The data repository comes as a set of XML files. Run the import task to extract
