@@ -1,4 +1,4 @@
-# Imhalt nicht verfügbar
+# Inhalt nicht verfügbar
 
 Die angeforderte Seite ist nicht verfübar.
 
