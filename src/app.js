@@ -56,7 +56,10 @@ Url.setForceFragment(false)
 window.i18n = i18n
 
 i18n.fetch(`${config.FV_STATIC_URL}/translations.json`).then(data => {
-  i18n.setLocale(navigator.language.split('-')[0])
+  const browserLang = navigator.language.split('-')[0];
+  const supportedLang = ['de', 'en'].includes(browserLang) ? browserLang : 'en';
+  i18n.setLocale(supportedLang);
+//  i18n.setLocale(navigator.language.split('-')[0])
   riot.mount('[is]')
 
   console.log('app mounted')
